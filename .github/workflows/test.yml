@@ -32,6 +32,9 @@ jobs:
       - name: Install all dependencies
         run: npm install
 
+      - name: Check svelte-kit and typescript
+        run: npm run check
+
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
