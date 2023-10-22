@@ -14,6 +14,8 @@
 
 	<p>
 		We are constantly working to improve our app and add new features. If you have any feedback or
-		suggestions, please don't hesitate to contact us.
+		suggestions, please don't hesitate to contact us. You can also check out our <a
+			href="https://github.com/languageXchange/website">GitHub repository</a
+		> to see our code and contribute to the project.
 	</p>
 </div>
