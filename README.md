@@ -1,22 +1,27 @@
-# create-svelte
+# languageXchange
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to languageXchange! Our app is designed to help you learn a new language through practice and immersion with native speakers from around the world. With personalized lesson plans and conversation practice, you'll be able to take your language skills to the next level.
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Getting Started](#getting-started)
+- [Building](#building)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting started
+
+To create a new languageXchange project, simply run the following command:
 
 ```bash
 # create a new project in the current directory
-npm create svelte@latest
+npm create languageXchange@latest
 
 # create a new project in my-app
-npm create svelte@latest my-app
+npm create languageXchange@latest my-app
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created your project and installed dependencies with `npm install``, you can start a development server:
 
 ```bash
 npm run dev
@@ -35,4 +40,12 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to languageXchange, please fork our repository and submit a pull request. We'll review your changes and merge them if they meet our guidelines. Thank you for helping to make languageXchange even better!
+
+languageXchange is an open source project and we welcome contributions from the community. If you're interested in contributing, please check out our GitHub repository for more information.
+
+## License
+
+languageXchange is released under the [MIT License](./LICENSE). If you use this project, please include the license file in your distribution.
