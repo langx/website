@@ -15,6 +15,7 @@
 <noscript>
 	<!-- Hide the theme toggle if JavaScript is disabled -->
 	<!-- Hide the theme toggle if JavaScript is disabled -->
+	<!-- Hide the theme toggle if JavaScript is disabled -->
 	<style>
 		.theme-toggle {
 			display: none !important;
