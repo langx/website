@@ -10,12 +10,9 @@
 @import '$lib/scss/_code-highlights.scss';
 @import '$lib/scss/animations.scss';
 
-@import '@fontsource/inter';
-@import '@fontsource/inter/600.css';
-@import '@fontsource/inter/700.css';
-@import '@fontsource/merriweather';
-@import '@fontsource/merriweather/900.css';
-@import '@fontsource/ubuntu-mono';
+@import '@fontsource/comfortaa';
+@import '@fontsource/comfortaa/600.css';
+@import '@fontsource/comfortaa/700.css';
 
 body {
 	--body-background-color: var(--color--page-background);
