@@ -37,7 +37,7 @@ The social links are contained in the `Socials.svelte` molecule and can be used 
 
 ## Footer
 
-The footer contains some credits, a list of social links, and the RSS/Theme toggle. The contents of this section can be modified directly in the `Footer.svelte` organism.
+The footer contains some credits, a list of social links, and the Theme toggle. The contents of this section can be modified directly in the `Footer.svelte` organism.
 
 ## Colors
 
