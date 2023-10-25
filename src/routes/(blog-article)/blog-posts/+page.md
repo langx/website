@@ -61,7 +61,3 @@ I highly recommend the [Front Matter VS Code extension](https://frontmatter.code
 <Image fullBleed src="/images/posts/frontmatter-preview-dashboard.png" alt="Screenshot of the Front Matter VS Code extension, showing the dashboard with all posts" />
 
 <Image fullBleed src="/images/posts/frontmatter-preview-edit.png" alt="Screenshot of the Front Matter VS Code extension, showing the post editing UI" />
-
-## RSS
-
-This template automatically generates a RSS feed of your blog posts. It is generated in the `src/routes/rss.xml/+server.ts` file, and it is available at the `/rss.xml` URL.

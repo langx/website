@@ -2,7 +2,6 @@
 	import FooterWave from '$lib/icons/footer-wave.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import RssLink from '$lib/components/atoms/RssLink.svelte';
 </script>
 
 <footer>
@@ -25,7 +24,6 @@
 		</div>
 		<div class="socials">
 			<Socials />
-			<RssLink />
 			<ThemeToggle />
 		</div>
 	</div>
