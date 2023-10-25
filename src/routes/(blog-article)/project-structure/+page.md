@@ -41,10 +41,6 @@ Organisms, in this project, are code blocks that represent a section of a page, 
 
 </CodeBlock>
 
-## Component Gallery
-
-This project uses [Histoire](https://histoire.dev) to be able to see and develop components in isolation. To open it, run `npm run story:dev`. This way you can customize and build new components with placeholder content and without worrying about where to put them in a page.
-
 ## Pages
 
 Pages obey the default SvelteKit structure, but can be summarized as follows:

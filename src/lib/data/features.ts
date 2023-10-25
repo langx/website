@@ -16,12 +16,6 @@ export default [
 		tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
 	},
 	{
-		name: 'Extensible',
-		description:
-			'Components are built to be reused, and you can build new pages and layouts without much CSS knowledge. You can see all components in Histoire by running "npm run story:dev"',
-		image: 'images/features/extensible.jpg'
-	},
-	{
 		name: 'Well Optimized',
 		description:
 			'Images are automatically optimized and lazy loaded, to ensure the website loads as fast as possible regardless of connection speed.',
