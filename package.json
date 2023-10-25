@@ -9,7 +9,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"optimize-images": "image-transmutation --run --sourceFolder './build/images' --targetFolder './build/images' --inputFormats 'jpg' --inputFormats 'jpeg' --inputFormats 'png' --outputFormats 'png' --outputFormats 'webp' --outputFormats 'avif'",
+		"postbuild": "npm run optimize-images && svelte-sitemap --domain https://languagexchange.net/"
 	},
 	"devDependencies": {
 		"@neoconfetti/svelte": "^1.0.0",
@@ -36,6 +38,7 @@
 		"striptags": "^3.2.0",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
+		"svelte-sitemap": "^2.6.0",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2",
