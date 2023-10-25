@@ -6,10 +6,10 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">Language Bridges, Cultural Connections!</h1>
+	<h1 class="hello">Practice, Learn, Succeed!</h1>
 	<p class="intro">
-		<span class="left">Stay close to your</span>
-		<span class="right">favorite language.</span>
+		<span class="left">Words are the keys that unlock</span>
+		<span class="right">a world of connections.</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
