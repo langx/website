@@ -33,10 +33,10 @@ Organisms, in this project, are code blocks that represent a section of a page, 
 <CodeBlock lang="html" filename="+page.svelte">
 
 ```html
-<Header />
+<header />
 <Hero />
 <About />
-<Footer />
+<footer />
 ```
 
 </CodeBlock>

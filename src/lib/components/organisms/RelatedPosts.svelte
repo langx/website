@@ -6,10 +6,7 @@
 	export let posts: BlogPost[];
 </script>
 
-<ContentSection
-	id="related-posts"
-	title="Related Posts"
->
+<ContentSection id="related-posts" title="Related Posts">
 	<div class="simple-grid">
 		{#each posts as post}
 			<BlogPostCard
