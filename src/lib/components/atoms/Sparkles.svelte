@@ -26,7 +26,7 @@
 	};
 
 	let sparkles: SparkleType[] = [];
-	let sparklesInterval: NodeJS.Timer;
+	let sparklesInterval: any;
 
 	onMount(() => {
 		sparklesInterval = setInterval(() => {
@@ -51,7 +51,7 @@
 
 <div class="sparkle-wrapper">
 	{#each sparkles as sparkle (sparkle.id)}
-		<Sparkle color={sparkle.color} size={sparkle.size} style={sparkle.style} />
+		<Sparkle color={sparkle.color} size={sparkle.size.toString()} style={sparkle.style} />
 	{/each}
 	<span class="slot-wrapper">
 		<slot />
