@@ -6,7 +6,7 @@ import Prism from 'prismjs';
 // is not removed automatically on build
 const ifYouRemoveMeTheBuildFails = Prism;
 import 'prism-svelte';
-import readingTime from 'reading-time/lib/reading-time';
+import readingTime from 'reading-time';
 import striptags from 'striptags';
 import type { BlogPost } from '$lib/utils/types';
 
