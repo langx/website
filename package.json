@@ -16,6 +16,7 @@
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"@types/cookie": "^0.5.1",
+		"@types/prismjs": "^1.26.2",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"dateformat": "^5.0.3",
