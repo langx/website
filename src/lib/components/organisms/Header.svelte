@@ -11,7 +11,7 @@
 			<Logo />
 		</a>
 		<div class="links">
-			<a href="/blog">Blog</a>
+			<!--<a href="/blog">Blog</a>-->
 			<ThemeToggle />
 		</div>
 	</nav>
