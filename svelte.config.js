@@ -10,7 +10,10 @@ const extensions = ['.svelte', '.md'];
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			handleHttpError: 'warn'
+		}
 	},
 	preprocess: [
 		// Consult https://kit.svelte.dev/docs/integrations#preprocessors
