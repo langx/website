@@ -6,16 +6,36 @@
 </script>
 
 <div class="socials">
-	<a href="https://www.instagram.com/langXchan" target="_blank" rel="noopener noreferrer" title="See my Instagram profile">
+	<a
+		href="https://www.instagram.com/langXchan"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See my Instagram profile"
+	>
 		<InstagramIcon />
 	</a>
-	<a href="https://x.com/langXchan" target="_blank" rel="noopener noreferrer" title="See my X profile">
+	<a
+		href="https://x.com/langXchan"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See my X profile"
+	>
 		<XIcon />
 	</a>
-	<a href="https://github.com/languageXchange" target="_blank" rel="noopener noreferrer" title="See my GitHub profile">
+	<a
+		href="https://github.com/languageXchange"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See my GitHub profile"
+	>
 		<GitHubIcon />
 	</a>
-	<a href="mailto:info@languagexchange.net" target="_blank" rel="noopener noreferrer" title="Send an email">
+	<a
+		href="mailto:info@languagexchange.net"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Send an email"
+	>
 		<EmailIcon />
 	</a>
 </div>
