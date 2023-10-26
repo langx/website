@@ -13,15 +13,16 @@
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
+			<Button href="https://cdn.forms-content-1.sg-form.com/0797bfc4-739c-11ee-b709-eeadebf91d66">
+				Early Access
 			</Button>
 		</Sparkles>
+		<!--
 		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
 			<FeaturesIcon slot="icon" />
 			Components
 		</Button>
+		-->
 	</div>
 </section>
 
