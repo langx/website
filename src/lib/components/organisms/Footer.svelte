@@ -9,18 +9,19 @@
 		<FooterWave />
 	</div>
 	<div class="content">
-		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
-				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
-		</div>
+		<div class="copyright">© 2023 languageXchange - Practice, Learn, Succeed!</div>
 		<div class="credits">
-			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
-				>SvelteKit</a
-			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
+			This website is full open sourced and licensed by
+			<a
+				href="https://github.com/languageXchange/website/blob/main/LICENSE"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				MIT Licence
+			</a>. A part of
+			<a href="https://newchapter.tech/" target="_blank" rel="noopener noreferrer">
+				New Chapter Tech
+			</a>
 		</div>
 		<div class="socials">
 			<Socials />
