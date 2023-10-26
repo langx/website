@@ -25,21 +25,3 @@
 		<a href="https://github.com/languageXchange/website">GitHub repository</a> for more information.
 	</p>
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	span {
-		font-weight: bold;
-	}
-</style>
