@@ -7,12 +7,18 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			Language learning can be a challenging but
+			<SparklingHighlight color="secondary">rewarding process!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			At languageXchange, we believe that the best way to learn a language is through practice and
+			immersion. That's why we've created a platform that connects language learners from around the
+			world,
+		</p>
+		<p>
+			So you can practice speaking with native speakers and improve your skills in a fun and
+			engaging way. Connect with native speakers to dive into immersive experiences. Start your
+			adventure soon!
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
@@ -30,7 +36,7 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 250px;
+		grid-template-columns: 500px 400px;
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 50px;
@@ -77,8 +83,12 @@
 		}
 
 		.image {
-			width: 220px;
-			height: 220px;
+			width: 100%;
+			height: 100%;
+
+			@include for-phone-only {
+				width: 80%;
+			}
 		}
 	}
 </style>
