@@ -1,25 +1,21 @@
 <script>
-	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
-	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
-	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
+	import InstagramIcon from '$lib/icons/socials/instagram.svelte';
+	import XIcon from '$lib/icons/socials/x.svelte';
 </script>
 
 <div class="socials">
-	<a href="#" target="_blank" rel="noopener noreferrer" title="Say Hi on Telegram">
-		<TelegramIcon />
+	<a href="https://www.instagram.com/langXchan" target="_blank" rel="noopener noreferrer" title="See my Instagram profile">
+		<InstagramIcon />
 	</a>
-	<a href="#" target="_blank" rel="me noreferrer" title="Say Hi on Mastodon">
-		<MastodonIcon />
+	<a href="https://x.com/langXchan" target="_blank" rel="noopener noreferrer" title="See my X profile">
+		<XIcon />
 	</a>
-	<a href="#" target="_blank" rel="noopener noreferrer" title="See my GitHub profile">
+	<a href="https://github.com/languageXchange" target="_blank" rel="noopener noreferrer" title="See my GitHub profile">
 		<GitHubIcon />
 	</a>
-	<a href="#" target="_blank" rel="noopener noreferrer" title="Connect on LinkedIn">
-		<LinkedInIcon />
-	</a>
-	<a href="#" target="_blank" rel="noopener noreferrer" title="Send an email">
+	<a href="mailto:info@languagexchange.net" target="_blank" rel="noopener noreferrer" title="Send an email">
 		<EmailIcon />
 	</a>
 </div>
