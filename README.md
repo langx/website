@@ -11,14 +11,14 @@ Welcome to languageXchange! Our app is designed to help you learn a new language
 
 ## Getting started
 
-To create a new languageXchange project, simply run the following command:
+To clone this project, simply run the following command:
 
 ```bash
-# create a new project in the current directory
-npm create languageXchange@latest
+# clone this repo
+git clone  https://github.com/languageXchange/website
 
-# create a new project in my-app
-npm create languageXchange@latest my-app
+# install dependencies
+npm install
 ```
 
 Once you've created your project and installed dependencies with `npm install``, you can start a development server:
