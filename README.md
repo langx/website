@@ -1,4 +1,6 @@
-# languageXchange
+[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/wm9t.svg)](https://status.languagexchange.net)
+
+# languageXchange.net
 
 Welcome to languageXchange! Our app is designed to help you learn a new language through practice and immersion with native speakers from around the world. With personalized lesson plans and conversation practice, you'll be able to take your language skills to the next level.
 
