@@ -11,6 +11,26 @@
 	<div class="content">
 		<div class="menu">
 			<ul>
+				<li>
+					<small><a href="https://status.languagexchange.net" target="_blank">Status</a></small>
+				</li>
+				<li>
+					<small>
+						<a
+							href="https://github.com/languageXchange/languageXchange/blob/main/CONTRIBUTING.md"
+							target="_blank"
+						>
+							Contribute
+						</a></small
+					>
+				</li>
+				<li>
+					<small>
+						<a href="mailto:info@languagexchange.net">Contact Us</a>
+					</small>
+				</li>
+			</ul>
+			<ul>
 				<li><small><a href="privacy-policy">Privacy Policy</a></small></li>
 				<li><small><a href="terms-conditions">Terms & Conditions</a></small></li>
 				<li><small><a href="cookie-policy">Cookie Policy</a></small></li>
@@ -18,17 +38,19 @@
 		</div>
 		<div class="copyright">© 2024 languageXchange - Practice, Learn, Succeed!</div>
 		<div class="credits">
-			This website is full open sourced and licensed by
-			<a
-				href="https://github.com/languageXchange/website/blob/main/LICENSE"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				MIT Licence
-			</a>. A part of
-			<a href="https://newchapter.tech/" target="_blank" rel="noopener noreferrer">
-				New Chapter Tech
-			</a>
+			<small>
+				This website is full open sourced and licensed by
+				<a
+					href="https://github.com/languageXchange/website/blob/main/LICENSE"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					MIT Licence
+				</a>. A part of
+				<a href="https://newchapter.tech/" target="_blank" rel="noopener noreferrer">
+					New Chapter Tech
+				</a>
+			</small>
 		</div>
 		<div class="socials">
 			<Socials />
