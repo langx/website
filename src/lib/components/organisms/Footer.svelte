@@ -11,12 +11,12 @@
 	<div class="content">
 		<div class="menu">
 			<ul>
-				<li><small><a href="#">Privacy Policy</a></small></li>
+				<li><small><a href="privacy-policy">Privacy Policy</a></small></li>
 				<li><small><a href="#">Terms & Conditions</a></small></li>
 				<li><small><a href="#">Cookie Policy</a></small></li>
 			</ul>
 		</div>
-		<div class="copyright">© 2023 languageXchange - Practice, Learn, Succeed!</div>
+		<div class="copyright">© 2024 languageXchange - Practice, Learn, Succeed!</div>
 		<div class="credits">
 			This website is full open sourced and licensed by
 			<a
