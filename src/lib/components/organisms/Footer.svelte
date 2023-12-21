@@ -12,7 +12,7 @@
 		<div class="menu">
 			<ul>
 				<li><small><a href="privacy-policy">Privacy Policy</a></small></li>
-				<li><small><a href="#">Terms & Conditions</a></small></li>
+				<li><small><a href="terms-conditions">Terms & Conditions</a></small></li>
 				<li><small><a href="#">Cookie Policy</a></small></li>
 			</ul>
 		</div>
