@@ -20,32 +20,32 @@
 
 		When you create an account on LanguageXchange, we collect the following personal information:
 
-				Name
-				Email address
-				Language preferences
+			- Name
+			- Email address
+			- Language preferences
 
 		2.2 Third-Party Logins
 
 		If you choose to log in using Google, Facebook, or Apple, we collect the following information from your third-party account:
 
-				Google: Mentioned in the consent screen
-				Facebook: Mentioned in the consent screen
-				Apple: Mentioned in the consent screen
+			- Google: Mentioned in the consent screen
+			- Facebook: Mentioned in the consent screen
+			- Apple: Mentioned in the consent screen
 
 		2.3 Usage Data
 
 		We collect information on how you use our app, including:
 
-				Features you interact with
-				Duration and frequency of your sessions
-				Error logs and diagnostic information
+			-	Features you interact with
+			-	Duration and frequency of your sessions
+			- Error logs and diagnostic information
 
 		2.4 Communication Data
 
 		If you contact us, we may retain a record of that communication, including:
 
-				Your inquiries
-				Responses to your questions or feedback
+			-	Your inquiries
+			-	Responses to your questions or feedback
 
 	3. How We Use Your Information
 
@@ -53,32 +53,32 @@
 
 		We use your personal information to:
 
-				Create and manage your LanguageXchange account
-				Connect you with native speakers for language practice
-				Customize content based on your language preferences
+			-	Create and manage your LanguageXchange account
+			-	Connect you with native speakers for language practice
+			-	Customize content based on your language preferences
 
 		3.2 Third-Party Logins
 
 		We use the information collected from third-party logins to:
 
-				Authenticate your identity
-				Provide a seamless login experience
+			-	Authenticate your identity
+			-	Provide a seamless login experience
 
 		3.3 Communication
 
 		We may use your contact information to:
 
-				Send you important updates and notifications
-				Provide customer support
-				Deliver marketing communications with your consent
+			-	Send you important updates and notifications
+			-	Provide customer support
+			-	Deliver marketing communications with your consent
 
 		3.4 Improving Our Services
 
 		We analyze usage data to:
 
-				Enhance and optimize app performance
-				Develop new features and functionalities
-				Conduct research to improve language learning experiences
+			-	Enhance and optimize app performance
+			-	Develop new features and functionalities
+			-	Conduct research to improve language learning experiences
 
 	4. Data Sharing
 
@@ -86,9 +86,9 @@
 
 		We may share your information with third-party service providers for:
 
-				Hosting and server maintenance
-				Analytics and data analysis
-				Marketing and advertising
+			-	Hosting and server maintenance
+			-	Analytics and data analysis
+			-	Marketing and advertising
 
 		4.2 Legal Compliance
 
@@ -102,9 +102,9 @@
 
 		LanguageXchange may use cookies and similar technologies to:
 
-				Improve user experience
-				Analyze usage patterns
-				Customize content based on user preferences
+			-	Improve user experience
+			-	Analyze usage patterns
+			-	Customize content based on user preferences
 
 	7. Your Choices
 
@@ -128,13 +128,11 @@
 
 		LanguageXchange is a product of New Chapter Technology Limited Liability Company, a legal entity registered under the laws with a registered address at:
 
-		34 N Franklin Ave Ste 687
-		2534 Pinedale, WY 82941
+		- 34 N Franklin Ave Ste 687 2534 Pinedale, WY 82941
 
 		The registered agent for New Chapter Technology Limited Liability Company is Registered Agents Inc, with a registered office located at:
 
-		30 N Gould St Ste R
-		Sheridan, WY 82801
+		- 30 N Gould St Ste R Sheridan, WY 82801
 
 		Registered Agents Inc has voluntarily consented to serve as the registered agent for New Chapter Technology Limited Liability Company and has certified they are in compliance with the requirements of W.S. 17-28-101 through W.S. 17-28-111.
 
