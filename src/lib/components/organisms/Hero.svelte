@@ -12,7 +12,7 @@
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://cdn.forms-content-1.sg-form.com/0797bfc4-739c-11ee-b709-eeadebf91d66">
+			<Button href="https://app.languagexchange.net/login">
 				<LoginIcon slot="icon" />
 				Join Us
 			</Button>
