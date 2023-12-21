@@ -1,10 +1,4 @@
-<script>
-	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
-	import Socials from '$lib/components/molecules/Socials.svelte';
-	import Image from '../atoms/Image.svelte';
-</script>
-
-<section id="privacy-policy">
+<section id="policy">
 
 	<h1>Privacy Policy</h1>
 
@@ -144,7 +138,7 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
-	#privacy-policy {
+	#policy {
 		position: relative;
 		display: grid;
 		align-items: start; /* Align to the start for better readability */
