@@ -9,7 +9,14 @@
 		<FooterWave />
 	</div>
 	<div class="content">
-		<div class="copyright">© 2023 languageXchange - Practice, Learn, Succeed!</div>
+		<div class="menu">
+			<ul>
+				<li><small><a href="privacy-policy">Privacy Policy</a></small></li>
+				<li><small><a href="terms-conditions">Terms & Conditions</a></small></li>
+				<li><small><a href="cookie-policy">Cookie Policy</a></small></li>
+			</ul>
+		</div>
+		<div class="copyright">© 2024 languageXchange - Practice, Learn, Succeed!</div>
 		<div class="credits">
 			This website is full open sourced and licensed by
 			<a
@@ -46,6 +53,31 @@
 			gap: 15px;
 			font-weight: 600;
 			text-align: center;
+
+			.menu {
+				ul {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 20px;
+					list-style: none;
+					padding: 0;
+					margin: 0;
+
+					li {
+						a {
+							color: var(--color--text-shade);
+							text-decoration: none;
+							transition: all 0.2s ease-in-out;
+
+							&:hover {
+								color: var(--color--primary);
+								transition: color 0.5s ease-in-out;
+							}
+						}
+					}
+				}
+			}
 
 			.credits {
 				font-weight: 400;
