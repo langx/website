@@ -118,7 +118,7 @@
 
 		We retain your personal information for as long as necessary to provide the services you requested and as required by applicable laws.
 
-	10. New Chapter Technology Limited Liability Company
+	10. Official Contact Information
 
 		LanguageXchange is a product of New Chapter Technology Limited Liability Company, a legal entity registered under the laws with a registered address at:
 
