@@ -1,6 +1,5 @@
 <script>
-	import FeaturesIcon from '$lib/icons/features.svelte';
-	import GitHubIcon from '$lib/icons/socials/github.svelte';
+	import LoginIcon from '$lib/icons/login.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
 </script>
@@ -14,15 +13,10 @@
 	<div class="ctas">
 		<Sparkles>
 			<Button href="https://cdn.forms-content-1.sg-form.com/0797bfc4-739c-11ee-b709-eeadebf91d66">
-				Early Access
+				<LoginIcon slot="icon" />
+				Join Us
 			</Button>
 		</Sparkles>
-		<!--
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
-		</Button>
-		-->
 	</div>
 </section>
 
