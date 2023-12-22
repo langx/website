@@ -2,7 +2,7 @@
 
 	<h1>Cookie Policy</h1>
 
-	Effective Date: 20, December 2023
+	*Effective Date: 20, December 2023*
 
 	1. Introduction
 
@@ -44,7 +44,7 @@
 
 	7. Contact Information
 
-		For any questions or concerns related to this Cookie Policy, please contact us at info[at]languagexchange.net.
+		For any questions or concerns related to this Cookie Policy, please contact us at [info@languagexchange.net].
 
 </section>
 
