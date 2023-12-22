@@ -47,7 +47,7 @@
 	
 	10. Contact Information
 	
-		For any questions or concerns related to these Terms and Conditions, please contact us at info[at]languagexchange.net.
+		For any questions or concerns related to these Terms and Conditions, please contact us at [info@languagexchange.net].
 
 
 </section>
