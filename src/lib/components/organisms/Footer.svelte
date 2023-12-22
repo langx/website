@@ -34,6 +34,7 @@
 				<li><small><a href="privacy-policy">Privacy Policy</a></small></li>
 				<li><small><a href="terms-conditions">Terms & Conditions</a></small></li>
 				<li><small><a href="cookie-policy">Cookie Policy</a></small></li>
+				<li><small><a href="data-deletion">Data Deletion</a></small></li>
 			</ul>
 		</div>
 		<div class="copyright">© 2024 languageXchange - Practice, Learn, Succeed!</div>
