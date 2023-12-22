@@ -2,7 +2,7 @@
 
 	<h1>Terms and Conditions</h1>
 
-	Effective Date: 20, December 2023
+	*Effective Date: 20, December 2023*
 
 	1. Acceptance of Terms
 
@@ -43,7 +43,7 @@
 	
 	9. Governing Law
 	
-		These Terms and Conditions are governed by and construed in accordance with the laws of [Your Jurisdiction].
+		These Terms and Conditions are governed by and construed in accordance with the laws of The United States of America.
 	
 	10. Contact Information
 	
