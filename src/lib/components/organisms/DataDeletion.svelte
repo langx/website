@@ -2,7 +2,7 @@
 
 	<h1>Data Deletion Instructions</h1>
 
-	*Effective Date: 21, December 2023*
+	*Effective Date: 13, January 2024*
 
 		If you would like to request the deletion of your personal data from languageXchange, please follow the instructions below:
 	
@@ -14,6 +14,12 @@
 		- Please proceed to select the "Account" option.
 		- Within "Other" section, you will find two options: one to **delete your account** and another to freeze it.
 		-	Follow the provided prompts to confirm and initiate the deletion process.
+
+		1.1 Partial Data Deletion:
+
+		- If you wish to delete certain data that we collected through this app without deleting your entire account, you can submit a request for partial data deletion.
+		- This data can include things like activity history, and images and audio.
+		- To submit a request for partial data deletion, please contact our support team at [support@languagexchange.net] with the subject "Partial Data Deletion Request".
 	
 	2. Contacting Support:
 	
@@ -38,7 +44,7 @@
 	
 	6. Third-Party Services:
 	
-		Should you choose to delete your LanguageXchange account, please be informed that all data linked to third-party services will also be automatically deleted.	
+		Should you choose to delete your languageXchange account, please be informed that all data linked to third-party services will also be automatically deleted.	
 
 	7. Confirmation:
 	

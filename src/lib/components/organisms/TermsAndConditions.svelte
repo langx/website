@@ -2,7 +2,7 @@
 
 	<h1>Terms and Conditions</h1>
 
-	*Effective Date: 20, December 2023*
+	*Effective Date: 13, January 2024*
 
 	1. Acceptance of Terms
 
@@ -44,8 +44,21 @@
 	9. Governing Law
 	
 		These Terms and Conditions are governed by and construed in accordance with the laws of The United States of America.
+
+	10. Compliance with Children's Online Privacy Protection
+
+		Depending on the countries where our app is available, some or all of the users in our target audience may be considered children. We comply with the Families policy whenever our app is being used by a child.
+
+		This includes:
+
+		- Ensuring that any content in our app that could be seen by children is appropriate for them.
+		- Only displaying ads that are appropriate for children, whenever our app is being used by a child.
+		- Only displaying ads that are from Google Play certified ad networks, or ads served by us, whenever our app is being used by a child. This includes ads for our own apps, or from partnerships with other brands.
+		- Ensuring that our app (including all APIs, SDKs, and ads) complies with all applicable laws and regulations relating to children, such as the US Children's Online Privacy Protection Act (COPPA), and the EU General Data Protection Regulation (GDPR).
+
+		We either make our entire app compliant, or implement a neutral age screen and comply with the policy when the user is a child.
 	
-	10. Contact Information
+	11. Contact Information
 	
 		For any questions or concerns related to these Terms and Conditions, please contact us at [info@languagexchange.net].
 
