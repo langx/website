@@ -64,7 +64,7 @@
 
 <style lang="scss">
 	footer {
-		height: 340px;
+		height: 500px;
 		width: 100%;
 		background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
 		display: grid;
