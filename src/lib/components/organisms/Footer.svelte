@@ -17,7 +17,7 @@
 				<li>
 					<small>
 						<a
-							href="https://github.com/languageXchange/languageXchange/blob/main/CONTRIBUTING.md"
+							href="https://github.com/languageXchange/website"
 							target="_blank"
 						>
 							Contribute
