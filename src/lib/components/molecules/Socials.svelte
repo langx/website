@@ -1,27 +1,9 @@
 <script>
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
-	import InstagramIcon from '$lib/icons/socials/instagram.svelte';
-	import XIcon from '$lib/icons/socials/x.svelte';
 </script>
 
 <div class="socials">
-	<a
-		href="https://www.instagram.com/langXchan"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See my Instagram profile"
-	>
-		<InstagramIcon />
-	</a>
-	<a
-		href="https://x.com/langXchan"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See my X profile"
-	>
-		<XIcon />
-	</a>
 	<a
 		href="https://github.com/languageXchange"
 		target="_blank"
