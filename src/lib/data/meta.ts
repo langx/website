@@ -5,7 +5,7 @@
 export const siteBaseUrl = 'https://languageXchange.net/';
 
 export const description =
-	"At languageXchange, we believe that the best way to learn a language is through practice and immersion. That's why we've created a platform that connects language learners from around the world.";
+	'We connect language learners worldwide. Practice and immerse yourself in different languages.';
 
 export const title = 'Practice, Learn, Succeed!';
 
@@ -23,6 +23,7 @@ export const keywords = [
 	'tandem language exchange',
 	'hello talk',
 	'speaky',
+	'tandem',
 	'learn a language',
 	'foreign language practice',
 	'language exchange community',
@@ -46,7 +47,6 @@ export const keywords = [
 	'language exchange network',
 	'improve speaking skills',
 	'speak a foreign language',
-	'language exchange community',
 	'practice with a native speaker',
 	'tandem language learning',
 	'speak in a foreign language',
@@ -54,153 +54,170 @@ export const keywords = [
 	'foreign language conversation',
 	'language learning app',
 	'speaking practice',
-	'language exchange website',
 	'online language learning',
 	'language exchange chat',
 	'conversation in another language',
 	'language exchange opportunities',
-	'language exchange program',
 	'foreign language partner',
-	'language exchange app',
 	'conversation exchange',
-	'language exchange platform',
-	'speak with native speakers',
 	'improve language fluency',
 	'meet language learners',
-	'language exchange app',
 	'find conversation partners',
-	'exchange language skills',
 	'language learning platform',
 	'connect with language learners',
 	'practice language speaking',
 	'speak a new language',
 	'language exchange practice',
-	'language exchange network',
 	'speaking with native speakers',
 	'learn a second language',
 	'foreign language conversation partner',
-	'language exchange service',
-	'online language exchange',
 	'find a language exchange partner',
 	'language learning opportunities',
-	'language exchange program',
-	'language learning community',
-	'practice with native speakers',
-	'tandem language exchange',
-	'language exchange website',
-	'improve language skills',
 	'conversation in a foreign language',
 	'foreign language fluency',
 	'speak with language partners',
-	'language exchange chat',
 	'online language tandem',
 	'conversation exchange platform',
-	'language exchange community',
 	'language partner search',
 	'practice speaking skills',
 	'speak a foreign language fluently',
-	'language exchange network',
 	'learn a language online',
 	'foreign language conversation practice',
-	'language exchange app',
 	'find language exchange partners',
 	'improve speaking fluency',
 	'speak with language learners',
 	'language exchange forum',
 	'language tandem program',
 	'conversation partner app',
-	'language exchange website',
-	'language exchange community',
 	'practice with language speakers',
 	'foreign language learning partner',
 	'speak with language exchange partners',
-	'language exchange platform',
-	'language exchange service',
-	'learn a language online',
 	'find language tandem partners',
 	'improve language conversation skills',
 	'foreign language exchange program',
-	'language exchange app',
 	'conversation exchange website',
 	'speak with language natives',
 	'online language learning community',
-	'language exchange network',
 	'foreign language speaking practice',
-	'language exchange chat',
 	'practice with language partners',
 	'find language exchange opportunities',
-	'language exchange program',
 	'tandem language learning app',
 	'speak with language experts',
 	'improve language speaking fluency',
 	'speak with language tutors',
-	'language exchange website',
 	'foreign language conversation exchange',
 	'language practice with natives',
 	'connect with language learners',
-	'learn a language online',
 	'foreign language exchange service',
-	'language exchange forum',
 	'language learning partners',
 	'practice with language natives',
-	'language exchange network',
-	'conversation in another language',
-	'language exchange chat',
-	'language exchange platform',
 	'speak with language exchange partners',
 	'learn a new language',
 	'foreign language conversation practice',
 	'find conversation exchange partners',
 	'improve language skills with native speakers',
-	'language exchange app',
-	'language learning community',
 	'practice speaking with language learners',
 	'speak with language exchange tutors',
 	'foreign language fluency exchange',
-	'language exchange website',
 	'language tandem practice',
 	'connect with language exchange community',
 	'language partner search platform',
 	'speak with language experts',
 	'improve speaking skills with natives',
-	'language exchange network',
 	'learn a foreign language',
 	'conversation exchange chat',
-	'language exchange service',
-	'language exchange program',
 	'practice speaking a foreign language',
 	'speak with language tandem partners',
 	'improve language fluency with native speakers',
-	'language exchange website',
 	'foreign language conversation partner search',
-	'language learning app',
 	'connect with language partners',
-	'language exchange opportunities',
-	'language exchange program',
-	'language exchange community',
 	'find conversation exchange partners',
 	'improve speaking skills with language natives',
 	'speak with language exchange tutors',
 	'foreign language fluency exchange',
-	'language exchange network',
 	'learn a foreign language online',
 	'conversation exchange chat',
-	'language exchange service',
-	'language exchange program',
-	'practice speaking a foreign language',
-	'speak with language tandem partners',
-	'improve language fluency with native speakers',
-	'language exchange website',
-	'foreign language conversation partner search',
-	'language learning app',
 	'connect with language partners',
-	'language exchange opportunities',
-	'language exchange program',
-	'language exchange community',
 	'find conversation exchange partners',
-	'improve speaking skills with language natives',
 	'speak with language exchange tutors',
 	'foreign language fluency exchange',
-	'language exchange network',
-	'learn a foreign language online'
+	'learn a foreign language online',
+	'conversation exchange chat',
+	'learn Spanish online',
+	'practice French with natives',
+	'improve German speaking skills',
+	'Italian language exchange',
+	'Japanese conversation practice',
+	'learn Mandarin Chinese online',
+	'Russian language exchange partners',
+	'Arabic speaking practice',
+	'Portuguese language learning opportunities',
+	'Korean conversation exchange',
+	'speak with language exchange tutors',
+	'foreign language fluency exchange',
+	'learn a foreign language online',
+	'conversation exchange chat',
+	'aprender español en línea', // 'learn Spanish online' in Spanish
+	'pratiquer le français avec des natifs', // 'practice French with natives' in French
+	'verbessern Sie Ihre Deutschkenntnisse', // 'improve German speaking skills' in German
+	'scambio di lingua italiana', // 'Italian language exchange' in Italian
+	'pratica di conversazione giapponese', // 'Japanese conversation practice' in Italian
+	'学习在线中文', // 'learn Mandarin Chinese online' in Chinese
+	'партнеры по обмену русским языком', // 'Russian language exchange partners' in Russian
+	'ممارسة الكلام باللغة العربية', // 'Arabic speaking practice' in Arabic
+	'oportunidades de aprendizado de língua portuguesa', // 'Portuguese language learning opportunities' in Portuguese
+	'한국어 대화 교환', // 'Korean conversation exchange' in Korean
+	'intercambio de idiomas en español', // 'language exchange in Spanish' in Spanish
+	'échange linguistique en français', // 'language exchange in French' in French
+	'Sprachaustausch auf Deutsch', // 'language exchange in German' in German
+	'scambio linguistico in italiano', // 'language exchange in Italian' in Italian
+	'言語交換を日本語で', // 'language exchange in Japanese' in Japanese
+	'用中文进行语言交流', // 'language exchange in Chinese' in Chinese
+	'языковой обмен на русском', // 'language exchange in Russian' in Russian
+	'تبادل اللغات بالعربية', // 'language exchange in Arabic' in Arabic
+	'troca de idiomas em português', // 'language exchange in Portuguese' in Portuguese
+	'한국어로 언어 교환', // 'language exchange in Korean' in Korean
+	'한국어로 언어 교환', // 'language exchange in Korean' in Korean
+	'uitwisseling van talen in het Nederlands', // 'language exchange in Dutch' in Dutch
+	'utbyte av språk på svenska', // 'language exchange in Swedish' in Swedish
+	'vaihto kieli suomeksi', // 'language exchange in Finnish' in Finnish
+	'udveksling af sprog på dansk', // 'language exchange in Danish' in Danish
+	'utveksling av språk på norsk', // 'language exchange in Norwegian' in Norwegian
+	'csere nyelv magyarul', // 'language exchange in Hungarian' in Hungarian
+	'výměna jazyků v češtině', // 'language exchange in Czech' in Czech
+	'wymiana języków po polsku', // 'language exchange in Polish' in Polish
+	'τακαλλήλωση γλώσσας στα ελληνικά', // 'language exchange in Greek' in Greek
+	'schimb de limbi în română', // 'language exchange in Romanian' in Romanian
+	'jezična razmjena na hrvatskom', // 'language exchange in Croatian' in Croatian
+	'языковой обмен на украинском', // 'language exchange in Ukrainian' in Ukrainian
+	'valodas apmaiņa latviešu valodā', // 'language exchange in Latvian' in Latvian
+	'kalbų mainai lietuvių kalba', // 'language exchange in Lithuanian' in Lithuanian
+	'jezična izmena na slovenskom', // 'language exchange in Slovak' in Slovak
+	'jezikovna izmenjava v slovenščini', // 'language exchange in Slovenian' in Slovenian
+	'jezična razmjena na bosanskom', // 'language exchange in Bosnian' in Bosnian
+	'языковой обмен на белорусском', // 'language exchange in Belarusian' in Belarusian
+	'jezična razmjena na makedonskom', // 'language exchange in Macedonian' in Macedonian
+	'jezična razmjena na albanskom', // 'language exchange in Albanian' in Albanian
+	'jezična razmjena na srpskom', // 'language exchange in Serbian' in Serbian
+	'jezična razmjena na crnogorskom', // 'language exchange in Montenegrin' in Montenegrin
+	'jezična razmjena na bugarskom', // 'language exchange in Bulgarian' in Bulgarian
+	'lingvaj interŝanĝoj en Esperanto', // 'language exchange in Esperanto' in Esperanto
+	'intercanvi de llengües en català', // 'language exchange in Catalan' in Catalan
+	'lingua scambio in Sardo', // 'language exchange in Sardinian' in Sardinian
+	'lingua scambio in Siciliano', // 'language exchange in Sicilian' in Sicilian
+	'lingua scambio in Corsican', // 'language exchange in Corsican' in Corsican
+	'lingua scambio in Basque', // 'language exchange in Basque' in Basque
+	'lingua scambio in Galician', // 'language exchange in Galician' in Galician
+	'lingua scambio in Asturian', // 'language exchange in Asturian' in Asturian
+	'lingua scambio in Breton', // 'language exchange in Breton' in Breton
+	'lingua scambio in Welsh', // 'language exchange in Welsh' in Welsh
+	'lingua scambio in Irish', // 'language exchange in Irish' in Irish
+	'lingua scambio in Scots Gaelic', // 'language exchange in Scots Gaelic' in Scots Gaelic
+	'lingua scambio in Manx', // 'language exchange in Manx' in Manx
+	'lingua scambio in Cornish', // 'language exchange in Cornish' in Cornish
+	'lingua scambio in Maltese', // 'language exchange in Maltese' in Maltese
+	'lingua scambio in Faroese', // 'language exchange in Faroese' in Faroese
+	'lingua scambio in Icelandic', // 'language exchange in Icelandic' in Icelandic
+	'lingua scambio in Greenlandic', // 'language exchange in Greenlandic' in Greenlandic
+	'lingua scambio in Sami' // 'language exchange in Sami' in Sami
 ];
