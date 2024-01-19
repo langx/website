@@ -48,6 +48,18 @@ We welcome contributions from the community! If you'd like to contribute to lang
 
 languageXchange is an open source project and we welcome contributions from the community. If you're interested in contributing, please check out our GitHub repository for more information.
 
+## Versioning
+
+languageXchange uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/languageXchange/website/releases).
+
+### v0.2 (current)
+
+![Site Preview v0.2 languageXchange](static/images/site-preview.png)
+
+### v0.1
+
+![Site Preview v0.1 languageXchange](static/versioning/v0.1.png)
+
 ## License
 
 languageXchange is released under the [MIT License](./LICENSE). If you use this project, please include the license file in your distribution.
