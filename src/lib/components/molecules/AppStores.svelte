@@ -23,16 +23,27 @@
 
 <style lang="scss">
 	@import '../../scss/breakpoints.scss';
+
 	.app-stores {
 		display: flex;
 		align-items: center;
 		gap: 20px;
 
+		@include for-phone-only {
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+		}
+
 		a {
 			transition: all 0.2s ease-in-out;
-			width: 200px;
+			max-width: 200px;
 			color: var(--color--text);
 			fill: var(--color--text);
+
+			@include for-phone-only {
+				width: 200px;
+			}
 
 			&:hover {
 				color: var(--color--primary);
