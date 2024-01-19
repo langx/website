@@ -53,6 +53,17 @@
 			const theme = localStorage.getItem('theme-preference') || 'auto';
 			document.firstElementChild?.setAttribute('data-theme', theme);
 		</script>
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJGSVHN3CW"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-DJGSVHN3CW');
+		</script>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
