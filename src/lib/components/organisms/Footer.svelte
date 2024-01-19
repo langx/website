@@ -94,7 +94,7 @@
 							transition: all 0.2s ease-in-out;
 
 							&:hover {
-								color: var(--color--primary);
+								color: var(--color--text);
 								transition: color 0.5s ease-in-out;
 							}
 						}
