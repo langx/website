@@ -20,6 +20,7 @@
 	@import '$lib/scss/breakpoints.scss';
 
 	#hero {
+		color: #000;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

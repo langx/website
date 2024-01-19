@@ -40,17 +40,19 @@
 		<div class="copyright">© 2024 languageXchange - Practice, Learn, Succeed!</div>
 		<div class="credits">
 			<small>
-				This website is full open sourced and licensed by
+				This project is completely open source and licensed under the
 				<a
 					href="https://github.com/languageXchange/website/blob/main/LICENSE"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					MIT Licence
-				</a>. A part of
+					MIT License
+				</a>.
+				<p />
+				It is a part of
 				<a href="https://newchapter.tech/" target="_blank" rel="noopener noreferrer">
 					New Chapter Tech
-				</a>
+				</a>.
 			</small>
 		</div>
 		<div class="socials">
@@ -68,7 +70,9 @@
 		display: grid;
 		grid-template-rows: 120px 1fr;
 
-		.content {
+		.content,
+		.copyright {
+			color: var(--color--text);
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -89,7 +93,7 @@
 
 					li {
 						a {
-							color: var(--color--text-shade);
+							color: var(--color--text);
 							text-decoration: none;
 							transition: all 0.2s ease-in-out;
 
@@ -105,7 +109,19 @@
 			.credits {
 				font-weight: 400;
 				font-size: 90%;
-				color: var(--color--text-shade);
+				color: var(--color--text);
+
+				a {
+					color: var(--color--text);
+					text-decoration: none;
+					transition: all 0.2s ease-in-out;
+					font-weight: bold;
+
+					&:hover {
+						color: var(--color--text);
+						transition: color 0.5s ease-in-out;
+					}
+				}
 			}
 
 			.socials {
@@ -117,7 +133,7 @@
 
 		a {
 			&:hover {
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
+				filter: drop-shadow(0px 0px 3px var(--color--text-shade));
 			}
 		}
 	}

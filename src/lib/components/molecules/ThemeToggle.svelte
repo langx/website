@@ -61,22 +61,21 @@
 
 		&:hover {
 			.label {
-				color: var(--color--primary);
+				color: var(--color--text);
 			}
 
 			#moon,
 			#sun {
-				fill: var(--color--primary);
+				fill: var(--color--text);
 				> * {
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
+					filter: drop-shadow(0px 0px 3px var(--color--text));
 				}
 			}
 
 			#sun-beams {
-				stroke: var(--color--primary);
-
+				stroke: var(--color--text);
 				line {
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
+					filter: drop-shadow(0px 0px 3px var(--color--text));
 				}
 			}
 		}
