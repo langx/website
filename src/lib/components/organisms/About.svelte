@@ -7,21 +7,19 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			Language learning can be a challenging but
-			<SparklingHighlight color="secondary">rewarding process!</SparklingHighlight>
+			<SparklingHighlight color="secondary"
+				>Language learning is a rewarding journey!</SparklingHighlight
+			>
 		</h2>
 		<p>
-			At languageXchange, we believe that the best way to learn a language is through practice and
-			immersion. That's why we've created a platform that connects language learners from around the
-			world,
+			We connect language learners worldwide. Practice and immerse yourself in different languages.
 		</p>
 		<p>
-			So you can practice speaking with native speakers and improve your skills in a fun and
-			engaging way. Connect with native speakers to dive into immersive experiences. Start your
-			adventure soon!
+			Engage with native speakers for an authentic learning experience. Start your language
+			adventure with us!
 		</p>
 		<div class="socials">
-			<span>Socials:</span>
+			<span>Follow us:</span>
 			<Socials />
 		</div>
 	</div>
@@ -90,5 +88,9 @@
 				width: 80%;
 			}
 		}
+	}
+
+	p {
+		font-size: 1.2em;
 	}
 </style>
