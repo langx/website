@@ -36,8 +36,8 @@
 	@include define-color('code-text', #ffffff);
 	@include define-color('code-inline-background', #e3e3e3);
 
-	--color--waves-start: rgba(var(--color--primary-rgb), 0.3);
-	--color--waves-end: rgba(var(--color--primary-rgb), 0.1);
+	--color--waves-start: rgba(var(--color--primary-rgb), 1);
+	--color--waves-end: rgba(var(--color--primary-rgb), 1);
 
 	--card-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 	--card-shadow-hover: 0px 4px 10px 8px rgb(0 0 0 / 10%);
