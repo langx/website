@@ -1,7 +1,6 @@
 <script>
-	import LoginIcon from '$lib/icons/login.svelte';
-	import Button from '$lib/components/atoms/Button.svelte';
-	import Sparkles from '../atoms/Sparkles.svelte';
+	import AppStores from '$lib/components/molecules/AppStores.svelte';
+	import Sparkles from '$lib/components/atoms/Sparkles.svelte';
 </script>
 
 <section id="hero">
@@ -12,10 +11,7 @@
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://app.languagexchange.net/login">
-				<LoginIcon slot="icon" />
-				Join Us
-			</Button>
+			<AppStores />
 		</Sparkles>
 	</div>
 </section>
@@ -66,6 +62,7 @@
 			justify-content: center;
 			gap: 10px;
 			width: 100%;
+			margin-top: 30px;
 		}
 	}
 </style>
