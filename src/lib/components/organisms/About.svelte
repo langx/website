@@ -1,7 +1,7 @@
 <script>
 	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
-	import Socials from '$lib/components/molecules/Socials.svelte';
 	import Image from '../atoms/Image.svelte';
+	import GitHubIcon from '$lib/icons/socials/github.svelte';
 </script>
 
 <section id="about">
@@ -18,10 +18,19 @@
 			Engage with native speakers for an authentic learning experience. Start your language
 			adventure with us!
 		</p>
-		<div class="socials">
-			<span>Follow us:</span>
-			<Socials />
-		</div>
+		<p>
+			Our platform is <strong>free and entirely open-source</strong>.
+			<SparklingHighlight>
+				<a
+					href="https://github.com/languageXchange"
+					target="_blank"
+					rel="noopener noreferrer"
+					title="See my GitHub profile"
+				>
+					<GitHubIcon />
+				</a>
+			</SparklingHighlight>
+		</p>
 	</div>
 	<div class="image">
 		<Image src="/images/sample-image.png" alt="Sample for the static template" />
@@ -92,5 +101,24 @@
 
 	p {
 		font-size: 1.2em;
+	}
+
+	.github {
+		margin-left: 5px;
+	}
+
+	a {
+		transition: all 0.2s ease-in-out;
+		width: 24px;
+		height: 24px;
+		display: inline-block;
+		color: var(--color--text);
+		fill: var(--color--text);
+
+		&:hover {
+			color: var(--color--primary);
+			fill: var(--color--primary);
+			filter: drop-shadow(0px 0px 3px var(--color--primary));
+		}
 	}
 </style>
