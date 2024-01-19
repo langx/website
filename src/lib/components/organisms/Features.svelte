@@ -9,7 +9,7 @@
 <ContentSection
 	id="features"
 	title="Features"
-	description="Explore the unique features of our language exchange app designed to enhance your language learning journey."
+	description="Discover features designed to boost your language learning."
 >
 	<div class="features-container">
 		<div class="three-group-grid">
