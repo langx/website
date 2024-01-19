@@ -36,9 +36,9 @@
 			fill: var(--color--text);
 
 			&:hover {
-				color: var(--color--primary);
-				fill: var(--color--primary);
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
+				color: var(--color--text);
+				fill: var(--color--text);
+				filter: drop-shadow(0px 0px 3px var(--color--text-shade));
 			}
 		}
 	}

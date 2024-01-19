@@ -91,3 +91,8 @@
 		}
 	}
 }
+
+footer,
+header {
+	@include base-theme;
+}
