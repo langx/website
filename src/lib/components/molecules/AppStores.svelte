@@ -9,7 +9,7 @@
 		rel="noopener noreferrer"
 		title="Download the app from App Store"
 	>
-		<Image src="images/features/ios.png" alt="Apple App Store"></Image>
+		<Image src="images/ios.png" alt="Apple App Store"></Image>
 	</a>
 	<a
 		href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange"
@@ -17,7 +17,7 @@
 		rel="noopener noreferrer"
 		title="Download the app from Google Play Store"
 	>
-		<Image src="images/features/android.png" alt="Google Play Store"></Image>
+		<Image src="images/android.png" alt="Google Play Store"></Image>
 	</a>
 </div>
 
@@ -38,17 +38,17 @@
 		a {
 			transition: all 0.2s ease-in-out;
 			max-width: 200px;
-			color: var(--color--text);
-			fill: var(--color--text);
+			color: var(--color--text-invert);
+			fill: var(--color--text-invert);
 
 			@include for-phone-only {
 				width: 200px;
 			}
 
 			&:hover {
-				color: var(--color--primary);
-				fill: var(--color--primary);
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
+				color: var(--color--text-invert);
+				fill: var(--color--text-invert);
+				filter: drop-shadow(0px 0px 3px var(--color--text-shadow));
 			}
 		}
 	}
