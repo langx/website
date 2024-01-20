@@ -2,7 +2,7 @@
 
 	<h1>Cookie Policy</h1>
 
-	*Effective Date: 20, December 2023*
+	*Effective Date: 19, January 2024*
 
 	1. Introduction
 
@@ -42,7 +42,11 @@
 
 		We may update this Cookie Policy to reflect changes in our use of cookies. Any changes will be effective immediately upon posting the updated policy on the App.
 
-	7. Contact Information
+	7. GDPR Compliance
+
+		We are pleased to mention that languageXchange is GDPR compliant. Our backend services are powered by Appwrite, which is also GDPR compliant. This means we adhere to the regulations and requirements set by the General Data Protection Regulation (GDPR) to protect your data and privacy. For more information, please refer to the <a href="https://appwrite.io/blog/post/announcing-appwrite-is-gdpr-compliant" target="_blank">GDPR compliance announcement</a>.
+		
+	8. Contact Information
 
 		For any questions or concerns related to this Cookie Policy, please contact us at [info@languagexchange.net].
 
