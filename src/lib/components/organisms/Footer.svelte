@@ -16,13 +16,17 @@
 				</li>
 				<li>
 					<small>
-						<a
-							href="https://github.com/languageXchange/website"
-							target="_blank"
-						>
+						<a href="https://github.com/languageXchange/website#contributing" target="_blank">
 							Contribute
 						</a></small
 					>
+				</li>
+				<li>
+					<small>
+						<a href="https://github.com/languageXchange/website/releases" target="_blank"
+							>Changelog</a
+						>
+					</small>
 				</li>
 				<li>
 					<small>
