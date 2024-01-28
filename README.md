@@ -52,7 +52,7 @@ languageXchange is an open source project and we welcome contributions from the 
 
 languageXchange uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/languageXchange/website/releases).
 
-### [v0.2 (current)](https://github.com/languageXchange/website/releases/tag/v0.2)
+### [v0.2](https://github.com/languageXchange/website/releases/tag/v0.2)
 
 ![Site Preview v0.2 languageXchange](static/images/site-preview.png)
 
