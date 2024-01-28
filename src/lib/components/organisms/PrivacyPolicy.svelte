@@ -2,7 +2,7 @@
 
 	<h1>Privacy Policy</h1>
 
-	*Effective Date: 13, January 2024*
+	*Effective Date: 28, January 2024*
 
 	1. Introduction
 
@@ -143,7 +143,7 @@
 
 		Registered Agents Inc has voluntarily consented to serve as the registered agent for New Chapter Technology Limited Liability Company and has certified they are in compliance with the requirements of W.S. 17-28-101 through W.S. 17-28-111.
 
-		For questions or concerns related to privacy or data protection, you can contact us at [info@languagexchange.net].
+		For questions or concerns related to privacy or data protection, you can contact us at [support@languagexchange.net].
 
 
 </section>
