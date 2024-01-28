@@ -2,7 +2,7 @@
 
 	<h1>Data Deletion Instructions</h1>
 
-	*Effective Date: 13, January 2024*
+	*Effective Date: 28, January 2024*
 
 		If you would like to request the deletion of your personal data from languageXchange, please follow the instructions below:
 	
@@ -23,7 +23,7 @@
 	
 	2. Contacting Support:
 	
-		If you encounter any issues or need assistance with the data deletion process, you can contact our support team at [info@languagexchange.net]. Please provide the following information in your email:
+		If you encounter any issues or need assistance with the data deletion process, you can contact our support team at [account@languagexchange.net]. Please provide the following information in your email:
 	
 		-	Subject: Data Deletion Request
 		-	Your full name
@@ -54,7 +54,7 @@
 	
 		We reserve the right to update these Data Deletion Instructions. Any changes will be reflected on our website or App.
 	
-		If you have any questions or concerns regarding the data deletion process, please contact us at [info@languagexchange.net].
+		If you have any questions or concerns regarding the data deletion process, please contact us at [account@languagexchange.net].
 
 
 </section>
