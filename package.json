@@ -1,6 +1,6 @@
 {
 	"name": "website",
-	"version": "0.2.3",
+	"version": "0.2.2",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
