@@ -30,6 +30,13 @@
 				</li>
 				<li>
 					<small>
+						<a href="https://github.com/languageXchange/languageXchange/releases" target="_blank"
+							>Releases</a
+						>
+					</small>
+				</li>
+				<li>
+					<small>
 						<a href="mailto:info@languagexchange.net">Contact</a>
 					</small>
 				</li>
