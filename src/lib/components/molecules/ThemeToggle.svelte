@@ -68,14 +68,14 @@
 			#sun {
 				fill: var(--color--text);
 				> * {
-					filter: drop-shadow(0px 0px 3px var(--color--secondary));
+					filter: drop-shadow(0px 0px 3px var(--color--text-shade));
 				}
 			}
 
 			#sun-beams {
 				stroke: var(--color--text);
 				line {
-					filter: drop-shadow(0px 0px 3px var(--color--secondary));
+					filter: drop-shadow(0px 0px 3px var(--color--text-shade));
 				}
 			}
 		}
