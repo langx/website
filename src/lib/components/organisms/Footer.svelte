@@ -57,7 +57,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					MIT License
+					BSD-3-Clause License
 				</a>.
 				<p />
 				It is a part of
