@@ -15,8 +15,8 @@
 	},
 	"devDependencies": {
 		"@neoconfetti/svelte": "^1.0.0",
-		"@sveltejs/adapter-static": "^2.0.3",
-		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/kit": "^2.5.0",
 		"@types/cookie": "^0.5.1",
 		"@types/dateformat": "^5.0.1",
 		"@types/prismjs": "^1.26.2",
