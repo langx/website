@@ -23,6 +23,11 @@
 				</li>
 				<li>
 					<small>
+						<a href="https://github.com/languageXchange/languageXchange/contribute" target="_blank">Good First Issues</a>
+					</small>
+				</li>
+				<li>
+					<small>
 						<a href="https://github.com/languageXchange/website/releases" target="_blank"
 							>Changelog</a
 						>
