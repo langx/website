@@ -1,5 +1,5 @@
 <script>
-	import Star from "$lib/icons/star.svelte";
+	import Github from "$lib/icons/socials/github.svelte";
 	import { onMount } from "svelte";
     
     let starCount = -1;
@@ -11,7 +11,7 @@
 </script>
 <div class:mtop={starCount > 0} class="star-count">
     <a class="star" target="_blank" href="https://github.com/languageXchange/languageXchange/stargazers">
-        <Star />
+        <Github />
     </a>
     {#if starCount > 0}
     <small>{starCount}</small>
