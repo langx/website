@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
+	import StarCount from '$lib/components/molecules/StarCount.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 
 	export let showBackground = false;
@@ -12,6 +13,7 @@
 		</a>
 		<div class="links">
 			<a href="https://app.languagexchange.net/">Web App</a>
+			<StarCount />
 			<ThemeToggle />
 		</div>
 	</nav>
