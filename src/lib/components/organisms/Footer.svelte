@@ -23,7 +23,9 @@
 				</li>
 				<li>
 					<small>
-						<a href="https://github.com/languageXchange/languageXchange/contribute" target="_blank">Good First Issues</a>
+						<a href="https://github.com/languageXchange/languageXchange/contribute" target="_blank"
+							>Good First Issues</a
+						>
 					</small>
 				</li>
 				<li>
@@ -80,7 +82,8 @@
 
 <style lang="scss">
 	footer {
-		height: 500px;
+		height: fit;
+		padding-bottom: 15px;
 		width: 100%;
 		background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
 		display: grid;
@@ -99,10 +102,10 @@
 
 			.menu {
 				ul {
-					display: flex;
+					display: grid;
+					grid-template-columns: 1fr 1fr;
 					align-items: center;
 					justify-content: center;
-					gap: 20px;
 					list-style: none;
 					padding: 0;
 					margin: 0;
