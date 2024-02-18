@@ -23,7 +23,9 @@
 				</li>
 				<li>
 					<small>
-						<a href="https://github.com/languageXchange/languageXchange/contribute" target="_blank">Good First Issues</a>
+						<a href="https://github.com/languageXchange/languageXchange/contribute" target="_blank"
+							>Good First Issues</a
+						>
 					</small>
 				</li>
 				<li>
