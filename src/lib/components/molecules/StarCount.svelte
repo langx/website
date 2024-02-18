@@ -10,7 +10,7 @@
 
 </script>
 <div class:mtop={starCount > 0} class="star-count">
-    <a class="star" href="https://github.com/languageXchange/languageXchange/stargazers">
+    <a class="star" target="_blank" href="https://github.com/languageXchange/languageXchange/stargazers">
         <Star />
     </a>
     {#if starCount > 0}
