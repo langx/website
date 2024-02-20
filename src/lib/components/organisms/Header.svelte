@@ -13,7 +13,7 @@
 		</a>
 		<div class="links">
 			<a href="https://app.languagexchange.net/">Web App</a>
-			<StarCount />
+			<!-- <StarCount /> -->
 			<ThemeToggle />
 		</div>
 	</nav>
