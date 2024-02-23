@@ -6,8 +6,8 @@
 <section id="hero">
 	<h1 class="hello">Practice, Learn, Succeed!</h1>
 	<p class="intro">
-		<span class="left">Words are the keys that unlock</span>
-		<span class="right">a world of connections.</span>
+		<span class="left">100% Open Source</span>
+		<span class="right">Alternative to Tandem!</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
