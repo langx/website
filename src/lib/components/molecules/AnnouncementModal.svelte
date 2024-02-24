@@ -6,12 +6,14 @@
 	let show = false;
 
 	onMount(() => {
-		show = true;
+		setTimeout(() => {
+			show = true;
+		}, 3000); // Delay of 3 second
 	});
 </script>
 
 {#if show}
-	<div class="modal" transition:slide={{ duration: 800 }}>
+	<div class="modal" transition:slide={{ duration: 500 }}>
 		<div class="modal-content">
 			<button class="close-button" on:click={() => (show = false)}>X</button>
 			<div class="content">
