@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
+	import SparklingHighlight from './SparklingHighlight.svelte';
 
 	let show = false;
 
@@ -16,9 +17,9 @@
 			<div class="content">
 				<h4>⬆️ Breaking News!</h4>
 				<p>
-					We are now live on <a href="https://pitchwall.co/product/languagexchange" target="_blank"
-						>PitchWall</a
-					>! Upvote us there.
+					We are now live on <SparklingHighlight
+						><a href="https://pitchwall.co/product/languagexchange" target="_blank">PitchWall</a>
+					</SparklingHighlight>! Upvote us there.
 				</p>
 			</div>
 		</div>
@@ -42,7 +43,7 @@
 	}
 
 	a {
-		/* text-decoration-color: var(--color--text);  */
+		text-decoration-color: var(--color--text);
 	}
 
 	.content {
