@@ -13,13 +13,14 @@
 	<div class="modal" transition:slide={{ duration: 800 }}>
 		<div class="modal-content">
 			<button class="close-button" on:click={() => (show = false)}>X</button>
-			<h4>⬆️ Breaking News!</h4>
-			<p>
-				We are now live on <a
-					href="https://pitchwall.co/product/languagexchange"
-					target="_blank">PitchWall</a
-				>! Upvote us there.
-			</p>
+			<div class="content">
+				<h4>⬆️ Breaking News!</h4>
+				<p>
+					We are now live on <a href="https://pitchwall.co/product/languagexchange" target="_blank"
+						>PitchWall</a
+					>! Upvote us there.
+				</p>
+			</div>
 		</div>
 	</div>
 {/if}
@@ -37,8 +38,15 @@
 		position: relative;
 		margin: 0 auto;
 		padding: 20px;
-		padding-right: 50px; /* Add padding to the right side */
-		width: 80%;
+		width: 90%;
+	}
+
+	a {
+		/* text-decoration-color: var(--color--text);  */
+	}
+
+	.content {
+		padding-right: 50px;
 	}
 
 	.close-button {
@@ -50,6 +58,6 @@
 		background: none;
 		font-size: 1.5em;
 		cursor: pointer;
-		color: black;
+		color: var(--color--text);
 	}
 </style>
