@@ -14,7 +14,6 @@
 		"postbuild": "npm run optimize-images && svelte-sitemap --domain https://languagexchange.net/"
 	},
 	"devDependencies": {
-		"@histoire/plugin-svelte": "^0.17.9",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
