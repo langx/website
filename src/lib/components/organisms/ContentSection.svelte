@@ -46,7 +46,7 @@
 
 		.title-area {
 			flex: 2;
-
+			color: black;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
