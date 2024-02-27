@@ -12,6 +12,7 @@
 			<Logo />
 		</a>
 		<div class="links">
+			<a href="/blog">Blog</a>
 			<a href="https://app.languagexchange.net/">Web App</a>
 			<!-- <StarCount /> -->
 			<ThemeToggle />

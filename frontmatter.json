@@ -1,0 +1,67 @@
+{
+	"$schema": "https://frontmatter.codes/frontmatter.schema.json",
+	"frontMatter.taxonomy.contentTypes": [
+		{
+			"name": "default",
+			"pageBundle": false,
+			"previewPath": null,
+			"fields": [
+				{
+					"title": "Title",
+					"name": "title",
+					"type": "string"
+				},
+				{
+					"title": "Description",
+					"name": "description",
+					"type": "string"
+				},
+				{
+					"title": "Publishing date",
+					"name": "date",
+					"type": "datetime",
+					"default": "{{now}}",
+					"isPublishDate": true
+				},
+				{
+					"title": "Content preview",
+					"name": "preview",
+					"type": "image"
+				},
+				{
+					"title": "Is in draft",
+					"name": "draft",
+					"type": "draft"
+				},
+				{
+					"title": "Tags",
+					"name": "tags",
+					"type": "tags"
+				},
+				{
+					"title": "Categories",
+					"name": "categories",
+					"type": "categories"
+				}
+			]
+		}
+	],
+	"frontMatter.content.pageFolders": [
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/blog-posts",
+			"title": "blog-posts"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/customization",
+			"title": "customization"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/project-structure",
+			"title": "project-structure"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/open-source-alternative-to-tandem",
+			"title": "open-source-alternative-to-tandem"
+		}
+	]
+}
