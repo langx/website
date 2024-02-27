@@ -17,7 +17,7 @@
 		href="https://github.com/languageXchange"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="See my GitHub profile"
+		title="See our GitHub Page"
 	>
 		<GitHubIcon />
 	</a>
