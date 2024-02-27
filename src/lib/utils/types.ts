@@ -28,6 +28,10 @@ export type BlogPost = {
 	hidden: boolean;
 	slug: string;
 	title: string;
+	author: {
+		name: string;
+		url: string;
+	}
 	date: string;
 	updated: string;
 	excerpt: string;

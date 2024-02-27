@@ -4,6 +4,9 @@ title: Project Structure
 date: 2024-02-26T21:55:21.800Z
 excerpt: How code and structure are organized.
 coverImage: /images/posts/project-structure.png
+author:
+  name: behics
+  url: https://github.com/behics
 tags:
   - Documentation
 ---
@@ -33,10 +36,10 @@ Organisms, in this project, are code blocks that represent a section of a page, 
 <CodeBlock lang="html" filename="+page.svelte">
 
 ```html
-<Header />
+<header />
 <Hero />
 <About />
-<Footer />
+<footer />
 ```
 
 </CodeBlock>

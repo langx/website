@@ -4,6 +4,9 @@ slug: blog-posts
 coverImage: /images/posts/blog-posts.png
 date: 2024-02-26T23:55:15.361Z
 excerpt: How to manage existing blog posts and create new ones
+author:
+  name: behics
+  url: https://github.com/behics
 tags:
   - Documentation
 ---
