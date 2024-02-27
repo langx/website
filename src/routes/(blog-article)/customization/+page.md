@@ -4,6 +4,9 @@ title: How to Customize this Template
 date: 2024-02-26T21:55:27.154Z
 excerpt: How to customize what you're seeing here and make it your own.
 coverImage: /images/posts/customization.png
+author:
+  name: behics
+  url: https://github.com/behics
 tags:
   - Documentation
 ---
