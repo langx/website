@@ -219,5 +219,6 @@ export const keywords = [
 	'lingua scambio in Faroese', // 'language exchange in Faroese' in Faroese
 	'lingua scambio in Icelandic', // 'language exchange in Icelandic' in Icelandic
 	'lingua scambio in Greenlandic', // 'language exchange in Greenlandic' in Greenlandic
-	'lingua scambio in Sami' // 'language exchange in Sami' in Sami
+	'lingua scambio in Sami', // 'language exchange in Sami' in Sami
+	'blog'
 ];
