@@ -3,7 +3,7 @@ slug: project-structure
 title: Project Structure
 date: 2024-02-26T21:55:21.800Z
 excerpt: How code and structure are organized.
-coverImage: /images/posts/project-structure.jpg
+coverImage: /images/posts/project-structure.png
 tags:
   - Documentation
 ---
