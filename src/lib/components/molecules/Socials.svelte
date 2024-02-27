@@ -1,9 +1,18 @@
 <script>
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
+	import DiscordIcon from '$lib/icons/socials/discord.svelte';
 </script>
 
 <div class="socials">
+	<a
+		href="https://discord.gg/CpDZ3kg2rJ"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Join our Discord server"
+	>
+		<DiscordIcon />
+	</a>
 	<a
 		href="https://github.com/languageXchange"
 		target="_blank"
