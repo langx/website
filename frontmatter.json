@@ -58,6 +58,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/project-structure",
 			"title": "project-structure"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/open-source-alternative-to-tandem",
+			"title": "open-source-alternative-to-tandem"
 		}
 	]
 }
