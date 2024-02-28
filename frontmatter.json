@@ -62,6 +62,18 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/open-source-alternative-to-tandem",
 			"title": "open-source-alternative-to-tandem"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/want-to-start-a-journey-that-may-change-your-life",
+			"title": "want-to-start-a-journey-that-may-change-your-life"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/stop-the-struggle-how-to-remember-your-foreign-languages-even-after-years",
+			"title": "stop-the-struggle-how-to-remember-your-foreign-languages-even-after-years"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/10-reasons-why-language-exchange-will-revolutionize-your-learning-journey",
+			"title": "10-reasons-why-language-exchange-will-revolutionize-your-learning-journey"
 		}
 	]
 }
