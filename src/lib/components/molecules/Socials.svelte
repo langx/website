@@ -2,6 +2,10 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
 	import DiscordIcon from '$lib/icons/socials/discord.svelte';
+	import XIcon from '$lib/icons/socials/x.svelte';
+	import InstagramIcon from '$lib/icons/socials/instagram.svelte';
+	import YoutubeIcon from '$lib/icons/socials/youtube.svelte';
+	import FacebookIcon from '$lib/icons/socials/facebook.svelte';
 </script>
 
 <div class="socials">
@@ -12,6 +16,38 @@
 		title="Join our Discord server"
 	>
 		<DiscordIcon />
+	</a>
+	<a
+		href="https://instagram.com/languageXapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our Instagram Page"
+	>
+		<InstagramIcon />
+	</a>
+	<a
+		href="https://x.com/languageXapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our X Page"
+	>
+		<XIcon />
+	</a>
+	<a
+		href="https://www.facebook.com/languageXapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our Facebook Page"
+	>
+		<FacebookIcon />
+	</a>
+	<a
+		href="https://www.youtube.com/@languageXchange"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our YouTube Channel"
+	>
+		<YoutubeIcon />
 	</a>
 	<a
 		href="https://github.com/languageXchange"
