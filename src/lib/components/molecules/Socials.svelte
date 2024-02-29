@@ -6,6 +6,7 @@
 	import InstagramIcon from '$lib/icons/socials/instagram.svelte';
 	import YoutubeIcon from '$lib/icons/socials/youtube.svelte';
 	import FacebookIcon from '$lib/icons/socials/facebook.svelte';
+	import TikTokIcon from '$lib/icons/socials/tiktok.svelte';
 </script>
 
 <div class="socials">
@@ -16,6 +17,14 @@
 		title="Join our Discord server"
 	>
 		<DiscordIcon />
+	</a>
+	<a
+		href="https://tiktok.com/@languageXapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our TikTok Page"
+	>
+		<TikTokIcon />
 	</a>
 	<a
 		href="https://instagram.com/languageXapp"
