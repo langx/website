@@ -8,7 +8,7 @@
 	onMount(() => {
 		setTimeout(() => {
 			show = true;
-		}, 3000); // Delay of 3 second
+		}, 3000); // Delay
 	});
 </script>
 
