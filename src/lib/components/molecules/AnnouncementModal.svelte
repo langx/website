@@ -17,11 +17,11 @@
 		<div class="modal-content">
 			<button class="close-button" on:click={() => (show = false)}>X</button>
 			<div class="content">
-				<h4>⬆️ Breaking News!</h4>
+				<h4>🚀 Do you want to contribute to us?</h4>
 				<p>
-					We are now live on <SparklingHighlight
-						><a href="https://pitchwall.co/product/languagexchange" target="_blank">PitchWall</a>
-					</SparklingHighlight>! Upvote us there.
+					Join us on <SparklingHighlight
+						><a href="https://discord.gg/CpDZ3kg2rJ" target="_blank">Discord</a>
+					</SparklingHighlight> and let's make something amazing together!
 				</p>
 			</div>
 		</div>
