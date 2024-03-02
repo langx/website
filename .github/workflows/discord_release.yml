@@ -25,7 +25,7 @@ jobs:
 
       - name: Send Discord Notification
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_GITHUB_RELEASES_WEBHOOK }}
           RELEASE_NOTES: ${{ env.release_notes }}
           RELEASE_URL: ${{ env.release_url }}
           RELEASE_VERSION: ${{ env.release_version }}
