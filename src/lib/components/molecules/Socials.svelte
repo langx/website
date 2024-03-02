@@ -7,6 +7,7 @@
 	import YoutubeIcon from '$lib/icons/socials/youtube.svelte';
 	import FacebookIcon from '$lib/icons/socials/facebook.svelte';
 	import TikTokIcon from '$lib/icons/socials/tiktok.svelte';
+	import BlueskyIcon from '$lib/icons/socials/bluesky.svelte';
 </script>
 
 <div class="socials">
@@ -57,6 +58,14 @@
 		title="See our YouTube Channel"
 	>
 		<YoutubeIcon />
+	</a>
+	<a
+		href="https://bsky.app/profile/languagexapp.bsky.social"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our BlueSky Page"
+	>
+		<BlueskyIcon />
 	</a>
 	<a
 		href="https://github.com/languageXchange"
