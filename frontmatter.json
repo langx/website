@@ -74,6 +74,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/10-reasons-why-language-exchange-will-revolutionize-your-learning-journey",
 			"title": "10-reasons-why-language-exchange-will-revolutionize-your-learning-journey"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/why-consistent-practice-is-key-to-language-learning-success",
+			"title": "why-consistent-practice-is-key-to-language-learning-success"
 		}
 	]
 }
