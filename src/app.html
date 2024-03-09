@@ -30,14 +30,32 @@
 		/>
 		<link rel="shortcut icon" href="%sveltekit.assets%/favicons/favicon.ico" />
 		-->
-		<link rel="apple-touch-icon" sizes="180x180" href="%sveltekit.assets%/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="%sveltekit.assets%/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="%sveltekit.assets%/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="%sveltekit.assets%/favicons/site.webmanifest" />
-    <link rel="mask-icon" href="%sveltekit.assets%/favicons/safari-pinned-tab.svg" color="#ffc409" />
-    <meta name="apple-mobile-web-app-title" content="languageXchange" />
-    <meta name="application-name" content="languageXchange" />
-    <meta name="msapplication-TileColor" content="#ffc409" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="%sveltekit.assets%/favicons/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="%sveltekit.assets%/favicons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="%sveltekit.assets%/favicons/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="%sveltekit.assets%/favicons/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="%sveltekit.assets%/favicons/safari-pinned-tab.svg"
+			color="#ffc409"
+		/>
+		<meta name="apple-mobile-web-app-title" content="languageXchange" />
+		<meta name="application-name" content="languageXchange" />
+		<meta name="msapplication-TileColor" content="#ffc409" />
 		<!-- Tell browser this site is responsive -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- Tell browser this site supports light and dark mode -->
@@ -54,11 +72,15 @@
 			document.firstElementChild?.setAttribute('data-theme', theme);
 		</script>
 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJGSVHN3CW"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
+			function gtag() {
+				dataLayer.push(arguments);
+			}
 			gtag('js', new Date());
 
 			gtag('config', 'G-DJGSVHN3CW');
