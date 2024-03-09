@@ -78,6 +78,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/why-consistent-practice-is-key-to-language-learning-success",
 			"title": "why-consistent-practice-is-key-to-language-learning-success"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/introducing-our-day-streaks-a-discussion-on-their-importance",
+			"title": "introducing-our-day-streaks-a-discussion-on-their-importance"
 		}
 	]
 }
