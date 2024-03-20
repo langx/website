@@ -8,6 +8,7 @@
 	import FacebookIcon from '$lib/icons/socials/facebook.svelte';
 	import TikTokIcon from '$lib/icons/socials/tiktok.svelte';
 	import BlueskyIcon from '$lib/icons/socials/bluesky.svelte';
+	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
 </script>
 
 <div class="socials">
@@ -18,6 +19,14 @@
 		title="Join our Discord server"
 	>
 		<DiscordIcon />
+	</a>
+	<a
+		href="https://t.me/languageXapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Join our Telegram Channel"
+	>
+		<TelegramIcon />
 	</a>
 	<a
 		href="https://tiktok.com/@languageXapp"
