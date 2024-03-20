@@ -5,8 +5,8 @@ coverImage: /images/posts/10-reasons-why-language-exchange-will-revolutionize-yo
 date: 2024-02-28T08:52:31.808Z
 excerpt: Unleash the potential of language exchange for immersive learning and cultural insight. Join the community and transform your language journey today!
 author:
-  name: behics
-  url: https://github.com/behics
+  name: xuelink 
+  url: https://github.com/xuelink
 tags:
   - Language Exchange
   - Immersive Learning

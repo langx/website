@@ -5,8 +5,8 @@ coverImage: /images/posts/why-consistent-practice-is-key-to-language-learning-su
 date: 2024-03-03T00:22:54.639Z
 excerpt: Language learning is a journey that requires dedication, perseverance, and consistent practice.
 author:
-  name: behics
-  url: https://github.com/behics
+  name: xuelink
+  url: https://github.com/xuelink
 tags:
   - Language Practice
   - Language Learning

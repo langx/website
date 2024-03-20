@@ -5,8 +5,8 @@ coverImage: /images/posts/introducing-our-day-streaks-importance-discussion.png
 date: 2024-03-09T13:58:03.363Z
 excerpt: We're excited to introduce our Day Streaks feature. Explore the importance of building language streaks in language learning and discover diverse perspectives on this topic.
 author:
-  name: behics
-  url: https://github.com/behics
+  name: xuelink
+  url: https://github.com/xuelink
 tags:
   - Language Exchange
   - Conversional Exchange

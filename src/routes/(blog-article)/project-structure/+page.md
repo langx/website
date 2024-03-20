@@ -5,8 +5,8 @@ date: 2024-02-26T21:55:21.800Z
 excerpt: How code and structure are organized.
 coverImage: /images/posts/project-structure.png
 author:
-  name: behics
-  url: https://github.com/behics
+  name: xuelink
+  url: https://github.com/xuelink
 tags:
   - Documentation
 ---

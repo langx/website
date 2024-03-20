@@ -5,8 +5,8 @@ date: 2024-02-27T11:15:21.800Z
 excerpt: We've been working on an exciting project for the almost past year.
 coverImage: /images/posts/featured_screenshots.jpeg
 author:
-  name: behics
-  url: https://github.com/behics
+  name: xuelink
+  url: https://github.com/xuelink
 tags:
   - Open Source
   - Language Exchange
