@@ -84,14 +84,14 @@
 	>
 		<GitHubIcon />
 	</a>
-	<a
+	<!-- <a
 		href="mailto:info@languagexchange.net"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"
 	>
 		<EmailIcon />
-	</a>
+	</a> -->
 </div>
 
 <style lang="scss">

@@ -76,7 +76,7 @@
 		</div>
 		<div class="socials">
 			<Socials />
-			<RssLink />
+			<!-- <RssLink /> -->
 		</div>
 	</div>
 </footer>
