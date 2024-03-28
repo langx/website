@@ -61,7 +61,7 @@
 		<FacebookIcon />
 	</a>
 	<a
-		href="https://www.youtube.com/@languageXchange"
+		href="https://www.youtube.com/@languageXapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our YouTube Channel"
