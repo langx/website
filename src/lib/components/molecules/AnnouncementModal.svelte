@@ -20,8 +20,8 @@
 				<h4>🚀 Excited to announce the launch of our innovative 'Learn to Earn' Token Project</h4>
 				<p>
 					🥇 Get ready to revolutionize language learning and earn reward <SparklingHighlight
-						><a href="http://token.langx.io" target="_blank">langX</a></SparklingHighlight
-					> tokens while you improve your skills!
+						><a href="http://token.langx.io" target="_blank">LangX Token</a></SparklingHighlight
+					> while you improve your skills!
 				</p>
 			</div>
 		</div>
