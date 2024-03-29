@@ -29,7 +29,7 @@
 		<TelegramIcon />
 	</a>
 	<a
-		href="https://tiktok.com/@languageXapp"
+		href="https://tiktok.com/@langXapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our TikTok Page"
