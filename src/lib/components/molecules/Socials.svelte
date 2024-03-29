@@ -29,6 +29,30 @@
 		<TelegramIcon />
 	</a>
 	<a
+		href="https://x.com/languageXapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our X Page"
+	>
+		<XIcon />
+	</a>
+	<a
+		href="https://bsky.app/profile/langx.io"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our BlueSky Page"
+	>
+		<BlueskyIcon />
+	</a>
+	<a
+		href="https://www.facebook.com/langxapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our Facebook Page"
+	>
+		<FacebookIcon />
+	</a>
+	<a
 		href="https://tiktok.com/@langXapp"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -45,36 +69,12 @@
 		<InstagramIcon />
 	</a>
 	<a
-		href="https://x.com/languageXapp"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See our X Page"
-	>
-		<XIcon />
-	</a>
-	<a
-		href="https://www.facebook.com/langxapp"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See our Facebook Page"
-	>
-		<FacebookIcon />
-	</a>
-	<a
 		href="https://www.youtube.com/@langxapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our YouTube Channel"
 	>
 		<YoutubeIcon />
-	</a>
-	<a
-		href="https://bsky.app/profile/langx.io"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See our BlueSky Page"
-	>
-		<BlueskyIcon />
 	</a>
 	<a
 		href="https://github.com/langxapp"
