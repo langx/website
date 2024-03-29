@@ -77,7 +77,7 @@
 		<BlueskyIcon />
 	</a>
 	<a
-		href="https://github.com/languageXchange"
+		href="https://github.com/langxapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our GitHub Page"

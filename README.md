@@ -1,4 +1,4 @@
-[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/wm9t.svg)](https://status.languagexchange.net)
+[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v1/monitor/wm9t.svg)](https://status.langx.io)
 
 # [langx.io](https://langx.io)
 
@@ -17,7 +17,7 @@ To clone this project, simply run the following command:
 
 ```bash
 # clone this repo
-git clone  https://github.com/languageXchange/website
+git clone  https://github.com/langxapp/website
 
 # install dependencies
 npm install
@@ -50,13 +50,13 @@ LangX is an open source project and we welcome contributions from the community.
 
 ## Versioning
 
-LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/languageXchange/website/releases).
+LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/langxapp/website/releases).
 
-### [v0.2](https://github.com/languageXchange/website/releases/tag/v0.2)
+### [v0.2](https://github.com/langxapp/website/releases/tag/v0.2)
 
 ![Site Preview v0.2 langx.io](static/images/site-preview.png)
 
-### [v0.1](https://github.com/languageXchange/website/releases/tag/v0.1)
+### [v0.1](https://github.com/langxapp/website/releases/tag/v0.1)
 
 ![Site Preview v0.1 langx.io](static/versioning/v0.1.png)
 

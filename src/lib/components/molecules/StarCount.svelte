@@ -8,7 +8,7 @@
 		starCount = (
 			await (
 				await fetch(
-					'https://api.github.com/repos/languageXchange/languageXchange?page=$i&per_page=100'
+					'https://api.github.com/repos/langxapp/langx?page=$i&per_page=100'
 				)
 			).json()
 		).stargazers_count;
@@ -19,7 +19,7 @@
 	<a
 		class="star"
 		target="_blank"
-		href="https://github.com/languageXchange/languageXchange/stargazers"
+		href="https://github.com/langxapp/langx/stargazers"
 	>
 		<Github />
 	</a>

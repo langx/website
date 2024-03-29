@@ -13,32 +13,32 @@
 		<div class="menu">
 			<ul>
 				<li>
-					<small><a href="https://status.languagexchange.net" target="_blank">Status</a></small>
+					<small><a href="https://status.langx.io" target="_blank">Status</a></small>
 				</li>
 				<li>
 					<small>
-						<a href="https://github.com/languageXchange/website#contributing" target="_blank">
+						<a href="https://github.com/langxapp/website#contributing" target="_blank">
 							Contribute
 						</a></small
 					>
 				</li>
 				<li>
 					<small>
-						<a href="https://github.com/languageXchange/languageXchange/contribute" target="_blank"
+						<a href="https://github.com/langxapp/langx/contribute" target="_blank"
 							>Good First Issues</a
 						>
 					</small>
 				</li>
 				<li>
 					<small>
-						<a href="https://github.com/languageXchange/website/releases" target="_blank"
+						<a href="https://github.com/langxapp/website/releases" target="_blank"
 							>Changelog</a
 						>
 					</small>
 				</li>
 				<li>
 					<small>
-						<a href="https://github.com/languageXchange/languageXchange/releases" target="_blank"
+						<a href="https://github.com/langxapp/langx/releases" target="_blank"
 							>Releases</a
 						>
 					</small>
@@ -61,7 +61,7 @@
 			<small>
 				This project is completely open source and licensed under the
 				<a
-					href="https://github.com/languageXchange/website/blob/main/LICENSE"
+					href="https://github.com/langxapp/website/blob/main/LICENSE"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
