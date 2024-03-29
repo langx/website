@@ -2,11 +2,11 @@
 
 	<h1>Cookie Policy</h1>
 
-	*Effective Date: 28, January 2024*
+	*Effective Date: 29, March 2024*
 
 	1. Introduction
 
-		This Cookie Policy explains how LanguageXchange, a product of New Chapter Technology Limited Liability Company, uses cookies and similar technologies on the LanguageXchange app ("the App"). By using the App, you consent to the use of cookies as described in this policy.
+		This Cookie Policy explains how LangX, a product of New Chapter Technology Limited Liability Company, uses cookies and similar technologies on the LangX app ("the App"). By using the App, you consent to the use of cookies as described in this policy.
 
 	2. What are Cookies?
 
@@ -44,7 +44,7 @@
 
 	7. GDPR Compliance
 
-		We are pleased to mention that languageXchange is GDPR compliant. Our backend services are powered by Appwrite, which is also GDPR compliant. This means we adhere to the regulations and requirements set by the General Data Protection Regulation (GDPR) to protect your data and privacy. For more information, please refer to the <a href="https://appwrite.io/blog/post/announcing-appwrite-is-gdpr-compliant" target="_blank">GDPR compliance announcement</a>.
+		We are pleased to mention that LangX is GDPR compliant thanks to our backend services are powered by Appwrite, which is GDPR compliant. This means we adhere to the regulations and requirements set by the General Data Protection Regulation (GDPR) to protect your data and privacy. For more information, please refer to the <a href="https://appwrite.io/blog/post/announcing-appwrite-is-gdpr-compliant" target="_blank">GDPR compliance announcement</a>.
 		
 	8. Contact Information
 

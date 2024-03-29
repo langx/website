@@ -2,15 +2,15 @@
 
 	<h1>Terms and Conditions</h1>
 
-	*Effective Date: 28, January 2024*
+	*Effective Date: 29, March 2024*
 
 	1. Acceptance of Terms
 
-		By accessing or using the LanguageXchange app ("the App"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not use our services.
+		By accessing or using the LangX app ("the App"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you may not use our services.
 	
 	2. User Eligibility
 	
-		You must be at least 18 years old to create an account and use the LanguageXchange app. By using the App, you represent and warrant that you are at least 18 years old.
+		You must be at least 18 years old to create an account and use the LangX app. By using the App, you represent and warrant that you are at least 18 years old.
 	
 	3. Account Registration and Security
 	
@@ -27,19 +27,19 @@
 	
 	5. Intellectual Property
 	
-		All content and materials available on the App, including but not limited to text, graphics, logos, button icons, images, audio clips, and data compilations, are the property of LanguageXchange or its content suppliers and are protected by international copyright laws.
+		All content and materials available on the App, including but not limited to text, graphics, logos, button icons, images, audio clips, and data compilations, are the property of LangX or its content suppliers and are protected by international copyright laws.
 	
 	6. Limitation of Liability
 	
-		To the extent permitted by applicable law, LanguageXchange and its affiliates, officers, employees, agents, partners, and licensors shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.
+		To the extent permitted by applicable law, LangX and its affiliates, officers, employees, agents, partners, and licensors shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.
 	
 	7. Termination
 	
-		LanguageXchange reserves the right to terminate or suspend your account and access to the App for any reason, including but not limited to a violation of these Terms and Conditions.
+		LangX reserves the right to terminate or suspend your account and access to the App for any reason, including but not limited to a violation of these Terms and Conditions.
 	
 	8. Changes to Terms and Conditions
 	
-		LanguageXchange may update these Terms and Conditions from time to time. You are advised to review these terms periodically for any changes.
+		LangX may update these Terms and Conditions from time to time. You are advised to review these terms periodically for any changes.
 	
 	9. Governing Law
 	

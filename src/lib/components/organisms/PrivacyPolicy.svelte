@@ -2,17 +2,17 @@
 
 	<h1>Privacy Policy</h1>
 
-	*Effective Date: 28, January 2024*
+	*Effective Date: 29, March 2024*
 
 	1. Introduction
 
-		Welcome to LanguageXchange, a language learning platform designed to connect language learners worldwide. This Privacy Policy is designed to inform you about the types of information we collect, why we collect it, and how we use and protect that information. LanguageXchange is a product of New Chapter Technology Limited Liability Company.
+		Welcome to LangX, a language learning platform designed to connect language learners worldwide. This Privacy Policy is designed to inform you about the types of information we collect, why we collect it, and how we use and protect that information. LangX is a product of New Chapter Technology Limited Liability Company.
 
 	2. Information We Collect
 
 		2.1 Personal Information
 
-		When you create an account on LanguageXchange, we collect the following personal information:
+		When you create an account on LangX, we collect the following personal information:
 
 			- Name
 			- Email address
@@ -47,7 +47,7 @@
 
 		We use your personal information to:
 
-			-	Create and manage your LanguageXchange account
+			-	Create and manage your LangX account
 			-	Connect you with native speakers for language practice
 			-	Customize content based on your language preferences
 
@@ -94,7 +94,7 @@
 
 	6. Cookies and Similar Technologies
 
-		LanguageXchange may use cookies and similar technologies to:
+		LangX may use cookies and similar technologies to:
 
 			-	Improve user experience
 			-	Analyze usage patterns
@@ -133,7 +133,7 @@
 
 	11. Official Contact Information
 
-		LanguageXchange is a product of New Chapter Technology Limited Liability Company, a legal entity registered under the laws with a registered address at:
+		LangX is a product of New Chapter Technology Limited Liability Company, a legal entity registered under the laws with a registered address at:
 
 		- 34 N Franklin Ave Ste 687 2534 Pinedale, WY 82941
 

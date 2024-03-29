@@ -2,13 +2,13 @@
 
 	<h1>Data Deletion Instructions</h1>
 
-	*Effective Date: 28, January 2024*
+	*Effective Date: 29, March 2024*
 
-		If you would like to request the deletion of your personal data from languageXchange, please follow the instructions below:
+		If you would like to request the deletion of your personal data from LangX, please follow the instructions below:
 	
 	1. Account Deletion:
 	
-		-	Log in to your languageXchange account.
+		-	Log in to your LangX account.
 		-	Navigate to the profile section.
 		- Navigate to the upper right corner of the interface and select the settings icon, represented by a gear symbol.
 		- Please proceed to select the "Account" option.
@@ -27,7 +27,7 @@
 	
 		-	Subject: Data Deletion Request
 		-	Your full name
-		-	The email address associated with your languageXchange account
+		-	The email address associated with your LangX account
 		-	A brief description of your request
 	
 	3. Verification:
@@ -44,11 +44,11 @@
 	
 	6. Third-Party Services:
 	
-		Should you choose to delete your languageXchange account, please be informed that all data linked to third-party services will also be automatically deleted.	
+		Should you choose to delete your LangX account, please be informed that all data linked to third-party services will also be automatically deleted.	
 
 	7. Confirmation:
 	
-		Once your data has been successfully deleted, you will receive a confirmation email at the address associated with your languageXchange account.
+		Once your data has been successfully deleted, you will receive a confirmation email at the address associated with your LangX account.
 	
 	8. Changes to Instructions:
 	
