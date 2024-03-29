@@ -11,7 +11,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"optimize-images": "image-transmutation --run --sourceFolder './build/images' --targetFolder './build/images' --inputFormats 'jpg' --inputFormats 'jpeg' --inputFormats 'png' --outputFormats 'png' --outputFormats 'webp' --outputFormats 'avif'",
-		"postbuild": "npm run optimize-images && svelte-sitemap --domain https://languagexchange.net/"
+		"postbuild": "npm run optimize-images && svelte-sitemap --domain https://langx.io/"
 	},
 	"devDependencies": {
 		"@neoconfetti/svelte": "^1.0.0",

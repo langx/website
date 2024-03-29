@@ -2,7 +2,7 @@
 // So they can be added as suffixes on different pages
 // Via <svelte:head>
 
-export const siteBaseUrl = 'https://languageXchange.net/';
+export const siteBaseUrl = 'https://langX.io/';
 
 export const description =
 	'We connect language learners worldwide. Practice and immerse yourself in different languages.';

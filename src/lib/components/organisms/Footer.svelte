@@ -56,7 +56,7 @@
 				<li><small><a href="data-deletion">Deletion</a></small></li>
 			</ul>
 		</div>
-		<div class="copyright">© 2024 languageXchange - Practice, Learn, Succeed!</div>
+		<div class="copyright">© 2024 LangX | Practice, Learn, Succeed!</div>
 		<div class="credits">
 			<small>
 				This project is completely open source and licensed under the
