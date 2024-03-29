@@ -21,7 +21,7 @@
 		<DiscordIcon />
 	</a>
 	<a
-		href="https://t.me/languageXapp"
+		href="https://t.me/langxapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Join our Telegram Channel"
@@ -37,7 +37,7 @@
 		<TikTokIcon />
 	</a>
 	<a
-		href="https://instagram.com/languageXapp"
+		href="https://instagram.com/langxapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our Instagram Page"
@@ -53,7 +53,7 @@
 		<XIcon />
 	</a>
 	<a
-		href="https://www.facebook.com/languageXapp"
+		href="https://www.facebook.com/langxapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our Facebook Page"
@@ -61,7 +61,7 @@
 		<FacebookIcon />
 	</a>
 	<a
-		href="https://www.youtube.com/@languageXapp"
+		href="https://www.youtube.com/@langxapp"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our YouTube Channel"
@@ -69,7 +69,7 @@
 		<YoutubeIcon />
 	</a>
 	<a
-		href="https://bsky.app/profile/languagexapp.bsky.social"
+		href="https://bsky.app/profile/langx.io"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our BlueSky Page"
