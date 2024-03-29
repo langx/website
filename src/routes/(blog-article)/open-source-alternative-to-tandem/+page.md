@@ -22,17 +22,17 @@ tags:
 
 # A New and Simple Language Exchange App
 
-We're excited to announce the launch of languageXchange, a 100% free and open sourced language exchange app, best alternative of Tandem. The app is designed to help language learners connect with native speakers of the language they're learning.
+We're excited to announce the launch of LangX, a 100% free and open sourced language exchange app, best alternative of Tandem. The app is designed to help language learners connect with native speakers of the language they're learning.
 
 ## How It Works
 
-languageXchange is simple and straightforward to use. After signing up, you'll be asked to select your native language and the language you're learning. You'll then be matched with native speakers of your target language who are learning your native language.
+LangX is simple and straightforward to use. After signing up, you'll be asked to select your native language and the language you're learning. You'll then be matched with native speakers of your target language who are learning your native language.
 
 <Callout type="info">
-  languageXchange is a great way to practice a new language with native speakers!
+  LangX is a great way to practice a new language with native speakers!
 </Callout>
 
-<Image src="/images/posts/app-preview.gif" alt="Preview of the LanguageXchange app, showing the user interface and features" />
+<Image src="/images/posts/app-preview.gif" alt="Preview of the LangX app, showing the user interface and features" />
 
 ## Features
 
@@ -62,7 +62,7 @@ And, The Most Exciting one is that
 
 ## Be a Contributor
 
-We're always looking for contributors to help improve languageXchange. If you're interested in contributing, join our <a href="https://discord.gg/CpDZ3kg2rJ" target="_blank">Discord server</a> and check out the project on <a href="https://github.com/languageXchange/languageXchange" target="_blank">GitHub</a>.
+We're always looking for contributors to help improve LangX. If you're interested in contributing, join our <a href="https://discord.gg/CpDZ3kg2rJ" target="_blank">Discord server</a> and check out the project on <a href="https://github.com/languageXchange/languageXchange" target="_blank">GitHub</a>.
 
 <Callout type="info">
   Whatever you can contribute, whether it's code, design, or translations, marketing, and so on, we'd love to have you on board.
@@ -72,4 +72,4 @@ Additionally, we're looking for language exchange partners to help test the app.
 
 ## Conclusion
 
-We're excited to launch languageXchange and look forward to helping language learners connect with native speakers. To stay updated on the latest languageXchange news and updates, be sure to follow us on [Discord](https://discord.gg/CpDZ3kg2rJ).
+We're excited to launch LangX and look forward to helping language learners connect with native speakers. To stay updated on the latest LangX news and updates, be sure to follow us on [Discord](https://discord.gg/CpDZ3kg2rJ).

@@ -28,4 +28,4 @@ tags:
 
 ## and **where**?
 
-> Therefore my suggestion: Get a __social__ learning app, like i.e. [***__languageXchange__***](https://languagexchange.net/), where you can text, send voice-massages for pronunciation and even dive into the culture of others. This covers any aspect from successfully learning any, even the hardest languages as if it were a cakewalk. The best part; this one even is ***free!***
+> Therefore my suggestion: Get a __social__ learning app, like i.e. [***__LangX__***](https://langx.io/), where you can text, send voice-massages for pronunciation and even dive into the culture of others. This covers any aspect from successfully learning any, even the hardest languages as if it were a cakewalk. The best part; this one even is ***free!***

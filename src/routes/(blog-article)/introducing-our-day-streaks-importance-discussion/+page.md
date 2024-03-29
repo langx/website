@@ -25,11 +25,11 @@ tags:
 
 ## **Introducing Our Day Streaks**
 
-As a response to the diverse needs and preferences of our users, we at LanguageXchange are excited to announce the release of our Day Streaks feature. This new feature aims to encourage consistency and regular practice in language learning. Users can now track their daily progress and build streaks as they continue their language learning journey with us. We believe this feature will add an extra layer of motivation and make language learning even more engaging.
+As a response to the diverse needs and preferences of our users, we at LangX are excited to announce the release of our Day Streaks feature. This new feature aims to encourage consistency and regular practice in language learning. Users can now track their daily progress and build streaks as they continue their language learning journey with us. We believe this feature will add an extra layer of motivation and make language learning even more engaging.
 
 Remember, whether you prefer daily streaks, longer study sessions, or alternative approaches, the key is to find a method that works best for you and keeps you motivated on your language learning journey. Happy learning!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📣 Announcement (v0.6.3)<br>- The Day Streak feature is now live! Maintain your streak and don&#39;t break the chain.<br>- The Leaderboard for top streakers is now active. See more in issue.<a href="https://t.co/8AvoFggRsI">https://t.co/8AvoFggRsI</a> <a href="https://t.co/bjq30iIfrW">pic.twitter.com/bjq30iIfrW</a></p>&mdash; languageXchange (@languageXapp) <a href="https://twitter.com/languageXapp/status/1765302479783076257?ref_src=twsrc%5Etfw">March 6, 2024</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">📣 Announcement (v0.6.3)<br>- The Day Streak feature is now live! Maintain your streak and don&#39;t break the chain.<br>- The Leaderboard for top streakers is now active. See more in issue.<a href="https://t.co/8AvoFggRsI">https://t.co/8AvoFggRsI</a> <a href="https://t.co/bjq30iIfrW">pic.twitter.com/bjq30iIfrW</a></p>&mdash; LangX (@languageXapp) <a href="https://twitter.com/languageXapp/status/1765302479783076257?ref_src=twsrc%5Etfw">March 6, 2024</a></blockquote>
 
 In the realm of language learning, the debate around the efficacy of building daily streaks often surfaces. Some swear by it, while others find it unnecessary or even discouraging. In a recent discussion on an open-source language exchange app, users shared their diverse experiences and perspectives on the matter.
 
@@ -59,8 +59,8 @@ Ultimately, the debate over the importance of building language streaks boils do
 
 > <a href="https://www.reddit.com/r/languagelearning/comments/1b7xn31/comment/ktmj21m/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">BitterBloodedDemon</a> shared a relatable experience with the challenges of maintaining streaks: "I just lost a 32 day streak on Duolingo... I no longer use Duo (or any app) for TL1, and I'm working on TL2."
 
-<a href="https://languagexchange.net)" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LanguageXchange" /></a>
+<a href="https://langx.io)" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
-**Download & chat for free today!** ➡️ [languageXchange](https://languagexchange.net/)
+**Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 
 **Have questions?** Contact us at [info@languagexchange.net](mailto:info@languagexchange.net), and let's keep your language skills thriving!

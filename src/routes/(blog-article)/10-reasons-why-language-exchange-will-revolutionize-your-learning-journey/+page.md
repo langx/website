@@ -64,8 +64,8 @@ Are you tired of traditional language learning methods that leave you feeling di
 
 **In conclusion,** language exchange is a game-changer for anyone looking to take their language learning journey to new heights. With its authentic immersion experience, cultural insights, and tailored learning opportunities, language exchange offers a dynamic and rewarding path to fluency. So why wait? Join a language exchange community today and revolutionize the way you learn languages!
 
-<a href="https://languagexchange.net)" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LanguageXchange" /></a>
+<a href="https://langx.io)" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
-**Download & chat for free today!** ➡️ [languageXchange](https://languagexchange.net/)
+**Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 
 **Have questions?** Contact us at [info@languagexchange.net](mailto:info@languagexchange.net), and let's keep your language skills thriving!

@@ -19,12 +19,12 @@ tags:
   import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
-*Welcome back to **lol languageXchange**, the column for language learners. Check out our past posts [here](https://languagexchange.net/blog). 🌟🗣️*
+*Welcome back to **lol LangX**, the column for language learners. Check out our past posts [here](https://langx.io/blog). 🌟🗣️*
 
 Hey language lovers! This week, we're tackling a common enemy: forgetting those hard-earned language skills. See if you can relate to this:
 
 <Callout type="info">
-  *lol languageXchange,*
+  *lol LangX,*
 
   *Have you ever felt the bittersweet tug of memory—the fading whispers of a language once vibrant on your tongue? Picture this: You’re sipping coffee in a bustling café, surrounded by the hum of foreign conversations. But as the days turn into weeks, and weeks into years, those eloquent phrases you painstakingly learned begin to blur. So, how do we defy the sands of time? How do we keep our language gardens lush, even when life’s winds threaten to scatter the petals?*
  
@@ -56,11 +56,11 @@ There are powerful tools to fight forgetting:
 - **Motivation:** Having a **reason to use the language** (work, travel, friends) acts as a powerful retention booster.
 - **Community:** Surrounding yourself with the language keeps it active in your life. ️
 
-## **Introducing [languageXchange](https://languagexchange.net/?ref=PitchWall):**
+## **Introducing [LangX](https://langx.io/):**
 
-Craving a community with **real conversations, not robotic repetition?**  ***[languageXchange](https://languagexchange.net/?ref=PitchWall)*** connects you with native speakers for **authentic language practice**. No scripts, just meaningful connections! Plus, it’s an open-source project.✨
+Craving a community with **real conversations, not robotic repetition?**  ***[LangX](https://langx.io/)*** connects you with native speakers for **authentic language practice**. No scripts, just meaningful connections! Plus, it’s an open-source project.✨
 
-**Download & chat for free today!** ➡️ [languageXchange](https://languagexchange.net/?ref=PitchWall)
+**Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 
 **Don't give up!** Language learning is an **unforgettable journey**.  Even if your skills aren't as sharp as they once were, remember: **relearning is always faster than starting from scratch!**
 
