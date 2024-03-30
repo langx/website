@@ -13,9 +13,7 @@
 	>
 		<text xml:space="preserve" id="text" transform="translate(-278.77228,-206.83728)">
 			<tspan x="275.57227" y="292.17088" id="tspan1319">
-				<tspan style="font-size:106.667px;font-family:Comfortaa;" id="tspan1317">
-					LangX
-				</tspan>
+				<tspan style="font-size:106.667px;font-family:Comfortaa;" id="tspan1317"> LangX </tspan>
 			</tspan>
 		</text>
 	</svg>
