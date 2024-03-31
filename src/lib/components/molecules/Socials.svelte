@@ -13,7 +13,7 @@
 
 <div class="socials">
 	<a
-		href="https://discord.gg/CpDZ3kg2rJ"
+		href="https://discord.com/invite/2D3jW2YDgS"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Join our Discord server"
@@ -29,7 +29,7 @@
 		<TelegramIcon />
 	</a>
 	<a
-		href="https://x.com/languageXapp"
+		href="https://x.com/langx_app"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our X Page"
