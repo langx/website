@@ -7,7 +7,7 @@ on:
 jobs:
   send-notification:
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.labels.*.name, 'bug') || contains(github.event.issue.labels.*.name, 'feature')
+    if: contains(github.event.label.name, 'bug') || contains(github.event.label.name, 'feature')
 
     steps:
       - name: Fetch Issue Details
@@ -29,6 +29,6 @@ jobs:
           ISSUE_TITLE: ${{ env.issue_title }}
           REPO_NAME: ${{ env.repo_name }}
         run: |
-          SUBTITLE="New issue in Repo: $REPO_NAME, Title: $ISSUE_TITLE"
-          PAYLOAD=$(jq -n --arg url "$ISSUE_URL" --arg st "$SUBTITLE" '{content: ($st + "\n\n" + $url)}')
+          SUBTITLE="**New Issue:** $ISSUE_TITLE **Repository:** $REPO_NAME"
+          PAYLOAD=$(jq -n --arg url "<$ISSUE_URL>" --arg st "$SUBTITLE" '{content: ($st + "\n**More:** " + $url)}')
           curl -H "Content-Type: application/json" -X POST -d "$PAYLOAD" $DISCORD_WEBHOOK
