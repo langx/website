@@ -55,5 +55,4 @@ jobs:
           projectName: website
           directory: './build'
           branch: main
-          workingDirectory: 'website'
           wranglerVersion: '3'
