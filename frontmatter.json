@@ -82,6 +82,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/introducing-our-day-streaks-importance-discussion",
 			"title": "introducing-our-day-streaks-importance-discussion"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage",
+			"title": "choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage"
 		}
 	]
 }
