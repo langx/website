@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -7,15 +7,12 @@ on:
 jobs:
   build_site:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
-      # - name: Install pnpm
-      #   uses: pnpm/action-setup@v2
-      #   with:
-      #     version: 8
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -33,24 +30,30 @@ jobs:
           npm run build
 
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
-          # this should match the `pages` option in your adapter-static options
+          name: website
           path: 'build/'
 
   deploy:
     needs: build_site
     runs-on: ubuntu-latest
-
     permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
+      contents: read
+      deployments: write
     steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Download Artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: website
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: website
+          directory: './build'
+          branch: main
+          workingDirectory: 'website'
+          wranglerVersion: '3'
