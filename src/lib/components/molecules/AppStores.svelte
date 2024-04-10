@@ -9,7 +9,7 @@
 		rel="noopener noreferrer"
 		title="Download the app from App Store"
 	>
-		<Image src="images/ios.png" alt="Apple App Store"></Image>
+		<Image src="images/ios.png" alt="Apple App Store" />
 	</a>
 	<a
 		href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange"
@@ -17,7 +17,10 @@
 		rel="noopener noreferrer"
 		title="Download the app from Google Play Store"
 	>
-		<Image src="images/android.png" alt="Google Play Store"></Image>
+		<Image src="images/android.png" alt="Google Play Store" />
+	</a>
+	<a href="https://app.langx.io" target="_blank" rel="noopener noreferrer" title="Open Web App">
+		<Image src="images/pwa.png" alt="Progressive Web App" />
 	</a>
 </div>
 
