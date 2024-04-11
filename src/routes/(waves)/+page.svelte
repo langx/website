@@ -3,6 +3,7 @@
 	import About from '$lib/components/organisms/About.svelte';
 	import Features from '$lib/components/organisms/Features.svelte';
 	import RecentPosts from '$lib/components/organisms/RecentPosts.svelte';
+	import Faq from '$lib/components/organisms/FAQ.svelte';
 	import type { Feature, BlogPost } from '$lib/utils/types';
 
 	export let data: {
@@ -20,4 +21,5 @@
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />
 	{/if}
+	<Faq />
 </div>
