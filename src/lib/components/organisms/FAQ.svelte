@@ -12,7 +12,7 @@
 		{
 			id: 1,
 			title: 'What platforms do we support?',
-			content: `LangX is available for free on <a href="https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">ios</span></a>, <a href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange&pli=1" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">android</span></a> and on the <a href="/" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">web</span></a>.`,
+			content: `LangX is available for free on <a href="https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">ios</span></a>, <a href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">android</span></a> and on the <a href="https://app.langx.io" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">web app</span></a>.`,
 			isOpen: false
 		},
 		{
