@@ -60,6 +60,19 @@ LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the ve
 
 ![Site Preview v0.1 langx.io](static/versioning/v0.1.png)
 
+## Stats
+
+### Stargazers
+
+[![Stargazers over time](https://starchart.cc/langxapp/website.svg?variant=adaptive)](https://starchart.cc/langxapp/website)
+
+### Contributors
+
+[![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=langxapp/website)](https://git-contributor.com?chart=contributorOverTime&repo=langxapp/website)
+
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=langxapp/website)](https://github.com/langxapp/website/graphs/contributors)
+
+
 ## License
 
 LangX is released under the [MIT License](./LICENSE). If you use this project, please include the license file in your distribution.
