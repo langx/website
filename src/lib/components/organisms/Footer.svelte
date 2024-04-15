@@ -50,10 +50,10 @@
 				</li>
 			</ul>
 			<ul>
-				<li><small><a href="privacy-policy">Privacy</a></small></li>
-				<li><small><a href="terms-conditions">Terms</a></small></li>
-				<li><small><a href="cookie-policy">Cookie</a></small></li>
-				<li><small><a href="data-deletion">Deletion</a></small></li>
+				<li><small><a href="/privacy-policy">Privacy</a></small></li>
+				<li><small><a href="/terms-conditions">Terms</a></small></li>
+				<li><small><a href="/cookie-policy">Cookie</a></small></li>
+				<li><small><a href="/data-deletion">Deletion</a></small></li>
 			</ul>
 		</div>
 		<div class="copyright">© 2024 LangX | Practice, Learn, Succeed!</div>
