@@ -4,7 +4,8 @@
 	import Features from '$lib/components/organisms/Features.svelte';
 	import RecentPosts from '$lib/components/organisms/RecentPosts.svelte';
 	import Faq from '$lib/components/organisms/FAQ.svelte';
-	import Sponsors from '$lib/components/organisms/Sponsors.svelte';
+	import CSponsors from '$lib/components/organisms/CSponsors.svelte';
+	import BCSponsors from '$lib/components/organisms/BCSponsors.svelte';
 	import type { Feature, BlogPost } from '$lib/utils/types';
 
 	export let data: {
@@ -22,6 +23,7 @@
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />
 	{/if}
-	<Sponsors />
+	<!-- <CSponsors /> -->
+	<!-- <BCSponsors /> -->
 	<Faq />
 </div>
