@@ -1,6 +1,6 @@
 <section id="bcsponsors">
 	<div>
-		<h2>Backed by companies from world's growing organizations</h2>
+		<h2>Powered by companies from world's growing organizations</h2>
 		<div class="sponsor-container">
 			<div>
 				<a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">
