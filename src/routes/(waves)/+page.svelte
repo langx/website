@@ -19,11 +19,11 @@
 <div class="container">
 	<Hero />
 	<About />
+	<CSponsors />
 	<Features {features} />
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />
 	{/if}
-	<!-- <CSponsors /> -->
-	<!-- <BCSponsors /> -->
+	<BCSponsors />
 	<Faq />
 </div>
