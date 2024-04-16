@@ -74,15 +74,8 @@
 
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-		<!-- Insight Tag (tracker.js) -->
-		<script>
-			(function () {
-				window.counterscale = {
-					q: [['set', 'siteId', 'website'], ['trackPageview']]
-				};
-			})();
-		</script>
-		<script id="counterscale-script" src="https://insight.langx.io/tracker.js" defer></script>
+		<!-- Insight Tag (script.js) -->
+		<script defer data-domain="langx.io" src="https://insight.langx.io/js/script.js"></script>
 
 		%sveltekit.head%
 	</head>
