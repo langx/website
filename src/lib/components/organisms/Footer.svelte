@@ -47,16 +47,16 @@
 						<h3>Legal</h3>
 						<ul role="list">
 							<li>
-								<a href="https://langx.io/privacy-policy" target="_blank">Privacy</a>
+								<a href="/privacy-policy" target="_blank">Privacy</a>
 							</li>
 							<li>
-								<a href="https://langx.io/terms-conditions" target="_blank">Terms</a>
+								<a href="/terms-conditions" target="_blank">Terms</a>
 							</li>
 							<li>
-								<a href="https://langx.io/data-deletion" target="_blank">Deletion</a>
+								<a href="/data-deletion" target="_blank">Deletion</a>
 							</li>
 							<li>
-								<a href="https://langx.io/cookie-policy" target="_blank">Cookie</a>
+								<a href="/cookie-policy" target="_blank">Cookie</a>
 							</li>
 							<li>
 								<a href="mailto:info@languagexchange.net" target="_blank">Contact</a>
