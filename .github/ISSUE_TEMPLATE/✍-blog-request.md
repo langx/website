@@ -1,9 +1,8 @@
 ---
-name: "✍️ Blog Post Request"
+name: '✍️ Blog Post Request'
 about: Suggest an idea for a blog post
-title: "✍️ : "
+title: '✍️ Requested Blog Post: '
 labels: triage
-
 ---
 
 **What's the topic of the blog post?**
