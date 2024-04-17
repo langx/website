@@ -94,13 +94,13 @@
 								<a href="https://github.com/langxapp/langx/contribute" target="_blank">Goodfirstissue</a>
 							</li>
 							<li>
-								<a href="https://github.com/langxapp/website/releases" target="_blank">changelog</a>
+								<a href="https://github.com/langxapp/website/releases" target="_blank">Changelog</a>
 							</li>
 							<li>
-								<a href="https://github.com/langxapp/website#contributing" target="_blank">contribute</a>
+								<a href="https://github.com/langxapp/website#contributing" target="_blank">Contribute</a>
 							</li>
 							<li>
-								<a href="https://github.com/langxapp/langx/releases" target="_blank">releases</a>
+								<a href="https://github.com/langxapp/langx/releases" target="_blank">Releases</a>
 							</li>
 						</ul>
 					</div>
