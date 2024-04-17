@@ -1,6 +1,5 @@
 <svg
 	width="100%"
-	height="120"
 	viewBox="0 0 1440 120"
 	fill="none"
 	style="transform: scale(-1,-1)"
@@ -13,3 +12,18 @@
 		fill="var(--body-background-color)"
 	/>
 </svg>
+
+
+<style lang="scss">
+  @import '$lib/scss/breakpoints.scss';
+
+  $yellow: var(--color--primary);
+
+	.footer__wave {
+    position: absolute;
+		top: -2px;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+</style>
