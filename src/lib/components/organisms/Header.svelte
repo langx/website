@@ -13,7 +13,7 @@
 		</div>
 		<div class="links">
 			<a href="/blog">Blog</a>
-			<!-- <StarCount /> -->
+			 <StarCount />
 			<ThemeToggle />
 		</div>
 	</nav>

@@ -22,10 +22,10 @@
 		href="https://github.com/langx/langx/stargazers"
 	>
 		<Github />
+		{#if starCount > 0}
+			<span>{starCount.toLocaleString('en-US')}</span>
+		{/if}
 	</a>
-	{#if starCount > 0}
-		<small>{starCount}</small>
-	{/if}
 </div>
 
 <style lang="scss">
@@ -34,15 +34,21 @@
 			margin-top: 10px;
 		}
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		small {
-			color: var(--color--text);
-		}
 
 		.star {
-			color: var(--color--text);
 			height: 24px;
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+			color: #ffffff;
+			background-color: #000000;
+			padding:1px 4px 0 3px;
+			border-radius: 3px;
+
+			span {
+				margin-left: 5px;
+			}
 		}
 	}
 </style>
