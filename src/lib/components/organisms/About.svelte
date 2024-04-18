@@ -22,7 +22,7 @@
 			Our platform is <strong>free and entirely open-source</strong>.
 			<SparklingHighlight>
 				<a
-					href="https://github.com/langxapp"
+					href="https://github.com/langx"
 					target="_blank"
 					rel="noopener noreferrer"
 					title="See my GitHub profile"

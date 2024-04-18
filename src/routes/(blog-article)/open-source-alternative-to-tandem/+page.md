@@ -62,7 +62,7 @@ And, The Most Exciting one is that
 
 ## Be a Contributor
 
-We're always looking for contributors to help improve LangX. If you're interested in contributing, join our <a href="https://discord.gg/CpDZ3kg2rJ" target="_blank">Discord server</a> and check out the project on <a href="https://github.com/langxapp/langx" target="_blank">GitHub</a>.
+We're always looking for contributors to help improve LangX. If you're interested in contributing, join our <a href="https://discord.gg/CpDZ3kg2rJ" target="_blank">Discord server</a> and check out the project on <a href="https://github.com/langx/langx" target="_blank">GitHub</a>.
 
 <Callout type="info">
   Whatever you can contribute, whether it's code, design, or translations, marketing, and so on, we'd love to have you on board.

@@ -17,7 +17,7 @@ To clone this project, simply run the following command:
 
 ```bash
 # clone this repo
-git clone  https://github.com/langxapp/website
+git clone  https://github.com/langx/website
 
 # install dependencies
 npm install
@@ -50,13 +50,13 @@ LangX is an open source project and we welcome contributions from the community.
 
 ## Versioning
 
-LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/langxapp/website/releases).
+LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/langx/website/releases).
 
-### [v0.2](https://github.com/langxapp/website/releases/tag/v0.2)
+### [v0.2](https://github.com/langx/website/releases/tag/v0.2)
 
 ![Site Preview v0.2 langx.io](static/images/site-preview.png)
 
-### [v0.1](https://github.com/langxapp/website/releases/tag/v0.1)
+### [v0.1](https://github.com/langx/website/releases/tag/v0.1)
 
 ![Site Preview v0.1 langx.io](static/versioning/v0.1.png)
 
@@ -64,13 +64,13 @@ LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the ve
 
 ### Stargazers
 
-[![Stargazers over time](https://starchart.cc/langxapp/website.svg?variant=adaptive)](https://starchart.cc/langxapp/website)
+[![Stargazers over time](https://starchart.cc/langx/website.svg?variant=adaptive)](https://starchart.cc/langx/website)
 
 ### Contributors
 
-[![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=langxapp/website)](https://git-contributor.com?chart=contributorOverTime&repo=langxapp/website)
+[![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=langx/website)](https://git-contributor.com?chart=contributorOverTime&repo=langx/website)
 
-[![GitHub Contributors Image](https://contrib.rocks/image?repo=langxapp/website)](https://github.com/langxapp/website/graphs/contributors)
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=langx/website)](https://github.com/langx/website/graphs/contributors)
 
 
 ## License

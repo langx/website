@@ -73,7 +73,7 @@
 		{
 			id: 8,
 			title: 'How can I contribute?',
-			content: `We implore anyone to contribute, whether it’s just a single image, down to a single line of code/text. You can read more <a href="https://github.com/langxapp/website?tab=readme-ov-file#contributing" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">here</span></a> on how you can add your contribution.`,
+			content: `We implore anyone to contribute, whether it’s just a single image, down to a single line of code/text. You can read more <a href="https://github.com/langx/website?tab=readme-ov-file#contributing" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">here</span></a> on how you can add your contribution.`,
 			isOpen: false
 		},
 		{
@@ -87,9 +87,9 @@
 			title: 'Could you add sign languages?',
 			content: `We'll definitely add sign languages to the study languages section during the registration process. Additionally, we have a contributor who works as an accessibility manager and can help with the following issues. Thank you for bringing this matter to our attention again :) 
 			<br><br>
-			For the sign language issue: <a href="https://github.com/langxapp/langx/issues/444" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">Link</span></a>.
+			For the sign language issue: <a href="https://github.com/langx/langx/issues/444" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">Link</span></a>.
 			<br><br>
-			Regarding developing standards like WCAG with the W3C: <a href="https://github.com/langxapp/langx/issues/436" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">Link</span></a>.`,
+			Regarding developing standards like WCAG with the W3C: <a href="https://github.com/langx/langx/issues/436" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">Link</span></a>.`,
 			isOpen: false
 		},
 		{

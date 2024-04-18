@@ -24,6 +24,6 @@ Please provide the meta tags you'd like to use for this blog post. This could in
 Add any other context or screenshots about the blog post request here.
 
 **Sample Blog Post Commit**
-https://github.com/langxapp/website/commit/11e6d21f77b552241a5237e222dd6375f07cabf0
+https://github.com/langx/website/commit/11e6d21f77b552241a5237e222dd6375f07cabf0
 
 _If you want to speed up the process of this issue, please send 🚀 as a reaction._

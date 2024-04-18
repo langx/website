@@ -77,7 +77,7 @@
 		<YoutubeIcon />
 	</a>
 	<a
-		href="https://github.com/langxapp"
+		href="https://github.com/langx"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See our GitHub Page"
