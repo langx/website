@@ -114,18 +114,21 @@
 						<h3>Token</h3>
 						<ul role="list">
 							<li>
+								<a href="https://token.langx.io" target="_blank">Website</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/langx_token" target="_blank">Twitter</a>
+							</li>
+							<li>
+								<a href="https://discord.langx.io" target="_blank">Discord</a>
+							</li>
+							<li>
 								<a
 									href="https://app.gitbook.com/invite/0n6eGkPoppmsyoZuw2GO/I9eV3C08ufDq2xWLjeVn"
 									target="_blank"
 								>
 									Whitepaper
 								</a>
-							</li>
-							<li>
-								<a href="https://token.langx.io" target="_blank">Website</a>
-							</li>
-							<li>
-								<a href="https://twitter.com/langx_token" target="_blank">Twitter</a>
 							</li>
 						</ul>
 					</div>
