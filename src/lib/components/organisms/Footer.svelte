@@ -1,8 +1,6 @@
 <script>
 	import FooterWave from '$lib/icons/footer-wave.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
-	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import RssLink from '$lib/components/atoms/RssLink.svelte';
 </script>
 
 <footer aria-labelledby="footer-heading">
@@ -15,43 +13,8 @@
 			<div class="links-container">
 				<div class="right">
 					<div>
-						<h3>Company</h3>
-						<ul role="list">
-							<li>
-								<a href="https://github.com/langx/branding" target="_blank">Branding</a>
-							</li>
-							<li>
-								<a href="https://backlog.langx.io" target="_blank">Backlog</a>
-							</li>
-							<li>
-								<a href="https://insight.langx.io/langx.io" target="_blank">Insight</a>
-							</li>
-							<li>
-								<a href="https://status.langx.io" target="_blank">Status</a>
-							</li>
-							<li>
-								<a href="https://token.langx.io" target="_blank">Token</a>
-							</li>
-							<li>
-								<a href="https://langx.io/blog" target="_blank">Blog</a>
-							</li>
-							<li>
-								<a href="https://langx.io/rss.xml" target="_blank">RSS</a>
-							</li>
-						</ul>
-					</div>
-					<div>
 						<h3>Social</h3>
 						<ul role="list">
-							<li>
-								<a href="https://www.facebook.com/langxapp" target="_blank">Facebook</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/langxapp" target="_blank">Instagram</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/@langxapp" target="_blank">YouTube</a>
-							</li>
 							<li>
 								<a href="https://discord.langx.io" target="_blank">Discord</a>
 							</li>
@@ -60,6 +23,41 @@
 							</li>
 							<li>
 								<a href="https://www.tiktok.com/@langXapp" target="_blank">TikTok</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/langxapp" target="_blank">Instagram</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/langxapp" target="_blank">Facebook</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@langxapp" target="_blank">YouTube</a>
+							</li>
+							<li>
+								<a href="https://langx.io/blog" target="_blank">Blog</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Company</h3>
+						<ul role="list">
+							<li>
+								<a href="https://status.langx.io" target="_blank">Status</a>
+							</li>
+							<li>
+								<a href="https://insight.langx.io/langx.io" target="_blank">Insight</a>
+							</li>
+							<li>
+								<a href="https://backlog.langx.io" target="_blank">Backlog</a>
+							</li>
+							<li>
+								<a href="https://token.langx.io" target="_blank">Token</a>
+							</li>
+							<li>
+								<a href="https://github.com/langx/branding" target="_blank">Branding</a>
+							</li>
+							<li>
+								<a href="https://github.com/sponsor/langx" target="_blank">Sponsorship</a>
 							</li>
 						</ul>
 					</div>
@@ -135,7 +133,7 @@
 						<h3>Apps</h3>
 						<ul role="list">
 							<li>
-								<a href="https://app.langx.io" target="_blank">Webapp</a>
+								<a href="https://app.langx.io" target="_blank">Web App</a>
 							</li>
 							<li>
 								<a
