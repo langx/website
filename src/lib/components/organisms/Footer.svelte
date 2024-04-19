@@ -69,10 +69,7 @@
 						<h3>Legal</h3>
 						<ul role="list">
 							<li>
-								<a href="/data-deletion" target="_blank">Deletion</a>
-							</li>
-							<li>
-								<a href="mailto:info@languagexchange.net" target="_blank">Contact</a>
+								<a href="/terms-conditions" target="_blank">Terms</a>
 							</li>
 							<li>
 								<a href="/privacy-policy" target="_blank">Privacy</a>
@@ -81,7 +78,10 @@
 								<a href="/cookie-policy" target="_blank">Cookie</a>
 							</li>
 							<li>
-								<a href="/terms-conditions" target="_blank">Terms</a>
+								<a href="/data-deletion" target="_blank">Deletion</a>
+							</li>
+							<li>
+								<a href="mailto:info@languagexchange.net" target="_blank">Contact</a>
 							</li>
 						</ul>
 					</div>
