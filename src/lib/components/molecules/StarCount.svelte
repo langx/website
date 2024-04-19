@@ -1,5 +1,5 @@
 <script>
-	import Github from '$lib/icons/socials/github.svelte';
+	import Github from '$lib/icons/socials/github-stars.svelte';
 	import { onMount } from 'svelte';
 
 	let starCount = -1;
