@@ -23,6 +23,12 @@
 		},
 		{
 			id: 3,
+			title: 'How will this project monetarily support itself?',
+			content: `While our app is free and 100% open-source, we plan to introduce a subscription model for our Language Copilot feature. This feature, powered by OpenAI, provides real-time feedback during conversations, enhancing the language learning process. All other features will remain free. We also accept open sponsorships on <a href="https://github.com/sponsors/langx" target="_blank" style="color: #ff723f; font-weight: bold;">GitHub Sponsorship</a>.`,
+			isOpen: false
+		},
+		{
+			id: 4,
 			title: 'What does the app have to offer?',
 			content: `
 			<ul>
@@ -43,25 +49,25 @@
 			isOpen: false
 		},
 		{
-			id: 4,
+			id: 5,
 			title: 'How is LangX different and stand out?',
 			content: `LangX sets itself apart by offering a comprehensive and community-driven platform that prioritizes language practice and user privacy. As a 100% open-source alternative to similar apps, we're committed to providing a seamless language learning experience while empowering users to take control of their data and privacy settings.`,
 			isOpen: false
 		},
 		{
-			id: 5,
+			id: 6,
 			title: 'What is LangX Copilot 🤖?',
 			content: `Harness the power of AI to accelerate your language learning journey. Get personalized feedback privately. It is going to be your private language copilot. There will be a toggle button in the top right corner of any chat room. When you open it, it feedbacks you privately when you are practicing with a real person in a room. Only you can see these feedback messages within the room. These messages are going to be different colored. I'm so excited about this feature because it speeds up your active language learning process. Stay tuned for more!`,
 			isOpen: false
 		},
 		{
-			id: 6,
+			id: 7,
 			title: 'What is LangX Token 💰?',
 			content: `The innovative 'Learn to Earn' Token Project, for more info please visit: <a href="https://token.langx.io/" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">token.langx.io</span></a>.`,
 			isOpen: false
 		},
 		{
-			id: 7,
+			id: 8,
 			title: 'Is this project monetarily supporting itself?',
 			content: `Yes, I often come across this question. I opted for a 100% open-source approach for this project because it enables faster growth and enjoys community support.
 			<br><br>
@@ -71,19 +77,19 @@
 			isOpen: false
 		},
 		{
-			id: 8,
+			id: 9,
 			title: 'How can I contribute?',
 			content: `We implore anyone to contribute, whether it’s just a single image, down to a single line of code/text. You can read more <a href="https://github.com/langx/website?tab=readme-ov-file#contributing" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">here</span></a> on how you can add your contribution.`,
 			isOpen: false
 		},
 		{
-			id: 9,
+			id: 10,
 			title: 'How is it going to be moderated?',
 			content: `We actually have an excellent team of contributors who are dedicated to making valuable contributions wherever possible. With that said, if you are interested in taking on the role of our first moderator as a contributor/volunteer, please reach out for details. We can also begin delving into this matter together.`,
 			isOpen: false
 		},
 		{
-			id: 10,
+			id: 11,
 			title: 'Could you add sign languages?',
 			content: `We'll definitely add sign languages to the study languages section during the registration process. Additionally, we have a contributor who works as an accessibility manager and can help with the following issues. Thank you for bringing this matter to our attention again :) 
 			<br><br>
@@ -93,7 +99,7 @@
 			isOpen: false
 		},
 		{
-			id: 11,
+			id: 12,
 			title: 'Is there more to come?',
 			content: `This project has been a labor of love, and we're continuously updating and improving LangX to better serve our users' needs daily. We have exciting features in the pipeline, including AI-driven language learning support, and we're thrilled to share them with you in the near future.`,
 			isOpen: false
