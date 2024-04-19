@@ -24,7 +24,11 @@
 		{
 			id: 3,
 			title: 'How will this project monetarily support itself?',
-			content: `While our app is free and 100% open-source, we plan to introduce a subscription model for our Language Copilot feature. This feature, powered by OpenAI, provides real-time feedback during conversations, enhancing the language learning process. All other features will remain free. We also accept open sponsorships on <a href="https://github.com/sponsors/langx" target="_blank" style="color: #ff723f; font-weight: bold;">GitHub Sponsorship</a>.`,
+			content: `While our app is free and 100% open-source, we plan to introduce a subscription model for our Language Copilot feature. This feature, powered by OpenAI, provides real-time feedback during conversations, enhancing the language learning process. All other features will remain free. We also accept open sponsorships on <a href="https://github.com/sponsors/langx" target="_blank" style="color: #ff723f; font-weight: bold;">GitHub Sponsorship</a>.
+			<br><br>
+			As for monetization upon achieving significant growth, scalability becomes crucial, right? Take, for instance, the our <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> feature I mentioned. It utilizes GPT, which requires an API and incurs costs on a per-word or per-token basis, as you're likely aware. Without implementing a subscription model, the expenses could quickly deplete my resources.
+			<br><br>
+			Therefore, in our roadmap, post-beta stage, we intend to introduce a subscription fee exclusively for accessing this feature. All other features will remain freely available for lifetime use. Unlike Tandem, which sells features lacking added value such as "Who viewed my profile?", our 🤖 <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> provides direct feedback within conversations, enhancing the language learning process by enabling users to improve in real-time during authentic conversations with other users.`,
 			isOpen: false
 		},
 		{
@@ -68,28 +72,18 @@
 		},
 		{
 			id: 8,
-			title: 'Is this project monetarily supporting itself?',
-			content: `Yes, I often come across this question. I opted for a 100% open-source approach for this project because it enables faster growth and enjoys community support.
-			<br><br>
-			As for monetization upon achieving significant growth, scalability becomes crucial, right? Take, for instance, the our <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> feature I mentioned. It utilizes GPT, which requires an API and incurs costs on a per-word or per-token basis, as you're likely aware. Without implementing a subscription model, the expenses could quickly deplete my resources.
-			<br><br>
-			Therefore, in our roadmap, post-beta stage, we intend to introduce a subscription fee exclusively for accessing this feature. All other features will remain freely available for lifetime use. Unlike Tandem, which sells features lacking added value such as "Who viewed my profile?", our 🤖 <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> provides direct feedback within conversations, enhancing the language learning process by enabling users to improve in real-time during authentic conversations with other users.`,
-			isOpen: false
-		},
-		{
-			id: 9,
 			title: 'How can I contribute?',
 			content: `We implore anyone to contribute, whether it’s just a single image, down to a single line of code/text. You can read more <a href="https://github.com/langx/website?tab=readme-ov-file#contributing" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">here</span></a> on how you can add your contribution.`,
 			isOpen: false
 		},
 		{
-			id: 10,
+			id: 9,
 			title: 'How is it going to be moderated?',
 			content: `We actually have an excellent team of contributors who are dedicated to making valuable contributions wherever possible. With that said, if you are interested in taking on the role of our first moderator as a contributor/volunteer, please reach out for details. We can also begin delving into this matter together.`,
 			isOpen: false
 		},
 		{
-			id: 11,
+			id: 10,
 			title: 'Could you add sign languages?',
 			content: `We'll definitely add sign languages to the study languages section during the registration process. Additionally, we have a contributor who works as an accessibility manager and can help with the following issues. Thank you for bringing this matter to our attention again :) 
 			<br><br>
@@ -99,7 +93,7 @@
 			isOpen: false
 		},
 		{
-			id: 12,
+			id: 11,
 			title: 'Is there more to come?',
 			content: `This project has been a labor of love, and we're continuously updating and improving LangX to better serve our users' needs daily. We have exciting features in the pipeline, including AI-driven language learning support, and we're thrilled to share them with you in the near future.`,
 			isOpen: false
