@@ -108,8 +108,8 @@
 		loadShow();
 	};
 
-	let startX: number;
-	let startY: number;
+	let startX: any;
+	let startY: any;
 
 	const handleTouchStart = (event: TouchEvent) => {
 		startX = event.touches[0].clientX;
