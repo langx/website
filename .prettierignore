@@ -12,3 +12,10 @@ node_modules
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
+
+# .prettierignore and .eslintignore
+src/routes/(blog-article)
+src/lib/components/organisms/TermsAndConditions.svelte
+src/lib/components/organisms/PrivacyPolicy.svelte
+src/lib/components/organisms/DataDeletion.svelte
+src/lib/components/organisms/CookiePolicy.svelte

@@ -46,6 +46,13 @@ You can preview the production build with `npm run preview`.
 
 We welcome contributions from the community! If you'd like to contribute to LangX, please fork our repository and submit a pull request. We'll review your changes and merge them if they meet our guidelines. Thank you for helping to make LangX even better!
 
+```bash
+$ npm run lint
+$ npm run format
+```
+
+We'll review your changes and merge them if they meet our guidelines. Thank you for helping to make LangX even better!
+
 LangX is an open source project and we welcome contributions from the community. If you're interested in contributing, please check out our GitHub repository for more information.
 
 ## Versioning
@@ -71,7 +78,6 @@ LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the ve
 [![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=langx/website)](https://git-contributor.com?chart=contributorOverTime&repo=langx/website)
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=langx/website)](https://github.com/langx/website/graphs/contributors)
-
 
 ## License
 
