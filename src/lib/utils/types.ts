@@ -31,7 +31,7 @@ export type BlogPost = {
 	author: {
 		name: string;
 		url: string;
-	}
+	};
 	date: string;
 	updated: string;
 	excerpt: string;

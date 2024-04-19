@@ -2,8 +2,7 @@
 name: "\U000026A0 Warning Request"
 about: Suggest an warning for this project to optimize the code
 title: "\U000026A0 : "
-labels: triage 
-
+labels: triage
 ---
 
 **Is your warning request related to a problem? Please describe.**

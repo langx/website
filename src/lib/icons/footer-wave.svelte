@@ -13,14 +13,13 @@
 	/>
 </svg>
 
-
 <style lang="scss">
-  @import '$lib/scss/breakpoints.scss';
+	@import '$lib/scss/breakpoints.scss';
 
-  $yellow: var(--color--primary);
+	$yellow: var(--color--primary);
 
 	.footer__wave {
-    position: absolute;
+		position: absolute;
 		top: -2px;
 		left: 0;
 		right: 0;

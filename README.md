@@ -72,7 +72,6 @@ LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the ve
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=langx/website)](https://github.com/langx/website/graphs/contributors)
 
-
 ## License
 
 LangX is released under the [MIT License](./LICENSE). If you use this project, please include the license file in your distribution.
