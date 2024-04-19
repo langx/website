@@ -9,6 +9,7 @@
 	import TikTokIcon from '$lib/icons/socials/tiktok.svelte';
 	import BlueskyIcon from '$lib/icons/socials/bluesky.svelte';
 	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
+	import RSSIcon from '$lib/icons/rss.svelte';
 </script>
 
 <div class="socials">
@@ -84,6 +85,10 @@
 	>
 		<GitHubIcon />
 	</a>
+	<a href="/rss.xml" target="_blank" rel="noopener noreferrer" title="Subscribe to my RSS Feed">
+		<RSSIcon />
+	</a>
+
 	<!-- <a
 		href="mailto:info@languagexchange.net"
 		target="_blank"
@@ -100,7 +105,7 @@
 		display: flex;
 		align-items: center;
 		gap: 20px;
-    flex-wrap: wrap;
+		flex-wrap: wrap;
 
 		a {
 			transition: all 0.2s ease-in-out;
