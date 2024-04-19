@@ -70,6 +70,15 @@
 			items[i].style.opacity = stt > 1 ? 0 : 0.6;
 		}
 
+		// Add the first item to the end if the active item is the last one
+		if (active === items.length - 1) {
+			stt++;
+			items[0].style.transform = `translateX(${120*stt}px) scale(${1 - 0.2*stt}) perspective(16px) rotateY(-1deg)`;
+			items[0].style.zIndex = -stt;
+			items[0].style.filter = 'blur(5px)';
+			items[0].style.opacity = stt > 1 ? 0 : 0.6;
+		}
+
 		stt = 0;
 		for(i = (active - 1); i >= 0; i --){
 			stt++;
@@ -78,48 +87,95 @@
 			items[i].style.filter = 'blur(5px)';
 			items[i].style.opacity = stt > 1 ? 0 : 0.6;
 		}
+
+		// Add the last item to the beginning if the active item is the first one
+		if (active === 0) {
+			stt++;
+			items[items.length - 1].style.transform = `translateX(${-120*stt}px) scale(${1 - 0.2*stt}) perspective(16px) rotateY(1deg)`;
+			items[items.length - 1].style.zIndex = -stt;
+			items[items.length - 1].style.filter = 'blur(5px)';
+			items[items.length - 1].style.opacity = stt > 1 ? 0 : 0.6;
+		}
 	}
 
 	const handlePrev = () => {
-		active = active - 1 >= 0 ? active -1 : active;
+		active = active - 1 >= 0 ? active - 1 : items.length - 1;
 		loadShow();
-	}
+	};
+
 	const handleNext = () => {
-		active = active + 1 < items.length ?  active + 1 : active;
+		active = active + 1 < items.length ? active + 1 : 0;
 		loadShow();
-	}
+	};
+
+	let startX: number;
+	let startY: number;
+
+	const handleTouchStart = (event: TouchEvent) => {
+		startX = event.touches[0].clientX;
+		startY = event.touches[0].clientY;
+	};
+
+	const handleTouchMove = (event: TouchEvent) => {
+		if (!startX || !startY) return;
+
+		const endX = event.touches[0].clientX;
+		const endY = event.touches[0].clientY;
+
+		const diffX = endX - startX;
+		const diffY = endY - startY;
+
+		// Horizontal swipe
+		if (Math.abs(diffX) > Math.abs(diffY)) {
+			if (diffX > 0) {
+				// Swipe right
+				handlePrev();
+			} else {
+				// Swipe left
+				handleNext();
+			}
+		}
+
+		startX = null;
+		startY = null;
+	};
 </script>
 
-<section id="slider">
+<section id="slider" on:touchstart={handleTouchStart} on:touchmove={handleTouchMove}>
 	<div class="button-wrapper">
-	{#each testimonials as testimonial (testimonial.id)}
-		<div class="item">
-			<div class="wrapper">
-				<div>
-					<img src={testimonial.img} alt="{testimonial.name} Avatar" draggable="false">
+		{#each testimonials as testimonial, index (testimonial.id)}
+			<div class="item {index === active ? 'active' : ''}">
+				<div class="wrapper">
+					<div>
+						<img src={testimonial.img} alt="{testimonial.name} Avatar" draggable="false">
+					</div>
+					<h4>{testimonial.name}</h4>
+					<div class="stars">
+						{#each Array.from({length: testimonial.rating}, (_, i) => i) as star}
+							<svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+								<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+							</svg>
+						{/each}
+					</div>
+					<p><q>{testimonial.body}</q></p>
 				</div>
-				<h4>{testimonial.name}</h4>
-				<div class="stars">
-					{#each Array.from({length: testimonial.rating}, (_, i) => i) as star}
-						<svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-						</svg>
-					{/each}
-				</div>
-				<p><q>{testimonial.body}</q></p>
 			</div>
-		</div>
-	{/each}
-	<button id="next" on:click={handleNext}>
-		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-			<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-		</svg>
-	</button>
-	<button id="prev" on:click={handlePrev}>
-		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-			<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-		</svg>
-	</button>
+		{/each}
+		<button id="next" on:click={handleNext}>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+			</svg>
+		</button>
+		<button id="prev" on:click={handlePrev}>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+			</svg>
+		</button>
+	</div>
+	<div class="dots">
+		{#each testimonials as _, index}
+			<span role="button" on:keydown={()=>{}} tabindex="0" class="{index === active ? 'active' : ''}" on:click={() => { active = index; loadShow(); }}></span>
+		{/each}
 	</div>
 </section>
 
@@ -137,104 +193,104 @@
     @include for-tablet-portrait-down {
       min-height: 432px;
 
-			.button-wrapper {
-				max-width: 350px;
-				margin: auto;
-				position: relative;
-				height: 100%;
-			}
+      .button-wrapper {
+        max-width: 350px;
+        margin: auto;
+        position: relative;
+        height: 100%;
+      }
     }
 
     .item {
       position: absolute;
       top: 0;
       left: calc(50% - 17%);
-			text-align: center;
-			background-color: var(--color--card-background);
-			max-width: 350px;
-			min-width: 290px;
-			min-height: 411px;
-			padding: 50px 20px 20px 20px;
-			border-radius: 10px;
+      text-align: center;
+      background-color: var(--color--card-background);
+      max-width: 350px;
+      min-width: 290px;
+      min-height: 411px;
+      padding: 50px 20px 20px 20px;
+      border-radius: 10px;
       box-shadow: var(--card-shadow);
       transition: 0.5s;
-			overflow: hidden;
+      overflow: hidden;
 
-			@include for-tablet-portrait-down {
+      @include for-tablet-portrait-down {
         left: 50%;
-				transform: translateX(-50%) !important;
+        transform: translateX(-50%) !important;
         opacity: 1 !important;
         filter: none !important;
         min-height: 432px;
-				width: 100%;
-			}
+        width: 100%;
+      }
 
-			&::before {
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 220px;
-				height: 196px;
-				background-color: var(--color--yellow);
-				border-radius: 0 0 100% 0;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 220px;
+        height: 196px;
+        background-color: var(--color--yellow);
+        border-radius: 0 0 100% 0;
         z-index: 0;
         user-select: none;
         pointer-events: none;
-			}
+      }
 
-			.wrapper {
+      .wrapper {
         position: relative;
-				z-index: 1;
+        z-index: 1;
 
-				div {
-					display: flex;
-					justify-content: center;
+        div {
+          display: flex;
+          justify-content: center;
 
-					img {
-						border: 4px solid var(--color--card-background);
-						border-radius: 100%;
-						width: 120px;
-						height: 120px;
-						display: inline-block;
-						max-width: 100%;
-						vertical-align: middle;
-					}
-				}
-			}
+          img {
+            border: 4px solid var(--color--card-background);
+            border-radius: 100%;
+            width: 120px;
+            height: 120px;
+            display: inline-block;
+            max-width: 100%;
+            vertical-align: middle;
+          }
+        }
+      }
 
-			h4 {
-				margin:20px 0 5px 0;
-			}
+      h4 {
+        margin:20px 0 5px 0;
+      }
 
-			.stars {
-				display: flex;
+      .stars {
+        display: flex;
         align-items: center;
-				margin-bottom: 20px;
+        margin-bottom: 20px;
 
-				svg {
+        svg {
           flex-shrink: 0;
           width: 1.25rem;
-					height: 1.25rem;
+          height: 1.25rem;
           color: var(--color--yellow);
-				}
-			}
+        }
+      }
 
-			p {
+      p {
         font-size: 0.9rem;
         text-align: justify;
-			}
+      }
     }
 
     #next {
       position: absolute;
       right: 50px;
       top: 50%;
-			transform: translateY(-50%);
+      transform: translateY(-50%);
 
       @include for-tablet-portrait-down {
         right: -10px;
-				z-index: 1;
+        z-index: 1;
       }
     }
 
@@ -246,31 +302,60 @@
 
       @include for-tablet-portrait-down {
         left: -10px;
-				z-index: 1;
-			}
+        z-index: 1;
+      }
     }
 
     #prev, #next {
       color: var(--color--text-shade);
-			cursor: pointer;
+      cursor: pointer;
       background: none;
       border: none;
       font-size: xxx-large;
       font-family: monospace;
       font-weight: bold;
-			padding: 0;
+      padding: 0;
       opacity: 0.5;
       transition: opacity 0.5s;
 
-			svg {
-				width: 50px;
-				height: 50px;
-			}
+      svg {
+        width: 50px;
+        height: 50px;
+      }
     }
 
     #prev:hover,
     #next:hover {
       opacity: 1;
+    }
+
+    .dots {
+      position: absolute;
+      bottom: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+
+      @include for-tablet-portrait-down {
+        bottom: -30px;
+      }
+
+      span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: var(--color--text-shade);
+        margin: 0 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      span.active {
+        background-color: var(--color--yellow);
+      }
     }
   }
 </style>
