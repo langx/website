@@ -1,6 +1,7 @@
 <script>
 	import FooterWave from '$lib/icons/footer-wave.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
+	import NewsletterForm from '$lib/components/molecules/NewsletterForm.svelte';
 </script>
 
 <footer aria-labelledby="footer-heading">
@@ -177,6 +178,13 @@
 				</a>
 			</div>
 		</div>
+		<!-- <div class="footer-newsletter">
+			<div>
+				<h3>Subscribe to our newsletter</h3>
+				<p>We care about your data in our privacy policy.</p>
+			</div>
+			<NewsletterForm />
+		</div> -->
 		<div class="socials-wrapper">
 			<div class="socials-container">
 				<Socials />
@@ -359,6 +367,39 @@
 						margin-top: 2rem;
 					}
 				}
+			}
+		}
+
+		.footer-newsletter {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-color: rgb(17 24 39 / 0.1);
+			border-top-width: 1px;
+			margin: 2rem 0;
+
+			@include for-tablet-portrait-down {
+				flex-direction: column;
+				text-align: center;
+			}
+
+			div {
+				@include for-tablet-portrait-down {
+					margin-bottom: 1rem;
+				}
+			}
+
+			h3 {
+				color: #000000;
+				font-weight: 900;
+				font-size: 1rem;
+				margin: 0;
+			}
+
+			p {
+				color: #000000;
+				font-size: 0.8rem;
+				margin-top: 0.5rem;
 			}
 		}
 	}
