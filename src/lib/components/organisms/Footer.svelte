@@ -58,7 +58,7 @@
 								<a href="https://github.com/langx/branding" target="_blank">Branding</a>
 							</li>
 							<li>
-								<a href="https://github.com/sponsor/langx" target="_blank">Sponsorship</a>
+								<a href="https://github.com/sponsors/langx" target="_blank">Sponsors</a>
 							</li>
 						</ul>
 					</div>

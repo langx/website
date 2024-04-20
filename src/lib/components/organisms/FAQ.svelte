@@ -24,7 +24,7 @@
 		{
 			id: 3,
 			title: 'How will this project monetarily support itself?',
-			content: `While our app is free and 100% open-source, we plan to introduce a subscription model for our Language Copilot feature. This feature, powered by OpenAI, provides real-time feedback during conversations, enhancing the language learning process. All other features will remain free. We also accept open sponsorships on <a href="https://github.com/sponsors/langx" target="_blank" style="color: #ff723f; font-weight: bold;">GitHub Sponsorship</a>.
+			content: `While our app is free and 100% open-source, we plan to introduce a subscription model for our Language Copilot feature. This feature, powered by OpenAI, provides real-time feedback during conversations, enhancing the language learning process. All other features will remain free. We also accept open sponsors on <a href="https://github.com/sponsors/langx" target="_blank" style="color: #ff723f; font-weight: bold;">GitHub Sponsors</a>.
 			<br><br>
 			As for monetization upon achieving significant growth, scalability becomes crucial, right? Take, for instance, the our <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> feature I mentioned. It utilizes GPT, which requires an API and incurs costs on a per-word or per-token basis, as you're likely aware. Without implementing a subscription model, the expenses could quickly deplete my resources.
 			<br><br>
