@@ -1,7 +1,7 @@
 <script>
 	import FooterWave from '$lib/icons/footer-wave.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
-	// import NewsletterForm from '$lib/components/molecules/NewsletterForm.svelte';
+	import NewsletterForm from '$lib/components/molecules/NewsletterForm.svelte';
 </script>
 
 <footer aria-labelledby="footer-heading">
@@ -178,13 +178,13 @@
 				</a>
 			</div>
 		</div>
-		<!--		<div class="footer-newsletter">-->
-		<!--			<div>-->
-		<!--				<h3>Subscribe to our newsletter</h3>-->
-		<!--				<p>We care about your data in our privacy policy.</p>-->
-		<!--			</div>-->
-		<!--			<NewsletterForm />-->
-		<!--		</div>-->
+		<div class="footer-newsletter">
+			<div>
+				<h3>Subscribe to our newsletter</h3>
+				<p>We care about your data in our privacy policy.</p>
+			</div>
+			<NewsletterForm />
+		</div>
 		<div class="socials-wrapper">
 			<div class="socials-container">
 				<Socials />
