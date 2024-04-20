@@ -6,7 +6,7 @@
 <section id="newsletter">
 	<div class="newsletter-wrapper">
 		<h2><SparklingHighlight color="secondary">Still thinking about it?</SparklingHighlight></h2>
-		<p>Sign up for our newsletter and get updates about languageXchange's progress.</p>
+		<p>Sign up for our newsletter and get updates about LangX's progress.</p>
 		<NewsletterForm styles="margin: auto;" />
 		<svg viewBox="0 0 1024 1024" aria-hidden="true">
 			<circle cx="512" cy="512" r="512" fill="var(--color--yellow)" />
