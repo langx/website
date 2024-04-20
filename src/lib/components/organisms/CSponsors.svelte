@@ -1,6 +1,6 @@
 <section id="csponsors">
 	<div>
-		<h2>Verified by companies from world's leading organizations</h2>
+		<h2>Verified by leading companies worldwide</h2>
 		<div class="sponsor-container">
 			<div>
 				<a href="https://www.apple.com" target="_blank" rel="noopener noreferrer">
