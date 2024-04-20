@@ -8,7 +8,7 @@
 	import BCSponsors from '$lib/components/organisms/BCSponsors.svelte';
 	import Testimonials from '$lib/components/organisms/Testimonials.svelte';
 	import type { Feature, BlogPost } from '$lib/utils/types';
-	import Newsletter from '$lib/components/organisms/Newsletter.svelte';
+	// import Newsletter from '$lib/components/organisms/Newsletter.svelte';
 
 	export let data: {
 		features: Feature[];
@@ -28,6 +28,6 @@
 		<RecentPosts {posts} />
 	{/if}
 	<BCSponsors />
-	<Newsletter />
+	<!--	<Newsletter />-->
 	<Faq />
 </div>
