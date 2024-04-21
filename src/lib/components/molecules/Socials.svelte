@@ -31,14 +31,6 @@
 		<RedditIcon />
 	</a>
 	<a
-		href="https://t.me/langxapp"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Join our Telegram Channel"
-	>
-		<TelegramIcon />
-	</a>
-	<a
 		href="https://x.com/langx_app"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -53,6 +45,14 @@
 		title="See our BlueSky Page"
 	>
 		<BlueskyIcon />
+	</a>
+	<a
+		href="https://t.me/langxapp"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Join our Telegram Channel"
+	>
+		<TelegramIcon />
 	</a>
 	<a
 		href="https://www.facebook.com/langxapp"
@@ -97,15 +97,14 @@
 	<a href="/rss.xml" target="_blank" rel="noopener noreferrer" title="Subscribe to my RSS Feed">
 		<RSSIcon />
 	</a>
-
-	<!-- <a
+	<a
 		href="mailto:info@languagexchange.net"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"
 	>
 		<EmailIcon />
-	</a> -->
+	</a>
 </div>
 
 <style lang="scss">
