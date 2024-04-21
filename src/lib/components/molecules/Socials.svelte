@@ -2,6 +2,7 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
 	import DiscordIcon from '$lib/icons/socials/discord.svelte';
+	import RedditIcon from '$lib/icons/socials/reddit.svelte';
 	import XIcon from '$lib/icons/socials/x.svelte';
 	import InstagramIcon from '$lib/icons/socials/instagram.svelte';
 	import YoutubeIcon from '$lib/icons/socials/youtube.svelte';
@@ -20,6 +21,14 @@
 		title="Join our Discord server"
 	>
 		<DiscordIcon />
+	</a>
+	<a
+		href="https://reddit.com/r/langx"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="Join our Subreddit"
+	>
+		<RedditIcon />
 	</a>
 	<a
 		href="https://t.me/langxapp"
