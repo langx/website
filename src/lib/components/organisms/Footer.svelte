@@ -14,32 +14,6 @@
 			<div class="links-container">
 				<div class="right">
 					<div>
-						<h3>Social</h3>
-						<ul role="list">
-							<li>
-								<a href="https://discord.langx.io" target="_blank">Discord</a>
-							</li>
-							<li>
-								<a href="https://twitter.com/langx_app" target="_blank">Twitter</a>
-							</li>
-							<li>
-								<a href="https://www.tiktok.com/@langXapp" target="_blank">TikTok</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/langxapp" target="_blank">Instagram</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/langxapp" target="_blank">Facebook</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/@langxapp" target="_blank">YouTube</a>
-							</li>
-							<li>
-								<a href="https://langx.io/blog" target="_blank">Blog</a>
-							</li>
-						</ul>
-					</div>
-					<div>
 						<h3>Company</h3>
 						<ul role="list">
 							<li>
@@ -59,6 +33,35 @@
 							</li>
 							<li>
 								<a href="https://github.com/sponsors/langx" target="_blank">Sponsors</a>
+							</li>
+							<li>
+								<a href="https://langx.io/blog" target="_blank">Blog</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Social</h3>
+						<ul role="list">
+							<li>
+								<a href="https://discord.langx.io" target="_blank">Discord</a>
+							</li>
+							<li>
+								<a href="https://reddit.com/r/langx" target="_blank">Reddit</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/langx_app" target="_blank">Twitter</a>
+							</li>
+							<li>
+								<a href="https://www.tiktok.com/@langXapp" target="_blank">TikTok</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/langxapp" target="_blank">Instagram</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/langxapp" target="_blank">Facebook</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@langxapp" target="_blank">YouTube</a>
 							</li>
 						</ul>
 					</div>
