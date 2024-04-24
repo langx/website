@@ -69,6 +69,12 @@
 			grid-template-columns: 1fr;
 			justify-items: center;
 			gap: 20px;
+      padding: 0;
+
+      ol {
+				margin: 0;
+        border-left: 15px solid transparent;
+      }
 		}
 	}
 </style>

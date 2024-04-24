@@ -114,6 +114,7 @@
 		align-items: center;
 		gap: 20px;
 		flex-wrap: wrap;
+    justify-content: center;
 
 		a {
 			transition: all 0.2s ease-in-out;
