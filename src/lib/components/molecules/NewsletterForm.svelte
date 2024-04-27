@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Swal from 'sweetalert2';
 	import { enhance } from '$app/forms';
 	export let form: any = {};
 	export let styles: string = '';
@@ -20,14 +21,13 @@
 			body: JSON.stringify({ email })
 		});
 		const data = await response.json();
-		console.log(data);
-		sending = false;
 		if (data.status === 'ok') {
 			email = '';
-			window.alert('Success! You have been subscribed to our newsletter.');
+			await Swal.fire('Success!', 'You have been subscribed to our newsletter.', 'success');
 		} else {
-			window.alert('Oops! Something went wrong. Please try again.');
+			await Swal.fire('Oops!', 'Something went wrong. Please try again.', 'error');
 		}
+		sending = false;
 	}
 </script>
 
