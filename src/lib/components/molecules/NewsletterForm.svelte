@@ -2,7 +2,7 @@
 	import { enhance } from '$app/forms';
 	// /** @type {import('./$types').ActionData} */
 	// /* svelte-ignore unused-export-let */
-	export let form;
+	export let form: any = {};
 	export let styles: string = '';
 	let sending: boolean = false;
 	let email: string = '';
