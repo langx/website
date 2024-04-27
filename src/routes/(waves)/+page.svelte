@@ -28,6 +28,6 @@
 		<RecentPosts {posts} />
 	{/if}
 	<BCSponsors />
-	<!-- <Newsletter /> -->
+	<Newsletter />
 	<Faq />
 </div>
