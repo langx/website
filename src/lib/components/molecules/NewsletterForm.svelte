@@ -2,14 +2,14 @@
 	import { enhance } from '$app/forms';
 	// /** @type {import('./$types').ActionData} */
 	// /* svelte-ignore unused-export-let */
-	// export let form;
+	export let form;
 	export let styles: string = '';
 	let sending: boolean = false;
+	let email: string = '';
 
-	// when the form is submitted, send a variable from form actions called 'success' and set it to true
-	// if (form?.success) {
-	// 	sending = false;
-	// }
+	if (form?.success) {
+		sending = false;
+	}
 </script>
 
 <form style={styles} method="POST" action="" use:enhance>
@@ -21,11 +21,23 @@
 		autocomplete="email"
 		required
 		placeholder="Enter your email"
+		bind:value={email}
 	/>
 	<button
 		type="submit"
-		on:click={() => {
+		on:click={async (event) => {
+			event.preventDefault();
 			sending = true;
+			const response = await fetch('http://localhost:3000/api/mail', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({ email })
+			});
+			const data = await response.json();
+			console.log(data);
+			sending = false;
 		}}
 		disabled={sending}
 	>
