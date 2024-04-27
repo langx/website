@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	// /** @type {import('./$types').ActionData} */
-	// /* svelte-ignore unused-export-let */
 	export let form: any = {};
 	export let styles: string = '';
 	let sending: boolean = false;
@@ -9,6 +7,27 @@
 
 	if (form?.success) {
 		sending = false;
+	}
+
+	async function handleSubmit(event: any) {
+		event.preventDefault();
+		sending = true;
+		const response = await fetch('http://localhost:3000/api/mail', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({ email })
+		});
+		const data = await response.json();
+		console.log(data);
+		sending = false;
+		if (data.status === 'ok') {
+			email = '';
+			window.alert('Success! You have been subscribed to our newsletter.');
+		} else {
+			window.alert('Oops! Something went wrong. Please try again.');
+		}
 	}
 </script>
 
@@ -23,24 +42,7 @@
 		placeholder="Enter your email"
 		bind:value={email}
 	/>
-	<button
-		type="submit"
-		on:click={async (event) => {
-			event.preventDefault();
-			sending = true;
-			const response = await fetch('http://localhost:3000/api/mail', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify({ email })
-			});
-			const data = await response.json();
-			console.log(data);
-			sending = false;
-		}}
-		disabled={sending}
-	>
+	<button type="submit" on:click={handleSubmit} disabled={sending}>
 		{#if sending}
 			<span class="sr-only">Loading...</span>
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
