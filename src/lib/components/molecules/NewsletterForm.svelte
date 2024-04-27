@@ -1,15 +1,34 @@
 <script lang="ts">
+	import Swal from 'sweetalert2';
 	import { enhance } from '$app/forms';
-	// /** @type {import('./$types').ActionData} */
-	// /* svelte-ignore unused-export-let */
-	// export let form;
+	export let form: any = {};
 	export let styles: string = '';
 	let sending: boolean = false;
+	let email: string = '';
 
-	// when the form is submitted, send a variable from form actions called 'success' and set it to true
-	// if (form?.success) {
-	// 	sending = false;
-	// }
+	if (form?.success) {
+		sending = false;
+	}
+
+	async function handleSubmit(event: any) {
+		event.preventDefault();
+		sending = true;
+		const response = await fetch('https://api.langx.io/api/mail', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({ email })
+		});
+		const data = await response.json();
+		if (data.status === 'ok') {
+			email = '';
+			await Swal.fire('Success!', 'You have been subscribed to our newsletter.', 'success');
+		} else {
+			await Swal.fire('Oops!', 'Something went wrong. Please try again.', 'error');
+		}
+		sending = false;
+	}
 </script>
 
 <form style={styles} method="POST" action="" use:enhance>
@@ -21,14 +40,9 @@
 		autocomplete="email"
 		required
 		placeholder="Enter your email"
+		bind:value={email}
 	/>
-	<button
-		type="submit"
-		on:click={() => {
-			sending = true;
-		}}
-		disabled={sending}
-	>
+	<button type="submit" on:click={handleSubmit} disabled={sending}>
 		{#if sending}
 			<span class="sr-only">Loading...</span>
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

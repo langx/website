@@ -46,6 +46,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/comfortaa": "^5.0.17"
+		"@fontsource/comfortaa": "^5.0.17",
+		"sweetalert2": "^11.10.8"
 	}
 }

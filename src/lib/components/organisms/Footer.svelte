@@ -181,13 +181,13 @@
 				</a>
 			</div>
 		</div>
-		<!-- <div class="footer-newsletter">
+		<div class="footer-newsletter">
 			<div>
 				<h3>Subscribe to our newsletter</h3>
 				<p>We care about your data in our privacy policy.</p>
 			</div>
 			<NewsletterForm />
-		</div> -->
+		</div>
 		<div class="socials-wrapper">
 			<div class="socials-container">
 				<Socials />
