@@ -127,12 +127,7 @@
 								<a href="https://discord.langx.io" target="_blank">Discord</a>
 							</li>
 							<li>
-								<a
-									href="https://app.gitbook.com/invite/0n6eGkPoppmsyoZuw2GO/I9eV3C08ufDq2xWLjeVn"
-									target="_blank"
-								>
-									Whitepaper
-								</a>
+								<a href="https://docs.langx.io/" target="_blank">Litepaper</a>
 							</li>
 						</ul>
 					</div>
