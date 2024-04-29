@@ -13,6 +13,7 @@
 		</div>
 		<div class="links">
 			<a href="/blog">Blog</a>
+			<a href="https://docs.langx.io">Litepaper</a>
 			<StarCount />
 			<ThemeToggle />
 		</div>
