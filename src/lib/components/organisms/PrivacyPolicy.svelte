@@ -2,7 +2,7 @@
 
 	<h1>Privacy Policy</h1>
 
-	*Effective Date: 29, March 2024*
+	*Effective Date: 12, May 2024*
 
 	1. Introduction
 
@@ -91,6 +91,8 @@
 	5. Security
 
 		We implement reasonable security measures to protect your information from unauthorized access, disclosure, alteration, and destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+
+		We also use Cloudflare's Always Online™ feature, which caches a static version of our website to keep it available in case our origin server becomes unresponsive. With Always Online, Cloudflare serves a limited copy of our cached website to keep our most popular pages online for our visitors.
 
 	6. Cookies and Similar Technologies
 
