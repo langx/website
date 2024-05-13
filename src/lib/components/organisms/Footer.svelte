@@ -85,7 +85,7 @@
 								<a href="/data-deletion" target="_blank">Deletion</a>
 							</li>
 							<li>
-								<a href="mailto:info@languagexchange.net" target="_blank">Contact</a>
+								<a href="mailto:hi@langx.io" target="_blank">Contact</a>
 							</li>
 						</ul>
 					</div>

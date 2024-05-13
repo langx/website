@@ -2,7 +2,7 @@
 
 	<h1>Terms and Conditions</h1>
 
-	*Effective Date: 29, March 2024*
+	*Effective Date: 13, May 2024*
 
 	1. Acceptance of Terms
 
@@ -60,7 +60,7 @@
 	
 	11. Contact Information
 	
-		For any questions or concerns related to these Terms and Conditions, please contact us at [support@languagexchange.net].
+		For any questions or concerns related to these Terms and Conditions, please contact us at [hi@langx.io].
 
 
 </section>

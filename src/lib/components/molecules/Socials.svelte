@@ -97,12 +97,7 @@
 	<a href="/rss.xml" target="_blank" rel="noopener noreferrer" title="Subscribe to my RSS Feed">
 		<RSSIcon />
 	</a>
-	<a
-		href="mailto:info@languagexchange.net"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Send an email"
-	>
+	<a href="mailto:hi@langx.io" target="_blank" rel="noopener noreferrer" title="Send an email">
 		<EmailIcon />
 	</a>
 </div>

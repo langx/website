@@ -2,7 +2,7 @@
 
 	<h1>Data Deletion Instructions</h1>
 
-	*Effective Date: 29, March 2024*
+	*Effective Date: 13, May 2024*
 
 		If you would like to request the deletion of your personal data from LangX, please follow the instructions below:
 	
@@ -19,11 +19,11 @@
 
 		- If you wish to delete certain data that we collected through this app without deleting your entire account, you can submit a request for partial data deletion.
 		- This data can include things like activity history, and images and audio.
-		- To submit a request for partial data deletion, please contact our support team at [support@languagexchange.net] with the subject "Partial Data Deletion Request".
+		- To submit a request for partial data deletion, please contact our support team at [hi@langx.io] with the subject "Partial Data Deletion Request".
 	
 	2. Contacting Support:
 	
-		If you encounter any issues or need assistance with the data deletion process, you can contact our support team at [account@languagexchange.net]. Please provide the following information in your email:
+		If you encounter any issues or need assistance with the data deletion process, you can contact our support team at [hi@langx.io]. Please provide the following information in your email:
 	
 		-	Subject: Data Deletion Request
 		-	Your full name
@@ -54,7 +54,7 @@
 	
 		We reserve the right to update these Data Deletion Instructions. Any changes will be reflected on our website or App.
 	
-		If you have any questions or concerns regarding the data deletion process, please contact us at [account@languagexchange.net].
+		If you have any questions or concerns regarding the data deletion process, please contact us at [hi@langx.io].
 
 
 </section>

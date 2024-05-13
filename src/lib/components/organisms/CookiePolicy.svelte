@@ -2,7 +2,7 @@
 
 	<h1>Cookie Policy</h1>
 
-	*Effective Date: 29, March 2024*
+	*Effective Date: 13, May 2024*
 
 	1. Introduction
 
@@ -48,7 +48,7 @@
 		
 	8. Contact Information
 
-		For any questions or concerns related to this Cookie Policy, please contact us at [account@languagexchange.net].
+		For any questions or concerns related to this Cookie Policy, please contact us at [hi@langx.io].
 
 </section>
 
