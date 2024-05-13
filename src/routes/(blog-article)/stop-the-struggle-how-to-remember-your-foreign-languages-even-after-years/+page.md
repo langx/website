@@ -64,4 +64,4 @@ Craving a community with **real conversations, not robotic repetition?**  ***[La
 
 **Don't give up!** Language learning is an **unforgettable journey**.  Even if your skills aren't as sharp as they once were, remember: **relearning is always faster than starting from scratch!**
 
-**Have questions?** Contact us at [info@languagexchange.net](mailto:info@languagexchange.net), and let's keep your language skills thriving!
+**Have questions?** Contact us at [hi@langx.io](mailto:hi@langx.io), and let's keep your language skills thriving!

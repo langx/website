@@ -61,4 +61,4 @@ While DigitalOcean Spaces is a solid choice for cloud storage, offering competit
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 
-**Have questions?** Contact us at [info@languagexchange.net](mailto:info@languagexchange.net), and let's keep your language skills thriving!
+**Have questions?** Contact us at [hi@langx.io](mailto:hi@langx.io), and let's keep your language skills thriving!
