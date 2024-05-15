@@ -86,6 +86,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage",
 			"title": "choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/Through-learning-languages-understanding-more-about-the-worlds-cultures",
+			"title": "Through-learning-languages-understanding-more-about-the-worlds-cultures"
 		}
 	]
 }
