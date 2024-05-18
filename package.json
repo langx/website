@@ -1,6 +1,23 @@
 {
-	"name": "website",
+	"name": "@langx/website",
 	"version": "0.2.9",
+	"homepage": "https://langx.io",
+	"description": "LangX | Practice, Learn, Succeed! Free and Open Sourced Language Exchange Project",
+	"author": {
+		"name": "LangX",
+		"email": "hi@langx.io"
+	},
+	"keywords": [
+		"language, website, practice, svelte, edtech, cryptocurrency, exchange, token, languagelearning, language-exchange, learn2earn, languageexchange, languagexchange, learntoearn"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/langx/website.git"
+	},
+	"bugs": {
+		"url": "https://github.com/langx/website/issues"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
