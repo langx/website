@@ -30,12 +30,7 @@
 	>
 		<RedditIcon />
 	</a>
-	<a
-		href="https://x.com/langx_app"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="See our X Page"
-	>
+	<a href="https://x.com/langx_io" target="_blank" rel="noopener noreferrer" title="See our X Page">
 		<XIcon />
 	</a>
 	<a

@@ -49,7 +49,7 @@
 								<a href="https://reddit.com/r/langx" target="_blank">Reddit</a>
 							</li>
 							<li>
-								<a href="https://twitter.com/langx_app" target="_blank">Twitter</a>
+								<a href="https://twitter.com/langx_io" target="_blank">Twitter</a>
 							</li>
 							<li>
 								<a href="https://www.tiktok.com/@langXapp" target="_blank">TikTok</a>
@@ -121,7 +121,7 @@
 								<a href="https://token.langx.io" target="_blank">Website</a>
 							</li>
 							<li>
-								<a href="https://twitter.com/langx_token" target="_blank">Twitter</a>
+								<a href="https://twitter.com/langx_io" target="_blank">Twitter</a>
 							</li>
 							<li>
 								<a href="https://discord.langx.io" target="_blank">Discord</a>
