@@ -3,7 +3,7 @@
 		<h2>Verified by Leading Companies Worldwide</h2>
 		<div class="sponsor-container">
 			<div>
-				<a href="https://www.apple.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://apple.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="48px"
 						height="48px"
@@ -36,7 +36,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="68px"
 						height="68px"
@@ -56,7 +56,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						fill="var(--color--text)"
 						width="50px"
@@ -75,7 +75,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://google.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="45px"
 						height="45px"
@@ -155,7 +155,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://x.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="50px"
 						height="50px"
@@ -187,6 +187,20 @@
 					</svg>
 				</a>
 			</div>
+			<div>
+				<a href="https://huawei.com" target="_blank" rel="noopener noreferrer">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="50"
+						height="50"
+						fill="var(&#45;&#45;color&#45;&#45;text)"
+					>
+						<path
+							d="M48.163 41.973h1.838V50h-1.838ZM46.402 41.973v1.345s-3.282-.048-3.612 0a1.726 1.726 0 0 0-1.047.809 2.2 2.2 0 0 0-.328 1.158h4.986v1.328h-4.986a3.359 3.359 0 0 0 .328 1.412 1.5 1.5 0 0 0 .948.683c.255.1 3.711 0 3.711 0V50h-3.711s-3.221-.146-3.238-4a3.661 3.661 0 0 1 3.337-4.027ZM38.893 41.973h-1.82l-1.823 6.082-2-6.082h-2.121l-1.661 6.082-2.119-6.082h-1.924L28.394 50h2.127l1.69-5.969L34.088 50h2.213ZM17.263 49.931l3.659-8.027h1.945l3.637 8.027h-2.027l-.692-1.933H19.98l-.831 1.933.283-2.693 1.124-.658h2.511l-1.2-2.939-1.308 2.939-1.124.658-.283 2.693ZM16.799 41.907v5.977s-.171 2-3.664 2.049-3.809-2.049-3.809-2.049v-5.977h1.765v5.452s.106 1.308 2.044 1.29 1.958-1.29 1.958-1.29v-5.452ZM.065 49.934h1.813v-3.336h4.064v3.336h1.856v-8.027H5.942v3.3H1.878v-3.3H.065ZM20.056 32.625s-5.29 4.6-8.956 5.033-6.53-4.71-6.53-4.71ZM29.944 32.625s5.29 4.6 8.956 5.033 6.53-4.71 6.53-4.71ZM.545 19.465c.131.018 8.975 4.963 13.952 7.946s5.948 3.66 5.855 3.849-12.24.049-12.24.049a9.685 9.685 0 0 1-6.8-4.316 8.374 8.374 0 0 1-.767-7.528ZM49.455 19.465c-.131.018-8.975 4.963-13.952 7.946s-5.948 3.66-5.855 3.849 12.24.049 12.24.049a9.684 9.684 0 0 0 6.8-4.316 8.373 8.373 0 0 0 .767-7.528ZM21.554 29.358c.131-.189-2.2-5.1-5.666-10.744S7.698 6.771 7.698 6.771s-4.028 3.7-3.932 7.381.735 4.6 4.571 7.656 13.086 7.738 13.217 7.55ZM28.445 29.358c-.131-.189 2.2-5.1 5.666-10.744s8.19-11.843 8.19-11.843 4.028 3.7 3.932 7.381-.735 4.6-4.571 7.656-13.086 7.738-13.217 7.55ZM23.585 28.057a87.947 87.947 0 0 0 .553-16.774C23.584 4.306 21.597.145 21.485.024s-6.442.013-7.6 5.358 2.782 11.458 4.2 14.219a66.083 66.083 0 0 0 5.5 8.456ZM26.415 28.057a87.936 87.936 0 0 1-.553-16.774C26.416 4.306 28.403.145 28.515.024s6.442.013 7.6 5.358-2.782 11.458-4.2 14.219a66.087 66.087 0 0 1-5.5 8.456Z"
+						/>
+					</svg>
+				</a>
+			</div>
 		</div>
 	</div>
 </section>
@@ -213,14 +227,14 @@
 
 		.sponsor-container {
 			display: grid;
-			grid-template-columns: repeat(5, minmax(0, 1fr));
+			grid-template-columns: repeat(6, minmax(0, 1fr));
 			column-gap: 2.5rem;
 			row-gap: 2.5rem;
 			align-items: center;
 			margin-top: 2.5em;
 
 			@include for-tablet-portrait-down {
-				grid-template-columns: repeat(6, minmax(0, 1fr));
+				grid-template-columns: repeat(7, minmax(0, 1fr));
 			}
 
 			@include for-phone-only {
@@ -239,18 +253,18 @@
 					&:nth-child(4) {
 						grid-column-start: 2;
 					}
-					&:nth-child(5) {
-						grid-column-start: auto;
-					}
+					//&:nth-child(5) {
+					//grid-column-start: auto;
+					//}
 				}
 
 				@include for-phone-only {
 					&:nth-child(4) {
 						grid-column-start: auto;
 					}
-					&:nth-child(5) {
-						grid-column-start: 2;
-					}
+					//&:nth-child(5) {
+					//grid-column-start: 2;
+					//}
 				}
 
 				a {
