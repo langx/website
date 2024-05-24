@@ -188,7 +188,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://huawei.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="50"
