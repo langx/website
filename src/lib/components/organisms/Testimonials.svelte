@@ -45,6 +45,13 @@
 			name: 'Ray Carnes',
 			body: `Great free App to connect with others wanting to brush up on language skills!!`,
 			img: 'https://lh3.googleusercontent.com/a-/ALV-UjU0535FfwInf3JTeGNO5Sbe8V72nVUHAQzyh27VqjccaPvwqRIL'
+		},
+		{
+			id: 7,
+			rating: 5,
+			name: 'Keen',
+			body: `Thank youu! ❤️ I will continue trying my best to help with whatever I can! 💪😤 I love the idea of the this project and I want to see it succeed!! 😁😁`,
+			img: 'https://db.langx.io/v1/storage/buckets/6515f94d20becd47cb40/files/6640b78d00306f4b8d89/view?project=650750d21e4a6a589be3'
 		}
 	];
 
