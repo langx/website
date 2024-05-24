@@ -3,7 +3,7 @@
 		<h2>Verified by Leading Companies Worldwide</h2>
 		<div class="sponsor-container">
 			<div>
-				<a href="https://www.apple.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://apple.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="48px"
 						height="48px"
@@ -36,7 +36,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="68px"
 						height="68px"
@@ -56,7 +56,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						fill="var(--color--text)"
 						width="50px"
@@ -75,7 +75,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://google.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="45px"
 						height="45px"
@@ -155,7 +155,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://x.com" target="_blank" rel="noopener noreferrer">
 					<svg
 						width="50px"
 						height="50px"
