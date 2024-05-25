@@ -23,7 +23,7 @@ git clone  https://github.com/langx/website
 npm install
 ```
 
-Once you've created your project and installed dependencies with `npm install``, you can start a development server:
+Once you've created your project and installed dependencies with `npm install`, you can start a development server:
 
 ```bash
 npm run dev
