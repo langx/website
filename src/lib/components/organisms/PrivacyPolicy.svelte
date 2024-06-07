@@ -2,7 +2,7 @@
 
 	<h1>Privacy Policy</h1>
 
-	*Effective Date: 13, May 2024*
+	*Effective Date: 7, Jun 2024*
 
 	1. Introduction
 
@@ -22,24 +22,34 @@
 
 		If you choose to log in using Google, Facebook, or Apple, we collect the following information from your third-party account:
 
-			- Google: Mentioned in the consent screen
-			- Facebook: Mentioned in the consent screen
-			- Apple: Mentioned in the consent screen
+			- Google: Information mentioned in the consent screen
+			- Facebook: Information mentioned in the consent screen
+			- Apple: Information mentioned in the consent screen
 
 		2.3 Usage Data
 
 		We collect information on how you use our app, including:
 
-			-	Features you interact with
-			-	Duration and frequency of your sessions
+			- Features you interact with
+			- Duration and frequency of your sessions
 			- Error logs and diagnostic information
 
 		2.4 Communication Data
 
 		If you contact us, we may retain a record of that communication, including:
 
-			-	Your inquiries
-			-	Responses to your questions or feedback
+			- Your inquiries
+			- Responses to your questions or feedback
+
+		2.5 OpenAI API Data
+
+		When you use features powered by the OpenAI API, we may collect and send the following anonymized data to OpenAI:
+
+			- Text input and interaction data
+			- Session information
+			- Usage patterns
+
+		All data sent to OpenAI is anonymized to protect your privacy. We do not send any personally identifiable information.
 
 	3. How We Use Your Information
 
@@ -47,32 +57,40 @@
 
 		We use your personal information to:
 
-			-	Create and manage your LangX account
-			-	Connect you with native speakers for language practice
-			-	Customize content based on your language preferences
+			- Create and manage your LangX account
+			- Connect you with native speakers for language practice
+			- Customize content based on your language preferences
 
 		3.2 Third-Party Logins
 
 		We use the information collected from third-party logins to:
 
-			-	Authenticate your identity
-			-	Provide a seamless login experience
+			- Authenticate your identity
+			- Provide a seamless login experience
 
 		3.3 Communication
 
 		We may use your contact information to:
 
-			-	Send you important updates and notifications
-			-	Provide customer support
-			-	Deliver marketing communications with your consent
+			- Send you important updates and notifications
+			- Provide customer support
+			- Deliver marketing communications with your consent
 
 		3.4 Improving Our Services
 
 		We analyze usage data to:
 
-			-	Enhance and optimize app performance
-			-	Develop new features and functionalities
-			-	Conduct research to improve language learning experiences
+			- Enhance and optimize app performance
+			- Develop new features and functionalities
+			- Conduct research to improve language learning experiences
+
+		3.5 OpenAI API Data Usage
+
+		We use anonymized data sent to OpenAI to:
+
+			- Provide advanced language learning features
+			- Improve the performance and accuracy of LangX Copilot
+			- Develop new AI-powered functionalities
 
 	4. Data Sharing
 
@@ -80,11 +98,15 @@
 
 		We may share your information with third-party service providers for:
 
-			-	Hosting and server maintenance
-			-	Analytics and data analysis
-			-	Marketing and advertising
+			- Hosting and server maintenance
+			- Analytics and data analysis
+			- Marketing and advertising
 
-		4.2 Legal Compliance
+		4.2 OpenAI
+
+		We share anonymized data with OpenAI as described in section 2.5 to provide AI-powered features and improve our services.
+
+		4.3 Legal Compliance
 
 		We may disclose your information to comply with legal obligations, such as responding to lawful requests and court orders.
 
@@ -98,9 +120,9 @@
 
 		LangX may use cookies and similar technologies to:
 
-			-	Improve user experience
-			-	Analyze usage patterns
-			-	Customize content based on user preferences
+			- Improve user experience
+			- Analyze usage patterns
+			- Customize content based on user preferences
 
 	7. Your Choices
 
@@ -111,6 +133,10 @@
 		7.2 Opt-Out
 
 		You can opt-out of receiving marketing communications at any time by adjusting your communication preferences in your account settings or using the opt-out link in our emails.
+
+		7.3 OpenAI API Interactions
+
+		You have the right to opt-out of features that involve the OpenAI API by adjusting your settings or contacting us. Note that opting out may limit the functionality of certain features.
 
 	8. Changes to This Privacy Policy
 
@@ -146,7 +172,6 @@
 		Registered Agents Inc has voluntarily consented to serve as the registered agent for New Chapter Technology Limited Liability Company and has certified they are in compliance with the requirements of W.S. 17-28-101 through W.S. 17-28-111.
 
 		For questions or concerns related to privacy or data protection, you can contact us at [hi@langx.io].
-
 
 </section>
 
