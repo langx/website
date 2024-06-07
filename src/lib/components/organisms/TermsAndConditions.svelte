@@ -2,7 +2,7 @@
 
 	<h1>Terms and Conditions</h1>
 
-	*Effective Date: 13, May 2024*
+	*Effective Date: 7, Jun 2024*
 
 	1. Acceptance of Terms
 
@@ -44,8 +44,17 @@
 	9. Governing Law
 	
 		These Terms and Conditions are governed by and construed in accordance with the laws of The United States of America.
+	
+	10. OpenAI API and Anonymous Data Usage
 
-	10. Compliance with Children's Online Privacy Protection
+		When you use features powered by the OpenAI API within LangX Copilot, you agree to the following:
+
+		- We may collect and send anonymized data to OpenAI, including text input and interaction data, session information, and usage patterns.
+		- Any data sent to OpenAI is anonymized to protect your privacy. We do not send any personally identifiable information.
+		- We use the anonymized data to provide advanced language learning features, improve the performance and accuracy of LangX Copilot, and develop new AI-powered functionalities.
+		- You have the right to opt-out of features involving the OpenAI API by adjusting your settings or contacting us, though this may limit the functionality of certain features.
+
+	11. Compliance with Children's Online Privacy Protection
 
 		Depending on the countries where our app is available, some or all of the users in our target audience may be considered children. We comply with the Families policy whenever our app is being used by a child.
 
@@ -58,10 +67,9 @@
 
 		We either make our entire app compliant, or implement a neutral age screen and comply with the policy when the user is a child.
 	
-	11. Contact Information
+	12. Contact Information
 	
 		For any questions or concerns related to these Terms and Conditions, please contact us at [hi@langx.io].
-
 
 </section>
 
@@ -84,10 +92,10 @@
 			gap: 20px;
       padding: 0;
 
-      ol {
-        margin: 0;
+			ol {
+				margin: 0;
 				border-left: 15px solid transparent;
-      }
+			}
 		}
 	}
 </style>
