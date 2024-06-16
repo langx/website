@@ -94,6 +94,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/top-10-tips-for-learning-a-new-language-quickly",
 			"title": "top-10-tips-for-learning-a-new-language-quickly"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/how-to-stay-motivated-while-learning-a-new-language",
+			"title": "how-to-stay-motivated-while-learning-a-new-language"
 		}
 	]
 }
