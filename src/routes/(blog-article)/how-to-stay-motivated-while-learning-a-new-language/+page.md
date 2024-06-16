@@ -27,7 +27,7 @@ Learning anything can be challenging, and language learning is no exception to t
 
 ## **1. Set Clear Goals**
 
-When you start off on your learning journey, one of the first things you should do is set some goals. While at first you may not see the value in this, there are a few reasons why this is important. Not only will this help keep you motivated, as you try to meet or even surpass your goals, but you'll also help yourself see what exactly you're wanting to learn. It could be as simple as wanting to learn how to order food at a restaurant in Spanish, to being able to maintain a conversation in French with a native. Either way, this step will help you realise why exactly, you want to learn a language.
+When you start off on your learning journey, one of the first things you should do is set some goals. While at first you may not see the value in this, there are a few reasons why this is important. Not only will this help keep you motivated, as you try to meet or even surpass your goals, but you'll also help yourself see what exactly you're wanting to learn. It could be as simple as wanting to learn how to order food at a restaurant in Spanish or being able to maintain a conversation in French with a native. Either way, this step will help you realise why exactly, you want to learn a language.
 
 ## **2. Find a "Study Buddy"**
 
@@ -47,7 +47,7 @@ You are learning an entirely new language, so why shouldn't you enjoy the benefi
 
 ## **6. Stay Consistent**
 
-While learning, make a routine. Whether it be learn for ten minutes or half an hour. Whether it be in the morning or at night. If you develop a routine with language learning incorporated into it, you'll find yourself instinctively learning more and more each day. You'll find yourself looking forward to the next day, when you'll get to learn some more. When it comes to learning a language, consistency is key!
+While learning, make a routine. Whether it be learn for ten minutes or half an hour. Whether it be in the morning or at night. If you develop a routine with language learning incorporated into it, you'll find yourself instinctively learning more and more each day. You'll find yourself looking forward to the next study session, when you'll get to learn even more. When it comes to learning a language, consistency is key!
 
 ## **7. Remember Why You Started**
 
@@ -55,4 +55,4 @@ Why did you want to learn a language? Was it for a job you wanted? Was it for a 
 
 ## **Conclusion**
 
-Learning a new language is a monumentous task, and to be able to stick with it, requires motivation and determination. If you ever find yourself lacking either of these, think of this article, or even better, come back to read it, and remember. You can do it!
+Learning a new language is a monumentous task, and to be able to stick with it, requires motivation, and determination. If you ever find yourself lacking either of these, think of this article, or even better, come back to read it, and remember. You can do it!
