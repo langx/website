@@ -90,6 +90,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/Through-learning-languages-understanding-more-about-the-worlds-cultures",
 			"title": "Through-learning-languages-understanding-more-about-the-worlds-cultures"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/top-10-tips-for-learning-a-new-language-quickly",
+			"title": "top-10-tips-for-learning-a-new-language-quickly"
 		}
 	]
 }
