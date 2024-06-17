@@ -47,6 +47,10 @@ const xml = (posts: BlogPost[]) => `
           <guid>${siteBaseUrl}/${post.slug}</guid>
           <title>${post.title}</title>
           <description>${post.excerpt}</description>
+          <author>
+            <name><![CDATA[${post.author.name}]]></name>
+            <link><![CDATA[${post.author.url}]]></link>
+          </author>
           <link>${siteBaseUrl}/${post.slug}</link>
           <pubDate>${dateformat(post.date, 'ddd, dd mmm yyyy HH:MM:ss o')}</pubDate>
           ${post.tags ? post.tags.map((tag) => `<category>${tag}</category>`).join('') : ''}
