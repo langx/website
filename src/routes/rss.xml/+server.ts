@@ -47,6 +47,7 @@ const xml = (posts: BlogPost[]) => `
           <guid>${siteBaseUrl}/${post.slug}</guid>
           <title>${post.title}</title>
           <description>${post.excerpt}</description>
+          <dc:creator><![CDATA[${post.author.name}]]></dc:creator>
           <author>
             <name><![CDATA[${post.author.name}]]></name>
             <link><![CDATA[${post.author.url}]]></link>
