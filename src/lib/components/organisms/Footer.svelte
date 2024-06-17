@@ -35,6 +35,9 @@
 								<a href="https://github.com/sponsors/langx" target="_blank">Sponsors</a>
 							</li>
 							<li>
+								<a href="https://backer.langx.io" target="_blank">Be Patron ❤️</a>
+							</li>
+							<li>
 								<a href="https://langx.io/blog" target="_blank">Blog</a>
 							</li>
 						</ul>
@@ -62,6 +65,9 @@
 							</li>
 							<li>
 								<a href="https://www.youtube.com/@langxapp" target="_blank">YouTube</a>
+							</li>
+							<li>
+								<a href="https://blog.langx.io" target="_blank">Medium</a>
 							</li>
 						</ul>
 					</div>
