@@ -15,7 +15,7 @@
 
 <div class="socials">
 	<a
-		href="https://discord.com/invite/2D3jW2YDgS"
+		href="https://discord.langx.io"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Join our Discord server"
