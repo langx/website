@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import StarCount from '$lib/components/molecules/StarCount.svelte';
+	import DiscordIcon from '$lib/icons/socials/discord.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 
 	export let showBackground = false;
@@ -13,8 +14,16 @@
 		</div>
 		<div class="links">
 			<a href="/blog">Blog</a>
-			<a href="https://docs.langx.io">Litepaper</a>
+			<a href="https://docs.langx.io">Docs</a>
 			<StarCount />
+			<a
+				href="https://discord.langx.io"
+				target="_blank"
+				rel="noopener noreferrer"
+				title="Join our Discord server"
+			>
+				<DiscordIcon />
+			</a>
 			<ThemeToggle />
 		</div>
 	</nav>
