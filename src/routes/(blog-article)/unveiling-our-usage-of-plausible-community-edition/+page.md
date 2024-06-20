@@ -73,7 +73,7 @@ Our commitment to transparency and community-driven solutions means that we are 
 
 At LangX, we’re proud to use Plausible Community Edition to power our analytics. Our commitment to transparency, privacy, and open-source principles is at the heart of everything we do. You can explore our insights and see Plausible CE in action by visiting our analytics page at [insight.langx.io](https://insight.langx.io).
 
-"We chose Plausible CE because of its commitment to data privacy and its user-friendly interface," said our CEO recently. According to a study by [Research Organization], Plausible CE offers robust analytics capabilities while prioritizing user privacy.
+"We chose Plausible CE because of its commitment to data privacy and its user-friendly interface," said our CEO recently. Plausible CE offers robust analytics capabilities while prioritizing user privacy.
 
 <Image fullBleed src="/images/posts/unveiling-our-usage-of-plausible-community-edition-2.png" alt="Image depicting analytics dashboard in use" />
 
