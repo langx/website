@@ -11,6 +11,8 @@
 	import BlueskyIcon from '$lib/icons/socials/bluesky.svelte';
 	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
 	import RSSIcon from '$lib/icons/rss.svelte';
+	import LinkedinIcon from '$lib/icons/socials/linkedin.svelte';
+	import MediumIcon from '$lib/icons/socials/medium.svelte';
 </script>
 
 <div class="socials">
@@ -88,6 +90,22 @@
 		title="See our GitHub Page"
 	>
 		<GitHubIcon />
+	</a>
+	<a
+		href="https://blog.langx.io"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our Medium Blog Page"
+	>
+		<MediumIcon />
+	</a>
+	<a
+		href="https://www.linkedin.com/company/new-chapter-technology-limited-liability-company"
+		target="_blank"
+		rel="noopener noreferrer"
+		title="See our Linkedin Page"
+	>
+		<LinkedinIcon />
 	</a>
 	<a href="/rss.xml" target="_blank" rel="noopener noreferrer" title="Subscribe to my RSS Feed">
 		<RSSIcon />
