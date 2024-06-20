@@ -102,6 +102,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/mastering-a-new-language-an-introverts-guide",
 			"title": "mastering-a-new-language-an-introverts-guide"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/unveiling-our-usage-of-plausible-community-edition",
+			"title": "unveiling-our-usage-of-plausible-community-edition"
 		}
 	]
 }
