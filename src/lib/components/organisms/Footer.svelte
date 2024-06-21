@@ -141,7 +141,12 @@
 						<h3>Apps</h3>
 						<ul role="list">
 							<li>
-								<a href="https://app.langx.io" target="_blank">Web App</a>
+								<a
+									href="https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141"
+									target="_blank"
+								>
+									iOS
+								</a>
 							</li>
 							<li>
 								<a
@@ -152,12 +157,7 @@
 								</a>
 							</li>
 							<li>
-								<a
-									href="https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141"
-									target="_blank"
-								>
-									iOS
-								</a>
+								<a href="https://app.langx.io" target="_blank">Web App</a>
 							</li>
 						</ul>
 					</div>

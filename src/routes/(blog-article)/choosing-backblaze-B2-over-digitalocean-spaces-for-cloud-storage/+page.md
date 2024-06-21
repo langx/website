@@ -1,7 +1,7 @@
 ---
 title: Choosing Backblaze B2 over DigitalOcean Spaces for Cloud Storage
 slug: choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage
-coverImage: /images/posts/choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage.webp
+coverImage: /images/posts/choosing-backblaze-B2-over-digitalocean-spaces-for-cloud-storage.png
 date: 2024-04-02T04:11:23.151Z
 excerpt: In the realm of cloud storage solutions, two prominent names stand out, Backblaze B2 and DigitalOcean Spaces. Both offer robust features and competitive pricing, making the choice between them a tough decision for businesses and individuals alike. After thorough evaluation, we decided to opt for Backblaze B2 over DigitalOcean Spaces.
 author:
