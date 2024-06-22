@@ -106,6 +106,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/unveiling-our-usage-of-plausible-community-edition",
 			"title": "unveiling-our-usage-of-plausible-community-edition"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/ama-langx-practice-learn-succeed-r-duolingo",
+			"title": "ama-langx-practice-learn-succeed-r-duolingo"
 		}
 	]
 }
