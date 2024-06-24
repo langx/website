@@ -110,6 +110,10 @@
 		{
 			"path": "[[workspace]]/src/routes/(blog-article)/ama-langx-practice-learn-succeed-r-duolingo",
 			"title": "ama-langx-practice-learn-succeed-r-duolingo"
+		},
+		{
+			"path": "[[workspace]]/src/routes/(blog-article)/addressing-allegations-and-clarifying-our-commitment",
+			"title": "addressing-allegations-and-clarifying-our-commitment"
 		}
 	]
 }
