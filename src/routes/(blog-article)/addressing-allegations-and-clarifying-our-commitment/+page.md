@@ -48,7 +48,7 @@ Referencing FBI warnings about unrelated scams to instill fear is unwarranted. T
 
 ## Freedom of Expression and Unjust Ban
 
-We were permanently banned from <a href="https://www.reddit.com/r/duolingo/" target="blank">r/duolingo</a> without prior discussion, undermining the principle of freedom of expression. Additionally our AMA post has been removed by the moderators of r/duolingo. Banning someone for mentioning blockchain technology raises concerns about bias and fairness. Despite this setback, we are determined to continue our mission independently of r/duolingo. We are grateful for the support from our community and the many users who have reached out to us directly. We will continue to engage with our users and contributors through our Discord server and other platforms.
+We were permanently banned from <a href="https://www.reddit.com/r/duolingo/" target="blank">r/duolingo</a> without prior discussion. Additionally our AMA post has been removed by the moderators of r/duolingo. Banning someone for mentioning blockchain technology raises concerns about bias and fairness. Despite this setback, we are determined to continue our mission independently of r/duolingo. We are grateful for the support from our community and the many users who have reached out to us directly. We will continue to engage with our users and contributors through our Discord server and other platforms.
 
 ## Conclusion
 
