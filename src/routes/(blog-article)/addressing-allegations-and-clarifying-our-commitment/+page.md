@@ -43,8 +43,6 @@ Our company information and address are fully transparent <a href="https://wyobi
 
 It is perplexing to see LangX, a completely open-source application, being labeled as suspicious. Our development process is transparent, and community contributions can be tracked in real-time on GitHub. Those accusing the LangX community of fraud likely lack understanding of code or blockchain technology. The language learning process belongs to everyone, and our open-source work might have unintentionally threatened some individuals who perceive us as competitors.
 
-If you are seeking fraud, consider examining operating systems, phones, and applications whose source code is not publicly available. These are the entities that track and exploit users. Instead of falsely accusing a community-built, open-source project, direct your scrutiny towards those who genuinely invade your privacy. By making our project public on GitHub, we invite scrutiny and contributions from experts worldwide, ensuring accountability and continuous improvement.
-
 <Callout type="warning">
 Referencing FBI warnings about unrelated scams to instill fear is unwarranted. The FBI has issued warnings about malicious apps used in beta-testing environments to defraud users. These apps often steal personal information and financial details by masquerading as legitimate applications. If security is a genuine concern, it is crucial to be wary of closed-source applications that lack transparency. For more information, refer to the <a href="https://www.ic3.gov/Media/Y2023/PSA230814" target="_blank"> FBI Warning</a></Callout>
 
