@@ -5,6 +5,7 @@
 	import RecentPosts from '$lib/components/organisms/RecentPosts.svelte';
 	import Faq from '$lib/components/organisms/FAQ.svelte';
 	import CSponsors from '$lib/components/organisms/CSponsors.svelte';
+	// import CompletedUserProfiles from '$lib/components/organisms/CompletedUserProfiles.svelte';
 	import BCSponsors from '$lib/components/organisms/BCSponsors.svelte';
 	import Testimonials from '$lib/components/organisms/Testimonials.svelte';
 	import Newsletter from '$lib/components/organisms/Newsletter.svelte';
@@ -24,6 +25,7 @@
 	<Testimonials />
 	<CSponsors />
 	<Features {features} />
+<!--	<CompletedUserProfiles />-->
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />
 	{/if}

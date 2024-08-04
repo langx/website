@@ -90,19 +90,26 @@
 			background-color: #ffffff;
 			color: rgb(17 24 39 / 1);
 			padding: 0.5rem 0.875rem;
-			box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+			//box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.3);
 			border-width: 0;
 			border-radius: 0.375rem;
 			flex: 1 1 auto;
 			min-width: 0;
 			appearance: none;
 			margin: 0;
+			transition: box-shadow 0.15s ease-in-out;
+
+			&:hover {
+        box-shadow: 0 0 0 rgb(207 160 14);
+			}
 		}
 
 		button {
 			display: flex;
 			justify-content: center;
-			box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+			//box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.3);
 			color: var(--color--secondary);
 			font-weight: 600;
 			font-size: 0.875rem;
@@ -117,7 +124,7 @@
 			margin: 0;
 			outline: none;
 			border: none;
-			transition: color 0.2s, background-color 0.2s;
+			transition: color 0.2s, background-color 0.2s, box-shadow 0.15s ease-in-out;
 
 			@include for-tablet-portrait-down {
 				margin-top: 1rem;
@@ -126,6 +133,7 @@
 			&:hover {
 				background-color: var(--color--secondary);
 				color: #ffffff;
+        box-shadow: 0 0 0 rgb(207 160 14);
 			}
 
 			svg {
