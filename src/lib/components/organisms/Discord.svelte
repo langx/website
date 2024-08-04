@@ -1,6 +1,5 @@
 <script>
 	import DiscordWhiteBig from '$lib/icons/socials/discord-white-big.svelte';
-	import Discord from '$lib/icons/socials/discord.svelte';
 </script>
 
 <section id="discord">
