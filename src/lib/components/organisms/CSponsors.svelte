@@ -3,7 +3,7 @@
 		<h2>Verified by Leading Companies Worldwide</h2>
 		<div class="sponsor-container">
 			<div>
-				<a href="https://apple.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://apple.com" target="_blank" rel="noopener noreferrer" id="apple-link">
 					<svg
 						width="48px"
 						height="48px"
@@ -36,7 +36,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://facebook.com" target="_blank" rel="noopener noreferrer" id="facebook-link">
 					<svg
 						width="68px"
 						height="68px"
@@ -56,7 +56,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" id="tiktok-link">
 					<svg
 						fill="var(--color--text)"
 						width="50px"
@@ -75,7 +75,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://google.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://google.com" target="_blank" rel="noopener noreferrer" id="google-link">
 					<svg
 						width="45px"
 						height="45px"
@@ -155,7 +155,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://x.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://x.com" target="_blank" rel="noopener noreferrer" id="twitter-link">
 					<svg
 						width="50px"
 						height="50px"
@@ -188,7 +188,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://huawei.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://huawei.com" target="_blank" rel="noopener noreferrer" id="huawei-link">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="50"
@@ -207,6 +207,7 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
+	@import "$lib/scss/variables.scss";
 
 	$yellow: var(--color--primary);
 
@@ -278,9 +279,54 @@
 						transition: fill 0.3s ease-in-out;
 					}
 
-					&:hover svg,
-					&:hover path {
-						fill: var(--color--secondary);
+					&#apple-link:hover svg,
+					&#apple-link:hover path {
+						fill: var(--apple-color);
+					}
+
+					&#facebook-link:hover svg,
+					&#facebook-link:hover path {
+						fill: var(--facebook-color);
+					}
+
+					&#apple-link:hover svg,
+					&#apple-link:hover path {
+						fill: var(--apple-color);
+					}
+
+					&#tiktok-link svg {
+						transition: 0.3s;
+					}
+
+					&#tiktok-link:hover svg {
+						box-shadow: -2px -2px 5px 1px var(--tiktok-color-blue), 2px 2px 5px 1px var(--tiktok-color-red);
+						background: black;
+					}
+
+					&#google-link:hover path#Fill-4 {
+						fill: var(--google-color-blue);
+					}
+
+					&#google-link:hover path#Fill-3 {
+						fill: var(--google-color-green);
+					}
+
+					&#google-link:hover path#Fill-2 {
+						fill: var(--google-color-red);
+					}
+
+					&#google-link:hover path#Fill-1 {
+						fill: var(--google-color-yellow);
+					}
+
+					&#twitter-link:hover svg,
+					&#twitter-link:hover path {
+						fill: var(--twitter-color);
+					}
+
+					&#huawei-link:hover svg,
+					&#huawei-link:hover path {
+						fill: var(--huawei-color);
 					}
 				}
 			}
