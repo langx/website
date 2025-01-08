@@ -12,6 +12,10 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			handleHttpError: 'warn'
+		},
+		alias: {
+			$lib: 'src/lib'
+			// Add other aliases here as needed
 		}
 	},
 	preprocess: [
