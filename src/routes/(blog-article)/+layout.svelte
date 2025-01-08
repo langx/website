@@ -100,7 +100,7 @@
 	.article-layout {
 		--body-background-color: var(--color--post-page-background);
 		background-color: var(--color--post-page-background);
-	}
+	} 
 
 	#article-content {
 		--main-column-width: 65ch;
