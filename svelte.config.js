@@ -39,10 +39,7 @@ const config = {
 						}
 					}
 				]
-			],
-			scss: {
-				includePaths: ['src']
-			}
+			]
 		})
 	],
 	extensions: extensions,
