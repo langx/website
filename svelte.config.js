@@ -1,5 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import adapter from '@sveltejs/adapter-auto';
 import { mdsvex } from 'mdsvex';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeSlug from 'rehype-slug';
@@ -16,18 +15,14 @@ const config = {
 		}
 	},
 	preprocess: [
-		// Consult https://kit.svelte.dev/docs/integrations#preprocessors
-		// for more information about preprocessors
-		vitePreprocess(),
 		mdsvex({
 			extensions: extensions,
 			rehypePlugins: [
-				rehypeExternalLinks, // Adds 'target' and 'rel' to external links
-				rehypeSlug, // Adds 'id' attributes to Headings (h1,h2,etc)
+				rehypeExternalLinks,
+				rehypeSlug,
 				[
 					rehypeAutolinkHeadings,
 					{
-						// Adds hyperlinks to the headings, requires rehypeSlug
 						behavior: 'prepend',
 						properties: { className: ['heading-link'], title: 'Permalink', ariaHidden: 'true' },
 						content: {
@@ -44,7 +39,5 @@ const config = {
 	extensions: extensions,
 	trailingSlash: 'always'
 };
-
-config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH };
 
 export default config;
