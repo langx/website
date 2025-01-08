@@ -27,6 +27,8 @@
 		' '
 	)}
 	data-sveltekit-preload-data
+	role="button"
+	tabindex="0"
 	on:click
 	{...$$restProps}
 >
