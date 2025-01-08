@@ -60,7 +60,7 @@
 </form>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints.scss';
 
 	form {
 		column-gap: 1rem;

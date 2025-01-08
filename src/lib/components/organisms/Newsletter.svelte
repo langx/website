@@ -15,7 +15,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use'$lib/scss/breakpoints.scss';
 
 	#newsletter {
 		margin: 80px 0;

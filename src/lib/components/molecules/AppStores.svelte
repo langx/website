@@ -25,7 +25,7 @@
 </div>
 
 <style lang="scss">
-	@import '../../scss/breakpoints.scss';
+	@use '../../scss/breakpoints.scss';
 
 	.app-stores {
 		display: flex;

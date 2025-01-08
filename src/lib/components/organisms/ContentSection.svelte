@@ -34,7 +34,7 @@
 </section>
 
 <style lang="scss">
-	@import '../../scss/breakpoints.scss';
+	@use '../../scss/breakpoints.scss';
 
 	.content-section {
 		position: relative;

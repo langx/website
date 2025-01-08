@@ -26,7 +26,7 @@
 </ContentSection>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints.scss';
 
 	.features-container {
 		width: 100%;

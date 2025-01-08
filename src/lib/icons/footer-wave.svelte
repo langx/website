@@ -14,7 +14,7 @@
 </svg>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints.scss';
 
 	$yellow: var(--color--primary);
 

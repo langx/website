@@ -1,18 +1,18 @@
-@import '$lib/scss/_reset.scss';
-@import '$lib/scss/_variables.scss';
-@import '$lib/scss/_themes.scss';
-@import '$lib/scss/_breakpoints.scss';
-@import '$lib/scss/_functions.scss';
-@import '$lib/scss/_mixins.scss';
-@import '$lib/scss/_base.scss';
-@import '$lib/scss/_typography.scss';
-@import '$lib/scss/_markdown.scss';
-@import '$lib/scss/_code-highlights.scss';
-@import '$lib/scss/animations.scss';
+@use '$lib/scss/_reset.scss';
+@use '$lib/scss/_variables.scss';
+@use '$lib/scss/_themes.scss';
+@use '$lib/scss/_breakpoints.scss';
+@use '$lib/scss/_functions.scss';
+@use '$lib/scss/_mixins.scss';
+@use '$lib/scss/_base.scss';
+@use '$lib/scss/_typography.scss';
+@use '$lib/scss/_markdown.scss';
+@use '$lib/scss/_code-highlights.scss';
+@use '$lib/scss/animations.scss';
 
-@import '@fontsource/comfortaa';
-@import '@fontsource/comfortaa/600.css';
-@import '@fontsource/comfortaa/700.css';
+@use '@fontsource/comfortaa' as comfortaa;
+@use '@fontsource/comfortaa/600.css' as comfortaa600;
+@use '@fontsource/comfortaa/700.css' as comfortaa700;
 
 body {
 	--body-background-color: var(--color--page-background);

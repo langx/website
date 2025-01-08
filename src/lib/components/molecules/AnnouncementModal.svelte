@@ -29,7 +29,7 @@
 {/if}
 
 <style lang="scss">
-	@import '$lib/scss/_themes.scss';
+	@use '$lib/scss/_themes.scss';
 
 	.modal {
 		position: fixed;

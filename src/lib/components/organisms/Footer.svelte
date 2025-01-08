@@ -199,7 +199,7 @@
 </footer>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints.scss';
 
 	footer {
 		padding-top: 3.5vw;

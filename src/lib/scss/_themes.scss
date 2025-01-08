@@ -1,4 +1,4 @@
-@import '$lib/scss/_mixins.scss';
+@use '$lib/scss/_mixins.scss';
 
 @mixin base-theme {
 	@include define-color('primary', #ffc409);
