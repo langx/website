@@ -45,8 +45,8 @@
 	},
 	"devDependencies": {
 		"@neoconfetti/svelte": "^1.0.0",
-		"@sveltejs/adapter-static": "^3.0.6",
-		"@sveltejs/kit": "^2.8.3",
+		"@sveltejs/adapter-static": "^0.0.17",
+		"@sveltejs/kit": "^0.0.30",
 		"@types/cookie": "^0.5.1",
 		"@types/dateformat": "^5.0.1",
 		"@types/prismjs": "^1.26.2",
@@ -77,6 +77,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/comfortaa": "^5.0.17",
-		"sweetalert2": "^11.10.8"
+		"sweetalert2": "^11.6.13"
 	}
 }
