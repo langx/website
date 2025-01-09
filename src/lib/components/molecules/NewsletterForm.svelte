@@ -67,7 +67,7 @@
 		max-width: 28rem;
 		display: flex;
 
-		@include for-tablet-portrait-down {
+		@mixin for-tablet-portrait-down {
 			flex-direction: column;
 			width: 100%;
 		}
@@ -117,9 +117,11 @@
 			margin: 0;
 			outline: none;
 			border: none;
-			transition: color 0.2s, background-color 0.2s;
+			transition:
+				color 0.2s,
+				background-color 0.2s;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				margin-top: 1rem;
 			}
 

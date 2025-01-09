@@ -30,7 +30,7 @@
 		gap: 16px;
 		align-items: center;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			gap: 8px;
 		}
 

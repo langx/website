@@ -32,7 +32,7 @@
 		align-items: center;
 		gap: 20px;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			flex-direction: column;
 			align-items: center;
 			gap: 10px;
@@ -44,7 +44,7 @@
 			color: var(--color--text-invert);
 			fill: var(--color--text-invert);
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				width: 200px;
 			}
 
