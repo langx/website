@@ -28,6 +28,8 @@
 	)}
 	data-sveltekit-preload-data
 	on:click
+	role="button"
+	tabindex="0"
 	{...$$restProps}
 >
 	{#if $$slots['icon']}
