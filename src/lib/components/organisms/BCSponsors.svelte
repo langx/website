@@ -3,7 +3,7 @@
 		<h2>Powered by Growing Companies Worldwide</h2>
 		<div class="sponsor-container">
 			<div>
-				<a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" id="cloudflare-link">
 					<svg
 						fill="var(--color--text)"
 						width="58px"
@@ -26,7 +26,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer" id="digitalocean-link">
 					<svg
 						width="52px"
 						height="52px"
@@ -50,7 +50,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.backblaze.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://www.backblaze.com" target="_blank" rel="noopener noreferrer" id="backblaze-link">
 					<svg
 						width="50px"
 						height="50px"
@@ -71,7 +71,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">
+				<a href="https://nodejs.org" target="_blank" rel="noopener noreferrer" id="nodejs-link">
 					<svg
 						width="50px"
 						height="50px"
@@ -93,7 +93,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://appwrite.io" target="_blank" rel="noopener noreferrer">
+				<a href="https://appwrite.io" target="_blank" rel="noopener noreferrer" id="appwrite-link">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="45"
@@ -116,6 +116,7 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
+	@import '$lib/scss/variables.scss';
 
 	$yellow: var(--color--primary);
 
@@ -183,9 +184,29 @@
 						transition: fill 0.3s ease-in-out;
 					}
 
-					&:hover svg,
-					&:hover path {
-						fill: var(--color--secondary);
+					&#cloudflare-link:hover svg,
+					&#cloudflare-link:hover path {
+						fill: var(--cloudflare-color);
+					}
+
+					&#digitalocean-link:hover svg,
+					&#digitalocean-link:hover path {
+						fill: var(--digitalocean-color);
+					}
+
+					&#backblaze-link:hover svg,
+					&#backblaze-link:hover path {
+						fill: var(--backblaze-color);
+					}
+
+					&#nodejs-link:hover svg,
+					&#nodejs-link:hover path {
+						fill: var(--nodejs-color);
+					}
+
+					&#appwrite-link:hover svg,
+					&#appwrite-link:hover path {
+						fill: var(--appwrite-color);
 					}
 				}
 			}

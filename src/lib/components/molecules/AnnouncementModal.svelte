@@ -6,9 +6,14 @@
 	let show = false;
 
 	onMount(() => {
-		setTimeout(() => {
-			show = true;
-		}, 3000); // Delay
+		if (
+			localStorage.getItem('show-accouncment-modal') === null ||
+			localStorage.getItem('show-accouncment-modal') === 'true'
+		) {
+			setTimeout(() => {
+				show = true;
+			}, 3000); // Delay
+		}
 	});
 </script>
 
@@ -22,7 +27,14 @@
 			</p>
 			<div class="btn-wrapper">
 				<a href="http://token.langx.io" target="_blank" class="open">Visit</a>
-				<button type="button" class="close" on:click={() => (show = false)}>Close</button>
+				<button
+					type="button"
+					class="close"
+					on:click={() => {
+						show = false;
+						localStorage.setItem('show-accouncment-modal', 'false');
+					}}>Close</button
+				>
 			</div>
 		</div>
 	</div>
