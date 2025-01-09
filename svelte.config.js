@@ -21,7 +21,7 @@ const config = {
 		}
 	},
 	preprocess: [
-		sveltePreprocess(),
+		// sveltePreprocess(),
 		vitePreprocess(),
 		mdsvex({
 			extensions: extensions,

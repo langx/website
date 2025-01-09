@@ -199,7 +199,7 @@
 </footer>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	footer {
 		padding-top: 3.5vw;
@@ -227,7 +227,7 @@
 			max-width: 1080px;
 			margin: auto;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				padding-left: 15px;
 				padding-right: 15px;
 			}
@@ -254,7 +254,7 @@
 					box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 0, 0, 0.5);
 					max-width: 400px;
 
-					@include for-phone-only {
+					@mixin for-phone-only {
 						display: none;
 					}
 
@@ -283,7 +283,7 @@
 					grid-template-columns: repeat(3, minmax(0, 1fr));
 				}
 
-				@include for-tablet-portrait-down {
+				@mixin for-tablet-portrait-down {
 					column-gap: 2rem;
 					grid-template-columns: repeat(2, minmax(0, 1fr));
 				}
@@ -301,7 +301,7 @@
 						grid-row-start: 2;
 					}
 
-					@include for-tablet-portrait-down {
+					@mixin for-tablet-portrait-down {
 						grid-row-start: unset;
 					}
 
@@ -345,7 +345,7 @@
 				border-color: rgb(17 24 39 / 0.1);
 				border-top-width: 1px;
 
-				@include for-tablet-portrait-down {
+				@mixin for-tablet-portrait-down {
 					display: block;
 					justify-content: unset;
 					align-content: unset;
@@ -356,7 +356,7 @@
 					display: flex;
 					order: 2;
 
-					@include for-tablet-portrait-down {
+					@mixin for-tablet-portrait-down {
 						justify-content: center;
 					}
 				}
@@ -367,7 +367,7 @@
 					color: #000000;
 					font-size: 0.75rem;
 
-					@include for-tablet-portrait-down {
+					@mixin for-tablet-portrait-down {
 						margin-top: 2rem;
 					}
 				}
@@ -382,13 +382,13 @@
 			border-top-width: 1px;
 			margin: 2rem 0;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				flex-direction: column;
 				text-align: center;
 			}
 
 			div {
-				@include for-tablet-portrait-down {
+				@mixin for-tablet-portrait-down {
 					margin-bottom: 1rem;
 				}
 			}

@@ -22,7 +22,7 @@
 </ContentSection>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	.simple-grid {
 		width: 100%;
@@ -34,7 +34,7 @@
 			grid-template-columns: 1fr 1fr;
 		}
 
-		@include for-tablet-portrait-down {
+		@mixin for-tablet-portrait-down {
 			grid-template-columns: 1fr;
 		}
 	}

@@ -29,7 +29,7 @@
 {/if}
 
 <style lang="scss">
-	@use '$lib/scss/_themes.scss';
+	@use '../../../lib/scss/_mixins.scss'; // Adjust the path as needed
 
 	.modal {
 		position: fixed;

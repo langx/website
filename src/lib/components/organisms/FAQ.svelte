@@ -128,7 +128,7 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 	
 	#faq {
 		display: flex;
@@ -139,7 +139,7 @@
 		position: relative;
 		padding: 80px 0;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			padding: 40px 0 50px;
 		}
 
@@ -179,7 +179,7 @@
 				background: none;
 				outline: none;
 
-				@include for-phone-only {
+				@mixin for-phone-only {
 					font-size: 1rem;
 				}
 

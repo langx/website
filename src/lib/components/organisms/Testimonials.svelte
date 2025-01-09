@@ -220,7 +220,7 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	#slider {
 		position: relative;
@@ -229,7 +229,7 @@
 		height: 395px;
 		//overflow: hidden;
 
-		@include for-tablet-portrait-down {
+		@mixin for-tablet-portrait-down {
 			min-height: 432px;
 
 			.button-wrapper {
@@ -255,7 +255,7 @@
 			transition: 0.5s;
 			overflow: hidden;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				left: 50%;
 				transform: translateX(-50%) !important;
 				opacity: 1 !important;
@@ -327,7 +327,7 @@
 			top: 50%;
 			transform: translateY(-50%);
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				right: -10px;
 				z-index: 1;
 			}
@@ -339,7 +339,7 @@
 			top: 50%;
 			transform: translateY(-50%);
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				left: -10px;
 				z-index: 1;
 			}
@@ -379,7 +379,7 @@
 			align-items: center;
 			z-index: 1;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				bottom: -30px;
 			}
 

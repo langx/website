@@ -17,7 +17,7 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	#hero {
 		color: #000;
@@ -29,7 +29,7 @@
 		position: relative;
 		padding: 80px 0;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			padding: 40px 0 50px;
 		}
 
@@ -51,7 +51,7 @@
 				text-align: right;
 			}
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				display: none;
 			}
 		}

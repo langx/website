@@ -28,7 +28,7 @@
 </div>
 
 <style lang="scss">
-	@use '$lib/scss/_mixins.scss';
+	@use '../../../lib/scss/_mixins.scss'; // Adjust the path as needed
 
 	.grid {
 		width: 100%;
@@ -36,11 +36,11 @@
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 		grid-gap: 20px;
 
-		@include for-tablet-portrait-down {
+		@mixin for-tablet-portrait-down {
 			grid-template-columns: 1fr;
 		}
 
-		@include for-tablet-landscape-up {
+		@mixin for-tablet-landscape-up {
 			// Select every 6 elements, starting from position 1
 			// And make it take up 6 columns
 			> :global(:nth-child(6n + 1)) {

@@ -26,7 +26,7 @@
 </ContentSection>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	.features-container {
 		width: 100%;
@@ -45,7 +45,7 @@
 			grid-template-columns: 1fr 1fr;
 		}
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			grid-template-columns: 1fr;
 		}
 
@@ -64,7 +64,7 @@
 				grid-column: span 2;
 			}
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				grid-template-columns: 1fr;
 				grid-column: unset;
 			}

@@ -31,7 +31,7 @@
 </ContentSection>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	.grid {
 		width: 100%;
@@ -39,7 +39,7 @@
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			grid-template-columns: 1fr;
 		}
 	}

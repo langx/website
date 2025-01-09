@@ -176,7 +176,7 @@
 </section>
 
 <style lang="scss">
-	@use'$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	#policy {
 		position: relative;
@@ -188,7 +188,7 @@
 		max-width: 800px; /* Limit the width of the text */
 		margin: 0 auto; /* Center the text block */
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			grid-template-columns: 1fr;
 			justify-items: center;
 			gap: 20px;

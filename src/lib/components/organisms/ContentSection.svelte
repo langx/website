@@ -69,7 +69,7 @@
 			place-items: center;
 		}
 
-		@include for-tablet-landscape-up {
+		@mixin for-tablet-landscape-up {
 			&.left {
 				.title-area {
 					order: 1;
@@ -98,7 +98,7 @@
 				}
 			}
 		}
-		@include for-tablet-portrait-down {
+		@mixin for-tablet-portrait-down {
 			flex-direction: column;
 		}
 	}

@@ -15,7 +15,7 @@
 </section>
 
 <style lang="scss">
-	@use'$lib/scss/breakpoints.scss';
+	@use'../../../lib/scss/breakpoints.scss';
 
 	#newsletter {
 		margin: 80px 0;
@@ -29,11 +29,11 @@
 			isolation: isolate;
 			position: relative;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				padding: 108px;
 			}
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				border-radius: 10px;
 				padding: 96px 24px;
 			}

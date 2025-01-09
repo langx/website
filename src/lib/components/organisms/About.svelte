@@ -38,7 +38,7 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	#about {
 		position: relative;
@@ -48,7 +48,7 @@
 		justify-content: space-between;
 		padding-bottom: 50px;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			grid-template-columns: 1fr;
 			justify-items: center;
 			gap: 20px;
@@ -59,18 +59,18 @@
 			flex-direction: column;
 			gap: 10px;
 			h2 {
-				@include for-phone-only {
+				@mixin for-phone-only {
 					text-align: center;
 				}
 			}
 
 			p {
-				@include for-phone-only {
+				@mixin for-phone-only {
 					text-align: justify;
 				}
 			}
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				gap: 20px;
 			}
 		}
@@ -80,7 +80,7 @@
 			align-items: center;
 			gap: 15px;
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				justify-content: center;
 				margin-bottom: 10px;
 				span {
@@ -93,7 +93,7 @@
 			width: 100%;
 			height: 100%;
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				width: 80%;
 			}
 		}

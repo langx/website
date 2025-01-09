@@ -206,14 +206,14 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss';
+	@use '../../../lib/scss/breakpoints.scss';
 
 	$yellow: var(--color--primary);
 
 	#csponsors {
 		padding: 110px 0 0 0;
 
-		@include for-phone-only {
+		@mixin for-phone-only {
 			padding: 40px 0 50px;
 		}
 
@@ -233,11 +233,11 @@
 			align-items: center;
 			margin-top: 2.5em;
 
-			@include for-tablet-portrait-down {
+			@mixin for-tablet-portrait-down {
 				grid-template-columns: repeat(7, minmax(0, 1fr));
 			}
 
-			@include for-phone-only {
+			@mixin for-phone-only {
 				grid-template-columns: repeat(4, minmax(0, 1fr));
 			}
 
@@ -247,7 +247,7 @@
 				display: flex;
 				justify-content: center;
 
-				@include for-tablet-portrait-down {
+				@mixin for-tablet-portrait-down {
 					grid-column: span 2 / span 2;
 
 					&:nth-child(4) {
@@ -258,7 +258,7 @@
 					//}
 				}
 
-				@include for-phone-only {
+				@mixin for-phone-only {
 					&:nth-child(4) {
 						grid-column-start: auto;
 					}

@@ -95,7 +95,8 @@
 </div>
 
 <style lang="scss">
-	@use '$lib/scss/_mixins.scss';
+	// @use '$lib/scss/_mixins.scss';
+	@use '../../lib/scss/_mixins.scss'; // Adjust the path as needed
 
 	.article-layout {
 		--body-background-color: var(--color--post-page-background);
@@ -110,17 +111,17 @@
 		padding-right: 15px;
 		padding-left: 15px;
 
-		@include for-iphone-se {
+		@mixin for-iphone-se {
 			padding-left: 0;
 			padding-right: 0;
 		}
 
-		@include for-tablet-portrait-up {
+		@mixin for-tablet-portrait-up {
 			padding-right: 20px;
 			padding-left: 20px;
 		}
 
-		@include for-tablet-landscape-up {
+		@mixin for-tablet-landscape-up {
 			padding-right: 30px;
 			padding-left: 30px;
 		}
