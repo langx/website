@@ -207,7 +207,7 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
-	@import "$lib/scss/variables.scss";
+	@import '$lib/scss/variables.scss';
 
 	$yellow: var(--color--primary);
 
@@ -299,7 +299,9 @@
 					}
 
 					&#tiktok-link:hover svg {
-						box-shadow: -2px -2px 5px 1px var(--tiktok-color-blue), 2px 2px 5px 1px var(--tiktok-color-red);
+						box-shadow:
+							-2px -2px 5px 1px var(--tiktok-color-blue),
+							2px 2px 5px 1px var(--tiktok-color-red);
 						background: black;
 					}
 
