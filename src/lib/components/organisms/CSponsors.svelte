@@ -221,9 +221,9 @@
 			text-align: center;
 		}
 
-		.second-sponsor {
-			margin-top: 80px;
-		}
+		// .second-sponsor {
+		// 	margin-top: 80px;
+		// }
 
 		.sponsor-container {
 			display: grid;

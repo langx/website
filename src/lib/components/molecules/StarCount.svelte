@@ -22,9 +22,9 @@
 
 <style lang="scss">
 	.star-count {
-		.mtop {
-			margin-top: 10px;
-		}
+		// .mtop {
+		// 	margin-top: 10px;
+		// }
 		display: flex;
 		align-items: center;
 

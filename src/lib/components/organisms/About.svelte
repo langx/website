@@ -75,19 +75,19 @@
 			}
 		}
 
-		.socials {
-			display: flex;
-			align-items: center;
-			gap: 15px;
+		// .socials {
+		// 	display: flex;
+		// 	align-items: center;
+		// 	gap: 15px;
 
-			@include for-phone-only {
-				justify-content: center;
-				margin-bottom: 10px;
-				span {
-					display: none;
-				}
-			}
-		}
+		// 	@include for-phone-only {
+		// 		justify-content: center;
+		// 		margin-bottom: 10px;
+		// 		span {
+		// 			display: none;
+		// 		}
+		// 	}
+		// }
 
 		.image {
 			width: 100%;
@@ -103,9 +103,9 @@
 		font-size: 1.2em;
 	}
 
-	.github {
-		margin-left: 5px;
-	}
+	// .github {
+	// 	margin-left: 5px;
+	// }
 
 	a {
 		transition: all 0.2s ease-in-out;

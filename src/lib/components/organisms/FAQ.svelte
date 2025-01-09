@@ -143,9 +143,9 @@
 			padding: 40px 0 50px;
 		}
 
-		.hello {
-			text-align: center;
-		}
+		// .hello {
+		// 	text-align: center;
+		// }
 	}
 
 	$yellow: var(--color--primary);
@@ -254,7 +254,9 @@
 				opacity: 0;
 				max-height: 0;
 				overflow: hidden;
-				transition: opacity 200ms linear, max-height 200ms linear;
+				transition:
+					opacity 200ms linear,
+					max-height 200ms linear;
 				will-change: opacity, max-height;
 
 				p {
