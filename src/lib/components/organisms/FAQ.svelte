@@ -113,10 +113,8 @@
 						}}
 						id="accordion-button-5"
 						aria-expanded={item?.isOpen}
-						><span class="accordion-title">{item?.title}</span><span
-							class="icon"
-							aria-hidden="true"
-						/></button
+						><span class="accordion-title">{item?.title}</span><span class="icon" aria-hidden="true"
+						></span></button
 					>
 					<div class="accordion-content">
 						<p>{@html item?.content}</p>
@@ -129,7 +127,7 @@
 
 <style lang="scss">
 	@use '../../../lib/scss/breakpoints.scss';
-	
+
 	#faq {
 		display: flex;
 		flex-direction: column;
@@ -143,9 +141,9 @@
 			padding: 40px 0 50px;
 		}
 
-		.hello {
-			text-align: center;
-		}
+		// .hello {
+		// 	text-align: center;
+		// }
 	}
 
 	$yellow: var(--color--primary);
@@ -254,7 +252,9 @@
 				opacity: 0;
 				max-height: 0;
 				overflow: hidden;
-				transition: opacity 200ms linear, max-height 200ms linear;
+				transition:
+					opacity 200ms linear,
+					max-height 200ms linear;
 				will-change: opacity, max-height;
 
 				p {

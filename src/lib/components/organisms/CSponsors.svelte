@@ -36,7 +36,12 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://facebook.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Facebook"
+				>
 					<svg
 						width="68px"
 						height="68px"
@@ -56,7 +61,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
 					<svg
 						fill="var(--color--text)"
 						width="50px"
@@ -75,7 +80,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://google.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://google.com" target="_blank" rel="noopener noreferrer" aria-label="Google">
 					<svg
 						width="45px"
 						height="45px"
@@ -188,7 +193,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://huawei.com" target="_blank" rel="noopener noreferrer">
+				<a href="https://huawei.com" target="_blank" rel="noopener noreferrer" aria-label="Huawei">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="50"
@@ -221,9 +226,9 @@
 			text-align: center;
 		}
 
-		.second-sponsor {
-			margin-top: 80px;
-		}
+		// .second-sponsor {
+		// 	margin-top: 80px;
+		// }
 
 		.sponsor-container {
 			display: grid;

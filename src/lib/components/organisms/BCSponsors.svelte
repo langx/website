@@ -3,7 +3,12 @@
 		<h2>Powered by Growing Companies Worldwide</h2>
 		<div class="sponsor-container">
 			<div>
-				<a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://www.cloudflare.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Cloudflare"
+				>
 					<svg
 						fill="var(--color--text)"
 						width="58px"
@@ -26,7 +31,12 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://www.digitalocean.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="DigitalOcean"
+				>
 					<svg
 						width="52px"
 						height="52px"
@@ -50,7 +60,12 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.backblaze.com" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://www.backblaze.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Backblaze"
+				>
 					<svg
 						width="50px"
 						height="50px"
@@ -71,7 +86,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">
+				<a href="https://nodejs.org" target="_blank" rel="noopener noreferrer" aria-label="Node.js">
 					<svg
 						width="50px"
 						height="50px"
@@ -93,7 +108,12 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://appwrite.io" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://appwrite.io"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Appwrite"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="45"

@@ -180,7 +180,7 @@
 				</div>
 			</div>
 		{/each}
-		<button id="next" on:click={handleNext}>
+		<button id="next" on:click={handleNext} aria-label="Next">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -191,7 +191,7 @@
 				<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 			</svg>
 		</button>
-		<button id="prev" on:click={handlePrev}>
+		<button id="prev" on:click={handlePrev} aria-label="Previous">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -214,7 +214,7 @@
 					active = index;
 					loadShow();
 				}}
-			/>
+			></span>
 		{/each}
 	</div>
 </section>
