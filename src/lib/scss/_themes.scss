@@ -15,6 +15,7 @@
 	@include define-color('text-shade', #5d5f65);
 	@include define-color('text-inverse', #ffffff);
 	@include define-color('text-inverse-shade', #9eb4b5);
+	@include define-color('profile-card-color', #ffc409);
 
 	@include define-color('page-background', #f4f8fb);
 	@include define-color('post-page-background', #f3fbfc);
@@ -59,6 +60,7 @@
 	@include define-color('text-shade', #9eb4b5);
 	@include define-color('text-inverse', #000000);
 	@include define-color('text-inverse-shade', #5d5f65);
+	@include define-color('profile-card-color', #32343e);
 
 	@include define-color('page-background', #1c1e26);
 	@include define-color('post-page-background', #141519);

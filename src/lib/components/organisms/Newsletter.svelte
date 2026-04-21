@@ -50,15 +50,15 @@
 				font-weight: 300;
 				text-align: center;
 				max-width: 38rem;
-				margin: 0.5rem auto 2.5rem auto;
+				margin: 0.5rem auto 3rem auto;
 			}
 
 			svg {
-				width: 64rem;
+				width: 76rem;
 				z-index: -10;
 				position: absolute;
-				min-width: 64rem;
-				top: 61%;
+				min-width: 76rem;
+				top: 48%;
 				left: 50%;
 				display: block;
 				transform: translateX(-50%);
