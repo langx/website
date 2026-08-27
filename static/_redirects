@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects. Kept here because the site is adapter-static:
+# there is no server to run a SvelteKit redirect on.
+
+# The Plausible post was deleted when insight.langx.io was retired. The URL was
+# published and linked from outside, so it lands on the blog index instead of a
+# 404. Both forms, since trailingSlash is 'always'.
+/unveiling-our-usage-of-plausible-community-edition   /blog/  301
+/unveiling-our-usage-of-plausible-community-edition/  /blog/  301
