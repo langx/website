@@ -11,10 +11,15 @@ site. They are mirrored in [`src/lib/data/plans.ts`](src/lib/data/plans.ts) and
 [`src/lib/data/token.ts`](src/lib/data/token.ts), each of which points at the
 file in `langx2` it copies:
 
-| Here                    | Source of truth in `langx2`                                                  |
-| ----------------------- | ---------------------------------------------------------------------------- |
-| `src/lib/data/plans.ts` | `packages/shared/src/limits.ts` (`PLAN_LIMITS`)                              |
-| `src/lib/data/token.ts` | `packages/shared/src/token.ts` (`TOKEN_RULES`), `cosmetics.ts` (`COSMETICS`) |
+| Here                       | Source of truth in `langx2`                                                  |
+| -------------------------- | ---------------------------------------------------------------------------- |
+| `src/lib/data/plans.ts`    | `packages/shared/src/limits.ts` (`PLAN_LIMITS`)                              |
+| `src/lib/data/features.ts` | `packages/shared/src/limits.ts` — which plan unlocks each feature            |
+| `src/lib/data/token.ts`    | `packages/shared/src/token.ts` (`TOKEN_RULES`), `cosmetics.ts` (`COSMETICS`) |
+
+There are three plans — free, Pro and Pro+ — and Pro+ is Pro plus LangX Copilot
+and Nearby. Anything here that describes a paid feature has to name the plan
+that actually unlocks it.
 
 When a limit or a token rule changes in `langx2`, change it in the matching file
 here. Nothing checks this automatically, so a claim on the site can drift into

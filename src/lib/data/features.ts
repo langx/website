@@ -2,7 +2,9 @@ import type { Feature } from '$lib/utils/types';
 
 // Every claim here has to be true of the shipping app. The numbers come from
 // `langx2/packages/shared/src/limits.ts` (PLAN_LIMITS) — when a limit changes
-// there, this file is the second place to change.
+// there, this file is the second place to change. The tier on a `pro` /
+// `pro-plus` tag comes from there too — tagging a Pro+ feature as Pro sells a
+// subscriber something their plan does not include.
 //
 // NOTE: the screenshots in `static/images/features/` are still v1's UI.
 export default [
@@ -41,12 +43,18 @@ export default [
 		image: 'images/features/3.png',
 		tags: [{ label: 'Voice & Photos' }]
 	},
+	// Nearby shares this card because there is no screenshot of it — the images
+	// are still v1's UI, and v1 had no Nearby.
 	{
 		name: '⚙️ Fine Tune Your Connections',
 		description:
-			'Narrow discovery by gender, country, age and level to find the partners who actually fit how you want to practise.',
+			'Narrow discovery by gender, country, age and level to find the partners who actually fit how you want to practise. Pro+ adds Nearby, which sorts by distance if you switch location sharing on.',
 		image: 'images/features/7.png',
-		tags: [{ label: 'Filters' }, { label: 'LangX Pro', color: 'pro' }]
+		tags: [
+			{ label: 'Filters' },
+			{ label: 'LangX Pro', color: 'pro' },
+			{ label: 'Nearby: Pro+', color: 'pro-plus' }
+		]
 	},
 	{
 		name: '🔍 Profile Insights',
@@ -86,8 +94,12 @@ export default [
 	{
 		name: '🤖 LangX Copilot',
 		description:
-			'Private feedback while you practise with a real person — only you see it. Not in the first release; it lands in a later one.',
+			'Private feedback while you practise with a real person — only you see it. The feature Pro+ is for, and not in the first release.',
 		image: 'images/features/1.png',
-		tags: [{ label: 'AI' }, { label: 'Coming Soon', color: 'secondary' }]
+		tags: [
+			{ label: 'AI' },
+			{ label: 'LangX Pro+', color: 'pro-plus' },
+			{ label: 'Coming Soon', color: 'secondary' }
+		]
 	}
 ] as Feature[];
