@@ -21,12 +21,12 @@ jobs:
       # Pinned to a release rather than @main: an action tracked from a branch
       # changes our CI whenever upstream changes, without a commit here.
       - name: Checkout under $GITHUB_WORKSPACE
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # Specify which version of Node this project is using. For more information visit.
       # https://docs.github.com/en/actions/guides/building-and-testing-nodejs#specifying-the-nodejs-version
       - name: Set up NodeJS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 20
 
