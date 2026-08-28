@@ -299,8 +299,7 @@
 					}
 
 					&#tiktok-link:hover svg {
-						box-shadow:
-							-2px -2px 5px 1px var(--tiktok-color-blue),
+						box-shadow: -2px -2px 5px 1px var(--tiktok-color-blue),
 							2px 2px 5px 1px var(--tiktok-color-red);
 						background: black;
 					}

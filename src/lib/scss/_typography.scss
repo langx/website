@@ -27,21 +27,18 @@ i {
 
 // #region Titles
 h1 {
-	font-size: 2.5rem;
+	// Fluid, so the phone override below is no longer a second source of truth.
+	font-size: clamp(2rem, 1.4rem + 3vw, 2.75rem);
 	font-weight: 700;
-
-	@include for-phone-only {
-		font-size: 2rem;
-	}
 }
 
 h2 {
-	font-size: 1.8rem;
+	font-size: clamp(1.5rem, 1.2rem + 1.5vw, 1.9rem);
 	font-weight: 600;
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-weight: 600;
 }
 
@@ -59,5 +56,16 @@ h3,
 h4,
 h5 {
 	font-family: var(--font--title);
+	// Comfortaa sets loose by default; headings need to sit tighter than body
+	// copy or a two-line title reads as two separate lines.
+	line-height: 1.15;
+	text-wrap: balance;
+}
+
+// Section-opening paragraph: one size up from body, never full-bleed.
+.lede {
+	font-size: 1.1rem;
+	color: var(--color--text-shade);
+	max-width: 60ch;
 }
 // #endregion

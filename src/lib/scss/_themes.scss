@@ -11,6 +11,15 @@
 
 	@include define-color('yellow', #ffd400);
 
+	// Borrowed from the app's design tokens (langx2/apps/mobile/src/lib/theme.ts)
+	// so Pro and streak read as the same thing in both places.
+	@include define-color('pro', #7a5af8);
+	@include define-color('streak', #f79009);
+	@include define-color('accent', #3b6cf6);
+
+	@include define-color('surface', #ffffff);
+	@include define-color('border', #e3e3e6);
+
 	@include define-color('text', #000000);
 	@include define-color('text-shade', #5d5f65);
 	@include define-color('text-inverse', #ffffff);
@@ -54,6 +63,13 @@
 	@include define-color('secondary-tint', #1b1918);
 
 	@include define-color('yellow', #ffd400);
+
+	@include define-color('pro', #9b83ff);
+	@include define-color('streak', #ffa93d);
+	@include define-color('accent', #7ba0ff);
+
+	@include define-color('surface', #32343e);
+	@include define-color('border', #43454f);
 
 	@include define-color('text', #ffffff);
 	@include define-color('text-shade', #9eb4b5);

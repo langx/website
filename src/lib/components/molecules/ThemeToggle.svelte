@@ -108,9 +108,7 @@
 		stroke: var(--color--text);
 		stroke-width: 2px;
 		transform-origin: center center;
-		transition:
-			all 0.5s var(--ease-elastic-4),
-			opacity var(--_opacity-dur) var(--ease-3);
+		transition: all 0.5s var(--ease-elastic-4), opacity var(--_opacity-dur) var(--ease-3);
 	}
 
 	#moon > circle {

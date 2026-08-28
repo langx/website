@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Hero from '$lib/components/organisms/Hero.svelte';
+	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import DataDeletion from '$lib/components/organisms/DataDeletion.svelte';
 </script>
 
 <div class="container">
-	<Hero />
+	<PageHeader title="Data Deletion" lede="How to delete your account and the data it holds." />
 	<DataDeletion />
 </div>

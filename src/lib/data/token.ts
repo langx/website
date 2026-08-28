@@ -1,0 +1,55 @@
+/**
+ * Mirror of `TOKEN_RULES` and `COSMETICS` in
+ * `langx2/packages/shared/src/token.ts` and `cosmetics.ts`.
+ *
+ * langx2 marks these as "starting values only" — they are expected to move
+ * once there is real activity data, which is why the page that renders them
+ * says so out loud.
+ */
+
+export const tokenEarning = [
+	{ action: 'Send a message', amount: '2' },
+	{ action: "Correct someone else's sentence", amount: '10' },
+	{ action: 'First conversation where both of you have spoken', amount: '15' }
+];
+
+export const tokenCaps = [
+	'Up to 100 tokens a day from messages.',
+	'At most 30 of those from any one person, so talking to a single partner all day is not a strategy.',
+	'A shared daily pool of 10,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it.'
+];
+
+export const streakMilestones = [
+	{ day: 7, bonus: 50 },
+	{ day: 30, bonus: 250 },
+	{ day: 100, bonus: 1000 },
+	{ day: 365, bonus: 5000 }
+];
+
+export const tokenSinks = [
+	{
+		name: 'Streak freeze',
+		price: '200 tokens',
+		description: 'Rescues one missed day. You can bank two at a time.'
+	},
+	{
+		name: 'Frames and titles',
+		price: '500 – 10,000 tokens',
+		description:
+			'Cosmetic only: bronze, silver and gold frames, and the Learner, Tutor and Polyglot titles.'
+	}
+];
+
+/** The full list, phrased so it can be read as a promise rather than a disclaimer. */
+export const tokenIsNot = [
+	'It cannot be bought — there is no way to purchase tokens, with money or anything else.',
+	'It cannot be sold, traded or staked. There is no exchange, no market, no marketplace, and none is planned.',
+	'It cannot be sent to another user.',
+	'It cannot be withdrawn. It does not leave the app.',
+	'It is not on a blockchain. There is no chain, no contract, no wallet address.',
+	'It cannot unlock LangX Pro.'
+];
+
+/** v1 balances are credited to earned tokens divided by this. */
+export const legacyTokenDivisor = 100;
+export const welcomeBackBonus = 250;

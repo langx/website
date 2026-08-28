@@ -10,6 +10,7 @@
 	import Newsletter from '$lib/components/organisms/Newsletter.svelte';
 	import type { Feature, BlogPost } from '$lib/utils/types';
 	import Discord from '$lib/components/organisms/Discord.svelte';
+	import Token from '$lib/components/organisms/Token.svelte';
 
 	export let data: {
 		features: Feature[];
@@ -25,6 +26,7 @@
 	<Testimonials />
 	<CSponsors />
 	<Features {features} />
+	<Token />
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />
 	{/if}

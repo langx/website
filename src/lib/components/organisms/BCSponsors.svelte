@@ -3,7 +3,12 @@
 		<h2>Powered by Growing Companies Worldwide</h2>
 		<div class="sponsor-container">
 			<div>
-				<a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" id="cloudflare-link">
+				<a
+					href="https://www.cloudflare.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					id="cloudflare-link"
+				>
 					<svg
 						fill="var(--color--text)"
 						width="58px"
@@ -26,31 +31,12 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://www.digitalocean.com" target="_blank" rel="noopener noreferrer" id="digitalocean-link">
-					<svg
-						width="52px"
-						height="52px"
-						viewBox="0 0 16 16"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-					>
-						<g id="SVGRepo_bgCarrier" stroke-width="0" />
-						<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
-						<g id="SVGRepo_iconCarrier">
-							<g fill="var(--color--text)">
-								<path
-									d="M8 12.208v2.652c4.495 0 7.988-4.34 6.518-9.053a6.642 6.642 0 00-4.333-4.333C5.48.004 1.14 3.504 1.14 7.992h2.652c0-2.815 2.792-4.993 5.756-3.92a3.975 3.975 0 012.372 2.372c1.08 2.961-1.1 5.75-3.912 5.756V9.563H5.363v2.645H8z"
-								/>
-								<path
-									d="M5.363 14.245H3.325v-2.037h2.038v2.037zM1.622 12.208h1.703v-1.704H1.622v1.704z"
-								/>
-							</g>
-						</g>
-					</svg>
-				</a>
-			</div>
-			<div>
-				<a href="https://www.backblaze.com" target="_blank" rel="noopener noreferrer" id="backblaze-link">
+				<a
+					href="https://www.backblaze.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					id="backblaze-link"
+				>
 					<svg
 						width="50px"
 						height="50px"
@@ -89,24 +75,6 @@
 								fill="var(--color--text)"
 							/>
 						</g>
-					</svg>
-				</a>
-			</div>
-			<div>
-				<a href="https://appwrite.io" target="_blank" rel="noopener noreferrer" id="appwrite-link">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="45"
-						height="45"
-						fill="none"
-						viewBox="0 0 24 24"
-						><path
-							fill="var(--color--text)"
-							d="M24.443 16.432v5.478H10.752c-3.989 0-7.472-2.203-9.335-5.478A11.041 11.041 0 0 1 0 11.695v-1.48a10.97 10.97 0 0 1 .381-2.247C1.661 3.368 5.82 0 10.751 0c4.934 0 9.092 3.37 10.371 7.967h-5.854c-.96-1.499-2.624-2.49-4.516-2.49s-3.555.991-4.516 2.49a5.47 5.47 0 0 0-.67 1.494 5.562 5.562 0 0 0-.202 1.494 5.5 5.5 0 0 0 1.69 3.983 5.32 5.32 0 0 0 3.698 1.494z"
-						/><path
-							fill="var(--color--text)"
-							d="M24.443 9.46v5.478h-9.994a5.5 5.5 0 0 0 1.691-3.983 5.56 5.56 0 0 0-.203-1.494z"
-						/>
 					</svg>
 				</a>
 			</div>
@@ -189,11 +157,6 @@
 						fill: var(--cloudflare-color);
 					}
 
-					&#digitalocean-link:hover svg,
-					&#digitalocean-link:hover path {
-						fill: var(--digitalocean-color);
-					}
-
 					&#backblaze-link:hover svg,
 					&#backblaze-link:hover path {
 						fill: var(--backblaze-color);
@@ -202,11 +165,6 @@
 					&#nodejs-link:hover svg,
 					&#nodejs-link:hover path {
 						fill: var(--nodejs-color);
-					}
-
-					&#appwrite-link:hover svg,
-					&#appwrite-link:hover path {
-						fill: var(--appwrite-color);
 					}
 				}
 			}

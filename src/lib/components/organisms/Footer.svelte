@@ -20,10 +20,13 @@
 								<a href="https://status.langx.io" target="_blank">Status</a>
 							</li>
 							<li>
-								<a href="https://insight.langx.io/langx.io" target="_blank">Insight</a>
+								<a href="https://backlog.langx.io" target="_blank">Backlog</a>
 							</li>
 							<li>
-								<a href="https://backlog.langx.io" target="_blank">Backlog</a>
+								<a href="/pro">LangX Pro</a>
+							</li>
+							<li>
+								<a href="/welcome-back">Coming from v1?</a>
 							</li>
 							<li>
 								<a href="https://token.langx.io" target="_blank">Token</a>
@@ -99,7 +102,7 @@
 						<h3>Source</h3>
 						<ul role="list">
 							<li>
-								<a href="https://github.com/langx/langx/contribute" target="_blank">
+								<a href="https://github.com/langx/langx2/contribute" target="_blank">
 									Goodfirstissue
 								</a>
 							</li>
@@ -112,7 +115,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="https://github.com/langx/langx/releases" target="_blank">Releases</a>
+								<a href="https://github.com/langx/langx2/releases" target="_blank">Releases</a>
 							</li>
 						</ul>
 					</div>
@@ -193,7 +196,7 @@
 			<div class="socials-container">
 				<Socials />
 			</div>
-			<p class="copy-right">&copy; 2024 LangX | Practice, Learn, Succeed!</p>
+			<p class="copy-right">&copy; {new Date().getFullYear()} LangX | Practice, Learn, Succeed!</p>
 		</div>
 	</div>
 </footer>

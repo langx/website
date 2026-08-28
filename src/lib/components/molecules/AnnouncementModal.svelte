@@ -3,13 +3,14 @@
 	import { slide } from 'svelte/transition';
 	import SparklingHighlight from './SparklingHighlight.svelte';
 
+	// Bumped when the announcement itself changes, so a new message reaches
+	// people who dismissed the previous one.
+	const STORAGE_KEY = 'announcement-dismissed-v2-launch';
+
 	let show = false;
 
 	onMount(() => {
-		if (
-			localStorage.getItem('show-accouncment-modal') === null ||
-			localStorage.getItem('show-accouncment-modal') === 'true'
-		) {
+		if (localStorage.getItem(STORAGE_KEY) !== 'true') {
 			setTimeout(() => {
 				show = true;
 			}, 3000); // Delay
@@ -21,18 +22,18 @@
 	<div class="modal" transition:slide={{ duration: 500 }}>
 		<div class="wrapper">
 			<p>
-				Get ready to revolutionize language learning and earn reward <SparklingHighlight
-					><a href="http://token.langx.io" target="_blank">LangX Token</a></SparklingHighlight
-				> while you improve your skills!
+				Used LangX before? <SparklingHighlight
+					><a href="/welcome-back">Your username and tokens are waiting</a></SparklingHighlight
+				> — here is everything that changes in v2.
 			</p>
 			<div class="btn-wrapper">
-				<a href="http://token.langx.io" target="_blank" class="open">Visit</a>
+				<a href="/welcome-back" class="open">Read this</a>
 				<button
 					type="button"
 					class="close"
 					on:click={() => {
 						show = false;
-						localStorage.setItem('show-accouncment-modal', 'false');
+						localStorage.setItem(STORAGE_KEY, 'true');
 					}}>Close</button
 				>
 			</div>

@@ -13,6 +13,7 @@
 			<Logo />
 		</div>
 		<div class="links">
+			<a href="/pro">Pro</a>
 			<a href="/blog">Blog</a>
 			<a href="https://docs.langx.io">Docs</a>
 			<StarCount />

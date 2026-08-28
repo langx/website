@@ -12,23 +12,25 @@
 		{
 			id: 1,
 			title: 'What platforms do we support?',
-			content: `LangX is available for free on <a href="https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">ios</span></a>, <a href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">android</span></a> and on the <a href="https://app.langx.io" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">web app</span></a>.`,
+			content: `LangX is available on <a href="https://apps.apple.com/us/app/langx-practice-learn-succeed/id6474187141" target="_blank" class="link">iOS</a>, <a href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange" target="_blank" class="link">Android</a> and on the <a href="https://app.langx.io" target="_blank" class="link">web app</a>. All three come out of the same codebase.`,
 			isOpen: false
 		},
 		{
 			id: 2,
-			title: 'Are our services free?',
-			content: `Yes, our app is <span style="color: #ff723f; font-weight: bold;">free</span> and <span style="color: #ff723f; font-weight: bold;">100% open source</span>.`,
+			title: 'Is LangX free?',
+			content: `<strong>Free to use, always.</strong> You can reply to every message you receive with no limits, and write as many corrections as you like — neither is capped on any plan. On the free plan you can start <strong>5 new conversations</strong> and use <strong>20 translations</strong> per rolling 24 hours.
+			<br><br>
+			<a href="/pro" class="link">LangX Pro</a> is a paid subscription that removes those two limits and adds discovery filters, seeing who viewed your profile, and incognito browsing.`,
 			isOpen: false
 		},
 		{
 			id: 3,
-			title: 'How will this project monetarily support itself?',
-			content: `While our app is free and 100% open-source, we plan to introduce a subscription model for our Language Copilot feature. This feature, powered by OpenAI, provides real-time feedback during conversations, enhancing the language learning process. All other features will remain free. We also accept open sponsors on <a href="https://github.com/sponsors/langx" target="_blank" style="color: #ff723f; font-weight: bold;">GitHub Sponsors</a>.
+			title: 'How does LangX pay for itself?',
+			content: `LangX Pro subscriptions. That is the whole model: no ads, no advertising identifiers, no third-party analytics SDK, and no selling anyone's data.
 			<br><br>
-			As for monetization upon achieving significant growth, scalability becomes crucial, right? Take, for instance, the our <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> feature I mentioned. It utilizes GPT, which requires an API and incurs costs on a per-word or per-token basis, as you're likely aware. Without implementing a subscription model, the expenses could quickly deplete my resources.
+			Two things are deliberately <em>not</em> behind the paywall. Replying to messages is unlimited, because a language exchange where you cannot answer someone is not a language exchange. And writing corrections is unlimited on every plan — rate-limiting the free side would shrink what a paying user receives just as much as what a free user gives.
 			<br><br>
-			Therefore, in our roadmap, post-beta stage, we intend to introduce a subscription fee exclusively for accessing this feature. All other features will remain freely available for lifetime use. Unlike Tandem, which sells features lacking added value such as "Who viewed my profile?", our 🤖 <span style="color: #ff723f; font-weight: bold;">Language Copilot</span> provides direct feedback within conversations, enhancing the language learning process by enabling users to improve in real-time during authentic conversations with other users.`,
+			The code stays open source under BSD-3 and you can run your own instance. We also accept sponsors on <a href="https://github.com/sponsors/langx" target="_blank" class="link">GitHub Sponsors</a>.`,
 			isOpen: false
 		},
 		{
@@ -36,18 +38,16 @@
 			title: 'What does the app have to offer?',
 			content: `
 			<ul>
-				<li>Capture and share language learning moments with voice messages.</li>
-				<li>Customize connection preferences for ideal language exchange partners.</li>
-				<li>Gain insights into learning progress and habits on your profile.</li>
-				<li>Enjoy user-friendly chat interface for effortless language learning.</li>
-				<li>Maintain control over data and privacy settings.</li>
-				<li>Rate and receive ratings for quality interactions.</li>
-				<li>Activate night mode for comfortable low-light reading.</li>
-				<li>Earn badges for achievements.</li>
-				<li>Access comprehensive language learning features at no cost.</li>
-				<li>Contribute to our open-source developer community.</li>
-				<li>Learn to Earn model: LangX Token</li>
-				<li>Accelerate learning with AI-powered personalized feedback, coming soon!</li>
+				<li>Matching that works in both directions — they speak what you are learning, you speak what they are learning.</li>
+				<li>Tap any message to correct it. Unlimited, on every plan.</li>
+				<li>Translation built into the chat, so you never leave the conversation.</li>
+				<li>Voice messages and photos.</li>
+				<li>Daily streaks, LangX Tokens, and weekly, monthly, yearly and all-time leaderboards.</li>
+				<li>Discovery filters by gender, country, age and level (Pro).</li>
+				<li>Who viewed your profile, and incognito browsing (Pro).</li>
+				<li>Download or delete everything we hold about you, from inside the app.</li>
+				<li>Night mode.</li>
+				<li>Open source under BSD-3, and self-hostable.</li>
 			</ul>
 			`,
 			isOpen: false
@@ -55,47 +55,69 @@
 		{
 			id: 5,
 			title: 'How is LangX different and stand out?',
-			content: `LangX sets itself apart by offering a comprehensive and community-driven platform that prioritizes language practice and user privacy. As a 100% open-source alternative to similar apps, we're committed to providing a seamless language learning experience while empowering users to take control of their data and privacy settings.`,
+			content: `Two things. Matching runs in <strong>both directions</strong>, so every conversation has something in it for both people rather than one of you doing a favour. And <strong>corrections are unlimited for everyone</strong> — the part of the product that actually teaches is the part we refuse to ration.
+			<br><br>
+			On top of that: the app and the API are open source, you can host your own instance, and we collect no advertising identifiers.`,
 			isOpen: false
 		},
 		{
 			id: 6,
 			title: 'What is LangX Copilot 🤖?',
-			content: `Harness the power of AI to accelerate your language learning journey. Get personalized feedback privately. It is going to be your private language copilot. There will be a toggle button in the top right corner of any chat room. When you open it, it feedbacks you privately when you are practicing with a real person in a room. Only you can see these feedback messages within the room. These messages are going to be different colored. I'm so excited about this feature because it speeds up your active language learning process. Stay tuned for more!`,
+			content: `Private feedback while you practise with a real person. You open it inside a chat room and it comments on your own messages — only you can see those messages.
+			<br><br>
+			<strong>It is not in the first release of v2.</strong> It is planned for a later one, and when it arrives the free plan includes a few uses a day with Pro unlimited within fair use. We are naming the timing plainly because this feature has been described as "coming soon" for a long time.`,
 			isOpen: false
 		},
 		{
 			id: 7,
 			title: 'What is LangX Token 💰?',
-			content: `The innovative 'Learn to Earn' Token Project, for more info please visit: <a href="https://token.langx.io/" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">token.langx.io</span></a>.`,
+			content: `<strong>LangX Token is an in-app point.</strong> You earn it by practising and by teaching, and you spend it inside the app on a streak freeze or on cosmetic frames and titles. That is the entire definition.
+			<br><br>
+			It cannot be bought, sold, traded, staked or withdrawn, it is not on a blockchain, and it never will be. Correcting someone else's sentence is worth more than sending a message — that weighting is deliberate.
+			<br><br>
+			More detail at <a href="https://token.langx.io/" target="_blank" class="link">token.langx.io</a>.`,
 			isOpen: false
 		},
 		{
 			id: 8,
-			title: 'How can I contribute?',
-			content: `We implore anyone to contribute, whether it’s just a single image, down to a single line of code/text. You can read more <a href="https://github.com/langx/website?tab=readme-ov-file#contributing" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">here</span></a> on how you can add your contribution.`,
+			title: 'Can I unlock Pro with tokens?',
+			content: `No, and this one is worth explaining rather than just stating. If tokens could buy a Pro feature, farming tokens would become a substitute for subscribing — and the subscription is the thing that funds the app. Keeping the two economies separate is what lets corrections and replies stay unlimited for everyone.`,
 			isOpen: false
 		},
 		{
 			id: 9,
-			title: 'How is it going to be moderated?',
-			content: `We actually have an excellent team of contributors who are dedicated to making valuable contributions wherever possible. With that said, if you are interested in taking on the role of our first moderator as a contributor/volunteer, please reach out for details. We can also begin delving into this matter together.`,
+			title: 'I used LangX before — what happens to my account?',
+			content: `Your username is reserved for you and your token balance carries over. You do need to sign up again with the same email address: the old password hashes could not be migrated.
+			<br><br>
+			The full story, including how balances are converted and what changed about pricing, is on the <a href="/welcome-back" class="link">welcome back</a> page.`,
 			isOpen: false
 		},
 		{
 			id: 10,
-			title: 'Could you add sign languages?',
-			content: `We'll definitely add sign languages to the study languages section during the registration process. Additionally, we have a contributor who works as an accessibility manager and can help with the following issues. Thank you for bringing this matter to our attention again :) 
-			<br><br>
-			For the sign language issue: <a href="https://github.com/langx/langx/issues/444" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">Link</span></a>.
-			<br><br>
-			Regarding developing standards like WCAG with the W3C: <a href="https://github.com/langx/langx/issues/436" target="_blank" style="text-decoration-color: #ff723f;"><span style="color: #ff723f; font-weight: bold;">Link</span></a>.`,
+			title: 'How can I contribute?',
+			content: `We implore anyone to contribute, whether it's just a single image, down to a single line of code/text. You can read more <a href="https://github.com/langx/website?tab=readme-ov-file#contributing" target="_blank" class="link">here</a> on how you can add your contribution.`,
 			isOpen: false
 		},
 		{
 			id: 11,
+			title: 'How is it going to be moderated?',
+			content: `Reporting and blocking are built into the app, and reports go to a moderation queue. Beyond that we have a team of contributors who help wherever possible. If you are interested in taking on a moderator role as a contributor or volunteer, please reach out.`,
+			isOpen: false
+		},
+		{
+			id: 12,
+			title: 'Could you add sign languages?',
+			content: `We'll definitely add sign languages to the study languages section during the registration process. Additionally, we have a contributor who works as an accessibility manager and can help with the following issues. Thank you for bringing this matter to our attention again :)
+			<br><br>
+			For the sign language issue: <a href="https://github.com/langx/langx/issues/444" target="_blank" class="link">Link</a>.
+			<br><br>
+			Regarding developing standards like WCAG with the W3C: <a href="https://github.com/langx/langx/issues/436" target="_blank" class="link">Link</a>.`,
+			isOpen: false
+		},
+		{
+			id: 13,
 			title: 'Is there more to come?',
-			content: `This project has been a labor of love, and we're continuously updating and improving LangX to better serve our users' needs daily. We have exciting features in the pipeline, including AI-driven language learning support, and we're thrilled to share them with you in the near future.`,
+			content: `Yes. Badges are not in v2's first release and are planned to return, LangX Copilot is a later release, and there is more after that. We would rather list what is missing than let the site advertise something the app does not do.`,
 			isOpen: false
 		}
 	];
@@ -111,14 +133,15 @@
 						on:click={() => {
 							item.isOpen = !item.isOpen;
 						}}
-						id="accordion-button-5"
+						id="accordion-button-{item.id}"
 						aria-expanded={item?.isOpen}
+						aria-controls="accordion-panel-{item.id}"
 						><span class="accordion-title">{item?.title}</span><span
 							class="icon"
 							aria-hidden="true"
 						/></button
 					>
-					<div class="accordion-content">
+					<div class="accordion-content" id="accordion-panel-{item.id}">
 						<p>{@html item?.content}</p>
 					</div>
 				</div>
@@ -154,12 +177,12 @@
 		width: 100%;
 
 		h2 {
-			color: #ff723f;
+			color: var(--color--secondary);
 		}
 
 		.accordion {
 			.accordion-item {
-				border-bottom: 1px solid #32343e;
+				border-bottom: 1px solid var(--color--border);
 
 				button[aria-expanded='true'] {
 					border-bottom: 1px solid $yellow;
@@ -254,15 +277,33 @@
 				opacity: 0;
 				max-height: 0;
 				overflow: hidden;
-				transition:
-					opacity 200ms linear,
-					max-height 200ms linear;
+				transition: opacity 200ms linear, max-height 200ms linear;
 				will-change: opacity, max-height;
 
 				p {
-					font-size: 0.9rem;
-					font-weight: 300;
-					margin: 2em 0;
+					font-size: 0.95rem;
+					font-weight: 400;
+					margin: 1.5em 0;
+					max-width: 68ch;
+				}
+
+				// The answers are injected with {@html}, so the link styling has to
+				// reach past Svelte's scoping. This replaces the inline
+				// `style="color: #ff723f"` that used to be repeated in every answer.
+				:global(.link) {
+					color: var(--color--secondary);
+					font-weight: 700;
+					text-decoration-color: var(--color--secondary);
+				}
+
+				:global(ul) {
+					margin: 0;
+					padding-left: 1.2em;
+					list-style: disc;
+				}
+
+				:global(li) {
+					margin-bottom: 0.4em;
 				}
 			}
 		}

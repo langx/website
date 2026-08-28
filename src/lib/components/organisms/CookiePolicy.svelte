@@ -1,51 +1,51 @@
 <section id="policy">
 
-	<h1>Cookie Policy</h1>
-
-	*Effective Date: 13, May 2024*
+	*Effective Date: 27, Aug 2026*
 
 	1. Introduction
 
-		This Cookie Policy explains how LangX, a product of New Chapter Technology Limited Liability Company, uses cookies and similar technologies on the LangX app ("the App"). By using the App, you consent to the use of cookies as described in this policy.
+		This Cookie Policy explains how LangX, a product of New Chapter Technology Limited Liability Company, uses cookies and similar technologies on the LangX website and app ("the App").
 
 	2. What are Cookies?
 
-		Cookies are small text files that are stored on your device when you access and use our App. They serve various purposes, including improving your user experience and providing analytical information.
+		Cookies are small text files that are stored on your device when you access and use our App. Related technologies work the same way and are covered by this policy: your browser's local storage on langx.io and in the web app, and the operating system's secure storage on iOS and Android, which is where the mobile app keeps your session instead of a cookie.
 
-	3. Types of Cookies We Use
+	3. What We Actually Store
 
-		3.1 Essential Cookies
+		3.1 Essential
 
-		These cookies are necessary for the proper functioning of the App. They enable you to navigate and use essential features.
+		Keeping you signed in. On the web this is a session cookie; in the mobile app the same session is held in the device's secure storage. Without it you would have to log in again on every page or every launch.
 
-		3.2 Analytical/Performance Cookies
+		3.2 Preferences
 
-		We use these cookies to analyze how users interact with the App, identify performance issues, and improve our services. These cookies collect information anonymously.
+		Your theme choice — light, dark or automatic — and whether you have dismissed a site announcement. These stay on your device and are never sent to us.
 
-		3.3 Functionality Cookies
+		3.3 Analytics
 
-		Functionality cookies allow the App to remember your preferences and provide enhanced features, such as language preferences.
+		**There are none.** LangX version 1 ran a self-hosted analytics service on langx.io; it was retired and version 2 replaced it with nothing. This site sets no analytics cookie, counts no page views, and the app contains no analytics or session-recording SDK. If that ever changes, this section will say so before it does, and anything of the kind will be something you can turn off.
 
-		3.4 Third-Party Cookies
+		3.4 Third-party cookies
 
-		We may use third-party cookies, such as those from Google Analytics, to gather statistical information about the App's usage for analytics purposes.
+		**We do not use any.** There is no Google Analytics, no advertising network, and no social media tracking pixel on this site. Fonts and scripts are served from langx.io itself rather than from a third-party CDN.
+
+		One thing is worth naming rather than hiding behind that sentence: the star count in our header is read from GitHub's public API by your browser, so GitHub sees the request the way it sees any visit to a page. It sets no cookie and we send it nothing about you.
 
 	4. Your Consent
 
-		By using the App, you consent to the placement of cookies on your device as described in this Cookie Policy. You can control and manage cookie preferences through your browser settings. Please note that disabling certain cookies may affect the functionality of the App.
+		The only things stored on your device are the ones described above: what is needed to keep you signed in, and preferences you set yourself. Nothing here tracks you, which is why this site has no cookie banner — there is nothing to ask you to consent to. You can clear what is stored at any time through your browser settings, though clearing the essential ones will sign you out.
 
 	5. How to Manage Cookies
 
 		Most web browsers provide options to manage cookies. You can typically set your browser to accept or reject specific types of cookies or to notify you when a cookie is placed. Visit your browser's help menu for more information on how to manage cookies.
 
-	6. Changes to This Cookie Policy
+	6. GDPR
+
+		We follow the General Data Protection Regulation for everyone, not only for users in the EU. Under it you can request access to your data, correct it, or have it deleted — the first and the last are available directly in the app's settings rather than by writing to us. What we store, share and delete is described in our [privacy policy](/privacy-policy).
+
+	7. Changes to This Cookie Policy
 
 		We may update this Cookie Policy to reflect changes in our use of cookies. Any changes will be effective immediately upon posting the updated policy on the App.
 
-	7. GDPR Compliance
-
-		We are pleased to mention that LangX is GDPR compliant thanks to our backend services are powered by Appwrite, which is GDPR compliant. This means we adhere to the regulations and requirements set by the General Data Protection Regulation (GDPR) to protect your data and privacy. For more information, please refer to the <a href="https://appwrite.io/blog/post/announcing-appwrite-is-gdpr-compliant" target="_blank">GDPR compliance announcement</a>.
-		
 	8. Contact Information
 
 		For any questions or concerns related to this Cookie Policy, please contact us at [hi@langx.io].

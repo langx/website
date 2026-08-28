@@ -1,165 +1,160 @@
 <section id="policy">
 
-	<h1>Privacy Policy</h1>
-
-	*Effective Date: 7, Jun 2024*
+	*Effective Date: 27, Aug 2026*
 
 	1. Introduction
 
 		Welcome to LangX, a language learning platform designed to connect language learners worldwide. This Privacy Policy is designed to inform you about the types of information we collect, why we collect it, and how we use and protect that information. LangX is a product of New Chapter Technology Limited Liability Company.
 
+		This policy is written from what the application actually stores, rather than from a template. Where a section says we do not collect something, that means no part of the app writes it.
+
+		LangX version 2 runs on entirely new infrastructure, built and operated by us rather than rented from the backend platform version 1 used. This policy replaces the previous one in full: the system it described no longer exists.
+
 	2. Information We Collect
 
-		2.1 Personal Information
+		2.1 Information you give us
 
-		When you create an account on LangX, we collect the following personal information:
+		- **Email address** — for sign-in, verification and password reset. Required.
+		- **Display name and username** — shown on your profile. Required.
+		- **Year of birth** — used for the 18+ requirement. Only your age, never the date, is shown to anyone else.
+		- **Languages and levels** — the entire matching mechanism depends on these. Required.
+		- **Gender** — shown on your profile and used by the Pro gender filter. "Undisclosed" is a valid answer.
+		- **Country and city** — shown on your profile and used by the Pro country filter. Optional.
+		- **Photos** — your avatar and gallery. Optional.
+		- **Interests** — shown on your profile, and shared interests nudge someone higher in your suggestions. Optional.
+		- **A short text about you** — optional.
 
-			- Name
-			- Email address
-			- Language preferences
+		If you sign in with Google or Apple rather than with a LangX password, we receive your email address and your name from them and nothing else — never your password for that account, and nothing about how you use theirs.
 
-		2.2 Third-Party Logins
+		2.2 Information created by using the app
 
-		If you choose to log in using Google, Facebook, or Apple, we collect the following information from your third-party account:
+		- **Messages** — text, photos and voice messages, stored so we can deliver your conversations.
+		- **Text you ask us to translate** — sent to our translation provider, and the result kept for 30 days under a one-way hash of the original text so the same phrase is not paid for twice. That cache records the translation, not who asked for it.
+		- **Timezone** — so that your streak day and any reminders follow your local day rather than ours. Optional; we fall back to UTC.
+		- **Approximate time of your last activity** — for the "online now" indicator.
+		- **Daily activity counts** — how many messages and corrections you wrote on a given day and how many different people you spoke to. Tokens, streaks and the daily pool are calculated from these.
+		- **Your token ledger** — every token you have earned or spent, and what for.
+		- **Push notification token** — only if you grant notification permission.
+		- **Profile views** — who viewed your profile. Not recorded at all when the viewer is browsing incognito, and deleted automatically after 90 days.
+		- **Blocks and reports** — only if you block or report someone.
+		- **Purchase state** — whether you have an active LangX Pro or Pro+ subscription, which store it came from, and when it renews or expires. Only if you subscribe.
+		- **Approximate location** — only if you switch it on. Section 3 describes it in full, because it is new in version 2 and it is the part worth reading carefully.
 
-			- Google: Information mentioned in the consent screen
-			- Facebook: Information mentioned in the consent screen
-			- Apple: Information mentioned in the consent screen
+		2.3 Technical information
 
-		2.3 Usage Data
+		Our servers necessarily see your IP address in order to answer a request, apply rate limits and refuse abuse. We do not build a profile from it and it is not stored as part of your account.
 
-		We collect information on how you use our app, including:
+	3. Approximate Location, and Only If You Ask For It
 
-			- Features you interact with
-			- Duration and frequency of your sessions
-			- Error logs and diagnostic information
+		LangX Pro+ includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
 
-		2.4 Communication Data
+		- **It is off until you turn it on.** Nothing writes your location at sign-up, during onboarding, or in the background. The only two places that ask for it are the switch in Settings and the Nearby tab itself, and both run your device's own permission prompt first.
+		- **When-in-use only.** The app declares no background location permission on either platform, so it cannot read your position while you are not using it.
+		- **We ask your device for its least accurate answer**, and then round what comes back to two decimal places — a grid of roughly one kilometre — before storing it. The precise reading is discarded at that point and is never written to any record, log or backup. There is no precise version of your position for us to lose, export or be compelled to hand over, because we never made one.
+		- **Nobody is ever shown a position.** Your coordinates are not part of your public profile and are not sent to other users in any form. The only thing anyone else sees is a distance rounded **up** to a fixed band — "under 5 km away" — rather than a measured number. The bands exist so that repeated readings of a moving account cannot be combined back into a point.
+		- **Turning it off deletes it.** The switch in Settings removes the stored point outright rather than hiding it, and that also removes you from everyone else's Nearby results straight away. There is no retention period to state, because nothing is retained.
 
-		If you contact us, we may retain a record of that communication, including:
+	4. What We Do Not Collect
 
-			- Your inquiries
-			- Responses to your questions or feedback
+		Stating this precisely is what makes the rest of the policy credible.
 
-		2.5 OpenAI API Data
+		- **No precise location.** See section 3: the app asks for the coarsest reading your device will give and rounds it before storing it. A street-level position is never collected.
+		- **No analytics, and no analytics SDK.** LangX version 1 ran a self-hosted analytics service; version 2 ships none. There is no product-analytics or session-recording SDK in the app or on this website, and no page-view counter on langx.io.
+		- **No advertising identifiers.** No IDFA, no Android advertising ID, no ad network, and nothing is sold or passed to a data broker.
+		- **No tracking across other apps or websites.**
+		- **No contacts, no calendar, no photos beyond the ones you choose to upload, no microphone access outside recording a voice message you send, no health data.**
+		- **No financial data.** Payment happens entirely inside Apple's, Google's or our payment provider's flow. Our servers only ever receive whether a subscription is active — never a card number.
 
-		When you use features powered by the OpenAI API, we may collect and send the following anonymized data to OpenAI:
+	5. How We Use Your Information
 
-			- Text input and interaction data
-			- Session information
-			- Usage patterns
+		- To create and manage your LangX account
+		- To match you with people whose languages fit yours in both directions
+		- To deliver your conversations, corrections and translations
+		- To calculate your streak, tokens and leaderboard position
+		- To keep the service safe: handling reports, blocks and abuse
+		- To notify you about activity, if you have granted permission
+		- To restore your account if you used LangX version 1 — see section 7
 
-		All data sent to OpenAI is anonymized to protect your privacy. We do not send any personally identifiable information.
+	6. Sharing With Third Parties
 
-	3. How We Use Your Information
+		We share the minimum each service needs to do its job. None of them receive your data for their own advertising or profiling, and we do not sell data or share it with data brokers.
 
-		3.1 Providing Services
+		- **Resend**, our email provider — your email address and the contents of the mail, to send verification and password-reset messages.
+		- **Google Cloud Translation** — the text you asked to translate, and nothing identifying you.
+		- **RevenueCat** — your LangX user id and your purchase events, so we know whether your subscription is active. Payment itself is taken by Apple, Google or Stripe, and none of them send us your card details.
+		- **Expo's push service**, and through it Apple's and Google's push infrastructure — your push token and the text of the notification. A new-message notification includes the beginning of the message, because that is what makes it useful; if you would rather it did not, turn notifications off.
+		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos and voice messages, to host them.
+		- **Sentry**, our error reporting service — the details of a server error, with your user id attached so we can tell whether a fault affected one account or everybody. It is configured never to send request bodies, cookies or authentication headers, so message contents and session tokens do not reach it.
+		- **Google and Apple**, if you choose to sign in with them — they tell us your email address and name; we tell them nothing about what you do in LangX.
 
-		We use your personal information to:
+		Our servers run on **Fly.io** in Frankfurt, our database is **MongoDB Atlas**, and langx.io is served through **Cloudflare**. These providers host and deliver the service and do not use your data for any purpose of their own.
 
-			- Create and manage your LangX account
-			- Connect you with native speakers for language practice
-			- Customize content based on your language preferences
+		We may also disclose information where we are legally required to do so.
 
-		3.2 Third-Party Logins
+	7. If You Used LangX Version 1
 
-		We use the information collected from third-party logins to:
+		Version 1's database was migrated so that returning users could pick up where they left off, and this is what was carried over: your username, profile details, photos, token balance, streak, and your conversations.
 
-			- Authenticate your identity
-			- Provide a seamless login experience
+		Your old password could not be migrated and was not: you create a new sign-in, and your old profile is only released to you once you have proved you control the email address it belonged to. We match on a salted one-way hash of that address rather than on the address itself.
 
-		3.3 Communication
+		An old conversation is only restored once **both** people in it have come back. Until then it stays untouched and neither side can read it, because a conversation belongs to two people and one of them returning is not consent from the other.
 
-		We may use your contact information to:
+		If you never return, that staged copy is deleted along with the rest of the version 1 data.
 
-			- Send you important updates and notifications
-			- Provide customer support
-			- Deliver marketing communications with your consent
+	8. Security
 
-		3.4 Improving Our Services
+		Passwords are hashed and the server never stores them in plain text. All traffic is encrypted in transit. Every conversation and every profile listing is authorised on the server against your session, including over the realtime connection, so the realtime transport cannot be used to reach data the regular API would refuse.
 
-		We analyze usage data to:
+		No method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
 
-			- Enhance and optimize app performance
-			- Develop new features and functionalities
-			- Conduct research to improve language learning experiences
+	9. Cookies and Similar Technologies
 
-		3.5 OpenAI API Data Usage
+		The website and app store a small amount of data on your device to keep you signed in and to remember preferences such as your theme. See our [cookie policy](/cookie-policy) for details.
 
-		We use anonymized data sent to OpenAI to:
+	10. Your Choices
 
-			- Provide advanced language learning features
-			- Improve the performance and accuracy of LangX Copilot
-			- Develop new AI-powered functionalities
+		10.1 Access and export
 
-	4. Data Sharing
+		You can download everything we hold about you from the app's settings, as a single file.
 
-		4.1 Third-Party Services
+		10.2 Correction
 
-		We may share your information with third-party service providers for:
+		You can edit your profile information at any time from within the app.
 
-			- Hosting and server maintenance
-			- Analytics and data analysis
-			- Marketing and advertising
+		10.3 Deletion
 
-		4.2 OpenAI
+		You can delete your account from within the app. See section 11.
 
-		We share anonymized data with OpenAI as described in section 2.5 to provide AI-powered features and improve our services.
+		10.4 Location
 
-		4.3 Legal Compliance
+		You can withdraw your location at any time from the switch in Settings, which deletes the stored point. You do not have to delete or export your account to do it.
 
-		We may disclose your information to comply with legal obligations, such as responding to lawful requests and court orders.
+		10.5 Notifications and email
 
-	5. Security
+		You can turn off push notifications from your device settings, and opt out of marketing email using the link in any such email.
 
-		We implement reasonable security measures to protect your information from unauthorized access, disclosure, alteration, and destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+	11. Data Retention and Deletion
 
-		We also use Cloudflare's Always Online™ feature, which caches a static version of our website to keep it available in case our origin server becomes unresponsive. With Always Online, Cloudflare serves a limited copy of our cached website to keep our most popular pages online for our visitors.
+		We retain your information for as long as your account exists, and as required by applicable laws.
 
-	6. Cookies and Similar Technologies
+		When you delete your account it becomes invisible immediately and every session is ended. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
 
-		LangX may use cookies and similar technologies to:
+		Two exceptions are worth stating plainly:
 
-			- Improve user experience
-			- Analyze usage patterns
-			- Customize content based on user preferences
+		- **The token ledger survives as an audit record**, with your identity replaced by a random value that is stored nowhere else. The totals still reconcile and the rows no longer identify anyone. Your leaderboard entries are deleted outright.
+		- **Messages you sent are not deleted from the other person's conversation.** Their content is removed and they are marked as belonging to a deleted account. Deleting them outright would rewrite a conversation someone else is also a party to.
 
-	7. Your Choices
+		Records of who viewed a profile are deleted automatically after 90 days, whether or not you delete your account.
 
-		7.1 Access and Correction
+	12. Age
 
-		You have the right to access, correct, or delete your personal information. You can do this by accessing your account settings or contacting us.
+		LangX is an 18+ service. You must be at least 18 to create an account, and this is enforced when your profile is created. The app is not directed to children, we do not knowingly collect information from anyone under 18, and we do not operate it under any "designed for families" programme. If we learn that an account belongs to someone under 18, we remove it.
 
-		7.2 Opt-Out
-
-		You can opt-out of receiving marketing communications at any time by adjusting your communication preferences in your account settings or using the opt-out link in our emails.
-
-		7.3 OpenAI API Interactions
-
-		You have the right to opt-out of features that involve the OpenAI API by adjusting your settings or contacting us. Note that opting out may limit the functionality of certain features.
-
-	8. Changes to This Privacy Policy
+	13. Changes to This Privacy Policy
 
 		We may update our Privacy Policy to reflect changes in our data practices. We will notify you of any material changes through the app or via email.
 
-	9. Data Retention
-
-		We retain your personal information for as long as necessary to provide the services you requested and as required by applicable laws.
-
-	10. Compliance with Children's Online Privacy Protection
-
-		Depending on the countries where our app is available, some or all of the users in our target audience may be considered children. We comply with the Families policy whenever our app is being used by a child.
-
-		This includes:
-
-		- Ensuring that any content in our app that could be seen by children is appropriate for them.
-		- Only displaying ads that are appropriate for children, whenever our app is being used by a child.
-		- Only displaying ads that are from Google Play certified ad networks, or ads served by us, whenever our app is being used by a child. This includes ads for our own apps, or from partnerships with other brands.
-		- Ensuring that our app (including all APIs, SDKs, and ads) complies with all applicable laws and regulations relating to children, such as the US Children's Online Privacy Protection Act (COPPA), and the EU General Data Protection Regulation (GDPR).
-
-    We either make our entire app compliant, or implement a neutral age screen and comply with the policy when the user is a child.
-
-	11. Official Contact Information
+	14. Official Contact Information
 
 		LangX is a product of New Chapter Technology Limited Liability Company, a legal entity registered under the laws with a registered address at:
 
