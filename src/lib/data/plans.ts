@@ -36,6 +36,10 @@ export const plans: Plan[] = [
 			{ label: 'Unlimited corrections' },
 			{ label: '5 new conversations a day' },
 			{ label: '20 translations a day' },
+			{
+				label: '50 photos and voice messages a day',
+				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
+			},
 			{ label: '6 photos on your profile' }
 		]
 	},
