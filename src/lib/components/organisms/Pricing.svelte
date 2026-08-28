@@ -4,11 +4,12 @@
 </script>
 
 <section id="pricing">
-	<div class="table" role="table" aria-label="Free and Pro compared">
+	<div class="table" role="table" aria-label="Free, Pro and Pro+ compared">
 		<div class="row head" role="row">
 			<span class="what" role="columnheader">&nbsp;</span>
 			<span class="free" role="columnheader">Free</span>
 			<span class="pro" role="columnheader">Pro</span>
+			<span class="pro-plus" role="columnheader">Pro+</span>
 		</div>
 
 		{#each planRows as row}
@@ -19,23 +20,28 @@
 				</span>
 				<span class="free" role="cell"><span class="label">Free</span>{row.free}</span>
 				<span class="pro" role="cell"><span class="label">Pro</span>{row.pro}</span>
+				<span class="pro-plus" role="cell"><span class="label">Pro+</span>{row.proPlus}</span>
 			</div>
 		{/each}
 	</div>
 
 	<div class="fine">
 		<p>
-			The free plan's two caps are counted over a <strong>rolling 24 hours</strong>, not a calendar
-			day — so the fifth conversation you started yesterday evening frees up this evening, not at
+			The free plan's caps are counted over a <strong>rolling 24 hours</strong>, not a calendar day
+			— so the fifth conversation you started yesterday evening frees up this evening, not at
 			midnight.
 		</p>
 		<p>
-			Pro is a subscription, monthly or yearly, with a free trial. Prices are shown in the app in
+			<strong>Pro+ is everything in Pro, plus LangX Copilot and Nearby.</strong> Copilot is not in the
+			first release, so the row says so.
+		</p>
+		<p>
+			Both are subscriptions, monthly or yearly, with a free trial. Prices are shown in the app in
 			your own currency, because they are set per region.
 		</p>
 		<p>
-			Tokens cannot buy Pro, and never will. If they could, farming tokens would become a substitute
-			for subscribing — and the subscription is what funds the app.
+			Tokens cannot buy Pro or Pro+, and never will. If they could, farming tokens would become a
+			substitute for subscribing — and the subscription is what funds the app.
 			<a href="/#token">More about LangX Token</a>.
 		</p>
 	</div>
@@ -66,7 +72,7 @@
 
 	.row {
 		display: grid;
-		grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr) minmax(0, 1fr);
+		grid-template-columns: minmax(0, 2.2fr) repeat(3, minmax(0, 1fr));
 		gap: var(--space-sm);
 		padding: var(--space-sm) var(--space-md);
 		border-bottom: 1px solid var(--color--border);
@@ -82,6 +88,10 @@
 
 			.pro {
 				color: var(--color--pro);
+			}
+
+			.pro-plus {
+				color: var(--color--pro-plus);
 			}
 		}
 	}
@@ -102,7 +112,8 @@
 	}
 
 	.free,
-	.pro {
+	.pro,
+	.pro-plus {
 		font-size: 0.95rem;
 	}
 
@@ -133,8 +144,10 @@
 		gap: var(--space-2xs);
 	}
 
-	// A three-column table cannot survive 375px. Below tablet each row becomes a
-	// small card with its own Free/Pro labels.
+	// A four-column table cannot survive 375px. Below tablet each row becomes a
+	// small card with its own Free/Pro/Pro+ labels. Checked at 768px with the
+	// third column added: the value cells still fit on one line there, so the
+	// breakpoint stays where it was.
 	@include for-phone-only {
 		.row {
 			grid-template-columns: 1fr;

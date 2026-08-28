@@ -8,7 +8,7 @@
 <Seo
 	title="LangX Pro"
 	path="/pro"
-	description="What LangX Pro adds, what stays free, and why corrections are unlimited on both plans."
+	description="What LangX Pro and Pro+ add, what stays free, and why corrections are unlimited on every plan."
 />
 
 <Waves />

@@ -20,13 +20,13 @@
 			title: 'Is LangX free?',
 			content: `<strong>Free to use, always.</strong> You can reply to every message you receive with no limits, and write as many corrections as you like — neither is capped on any plan. On the free plan you can start <strong>5 new conversations</strong> and use <strong>20 translations</strong> per rolling 24 hours.
 			<br><br>
-			<a href="/pro" class="link">LangX Pro</a> is a paid subscription that removes those two limits and adds discovery filters, seeing who viewed your profile, and incognito browsing.`,
+			<a href="/pro" class="link">LangX Pro</a> is a paid subscription that removes those limits and adds discovery filters, seeing who viewed your profile, and incognito browsing. <a href="/pro" class="link">LangX Pro+</a> adds LangX Copilot and the Nearby sort on top of that.`,
 			isOpen: false
 		},
 		{
 			id: 3,
 			title: 'How does LangX pay for itself?',
-			content: `LangX Pro subscriptions. That is the whole model: no ads, no advertising identifiers, no third-party analytics SDK, and no selling anyone's data.
+			content: `LangX Pro and Pro+ subscriptions. That is the whole model: no ads, no advertising identifiers, no third-party analytics SDK, and no selling anyone's data.
 			<br><br>
 			Two things are deliberately <em>not</em> behind the paywall. Replying to messages is unlimited, because a language exchange where you cannot answer someone is not a language exchange. And writing corrections is unlimited on every plan — rate-limiting the free side would shrink what a paying user receives just as much as what a free user gives.
 			<br><br>
@@ -45,6 +45,8 @@
 				<li>Daily streaks, LangX Tokens, and weekly, monthly, yearly and all-time leaderboards.</li>
 				<li>Discovery filters by gender, country, age and level (Pro).</li>
 				<li>Who viewed your profile, and incognito browsing (Pro).</li>
+				<li>Nearby: discovery sorted by distance, if you switch location sharing on (Pro+).</li>
+				<li>LangX Copilot, private AI feedback as you practise (Pro+, not in the first release).</li>
 				<li>Download or delete everything we hold about you, from inside the app.</li>
 				<li>Night mode.</li>
 				<li>Open source under BSD-3, and self-hostable.</li>
@@ -65,7 +67,7 @@
 			title: 'What is LangX Copilot 🤖?',
 			content: `Private feedback while you practise with a real person. You open it inside a chat room and it comments on your own messages — only you can see those messages.
 			<br><br>
-			<strong>It is not in the first release of v2.</strong> It is planned for a later one, and when it arrives the free plan includes a few uses a day with Pro unlimited within fair use. We are naming the timing plainly because this feature has been described as "coming soon" for a long time.`,
+			<strong>It is not in the first release of v2.</strong> It is planned for a later one, and it is the feature <a href="/pro" class="link">LangX Pro+</a> exists for. We are naming the timing plainly because this feature has been described as "coming soon" for a long time.`,
 			isOpen: false
 		},
 		{

@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let color: 'primary' | 'secondary' | 'pro' = 'primary';
+	export let color: 'primary' | 'secondary' | 'pro' | 'pro-plus' = 'primary';
 </script>
 
 <div class="tag {color}">
@@ -30,6 +30,10 @@
 		&.pro {
 			background-color: rgba(var(--color--pro-rgb), 0.14);
 			color: var(--color--pro);
+		}
+		&.pro-plus {
+			background-color: rgba(var(--color--pro-plus-rgb), 0.14);
+			color: var(--color--pro-plus);
 		}
 	}
 </style>

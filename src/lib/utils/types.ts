@@ -10,8 +10,11 @@ export type SparkleType = {
 
 export type TagType = {
 	label: string;
-	/** `pro` marks a LangX Pro feature and uses the app's own Pro purple. */
-	color?: 'primary' | 'secondary' | 'pro';
+	/**
+	 * `pro` and `pro-plus` mark a paid feature and use the app's own purples.
+	 * Tag the plan that actually unlocks it — Pro+ is the wider one.
+	 */
+	color?: 'primary' | 'secondary' | 'pro' | 'pro-plus';
 };
 
 export type SocialLink = {};
