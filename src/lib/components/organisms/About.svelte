@@ -18,7 +18,8 @@
 		<p>
 			<strong>Free to use. Always.</strong> Reply to every message you get, with no limits, and
 			correct as many as you like. <a class="text" href="/pro">LangX Pro</a> adds filters, unlimited
-			translation, and the ability to start as many new conversations as you want.
+			translation, and the ability to start as many new conversations as you want; Pro+ adds LangX Copilot
+			and Nearby on top.
 		</p>
 		<p>
 			The app and the API are <strong>open source</strong>, and you can host your own.

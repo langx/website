@@ -68,7 +68,7 @@
 		<p>
 			What does not change, and is worth saying in the same breath: <strong
 				>replying to every message you get is unlimited</strong
-			>, and so is writing corrections, on both plans. The free plan limits how many conversations
+			>, and so is writing corrections, on every plan. The free plan limits how many conversations
 			you can open, never how much you can talk.
 			<a href="/pro">The full comparison is here</a>.
 		</p>

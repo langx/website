@@ -47,7 +47,7 @@ export const tokenIsNot = [
 	'It cannot be sent to another user.',
 	'It cannot be withdrawn. It does not leave the app.',
 	'It is not on a blockchain. There is no chain, no contract, no wallet address.',
-	'It cannot unlock LangX Pro.'
+	'It cannot unlock a paid plan. Those are subscriptions; tokens buy none of them.'
 ];
 
 /** v1 balances are credited to earned tokens divided by this. */
