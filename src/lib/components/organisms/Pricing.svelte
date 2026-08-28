@@ -1,49 +1,33 @@
 <script lang="ts">
-	import { planRows } from '$lib/data/plans';
+	import { plans, planNotes } from '$lib/data/plans';
 	import AppStores from '$lib/components/molecules/AppStores.svelte';
 </script>
 
 <section id="pricing">
-	<div class="table" role="table" aria-label="Free, Pro and Pro+ compared">
-		<div class="row head" role="row">
-			<span class="what" role="columnheader">&nbsp;</span>
-			<span class="free" role="columnheader">Free</span>
-			<span class="pro" role="columnheader">Pro</span>
-			<span class="pro-plus" role="columnheader">Pro+</span>
-		</div>
-
-		{#each planRows as row}
-			<div class="row" role="row">
-				<span class="what" role="cell">
-					{row.label}
-					{#if row.note}<small>{row.note}</small>{/if}
-				</span>
-				<span class="free" role="cell"><span class="label">Free</span>{row.free}</span>
-				<span class="pro" role="cell"><span class="label">Pro</span>{row.pro}</span>
-				<span class="pro-plus" role="cell"><span class="label">Pro+</span>{row.proPlus}</span>
-			</div>
+	<div class="plans">
+		{#each plans as plan}
+			<article class="plan {plan.tone ?? ''}">
+				<h2>{plan.name}</h2>
+				<p class="tagline">{plan.tagline}</p>
+				<ul>
+					{#each plan.points as point}
+						<li>
+							<span class="label">
+								{point.label}
+								{#if point.pending}<em>Coming soon</em>{/if}
+							</span>
+							{#if point.note}<small>{point.note}</small>{/if}
+						</li>
+					{/each}
+				</ul>
+			</article>
 		{/each}
 	</div>
 
 	<div class="fine">
-		<p>
-			The free plan's caps are counted over a <strong>rolling 24 hours</strong>, not a calendar day
-			— so the fifth conversation you started yesterday evening frees up this evening, not at
-			midnight.
-		</p>
-		<p>
-			<strong>Pro+ is everything in Pro, plus LangX Copilot and Nearby.</strong> Copilot is not in the
-			first release, so the row says so.
-		</p>
-		<p>
-			Both are subscriptions, monthly or yearly, with a free trial. Prices are shown in the app in
-			your own currency, because they are set per region.
-		</p>
-		<p>
-			Tokens cannot buy Pro or Pro+, and never will. If they could, farming tokens would become a
-			substitute for subscribing — and the subscription is what funds the app.
-			<a href="/#token">More about LangX Token</a>.
-		</p>
+		{#each planNotes as note}
+			<p>{note}</p>
+		{/each}
 	</div>
 
 	<div class="cta">
@@ -63,78 +47,103 @@
 		gap: var(--space-xl);
 	}
 
-	.table {
+	.plans {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: var(--space-md);
+		align-items: start;
+	}
+
+	.plan {
 		border: 1px solid var(--color--border);
 		border-radius: var(--radius-lg);
 		background: var(--color--card-background);
-		overflow: hidden;
-	}
-
-	.row {
-		display: grid;
-		grid-template-columns: minmax(0, 2.2fr) repeat(3, minmax(0, 1fr));
-		gap: var(--space-sm);
-		padding: var(--space-sm) var(--space-md);
-		border-bottom: 1px solid var(--color--border);
-		align-items: baseline;
-
-		&:last-child {
-			border-bottom: 0;
-		}
-
-		&.head {
-			font-weight: 700;
-			background: rgba(var(--color--text-rgb), 0.03);
-
-			.pro {
-				color: var(--color--pro);
-			}
-
-			.pro-plus {
-				color: var(--color--pro-plus);
-			}
-		}
-	}
-
-	.what {
+		padding: var(--space-lg);
 		display: flex;
 		flex-direction: column;
-		gap: var(--space-3xs);
-		font-weight: 600;
+		gap: var(--space-2xs);
+		height: 100%;
 
-		small {
-			font-weight: 400;
-			font-size: 0.82rem;
-			color: var(--color--text-shade);
-			line-height: 1.45;
-			max-width: 62ch;
+		h2 {
+			font-size: 1.3rem;
+			margin: 0;
+		}
+
+		// Each paid plan carries the app's own tier colour, so the three cards
+		// read as one ladder rather than three unrelated products.
+		&.pro h2 {
+			color: var(--color--pro);
+		}
+
+		&.pro-plus h2 {
+			color: var(--color--pro-plus);
 		}
 	}
 
-	.free,
-	.pro,
-	.pro-plus {
+	.tagline {
+		margin: 0 0 var(--space-2xs);
+		color: var(--color--text-shade);
 		font-size: 0.95rem;
 	}
 
-	// Only shown once the table collapses into stacked cards on phones.
-	.label {
-		display: none;
-		font-weight: 700;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+	}
+
+	// Two columns: the tick, then everything about the point. A note sits under
+	// its own label rather than under the tick, which is what makes the list
+	// scannable down the left edge.
+	li {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		column-gap: 0.55em;
+		row-gap: 2px;
+		font-size: 0.95rem;
+
+		&::before {
+			content: '✓';
+			color: var(--color--pro);
+			line-height: 1.5;
+		}
+	}
+
+	.label,
+	small {
+		grid-column: 2;
+	}
+
+	.label em {
+		font-style: normal;
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
 		color: var(--color--text-shade);
-		margin-right: var(--space-2xs);
+		margin-left: var(--space-3xs);
+		white-space: nowrap;
+	}
+
+	small {
+		color: var(--color--text-shade);
+		font-size: 0.82rem;
+		line-height: 1.45;
 	}
 
 	.fine {
 		display: flex;
 		flex-direction: column;
-		gap: var(--space-sm);
-		font-size: 0.95rem;
+		gap: var(--space-2xs);
+		font-size: 0.9rem;
 		color: var(--color--text-shade);
 		max-width: 70ch;
 
-		strong {
-			color: var(--color--text);
+		p {
+			margin: 0;
 		}
 	}
 
@@ -144,26 +153,11 @@
 		gap: var(--space-2xs);
 	}
 
-	// A four-column table cannot survive 375px. Below tablet each row becomes a
-	// small card with its own Free/Pro/Pro+ labels. Checked at 768px with the
-	// third column added: the value cells still fit on one line there, so the
-	// breakpoint stays where it was.
-	@include for-phone-only {
-		.row {
+	// Three cards side by side stop being readable before the phone breakpoint,
+	// so they stack a step earlier than the old table did.
+	@include for-tablet-portrait-down {
+		.plans {
 			grid-template-columns: 1fr;
-			gap: var(--space-3xs);
-
-			&.head {
-				display: none;
-			}
-		}
-
-		.what {
-			margin-bottom: var(--space-3xs);
-		}
-
-		.label {
-			display: inline;
 		}
 	}
 </style>
