@@ -5,8 +5,8 @@ coverImage: /images/posts/mastering-a-new-language-an-introverts-guide.jpeg
 date: 2024-06-19T20:16:22Z
 excerpt: Learning a language as an introvert can be challenging, mainly due to the fact that one of the best methods for language acquisition is to interact with natives and those who are fluent in the language. However, due to that not being an option for some, in this article, we will be talking about how you can learn a language, without even leaving the house.
 author:
-  name: binbang12
-  url: https://github.com/binbang12
+  name: Triangukum
+  url: https://github.com/triangukum
 tags:
   - Tips and Tricks
   - Learning

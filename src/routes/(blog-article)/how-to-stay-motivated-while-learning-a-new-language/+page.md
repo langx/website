@@ -5,8 +5,8 @@ coverImage: /images/posts/how-to-stay-motivated-while-learning-a-new-language.jp
 date: 2024-06-17T10:16:22Z
 excerpt: Learning anything can be challenging, and language learning is no exception to this. Not only is there a lot to learn, but it takes a while. That's why, when it comes to learning a new language, you need the motivation to do it, and if you are not motivated, you will end up finding the journey a lot harder than you would have liked. That's why, in this article, we're going to talk about how to stay motivated during this amazing journey your have (or are about to), embark on.
 author:
-  name: binbang12
-  url: https://github.com/binbang12
+  name: Triangukum
+  url: https://github.com/triangukum
 tags:
   - Motivation
   - Language

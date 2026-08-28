@@ -5,8 +5,8 @@ coverImage: /images/posts/top-10-tips-for-learning-a-new-language-quickly.jpeg
 date: 2024-06-16T13:45:00Z
 excerpt: Learning a new language can be both exciting and challenging. Whether you're preparing for a trip abroad, enhancing your career prospects, or simply satisfying a personal goal, mastering a new language quickly is achievable with the right strategies. Here are the top 10 tips to accelerate your language learning journey! 
 author:
-  name: binbang12
-  url: https://github.com/binbang12
+  name: Triangukum
+  url: https://github.com/triangukum
 tags:
   - Tips
   - Learning
