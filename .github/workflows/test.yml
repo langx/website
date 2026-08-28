@@ -18,14 +18,15 @@ jobs:
 
     # Steps this job must take to complete
     steps:
-      # Reference the main branch. For more information visit https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses
+      # Pinned to a release rather than @main: an action tracked from a branch
+      # changes our CI whenever upstream changes, without a commit here.
       - name: Checkout under $GITHUB_WORKSPACE
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       # Specify which version of Node this project is using. For more information visit.
       # https://docs.github.com/en/actions/guides/building-and-testing-nodejs#specifying-the-nodejs-version
       - name: Set up NodeJS
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -40,9 +41,3 @@ jobs:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           npm run build
-
-      - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # this should match the `pages` option in your adapter-static options
-          path: 'build/'
