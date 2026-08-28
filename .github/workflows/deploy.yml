@@ -12,10 +12,10 @@ jobs:
       deployments: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
           node-version: 20
           cache: npm
@@ -30,7 +30,7 @@ jobs:
           npm run build
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: website
           path: 'build/'
@@ -43,10 +43,15 @@ jobs:
       deployments: write
     steps:
       - name: Download Artifacts
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v8
         with:
           name: website
 
+      # `cloudflare/pages-action` is archived and its README points at
+      # `wrangler-action`. Left alone here on purpose: swapping it changes the
+      # command, the token scope and the branch handling of the deploy that
+      # publishes langx.io, and none of that can be tested anywhere but on
+      # main. It is a change of its own, not a version bump.
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
@@ -58,8 +63,13 @@ jobs:
           branch: main
           wranglerVersion: '3'
 
+      # Pinned to the last tag rather than @master. The repository is archived
+      # and has not moved since 2022, so the branch is not going to change
+      # under us — but a branch reference is how an unrelated upstream commit
+      # gets to run in our deploy, which is worth closing whether or not this
+      # particular one is asleep.
       - name: Purge cache
-        uses: jakejarvis/cloudflare-purge-action@master
+        uses: jakejarvis/cloudflare-purge-action@v0.3.0
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
