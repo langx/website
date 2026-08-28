@@ -2,17 +2,26 @@
 	import Github from '$lib/icons/socials/github-stars.svelte';
 	import { onMount } from 'svelte';
 
+	// v2 lives in a different repository; `langx/langx` is the v1 app.
+	const repo = 'langx/langx2';
+
 	let starCount = -1;
 
 	onMount(async () => {
-		starCount = (
-			await (await fetch('https://api.github.com/repos/langx/langx?page=$i&per_page=100')).json()
-		).stargazers_count;
+		try {
+			const response = await fetch(`https://api.github.com/repos/${repo}`);
+			if (!response.ok) return;
+			const { stargazers_count } = await response.json();
+			starCount = stargazers_count ?? -1;
+		} catch {
+			// GitHub rate-limits unauthenticated calls per IP. The count is
+			// decoration; the link still works without it.
+		}
 	});
 </script>
 
 <div class:mtop={starCount > 0} class="star-count">
-	<a class="star" target="_blank" href="https://github.com/langx/langx/stargazers">
+	<a class="star" target="_blank" href="https://github.com/{repo}/stargazers">
 		<Github />
 		{#if starCount > 0}
 			<span>{starCount.toLocaleString('en-US')}</span>

@@ -1,8 +1,36 @@
 :root {
 	// Fonts
-	--font--default: Comfortaa, sans-serif;
-	--font--title: Comfortaa, serif;
-	--font--mono: Comfortaa, monospace;
+	//
+	// Comfortaa is the brand's voice and stays on titles. It was also the body
+	// and the mono face, which is why long paragraphs and code blocks were hard
+	// to read: it is a display face with round, wide letterforms and no real
+	// monospace cut. Body and mono fall back to the platform stacks — no extra
+	// download, and text set at 15-18px stays legible.
+	--font--default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		sans-serif;
+	--font--title: Comfortaa, sans-serif;
+	--font--mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono',
+		monospace;
+
+	// Spacing scale. Sections used to pick their own numbers (15px, 20px, 25px,
+	// 30px, 80px…), which is why vertical rhythm drifted between them.
+	--space-3xs: 4px;
+	--space-2xs: 8px;
+	--space-xs: 12px;
+	--space-sm: 16px;
+	--space-md: 24px;
+	--space-lg: 32px;
+	--space-xl: 48px;
+	--space-2xl: 72px;
+	--space-3xl: 104px;
+
+	// Corner radii, matching the app's `radius` tokens so a card here and a card
+	// in the app are the same shape.
+	--radius-sm: 8px;
+	--radius-md: 12px;
+	--radius-lg: 16px;
+	--radius-xl: 24px;
+	--radius-pill: 999px;
 
 	// Grabbed from open-props.style
 	--ease-3: cubic-bezier(0.25, 0, 0.3, 1);

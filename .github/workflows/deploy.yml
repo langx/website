@@ -17,7 +17,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
 
       - name: Install dependencies
@@ -68,6 +68,8 @@ jobs:
               "https://www.langx.io",
               "https://langx.io",
               "https://langx.io/blog",
+              "https://langx.io/pro",
+              "https://langx.io/welcome-back",
               "https://langx.io/rss.xml",
               "https://langx.io/sitemap.xml",
               "https://langx.io/terms-conditions",

@@ -10,7 +10,8 @@ export type SparkleType = {
 
 export type TagType = {
 	label: string;
-	color?: 'primary' | 'secondary';
+	/** `pro` marks a LangX Pro feature and uses the app's own Pro purple. */
+	color?: 'primary' | 'secondary' | 'pro';
 };
 
 export type SocialLink = {};

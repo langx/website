@@ -12,20 +12,22 @@
 			>
 		</h2>
 		<p>
-			We connect language learners worldwide. Practice and immerse yourself in different languages.
+			No lessons and no homework — just real conversations with someone who needs exactly what you
+			can offer. You correct their sentences, they correct yours.
 		</p>
 		<p>
-			Engage with native speakers for an authentic learning experience. Start your language
-			adventure with us!
+			<strong>Free to use. Always.</strong> Reply to every message you get, with no limits, and
+			correct as many as you like. <a class="text" href="/pro">LangX Pro</a> adds filters, unlimited
+			translation, and the ability to start as many new conversations as you want.
 		</p>
 		<p>
-			Our platform is <strong>free and entirely open-source</strong>.
+			The app and the API are <strong>open source</strong>, and you can host your own.
 			<SparklingHighlight>
 				<a
 					href="https://github.com/langx"
 					target="_blank"
 					rel="noopener noreferrer"
-					title="See my GitHub profile"
+					title="See our GitHub organisation"
 				>
 					<GitHubIcon />
 				</a>
@@ -33,7 +35,7 @@
 		</p>
 	</div>
 	<div class="image">
-		<Image src="/images/app-preview.gif" alt="Sample for the static template" />
+		<Image src="/images/app-preview.gif" alt="LangX chat, discovery and profile screens" />
 	</div>
 </section>
 
@@ -43,10 +45,13 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 400px;
+		// Was `500px 400px`, which stopped being centred the moment the viewport
+		// was not exactly 1080px wide.
+		grid-template-columns: minmax(0, 1fr) minmax(0, 420px);
+		gap: var(--space-2xl);
 		align-items: center;
 		justify-content: space-between;
-		padding-bottom: 50px;
+		padding-bottom: var(--space-xl);
 
 		@include for-phone-only {
 			grid-template-columns: 1fr;
@@ -107,7 +112,7 @@
 	// 	margin-left: 5px;
 	// }
 
-	a {
+	a:not(.text) {
 		transition: all 0.2s ease-in-out;
 		width: 24px;
 		height: 24px;

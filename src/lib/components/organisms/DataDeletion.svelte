@@ -1,61 +1,55 @@
 <section id="policy">
 
-	<h1>Data Deletion Instructions</h1>
+	*Effective Date: 27, Aug 2026*
 
-	*Effective Date: 13, May 2024*
+	If you would like to delete your LangX account or the data we hold about you, you can do it yourself from inside the app — you do not need to contact us first.
 
-		If you would like to request the deletion of your personal data from LangX, please follow the instructions below:
-	
-	1. Account Deletion:
-	
-		-	Log in to your LangX account.
-		-	Navigate to the profile section.
-		- Navigate to the upper right corner of the interface and select the settings icon, represented by a gear symbol.
-		- Please proceed to select the "Account" option.
-		- Within "Other" section, you will find two options: one to **delete your account** and another to freeze it.
-		-	Follow the provided prompts to confirm and initiate the deletion process.
+	1. Deleting your account
 
-		1.1 Partial Data Deletion:
+		- Open LangX and go to **Settings**.
+		- Choose **Delete my account**.
+		- Confirm. Your account becomes invisible immediately and every session is signed out.
 
-		- If you wish to delete certain data that we collected through this app without deleting your entire account, you can submit a request for partial data deletion.
-		- This data can include things like activity history, and images and audio.
-		- To submit a request for partial data deletion, please contact our support team at [hi@langx.io] with the subject "Partial Data Deletion Request".
-	
-	2. Contacting Support:
-	
-		If you encounter any issues or need assistance with the data deletion process, you can contact our support team at [hi@langx.io]. Please provide the following information in your email:
-	
-		-	Subject: Data Deletion Request
-		-	Your full name
-		-	The email address associated with your LangX account
-		-	A brief description of your request
-	
-	3. Verification:
-	
-		To protect the security of your data, we may need to verify your identity before processing the deletion request. This may involve confirming details associated with your account.
-	
-	4. Timeline:
-	
-		Upon receiving a valid data deletion request, we will make reasonable efforts to delete your personal information from our records within 14 business days. Please note that some residual information may remain in our backup systems for a limited period.
-	
-	5. Limitations:
-	
-		Certain legal obligations or business needs may require us to retain certain information even after a deletion request. We will inform you if such circumstances apply.
-	
-	6. Third-Party Services:
-	
-		Should you choose to delete your LangX account, please be informed that all data linked to third-party services will also be automatically deleted.	
+		The data is permanently removed **30 days** after you confirm. If you change your mind, signing back in during those 30 days cancels the deletion.
 
-	7. Confirmation:
-	
-		Once your data has been successfully deleted, you will receive a confirmation email at the address associated with your LangX account.
-	
-	8. Changes to Instructions:
-	
-		We reserve the right to update these Data Deletion Instructions. Any changes will be reflected on our website or App.
-	
-		If you have any questions or concerns regarding the data deletion process, please contact us at [hi@langx.io].
+		When the 30 days are up, your profile, photos, location, devices, blocks, the reports you filed, the record of profiles you viewed, your subscription record and your sign-in credentials are all deleted. Your photos, and the photos and voice messages you sent in chat, are deleted from storage as well as from the database, so nothing remains reachable by URL.
 
+	2. Two things that are not deleted, and why
+
+		- **Messages you sent stay in the other person's conversation**, with their content and attachments removed and marked as belonging to a deleted account. Removing them outright would rewrite a conversation someone else is also a party to.
+		- **The token ledger is kept as an audit record**, with your identity replaced by a random value stored nowhere else. The totals still reconcile and the rows no longer identify anyone. Your leaderboard entries are deleted outright.
+
+	3. Downloading your data first
+
+		Settings also offers **Download my data**, which returns a single file containing everything the app holds about you: your profile, the conversations you are part of, the messages you sent, your token ledger, subscriptions, blocks, the profiles you viewed and your registered devices. It does not include the other person's messages, because those are their words and not your data. Downloading before deletion is worth it — after the 30 days there is nothing left to export.
+
+	4. Deleting some data without deleting your account
+
+		You can remove individual photos, messages and profile fields from within the app.
+
+		Two cases people ask about specifically:
+
+		- **Location.** Turning off location sharing in Settings deletes the stored point outright and removes you from other people's Nearby results. You do not need to delete or export anything else to do it.
+		- **Profile views.** The record of who viewed a profile is deleted automatically after 90 days, whether or not you ask.
+
+		For anything you cannot reach yourself, email us at [hi@langx.io] with the subject "Partial Data Deletion Request".
+
+	5. Subscriptions are separate
+
+		Deleting your account does not cancel a paid subscription. Cancel it with Apple, Google or our web payment provider, whichever you bought it from — we cannot cancel a store subscription on your behalf.
+
+	6. Contacting support
+
+		If you run into a problem with any of the above, contact us at [hi@langx.io] with the subject "Data Deletion Request" and include:
+
+		- The email address associated with your LangX account
+		- A brief description of your request
+
+		To protect your account we may need to verify your identity before acting on a request that did not come from inside the app.
+
+	7. Timeline
+
+		Deletion started in the app completes automatically after 30 days. A request sent to us by email is actioned within 30 days of us verifying it. Some residual copies may persist in encrypted backups for a limited period before those backups expire.
 
 </section>
 

@@ -2,7 +2,28 @@
 
 # [langx.io](https://langx.io)
 
-Welcome to LangX! Our app is designed to help you learn a new language through practice and immersion with native speakers from around the world. With personalized lesson plans and conversation practice, you'll be able to take your language skills to the next level.
+Welcome to LangX! LangX matches you with people who speak the language you're learning and are learning the language you speak — real conversations, message corrections and built-in translation, on iOS, Android and the web.
+
+## Keeping the numbers honest
+
+Several pages state limits and prices that are enforced by the app, not by this
+site. They are mirrored in [`src/lib/data/plans.ts`](src/lib/data/plans.ts) and
+[`src/lib/data/token.ts`](src/lib/data/token.ts), each of which points at the
+file in `langx2` it copies:
+
+| Here                    | Source of truth in `langx2`                                                  |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| `src/lib/data/plans.ts` | `packages/shared/src/limits.ts` (`PLAN_LIMITS`)                              |
+| `src/lib/data/token.ts` | `packages/shared/src/token.ts` (`TOKEN_RULES`), `cosmetics.ts` (`COSMETICS`) |
+
+When a limit or a token rule changes in `langx2`, change it in the matching file
+here. Nothing checks this automatically, so a claim on the site can drift into
+being false without anything failing — which is exactly what this section exists
+to prevent.
+
+The product claims on this site are also constrained by
+`langx2/docs/legal/promise-change.md` and `langx2/docs/token-messaging-brief.md`.
+Before adding a feature claim, check it is one the shipping app actually meets.
 
 ## Table of Contents
 

@@ -1,25 +1,66 @@
 import type { Feature } from '$lib/utils/types';
 
+// Every claim here has to be true of the shipping app. The numbers come from
+// `langx2/packages/shared/src/limits.ts` (PLAN_LIMITS) — when a limit changes
+// there, this file is the second place to change.
+//
+// NOTE: the screenshots in `static/images/features/` are still v1's UI.
 export default [
 	{
-		name: '🤖 Learn with AI',
+		name: '🤝 Matched Both Ways',
 		description:
-			'Harness the power of AI to accelerate your language learning journey. Get personalized lessons and feedback.',
-		image: 'images/features/1.png',
-		tags: [{ label: 'AI Learning' }, { label: 'Coming Soon', color: 'secondary' }]
+			'You only see people whose languages fit yours in both directions — they speak what you are learning, and they are learning what you speak.',
+		image: 'images/features/2.png',
+		tags: [{ label: 'Matching' }]
 	},
 	{
-		name: '👥 Language Community',
-		description: 'Join a community of language learners. Connect, share, and learn together.',
-		image: 'images/features/2.png',
-		tags: [{ label: 'Community' }]
+		name: '✍️ Correct Each Other',
+		description:
+			'Tap any message to suggest a better way to say it. Corrections are unlimited on every plan — teaching someone is the point of the product, not a feature to ration.',
+		image: 'images/features/10.png',
+		tags: [{ label: 'Corrections' }, { label: 'Unlimited on every plan' }]
+	},
+	{
+		name: '🌐 Translation When You Are Stuck',
+		description:
+			'Built into the chat, so you never leave the conversation to look something up. 20 a day on the free plan, unlimited on Pro.',
+		image: 'images/features/9.png',
+		tags: [{ label: 'Translation' }]
+	},
+	{
+		name: '🔥 Streaks, Tokens and Leaderboards',
+		description:
+			'Keep a daily streak, earn LangX Tokens for talking and for teaching, and see where you land on the weekly, monthly, yearly and all-time boards.',
+		image: 'images/features/12.png',
+		tags: [{ label: 'Streaks' }, { label: 'LangX Token' }]
 	},
 	{
 		name: '🎙️ Capture Moments, Share Voices',
 		description:
-			'Capture and share your language learning moments. Share voice messages to practice pronunciation.',
+			'Send voice messages to practise pronunciation, and photos to show what you are talking about.',
 		image: 'images/features/3.png',
-		tags: [{ label: 'Voice Sharing' }]
+		tags: [{ label: 'Voice & Photos' }]
+	},
+	{
+		name: '⚙️ Fine Tune Your Connections',
+		description:
+			'Narrow discovery by gender, country, age and level to find the partners who actually fit how you want to practise.',
+		image: 'images/features/7.png',
+		tags: [{ label: 'Filters' }, { label: 'LangX Pro', color: 'pro' }]
+	},
+	{
+		name: '🔍 Profile Insights',
+		description:
+			'See your streak, your tokens and how your week is going, straight from your profile.',
+		image: 'images/features/5.png',
+		tags: [{ label: 'Insights' }]
+	},
+	{
+		name: '🔒 Your Data, Your Control',
+		description:
+			'Download everything we hold about you, or delete your account from inside the app. No advertising identifiers and no third-party analytics SDK.',
+		image: 'images/features/6.png',
+		tags: [{ label: 'Privacy' }]
 	},
 	{
 		name: '🌙 Night Mode Engage',
@@ -29,58 +70,24 @@ export default [
 		tags: [{ label: 'Night Mode' }]
 	},
 	{
-		name: '🔍 Profile Insights',
-		description:
-			'Get insights into your language learning progress and habits directly from your profile.',
-		image: 'images/features/5.png',
-		tags: [{ label: 'Insights' }]
-	},
-	{
-		name: '🔒 Your Data, Your Control',
-		description:
-			'We respect your privacy. Control what data you share and manage your privacy settings easily.',
-		image: 'images/features/6.png',
-		tags: [{ label: 'Privacy' }]
-	},
-	{
-		name: '⚙️ Fine Tune Your Connections',
-		description:
-			'Customize your connection preferences to find the perfect language exchange partners.',
-		image: 'images/features/7.png',
-		tags: [{ label: 'Customization' }]
-	},
-	{
-		name: '🏅 Badge',
-		description: 'Earn badges for your achievements and display them on your profile.',
-		image: 'images/features/8.png',
-		tags: [{ label: 'Recognition' }]
-	},
-	{
-		name: '💬 Just Chat',
-		description:
-			'Experience our user-friendly chat interface. Learning a language has never been this fun and easy.',
-		image: 'images/features/9.png',
-		tags: [{ label: 'Chat Interface' }]
-	},
-	{
-		name: '⭐ Rating Evaluation',
-		description:
-			'Rate your language exchange partners and receive ratings to help improve the quality of interactions in our community.',
-		image: 'images/features/10.png',
-		tags: [{ label: 'Rating System' }, { label: 'Coming Soon', color: 'secondary' }]
-	},
-	{
 		name: '📖 All Open-Sourced',
 		description:
-			'Our app is completely open-sourced. Join our developer community and contribute to our codebase.',
+			'The app and the API are open source under BSD-3, and you can host your own instance. Join our developer community and contribute to our codebase.',
 		image: 'images/features/11.png',
 		tags: [{ label: 'Open Source' }]
 	},
 	{
-		name: '💰 Zero Cost',
+		name: '🆓 Free to Use, Always',
 		description:
-			'Experience our comprehensive language learning features at zero cost. Absolutely no hidden charges or in-app purchases.',
-		image: 'images/features/12.png',
+			'Reply to every message you get with no limits, and correct as many as you like. On the free plan you can start 5 new conversations a day.',
+		image: 'images/features/8.png',
 		tags: [{ label: 'Free' }]
+	},
+	{
+		name: '🤖 LangX Copilot',
+		description:
+			'Private feedback while you practise with a real person — only you see it. Not in the first release; it lands in a later one.',
+		image: 'images/features/1.png',
+		tags: [{ label: 'AI' }, { label: 'Coming Soon', color: 'secondary' }]
 	}
 ] as Feature[];

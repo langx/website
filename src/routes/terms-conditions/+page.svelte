@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Hero from '$lib/components/organisms/Hero.svelte';
+	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import TermsAndConditions from '$lib/components/organisms/TermsAndConditions.svelte';
 </script>
 
 <div class="container">
-	<Hero />
+	<PageHeader title="Terms & Conditions" lede="The terms you agree to when you use LangX." />
 	<TermsAndConditions />
 </div>
