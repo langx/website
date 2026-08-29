@@ -33,6 +33,12 @@ export const tokenSinks = [
 		description: 'Rescues one missed day. You can bank two at a time.'
 	},
 	{
+		name: 'Fill in a missed day',
+		price: '300 tokens',
+		description:
+			'Fills one empty square on your activity map, within the last 14 days. Two a month, and never today — today is earned.'
+	},
+	{
 		name: 'Frames and titles',
 		price: '500 – 10,000 tokens',
 		description:
