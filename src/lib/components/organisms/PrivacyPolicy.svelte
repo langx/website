@@ -16,10 +16,10 @@
 
 		- **Email address** — for sign-in, verification and password reset. Required.
 		- **Display name and username** — shown on your profile. Required.
-		- **Year of birth** — used for the 18+ requirement. Only your age, never the date, is shown to anyone else.
+		- **Date of birth** — used for the 18+ requirement, and so that we can wish you a happy birthday. Only your age is ever shown to anyone else; the date itself is visible to nobody but you.
 		- **Languages and levels** — the entire matching mechanism depends on these. Required.
 		- **Gender** — shown on your profile and used by the Pro gender filter. "Undisclosed" is a valid answer.
-		- **Country and city** — shown on your profile and used by the Pro country filter. Optional.
+		- **City** — shown on your profile. Optional.
 		- **Photos** — your avatar and gallery. Optional.
 		- **Interests** — shown on your profile, and shared interests nudge someone higher in your suggestions. Optional.
 		- **A short text about you** — optional.
@@ -43,6 +43,8 @@
 		2.3 Technical information
 
 		Our servers necessarily see your IP address in order to answer a request, apply rate limits and refuse abuse. We do not build a profile from it and it is not stored as part of your account.
+
+		One thing is derived from it: **your country**, as a two-letter code, when you create your profile. It is shown on your profile and used by the Pro country filter, which is only worth having if the country is not something anyone can simply type. The address itself is not kept — only the country it resolved to. If it is wrong, granting location permission in the app replaces it with the country your device reports; nothing else can change it.
 
 	3. Approximate Location, and Only If You Ask For It
 
