@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 27, Aug 2026*
+	*Effective Date: 31, Aug 2026*
 
 	1. Acceptance of Terms
 
@@ -65,6 +65,8 @@
 		You may delete your account from within the App at any time. On deletion your account becomes invisible immediately and every session is ended; the data is permanently removed 30 days later. Signing back in within those 30 days cancels the deletion.
 
 		Messages you sent are not removed from the other person's copy of the conversation. Their content is removed and they are marked as belonging to a deleted account, because deleting them outright would rewrite a conversation someone else is also a party to. The token ledger is kept as an anonymised audit record. Both exceptions are described in the [privacy policy](/privacy-policy).
+
+		Your email address is kept after the rest of your account is removed, on its own — no name, no profile, nothing that links it back to the account that has gone — so that we can write to you about LangX in the future. We only send promotional email to an address whose owner opted in to it, and you can have your address removed at any time by writing to [hi@langx.io](mailto:hi@langx.io). This is described in the [privacy policy](/privacy-policy) as well.
 
 		Deleting your account does not cancel a subscription bought through a store. Cancel it with Apple, Google or our web payment provider, whichever you bought it from, or it continues to renew.
 

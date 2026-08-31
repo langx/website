@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 27, Aug 2026*
+	*Effective Date: 31, Aug 2026*
 
 	1. Introduction
 
@@ -133,7 +133,7 @@
 
 		10.5 Notifications and email
 
-		You can turn off push notifications from your device settings, and opt out of marketing email using the link in any such email.
+		You can turn off push notifications from your device settings, and opt out of marketing email using the link in any such email. If you have already deleted your account, write to [hi@langx.io](mailto:hi@langx.io) and we will remove your address from the list described in section 11.
 
 	11. Data Retention and Deletion
 
@@ -141,10 +141,11 @@
 
 		When you delete your account it becomes invisible immediately and every session is ended. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
 
-		Two exceptions are worth stating plainly:
+		Three exceptions are worth stating plainly:
 
 		- **The token ledger survives as an audit record**, with your identity replaced by a random value that is stored nowhere else. The totals still reconcile and the rows no longer identify anyone. Your leaderboard entries are deleted outright.
 		- **Messages you sent are not deleted from the other person's conversation.** Their content is removed and they are marked as belonging to a deleted account. Deleting them outright would rewrite a conversation someone else is also a party to.
+		- **Your email address is kept**, and it is the only thing that is. When your account is removed we move the address onto a list that holds nothing else: no name, no profile, no identifier that links it back to the account, which is deleted in full. We keep it so that we can tell you about LangX in the future, and we only send promotional email to an address whose owner turned promotional email on while their account existed. Write to [hi@langx.io](mailto:hi@langx.io) at any time — before or after deleting your account — and we will remove your address from that list too.
 
 		Records of who viewed a profile are deleted automatically after 90 days, whether or not you delete your account.
 

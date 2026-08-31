@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 27, Aug 2026*
+	*Effective Date: 31, Aug 2026*
 
 	If you would like to delete your LangX account or the data we hold about you, you can do it yourself from inside the app — you do not need to contact us first.
 
@@ -12,12 +12,13 @@
 
 		The data is permanently removed **30 days** after you confirm. If you change your mind, signing back in during those 30 days cancels the deletion.
 
-		When the 30 days are up, your profile, photos, location, devices, blocks, the reports you filed, the record of profiles you viewed, your subscription record and your sign-in credentials are all deleted. Your photos, and the photos and voice messages you sent in chat, are deleted from storage as well as from the database, so nothing remains reachable by URL.
+		When the 30 days are up, your profile, photos, location, devices, blocks, the reports you filed, the record of profiles you viewed, your subscription record and your sign-in credentials are all deleted — with the single exception of your email address, which is kept on its own; see section 2. Your photos, and the photos and voice messages you sent in chat, are deleted from storage as well as from the database, so nothing remains reachable by URL.
 
-	2. Two things that are not deleted, and why
+	2. Three things that are not deleted, and why
 
 		- **Messages you sent stay in the other person's conversation**, with their content and attachments removed and marked as belonging to a deleted account. Removing them outright would rewrite a conversation someone else is also a party to.
 		- **The token ledger is kept as an audit record**, with your identity replaced by a random value stored nowhere else. The totals still reconcile and the rows no longer identify anyone. Your leaderboard entries are deleted outright.
+		- **Your email address is kept**, and nothing else with it. The account that held it is deleted in full; the address is moved to a list that contains no name, no profile and no identifier that could lead back to you, so that we can write to you about LangX in the future. We only send promotional email to an address whose owner turned promotional email on while their account existed. Email us at [hi@langx.io](mailto:hi@langx.io) with the subject "Data Deletion Request" and we will remove your address from that list as well.
 
 	3. Downloading your data first
 
