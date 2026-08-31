@@ -5,8 +5,8 @@
 
 <div class="container">
 	<PageHeader
-		title="LangX Pro"
-		lede="Free is a real plan. Pro removes its limits, and Pro+ adds the two features only it has."
+		title="LangX plans"
+		lede="Free is a real plan. Fluent lifts its limits, and Polyglot adds the features only it has."
 	/>
 	<Pricing />
 </div>

@@ -37,7 +37,7 @@
 		- **Push notification token** — only if you grant notification permission.
 		- **Profile views** — who viewed your profile. Not recorded at all when the viewer is browsing incognito, and deleted automatically after 90 days.
 		- **Blocks and reports** — only if you block or report someone.
-		- **Purchase state** — whether you have an active LangX Pro or Pro+ subscription, which store it came from, and when it renews or expires. Only if you subscribe.
+		- **Purchase state** — whether you have an active Fluent or Polyglot subscription, which store it came from, and when it renews or expires. Only if you subscribe.
 		- **Approximate location** — only if you switch it on. Section 3 describes it in full, because it is new in version 2 and it is the part worth reading carefully.
 
 		2.3 Technical information
@@ -48,7 +48,7 @@
 
 	3. Approximate Location, and Only If You Ask For It
 
-		LangX Pro+ includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
+		Polyglot includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
 
 		- **It is off until you turn it on.** Nothing writes your location at sign-up, during onboarding, or in the background. The only two places that ask for it are the switch in Settings and the Nearby tab itself, and both run your device's own permission prompt first.
 		- **When-in-use only.** The app declares no background location permission on either platform, so it cannot read your position while you are not using it.

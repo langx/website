@@ -1,8 +1,8 @@
 /**
  * Mirror of `TOKEN_RULES` and `COSMETICS` in
- * `langx2/packages/shared/src/token.ts` and `cosmetics.ts`.
+ * `langx/packages/shared/src/token.ts` and `cosmetics.ts`.
  *
- * langx2 marks these as "starting values only" — they are expected to move
+ * langx marks these as "starting values only" — they are expected to move
  * once there is real activity data, which is why the page that renders them
  * says so out loud.
  */
@@ -23,7 +23,10 @@ export const streakMilestones = [
 	{ day: 7, bonus: 50 },
 	{ day: 30, bonus: 250 },
 	{ day: 100, bonus: 1000 },
-	{ day: 365, bonus: 5000 }
+	{ day: 180, bonus: 1500 },
+	{ day: 365, bonus: 5000 },
+	{ day: 730, bonus: 12000 },
+	{ day: 1095, bonus: 25000 }
 ];
 
 export const tokenSinks = [
@@ -34,15 +37,15 @@ export const tokenSinks = [
 	},
 	{
 		name: 'Fill in a missed day',
-		price: '300 tokens',
+		price: '600 tokens',
 		description:
 			'Fills one empty square on your activity map, within the last 14 days. Two a month, and never today — today is earned.'
 	},
 	{
 		name: 'Frames and titles',
-		price: '500 – 10,000 tokens',
+		price: '1,000 – 100,000 tokens',
 		description:
-			'Cosmetic only: bronze, silver and gold frames, and the Learner, Tutor and Polyglot titles.'
+			'Cosmetic only: ten avatar frames from Slate to Midnight, and ten titles from Beginner to Legend.'
 	}
 ];
 

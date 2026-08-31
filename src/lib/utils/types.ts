@@ -12,7 +12,7 @@ export type TagType = {
 	label: string;
 	/**
 	 * `pro` and `pro-plus` mark a paid feature and use the app's own purples.
-	 * Tag the plan that actually unlocks it — Pro+ is the wider one.
+	 * Tag the plan that actually unlocks it — Polyglot is the wider one.
 	 */
 	color?: 'primary' | 'secondary' | 'pro' | 'pro-plus';
 };
