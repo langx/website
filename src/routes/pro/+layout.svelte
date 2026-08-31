@@ -6,9 +6,9 @@
 </script>
 
 <Seo
-	title="LangX Pro"
+	title="LangX plans"
 	path="/pro"
-	description="What LangX Pro and Pro+ add, what stays free, and why corrections are unlimited on every plan."
+	description="What Fluent and Polyglot add, what stays free, and why corrections are unlimited on every plan."
 />
 
 <Waves />

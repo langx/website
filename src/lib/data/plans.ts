@@ -1,14 +1,14 @@
 /**
- * Mirror of `PLAN_LIMITS` in `langx2/packages/shared/src/limits.ts`.
+ * Mirror of `PLAN_LIMITS` in `langx/packages/shared/src/limits.ts`.
  *
  * Written as three lists rather than a grid on purpose. A comparison table
  * makes a reader check eleven rows across three columns to answer the only
  * question they have — what do I get if I pay — and most of those rows say the
- * same thing three times, because Pro+ is a strict superset of Pro and both
+ * same thing three times, because Polyglot is a superset of Fluent and both
  * inherit everything free already has.
  *
  * So each list holds only what is *new* at that plan. When a limit changes in
- * langx2, this file is the only place here that has to change.
+ * langx, this file is the only place here that has to change.
  */
 
 export type PlanPoint = {
@@ -36,6 +36,8 @@ export const plans: Plan[] = [
 			{ label: 'Unlimited corrections' },
 			{ label: '5 new conversations a day' },
 			{ label: '20 translations a day' },
+			{ label: '1 language you are learning, 1 you speak natively' },
+			{ label: 'Filters: country, age and level' },
 			{
 				label: '50 photos and voice messages a day',
 				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
@@ -44,30 +46,36 @@ export const plans: Plan[] = [
 		]
 	},
 	{
-		name: 'Pro',
+		name: 'Fluent',
 		tagline: 'Everything in Free, without the limits.',
 		tone: 'pro',
 		points: [
 			{ label: 'Unlimited new conversations' },
-			{ label: 'Unlimited translation' },
-			{ label: 'Filters: gender, country, age, level' },
-			{ label: 'See who viewed your profile' },
-			{ label: 'Incognito browsing' }
+			{
+				label: '300 translations a day',
+				note: 'Far more than a conversation uses. Translation is the one feature with a real per-request cost, so it has a number rather than a promise.'
+			},
+			{ label: '2 languages you are learning, 2 you speak natively' },
+			{ label: 'Filters: gender and city' }
 		]
 	},
 	{
-		name: 'Pro+',
-		tagline: 'Everything in Pro, and the two features only it has.',
+		name: 'Polyglot',
+		tagline: 'Everything in Fluent, and what it cannot do.',
 		tone: 'pro-plus',
 		points: [
+			{ label: 'See who viewed your profile' },
+			{ label: 'Incognito browsing' },
+			{ label: '1000 translations a day' },
+			{ label: '5 languages you are learning, 5 you speak natively' },
+			{
+				label: 'Nearby',
+				note: 'Sorts discovery by distance, if you turn location sharing on.'
+			},
 			{
 				label: 'LangX Copilot',
 				note: 'Private AI feedback while you practise.',
 				pending: true
-			},
-			{
-				label: 'Nearby',
-				note: 'Sorts discovery by distance, if you turn location sharing on.'
 			}
 		]
 	}
@@ -76,6 +84,6 @@ export const plans: Plan[] = [
 /** The three lines worth keeping under the plans. Everything else was noise. */
 export const planNotes = [
 	'The free plan’s daily caps run over a rolling 24 hours, not a calendar day.',
-	'Pro and Pro+ are monthly or yearly, with a free trial. Prices are set per region and shown in the app.',
+	'Fluent and Polyglot are monthly or yearly, with a free trial. Prices are set per region and shown in the app.',
 	'Tokens cannot buy a paid plan, and never will.'
 ];

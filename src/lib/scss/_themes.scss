@@ -14,7 +14,7 @@
 	// Borrowed from the app's design tokens (langx2/apps/mobile/src/lib/theme.ts)
 	// so Pro and streak read as the same thing in both places.
 	@include define-color('pro', #7a5af8);
-	// Same hue, one step deeper, as in the app: Pro+ is more Pro, not a rival
+	// Same hue, one step deeper, as in the app: Polyglot is more Fluent, not a rival
 	// product, and an unrelated colour would read as two things to choose from.
 	@include define-color('pro-plus', #5b21b6);
 	@include define-color('streak', #f79009);

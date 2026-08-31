@@ -51,13 +51,13 @@
 	</article>
 
 	<article class="block warning">
-		<h2>Some things that were free are now Pro</h2>
+		<h2>Some things that were free are now paid</h2>
 		<p>
 			v1 said LangX was free with no in-app purchases. v2 has a paid tier, and three things you used
 			to get for free moved into it:
 		</p>
 		<ul>
-			<li>Filters by gender, country, age and level in discovery</li>
+			<li>Filtering discovery by gender and city — country, age and level stay free</li>
 			<li>Seeing <em>who</em> viewed your profile — the count stays free</li>
 			<li>Browsing without leaving a trace</li>
 		</ul>

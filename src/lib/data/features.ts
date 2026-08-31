@@ -3,7 +3,7 @@ import type { Feature } from '$lib/utils/types';
 // Every claim here has to be true of the shipping app. The numbers come from
 // `langx2/packages/shared/src/limits.ts` (PLAN_LIMITS) — when a limit changes
 // there, this file is the second place to change. The tier on a `pro` /
-// `pro-plus` tag comes from there too — tagging a Pro+ feature as Pro sells a
+// `pro-plus` tag comes from there too — tagging a Polyglot feature as Fluent sells a
 // subscriber something their plan does not include.
 //
 // NOTE: the screenshots in `static/images/features/` are still v1's UI.
@@ -25,7 +25,7 @@ export default [
 	{
 		name: '🌐 Translation When You Are Stuck',
 		description:
-			'Built into the chat, so you never leave the conversation to look something up. 20 a day on the free plan, unlimited on Pro.',
+			'Built into the chat, so you never leave the conversation to look something up. 20 a day on the free plan, 300 on Fluent and 1000 on Polyglot.',
 		image: 'images/features/9.png',
 		tags: [{ label: 'Translation' }]
 	},
@@ -48,12 +48,12 @@ export default [
 	{
 		name: '⚙️ Fine Tune Your Connections',
 		description:
-			'Narrow discovery by gender, country, age and level to find the partners who actually fit how you want to practise. Pro+ adds Nearby, which sorts by distance if you switch location sharing on.',
+			'Narrow discovery by country, age and level for free. Fluent adds gender and city, and Polyglot adds Nearby, which sorts by distance if you switch location sharing on.',
 		image: 'images/features/7.png',
 		tags: [
 			{ label: 'Filters' },
-			{ label: 'LangX Pro', color: 'pro' },
-			{ label: 'Nearby: Pro+', color: 'pro-plus' }
+			{ label: 'Gender, city: Fluent', color: 'pro' },
+			{ label: 'Nearby: Polyglot', color: 'pro-plus' }
 		]
 	},
 	{
@@ -94,7 +94,7 @@ export default [
 	{
 		name: '🤖 LangX Copilot',
 		description:
-			'Private feedback while you practise with a real person — only you see it. The feature Pro+ is for, and not in the first release.',
+			'Private feedback while you practise with a real person — only you see it. The feature Polyglot is for, and not in the first release.',
 		image: 'images/features/1.png',
 		tags: [
 			{ label: 'AI' },

@@ -42,10 +42,11 @@ all-time leaderboards.
 
 ## The first broken promise: LangX is no longer free of charge
 
-v1 said LangX was free with no in-app purchases. v2 introduces **LangX Pro**, a
-paid subscription, and three things that used to be free are part of it:
+v1 said LangX was free with no in-app purchases. v2 introduces two paid
+subscriptions, **Fluent** and **Polyglot**, and three things that used to be
+free are part of them:
 
-- Filters by gender, country, age and level in discovery
+- Filtering discovery by gender and city — country, age and level stay free
 - Seeing **who** viewed your profile — the count stays free
 - Browsing without leaving a trace
 
@@ -54,7 +55,7 @@ start** and **20 translations**, each per rolling 24 hours.
 
 <Callout type="info">
 Replying to every message you receive is unlimited, and so is writing
-corrections, on both plans. The free plan limits how many conversations you can
+corrections, on every plan. The free plan limits how many conversations you can
 <em>open</em>, never how much you can talk.
 </Callout>
 
@@ -68,7 +69,7 @@ revenue. We would rather charge for filters than sell your attention: there are
 no ads, no advertising identifiers, and no third-party analytics SDK. The code
 stays open source under BSD-3, and you can host your own instance.
 
-The full comparison is on the [LangX Pro page](/pro).
+The full comparison is on the [plans page](/pro).
 
 ## The second: LangX Token is not what the litepaper described
 

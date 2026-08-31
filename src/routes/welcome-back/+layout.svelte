@@ -8,7 +8,7 @@
 <Seo
 	title="Welcome back"
 	path="/welcome-back"
-	description="What changes for LangX v1 users: your username, your token balance, your streak, and what moved behind LangX Pro."
+	description="What changes for LangX v1 users: your username, your token balance, your streak, and what moved behind a paid plan."
 />
 
 <Waves />

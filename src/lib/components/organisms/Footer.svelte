@@ -23,7 +23,7 @@
 								<a href="https://backlog.langx.io" target="_blank">Backlog</a>
 							</li>
 							<li>
-								<a href="/pro">LangX Pro</a>
+								<a href="/pro">Fluent &amp; Polyglot</a>
 							</li>
 							<li>
 								<a href="/welcome-back">Coming from v1?</a>

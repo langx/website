@@ -25,7 +25,7 @@
 
 		You can block any other user and report them to us from inside the App. We review reports and may remove content, suspend token earning, or suspend or terminate an account under section 8.
 
-	5. Free Plan, LangX Pro and LangX Pro+
+	5. Free Plan, Fluent and Polyglot
 
 		LangX is free to use. On the free plan you may reply to every message you receive without limit, and write corrections without limit. The free plan limits three things:
 
@@ -35,7 +35,7 @@
 
 		These are counted over a **rolling 24 hours** from each individual use, not per calendar day and not reset at midnight.
 
-		LangX Pro is a paid subscription that removes all three limits and adds discovery filters, the identity of people who viewed your profile, and incognito browsing. LangX Pro+ includes everything in Pro and adds the Nearby sort, which orders people by approximate distance; Nearby only works if you switch location sharing on, it shows other users a rounded distance rather than a position, and our [privacy policy](/privacy-policy) describes exactly what is stored. Both plans are offered monthly and yearly, with a trial period, at prices that vary by region and are shown to you before you purchase.
+		Fluent is a paid subscription that lifts the first and third limits, raises the machine-translation allowance to 300 per rolling 24 hours, lets you learn two languages at once, and adds discovery filters. Polyglot includes everything in Fluent, raises translations to 1,000 per rolling 24 hours and learning languages to five, and adds the identity of people who viewed your profile, incognito browsing, and the Nearby sort, which orders people by approximate distance; Nearby only works if you switch location sharing on, it shows other users a rounded distance rather than a position, and our [privacy policy](/privacy-policy) describes exactly what is stored. Both plans are offered monthly and yearly, with a trial period, at prices that vary by region and are shown to you before you purchase.
 
 		Subscriptions are billed through Apple's App Store, Google Play, or our web payment provider, depending on where you subscribe. They renew automatically at the end of each period unless cancelled at least 24 hours before it ends. You cancel and request refunds through the same store you purchased from, under that store's terms; we cannot cancel or refund a store subscription on your behalf.
 
@@ -50,7 +50,7 @@
 		- It cannot be transferred to another user.
 		- It cannot be withdrawn or redeemed for money or any other thing of value.
 		- It is not recorded on a blockchain.
-		- It cannot be used to obtain LangX Pro or any part of it.
+		- It cannot be used to obtain Fluent, Polyglot or any part of either.
 
 		Token balances held in version 1 of LangX are credited to your version 2 account divided by 100, rounded down. A balance below 100 therefore converts to nothing. Any earlier description of LangX Token as a tradable or on-chain asset, including the litepaper, does not describe the product and is not being built.
 
