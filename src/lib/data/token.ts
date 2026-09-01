@@ -10,6 +10,7 @@
 export const tokenEarning = [
 	{ action: 'Send a message', amount: '2' },
 	{ action: "Correct someone else's sentence", amount: '10' },
+	{ action: 'Answer a pronunciation request with a recording', amount: '10' },
 	{ action: 'First conversation where both of you have spoken', amount: '15' }
 ];
 
