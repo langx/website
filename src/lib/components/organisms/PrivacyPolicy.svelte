@@ -133,7 +133,13 @@
 
 		10.5 Notifications and email
 
-		You can turn off push notifications from your device settings, and opt out of marketing email using the link in any such email. If you have already deleted your account, write to [hi@langx.io](mailto:hi@langx.io) and we will remove your address from the list described in section 11.
+		Notifications are switched per kind and per channel in Settings → Notifications: messages, streak reminders, badges, profile visits and marketing, each with a separate switch for your phone and for email. You can also turn off push entirely from your device settings.
+
+		Every notification email carries an unsubscribe link in its footer. It works without signing in and does not expire, and it turns off email only — the notifications on your phone are unaffected, because turning off email says nothing about them. Marketing email is off unless you switch it on.
+
+		Notification email is limited to counts and display names: how many messages are waiting, and who wrote or looked. It never contains the text of a message.
+
+		If you have already deleted your account, write to [hi@langx.io](mailto:hi@langx.io) and we will remove your address from the list described in section 11.
 
 	11. Data Retention and Deletion
 
