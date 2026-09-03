@@ -13,7 +13,7 @@
 	async function handleSubmit(event: any) {
 		event.preventDefault();
 		sending = true;
-		const response = await fetch('https://api.langx.io/api/mail', {
+		const response = await fetch('https://api.langx.io/public/newsletter', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
