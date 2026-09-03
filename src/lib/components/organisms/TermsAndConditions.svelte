@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 31, Aug 2026*
+	*Effective Date: 3, Sep 2026*
 
 	1. Acceptance of Terms
 
@@ -8,7 +8,7 @@
 
 	2. User Eligibility
 
-		You must be at least 18 years old to create an account and use the LangX app. By using the App, you represent and warrant that you are at least 18 years old. Your date of birth is collected when you create a profile and the age requirement is enforced at that point. Only your age is shown to other people.
+		You must be at least 16 years old to create an account and use the LangX app. By using the App, you represent and warrant that you are at least 16 years old. Your date of birth is collected when you create a profile and the age requirement is enforced at that point. Only your age is shown to other people.
 
 	3. Account Registration and Security
 
