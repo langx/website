@@ -1,134 +1,143 @@
 <script lang="ts">
 	import { HttpRegex } from '$lib/utils/regex';
 
-	export let color: 'primary' | 'secondary' = 'primary';
-	export let style: 'solid' | 'understated' | 'clear' = 'solid';
-	export let size: 'small' | 'medium' | 'large' = 'medium';
+	/**
+	 * `primary` is the yellow committing action — one per screen.
+	 * `secondary` is the outlined pill, `dark` the ink pill (the send button),
+	 * `ghost` a blue text action with no chrome.
+	 */
+	export let variant: 'primary' | 'secondary' | 'dark' | 'ghost' = 'primary';
+	export let size: 'sm' | 'md' | 'lg' = 'md';
 	export let href: string | undefined = undefined;
-
-	export let additionalClass: string | undefined = undefined;
+	export let block = false;
+	export let type: 'button' | 'submit' = 'button';
+	export let disabled = false;
 
 	const isExternalLink = !!href && HttpRegex.test(href);
-	export let target: '_self' | '_blank' = isExternalLink ? '_blank' : '_self';
-	export let rel = isExternalLink ? 'noopener noreferrer' : undefined;
-
-	$: tag = href ? 'a' : 'button';
-	$: linkProps = {
-		href,
-		target,
-		rel
-	};
+	export let target: string | undefined = isExternalLink ? '_blank' : undefined;
+	export let rel: string | undefined = isExternalLink ? 'noopener noreferrer' : undefined;
 </script>
 
-<svelte:element
-	this={tag}
-	{...linkProps}
-	class={['button', `style--${style}`, `size--${size}`, `color--${color}`, additionalClass].join(
-		' '
-	)}
-	data-sveltekit-preload-data
-	on:click
-	role="button"
-	tabindex="0"
-	{...$$restProps}
->
-	{#if $$slots['icon']}
-		<div class="icon">
-			<slot name="icon" />
-		</div>
-	{/if}
-	<slot />
-</svelte:element>
+{#if href}
+	<a
+		{href}
+		{target}
+		{rel}
+		class="btn {variant} {size}"
+		class:block
+		data-sveltekit-preload-data
+		on:click
+		{...$$restProps}
+	>
+		{#if $$slots.icon}<span class="icon"><slot name="icon" /></span>{/if}
+		<slot />
+	</a>
+{:else}
+	<button {type} {disabled} class="btn {variant} {size}" class:block on:click {...$$restProps}>
+		{#if $$slots.icon}<span class="icon"><slot name="icon" /></span>{/if}
+		<slot />
+	</button>
+{/if}
 
 <style lang="scss">
-	.button {
-		--main-color: red;
-		--light-color: blue;
-		--contrast-color: green;
-
-		-webkit-appearance: none;
+	.btn {
 		appearance: none;
-		cursor: pointer;
-		text-decoration: none;
-		transition: all 0.2s ease-in-out;
-
-		display: flex;
+		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		gap: 5px;
+		gap: 8px;
+		border: 1px solid transparent;
+		border-radius: var(--radius-pill);
+		font-family: var(--font--title);
+		font-weight: 800;
+		line-height: 1.2;
+		text-decoration: none;
+		cursor: pointer;
+		white-space: nowrap;
+		user-select: none;
+		transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease,
+			color var(--dur-fast) ease, border-color var(--dur-fast) ease;
 
-		border: none;
-		border-radius: 20px;
-		font-weight: 700;
+		// The press is the feedback: the interface heard you.
+		&:active {
+			transform: scale(0.97);
+		}
+
+		&:disabled {
+			opacity: 0.5;
+			cursor: not-allowed;
+			transform: none;
+		}
 
 		.icon {
-			width: 24px;
-			height: 24px;
+			display: inline-flex;
+			flex: 0 0 auto;
 		}
+	}
 
-		&.color {
-			&--primary {
-				--main-color: var(--color--primary-rgb);
-				--light-color: var(--color--primary-tint-rgb);
-				--contrast-color: var(--color--primary-contrast);
-			}
-			&--secondary {
-				--main-color: var(--color--secondary-rgb);
-				--light-color: var(--color--secondary-tint-rgb);
-				--contrast-color: var(--color--secondary-contrast);
-			}
+	.block {
+		display: flex;
+		width: 100%;
+	}
+
+	.sm {
+		min-height: 40px;
+		padding: 0 16px;
+		font-size: 0.875rem;
+	}
+	.md {
+		min-height: 48px;
+		padding: 0 22px;
+		font-size: 0.9375rem;
+	}
+	.lg {
+		min-height: 54px;
+		padding: 0 28px;
+		font-size: 1rem;
+	}
+
+	.primary {
+		background: var(--color--primary);
+		color: var(--color--on-primary);
+	}
+	.secondary {
+		background: var(--color--surface);
+		color: var(--color--text);
+		border-color: var(--color--border);
+	}
+	.dark {
+		background: var(--color--text);
+		color: var(--color--text-inverse);
+	}
+	.ghost {
+		background: transparent;
+		color: var(--color--accent);
+		padding-inline: 10px;
+		min-height: 40px;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		.primary:hover {
+			background: var(--color--primary-shade);
+			color: var(--color--on-primary);
 		}
-
-		&.style {
-			&--solid {
-				background-color: rgb(var(--main-color));
-				color: var(--contrast-color);
-
-				&:hover {
-					box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
-				}
-			}
-			&--understated {
-				background-color: rgb(var(--light-color));
-				color: rgb(var(--main-color));
-
-				&:hover {
-					box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
-				}
-			}
-			&--clear {
-				background-color: transparent;
-				color: rgb(var(--main-color));
-
-				&:hover {
-					background-color: rgb(var(--light-color));
-				}
-			}
+		.secondary:hover {
+			background: var(--color--muted);
+			color: var(--color--text);
 		}
+		.dark:hover {
+			background: var(--color--text-shade);
+			color: var(--color--text-inverse);
+		}
+		.ghost:hover {
+			background: var(--color--accent-tint);
+			color: var(--color--accent);
+		}
+	}
 
-		&.size {
-			&--small {
-				padding: 5px 10px;
-				font-size: 0.75rem;
-
-				.icon {
-					width: 20px;
-					height: 20px;
-				}
-			}
-			&--medium {
-				padding: 10px 20px;
-				font-size: 1rem;
-			}
-			&--large {
-				padding: 15px 30px;
-				font-size: 1.15rem;
-
-				.icon {
-					width: 28px;
-					height: 28px;
-				}
-			}
+	@media (prefers-reduced-motion: reduce) {
+		.btn:active {
+			transform: none;
 		}
 	}
 </style>

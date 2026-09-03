@@ -1,13 +1,5 @@
 export type NoUndefinedField<T> = { [P in keyof T]-?: NoUndefinedField<NonNullable<T[P]>> };
 
-export type SparkleType = {
-	id: string;
-	createdAt: number;
-	color: string;
-	size: number;
-	style: any;
-};
-
 export type TagType = {
 	label: string;
 	/**
@@ -16,8 +8,6 @@ export type TagType = {
 	 */
 	color?: 'primary' | 'secondary' | 'pro' | 'pro-plus';
 };
-
-export type SocialLink = {};
 
 export type Feature = {
 	name: string;
