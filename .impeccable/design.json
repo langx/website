@@ -1,0 +1,648 @@
+{
+	"schemaVersion": 2,
+	"generatedAt": "2026-09-02T12:00:00Z",
+	"title": "Design System: LangX",
+	"extensions": {
+		"colorMeta": {
+			"yellow-commit": {
+				"role": "primary",
+				"displayName": "Commit Yellow",
+				"canonical": "#ffc409",
+				"dark": "#ffc409",
+				"cssVar": "--color--primary",
+				"tonalRamp": [
+					"oklch(25% 0.07 88)",
+					"oklch(38% 0.10 88)",
+					"oklch(52% 0.14 88)",
+					"oklch(66% 0.17 88)",
+					"oklch(78% 0.18 88)",
+					"oklch(86% 0.17 88)",
+					"oklch(91% 0.11 88)",
+					"oklch(96% 0.05 88)"
+				]
+			},
+			"yellow-commit-pressed": {
+				"role": "primary",
+				"displayName": "Pressed Yellow",
+				"canonical": "#e0ac08",
+				"dark": "#e0ac08",
+				"cssVar": "--color--primary-shade",
+				"tonalRamp": [
+					"oklch(25% 0.07 86)",
+					"oklch(38% 0.10 86)",
+					"oklch(52% 0.14 86)",
+					"oklch(66% 0.17 86)",
+					"oklch(75% 0.17 86)",
+					"oklch(84% 0.15 86)",
+					"oklch(91% 0.10 86)",
+					"oklch(96% 0.05 86)"
+				]
+			},
+			"ink-on-yellow": {
+				"role": "primary",
+				"displayName": "Ink on Yellow",
+				"canonical": "#201900",
+				"dark": "#201900",
+				"cssVar": "--color--on-primary",
+				"tonalRamp": [
+					"oklch(15% 0.03 85)",
+					"oklch(25% 0.04 85)",
+					"oklch(38% 0.06 85)",
+					"oklch(52% 0.08 85)",
+					"oklch(66% 0.10 85)",
+					"oklch(78% 0.10 85)",
+					"oklch(88% 0.07 85)",
+					"oklch(95% 0.03 85)"
+				]
+			},
+			"interactive-blue": {
+				"role": "secondary",
+				"displayName": "Interactive Blue",
+				"canonical": "#3b6cf6",
+				"dark": "#7c9cf9",
+				"cssVar": "--color--accent",
+				"tonalRamp": [
+					"oklch(22% 0.10 265)",
+					"oklch(32% 0.15 265)",
+					"oklch(44% 0.20 265)",
+					"oklch(56% 0.22 265)",
+					"oklch(66% 0.18 265)",
+					"oklch(76% 0.13 265)",
+					"oklch(86% 0.08 265)",
+					"oklch(95% 0.03 265)"
+				]
+			},
+			"interactive-blue-pressed": {
+				"role": "secondary",
+				"displayName": "Blue Pressed",
+				"canonical": "#2f56c4",
+				"dark": "#a8bffb",
+				"cssVar": "--color--accent-shade",
+				"tonalRamp": [
+					"oklch(22% 0.10 265)",
+					"oklch(32% 0.15 265)",
+					"oklch(44% 0.20 265)",
+					"oklch(50% 0.20 265)",
+					"oklch(62% 0.18 265)",
+					"oklch(74% 0.13 265)",
+					"oklch(86% 0.08 265)",
+					"oklch(95% 0.03 265)"
+				]
+			},
+			"interactive-blue-tint": {
+				"role": "secondary",
+				"displayName": "Blue Tint",
+				"canonical": "#e9f0fe",
+				"dark": "#202b45",
+				"cssVar": "--color--accent-tint",
+				"tonalRamp": [
+					"oklch(22% 0.06 265)",
+					"oklch(32% 0.07 265)",
+					"oklch(44% 0.08 265)",
+					"oklch(56% 0.08 265)",
+					"oklch(68% 0.07 265)",
+					"oklch(80% 0.05 265)",
+					"oklch(90% 0.03 265)",
+					"oklch(96% 0.02 265)"
+				]
+			},
+			"correction-green": {
+				"role": "tertiary",
+				"displayName": "Correction Green",
+				"canonical": "#009f70",
+				"dark": "#34c796",
+				"cssVar": "--color--success",
+				"tonalRamp": [
+					"oklch(22% 0.06 165)",
+					"oklch(34% 0.09 165)",
+					"oklch(46% 0.12 165)",
+					"oklch(60% 0.14 165)",
+					"oklch(70% 0.14 165)",
+					"oklch(80% 0.11 165)",
+					"oklch(89% 0.07 165)",
+					"oklch(95% 0.03 165)"
+				]
+			},
+			"correction-green-tint": {
+				"role": "tertiary",
+				"displayName": "Correction Tint",
+				"canonical": "#e2f6ee",
+				"dark": "#16332a",
+				"cssVar": "--color--success-tint",
+				"tonalRamp": [
+					"oklch(22% 0.04 165)",
+					"oklch(32% 0.05 165)",
+					"oklch(44% 0.06 165)",
+					"oklch(56% 0.06 165)",
+					"oklch(68% 0.06 165)",
+					"oklch(80% 0.05 165)",
+					"oklch(90% 0.04 165)",
+					"oklch(96% 0.02 165)"
+				]
+			},
+			"streak-orange": {
+				"role": "tertiary",
+				"displayName": "Streak Orange",
+				"canonical": "#f79009",
+				"dark": "#ffa93d",
+				"cssVar": "--color--streak",
+				"tonalRamp": [
+					"oklch(24% 0.07 60)",
+					"oklch(36% 0.10 60)",
+					"oklch(48% 0.14 60)",
+					"oklch(60% 0.17 60)",
+					"oklch(72% 0.18 60)",
+					"oklch(82% 0.14 60)",
+					"oklch(90% 0.08 60)",
+					"oklch(96% 0.03 60)"
+				]
+			},
+			"error-red": {
+				"role": "tertiary",
+				"displayName": "Error Red",
+				"canonical": "#e5484d",
+				"dark": "#ef6b6f",
+				"cssVar": "--color--error",
+				"tonalRamp": [
+					"oklch(22% 0.09 22)",
+					"oklch(34% 0.13 22)",
+					"oklch(46% 0.17 22)",
+					"oklch(58% 0.20 22)",
+					"oklch(66% 0.19 22)",
+					"oklch(76% 0.13 22)",
+					"oklch(87% 0.07 22)",
+					"oklch(95% 0.03 22)"
+				]
+			},
+			"pro-violet": {
+				"role": "tertiary",
+				"displayName": "Pro Violet",
+				"canonical": "#7a5af8",
+				"dark": "#9b83ff",
+				"cssVar": "--color--pro",
+				"tonalRamp": [
+					"oklch(22% 0.10 290)",
+					"oklch(34% 0.15 290)",
+					"oklch(46% 0.20 290)",
+					"oklch(56% 0.22 290)",
+					"oklch(66% 0.19 290)",
+					"oklch(76% 0.13 290)",
+					"oklch(87% 0.07 290)",
+					"oklch(95% 0.03 290)"
+				]
+			},
+			"ground": {
+				"role": "neutral",
+				"displayName": "Ground",
+				"canonical": "#ffffff",
+				"dark": "#1c1f24",
+				"cssVar": "--color--page-background",
+				"tonalRamp": [
+					"oklch(15% 0.01 260)",
+					"oklch(24% 0.01 260)",
+					"oklch(36% 0.01 260)",
+					"oklch(50% 0.01 260)",
+					"oklch(64% 0.01 260)",
+					"oklch(78% 0.005 260)",
+					"oklch(92% 0.003 260)",
+					"oklch(100% 0 0)"
+				]
+			},
+			"muted-fill": {
+				"role": "neutral",
+				"displayName": "Muted Fill",
+				"canonical": "#f4f5f7",
+				"dark": "#23272d",
+				"cssVar": "--color--muted",
+				"tonalRamp": [
+					"oklch(15% 0.01 260)",
+					"oklch(26% 0.01 260)",
+					"oklch(38% 0.01 260)",
+					"oklch(52% 0.01 260)",
+					"oklch(66% 0.01 260)",
+					"oklch(80% 0.005 260)",
+					"oklch(90% 0.004 260)",
+					"oklch(97% 0.003 260)"
+				]
+			},
+			"hairline": {
+				"role": "neutral",
+				"displayName": "Hairline",
+				"canonical": "#e8eaec",
+				"dark": "#2c3036",
+				"cssVar": "--color--border",
+				"tonalRamp": [
+					"oklch(15% 0.01 260)",
+					"oklch(28% 0.01 260)",
+					"oklch(40% 0.01 260)",
+					"oklch(54% 0.01 260)",
+					"oklch(68% 0.01 260)",
+					"oklch(80% 0.005 260)",
+					"oklch(88% 0.004 260)",
+					"oklch(94% 0.003 260)"
+				]
+			},
+			"ink": {
+				"role": "neutral",
+				"displayName": "Ink",
+				"canonical": "#17191c",
+				"dark": "#f2f3f5",
+				"cssVar": "--color--text",
+				"tonalRamp": [
+					"oklch(15% 0.008 260)",
+					"oklch(22% 0.008 260)",
+					"oklch(34% 0.008 260)",
+					"oklch(48% 0.008 260)",
+					"oklch(62% 0.008 260)",
+					"oklch(76% 0.006 260)",
+					"oklch(88% 0.004 260)",
+					"oklch(96% 0.002 260)"
+				]
+			},
+			"ink-shade": {
+				"role": "neutral",
+				"displayName": "Ink Shade",
+				"canonical": "#62676d",
+				"dark": "#9aa1a9",
+				"cssVar": "--color--text-shade",
+				"tonalRamp": [
+					"oklch(15% 0.008 250)",
+					"oklch(26% 0.008 250)",
+					"oklch(38% 0.008 250)",
+					"oklch(50% 0.008 250)",
+					"oklch(62% 0.008 250)",
+					"oklch(74% 0.006 250)",
+					"oklch(86% 0.004 250)",
+					"oklch(95% 0.002 250)"
+				]
+			},
+			"text-quiet": {
+				"role": "neutral",
+				"displayName": "Text Quiet",
+				"canonical": "#6b7075",
+				"dark": "#8b9199",
+				"cssVar": "--color--text-quiet",
+				"tonalRamp": [
+					"oklch(15% 0.006 250)",
+					"oklch(26% 0.006 250)",
+					"oklch(38% 0.006 250)",
+					"oklch(52% 0.006 250)",
+					"oklch(64% 0.006 250)",
+					"oklch(76% 0.005 250)",
+					"oklch(87% 0.003 250)",
+					"oklch(95% 0.002 250)"
+				]
+			},
+			"text-tertiary": {
+				"role": "neutral",
+				"displayName": "Text Tertiary (phone replicas only)",
+				"canonical": "#9aa1a7",
+				"dark": "#70767e",
+				"cssVar": "--color--text-tertiary",
+				"tonalRamp": [
+					"oklch(15% 0.006 250)",
+					"oklch(26% 0.006 250)",
+					"oklch(38% 0.006 250)",
+					"oklch(52% 0.006 250)",
+					"oklch(69% 0.006 250)",
+					"oklch(78% 0.005 250)",
+					"oklch(88% 0.003 250)",
+					"oklch(95% 0.002 250)"
+				]
+			},
+			"ink-inverse": {
+				"role": "neutral",
+				"displayName": "Ink Inverse",
+				"canonical": "#ffffff",
+				"dark": "#17191c",
+				"cssVar": "--color--text-inverse",
+				"tonalRamp": [
+					"oklch(15% 0.008 260)",
+					"oklch(24% 0.008 260)",
+					"oklch(36% 0.008 260)",
+					"oklch(50% 0.008 260)",
+					"oklch(64% 0.006 260)",
+					"oklch(78% 0.004 260)",
+					"oklch(92% 0.002 260)",
+					"oklch(100% 0 0)"
+				]
+			}
+		},
+		"typographyMeta": {
+			"display": {
+				"displayName": "Display",
+				"purpose": "The base H1 on inner page headers, max 20ch."
+			},
+			"display-hero": {
+				"displayName": "Display Hero",
+				"purpose": "The homepage H1 only; centred, max 18ch, set below the chapter size."
+			},
+			"chapter": {
+				"displayName": "Chapter",
+				"purpose": "Homepage H2s: lowercase, ending in a full stop, blue beside a phone, ink above the yellow."
+			},
+			"headline": {
+				"displayName": "Headline",
+				"purpose": "Base H2 for list sections and inner pages."
+			},
+			"title": { "displayName": "Title", "purpose": "H3s: sheet title, replica screen names." },
+			"title-small": {
+				"displayName": "Title Small",
+				"purpose": "H4-level: post titles, row titles."
+			},
+			"lede": {
+				"displayName": "Lede",
+				"purpose": "Section-opening paragraph and chapter prose in ink-shade."
+			},
+			"body": { "displayName": "Body", "purpose": "Running text on the platform stack." },
+			"label": {
+				"displayName": "Label",
+				"purpose": "Nav links, footer links, review names and sources, input text."
+			},
+			"meta": {
+				"displayName": "Meta",
+				"purpose": "Footer group headings, form status, copyright, captions."
+			},
+			"chip": { "displayName": "Chip", "purpose": "Tag text." },
+			"label-caps": {
+				"displayName": "Label Caps",
+				"purpose": "The English name under a language chip, the uppercase tag, plan-row qualifiers; always text-quiet, never a kicker."
+			},
+			"mono": { "displayName": "Mono", "purpose": "Code only." }
+		},
+		"shadows": [
+			{
+				"name": "shadow-phone",
+				"value": "0 24px 60px -20px rgba(23, 25, 28, 0.25), 0 4px 10px rgba(0, 0, 0, 0.06)",
+				"dark": "0 24px 60px -20px rgba(0, 0, 0, 0.7), 0 4px 10px rgba(0, 0, 0, 0.4)",
+				"purpose": "The 390px device frame only."
+			},
+			{
+				"name": "shadow-sheet",
+				"value": "0 -8px 38px rgba(0, 0, 0, 0.14)",
+				"dark": "0 -8px 38px rgba(0, 0, 0, 0.5)",
+				"purpose": "The bottom-sheet menu."
+			},
+			{
+				"name": "shadow-segment",
+				"value": "0 1px 3px rgba(0, 0, 0, 0.08)",
+				"dark": "0 1px 3px rgba(0, 0, 0, 0.4)",
+				"purpose": "The segmented-control thumb."
+			},
+			{
+				"name": "shadow-card",
+				"value": "0 4px 10px rgba(0, 0, 0, 0.06)",
+				"dark": "0 4px 10px rgba(0, 0, 0, 0.4)",
+				"purpose": "The announcement dialog only; no page content."
+			}
+		],
+		"motion": [
+			{
+				"name": "ease-out",
+				"value": "cubic-bezier(0.23, 1, 0.32, 1)",
+				"purpose": "Presses, entrances, chapter reveals, thumb slide, chevron turn."
+			},
+			{
+				"name": "ease-in-out",
+				"value": "cubic-bezier(0.77, 0, 0.175, 1)",
+				"purpose": "Symmetric moves."
+			},
+			{
+				"name": "ease-drawer",
+				"value": "cubic-bezier(0.32, 0.72, 0, 1)",
+				"purpose": "The bottom sheet rising (iOS sheet curve)."
+			},
+			{ "name": "dur-press", "value": "160ms", "purpose": "Button press scale to 0.97." },
+			{
+				"name": "dur-fast",
+				"value": "200ms",
+				"purpose": "Colour and background transitions, accordion open, backdrop fade."
+			},
+			{
+				"name": "dur-enter",
+				"value": "320ms",
+				"purpose": "Bubbles and the correction card entering from 8-10px below."
+			},
+			{ "name": "dur-sheet", "value": "360ms", "purpose": "Bottom sheet rise." },
+			{
+				"name": "dur-row",
+				"value": "400ms",
+				"purpose": "Discover and Feed rows rising 10px, staggered 60ms apart."
+			},
+			{
+				"name": "dur-reveal",
+				"value": "500ms opacity / 600ms transform",
+				"purpose": "Chapter text rising 12px; the phone sliding 40px from its side with an 80ms delay."
+			},
+			{
+				"name": "chat-loop",
+				"value": "250ms / 1100ms / 1900ms / 3100ms, repeat 8000ms",
+				"purpose": "The hero chat's four beats and its replay interval."
+			},
+			{
+				"name": "marquee",
+				"value": "70s linear infinite",
+				"purpose": "The language strip; paused off-screen and on hover."
+			}
+		],
+		"breakpoints": [
+			{ "name": "iphone-se-max", "value": "320px" },
+			{ "name": "phone-max", "value": "767px" },
+			{ "name": "tablet-portrait-min", "value": "768px" },
+			{ "name": "tablet-portrait-max", "value": "900px" },
+			{ "name": "tablet-landscape-min", "value": "901px" },
+			{ "name": "hero-phone-step", "value": "1100px" },
+			{ "name": "tablet-landscape-max", "value": "1200px" },
+			{ "name": "desktop-min", "value": "1201px" },
+			{ "name": "container-max", "value": "1080px" },
+			{ "name": "cta-stack-width", "value": "330px" },
+			{ "name": "header-height", "value": "64px" }
+		]
+	},
+	"components": [
+		{
+			"name": "Stacked CTA Pair",
+			"kind": "button",
+			"refersTo": "button-primary-lg",
+			"description": "The ask, identical in the hero and the final call: yellow lg pill over an outlined lg pill, 330px wide, 10px apart.",
+			"html": "<div class=\"ds-cta\"><a class=\"ds-btn ds-btn-lg ds-btn-primary\" href=\"#\">Start for free</a><a class=\"ds-btn ds-btn-lg ds-btn-secondary\" href=\"#\">I already have an account</a><p class=\"ds-fine\">Chat with someone who speaks your target language and is learning yours.</p></div>",
+			"css": ".ds-cta { display: flex; flex-direction: column; align-items: center; gap: 10px; width: 330px; } .ds-btn { display: flex; width: 100%; align-items: center; justify-content: center; gap: 8px; border: 1px solid transparent; border-radius: 999px; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; line-height: 1.2; text-decoration: none; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease, color 200ms ease; } .ds-btn-lg { min-height: 54px; padding: 0 28px; font-size: 1rem; } .ds-btn:active { transform: scale(0.97); } .ds-btn:focus-visible { outline: 2px solid var(--color--accent, #3b6cf6); outline-offset: 2px; } .ds-btn-primary { background: var(--color--primary, #ffc409); color: var(--color--on-primary, #201900); } .ds-btn-primary:hover { background: var(--color--primary-shade, #e0ac08); } .ds-btn-secondary { background: var(--color--surface, #ffffff); color: var(--color--text, #17191c); border-color: var(--color--border, #e8eaec); } .ds-btn-secondary:hover { background: var(--color--muted, #f4f5f7); } .ds-fine { margin: 22px 0 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 0.9375rem; line-height: 1.5; color: var(--color--text-shade, #62676d); text-align: center; max-width: 34ch; }"
+		},
+		{
+			"name": "Primary Button",
+			"kind": "button",
+			"refersTo": "button-primary",
+			"description": "The one yellow committing action per viewport; Nunito 800 in a 48px pill.",
+			"html": "<button class=\"ds-btn ds-btn-primary\">Start for free <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+			"css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 22px; border: 1px solid transparent; border-radius: 999px; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 0.9375rem; line-height: 1.2; white-space: nowrap; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease, color 200ms ease, border-color 200ms ease; } .ds-btn:active { transform: scale(0.97); } .ds-btn:focus-visible { outline: 2px solid var(--color--accent, #3b6cf6); outline-offset: 2px; } .ds-btn-primary { background: var(--color--primary, #ffc409); color: var(--color--on-primary, #201900); } .ds-btn-primary:hover { background: var(--color--primary-shade, #e0ac08); }"
+		},
+		{
+			"name": "Dark Button",
+			"kind": "button",
+			"refersTo": "button-dark",
+			"description": "The ink pill: the header CTA (sm) while the page's yellow is on screen, and the send button in the chat replica.",
+			"html": "<button class=\"ds-btn ds-btn-dark\">Start for free</button>",
+			"css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 1px solid transparent; border-radius: 999px; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 0.875rem; line-height: 1.2; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease; } .ds-btn:active { transform: scale(0.97); } .ds-btn:focus-visible { outline: 2px solid var(--color--accent, #3b6cf6); outline-offset: 2px; } .ds-btn-dark { background: var(--color--text, #17191c); color: var(--color--text-inverse, #ffffff); } .ds-btn-dark:hover { background: var(--color--text-shade, #62676d); }"
+		},
+		{
+			"name": "Ghost Button",
+			"kind": "button",
+			"refersTo": "button-ghost",
+			"description": "A blue text action with no chrome; hover fills with the blue tint. 'See the plans' under the fourth chapter.",
+			"html": "<button class=\"ds-btn ds-btn-ghost\">See the plans <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+			"css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid transparent; border-radius: 999px; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 0.9375rem; line-height: 1.2; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 200ms ease; } .ds-btn:active { transform: scale(0.97); } .ds-btn:focus-visible { outline: 2px solid var(--color--accent, #3b6cf6); outline-offset: 2px; } .ds-btn-ghost { background: transparent; color: var(--color--accent, #3b6cf6); padding: 0 10px; min-height: 40px; } .ds-btn-ghost:hover { background: var(--color--accent-tint, #e9f0fe); }"
+		},
+		{
+			"name": "Chapter Heading",
+			"kind": "custom",
+			"refersTo": "chapter",
+			"description": "A homepage chapter: lowercase blue H2 with a full stop over ink-shade prose, 40ch.",
+			"html": "<div class=\"ds-chapter\"><h2 class=\"ds-chapter-h\">correct each other.</h2><p class=\"ds-chapter-p\">Hold any message to fix it. Post a sentence and the community helps. Correcting is free and unlimited for everyone.</p></div>",
+			"css": ".ds-chapter { display: flex; flex-direction: column; gap: 16px; max-width: 40ch; } .ds-chapter-h { margin: 0; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem); line-height: 1.05; letter-spacing: -0.02em; color: var(--color--accent, #3b6cf6); text-wrap: balance; } .ds-chapter-p { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 1.125rem; line-height: 1.6; color: var(--color--text-shade, #62676d); }"
+		},
+		{
+			"name": "Language Chip",
+			"kind": "chip",
+			"refersTo": "language-chip",
+			"description": "The marquee chip: native name in Nunito 800 over the English name in uppercase text-quiet, on a hairline pill.",
+			"html": "<div class=\"ds-strip\"><span class=\"ds-lang\"><span class=\"ds-lang-native\">Türkçe</span><span class=\"ds-lang-en\">Turkish</span></span><span class=\"ds-lang\"><span class=\"ds-lang-native\">Español</span><span class=\"ds-lang-en\">Spanish</span></span><span class=\"ds-lang\"><span class=\"ds-lang-native\">日本語</span><span class=\"ds-lang-en\">Japanese</span></span></div>",
+			"css": ".ds-strip { display: flex; gap: 10px; } .ds-lang { display: inline-flex; flex-direction: column; align-items: center; gap: 1px; padding: 9px 18px; border: 1px solid var(--color--border, #e8eaec); border-radius: 999px; background: var(--color--surface, #ffffff); white-space: nowrap; color: var(--color--text, #17191c); } .ds-lang-native { font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 1rem; font-weight: 800; } .ds-lang-en { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color--text-quiet, #6b7075); }"
+		},
+		{
+			"name": "Tag",
+			"kind": "chip",
+			"refersTo": "tag-outline",
+			"description": "Pill chips: outline (label/PRO), solid (selected filter), accent (language).",
+			"html": "<span class=\"ds-tag ds-tag-outline\">Beginner</span> <span class=\"ds-tag ds-tag-solid\">Nearby</span> <span class=\"ds-tag ds-tag-accent\">Español</span> <span class=\"ds-tag ds-tag-outline ds-tag-pro\">PRO</span>",
+			"css": ".ds-tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 0.75rem; font-weight: 700; line-height: 1.3; white-space: nowrap; margin-right: 6px; } .ds-tag-outline { border: 1px solid var(--color--border, #e8eaec); color: var(--color--text-shade, #62676d); } .ds-tag-solid { background: var(--color--text, #17191c); color: var(--color--text-inverse, #ffffff); } .ds-tag-accent { background: var(--color--accent-tint, #e9f0fe); color: var(--color--accent, #3b6cf6); } .ds-tag-pro { color: var(--color--pro, #7a5af8); border-color: rgba(122, 90, 248, 0.35); }"
+		},
+		{
+			"name": "Text Input",
+			"kind": "input",
+			"refersTo": "input-text",
+			"description": "A 48px pill on the muted fill; focus lifts it to the ground with a blue border. The footer newsletter field.",
+			"html": "<input class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\" />",
+			"css": ".ds-input { min-height: 48px; width: 280px; padding: 0 18px; font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--color--text, #17191c); background: var(--color--muted, #f4f5f7); border: 1px solid transparent; border-radius: 999px; appearance: none; caret-color: var(--color--accent, #3b6cf6); transition: border-color 200ms ease, background-color 200ms ease; } .ds-input::placeholder { color: var(--color--text-quiet, #6b7075); } .ds-input:focus-visible { outline: none; border-color: var(--color--accent, #3b6cf6); background: var(--color--surface, #ffffff); }"
+		},
+		{
+			"name": "Header Nav Link",
+			"kind": "nav",
+			"refersTo": "nav-link",
+			"description": "36px pill links in ink-shade; hover goes ink on the muted fill.",
+			"html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#\">How it works</a><a class=\"ds-nav-link\" href=\"#\">Plans</a><a class=\"ds-nav-link\" href=\"#\">Blog</a><a class=\"ds-nav-link\" href=\"#\">Docs</a></nav>",
+			"css": ".ds-nav { display: flex; align-items: center; gap: 4px; } .ds-nav-link { display: inline-flex; align-items: center; min-height: 36px; padding: 0 12px; border-radius: 999px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 0.9375rem; font-weight: 600; color: var(--color--text-shade, #62676d); text-decoration: none; transition: color 200ms ease, background-color 200ms ease; } .ds-nav-link:hover { color: var(--color--text, #17191c); background: var(--color--muted, #f4f5f7); } .ds-nav-link:focus-visible { outline: 2px solid var(--color--accent, #3b6cf6); outline-offset: 2px; }"
+		},
+		{
+			"name": "Review Row",
+			"kind": "card",
+			"refersTo": "avatar",
+			"description": "A hairline row: five streak-orange stars, an ink quote, the name in Nunito 800 and the store in ink-shade.",
+			"html": "<ul class=\"ds-rows\"><li class=\"ds-review\"><div class=\"ds-stars\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path fill=\"currentColor\" d=\"M12 2.8l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.7l-5.6 3.1 1.3-6.2L3 9.3l6.3-.7z\"/></svg><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path fill=\"currentColor\" d=\"M12 2.8l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.7l-5.6 3.1 1.3-6.2L3 9.3l6.3-.7z\"/></svg><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path fill=\"currentColor\" d=\"M12 2.8l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.7l-5.6 3.1 1.3-6.2L3 9.3l6.3-.7z\"/></svg><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path fill=\"currentColor\" d=\"M12 2.8l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.7l-5.6 3.1 1.3-6.2L3 9.3l6.3-.7z\"/></svg><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\"><path fill=\"currentColor\" d=\"M12 2.8l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.7l-5.6 3.1 1.3-6.2L3 9.3l6.3-.7z\"/></svg></div><blockquote class=\"ds-quote\">Simple yet user-friendly design encourages to chat with language learners like myself. Highly recommend this app!!!</blockquote><div class=\"ds-who\"><span class=\"ds-name\">Dasha Durneva</span><span class=\"ds-store\">Google Play</span></div></li></ul>",
+			"css": ".ds-rows { list-style: none; margin: 0; padding: 0; width: 380px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; } .ds-review { display: flex; flex-direction: column; gap: 10px; padding: 22px 0; border-bottom: 1px solid var(--color--border, #e8eaec); } .ds-stars { display: inline-flex; gap: 2px; color: var(--color--streak, #f79009); } .ds-quote { margin: 0; font-size: 1.0625rem; line-height: 1.55; color: var(--color--text, #17191c); } .ds-who { display: flex; align-items: baseline; gap: 8px; font-size: 0.9375rem; } .ds-name { font-family: 'Nunito', sans-serif; font-weight: 800; color: var(--color--text, #17191c); } .ds-store { color: var(--color--text-shade, #62676d); }"
+		},
+		{
+			"name": "Avatar",
+			"kind": "custom",
+			"refersTo": "avatar",
+			"description": "A 40px disc: a photo with src, otherwise Nunito 800 initials on a blue, green, violet or ink tone; an online dot in green with a ground ring.",
+			"html": "<div class=\"ds-avatars\"><span class=\"ds-avatar ds-accent\"><span class=\"ds-disc\">LM</span><span class=\"ds-online\"></span></span><span class=\"ds-avatar ds-success\"><span class=\"ds-disc\">JR</span></span><span class=\"ds-avatar ds-pro\"><span class=\"ds-disc\">AC</span></span><span class=\"ds-avatar ds-ink\"><span class=\"ds-disc\">MP</span></span></div>",
+			"css": ".ds-avatars { display: flex; gap: 12px; } .ds-avatar { position: relative; display: inline-block; width: 40px; height: 40px; } .ds-disc { width: 100%; height: 100%; border-radius: 999px; display: flex; align-items: center; justify-content: center; font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 0.01em; color: #fefefe; user-select: none; } .ds-accent .ds-disc { background: var(--color--accent, #3b6cf6); } .ds-success .ds-disc { background: var(--color--success, #009f70); } .ds-pro .ds-disc { background: var(--color--pro, #7a5af8); } .ds-ink .ds-disc { background: var(--color--text, #17191c); color: var(--color--text-inverse, #ffffff); } .ds-online { position: absolute; right: 1px; bottom: 1px; width: 10px; height: 10px; background: var(--color--success, #009f70); border: 2px solid var(--color--surface, #ffffff); border-radius: 999px; }"
+		},
+		{
+			"name": "Segmented Control",
+			"kind": "custom",
+			"refersTo": "segmented",
+			"description": "The app's toggle: muted pill track, ground-coloured thumb with the segment shadow.",
+			"html": "<div class=\"ds-seg\" style=\"--n:2;--i:0\"><span class=\"ds-seg-thumb\"></span><button class=\"ds-seg-opt ds-on\">Learning</button><button class=\"ds-seg-opt\">Native</button></div>",
+			"css": ".ds-seg { position: relative; display: flex; width: 240px; background: var(--color--muted, #f4f5f7); border-radius: 999px; padding: 3px; isolation: isolate; } .ds-seg-thumb { position: absolute; top: 3px; bottom: 3px; left: 3px; width: calc((100% - 6px) / var(--n)); background: var(--color--surface, #ffffff); border-radius: 999px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); transform: translateX(calc(var(--i) * 100%)); transition: transform 200ms cubic-bezier(0.23,1,0.32,1); z-index: 0; } .ds-seg-opt { position: relative; z-index: 1; flex: 1; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; padding: 10px 0; border-radius: 999px; color: var(--color--text-shade, #62676d); background: none; border: 0; cursor: pointer; transition: color 200ms ease; } .ds-seg-opt.ds-on { font-weight: 700; color: var(--color--text, #17191c); }"
+		},
+		{
+			"name": "Chat Bubbles and Correction Card",
+			"kind": "custom",
+			"refersTo": "correction-card",
+			"description": "Inside the phone: muted received bubble, blue-tint sent bubble (20px, 6px tail), green-tint correction card (16px).",
+			"html": "<div class=\"ds-thread\"><div class=\"ds-bubble ds-them\"><div class=\"ds-text\">¿Cómo fue tu fin de semana?</div><div class=\"ds-meta\">10:12</div></div><div class=\"ds-bubble ds-me\"><div class=\"ds-text\">Fui a la playa con mis amigos, era muy divertido.</div><div class=\"ds-meta ds-right\">10:14</div></div><div class=\"ds-correction\"><div class=\"ds-from\">Lucía corrected you</div><div class=\"ds-fixed\"><s>era</s> fue muy divertido</div><div class=\"ds-why\">A finished event takes the preterite.</div><div class=\"ds-actions\"><span class=\"ds-save\">Save</span><span class=\"ds-thanks\">Thanks</span></div></div></div>",
+			"css": ".ds-thread { display: flex; flex-direction: column; gap: 14px; width: 340px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--color--text, #17191c); } .ds-bubble { max-width: 80%; padding: 13px 16px; border-radius: 20px; } .ds-them { background: var(--color--muted, #f4f5f7); border-bottom-left-radius: 6px; } .ds-me { max-width: 82%; align-self: flex-end; background: var(--color--accent-tint, #e9f0fe); border-bottom-right-radius: 6px; } .ds-text { font-size: 16px; line-height: 1.5; } .ds-meta { font-size: 11px; color: var(--color--text-tertiary, #9aa1a7); margin-top: 6px; } .ds-right { text-align: right; } .ds-correction { background: var(--color--success-tint, #e2f6ee); border-radius: 16px; padding: 15px 16px; } .ds-from { font-size: 13px; font-weight: 700; color: var(--color--success, #009f70); } .ds-fixed { font-size: 16px; line-height: 1.55; font-weight: 600; margin-top: 9px; } .ds-fixed s { font-weight: 400; color: var(--color--text-shade, #62676d); } .ds-why { font-size: 14px; line-height: 1.55; color: var(--color--text-shade, #62676d); margin-top: 9px; } .ds-actions { display: flex; gap: 20px; margin-top: 12px; font-size: 14px; } .ds-save { font-weight: 700; color: var(--color--success, #009f70); } .ds-thanks { font-weight: 600; color: var(--color--text-shade, #62676d); }"
+		}
+	],
+	"narrative": {
+		"northStar": "The App on a Wider Screen",
+		"overview": "The marketing site is built from the same material as the LangX mobile app (v3 handoff): a white ground, hairline dividers, Nunito 800 for anything that speaks, the platform sans for everything that explains, and pill-shaped controls. It refuses the category \"hero plus feature cards\" page. Instead of describing the product it shows it: the app's screens are rebuilt as real HTML inside a 390px device frame and scaled with --phone-zoom, so the mechanism (matched both ways, correct each other) is demonstrated rather than claimed. Since the re-pace the homepage reads like Duolingo's: one idea per chapter, a big lowercase heading that ends in a full stop, a phone beside it, and a looping chat demo where a hero image would be. Token arithmetic no longer appears on the homepage.\n\nColour is doctrine, not decoration. Yellow is the one committing action and appears once per viewport, always paired with an outlined pill of the same width underneath it; blue is everything interactive and, since the re-pace, the voice of the chapter headings; green belongs to corrections alone; the streak orange lights star ratings. Everything else is ink on white, with two greys for reading and one hairline for structure. The site has no cards: content sits in rows separated by 1px lines, and the only objects allowed a shadow are the phone, the bottom sheet, the segmented-control thumb and the announcement dialog, all borrowed from the app.\n\nMotion is short, eased-out, and answers the visitor: a press scales to 0.97, a panel opens in 200ms, a chapter reveals once when scrolled into view (text rises 12px, the phone slides 40px in from its own side), rows inside a screen land 60ms apart, and the hero chat replays its four-beat choreography every 8 seconds. Reduced motion keeps every end state and drops the movement. Light and dark are twins: the ground flips to #1c1f24, the hairline to #2c3036, blue lifts to #7c9cf9, and yellow does not change at all.",
+		"keyCharacteristics": [
+			"White (or #1c1f24) ground with 1px hairlines as the only structural device; no cards, no tiles, no panels.",
+			"Nunito 800 display voice over the platform body stack; Nunito is never used for running text.",
+			"Chapter headings: lowercase, ending in a full stop, clamp(2rem, 1.4rem + 2.4vw, 3rem), blue when they sit beside a phone, ink when they sit above the yellow.",
+			"One yellow committing action per viewport, stacked over an outlined pill of the same 330px width; the sticky header takes the yellow only when the page's own has scrolled away.",
+			"Blue means interactive (links, active tab, focus ring, caret, ghost buttons) and speaks the chapters; green means correction; the two are never confused.",
+			"Pills for every control: buttons, chips, inputs, nav links, icon buttons, segmented controls, language chips.",
+			"Phones at 390px with 36px corners, real HTML screens with photo avatars, scaled per section (0.66 to 0.8).",
+			"Flat surfaces; shadow reserved for the device, the sheet, the segmented thumb and the dialog."
+		],
+		"rules": [
+			{
+				"name": "The One Yellow Rule",
+				"body": "Yellow is the committing action and appears once per viewport. A section that carries it registers with ownsPrimary; while that action is on screen the header's button is ink, and it turns yellow the moment the last pixel leaves. The homepage carries it twice, in the hero and the final call, never both in one viewport. A second call to action beside the yellow is the outlined pill, never a second yellow.",
+				"section": "colors"
+			},
+			{
+				"name": "The Blue Means Interactive Rule",
+				"body": "If it can be tapped, focused or is currently selected, it is blue. Corrections are green, Copilot is blue, and a green thing is never a control. The one licensed exception is the chapter heading: a lowercase H2 in blue beside a phone is the product speaking, and it is the only non-interactive blue on the page.",
+				"section": "colors"
+			},
+			{
+				"name": "The Two Quiet Greys Rule",
+				"body": "Secondary text on the page uses text-quiet; text-tertiary stays inside the phone replicas. Do not lift the phone's placeholder grey onto page copy to make it \"match the app\".",
+				"section": "colors"
+			},
+			{
+				"name": "The Yellow Does Not Theme Rule",
+				"body": "Yellow and its #201900 text are the same in light and dark. Everything else has a twin.",
+				"section": "colors"
+			},
+			{
+				"name": "The Nunito Speaks Rule",
+				"body": "Nunito appears only where the interface speaks in its own voice: headings, button labels, names, native language names, the balance. Never body copy, never nav links, never inside an input.",
+				"section": "typography"
+			},
+			{
+				"name": "The Heavy-Only Rule",
+				"body": "Nunito ships in 700 and 800; there is no light or regular display weight to reach for.",
+				"section": "typography"
+			},
+			{
+				"name": "The Lowercase Chapter Rule",
+				"body": "A homepage H2 is a sentence fragment in lowercase ending with a full stop, one idea, no more than five words. Section headings on list surfaces (reviews, FAQ, inner pages) keep sentence case and the base headline size.",
+				"section": "typography"
+			},
+			{
+				"name": "The Device-Only Shadow Rule",
+				"body": "A shadow marks a physical object from the app (phone, sheet, thumb, dialog). Content on the page never casts one; if a block needs separation it gets a hairline.",
+				"section": "elevation"
+			}
+		],
+		"dos": [
+			"Do put exactly one yellow action in each viewport and wrap it with ownsPrimary so the header steps back to ink while it is visible.",
+			"Do stack the yellow over an outlined secondary pill of the same width (330px, 10px gap) whenever the page asks; the two labels are \"Start for free\" and \"I already have an account\".",
+			"Do write homepage chapter headings in lowercase with a full stop, at the Chapter size, blue beside a phone and ink above the yellow.",
+			"Do separate content with 1px hairlines (border-top on the list, border-bottom per row) and leave the ground showing through.",
+			"Do make every control a pill: 40/48/54px buttons, 48px inputs, 36px nav links, 40px icon buttons, two-line language chips.",
+			"Do set headings, button labels, names, native language names and balances in Nunito 800; keep body, labels and inputs on the platform stack.",
+			"Do use text-quiet for secondary copy on the page and keep text-tertiary inside the phone replicas.",
+			"Do show the product as a 390px PhoneFrame with real HTML and photo avatars, scaled with --phone-zoom, and let its one animation run on inview; only the hero chat loops.",
+			"Do reveal a chapter once: text up 12px over 500/600ms ease-out, phone in from 40px on its own side 80ms later, rows inside 60ms apart.",
+			"Do transition colour in 200ms, presses in 160ms ease-out, entrances in 320–400ms ease-out, sheets in 360ms on the drawer curve, and honour prefers-reduced-motion by keeping the end state (the marquee becomes a scrollable row).",
+			"Do keep #201900 on yellow in dark mode; only the surroundings change."
+		],
+		"donts": [
+			"Don't add cards, tiles, panels or filled boxes to page content; the phone, the sheet, the segmented thumb and the announcement dialog are the only objects with a shadow.",
+			"Don't use blue for anything that is not interactive, except the lowercase chapter heading beside a phone; never use green for anything that is not a correction or success, or orange for anything but streaks and stars.",
+			"Don't put a second yellow button in a viewport; the companion is the outlined pill, and the dark pill belongs to the header and the send button.",
+			"Don't put token arithmetic, plan tables or feature lists on the homepage; the mechanism is shown in the phones and the plans live on /pro.",
+			"Don't use Nunito for running text or in inputs, or reach for a Nunito weight lighter than 700.",
+			"Don't use the browser's default focus ring; the ring is 2px blue with a 2px offset and 8px radius.",
+			"Don't borrow the legacy orange (--color--secondary) or #ffd400 on redesigned surfaces; they remain only so blog callouts keep a value.",
+			"Don't rely on hover for feedback on touch devices; hover styles are gated behind (hover: hover) and (pointer: fine) and the press scale is the feedback.",
+			"Don't let the marquee run when it is off-screen or under the pointer; it pauses in both cases."
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"detector": {
+		"ignoreRules": [],
+		"ignoreFiles": [],
+		"ignoreValues": [
+			{
+				"rule": "broken-image",
+				"value": "*",
+				"files": ["src/lib/components/atoms/Avatar.svelte"],
+				"createdAt": "2026-09-02T05:55:19.354Z",
+				"reason": "Claude: src is a bound prop rendered only inside {#if src}; never empty in the DOM"
+			}
+		]
+	}
+}
