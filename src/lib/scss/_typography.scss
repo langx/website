@@ -1,24 +1,24 @@
+// Blue carries everything interactive, links included.
 a {
-	color: var(--color--text);
-	text-decoration-color: var(--color--primary);
-	text-underline-offset: 0.1em;
-	text-decoration-thickness: 2px;
-	transition: all 0.2s ease-in-out;
+	color: var(--color--accent);
+	text-decoration: none;
+	text-underline-offset: 3px;
+	transition: color var(--dur-fast) ease;
 
 	&:hover {
-		text-underline-offset: 0.3em;
+		color: var(--color--accent-shade);
 	}
 }
 
 ::selection {
-	background-color: rgba(var(--color--primary-rgb), 0.3);
+	background-color: rgba(var(--color--primary-rgb), 0.4);
 	color: var(--color--text);
 	text-shadow: none;
 }
 
 strong,
 b {
-	font-weight: 600;
+	font-weight: 700;
 }
 em,
 i {
@@ -27,23 +27,25 @@ i {
 
 // #region Titles
 h1 {
-	// Fluid, so the phone override below is no longer a second source of truth.
-	font-size: clamp(2rem, 1.4rem + 3vw, 2.75rem);
-	font-weight: 700;
+	font-size: clamp(2.125rem, 1.4rem + 3vw, 3.5rem);
+	line-height: 1.08;
+	letter-spacing: -0.02em;
 }
 
 h2 {
-	font-size: clamp(1.5rem, 1.2rem + 1.5vw, 1.9rem);
-	font-weight: 600;
+	font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.375rem);
+	line-height: 1.15;
+	letter-spacing: -0.015em;
 }
 
 h3 {
-	font-size: 1.4rem;
-	font-weight: 600;
+	font-size: 1.375rem;
+	line-height: 1.25;
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.125rem;
+	line-height: 1.3;
 }
 
 h5 {
@@ -56,16 +58,48 @@ h3,
 h4,
 h5 {
 	font-family: var(--font--title);
-	// Comfortaa sets loose by default; headings need to sit tighter than body
-	// copy or a two-line title reads as two separate lines.
-	line-height: 1.15;
+	font-weight: 800;
 	text-wrap: balance;
+	color: var(--color--text);
 }
 
 // Section-opening paragraph: one size up from body, never full-bleed.
 .lede {
-	font-size: 1.1rem;
+	font-size: 1.125rem;
+	line-height: 1.55;
 	color: var(--color--text-shade);
-	max-width: 60ch;
+	max-width: 58ch;
+	text-wrap: pretty;
+}
+
+p {
+	text-wrap: pretty;
 }
 // #endregion
+
+// Keyboard focus is themed, never the browser default.
+:focus-visible {
+	outline: 2px solid var(--color--accent);
+	outline-offset: 2px;
+	border-radius: var(--radius-sm);
+}
+:focus:not(:focus-visible) {
+	outline: none;
+}
+
+// Numbers that line up: balances, counts, prices.
+.tabular {
+	font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}

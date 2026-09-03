@@ -1,27 +1,23 @@
 #article-content {
 	.content {
-		a:not(.button) {
-			&:hover {
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
-			}
-		}
+		font-size: 1.0625rem;
 
 		p {
-			margin: 0.75rem 0;
-			line-height: 1.55em;
+			margin: 0.85rem 0;
+			line-height: 1.6;
 		}
 
 		h2 {
-			margin: 3rem 0 0.5rem;
+			margin: 3rem 0 0.6rem;
 		}
 
 		h3 {
-			font-size: 1.2rem;
-			margin: 2rem 0 0.3rem;
+			font-size: 1.25rem;
+			margin: 2rem 0 0.4rem;
 		}
 
 		h4 {
-			font-size: 1.3rem;
+			font-size: 1.125rem;
 			margin: 2rem 0 0.3rem;
 		}
 
@@ -31,55 +27,86 @@
 
 		img {
 			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 2rem;
-			margin-bottom: 2rem;
-
+			margin: 2rem auto;
 			max-width: 100%;
 			height: auto;
 			width: auto;
-
+			border-radius: var(--radius-lg);
 			box-shadow: var(--image-shadow);
 		}
 
 		figcaption {
-			font-size: 0.85rem;
+			font-size: 0.875rem;
 			text-align: center;
 			margin-bottom: 2rem;
-			color: rgba(var(--color--text-rgb), 0.8);
+			color: var(--color--text-shade);
 		}
 
 		img + figcaption {
 			margin-top: -1rem;
 		}
 
+		// A quote is a tinted block, the way a correction card is in the app —
+		// no coloured edge.
 		blockquote {
-			padding: 25px 25px 15px;
-			border-radius: 20px;
-			font-size: 1.1rem;
-			border-left: 4px solid var(--color--primary);
-			background: var(--color--callout-background);
+			padding: 18px 22px;
+			border-radius: var(--radius-lg);
+			font-size: 1.0625rem;
+			background: var(--color--muted);
+			color: var(--color--text);
+			margin: 1.5rem 0;
+
+			p {
+				margin: 0.4rem 0;
+			}
 		}
 
 		code:not([class^='language-']) {
 			background: var(--color--code-inline-background);
-			padding: 5px 10px;
-			border-radius: 5px;
+			padding: 2px 7px;
+			border-radius: var(--radius-sm);
+			font-size: 0.9em;
 		}
 
 		code {
 			font-family: var(--font--mono);
 		}
+
+		hr {
+			border: 0;
+			border-top: 1px solid var(--color--border);
+			margin: 2.5rem 0;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 0.95rem;
+			margin: 1.5rem 0;
+
+			th,
+			td {
+				text-align: left;
+				padding: 10px 8px;
+				border-bottom: 1px solid var(--color--border);
+			}
+
+			th {
+				font-size: 0.8rem;
+				font-weight: 700;
+				color: var(--color--text-shade);
+			}
+		}
 	}
 
 	.heading-link {
-		color: var(--color--primary);
+		color: var(--color--text-quiet);
 		text-decoration: none;
-		margin-right: 10px;
-	}
+		margin-right: 8px;
+		font-weight: 700;
 
-	img {
-		border-radius: 6px;
+		&:hover {
+			color: var(--color--accent);
+		}
 	}
 }
