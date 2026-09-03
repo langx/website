@@ -1,94 +1,103 @@
-<script>
-	import AppStores from '$lib/components/molecules/AppStores.svelte';
-	import Sparkles from '$lib/components/atoms/Sparkles.svelte';
+<script lang="ts">
+	import Button from '$lib/components/atoms/Button.svelte';
+	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
+	import ChatScreen from '$lib/components/phone/ChatScreen.svelte';
+	import { ownsPrimary } from '$lib/stores/cta';
 </script>
 
-<section id="hero">
-	<h1 class="hello">Practice, Learn, Succeed!</h1>
-	<p class="pitch">
-		Talk with people who speak the language you are learning — and are learning the language you
-		speak.
-	</p>
-	<p class="intro">
-		<span class="left">100% Open Source</span>
-		<span class="right">Alternative to Tandem!</span>
-	</p>
-	<div class="ctas">
-		<Sparkles>
-			<AppStores />
-		</Sparkles>
+<!-- The app on the left doing its thing, the ask on the right. Two buttons, nothing else. -->
+<section id="hero" class="hero">
+	<div class="device">
+		<PhoneFrame label="A LangX chat: two messages in Spanish, then a friendly correction">
+			<ChatScreen loop />
+		</PhoneFrame>
+	</div>
+
+	<div class="copy">
+		<h1>The friendly way to practise a language with real people.</h1>
+		<div class="buttons" use:ownsPrimary>
+			<Button href="https://app.langx.io" variant="primary" size="lg" block>Start for free</Button>
+			<Button href="https://app.langx.io" variant="secondary" size="lg" block>
+				I already have an account
+			</Button>
+		</div>
+		<p class="fine">Chat with someone who speaks your target language and is learning yours.</p>
 	</div>
 </section>
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
-	#hero {
-		// The hero sits on the yellow wave in both themes, so its text colour is
-		// fixed rather than themed — `--color--text` is white in dark mode and
-		// disappears here.
-		color: #000;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+	.hero {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 		align-items: center;
-		gap: var(--space-xs);
-		position: relative;
-		padding: var(--space-2xl) 0 var(--space-xl);
+		gap: var(--space-xl);
+		padding: var(--space-xl) 0 var(--space-2xl);
+		min-height: calc(100vh - var(--header-height));
+		min-height: calc(100dvh - var(--header-height));
+		max-height: 900px;
+
+		@include for-tablet-portrait-down {
+			grid-template-columns: 1fr;
+			min-height: 0;
+			max-height: none;
+			padding: var(--space-lg) 0 var(--space-xl);
+			gap: var(--space-lg);
+		}
+	}
+
+	.device {
+		--phone-zoom: 0.78;
+		display: flex;
+		justify-content: center;
+
+		@media (max-width: 1100px) {
+			--phone-zoom: 0.7;
+		}
+
+		@include for-tablet-portrait-down {
+			order: 2;
+			--phone-zoom: 0.72;
+		}
 
 		@include for-phone-only {
-			padding: var(--space-xl) 0 var(--space-lg);
+			--phone-zoom: 0.66;
+		}
+	}
+
+	.copy {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: var(--space-lg);
+
+		h1 {
+			max-width: 18ch;
+			font-size: clamp(1.9rem, 1.3rem + 2.2vw, 2.75rem);
+			line-height: 1.15;
 		}
 
-		.hello {
-			text-align: center;
+		@include for-tablet-portrait-down {
+			order: 1;
+			gap: var(--space-md);
 		}
+	}
 
-		.intro {
-			font-weight: 500;
-			font-size: 1.4rem;
-			width: min(100%, 440px);
-			display: flex;
-			flex-direction: column;
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+		max-width: 330px;
+	}
 
-			.left {
-				text-align: left;
-			}
-			.right {
-				text-align: right;
-			}
-
-			// Used to be `display: none` on phones, which dropped the brand's
-			// strongest line on the screen most people arrive from. Centre it
-			// instead.
-			@include for-phone-only {
-				font-size: 1.1rem;
-				align-items: center;
-				gap: 2px;
-
-				.left,
-				.right {
-					text-align: center;
-				}
-			}
-		}
-
-		.pitch {
-			max-width: 40ch;
-			text-align: center;
-			font-size: 1.1rem;
-			color: rgba(0, 0, 0, 0.72);
-			margin-bottom: var(--space-2xs);
-		}
-
-		.ctas {
-			display: flex;
-			flex-wrap: wrap;
-			align-items: center;
-			justify-content: center;
-			gap: var(--space-2xs);
-			width: 100%;
-			margin-top: var(--space-md);
-		}
+	.fine {
+		font-size: 0.9375rem;
+		line-height: 1.5;
+		color: var(--color--text-shade);
+		max-width: 34ch;
+		margin: 0;
 	}
 </style>

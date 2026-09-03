@@ -14,7 +14,7 @@ export const image = `${siteBaseUrl}/images/site-preview.png`;
 // Search engines have ignored `meta keywords` for well over a decade, so this
 // list is kept short on purpose: it used to run past 200 entries, with repeats
 // and machine-translated phrases that were not real words in their language.
-// These mirror the App Store keyword field in `langx2/docs/store/listing.md`.
+// These mirror the App Store keyword field in `langx/docs/store/listing.md`.
 export const keywords = [
 	'language exchange',
 	'language learning',

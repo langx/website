@@ -1,102 +1,131 @@
 @import '$lib/scss/_mixins.scss';
 
+// Every value below is a token from the v3 mobile design handoff
+// (`LangX Mobile v3.dc.html` and its Dark twin). The site and the app are
+// meant to be the same material, so when the app's tokens move, these move.
+//
+// Two rules travel with the palette:
+//   1. Yellow (`primary`) is the committing action and appears once per
+//      screen. It does not change between themes, and text on it stays
+//      `on-primary` in both.
+//   2. Blue (`accent`) carries everything interactive. Corrections are green,
+//      Copilot is blue, and they are never confused for each other.
+
 @mixin base-theme {
 	@include define-color('primary', #ffc409);
 	@include define-color('primary-shade', #e0ac08);
-	@include define-color('primary-tint', #f9f6fe);
+	@include define-color('on-primary', #201900);
 
+	// Legacy brand orange. Not used by the redesigned surfaces; kept so blog
+	// callouts and older markup keep a defined value.
 	@include define-color('secondary', #ff571a);
-	@include define-color('secondary-shade', #ffa280);
-	@include define-color('secondary-tint', #fff8f5);
-
 	@include define-color('yellow', #ffd400);
 
-	// Borrowed from the app's design tokens (langx2/apps/mobile/src/lib/theme.ts)
-	// so Pro and streak read as the same thing in both places.
+	@include define-color('accent', #3b6cf6);
+	@include define-color('accent-shade', #2f56c4);
+	@include define-color('accent-tint', #e9f0fe);
+
+	@include define-color('success', #009f70);
+	@include define-color('success-tint', #e2f6ee);
+	@include define-color('error', #e5484d);
+
+	// Product accents shared with the app's design tokens.
 	@include define-color('pro', #7a5af8);
-	// Same hue, one step deeper, as in the app: Polyglot is more Fluent, not a rival
-	// product, and an unrelated colour would read as two things to choose from.
 	@include define-color('pro-plus', #5b21b6);
 	@include define-color('streak', #f79009);
-	@include define-color('accent', #3b6cf6);
 
+	// Surfaces
+	@include define-color('page-background', #ffffff);
+	@include define-color('post-page-background', #ffffff);
 	@include define-color('surface', #ffffff);
-	@include define-color('border', #e3e3e6);
-
-	@include define-color('text', #000000);
-	@include define-color('text-shade', #5d5f65);
-	@include define-color('text-inverse', #ffffff);
-	@include define-color('text-inverse-shade', #9eb4b5);
-
-	@include define-color('page-background', #f4f8fb);
-	@include define-color('post-page-background', #f3fbfc);
 	@include define-color('card-background', #ffffff);
+	@include define-color('muted', #f4f5f7);
+	@include define-color('canvas', #eef1f4);
+	@include define-color('border', #e8eaec);
 
-	// Used for Callout component
-	@include define-color('callout-background', #f4f8fb);
-	@include define-color('callout-background--info', #dfeffd);
-	@include define-color('callout-accent--info', #2883f4);
+	// Text
+	@include define-color('text', #17191c);
+	@include define-color('text-shade', #62676d);
+	@include define-color('text-tertiary', #9aa1a7);
+	@include define-color('text-quiet', #6b7075);
+	@include define-color('text-inverse', #ffffff);
+	@include define-color('text-inverse-shade', #9aa1a7);
+
+	// Callouts (blog)
+	@include define-color('callout-background', #f4f5f7);
+	@include define-color('callout-background--info', #e9f0fe);
+	@include define-color('callout-accent--info', #3b6cf6);
 	@include define-color('callout-background--warning', #fff6b6);
 	@include define-color('callout-accent--warning', #c87820);
 	@include define-color('callout-background--error', #ffe8e8);
-	@include define-color('callout-accent--error', #f95256);
-	@include define-color('callout-background--success', #dcf7ec);
+	@include define-color('callout-accent--error', #e5484d);
+	@include define-color('callout-background--success', #e2f6ee);
 	@include define-color('callout-accent--success', #009f70);
 
-	// Used for Code Block component
-	@include define-color('code-background', #1c1e26);
-	@include define-color('code-text', #ffffff);
-	@include define-color('code-inline-background', #e3e3e3);
+	// Code blocks
+	@include define-color('code-background', #1c1f24);
+	@include define-color('code-text', #f2f3f5);
+	@include define-color('code-inline-background', #f4f5f7);
 
-	--color--waves-start: rgba(var(--color--primary-rgb), 1);
-	--color--waves-end: rgba(var(--color--primary-rgb), 1);
-
-	--card-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
-	--card-shadow-hover: 0px 4px 10px 8px rgb(0 0 0 / 10%);
 	--image-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+	color-scheme: light;
 }
 
 @mixin dark-theme {
 	@include define-color('primary', #ffc409);
 	@include define-color('primary-shade', #e0ac08);
-	@include define-color('primary-tint', #231934);
+	@include define-color('on-primary', #201900);
 
 	@include define-color('secondary', #ff723f);
-	@include define-color('secondary-shade', #ab3307);
-	@include define-color('secondary-tint', #1b1918);
-
 	@include define-color('yellow', #ffd400);
 
+	@include define-color('accent', #7c9cf9);
+	@include define-color('accent-shade', #a8bffb);
+	@include define-color('accent-tint', #202b45);
+
+	@include define-color('success', #34c796);
+	@include define-color('success-tint', #16332a);
+	@include define-color('error', #ef6b6f);
+
 	@include define-color('pro', #9b83ff);
-	// On dark, "deeper" is illegible, so the step runs the other way.
 	@include define-color('pro-plus', #c0a9ff);
 	@include define-color('streak', #ffa93d);
-	@include define-color('accent', #7ba0ff);
 
-	@include define-color('surface', #32343e);
-	@include define-color('border', #43454f);
+	@include define-color('page-background', #1c1f24);
+	@include define-color('post-page-background', #1c1f24);
+	@include define-color('surface', #1c1f24);
+	@include define-color('card-background', #23272d);
+	@include define-color('muted', #23272d);
+	@include define-color('canvas', #0d0f12);
+	@include define-color('border', #2c3036);
 
-	@include define-color('text', #ffffff);
-	@include define-color('text-shade', #9eb4b5);
-	@include define-color('text-inverse', #000000);
-	@include define-color('text-inverse-shade', #5d5f65);
+	@include define-color('text', #f2f3f5);
+	@include define-color('text-shade', #9aa1a9);
+	@include define-color('text-tertiary', #70767e);
+	@include define-color('text-quiet', #8b9199);
+	@include define-color('text-inverse', #17191c);
+	@include define-color('text-inverse-shade', #70767e);
 
-	@include define-color('page-background', #1c1e26);
-	@include define-color('post-page-background', #141519);
-	@include define-color('card-background', #32343e);
-
-	// Used for Callout component
-	@include define-color('callout-background', #1c1e26);
-	@include define-color('callout-background--info', #1d3874);
-	@include define-color('callout-accent--info', #6ca9f7);
+	@include define-color('callout-background', #23272d);
+	@include define-color('callout-background--info', #202b45);
+	@include define-color('callout-accent--info', #7c9cf9);
 	@include define-color('callout-background--warning', #724413);
 	@include define-color('callout-accent--warning', #ffca39);
 	@include define-color('callout-background--error', #7c1d20);
 	@include define-color('callout-accent--error', #ff8082);
-	@include define-color('callout-background--success', #004737);
-	@include define-color('callout-accent--success', #00c48f);
+	@include define-color('callout-background--success', #16332a);
+	@include define-color('callout-accent--success', #34c796);
 
-	@include define-color('code-inline-background', #2b3131);
+	@include define-color('code-background', #0d0f12);
+	@include define-color('code-text', #f2f3f5);
+	@include define-color('code-inline-background', #2c3036);
+
+	--shadow-card: 0 4px 10px rgba(0, 0, 0, 0.4);
+	--shadow-phone: 0 24px 60px -20px rgba(0, 0, 0, 0.7), 0 4px 10px rgba(0, 0, 0, 0.4);
+	--shadow-sheet: 0 -8px 38px rgba(0, 0, 0, 0.5);
+	--shadow-segment: 0 1px 3px rgba(0, 0, 0, 0.4);
+	--image-shadow: 8px 14px 38px rgba(0, 0, 0, 0.4), 1px 3px 8px rgba(0, 0, 0, 0.3);
+	color-scheme: dark;
 }
 
 :root {
@@ -112,8 +141,3 @@
 		}
 	}
 }
-
-// footer,
-// header {
-// 	@include base-theme;
-// }

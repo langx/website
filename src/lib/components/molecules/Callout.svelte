@@ -6,9 +6,10 @@
 	export let type: string | undefined = undefined;
 </script>
 
+<!-- A tinted block with its icon inline — the app's correction card, not a side-tab. -->
 <div class="callout-block {type ?? ''}">
 	{#if type}
-		<div class="icon-wrapper">
+		<div class="icon-wrapper" aria-hidden="true">
 			{#if type == 'info'}
 				<Info />
 			{:else if type == 'warning' || type == 'error'}
@@ -18,37 +19,43 @@
 			{/if}
 		</div>
 	{/if}
-	<slot />
+	<div class="body"><slot /></div>
 </div>
 
 <style lang="scss">
 	.callout-block {
-		--bg-color: var(--color--page-background);
-		--accent-color: transparent;
-		--text-color: var(--color--text);
+		--bg-color: var(--color--callout-background);
+		--accent-color: var(--color--text-shade);
 
-		margin: 40px 0 30px;
-		padding: 25px 25px;
-		border-top-right-radius: 10px;
-		border-bottom-right-radius: 10px;
+		display: flex;
+		gap: 14px;
+		align-items: flex-start;
+		margin: 32px 0;
+		padding: 18px 20px;
+		border-radius: var(--radius-lg);
 		background: var(--bg-color);
-		color: var(--text-color);
-		border-left: 4px solid var(--accent-color);
-
-		position: relative;
+		color: var(--color--text);
 
 		.icon-wrapper {
-			position: absolute;
-			width: 50px;
-			height: 50px;
-			top: 0;
-			left: 0;
-			transform: translate(calc(-50% - 1.5px), -50%);
-			background: var(--color--post-page-background);
-			padding: 8px;
-			border-radius: 50%;
+			flex: 0 0 auto;
+			width: 22px;
+			height: 22px;
+			margin-top: 2px;
 			fill: var(--accent-color);
 			color: var(--accent-color);
+		}
+
+		.body {
+			flex: 1;
+			min-width: 0;
+
+			:global(p:first-child) {
+				margin-top: 0;
+			}
+
+			:global(p:last-child) {
+				margin-bottom: 0;
+			}
 		}
 
 		&.info {

@@ -9,9 +9,9 @@ Welcome to LangX! LangX matches you with people who speak the language you're le
 Several pages state limits and prices that are enforced by the app, not by this
 site. They are mirrored in [`src/lib/data/plans.ts`](src/lib/data/plans.ts) and
 [`src/lib/data/token.ts`](src/lib/data/token.ts), each of which points at the
-file in `langx2` it copies:
+file in `langx` it copies:
 
-| Here                       | Source of truth in `langx2`                                                  |
+| Here                       | Source of truth in `langx`                                                   |
 | -------------------------- | ---------------------------------------------------------------------------- |
 | `src/lib/data/plans.ts`    | `packages/shared/src/limits.ts` (`PLAN_LIMITS`)                              |
 | `src/lib/data/features.ts` | `packages/shared/src/limits.ts` — which plan unlocks each feature            |
@@ -21,13 +21,13 @@ There are three plans — free, Pro and Pro+ — and Pro+ is Pro plus LangX Copi
 and Nearby. Anything here that describes a paid feature has to name the plan
 that actually unlocks it.
 
-When a limit or a token rule changes in `langx2`, change it in the matching file
+When a limit or a token rule changes in `langx`, change it in the matching file
 here. Nothing checks this automatically, so a claim on the site can drift into
 being false without anything failing — which is exactly what this section exists
 to prevent.
 
 The product claims on this site are also constrained by
-`langx2/docs/legal/promise-change.md` and `langx2/docs/token-messaging-brief.md`.
+`langx/docs/legal/promise-change.md` and `langx/docs/token-messaging-brief.md`.
 Before adding a feature claim, check it is one the shipping app actually meets.
 
 ## Table of Contents

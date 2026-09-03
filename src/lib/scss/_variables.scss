@@ -1,19 +1,14 @@
 :root {
-	// Fonts
-	//
-	// Comfortaa is the brand's voice and stays on titles. It was also the body
-	// and the mono face, which is why long paragraphs and code blocks were hard
-	// to read: it is a display face with round, wide letterforms and no real
-	// monospace cut. Body and mono fall back to the platform stacks — no extra
-	// download, and text set at 15-18px stays legible.
+	// Fonts. Nunito 800 is the display voice, matching the v3 mobile design
+	// (which replaced Comfortaa). Body and mono stay on the platform stacks —
+	// no extra download, and text set at 15–17px stays legible.
 	--font--default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
 		sans-serif;
-	--font--title: Comfortaa, sans-serif;
+	--font--title: 'Nunito', var(--font--default);
 	--font--mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono',
 		monospace;
 
-	// Spacing scale. Sections used to pick their own numbers (15px, 20px, 25px,
-	// 30px, 80px…), which is why vertical rhythm drifted between them.
+	// Spacing scale, shared with the app.
 	--space-3xs: 4px;
 	--space-2xs: 8px;
 	--space-xs: 12px;
@@ -25,32 +20,33 @@
 	--space-3xl: 104px;
 
 	// Corner radii, matching the app's `radius` tokens so a card here and a card
-	// in the app are the same shape.
+	// in the app are the same shape. `bubble` and `phone` are device-only.
 	--radius-sm: 8px;
 	--radius-md: 12px;
 	--radius-lg: 16px;
 	--radius-xl: 24px;
+	--radius-bubble: 20px;
+	--radius-phone: 36px;
 	--radius-pill: 999px;
 
-	// Grabbed from open-props.style
-	--ease-3: cubic-bezier(0.25, 0, 0.3, 1);
-	--ease-4: cubic-bezier(0.25, 0, 0.2, 1);
-	--ease-out-1: cubic-bezier(0, 0, 0.75, 1);
-	--ease-out-3: cubic-bezier(0, 0, 0.3, 1);
-	--ease-elastic-4: cubic-bezier(0.5, 1.5, 0.75, 1.25);
+	// Motion. Custom curves — the built-in easings are too weak to read as
+	// intentional. `drawer` is the iOS sheet curve.
+	--ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+	--ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+	--ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+	--dur-press: 160ms;
+	--dur-fast: 200ms;
+	--dur-enter: 320ms;
+	--dur-sheet: 360ms;
 
-	// Verified by / Powered by companie's accent colors
-	--apple-color: #fff;
-	--facebook-color: #0866ff;
-	--tiktok-color-red: #fe2c55;
-	--tiktok-color-blue: #25f4ee;
-	--google-color-yellow: #fbc02d;
-	--google-color-red: #e53935;
-	--google-color-green: #4caf50;
-	--google-color-blue: #1565c0;
-	--twitter-color: #03a9f4;
-	--huawei-color: #c7000b;
-	--cloudflare-color: #f6821f;
-	--backblaze-color: #e21e29;
-	--nodejs-color: #5fa04e;
+	// Elevation. Only three shadows exist: a card, a sheet, and a toggle knob.
+	--shadow-card: 0 4px 10px rgba(0, 0, 0, 0.06);
+	--shadow-phone: 0 24px 60px -20px rgba(23, 25, 28, 0.25), 0 4px 10px rgba(0, 0, 0, 0.06);
+	--shadow-sheet: 0 -8px 38px rgba(0, 0, 0, 0.14);
+	--shadow-knob: 0 1px 3px rgba(0, 0, 0, 0.2);
+	--shadow-segment: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+	// Layout
+	--container-max: 1080px;
+	--header-height: 64px;
 }

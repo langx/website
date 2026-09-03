@@ -44,76 +44,65 @@
 	{/if}
 </svelte:head>
 
-<div class="article-layout">
-	<Header showBackground />
+<Header />
 
-	<main>
-		<article id="article-content">
-			<div class="header">
-				{#if post}
-					<h1>{post.title}</h1>
+<main>
+	<article id="article-content">
+		<div class="header">
+			{#if post}
+				<a class="back" href="/blog">← All posts</a>
+				<h1>{post.title}</h1>
 
-					<div class="note">
-						Published on {dateformat(post.date, 'UTC:dd mmmm yyyy')}
-						{#if post.author}
-							<a href={post.author.url} target="_blank"> @{post.author.name}</a>
-						{/if}
-					</div>
-					{#if post.updated}
-						<div class="note">Updated on {dateformat(post.updated, 'UTC:dd mmmm yyyy')}</div>
+				<div class="meta">
+					<span>{dateformat(post.date, 'UTC:dd mmmm yyyy')}</span>
+					{#if post.author}
+						<span>·</span>
+						<a href={post.author.url} target="_blank" rel="noopener noreferrer">@{post.author.name}</a>
 					{/if}
 					{#if post.readingTime}
-						<div class="note">{post.readingTime}</div>
+						<span>·</span>
+						<span>{post.readingTime}</span>
 					{/if}
-					{#if post.tags?.length}
-						<div class="tags">
-							{#each post.tags as tag}
-								<Tag>{tag}</Tag>
-							{/each}
-						</div>
+					{#if post.updated}
+						<span>·</span>
+						<span>Updated {dateformat(post.updated, 'UTC:dd mmmm yyyy')}</span>
 					{/if}
-				{/if}
-			</div>
-			{#if post && post.coverImage}
-				<div class="cover-image">
-					<Image src={post.coverImage} alt={post.title} />
 				</div>
+				{#if post.tags?.length}
+					<div class="tags">
+						{#each post.tags as tag}
+							<Tag>{tag}</Tag>
+						{/each}
+					</div>
+				{/if}
 			{/if}
-			<div class="content">
-				<slot />
-			</div>
-		</article>
-
-		{#if post.relatedPosts && post.relatedPosts.length > 0}
-			<div class="container">
-				<RelatedPosts posts={post.relatedPosts} />
+		</div>
+		{#if post && post.coverImage}
+			<div class="cover-image">
+				<Image src={post.coverImage} alt={post.title} />
 			</div>
 		{/if}
-	</main>
+		<div class="content">
+			<slot />
+		</div>
+	</article>
 
-	<Footer />
-</div>
+	{#if post?.relatedPosts && post.relatedPosts.length > 0}
+		<div class="container">
+			<RelatedPosts posts={post.relatedPosts} />
+		</div>
+	{/if}
+</main>
+
+<Footer />
 
 <style lang="scss">
 	@import '$lib/scss/_mixins.scss';
 
-	.article-layout {
-		--body-background-color: var(--color--post-page-background);
-		background-color: var(--color--post-page-background);
-	}
-
 	#article-content {
-		--main-column-width: 65ch;
+		--main-column-width: 68ch;
 		position: relative;
-		padding-top: 40px;
-		padding-bottom: 80px;
-		padding-right: 15px;
-		padding-left: 15px;
-
-		@include for-iphone-se {
-			padding-left: 0;
-			padding-right: 0;
-		}
+		padding: var(--space-xl) 15px var(--space-2xl);
 
 		@include for-tablet-portrait-up {
 			padding-right: 20px;
@@ -127,41 +116,52 @@
 
 		display: flex;
 		flex-direction: column;
-		gap: 30px;
+		gap: var(--space-lg);
 
 		.header {
 			display: flex;
 			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			text-align: center;
-			gap: 10px;
+			align-items: flex-start;
+			gap: var(--space-sm);
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
 
-			.note {
-				font-size: 90%;
-				color: rgba(var(--color--text-rgb), 0.8);
+			h1 {
+				font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
 			}
+		}
+
+		.back {
+			font-size: 0.875rem;
+			font-weight: 700;
+		}
+
+		.meta {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+			font-size: 0.875rem;
+			color: var(--color--text-shade);
+		}
+
+		.tags {
+			display: flex;
+			align-items: center;
+			gap: 6px;
+			flex-wrap: wrap;
 		}
 
 		.cover-image {
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
-			max-height: 400px;
-			box-shadow: var(--image-shadow);
-			border-radius: 6px;
-
-			// img {
-			// 	width: 100%;
-			// 	height: 100%;
-			// 	max-height: 400px;
-			// 	object-fit: cover;
-			// }
+			max-height: 420px;
+			border-radius: var(--radius-lg);
+			overflow: hidden;
+			background: var(--color--muted);
 		}
 
 		:global(.cover-image img) {
-			max-height: 400px;
+			max-height: 420px;
 			object-fit: cover;
 		}
 
@@ -183,14 +183,6 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
-		}
-
-		.tags {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			gap: 5px;
-			flex-wrap: wrap;
 		}
 	}
 </style>

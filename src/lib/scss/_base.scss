@@ -4,19 +4,54 @@
 	@include padded-container;
 }
 
+// Content lists (blog articles, legal pages). Interface lists opt out with
+// `role="list"` or `.plain`.
 ul,
 ol {
-	margin: 10px 0 10px 40px;
+	margin: 10px 0 10px 24px;
 	padding: 0;
 
 	li {
 		margin: 6px 0;
 
 		&::marker {
-			color: var(--color--primary);
+			color: var(--color--text-quiet);
 		}
 	}
 }
 ul {
 	list-style: outside;
+}
+
+[role='list'],
+.plain {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	> li {
+		margin: 0;
+	}
+}
+
+// Hairline between rows — the design's one structural device.
+.rows {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	> li,
+	> .row {
+		border-bottom: 1px solid var(--color--border);
+
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}
+
+// Scrollbars and the caret belong to the palette too.
+* {
+	scrollbar-color: var(--color--border) transparent;
+	caret-color: var(--color--accent);
 }

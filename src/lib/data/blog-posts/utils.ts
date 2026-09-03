@@ -2,9 +2,8 @@
 // even if not directly used in this file
 // eslint-disable-next-line no-unused-vars
 import Prism from 'prismjs';
-// Here we assign it to a variable so the import above
-// is not removed automatically on build
-const ifYouRemoveMeTheBuildFails = Prism;
+// Referenced so the import above is not tree-shaken away.
+void Prism;
 import 'prism-svelte';
 import readingTime from 'reading-time';
 import striptags from 'striptags';
@@ -18,7 +17,10 @@ export const importPosts = (render = false) => {
 
 	const posts: BlogPost[] = [];
 	for (const path in imports) {
-		const post = imports[path] as any;
+		const post = imports[path] as {
+			metadata: BlogPost;
+			default: { render?: () => { html: string } };
+		};
 		if (post) {
 			posts.push({
 				...post.metadata,

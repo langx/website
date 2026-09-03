@@ -1,402 +1,134 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
-	let items: any;
-	let active: number = 0;
-	let testimonials = [
+	// Real reviews, quoted as written, from the public Google Play listing
+	// (tech.newchapter.languageXchange). App Store ratings for the app exist
+	// (5.0 from 11 ratings on 2 Sep 2026) but no written App Store reviews are
+	// published in Apple's public feed, so the quotes are all Google Play.
+	const reviews = [
 		{
-			id: 1,
-			rating: 5,
 			name: 'Amanda Hernandez',
-			body: `Great app!! If you are wanting to have real conversations with someone that speaks the language you are trying to learn, this app is what youneed!`,
-			img: 'https://lh3.googleusercontent.com/a-/ALV-UjVBLt_MBA0BmgefYWtgww_Y2dUW5K8hwMWdjkz0kmMhl0vXu5Lqmw'
+			store: 'Google Play',
+			body: 'Great app!! If you are wanting to have real conversations with someone that speaks the language you are trying to learn, this app is what you need!'
 		},
 		{
-			id: 2,
-			rating: 5,
-			name: 'Hatice Altun',
-			body: `A great application to meet new people and practice your language.`,
-			img: 'https://lh3.googleusercontent.com/a-/ALV-UjWZvyzuojaUwCBF2j_zTFHqXtaHFVCupS88ssURrUeTi5R1Gt4'
+			name: 'Erica Harris',
+			store: 'Google Play',
+			body: 'The admin team are awesome. This app has so much potential and they are working on it everyday to improve the experience.'
 		},
 		{
-			id: 3,
-			rating: 5,
 			name: 'Burak',
-			body: `Wow! As an English teacher, I came across it by chance with the idea that my students could get extra practice. I'm already looking forward to it. I definitely recommend it!`,
-			img: 'https://lh3.googleusercontent.com/a-/ALV-UjXOD-Wl8RUhxf2cLkVrkz20C7dWwIHnhpO5UWzJhOzEPq-6LiCBaQ'
+			store: 'Google Play',
+			body: "As an English teacher, I came across it by chance with the idea that my students could get extra practice. I'm already looking forward to it. I definitely recommend it!"
 		},
 		{
-			id: 4,
-			rating: 5,
-			name: 'Martín Didoli',
-			body: `The application is open source and the team behind it is really cool. Try it and meet cool people`,
-			img: 'https://lh3.googleusercontent.com/a-/ALV-UjW_Jur3BSRuRmmgJYlcKbCg0CDf_Hc7QRsuYt22Wb5jcTJbkeX8'
+			name: 'Aaron Ros',
+			store: 'Google Play',
+			body: "I must say this app look gorgeous. It's simple and straightforward but on the other hand has it's style and I personally have enjoyed signing up and completing my profile."
 		},
 		{
-			id: 5,
-			rating: 5,
 			name: 'Dasha Durneva',
-			body: `This app made me opened to practicing language learning. Simple yet user-friendly design encourages to chat with language learners like myself. Highly recommend this app!!!`,
-			img: 'https://lh3.googleusercontent.com/a-/ALV-UjXSkMI6PYh4hc10-t_B0MkW3dKun5BbnWRCRGBNRScieEwYEOJ9NQ'
+			store: 'Google Play',
+			body: 'Simple yet user-friendly design encourages to chat with language learners like myself. Highly recommend this app!!!'
 		},
 		{
-			id: 6,
-			rating: 5,
-			name: 'Ray Carnes',
-			body: `Great free App to connect with others wanting to brush up on language skills!!`,
-			img: 'https://lh3.googleusercontent.com/a-/ALV-UjU0535FfwInf3JTeGNO5Sbe8V72nVUHAQzyh27VqjccaPvwqRIL'
-		},
-		{
-			id: 7,
-			rating: 5,
-			name: 'Keen',
-			body: `Thank youu! ❤️ I will continue trying my best to help with whatever I can! 💪😤 I love the idea of the this project and I want to see it succeed!! 😁😁`,
-			// Was served from db.langx.io, v1's Appwrite instance, which is going away.
-			img: '/images/testimonials/keen.jpg'
+			name: 'Martín Didoli',
+			store: 'Google Play',
+			body: 'The application is open source and the team behind it is really cool. Try it and meet cool people.'
 		}
 	];
-
-	onMount(() => {
-		items = document.querySelectorAll('#slider .item');
-
-		loadShow();
-	});
-
-	const loadShow = () => {
-		let i;
-		items[active].style.transform = `none`;
-		items[active].style.zIndex = 1;
-		items[active].style.filter = 'none';
-		items[active].style.opacity = 1;
-
-		let stt = 0;
-		for (i = active + 1; i < items.length; i++) {
-			stt++;
-			items[i].style.transform = `translateX(${120 * stt}px) scale(${
-				1 - 0.2 * stt
-			}) perspective(16px) rotateY(-1deg)`;
-			items[i].style.zIndex = -stt;
-			items[i].style.filter = 'blur(5px)';
-			items[i].style.opacity = stt > 1 ? 0 : 0.6;
-		}
-
-		// Add the first item to the end if the active item is the last one
-		if (active === items.length - 1) {
-			stt++;
-			items[0].style.transform = `translateX(${120 * stt}px) scale(${
-				1 - 0.2 * stt
-			}) perspective(16px) rotateY(-1deg)`;
-			items[0].style.zIndex = -stt;
-			items[0].style.filter = 'blur(5px)';
-			items[0].style.opacity = stt > 1 ? 0 : 0.6;
-		}
-
-		stt = 0;
-		for (i = active - 1; i >= 0; i--) {
-			stt++;
-			items[i].style.transform = `translateX(${-120 * stt}px) scale(${
-				1 - 0.2 * stt
-			}) perspective(16px) rotateY(1deg)`;
-			items[i].style.zIndex = -stt;
-			items[i].style.filter = 'blur(5px)';
-			items[i].style.opacity = stt > 1 ? 0 : 0.6;
-		}
-
-		// Add the last item to the beginning if the active item is the first one
-		if (active === 0) {
-			stt++;
-			items[items.length - 1].style.transform = `translateX(${-120 * stt}px) scale(${
-				1 - 0.2 * stt
-			}) perspective(16px) rotateY(1deg)`;
-			items[items.length - 1].style.zIndex = -stt;
-			items[items.length - 1].style.filter = 'blur(5px)';
-			items[items.length - 1].style.opacity = stt > 1 ? 0 : 0.6;
-		}
-	};
-
-	const handlePrev = () => {
-		active = active - 1 >= 0 ? active - 1 : items.length - 1;
-		loadShow();
-	};
-
-	const handleNext = () => {
-		active = active + 1 < items.length ? active + 1 : 0;
-		loadShow();
-	};
-
-	let startX: any;
-	let startY: any;
-
-	const handleTouchStart = (event: TouchEvent) => {
-		startX = event.touches[0].clientX;
-		startY = event.touches[0].clientY;
-	};
-
-	const handleTouchMove = (event: TouchEvent) => {
-		if (!startX || !startY) return;
-
-		const endX = event.touches[0].clientX;
-		const endY = event.touches[0].clientY;
-
-		const diffX = endX - startX;
-		const diffY = endY - startY;
-
-		// Horizontal swipe
-		if (Math.abs(diffX) > Math.abs(diffY)) {
-			if (diffX > 0) {
-				// Swipe right
-				handlePrev();
-			} else {
-				// Swipe left
-				handleNext();
-			}
-		}
-
-		startX = null;
-		startY = null;
-	};
 </script>
 
-<section id="slider" on:touchstart={handleTouchStart} on:touchmove={handleTouchMove}>
-	<div class="button-wrapper">
-		{#each testimonials as testimonial, index (testimonial.id)}
-			<div class="item {index === active ? 'active' : ''}">
-				<div class="wrapper">
-					<div>
-						<img src={testimonial.img} alt="{testimonial.name} Avatar" draggable="false" />
-					</div>
-					<h4>{testimonial.name}</h4>
-					<div class="stars">
-						{#each Array.from({ length: testimonial.rating }, (_, i) => i) as star}
-							<svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path
-									fill-rule="evenodd"
-									d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-									clip-rule="evenodd"
-								/>
-							</svg>
-						{/each}
-					</div>
-					<p><q>{testimonial.body}</q></p>
+<section id="reviews" class="reviews">
+	<header class="head">
+		<h2>What people say</h2>
+		<p class="lede">Rated 5.0 on the App Store and 4.4 on Google Play.</p>
+	</header>
+
+	<ul class="grid" role="list">
+		{#each reviews as review}
+			<li class="review">
+				<div class="stars" role="img" aria-label="5 out of 5 stars">
+					{#each [1, 2, 3, 4, 5] as star (star)}
+						<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+							<path
+								fill="currentColor"
+								d="M12 2.8l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.7l-5.6 3.1 1.3-6.2L3 9.3l6.3-.7z"
+							/>
+						</svg>
+					{/each}
 				</div>
-			</div>
+				<blockquote>{review.body}</blockquote>
+				<div class="who">
+					<span class="name">{review.name}</span>
+					<span class="store">{review.store}</span>
+				</div>
+			</li>
 		{/each}
-		<button id="next" on:click={handleNext}>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-			>
-				<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-			</svg>
-		</button>
-		<button id="prev" on:click={handlePrev}>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-			>
-				<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-			</svg>
-		</button>
-	</div>
-	<div class="dots">
-		{#each testimonials as _, index}
-			<span
-				role="button"
-				on:keydown={() => {}}
-				tabindex="0"
-				class={index === active ? 'active' : ''}
-				on:click={() => {
-					active = index;
-					loadShow();
-				}}
-			/>
-		{/each}
-	</div>
+	</ul>
 </section>
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
-	#slider {
-		position: relative;
-		margin: 80px 0 80px 0;
-		width: 100%;
-		height: 395px;
-		//overflow: hidden;
+	.reviews {
+		padding: var(--space-3xl) 0 0;
+
+		@include for-phone-only {
+			padding-top: var(--space-2xl);
+		}
+	}
+
+	.head {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-sm);
+		max-width: 60ch;
+	}
+
+	.grid {
+		margin-top: var(--space-lg);
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		column-gap: var(--space-2xl);
 
 		@include for-tablet-portrait-down {
-			min-height: 432px;
-
-			.button-wrapper {
-				max-width: 350px;
-				margin: auto;
-				position: relative;
-				height: 100%;
-			}
+			grid-template-columns: 1fr;
 		}
+	}
 
-		.item {
-			position: absolute;
-			top: 0;
-			left: calc(50% - 17%);
-			text-align: center;
-			background-color: var(--color--card-background);
-			max-width: 350px;
-			min-width: 290px;
-			min-height: 411px;
-			padding: 50px 20px 20px 20px;
-			border-radius: 10px;
-			box-shadow: var(--card-shadow);
-			transition: 0.5s;
-			overflow: hidden;
+	.review {
+		padding: 22px 0;
+		border-bottom: 1px solid var(--color--border);
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
 
-			@include for-tablet-portrait-down {
-				left: 50%;
-				transform: translateX(-50%) !important;
-				opacity: 1 !important;
-				filter: none !important;
-				min-height: 432px;
-				width: 100%;
-			}
+	.stars {
+		display: inline-flex;
+		gap: 2px;
+		color: var(--color--streak);
+	}
 
-			&::before {
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 220px;
-				height: 196px;
-				background-color: var(--color--yellow);
-				border-radius: 0 0 100% 0;
-				z-index: 0;
-				user-select: none;
-				pointer-events: none;
-			}
+	blockquote {
+		margin: 0;
+		font-size: 1.0625rem;
+		line-height: 1.55;
+		color: var(--color--text);
+	}
 
-			.wrapper {
-				position: relative;
-				z-index: 1;
+	.who {
+		display: flex;
+		align-items: baseline;
+		gap: 8px;
+		font-size: 0.9375rem;
+	}
 
-				div {
-					display: flex;
-					justify-content: center;
+	.name {
+		font-family: var(--font--title);
+		font-weight: 800;
+	}
 
-					img {
-						border: 4px solid var(--color--card-background);
-						border-radius: 100%;
-						width: 120px;
-						height: 120px;
-						display: inline-block;
-						max-width: 100%;
-						vertical-align: middle;
-					}
-				}
-			}
-
-			h4 {
-				margin: 20px 0 5px 0;
-			}
-
-			.stars {
-				display: flex;
-				align-items: center;
-				margin-bottom: 20px;
-
-				svg {
-					flex-shrink: 0;
-					width: 1.25rem;
-					height: 1.25rem;
-					color: var(--color--yellow);
-				}
-			}
-
-			p {
-				font-size: 0.9rem;
-				text-align: justify;
-			}
-		}
-
-		#next {
-			position: absolute;
-			right: 50px;
-			top: 50%;
-			transform: translateY(-50%);
-
-			@include for-tablet-portrait-down {
-				right: -10px;
-				z-index: 1;
-			}
-		}
-
-		#prev {
-			position: absolute;
-			left: 50px;
-			top: 50%;
-			transform: translateY(-50%);
-
-			@include for-tablet-portrait-down {
-				left: -10px;
-				z-index: 1;
-			}
-		}
-
-		#prev,
-		#next {
-			color: var(--color--text-shade);
-			cursor: pointer;
-			background: none;
-			border: none;
-			font-size: xxx-large;
-			font-family: monospace;
-			font-weight: bold;
-			padding: 0;
-			opacity: 0.5;
-			transition: opacity 0.5s;
-
-			svg {
-				width: 50px;
-				height: 50px;
-			}
-		}
-
-		#prev:hover,
-		#next:hover {
-			opacity: 1;
-		}
-
-		.dots {
-			position: absolute;
-			bottom: -40px;
-			left: 50%;
-			transform: translateX(-50%);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			z-index: 1;
-
-			@include for-tablet-portrait-down {
-				bottom: -30px;
-			}
-
-			span {
-				width: 10px;
-				height: 10px;
-				border-radius: 50%;
-				background-color: var(--color--text-shade);
-				margin: 0 5px;
-				cursor: pointer;
-				transition: background-color 0.3s;
-			}
-
-			span.active {
-				background-color: var(--color--yellow);
-			}
-		}
+	.store {
+		color: var(--color--text-shade);
 	}
 </style>

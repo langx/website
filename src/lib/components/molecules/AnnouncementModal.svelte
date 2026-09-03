@@ -1,7 +1,5 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
-	import { slide } from 'svelte/transition';
-	import SparklingHighlight from './SparklingHighlight.svelte';
 
 	// Bumped when the announcement itself changes, so a new message reaches
 	// people who dismissed the previous one.
@@ -11,114 +9,115 @@
 
 	onMount(() => {
 		if (localStorage.getItem(STORAGE_KEY) !== 'true') {
-			setTimeout(() => {
-				show = true;
-			}, 3000); // Delay
+			const t = setTimeout(() => (show = true), 2500);
+			return () => clearTimeout(t);
 		}
 	});
+
+	function dismiss() {
+		show = false;
+		localStorage.setItem(STORAGE_KEY, 'true');
+	}
 </script>
 
 {#if show}
-	<div class="modal" transition:slide={{ duration: 500 }}>
-		<div class="wrapper">
+	<div class="banner" role="region" aria-label="Announcement">
+		<div class="wrap">
 			<p>
-				Used LangX before? <SparklingHighlight
-					><a href="/welcome-back">Your username and tokens are waiting</a></SparklingHighlight
-				> — here is everything that changes in v2.
+				<strong>Used LangX before?</strong> Your username and tokens are waiting — here is everything
+				that changes in v2.
 			</p>
-			<div class="btn-wrapper">
-				<a href="/welcome-back" class="open">Read this</a>
-				<button
-					type="button"
-					class="close"
-					on:click={() => {
-						show = false;
-						localStorage.setItem(STORAGE_KEY, 'true');
-					}}>Close</button
-				>
+			<div class="actions">
+				<a href="/welcome-back" on:click={dismiss}>Read what changed</a>
+				<button type="button" on:click={dismiss} aria-label="Dismiss">Close</button>
 			</div>
 		</div>
 	</div>
 {/if}
 
 <style lang="scss">
-	@import '$lib/scss/_themes.scss';
+	@import '$lib/scss/breakpoints.scss';
 
-	.modal {
+	// The app's blue callout ("Turn on notifications"), pinned to the bottom.
+	// Enters from below on the sheet curve and never comes back once closed.
+	.banner {
 		position: fixed;
-		left: 0px;
-		right: 0px;
-		bottom: 0px;
-		background-color: var(--color--secondary);
-		z-index: 9999;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 40;
+		padding: 0 16px 16px;
+		pointer-events: none;
 
-		.wrapper {
-			display: flex;
+		@media (prefers-reduced-motion: no-preference) {
+			animation: rise var(--dur-sheet) var(--ease-drawer) both;
+		}
+	}
+
+	@keyframes rise {
+		from {
+			transform: translateY(110%);
+		}
+		to {
+			transform: none;
+		}
+	}
+
+	.wrap {
+		pointer-events: auto;
+		max-width: 760px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		background: var(--color--accent-tint);
+		border-radius: var(--radius-lg);
+		padding: 15px 18px;
+		box-shadow: var(--shadow-card);
+
+		@include for-phone-only {
 			flex-direction: column;
-			justify-content: space-between;
-			column-gap: 2rem; /* 32px */
-			row-gap: 1rem; /* 16px */
-			padding: 1.5rem; /* 24px */
-			max-width: 1400px;
-			margin: auto;
+			align-items: flex-start;
+		}
+	}
 
-			@media (min-width: 768px) {
-				flex-direction: row;
-				align-items: center;
-			}
+	p {
+		flex: 1;
+		margin: 0;
+		font-size: 0.9375rem;
+		line-height: 1.5;
+		color: var(--color--text-shade);
 
-			@media (min-width: 1024px) {
-				padding-left: 2rem; /* 32px */
-				padding-right: 2rem; /* 32px */
-			}
+		strong {
+			color: var(--color--accent);
+			font-weight: 700;
+		}
+	}
 
-			p {
-				max-width: 56rem; /* 896px */
-				font-size: 1rem; /* 16px */
-				line-height: 1.5rem; /* 24px */
-				color: #ffffff;
-				font-weight: bold;
+	.actions {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		flex: 0 0 auto;
+	}
 
-				a {
-					color: var(--color--yellow);
-				}
-			}
+	a {
+		font-size: 0.875rem;
+		font-weight: 700;
+		color: var(--color--accent);
+	}
 
-			.btn-wrapper {
-				display: flex;
-				flex: none;
-				align-items: center;
-				column-gap: 1.25rem; /* 20px */
+	button {
+		background: none;
+		border: 0;
+		padding: 0;
+		font-size: 0.875rem;
+		font-weight: 600;
+		color: var(--color--text-shade);
+		cursor: pointer;
 
-				.open {
-					text-decoration: none;
-					border-radius: 0.375rem; /* 6px */
-					background-color: #111827;
-					padding: 0.5rem 0.75rem;
-					font-size: 0.875rem; /* 14px */
-					line-height: 1.25rem; /* 20px */
-					font-weight: 500;
-					color: #ffffff;
-					box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-					cursor: pointer;
-
-					&:hover {
-						background-color: #000000;
-					}
-				}
-
-				.close {
-					background-color: transparent;
-					border: none;
-					outline: none;
-					box-shadow: none;
-					font-size: 0.875rem; /* 14px */
-					line-height: 1.5rem; /* 24px */
-					font-weight: 600;
-					color: #ffffff;
-					cursor: pointer;
-				}
-			}
+		&:hover {
+			color: var(--color--text);
 		}
 	}
 </style>

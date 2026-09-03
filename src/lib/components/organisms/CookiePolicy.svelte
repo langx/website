@@ -60,14 +60,14 @@
 		display: grid;
 		align-items: start; /* Align to the start for better readability */
 		justify-content: space-between;
-		padding: 50px; /* Add padding around the text */
+		padding: 0 0 var(--space-2xl);
 		line-height: 1.5; /* Increase line height for better readability */
-		max-width: 800px; /* Limit the width of the text */
-		margin: 0 auto; /* Center the text block */
+		max-width: 72ch;
+		margin: 0;
 
 		@include for-phone-only {
 			grid-template-columns: 1fr;
-			justify-items: center;
+			justify-items: start;
 			gap: 20px;
       padding: 0;
 
