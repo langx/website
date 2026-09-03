@@ -47,10 +47,11 @@
 		</article>
 
 		<article class="block">
-			<h2>Your streak is frozen, not lost</h2>
+			<h2>Your streak comes back with you</h2>
 			<p>
-				Whatever streak you had is held for you and can be restored by spending tokens, rather than
-				quietly resetting to zero on the day you come back.
+				Whatever streak you had is restored the moment your profile is — alive, and counting today —
+				rather than quietly resetting to zero on the day you come back. It costs nothing: you built
+				those days here, under the same name.
 			</p>
 		</article>
 
