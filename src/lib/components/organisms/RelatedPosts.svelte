@@ -1,41 +1,39 @@
 <script lang="ts">
 	import type { BlogPost } from '$lib/utils/types';
 	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
-	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 
 	export let posts: BlogPost[];
 </script>
 
-<ContentSection id="related-posts" title="Related Posts">
-	<div class="simple-grid">
+<section id="related-posts" class="related">
+	<h2>Related posts</h2>
+	<ul class="rows" role="list">
 		{#each posts as post}
-			<BlogPostCard
-				slug={post.slug}
-				title={post.title}
-				excerpt={post.excerpt}
-				tags={post.tags}
-				readingTime={post.readingTime}
-				showImage={false}
-			/>
+			<li>
+				<BlogPostCard
+					slug={post.slug}
+					title={post.title}
+					excerpt={post.excerpt}
+					tags={post.tags}
+					readingTime={post.readingTime}
+					showImage={false}
+				/>
+			</li>
 		{/each}
-	</div>
-</ContentSection>
+	</ul>
+</section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	.related {
+		padding: var(--space-2xl) 0 0;
 
-	.simple-grid {
-		width: 100%;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 20px;
-
-		@media (max-width: 1070px) {
-			grid-template-columns: 1fr 1fr;
+		h2 {
+			font-size: 1.5rem;
 		}
+	}
 
-		@include for-tablet-portrait-down {
-			grid-template-columns: 1fr;
-		}
+	.rows {
+		margin-top: var(--space-sm);
+		border-top: 1px solid var(--color--border);
 	}
 </style>

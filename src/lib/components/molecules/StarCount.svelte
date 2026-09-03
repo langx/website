@@ -1,9 +1,9 @@
-<script>
-	import Github from '$lib/icons/socials/github-stars.svelte';
+<script lang="ts">
 	import { onMount } from 'svelte';
+	import GithubIcon from '$lib/icons/socials/github.svelte';
 
-	// v2 lives in a different repository; `langx/langx` is the v1 app.
-	const repo = 'langx/langx2';
+	// The v2 product lives in `langx/langx`.
+	const repo = 'langx/langx';
 
 	let starCount = -1;
 
@@ -20,36 +20,61 @@
 	});
 </script>
 
-<div class:mtop={starCount > 0} class="star-count">
-	<a class="star" target="_blank" href="https://github.com/{repo}/stargazers">
-		<Github />
-		{#if starCount > 0}
-			<span>{starCount.toLocaleString('en-US')}</span>
-		{/if}
-	</a>
-</div>
+<a
+	class="star"
+	target="_blank"
+	rel="noopener noreferrer"
+	href="https://github.com/{repo}"
+	aria-label="LangX on GitHub{starCount > 0 ? `, ${starCount} stars` : ''}"
+>
+	<span class="icon"><GithubIcon /></span>
+	<span class="text">GitHub</span>
+	{#if starCount > 0}
+		<span class="count tabular">{starCount.toLocaleString('en-US')}</span>
+	{/if}
+</a>
 
 <style lang="scss">
-	.star-count {
-		// .mtop {
-		// 	margin-top: 10px;
-		// }
-		display: flex;
+	.star {
+		display: inline-flex;
 		align-items: center;
+		gap: 7px;
+		min-height: 36px;
+		padding: 0 12px 0 10px;
+		border: 1px solid var(--color--border);
+		border-radius: var(--radius-pill);
+		color: var(--color--text);
+		font-size: 0.875rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition: background-color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
 
-		.star {
-			height: 24px;
-			text-decoration: none;
-			display: flex;
-			align-items: center;
-			color: #ffffff;
-			background-color: #000000;
-			padding: 1px 4px 0 3px;
-			border-radius: 3px;
+		&:active {
+			transform: scale(0.97);
+		}
 
-			span {
-				margin-left: 5px;
+		@media (hover: hover) and (pointer: fine) {
+			&:hover {
+				background: var(--color--muted);
+				color: var(--color--text);
 			}
 		}
+	}
+
+	.icon {
+		width: 18px;
+		height: 18px;
+		display: inline-flex;
+		fill: currentColor;
+
+		:global(svg) {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.count {
+		color: var(--color--text-shade);
+		font-weight: 600;
 	}
 </style>

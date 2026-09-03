@@ -1,22 +1,11 @@
-<script>
-	import Waves from '$lib/components/organisms/Waves.svelte';
-	import Header from '$lib/components/organisms/Header.svelte';
-	import Footer from '$lib/components/organisms/Footer.svelte';
-	import Seo from '$lib/components/atoms/Seo.svelte';
+<script lang="ts">
+	import SiteShell from '$lib/components/organisms/SiteShell.svelte';
 </script>
 
-<Seo
+<SiteShell
 	title="Welcome back"
 	path="/welcome-back"
-	description="What changes for LangX v1 users: your username, your token balance, your streak, and what moved behind a paid plan."
-/>
-
-<Waves />
-
-<Header />
-
-<main>
+	description="Used LangX v1? Your username is reserved and your tokens carry over. Here is everything that changes in v2, including the parts we would rather you heard from us."
+>
 	<slot />
-</main>
-
-<Footer />
+</SiteShell>

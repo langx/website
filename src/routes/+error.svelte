@@ -1,23 +1,27 @@
-<script>
+<script lang="ts">
+	import { page } from '$app/stores';
 	import Header from '$lib/components/organisms/Header.svelte';
 	import Footer from '$lib/components/organisms/Footer.svelte';
-
 	import Button from '$lib/components/atoms/Button.svelte';
-	import Error from '$lib/icons/error.svelte';
 </script>
 
-<Header showBackground />
+<svelte:head>
+	<title>{$page.status === 404 ? 'Page not found' : 'Something went wrong'} | LangX</title>
+</svelte:head>
+
+<Header />
 
 <main>
-	<div class="error-page">
-		<div class="container">
-			<h1>Oh no!</h1>
-			<div class="svg-wrapper">
-				<Error />
-			</div>
-			<p>It seems like coffee was spilled all over this page, and now it can't be displayed.</p>
-			<br />
-			<Button href="/">Start over</Button>
+	<div class="container">
+		<div class="missing">
+			<span class="code">{$page.status}</span>
+			<h1>{$page.status === 404 ? 'Nothing here, sorry.' : 'Something went wrong.'}</h1>
+			<p class="lede">
+				{$page.status === 404
+					? 'The page moved or never existed. The homepage has everything that does.'
+					: 'Reload the page, or start again from the homepage.'}
+			</p>
+			<Button href="/" variant="secondary">Back to the start</Button>
 		</div>
 	</div>
 </main>
@@ -25,26 +29,24 @@
 <Footer />
 
 <style lang="scss">
-	.error-page {
-		background: var(--color--page-background);
-		position: relative;
-	}
-	.container {
+	.missing {
+		min-height: 60vh;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
-		min-height: 60vh;
-		text-align: center;
+		gap: var(--space-sm);
+		padding: var(--space-2xl) 0;
+	}
 
-		.svg-wrapper {
-			width: 300px;
-			margin-top: -60px;
-			margin-bottom: -30px;
+	.code {
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: 0.875rem;
+		color: var(--color--text-quiet);
+	}
 
-			:global(svg) {
-				filter: drop-shadow(2px 6px 0px rgba(0, 0, 0, 0.1));
-			}
-		}
+	h1 {
+		max-width: 16ch;
 	}
 </style>

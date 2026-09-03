@@ -5,8 +5,8 @@
 
 <div class="container">
 	<PageHeader
-		title="LangX plans"
-		lede="Free is a real plan. Fluent lifts its limits, and Polyglot adds the features only it has."
+		title="Free is a real plan. Fluent lifts its limits. Polyglot adds what only it has."
+		lede="Replying and correcting are unlimited on every plan. Prices are shown in the app."
 	/>
 	<Pricing />
 </div>
