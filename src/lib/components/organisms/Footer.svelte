@@ -25,6 +25,7 @@
 				{ label: 'Good first issues', href: 'https://github.com/langx/langx/contribute' },
 				{ label: 'Releases', href: 'https://github.com/langx/langx/releases' },
 				{ label: 'Docs', href: 'https://docs.langx.io' },
+				{ label: 'Word lists', href: '/tools/most-common-words/' },
 				{ label: 'Status', href: 'https://status.langx.io' },
 				{ label: 'Branding', href: 'https://github.com/langx/branding' }
 			]
