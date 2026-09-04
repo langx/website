@@ -1,0 +1,902 @@
+rank	sentence	english
+1	Jebem na to.	I don't give a fuck.
+2	Čo sa stalo?	What happened?
+3	On je lekár.	He is a doctor.
+4	Už si jedol?	Have you eaten yet?
+5	Som tehotná.	I am pregnant.
+7	Jebem na to.	I don't give a fuck.
+8	Dúfam, že nie.	I hope not.
+9	Čo sa stalo?	What happened?
+10	Nie si sama.	You're not alone.
+11	Ako vyzeráš?	What do you look like?
+12	Mal by si ísť.	You should go.
+14	Odpovedz mi.	Answer me.
+16	Drgni do nej.	Push her.
+17	Ja som žena.	I am a woman.
+18	Sme dospelí.	We're adults.
+19	Mumlali ste.	You mumbled.
+20	Áno, prosím.	Yes, please.
+22	Máme len čaj.	We only have tea.
+23	Pobozkaj ma.	Kiss me.
+24	Dobre. A vy?	Fine. And you?
+25	Naľakala ho.	She startled him.
+26	Čo keď má Tom pravdu?	What if Tom is right?
+27	A ak sa mýliš?	What if you're wrong?
+28	Ty si anjel!	You're an angel!
+29	Nepomôžu ti.	They won't help you.
+30	Milujeme ťa.	We love you.
+31	Tom bol iný.	Tom was different.
+32	To je pre Toma.	This is for Tom.
+33	Sú zobudení.	They're awake.
+34	Čo tam robí?	What's he doing over there?
+35	A prečo nie?	And why not?
+36	Vidím niečo.	I see something.
+37	Kde teraz si?	Where are you now?
+38	Aj ja dúfam.	I hope so, too.
+39	Hej ty, poď sem!	Hey you, come here!
+40	Mám rád čaj.	I like tea.
+41	Byť či nebyť?	To be or not to be?
+42	Neni to ich?	Isn't that theirs?
+43	Tom bude tam.	Tom will be there.
+44	Odstrčil ju.	He pushed her away.
+45	Takže, čo myslíš?	So, what do you think?
+46	Ten pes krváca.	The dog is bleeding.
+47	Nič necítim.	I don't feel anything.
+48	Milujem vás.	I love you.
+49	Kde on býva?	Where does he live?
+50	Kto prišiel?	Who came?
+51	Po obede číta.	She reads after lunch.
+52	Bolo chladno.	It was cold.
+53	Bola polnoc.	It was midnight.
+54	Ešte som tu.	I'm still here.
+55	Pomôžem vám.	I will help you.
+56	Mám toho dosť.	I've had enough.
+57	Áno alebo nie?	Yes or no?
+58	Závidíš jej?	Are you jealous of her?
+59	Má tri deti.	He has three children.
+60	Si môj otec.	You are my father.
+61	Sme jeho deti.	We are his children.
+62	Máš ceruzku?	Do you have a pencil?
+63	Viem lietať.	I can fly.
+64	Vieš plávať?	Can you swim?
+65	Čakaj na mňa.	Wait for me!
+66	Veľmi dobre!	Very good!
+67	Tom mal syna.	Tom had a son.
+68	Áno, prosím.	Yes, please.
+69	Možno sa mýlim.	Perhaps I am wrong.
+70	To je od nej.	This is from her.
+71	Zobudil nás.	He woke us up.
+72	Ani myslieť!	Out of the question!
+73	Poď so mnou.	Come along with me.
+74	Chcem knihu.	I want a book.
+75	Zavolala mu.	She called him.
+76	Nie, ďakujem.	No, thank you.
+77	Nemôžem ísť.	I can't go.
+78	Dobre. A vy?	Fine. And you?
+79	Naozaj sneží.	It's really snowing.
+80	Stále sú dnu.	They're still inside.
+81	Čakám na teba.	I'm waiting for you.
+82	Pretože som mal strach.	Because I was scared.
+83	Povedz mi viac.	Tell me more.
+84	Chceš prácu?	Do you want a job?
+85	Ťažko povedať.	It's hard to say.
+86	Klamali nám.	They lied to us.
+87	Ahoj, Chicago!	Hello, Chicago!
+88	On je lekár.	He is a doctor.
+89	Máme statok.	We have a farm.
+90	Boli hladní.	They were hungry.
+91	Moja mama spí.	My mom is sleeping.
+92	Si vo vzťahu?	Are you in a relationship?
+93	Dnes neprídu.	They are not coming today.
+94	Budem čakať.	I'll be waiting.
+95	Ktorý chceš?	Which one do you want?
+96	Je tu niekto?	Is anybody here?
+97	Práve sa učí?	Is he studying now?
+98	Tadiaľto, pane.	This way, sir.
+99	Mali veľa detí.	They had a lot of kids.
+100	Pán Smith si upratuje izbu.	Mr. Smith is cleaning his room.
+101	Všetci váhali.	Everyone hesitated.
+102	Byť či nebyť?	To be or not to be?
+103	Budú mať bábätko.	They're going to have a baby.
+104	Ešte je čas.	There's still time.
+105	Asi si to už vedel.	You probably already knew that.
+106	On veľa vie.	He knows lots.
+107	Tom ide tiež.	Tom is coming, too.
+108	Mala by si ísť.	You should go.
+109	My sme vnútri.	We're inside.
+110	Ženy sú ľudia.	Women are people.
+111	Je Štedrý deň.	It's Christmas Eve.
+112	Máte papier?	Do you have paper?
+113	Máme iba čaj.	We only have tea.
+114	Som tvoj brat.	I'm your brother.
+115	Mám rád čaj.	I like tea.
+117	Si môj otec.	You are my father.
+118	Tento pes kúše.	This dog bites.
+119	Kto je tá pani?	Who's that lady?
+120	Vyber jeden.	Choose one.
+121	Čaj bez ľadu.	Tea without ice.
+122	Toto som chcel.	I wanted this.
+123	Sme zo Sicílie.	We are from Sicily.
+124	Musím robiť.	I have to work.
+125	Kam ide Tom?	Where is Tom going?
+126	Dobrý nápad!	That's a good idea!
+127	Budeš spievať?	Are you going to sing?
+128	Poď so mnou.	Come along with me.
+129	Viete variť?	Can you cook?
+130	S kým hovorím?	Who am I talking with?
+131	On verí mne.	He believes me.
+132	Ako ide život?	How's life?
+133	Dnes je tu veľa ľudí.	There are a lot of people here today.
+134	Mám toho dosť.	I've had enough.
+135	Preto sa nahneval.	That is why he got angry.
+136	Dobré ránko!	Good morning!
+137	Tom je späť.	Tom is back.
+138	Mám ísť s tebou?	Shall we go together?
+139	Môže to urobiť.	He can do it.
+140	Čo sa tam deje?	What's happening there?
+141	Ako to robíš?	How do you do that?
+142	Dobre vedieť.	Good to know.
+143	Vďaka, mami.	Thanks, Mom.
+144	Ona mi verí.	She believes me.
+145	Budeme jesť.	We'll eat.
+146	Nikto nevie.	No one knows.
+147	Som tu kvôli Tomovi.	I'm here because of Tom.
+148	To preto, lebo si dievča.	That's because you're a girl.
+149	Poďme domov!	Let's get home.
+150	Píšem, teda som.	I write, therefore I am.
+151	Máte pravdu.	You're right.
+152	To je moja vec.	That's my business.
+153	Som im vďačná.	I am grateful to them.
+154	Každý šepkal.	Everyone was whispering.
+155	Kedy prídeš?	When will you come?
+156	Mám 31 rokov.	I'm 31 years old.
+157	Daj mi štít.	Give me the shield.
+158	To je moje miesto.	This place is mine.
+159	Videl si to?	Did you see it?
+160	To je prvý raz.	This is the first time.
+161	Čo chce Boh?	What does God want?
+162	Choďte preč!	Go away!
+163	Noc je chladná.	The night is cold.
+164	Hovoria s ním.	They're talking to him.
+165	Idem na lov.	I'm going hunting.
+166	Mám problém.	I have a problem.
+167	Chcete chlieb?	Would you like bread?
+168	Môže nás vidieť?	Can he see us?
+169	Je to na tebe.	It is up to you.
+170	Viete, ako sa tam môžem dostať?	Do you know how I can get there?
+171	Kto prišiel?	Who came?
+172	Mám peniaze.	I have money.
+173	Prestala hovoriť.	She stopped talking.
+175	Moja mama spí.	My mom is sleeping.
+176	Pozriem sa von oknom.	I look out of the window.
+177	Čo o nich vieš?	What do you know about them?
+178	Celý čas mlčal.	He was silent all the time.
+179	Určite nevidíš?	Surely you don’t see?
+180	Kto býva pod vami?	Who lives below you?
+181	Som váš dlžník.	I am in your debt.
+182	Hovor za seba.	Speak for yourself.
+183	Môžem pomôcť?	Can I help?
+184	Dobrý večer!	Good evening.
+185	Aký je mesiac?	What month is it?
+186	On je len dieťa.	He is but a child.
+187	Šiel cez les.	He walked through the forest.
+188	Má tri deti.	He has three children.
+189	Majú pravdu.	They're right.
+190	Rýchlo sa učí.	He learns fast.
+191	Pravda bolí.	Truth hurts.
+192	Taký je život!	C'est la vie!
+193	Ste si istý?	Are you sure?
+194	Čo to znamená?	What does this stand for?
+195	Koľko jabĺk?	How many apples?
+196	Medzi nami je zradca.	We have a traitor among us.
+197	Musíš mu to dať.	You must give it to him.
+198	Má, čo chcela.	She got what she wanted.
+199	Odídeme bez neho.	We'll leave without him.
+200	Bojuj ako muž!	Fight like a man.
+201	Moje meno je Tom.	My name is Tom.
+202	Ideme domov?	Are we going home?
+203	Dievča skáče.	The girl is jumping.
+204	Budú v poriadku.	They'll be fine.
+205	Mám dva psy.	I have two dogs.
+206	Má tri deti.	He has three children.
+207	Daj mi svoj nôž.	Give me your knife.
+208	Podľa nej nepríde.	According to her, he won't come.
+209	Kde je žena?	Where is the woman?
+210	Chcem ho nájsť.	I want to find him.
+211	Kto je tá pani?	Who's that lady?
+212	Mám vaše lístky.	I have your tickets.
+213	Budete sama?	Will you be alone?
+214	Neprídeš zajtra?	Won't you come tomorrow?
+215	Dobre hovorí.	He talks well.
+216	Tom je hore.	Tom's awake.
+217	Vedel som to.	I knew it.
+218	To je náš dom.	This is our house.
+219	Chceš prácu?	Do you want a job?
+220	On veľa vie.	He knows lots.
+221	Vyber jedno.	Choose one.
+222	To je od nej.	This is from her.
+223	Jedna ostala.	There's one left.
+225	Zavolaj pomoc.	Go for help.
+226	Oni to vedia.	They know that.
+227	Čo tam robí?	What's he doing over there?
+228	Má dve dcéry.	He has two daughters.
+229	Mal som odísť skôr.	I should have left earlier.
+230	Hľa, človek!	Behold the Man.
+231	Doktor, ktorý nie je umelcom, nie je ani doktorom.	A doctor who is not an artist is no doctor either.
+232	Je niečo zlé?	Is anything wrong?
+233	Dávaj pozor!	Look out!
+234	Kde je auto?	Where's the car?
+235	Ostaň s nami!	Stay with us.
+236	Vráť sa skoro.	Come back soon.
+237	Rátam s ňou.	I count on her.
+238	Tom nemá čas.	Tom doesn't have time.
+239	Som proti tomu.	I'm against it.
+240	Chcem to neskôr.	I want that later.
+241	Má jednu dcéru.	He has one daughter.
+242	To je čosi iné.	That's something different.
+243	Hovorím rusky.	I speak Russian.
+245	S kým si hovoril?	Who did you talk to?
+246	Choďte prvý.	You go first.
+247	Súhlasím s vami.	I agree with you.
+248	Čo si počul?	What did you hear?
+249	Dobrá práca.	It's well done.
+250	Ja som doma.	I'm at home.
+251	Skúste znova.	Try again.
+252	O čom hovoríš?	What are you talking about?
+253	Ty sa fakt voláš Tom?	Is your name really Tom?
+254	Otvor dvere.	Open the door.
+255	Má na sebe klobúk.	She's wearing a hat.
+256	Kto je ten chlap?	Who is that man?
+257	Budeme musieť čakať.	We'll have to wait.
+258	Išli okolo jazera.	They went around the lake.
+260	Si moja matka.	You're my mother.
+261	Tom je mŕtvy.	Tom is dead.
+262	Z izby pribehli dvaja chlapci.	Two boys came running out of the room.
+263	Príde aj Tom.	Tom is coming, too.
+264	Dom je veľký.	The house is big.
+265	Mám dosť času.	I have enough time.
+266	Prišli včera.	They came yesterday.
+267	Kde ideš, oci?	Where are you going, Dad?
+268	Nie je to číslo.	It is not a number.
+269	Pršalo celé ráno.	It's been raining all morning.
+270	Dom je malý.	The house is small.
+271	Čokoľvek sa ho spýtaj.	Ask him anything.
+272	Dobrá práca.	It's well done.
+273	Jedného dňa budem.	One of these days I will.
+274	Môžeš sa vrátiť domov.	You can return home.
+275	Buď tvorivý!	Be creative.
+276	Poznám jej otca.	I know her father.
+277	Svet je malý.	The world is small.
+278	Počkaj vonku.	Wait outside.
+279	Nebol v rozpakoch spraviť to.	He had no qualms in doing so.
+280	Kedy si prišla?	When did you come?
+281	Je to moc dlhé.	This is too long.
+282	Na svete je 197 štátov.	There are 197 countries in the world.
+283	Žiadny signál.	No signal.
+284	Zlato je kov.	Gold is a metal.
+285	Včera umrel.	He died yesterday.
+286	Dom je malý.	The house is small.
+287	Dnes je pekne.	It's nice today.
+288	Toto je koniec.	This is the end.
+289	Zdvihla ruky.	She raised her hands.
+290	To je jeden dôvod.	That's one reason.
+291	Tom je bez práce.	Tom is jobless.
+292	Šťastný nový rok!	Happy New Year!
+293	Ako sa volá?	What is his name?
+294	Žiarliš na ňu?	Are you jealous of her?
+295	Musíš odísť.	You must leave.
+296	Tom bol dnu.	Tom was inside.
+297	Vidia veci inak.	They see things differently.
+298	Mal by si prísť.	You should come over.
+299	Sme na ceste.	We're on the way.
+300	Zatiaľ žiadne komentáre.	There are no comments for now.
+301	Vtedy som to nevedel.	I didn't know that at the time.
+302	Celú noc jebali.	They fucked all night long.
+303	Začnem znovu.	I'll start over.
+304	Dajte mi štít.	Give me the shield.
+306	Predsa len príde.	He will come after all.
+307	Dobrú nôcku!	Good night!
+308	Chlapec píše.	The boy is writing.
+309	Nevidel som ťa roky.	I haven't seen you in years.
+310	Čím sa živíte?	What do you do for a living?
+311	Ste si istá?	Are you sure?
+312	Chceš žiť večne?	Do you want to live forever?
+313	Kto je ďalší?	Who is next?
+314	Tom bol iný.	Tom was different.
+315	Vieme o nich tak málo.	We know so little about them.
+316	To je môj syn.	This is my son.
+317	Tom nájde spôsob, ako to urobiť.	Tom will find a way to do that.
+318	Nič o ňom neviem.	I know nothing about him.
+319	Si môj priateľ.	You are my friend.
+320	Aký dlhý týždeň!	What a long week!
+321	Som tvoj brat.	I'm your brother.
+322	Boh je slon.	God is an elephant.
+323	Dom je nový.	The house is new.
+324	Robíte si srandu!	You're kidding!
+325	Čo robím zle?	What am I doing wrong?
+326	Čo robím zle?	What am I doing wrong?
+327	Pekné, však?	Pretty, isn't it?
+328	Pôjdem prvá.	I'll go first.
+329	Šťastnú cestu!	Bon voyage!
+330	Ženy sú ľudia.	Women are people.
+331	Hovoril si s nimi?	Did you speak with them?
+332	Otvorte oči.	Open your eyes.
+333	Niet boha okrem Boha.	There is no god but God.
+334	Čo by ste chceli?	What would you like?
+335	Bolí ma celé telo.	My whole body is sore.
+336	Aká je zima!	How cold it is!
+337	Na tvojom mieste by som šla.	I would go if I were you.
+338	Odchádzal z domu.	He walked out of the house.
+340	Počas dňa je teplejšie ako v noci.	During the day it is warmer than at night.
+341	Tom je jediný v obleku.	Tom is the only one wearing a suit.
+342	Zdravím vás.	I greet you.
+343	Čo je to slovo?	What's a word?
+344	Smrť kolonializmu!	Death to colonialism!
+345	Čo máte nové?	What's new?
+347	Toto je môj príbeh.	This is my story.
+348	Čo si robil včera?	What did you do yesterday?
+349	Bolí ma srdce.	My heart's aching.
+350	Kam chcú ísť?	Where do they want to go?
+351	Tom má jasnú hlavu.	Tom has a clear head.
+353	Choďte prvý.	You go first.
+354	Prípad vyriešený!	Case solved!
+355	Tom je mimo mesta.	Tom is out of town.
+356	Vedela som to.	I knew it.
+357	Ste si isté?	Are you sure?
+358	Čo mám urobiť ako ďalšie?	What am I to do next?
+359	Chcem sa hrať!	I want to play.
+360	Chýba mi rodina.	I miss my family.
+361	Kde máš ženu?	Where is your wife?
+362	Bojím sa smrti.	I am afraid of death.
+363	Môžeš to vziať?	Can you take this?
+364	Sneží už dva dni.	It has been snowing for two days.
+365	Zostaň v dome.	Stay in the house.
+366	Si moja sestra.	You are my sister.
+367	Tom je starý.	Tom is old.
+368	Je päť hodín.	It's five o'clock.
+369	Loď sa potápa.	The ship is sinking.
+370	Knihy sú malé.	The books are small.
+371	Čo je šťastie?	What is luck?
+372	Mám dvoch psov.	I have two dogs.
+373	Týždeň má sedem dní.	A week has seven days.
+374	Budem potrebovať pomoc.	I'm going to need some help.
+375	Kde je jedlo?	Where is the food?
+376	Môžeš zostať.	You can stay.
+377	Presťahoval som sa sem pred tromi rokmi.	I moved here 3 years ago.
+378	Čo sa malo stať?	What should've happened?
+379	Čoskoro sa vrátim.	I will be back soon.
+380	Treba veľa vody.	Much water is needed.
+381	Sme na rovnakej strane.	We're on the same side.
+382	Chop sa dňa.	Seize the day.
+383	Je to vaša jediná dcéra?	Is she your only daughter?
+384	Musím pracovať.	I have to work.
+386	To je oveľa lepšie.	That's much better.
+387	Táto časť hlásenia môže byť vynechaná.	This part of the report may be left out.
+388	Daj mi ruku.	Give me your hand.
+389	Chceš to počuť?	Do you want to hear it?
+390	Museli sme zastaviť.	We had to stop.
+391	Mám nový telefón.	I have a new phone.
+392	Nevidím krv.	I don't see blood.
+393	Hlad je najlepší kuchár.	Hunger is the best cook.
+394	Takmer ťa nevidím.	I can barely see you.
+396	Milujte Zem.	Love the earth.
+397	Bola to chyba.	It was a mistake.
+398	Idem do mesta.	I'm going into town.
+399	Opäť vyhrali.	They won again.
+400	Som v práci.	I'm at work.
+401	Čo je láska?	What is love?
+402	Kam si išiel?	Where did you go?
+403	Mesto spalo.	The town slept.
+404	Nemám strach.	I'm not afraid.
+405	To bol zlý zajko.	That was an evil bunny.
+406	Volám sa Tom.	My name is Tom.
+407	V čase vojny zákon mlčí.	In times of war, the law falls silent.
+408	Chceme mier.	We want peace.
+409	Môžem začať?	Can I begin?
+411	Máš detskú tvár.	You have a child-like face.
+412	Čo si počula?	What did you hear?
+413	Tom má syna.	Tom has a son.
+414	Mám niekoľko nápadov.	I have a few ideas.
+415	Spal som na zemi.	I slept on the floor.
+417	Narodil som sa v roku 1982.	I was born in 1982.
+418	Pôjdeme pešo.	We'll go on foot.
+419	Má štyri deti.	He has four children.
+420	Vy ste svetlo sveta.	You are the light of the world.
+421	Čo tu robia?	What are they doing here?
+422	Dajte ju spať.	Put her to sleep.
+423	Si tak pekný!	You're so beautiful!
+424	Žije v meste.	He lives in the city.
+425	Nohy mu trčali z okna auta.	His feet were sticking out of the window of his car.
+426	Aký je účel vašej cesty?	What's the purpose of your trip?
+428	Ono bolo na počiatku u Boha.	He was with God in the beginning.
+429	Si moja dcéra.	You are my daughter.
+430	Tom predniesol Modlitbu Pána.	Tom recited the Lord's Prayer.
+431	Krabice boli všade.	Boxes were everywhere.
+432	Vzal som si ju.	I married her.
+433	Kde sú dievčatá?	Where are the girls?
+434	Volal som ti.	I called you.
+435	Čo viacej by som mohol chcieť?	What more could I want?
+436	Ani myslieť!	Out of the question!
+437	Ste šťastný?	Are you happy?
+438	Šiel cez les.	He walked through the forest.
+439	Vedeli sme to.	We knew this.
+440	Nemám inú možnosť.	I have no other option.
+441	Čo hovorila?	What did she say?
+442	Môže sa to stať.	It might happen.
+443	Ostaň vnútri.	Stay inside.
+444	Dve hlavy sú lepšie ako jedna.	Two heads are better than one.
+445	Cesta je cieľ.	The journey is the destination.
+446	Päť je menej ako osem.	5 is less than 8.
+447	Koľko peňazí máš?	How much money do you have?
+448	Budem čakať.	I'll be waiting.
+449	Žiaden problém!	No problem!
+451	Ty a ja sme muži.	You and I are men.
+452	Moja rodina je malá.	My family is small.
+453	Hovoríte česky?	Do you speak Czech?
+454	I ženy chcú mať sex.	Women want to have sex too.
+455	Sú ešte voľné miesta?	Are any seats still available?
+456	Druhý deň je utorok.	The second day is Tuesday.
+457	Je odo mňa mladšia.	She is younger than me.
+458	Nikoho iného som tam nepoznal.	I didn't know anyone else there.
+459	Počkám na ne.	I'll wait for them.
+460	Hovoria s ním.	They're talking to him.
+461	Je šesť hodín.	It's six o'clock.
+462	Tom sa pozrel dolu na koberec.	Tom looked down at the carpet.
+463	Vieš si to predstaviť?	Can you imagine that?
+464	Šaty robia človeka.	Clothes make the man.
+465	Aký krásny byt!	What a beautiful apartment!
+466	Musím sa stretnúť s Tomom.	I've got to meet Tom.
+467	Akú spoločnosť zastupujete?	What company do you represent?
+468	Nemôžeš zomrieť.	You cannot die.
+469	Prišiel si posledný.	You were the last to arrive.
+470	Čo je to za chlapa?	Who is that guy?
+471	Jediné párne prvočíslo je 2.	2 is the only even prime number.
+472	Vieš odpoveď?	You know the answer?
+473	Umy si nohy.	Wash your feet.
+474	Ľuďom nemožno žiť bez vody.	Men can't live without water.
+475	Je to nezávislý film.	It's an indie movie.
+476	Čo je otázka?	What's the question?
+477	Tom je môj manžel.	Tom is my husband.
+478	Sme na jednej vlne.	We're on the same page.
+479	Toho tvaru by napríklad mohol byť kôň.	That shape could be a horse, for example.
+481	Ktosi ťa čaká.	Somebody is waiting for you.
+482	Žiť znamená bojovať.	To live is to fight.
+483	Mesiac svieti.	The moon is shining.
+484	Musíme sa držať spolu.	We've got to stick together.
+485	Môžem to zmeniť.	I can change that.
+486	Nechcem chodiť do školy.	I don't want to go to school.
+487	Počkám v aute.	I'll wait in the car.
+488	Prídem, keď budem môcť.	I will come when I can.
+489	Blázon na všetko dáva svoje meno.	A fool puts his name on everything.
+490	Poznám Tomov brata.	I know Tom's brother.
+491	Veľa šťastia!	Good luck to you!
+492	Celá posádka bola zachránená.	The whole crew was saved.
+493	Je pol druhej.	It's half past one.
+494	Máme stretnutie.	We are having a meeting.
+495	Som na pôjde.	I'm in the attic.
+496	Tom mu môže ukázať.	Tom can show him.
+497	Veríš v Boha?	Do you believe in God?
+498	Snáď dnes Toma uvidíme.	Hopefully, we'll see Tom today.
+499	Zachovaj pokoj.	Keep calm.
+500	Má desať kráv.	He has ten cows.
+501	Nechcem prestať.	I don't want to stop.
+502	Činy, nie slová.	Actions, not words.
+503	Budeme jesť.	We'll eat.
+504	Neviem, ako to dokázať, keďže je to príliš očividné!	I don't know how to demonstrate it, since it's too obvious!
+505	Často robíme chybu.	We often make mistakes.
+506	Cisár nemá šaty!	The emperor doesn't have any clothes on.
+507	Musíme pokračovať.	We must continue.
+508	Nerozumiem mu.	I can't make him out.
+509	Tom sa stal otcom.	Tom became a father.
+510	Najlepší spôsob ako získať priateľa, je byť priateľom.	The best way to have a friend is to be a friend.
+511	Kvôli nemu som zmeškal autobus.	I missed my bus because of him.
+512	Mám lepší nápad.	I have a better idea.
+513	Maj krásny deň!	Have a nice day!
+514	Čo ste počuli?	What did you hear?
+516	Miluje kávu.	She loves coffee.
+518	Áno, prídem!	Yes, I'm coming!
+519	Oni to vedia.	They know that.
+520	Jazdi pomaly.	Drive slowly.
+521	Koľko to bude stáť?	How much will it cost?
+522	Tom je užitočný idiot.	Tom is a useful idiot.
+523	Je tu toľko krvi.	There's so much blood here.
+524	Svetlo zmizlo.	The light disappeared.
+525	To je dobrá správa.	This is good news.
+526	Bála sa prejsť cez cestu.	She was scared to cross the road.
+527	Myslel som si, že si bol nahnevaný na mňa a nie na celý zvyšok rodiny.	I thought you were only angry with me and not with the rest of my family.
+528	Vďaka Bohu, si v poriadku.	Thank God you're fine.
+529	Zostanem tu a budem sa pozerať.	I'll stay here and watch.
+530	Čo sa deje v Tomovej hlave?	What's going on in Tom's head?
+531	Je to len sen.	It's just a dream.
+532	Bolí ma zub.	I've got a toothache.
+533	Nemáš na výber.	You have no other choice.
+534	Čo mám kúpiť?	What should I buy?
+535	Pite veľa vody.	Drink plenty of water.
+536	Ženy sú krásne.	Women are beautiful.
+537	Obchod je už zatvorený.	The store is already closed.
+538	Má mnoho kníh.	She has plenty of books.
+539	Je to slovná hra.	This is a pun.
+541	Zvýšila hlas.	She raised her voice.
+542	Tom začal hľadať novú prácu.	Tom has begun looking for a new job.
+543	On je mladý.	He is young.
+544	Pôjdeš vlakom?	Will you go by train?
+545	Varíme vodu.	We are boiling water.
+546	Išla cez les.	She walked through the forest.
+547	Kráľ prišiel.	The king has come.
+548	Sadol si vedľa mňa.	He sat down by my side.
+549	Ceny idú hore.	Prices are going up.
+550	To patrí nám.	That belongs to us.
+551	Si tak pekná!	You're so beautiful!
+552	Tom je dobrosrdečná osoba.	Tom's a good-hearted person.
+553	Má jednu dcéru.	He has one daughter.
+554	Čuch je jedným z piatich zmyslov.	Smell is one of the five senses.
+555	Čoho sa najviac bojíš?	What are you most afraid of?
+556	Aký máš názor?	What's your opinion?
+559	Prepáčte, nepoznám vaše meno po otcovi.	Excuse me, I don't know your patronymic.
+560	Čo si robila včera?	What did you do yesterday?
+561	Daj mi tisíc bozkov.	Give me a thousand kisses.
+563	Pes je biely.	The dog is white.
+564	Čo je na obed?	What's for lunch?
+565	Tom musel v rade čakať tri hodiny.	Tom had to wait in line for three hours.
+566	Napriek dažďu, vyšiel som von.	Although it was raining, I went out.
+568	Napísal list.	He has written a letter.
+570	Rozdiel je značný.	The difference is substantial.
+571	Čomu nerozumieš?	What don't you get?
+572	Väčšina gitár má šesť strún.	Most guitars have six strings.
+573	Chceš počúvať hudbu?	Do you want to listen to music?
+574	Zdržte sa ďalších poznámok.	Refrain from making other comments.
+576	Mám novú knihu.	I have a new book.
+578	To je tajomstvo.	That's a secret.
+579	Ona je priateľka?	Is she a friend?
+580	Nepijem pivo.	I don't drink beer.
+581	Jeden krok a budeš mŕtvy!	Move a step, and you'll be a dead man!
+582	Bojím sa tmy.	I'm afraid of the dark.
+583	Išli ste všetci?	Did you all go?
+584	Chceš sa stať mojou ženou?	Do you want to be my wife?
+585	Bolesť zmizla.	The pain has gone.
+586	Čítam knihu.	I am reading a book.
+587	Tom uprednostňoval spoločnosť svojich psov pred ľuďmi.	Tom preferred the company of his dogs to people.
+588	Vladimir Putin je súčasný prezident Ruska.	Vladimir Putin is the current president of Russia.
+589	Môj strýko je hluchý.	My uncle is deaf.
+590	Idete domov?	Are you going home?
+591	Je to ich rozhodnutie.	It's their decision.
+592	Nemáš záujem?	Aren't you interested?
+593	Tom má milý úsmev.	Tom has a nice smile.
+594	Mám na linke ďalšiu osobu.	I have another person on the line.
+595	Kde je telefónny zoznam?	Where's the telephone book?
+596	Má troch synov.	He has three sons.
+597	Mali veľa detí.	They had a lot of kids.
+598	Klavír je drahý.	A piano is expensive.
+599	Prečo volala?	Why did she call?
+600	Tieto knihy sú veľmi staré.	These books are very old.
+601	Môžem ťa volať Tom?	May I call you Tom?
+602	Voda je teplá.	The water is warm.
+603	Kde mám druhú ponožku?	Where's my other sock?
+605	Aká je vaša ďalšia otázka?	What's your next question?
+606	Idú zlým smerom.	They're going in the wrong direction.
+608	Nezostávalo nič iné, len sedieť a čakať.	There was no choice but to sit and wait.
+609	Už je sedem.	It's already seven.
+610	Vojna sa skončila.	The war is over.
+612	Na konci vety chýba otáznik.	The end of the sentence is missing a question mark.
+613	Delí sa na tri časti.	It's divided into three parts.
+615	Tom je schopný právnik.	Tom is a capable lawyer.
+616	Zdravím! Čo nového?	Hi! What's new?
+617	Čítali ste to až do konca?	Did you read it through to the end?
+618	Prines kľúč.	Bring the key.
+619	Je veľkým potešením vidieť svoje vlastné vety preložené do množstva iných jazykov.	It is a great joy to see your own sentences translated into a multitude of other languages.
+620	Pozri sa mi do očí.	Look into my eyes.
+621	O Plute sa vie málo.	Little is known about Pluto.
+622	Použi svoj mozog.	Use your brain.
+623	Mal priateľov po celom svete.	He had friends all over the world.
+625	Vraj sa zbláznil.	He is said to have gone nuts.
+626	Bolí ma hlava.	I have a headache.
+627	Môžeš to otvoriť?	Can you open this?
+630	Som nová učiteľka.	I'm the new teacher.
+631	Odlož knihy.	Put your books away.
+632	Tom spieva najlepšie z celej triedy.	Tom is the best singer in my class.
+633	Ako sa voláš?	What is your name?
+634	Urobil si chybu.	You made an error.
+635	Mám len malú záhradku.	I have only a small garden.
+637	Dal mi darček.	He gave me a present.
+639	Šesť delené dvoma je tri.	Six divided by two is three.
+641	Som policajt.	I am a policeman.
+642	Ľudia sa boja vojny.	People are afraid of war.
+643	Nerád hádam.	I don't like to guess.
+644	Kde sú topánky?	Where're the shoes?
+645	Cesta je cieľ.	The journey is the destination.
+646	Tom má sestru okolo tvojich rokoch.	Tom has a sister about your age.
+647	Je osem hodín.	It's eight o'clock.
+648	Hľadám inú prácu.	I'm looking for another job.
+649	Človek pozostáva z duše a tela.	Man consists of soul and body.
+650	Mária chce mať druhé dieťa.	Mary wants to have a second child.
+651	Nebude to trvať dlho.	It won't take long.
+652	Máš plány na tento víkend?	Do you have plans for this weekend?
+653	Už šla domov.	She has already gone home.
+654	Krv obsahuje DNA.	Blood contains DNA.
+655	Chodí do školy?	Does he go to school?
+656	Kedy prídeš?	When will you come?
+657	Kde je lietadlo?	Where is the plane?
+658	Ďakujem za pozornosť!	Thank you for your attention!
+659	Auto je na ulici.	A car is in the street.
+660	Máš vlastný bankový účet?	Do you have your own bank account?
+661	Bol som u doktora.	I was at the doctor's.
+662	Nie je dôvod sa báť.	There's no reason to be afraid.
+663	Všetci chalani kričali.	All the boys were yelling.
+664	Vrhol na mňa zúrivý pohľad.	He gave me a fierce look.
+665	Dvakrát ma kopol.	He kicked me twice.
+666	Daj Tomovi príležitosť.	Give Tom a chance.
+668	Venuša je druhá planéta od Slnka.	Venus is the second planet from the Sun.
+669	Dlho som čakal.	I've waited a long time.
+671	Tu nesmieš ostať.	You can't stay here.
+672	Jar je vo vzduchu.	Spring is in the air.
+673	Zmenil prácu.	He changed his job.
+674	On je chorý.	He is sick.
+675	Hovoríme rýchlo.	We speak quickly.
+676	Duševné zdravie je taktiež dôležité.	Mental health is also important.
+677	Tom má narodeniny.	It's Tom's birthday.
+678	Tom kŕmi psa.	Tom feeds the dog.
+679	Tom si vypýtal povolenie.	Tom asked for permission.
+680	Musím ťa opustiť.	I have to leave you.
+681	Každý začiatok je ťažký.	Every beginning is difficult.
+682	Buďte ticho!	Keep quiet.
+683	Chcem vyzerať ako ona.	I want to look like her.
+684	Sme v svojej rodnej krajine.	We are in our homeland.
+685	Svet je ako kniha, a tí čo necestujú čítajú len jednu stranu.	The world is like a book, and those who don't travel read only one page.
+686	Nabudúce by si si mal dávať väčší pozor.	You should be more careful the next time.
+688	Oheň planie.	The fire is burning furiously.
+689	Ak si ma z tej strany nepoznal, tak si ma nepoznal vôbec.	If you didn't know me that way then you simply didn't know me.
+690	Vrátim sa budúci rok.	I'll be back next year.
+692	To nie je vtip.	This isn't a joke.
+693	Milujem ťa z celého srdca.	I love you from the bottom of my heart.
+694	Sú toho istého veku.	They are the same age.
+695	Kde je stôl?	Where's the table?
+696	Čo môžem naučiť Toma?	What can I teach Tom?
+697	Musíte sa pripraviť na boj.	You must prepare yourselves for battle.
+698	Zdravie je vzácny poklad.	Health is a precious treasure.
+699	Večera ochladla.	Dinner has gone cold.
+700	Všetko je v Božích rukách.	All things are in God's hands.
+701	Mám rád čaj.	I like tea.
+703	Iné krajiny, iné zvyky.	Other lands, other customs.
+704	Musíš brať do úvahy fakt, že bola chorá.	You must take into account the fact that she was ill.
+705	Som plný pochýb.	I am full of doubt.
+706	Šli na ryby.	They went fishing.
+707	Mám chuť na pizzu.	I feel like having pizza.
+708	Nádej je bdelý sen.	Hope is a waking dream.
+709	Dážď prešiel v sneh.	The rain changed into snow.
+710	Aký dlhý týždeň!	What a long week!
+711	Spieval pieseň.	He sang a song.
+712	Tom nám klamal.	Tom lied to us.
+713	Dovidenia, Sayoko.	Goodbye, Sayoko.
+714	Splietla si ho s niekým iným.	She mixed him up with someone else.
+715	Každý vie, že to išlo.	Everyone knows it worked.
+716	Videl som psa. Pes držal v papuli kus mäsa.	I saw a dog. The dog held a piece of meat in its mouth.
+717	Napísal knihu o žene svojich snov.	He wrote a book about the woman of his dreams.
+718	Vždy ju bude milovať.	He will always love her.
+719	Človek má dar reči.	Man has the ability to speak.
+720	Nebuď hlúpy.	Don't be foolish.
+721	Máme rovnaké mená.	We both have the same name.
+722	Boli tam traja muži.	There were three men.
+723	Ako sa má Rob?	How is Rob?
+724	Bola to len nehoda.	It was nothing more than an accident.
+725	Čo bolo treba dokázať.	Which was to be demonstrated.
+727	Tom bol jednou z obetí.	Tom was one of the victims.
+728	Kde je môj prsteň?	Where's my ring?
+729	Lesy sú pľúca Zeme.	Forests are the lungs of the earth.
+730	Otče náš, ktorý si na nebesiach, posväť sa meno tvoje.	Our Father, who art in heaven, hallowed be thy name.
+731	Vyšlo slnko.	The sun came out.
+732	Môj otec nikdy nebol mimo krajiny až doteraz.	My father has never been outside the country until now.
+733	Tento program nie je možné spustiť v režime DOS.	This program cannot be run in DOS mode.
+734	Moje minulé ja je iná osoba.	My past self is another person.
+735	Kto je ten chalan?	Who's that young guy?
+736	Musíme utiecť.	We must escape.
+737	Čoho sa bojíš?	What are you afraid of?
+738	Nemôžem zabudnúť.	I can't forget.
+739	Čo je na raňajky?	What's for breakfast?
+740	Bolí ma chrbát.	My back hurts.
+741	Som Tomova teta.	I'm Tom's aunt.
+742	Liek má okamžitý účinok.	The medicine had an immediate effect.
+743	Tom je hrdina.	Tom is a hero.
+744	Ona je mladá.	She is young.
+746	Izba bola tmavá.	The room was dark.
+748	Čo budeme piť?	What will we drink?
+749	Sme vo vojne.	We're at war.
+750	Neviem čítať.	I can't read.
+751	Skúste hádať.	Try to guess.
+752	Vedela, že môže vyhrať.	She knew that she could win.
+753	Nebola zima.	It wasn't cold.
+755	Tom ten zvuk nepoznal.	Tom didn't recognize the sound.
+757	Kto hľadá, nájde.	Who searches, finds.
+759	Svet je škola.	The world is a school.
+760	Nebudem klamať.	I won't lie.
+761	Otvor knihu a ona otvorí tvoju dušu.	Open a book and it will open your soul.
+762	Moje narodeniny sú 12. júna. Magdalena sa narodila v rovnaký deň a rok ako ja.	My birthday is June 12. Magdalena was born on the same day and year as me.
+763	Vláda ho pozbavila všetkých práv.	The government deprived him of all his rights.
+764	Nie som vojak.	I'm not a soldier.
+765	Tom vešia obraz na stenu.	Tom is hanging a picture on the wall.
+766	To je kniha.	It is a book.
+767	Majú žaby zuby?	Do frogs have teeth?
+770	Vzduch bol vlhký.	The air was humid.
+772	Počúvam hudbu.	I'm listening to music.
+773	Rady čítate?	Do you like to read?
+774	Myseľ mu hmýri novými nápadmi.	His brain bubbles with new ideas.
+775	Pýtal som sa to samého seba tisíc ráz.	I've asked myself that question a thousand times.
+777	Mali by sme niečo postaviť.	We should build something.
+778	Kde je vaša manželka?	Where's your wife?
+779	On veľa čítal.	He read a lot.
+780	Nôž je tupý.	The knife is dull.
+781	Dievča šlo do školy aj keď bolo choré.	The girl went to school in spite of her illness.
+782	Aký jazyk učíš?	Which language do you teach?
+783	Pil som víno.	I drank the wine.
+784	Lev je zviera.	The lion is an animal.
+785	Čo máš v pravej ruke?	What do you have in your right hand?
+788	Vidím piatich chlapov.	I see five men.
+789	Ako sa volajú vaše mačky?	What are your cats' names?
+790	Neni hladný.	He isn't hungry.
+791	Naším problémom je pravý opak.	Our problem is the opposite.
+792	Stálo to za pokus.	It was worth a try.
+794	Myslím, že len mrháte časom.	I think you're just wasting your time.
+795	Budem sa učiť.	I will be learning.
+797	Utri si nos.	Wipe your nose.
+798	Ruka ruku myje.	One hand washes the other.
+799	Už si jedla?	Have you eaten yet?
+800	Tom si zakryl ústa.	Tom covered his mouth.
+801	Páči sa mi oblečenie.	I like clothes.
+802	Aký by bol svet bez žien?	What would the world be like without women?
+803	Časy boli ťažké.	Times were hard.
+804	Hocičo sa ho spýtaj.	Ask him anything.
+805	Myslel som, že by nebolo bezpečné prejsť cez ten most.	I thought it wouldn't be safe to cross that bridge.
+806	Musel som to predať.	I had to sell it.
+808	Ona je kráľovná.	She's a queen.
+809	Nejeme mäso.	We don't eat meat.
+810	Vidíme očami.	We see with our eyes.
+812	Mohli by ste mi priniesť pohár vody?	Could you bring me a glass of water?
+813	Dom je krásny.	The house is beautiful.
+814	Dnes je piatok.	This day is Friday.
+815	Majte po ruke dobrý slovník.	Keep a good dictionary at hand.
+816	Čakám na vás.	I'm waiting for you.
+817	Tom otvoril okno.	Tom opened a window.
+818	Hudba ustala.	The music stopped.
+819	Bál sa to urobiť.	He was scared to do it.
+821	Prebýva tu radosť.	Happiness lives here.
+822	Toto kráľovstvo potrebuje nového kráľa.	This kingdom needs a new king.
+823	Situácia je vážna.	The situation is serious.
+824	Tom má vysoký tlak.	Tom has high blood pressure.
+825	Pred dvoma dňami som dal výpoveď v práci.	Two days ago I quit my job.
+826	Volali ste už vedúcemu?	Have you called the boss already?
+827	Ako sa volajú vaši rodičia?	What are your parents' names?
+828	Stôl je čistý.	The table is clean.
+829	Pokrútil hlavou.	He shook his head.
+831	Môžete zaručiť našu bezpečnosť?	Can you guarantee our safety?
+833	Kde je vlak?	Where is the train?
+834	Som na ňu hrdý.	I'm proud of her.
+835	Milujem ťa z celého srdca.	I love you from the bottom of my heart.
+836	Ja sa len pýtam otázky.	I'm just asking questions.
+837	Tento stroj nejde.	This machine does not work.
+838	Poznali cenu priateľstva a chránili ho ako oko v hlave.	They knew what friendship is worth and cherished it like the apples of their eyes.
+839	Gréci sú dobrí kuchári.	Greeks are good cooks.
+840	Môžeš to napísať?	Can you write it down?
+841	Zdvihni nohu.	Lift your leg.
+842	Chodil si škôlky?	Did you go to kindergarten?
+843	Ona je chorá.	She is sick.
+844	Preložte každé slovo v tejto vete jedno po druhom. Potom vysvetlite význam vety.	Translate each word in this sentence, one by one. Then, say what the sentence means.
+845	Začni spievať.	Start singing.
+846	Boh je väčší.	Allahu akbar.
+847	Nebo a peklo existujú v srdci človeka.	Heaven and hell exist in the hearts of man.
+848	Nemá počítač.	He doesn't have a computer.
+849	Opustil miestnosť.	He left the room.
+850	Má právo poznať pravdu.	She has the right to know the truth.
+852	Kôň je čierny.	The horse is black.
+853	Nielen z chleba žije človek.	Man lives not by bread alone.
+854	Nie si ženatý?	Aren't you married?
+855	Dobro vždy zvíťazí.	Good always wins.
+856	On je učiteľ.	He is a teacher.
+857	Všetci na ňu čakajú.	Everyone is waiting for her.
+858	Upiekol koláč.	He baked a cake.
+860	Dáte si niečo na pitie?	Would you like something to drink?
+861	Slnko je hviezda.	The sun is a star.
+862	Mám mokré gule.	My balls are dripping wet.
+865	Nechajte zapnuté svetlá.	Keep the lights on.
+866	Vidím kameň.	I see a stone.
+867	Zvykol som si viesť denník.	I used to keep a diary.
+869	Bolí ma krk.	My throat hurts.
+870	Časovaná bomba tiká.	The time bomb is ticking.
+871	Bohužiaľ je to pravda.	It's unfortunately true.
+872	Je Gibraltár krajina?	Is Gibraltar a country?
+874	Som nervózny.	I'm nervous.
+875	Druhí policajti začali strieľať do davu.	The other policemen began shooting at the crowd.
+876	Zarábam sto eur denne.	I make €100 a day.
+877	Nik nemôže slúžiť dvom pánom.	No man can serve two masters.
+878	Kvety sú žlté.	Flowers are yellow.
+879	Tom bude písať list.	Tom is going to write a letter.
+880	Vypi pohár vody.	Drink a cup of water.
+881	Chceme mier.	We want peace.
+883	Vďaka za ponuku.	Thanks for the suggestion.
+885	Zamávala oboma rukami, aby ju mohol nájsť.	She waved both her hands so that he could find her.
+887	Zmenila si heslo?	Did you change the password?
+888	Naozaj sa musíš pýtať, aby si vedel odpoveď?	Do you really need to ask the question to know the answer?
+889	Žijú v Burundi.	They live in Burundi.
+890	Človek pozostáva z duše a tela.	Man consists of soul and body.
+891	Je deväť hodín.	It's nine o'clock.
+893	Je to pre mňa veľká česť.	I feel very honored.
+894	Boh je najväčší.	God is the greatest.
+895	Musíš sa správne rozhodnúť.	You have to make the right choice.
+896	Kde je posteľ?	Where is the bed?
+897	Musia platiť predom.	They have to pay in advance.
+898	Pôjdete vlakom?	Will you go by train?
+901	Pero je mocnejšie ako meč.	The pen is mightier than the sword.
+902	Má dve dcéry.	He has two daughters.
+908	Gazda najal päť nových robotníkov.	The farmer employed five new workers.
+909	Kde sú moje noviny?	Where is my newspaper?
+910	Kde je moja malá princezná?	Where's my little princess?
+911	Pes je biely.	The dog is white.
+912	Prišiel som autom.	I came by car.
+913	Tom má rad psy.	Tom likes dogs.
+914	Tom je známy jazykovedec.	Tom is a famous linguist.
+915	Tieto sú moje nohavice.	Those are my trousers.
+916	Tom je zas opitý.	Tom is drunk again.
+917	Šli na ryby.	They went fishing.
+918	Milujem ťa, srdiečko.	I love you, sweetheart.
+919	Peklo sú tí druhí.	Hell is other people.
+920	Jeho reč nás veľmi dojala.	His speech impressed us very much.
+921	Hladina mora sa leskne v slnečnom svite.	The sea's surface sparkles in the sunlight.
+922	Ulice sú zaplavené.	The streets are flooded.
+923	Si vo vzťahu?	Are you in a relationship?
+925	Je slobodnou matkou s dvomi deťmi.	She's a single mother of two.
+926	Vietor fúka.	The wind is blowing.
+927	Klingončina je určite najmenej užitočný jazyk.	Klingon has to be the most useless language.
+928	Chyby sa stávajú.	Mistakes happen.
+929	Tom zjedol ďalšieho gumového medvedíka.	Tom ate another gummy bear.
+930	Toto je naš hlavný cieĺ.	This is our main goal.
+931	Je to pravá koža?	Is this real leather?
+933	To je začiatok novej éry.	This is the beginning of a new era.
+935	Milujem leto.	I love summer.
+936	Prosím, príď.	Please come.
+937	Máme prekrásnu krajinu.	We have a beautiful country.
+938	Ako sa voláte?	What is your name?
+940	Má krásu aj rozum.	She has both beauty and brains.
+941	Má kopec kníh.	She has plenty of books.
+942	Toto je riešenie.	This is the solution.
+943	Nakŕmil koňa.	He fed the horse.
+945	Dlho som čakala.	I've waited a long time.
+947	Rád by som povedal zopár slov.	I'd like to say a few words.
+948	Zmena je strašidelná.	Change is scary.
+949	Obťažoval ma plač dieťaťa.	I was bothered by the baby's crying.
+951	To je môj braček Tom.	This is my little brother, Tom.
+952	Jem trikrát denne.	I eat three times a day.
+953	Ich prácou je smažiť zemiaky.	Their job is to fry the potatoes.
+954	Nemohol som dýchať kvôli dymu.	I was unable to breathe because of the smoke.
+955	Kde je váš hotel?	Where's your hotel?
+956	To nie je moje pravé meno.	That's not my real name.
+957	Kde je východ?	Where is the east?
+958	Vidím slzy v tvojich očiach.	I see tears in your eyes.
+959	Aký nádherný dom!	What a beautiful house!
+961	Rieka zaplavila celú oblasť.	The river flooded the entire region.
+963	Tento je ešte živý.	This one's still alive.
+964	Ďakujem za návrh.	Thanks for the suggestion.
+965	Ste si istí?	Are you sure?
+966	Niektorí išli pešky, iní bicyklom.	Some went on foot, and others by bicycle.
+969	Plytváme vodou.	We're wasting water.
+970	Vtáky nepoznajú hranice.	Birds know no borders.
+971	Musím ísť do banky.	I have to go to the bank.
+972	Tom je od vás starší.	Tom is older than you.
+973	Splníš svoj sľub?	Will you keep your promise?
+974	Si dôležitý.	You are important.
+978	Cena rastie.	The price is going up.
+980	Prešla okolo bez toho, aby ma videla.	She passed by without seeing me.
+981	Taký je pôvod neba a zeme, keď boli stvorené. V tom čase, keď Pán, Boh, urobil zem a nebo.	These are the generations of the heaven and the earth, when they were created, in the day that the Lord God made the heaven and the Earth.
+982	Tom je v zlom stave, ale je nažive.	Tom is in bad shape, but he's alive.
+983	Stále si mi neprezradil všetky svoje tajomstvá.	You still haven't told me all your secrets.
+984	Je možné, že sme podcenili jeho schopnosť.	We might have underestimated his ability.
+985	Ryby žijú vo vode.	Fish live in the water.
+986	Nechcem plakať.	I don't want to cry.
+987	Práve som poumýval všetok riad.	I have just washed all the dishes.
+989	Mám na linke ďalšiu osobu.	I have another person on the line.
+990	Chcem byť lepším človekom.	I want to be a better person.
+991	Prečo klameš?	Why do you lie?
+993	Odpadla od strachu.	She fainted with fear.
+994	Pozri vyššie.	See above.
+995	Chcem bývať na hrade.	I want to live in a castle.
+996	To je čosi iné.	That's something different.
+997	Lož má krátke nohy.	A lie has no legs.
+998	Polovica z toho je vaša.	Half of this is yours.
+999	Začni spievať.	Start singing.

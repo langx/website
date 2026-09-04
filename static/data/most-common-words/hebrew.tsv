@@ -1,6 +1,6 @@
 rank	word	english
 1	לא	Not; used in negating verbs, adjectives, and adverbs
-2	את	Used to introduce a semantically definite direct object
+2	את	To, with
 3	אני	I
 4	זה	this
 5	אתה	you, thou
@@ -96,7 +96,7 @@ rank	word	english
 95	לה	Indicating the destination of movement
 96	קצת	A little, a bit, a little bit
 97	מישהו	someone, somebody
-98	אותם	Used to introduce a semantically definite direct object
+98	אותם	To, with
 99	לעזאזל	Damn!, Hell!
 100	לראות	to-infinitive of רָאָה
 101	הנה	hither, here, over here
@@ -156,7 +156,7 @@ rank	word	english
 155	בזה	To degrade, to despise, to abuse: defective spelling of ביזה
 156	דרך	Through, via, by way of
 157	לעזור	to-infinitive of עָזַר
-158	אותנו	Used to introduce a semantically definite direct object
+158	אותנו	To, with
 159	מספיק	Enough, sufficiently
 160	תהיה	Second-person masculine singular future of הָיָה
 161	הכי	Most, the most
@@ -434,7 +434,7 @@ rank	word	english
 433	זונה	female prostitute
 434	שעה	hour
 435	נהיה	to become, come to be
-436	אותן	Used to introduce a semantically definite direct object
+436	אותן	To, with
 437	חצי	half
 438	בקרוב	Soon, in the near future
 439	סיבה	cause
@@ -1037,7 +1037,7 @@ rank	word	english
 1036	מטרה	a target, aim
 1037	ללמד	to-infinitive of לימד / לִמֵּד
 1038	עיר	city
-1039	אמן	Used to express agreement with what was just stated: amen
+1039	אמן	defective spelling of אומן
 1040	נאמר	to be said
 1041	צד	A side
 1042	נקודה	point
@@ -2983,7 +2983,7 @@ rank	word	english
 2982	גרביים	plural indefinite form of גֶּרֶב: socks
 2983	עידן	eon, era
 2984	בנייה	building, construction
-2985	טריפ	Used in assorted ways to translate the English noun trip
+2985	טריפ	A trip, a drug trip; found especially in the phrase טריפ רע
 2986	סיפון	deck of a ship
 2987	מראות	plural indefinite form of מַרְאָה
 2988	פרצה	loophole

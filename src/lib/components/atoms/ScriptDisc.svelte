@@ -1,25 +1,27 @@
 <script lang="ts">
+	import { LANGUAGE_FLAGS } from '$lib/data/language-flags';
+
 	/**
-	 * A language's own first character in a disc — 中 for Chinese, ا for Arabic,
-	 * Я for Russian.
+	 * A language's flag in a disc, falling back to its own first character —
+	 * 中 for Chinese, ا for Arabic — where no single country is the answer.
 	 *
-	 * Deliberately not a flag. A language is not a country: Arabic would have to
-	 * pick one of twenty-two, Spanish one of twenty, and English either Britain
-	 * or the United States. The practical objection settles it as well — Windows
-	 * ships no flag glyphs at all, so flag emoji render there as bare letter
-	 * pairs, which is exactly the audience a language site cannot afford to show
-	 * broken type to.
-	 *
-	 * Shaped like the app's avatar: a pill disc, Nunito 800, muted fill.
+	 * The disc is what makes the fallback work in both directions. Windows ships
+	 * no flag glyphs at all, so a flag emoji renders there as the two regional
+	 * indicator letters; inside a circle "TR" reads as a country code rather
+	 * than as broken type, which is why the flag is never set loose on the page.
 	 */
 	export let nativeName: string;
+	export let code: string | undefined = undefined;
 	export let size = 40;
 
-	/** Skip anything that is not a letter, so "'Ολα" discs on Ο, not the mark. */
+	$: flag = code ? LANGUAGE_FLAGS[code] : undefined;
+	/** Skip anything that is not a letter, so "Ολα" discs on Ο, not the mark. */
 	$: glyph = ([...nativeName].find((c) => /\p{L}/u.test(c)) ?? nativeName[0] ?? '?').toUpperCase();
 </script>
 
-<span class="disc" style="--size:{size}px" aria-hidden="true">{glyph}</span>
+<span class="disc" class:flag={!!flag} style="--size:{size}px" aria-hidden="true">
+	{flag ?? glyph}
+</span>
 
 <style lang="scss">
 	.disc {
@@ -34,11 +36,19 @@
 		color: var(--color--text);
 		font-family: var(--font--title);
 		font-weight: 800;
-		// The app's avatar sets its glyph at 34% of the disc.
 		font-size: calc(var(--size) * 0.4);
 		line-height: 1;
 		// A Devanagari or Thai glyph is taller than a Latin capital; letting it
 		// hang out of the disc is worse than a hair of clipping.
 		overflow: hidden;
+	}
+
+	// Sized so the flag fills the disc, and so the "TR" that Windows renders
+	// instead still fits inside it.
+	.flag {
+		font-family: var(--font--default);
+		font-size: calc(var(--size) * 0.52);
+		font-weight: 600;
+		letter-spacing: -0.04em;
 	}
 </style>

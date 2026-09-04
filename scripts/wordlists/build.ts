@@ -156,7 +156,7 @@ function tidyGloss(raw: string): string {
  * candidate sense is scored and the best one wins.
  */
 const METALINGUISTIC =
-	/^(the name of the|abbreviation of|initialism of|acronym of|symbol for|alternative (form|spelling|letter-case form) of|obsolete (form|spelling) of|misspelling of|eye dialect of|superseded spelling of|archaic (form|spelling) of)/i;
+	/^(the name of the|the [a-z]+ (numeral symbol|letter) of|abbreviation of|initialism of|acronym of|symbol for|alternative (form|spelling|letter-case form) of|obsolete (form|spelling) of|misspelling of|eye dialect of|superseded spelling of|archaic (form|spelling) of)/i;
 
 const WEAK_TAGS = new Set([
 	'obsolete',
@@ -184,12 +184,16 @@ const FUNCTION_POS = new Set([
 	'num'
 ]);
 
+/** Longer than this and the page truncates it with an ellipsis. */
+const READABLE = 60;
+
 function scoreSense(
 	pos: string,
 	gloss: string,
 	tags: string[] | undefined,
 	lemmaRank: number | undefined,
-	isForm: boolean
+	isForm: boolean,
+	word: string
 ): number {
 	let score = 0;
 	if (METALINGUISTIC.test(gloss)) score -= 100;
@@ -197,7 +201,13 @@ function scoreSense(
 	if (pos === 'name') score -= 60;
 	// "forms the present perfect tenses of certain verbs" is what German "sein"
 	// does, not what it means; the copula sense is the one a learner wants.
-	if (/^(forms |used to form|indicates |marks )/i.test(gloss)) score -= 6;
+	if (/^(forms |used to |used for |used with |used in |indicates |marks )/i.test(gloss)) score -= 6;
+	// A gloss that repeats the word says nothing: "champán" -> "champan".
+	if (gloss.toLowerCase() === word.toLowerCase()) score -= 40;
+	// Only a tie-breaker, and only against a gloss the page would cut off. A
+	// bonus for shortness was tried and picked "furthermore" over "more"; a
+	// penalty for being unreadably long does not have that failure mode.
+	if (gloss.length > READABLE) score -= 3;
 	// Only for a sense that is a word in its own right, never for an inflected
 	// form. Polish "nie" is the negation particle, not the accusative of "ono",
 	// and Turkish "de" is the clitic "too", not a form of "demek" — in both
@@ -265,7 +275,8 @@ async function loadDictionary(
 				gloss,
 				sense.tags,
 				formOf ? ranks.get(formOf.toLowerCase()) : undefined,
-				Boolean(formOf)
+				Boolean(formOf),
+				word
 			);
 
 			// A lemma gloss is a real definition, never "plural of x".
@@ -298,7 +309,7 @@ async function dictionaryFor(
 	const cache = path.join(CACHE_DIR, `${lang.code}.json`);
 	try {
 		const raw = JSON.parse(await readFile(cache, 'utf8'));
-		if (raw.version === 5) {
+		if (raw.version === 6) {
 			return {
 				entries: new Map<string, Entry>(raw.entries),
 				lemmas: new Map<string, string>(raw.lemmas),
@@ -321,7 +332,7 @@ async function dictionaryFor(
 		const base = w.split('|')[0];
 		return needed.has(base) || entries.has(base);
 	});
-	await writeFile(cache, JSON.stringify({ version: 5, entries: [...entries], lemmas: slimLemmas }));
+	await writeFile(cache, JSON.stringify({ version: 6, entries: [...entries], lemmas: slimLemmas }));
 	return { entries, lemmas, cached: false };
 }
 

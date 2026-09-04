@@ -19,7 +19,7 @@ rank	word	english
 18	mi	first-person pronoun; I
 19	za	overly, excessively, too
 20	ja	first-person pronoun; I
-21	tym	used in parallel, conditional, or comparative statements;…
+21	tym	this
 22	tego	this
 23	go	he, it
 24	ci	you
@@ -41,7 +41,7 @@ rank	word	english
 40	coś	something
 41	dobrze	well
 42	więc	so, therefore, ergo
-43	od	used in comparisons; than
+43	od	indicates separation, distance, loss of contact; from, away
 44	teraz	now
 45	pan	you polite second person m-personal nominative, it takes…
 46	wszystko	everything
@@ -76,7 +76,7 @@ rank	word	english
 75	mój	first person possessive pronoun; my, mine
 76	nas	we; first person plural
 77	żeby	creates a subordinate clause expressing desire or wish; to,…
-78	no	used to state the speaker thinks something is obvious and…
+78	no	expresses uncertainty; well
 79	bo	because, for
 80	chcesz	to want
 81	ich	possessive pronoun for oni or one, namely their or theirs
@@ -87,7 +87,7 @@ rank	word	english
 86	mamy	to have
 87	kto	who
 88	możesz	to be able; can; may, might expressing lack of something…
-89	dobra	Used to express agreement; alright
+89	dobra	good
 90	przepraszam	sorry; I'm sorry, excuse me
 91	mu	he, it
 92	gdy	when, as
@@ -98,7 +98,7 @@ rank	word	english
 97	chyba	expresses confidence but not certainty; probably; I think,…
 98	domu	house
 99	ona	she, it
-100	prawda	used to assert the speakers agreement; right
+100	prawda	used as a question tag asking for agreement; right?
 101	zrobić	to make
 102	była	former, previous
 103	właśnie	actually
@@ -147,7 +147,7 @@ rank	word	english
 146	raz	one
 147	czemu	why
 148	będziesz	to be
-149	niż	used in comparisons, to introduce the basis of comparison;…
+149	niż	introduces a contrastive clause; not only; but, however
 150	ludzie	man, human, human being; person
 151	dalej	next
 152	czym	instrumental/locative of co
@@ -243,7 +243,7 @@ rank	word	english
 242	niej	she, it
 243	pracy	work
 244	kogoś	indeterminate personal pronoun; someone, somebody
-245	tyle	used to indicate that an amount or number equals something…
+245	tyle	emphasizes a high or low amount or number; so many, so much
 246	robić	to make
 247	bardziej	more used to form the comparative degree
 248	mówisz	to say, to tell
@@ -283,7 +283,7 @@ rank	word	english
 282	długo	long
 283	mamo	mum, mom, mother
 284	kiedyś	at one time, formerly, once, approximately used to
-285	cholera	cholera
+285	cholera	pest, nuisance
 286	wciąż	still; constantly
 287	nadzieję	hope
 288	aż	until
@@ -501,7 +501,7 @@ rank	word	english
 500	zrobiłem	to make
 501	śmierć	death
 502	swoich	reflexive-possessive pronoun one's own; my, his, her, its,…
-503	halo	halo
+503	halo	hello?
 504	gdybym	Combined form of gdyby + -m
 505	jednego	one
 506	pieniędzy	money; coin, banknote
@@ -565,7 +565,7 @@ rank	word	english
 564	pięć	five
 565	każdego	personal/animate masculine accusative singular of każdy
 566	godziny	hour
-567	plan	plan
+567	plan	plane
 568	wcale	not at all
 569	ciało	body
 570	słowa	word
@@ -590,7 +590,7 @@ rank	word	english
 589	zostaw	to leave
 590	zabrać	to take
 591	żadnego	personal/animate masculine accusative singular of żaden
-592	cholery	cholera
+592	cholery	pest, nuisance
 593	ostatnio	lately, recently, the other day
 594	rodziny	family
 595	ciężko	heavily
@@ -824,7 +824,7 @@ rank	word	english
 823	brata	brother
 824	przyjaciel	friend; best friend, bosom friend, close friend
 825	wielkie	great, large
-826	człowieku	used with a male speaker to express outrage or to emphasize…
+826	człowieku	man, human, human being; person
 827	choć	although, though
 828	samego	alone
 829	muszą	to have to, to need to, must
@@ -943,7 +943,7 @@ rank	word	english
 942	istnieje	to exist
 943	uważasz	to watch out, to take care, to look out
 944	okazji	chance, occasion, opportunity
-945	moment	moment
+945	moment	sex scene
 946	takiej	such
 947	spróbuj	to try
 948	znajdziemy	to find
@@ -1200,12 +1200,12 @@ rank	word	english
 1199	próbował	to try
 1200	kobiet	woman
 1201	skończyć	to end, to finish
-1202	coraz	used with comparatives to show a growing rate of change;…
+1202	coraz	often; every now and then
 1203	całej	whole, complete, entire; all
 1204	chcieli	to want
 1205	miesiąc	month
 1206	nieco	somewhat, a little bit, a little, slightly
-1207	system	system
+1207	system	formation
 1208	ruszać	to move
 1209	zamierzasz	to intend, to mean, to plan
 1210	widzi	to see
@@ -1445,7 +1445,7 @@ rank	word	english
 1444	znamy	to know
 1445	innymi	different, another, other
 1446	pięknie	beautifully
-1447	plany	plan
+1447	plany	plane
 1448	własną	own
 1449	musiałam	to have to, to need to, must
 1450	ruch	movement
@@ -1493,7 +1493,7 @@ rank	word	english
 1492	podaj	to hand, to pass
 1493	założę	to put on
 1494	chodzić	to walk
-1495	momencie	moment
+1495	momencie	sex scene
 1496	święta	saint
 1497	zapomniałem	to forget
 1498	kawy	coffee
@@ -1547,7 +1547,7 @@ rank	word	english
 1546	rozkaz	order, command
 1547	podróż	travel
 1548	dawna	distant, ancient, old
-1549	agent	agent
+1549	agent	commission agent
 1550	rozmowę	conversation
 1551	śniadanie	breakfast
 1552	doceniam	to appreciate
@@ -1727,7 +1727,7 @@ rank	word	english
 1726	śmiercią	death
 1727	widziała	to see
 1728	uciekł	to run away, to flee
-1729	akurat	used to emphasize the accuracy of information: just,…
+1729	akurat	at the moment, at this very moment
 1730	miła	nice, pleasant, dear, gentle, mild, soft, polite
 1731	rzeczą	thing
 1732	pytasz	to ask
@@ -1792,7 +1792,7 @@ rank	word	english
 1791	lewo	trick
 1792	mężem	husband
 1793	małego	small, little
-1794	szczególnie	used to place greater emphasis upon someone or something;…
+1794	szczególnie	especially; particularly
 1795	boską	divine, godlike
 1796	potrzebują	to need or
 1797	wyszła	to walk out, to leave, to exit
@@ -2129,7 +2129,7 @@ rank	word	english
 2128	czyni	to make, to do
 2129	zechcesz	to desire, to want, to wish
 2130	udawać	to act, to feign
-2131	planu	plan
+2131	planu	plane
 2132	siostro	sister
 2133	czytać	to read
 2134	jutra	tomorrow
@@ -2403,7 +2403,7 @@ rank	word	english
 2402	pojadę	to go; to ride; to take; to drive
 2403	bilety	ticket
 2404	zagrać	to play, to perform music using a musical instrument
-2405	radio	radio
+2405	radio	radio, tuner, receiver, wireless the signal sent over radio…
 2406	doprawdy	emphasises the truthfulness of a speaker's assertion;…
 2407	biznes	business
 2408	szacunku	respect
@@ -2492,7 +2492,7 @@ rank	word	english
 2491	ważny	important
 2492	wchodzę	to go in; to walk in, to enter
 2493	niebie	sky
-2494	systemu	system
+2494	systemu	formation
 2495	zamierza	to intend, to mean, to plan
 2496	zbliża	to bring closer
 2497	okres	period
@@ -2570,7 +2570,7 @@ rank	word	english
 2569	miejsc	place, room, space
 2570	kochał	to love
 2571	pełno	fully
-2572	tylu	used to indicate that an amount or number equals something…
+2572	tylu	emphasizes a high or low amount or number; so many, so much
 2573	zadziała	to cause a specific reaction
 2574	wolałbym	to prefer
 2575	wielkiej	great, large
@@ -2595,7 +2595,7 @@ rank	word	english
 2594	zostawcie	to leave
 2595	funtów	pound
 2596	wstyd	shame
-2597	lady	Lady
+2597	lady	counter
 2598	wziąłem	to take
 2599	stworzyć	to create, bring to life
 2600	kłamie	lie
@@ -3114,7 +3114,7 @@ rank	word	english
 3113	tamten	that, that one
 3114	koszmar	nightmare
 3115	idealne	ideal
-3116	agenta	agent
+3116	agenta	commission agent
 3117	armia	army
 3118	scenariusz	screenplay, script
 3119	pozycję	position
@@ -3175,7 +3175,7 @@ rank	word	english
 3174	głosu	voice
 3175	radzę	to advise, to counsel, to suggest
 3176	wyrzucić	to throw away, to discard, to trash
-3177	partnera	partner
+3177	partnera	equal
 3178	zagrożenie	danger, threat, peril
 3179	ciemno	dark
 3180	sprowadza	to bring, to fetch
@@ -3284,7 +3284,7 @@ rank	word	english
 3283	wart	the main current of a river
 3284	choroba	disease; sickness, illness
 3285	żołnierze	soldier
-3286	partner	partner
+3286	partner	equal
 3287	wściekły	furious, livid
 3288	płacz	cry
 3289	kula	ball
@@ -3294,7 +3294,7 @@ rank	word	english
 3293	sekundę	second
 3294	wychodzimy	to walk out, to leave, to exit
 3295	przemocy	violence
-3296	momentu	moment
+3296	momentu	sex scene
 3297	towarzystwo	companionship, company
 3298	sierżant	sergeant
 3299	kobiecie	woman
@@ -3403,7 +3403,7 @@ rank	word	english
 3402	główny	head, main, chief, principle
 3403	major	major
 3404	kupię	to buy
-3405	pali	Pali
+3405	pali	stake
 3406	zejść	to descend, to go down
 3407	połączyć	to join, to merge, to combine
 3408	imprezy	party
@@ -3540,7 +3540,7 @@ rank	word	english
 3539	historie	history
 3540	gramy	to play
 3541	wchodzić	to go in; to walk in, to enter
-3542	start	start
+3542	start	takeoff
 3543	sprawiedliwość	fairness, justice
 3544	zmusić	to compel, to force, to make someone
 3545	wygra	to win
@@ -3744,7 +3744,7 @@ rank	word	english
 3743	powierzchni	surface
 3744	młodą	young
 3745	wybierz	to choose
-3746	dana	used to express joy
+3746	dana	given
 3747	dodać	to add
 3748	obowiązki	duty, obligation
 3749	zmierza	to head
@@ -3761,7 +3761,7 @@ rank	word	english
 3760	ów	that, the aforementioned
 3761	ostro	sharply
 3762	el	The name of the Latin script letter L/l
-3763	agentów	agent
+3763	agentów	commission agent
 3764	zrozumiałam	to understand; to realize
 3765	scenie	stage, platform
 3766	zaszło	to walk to, to reach by walking
@@ -4001,7 +4001,7 @@ rank	word	english
 4000	ciał	body
 4001	śnie	sleep
 4002	nożem	knife, usually sharpened on one edge, attached to a handle;…
-4003	planem	plan
+4003	planem	plane
 4004	konta	bank account
 4005	przyszły	to come, to arrive
 4006	garnitur	suit, lounge suit, business suit
@@ -4031,7 +4031,7 @@ rank	word	english
 4030	uprawiać	to grow, to cultivate
 4031	dziwką	whore
 4032	pytałem	to ask
-4033	planów	plan
+4033	planów	plane
 4034	pas	belt
 4035	obszar	area
 4036	okręt	ship
@@ -4240,7 +4240,7 @@ rank	word	english
 4239	pozostało	to stay, to remain
 4240	zwykła	common, normal, ordinary, usual
 4241	znajdziecie	to find
-4242	model	model
+4242	model	funny guy
 4243	zrozumie	to understand; to realize
 4244	oczekuje	to expect
 4245	łzy	tear
@@ -4249,7 +4249,7 @@ rank	word	english
 4248	próbowali	to try
 4249	pogodzić	to reconcile, to bring to agreement
 4250	czegokolwiek	whatever
-4251	grant	grant
+4251	grant	research, artistic, or social project that is funded by a…
 4252	wybaczy	to forgive
 4253	imieniem	name; given name
 4254	k	Middle Polish form of ku
@@ -4270,7 +4270,7 @@ rank	word	english
 4269	potrzebowałem	to need or
 4270	wstań	to get up
 4271	sprzedaje	to sell
-4272	honor	honor
+4272	honor	honors, distinctions
 4273	usług	service
 4274	trening	training
 4275	córce	daughter
@@ -4437,7 +4437,7 @@ rank	word	english
 4436	krótkie	short
 4437	wszelki	each, every
 4438	prochy	ashes
-4439	pilot	pilot
+4439	pilot	remote control
 4440	pocałuj	to kiss
 4441	adwokat	advocate, attorney, barrister, solicitor, lawyer, counsel
 4442	otworzę	to open
@@ -4583,7 +4583,7 @@ rank	word	english
 4582	zapobiec	to prevent, to avert, to ward off
 4583	wszechświat	universe, cosmos
 4584	żołnierz	soldier
-4585	junior	junior
+4585	junior	Jr
 4586	inspektorze	inspector
 4587	zostałaś	to stay, to remain
 4588	pierścień	ring
@@ -4601,7 +4601,7 @@ rank	word	english
 4600	smak	taste
 4601	prąd	current
 4602	opisać	to describe
-4603	centów	cent
+4603	centów	synonym of cetnar
 4604	dokumentów	document
 4605	jadł	to eat
 4606	poszedłeś	to go; to walk
@@ -4627,7 +4627,7 @@ rank	word	english
 4626	wydarzenia	event, incident, occurrence
 4627	urodziła	to give birth
 4628	wyciągnij	to pull out, to take out
-4629	studio	studio
+4629	studio	atelier
 4630	ludzkiej	human
 4631	rozwód	divorce
 4632	północnej	northern
@@ -4739,7 +4739,7 @@ rank	word	english
 4738	stanach	state
 4739	istoty	being
 4740	nauczyłeś	to educate, to teach
-4741	planie	plan
+4741	planie	plane
 4742	znajomo	familiarly
 4743	żywego	living, alive
 4744	żarcie	joke
@@ -4792,7 +4792,7 @@ rank	word	english
 4791	spadamy	to fall
 4792	grzechy	sin
 4793	zgłoś	to report, to notify
-4794	senator	senator
+4794	senator	older and strong male in a group of baboons
 4795	zostaję	to stay, to remain
 4796	notatki	note
 4797	czytam	to read
@@ -4832,7 +4832,7 @@ rank	word	english
 4831	rynek	market, marketplace
 4832	wolnym	slow
 4833	kampanii	campaign
-4834	transport	transport
+4834	transport	load, cargo
 4835	kroki	step
 4836	uważał	to watch out, to take care, to look out
 4837	prawdziwych	true
@@ -4843,7 +4843,7 @@ rank	word	english
 4842	edward	genitive plural of Edwarda
 4843	znajdźcie	to find
 4844	stwierdzić	to state, to affirm, to attest
-4845	agentka	agent
+4845	agentka	commission agent
 4846	zrobiłby	to make
 4847	ubrać	to dress
 4848	odległość	distance
@@ -4990,7 +4990,7 @@ rank	word	english
 4989	wstawać	to get up
 4990	schowaj	to put away
 4991	zespole	team
-4992	bingo	bingo
+4992	bingo	bingo!
 4993	istnieć	to exist
 4994	zawody	profession, occupation, job
 4995	piszą	to write
@@ -5020,7 +5020,7 @@ rank	word	english
 5019	wspaniałego	magnificent, excellent
 5020	wolni	slow
 5021	popatrzcie	to take a look, to have a look
-5022	demon	demon
+5022	demon	daemon
 5023	kosza	basket
 5024	wiedzę	knowledge
 5025	weźmy	to take
@@ -5084,7 +5084,7 @@ rank	word	english
 5083	szczury	rat
 5084	zastąpić	to stand in for, to deputise for, to replace
 5085	genialne	brilliant, genius
-5086	systemy	system
+5086	systemy	formation
 5087	kitu	putty
 5088	got	goth
 5089	kurtkę	jacket
@@ -5105,7 +5105,7 @@ rank	word	english
 5104	troszeczkę	a little
 5105	bądźmy	to be
 5106	skończony	to end, to finish
-5107	media	media
+5107	media	means
 5108	humor	humour
 5109	kij	stick
 5110	byłego	former, previous
@@ -5291,7 +5291,7 @@ rank	word	english
 5290	wszedłem	to go in; to walk in, to enter
 5291	omówić	to discuss, to talk through
 5292	dodatek	addition, supplement
-5293	pilota	pilot
+5293	pilota	remote control
 5294	nazwiskiem	surname, last name; a family name
 5295	ludzkiego	human
 5296	zamieszanie	stir, commotion, chaos, ruckus
@@ -5304,8 +5304,8 @@ rank	word	english
 5303	dorośli	adult
 5304	kobieto	woman
 5305	przechodzić	to go across, to cross
-5306	won	won
-5307	honoru	honor
+5306	won	out!, get out!
+5307	honoru	honors, distinctions
 5308	rosie	dew
 5309	kanapki	canapé, sandwich
 5310	sprzętu	equipment; gear, tackle
@@ -5485,7 +5485,7 @@ rank	word	english
 5484	przemyśl	to think over, to chew on
 5485	zajęcie	to occupy, to take up
 5486	padnij	to fall; to drop
-5487	cholerę	cholera
+5487	cholerę	pest, nuisance
 5488	zniszczenie	to destroy
 5489	nabrać	to draw, to extract
 5490	rzucać	to throw; to pitch, to toss, to cast with some force from…
@@ -5551,7 +5551,7 @@ rank	word	english
 5550	pizza	pizza
 5551	mur	wall
 5552	moglibyście	to be able; can; may, might expressing lack of something…
-5553	album	album
+5553	album	album, diary, journal
 5554	języku	tongue
 5555	korzystać	to benefit from
 5556	kwiatów	flower
@@ -5585,7 +5585,7 @@ rank	word	english
 5584	braćmi	brother
 5585	dba	synonym of troska /staranie /opieka
 5586	rannych	wounded, injured
-5587	lex	lex
+5587	lex	synonym of ustawa
 5588	restauracja	restaurant
 5589	zabaw	fun, amusement; game
 5590	daniela	fallow deer
@@ -5731,7 +5731,7 @@ rank	word	english
 5730	rządzić	to rule
 5731	stanę	to happen
 5732	olej	oil
-5733	status	status
+5733	status	importance, weight
 5734	przyczyna	cause
 5735	planet	manual tool for weeding and loosening the soil, in the form…
 5736	wyjaśnienie	to explain, to clarify
@@ -5845,7 +5845,7 @@ rank	word	english
 5844	rety	synonym of ratunku
 5845	graj	to play
 5846	podobna	similar, alike
-5847	gps	GPS
+5847	gps	GPS, GPS receiver as an aid to navigation
 5848	rosjanie	Russian
 5849	stres	stress
 5850	urok	charm, spell
@@ -5903,7 +5903,7 @@ rank	word	english
 5902	personel	personnel
 5903	wierzyłem	to believe
 5904	przyjemnie	pleasantly
-5905	minister	minister
+5905	minister	high-ranking official in the Chancellery of the President…
 5906	kopać	to kick
 5907	dobę	day, nychthemeron
 5908	wybaczenie	to forgive
@@ -6253,7 +6253,7 @@ rank	word	english
 6252	tor	track, course, path
 6253	smutno	dolefully
 6254	obojga	both
-6255	medium	medium
+6255	medium	means
 6256	sprzedają	to sell
 6257	padać	to fall
 6258	sprawca	creator
@@ -6282,7 +6282,7 @@ rank	word	english
 6281	żegnam	to bid farewell, to bid goodbye
 6282	denerwujesz	to annoy, to irritate
 6283	władza	power, authority
-6284	dvd	DVD
+6284	dvd	DVD player
 6285	lubiłam	to like
 6286	reakcji	reaction
 6287	paznokcie	fingernail
@@ -6349,7 +6349,7 @@ rank	word	english
 6348	krzyż	cross
 6349	gwałt	rape
 6350	rzeka	river
-6351	element	element
+6351	element	member; dregs
 6352	drzewie	bush
 6353	uszu	ear
 6354	szóstej	sixth
@@ -6415,7 +6415,7 @@ rank	word	english
 6414	głupiec	fool
 6415	zabijanie	to kill
 6416	mądrze	wisely
-6417	top	top
+6417	top	top notch
 6418	ścieżki	nominative/accusative/vocative plural of ścieżek
 6419	restaurację	restaurant
 6420	gest	gesture
@@ -6560,7 +6560,7 @@ rank	word	english
 6559	stark	spike, tip
 6560	nadajnik	transmitter
 6561	dotknij	to touch
-6562	planach	plan
+6562	planach	plane
 6563	głosowanie	vote
 6564	pięknych	beautiful
 6565	zachwycony	captivated, enthralled
@@ -6660,7 +6660,7 @@ rank	word	english
 6659	ósmej	eighth
 6660	zgubić	to lose, to misplace
 6661	buta	pride, haughtiness, arrogance, conceitedness
-6662	portu	port
+6662	portu	harbor, haven
 6663	zdrada	treason, betrayal
 6664	szczerzy	sincere, earnest
 6665	wschodu	rise
@@ -6704,7 +6704,7 @@ rank	word	english
 6703	bezpiecznym	safe, secure
 6704	płci	sex, gender
 6705	środowiska	environment; habitat
-6706	delta	delta
+6706	delta	discriminant
 6707	chodz	to walk
 6708	motor	motorcycle
 6709	ekran	screen
@@ -6755,7 +6755,7 @@ rank	word	english
 6754	powieść	novel
 6755	potrzymać	to hold for some time
 6756	amerykańskiego	American
-6757	metal	metal
+6757	metal	metal and or
 6758	próbie	attempt, effort, try
 6759	obliczu	face
 6760	sprawię	to cause, to make happen
@@ -6815,7 +6815,7 @@ rank	word	english
 6814	tron	throne
 6815	rzekę	river
 6816	oszustem	fraud
-6817	baseball	baseball
+6817	baseball	baseball bat
 6818	opon	tyre, tire
 6819	głów	head
 6820	kątem	corner
@@ -6853,7 +6853,7 @@ rank	word	english
 6852	kluczy	key
 6853	karetka	ambulance
 6854	czwarta	four o'clock
-6855	organy	organ
+6855	organy	organ, pipe organ
 6856	kieliszek	wine glass
 6857	znajomym	familiar
 6858	obyś	Combined form of oby + -ś
@@ -6938,7 +6938,7 @@ rank	word	english
 6937	kłam	to lie
 6938	naruszenie	violation, breach, contravention
 6939	twym	alternative form of twoim
-6940	momencik	moment
+6940	momencik	sex scene
 6941	wysiąść	to get out, to get off, to disembark, to detrain, to deplane
 6942	kampanię	campaign
 6943	warty	the main current of a river
@@ -6994,7 +6994,7 @@ rank	word	english
 6993	czwórka	four
 6994	trzymałem	to hold
 6995	bała	to fear, to be afraid
-6996	biega	used to call cows and calves
+6996	biega	run, jog
 6997	stawiać	to set
 6998	smród	stink, stench
 6999	pośpiech	haste
@@ -7530,7 +7530,7 @@ rank	word	english
 7529	jadła	to eat
 7530	ulubionych	favourite, favorite
 7531	zamykają	to close, to lock, to shut
-7532	front	front
+7532	front	synonym of ganek
 7533	choi	conifer, especially a pine or spruce tree
 7534	ubierz	to dress
 7535	kino	cinema, movie theater
@@ -7563,7 +7563,7 @@ rank	word	english
 7562	ofierze	victim; casualty
 7563	ambulatorium	polyclinic, outpatient clinic, medical bay, infirmary,…
 7564	bitwę	battle
-7565	mini	mini
+7565	mini	mini, miniskirt
 7566	wilka	wolf
 7567	amerykanin	American
 7568	panowanie	reign, rule
@@ -7582,7 +7582,7 @@ rank	word	english
 7581	napisali	to write
 7582	tajna	secret
 7583	wagę	scale
-7584	port	port
+7584	port	harbor, haven
 7585	głosowania	vote
 7586	lodów	ice form
 7587	lekkie	light
@@ -7732,7 +7732,7 @@ rank	word	english
 7731	jeziorem	lake
 7732	skład	makeup, lineup
 7733	przeczytałam	to read; to read up
-7734	centa	cent
+7734	centa	synonym of cetnar
 7735	uciekamy	to run away, to flee
 7736	szukanie	to look for, to seek, to search
 7737	warzywa	vegetable
@@ -7846,7 +7846,7 @@ rank	word	english
 7845	oryginalny	original
 7846	piła	to drink
 7847	przejebane	to be fucked
-7848	ministra	minister
+7848	ministra	high-ranking official in the Chancellery of the President…
 7849	wojną	war
 7850	nowiny	tidbit, piece of news, piece of gossip
 7851	parze	vapor
@@ -8797,7 +8797,7 @@ rank	word	english
 8796	kanapka	canapé, sandwich
 8797	lewy	left
 8798	chroń	to protect
-8799	solo	solo
+8799	solo	a one-on-one fight usually between schoolers and agreed to…
 8800	cale	wholly; entirely, completely
 8801	napoje	beverage
 8802	przysłać	to send in, to deliver
@@ -8809,7 +8809,7 @@ rank	word	english
 8808	pochować	to bury, to inter
 8809	studni	well
 8810	doceniamy	to appreciate
-8811	jazz	jazz
+8811	jazz	marijuana
 8812	kiepskim	lame
 8813	zadań	task, assignment
 8814	kamieniem	stone
@@ -9082,7 +9082,7 @@ rank	word	english
 9081	damę	lady
 9082	trawa	grass
 9083	ławy	bench
-9084	gamma	gamma
+9084	gamma	gamma ray
 9085	wspaniali	magnificent, excellent
 9086	podała	to hand, to pass
 9087	dziennikarz	journalist
@@ -9444,7 +9444,7 @@ rank	word	english
 9443	mury	wall
 9444	liczymy	to count
 9445	gimnazjum	a former type of secondary school in Poland, starting at…
-9446	partnerka	partner
+9446	partnerka	equal
 9447	ruchem	movement
 9448	walką	battle, combat, fight
 9449	rozwiąż	to untie, to unbind
@@ -9512,13 +9512,13 @@ rank	word	english
 9511	znalezieniu	dative/locative singular of znalezienie
 9512	prowincji	countryside
 9513	przeciwny	opposite; reverse; contrary
-9514	beta	beta
+9514	beta	baby's sleeping bag
 9515	istot	being
 9516	piątku	Friday
 9517	waga	scale
 9518	mercedes	a Mercedes car
 9519	róbmy	to make
-9520	idea	idea
+9520	idea	keynote, mission statement
 9521	oglądaliśmy	to watch
 9522	marzyć	to dream
 9523	grałam	to play
@@ -9600,7 +9600,7 @@ rank	word	english
 9599	nadrobić	to catch up on, to make up for, to get back on schedule
 9600	trójkąt	triangle
 9601	doświadczeniem	experience
-9602	karaoke	karaoke
+9602	karaoke	karaoke pub
 9603	zaległości	backlog
 9604	rozsądnie	judiciously, reasonably, sensibly, logically
 9605	rączki	handle
@@ -9770,7 +9770,7 @@ rank	word	english
 9769	sesja	session
 9770	głosie	voice
 9771	słodkiego	sweet
-9772	horror	horror
+9772	horror	horror movie
 9773	wykazać	to demonstrate, to prove, to evince, to show
 9774	posiadać	to own, to possess
 9775	prezentację	presentation
@@ -9779,7 +9779,7 @@ rank	word	english
 9778	ocena	assessment, evaluation
 9779	adresy	address
 9780	kompania	company, fellowship, group
-9781	jacuzzi	jacuzzi
+9781	jacuzzi	relaxing bathing in a jacuzzi
 9782	szczęśliwej	happy
 9783	powiedziały	to speak, to talk
 9784	zaczynał	to start, to begin
@@ -9835,7 +9835,7 @@ rank	word	english
 9834	zmarły	deceased, departed, decedent
 9835	złymi	bad
 9836	dziękuj	to thank
-9837	chorąży	chorąży
+9837	chorąży	flag-bearer
 9838	rzygać	to puke, to throw up, to vomit
 9839	wymazać	to erase, to expunge, to wipe out
 9840	farba	paint

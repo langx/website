@@ -1,0 +1,964 @@
+rank	sentence	english
+1	Kur viņi ir?	Where are they?
+2	Kur es esmu?	Where am I?
+3	Ko tu meklē?	What're you looking for?
+4	Un ko tu redzēji?	And what did you see?
+5	Tas izdevās.	It worked.
+6	Šķiet, ka līst.	It seems to be raining.
+7	Man ir nams.	I have a house.
+8	Tu to nezini.	You don't know that.
+9	Vai tu traks?	Are you crazy?
+10	Ko tu meklē?	What're you looking for?
+11	Ar labu nakti!	Good night!
+12	Par ko tu runā?	What are you talking about?
+13	Kas viņš ir?	Who is he?
+14	Tā ir laiva.	That is a boat.
+15	Kā Jūs sauc?	What is your name?
+16	Kas viņš ir?	Who is he?
+17	Kas tev kož?	What's biting you?
+18	Jā, noteikti.	Yes, certainly.
+19	Uz veselību!	Bless you!
+20	No kurienes?	From where?
+21	Mēs nezinām.	We don't know.
+22	Man nav govs.	I don't have a cow.
+23	Gulēji labi?	Slept well?
+24	Nē, īsti ne.	No, not really.
+25	Bet ir problēma.	But there's a problem.
+26	Kā Jūs sauc?	What is your name?
+27	Ko lai dara?	What to do?
+28	Palīdzi man, ja vari.	Help me if you can.
+29	Viņa pamāja.	She waved.
+30	Nezākā mani!	Don't vilify me!
+31	Kā tas bija?	How was it?
+32	Apturi viņu.	Stop him.
+33	Kur es esmu?	Where am I?
+34	Esi mierīgs.	Be calm.
+35	Es tevi mīlu.	I love you.
+36	Mums izdevās.	We succeeded.
+37	Nē, īsti ne.	No, not really.
+38	Es tikai skatos.	I'm just looking.
+39	Tad darām to.	So let's do it.
+40	Kur viņi ir?	Where are they?
+41	Kad tas bija?	When was that?
+42	Kas jums kaiš?	What's wrong with you?
+43	Es arī nezinu.	I don't know either.
+44	Viss kārtībā?	Everything okay?
+45	Kas pie joda?	What the fuck?
+46	Kur es esmu?	Where am I?
+47	Nu, es nezinu.	Well, I don't know.
+48	Vēl ir agrs.	It's still early.
+49	Neesi tik īgns.	Don't be so grumpy.
+50	Ir jau vēls.	It's already late.
+51	Tēvs ir tur.	Father is there.
+52	Kas te smird?	What stinks in here?
+53	Kaut kas jauns?	Anything new?
+54	Būs jau labi.	All will be fine.
+55	Paldies tev.	Thanks to you.
+56	Lija visu dienu.	It rained all day.
+57	Viņam ir vīns.	He has wine.
+58	Dariet to tagad.	Do it now.
+59	Kāda velna pēc?	What the heck?
+60	Tēvs ir šeit.	Father is here.
+61	Kāpēc gan ne?	Why not?
+62	Tas būtu žēl.	That would be a shame.
+63	Man ļoti žēl.	I'm very sorry.
+64	Dzīvo savu sapni.	Live your dream.
+65	Kur ir mūsu draugi?	Where are our friends?
+66	Sāli, lūdzu.	The salt, please.
+67	Viņa taču var braukt, vai ne?	She can drive, can't she?
+68	Atgrieziet šo.	Return this.
+69	Kāpēc gan ne?	Why not?
+70	Kurš ir mans?	Which is mine?
+71	Ak nē, tikai ne atkal!	Oh no, not again!
+72	Kāds ārprāts!	What madness!
+73	Man jūsu žēl.	I am sorry for you.
+74	Es viņu zinu.	I know him.
+75	Es neguļu daudz.	I don't sleep a lot.
+76	Viņi uzvarēja, jo vairāk ticēja.	They won because they believed more.
+77	Varbūt vēlāk.	Maybe later.
+78	Kur mēs esam?	Where are we?
+79	Mans draugs Toms ir gudrs un smalks kungs.	My friend, Tom, is a scholar and a fine gentleman.
+80	Cik svarīgi?	How important?
+81	Zini savas robežas.	Know your limits.
+82	Tās ir baumas.	It's hearsay.
+83	Vai tā ir mana?	Is that mine?
+84	Es tiešām saputrojos.	I really messed up.
+85	Jūs esat muļķi.	You're fools.
+86	Es tā domāju.	I reckon so.
+87	Ej lejā pa kāpnēm.	Go down the stairs.
+88	To var atlikt.	It can be postponed.
+89	Kas tas varētu būt?	What could it be?
+90	Būt vai nebūt?	To be or not to be?
+91	Neticiet tam.	Don't believe it.
+92	Tāpēc es atnācu.	That's why I came.
+93	Visi tā domā.	Everyone thinks like this.
+94	Es nezinu kā.	I don't know how.
+95	Šī ir mošeja.	This is a mosque.
+96	Nekad nepadodies.	Never give up.
+97	Viens bija smags.	One was heavy.
+98	Cik tālu ir līdz Brno?	How far is it to Brno?
+99	Es pat nejautāju.	I didn't even ask.
+100	Aiziet, pasaki viņai!	Come on, tell her!
+101	Es gribu ēst.	I want to eat.
+102	Tu bojā manu dienu.	You're ruining my day.
+103	Es varu lasīt.	I can read.
+104	Saki ko gribi.	Say what you want.
+105	Kurš ir mans?	Which is mine?
+106	Viņi gāja visi kopā.	They went all together.
+107	Tie ir milti.	It's flour.
+108	Neesmu bikls.	I'm not shy.
+109	Dievs svētī.	God bless.
+110	Neej prom no viņa.	Don't walk away from him.
+111	Visi tā domā.	Everyone thinks like this.
+112	Nenāc pirms sešiem.	Don't come before six o'clock.
+113	Es vairs nezinu.	I don't know anymore.
+114	Tu neko nezini.	You don't know anything.
+115	Viņiem veicas.	They're lucky.
+116	Protams, ka nē.	Of course not.
+117	Viņš droši vien atnāks.	He is likely to come.
+118	Šis ir olis.	This is a pebble.
+119	Es kādu atradīšu.	I'll find somebody.
+120	Ko tev vajag?	What do you need?
+121	Mūs aplaupīja.	We got robbed.
+122	Viss kārtībā?	Everything okay?
+123	Kas tieši viņi ir?	What exactly are they?
+124	Tā ir tava krāsa!	It's your color!
+125	Nāc atpakaļ.	Get back here.
+126	Viņai patīk šahs.	She likes chess.
+127	Nāc atpakaļ.	Get back here.
+128	Es esmu tavs tēvs.	I am your father.
+129	Izvēlies vienu.	Choose one.
+130	Nekas īpašs.	Nothing special.
+131	Man patīk zaķi.	I like hares.
+132	Gaidīju vairāk.	I expected more.
+133	Dzīve notiek.	Life happens.
+134	Pamēģini pats.	Try it yourself.
+135	Gandrīz vienmēr.	Almost always.
+136	Viņas šeit nav.	She's not here.
+137	Nē, es nevaru.	No, I can't.
+138	Tu vari runāt.	You may speak.
+139	Tas ir vienkārši.	That's simple.
+140	Es rakstu ar tavu.	I'm writing with yours.
+141	Kā tu to dari?	How do you do it?
+142	Bez problēmām!	No problem!
+143	Mums iet jautri.	We're having fun.
+144	Neizturies pret mani tā.	Don't treat me like that.
+145	Tu ej mājās?	Are you walking home?
+146	Tas nebija tīšām.	It wasn't intentional.
+147	Tas ir labāk.	That feels better.
+148	Es to nedaru sevis dēļ.	I'm not doing this for myself.
+149	Jūtos lieliski.	I feel great.
+150	Kāda ir cena?	What is the price?
+151	Viņa kaut ko teica.	She said something.
+152	Es biju mežā.	I was in the forest.
+153	Tas šķiet labi.	That feels good.
+154	Es tērēju laiku.	I'm wasting time.
+155	Labāk vēlu, nekā nekad.	Better late than never.
+156	Sveiks, Tom.	Hello, Tom.
+157	Tu ej mājās?	Are you walking home?
+158	Tātad tā ir Tatoeba.	So that's Tatoeba.
+159	Neviens nezinās.	No one will know.
+160	Piedod, es tevi mīlu.	I'm sorry, I love you.
+161	Bet kā jūs to zināt?	But how do you know this?
+162	Jau atkal līst.	It's raining again.
+163	Nāc iekšā, Tom.	Come in, Tom.
+164	Laiks vakariņām.	Time for dinner.
+165	Ko? Nevar būt!	What? No way!
+166	Pagaidi brīdi.	Wait a moment.
+167	Novēro viņus.	Observe them.
+168	Ejam! Vēlreiz!	Let's go! Again!
+169	Kas tas tāds?	What's that?
+170	Gandrīz trīs.	Nearly three.
+171	Es to teicu sev.	I said that to myself.
+172	Runā klusāk.	Speak more quietly.
+173	Nāc pie manis.	Come to me.
+174	Mēs esam cilvēki.	We're humans.
+176	Ko man darīt?	What should I do?
+177	Neesi rupjš!	Don't be rude!
+178	Esmu pārāk lēns.	I'm too slow.
+179	Labs jautājums.	A good question.
+180	Vai varam uzdziedāt?	Can we sing?
+181	Man tevis žēl.	I am sorry for you.
+182	Sveiki visiem!	Hello everyone!
+183	Kā Jūs sauc?	What is your name?
+184	Velns par stenderi!	For fuck's sake.
+185	Viņš ir ļauns cilvēks.	He is an evil man.
+186	Toms ir labs draugs.	Tom is a good friend.
+187	Man nav laika.	I have no time.
+188	Nemāni sevi.	Don't fool yourself.
+189	Es devos ārā.	I went out.
+190	Es parasti ēdu viena.	I usually eat alone.
+191	Man vajag naudu.	I need money.
+192	Tev ir taisnība.	You are right.
+193	Ņem tos abus.	Take them both.
+194	Tēvs ir tur.	Father is there.
+195	Iemesls ir skaidrs.	The reason is clear.
+196	Nāc šurp, Tom.	Come over here, Tom.
+197	Knapi paspēju laikā.	I barely made it on time.
+198	Šodien es raudu!	Today I'm crying!
+199	Kur tas notika?	Where did it happen?
+200	Nesasteidz lietas.	Don't rush things.
+201	Es negaidīju neko citu.	I wasn't expecting anything different.
+202	Tajā kaut kas ir.	There's something in that.
+203	Kuru tu gribi?	Which one do you want?
+204	Atvainojiet.	Sorry.
+205	Man nav ko teikt.	I have nothing to say.
+206	Viņš grib to atcelt.	He wants to rescind it.
+207	Šīs ir tavas slēpes?	Are these your skis?
+208	Šajā istabā ir kaķis.	There is a cat in this room.
+209	Ko tas nozīmē?	What does it mean?
+210	Netaisi tādu troksni!	Don't make such a noise!
+211	Jauku dienu!	Have a nice day!
+212	Kā viņi izskatās?	How do they look?
+213	Kam tas ir domāts?	What is it for?
+214	Es nezinu, vecīt.	I don't know, man.
+215	Es tevi mīlu.	I love you.
+216	Tev vajadzētu gulēt.	You should sleep.
+217	Nē, laikam nē.	No, I guess not.
+218	Man ļoti žēl.	I'm very sorry.
+219	Tāda bija kāda cita ideja.	That was somebody else's idea.
+220	Es domāju tāpat.	I agree.
+221	Jauki jūs redzēt!	Nice to see you!
+222	Tev jābūt modram.	You have to be vigilant.
+223	Esmu bijis muļķis.	I've been a fool.
+224	Jā, noteikti.	Yes, certainly.
+225	Es negribu cukuru.	I don't want sugar.
+226	Man ir manas šaubas.	I have my doubts.
+227	Tam tūlīt jābeidzas.	That's got to stop right now.
+228	Kādēļ tu esi šeit?	Why are you here?
+229	Kā tas iespējams?	How's that possible?
+230	Man ir divi kaķi.	I have two cats.
+231	Zini savas robežas.	Know your limits.
+232	Izbaudi dzīvi, kamēr vari.	Enjoy life while you may.
+233	Es joprojām esmu šokā.	I'm still in shock.
+234	Tas tika atcelts.	It was canceled.
+235	Kā viņš zina?	How does he know?
+236	Cilvēku apziņa attīstās.	Human consciousness is evolving.
+237	Es negribu palīdzēt.	I don't want to help.
+238	Viņš visus kritizē.	He criticizes everyone.
+239	Tas ir gatavs.	It's ready.
+240	Ko tu darītu manā vietā?	What would you do in my place?
+241	Ko tu tikko redzēji?	What did you just see?
+242	Saki ko gribi.	Say what you want.
+243	Man nevajag daudz.	I don't need much.
+244	Rīkojies ātrāk!	Act faster!
+245	Viņa atnāca līdzi.	She came along.
+246	Tas nav pareizi.	This ain't right.
+247	Toms dzīvoja ilgi.	Tom lived for a long time.
+248	Ātri pieradu.	I got used to it quickly.
+249	Tā ir gaumes lieta.	It is a matter of taste.
+250	Lai nebūtu kara!	May there be no war!
+251	Ko tu redzi?	What do you see?
+252	Laiks ir manā pusē.	Time is on my side.
+253	Nenokavē darbu.	Don't be late for work.
+254	Sveiki visiem!	Hello everyone!
+255	Paskaties augstāk!	Look out above!
+256	Tas nav vajadzīgs.	There's no need for that.
+257	Laimīgu Jauno gadu!	Happy New Year!
+258	Sveika, māt.	Hello, Mother.
+259	Viņš atmeta visas cerības.	He abandoned all hope.
+260	Jauki jūs redzēt!	Nice to see you!
+261	Tu tiešām tici tiem stāstiem?	Do you really believe those stories?
+262	Beidz melot!	Stop lying!
+263	Vai kaut kas ir noticis?	Has something happened?
+264	Ko viņš saka?	What does he say?
+265	Tas nebūs viegli.	That won't be easy.
+266	Kur ir mans dēls?	Where is my son?
+267	Es skujos katru rītu.	I shave every morning.
+268	Kur ir mana mamma?	Where's my mum?
+269	Starp viņiem nav brālības.	There is not brotherhood between them.
+270	Kā jūs tiksiet galā?	How will you manage?
+271	Kāda velna pēc?	What the heck?
+272	Gandrīz trīs.	Nearly three.
+273	Govis tiek slauktas sešos.	The cows are milked at six.
+274	Mēs gribam būt droši.	We want to make sure.
+275	Es gribēju zupu.	I wanted soup.
+276	Karš ilga divus gadus.	The war lasted two years.
+277	Iemācies pateikt nē.	Learn to say no.
+278	Toms ir nedaudz saguris.	Tom is slightly tipsy.
+279	Rokas augšā!	Hands up!
+280	Izvēlies vārdu.	Choose a word.
+281	Lūk, kas tev jāzina.	Here's what you need to know.
+282	Toms ir aiz tevis.	Tom is behind you.
+283	Ļauj mums būt.	Let us be.
+284	Rokas augšā!	Hands up!
+285	Es jūtos tā, it kā mirtu.	I feel like I'm dying.
+286	Ko tu gribētu?	What would you like?
+287	Sajūta ir laba.	It feels good.
+288	Kur tu biji?	Where were you?
+289	Kā tu pavadi dienas?	How do you spend your days?
+290	Nekaitē sev.	Don't sabotage yourself.
+291	Skaties uz priekšu.	Look ahead.
+292	Vai rīt būs karsts?	Will it be hot tomorrow?
+293	Kāpēc tu man to teici?	Why did you say that to me?
+294	Mans vārds ir Toms.	My name is Tom.
+295	Ko lai dara?	What to do?
+297	Es Tomu neesmu redzējis gadiem.	I haven't seen Tom in years.
+298	Tikai dod tam laiku.	Just give it time.
+299	Dari to savā veidā.	Do it your own way.
+300	Liels, vai ne?	Large, isn't it?
+301	Lai jauka diena!	Have a nice day!
+302	Man ir pārāk daudz lietu!	I have too much stuff!
+303	Es būšu mājās.	I'll be at home.
+304	Koki ir dzīvi.	Trees are alive.
+305	Kurš zina šo vietu?	Who knows this place?
+306	Pica ir klāt.	The pizza is here.
+307	Viņi ir pāris.	They're a couple.
+308	Kārtējo reizi.	Once again.
+309	Šī vieta mani nomāc.	This place depresses me.
+310	Viņi atlaida viņu no darba.	They fired him from his job.
+312	Mums būs jāiet kājām.	We'll have to walk.
+314	Esmu mazliet slinks.	I'm a bit lazy.
+315	Logs ir vaļā.	The window is open.
+316	Kāds ir tavs darbs?	What's your job?
+317	Saki to viņam, nevis man!	Tell it to him, not me!
+318	Šīs ir tavas slēpes?	Are these your skis?
+319	Jūs varat man zvanīt.	You can call me.
+320	Mēs bijām draugi.	We were friends.
+321	Veseļojies drīz!	Get well soon!
+322	Man patīk viņi abi.	I like them both.
+323	Vai priekšā ir kādi apvedceļi?	Are there any detours up ahead?
+324	Pasaulē ir 197 valstis.	There are 197 countries in the world.
+325	Tu vari runāt.	You may speak.
+326	Kur ir puiši?	Where are the boys?
+327	Mamma ir vecāka par tēti.	Mom is older than Dad.
+328	Es ceru satikt šo vīru.	I hope to meet this man.
+330	Ar labu nakti!	Good night!
+331	Šis vīrs ir kurls.	This man is deaf.
+332	Mums ir visa nakts.	We've got all night.
+333	Skaties uz priekšu.	Look ahead.
+334	Nē, tas nemaz tā nav.	No, that's not the case at all.
+335	Vai tas ir viss, ko atceries?	Is that all you remember?
+336	Cilvēkiem tas patiks.	People will love it.
+337	Es redzēju koalu.	I saw a koala.
+338	Ā, tagad es saprotu.	Oh, now I understand.
+339	Es jau to redzu.	I’m already seeing it.
+340	Man nāk miegs.	I'm getting sleepy.
+341	Hei, tu! Ko tu dari manā istabā?	Hey, you! What are you doing in my room?
+342	Es savā ziņā to sapratu.	I kind of figured that out.
+343	Es nedomāju, ka tu saproti.	I don't think you understand.
+344	Toms atteicās no pasaules.	Tom renounced the world.
+345	Būšu prom divas nedēļas.	I'm away for two weeks.
+346	Man vajag to atrast.	I need to find it.
+347	Tomēr man sāp plecs.	However, my shoulder hurts.
+348	Vai kopš tā laika kaut kas ir mainījies?	Has anything changed since then?
+349	Pasaki kaut ko!	Say something!
+350	Atvaino, man nav naudas.	Sorry, I don't have any money.
+351	Lec pāri grāvim.	Jump over the ditch.
+352	Man vajadzēja naudu.	I needed money.
+353	Ir grūti izvēlēties.	It's hard to choose.
+354	Bērni ir viesi.	The kids are visitors.
+355	Tas ir nopietni.	That's serious.
+356	Tu tos nevari ņemt!	You can't take those!
+357	Kas man jādara?	What do I have to do?
+358	Ļauj mums doties.	Let us go.
+359	Patiesībā es ienīstu porno.	Actually I hate porn.
+360	Tas nav tas ko es saku.	That's not what I'm saying.
+361	Es par to īsti nedomāju.	I don't really think about it.
+362	Esmu diezgan drošs.	I am pretty sure.
+363	Es varētu tevi nogalināt.	I could kill you.
+364	Kur tu dosies tālāk?	Where will you go next?
+365	Ejam! Vēlreiz!	Let's go! Again!
+366	Ļauj man ar to tikt galā.	Let me handle this.
+367	Es pati to nesaprotu.	I don't understand that myself.
+368	Es redzu tev cauri.	I see through you.
+369	Es aizveru durvis.	I'm closing the door.
+370	Toms ir miris.	Tom is dead.
+371	Man nav naudas.	I don't have money.
+372	Esmu redzējis viņus.	I've seen them.
+373	Esmu pilnīgi kurls.	I'm completely deaf.
+374	Ļauj man maksāt šovakar.	Let me pay tonight.
+375	Ej lejā pa kāpnēm.	Go down the stairs.
+376	Tas nav priekš manis.	This isn't for me.
+377	Man vienalga.	I don't care.
+378	Viss ir slikti.	Everything is bad.
+379	Ņem tos abus.	Take them both.
+380	Kura kārta ir?	Whose turn is it?
+381	Tu mani beidz nost!	You're killing me!
+382	Es nebraucu ar mašīnu.	I don't drive a car.
+383	Tu vismaz domā.	You think at least.
+384	Dzīve notiek.	Life happens.
+385	Kas notika ar tavu roku?	What happened to your hand?
+386	Nauda mani nemotivē.	I'm not motivated by money.
+387	Šajā istabā ir meitene.	There is a girl in this room.
+388	Varbūt vēlāk.	Maybe later.
+389	Es nespēju padomāt.	I can't think.
+390	Nekādu problēmu!	No problem!
+391	Kas ir tavā prātā?	What's in your mind?
+392	Es reiz biju Meksikā.	I was once in Mexico.
+394	Kas ir prieks?	What is joy?
+395	Es pirmais jautāju.	I asked first.
+396	Šie ir jauni.	These are new.
+397	Tā ir viņu pašu atbildība.	It is their own responsibility.
+398	Es gribu izkļūt no šīs vietas.	I want to get out of this place.
+399	Tu to spēsi izdarīt.	You'll be able to do that.
+400	Sami gulēja uz zemes.	Sami was lying on the ground.
+401	Toms ir mājas arestā.	Tom is under house arrest.
+402	Visu veikalu būsi izpircis?	Are you going to buy out the whole store?
+403	Piedodiet, bet kāds bija jūsu vārds?	I am sorry, but what's your name again?
+404	Viņa senči ir no šejienes.	His ancestors are from here.
+405	Ko tu īsti vēlies?	What do you really want?
+406	Ko jūs tagad gribat?	What do you want now?
+408	Man sāp acis.	My eyes hurt.
+411	Tai virvei jābūt satītai.	That rope has to be coiled.
+412	Tas patiešām pastāv.	That really exists.
+413	Zem kurienes?	Under where?
+414	Sieviete strādā.	The woman is working.
+415	Pieņem savus sapņus.	Embrace your dreams.
+416	Es kādreiz biju katolis.	I used to be Catholic.
+417	Iesim mājās.	Let's go home.
+418	Laimīgu ceļu!	Have a nice trip!
+419	Šī ir gada īsākā diena.	This is the shortest day of the year.
+420	Paliec mājās.	Stay at home.
+421	Kādas muļķības!	What nonsense!
+422	Sava gaume ir jākopj.	You have to cultivate your taste.
+423	Tā bija mana iespēja.	It was my opportunity.
+424	Kam jānotiek, tas notiks.	Whatever must happen, will happen.
+425	Es nesaprotu.	I don't understand.
+426	Toms ir drošībā un labā stāvoklī.	Tom is safe and in good condition.
+427	Mēs neesam kurli.	We're not deaf.
+428	Bērns ir gultā.	The child is in bed.
+429	Lūdzu, nāciet uz manām mājām.	Please come to my house.
+430	Es vienīgais smējos.	I was the only one who laughed.
+431	Kur tu dzīvo?	Where do you live?
+432	Vai tev ir cits plāns?	Do you have another plan?
+433	Ir vajadzīga jūsu klātbūtne.	Your presence is required.
+434	Atpūšamies dažas minūtes.	Let's rest for a few minutes.
+435	Cik svarīgi?	How important?
+436	Kur ir mans tētis?	Where is my dad?
+437	Klausies, beidz strīdēties!	Listen, stop arguing!
+438	Pajautājiet kādam citam.	Ask someone else.
+439	Te ir mana sieva Anda	This is my wife Anda.
+440	Man tas liekas interesanti!	It seems interesting to me.
+441	Viens neizslēdz otru.	The one doesn't preclude the other.
+442	Es varu palikt.	I can stay.
+443	Nevienam nesaki.	Don't tell anyone.
+444	Man vajag dabūt zīmogu.	I need to get a stamp.
+446	Es runāju čehiski.	I speak Czech.
+447	Man nav bērnu.	I don't have any children.
+448	Vai trīs simti dolāru ir par daudz?	Is three hundred dollars too much?
+449	Metjū pagāja garām.	Matthew walked past.
+450	Laipni lūgti!	Welcome!
+451	Sanvisenti bija pirmā pilsēta Brazīlijā.	São Vicente was the first city in Brazil.
+452	Ja dzer, nebrauc. Ja brauc, nedzer.	If you drink, don't drive. If you drive, don't drink.
+453	Kurš ir labākais jurists?	Who's the best lawyer?
+454	Nedrīkst jaukt "nedrīkst" ar "nevajag".	One must not confuse "must not" with "need not".
+455	Tas ir viegli.	It's easy.
+456	Ūdens ir slapjš.	Water is wet.
+457	Kas atrodas maisā?	What's in the sack?
+458	Puika nokrita.	The boy fell.
+459	Es gribu dzīvot.	I want to live.
+460	Daudz laimes dzimšanas dienā!	Happy birthday!
+461	Tā bija viena no tām lietām.	It was one of those things.
+462	Tagad esmu drošs.	Now I'm sure.
+463	Stipri līst, tādēļ zeme ir ļoti piemirkusi.	It's raining heavily so the ground is very soggy.
+464	Es vēlos ar jums runāt.	I wish to speak to you.
+465	Džons turēja galvu virs ūdens.	John kept his head above water.
+466	Sieviete lasa.	A woman is reading.
+467	Mēs nevaram padoties.	We can't give up now.
+468	Es atradu ceļu.	I found the road.
+469	Kur ir Toma māte?	Where's Tom's mother?
+470	"Mammu, kāpēc es esmu tik stulbs?" "Tas ir daudz labāk nekā būt bezsirdīgam."	"Mum, why am I so stupid?" "It's a lot better than being heartless."
+471	Kosmosa stacijas komandas, parasti, guļ guļammaisos, kuri atrodas mazas kabines.	Space station crews usually sleep in sleeping bags located in small crew cabins.
+472	Toms patiesībā ir labs puisis.	Tom is actually a good guy.
+473	Es gulēju stundas laikā.	I slept during the lesson.
+474	Vai kādreiz esi juties Dieva pamests?	Have you ever felt abandoned by God?
+475	Ar labu nakti!	Good night!
+476	Nē, īsti ne.	No, not really.
+477	Pūķi ir forši.	Dragons are cool.
+478	Tā bija slikta doma.	It was a bad idea.
+479	Cik mēs tur būsim?	How many of us are going to be there?
+480	Sen atpakaļ, reiz te bija tilts.	There once was a bridge here a long time ago.
+481	Mēs samazinājām to uz pusi.	We halved it.
+482	Mēs esam ceļā uz mājām.	We're on the way home.
+483	Sveika, pasaule!	Hello, world!
+484	Tā ir problēma.	It's a problem.
+485	Daži putni nelido.	Some birds can't fly.
+486	Tu esi kā mašīna.	You're like a machine.
+487	Tā ir daļa no plāna.	That's part of the plan.
+488	Viņš neteica, kurā gadā dzimis.	He didn't say in which year he was born.
+489	Cik tālu ir līdz Brno?	How far is it to Brno?
+490	Ko es šeit daru?	What am I doing here?
+491	Es parasti ēdu viens.	I usually eat alone.
+492	Te ir mana sirds.	Here is my heart.
+493	Liec mani mierā.	Leave me alone.
+494	Šim galdam trūkst kāja.	This table is missing a leg.
+495	Labs jautājums.	A good question.
+496	Es viņu tikko dzirdēju.	I just heard her.
+497	Es vairs neesmu tas mazais bērns, kuru visu laiku vajag lutināt.	I'm no longer the little child that you need to pamper all the time.
+498	Toms to gribēja.	Tom wanted this.
+499	Es atstāju ziņu.	I left a message.
+500	Ko tu meklē?	What're you looking for?
+501	Nemaldiniet cilvēkus.	Don't mislead people.
+502	Gadsimts ir simts gadi.	A century is one hundred years.
+503	Labrīt, Mike.	Good morning, Mike.
+504	Visi gaida, lai redzētu, kas notiks.	Everyone's waiting to see what's going to happen.
+505	Saule ir liela.	The sun is big.
+506	Sezam, aizveries!	Close, Sesame!
+507	Atklāj pasauli!	Discover the world!
+508	Mēs bijām kurli.	We were deaf.
+509	Pamēģini ko jaunu.	Try something new.
+510	Es iegāju mājā.	I walked into the house.
+511	Jā, es zināju.	Yes, I knew.
+512	Toms man šobrīd palīdz.	Tom is helping me right now.
+513	No kuras Spānijas daļas tu esi?	What part of Spain are you from?
+514	Esmu noguris no dzīves.	I'm tired of life.
+515	Paņem ieroci.	Pick up the gun.
+517	Lūdzu, palīdzi man!	Please, help me!
+518	Viņš lutināja savu sievu.	He pampered his wife.
+519	Man paliek vēsi.	I'm getting cold.
+520	Tas ir ļoti tuvu.	It is very near.
+521	Vēl nav par vēlu.	It's not too late.
+522	Dzīve ir skaista.	Life is beautiful.
+523	Es nebaidos no nāves.	I'm not afraid of death.
+524	Nē, ne gluži.	No, not really.
+525	To jau zinām.	We already know that.
+526	Toms to izdarīs no rīta.	Tom is going to do that in the morning.
+527	Es nezināju.	I didn't know.
+528	Naida runa mudina linčot.	Hate speech incites lynchings.
+529	Es jūtos dzīvs.	I feel alive.
+530	Kurā slimnīcā viņa ir?	Which hospital is she in?
+531	Fadils izglāba viņa dzīvību.	Fadil saved his life.
+532	Vai es drīkstu jūs pavadīt ?	May I go with you?
+533	Ginters nevienu negaidīja.	Gunter wasn't expecting anyone.
+534	Vai tev ir plāns?	Do you have a plan?
+535	Ziņas nav labas.	The news isn't good.
+536	Saglabājiet mieru.	Remain calm.
+537	Sievietes ir jūtīgas.	Women are sensitive.
+538	Man nav draugu.	I have no friends.
+540	Tā kā viņam nav ģimenes, viņš Ziemassvētkos bija piedzēries.	Since he has no family, he was drunk at Christmas.
+541	Es iešu ar Tomu.	I'll go with Tom.
+542	Kas viņu nogalināja?	Who killed him?
+543	Es ceru satikt šo vīru.	I hope to meet this man.
+544	Es strādāju.	I am working.
+545	Pieskati šo māju.	Watch this house.
+546	Cik pavisam ir studentu?	How many students are there in total?
+547	Agrāk vai vēlāk.	Sooner or later.
+548	Vakar bija Svētdiena.	Yesterday was Sunday.
+549	Viņš spēlē ģitāru.	He plays the guitar.
+550	Tas kļūst smieklīgi.	This is getting ridiculous.
+551	Jūs bijāt gatavi?	Were you prepared?
+552	Viņš ir mans brālis.	He is my brother.
+553	Viņš zina patiesību.	He knows the truth.
+554	Šī ir mana vaina.	This is my fault.
+555	Man radās jauna aizraušanās.	I got a new passion.
+556	Vai jūs domājat, ka es esmu neglīts?	Do you think I'm ugly?
+557	Kādas meitenes tev patīk?	What kind of girls do you like?
+558	Ko Toms vēlas?	What does Tom desire?
+559	Es vēršos bada upuru vārdā.	I'm appealing on behalf of the famine victims.
+560	Visi citi to dara.	Everyone else does it.
+561	Caur mākoņiem spīdēja gaismas stari.	Beams of light shone through the clouds.
+562	Būšu prom divas nedēļas.	I'm away for two weeks.
+563	Es priecājos to dzirdēt.	I'm happy to hear it.
+565	Es pamodos pirms trīsdesmit minūtēm.	I woke up thirty minutes ago.
+566	Runā, ka čehu meitenes esot skaistas.	It's said Czech girls are beautiful.
+567	Esmu bijusi pacietīga.	I've been patient.
+568	Šoferiem jālieto drošības jostas.	Drivers should wear seat belts.
+569	Toms ir īpaši uzmanīgs.	Tom is extra careful.
+571	Mēs esam vienā vecumā.	We are just about the same age.
+572	Es negribu par to domāt.	I don't want to think about it.
+573	Gulēju zemē.	I slept on the ground.
+574	Mums ir visa nakts.	We've got all night.
+575	Viņa sēž savā mašīnā.	She's sitting in her car.
+576	Kam pieder šī glāze?	Whose glass is that?
+577	Kur ir tavi bērni?	Where are your kids?
+578	Mēs mīlam to meiteni.	We love that girl.
+579	Man vajadzēs palīdzību.	I'll need help.
+580	Kas valda pār pasauli?	Who rules the world?
+581	Tā ir mana vienīgā raize.	That's my only worry.
+583	Kas ir tavā prātā?	What's in your mind?
+584	Piešķir dažādību saviem ēdieniem.	Give variety to your meals.
+585	Toms skrēja pakaļ autobusam.	Tom ran after the bus.
+586	Es tur nebiju.	I wasn't there.
+587	Man ir kauns par savu tēvu.	I'm ashamed of my father.
+588	Šī ir mana ģimene.	This is my family.
+589	Tas ir jauns.	That's new.
+590	Taivāna ir valsts.	Taiwan is a country.
+591	Vai tu šitam tici?	Do you believe this?
+592	Tas liek man vemt.	This makes me want to throw up.
+593	Varēja būt sliktāk.	It could have been worse.
+594	Ir vērts mēģināt.	It's worth a try.
+595	Kas tur ko saprast?	What is there to understand?
+596	Ko jūs darāt?	What are you doing?
+597	Vai tu negribi vienu no šiem?	Don't you want one of these?
+598	Jūs esat neticami.	You're incredible.
+599	Bērniem ir veca grāmata.	The children have an old book.
+600	Lieliska ideja.	Great idea.
+601	Lieliska ideja.	Great idea.
+602	Laiks ir manā pusē.	Time is on my side.
+603	Izvēlies vienu no šiem.	Choose one from among these.
+604	Tās ir mūsu mašīnas.	They are our cars.
+605	Tā ir cita problēma.	This is another problem.
+606	Vai tas ir īsts zīds?	Is this real silk?
+608	Es domāju, ka tu esi jauks.	I think you're nice.
+612	Viņa viņam ļāva braukt pašam.	She let him drive on his own.
+613	Turpini sapņot.	Keep dreaming.
+614	Man kļūst karsti.	I'm getting hot.
+615	Bet jūs tur neesat.	But you're not there.
+616	Karš ilga divus gadus.	The war lasted two years.
+617	Sāk parādīties viņa īstais raksturs.	His true character is starting to show through.
+618	Šī ir viņa māja.	This is his house.
+619	Man riebjas šī spēle.	I hate this game.
+620	Es nopirku desmit olas.	I bought ten eggs.
+621	Toms dzīvo mazā ciematā.	Tom lives in a small village.
+622	Vecāki mīl savus bērnus.	Parents love their children.
+623	Tu to nezini.	You don't know that.
+624	Vai jūs atpazīstat šos?	Do you recognize these?
+626	Kad tu plāno atgriezties?	When are you planning to come back?
+627	Vai tu mani dzirdi?	Do you hear me?
+628	Šis nav jautri.	This is not fun.
+629	Dzīvē bieži apmaldos.	I often get lost in life.
+630	Es atvainojos.	I apologize.
+631	Tas ir lielisks plāns.	That's a great plan.
+632	Un ko tu redzēji?	And what did you see?
+633	Es biju cietumā.	I was in jail.
+634	Tās ir asinis.	It's blood.
+635	Tas ir skaisti.	That is beautiful.
+636	Viņa ir gatava.	She is ready.
+637	Tu vari izmantot šo uzvedni.	You can use this prompt.
+638	Tas man lika vilties.	It disappointed me.
+639	Tas ir dīvaini.	That's strange.
+640	Godīgi sakot, es to nesaprotu.	To be honest, I don't understand it.
+641	Lai nebūtu kara!	May there be no war!
+642	Es maz guļu.	I sleep little.
+643	Mēs to darīsim par brīvu.	We're going to do that for free.
+644	Laimīgu dzimšanas dienu!	Happy birthday!
+645	Kas man vainas?	What's wrong with me?
+646	Prieks iepazīties.	Pleased to meet you.
+647	Efeja pārklāj zemi.	Ivy covers the ground.
+648	Kaķim ap kaklu bija lentīte.	The cat had a ribbon around its neck.
+649	Runā mierīgi.	Talk calmly.
+650	Es izvēlos strādāt.	I choose to work.
+651	Cilvēka vēlmēm nav robežu.	There is no limit to human desire.
+652	Nesalīdzini sevi ar citiem.	Don't compare yourself to others.
+653	Tēva šeit nav.	Father is not here.
+654	Es dzīvoju pilsētā.	I live in the city.
+655	Es diez ko labi nejūtos.	I don't feel very well.
+656	Es kļūstu pazudis tajā visā.	I become lost in it all.
+657	Atrodi risinājumu šai problēmai.	Find a solution for this problem.
+658	Itāļi ēd lielu maltīti divas reizes dienā.	Italians eat a big meal twice a day.
+659	Lai jauka diena!	Have a nice day!
+660	Tad darām to.	So let's do it.
+661	Ļaujiet savām jūtām plūst.	Let your feelings flow.
+662	Šī kastē ir pieci āboli.	This box contains five apples.
+663	Toms nezina.	Tom doesn't know.
+664	Galvenais ir radošums.	Creativity is the key.
+665	Manai mammai bija taisnība.	My mother was right.
+666	Pagriezies pa kreisi.	Turn left.
+667	Manam dēlam ir dēls.	My son has a son.
+668	Esmu priecīgs, ka jūsu komanda spēlē uzvarēja.	I am happy that your team won the match.
+669	Daudzi vergi izmuka.	Many of the slaves escaped.
+670	Es negribu būt tava otrā izvēle.	I don't want to be your second option.
+671	Man patīk būt vienam.	I like to be alone.
+672	Viņa dodas uz Taizemi.	She's going to Thailand.
+673	Bells izgudroja telefonu.	Bell invented the telephone.
+674	Es ienīstu šo spēli.	I hate this game.
+675	Turiet bumbu abās rokās.	Hold the ball in both hands.
+676	Piemēram, rozīnes priekš kaķiem ir toksiskas.	Raisins, for example, are toxic to cats.
+677	Gaisā riņķoja pūķi.	The dragons circled in the air.
+678	Es nesaprotu jautājumu.	I don't understand the question.
+680	Man bija tiesības zināt.	I had a right to know.
+681	Es neko vēl neesmu dzirdējis no Toma.	I haven't heard anything back from Tom yet.
+682	Toms to atrada.	Tom found it.
+683	Man patīk spēlēt galda spēles.	I like to play board games.
+684	Toma stāsts ir neticams.	Tom's story is unbelievable.
+685	Abās ceļa pusēs auga kļavas.	Maple trees grew on both sides of the road.
+686	Tev vajag gulēt.	You need to sleep.
+687	Nedari viņai pāri.	Don't hurt her.
+688	Es nekur negāju.	I didn't go anywhere.
+689	Ko tu darītu manā vietā?	What would you do in my place?
+690	Vai esi gatavs sākt?	Are you ready to begin?
+691	Bērni šeit nav drošībā.	Children aren't safe here.
+692	Iemesls ir skaidrs.	The reason is clear.
+693	Toms nogalināja savu brāli.	Tom killed his own brother.
+694	Tev tas būtu jāzina.	You should know it.
+695	Katrs vārds ir nozīmīgs.	Every word is significant.
+696	Noliec aizvainojumu malā.	Put resentment aside.
+697	Atbrīvojiet bērnus!	Free children!
+698	Vai tev ir meita?	Do you have a daughter?
+699	Es gaidu īsto sievieti.	I'm waiting for the right woman.
+700	Es eju mājās.	I'm going home.
+702	Vai tu traks?	Are you crazy?
+703	Suns aizbēga	A dog ran away.
+704	Klusums ir zelta.	Silence is golden.
+705	Man ir āmurs, un es nebaidos to likt lietā.	I have a hammer, and I'm not afraid to use it!
+706	Es iešu izstaipīt kājas.	I'm going to stretch my legs.
+707	Sapņi reizēm piepildās.	Dreams sometimes come true.
+709	Man tas ļoti patika.	I really liked that.
+710	Laimīgu Jauno gadu!	Happy New Year!
+711	Ģeofiziķis māca skolā.	The geophysicist teaches in the school.
+712	Sajūta ir laba.	It feels good.
+713	Es nolēmu kļūt par ārstu.	I decided to be a doctor.
+714	Es zvēru, ka vairs nedzeru.	I swear I no longer drink.
+715	Viņš bieži dienām iztiek bez ēdiena.	He often goes without food for days.
+716	Vai tu biji darbā?	Were you at work?
+717	Tas ir par lielu.	It's too big.
+718	Toksiskā vīrišķība izpaužas frāzēs kā "esi vīrietis" un "īsti vīri neraud."	Toxic masculinity is embodied by phrases like "man up" and "real men don't cry."
+719	Policija nokļuva negadījuma vietā.	The police got to the scene of the accident.
+720	Es tevi apkārt meklēju.	I looked around for you.
+721	Man nav bail.	I'm not afraid.
+722	Narcises sāk vīst.	The daffodils are starting to wilt.
+723	Krīts ir uz galda.	The chalk is on the table.
+724	Ir labi redzēt draudzīgu seju.	It's good to see a friendly face.
+725	Viņa staigāja uz visām četrām.	She was walking on all fours.
+726	Ir labāks veids.	There is a better way.
+727	Paldies Dievam!	Thank God!
+728	Vairāk vai mazāk.	More or less.
+729	Lūdzu iedod man to.	Please give me that.
+730	Ko tu gribēji teikt?	What did you want to say?
+731	Tev nevajadzētu runāt.	You shouldn't talk.
+732	Četri plus pieci ir deviņi.	Four plus five equals nine.
+733	Pērtiķis redz, pērtiķis dara.	Monkey see, monkey do.
+734	Kuģis pieskārās zemei.	The ship touched ground.
+735	Tu man ne sūda neatstāji.	You didn't leave me shit.
+736	Suns sāka riet.	The dog started barking.
+737	Kuru daļu tu nesaproti?	What part don't you understand?
+738	Viņai rokā ir puķe.	She has a flower in her hand.
+739	Nevienam nesaki.	Don't tell anyone.
+740	Es tev pastāstīšu stāstu.	I'll tell you a story.
+741	Pūķi spļauj uguni.	Dragons spit fire.
+743	Nav nepieciešams kaunēties.	There's no need to be ashamed.
+744	Karš ir elle.	War is hell.
+745	Es savā ziņā to sapratu.	I kind of figured that out.
+746	Ko es Tomam tagad teikšu?	What am I going to tell Tom now?
+747	Mums abiem nav no kā baidīties.	The two of us have nothing to fear.
+748	Neticiet visam, ko redzat.	Don't believe everything you see.
+749	Nav jēgas turp doties.	It is no use going there.
+750	Durvis dažreiz ir vaļā.	The door is sometimes open.
+751	Dodies uz rietumiem.	Go west.
+752	Es gaidu viņa atbildi.	I'm waiting for his response.
+753	Kā tu vispār vari naktī gulēt?	How can you even sleep at night?
+755	Šajā istabā ir kaķis.	There is a cat in this room.
+756	Es tā negribēju!	I didn't want it!
+757	Labdien! Prieks iepazīties.	Good day! A pleasure to meet you.
+758	Slikts suns!	Bad dog!
+759	Kad es biju mazs, es biju viens no retajiem ielas zēniem, kam nepatika futbols.	When I was small I was one of the few boys on the street who didn't like football.
+760	Ceļš ir garš.	The road is long.
+761	Es negribēju runāt par savu ģimeni.	I didn't want to talk about my family.
+762	Šī ir Sendajas pilsētas karte.	This is a map of the city of Sendai.
+763	Vai tev ir draudzene?	Do you have a girlfriend?
+764	Es bieži ceļoju.	I travel often.
+765	Man bija jāatrod pašam savs ceļš.	I had to find my own way.
+766	Man jādodas.	I need to go.
+767	Kas man sniegs informāciju un padomu?	Who will give me information and advice?
+768	Viņa mērķis nav pelnīt naudu.	His goal is to not earn money.
+769	Kā tev šodien gāja?	How was your day today?
+770	Kāpēc tu met tās lietas ugunī?	Why are you throwing those things in the fire?
+771	Neesmu par to daudz domājis.	I haven't thought much about it.
+772	Es atnācu kājām.	I came on foot.
+773	Mums nav citas izvēles.	We have no other choice.
+774	Viņš runāja arvien skaļāk.	He spoke more and more loudly.
+775	Man vajag viņa spēku.	I need his power.
+776	Man ļoti vajadzīga palīdzība.	I need help badly.
+777	Es došos ar Tomu.	I'll go with Tom.
+778	Neklausies manī!	Don't listen to me!
+779	Man tas vēl nav zināms.	For me it is not yet known.
+780	Visi gāja uz mājām.	Everyone went home.
+781	Es mācos no galvas.	I learn by heart.
+782	Šī istaba ir gana liela.	This room is large enough.
+783	Dodamies paskriet.	Let's go for a run.
+784	Kas mīl dēlu?	Who loves the son?
+785	Sākumā es tevi ienīdu.	I hated you at first.
+786	Tu to varēsi izdarīt.	You'll be able to do that.
+787	Kurus svārkus tu izvēlētos?	Which skirt would you choose?
+788	Es klausos šo grupu.	I'm listening to this band.
+789	Zēns nav garš.	The boy is not tall.
+790	Kā tu zināji?	How did you know?
+791	Lūdzu, palīdziet man.	Please help me.
+792	Toms pienāca tuvāk.	Tom came closer.
+793	Es nāvi nebaidos.	I don't fear death.
+794	Tā nav īsta mīlestība.	That's not true love.
+795	Diemžēl tā ir taisnība.	Unfortunately, it's true.
+796	Es dzeru ūdeni.	I drink the water.
+797	Es nevaru atstāt Tomu vienu.	I can't leave Tom alone.
+798	Nedomā par cenu.	Don't think about the price.
+799	Es jūtos vecs.	I feel old.
+800	Beigās tas ir daļēji izskaidrots.	That is somewhat explained at the end.
+801	Kad tu to saprati?	When did you realize that?
+802	Man jāsaka, ka man ir riebums.	I have to say I'm disgusted.
+803	Kur ir vīrietis?	Where is the man?
+805	Es esmu patiesi slinks.	I'm really lazy.
+806	Ne, viņš nav mans jaunais draugs.	No, he's not my new boyfriend.
+807	Samīms runāja ar divām policistēm.	Sami was talking to two female officers.
+808	Es sāku klepot.	I began coughing.
+809	Kur ir jūsu atslēgas?	Where are your keys?
+810	Beidziet meklēt vainu citos.	Stop finding fault with others.
+811	Smiekli ir labākās zāles.	Laughter is the best medicine.
+812	Es zinu, ko es darīšu.	I know what I'll do.
+813	Pēkšņi ārā satumsa.	All of a sudden, it got dark outside.
+814	Dabū man lupatu.	Get me a rag.
+816	Jūs bijāt gatavi?	Were you prepared?
+817	Ik pa laikam atskanēja smiekli.	There was occasional laughter.
+818	Vai tev ir problēmas?	Are you having problems?
+819	Es redzēju bailes viņa acīs.	I saw the fear in his eyes.
+820	Kas vainas maniem teikumiem?	What's wrong with my sentences?
+821	Viņi lasa grāmatu.	They're reading a book.
+822	Kāpēc lai kāds tā teiktu?	Why would anyone say that?
+823	Tā bija viena no tām lietām.	It was one of those things.
+824	Es sajaucu šos divus vārdus.	I confused these two words.
+825	Man sāp acis.	My eyes hurt.
+826	Mums ir jumts virs galvas.	We have a roof over our heads.
+827	Tā ir tīra patiesība.	It's the pure truth.
+829	Tas bija bīstami.	That was dangerous.
+830	Tā ir pilnībā mana vaina.	It's entirely my fault.
+831	Dosimies mājās.	Let's go home.
+832	Esiet modrs.	Be vigilant.
+833	Es mīlu savu pilsētu.	I love my city.
+834	Viņa vārdi bija draudīgi.	His words were menacing.
+835	Toms vada kravas auto.	Tom drives a truck.
+836	Dari to savā veidā.	Do it your own way.
+837	Viņa nerunā.	She doesn't talk.
+838	Uztaisi kafiju.	Make coffee.
+839	Kādas muļķības!	What nonsense!
+840	Kuram ir šī istaba?	Whose room is this?
+841	Ko tu darīsi Bostonā?	What are you going to do in Boston?
+842	Kur tu to atradi?	Where did you find it?
+843	Es to nedaru sevis dēļ.	I'm not doing this for myself.
+844	Es nevaru dot tādu solījumu.	I can't make that kind of promise.
+845	Tas nav interesanti.	It's not interesting.
+846	Es tev ar prieku palīdzēšu.	I will gladly help you.
+847	Toms zināja.	Tom knew.
+848	Es gribu ēst.	I want to eat.
+849	Viņa dzīvo pie jūras, bet nemāk peldēt.	She lives by the sea, but she doesn't know how to swim.
+850	Tā ir manis paša vaina.	It's my own fault.
+851	Oho, paskaties uz šīm cenām!	Wow, look at these prices!
+852	Cik tas maksā?	How much is it?
+853	Vai tas jebkad ir noticis pirms tam?	Has that ever happened before?
+854	Kā man likt tev saprast?	How can I make you understand?
+855	Ko tu viņiem teiksi?	What'll you tell them?
+856	Kaza žigli lēca no vienas klints uz otru.	The goat hopped agilely from one rock to another.
+857	Es nemāku spēlēt Zoli.	I don't know how to play Zole.
+858	Tas bija nozīmīgs brīdis.	It was a significant moment.
+860	Nāve apskauj.	Death embraces.
+861	Tā nav īsta mīlestība.	That's not true love.
+862	Kas mīl dēlu?	Who loves the son?
+863	Es iestājos gaisa spēkos.	I enlisted in the Air Force.
+864	Es nevarētu dzīvot bez mūzikas.	I wouldn't be able to live without music.
+865	Man apnika zaudēt.	I got tired of losing.
+866	Toms vakar tur devās.	Tom went there yesterday.
+867	Es to dabūju par brīvu.	I got it for free.
+868	Sāksim, kad esat gatavi.	We'll start whenever you are ready.
+870	Lauva ir džungļu karalis.	The lion is the king of the jungle.
+871	Kur jūra nes tavu sirdi?	Where does the sea take your heart?
+872	Mēs gribam gaļu.	We want meat.
+873	Sami šeit ir jau ilgu laiku.	Sami has been here for a long time.
+874	Neviens mums neko nav teicis.	No one has told us anything.
+875	Viņš kļuva dusmīgs.	He started getting mad.
+876	Es tevi gaidīšu skolas priekšā.	I will wait for you in front of the school.
+877	Vai Tomam ir māsa?	Does Tom have a sister?
+879	Mūsu klase ir maza.	Our class is a small one.
+880	Cik ļauni no tavas puses.	How evil of you.
+882	Nespēju noticēt, ka viņa precēsies ar to veco sakārni.	I can't believe she's going to marry that old geezer.
+883	Vai tu proti gatavot gaļu?	Do you know how to cook meat?
+885	Mums jābūt draugiem.	We got to be friends.
+886	Man nevajadzēja.	I shouldn't have.
+887	Es maksāšu cenu par to, kam ticu.	I'll pay the price for what I believe in.
+888	Paskat uz to mazo kolibri.	Look at that little hummingbird.
+889	Es jutos vainīgs.	I felt guilty.
+890	Es nevēlos sadusmoties, strīdoties ar to puisi par tēmu, kuru es īsti nepārzinu.	I don't want to get angry, arguing with that guy on a subject which I don't know thoroughly.
+891	Centies viņu nekaitināt.	Try not to annoy him.
+892	Toms turpināja ignorēt manus zvanus.	Tom kept ignoring my calls.
+893	Dāmas arī spēlē bumbu.	Ladies also play with the ball.
+894	Ko tu šorīt ēdi?	What did you eat this morning?
+895	Es televīziju skatos vakarā.	I watch television in the evening.
+896	Es knapi kaut ko spēju sadzirdēt.	I could hardly hear a thing.
+897	Viņa nevēlas, lai tu zinātu.	She doesn't want you to know.
+898	Viņš nedēļu nemazgājās.	He didn't wash himself for a week.
+899	Lūdzu, saki, ka tu joko.	Please say you're kidding.
+900	Cilvēki ir ļoti pieraduši skatīties ārpus sevis.	People are very used to looking outside themselves.
+901	Es to neesmu darījis mēnešiem.	I haven't done that in months.
+902	Es nogulēju vēl vienu stundu.	I slept another hour.
+903	Man ir sapnis.	I have a dream.
+904	Man sāp labais plecs.	My right shoulder hurts.
+905	Ziņas nav labas.	The news isn't good.
+906	Kad Toms aizgāja?	When did Tom go?
+907	Es nebiju pārliecināts, ko tu domāji.	I wasn't sure what you meant.
+908	Viņa sejas izteiksme bija pa pusei izsmejoša, pa pusei jautājoša.	His expression was half derisory, half quizzical.
+909	Tas ir tas, ko es vienmēr esmu mīlējis tevī.	That's what I've always loved about you.
+910	Galu galā viņai tas izdevās.	Eventually, she succeeded.
+911	Es dzirdu kādu dziedam.	I can hear someone singing.
+912	Vai tu mīli savu māti?	Do you love your mother?
+913	Es gaidīju stundām.	I've been waiting for hours.
+914	Esmu visai ziņkārīgs.	I'm rather curious.
+915	Aizmirsti viņu.	Forget him.
+916	Toms iet skatīties.	Tom is going to watch.
+917	Esmu prātu zaudējis.	I'm out of my mind.
+918	Laiku pa laikam Toms piestāja, lai salabotu Marijas mantas.	Tom stopped by occasionally to fix things for Mary.
+919	Viņam nav mobilā telefona.	He doesn't have a mobile phone.
+920	Es negribēju nākt.	I didn't want to come.
+921	Tev ir slikta elpa.	You have bad breath.
+922	Viņa ir dzīva vai mirusi?	Is she dead or alive?
+923	Tavam viedoklim ir nozīme.	Your opinion matters.
+924	Es minēju nepareizi.	I guessed wrong.
+925	Man vajag klusu vietu, kur padomāt.	I need a quiet place to think.
+926	"Vai vari uztaisīt man brokastis?" "It kā tavai resnajai pakaļai vajadzētu brokastis!"	"Can you make me breakfast?" "Like your fat ass needs breakfast!"
+927	Tas nav joks.	It's not a trick.
+928	Vai tavs ierocis ir pielādēts?	Is your gun loaded?
+929	Vienošanās izrādījās ļoti ienesīga.	The arrangement proved highly profitable.
+930	Toms pasniedza vakariņas.	Tom served dinner.
+931	Toms gatavo labāko vegānu desu.	Tom makes the best vegan sausage.
+932	Es centos nesmieties.	I tried not to laugh.
+933	Tomu glābt būs ļoti grūti.	Rescuing Tom will be very difficult.
+934	Toma bankas konts ir tukšs.	Tom's bank account is empty.
+935	Kapteinis, viņa mauka, sievietes un bērni pa priekšu!	The captain, his whore, women and children first!
+936	Man ir rezervēts numurs	I have a reservation.
+937	Tie ir vieni vienīgi meli.	That's a total lie.
+938	Tici savam sargeņģelim!	Believe in your guardian angel!
+939	Jūs esat traki?!	Are you crazy?!
+940	Kad atiet nākamais vilciens?	When does the next train leave?
+941	Netici visam, ko redzi.	Don't believe everything you see.
+942	Vai tu kaut ko dabūji?	Did you get anything?
+943	Toms jūtas slikti.	Tom feels bad.
+944	Es nevarēju to ignorēt.	I couldn't ignore it.
+945	Es to neredzu.	I don't see it.
+946	Toma balss trīcēja.	Tom's voice quavered.
+947	Es gribu mirt.	I want to die.
+948	Es šonakt nedziedāšu.	I won't sing tonight.
+949	Atrodi kaķi.	Find the cat.
+950	Fadils rūpējās par savu meitu.	Fadil took care of his daughter.
+951	Es nevaru noticēt savām acīm.	I can't believe my eyes.
+952	Caur mākoņiem spīdēja gaismas stari.	Beams of light shone through the clouds.
+953	Galdiņu diviem, lūdzu.	Table for two, please.
+954	Tas ir skaidri redzams.	It's in plain sight.
+955	Viņam nevar uzticēties.	He cannot be trusted.
+956	Kas tur stāv?	Who is standing there?
+957	Viņi neatrada masu iznīcināšanas ieročus Irākā.	They found no weapons of mass destruction in Iraq.
+958	Kur tu dosies tālāk?	Where will you go next?
+959	Kurš ir labāks?	Which is better?
+960	Es darīju, ko varēju.	I did what I could.
+961	Aizver savu lielo muti.	Shut your big mouth.
+962	Kļūsti finansiāli brīvs.	Become financially free.
+963	Man patīk Aļaskas lielais aukstums.	I like the extreme cold of Alaska.
+964	Mēs dārzā atradām bruņurupuci.	We found a turtle in the garden.
+965	Zeme drebēja.	The ground shook.
+966	Mans tēvs labo salūzušus krēslus.	My father fixes broken chairs.
+967	Viņi runāja par mīlestību.	They talked about love.
+968	Vai tu lasi grāmatas?	Do you read books?
+970	Zosis lido kāsī.	Geese fly in a V shape.
+971	Es dzīvoju Bakū.	I live in Baku.
+972	Viņš negrib.	He doesn't want to.
+973	Šis ir mazs ciemats.	This is a small village.
+974	Vai tu vari turpināt?	Can you continue?
+975	Pirmajā tikšanās reizē Toms man nemaz nepatika.	I didn't like Tom at all the first time I met him.
+976	Toms ir gudrs zēns.	Tom is a smart kid.
+977	Es ne vārda nesaprotu.	I don't understand a word.
+978	Sāc dzīvot savu sapni.	Start living your dream.
+979	Cik zobu ir cilvēkam?	How many teeth does a human have?
+980	Vai tas labi garšo?	Does that taste good?
+981	Sociopāti citus sāpina bez otrās domas.	Sociopaths hurt others without a second thought.
+982	Viņš salauza kāju.	He broke his leg.
+984	Jūs tos nevarat ņemt!	You can't take those!
+985	Bērns ir gultā.	The child is in bed.
+986	Es palīdzu tēvam.	I help the father.
+989	Tu šodien neesi redzējusi Tomu, vai ne?	You haven't seen Tom today, have you?
+990	Viss viņā ir ideāls.	Everything about her is perfect.
+991	Acu zīlītes saules gaismā saraujas.	The pupils of the eyes contract in sunlight.
+992	Vai tu dzirdēji tās zosis?	Did you hear those geese?
+993	Viņi man to iedeva.	They gave it to me.
+994	Man ir muguras sāpes.	I have back pain.
+995	Mēs bijām puteņa vidū.	We were in the midst of a blizzard.
+996	Mēs esam atrisinājuši šo noslēpumu.	We've solved the mystery.
+997	Ņujorka ir liela pilsēta.	New York is a big city.
+998	Es nāku mājās.	I'm coming home.
+999	Atbilde mani kaitināja.	The answer irritated me.
+1000	Vai tu to nesaproti?	Don't you get it?

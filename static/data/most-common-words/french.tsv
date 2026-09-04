@@ -208,11 +208,11 @@ rank	word	english
 207	arrive	to arrive
 208	maman	mummy, mommy, mom, mum
 209	reste	to stay
-210	moment	moment
+210	moment	a while
 211	voulais	to want, wish, desire
 212	seul	lonely
 213	aider	to help; to aid
-214	air	air
+214	air	tune, aria
 215	entre	between
 216	papa	papa, a child's father; also as form of address: dad, daddy
 217	passe	to go past
@@ -256,10 +256,10 @@ rank	word	english
 255	enfants	child
 256	tuer	to kill
 257	merde	shit!, crap!
-258	hé	Used to call someone; hey
+258	hé	Used as a tag question, to emphasise what goes before or to…
 259	pendant	during, throughout, for the duration of
 260	idée	idea
-261	chance	chance
+261	chance	luck
 262	parle	to speak, talk
 263	aurait	to have; to own; to possess; to get
 264	part	to go away, leave, depart
@@ -306,7 +306,7 @@ rank	word	english
 305	fini	to finish, end, complete
 306	hommes	man
 307	tué	to kill
-308	question	question
+308	question	issue, matter, topic, problem
 309	partie	divided into two equal parts vertically, per pale; said of…
 310	histoire	story
 311	devrais	must, to have to, should
@@ -317,7 +317,7 @@ rank	word	english
 316	pensais	to think, reflect, concentrate one's mind on something
 317	genre	like, kind of
 318	seulement	only
-319	police	police
+319	police	cop
 320	car	as, since, because, for
 321	mois	month
 322	frère	brother
@@ -344,7 +344,7 @@ rank	word	english
 343	savais	to know
 344	leurs	their
 345	étaient	to be
-346	attention	attention
+346	attention	vigilance
 347	donner	to give, to transfer the possession/holding of something to…
 348	affaire	business; matter; affair
 349	endroit	place, spot
@@ -354,7 +354,7 @@ rank	word	english
 353	donné	to give, to transfer the possession/holding of something to…
 354	est-il	is he
 355	voici	ago
-356	train	train
+356	train	pace
 357	dont	of/from whom/which, whose; whereof
 358	écoute	to listen
 359	yeux	eye, organ that is sensitive to light, helping organisms to…
@@ -365,7 +365,7 @@ rank	word	english
 364	premier	first
 365	première	first
 366	côté	as for, in terms of
-367	point	point
+367	point	full stop, period
 368	tellement	so; so much; very
 369	main	hand
 370	tiens	to have; to hold
@@ -385,7 +385,7 @@ rank	word	english
 384	dr	abbreviation of docteur
 385	enfin	finally; in the end
 386	arrêter	to stop, to come to a standstill; to halt, to stop from…
-387	cause	cause
+387	cause	case
 388	nouvelle	new, novel
 389	attendez	to wait for, to await
 390	chambre	a room
@@ -415,7 +415,7 @@ rank	word	english
 414	bureau	desk
 415	mourir	to die; to be dying
 416	hier	yesterday
-417	possible	possible
+417	possible	the possible, feasible, what can be done, achieved etc
 418	jouer	to play
 419	demander	to ask
 420	celui	the one
@@ -462,7 +462,7 @@ rank	word	english
 461	sécurité	security, safety
 462	garçon	boy
 463	essaie	to test, to try on
-464	important	important
+464	important	large, considerable, significant
 465	dites	to say, to tell
 466	exactement	exactly, quite
 467	font	to do
@@ -501,7 +501,7 @@ rank	word	english
 500	semble	to seem, to resemble, to look like
 501	autant	so much
 502	peine	punishment
-503	minute	minute
+503	minute	wait a sec!
 504	essayé	to test, to try on
 505	plan	map
 506	instant	pressing, insistent
@@ -551,7 +551,7 @@ rank	word	english
 550	année	year
 551	voit	to see
 552	commence	to begin, commence
-553	service	service
+553	service	cutlery
 554	devoir	duty
 555	attend	to wait for, to await
 556	drôle	funny, amusing
@@ -562,7 +562,7 @@ rank	word	english
 561	sujet	subject
 562	état	state, condition
 563	ceci	this
-564	impossible	impossible
+564	impossible	unbearable
 565	sorte	to exit, go out, come out
 566	perdre	to lose
 567	dollars	dollar, usually the US dollar
@@ -610,7 +610,7 @@ rank	word	english
 609	avis	opinion
 610	sauver	to save, rescue; to protect
 611	hôpital	hospital
-612	questions	question
+612	questions	issue, matter, topic, problem
 613	meurtre	murder
 614	sérieux	serious
 615	seconde	second
@@ -618,7 +618,7 @@ rank	word	english
 617	comprendre	to understand, comprehend
 618	allais	to go
 619	esprit	immaterial or incorporeal substance
-620	cool	cool
+620	cool	cool! great!
 621	mlle	abbreviation of Mademoiselle
 622	marché	to walk
 623	fous	mad, crazy
@@ -645,7 +645,7 @@ rank	word	english
 644	prochaine	upcoming
 645	visage	face
 646	meilleure	best
-647	face	face
+647	face	surface, side
 648	soirée	evening
 649	roi	king
 650	surtout	above all
@@ -703,7 +703,7 @@ rank	word	english
 702	écoutez	to listen
 703	bonsoir	good evening
 704	content	content, satisfied, pleased
-705	secret	secret
+705	secret	secrecy
 706	venue	feminine singular of venu
 707	cher	dearly
 708	effet	effect
@@ -722,7 +722,7 @@ rank	word	english
 721	mauvaise	bad
 722	général	general
 723	âge	age
-724	long	long
+724	long	length
 725	rue	street, road
 726	tirer	to draw, drag, pull
 727	apprendre	to learn
@@ -732,7 +732,7 @@ rank	word	english
 731	avaient	to have; to own; to possess; to get
 732	patron	a boss, employer
 733	avocat	lawyer, attorney
-734	force	force
+734	force	strength
 735	accident	accident
 736	dix	ten
 737	probablement	probably
@@ -798,7 +798,7 @@ rank	word	english
 797	avion	aeroplane
 798	bordel	brothel
 799	habitude	habit
-800	table	table
+800	table	flat surface atop various objects
 801	rouge	red
 802	système	system
 803	photos	photo
@@ -864,7 +864,7 @@ rank	word	english
 863	allô	hello
 864	pareil	the same; alike
 865	soleil	sun
-866	camp	camp
+866	camp	campness; An affected, exaggerated or intentionally…
 867	fallait	to need, have to, to be necessary
 868	coin	wedge, cornerpiece
 869	ignore	to ignore
@@ -904,9 +904,9 @@ rank	word	english
 903	forme	shape
 904	connaît	to know, to be familiar with
 905	conseil	piece of advice
-906	bar	bar
-907	normal	normal
-908	danger	danger
+906	bar	bass
+907	normal	okay, alright
+908	danger	jeopardy
 909	dangereux	dangerous
 910	folle	mad, crazy
 911	jure	to swear
@@ -961,7 +961,7 @@ rank	word	english
 960	monte	to go up, to climb
 961	signifie	to signify, mean
 962	entrez	to enter
-963	relation	relation
+963	relation	relationship
 964	centre	centre, center
 965	dame	lady
 966	chacun	each, each one
@@ -993,7 +993,7 @@ rank	word	english
 992	mecs	guy, fellow, bloke, chap, dude, boyfriend
 993	nulle	of poor quality, lousy, rubbish
 994	signe	to sign
-995	lieutenant	lieutenant
+995	lieutenant	deputy, right-hand man, second-in-command
 996	aille	to go
 997	acheté	to purchase; buy
 998	étrange	strange
@@ -1056,7 +1056,7 @@ rank	word	english
 1055	dingue	mad, crazy, nuts
 1056	sent	to smell
 1057	récupérer	to get back, to recover, to recuperate
-1058	base	base
+1058	base	base, basis
 1059	preuves	evidence, proof
 1060	présente	present
 1061	peau	skin of a person or animal
@@ -1120,7 +1120,7 @@ rank	word	english
 1119	environ	about, close to, around
 1120	t	Informal spelling of t'es
 1121	inutile	useless, unnecessary, pointless
-1122	terrible	terrible
+1122	terrible	great, excellent
 1123	danse	to dance
 1124	position	position
 1125	humain	human
@@ -1202,7 +1202,7 @@ rank	word	english
 1201	match	match, game
 1202	bombe	bomb
 1203	intéresse	to interest; to make interested
-1204	zone	zone
+1204	zone	to wander around, wander about
 1205	tante	aunt
 1206	paraît	to appear
 1207	excuser	to excuse
@@ -1240,7 +1240,7 @@ rank	word	english
 1239	petites	small
 1240	aimez	second-person plural present indicative/imperative of aimer
 1241	présenter	to present, to introduce
-1242	importance	importance
+1242	importance	significance
 1243	venus	masculine plural of venu
 1244	sache	to know
 1245	mérite	merit
@@ -1262,11 +1262,11 @@ rank	word	english
 1261	camion	lorry; truck
 1262	fier	proud, gratified, honoured
 1263	discuter	to argue, to debate
-1264	village	village
+1264	village	town, city
 1265	spectacle	a show, a spectacle, a performance, a concert
 1266	d	abbreviation of dame: Q
 1267	nul	no, none
-1268	rose	rose
+1268	rose	rose window
 1269	touché	to touch
 1270	mangé	to eat
 1271	vis	to live
@@ -1294,7 +1294,7 @@ rank	word	english
 1293	sexy	sexy
 1294	ordinateur	a computer, a computing device
 1295	retrouvé	to find; to rediscover
-1296	nature	nature
+1296	nature	lexical category
 1297	rappeler	to call again; to call back
 1298	énergie	energy
 1299	pierre	stone
@@ -1306,7 +1306,7 @@ rank	word	english
 1305	marié	married
 1306	espace	space
 1307	soient	to be
-1308	portable	portable
+1308	portable	ellipsis of téléphone portable: mobile phone
 1309	préparer	to prepare
 1310	nécessaire	necessary
 1311	court	to run
@@ -1351,7 +1351,7 @@ rank	word	english
 1350	invité	to invite
 1351	politique	political
 1352	dents	tooth
-1353	patient	patient
+1353	patient	patient, outpatient
 1354	repas	meal, repast
 1355	urgence	emergency, urgency
 1356	cartes	card
@@ -1386,7 +1386,7 @@ rank	word	english
 1385	remarqué	to observe
 1386	noms	name
 1387	vécu	to live
-1388	courage	courage
+1388	courage	chin up! keep going! take heart!
 1389	beauté	beauty
 1390	bu	to drink
 1391	tais-toi	second-person singular imperative of se taire
@@ -1419,15 +1419,15 @@ rank	word	english
 1418	films	movie, film
 1419	emmène	to take off, take away or out
 1420	marie	to marry, to marry off; to perform or cause the marriage of
-1421	taxi	taxi
-1422	restaurant	restaurant
+1421	taxi	taxi driver
+1422	restaurant	to restore
 1423	crise	crisis
 1424	piste	track or trail
 1425	dernières	last
 1426	puisque	since, because
 1427	blanche	white color
 1428	coupe	to cut, cut up; to chop, to sever
-1429	secrets	secret
+1429	secrets	secrecy
 1430	prince	prince
 1431	marrant	funny, amusing
 1432	raisons	reason
@@ -1473,11 +1473,11 @@ rank	word	english
 1472	rejoindre	to join, to join up
 1473	soldats	soldier
 1474	amuser	to amuse, to entertain
-1475	points	point
+1475	points	full stop, period
 1476	suivi	to follow
 1477	oubliez	to forget
 1478	langue	tongue
-1479	direction	direction
+1479	direction	government
 1480	frais	fresh
 1481	veuillez	to want, wish, desire
 1482	soldat	soldier
@@ -1507,7 +1507,7 @@ rank	word	english
 1506	poisson	fish
 1507	lui-même	himself, itself
 1508	chiens	dog
-1509	date	date
+1509	date	to date, to add a date onto something
 1510	intention	intention
 1511	procureur	representative, agent
 1512	goût	taste, flavour
@@ -1537,7 +1537,7 @@ rank	word	english
 1536	entreprise	company, business
 1537	utile	useful
 1538	lien	tie, bond
-1539	unique	unique
+1539	unique	only
 1540	appartient	to belong
 1541	attendant	to wait for, to await
 1542	amené	to bring, take, fetch, give a lift, give a ride
@@ -1559,7 +1559,7 @@ rank	word	english
 1558	raconter	to recount; to tell; to narrate
 1559	rapidement	speedily; quickly
 1560	bref	in short, in brief, briefly
-1561	tribunal	tribunal
+1561	tribunal	court, court of law
 1562	viendra	to come
 1563	passée	past tense
 1564	superbe	superb; excellent, impressive
@@ -1581,7 +1581,7 @@ rank	word	english
 1580	intelligent	intelligent
 1581	gâteau	a sponge cake, i.e. a cake made with a chemical leavening…
 1582	dépend	to depend
-1583	job	job
+1583	job	work
 1584	jeux	game
 1585	compter	to count
 1586	cou	neck
@@ -1601,7 +1601,7 @@ rank	word	english
 1600	demandais	to ask
 1601	là-haut	up there
 1602	privé	private
-1603	forces	force
+1603	forces	strength
 1604	fonctionne	to function, to work
 1605	méchant	mean, unkind
 1606	jambe	leg
@@ -1619,7 +1619,7 @@ rank	word	english
 1618	malheureusement	unfortunately
 1619	décider	to decide
 1620	né	to be born
-1621	importante	important
+1621	importante	large, considerable, significant
 1622	voulons	to want, wish, desire
 1623	détruit	to destroy
 1624	parfaitement	perfectly
@@ -1677,7 +1677,7 @@ rank	word	english
 1676	réel	real
 1677	couverture	blanket
 1678	million	million
-1679	article	article
+1679	article	merchandise, sales article
 1680	doux	gently
 1681	parc	park
 1682	toit	roof
@@ -1719,7 +1719,7 @@ rank	word	english
 1718	mètres	metre/meter
 1719	suivant	to follow
 1720	souhaite	to wish; to hope
-1721	services	service
+1721	services	cutlery
 1722	ouest	west
 1723	poids	weight
 1724	poche	pocket
@@ -1741,7 +1741,7 @@ rank	word	english
 1740	changement	change
 1741	compliqué	complicated, intricate, convoluted
 1742	bal	dance party, ball
-1743	page	page
+1743	page	page, web page
 1744	conduit	to drive
 1745	passage	the act of going through a place or event
 1746	piège	trap, snare, booby trap
@@ -1751,7 +1751,7 @@ rank	word	english
 1750	amusant	to amuse, to entertain
 1751	dan	dan
 1752	donnez	to give, to transfer the possession/holding of something to…
-1753	traces	trace
+1753	traces	track
 1754	trésor	treasure
 1755	explique	to explain
 1756	fesses	buttock
@@ -1797,7 +1797,7 @@ rank	word	english
 1796	dimanche	Sunday
 1797	agréable	pleasurable, nice, pleasant, agreeable
 1798	plans	planar
-1799	conscience	conscience
+1799	conscience	consciousness
 1800	ennemis	enemy
 1801	disant	to say, to tell
 1802	connaissance	knowledge
@@ -1807,12 +1807,12 @@ rank	word	english
 1806	bataille	battle
 1807	perd	to lose
 1808	pourrez	can, to be able to
-1809	relations	relation
+1809	relations	relationship
 1810	espérais	to hope
 1811	vôtre	your; yours
 1812	servi	to serve
 1813	souci	worry; concern
-1814	note	note
+1814	note	mark, grade
 1815	doigt	finger
 1816	mensonge	lie, falsehood
 1817	volonté	wish, will
@@ -1837,7 +1837,7 @@ rank	word	english
 1836	reposer	to put down, to place
 1837	regrette	to regret
 1838	flingue	shooter, pistol, gat
-1839	cousin	cousin
+1839	cousin	cranefly
 1840	désormais	henceforth, from now on
 1841	vérifié	to confirm
 1842	crains	to fear
@@ -1845,7 +1845,7 @@ rank	word	english
 1844	gaz	gas
 1845	interdit	forbidden, prohibited, off-limits
 1846	théorie	theory
-1847	trace	trace
+1847	trace	track
 1848	contrôler	to check or examine
 1849	signer	to sign
 1850	no	NW; abbreviation of nord-ouest
@@ -1861,7 +1861,7 @@ rank	word	english
 1860	pantalon	trousers, pants
 1861	rappelles	to call again; to call back
 1862	dossiers	back of furniture, to rest the sitter's back on
-1863	style	style
+1863	style	fashion, trend, style
 1864	ravie	thrilled, overjoyed, delighted, ravished, chuffed
 1865	semblant	a semblance
 1866	offert	to offer; to provide
@@ -1883,7 +1883,7 @@ rank	word	english
 1882	coincé	stuck
 1883	mariés	married
 1884	sonne	to sound
-1885	innocent	innocent
+1885	innocent	an innocent person
 1886	dira	to say, to tell
 1887	créé	to create
 1888	supporter	to support
@@ -1893,11 +1893,11 @@ rank	word	english
 1892	métier	job, profession, trade
 1893	crétin	cretin
 1894	retirer	to take off; to remove
-1895	surveillance	surveillance
-1896	chances	chance
+1895	surveillance	supervision
+1896	chances	luck
 1897	oreilles	ear
 1898	trouvera	to find; to retrieve something lost, turn up something…
-1899	suicide	suicide
+1899	suicide	to commit suicide, to kill oneself, suicide
 1900	militaire	military, militaristic
 1901	atteindre	to attain
 1902	fuir	to escape
@@ -1974,7 +1974,7 @@ rank	word	english
 1973	passez	to go past
 1974	vrais	true
 1975	enlevé	to remove, take off, take away, clear
-1976	moments	moment
+1976	moments	a while
 1977	blesser	to wound, to injure
 1978	ombre	shade, shadow
 1979	épisode	episode
@@ -1982,7 +1982,7 @@ rank	word	english
 1981	chocolat	chocolate; chocolate-coloured
 1982	assurance	self-confidence
 1983	couche	to lay, to lay down
-1984	site	site
+1984	site	website
 1985	neige	snow, crystalline frozen precipitation
 1986	gardé	to keep; to retain; to store; to save
 1987	chemise	shirt
@@ -2017,19 +2017,19 @@ rank	word	english
 2016	o	abbreviation of ouest; west
 2017	craint	to fear
 2018	traduction	translation
-2019	notes	note
+2019	notes	mark, grade
 2020	repos	rest, ease, repose
 2021	siège	seat, chair
 2022	policier	police
 2023	allés	masculine plural of allé
 2024	puissance	to the power of
 2025	familles	family
-2026	second	second
+2026	second	assistant, first mate
 2027	cellule	cell
 2028	engagé	to pledge, commit
 2029	adorable	adorable
 2030	spéciale	special
-2031	violence	violence
+2031	violence	act of violence
 2032	ours	bear
 2033	gorge	throat
 2034	examen	examination, inspection, study, analysis
@@ -2037,7 +2037,7 @@ rank	word	english
 2036	major	the highest non-commissioned officer rank: sergeant major,…
 2037	obtenu	to get, to obtain
 2038	évident	evident, obvious
-2039	distance	distance
+2039	distance	to distance, outdistance
 2040	titre	heading, title
 2041	lundi	Monday
 2042	choc	hit, strike
@@ -2062,9 +2062,9 @@ rank	word	english
 2061	lunettes	spectacles, eyeglasses
 2062	journaux	diary, journal
 2063	attaquer	to attack
-2064	mine	mine
+2064	mine	pencil lead
 2065	pistolet	gun, pistol
-2066	divorce	divorce
+2066	divorce	to divorce
 2067	noirs	a black person
 2068	meurtres	murder
 2069	premiers	first
@@ -2085,7 +2085,7 @@ rank	word	english
 2084	travaillait	to work
 2085	tableau	painting
 2086	cabinet	an office, a surgery
-2087	normale	normal
+2087	normale	okay, alright
 2088	alerte	alert
 2089	meurtrier	deadly, bloody, murderous
 2090	libérer	to liberate, to set free, to release from captivity
@@ -2119,8 +2119,8 @@ rank	word	english
 2118	seins	breast
 2119	crier	to cry out
 2120	top	at most; maximum
-2121	go	go
-2122	permission	permission
+2121	go	girlfriend
+2122	permission	military leave
 2123	romantique	romantic
 2124	lac	lake
 2125	vente	sale
@@ -2218,13 +2218,13 @@ rank	word	english
 2217	reconnais	to recognise
 2218	bye	bye
 2219	fromage	cheese
-2220	essence	essence
+2220	essence	petrol, gasoline
 2221	ayant	to have; to own; to possess; to get
 2222	côte	rib
 2223	tenté	to attempt
 2224	chaleur	heat
 2225	tests	test, a cupel or cupelling hearth in which precious metals…
-2226	champagne	champagne
+2226	champagne	sparkling wine, generic champagne
 2227	objet	thing, object
 2228	disparaître	to disappear
 2229	oiseaux	bird
@@ -2241,7 +2241,7 @@ rank	word	english
 2240	déranger	to bother; to disrupt
 2241	verrai	to see
 2242	fatiguée	colloquial
-2243	vote	vote
+2243	vote	to vote
 2244	dégagez	to free
 2245	anciens	old, former, ex-
 2246	voila	to veil
@@ -2285,7 +2285,7 @@ rank	word	english
 2284	taire	to be quiet, to be silent
 2285	inquiet	worried
 2286	enfuir	to escape
-2287	bel	bel
+2287	bel	form of beau used before a masculine noun that starts with…
 2288	profiter	to take advantage of, make the most of, enjoy
 2289	science	science
 2290	revenue	revenue
@@ -2340,7 +2340,7 @@ rank	word	english
 2339	opinion	opinion
 2340	geste	gesture
 2341	gaffe	gaffe, blunder, goof-up, cock-up
-2342	empire	empire
+2342	empire	influence, authority, dominion
 2343	aient	to have; to own; to possess; to get
 2344	pizza	pizza
 2345	seriez	to be
@@ -2402,7 +2402,7 @@ rank	word	english
 2401	trouverai	to find; to retrieve something lost, turn up something…
 2402	conseiller	counsellor, advisor
 2403	humanité	humanity
-2404	studio	studio
+2404	studio	pied-à-terre, garçonnière
 2405	lapin	rabbit
 2406	désert	desert
 2407	combattre	to fight, to combat
@@ -2597,7 +2597,7 @@ rank	word	english
 2596	arrives	to arrive
 2597	nana	chick, bird
 2598	nommé	to nominate
-2599	incident	incident
+2599	incident	incidental
 2600	retournez	to turn over; to turn upside-down
 2601	potes	mate, buddy
 2602	comité	committee
@@ -2640,7 +2640,7 @@ rank	word	english
 2639	gêne	embarrassment
 2640	bloc	a block
 2641	aidera	to help; to aid
-2642	final	final
+2642	final	expressing purpose
 2643	conduis	to drive
 2644	excellente	excellent; splendid
 2645	brûlé	to burn
@@ -2655,7 +2655,7 @@ rank	word	english
 2654	engager	to pledge, commit
 2655	singe	monkey
 2656	colle	glue
-2657	assistant	assistant
+2657	assistant	to assist, to aid
 2658	fallu	to need, have to, to be necessary
 2659	mm	alternative form of MM
 2660	central	central
@@ -2663,7 +2663,7 @@ rank	word	english
 2662	naturel	natural
 2663	essayait	to test, to try on
 2664	étape	stage, stop
-2665	cage	cage
+2665	cage	area, penalty area
 2666	davantage	more
 2667	alliance	alliance, union
 2668	collègues	colleague
@@ -2700,20 +2700,20 @@ rank	word	english
 2699	têtes	head
 2700	lentement	slowly
 2701	classique	classic
-2702	temple	temple
+2702	temple	Protestant church
 2703	produits	product
 2704	passion	Passion, suffering
 2705	prenne	to take
 2706	échoué	to fail, fall through, miscarry
 2707	écouté	to listen
-2708	existence	existence
+2708	existence	life
 2709	correspond	to correspond
 2710	analyse	analysis
 2711	retire	to take off; to remove
 2712	mystère	mystery
 2713	maîtresse	mistress
 2714	port	port, harbour
-2715	tension	tension
+2715	tension	blood pressure
 2716	qualité	quality
 2717	nationale	a french National Highway
 2718	respecte	to respect
@@ -2748,7 +2748,7 @@ rank	word	english
 2747	étrangers	foreigner
 2748	censée	supposed to, meant to
 2749	permettez	to permit, to allow
-2750	hall	hall
+2750	hall	lobby
 2751	approcher	to approach, to come close to, to move towards
 2752	pile	just, exactly
 2753	japonais	the Japanese language
@@ -2763,7 +2763,7 @@ rank	word	english
 2762	miles	mile
 2763	donnera	to give, to transfer the possession/holding of something to…
 2764	soins	care
-2765	charlotte	charlotte
+2765	charlotte	Charlotte hat, Charlotte bonnet, mob cap
 2766	risqué	risky
 2767	avouer	to avow
 2768	passés	past tense
@@ -2788,7 +2788,7 @@ rank	word	english
 2787	crie	to cry out
 2788	voyager	to travel, to voyage
 2789	disque	disc
-2790	golf	golf
+2790	golf	golf course
 2791	annuler	to cancel
 2792	section	section
 2793	catherine	chamber pot
@@ -2837,7 +2837,7 @@ rank	word	english
 2836	moto	bike, motorbike
 2837	parlerai	to speak, talk
 2838	attitude	attitude, position
-2839	documents	document
+2839	documents	file
 2840	effort	effort
 2841	enchantée	enchanted, delighted
 2842	restent	to stay
@@ -2855,7 +2855,7 @@ rank	word	english
 2854	pattes	paw
 2855	possibilité	possibility
 2856	football	association football, soccer
-2857	poison	poison
+2857	poison	herbicide
 2858	maudit	damn; cursed; goddam
 2859	cochon	pig
 2860	reconnaître	to recognise
@@ -2870,7 +2870,7 @@ rank	word	english
 2869	visiter	to visit
 2870	nôtres	our; ours
 2871	policiers	policeman, police officer
-2872	rat	rat
+2872	rat	sweetheart
 2873	ajouter	to add, append
 2874	chambres	a room
 2875	séparer	to separate
@@ -2904,7 +2904,7 @@ rank	word	english
 2903	plaque	sheet, plate
 2904	prenons	to take
 2905	auparavant	beforehand, previously
-2906	mobile	mobile
+2906	mobile	moving
 2907	malades	ill, unwell, sick
 2908	invite	to invite
 2909	musée	museum
@@ -3002,7 +3002,7 @@ rank	word	english
 3001	patiente	patient
 3002	huile	oil
 3003	trouverez	to find; to retrieve something lost, turn up something…
-3004	sire	sire
+3004	sire	lord
 3005	mignonne	cute
 3006	parfum	perfume
 3007	retourné	to turn over; to turn upside-down
@@ -3024,7 +3024,7 @@ rank	word	english
 3023	thérapie	therapy
 3024	troupes	troop
 3025	froide	cold
-3026	signature	signature
+3026	signature	the act of signing
 3027	pensons	to think, reflect, concentrate one's mind on something
 3028	parker	to park
 3029	donnée	affordable, cheap
@@ -3034,7 +3034,7 @@ rank	word	english
 3033	jo	initialism of journal officiel
 3034	enterré	to bury; to inter
 3035	adaptation	adaptation
-3036	brave	brave
+3036	brave	honest
 3037	jeunesse	youth
 3038	guérir	to cure, to heal
 3039	officiers	officer
@@ -3065,7 +3065,7 @@ rank	word	english
 3064	supérieur	superior
 3065	précieux	precious
 3066	poil	hair
-3067	rats	rat
+3067	rats	sweetheart
 3068	cave	pitted
 3069	progrès	progress
 3070	objectif	of a material object; objective
@@ -3100,7 +3100,7 @@ rank	word	english
 3099	expression	expression
 3100	cherchait	to look for, to seek
 3101	libres	free, at liberty
-3102	race	race
+3102	race	kind
 3103	injuste	unjust; unfair
 3104	plu	to rain
 3105	trafic	traffic
@@ -3131,14 +3131,14 @@ rank	word	english
 3130	ouah	yeah, yep, yup
 3131	cassette	treasure box
 3132	péché	sin
-3133	instinct	instinct
+3133	instinct	gut feeling
 3134	remise	feminine singular of remis
 3135	allemands	German
 3136	sexuel	sexual
 3137	excitant	exciting
 3138	enregistrement	registration
 3139	arrangé	to arrange
-3140	original	original
+3140	original	an unusual or eccentric person
 3141	agression	aggression
 3142	rendez	to return, to restore, to give back
 3143	commandé	to order
@@ -3171,7 +3171,7 @@ rank	word	english
 3170	places	place, square, plaza, piazza
 3171	autorité	authority
 3172	échelle	ladder
-3173	commission	commission
+3173	commission	message
 3174	tribu	tribe
 3175	voleurs	robber, thief
 3176	comédie	comedy
@@ -3220,7 +3220,7 @@ rank	word	english
 3219	garce	bitch, slut
 3220	tarte	pie, tart
 3221	hauteur	height, altitude
-3222	finale	final
+3222	finale	expressing purpose
 3223	culture	farming, cultivation, crop growing
 3224	revienne	to come back, to return
 3225	pensiez	to think, reflect, concentrate one's mind on something
@@ -3259,7 +3259,7 @@ rank	word	english
 3258	matinée	morning
 3259	flotte	fleet
 3260	uns	one
-3261	rage	rage
+3261	rage	rabies
 3262	amiral	of an admiral
 3263	perdus	lost
 3264	gagnant	to win
@@ -3282,7 +3282,7 @@ rank	word	english
 3281	noble	noble, aristocratic
 3282	apprécier	to appreciate
 3283	auteur	author
-3284	kilos	kilo
+3284	kilos	a large quantity
 3285	tuerai	to kill
 3286	séparés	masculine plural of séparé
 3287	pouvaient	can, to be able to
@@ -3294,7 +3294,7 @@ rank	word	english
 3293	espion	spy
 3294	album	album
 3295	sortent	to exit, go out, come out
-3296	violent	violent
+3296	violent	severe
 3297	terroristes	terrorist
 3298	énerve	to vex, to get on one's nerves
 3299	voudras	to want, wish, desire
@@ -3303,7 +3303,7 @@ rank	word	english
 3302	serment	oath, pledge
 3303	unités	unity
 3304	restait	to stay
-3305	promotion	promotion
+3305	promotion	promotion, advertising
 3306	sure	sour
 3307	division	division
 3308	viendrai	to come
@@ -3377,7 +3377,7 @@ rank	word	english
 3376	couvre	to cover up, to cover
 3377	convient	to admit; to agree
 3378	adoré	to love, to adore
-3379	total	total
+3379	total	perfect
 3380	autrefois	previously; formerly, erstwhile
 3381	éteint	extinct
 3382	étude	study
@@ -3465,7 +3465,7 @@ rank	word	english
 3464	renforts	reinforcement
 3465	résister	to resist
 3466	sous-titres	subtitle
-3467	roses	rose
+3467	roses	rose window
 3468	ressenti	impressions, feelings, opinions senses
 3469	douze	twelve
 3470	gus	bloke, guy
@@ -3481,7 +3481,7 @@ rank	word	english
 3480	esclave	slave
 3481	septembre	September
 3482	particulièrement	particularly, specifically
-3483	tradition	tradition
+3483	tradition	a type of baguette or French stick
 3484	aidez	to help; to aid
 3485	jusque	until, up to
 3486	commencent	to begin, commence
@@ -3525,7 +3525,7 @@ rank	word	english
 3524	dépassé	outdated
 3525	tuez	to kill
 3526	passant	to go past
-3527	totale	total
+3527	totale	perfect
 3528	rencontrée	feminine singular of rencontré
 3529	pro	professional
 3530	méchante	mean, unkind
@@ -3576,7 +3576,7 @@ rank	word	english
 3575	enterrer	to bury; to inter
 3576	stylo	pen
 3577	gamine	kid
-3578	homicide	homicide
+3578	homicide	homicide, killer
 3579	laissons	to leave, to leave behind
 3580	sue	to know
 3581	détendre	to relax
@@ -3592,7 +3592,7 @@ rank	word	english
 3591	zut	damn, shoot, dang, cripes, rats, "dash it!", "hang it all!"
 3592	accueillir	to welcome, to accommodate
 3593	ongles	nail, fingernail
-3594	portrait	portrait
+3594	portrait	description
 3595	criminelle	criminal
 3596	définitivement	definitively, for good, once and for all
 3597	présenté	to present, to introduce
@@ -3612,7 +3612,7 @@ rank	word	english
 3611	devenus	masculine plural of devenu
 3612	noix	walnut
 3613	cabane	cabin, hut, shack; shed
-3614	lion	lion
+3614	lion	male lion
 3615	budget	a budget
 3616	malédiction	spell, curse
 3617	souffert	to suffer
@@ -3622,9 +3622,9 @@ rank	word	english
 3621	escaliers	step, stair
 3622	rumeur	rumour / rumor
 3623	serviette	towel
-3624	commercial	commercial
+3624	commercial	a salesman, sales representative
 3625	méthode	method
-3626	avenue	avenue
+3626	avenue	a radial avenue
 3627	autopsie	autopsy
 3628	pue	to stink, to smell
 3629	cliente	customer
@@ -3674,7 +3674,7 @@ rank	word	english
 3673	marqué	to mark, mark down
 3674	batterie	battery
 3675	enseigne	shop sign
-3676	manager	manager
+3676	manager	to manage
 3677	promener	to walk, to go for a walk, to stroll
 3678	héritage	heritage, inheritance, legacy
 3679	écrivain	writer
@@ -3688,14 +3688,14 @@ rank	word	english
 3687	préparez	to prepare
 3688	profite	to take advantage of, make the most of, enjoy
 3689	assuré	to assure, to ensure, to make sure
-3690	importantes	important
+3690	importantes	large, considerable, significant
 3691	mette	to put; to place
-3692	pages	page
-3693	cousine	cousin
+3692	pages	page, web page
+3693	cousine	cranefly
 3694	tester	to test
 3695	génération	generation
 3696	bâtard	bastard
-3697	torture	torture
+3697	torture	to torture
 3698	putains	whore, hooker
 3699	creuser	to dig
 3700	loyauté	loyalty
@@ -3704,7 +3704,7 @@ rank	word	english
 3703	mourra	to die; to be dying
 3704	effacer	to erase
 3705	t-shirt	alternative spelling of tee-shirt
-3706	brigade	brigade
+3706	brigade	brigade, team of workers
 3707	événement	event
 3708	rappelé	to call again; to call back
 3709	dises	to say, to tell
@@ -3768,7 +3768,7 @@ rank	word	english
 3767	soucie	to worry
 3768	censés	supposed to, meant to
 3769	siècles	century
-3770	cruel	cruel
+3770	cruel	hard, painful
 3771	plaisantez	to joke
 3772	agi	to act, to do
 3773	probable	likely, probable
@@ -3778,7 +3778,7 @@ rank	word	english
 3777	invisible	invisible
 3778	mélange	mixture, blend
 3779	responsabilités	responsibility
-3780	importants	important
+3780	importants	large, considerable, significant
 3781	attendrai	to wait for, to await
 3782	déménager	to move
 3783	perdez	to lose
@@ -3787,7 +3787,7 @@ rank	word	english
 3786	explosé	to explode
 3787	jouent	to play
 3788	nan	no
-3789	flash	flash
+3789	flash	newsflash
 3790	systèmes	system
 3791	usa	to wear, wear down, wear off, wear out, grind down, run in
 3792	simples	single
@@ -3824,7 +3824,7 @@ rank	word	english
 3823	immense	immense, huge
 3824	net	clean, tidy
 3825	renvoyé	to resend, retransmit; to send again
-3826	population	population
+3826	population	the public
 3827	mondiale	global, worldwide
 3828	juillet	July
 3829	capacité	skill
@@ -3891,7 +3891,7 @@ rank	word	english
 3890	rapporte	to bring back
 3891	association	association, society, group
 3892	connaissiez	to know, to be familiar with
-3893	audition	audition
+3893	audition	hearing
 3894	ordure	garbage, refuse, rubbish
 3895	écriture	writing
 3896	publicité	publicity, advertising
@@ -3991,7 +3991,7 @@ rank	word	english
 3990	direz	to say, to tell
 3991	goutte	drop, droplet
 3992	rate	to miss
-3993	ticket	ticket
+3993	ticket	receipt
 3994	douter	to doubt
 3995	fédéral	federal
 3996	maths	math or maths
@@ -4005,8 +4005,8 @@ rank	word	english
 4004	deuil	bereavement
 4005	légère	light
 4006	avocate	lawyer, attorney
-4007	statue	statue
-4008	excellence	excellence
+4007	statue	to rule, determine
+4008	excellence	excellency
 4009	coule	to sink
 4010	armés	armed
 4011	piqué	dive
@@ -4071,11 +4071,11 @@ rank	word	english
 4070	badge	identity badge
 4071	pension	a pension, regularly received payment
 4072	déposé	registered, recorded
-4073	routine	routine
+4073	routine	small path, cowpath
 4074	crève	nasty cold
-4075	articles	article
+4075	articles	merchandise, sales article
 4076	chagrin	sorrow, grief, chagrin
-4077	local	local
+4077	local	room
 4078	saurai	to know
 4079	appuie	to press, push
 4080	filmer	to film
@@ -4151,7 +4151,7 @@ rank	word	english
 4150	texte	text
 4151	établir	to make out, to draw up
 4152	sienne	his; her
-4153	record	record
+4153	record	record, record-breaking, record-setting
 4154	connaisse	to know, to be familiar with
 4155	blé	wheat, corn
 4156	guerrier	warrior
@@ -4186,7 +4186,7 @@ rank	word	english
 4185	enlèvement	takeoff, liftoff
 4186	magicien	magician
 4187	historique	historical
-4188	circulation	circulation
+4188	circulation	traffic
 4189	piquer	to prick; to sting
 4190	canard	duck
 4191	lancement	throw, launch
@@ -4220,7 +4220,7 @@ rank	word	english
 4219	bats	to beat; to defeat
 4220	laissant	to leave, to leave behind
 4221	pouce	thumb
-4222	infection	infection
+4222	infection	stench, stink
 4223	faiblesse	weakness
 4224	mettra	to put; to place
 4225	responsables	person in charge, manager
@@ -4280,7 +4280,7 @@ rank	word	english
 4279	tels	such
 4280	coûter	to cost
 4281	revue	magazine, journal
-4282	scotch	scotch
+4282	scotch	Scotch tape, sticky tape
 4283	repéré	marked
 4284	ruiner	to ruin
 4285	différemment	differently
@@ -4313,7 +4313,7 @@ rank	word	english
 4312	intentions	intention
 4313	puissent	can, to be able to
 4314	serrer	to tighten
-4315	trouble	trouble
+4315	trouble	disorder
 4316	sachiez	to know
 4317	connexion	connection
 4318	renversé	to turn over, turn upside down
@@ -4409,7 +4409,7 @@ rank	word	english
 4408	grossesse	pregnancy
 4409	foiré	to screw up, mess up
 4410	royal	royal
-4411	exposition	exposition
+4411	exposition	exhibition
 4412	nid	nest
 4413	artistes	artist
 4414	vise	to aim, to target
@@ -4495,7 +4495,7 @@ rank	word	english
 4494	entraîne	to coach, to train
 4495	tigre	tiger
 4496	foire	a fair, an exposition
-4497	solitude	solitude
+4497	solitude	loneliness
 4498	chariot	A car/carriage or wagon
 4499	judiciaire	judicial
 4500	deal	a deal: a transaction
@@ -4545,7 +4545,7 @@ rank	word	english
 4544	tiendra	to have; to hold
 4545	périmètre	perimeter
 4546	furent	to be
-4547	massacre	massacre
+4547	massacre	to massacre
 4548	muscles	muscle
 4549	détestes	to hate, to detest
 4550	aiderai	to help; to aid
@@ -4568,7 +4568,7 @@ rank	word	english
 4567	intervenir	to intervene
 4568	soupir	sigh
 4569	mangent	to eat
-4570	civils	civil
+4570	civils	lay
 4571	automne	autumn, fall
 4572	excitée	horny; excited
 4573	tranquilles	calm, quiet, tranquil, still, peaceful, serene
@@ -4623,7 +4623,7 @@ rank	word	english
 4622	élections	election
 4623	dessins	drawing
 4624	déclare	to declare
-4625	catastrophe	catastrophe
+4625	catastrophe	to stagger
 4626	choisit	to choose
 4627	prétendre	to claim, to allege
 4628	amenez	to bring, take, fetch, give a lift, give a ride
@@ -4642,7 +4642,7 @@ rank	word	english
 4641	poignardé	to stab; to knife
 4642	fiches	record
 4643	scanner	to scan
-4644	document	document
+4644	document	file
 4645	colin	Several different fish: pollock or European pollock, saithe…
 4646	atterrir	to land
 4647	rois	king
@@ -4667,7 +4667,7 @@ rank	word	english
 4666	oublions	to forget
 4667	montée	hung
 4668	partirai	to go away, leave, depart
-4669	civil	civil
+4669	civil	lay
 4670	pompes	pump
 4671	marc	pomace, marc
 4672	promenade	walk; stroll
@@ -4677,7 +4677,7 @@ rank	word	english
 4676	tiennent	to have; to hold
 4677	tache	blot, stain or smear
 4678	emporte	to take
-4679	absent	absent
+4679	absent	absent-minded
 4680	désespéré	hopeless, desperate
 4681	prochaines	upcoming
 4682	création	creation
@@ -4721,7 +4721,7 @@ rank	word	english
 4720	sauvetage	rescue
 4721	comprennent	to understand, comprehend
 4722	gentiment	friendly, kindly
-4723	canal	canal
+4723	canal	channel
 4724	pleut	to rain
 4725	exposé	exposed
 4726	violet	purple
@@ -4756,7 +4756,7 @@ rank	word	english
 4755	supérieure	superior
 4756	raccroche	to hang again; to hang back up
 4757	ère	era
-4758	normaux	normal
+4758	normaux	okay, alright
 4759	tuerait	to kill
 4760	officielle	official
 4761	marines	to marinate
@@ -4790,7 +4790,7 @@ rank	word	english
 4789	botter	to kick
 4790	bingo	bingo
 4791	plaques	to plate
-4792	clef	clef
+4792	clef	key; the device as shown on a coat of arms
 4793	nous-mêmes	ourselves
 4794	grillé	grilled
 4795	peint	to paint
@@ -4834,7 +4834,7 @@ rank	word	english
 4833	magasins	shop, store
 4834	lutter	to struggle, to fight
 4835	viendront	to come
-4836	monseigneur	monseigneur
+4836	monseigneur	monsignor
 4837	mourant	to die; to be dying
 4838	contenu	content
 4839	ennui	boredom; lassitude
@@ -4878,7 +4878,7 @@ rank	word	english
 4877	suivent	to follow
 4878	analyses	analysis
 4879	portail	portal
-4880	mines	mine
+4880	mines	pencil lead
 4881	montres	watch, wristwatch
 4882	spéciales	special
 4883	possibilités	possibility
@@ -4932,7 +4932,7 @@ rank	word	english
 4931	enfoirés	dickhead, fuckhead, shithead
 4932	acceptez	to accept
 4933	inhabituel	unusual, uncustomary, unhabitual
-4934	tickets	ticket
+4934	tickets	receipt
 4935	essaierai	to test, to try on
 4936	votes	vote
 4937	détester	to hate, to detest
@@ -5003,9 +5003,9 @@ rank	word	english
 5002	concept	concept
 5003	extra	extra, additional
 5004	nettoyage	cleaning
-5005	missiles	missile
+5005	missiles	bombshell, hottie
 5006	syndicat	maritime district
-5007	circuit	circuit
+5007	circuit	tour
 5008	tournoi	tournament
 5009	dénoncer	to denounce
 5010	éternel	eternal
@@ -5056,12 +5056,12 @@ rank	word	english
 5055	feraient	to do
 5056	quai	quay, wharf
 5057	maïs	corn, maize
-5058	cocktail	cocktail
+5058	cocktail	cocktail party
 5059	pêcher	to fish
 5060	spécialité	speciality
 5061	orbite	orbit
 5062	étudiante	studying
-5063	correction	correction
+5063	correction	propriety
 5064	comptable	accountant
 5065	arraché	snatch
 5066	pénible	painful, hard, displeasing
@@ -5076,9 +5076,9 @@ rank	word	english
 5075	alliés	friendly; allied
 5076	violer	to violate
 5077	allergique	allergic
-5078	villa	villa
+5078	villa	house in the country
 5079	croisé	crusader
-5080	bang	bang
+5080	bang	sonic boom
 5081	cicatrice	scar
 5082	vitre	pane of glass, window pane
 5083	postes	post office
@@ -5090,7 +5090,7 @@ rank	word	english
 5089	maîtres	master
 5090	sensé	sensible, rational
 5091	grange	a barn
-5092	promo	promo
+5092	promo	year group, school year
 5093	degré	degree
 5094	cibles	target
 5095	habillée	smart; formal
@@ -5099,9 +5099,9 @@ rank	word	english
 5098	battus	beaten
 5099	flamme	flame
 5100	apportez	to bring
-5101	bases	base
+5101	bases	base, basis
 5102	traînée	trail
-5103	laser	laser
+5103	laser	to laser
 5104	flipper	pinball machine, pinball
 5105	amateur	lover of something
 5106	serpents	snake
@@ -5111,14 +5111,14 @@ rank	word	english
 5110	chantage	blackmail, shakedown
 5111	yang	yang
 5112	poussez	to push
-5113	civile	civil
+5113	civile	lay
 5114	ralentir	to slow down
 5115	prudente	prudent
 5116	solaire	solar
 5117	rejeté	to throw back
 5118	psychopathe	psychopath
 5119	comparé	compared
-5120	troubles	trouble
+5120	troubles	disorder
 5121	banc	bench
 5122	engin	any device, contraption or machinery, particularly a…
 5123	amenée	feminine singular of amené
@@ -5133,7 +5133,7 @@ rank	word	english
 5132	déconne	to talk rubbish, talk bollocks, kid, joke
 5133	retrouvera	to find; to rediscover
 5134	habitudes	habit
-5135	confession	confession
+5135	confession	creed
 5136	académie	academy
 5137	assassins	an assassin or other murderer
 5138	inventer	to invent
@@ -5194,7 +5194,7 @@ rank	word	english
 5193	brosse	brush
 5194	craquer	to split, to break
 5195	difficultés	difficulty
-5196	impatient	impatient
+5196	impatient	impatient person
 5197	pyjama	pyjamas
 5198	flèche	arrow
 5199	suivie	following
@@ -5213,7 +5213,7 @@ rank	word	english
 5212	veniez	to come
 5213	rendait	to return, to restore, to give back
 5214	habituer	to get someone in the habit
-5215	intuition	intuition
+5215	intuition	intuition, hunch
 5216	fondation	foundation
 5217	consulter	to consult
 5218	concierge	house-porter, doorkeeper, caretaker
@@ -5232,7 +5232,7 @@ rank	word	english
 5231	volés	masculine plural of volé
 5232	ronde	a watch
 5233	fardeau	burden
-5234	hockey	hockey
+5234	hockey	ice hockey
 5235	choisie	feminine singular of choisi
 5236	brille	to shine, to sparkle
 5237	ris	to laugh
@@ -5249,7 +5249,7 @@ rank	word	english
 5248	annule	to cancel
 5249	livré	to deliver
 5250	intérieure	interior
-5251	standard	standard
+5251	standard	switchboard
 5252	glissé	to slip, to slide, to skid
 5253	annoncé	to announce
 5254	civilisation	civilization
@@ -5299,14 +5299,14 @@ rank	word	english
 5298	accroche	lead-in
 5299	ras	short
 5300	superman	superman
-5301	pop	pop
+5301	pop	pop, pop music
 5302	district	district
 5303	apprendra	to learn
 5304	sorties	exit; way out
 5305	tranquillement	calmly, peacefully, quietly, serenely, tranquilly
 5306	arrières	back
 5307	préférez	to prefer
-5308	radar	radar
+5308	radar	a device that takes pictures of vehicles violating traffic…
 5309	halte	halt, pause, break
 5310	zombie	zombie
 5311	grille	bars; railings; rack; grate
@@ -5320,7 +5320,7 @@ rank	word	english
 5319	copines	ellipsis of petite copine: girlfriend
 5320	paniqué	to panic
 5321	poète	poet
-5322	licence	licence
+5322	licence	permit, certificate
 5323	sauvés	masculine plural of sauvé
 5324	col	collar
 5325	titres	heading, title
@@ -5408,7 +5408,7 @@ rank	word	english
 5407	ralentis	to slow down
 5408	repérer	to map out, to mark, to reference
 5409	automatique	automatic
-5410	bowling	bowling
+5410	bowling	bowling alley
 5411	détruite	feminine singular of détruit
 5412	emménager	to move in
 5413	laissés	masculine plural of laissé
@@ -5435,16 +5435,16 @@ rank	word	english
 5434	supérieurs	superior
 5435	héritier	heir
 5436	payés	masculine plural of payé
-5437	terribles	terrible
+5437	terribles	great, excellent
 5438	sénat	senate
 5439	partes	to go away, leave, depart
 5440	individu	individual
 5441	continuons	to continue
 5442	décevoir	to disappoint
-5443	fusion	fusion
+5443	fusion	mix; mixture
 5444	conne	stupid
 5445	ado	teen, teenager
-5446	airs	air
+5446	airs	tune, aria
 5447	traumatisme	trauma
 5448	comtesse	countess
 5449	basé	based
@@ -5473,10 +5473,10 @@ rank	word	english
 5472	décédé	to pass away, decease
 5473	brouillard	fog, mist
 5474	quelques-uns	some, a few
-5475	brute	brute
+5475	brute	person without reason, person devoid of reason
 5476	puisqu'	apocopic form of puisque
 5477	cinquante	fifty
-5478	calibre	calibre
+5478	calibre	to calibrate
 5479	trottoir	sidewalk, pavement, footpath
 5480	poubelles	rubbish bin, garbage can
 5481	pilule	pill
@@ -5595,7 +5595,7 @@ rank	word	english
 5594	appât	charms
 5595	folles	mad, crazy
 5596	explorer	to explore
-5597	instrument	instrument
+5597	instrument	ellipsis of instrument de musique
 5598	gage	pledge, guarantee
 5599	concentré	to concentrate
 5600	précédent	previous; preceding; earlier
@@ -5663,7 +5663,7 @@ rank	word	english
 5662	nazis	Nazi
 5663	chiant	to shit, defecate
 5664	alimentaire	food; alimentary
-5665	observation	observation
+5665	observation	observance of rules, conventions, laws, etc
 5666	grossier	coarse
 5667	ajoute	to add, append
 5668	délicate	delicate
@@ -5676,11 +5676,11 @@ rank	word	english
 5675	rappellerai	to call again; to call back
 5676	profondeur	depth
 5677	chèques	cheque
-5678	triple	triple
-5679	regret	regret
+5678	triple	thirty-second note
+5679	regret	nostalgia
 5680	vulgaire	vulgar, crude
 5681	jouant	to play
-5682	grain	grain
+5682	grain	a small amount, a bit
 5683	grenier	granary
 5684	emplacement	site, location
 5685	coopérer	to cooperate
@@ -5710,7 +5710,7 @@ rank	word	english
 5709	gays	gay
 5710	éternellement	eternally
 5711	coeurs	nonstandard spelling of cœurs
-5712	stand	stand
+5712	stand	Pit
 5713	durée	duration, period, time taken
 5714	robots	robot
 5715	rôles	role
@@ -5801,7 +5801,7 @@ rank	word	english
 5800	poulets	chicken
 5801	stock	stock, goods in supply
 5802	vœu	vow
-5803	camps	camp
+5803	camps	campness; An affected, exaggerated or intentionally…
 5804	opposé	opposite
 5805	buvons	to drink
 5806	arc	bow
@@ -5812,7 +5812,7 @@ rank	word	english
 5811	commençait	to begin, commence
 5812	taureau	bull
 5813	selle	saddle
-5814	missile	missile
+5814	missile	bombshell, hottie
 5815	détestent	to hate, to detest
 5816	inspiré	to breathe in
 5817	banane	banana
@@ -5877,7 +5877,7 @@ rank	word	english
 5876	isolé	isolated
 5877	éthique	ethical
 5878	if	yew
-5879	bars	bar
+5879	bars	bass
 5880	détecteur	detector, sensor
 5881	aveux	confession
 5882	commentaires	comment, remark
@@ -5887,7 +5887,7 @@ rank	word	english
 5886	coca	Coke
 5887	utilises	to use, to utilize
 5888	béton	concrete
-5889	tables	table
+5889	tables	flat surface atop various objects
 5890	cachés	hidden
 5891	retournée	feminine singular of retourné
 5892	fumier	manure, dung
@@ -5910,7 +5910,7 @@ rank	word	english
 5909	soupçons	suspicion; mistrust
 5910	lessive	lye, alkaline solution; detergent
 5911	radios	radio, tuner
-5912	urine	urine
+5912	urine	to urinate
 5913	score	score
 5914	dorénavant	henceforth, from now on, from this day forward
 5915	escorte	escort, suite
@@ -5931,7 +5931,7 @@ rank	word	english
 5930	sympathique	nice, kind, friendly, likeable
 5931	confirmation	confirmation
 5932	planifié	to plan ahead, to prepare oneself
-5933	latin	Latin
+5933	latin	Latino
 5934	formulaire	form
 5935	tuyaux	pipe
 5936	répondeur	lippy, mouthy
@@ -5959,7 +5959,7 @@ rank	word	english
 5958	correspondent	to correspond
 5959	sortirai	to exit, go out, come out
 5960	yoga	yoga
-5961	cape	cape
+5961	cape	to cap
 5962	troupeau	herd
 5963	déclenché	to trigger, to spark, to set off
 5964	pouvions	can, to be able to
@@ -5968,7 +5968,7 @@ rank	word	english
 5967	croira	to believe
 5968	minus	idiot, imbecile
 5969	tueront	to kill
-5970	cam	cam
+5970	cam	contre-amiral
 5971	ados	a sloping mound of earth, against a wall, used for sowing
 5972	gin	gin
 5973	traites	milking
@@ -5983,7 +5983,7 @@ rank	word	english
 5982	jambon	ham
 5983	papi	grandad, grandpa
 5984	cérébrale	cerebral
-5985	assistance	assistance
+5985	assistance	audience
 5986	avalé	to swallow
 5987	professeurs	teacher
 5988	rêvais	to dream
@@ -6047,7 +6047,7 @@ rank	word	english
 6046	donnerait	to give, to transfer the possession/holding of something to…
 6047	pince	pincer, claw
 6048	primaire	primary
-6049	regrets	regret
+6049	regrets	nostalgia
 6050	nations	nation
 6051	plaisantais	to joke
 6052	psychiatrique	psychiatric
@@ -6093,7 +6093,7 @@ rank	word	english
 6092	traquer	to track, follow
 6093	mêlé	to mix
 6094	chimiques	chemistry, chemical
-6095	addition	addition
+6095	addition	bill, check
 6096	transférer	to transfer, remove
 6097	exacte	exact; precise
 6098	gratitude	gratitude
@@ -6118,7 +6118,7 @@ rank	word	english
 6117	matins	morning
 6118	raide	stiff, straight
 6119	via	via, through, by way of
-6120	overdose	overdose
+6120	overdose	overdose of, excess of, surfeit of something
 6121	craché	strongly resembling
 6122	privilège	privilege
 6123	professionnels	professional
@@ -6185,23 +6185,23 @@ rank	word	english
 6184	perdent	to lose
 6185	neuve	brand new, very new
 6186	amants	lover
-6187	karma	karma
+6187	karma	an unpleasant or negative environment
 6188	meuf	woman
 6189	ego	alternative form of égo
 6190	abus	abuse
 6191	agresseur	aggressor
 6192	donneur	donor
 6193	épreuves	test
-6194	cousins	cousin
+6194	cousins	cranefly
 6195	grandit	third-person singular present indicative/past historic of…
 6196	dirigé	to run; to direct
 6197	signaux	signal
-6198	clefs	clef
+6198	clefs	key; the device as shown on a coat of arms
 6199	croisière	cruise
 6200	humide	moist, humid
 6201	rio	acronym of relevé d'identité opérateur, a unique identifier…
 6202	régulièrement	regularly, on a regular basis, frequently
-6203	square	square
+6203	square	small public garden in the middle of a square
 6204	alentours	surroundings, neighbouring areas
 6205	vaste	vast
 6206	voisinage	proximity, vicinity
@@ -6222,7 +6222,7 @@ rank	word	english
 6221	radiations	radiation
 6222	canne	cane; stick
 6223	costaud	strong
-6224	ring	ring
+6224	ring	ring road, beltway
 6225	mourrai	to die; to be dying
 6226	proximité	proximity
 6227	exposer	to expose
@@ -6245,14 +6245,14 @@ rank	word	english
 6244	sons	sound
 6245	redevenir	to become again
 6246	détente	relaxation, détente
-6247	sites	site
+6247	sites	website
 6248	phénomène	phenomenon
 6249	pneu	tyre, tire
 6250	limousine	traditional woolen cloak from Haute-Vienne
 6251	méritez	to deserve, merit
 6252	duel	dual
 6253	appartiennent	to belong
-6254	braves	brave
+6254	braves	honest
 6255	intégrer	to integrate, to incorporate
 6256	fermier	farmer
 6257	tronche	mug; face
@@ -6268,7 +6268,7 @@ rank	word	english
 6267	sixième	sixth
 6268	carré	square
 6269	iris	iris
-6270	pigeon	pigeon
+6270	pigeon	patsy
 6271	planning	schedule, work plan
 6272	round	round
 6273	agenda	organiser, appointment book, engagement book
@@ -6278,11 +6278,11 @@ rank	word	english
 6277	mouches	fly
 6278	oses	to dare
 6279	culot	base, bottom
-6280	cycle	cycle
+6280	cycle	middle school, junior high school
 6281	situations	situation
 6282	mit	to put; to place
 6283	ressortir	to go or come back out; to go/come out again
-6284	trains	train
+6284	trains	pace
 6285	ex-mari	ex-husband
 6286	cachez	to hide
 6287	champignons	mushroom
@@ -6351,11 +6351,11 @@ rank	word	english
 6350	étouffer	to smother, to choke
 6351	chaises	chair, seat
 6352	comporter	to include
-6353	break	break
+6353	break	estate car, station wagon
 6354	colocataire	flatmate, roommate, housemate, joint tenant, cotenant
 6355	pénétrer	to enter, to get in
 6356	pige	measure
-6357	trauma	trauma
+6357	trauma	psychic trauma
 6358	tonton	uncle
 6359	cherchant	to look for, to seek
 6360	trouvées	found, being to object of a find
@@ -6371,7 +6371,7 @@ rank	word	english
 6370	entende	to hear
 6371	ouvres	to open
 6372	habituellement	usually, habitually
-6373	permanence	permanence
+6373	permanence	homeroom
 6374	coulé	to sink
 6375	comique	comic
 6376	procéder	proceed
@@ -6433,7 +6433,7 @@ rank	word	english
 6432	interdis	to forbid, ban, prohibit
 6433	minuscule	tiny, minute, minuscule
 6434	extraterrestres	extraterrestrial
-6435	diversion	diversion
+6435	diversion	pastime
 6436	mentent	to lie
 6437	volent	to fly through the air
 6438	trouverais	to find; to retrieve something lost, turn up something…
@@ -6455,7 +6455,7 @@ rank	word	english
 6454	internationale	international
 6455	romains	Roman
 6456	compliments	compliment
-6457	causes	cause
+6457	causes	case
 6458	décides	to decide
 6459	réserves	to reserve, to make a reservation, to book
 6460	permettra	to permit, to allow
@@ -6469,7 +6469,7 @@ rank	word	english
 6468	gérant	to manage
 6469	ressentez	to feel
 6470	fraternité	brotherhood
-6471	spatial	spatial
+6471	spatial	space, outer space
 6472	positive	positive
 6473	conséquence	general senses
 6474	suspecte	to suspect
@@ -6477,7 +6477,7 @@ rank	word	english
 6476	ruse	cunning, guile
 6477	embarquer	to board
 6478	imaginaire	imaginary
-6479	instruments	instrument
+6479	instruments	ellipsis of instrument de musique
 6480	torse	torso
 6481	puissions	can, to be able to
 6482	cartel	a cartel
@@ -6513,7 +6513,7 @@ rank	word	english
 6512	littérature	literature
 6513	crises	crisis
 6514	positions	position
-6515	ski	ski
+6515	ski	skiing
 6516	piqûre	injection
 6517	baissé	to lower
 6518	attaquée	feminine singular of attaqué
@@ -6524,7 +6524,7 @@ rank	word	english
 6523	prennes	to take
 6524	élégant	elegant
 6525	seau	pail, bucket
-6526	volume	volume
+6526	volume	an overly long piece of writing
 6527	ajouté	to add, append
 6528	pète	fail
 6529	enthousiasme	enthusiasm, keenness
@@ -6549,7 +6549,7 @@ rank	word	english
 6548	étiquette	tag, label
 6549	coton	cotton
 6550	navires	ship
-6551	alternative	alternative
+6551	alternative	alternating
 6552	embrassée	"embraced" on the specified side by sections that extend to…
 6553	révèle	to reveal, to give away
 6554	perfection	perfection
@@ -6577,7 +6577,7 @@ rank	word	english
 6576	mystérieuse	mysterious
 6577	enfuis	to escape
 6578	intégrité	integrity
-6579	parages	parage
+6579	parages	environs, surroundings
 6580	due	what is owed, what is due, money's worth
 6581	tonne	large barrel
 6582	reparlera	to talk again, to speak again
@@ -6757,7 +6757,7 @@ rank	word	english
 6756	dj	DJ, disc jockey
 6757	reprises	time, instance
 6758	étouffe	to smother, to choke
-6759	allemande	allemande
+6759	allemande	German
 6760	reprocher	to blame somebody for something
 6761	boeuf	nonstandard spelling of bœuf
 6762	country	country music
@@ -6871,7 +6871,7 @@ rank	word	english
 6870	cerveaux	brain
 6871	torturé	to torture
 6872	retrait	retreat
-6873	back	back
+6873	back	to back up, to move back; to move back, to reverse direction
 6874	cassettes	treasure box
 6875	épuisée	exhausted
 6876	ruines	to ruin
@@ -6879,7 +6879,7 @@ rank	word	english
 6878	clou	nail
 6879	détesté	to hate, to detest
 6880	violeur	rapist
-6881	brutal	brutal
+6881	brutal	person who acts brutally
 6882	illusions	illusion
 6883	remplaçant	to replace
 6884	tremble	aspen
@@ -6888,7 +6888,7 @@ rank	word	english
 6887	dansé	to dance
 6888	privés	private
 6889	initiative	initiative
-6890	argument	argument
+6890	argument	argument of a verb, phrase syntactically connected to a verb
 6891	croise	to cross, to put in the shape of a cross
 6892	sirop	syrup
 6893	cicatrices	scar
@@ -6996,7 +6996,7 @@ rank	word	english
 6995	obéis	to obey
 6996	discrètement	discreetly, discretely
 6997	sympas	nice; likeable
-6998	province	province
+6998	province	the countryside; or more broadly, the rest of metropolitan…
 6999	mythe	myth
 7000	envoies	to send
 7001	légale	statutory: having to do with an act of parliament
@@ -7005,16 +7005,16 @@ rank	word	english
 7004	enfoncer	to push in, to press in, to drive in
 7005	muet	dumb
 7006	intéressait	to interest; to make interested
-7007	camping	camping
+7007	camping	campsite
 7008	posséder	to own; to possess
 7009	américaines	madison
 7010	yacht	yacht
 7011	prophète	prophet
 7012	observé	to observe, watch
 7013	contexte	context
-7014	obligation	obligation
+7014	obligation	bond
 7015	encaisser	to collect, to cash
-7016	perspective	perspective
+7016	perspective	prospect
 7017	optimiste	optimist
 7018	mate	matt
 7019	tomates	tomato
@@ -7126,7 +7126,7 @@ rank	word	english
 7125	racine	root
 7126	jurer	to swear
 7127	débiles	dumb, stupid, retarded
-7128	violente	violent
+7128	violente	severe
 7129	gabe	to speak clumsily; to blunder; to laugh
 7130	restaurants	restaurant
 7131	piloter	to pilot
@@ -7135,7 +7135,7 @@ rank	word	english
 7134	post	post
 7135	soulagé	to relieve, soothe
 7136	bunker	bunker
-7137	capsule	capsule
+7137	capsule	bottle cap
 7138	éponge	sponge
 7139	classes	class, type, group
 7140	rétablir	to restore
@@ -7151,7 +7151,7 @@ rank	word	english
 7150	curé	priest bearing the responsibility of a parish
 7151	adrénaline	adrenaline
 7152	ironique	ironic
-7153	avatar	avatar
+7153	avatar	misadventures, incidents
 7154	tournant	to turn; to change; to rotate; to spin
 7155	plonge	the work of washing dishes
 7156	prostituées	prostitute
@@ -7162,7 +7162,7 @@ rank	word	english
 7161	conseillé	to advise
 7162	parlaient	to speak, talk
 7163	thon	tuna
-7164	cruelle	cruel
+7164	cruelle	hard, painful
 7165	menacée	feminine singular of menacé
 7166	choqué	shocked, startled
 7167	tirée	down bow
@@ -7217,7 +7217,7 @@ rank	word	english
 7216	réagit	to react, respond
 7217	croyant	to believe
 7218	politiciens	politician
-7219	satisfaction	satisfaction
+7219	satisfaction	fulfilment
 7220	foutent	to do, to fuck around with, to dick around, to fritter, to…
 7221	signale	to signal
 7222	autorisée	permitted, allowed, authorized
@@ -7231,7 +7231,7 @@ rank	word	english
 7230	concurrence	competition
 7231	trait	line
 7232	informateur	informant, informer – one who informs
-7233	signification	signification
+7233	signification	meaning
 7234	horaire	schedule
 7235	dépit	scorn
 7236	vanter	to praise, to vaunt
@@ -7257,7 +7257,7 @@ rank	word	english
 7256	mourras	to die; to be dying
 7257	tabasser	beat up
 7258	bénéfice	profit, earning
-7259	conception	conception
+7259	conception	ability to understand
 7260	more	mora
 7261	livreur	deliverer, deliveryman
 7262	entendais	to hear
@@ -7326,7 +7326,7 @@ rank	word	english
 7325	won	won
 7326	reconnue	feminine singular of reconnu
 7327	puces	flea
-7328	bourrée	bourrée
+7328	bourrée	stuffed or filled to the very limit
 7329	individus	individual
 7330	péril	peril, danger
 7331	semer	to sow
@@ -7351,7 +7351,7 @@ rank	word	english
 7350	loterie	lottery
 7351	miettes	crumb
 7352	pièges	trap, snare, booby trap
-7353	violents	violent
+7353	violents	severe
 7354	toux	cough
 7355	jasper	to apply different colors of paint flowing together in…
 7356	aimera	to love
@@ -7381,7 +7381,7 @@ rank	word	english
 7380	petits-enfants	grandchild
 7381	cote	call number
 7382	étapes	stage, stop
-7383	application	application
+7383	application	mapping
 7384	générosité	generosity
 7385	reçus	to receive
 7386	soumettre	to submit
@@ -7436,10 +7436,10 @@ rank	word	english
 7435	corrompu	corrupt
 7436	frappes	to hit, to strike, to bash
 7437	insecte	insect
-7438	capture	capture
+7438	capture	a catch, a take
 7439	extrait	an extract
 7440	prêtres	priest
-7441	sentence	sentence
+7441	sentence	verdict
 7442	généreuse	generous, kind
 7443	religieuse	nun, female religious
 7444	dealers	drug dealer
@@ -7457,7 +7457,7 @@ rank	word	english
 7456	plaider	to plead
 7457	épais	thickly; densely
 7458	bourbon	bourbon
-7459	obligations	obligation
+7459	obligations	bond
 7460	mortels	mortal
 7461	gangster	gangster
 7462	tait	to be quiet, to be silent
@@ -7482,7 +7482,7 @@ rank	word	english
 7481	laisserait	to leave, to leave behind
 7482	franchi	to clear, to cross, to pass; to get over
 7483	insister	to insist, emphasize
-7484	hostile	hostile
+7484	hostile	unfriendly
 7485	trempé	soaked, drenched
 7486	tete	alternative form of téter
 7487	réalisez	to direct
@@ -7528,7 +7528,7 @@ rank	word	english
 7527	confesser	to acknowledge, admit
 7528	endommagé	to damage
 7529	harceler	to hassle; to bother; to disrupt; to harass
-7530	physiques	physique
+7530	physiques	physics
 7531	napoléon	napoleon
 7532	parlions	to speak, talk
 7533	motivation	motivation
@@ -7564,10 +7564,10 @@ rank	word	english
 7563	inscription	registration, enrolment
 7564	pitoyable	pitiful; pathetic, contemptible
 7565	évènement	post-1990 spelling of événement
-7566	muscle	muscle
+7566	muscle	to develop someone's muscles, to muscle up
 7567	rendus	an instance of rendering, a render
 7568	répugnant	disgusting, repugnant
-7569	beignets	beignet
+7569	beignets	doughnut
 7570	secrètes	secret
 7571	programmé	to program
 7572	party	party
@@ -7588,7 +7588,7 @@ rank	word	english
 7587	anonymes	anonymous
 7588	écharpe	scarf
 7589	lier	to link
-7590	centime	centime
+7590	centime	cent, eurocent
 7591	brune	brunette
 7592	finiras	to finish, end, complete
 7593	noeud	nonstandard spelling of nœud
@@ -7605,7 +7605,7 @@ rank	word	english
 7604	mépris	scorn
 7605	récente	recent
 7606	absolue	absolute
-7607	bulletin	bulletin
+7607	bulletin	newsletter
 7608	avale	to swallow
 7609	croyons	to believe
 7610	identiques	identical
@@ -7680,7 +7680,7 @@ rank	word	english
 7679	évènements	post-1990 spelling of événement
 7680	nourris	to feed, nourish
 7681	traque	tracking
-7682	rush	rush
+7682	rush	rushes
 7683	allié	friendly; allied
 7684	câbles	cable
 7685	oeuvres	nonstandard spelling of œuvres
@@ -7764,7 +7764,7 @@ rank	word	english
 7763	tailleur	tailor
 7764	abandonnes	to give up
 7765	égouts	drain
-7766	intrigue	intrigue
+7766	intrigue	plot
 7767	impoli	rude; impolite
 7768	télécommande	remote control
 7769	épargne	savings
@@ -7776,7 +7776,7 @@ rank	word	english
 7775	présentes	the letter, document etc. that the reader is reading
 7776	géré	to manage
 7777	équitable	just, equitable, fair
-7778	spatiale	spatial
+7778	spatiale	space, outer space
 7779	ficelles	twine
 7780	tracer	to draw or plot, to trace out
 7781	saumon	salmon
@@ -7866,9 +7866,9 @@ rank	word	english
 7865	objectifs	of a material object; objective
 7866	étrangler	to strangle
 7867	voudraient	to want, wish, desire
-7868	studios	studio
+7868	studios	pied-à-terre, garçonnière
 7869	souviendrai	to remember
-7870	distraction	distraction
+7870	distraction	entertainment
 7871	exploiter	to exploit
 7872	chauds	heat, warmth
 7873	espéré	to hope
@@ -7939,7 +7939,7 @@ rank	word	english
 7938	pigeons	to understand; to get, to catch on, to twig, to cotton on
 7939	creusé	concave
 7940	italienne	Italian
-7941	sermon	sermon
+7941	sermon	sermon, lecture
 7942	diplômes	diploma
 7943	arriverez	to arrive
 7944	intéressantes	interesting
@@ -7953,11 +7953,11 @@ rank	word	english
 7952	références	reference
 7953	faucon	falcon
 7954	fibres	fibre
-7955	normales	normal
+7955	normales	okay, alright
 7956	poignarder	to stab; to knife
 7957	appuyé	to press, push
 7958	barrer	to bar, bar up
-7959	traditions	tradition
+7959	traditions	a type of baguette or French stick
 7960	rangé	tidy, neat
 7961	emmerdes	trouble
 7962	utérus	uterus, womb
@@ -7974,7 +7974,7 @@ rank	word	english
 7973	contrebande	smuggling
 7974	astronaute	astronaut
 7975	poussent	to push
-7976	parasite	parasite
+7976	parasite	radio interference
 7977	impose	to impose
 7978	dôme	dome
 7979	sentirais	to smell
@@ -8011,7 +8011,7 @@ rank	word	english
 8010	thèse	thesis, supposition, theory
 8011	farine	flour, specifically wheat flour
 8012	enfonce	to push in, to press in, to drive in
-8013	absente	absent
+8013	absente	absent-minded
 8014	perle	pearl
 8015	enseignement	education, teaching
 8016	magnétique	magnet, magnetism; magnetic
@@ -8024,7 +8024,7 @@ rank	word	english
 8023	dansez	to dance
 8024	assiettes	seat
 8025	intéressés	interested
-8026	notion	notion
+8026	notion	an elementary treatise
 8027	mannequins	fashion model
 8028	labyrinthe	labyrinth
 8029	scout	scout, boy scout
@@ -8113,7 +8113,7 @@ rank	word	english
 8112	google	to google
 8113	mystères	mystery
 8114	contrôlé	to check or examine
-8115	cocktails	cocktail
+8115	cocktails	cocktail party
 8116	félicite	to congratulate
 8117	présidence	presidency
 8118	prévenus	prejudiced
@@ -8127,7 +8127,7 @@ rank	word	english
 8126	voyageur	traveller
 8127	resteras	to stay
 8128	promu	to promote
-8129	publics	public
+8129	publics	audience
 8130	adolescent	adolescent
 8131	étendue	expanse, area
 8132	évanouir	to lose consciousness; to faint
@@ -8141,8 +8141,8 @@ rank	word	english
 8140	porterai	to carry
 8141	polonais	Polish, the Polish language
 8142	cruauté	cruelty
-8143	arguments	argument
-8144	conduits	conduit
+8143	arguments	argument of a verb, phrase syntactically connected to a verb
+8144	conduits	a conductus
 8145	banal	public, shared
 8146	appellerais	to call
 8147	creux	hollow
@@ -8179,7 +8179,7 @@ rank	word	english
 8178	immobile	motionless, unmoving, still, stationary
 8179	arrêtais	to stop, to come to a standstill; to halt, to stop from…
 8180	critiquer	to criticise
-8181	live	live
+8181	live	now, at the moment
 8182	interdiction	ban, interdiction
 8183	rentrais	to go back, to re-enter
 8184	coéquipier	teammate
@@ -8191,7 +8191,7 @@ rank	word	english
 8190	ennemie	enemy
 8191	pissé	to piss
 8192	romans	a novel
-8193	médocs	Médoc
+8193	médocs	medication
 8194	privées	private
 8195	abandonnés	given up, abandoned
 8196	tuées	feminine plural of tué
@@ -8223,7 +8223,7 @@ rank	word	english
 8222	sécurisée	protected, secure, secured
 8223	reproduira	to reproduce
 8224	masculin	male
-8225	insensible	insensible
+8225	insensible	impervious
 8226	isoler	to isolate
 8227	laine	wool
 8228	analysé	to analyse
@@ -8238,7 +8238,7 @@ rank	word	english
 8237	transaction	compromise, concession
 8238	gratuits	free of charge
 8239	stellaire	stellar
-8240	suspension	suspension
+8240	suspension	adjournment, recess
 8241	détour	detour
 8242	opère	to operate
 8243	entendra	to hear
@@ -8340,7 +8340,7 @@ rank	word	english
 8339	baises	to kiss
 8340	rive	bank
 8341	montrera	to show
-8342	duo	duo
+8342	duo	duet
 8343	mauviette	Eurasian skylark
 8344	prendrons	to take
 8345	compréhensible	comprehensible; understandable
@@ -8458,7 +8458,7 @@ rank	word	english
 8457	suivra	to follow
 8458	martiaux	martial
 8459	désaccord	disagreement, discord
-8460	bronze	bronze
+8460	bronze	to bronze
 8461	interprétation	interpretation, rendition
 8462	écrivait	to write
 8463	évêque	bishop
@@ -8471,7 +8471,7 @@ rank	word	english
 8470	hanche	hip
 8471	consacrer	to dedicate, to devote
 8472	andouille	andouille, a type of sausage
-8473	intact	intact
+8473	intact	unspoiled, unbroken
 8474	grands-parents	grandparent
 8475	centres	centre, center
 8476	parceque	obsolete form of parce que
@@ -8502,7 +8502,7 @@ rank	word	english
 8501	examine	to examine
 8502	célébrités	the celebrity
 8503	couloirs	corridor, hallway
-8504	villages	village
+8504	villages	town, city
 8505	annonces	advertisement
 8506	électeurs	voter, elector
 8507	hale	to haul, tow
@@ -8511,7 +8511,7 @@ rank	word	english
 8510	caleçon	boxer shorts, boxer briefs
 8511	traités	treatise
 8512	représentent	to represent
-8513	kilo	kilo
+8513	kilo	a large quantity
 8514	resterez	to stay
 8515	taxes	tax
 8516	klaxon	horn
@@ -8618,7 +8618,7 @@ rank	word	english
 8617	orgasme	orgasm
 8618	kung-fu	kung fu
 8619	tirera	to draw, drag, pull
-8620	transformation	transformation
+8620	transformation	conversion
 8621	décoration	decoration
 8622	dévoiler	to unveil
 8623	teste	obsolete spelling of tête
@@ -8651,7 +8651,7 @@ rank	word	english
 8650	bi	bi, bisexual person
 8651	ji	jay, The name of the Latin script letter J/j
 8652	évolué	advanced, sophisticated, developed
-8653	circuits	circuit
+8653	circuits	tour
 8654	sky	clipping of whisky
 8655	oppose	to oppose
 8656	posté	to post, mail
@@ -8662,7 +8662,7 @@ rank	word	english
 8661	terminal	terminal
 8662	paysan	a peasant
 8663	romance	a ballad; a love song
-8664	coulisses	coulisse
+8664	coulisses	side of a stage, dressing room
 8665	coupés	divided into two equal parts horizontally, per fess; said…
 8666	culottes	panties, knickers
 8667	dizaine	a set of ten
@@ -8683,7 +8683,7 @@ rank	word	english
 8682	messire	my lord
 8683	éclats	brilliance, shine, lustre
 8684	brillants	shining; shiny
-8685	support	support
+8685	support	base
 8686	présentée	feminine singular of présenté
 8687	toutou	doggie, bow-wow
 8688	twitter	to tweet
@@ -8693,7 +8693,7 @@ rank	word	english
 8692	réparations	fix, repair
 8693	vitres	pane of glass, window pane
 8694	bousillé	to wreck, smash up
-8695	dangers	danger
+8695	dangers	jeopardy
 8696	impuissant	powerless
 8697	escalade	climbing
 8698	sans-abri	homeless person
@@ -8720,7 +8720,7 @@ rank	word	english
 8719	crêpes	crepe
 8720	poteau	post, pole, stake, stanchion, strut, standard, prop
 8721	agissez	to act, to do
-8722	projection	projection
+8722	projection	screening or viewing of a film
 8723	ç'	contraction of ça
 8724	concerné	concerned, involved
 8725	étincelle	spark
@@ -8761,7 +8761,7 @@ rank	word	english
 8760	exil	exile
 8761	silencieuse	silent
 8762	rompez	to break, to snap
-8763	parasites	parasite
+8763	parasites	radio interference
 8764	purement	purely, completely, totally
 8765	vitaux	vital
 8766	sensibilité	sensitivity
@@ -8815,7 +8815,7 @@ rank	word	english
 8814	tord	to twist; to bend
 8815	maintenez	to maintain
 8816	barque	small boat
-8817	ignorant	ignorant
+8817	ignorant	to ignore
 8818	trouviez	to find; to retrieve something lost, turn up something…
 8819	assoir	post-1990 spelling of asseoir
 8820	picard	Picard
@@ -8835,11 +8835,11 @@ rank	word	english
 8834	extraction	extraction
 8835	autoriser	to authorise
 8836	empoisonner	to poison, to kill by poisoning
-8837	fax	fax
+8837	fax	fax machine
 8838	étroit	narrow
 8839	modernes	modern
 8840	comptant	cash
-8841	polo	polo
+8841	polo	polo shirt
 8842	mourante	dying
 8843	pinces	to pinch
 8844	tank	tank
@@ -8937,7 +8937,7 @@ rank	word	english
 8936	sautez	to jump, leap
 8937	posent	to stop carrying, to put down
 8938	tombeau	tomb
-8939	exploitation	exploitation
+8939	exploitation	operation
 8940	t-shirts	alternative spelling of tee-shirt
 8941	attirée	feminine singular of attiré
 8942	prototype	prototype
@@ -9077,14 +9077,14 @@ rank	word	english
 9076	voudrai	to want, wish, desire
 9077	caillou	gravel, small stone
 9078	négligence	negligence; carelessness
-9079	aquarium	aquarium
+9079	aquarium	a clambake
 9080	collectif	collective
 9081	décennies	decade, ten-year period
 9082	maximale	maximal
 9083	habitue	to get someone in the habit
 9084	organe	organ
 9085	éprouve	to put to the test, test, try
-9086	nickel	nickel
+9086	nickel	atom of nickel
 9087	entrailles	entrails, bowels, guts
 9088	reprise	time, instance
 9089	pistolets	gun, pistol
@@ -9154,7 +9154,7 @@ rank	word	english
 9153	excellents	excellent; splendid
 9154	quittent	to leave, to quit
 9155	républicain	Republican
-9156	jogging	jogging
+9156	jogging	jog
 9157	chaleureux	agreeable for its own qualities
 9158	quatorze	fourteen
 9159	maintenance	maintenance
@@ -9188,7 +9188,7 @@ rank	word	english
 9187	bénis	to bless
 9188	ratée	failed, screwed up
 9189	perquisition	act of searching for someone or something
-9190	hacker	hacker
+9190	hacker	to hack
 9191	plâtre	plaster, plaster of Paris
 9192	reconnaissants	grateful, thankful
 9193	évadé	escaped
@@ -9199,7 +9199,7 @@ rank	word	english
 9198	passages	the act of going through a place or event
 9199	arrogance	arrogance
 9200	baratin	small talk
-9201	mature	mature
+9201	mature	to mature
 9202	étend	to spread, to spread out, to lay out
 9203	complicité	complicity, involvement
 9204	punk	punk
@@ -9291,7 +9291,7 @@ rank	word	english
 9290	pion	pawn
 9291	étendu	extensive
 9292	emmènent	to take off, take away or out
-9293	intacte	intact
+9293	intacte	unspoiled, unbroken
 9294	favoris	sideburns, side whiskers
 9295	représentants	representative
 9296	récents	recent
@@ -9397,7 +9397,7 @@ rank	word	english
 9396	travaillaient	to work
 9397	permettent	to permit, to allow
 9398	drones	drone
-9399	mention	mention
+9399	mention	slogan
 9400	enferme	to lock up, lock in, lock away
 9401	accusez	to accuse
 9402	pédés	fag, poof, queer
@@ -9420,13 +9420,13 @@ rank	word	english
 9419	invitations	invitation
 9420	superviseur	supervisor
 9421	commençant	to begin, commence
-9422	yankee	Yankee
+9422	yankee	an Anglo-American, as opposed to someone with French…
 9423	marchandises	merchandise
 9424	braquer	to point
 9425	partirons	to go away, leave, depart
 9426	traiteur	traiteur, caterer
 9427	caramel	fudge; caramel
-9428	soufflé	soufflé
+9428	soufflé	to blow
 9429	suivants	next, following
 9430	tampon	plug, stopper
 9431	tentes	tent
@@ -9501,7 +9501,7 @@ rank	word	english
 9500	couchait	to lay, to lay down
 9501	marchés	market
 9502	unies	united
-9503	dialogue	dialogue
+9503	dialogue	to dialogue, discuss, negotiate
 9504	ressemblance	resemblance
 9505	benne	bin, skip
 9506	motion	motion
@@ -9579,7 +9579,7 @@ rank	word	english
 9578	mélangé	to mix, to mix up
 9579	emprisonné	to imprison
 9580	hésité	to hesitate
-9581	morales	moral
+9581	morales	incorporeal
 9582	courants	current
 9583	mosquée	mosque
 9584	cérébral	cerebral
@@ -9684,7 +9684,7 @@ rank	word	english
 9683	posée	feminine singular of posé
 9684	fichent	to plug in
 9685	exclure	to exclude
-9686	perception	perception
+9686	perception	collection
 9687	gains	a gain, an instance of saving; an increase
 9688	resterait	to stay
 9689	spectacles	a show, a spectacle, a performance, a concert
@@ -9753,13 +9753,13 @@ rank	word	english
 9752	verrou	bolt
 9753	noblesse	nobility
 9754	vivement	vigorously, sharply
-9755	judas	Judas
+9755	judas	spyhole, peephole, Judas-hole
 9756	arène	arena
 9757	évidente	evident, obvious
 9758	témoigne	to witness, to be a witness at or for
 9759	siffle	to whistle
 9760	scénariste	screenwriter, scriptwriter
-9761	cascade	cascade
+9761	cascade	a stunt performed for cinematic imitation or entertainment
 9762	espagnole	Spanish, from or otherwise related to Spain, its people etc
 9763	conduira	to drive
 9764	industriel	industrial
@@ -9805,11 +9805,11 @@ rank	word	english
 9804	contaminé	to contaminate
 9805	renseigné	to advise; to inform
 9806	accueille	to welcome, to accommodate
-9807	baba	baba
+9807	baba	flabbergasted
 9808	découvrira	to discover
 9809	annulez	to cancel
-9810	forge	forge
-9811	centimes	centime
+9810	forge	to fashion metal with fire and a hammer, to forge
+9811	centimes	cent, eurocent
 9812	espérez	to hope
 9813	fa	fa, the fourth diatonic note 'F'
 9814	oranges	orange
@@ -9863,7 +9863,7 @@ rank	word	english
 9862	larme	tear; teardrop
 9863	strict	strict
 9864	lanceur	thrower
-9865	crèche	crèche
+9865	crèche	to flop
 9866	éveillée	awake
 9867	protocoles	protocol
 9868	complexes	complex, not simple
@@ -9895,7 +9895,7 @@ rank	word	english
 9894	croquis	sketch
 9895	pousses	to push
 9896	stockage	storage
-9897	taxis	taxi
+9897	taxis	taxi driver
 9898	bracelets	bracelet
 9899	battement	beating; hitting
 9900	désirer	to desire, want
@@ -9979,7 +9979,7 @@ rank	word	english
 9978	perturbe	to disrupt, to disturb
 9979	vaguement	vaguely
 9980	médaillon	medallion
-9981	auditions	audition
+9981	auditions	hearing
 9982	redire	resay, say again
 9983	écossais	Scottish
 9984	crédits	credit

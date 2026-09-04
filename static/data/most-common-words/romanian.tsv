@@ -336,7 +336,7 @@ rank	word	english
 335	gândit	to think
 336	ultima	ultimate, final, last
 337	ale	of
-338	moment	moment
+338	moment	the time, the right moment
 339	tip	guy
 340	i-a	îi as dative of el or ea
 341	primul	first
@@ -570,7 +570,7 @@ rank	word	english
 569	dvs	abbreviation of dumneavoastră
 570	cunoscut	known
 571	numărul	number
-572	restul	rest
+572	restul	change
 573	găsesc	to find
 574	undeva	somewhere
 575	mi-ar	contraction of îmi + ar
@@ -585,7 +585,7 @@ rank	word	english
 584	cumva	somehow
 585	aflat	to find out, get wind of
 586	ah	ah
-587	momentul	moment
+587	momentul	the time, the right moment
 588	vadă	to see
 589	jur	surroundings, vicinity
 590	fim	to be
@@ -791,18 +791,18 @@ rank	word	english
 790	ce-a	contraction of ce + a
 791	băiatul	boy
 792	trimite	to send
-793	plan	plan
+793	plan	plane
 794	speriat	frightened, scared
 795	folosi	to use, employ
 796	urăsc	to hate
-797	planul	plan
+797	planul	plane
 798	fiule	son
 799	m-au	contraction of mă + au
 800	suna	to ring or produce a sound in general
 801	închis	to close
 802	foame	hunger
 803	citit	to read
-804	secret	secret
+804	secret	secret, hidden
 805	omor	murder
 806	clipă	moment, instant, second, blink of an eye
 807	mulțumesc	thank you
@@ -1152,7 +1152,7 @@ rank	word	english
 1151	filmul	movie, film
 1152	dura	to build
 1153	dintr-un	contraction of din + un: from a, out of a
-1154	american	American
+1154	american	an American man
 1155	dulce	sweet
 1156	intri	to enter, go in
 1157	veche	old
@@ -1218,7 +1218,7 @@ rank	word	english
 1217	perfectă	perfect, flawless
 1218	necesar	necessary
 1219	găsească	to find
-1220	public	public
+1220	public	the public
 1221	problemele	problem
 1222	plăti	to pay
 1223	superi	to upset
@@ -1487,7 +1487,7 @@ rank	word	english
 1486	vineri	Friday
 1487	curaj	courage, guts, bravery
 1488	specială	special
-1489	planuri	plan
+1489	planuri	plane
 1490	bat	to beat
 1491	fotbal	football; soccer
 1492	ucid	to murder
@@ -1563,7 +1563,7 @@ rank	word	english
 1562	curtea	court
 1563	calm	composure
 1564	începutul	beginning, start
-1565	director	director
+1565	director	principal
 1566	bilet	ticket
 1567	copilului	child
 1568	prefera	to prefer
@@ -1612,7 +1612,7 @@ rank	word	english
 1611	creier	brain
 1612	sărut	kiss
 1613	biserica	church
-1614	directorul	director
+1614	directorul	principal
 1615	cai	horse
 1616	stabilit	established
 1617	forma	to form; to create; to make
@@ -1672,7 +1672,7 @@ rank	word	english
 1671	deschid	to open
 1672	cândva	sometime
 1673	calitate	quality
-1674	momente	moment
+1674	momente	the time, the right moment
 1675	gay	gay
 1676	idei	idea
 1677	fotografie	photography
@@ -1686,7 +1686,7 @@ rank	word	english
 1685	ghici	to guess
 1686	mm	abbreviation of morții mă-tii
 1687	razna	astray
-1688	colonel	colonel
+1688	colonel	glyph
 1689	rupe	to tear
 1690	miros	smell, odor, scent
 1691	copac	tree
@@ -1804,7 +1804,7 @@ rank	word	english
 1803	asigura	to assure
 1804	teribil	terrible
 1805	pregătesc	to prepare
-1806	planurile	plan
+1806	planurile	plane
 1807	aiurea	elsewhere
 1808	tribunal	tribunal, courthouse
 1809	dezastru	disaster
@@ -2235,7 +2235,7 @@ rank	word	english
 2234	pescuit	fishing
 2235	tristă	sad
 2236	profund	profound, deep
-2237	expert	expert
+2237	expert	wizard
 2238	ridic	to lift, elevate, raise, hoist, suspend
 2239	trezi	to get up, wake up
 2240	lipsesc	to deprive
@@ -2392,7 +2392,7 @@ rank	word	english
 2391	construi	to construct, build
 2392	pastile	pill
 2393	hartă	map
-2394	indian	Indian
+2394	indian	Native American
 2395	treburi	work
 2396	doctorii	doctor
 2397	identitate	identity
@@ -2422,7 +2422,7 @@ rank	word	english
 2421	pistă	track
 2422	limita	to limit
 2423	toaleta	to trim a tree's branches
-2424	demon	demon
+2424	demon	a despicable person
 2425	produce	to produce
 2426	acelui	that
 2427	albi	white
@@ -2590,7 +2590,7 @@ rank	word	english
 2589	ochelari	glasses, spectacles
 2590	prietenului	friend
 2591	culc	to lie down, recline
-2592	civil	civil
+2592	civil	civilian
 2593	urmărire	tracking; pursuance, pursuit
 2594	protejezi	to protect
 2595	pasiune	passion, ardor
@@ -2620,7 +2620,7 @@ rank	word	english
 2619	căsătoresc	marriage
 2620	limită	limit
 2621	state	state, government
-2622	calculator	calculator
+2622	calculator	computer
 2623	trai	living
 2624	dam	cowshed
 2625	oxigen	oxygen
@@ -2681,7 +2681,7 @@ rank	word	english
 2680	urc	to climb, ascend, go up, rise
 2681	momentan	at the moment
 2682	deosebire	difference
-2683	exterior	exterior
+2683	exterior	external, outer
 2684	capete	head
 2685	premiu	prize
 2686	sensibil	sensitive
@@ -2731,7 +2731,7 @@ rank	word	english
 2730	făceau	to do, act
 2731	lucram	to work
 2732	franceză	a French woman
-2733	august	August
+2733	august	august; majestic; venerable
 2734	căpitanului	captain
 2735	descrie	to describe; to depict
 2736	mia	thousand
@@ -2756,7 +2756,7 @@ rank	word	english
 2755	fură	third-person plural simple perfect indicative of fi
 2756	obiecte	object
 2757	guvernator	governor
-2758	german	German
+2758	german	a German person
 2759	for	forum
 2760	gustul	taste
 2761	tur	tour
@@ -2878,7 +2878,7 @@ rank	word	english
 2877	plăcintă	traditional pie or pastry
 2878	recuperat	recovered
 2879	doctorului	doctor
-2880	canal	canal
+2880	canal	channel
 2881	revista	magazine
 2882	șase	six
 2883	tăcere	silence
@@ -2988,7 +2988,7 @@ rank	word	english
 2987	propun	to propose, suggest or recommend
 2988	salariu	salary
 2989	chipul	face, likeness
-2990	canalul	canal
+2990	canalul	channel
 2991	antrenat	trained
 2992	strict	strict
 2993	supa	to dine
@@ -3080,7 +3080,7 @@ rank	word	english
 3079	umăr	shoulder
 3080	organizat	organised
 3081	transfer	transfer
-3082	grave	grave
+3082	grave	grave, serious
 3083	psihiatru	psychiatrist
 3084	fuge	to run
 3085	vale	valley
@@ -3196,7 +3196,7 @@ rank	word	english
 3195	chei	key
 3196	totuși	nevertheless
 3197	aripi	wing
-3198	pop	pop
+3198	pop	pop, pop music
 3199	universitate	university
 3200	propunere	proposal, offer, suggestion, recommendation
 3201	martie	March
@@ -3272,7 +3272,7 @@ rank	word	english
 3271	aspect	aspect, look
 3272	cur	asshole
 3273	citească	to read
-3274	manual	manual
+3274	manual	handbook
 3275	realiza	to achieve
 3276	dezvoltat	developed
 3277	alba	white
@@ -3413,7 +3413,7 @@ rank	word	english
 3412	depărtare	distance
 3413	batman	batsman
 3414	simbol	symbol
-3415	italian	Italian
+3415	italian	an Italian man
 3416	pâinea	bread
 3417	cuvine	to be adequate, to be consistent with
 3418	cedat	ceded
@@ -3633,7 +3633,7 @@ rank	word	english
 3632	haină	garment, garb, article of clothing
 3633	interesa	to interest
 3634	cerului	sky
-3635	demoni	demon
+3635	demoni	a despicable person
 3636	mal	shore
 3637	împart	to share, apportion, assign, dole, impart
 3638	dog	mastiff
@@ -3641,7 +3641,7 @@ rank	word	english
 3640	sărac	poor
 3641	puterii	strength
 3642	respecta	to respect
-3643	directă	direct
+3643	directă	head-on
 3644	stric	to spoil, ruin, damage, mar
 3645	complex	complex
 3646	trăgaci	trigger
@@ -3825,7 +3825,7 @@ rank	word	english
 3824	acuza	to accuse
 3825	distrugere	destruction
 3826	tragic	tragical
-3827	momentele	moment
+3827	momentele	the time, the right moment
 3828	absolvire	graduation
 3829	front	front, front line
 3830	partidul	party
@@ -3841,7 +3841,7 @@ rank	word	english
 3840	impuls	impulse
 3841	sângelui	blood
 3842	profesoară	professor
-3843	altar	altar
+3843	altar	communion table
 3844	sigure	sure, certain to be true
 3845	obliga	to oblige
 3846	margine	edge, margin, border, limit
@@ -3977,7 +3977,7 @@ rank	word	english
 3976	informații	information, piece of information
 3977	determinat	determined
 3978	tehnică	technique
-3979	planului	plan
+3979	planului	plane
 3980	conducător	leader, ruler
 3981	blând	mild
 3982	controlat	to control, to master
@@ -4091,7 +4091,7 @@ rank	word	english
 4090	istoric	historic
 4091	repetat	repeated
 4092	cerebral	cerebral
-4093	critic	critic
+4093	critic	critical
 4094	bursă	stock exchange
 4095	graba	haste
 4096	evadare	escape
@@ -4220,7 +4220,7 @@ rank	word	english
 4219	anula	to cancel; to annul
 4220	tacă	silence
 4221	chin	torture, pain
-4222	directorului	director
+4222	directorului	principal
 4223	săruta	to kiss
 4224	insulele	island
 4225	testament	will
@@ -4429,7 +4429,7 @@ rank	word	english
 4428	camioane	lorry, truck
 4429	curiozitate	curiosity
 4430	curul	curule
-4431	resturi	rest
+4431	resturi	change
 4432	afurisită	damned, accursed
 4433	unghi	angle
 4434	armat	to prepare a weapon for firing
@@ -4475,7 +4475,7 @@ rank	word	english
 4474	frânt	broken, fractured
 4475	fugar	fugitive, runaway
 4476	producător	producer
-4477	moral	moral
+4477	moral	morale, optimism
 4478	muncitor	worker, labourer
 4479	majoră	major
 4480	vere	male cousin
@@ -4653,7 +4653,7 @@ rank	word	english
 4652	chinuit	tormented
 4653	vultur	vulture
 4654	autor	author
-4655	magician	magician
+4655	magician	a whizz, magician
 4656	pedepsi	to punish, chastise
 4657	vieții	life
 4658	doza	to dose
@@ -4795,7 +4795,7 @@ rank	word	english
 4794	atacată	phthisic
 4795	cârlig	hook
 4796	bip	beep
-4797	rest	rest
+4797	rest	change
 4798	creez	to create
 4799	vorbeau	to speak
 4800	mărturisire	confession
@@ -4994,7 +4994,7 @@ rank	word	english
 4993	tactică	tactics
 4994	fiori	shudder, shiver
 4995	rânduri	row
-4996	capital	capital
+4996	capital	capital, important
 4997	ascunzătoare	hideout, hiding place
 4998	uneia	one
 4999	mănăstire	monastery
@@ -5005,7 +5005,7 @@ rank	word	english
 5004	carierei	career
 5005	calculele	calculus, calculation
 5006	diploma	to graduate; to attribute a diploma to
-5007	resturile	rest
+5007	resturile	change
 5008	furăm	first-person plural simple perfect indicative of fi
 5009	atingere	touching
 5010	antic	ancient
@@ -5237,7 +5237,7 @@ rank	word	english
 5236	sesiune	session
 5237	păduri	forest
 5238	instantaneu	instantaneous
-5239	calculatoare	calculator
+5239	calculatoare	computer
 5240	mirosit	smelling
 5241	ciclu	cycle
 5242	posturi	fast, fasting
@@ -5333,7 +5333,7 @@ rank	word	english
 5332	elită	elite
 5333	rufe	laundry
 5334	orei	hour
-5335	relevant	relevant
+5335	relevant	distinctive
 5336	prezervative	condom
 5337	striptease	striptease
 5338	certa	to quarrel, squabble, argue, altercate, row, argufy,…
@@ -5477,14 +5477,14 @@ rank	word	english
 5476	clopot	bell
 5477	blocare	locking
 5478	pin	pine
-5479	pluton	pluton
+5479	pluton	platoon
 5480	ezita	to hesitate, waver
 5481	închipuit	imaginary
 5482	culturi	culture
 5483	altitudine	altitude
 5484	decolare	takeoff
 5485	britanici	British
-5486	expertul	expert
+5486	expertul	wizard
 5487	pulover	sweatshirt
 5488	paralizat	paralyzed
 5489	toamnă	autumn
@@ -5534,7 +5534,7 @@ rank	word	english
 5533	dezamăgire	disappointment
 5534	începuse	to begin, to commence
 5535	consolare	consolation
-5536	bridge	bridge
+5536	bridge	a game of bridge
 5537	pădurii	forest
 5538	confirmare	confirmation
 5539	canale	garden balsam
@@ -5564,7 +5564,7 @@ rank	word	english
 5563	benzinărie	gas station
 5564	acuză	accuse
 5565	saltea	mattress
-5566	idol	idol
+5566	idol	pagan divinity
 5567	captura	to capture
 5568	desemnat	designated
 5569	șefule	chief, boss
@@ -5685,7 +5685,7 @@ rank	word	english
 5684	exemplar	copy
 5685	look	look
 5686	triste	sad
-5687	factor	factor
+5687	factor	postal worker, postman, mailman
 5688	aromă	aroma
 5689	adunătură	mixture, medley
 5690	personaje	character; persona
@@ -5711,7 +5711,7 @@ rank	word	english
 5710	înregistra	to register
 5711	titan	titanium
 5712	bai	trouble
-5713	calendar	calendar
+5713	calendar	almanac
 5714	mâncam	to eat
 5715	stick	stick-shaped object
 5716	sonda	to probe
@@ -6066,7 +6066,7 @@ rank	word	english
 6065	vanilie	vanilla
 6066	tablă	board, blackboard
 6067	glob	globe
-6068	lunar	lunar
+6068	lunar	monthly
 6069	polo	polo
 6070	începea	to begin, to commence
 6071	mișcă	to move
@@ -6123,7 +6123,7 @@ rank	word	english
 6122	groasă	thick
 6123	cosmic	cosmic
 6124	antidot	antidote
-6125	tesla	tesla
+6125	tesla	adze
 6126	ascultare	the act of listening
 6127	terorism	terrorism
 6128	adaugi	to add, add to
@@ -6228,7 +6228,7 @@ rank	word	english
 6227	majoritate	majority
 6228	acceptabil	acceptable
 6229	farfurii	plate
-6230	camping	camping
+6230	camping	campsite
 6231	ardere	the process of burning
 6232	pup	kiss
 6233	călătorească	to travel, to journey
@@ -6241,7 +6241,7 @@ rank	word	english
 6240	portar	gatekeeper, doorkeeper, doorman, porter, door-guard
 6241	verandă	veranda
 6242	dornic	eager
-6243	economic	economic
+6243	economic	economical
 6244	sever	strict
 6245	digital	digital
 6246	vremii	weather
@@ -6636,7 +6636,7 @@ rank	word	english
 6635	banană	banana
 6636	încrede	to trust
 6637	anonimi	anonymous
-6638	indiană	Indian
+6638	indiană	Native American
 6639	ironie	irony
 6640	măsline	olive
 6641	spontan	spontaneous
@@ -6778,7 +6778,7 @@ rank	word	english
 6777	specifică	specific
 6778	rase	race
 6779	prădător	robber, looter, plunderer, pillager
-6780	canadian	Canadian
+6780	canadian	Canadian man
 6781	viziona	to view
 6782	îneca	to drown
 6783	dement	demented person
@@ -6842,7 +6842,7 @@ rank	word	english
 6841	chemare	call, calling
 6842	atlet	athlete
 6843	subestima	to underestimate
-6844	formată	format
+6844	formată	template
 6845	învingător	winning
 6846	management	management
 6847	abandonez	to abandon
@@ -6900,7 +6900,7 @@ rank	word	english
 6899	manipulare	manipulation
 6900	grafic	graphic
 6901	librărie	bookshop, bookstore
-6902	monument	monument
+6902	monument	memorial
 6903	kilogram	kilogram
 6904	strălucire	radiance, luster, glint, showiness, effulgence
 6905	linge	to lick
@@ -6971,7 +6971,7 @@ rank	word	english
 6970	predare	hand over
 6971	interpol	Interpol
 6972	interval	interval
-6973	diplomat	diplomat
+6973	diplomat	having a diploma or a degree
 6974	buza	lip
 6975	dânsa	she
 6976	avatar	avatar
@@ -7147,14 +7147,14 @@ rank	word	english
 7146	fracturat	fractured
 7147	maturizat	matured
 7148	vocale	vocal
-7149	momentului	moment
+7149	momentului	the time, the right moment
 7150	trenului	train
 7151	sclavă	slavess
 7152	frână	brake
 7153	ici	synonym of aici
 7154	închiria	to rent
 7155	cuțit	knife
-7156	componente	component
+7156	componente	member of a team or other group
 7157	chimioterapie	chemotherapy
 7158	impas	impasse
 7159	câmpului	field
@@ -7338,7 +7338,7 @@ rank	word	english
 7337	haită	pack
 7338	curbă	curve
 7339	călări	to ride
-7340	expertă	expert
+7340	expertă	wizard
 7341	măcelărit	slaughtered
 7342	situat	rich, wealthy
 7343	convocat	convoked
@@ -7551,7 +7551,7 @@ rank	word	english
 7550	completez	to complete
 7551	previzibil	foreseeable
 7552	cascadă	waterfall
-7553	instant	instant
+7553	instant	instantly
 7554	inversa	to reverse
 7555	trântit	slammed, sprawled, thrown down
 7556	rezumat	summary
@@ -7592,7 +7592,7 @@ rank	word	english
 7591	membră	limb
 7592	preocupare	concern
 7593	nucleul	nominative/accusative definite singular articulation of…
-7594	directoare	director
+7594	directoare	principal
 7595	pustii	to desolate, to devastate
 7596	furtun	hose
 7597	psihologia	psychology
@@ -7638,7 +7638,7 @@ rank	word	english
 7637	culege	to collect, gather
 7638	desena	to draw
 7639	caracteristici	characteristic, particular
-7640	tam-tam	tam-tam
+7640	tam-tam	big noise
 7641	clientă	client
 7642	abandonate	abandoned
 7643	sin	son of
@@ -7999,7 +7999,7 @@ rank	word	english
 7998	piramidă	pyramid
 7999	învârtit	whirled
 8000	nefolositor	useless
-8001	directori	director
+8001	directori	principal
 8002	lăuda	to praise, laud
 8003	compozitor	composer
 8004	semnalizare	signalization
@@ -8139,7 +8139,7 @@ rank	word	english
 8138	supărător	annoying
 8139	ruină	ruin
 8140	rotundă	obsolete form of rotondă
-8141	indicator	indicator
+8141	indicator	traffic sign
 8142	amară	mooring
 8143	risipit	scattered
 8144	înaintat	forwarded
@@ -8577,7 +8577,7 @@ rank	word	english
 8576	izola	to isolate
 8577	inversat	reversed
 8578	orient	east, Orient
-8579	nordic	nordic
+8579	nordic	northern
 8580	română	The Romanian language
 8581	sunetului	sound, noise
 8582	butoiul	barrel
@@ -8596,7 +8596,7 @@ rank	word	english
 8595	asiatică	Asian woman
 8596	pasional	passionate
 8597	nasture	button
-8598	directorii	director
+8598	directorii	principal
 8599	șoc	shock
 8600	iluminat	lighted
 8601	circula	to circulate
@@ -9057,7 +9057,7 @@ rank	word	english
 9056	melc	snail, slug
 9057	suedeză	a Swedish woman
 9058	genetica	genetics
-9059	story	story
+9059	story	story, typically an Instagram one
 9060	represalii	retaliation
 9061	neam	family, sort, kin, tribe
 9062	maimuță	monkey
@@ -9163,7 +9163,7 @@ rank	word	english
 9162	isterie	hysteria
 9163	primește	to receive, to get
 9164	enigmă	enigma
-9165	minimum	minimum
+9165	minimum	minimum, modicum
 9166	notoriu	notorious
 9167	unicorn	one-horned
 9168	încărcător	loader
@@ -9172,7 +9172,7 @@ rank	word	english
 9171	dama	lady
 9172	polen	pollen
 9173	taximetrist	cabbie
-9174	heterosexual	heterosexual
+9174	heterosexual	a heterosexual
 9175	cranii	skull
 9176	coarnele	horn
 9177	atacator	attacker
@@ -9294,7 +9294,7 @@ rank	word	english
 9293	dens	dense
 9294	extravagant	extravagant
 9295	paternitate	paternity
-9296	derby	derby
+9296	derby	local derby
 9297	exersa	to exercise
 9298	susține	to support
 9299	pluti	to float
@@ -9389,7 +9389,7 @@ rank	word	english
 9388	deportat	deportee
 9389	canalie	scoundrel
 9390	binevoitor	benevolent
-9391	balsam	balsam
+9391	balsam	unction, balm, salve, unguent
 9392	însemnătate	importantness, importance, magnitude, gravity, seriousness
 9393	democratic	democratic
 9394	moleculară	molecular
@@ -9583,7 +9583,7 @@ rank	word	english
 9582	turtă	cake, flatcake
 9583	mâncăruri	food
 9584	călugărul	monk, friar
-9585	indiancă	Indian
+9585	indiancă	Native American
 9586	snob	snobbish
 9587	malarie	malaria
 9588	plesnit	strike, spank
@@ -9988,7 +9988,7 @@ rank	word	english
 9987	băută	booze-up, a party or session with much drinking
 9988	ochit	to aim, take aim
 9989	focă	seal
-9990	abrupt	abrupt
+9990	abrupt	extremely steep, near vertical
 9991	negociator	negotiator
 9992	detergent	detergent
 9993	yankeu	Yankee

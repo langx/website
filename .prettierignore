@@ -22,6 +22,8 @@ src/lib/components/organisms/CookiePolicy.svelte
 # Downloaded Wiktextract lookups, and the generated word lists
 /.cache
 src/lib/data/most-common-words.ts
+src/lib/data/say-words.ts
+src/lib/data/language-pairs.ts
 static/data/most-common-words
 
 # Gitignored local artefact; it only made `npm run lint` fail locally
