@@ -37,7 +37,7 @@
 			{
 				'@type': 'BreadcrumbList',
 				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools/` },
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
 					{ '@type': 'ListItem', position: 2, name: 'Most common words' }
 				]
 			},
@@ -65,7 +65,7 @@
 
 <Seo
 	title="The most common words in {WORD_LISTS.length} languages"
-	path="/tools/most-common-words/"
+	path="/tools/most-common-words"
 	description="Frequency-ranked word lists for {WORD_LISTS.length} languages — {nf.format(
 		totalWords
 	)} words in all, each with its meaning in English. Free to browse and download."
@@ -94,7 +94,7 @@
 		<ul class="grid" role="list">
 			{#each popular as l}
 				<li>
-					<a href="/tools/most-common-words/{l.slug}/">
+					<a href="/tools/most-common-words/{l.slug}">
 						<span class="name">{l.name}</span>
 						<span class="native" lang={l.code}>{l.nativeName}</span>
 						<span class="n">{nf.format(l.count)} words</span>
@@ -109,7 +109,7 @@
 		<ul class="rows" role="list">
 			{#each WORD_LISTS as l}
 				<li>
-					<a href="/tools/most-common-words/{l.slug}/">
+					<a href="/tools/most-common-words/{l.slug}">
 						<span class="name">{l.name}</span>
 						<span class="native" lang={l.code}>{l.nativeName}</span>
 						<span class="n">{nf.format(l.count)}</span>

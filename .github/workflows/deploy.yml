@@ -68,6 +68,10 @@ jobs:
       # under us — but a branch reference is how an unrelated upstream commit
       # gets to run in our deploy, which is worth closing whether or not this
       # particular one is asleep.
+      # The list is explicit because the "https://langx.io/*" entry below is a
+      # wildcard purge, which Cloudflare only honours on Enterprise — on this
+      # plan it silently does nothing. robots.txt was served from a fourteen
+      # hour old cache after the tools deploy for exactly that reason.
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@v0.3.0
         env:
@@ -86,5 +90,8 @@ jobs:
               "https://langx.io/privacy-policy",
               "https://langx.io/cookie-policy",
               "https://langx.io/data-deletion",
+              "https://langx.io/robots.txt",
+              "https://langx.io/tools",
+              "https://langx.io/tools/most-common-words",
               "https://langx.io/*"
             ]
