@@ -12,7 +12,7 @@
 
 		The data is permanently removed **30 days** after you confirm. If you change your mind, signing back in during those 30 days cancels the deletion.
 
-		When the 30 days are up, your profile, photos, location, devices, blocks, the reports you filed, the record of profiles you viewed, your subscription record and your sign-in credentials are all deleted — with the single exception of your email address, which is kept on its own; see section 2. Your photos, and the photos and voice messages you sent in chat, are deleted from storage as well as from the database, so nothing remains reachable by URL.
+		When the 30 days are up, your profile, photos, location, devices, blocks, the reports you filed, the record of profiles you viewed, your subscription record and your sign-in credentials are all deleted — with the single exception of your email address, which is kept on its own; see section 2. Your photos, and the photos, videos and voice messages you sent in chat, are deleted from storage as well as from the database, so nothing remains reachable by URL.
 
 	2. Three things that are not deleted, and why
 

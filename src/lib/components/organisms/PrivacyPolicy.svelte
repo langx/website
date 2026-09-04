@@ -28,7 +28,7 @@
 
 		2.2 Information created by using the app
 
-		- **Messages** — text, photos and voice messages, stored so we can deliver your conversations.
+		- **Messages** — text, photos, videos and voice messages, stored so we can deliver your conversations.
 		- **Text you ask us to translate** — sent to our translation provider, and the result kept for 30 days under a one-way hash of the original text so the same phrase is not paid for twice. That cache records the translation, not who asked for it.
 		- **Timezone** — so that your streak day and any reminders follow your local day rather than ours. Optional; we fall back to UTC.
 		- **Approximate time of your last activity** — for the "online now" indicator.
@@ -85,7 +85,7 @@
 		- **Google Cloud Translation** — the text you asked to translate, and nothing identifying you.
 		- **RevenueCat** — your LangX user id and your purchase events, so we know whether your subscription is active. Payment itself is taken by Apple, Google or Stripe, and none of them send us your card details.
 		- **Expo's push service**, and through it Apple's and Google's push infrastructure — your push token and the text of the notification. A new-message notification includes the beginning of the message, because that is what makes it useful; if you would rather it did not, turn notifications off.
-		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos and voice messages, to host them.
+		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos, videos and voice messages, to host them.
 		- **Sentry**, our error reporting service — the details of a server error, with your user id attached so we can tell whether a fault affected one account or everybody. It is configured never to send request bodies, cookies or authentication headers, so message contents and session tokens do not reach it.
 		- **Google and Apple**, if you choose to sign in with them — they tell us your email address and name; we tell them nothing about what you do in LangX.
 
@@ -145,7 +145,7 @@
 
 		We retain your information for as long as your account exists, and as required by applicable laws.
 
-		When you delete your account it becomes invisible immediately and every session is ended. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
+		When you delete your account it becomes invisible immediately and every session is ended. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos, videos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
 
 		Three exceptions are worth stating plainly:
 

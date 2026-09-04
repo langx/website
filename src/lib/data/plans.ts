@@ -32,16 +32,17 @@ export const plans: Plan[] = [
 		name: 'Free',
 		tagline: 'A real plan, not a trial.',
 		points: [
+			{ label: 'Unlimited text messages' },
+			{
+				label: '50 messages a day with a photo, video or voice note',
+				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
+			},
 			{ label: 'Unlimited replies to anyone who writes to you' },
 			{ label: 'Unlimited corrections' },
 			{ label: '5 new conversations a day' },
 			{ label: '20 translations a day' },
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
-			{
-				label: '50 photos and voice messages a day',
-				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
-			},
 			{ label: '6 photos on your profile' }
 		]
 	},

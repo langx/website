@@ -19,10 +19,11 @@ export default [
 		tags: [{ label: 'Translation' }]
 	},
 	{
-		name: 'Voice and photo messages',
-		description: 'Practise pronunciation with voice notes, and show what you mean with a photo.',
+		name: 'Voice, photo and video messages',
+		description:
+			'Practise pronunciation with voice notes, and show what you mean with photos or a short video.',
 		image: 'images/features/3.png',
-		tags: [{ label: 'Voice & Photos' }]
+		tags: [{ label: 'Voice, Photos & Video' }]
 	},
 	{
 		name: 'Filters',
