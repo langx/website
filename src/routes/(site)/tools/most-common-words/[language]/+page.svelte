@@ -67,6 +67,61 @@
 		}
 	}
 
+	/**
+	 * Downloads are built in the browser rather than shipped as files. Six tiers
+	 * across fifty-three languages would be 300 more files in the repo for data
+	 * that is already here, and this way the tier the reader picked is the tier
+	 * they get.
+	 */
+	let downloading = false;
+
+	function csvCell(value: string) {
+		// A meaning like "of, from" has to be quoted or the column splits.
+		return /[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
+	}
+
+	async function download(format: 'csv' | 'txt', count: number) {
+		if (downloading) return;
+		downloading = true;
+		try {
+			if (count > rendered) await loadAll();
+			const list = (loaded ? all : rows).slice(0, count);
+			const name = `${meta.slug}-${count === meta.count ? 'all' : `top-${count}`}-words`;
+
+			let body: string;
+			if (format === 'csv') {
+				body =
+					'rank,word,english\n' +
+					list.map((r) => `${r.rank},${csvCell(r.word)},${csvCell(r.english)}`).join('\n');
+			} else {
+				// Plain text carries the credit, because a file that travels away
+				// from this page still has to name where the data came from.
+				const width = Math.max(...list.map((r) => r.word.length)) + 2;
+				body =
+					`# The ${nf.format(count)} most common ${meta.name} words\n` +
+					`# From langx.io/tools/most-common-words/${meta.slug}\n` +
+					`# Frequencies: OpenSubtitles via hermitdave/FrequencyWords. ` +
+					`Meanings: Wiktextract. Both CC BY-SA 4.0, as is this list.\n\n` +
+					list
+						.map((r) => `${String(r.rank).padStart(6)}  ${r.word.padEnd(width)}${r.english}`)
+						.join('\n');
+			}
+
+			const url = URL.createObjectURL(
+				new Blob([body], {
+					type: format === 'csv' ? 'text/csv;charset=utf-8' : 'text/plain;charset=utf-8'
+				})
+			);
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = `${name}.${format}`;
+			a.click();
+			URL.revokeObjectURL(url);
+		} finally {
+			downloading = false;
+		}
+	}
+
 	function jump(n: number) {
 		query = '';
 		limit = n;
@@ -208,14 +263,30 @@
 	<section class="download">
 		<h2>Take the list with you</h2>
 		<p>
-			The whole list as a tab-separated file — rank, word, meaning — about
-			{Math.round(meta.bytes / 1024)} KB. It opens in any spreadsheet.
+			Rank, word and meaning in three columns. Pick how much of the list you want — the same slices
+			as the buttons above.
 		</p>
-		<p>
-			<a class="quiet-link" href={fileUrl} download
-				>Download all {nf.format(meta.count)} {meta.name} words</a
-			>
+
+		<div class="dl-grid">
+			{#each tiers as n}
+				<div class="dl-row">
+					<span class="dl-n">Top {nf.format(n)}</span>
+					<button type="button" on:click={() => download('csv', n)} disabled={downloading}>
+						CSV
+					</button>
+					<button type="button" on:click={() => download('txt', n)} disabled={downloading}>
+						Text
+					</button>
+				</div>
+			{/each}
+		</div>
+
+		<p class="dl-note">
+			CSV opens straight into Excel, Numbers or Google Sheets, and imports into Anki. For a
+			printable copy, choose a size above and use your browser's print command — the page prints as
+			a clean list, and every script comes out right.
 		</p>
+
 		<p class="credit">
 			Frequencies come from the OpenSubtitles corpus via
 			<a
@@ -224,7 +295,8 @@
 				target="_blank">hermitdave/FrequencyWords</a
 			>; English meanings from
 			<a href="https://kaikki.org" rel="noopener noreferrer" target="_blank">Wiktextract</a>. Both
-			are CC BY-SA 4.0, and so is this list.
+			are CC BY-SA 4.0, and so is this list — keep the credit if you pass it on. The
+			<a href={fileUrl} download>raw data file</a> is here too.
 		</p>
 	</section>
 
@@ -448,9 +520,65 @@
 		}
 	}
 
-	.quiet-link {
+	.dl-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+		gap: 0 var(--space-lg);
+		border-top: 1px solid var(--color--border);
+		margin-top: var(--space-md);
+	}
+
+	.dl-row {
+		display: flex;
+		align-items: center;
+		gap: var(--space-2xs);
+		padding: 11px 0;
+		border-bottom: 1px solid var(--color--border);
+	}
+
+	.dl-n {
+		flex: 1 1 auto;
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-variant-numeric: tabular-nums;
+	}
+
+	// Blue means interactive; a download is not the page's committing action, so
+	// it is never a second yellow.
+	.dl-row button {
+		flex: 0 0 auto;
+		height: 34px;
+		padding: 0 14px;
+		border-radius: var(--radius-pill);
+		border: 1px solid var(--color--border);
+		background: none;
 		color: var(--color--accent);
+		font-family: var(--font--default);
+		font-size: 0.8125rem;
 		font-weight: 600;
+		cursor: pointer;
+		transition: background-color var(--dur-fast) ease, border-color var(--dur-fast) ease,
+			transform var(--dur-press) var(--ease-out);
+
+		&:active {
+			transform: scale(0.95);
+		}
+
+		&:disabled {
+			opacity: 0.5;
+			cursor: default;
+		}
+
+		@media (hover: hover) and (pointer: fine) {
+			&:not(:disabled):hover {
+				background: var(--color--accent-tint);
+				border-color: transparent;
+			}
+		}
+	}
+
+	.dl-note {
+		margin-top: var(--space-sm);
 	}
 
 	.credit {
@@ -481,6 +609,42 @@
 			&:hover {
 				color: var(--color--text);
 			}
+		}
+	}
+
+	@media print {
+		:global(header.header),
+		:global(footer),
+		.controls,
+		.more,
+		.download,
+		.cta,
+		.others,
+		.status {
+			display: none !important;
+		}
+
+		.words {
+			border-top: 0;
+		}
+
+		.words th,
+		.words td {
+			padding: 4px 8px 4px 0;
+			font-size: 10pt;
+		}
+
+		// A word split across a page break is unreadable in a printed list.
+		.words tr {
+			break-inside: avoid;
+		}
+
+		.words thead {
+			display: table-header-group;
+		}
+
+		.intro {
+			max-width: none;
 		}
 	}
 </style>

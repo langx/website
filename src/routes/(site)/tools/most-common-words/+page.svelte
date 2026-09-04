@@ -82,6 +82,47 @@
 
 	$: nothing = ran && !searching && !groups.length;
 
+	/**
+	 * The row links straight at the raw .tsv so it works without JavaScript, but
+	 * a tab-separated file opens as one column in most things people own. With
+	 * JavaScript we intercept and hand over a CSV instead.
+	 */
+	let building = '';
+
+	function csvCell(value: string) {
+		return /[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
+	}
+
+	async function downloadCsv(event: MouseEvent, l: (typeof WORD_LISTS)[number]) {
+		event.preventDefault();
+		if (building) return;
+		building = l.slug;
+		try {
+			const res = await fetch(`/data/most-common-words/${l.slug}.tsv`);
+			const rows = (await res.text())
+				.split('\n')
+				.slice(1)
+				.filter(Boolean)
+				.map((line) => line.split('\t'));
+			const body =
+				'rank,word,english\n' +
+				rows
+					.map(([rank, word, english]) => `${rank},${csvCell(word)},${csvCell(english ?? '')}`)
+					.join('\n');
+			const url = URL.createObjectURL(new Blob([body], { type: 'text/csv;charset=utf-8' }));
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = `${l.slug}-most-common-words.csv`;
+			a.click();
+			URL.revokeObjectURL(url);
+		} catch {
+			// Fall back to the plain file rather than leaving them with nothing.
+			window.location.href = `/data/most-common-words/${l.slug}.tsv`;
+		} finally {
+			building = '';
+		}
+	}
+
 	const faq = [
 		{
 			q: 'Where do these lists come from?',
@@ -280,6 +321,8 @@
 						href="/data/most-common-words/{l.slug}.tsv"
 						download
 						aria-label="Download the {l.name} list, {nf.format(l.count)} words"
+						aria-busy={building === l.slug}
+						on:click={(e) => downloadCsv(e, l)}
 					>
 						<svg viewBox="0 0 24 24" aria-hidden="true">
 							<path d="M12 4v11" />
