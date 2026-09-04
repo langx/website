@@ -1,0 +1,13 @@
+The word lists in this directory (*.tsv) are licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International licence.
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+They are derived from two CC BY-SA 4.0 sources, both credited in
+ATTRIBUTION.md in this directory:
+
+  - hermitdave/FrequencyWords, from the OpenSubtitles 2018 corpus
+  - kaikki.org (Wiktextract), from the English Wiktionary
+
+This licence applies to the data in this directory only. The rest of this
+repository is MIT licensed; see LICENSE at the repository root.
