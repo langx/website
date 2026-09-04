@@ -39,7 +39,7 @@ export const plans: Plan[] = [
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
 			{
-				label: '50 photos and voice messages a day',
+				label: '50 photo, video or voice messages a day',
 				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
 			},
 			{ label: '6 photos on your profile' }
