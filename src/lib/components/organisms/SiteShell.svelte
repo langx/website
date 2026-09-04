@@ -9,9 +9,17 @@
 	export let description: string = defaultDescription;
 	export let path = '';
 	export let announce = false;
+	/**
+	 * Set false where each page supplies its own <Seo>. Two <Seo> instances
+	 * emit two canonicals, and the layout's — pointing at the homepage — was
+	 * winning on /blog.
+	 */
+	export let seo = true;
 </script>
 
-<Seo {title} {description} {path} />
+{#if seo}
+	<Seo {title} {description} {path} />
+{/if}
 
 <Header />
 
