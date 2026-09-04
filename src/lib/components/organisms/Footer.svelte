@@ -25,9 +25,19 @@
 				{ label: 'Good first issues', href: 'https://github.com/langx/langx/contribute' },
 				{ label: 'Releases', href: 'https://github.com/langx/langx/releases' },
 				{ label: 'Docs', href: 'https://docs.langx.io' },
-				{ label: 'Word lists', href: '/tools/most-common-words' },
 				{ label: 'Status', href: 'https://status.langx.io' },
 				{ label: 'Branding', href: 'https://github.com/langx/branding' }
+			]
+		},
+		{
+			title: 'Tools',
+			links: [
+				{ label: 'All tools', href: '/tools' },
+				{ label: 'Word lists', href: '/tools/most-common-words' },
+				{ label: 'Say it in any language', href: '/tools/say' },
+				{ label: 'Vocabulary test', href: '/tools/vocabulary-test' },
+				{ label: 'Alphabets', href: '/tools/alphabet' },
+				{ label: 'Languages that overlap', href: '/tools/similar' }
 			]
 		},
 		{
@@ -171,7 +181,11 @@
 
 	.groups {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
+		// Was a fixed four, which left the fifth group stranded alone on a second
+		// row. Five will not fit across the space the brand column leaves — the
+		// labels here are longer than "Legal" — so three and two, which reads as
+		// a layout rather than an accident.
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 		gap: var(--space-lg) var(--space-md);
 
 		@include for-phone-only {
