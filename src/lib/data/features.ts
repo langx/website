@@ -43,7 +43,8 @@ export default [
 	},
 	{
 		name: 'Your data stays yours',
-		description: 'Download or delete everything from inside the app. No ads, no trackers.',
+		description:
+			'Download or delete everything from inside the app. No ads, and nothing sold to anyone.',
 		image: 'images/features/6.png',
 		tags: [{ label: 'Privacy' }]
 	},

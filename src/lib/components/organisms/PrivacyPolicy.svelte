@@ -46,6 +46,20 @@
 
 		One thing is derived from it: **your country**, as a two-letter code, when you create your profile. It is shown on your profile and used by the Pro country filter, which is only worth having if the country is not something anyone can simply type. The address itself is not kept — only the country it resolved to. If it is wrong, granting location permission in the app replaces it with the country your device reports; nothing else can change it.
 
+		2.4 Usage analytics
+
+		The app sends usage analytics to **PostHog**, on its European cloud. This is a third-party product-analytics SDK and it is worth saying plainly, because an earlier version of this policy said there was none.
+
+		What reaches it is the name of the screen you are on, a short list of events — a message sent, onboarding finished, the paywall shown, a purchase started and finished — and your LangX user id. Nothing else. The list of events is fixed in the code as a closed type, and the keys that would carry personal content (a message body, an email address, a display name, a handle) are refused when the app is built rather than filtered afterwards.
+
+		Three settings make the rest of the answer, and each is set in the app's source:
+
+		- **No session recording.** Screen replay is switched off. Nobody watches a recording of you using the app, because none is made.
+		- **No location from analytics.** PostHog is told not to turn the connection's IP address into a country, so analytics adds nothing to what section 3 describes.
+		- **The identifier is ours.** You are identified by your LangX user id and nothing else — no email address, no name. That is also what lets a deleted account's events be found and deleted with it.
+
+		It is on by default and it is optional: **Settings → Privacy → Share usage data** turns it off, and a refusal made before signing in is honoured. There is no analytics on this website — no page-view counter, no analytics cookie, nothing.
+
 	3. Approximate Location, and Only If You Ask For It
 
 		Polyglot includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
@@ -61,7 +75,7 @@
 		Stating this precisely is what makes the rest of the policy credible.
 
 		- **No precise location.** See section 3: the app asks for the coarsest reading your device will give and rounds it before storing it. A street-level position is never collected.
-		- **No analytics, and no analytics SDK.** LangX version 1 ran a self-hosted analytics service; version 2 ships none. There is no product-analytics or session-recording SDK in the app or on this website, and no page-view counter on langx.io.
+		- **No session recording, and no analytics on this website.** The app does send usage analytics — section 2.4 says exactly what, and how to turn it off — but nothing records your screen, and langx.io itself has no analytics of any kind: no page-view counter, no analytics cookie.
 		- **No advertising identifiers.** No IDFA, no Android advertising ID, no ad network, and nothing is sold or passed to a data broker.
 		- **No tracking across other apps or websites.**
 		- **No contacts, no calendar, no photos beyond the ones you choose to upload, no microphone access outside recording a voice message you send, no health data.**
@@ -87,6 +101,7 @@
 		- **Expo's push service**, and through it Apple's and Google's push infrastructure — your push token and the text of the notification. A new-message notification includes the beginning of the message, because that is what makes it useful; if you would rather it did not, turn notifications off.
 		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos, videos and voice messages, to host them.
 		- **Sentry**, our error reporting service — the details of a server error, with your user id attached so we can tell whether a fault affected one account or everybody. It is configured never to send request bodies, cookies or authentication headers, so message contents and session tokens do not reach it.
+		- **PostHog**, our analytics provider, on its European cloud — the screen names, events and user id described in section 2.4. It processes them for us and for nothing of its own, and you can switch this off in Settings.
 		- **Google and Apple**, if you choose to sign in with them — they tell us your email address and name; we tell them nothing about what you do in LangX.
 
 		Our servers run on **Fly.io** in Frankfurt, our database is **MongoDB Atlas**, and langx.io is served through **Cloudflare**. These providers host and deliver the service and do not use your data for any purpose of their own.
@@ -131,7 +146,11 @@
 
 		You can withdraw your location at any time from the switch in Settings, which deletes the stored point. You do not have to delete or export your account to do it.
 
-		10.5 Notifications and email
+		10.5 Usage analytics
+
+		**Settings → Privacy → Share usage data** turns off the analytics described in section 2.4. Switching it off stops the app sending anything further and discards the identifier it was using. A refusal made before you sign in is honoured.
+
+		10.6 Notifications and email
 
 		Notifications are switched per kind and per channel in Settings → Notifications: messages, streak reminders, badges, profile visits and marketing, each with a separate switch for your phone and for email. You can also turn off push entirely from your device settings.
 

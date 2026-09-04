@@ -69,6 +69,15 @@ revenue. We would rather charge for filters than sell your attention: there are
 no ads, no advertising identifiers, and no third-party analytics SDK. The code
 stays open source under BSD-3, and you can host your own instance.
 
+> **Note added 4 September 2026.** The sentence above is no longer true in one
+> respect, and it is left standing rather than quietly edited. The app now
+> includes a third-party analytics SDK: PostHog, on its European cloud, which
+> receives screen names, a short list of events and your LangX user id — no
+> session recording, and nothing carrying the content of a message. It is off
+> in Settings → Privacy → Share usage data, and the
+> [privacy policy](/privacy-policy) describes it in full. There are still no
+> ads and no advertising identifiers.
+
 The full comparison is on the [plans page](/pro).
 
 ## The second: LangX Token is not what the litepaper described

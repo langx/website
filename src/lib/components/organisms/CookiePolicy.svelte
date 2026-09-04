@@ -22,7 +22,9 @@
 
 		3.3 Analytics
 
-		**There are none.** LangX version 1 ran a self-hosted analytics service on langx.io; it was retired and version 2 replaced it with nothing. This site sets no analytics cookie, counts no page views, and the app contains no analytics or session-recording SDK. If that ever changes, this section will say so before it does, and anything of the kind will be something you can turn off.
+		**None on this site.** LangX version 1 ran a self-hosted analytics service on langx.io; it was retired and version 2 replaced it with nothing. This site sets no analytics cookie and counts no page views.
+
+		The **app** is a different answer, and this section used to give the wrong one. It sends usage analytics to PostHog — screen names, a short list of events and your LangX user id, with no session recording and nothing that carries the content of a message. That is described in full in section 2.4 of the [privacy policy](/privacy-policy), and it is turned off in Settings → Privacy → Share usage data. It arrived without this page being updated first, which is not how it was supposed to go; the promise to say so beforehand stands for anything that comes next.
 
 		3.4 Third-party cookies
 
