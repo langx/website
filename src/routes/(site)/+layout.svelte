@@ -2,6 +2,6 @@
 	import SiteShell from '$lib/components/organisms/SiteShell.svelte';
 </script>
 
-<SiteShell announce>
+<SiteShell announce seo={false}>
 	<slot />
 </SiteShell>

@@ -17,3 +17,6 @@ vite.config.ts.timestamp-*
 .impeccable/build/
 .impeccable/mocks/
 .impeccable/hook.cache.json
+
+# Cached Wiktextract lookups for scripts/wordlists (re-downloadable)
+/.cache

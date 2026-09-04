@@ -21,3 +21,8 @@ src/lib/components/organisms/TermsAndConditions.svelte
 src/lib/components/organisms/PrivacyPolicy.svelte
 src/lib/components/organisms/DataDeletion.svelte
 src/lib/components/organisms/CookiePolicy.svelte
+
+# Downloaded Wiktextract lookups, and the generated word lists
+/.cache
+src/lib/data/most-common-words.ts
+static/data/most-common-words

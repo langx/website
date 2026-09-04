@@ -20,6 +20,12 @@ const config = {
 		// for more information about preprocessors
 		vitePreprocess(),
 		mdsvex({
+			// '.svelte' belongs here as well as '.md': the legal pages
+			// (TermsAndConditions.svelte and friends) are written as markdown
+			// inside a component and rely on mdsvex to render it. The cost is
+			// that markdown rules apply to every component, so stray top-level
+			// markup can get wrapped in a <p> — keep HTML comments out of
+			// <svelte:head>.
 			extensions: extensions,
 			rehypePlugins: [
 				rehypeExternalLinks, // Adds 'target' and 'rel' to external links
