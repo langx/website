@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 31, Aug 2026*
+	*Effective Date: 3, Sep 2026*
 
 	1. Introduction
 
@@ -16,7 +16,7 @@
 
 		- **Email address** — for sign-in, verification and password reset. Required.
 		- **Display name and username** — shown on your profile. Required.
-		- **Date of birth** — used for the 18+ requirement, and so that we can wish you a happy birthday. Only your age is ever shown to anyone else; the date itself is visible to nobody but you.
+		- **Date of birth** — used for the 16+ requirement, and so that we can wish you a happy birthday. Only your age is ever shown to anyone else; the date itself is visible to nobody but you.
 		- **Languages and levels** — the entire matching mechanism depends on these. Required.
 		- **Gender** — shown on your profile and used by the Pro gender filter. "Undisclosed" is a valid answer.
 		- **City** — shown on your profile. Optional.
@@ -157,7 +157,7 @@
 
 	12. Age
 
-		LangX is an 18+ service. You must be at least 18 to create an account, and this is enforced when your profile is created. The app is not directed to children, we do not knowingly collect information from anyone under 18, and we do not operate it under any "designed for families" programme. If we learn that an account belongs to someone under 18, we remove it.
+		LangX is a 16+ service. You must be at least 16 to create an account, and this is enforced when your profile is created. The app is not directed to children, we do not knowingly collect information from anyone under 16, and we do not operate it under any "designed for families" programme. If we learn that an account belongs to someone under 16, we remove it.
 
 	13. Changes to This Privacy Policy
 
