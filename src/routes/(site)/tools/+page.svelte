@@ -8,7 +8,7 @@
 
 <Seo
 	title="Free language tools"
-	path="/tools/"
+	path="/tools"
 	description="Free tools for language learners from LangX — starting with frequency-ranked word lists for {WORD_LISTS.length} languages, each word with its meaning in English."
 />
 
@@ -20,7 +20,7 @@
 
 	<ul class="rows" role="list">
 		<li>
-			<a href="/tools/most-common-words/">
+			<a href="/tools/most-common-words">
 				<span class="name">The most common words in {WORD_LISTS.length} languages</span>
 				<span class="what">
 					{nf.format(totalWords)} words ranked by how often they are actually spoken, each with its meaning

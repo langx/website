@@ -19,7 +19,7 @@
 	$: ({ meta, rows, rendered, others } = data);
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: path = `/tools/most-common-words/${meta.slug}/`;
+	$: path = `/tools/most-common-words/${meta.slug}`;
 	$: fileUrl = `/data/most-common-words/${meta.slug}.tsv`;
 	$: title = `${nf.format(meta.count)} most common ${meta.name} words`;
 
@@ -80,12 +80,12 @@
 				{
 					'@type': 'BreadcrumbList',
 					itemListElement: [
-						{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools/` },
+						{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
 						{
 							'@type': 'ListItem',
 							position: 2,
 							name: 'Most common words',
-							item: `${siteBaseUrl}/tools/most-common-words/`
+							item: `${siteBaseUrl}/tools/most-common-words`
 						},
 						{ '@type': 'ListItem', position: 3, name: m.name }
 					]
@@ -245,7 +245,7 @@
 		<h2>Other languages</h2>
 		<ul role="list">
 			{#each others as o}
-				<li><a href="/tools/most-common-words/{o.slug}/">{o.name}</a></li>
+				<li><a href="/tools/most-common-words/{o.slug}">{o.name}</a></li>
 			{/each}
 		</ul>
 	</nav>
