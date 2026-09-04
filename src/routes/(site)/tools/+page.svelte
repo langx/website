@@ -8,6 +8,7 @@
 	import { SAY_WORDS } from '$lib/data/say-words';
 	import { LANGUAGE_PAIRS } from '$lib/data/language-pairs';
 	import { ALPHABETS } from '$lib/data/alphabets';
+	import { WORD_GAME_LANGUAGES } from '$lib/data/word-game';
 
 	const nf = new Intl.NumberFormat('en-US');
 
@@ -56,6 +57,27 @@
 			)} everyday English words, each one shown across every language that has a common word for it — and how often that language uses it.`,
 			figure: nf.format(SAY_WORDS.length),
 			label: 'words, side by side'
+		},
+		{
+			href: '/tools/word-game',
+			title: 'Five letters, once a day',
+			what: `Guess the day's word in six tries, in any of ${WORD_GAME_LANGUAGES.length} languages. Every answer is a word that language really uses, and the result copies as a grid you can paste anywhere.`,
+			figure: '6',
+			label: 'tries, once a day'
+		},
+		{
+			href: '/tools/guess-the-language',
+			title: 'Which language is this?',
+			what: `Ten words a day, four guesses each. Every word appears in exactly one of the ${WORD_LISTS.length} lists, so there are no trick questions.`,
+			figure: '10',
+			label: 'words a day'
+		},
+		{
+			href: '/tools/meaning-quiz',
+			title: 'Do you know what these words mean?',
+			what: 'Ten words a day with four meanings each, drawn from the first fifteen hundred words a language uses most. Shareable score.',
+			figure: '10',
+			label: 'words, four meanings'
 		},
 		{
 			href: '/tools/alphabet',

@@ -37,6 +37,9 @@
 				{ label: 'Say it in any language', href: '/tools/say' },
 				{ label: 'Vocabulary test', href: '/tools/vocabulary-test' },
 				{ label: 'Alphabets', href: '/tools/alphabet' },
+				{ label: 'Word game', href: '/tools/word-game' },
+				{ label: 'Which language is this?', href: '/tools/guess-the-language' },
+				{ label: 'Meaning quiz', href: '/tools/meaning-quiz' },
 				{ label: 'Languages that overlap', href: '/tools/similar' }
 			]
 		},
