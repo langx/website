@@ -1,6 +1,6 @@
 /**
  * The most spoken languages on LangX, in their own script, roughly by number
- * of speakers worldwide. The full list (182 languages) lives in
+ * of speakers worldwide. The full list (183 languages) lives in
  * `langx/packages/shared/src/languages.ts`; these are copied from it for the
  * homepage strip.
  */
