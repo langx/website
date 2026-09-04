@@ -538,7 +538,7 @@ rank	word	english
 537	tatlı	sweet; having a pleasant taste, akin to that of sugar
 538	deli	crazy, mad, insane
 539	milyon	million
-540	normal	normal
+540	normal	regular
 541	sefer	journey, trip
 542	olup	to be and, to become and
 543	pardon	pardon!, pardon me!, excuse me!, I beg your pardon!, sorry!
@@ -930,7 +930,7 @@ rank	word	english
 929	kafa	head
 930	gördünüz	to see, watch
 931	yerden	place, location
-932	test	test
+932	test	An exam consisting of multiple-choice questions with 3, 4…
 933	yaramaz	useless
 934	edersin	to do; to make
 935	korkarım	to fear
@@ -1243,7 +1243,7 @@ rank	word	english
 1242	baskı	printing
 1243	akıl	mind
 1244	şirket	company
-1245	sus	Used to show agreement, that the addressee need not say any…
+1245	sus	to be quiet
 1246	sonuç	consequence
 1247	bizde	we
 1248	çıkın	to leave, exit, quit, get out
@@ -1569,7 +1569,7 @@ rank	word	english
 1568	etsin	to do; to make
 1569	sipariş	order
 1570	anlatmak	to tell
-1571	programı	program
+1571	programı	computer program
 1572	sizde	you; you guys, y'all, yous, youse
 1573	bas	bass
 1574	kişiler	person, human being
@@ -1604,7 +1604,7 @@ rank	word	english
 1603	belediye	municipality
 1604	bedava	free, gratis
 1605	kontrolü	control, check
-1606	video	video
+1606	video	videotape
 1607	işkence	torture, the infliction of severe pain or anguish,…
 1608	yaşa	age
 1609	yumuşak	soft; not hard or rigid
@@ -1637,7 +1637,7 @@ rank	word	english
 1636	alacaksın	to take
 1637	dış	exterior
 1638	şirin	cutie, cutie pie
-1639	testi	test
+1639	testi	An exam consisting of multiple-choice questions with 3, 4…
 1640	koyun	bay
 1641	aklından	second/third-person singular single-possession possessive…
 1642	pizza	pizza
@@ -1912,7 +1912,7 @@ rank	word	english
 1911	hitler	hit
 1912	ince	Having little thickness; thin, narrow
 1913	izni	permission
-1914	alarm	alarm
+1914	alarm	alarm clock
 1915	öğlen	at noon
 1916	öğrendin	to learn, study, master
 1917	vampir	vampire
@@ -1927,7 +1927,7 @@ rank	word	english
 1926	kulübü	club
 1927	hukuk	law
 1928	bina	building
-1929	model	model
+1929	model	production year
 1930	aşkı	love
 1931	çığlık	scream
 1932	yakalamak	to catch, apprehend
@@ -1955,7 +1955,7 @@ rank	word	english
 1954	rezil	crappy, shitty
 1955	klasik	classical
 1956	gündüz	by day, during the day
-1957	program	program
+1957	program	computer program
 1958	alıyoruz	to take
 1959	sessizlik	silence
 1960	karşıya	the opposite place or side; that which is opposite
@@ -2099,7 +2099,7 @@ rank	word	english
 2098	yüzük	ring, a round piece of metal worn around the finger
 2099	haberdar	cognizant, aware
 2100	âşık	in love
-2101	pilot	pilot
+2101	pilot	race car driver
 2102	anlar	moment
 2103	merhamet	compassion
 2104	yük	load
@@ -2144,7 +2144,7 @@ rank	word	english
 2143	ot	grass
 2144	popüler	popular
 2145	çağrı	call; announcement
-2146	robot	robot
+2146	robot	ellipsis of mutfak robotu
 2147	etmenin	factor
 2148	kanka	best friend
 2149	zehir	poison, venom, toxin
@@ -2402,7 +2402,7 @@ rank	word	english
 2401	kimliği	identity
 2402	kurulu	cocked
 2403	anlıyorsun	To understand, to comprehend, to get
-2404	fakir	fakir
+2404	fakir	poor, pauper
 2405	siktiğimin	fucking, goddamn; a generic negative intensifier
 2406	malı	cattle
 2407	dinleme	to listen, hear
@@ -2822,7 +2822,7 @@ rank	word	english
 2821	bahçe	garden
 2822	saldırgan	aggressive, prone to attack
 2823	hayvanat	animal
-2824	alarmı	alarm
+2824	alarmı	alarm clock
 2825	helikopter	helicopter
 2826	harita	map
 2827	düzeltmek	to correct, to rectify, to amend
@@ -2979,7 +2979,7 @@ rank	word	english
 2978	evimiz	first-person plural single-possession possessive of ev
 2979	basınç	pressure
 2980	baskın	surprise attack, raid
-2981	nazi	Nazi
+2981	nazi	a Nazi
 2982	ayağını	second-person singular single-possession definite…
 2983	çıkarır	to remove
 2984	alıyorlar	to take
@@ -3272,7 +3272,7 @@ rank	word	english
 3271	çocukluk	childhood
 3272	masası	table
 3273	söylerler	to say, to tell
-3274	hayret	used to express astonishment, surprise, bewilderment etc
+3274	hayret	surprise, astonishment, amazement
 3275	medya	media
 3276	şahsi	personal
 3277	vaka	event, case
@@ -3478,7 +3478,7 @@ rank	word	english
 3477	adayı	island, isle, a contiguous area of land totally surrounded…
 3478	yedinci	seventh
 3479	matmazel	mademoiselle
-3480	yak	yak
+3480	yak	to light; to ignite; to set fire to, set on fire
 3481	yataktan	bed, a piece of furniture on which to rest or sleep
 3482	isterler	to want, desire, wish
 3483	rüzgâr	wind
@@ -3587,7 +3587,7 @@ rank	word	english
 3586	havai	aerial
 3587	çorap	sock, stocking
 3588	çizgiyi	line; a path through two or more points; a continuous mark,…
-3589	programını	program
+3589	programını	computer program
 3590	birbirinden	each other
 3591	kasabayı	casbah
 3592	koyma	to put
@@ -3659,7 +3659,7 @@ rank	word	english
 3658	kapak	lid, cover
 3659	açısı	angle
 3660	ilaçlar	medicine
-3661	atom	atom
+3661	atom	a kind of sugary drink common in and around Mersin province
 3662	sos	sauce
 3663	asit	acid
 3664	internette	internet
@@ -3815,10 +3815,10 @@ rank	word	english
 3814	köpeğim	dog
 3815	otobüsü	bus
 3816	haftalar	week
-3817	programa	program
+3817	programa	computer program
 3818	hikâyeyi	story
 3819	hayvanların	animal
-3820	testler	test
+3820	testler	An exam consisting of multiple-choice questions with 3, 4…
 3821	dayanıklı	heavy-duty
 3822	kutunun	box
 3823	desene	that means, that is to say
@@ -3893,7 +3893,7 @@ rank	word	english
 3892	belle	to keep in mind
 3893	dövüşmek	to fight
 3894	harap	ruined
-3895	videoyu	video
+3895	videoyu	videotape
 3896	tanıştırmak	to introduce
 3897	ila	to, up to, until, between
 3898	basitçe	In a simple and straightforward manner; simply
@@ -3956,11 +3956,11 @@ rank	word	english
 3955	kravat	necktie
 3956	olasılık	possibility, plausibility
 3957	eziyet	torment
-3958	organ	organ
+3958	organ	body
 3959	sistemin	system
 3960	kurnaz	sly
 3961	klinik	clinic
-3962	programın	program
+3962	programın	computer program
 3963	kayak	ski
 3964	görürüm	to see, watch
 3965	hayaletler	ghost
@@ -4062,7 +4062,7 @@ rank	word	english
 4061	alırsınız	to take
 4062	mektuplar	letter
 4063	antika	antique
-4064	pop	pop
+4064	pop	Pop music
 4065	kimya	chemistry
 4066	üretim	production
 4067	yazmayı	act of writing
@@ -4384,7 +4384,7 @@ rank	word	english
 4383	kasap	butcher
 4384	ayrıntılı	detailed
 4385	öğrencileri	student
-4386	opera	opera
+4386	opera	opera house
 4387	bilinir	to be known
 4388	es	mind
 4389	ziyafet	feast, banquet
@@ -4411,7 +4411,7 @@ rank	word	english
 4410	sözlü	oral
 4411	hıyar	cucumber, any widely-cultivated vine of the species Cucumis…
 4412	evler	A building for a family to reside in; house, home, abode
-4413	testleri	test
+4413	testleri	An exam consisting of multiple-choice questions with 3, 4…
 4414	korkar	to fear
 4415	durak	stop
 4416	makineyi	machine
@@ -5513,7 +5513,7 @@ rank	word	english
 5512	kuduz	rabies
 5513	kraker	A cracker
 5514	sunum	presentation
-5515	basket	basket
+5515	basket	basketball
 5516	limana	port, haven, harbor
 5517	astım	asthma
 5518	siki	penis, dick, cock
@@ -5722,7 +5722,7 @@ rank	word	english
 5721	spagetti	spaghetti
 5722	mezarlık	graveyard, cemetery
 5723	veliaht	crown prince, heir apparent, heir to the throne
-5724	lira	lira
+5724	lira	livre, pound
 5725	kırma	A crease, pleat
 5726	vaiz	preacher
 5727	sürme	kohl, mascara
@@ -5843,7 +5843,7 @@ rank	word	english
 5842	gümrük	custom house
 5843	bavul	suitcase
 5844	sevmiş	to love
-5845	robotlar	robot
+5845	robotlar	ellipsis of mutfak robotu
 5846	bunak	senile, demented
 5847	manası	meaning
 5848	yuh	Interjection expressing surprise
@@ -5892,7 +5892,7 @@ rank	word	english
 5891	boğazı	throat
 5892	kıyı	beach
 5893	ulus	nation
-5894	alarma	alarm
+5894	alarma	alarm clock
 5895	etsinler	to do; to make
 5896	titan	titanium
 5897	telaffuz	pronunciation
@@ -5988,7 +5988,7 @@ rank	word	english
 5987	ünü	reputation, fame
 5988	pusu	ambush
 5989	maddeler	article
-5990	joker	joker
+5990	joker	joker, trump card, something kept in reserve that can be…
 5991	ney	An endblown flute made by hollowing out and tempering a…
 5992	meçhul	unknown, obscure, unknowable
 5993	dökmek	to pour, pour out
@@ -6045,7 +6045,7 @@ rank	word	english
 6044	kütle	mass
 6045	rüzgarın	alternative form of rüzgâr
 6046	depoyu	depot
-6047	teste	test
+6047	teste	An exam consisting of multiple-choice questions with 3, 4…
 6048	sebepler	reason
 6049	yunus	dolphin
 6050	askerlik	military service
@@ -6414,7 +6414,7 @@ rank	word	english
 6413	fiş	plug
 6414	talih	luck, chance
 6415	neşter	A scalpel, lance or lancet
-6416	videosu	video
+6416	videosu	videotape
 6417	güneşten	sun
 6418	ailevi	familial
 6419	pençe	paw, claw
@@ -6436,7 +6436,7 @@ rank	word	english
 6435	rahibi	monk
 6436	söylersiniz	to say, to tell
 6437	lavabo	washbasin
-6438	programının	program
+6438	programının	computer program
 6439	yasayı	law, statute, code, written set of rules
 6440	görürler	to see, watch
 6441	yazım	writing
@@ -6460,7 +6460,7 @@ rank	word	english
 6459	editör	editor
 6460	çiftin	pair
 6461	topçu	cannoneer, artilleryman, gunner, bombardier
-6462	programım	program
+6462	programım	computer program
 6463	hazırlanmak	to get ready
 6464	bitirme	verbal noun of bitirmek
 6465	yükseklik	height
@@ -7039,7 +7039,7 @@ rank	word	english
 7038	pusula	compass
 7039	otopark	parking lot
 7040	tonik	tonic
-7041	robotu	robot
+7041	robotu	ellipsis of mutfak robotu
 7042	içeceği	beverage
 7043	manipüle	manipulated
 7044	fok	seal
@@ -7052,7 +7052,7 @@ rank	word	english
 7051	beyne	brain
 7052	çocuklu	Having children
 7053	destansı	epic
-7054	testine	test
+7054	testine	An exam consisting of multiple-choice questions with 3, 4…
 7055	erdemli	virtuous
 7056	saga	Old Norse saga
 7057	mahal	place, location; post
@@ -7178,7 +7178,7 @@ rank	word	english
 7177	taviz	compromise
 7178	jilet	razor
 7179	asgari	minimal, minimum
-7180	kaymak	kaymak
+7180	kaymak	best part of something
 7181	nem	moisture
 7182	uğratmak	to cause
 7183	medeniyet	civilization
@@ -7543,7 +7543,7 @@ rank	word	english
 7542	durdurulamaz	unstoppable
 7543	yapısal	constructional, structural, constructive; of or relating to…
 7544	lama	llama, Lama glama
-7545	ban	ban
+7545	ban	To lower something solid into something liquid or acts like…
 7546	anket	survey
 7547	dümeni	rudder
 7548	yenileme	restoration
@@ -7945,7 +7945,7 @@ rank	word	english
 7944	sulara	water; H₂O
 7945	boss	boss
 7946	veriyi	data
-7947	programlar	program
+7947	programlar	computer program
 7948	devler	giant
 7949	genelev	brothel, whorehouse
 7950	yakut	ruby
@@ -8276,7 +8276,7 @@ rank	word	english
 8275	çocuklarda	child
 8276	iyiyi	the good
 8277	kuzeydoğu	northeast
-8278	okey	okey
+8278	okey	OK
 8279	boomer	boomer, baby boomer
 8280	kirpi	hedgehog
 8281	sevkiyat	synonym of dağıtım
@@ -8546,7 +8546,7 @@ rank	word	english
 8545	değiştiririm	to change something
 8546	öğretmenleri	teacher
 8547	deriyi	skin
-8548	feminist	feminist
+8548	feminist	a feminist
 8549	uydum	moon
 8550	ödevin	homework
 8551	gemilerinin	ship
@@ -9185,7 +9185,7 @@ rank	word	english
 9184	fısıltı	A whisper, whispering noise
 9185	sırra	secret
 9186	foto	photo
-9187	videonun	video
+9187	videonun	videotape
 9188	muhallebi	A type of dessert, a creamy pudding made with milk and rice…
 9189	müdire	schoolmaster, director, principal
 9190	süveter	sweater
@@ -9234,7 +9234,7 @@ rank	word	english
 9233	penisilin	penicillin
 9234	alete	tool
 9235	hesaplama	to calculate
-9236	robotun	robot
+9236	robotun	ellipsis of mutfak robotu
 9237	karanlıklar	darkness
 9238	sözlere	word, statement, speech
 9239	kürklü	Who has or wears fur
@@ -9519,7 +9519,7 @@ rank	word	english
 9518	öğrenmişsin	to learn, study, master
 9519	aydınlatma	to brighten, to enlighten, to elucidate
 9520	akçaağaç	maple
-9521	robotları	robot
+9521	robotları	ellipsis of mutfak robotu
 9522	akciğerleri	third-person singular possessive form of akciğerler in the…
 9523	çayır	meadow, grassland, an area covered or cultivated with grass
 9524	utandırma	verbal noun of utandırmak
@@ -9783,7 +9783,7 @@ rank	word	english
 9782	zehirlenme	verbal noun of zehirlenmek
 9783	kork	to fear
 9784	sıkıştırmak	to be/get in a tight spot; to be backed into a corner
-9785	videolar	video
+9785	videolar	videotape
 9786	noter	notary public
 9787	haşhaş	opium poppy, breadseed poppy, any plant of the species…
 9788	karayolu	alternative form of kara yolu
@@ -9864,7 +9864,7 @@ rank	word	english
 9863	kokunun	smell, odor/odour
 9864	saksı	flowerpot
 9865	denizlerin	sea
-9866	testinin	test
+9866	testinin	An exam consisting of multiple-choice questions with 3, 4…
 9867	büyüklerin	a bigger one
 9868	hazin	sad; tragic
 9869	turistik	of or relating to tourists

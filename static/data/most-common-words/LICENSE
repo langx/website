@@ -9,5 +9,10 @@ ATTRIBUTION.md in this directory:
   - hermitdave/FrequencyWords, from the OpenSubtitles 2018 corpus
   - kaikki.org (Wiktextract), from the English Wiktionary
 
+The example sentences under ex/ are from Tatoeba and are licensed under
+Creative Commons Attribution 2.0 France (CC BY 2.0 FR):
+
+    https://creativecommons.org/licenses/by/2.0/fr/
+
 This licence applies to the data in this directory only. The rest of this
 repository is MIT licensed; see LICENSE at the repository root.

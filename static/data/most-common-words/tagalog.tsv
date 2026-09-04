@@ -1,5 +1,5 @@
 rank	word	english
-1	ang	used with a quality for emphasis and to give it an…
+1	ang	marks the agent, doer, or experiencer of the action in…
 2	sa	the recipient or beneficiary of an action: to, for
 3	na	already; now; anymore
 4	ng	the patient, undergoer, or theme of the action in…
@@ -9,7 +9,7 @@ rank	word	english
 8	ako	1st person nominative pronoun: I; me
 9	ka	you
 10	at	and
-11	mga	used to pluralize nouns: -s, -es
+11	mga	approximately; around; about
 12	ay	Separates the subject and the predicate. Indicative of a…
 13	lang	only; just
 14	ba	marks a sentence as interrogative
@@ -34,7 +34,7 @@ rank	word	english
 33	niya	3rd person singular possessive pronoun: his; her; ~ of his;…
 34	wala	nothing; to not exist; there is no
 35	natin	by us; of us
-36	naman	used to soften requests with a mild reproach
+36	naman	used after predicate adjectives or adjectives in…
 37	o	or
 38	ngayon	now; today; by now; yet; currently; at present
 39	kami	we; us
@@ -89,7 +89,7 @@ rank	word	english
 88	iyan	that
 89	paano	how
 90	gawin	to create; to make
-91	kay	Used to mark oblique cases of personal nouns
+91	kay	how
 92	mundo	world; the earth
 93	oh	alternative spelling of o
 94	hoy	expression used to call the attention of somebody: hey!
@@ -290,7 +290,7 @@ rank	word	english
 289	sumama	to go with; to join; to come along; to accompany
 290	bansa	nation
 291	bigyan	to give
-292	virus	virus
+292	virus	computer virus
 293	gubat	woods; woodland; forest
 294	ulo	head
 295	makuha	to obtain; to get
@@ -397,7 +397,7 @@ rank	word	english
 396	mahilig	fond of; inclined in
 397	daw	allegedly
 398	bakla	effeminate man; womanish man; homosexual male
-399	dragon	dragon
+399	dragon	cruel person
 400	narito	here
 401	pamamagitan	mediation; intercession; intervention; arbitration
 402	kagabi	last night
@@ -515,7 +515,7 @@ rank	word	english
 514	seryoso	serious; sincere
 515	pranses	French
 516	libo	thousand
-517	datu	datu
+517	datu	honorific used before the name of a ruler of the various…
 518	pag-asa	hope
 519	magnanakaw	thief; robber
 520	karagatan	ocean
@@ -529,7 +529,7 @@ rank	word	english
 528	nilalang	created
 529	bola	ball; round object
 530	ideya	alternative form of idea
-531	mister	Mister
+531	mister	husband
 532	paborito	favorite
 533	ewan	pronunciation spelling of aywan
 534	halimbawa	for example
@@ -567,7 +567,7 @@ rank	word	english
 566	pabayaan	to neglect; to abandon
 567	banda	around
 568	pasok	entry; act of entering
-569	bar	bar
+569	bar	bar exam
 570	sandata	weapon; arms
 571	matapos	to be finished with activities
 572	kayamanan	wealth; riches; treasures; fortune
@@ -810,7 +810,7 @@ rank	word	english
 809	lola	honorific used before the name of a grandmother: Grandma;…
 810	magsimula	to start; to begin; to commence
 811	kampanya	campaign
-812	satin	satin
+812	satin	made of satin
 813	ibalik	to return; to bring back
 814	papasukin	to let to be inside
 815	komportable	alternative form of kumportable
@@ -937,7 +937,7 @@ rank	word	english
 936	lolo	grandfather
 937	dulo	end; extremity; terminal
 938	palang	just yet; only; still; only still
-939	gang	gang
+939	gang	criminal gang
 940	kalmado	calmly; peacefully
 941	resibo	receipt
 942	sistema	system
@@ -969,7 +969,7 @@ rank	word	english
 968	karamihan	majority
 969	surpresa	alternative form of sorpresa
 970	siguraduhin	to be made sure; to be ensured
-971	bale	used to connect previous conversation or events to the…
+971	bale	used before stating or enumerating the gist or summary of…
 972	ardilya	squirrel
 973	sarhento	sergeant
 974	sampu	ten
@@ -1191,7 +1191,7 @@ rank	word	english
 1190	dasal	prayer
 1191	pagbabago	change
 1192	lunes	Monday
-1193	boy	boy
+1193	boy	errand boy; houseboy; boy doing a menial job
 1194	respeto	respect
 1195	kakulangan	lack; deficiency; shortage
 1196	kalakal	commodity
@@ -1289,7 +1289,7 @@ rank	word	english
 1288	saranggola	kite
 1289	panga	jaw; jawbone
 1290	marumi	alternative form of madumi
-1291	hala	used to express warning or threat for a wrongdoing: you're…
+1291	hala	oh no
 1292	medyas	socks; stockings
 1293	pasahero	passenger
 1294	kalapastanganan	impudence; disrespect; irreverence; profanity; blasphemy
@@ -1448,14 +1448,14 @@ rank	word	english
 1447	malawak	wide; broad; spacious; extensive
 1448	alas	o'clock
 1449	trono	throne
-1450	mental	mental
+1450	mental	mental hospital
 1451	pilak	silver
 1452	dalang	infrequency; rarity; scarcity; sparseness
 1453	balat	skin
 1454	kapalit	in exchange
 1455	bangungot	nightmare
 1456	makapangyarihan	powerful; authoritative
-1457	malay	Malay
+1457	malay	knowledge; awareness; consciousness
 1458	papatay	contemplative aspect of pumatay
 1459	kalendaryo	calendar
 1460	bisitahin	to visit; to make a visit to
@@ -1766,7 +1766,7 @@ rank	word	english
 1765	bwisit	alternative spelling of buwisit
 1766	konduktor	conductor; bandmaster; orchestra or band leader
 1767	magpaliwanag	to explain oneself; to clarify
-1768	moral	moral
+1768	moral	morals
 1769	tita	young adult woman exhibiting the stereotypical…
 1770	kinain	complete aspect of kainin
 1771	gumala	to rove; to stroll around; to roam
@@ -2408,7 +2408,7 @@ rank	word	english
 2407	asal	conduct; behavior
 2408	kayabangan	boastfulness; boast; brag; bragging; arrogance; pride
 2409	pagsagot	act of giving a reply
-2410	amen	amen
+2410	amen	hand-kissing of one's elders
 2411	magpunta	to go
 2412	mapalad	fortunate; lucky
 2413	hikbi	sob; sobbing
@@ -2645,7 +2645,7 @@ rank	word	english
 2644	abusado	abusive
 2645	romantiko	romantic
 2646	maton	bully; thug; browbeater
-2647	lugaw	lugaw
+2647	lugaw	cooking of lugaw
 2648	walet	wallet
 2649	pinansiyal	financial
 2650	prinsesa	princess
@@ -2750,7 +2750,7 @@ rank	word	english
 2749	umawit	to sing
 2750	bubuyog	bumblebee
 2751	buhusan	to be poured liquid, especially water, on
-2752	pedal	pedal
+2752	pedal	pedal; effects unit
 2753	mariin	emphatic; with emphasis
 2754	ligaya	happiness; joy; rejoicing
 2755	humayo	to depart; to leave; to go ahead
@@ -2795,7 +2795,7 @@ rank	word	english
 2794	kumita	to earn money
 2795	reklamadora	complainer; whiner
 2796	suplay	supply
-2797	sermon	sermon
+2797	sermon	moral lecture
 2798	dilim	dark; darkness
 2799	bigkas	pronunciation; enunciation
 2800	resistensya	superseded, pre-2007 spelling of resistensiya

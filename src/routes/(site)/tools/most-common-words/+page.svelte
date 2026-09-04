@@ -272,7 +272,7 @@
 							{#if l}
 								<li>
 									<a href="/tools/most-common-words/{l.slug}">
-										<ScriptDisc nativeName={l.nativeName} size={34} />
+										<ScriptDisc nativeName={l.nativeName} code={l.code} size={34} />
 										<span class="term" lang={hit.code}>{hit.word}</span>
 										<span class="lang">{l.name}</span>
 										<span class="meaning">{hit.gloss}</span>
@@ -293,7 +293,7 @@
 			{#each popular as l}
 				<li>
 					<a href="/tools/most-common-words/{l.slug}">
-						<ScriptDisc nativeName={l.nativeName} size={44} />
+						<ScriptDisc nativeName={l.nativeName} code={l.code} size={44} />
 						<span class="names">
 							<span class="native" lang={l.code}>{l.nativeName}</span>
 							<span class="english">{l.name} · {nf.format(l.count)} words</span>
@@ -311,7 +311,7 @@
 			{#each WORD_LISTS as l}
 				<li>
 					<a class="main" href="/tools/most-common-words/{l.slug}">
-						<ScriptDisc nativeName={l.nativeName} size={34} />
+						<ScriptDisc nativeName={l.nativeName} code={l.code} size={34} />
 						<span class="lang">{l.name}</span>
 						<span class="native" lang={l.code}>{l.nativeName}</span>
 						<span class="n tabular">{nf.format(l.count)}</span>

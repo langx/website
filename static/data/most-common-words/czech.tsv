@@ -961,7 +961,7 @@ rank	word	english
 960	hlas	voice
 961	bohužel	unfortunately
 962	vodu	water
-963	film	film
+963	film	movie, film, motion picture
 964	bysme	plural, first person of conditional auxiliary of být; would
 965	zřejmě	apparently
 966	trošku	a bit; a little
@@ -1220,7 +1220,7 @@ rank	word	english
 1219	líbit	to please
 1220	drahý	dear, expensive
 1221	aniž	without
-1222	baru	bar
+1222	baru	bar, a non-SI unit of pressure equal to 100,000 pascals
 1223	kamarád	buddy
 1224	starší	old
 1225	dík	thanks
@@ -1466,7 +1466,7 @@ rank	word	english
 1465	gay	gay male
 1466	učit	to teach
 1467	obvinění	accusation, charge
-1468	program	program
+1468	program	agenda
 1469	zima	cold
 1470	věřil	to believe
 1471	žil	to live
@@ -1909,7 +1909,7 @@ rank	word	english
 1908	přitom	at the same time
 1909	teorie	theory
 1910	pána	Mr
-1911	bar	bar
+1911	bar	bar, a non-SI unit of pressure equal to 100,000 pascals
 1912	ryby	Pisces
 1913	hodí	to cast, throw
 1914	severní	north, northern
@@ -2646,7 +2646,7 @@ rank	word	english
 2645	událost	event
 2646	povídat	to chat
 2647	hotové	cash
-2648	model	model
+2648	model	model, mold
 2649	nerada	unwillingly, reluctantly
 2650	done	don
 2651	knize	book
@@ -2766,7 +2766,7 @@ rank	word	english
 2765	hráč	player
 2766	náhle	suddenly
 2767	lékař	physician, doctor
-2768	halo	halo
+2768	halo	hall
 2769	dně	gout
 2770	nadšený	enthusiastic
 2771	velkých	genitive/locative plural of velký
@@ -3912,7 +3912,7 @@ rank	word	english
 3911	uvědomit	to realize, to become aware of
 3912	taneční	dance
 3913	úmrtí	death
-3914	golf	golf
+3914	golf	bay, gulf
 3915	vyloučit	to rule out, to preclude
 3916	díře	hole
 3917	oukej	okay
@@ -5126,7 +5126,7 @@ rank	word	english
 5125	porozumět	to understand
 5126	rýže	rice
 5127	centrální	central
-5128	delta	Delta
+5128	delta	kind of rays consisting of secondary electrons with enough…
 5129	potřetí	third time
 5130	symptomy	symptom
 5131	hladce	smoothly
@@ -5230,7 +5230,7 @@ rank	word	english
 5229	došli	to arrive, to come
 5230	zlobí	to irritate, to fool around
 5231	spěchat	to hurry, to hustle
-5232	back	back
+5232	back	defense
 5233	přicházet	to come
 5234	října	October
 5235	pomyšlení	thought
@@ -6605,7 +6605,7 @@ rank	word	english
 6604	provede	to guide
 6605	podání	delivery
 6606	vytahovat	to pull
-6607	radar	radar
+6607	radar	speed camera
 6608	zášť	hatred
 6609	nástup	getting on, boarding
 6610	hunt	Used in the phrase
@@ -6632,7 +6632,7 @@ rank	word	english
 6631	odstěhovat	to move, to move out, to relocate
 6632	mířit	to aim
 6633	pláčeš	to weep, to cry
-6634	satan	Satan
+6634	satan	wild person
 6635	kurvo	whore
 6636	černým	black
 6637	netvor	monster
@@ -7619,7 +7619,7 @@ rank	word	english
 7618	nejbezpečnější	safe
 7619	sena	hay
 7620	oběťmi	sacrifice
-7621	barem	bar
+7621	barem	bar, a non-SI unit of pressure equal to 100,000 pascals
 7622	panenství	virginity, maidenhood
 7623	stavba	building, construction
 7624	semeno	seed
@@ -7674,7 +7674,7 @@ rank	word	english
 7673	pitva	dissection
 7674	ledová	freezing, gelid, icy, wintry, boreal, chilling, frigid,…
 7675	manévr	manoeuvre
-7676	boxer	boxer
+7676	boxer	brass knuckles
 7677	vyložit	to unload, discharge
 7678	maršál	marshal
 7679	převést	to convert
@@ -7885,7 +7885,7 @@ rank	word	english
 7884	dýško	tip
 7885	přeměnit	to change, to transform, to convert
 7886	obtíž	difficulty, problem
-7887	lux	lux
+7887	lux	vacuum cleaner, vacuum
 7888	vařila	to cook
 7889	cizinče	foreigner, stranger
 7890	křesťan	Christian
@@ -8377,11 +8377,11 @@ rank	word	english
 8376	obstarat	to procure, obtain
 8377	vízum	visa
 8378	čelil	to brave, confront, face something
-8379	motto	motto
+8379	motto	epigraph
 8380	akutní	acute
 8381	pohrdání	contempt, scorn, disdain
 8382	zajde	to go behind
-8383	psycho	psycho
+8383	psycho	insane, psychopathic
 8384	dělník	worker, laborer, operator
 8385	těšila	to please, to make happy
 8386	pošťák	postman
@@ -8419,7 +8419,7 @@ rank	word	english
 8418	pobíhat	to scurry there and back
 8419	listu	genitive/locative singular of list
 8420	nárůst	increase
-8421	rum	rum
+8421	rum	rubble
 8422	sklon	slope, gradient, incline, cant
 8423	kleště	pincers
 8424	nepřátelství	enmity
@@ -8580,7 +8580,7 @@ rank	word	english
 8579	klepání	to knock
 8580	chlubit	to boast, to brag, to show off
 8581	prohra	loss
-8582	fax	fax
+8582	fax	fax, fax machine
 8583	žár	glow, heat
 8584	mámin	mum, mom, mommy
 8585	obr	giant
@@ -9923,7 +9923,7 @@ rank	word	english
 9922	rozvědka	intelligence
 9923	sání	suction
 9924	rabín	rabbi
-9925	bary	bar
+9925	bary	bar, a non-SI unit of pressure equal to 100,000 pascals
 9926	závislák	addict
 9927	hadů	snake
 9928	přesvědčovat	to convince

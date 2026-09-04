@@ -26,6 +26,39 @@
 	/** Tiers are filters on this page, not separate URLs — see the plan. */
 	$: tiers = [100, 200, 500, 1000, 5000, 10000].filter((n) => n < meta.count).concat(meta.count);
 
+	/**
+	 * Example sentences live in their own file and are fetched the first time
+	 * somebody opens a row. Most visitors read the list and never ask, and a
+	 * sentence under every row would make the table unreadable anyway.
+	 */
+	let examples: Map<number, { sentence: string; english: string }> | null = null;
+	let loadingEx = false;
+	let open: number | null = null;
+
+	async function toggleExample(rank: number) {
+		open = open === rank ? null : rank;
+		if (open === null || examples || loadingEx) return;
+		loadingEx = true;
+		try {
+			const res = await fetch(`/data/most-common-words/ex/${meta.slug}.tsv`);
+			if (res.ok) {
+				const map = new Map<number, { sentence: string; english: string }>();
+				for (const line of (await res.text()).split('\n').slice(1)) {
+					if (!line) continue;
+					const [r, sentence, english] = line.split('\t');
+					map.set(Number(r), { sentence, english });
+				}
+				examples = map;
+			} else {
+				examples = new Map();
+			}
+		} catch {
+			examples = new Map();
+		} finally {
+			loadingEx = false;
+		}
+	}
+
 	let all: Row[] = [];
 	let loading = false;
 	let loaded = false;
@@ -80,7 +113,7 @@
 		return /[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
 	}
 
-	async function download(format: 'csv' | 'txt', count: number) {
+	async function download(format: 'csv' | 'anki' | 'txt', count: number) {
 		if (downloading) return;
 		downloading = true;
 		try {
@@ -89,7 +122,19 @@
 			const name = `${meta.slug}-${count === meta.count ? 'all' : `top-${count}`}-words`;
 
 			let body: string;
-			if (format === 'csv') {
+			if (format === 'anki') {
+				// Anki reads these header directives and imports in one click, with
+				// no field mapping to guess at. File order is frequency order, so a
+				// deck studied in order teaches the commonest words first.
+				const tier = count === meta.count ? 'all' : `top-${count}`;
+				body =
+					`#separator:tab\n` +
+					`#html:false\n` +
+					`#notetype:Basic\n` +
+					`#deck:${meta.name} — most common words (langx.io)\n` +
+					`#tags:langx ${meta.slug} ${tier}\n` +
+					list.map((r) => `${r.word}\t${r.english}`).join('\n');
+			} else if (format === 'csv') {
 				body =
 					'rank,word,english\n' +
 					list.map((r) => `${r.rank},${csvCell(r.word)},${csvCell(r.english)}`).join('\n');
@@ -114,7 +159,8 @@
 			);
 			const a = document.createElement('a');
 			a.href = url;
-			a.download = `${name}.${format}`;
+			// Anki wants a .txt; the suffix keeps it apart from the readable one.
+			a.download = format === 'anki' ? `${name}-anki.txt` : `${name}.${format}`;
 			a.click();
 			URL.revokeObjectURL(url);
 		} finally {
@@ -236,11 +282,39 @@
 		</thead>
 		<tbody>
 			{#each visible as row (row.word)}
-				<tr>
+				<tr class:open={open === row.rank}>
 					<td class="rank">{nf.format(row.rank)}</td>
 					<td class="word" lang={meta.code}>{row.word}</td>
-					<td class="gloss">{row.english}</td>
+					<td class="gloss">
+						{row.english}
+						{#if row.rank <= 1000}
+							<button
+								type="button"
+								class="ex-toggle"
+								aria-expanded={open === row.rank}
+								on:click={() => toggleExample(row.rank)}
+							>
+								{open === row.rank ? 'Hide example' : 'Example'}
+							</button>
+						{/if}
+					</td>
 				</tr>
+				{#if open === row.rank}
+					<tr class="ex-row">
+						<td />
+						<td colspan="2">
+							{#if loadingEx}
+								<span class="ex-quiet">Loading…</span>
+							{:else if examples?.get(row.rank)}
+								{@const ex = examples.get(row.rank)}
+								<p class="ex-sentence" lang={meta.code}>{ex?.sentence}</p>
+								<p class="ex-english">{ex?.english}</p>
+							{:else}
+								<span class="ex-quiet">No example sentence for this word yet.</span>
+							{/if}
+						</td>
+					</tr>
+				{/if}
 			{/each}
 		</tbody>
 	</table>
@@ -274,6 +348,9 @@
 					<button type="button" on:click={() => download('csv', n)} disabled={downloading}>
 						CSV
 					</button>
+					<button type="button" on:click={() => download('anki', n)} disabled={downloading}>
+						Anki
+					</button>
 					<button type="button" on:click={() => download('txt', n)} disabled={downloading}>
 						Text
 					</button>
@@ -295,7 +372,9 @@
 				target="_blank">hermitdave/FrequencyWords</a
 			>; English meanings from
 			<a href="https://kaikki.org" rel="noopener noreferrer" target="_blank">Wiktextract</a>. Both
-			are CC BY-SA 4.0, and so is this list — keep the credit if you pass it on. The
+			are CC BY-SA 4.0, and so is this list — keep the credit if you pass it on. Example sentences
+			come from <a href="https://tatoeba.org" rel="noopener noreferrer" target="_blank">Tatoeba</a>,
+			CC BY 2.0 FR. The
 			<a href={fileUrl} download>raw data file</a> is here too.
 		</p>
 	</section>
@@ -464,6 +543,57 @@
 		}
 	}
 
+	// A quiet affordance: it should not compete with the word it sits beside.
+	.ex-toggle {
+		margin-left: var(--space-2xs);
+		border: 0;
+		background: none;
+		padding: 0;
+		color: var(--color--accent);
+		font-family: var(--font--default);
+		font-size: 0.8125rem;
+		font-weight: 600;
+		cursor: pointer;
+		opacity: 0;
+		transition: opacity var(--dur-fast) ease;
+	}
+
+	// Always there for keyboard and touch; only fades in for a pointer, where an
+	// always-visible link on a thousand rows would be noise.
+	tr:hover .ex-toggle,
+	tr.open .ex-toggle,
+	.ex-toggle:focus-visible {
+		opacity: 1;
+	}
+
+	@media (hover: none) {
+		.ex-toggle {
+			opacity: 1;
+		}
+	}
+
+	.ex-row td {
+		padding-top: 0;
+		padding-bottom: 14px;
+	}
+
+	.ex-sentence {
+		font-size: 1rem;
+		max-width: 60ch;
+	}
+
+	.ex-english {
+		color: var(--color--text-quiet);
+		font-size: 0.9375rem;
+		max-width: 60ch;
+		margin-top: 2px;
+	}
+
+	.ex-quiet {
+		color: var(--color--text-quiet);
+		font-size: 0.8125rem;
+	}
+
 	.more {
 		display: flex;
 		flex-direction: column;
@@ -522,7 +652,7 @@
 
 	.dl-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 		gap: 0 var(--space-lg);
 		border-top: 1px solid var(--color--border);
 		margin-top: var(--space-md);
@@ -548,7 +678,7 @@
 	.dl-row button {
 		flex: 0 0 auto;
 		height: 34px;
-		padding: 0 14px;
+		padding: 0 12px;
 		border-radius: var(--radius-pill);
 		border: 1px solid var(--color--border);
 		background: none;
@@ -616,6 +746,7 @@
 		:global(header.header),
 		:global(footer),
 		.controls,
+		.ex-toggle,
 		.more,
 		.download,
 		.cta,

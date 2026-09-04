@@ -1,0 +1,327 @@
+word	rank_a	rank_b	english
+jeg	1	1	I
+er	3	3	to be
+du	4	4	thou, you
+at	6	21	that
+en	8	6	a, an
+og	9	7	and
+vi	11	10	we
+på	13	11	on
+med	15	15	with
+der	19	57	there
+var	26	26	to be
+vil	27	27	to want to, be willing to
+her	28	34	here
+et	29	32	a, an
+skal	30	31	will, would, shall, should
+ja	35	33	yes
+hun	37	35	she
+være	42	55	to be
+hvor	45	53	where
+hvis	47	72	if
+dem	51	58	them
+godt	52	143	well
+fra	53	54	from
+se	56	60	to see
+hvorfor	58	68	wherefore, why
+hvordan	64	69	how
+eller	72	85	or
+meget	73	1055	very
+nok	74	118	enough
+få	75	70	few
+når	86	81	when
+skulle	97	101	will, would, shall, should
+over	106	111	above
+to	107	104	two
+ser	110	88	to see
+sammen	115	121	together
+fordi	125	145	because
+før	128	110	before
+hold	131	168	to hold
+tid	139	170	time
+denne	140	96	this; this one
+god	141	116	good
+mange	146	154	many
+tale	149	1271	speech, talk, address, discourse
+hjem	157	162	home
+virkelig	158	184	really, truly
+elsker	164	185	to love
+liv	165	269	life
+vel	173	100	well
+tre	179	163	three
+bedre	184	175	good
+samme	190	192	same
+forstår	194	201	to understand
+hør	197	212	to hear
+første	198	196	first
+høre	211	245	to hear
+eneste	214	211	only, sole
+morgen	215	178	morning
+holde	218	240	to hold
+står	224	193	to stand
+sikker	227	272	safe, secure
+vær	229	127	to be
+navn	230	331	name
+holder	238	220	to hold
+flere	242	247	more
+behøver	244	1355	to need
+ellers	252	325	otherwise
+derfor	266	290	therefore
+hallo	267	229	hello
+gode	270	363	good
+tiden	271	270	time
+nye	273	282	new
+sagt	283	283	to say
+gamle	284	322	old
+ses	289	466	to see
+allerede	291	378	already
+fem	297	284	five
+glad	303	263	happy, glad
+hørte	310	280	to hear
+begge	312	330	both
+hørt	316	336	to hear
+barn	320	216	child
+politiet	321	307	police
+hører	328	255	to hear
+fire	332	329	four
+rolig	341	413	calm, quiet, peaceful
+ny	347	296	new
+byen	355	308	town, city
+livet	359	179	life
+ingenting	374	171	nothing
+beklager	376	166	sorry
+problem	379	463	problem
+sent	385	478	late
+lang	388	462	long
+datter	391	703	daughter
+problemer	392	465	problem
+vise	402	374	wise
+ti	405	377	ten
+egen	407	406	own
+gammel	408	389	old
+fantastisk	412	494	incredible, amazing, fantastic
+velkommen	427	437	welcome
+ligger	437	408	to lie
+seks	459	453	six
+søster	463	794	sister
+holdt	469	470	to hold
+historie	470	619	history
+glem	479	509	to forget
+blod	480	575	blood
+måneder	489	542	month
+spille	491	502	to play
+prøv	502	552	to try
+tidligere	513	549	early
+talt	517	966	to make a speech
+klokken	524	773	o'clock
+forstå	533	627	to understand
+mening	543	918	an opinion
+hjerte	544	906	heart
+foran	547	536	ahead, in front
+vis	559	576	to show
+fred	562	526	peace
+tom	570	479	empty
+plan	571	768	a plan
+unge	577	597	young
+betale	583	585	to pay
+endelig	586	691	finally, eventually
+sender	592	614	to send
+stod	594	1825	to stand
+by	606	769	town, city
+natten	610	745	night
+sove	614	584	to sleep
+idiot	616	645	an idiot, imbecile, fool
+kaffe	622	652	coffee
+lykke	627	616	happiness
+millioner	628	634	a million
+husk	637	734	to remember
+svin	642	1484	hog, pig, swine
+krig	646	718	war
+skrive	648	620	to write
+forhold	649	770	relation
+følge	662	650	to follow
+sendte	674	591	to send
+venstre	681	715	left
+betaler	683	700	to pay
+dollar	686	351	a dollar
+skole	691	1558	school
+bekymret	694	688	to worry
+skolen	711	517	school
+sende	712	653	to send
+hår	713	1204	hair
+forklare	714	712	to explain
+sendt	717	763	to send
+eget	719	723	own
+ung	724	701	young
+mord	729	1428	murder
+doktor	742	761	doctor
+sover	746	779	to sleep
+glemt	748	856	to forget
+elske	754	902	to love
+lyver	758	853	to lie
+sikre	762	1132	safe, secure
+ene	774	1007	one
+skrev	781	721	to write
+skriver	783	798	to write
+landet	788	543	country
+problemet	794	655	problem
+skylder	795	797	to owe
+øl	807	842	beer
+rent	822	1328	purely
+enhver	824	1317	any, every, each
+pris	832	654	price
+kontakt	847	717	to contact
+starte	856	1094	to start
+glemte	865	756	to forget
+halv	868	1013	half
+fin	877	420	fine
+barnet	884	660	child
+skål	885	821	cheers!
+stjal	886	869	to steal
+både	897	936	both
+interessant	899	865	interestingly
+overalt	905	793	everywhere
+lært	907	1022	to teach
+historien	912	732	history
+heldig	915	979	lucky, fortunate
+blå	923	1089	blue
+luften	928	1785	air
+måned	934	992	month
+fader	938	1591	father
+send	941	849	to send
+ærlig	942	662	honest
+lå	943	737	to lie
+meter	946	914	a metre, or meter
+ni	955	861	nine
+morges	959	917	morning
+an	967	539	on
+tredje	969	967	third
+lyset	972	970	light
+sov	978	935	to sleep
+skaffe	985	867	to procure, to get
+viste	987	959	to show
+lærte	991	888	to teach
+respekt	992	996	respect
+gravid	1006	1042	pregnant
+nervøs	1007	1101	nervous
+krigen	1011	722	war
+tjener	1014	1025	to serve
+enten	1020	987	either
+date	1029	1239	a date
+frøken	1033	1019	Miss, miss
+ekstra	1046	1045	extra
+valgte	1051	988	to choose
+ligge	1055	862	to lie
+bekymre	1057	1029	to worry
+ifølge	1072	1146	according to
+søvn	1076	1784	sleep
+ild	1085	1601	fire
+glemmer	1094	1116	to forget
+ryggen	1108	895	back
+navnet	1113	468	name
+bevise	1114	1149	to prove
+tjene	1119	1063	to serve
+lyve	1120	1356	to lie
+vilje	1122	1280	will
+takke	1125	1000	to thank
+bringe	1129	1874	chest
+betalt	1148	945	to pay
+selvmord	1156	1381	suicide
+overleve	1165	1135	to survive
+tanker	1180	1643	thought
+ansvar	1181	1046	responsibility
+støtte	1190	960	support
+meningen	1191	1478	an opinion
+solen	1215	1638	sun
+stjålet	1221	1221	to steal
+styrke	1222	1336	strength
+sørge	1233	1276	to grieve, mourn, lament
+te	1235	1189	tea
+hær	1237	1702	That branch of the armed forces concerned mainly with…
+vin	1244	1218	wine
+sørg	1247	1527	to grieve, mourn, lament
+amerikanske	1253	1269	American; of or pertaining to the Americas
+vegne	1258	1989	behalf
+start	1263	1304	to start
+halvt	1273	1559	half
+soldater	1291	1287	soldier
+alder	1293	1423	age
+luft	1295	1515	air
+forventer	1306	1547	to expect
+politi	1309	1056	police
+trist	1312	1033	sad
+frisk	1319	1070	fresh
+liste	1324	1802	a list
+professor	1330	1284	professor
+fulgte	1338	1231	to follow
+loven	1353	1201	law
+million	1357	1413	A million, 10⁶
+spist	1359	1122	to eat
+ed	1361	1520	an oath
+bank	1371	1154	to knock
+valgt	1372	1289	to choose
+hjertet	1374	695	heart
+soldat	1376	1363	soldier
+bevis	1382	762	to prove
+tante	1401	1412	aunt
+uskyldig	1411	1275	innocent
+skyldig	1414	1278	guilty
+mørke	1427	1589	darkness
+ulykke	1429	1319	accident
+nåde	1452	1261	grace
+betalte	1456	1395	to pay
+rød	1457	1455	red
+spis	1460	1259	to eat
+solgt	1461	1636	to sell
+type	1465	1182	a type
+spiste	1469	1120	to eat
+tider	1470	1965	time
+utrolig	1474	474	incredibly
+hvile	1477	1264	rest, repose
+tilbud	1485	1930	an offer
+solgte	1494	1454	to sell
+kirken	1496	1123	church
+tidlig	1504	565	early
+kysse	1505	1588	to kiss
+varme	1508	1600	warm, hot
+tanke	1510	1514	thought
+skriv	1519	1457	to write
+energi	1520	1946	energy
+privat	1527	1480	private
+perfekte	1541	1876	perfect
+fredag	1547	1426	Friday
+dronning	1548	1710	queen
+kaste	1552	903	caste
+rom	1567	564	rum
+kniv	1569	1933	knife
+listen	1572	1669	a list
+fine	1579	956	fine
+forklarer	1581	1800	to explain
+regner	1592	1772	to rain
+planlagt	1597	1634	planned
+lange	1605	1605	long
+hæren	1619	1378	That branch of the armed forces concerned mainly with…
+prisen	1650	1626	price
+lørdag	1660	1677	Saturday
+hellige	1668	1422	to consecrate, dedicate
+blodet	1670	1219	blood
+broen	1674	1922	bridge
+mørkt	1675	1607	dark
+takket	1682	1263	to thank
+vold	1683	1771	violence
+tanken	1699	1360	thought
+løsning	1713	1952	an answer
+kaster	1716	957	caste
+hjernen	1724	1064	brain
+mørket	1726	1509	darkness
+blind	1729	1809	blind
+tydeligvis	1787	1437	evidently, obviously, clearly
+amerikansk	1790	1674	American; of or pertaining to the Americas
+imponerende	1796	1925	impressive
+elsket	1802	613	to love
+mandag	1806	1823	Monday
+diskutere	1861	1409	to discuss
+klubben	1901	1914	a club
+søndag	1914	1881	Sunday
+erfaring	1936	1846	experience
+radioen	1963	1909	radio

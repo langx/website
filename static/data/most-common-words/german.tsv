@@ -98,7 +98,7 @@ rank	word	english
 97	machen	to make, to produce, to create
 98	danke	thanks, gratitude, appreciation
 99	sehr	very
-100	alle	all
+100	alle	every
 101	denn	for; because; since
 102	mann	man, male human being
 103	tun	to do
@@ -285,7 +285,7 @@ rank	word	english
 284	scheiße	feces, shit
 285	brauchen	to need, to be in need of, to require
 286	gegen	against
-287	moment	moment
+287	moment	momentum
 288	junge	young
 289	steht	to stand
 290	sonst	otherwise
@@ -367,7 +367,7 @@ rank	word	english
 366	männer	man, male human being
 367	baby	baby
 368	fahren	to go at speed
-369	namen	name
+369	namen	noun, examples include Eigenname, Sammelname and…
 370	bekommen	to receive; to get
 371	kopf	head
 372	hi	hi
@@ -378,7 +378,7 @@ rank	word	english
 377	letzte	the last one
 378	freunde	friend
 379	n	nonstandard form of 'n
-380	all	all
+380	all	every
 381	darauf	after
 382	ende	to end
 383	bald	soon
@@ -433,7 +433,7 @@ rank	word	english
 432	spät	late
 433	ziemlich	pretty, quite, rather, fairly, kind of
 434	solltest	should; to be obligated; ought; shall
-435	name	name
+435	name	noun, examples include Eigenname, Sammelname and…
 436	sogar	even, actually, in fact
 437	kurz	briefly
 438	kerl	fellow, guy, chap, bloke
@@ -455,7 +455,7 @@ rank	word	english
 454	verstanden	to hear and interpret
 455	verloren	to lose
 456	große	big, large, large-scale
-457	hand	hand
+457	hand	handwriting
 458	grund	ground, land
 459	jahr	year
 460	kommst	to come; to arrive
@@ -480,7 +480,7 @@ rank	word	english
 479	läuft	third-person singular present of laufen 'to run'
 480	schwer	heavy, weighty
 481	anders	different, differently
-482	miss	Miss
+482	miss	title for a beauty queen
 483	musste	to have to; must; to be obliged; to need
 484	fünf	five
 485	wasser	water
@@ -638,7 +638,7 @@ rank	word	english
 637	pass	to fit
 638	nächste	near, close, nearby
 639	stunde	to defer
-640	hände	hand
+640	hände	handwriting
 641	gegeben	to give
 642	menge	quantity
 643	langsam	slowly, gradually, carefully
@@ -661,7 +661,7 @@ rank	word	english
 660	tja	well, hmm
 661	new	obsolete spelling of neu
 662	voll	fully
-663	film	film
+663	film	photographic film
 664	überall	everywhere
 665	hund	dog, hound
 666	geworden	will, to be going to, forms the future tense
@@ -753,7 +753,7 @@ rank	word	english
 752	genommen	to take
 753	zukunft	future
 754	weniger	less
-755	cool	cool
+755	cool	cool, calm, easy-going
 756	licht	light
 757	getroffen	to meet; to encounter
 758	himmel	sky
@@ -789,7 +789,7 @@ rank	word	english
 788	sobald	as soon as, by the time
 789	nochmal	once again
 790	herren	man, gentleman
-791	sex	sex
+791	sex	sexuality
 792	waffen	weapon, arm
 793	wohnung	domicile; dwelling; lodging; abode; accommodation
 794	weh	sore, painful
@@ -865,7 +865,7 @@ rank	word	english
 864	verzeihung	forgiveness
 865	fliegen	to fly; to travel by air
 866	zeig	to point
-867	team	team
+867	team	group of people working together for a particular project
 868	general	general
 869	aufs	contraction of auf + das on the, upon the, onto the
 870	vorher	beforehand, previously, before
@@ -948,7 +948,7 @@ rank	word	english
 947	zieh	to pull; to drag
 948	nimmt	to take
 949	gerettet	to save, to rescue
-950	agent	agent
+950	agent	agent, spy
 951	traum	dream
 952	entscheidung	decision
 953	schlimmer	worse
@@ -1044,7 +1044,7 @@ rank	word	english
 1043	nen	nonstandard form of 'n
 1044	beweise	proof
 1045	nahm	to take
-1046	aller	all
+1046	aller	every
 1047	freut	to gladden, to make glad, to make pleased
 1048	seele	soul
 1049	schießen	to shoot; to fire
@@ -1096,7 +1096,7 @@ rank	word	english
 1095	gekauft	to buy, to purchase
 1096	wussten	to know; to be aware of
 1097	gestohlen	to steal
-1098	hunger	hunger
+1098	hunger	to hunger, to starve
 1099	leg	to lie down
 1100	lügen	lie
 1101	beziehung	relation, relationship, connection
@@ -1273,7 +1273,7 @@ rank	word	english
 1272	überrascht	surprised
 1273	sauber	clean
 1274	hau	to thrust, slash
-1275	mark	mark
+1275	mark	a usually fortified area along the border; marches
 1276	schlag	to beat; to hit; to knock; to strike; to punch; to hammer;…
 1277	sheriff	sheriff
 1278	untertitel	subheading
@@ -1380,7 +1380,7 @@ rank	word	english
 1379	schwein	swine, pig
 1380	monster	monster
 1381	entschieden	firmly, decidedly, determinedly, boldly, ambitiously
-1382	mission	mission
+1382	mission	mission, evangelization, proselytism
 1383	verdammten	to condemn, to doom
 1384	brauch	to need, to be in need of, to require
 1385	gewusst	to know; to be aware of
@@ -1398,7 +1398,7 @@ rank	word	english
 1397	leisten	last
 1398	davor	in front of that/it
 1399	bedeuten	to imply, to mean, to signify, to indicate, to spell, to…
-1400	ball	ball
+1400	ball	pass, play
 1401	mitnehmen	to take with; to carry along
 1402	gespielt	to play
 1403	schwierigkeiten	difficulty, problem
@@ -1412,7 +1412,7 @@ rank	word	english
 1411	deal	deal
 1412	seines	his
 1413	irgendwelche	any
-1414	händen	hand
+1414	händen	handwriting
 1415	versteht	to hear and interpret
 1416	drehen	nomen vicis of drehen: a turn, spin, twist, a single…
 1417	eis	egg
@@ -1503,7 +1503,7 @@ rank	word	english
 1502	geändert	to change, to alter
 1503	lächerlich	ridiculous, risible, laughable
 1504	geschlagen	to beat; to hit; to knock; to strike; to punch; to hammer;…
-1505	park	park
+1505	park	park, grounds
 1506	schätzen	treasure
 1507	männern	man, male human being
 1508	t	abbreviation of tausend
@@ -1593,7 +1593,7 @@ rank	word	english
 1592	weißen	white
 1593	lösung	solution
 1594	wart	to be
-1595	pause	pause
+1595	pause	break
 1596	irre	to wander
 1597	gestellt	to pose, to lodge
 1598	keller	cellar
@@ -1641,11 +1641,11 @@ rank	word	english
 1640	mut	courage; bravery
 1641	heilige	holy
 1642	tier	animal
-1643	system	system
+1643	system	period
 1644	mannes	man, male human being
 1645	wahnsinn	insanity, madness
 1646	nee	alternative form of nein
-1647	rose	rose
+1647	rose	The rose as used in heraldry, on a coat of arms
 1648	club	club
 1649	geschlossen	to shut; to close; to shut down
 1650	hintern	contraction of hinter + den
@@ -1731,7 +1731,7 @@ rank	word	english
 1730	lautet	to be, to read
 1731	streit	quarrel, dispute, fight, argument
 1732	küssen	alternative form of Kissen
-1733	sprich	Used to introduce a clarification or explanation; that is,…
+1733	sprich	to speak
 1734	längst	long ago, long
 1735	fängt	to catch
 1736	drüber	contraction of darüber
@@ -1954,7 +1954,7 @@ rank	word	english
 1953	handeln	to act; to take action
 1954	enden	end, finish
 1955	warm	warm; mildly hot
-1956	raten	rate
+1956	raten	installment, instalment
 1957	übersetzung	translation
 1958	kunst	art
 1959	kapitän	captain
@@ -2035,7 +2035,7 @@ rank	word	english
 2034	wählen	to choose, to select
 2035	helft	to help; to assist; to aid
 2036	fliegt	to fly; to travel by air
-2037	theater	theater
+2037	theater	theatrical company, troupe, theater company of, often…
 2038	regen	to move
 2039	feinde	enemy, fiend, foe
 2040	erlauben	to allow; to permit
@@ -2102,7 +2102,7 @@ rank	word	english
 2101	zählen	to count
 2102	innerhalb	within, inside
 2103	matt	dull
-2104	blind	blind
+2104	blind	cloudy
 2105	schwestern	sister
 2106	code	code
 2107	schlau	clever in a way that enables one to achieve one's goals;…
@@ -2123,7 +2123,7 @@ rank	word	english
 2122	tritt	to step, to walk
 2123	trauen	to trust
 2124	präsidenten	president; chairman, chairperson, chair
-2125	trick	trick
+2125	trick	ruse
 2126	roten	red
 2127	überlegt	considerately, deliberately
 2128	größten	big, large, large-scale
@@ -2185,7 +2185,7 @@ rank	word	english
 2184	story	plot
 2185	leichter	light
 2186	halben	half, halfway
-2187	filme	film
+2187	filme	photographic film
 2188	priester	priest, presbyter
 2189	herauszufinden	to find out
 2190	packen	pack, bunch, bundle, stack
@@ -2268,7 +2268,7 @@ rank	word	english
 2267	gezwungen	to force; to compel; to make
 2268	perfekte	perfect
 2269	erzählst	to tell, to narrate, to recount
-2270	bastard	bastard
+2270	bastard	bastard; mongrel
 2271	interessieren	to interest
 2272	schlechten	bad, evil, wicked
 2273	steigt	to ascend, to climb, to rise
@@ -2296,7 +2296,7 @@ rank	word	english
 2295	jacke	jacket
 2296	bestellt	to order
 2297	herkommen	to come over, come here
-2298	wild	wild
+2298	wild	wild, unrestrained, raucous
 2299	nenne	to name
 2300	angesehen	to look at, to have a look at
 2301	zuhören	to listen
@@ -2364,7 +2364,7 @@ rank	word	english
 2363	kleidung	clothing; apparel
 2364	gras	grass
 2365	kenn	to know; to be acquainted with; to be familiar with
-2366	agenten	agent
+2366	agenten	agent, spy
 2367	herausgefunden	to find out
 2368	rechten	right, right-hand
 2369	brot	bread
@@ -2495,7 +2495,7 @@ rank	word	english
 2494	treppe	stairs
 2495	richtiger	correct, accurate, right
 2496	aufnehmen	to pick up, lift up
-2497	wolf	wolf
+2497	wolf	the constellation Lupus
 2498	öffnet	to open
 2499	dämon	demon
 2500	wut	rage; fury; outrage
@@ -2526,7 +2526,7 @@ rank	word	english
 2525	vieles	much, many things
 2526	erfüllt	to fulfill / fulfil
 2527	tausend	thousand
-2528	sack	sack
+2528	sack	the sack; ellipsis of Hodensack
 2529	eindeutig	unambiguously
 2530	unterhaltung	conversation
 2531	gründen	ground, land
@@ -2563,7 +2563,7 @@ rank	word	english
 2562	fremde	foreign land
 2563	gnade	grace, mercy, graciousness
 2564	entspannen	to relax
-2565	virus	virus
+2565	virus	computer virus
 2566	schläfst	to sleep
 2567	einladung	invitation
 2568	krieger	warrior
@@ -2668,7 +2668,7 @@ rank	word	english
 2667	gefühlt	Used to mark a proposition as being purely based on one's…
 2668	schnitt	cut, the result of cutting
 2669	lebend	to live, to be alive
-2670	real	real
+2670	real	real, realistic
 2671	holz	wood
 2672	kaiser	emperor
 2673	spielte	to play
@@ -2694,7 +2694,7 @@ rank	word	english
 2693	momentan	at the moment
 2694	solch	such
 2695	meistens	mostly
-2696	stress	stress
+2696	stress	dispute, quarrel, beef
 2697	sterne	a star; a small luminous dot that can be seen on the night…
 2698	heilen	to heal
 2699	soviel	as far as, so far as
@@ -2837,7 +2837,7 @@ rank	word	english
 2836	lies	to read
 2837	magen	stomach, maw
 2838	beeilt	to hurry, to hasten, to rush
-2839	tunnel	tunnel
+2839	tunnel	nutmeg
 2840	einst	once, formerly
 2841	behandlung	treatment
 2842	serie	series
@@ -2883,7 +2883,7 @@ rank	word	english
 2882	erfüllen	to fulfill / fulfil
 2883	kauft	to buy, to purchase
 2884	molly	ecstasy, molly, mandy
-2885	basis	basis
+2885	basis	base
 2886	schock	shock
 2887	empfang	to receive
 2888	wiederhole	to repeat
@@ -2900,7 +2900,7 @@ rank	word	english
 2899	sparen	to save up; to accumulate, to put aside
 2900	weiteres	wide
 2901	gehörst	to belong to, be the property of
-2902	farm	farm
+2902	farm	a farm that specialises in a particular agricultural product
 2903	erstaunlich	amazing, impressive, surprising
 2904	schwachsinn	nonsense
 2905	miete	rent
@@ -2930,7 +2930,7 @@ rank	word	english
 2929	rausfinden	clipping of herausfinden
 2930	ächzt	to groan
 2931	rauskommen	to come out
-2932	planet	planet
+2932	planet	to plan
 2933	suppe	soup
 2934	erwischen	to catch
 2935	sitz	to sit; to perch
@@ -2997,12 +2997,12 @@ rank	word	english
 2996	extrem	extremely
 2997	ausweis	identity document; identity card, ID card
 2998	sicht	view
-2999	sport	sport
+2999	sport	athletics, sports, exercise requiring stamina, fitness and…
 3000	juden	Jew
 3001	studiert	to study at university or college level; to be a student
 3002	angelogen	to lie to, to tell someone a lie, to tell someone lies
 3003	schaue	to watch, to view
-3004	text	text
+3004	text	lyrics, lines
 3005	nebenan	next door
 3006	lektion	lesson
 3007	mäuse	money
@@ -3118,7 +3118,7 @@ rank	word	english
 3117	fan	fan, devotee
 3118	hohen	high, tall
 3119	ladys	lady, Lady
-3120	sms	SMS
+3120	sms	SMS — Seiner Majestät Schiff
 3121	verkauf	sale
 3122	verbergen	to hide, conceal from view, keep secret
 3123	sorgt	to take care of, to care for, to look after
@@ -3140,7 +3140,7 @@ rank	word	english
 3139	aufnahme	reception
 3140	holmes	rail, bar
 3141	hübscher	pretty, handsome
-3142	manager	manager
+3142	manager	agent of an artist or sportsperson
 3143	stellung	to pose, to lodge
 3144	höhle	cave
 3145	schokolade	chocolate
@@ -3150,11 +3150,11 @@ rank	word	english
 3149	ausgerechnet	Used to express irritation, indignation, or a similar…
 3150	walker	fuller, felt-maker
 3151	beibringen	to teach
-3152	ex	ex
+3152	ex	an unannounced performance test of pupils in school
 3153	belohnung	reward, bounty
 3154	seelen	soul
 3155	steine	stone, rock
-3156	garage	garage
+3156	garage	car park, parking garage
 3157	scheißkerl	shithead, son of a bitch
 3158	gestört	to disturb, to interfere, to bother
 3159	ruhen	to rest; to sleep
@@ -3257,7 +3257,7 @@ rank	word	english
 3256	gestanden	to stand
 3257	schütze	to defend; to protect; to shelter; to guard
 3258	störe	to disturb, to interfere, to bother
-3259	filmen	film
+3259	filmen	photographic film
 3260	jobs	job, position, employment
 3261	maschinen	machine
 3262	unterlagen	an underlay, a layer on which something else rests
@@ -3315,7 +3315,7 @@ rank	word	english
 3314	dunklen	dark
 3315	ignorieren	to ignore
 3316	toter	dead, deceased
-3317	deck	deck
+3317	deck	to cover
 3318	narr	carnival enthusiast
 3319	scheißegal	totally unimportant, doesn't fucking matter
 3320	höchstens	at most
@@ -3329,7 +3329,7 @@ rank	word	english
 3328	girl	girl; young woman
 3329	fahrrad	bicycle
 3330	nutte	whore; prostitute
-3331	wilde	wild
+3331	wilde	wild, unrestrained, raucous
 3332	bequem	comfortable, convenient
 3333	rauch	to smoke, give off smoke
 3334	verschiedenen	different
@@ -3514,11 +3514,11 @@ rank	word	english
 3513	durchsuchen	to search
 3514	rollen	roll, reel, spool
 3515	vergesst	to forget
-3516	tricks	trick
+3516	tricks	ruse
 3517	plätze	square, plaza, piazza
 3518	gefangene	caught
 3519	sünden	sin
-3520	sender	sender
+3520	sender	broadcaster
 3521	verlass	to leave, to abandon; to depart, to forsake
 3522	räumen	space
 3523	lerne	to learn, to acquire knowledge
@@ -3535,7 +3535,7 @@ rank	word	english
 3534	drück	to press, to push
 3535	bedanken	to thank, to express thanks
 3536	verabredet	to arrange
-3537	pilot	pilot
+3537	pilot	pilot of a bobsled
 3538	nigger	nigger
 3539	reizend	lovely
 3540	grade	degree
@@ -3570,7 +3570,7 @@ rank	word	english
 3569	proben	to rehearse
 3570	beschissen	shitty
 3571	gewinne	to win; to be victorious
-3572	personal	personal
+3572	personal	staff, personnel, employees
 3573	bewaffnet	armed
 3574	fällen	fall, drop
 3575	wecken	an oblong bread roll
@@ -3755,7 +3755,7 @@ rank	word	english
 3754	apartment	apartment
 3755	pfeift	to whistle
 3756	dieselben	the same
-3757	wilden	wild
+3757	wilden	wild, unrestrained, raucous
 3758	vergaß	to forget
 3759	enttäuschen	to disappoint
 3760	konsequenzen	consequence
@@ -3837,7 +3837,7 @@ rank	word	english
 3836	gewinner	to win; to be victorious
 3837	verständnis	understanding, comprehension
 3838	papst	pope
-3839	toast	toast
+3839	toast	soft, roughly square white bread, toasted or not
 3840	einsteigen	to get in or on
 3841	löwen	lion
 3842	einsetzen	to put in; set in; insert
@@ -3853,7 +3853,7 @@ rank	word	english
 3852	heftig	fierce, heavy, vehement, severe, violent
 3853	vorfall	incident
 3854	motel	motel
-3855	teams	team
+3855	teams	group of people working together for a particular project
 3856	irgendeinen	some; any
 3857	müsstest	to have to; must; to be obliged; to need
 3858	freier	free; unenslaved; unimprisoned
@@ -3980,9 +3980,9 @@ rank	word	english
 3979	gesang	singing, vocals
 3980	gedreht	to turn
 3981	religion	religion
-3982	ey	Used to call someone's attention, or as an intensifier when…
+3982	ey	Expresses indignation or disgust; oi
 3983	unterschrift	signature
-3984	rosen	rose
+3984	rosen	The rose as used in heraldry, on a coat of arms
 3985	persönliches	personal
 3986	queen	The Queen of England or Scotland
 3987	fortschritte	progress, advancement
@@ -4044,7 +4044,7 @@ rank	word	english
 4043	friedlich	peaceful, placid, tranquil
 4044	richtiges	correct, accurate, right
 4045	zuschauer	spectator
-4046	teenager	teenager
+4046	teenager	a person or animal that nibbles tea
 4047	geliefert	to supply, provide
 4048	gestritten	to argue; to fight; to quarrel
 4049	maus	mouse
@@ -4088,7 +4088,7 @@ rank	word	english
 4087	erschrecken	to be frightened; to be startled
 4088	gemälde	painting
 4089	walt	to rule, to exercise control
-4090	chip	chip
+4090	chip	crisp/chip
 4091	mannschaft	crew members of a ship
 4092	loyalität	loyalty
 4093	benjamin	youngest child
@@ -4206,7 +4206,7 @@ rank	word	english
 4205	private	private
 4206	welten	world
 4207	verlegen	to misplace, to mislay
-4208	heroin	heroin
+4208	heroin	female hero
 4209	erfuhr	to find out, learn, to come to know
 4210	gelände	area, terrain
 4211	kutsche	carriage, coach
@@ -4216,7 +4216,7 @@ rank	word	english
 4215	out	out of fashion
 4216	draus	alternative form of daraus
 4217	aufgehoben	to pick up
-4218	single	single
+4218	single	single; singleton
 4219	regisseur	director
 4220	vielmals	very much, a lot
 4221	bestand	stock, inventory
@@ -4231,7 +4231,7 @@ rank	word	english
 4230	besprochen	to discuss
 4231	halbes	half, halfway
 4232	bargeld	cash
-4233	action	action
+4233	action	a genre characterised by such activity
 4234	zusammenarbeiten	to work together, to cooperate
 4235	beunruhigt	to worry, to trouble, to alarm
 4236	achte	to care about, to pay attention to
@@ -4254,7 +4254,7 @@ rank	word	english
 4253	trost	consolation
 4254	gehasst	to hate
 4255	gesorgt	to take care of, to care for, to look after
-4256	spinner	spinner
+4256	spinner	idiot, freak, oddball, nut
 4257	vergebung	pardon, forgiveness
 4258	vieh	livestock; farm animals
 4259	schnelle	quick, fast
@@ -4332,7 +4332,7 @@ rank	word	english
 4331	unschuld	innocence
 4332	seist	to be
 4333	stoßen	to push; to shove; to thrust
-4334	like	like
+4334	like	to like
 4335	genügend	sufficient, ample
 4336	sofa	sofa, couch
 4337	gestatten	to allow
@@ -4503,7 +4503,7 @@ rank	word	english
 4502	just	just
 4503	durchziehen	to pass
 4504	gepackt	to pack; to get packed
-4505	service	service
+4505	service	service, set
 4506	furchtbare	terrible
 4507	liebster	lovable; dear; darling; sweet; good-hearted; kind
 4508	flieger	aviator
@@ -4612,7 +4612,7 @@ rank	word	english
 4611	schuldet	to owe
 4612	erhöhen	to heighten, raise
 4613	schönsten	beautiful, lovely, pretty, handsome
-4614	momente	moment
+4614	momente	momentum
 4615	kameraden	comrade
 4616	eingebrochen	to break in
 4617	amüsiert	to be amused
@@ -4705,7 +4705,7 @@ rank	word	english
 4704	kümmerst	to take care, to look after
 4705	berühmte	famous, well-known, renowned, celebrated, noted
 4706	schwieriger	difficult, hard, challenging, tough
-4707	piloten	pilot
+4707	piloten	pilot of a bobsled
 4708	scherze	joke
 4709	anfängt	to begin; to commence
 4710	läufst	second-person singular informal present of laufen 'to run'
@@ -4746,7 +4746,7 @@ rank	word	english
 4745	verdächtig	suspicious, suspect
 4746	legst	to lie down
 4747	aufgebracht	upset
-4748	alternative	alternative
+4748	alternative	option, choice
 4749	experte	expert
 4750	ferne	remote
 4751	prinzip	principle
@@ -4839,7 +4839,7 @@ rank	word	english
 4838	elend	misery
 4839	andauernd	constant, incessant
 4840	ungeheuer	enormously
-4841	fit	fit
+4841	fit	able, prepared, up to a task
 4842	zeitverschwendung	waste of time
 4843	ansicht	view
 4844	gefährliche	dangerous, hazardous
@@ -4899,7 +4899,7 @@ rank	word	english
 4898	hinfahren	to give a ride
 4899	bedingung	requirement, prerequisite
 4900	empfinde	to feel; to sense; to perceive something through the sense…
-4901	top	top
+4901	top	a casual women's shirt, often with very short sleeves; a top
 4902	gemocht	to like
 4903	heran	near, close to the speaker, over to
 4904	ärgern	to annoy, to make angry
@@ -5075,7 +5075,7 @@ rank	word	english
 5074	mandanten	client
 5075	quartier	accommodation, quarters
 5076	neidisch	envious, jealous
-5077	chips	chip
+5077	chips	crisp/chip
 5078	zugelassen	to allow
 5079	weibliche	female
 5080	schlauer	clever in a way that enables one to achieve one's goals;…
@@ -5089,7 +5089,7 @@ rank	word	english
 5088	vorzustellen	to introduce, to present
 5089	unterm	contraction of unter + dem
 5090	u-bahn	underground railway; subway
-5091	status	status
+5091	status	state
 5092	zweifellos	doubtless
 5093	rückwärts	backwards
 5094	skandal	scandal
@@ -5124,7 +5124,7 @@ rank	word	english
 5123	reif	ripe
 5124	übermorgen	overmorrow, the day after tomorrow
 5125	dicker	thick
-5126	nest	nest
+5126	nest	small village
 5127	angerichtet	to wreak, to cause, to do
 5128	verklagen	to sue
 5129	helm	helmet
@@ -5141,7 +5141,7 @@ rank	word	english
 5140	antreten	to line up; to stand for a muster or report
 5141	vorstand	board, board of directors, council, executive, committee,…
 5142	organisieren	to organize
-5143	tank	tank
+5143	tank	to fuel, to refuel
 5144	besprechung	meeting, discussion
 5145	studium	study
 5146	kreditkarte	credit card
@@ -5286,7 +5286,7 @@ rank	word	english
 5285	verbreiten	to put about, spread, circulate, disseminate sth
 5286	first	ridge
 5287	schenke	to give as a present, to gift
-5288	wölfe	wolf
+5288	wölfe	the constellation Lupus
 5289	erholen	to relax, to recover, to recuperate
 5290	bedenkt	to consider, bethink
 5291	blutet	to bleed
@@ -5305,7 +5305,7 @@ rank	word	english
 5304	aktivitäten	activity
 5305	wohnte	to live, reside, dwell
 5306	kaninchen	rabbit
-5307	systeme	system
+5307	systeme	period
 5308	orange	orange
 5309	platten	flat tire
 5310	geliehen	to borrow
@@ -5526,7 +5526,7 @@ rank	word	english
 5525	fremd	strange
 5526	mehrmals	several times, repeatedly
 5527	generationen	generation
-5528	coole	cool
+5528	coole	cool, calm, easy-going
 5529	kaufst	to buy, to purchase
 5530	abbrechen	to break off
 5531	seife	soap
@@ -5783,7 +5783,7 @@ rank	word	english
 5782	schrott	scrap; junk
 5783	verbringt	to spend, to pass
 5784	wähle	to choose, to select
-5785	films	film
+5785	films	photographic film
 5786	vorhang	curtain
 5787	mitspielen	to cooperate
 5788	erregt	excitedly
@@ -6011,7 +6011,7 @@ rank	word	english
 6010	satan	Satan, the Devil
 6011	erben	to inherit
 6012	police	insurance policy
-6013	horn	horn
+6013	horn	cornet
 6014	lebende	living
 6015	schmutzige	dirty, filthy, grimy
 6016	eiskalt	ice-cold
@@ -6064,7 +6064,7 @@ rank	word	english
 6063	durchbruch	breakthrough
 6064	wiederhaben	to have back
 6065	schrecklicher	awful, terrible, horrible
-6066	model	model
+6066	model	mould
 6067	besitze	ownership
 6068	sorg	to take care of, to care for, to look after
 6069	chor	choir; chorus
@@ -6119,7 +6119,7 @@ rank	word	english
 6118	übertreiben	to exaggerate
 6119	ressourcen	resource, reserve
 6120	bischof	bishop
-6121	nationale	national
+6121	nationale	nationwide, national
 6122	ausstehen	to stand, to endure
 6123	geschwister	sibling
 6124	zurücktreten	to step back
@@ -6240,7 +6240,7 @@ rank	word	english
 6239	narben	scar
 6240	fleißig	diligently, industriously, assiduously, sedulously
 6241	freizeit	free time, leisure time, spare time. The time during which…
-6242	elegant	elegant
+6242	elegant	dandy
 6243	dolch	dagger
 6244	eindringen	to intrude
 6245	auszeit	time-out
@@ -6475,7 +6475,7 @@ rank	word	english
 6474	unglücklicherweise	unfortunately
 6475	ratschläge	piece of advice; advice
 6476	erstickt	to smother
-6477	vagina	vagina
+6477	vagina	the female sexual organs including the vulva
 6478	scharfe	sharp; able to cut
 6479	nutten	whore; prostitute
 6480	äpfel	apple
@@ -6514,7 +6514,7 @@ rank	word	english
 6513	student	student
 6514	absetzen	to set down
 6515	schwindel	swindle
-6516	national	national
+6516	national	nationwide, national
 6517	vorgeschlagen	to propose, to suggest
 6518	arbeitslos	unemployed
 6519	borg	barrow
@@ -6588,7 +6588,7 @@ rank	word	english
 6587	internationale	international
 6588	liefert	to supply, provide
 6589	wehen	psychological suffering; misery, woe
-6590	bastarde	bastard
+6590	bastarde	bastard; mongrel
 6591	erstochen	to stab to death
 6592	schiffes	ship
 6593	nördlich	north, northern
@@ -6649,7 +6649,7 @@ rank	word	english
 6648	ausfindig	only used in ausfindig machen
 6649	angriffe	attack, offensive, strike, assault, onslaught, raid, offence
 6650	rotes	red
-6651	modernen	modern
+6651	modernen	state-of-the-art
 6652	motto	motto, slogan
 6653	eintritt	occurring; occurrence
 6654	bh	bra
@@ -6776,7 +6776,7 @@ rank	word	english
 6775	literatur	literature
 6776	landete	to land
 6777	gelangt	to reach, to grab
-6778	cooler	cool
+6778	cooler	cool, calm, easy-going
 6779	quer	crosswise, across
 6780	satelliten	satellite
 6781	triff	to meet; to encounter
@@ -6977,7 +6977,7 @@ rank	word	english
 6976	cross	groundstroke that is played diagonally
 6977	kragen	collar
 6978	schwachen	weak, lacking in strength
-6979	mercedes	Mercedes
+6979	mercedes	cream of the crop
 6980	klirren	to clink, to clank, to clash, to jingle, to clatter
 6981	valentinstag	Valentine's Day
 6982	anstelle	instead of, in place of
@@ -7015,7 +7015,7 @@ rank	word	english
 7014	obersten	colonel
 7015	gerührt	to stir, to mix
 7016	schwänze	tail
-7017	note	note
+7017	note	grade, mark
 7018	datei	file
 7019	zugleich	at the same time, simultaneously
 7020	nackte	nude; not wearing any clothes
@@ -7074,7 +7074,7 @@ rank	word	english
 7073	trösten	to console, to comfort, to support someone
 7074	armut	poverty
 7075	verbannt	banned, banished
-7076	parade	parade
+7076	parade	parade, march
 7077	konzentriere	to concentrate, to focus
 7078	angefahren	to start moving
 7079	kindisch	childish, immature
@@ -7284,7 +7284,7 @@ rank	word	english
 7283	alkoholiker	alcoholic
 7284	laßt	Formerly standard spelling of lasst which was deprecated in…
 7285	ganzem	entire, whole, complete
-7286	elemente	element
+7286	elemente	element; essential component
 7287	feinden	enemy, fiend, foe
 7288	rückweg	way back
 7289	heimweg	way home
@@ -7316,7 +7316,7 @@ rank	word	english
 7315	kreditkarten	credit card
 7316	durstig	thirsty
 7317	eintreffen	to arrive
-7318	nationalen	national
+7318	nationalen	nationwide, national
 7319	mitteln	agent, appliance
 7320	trauma	psychological trauma
 7321	beobachtung	monitoring; surveillance; supervision
@@ -7333,7 +7333,7 @@ rank	word	english
 7332	wes	who
 7333	rücksicht	consideration
 7334	lamm	lamb
-7335	pier	pier
+7335	pier	lugworm, sandworm
 7336	widersprechen	to object; to disagree
 7337	erwische	to catch
 7338	dachboden	attic
@@ -7532,7 +7532,7 @@ rank	word	english
 7531	durchschaut	to see through
 7532	mögt	to like
 7533	nachname	last name, surname
-7534	händchen	hand
+7534	händchen	handwriting
 7535	birne	pear
 7536	vorgesehen	envisaged, planned, scheduled
 7537	gnädig	gracious
@@ -7541,7 +7541,7 @@ rank	word	english
 7540	versehentlich	by mistake
 7541	schwerter	sword
 7542	erwiesen	to prove, to show
-7543	software	software
+7543	software	piece of software, a program
 7544	einschlagen	to smash
 7545	schiebt	to push; to shove
 7546	geahnt	to suspect, guess
@@ -7627,7 +7627,7 @@ rank	word	english
 7626	einholen	to catch up
 7627	raushalten	clipping of heraushalten
 7628	verheimlicht	to keep secret, to conceal, to hide
-7629	hacker	hacker
+7629	hacker	to chop, to hack
 7630	hingabe	devotion
 7631	uhren	hours, o'clock
 7632	erobert	to conquer, to capture
@@ -7652,11 +7652,11 @@ rank	word	english
 7651	hingelegt	to put down, lay down
 7652	wildes	game
 7653	begreifst	to grasp fully; to comprehend; to conceive, to fathom
-7654	metropolis	metropolis
+7654	metropolis	a bishop's see
 7655	schildkröte	turtle, tortoise
 7656	umzingelt	to encircle, to surround
 7657	buddha	buddha
-7658	bonus	bonus
+7658	bonus	rebate
 7659	wagst	to dare
 7660	spucken	to spit
 7661	einlassen	to let in; to admit; to grant entry
@@ -7665,7 +7665,7 @@ rank	word	english
 7664	präzise	precise
 7665	bilde	to form, to train
 7666	sorgerecht	custody
-7667	blinde	blind
+7667	blinde	cloudy
 7668	gebot	command, commandment
 7669	zurückzahlen	to pay back, to repay, to refund
 7670	ameisen	ant
@@ -7779,7 +7779,7 @@ rank	word	english
 7778	studentin	student
 7779	tickt	to tick, to make a clicking noise
 7780	räumt	to clear an area of debris, snow, mines, or other…
-7781	boom	boom
+7781	boom	to boom
 7782	gesichtet	to sight
 7783	kleben	to glue
 7784	zuzuhören	to listen
@@ -7831,7 +7831,7 @@ rank	word	english
 7830	meintest	to opine, to think; to believe; to suppose
 7831	wusstet	to know; to be aware of
 7832	drehst	to turn
-7833	martini	martini
+7833	martini	Martinmas
 7834	starrt	to stare, to gaze
 7835	austauschen	to exchange
 7836	schnellen	quick, fast
@@ -7917,7 +7917,7 @@ rank	word	english
 7916	ausschließen	to exclude, to debar
 7917	wechselt	to change, to exchange
 7918	erforschen	to explore, to investigate
-7919	scanner	scanner
+7919	scanner	one who scans
 7920	eisenbahn	railway, railroad
 7921	rumsitzen	to sit around; spend time sitting idly
 7922	munter	merry, awake, brisk, cheery
@@ -7966,7 +7966,7 @@ rank	word	english
 7965	männlichen	male
 7966	exemplar	exemplar; specimen; copy
 7967	bedauerlich	regrettable
-7968	blinden	blind
+7968	blinden	cloudy
 7969	jage	to hunt
 7970	cd	CD
 7971	finanzieren	to pay for, to finance, to fund
@@ -8283,7 +8283,7 @@ rank	word	english
 8282	geschmeckt	to taste
 8283	unterstütze	to support, to assist, to help, to aid
 8284	schluchzen	to sob
-8285	säcke	sack
+8285	säcke	the sack; ellipsis of Hodensack
 8286	psychopath	psychopath
 8287	bezeugen	to witness, to testify
 8288	massage	massage
@@ -8336,7 +8336,7 @@ rank	word	english
 8335	gesunken	to sink; to submerge; to set; to fall from the sky
 8336	fernbedienung	remote control
 8337	verstärkt	to reinforce
-8338	element	element
+8338	element	element; essential component
 8339	verlegenheit	embarrassment
 8340	metro	metro
 8341	bruderschaft	fraternity
@@ -8350,7 +8350,7 @@ rank	word	english
 8349	gegenstände	object, item, thing, article
 8350	gebildet	educated
 8351	rast	rest, a pause, a halt; to stop a march, hike or journey for…
-8352	regiment	regiment
+8352	regiment	leadership, command, rule, regime
 8353	kostenlos	for free, free of charge
 8354	ausschuss	board, committee
 8355	dvd	DVD
@@ -8362,7 +8362,7 @@ rank	word	english
 8361	lenkt	to steer, drive
 8362	durchdrehen	to freak out, to snap, to panic
 8363	ausgelassen	exuberant
-8364	tango	tango
+8364	tango	pilsner mixed with grenadine or with one of the red soft…
 8365	respektlos	disrespectful
 8366	stripperin	stripper
 8367	hengst	stallion
@@ -8472,7 +8472,7 @@ rank	word	english
 8471	errichten	to build, to erect
 8472	stapel	stack, batch
 8473	reparatur	repair, mending
-8474	pike	pike
+8474	pike	the tip of the foot or shoe
 8475	reste	rest, remainder, remnant
 8476	übereinstimmung	agreement
 8477	entwurf	draft
@@ -8592,7 +8592,7 @@ rank	word	english
 8591	runterkommen	clipping of herunterkommen
 8592	tragt	to carry, to bear
 8593	spart	to save up; to accumulate, to put aside
-8594	bälle	ball
+8594	bälle	pass, play
 8595	fahrzeuge	vehicle
 8596	zähl	to count
 8597	verehrer	lover
@@ -8716,7 +8716,7 @@ rank	word	english
 8715	reichte	to reach
 8716	kreativ	creative
 8717	höhlen	to hollow out
-8718	quark	quark
+8718	quark	nonsense; rubbish; baloney
 8719	zigeuner	Gypsy, member of the Roma, Romani person
 8720	schnarchen	to snore
 8721	ärgerlich	crossly, angrily
@@ -8818,7 +8818,7 @@ rank	word	english
 8817	brei	mash; mush; porridge; any semisolid food
 8818	antwortete	to answer, to reply
 8819	fäden	yarn, thread
-8820	coolen	cool
+8820	coolen	cool, calm, easy-going
 8821	schämst	to be ashamed or embarrassed, bashful
 8822	mehl	flour; meal
 8823	vollem	full; filled
@@ -8827,7 +8827,7 @@ rank	word	english
 8826	änderung	change, modification
 8827	überwachungskameras	surveillance camera
 8828	derer	who; that; which
-8829	blinder	blind
+8829	blinder	cloudy
 8830	durchzuführen	to perform, to conduct
 8831	parlament	parliament
 8832	direkte	direct, straight, without deviation or interruption
@@ -8844,7 +8844,7 @@ rank	word	english
 8843	seuche	a disease, usually infectious, that is seen as dangerous…
 8844	zauberspruch	magic spell
 8845	läufer	to walk; to jog; to run
-8846	drive	drive
+8846	drive	vitality, momentum
 8847	effektiv	effective
 8848	nord	the north
 8849	hu	an expression of fear or horror
@@ -8871,7 +8871,7 @@ rank	word	english
 8870	ausgestattet	equipped, endowed, provided, furnished
 8871	reiße	to tear; to pull apart; to rip
 8872	nachdenke	to think, to reflect, to ponder
-8873	parks	park
+8873	parks	park, grounds
 8874	anstrengen	to make an effort, to work hard at something, to labour
 8875	richterin	female judge
 8876	bindet	to bind, to tie, to fasten something by means of a string…
@@ -9100,7 +9100,7 @@ rank	word	english
 9099	seins	existence, being, essence
 9100	genauen	exact
 9101	wiegen	to weigh; to be of a certain weight
-9102	labyrinth	labyrinth
+9102	labyrinth	labyrinth, maze
 9103	währenddessen	meanwhile, in the meantime
 9104	töricht	foolish
 9105	ausrauben	to rob, to steal
@@ -9164,7 +9164,7 @@ rank	word	english
 9163	adrenalin	adrenaline
 9164	frühere	early
 9165	missbrauch	abuse, cruel treatment
-9166	seminar	seminar
+9166	seminar	department
 9167	drittens	thirdly
 9168	biegen	to bend something
 9169	demonstration	demonstration
@@ -9183,7 +9183,7 @@ rank	word	english
 9182	speisen	to dine, to eat in a cultured setting
 9183	verfallen	to expire
 9184	gittern	lattice, grid, mesh, grating, bars
-9185	marks	mark
+9185	marks	a usually fortified area along the border; marches
 9186	irrenhaus	asylum, madhouse, insane asylum, lunatic asylum
 9187	rechenschaft	account, accountability
 9188	bloßen	mere, sole
@@ -9204,7 +9204,7 @@ rank	word	english
 9203	darlehen	loan
 9204	scheidet	to dissolve; to divorce
 9205	gestimmt	to be right, to be correct, to be proper, to be true
-9206	standard	standard
+9206	standard	set piece
 9207	senatorin	senator
 9208	vormittag	mid-morning, late morning, forenoon
 9209	ratet	to advise; to recommend
@@ -9376,7 +9376,7 @@ rank	word	english
 9375	bug	bow, prow, nose
 9376	italienischen	Italian
 9377	löste	to loose; to loosen; to detach; to remove
-9378	apachen	Apache
+9378	apachen	Apache, apache
 9379	spezialisten	specialist
 9380	nazi	a member or supporter of the Nazi Party, Nazism, or…
 9381	tapferkeit	bravery
@@ -9452,7 +9452,7 @@ rank	word	english
 9451	freud	apocopic form of Freude
 9452	äußeren	outer, outside, exterior
 9453	grausame	cruel; heartless; atrocious; callous
-9454	cooles	cool
+9454	cooles	cool, calm, easy-going
 9455	bakterien	bacterium
 9456	feindes	enemy, fiend, foe
 9457	rezeption	reception
@@ -9553,7 +9553,7 @@ rank	word	english
 9552	klatsch	a smacking/slapping sound, made by hitting, palm down, a…
 9553	schicksals	destiny, fate
 9554	hartnäckig	obstinate, stubborn
-9555	bars	bar
+9555	bars	night club
 9556	sofortige	immediate
 9557	küstenwache	coast guard
 9558	entsetzt	to shock, horrify, appall
@@ -9566,7 +9566,7 @@ rank	word	english
 9565	wundervoller	wonderful
 9566	deprimierend	depressing, dismal, melancholic
 9567	onkels	uncle
-9568	jade	jade
+9568	jade	an artifact made of jade
 9569	pol	pole
 9570	bedankt	to thank, to express thanks
 9571	harmonie	harmony
@@ -9657,7 +9657,7 @@ rank	word	english
 9656	kobra	cobra
 9657	beantragen	to apply for
 9658	muscheln	bivalve; seashell
-9659	spot	spot
+9659	spot	clipping of Spotlight
 9660	bewerbung	application, candidature
 9661	biologische	biological
 9662	raffiniert	refined
@@ -9696,10 +9696,10 @@ rank	word	english
 9695	brenner	burner
 9696	surfen	to surf
 9697	hintergehen	to deceive, to betray, to cheat, to hoodwink, to backstab
-9698	hörner	horn
+9698	hörner	cornet
 9699	fürchtest	to fear
 9700	reaktor	reactor
-9701	run	run
+9701	run	A rush or stampede of people, as caused by scarcity
 9702	zweieinhalb	two and a half
 9703	gebrochenen	broken
 9704	ansage	announcement
@@ -9846,7 +9846,7 @@ rank	word	english
 9845	aufbewahren	to keep, to preserve
 9846	diamant	diamond
 9847	herauskommen	to come out
-9848	poster	poster
+9848	poster	Someone who writes something in a social network
 9849	gräber	grave
 9850	jedesmal	Formerly standard spelling of jedes Mal which was…
 9851	angepasst	adjusted, adapted

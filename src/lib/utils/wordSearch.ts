@@ -67,7 +67,8 @@ function firstChar(key: string): string {
 	return [...key.toLowerCase()][0] ?? '_';
 }
 
-function bucket(key: string, split: string[]): string {
+/** Exported so the prerender can resolve the same shard the browser would. */
+export function bucket(key: string, split: string[]): string {
 	const c = firstChar(key);
 	if (!PER_LETTER.test(c)) {
 		let h = 0;

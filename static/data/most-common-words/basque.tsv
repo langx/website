@@ -531,7 +531,7 @@ rank	word	english
 530	ezkontza	marriage, matrimony
 531	honetatik	this
 532	ederrak	beautiful, pretty, handsome
-533	lehendakari	lehendakari
+533	lehendakari	president, prime minister
 534	gaixorik	sick, ill, crank
 535	honetako	this
 536	ahoa	mouth
@@ -678,13 +678,13 @@ rank	word	english
 677	adiskide	friend
 678	azterketa	examination, test
 679	barne	interior
-680	baitan	Used to mark the local cases of animate nouns
+680	baitan	at, in
 681	agure	old man
 682	hautatu	to choose, select
 683	harri	glass
 684	ehun	hundred
 685	bezero	customer
-686	paper	paper
+686	paper	sheet of paper
 687	lapurreta	rob, theft
 688	baztertu	to leave for a lonely place, to go somewhere in order to be…
 689	bata	one, someone
@@ -1805,7 +1805,7 @@ rank	word	english
 1804	intsektu	insect
 1805	hozkailu	refrigerator; fridge
 1806	antzara	goose
-1807	zetaren	zeta
+1807	zetaren	silk
 1808	askatasunean	freedom, liberty
 1809	orkatila	ankle
 1810	karbono	carbon
@@ -1850,7 +1850,7 @@ rank	word	english
 1849	salda	broth
 1850	mando	mule
 1851	abusatu	to abuse, to misuse
-1852	zeta	zeta
+1852	zeta	silk
 1853	bizar	beard
 1854	zehaztasun	precision
 1855	aukeraketa	selection
@@ -2086,7 +2086,7 @@ rank	word	english
 2085	apaldu	to lower, drop down
 2086	arkume	lamb
 2087	sehaska	A cradle
-2088	baitako	Used to mark the local cases of animate nouns
+2088	baitako	at, in
 2089	ikasgela	classroom
 2090	sugegorri	viper
 2091	bik	two
@@ -2318,7 +2318,7 @@ rank	word	english
 2317	alaben	daughter
 2318	ostruka	ostrich
 2319	ontzien	container
-2320	curriculum	curriculum
+2320	curriculum	curriculum vitae
 2321	etxeetako	house
 2322	piku	fig
 2323	zapaldua	oppressed
@@ -2506,7 +2506,7 @@ rank	word	english
 2505	gramatika	grammar
 2506	abadia	abbey
 2507	semek	son
-2508	txotx	Used to announce that the barrel in which cider is kept is…
+2508	txotx	toothpick
 2509	lauk	flat, level
 2510	igarobide	way, passage
 2511	ametsek	dream
@@ -2578,7 +2578,7 @@ rank	word	english
 2577	hipopotamo	hippo; hippopotamus
 2578	eskabide	application, request
 2579	santutegi	sanctuary, shrine
-2580	baitatik	Used to mark the local cases of animate nouns
+2580	baitatik	at, in
 2581	baratze	garden, vegetable garden
 2582	alkandorak	shirt
 2583	amatatu	to turn off, to put off

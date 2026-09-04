@@ -9,7 +9,7 @@ rank	word	english
 8	a	to, at
 9	per	for
 10	è	Used as a copula. to be
-11	in	in
+11	in	to
 12	una	one
 13	mi	Used as ethical dative
 14	sono	Used as a copula. to be
@@ -21,7 +21,7 @@ rank	word	english
 20	lo	the form of il that is used before the so-called impure…
 21	cosa	what?
 22	con	with, together
-23	no	no
+23	no	not
 24	le	the
 25	ti	you; thou
 26	se	if
@@ -40,7 +40,7 @@ rank	word	english
 39	solo	only, just, but, alone, merely
 40	mio	my; of mine
 41	al	contraction of a + il, literally “to the, at the”
-42	me	me
+42	me	Honorific alternative letter-case form of me, sometimes…
 43	tutto	all
 44	c'	apocopic form of ci
 45	te	you, thee
@@ -183,7 +183,7 @@ rank	word	english
 182	qualche	few
 183	dispiace	to upset, displease
 184	penso	to think
-185	ecco	used to call someone's attention to suddenly approaching or…
+185	ecco	used as an affirmative response to a call or command; here…
 186	parlare	to talk, to speak
 187	tra	between
 188	mamma	mom/mum
@@ -234,7 +234,7 @@ rank	word	english
 233	oggi	today
 234	questi	the aforementioned person
 235	piace	to be pleasing to
-236	idea	idea
+236	idea	to invent, conceive, think up, ideate
 237	siete	Used as a copula. to be
 238	ai	contraction of a i; to the, at the
 239	avevo	to have
@@ -941,13 +941,13 @@ rank	word	english
 940	terribile	terrible, terrifying, fearful
 941	ritardo	delay, lag
 942	attento	careful, close, focusing
-943	bar	bar
+943	bar	café
 944	sembri	to seem, to look, to appear
 945	fallo	fault, error
 946	dimenticato	to forget
 947	bisogna	thing, matter, affair
 948	impossibile	impossible
-949	cioè	used to rephrase, clarify or correct something previously…
+949	cioè	namely
 950	studio	to study
 951	stessi	same, equal
 952	arma	weapon, arms
@@ -959,7 +959,7 @@ rank	word	english
 958	quante	how much, how many, however much, however many
 959	guai	woe!
 960	intorno	around, round
-961	video	video
+961	video	display
 962	manca	left hand
 963	esserci	to be at a place, to be there; there be, it to be
 964	grosso	big, large
@@ -1205,7 +1205,7 @@ rank	word	english
 1204	coi	contraction of con i; with the
 1205	codice	code
 1206	lato	side
-1207	hotel	hotel
+1207	hotel	the letter H in the Italian spelling alphabet
 1208	maggiore	bigger, greater
 1209	farsi	to do
 1210	uniti	united
@@ -1213,7 +1213,7 @@ rank	word	english
 1212	eccolo	compound of ecco with lo
 1213	carne	meat, flesh
 1214	lavorato	to work; to labor
-1215	star	star
+1215	star	asterisk, pronunciation of * symbol
 1216	umano	human
 1217	certa	certain, sure
 1218	miglior	apocopic form of migliore
@@ -1290,7 +1290,7 @@ rank	word	english
 1289	belle	nice, fair, fine, pleasant; beautiful
 1290	m'	apocopic form of mi
 1291	pochi	little, not much
-1292	san	san
+1292	san	apocopic form of santo saint
 1293	clienti	customer
 1294	periodo	period
 1295	energia	energy
@@ -1301,7 +1301,7 @@ rank	word	english
 1300	posti	place, spot
 1301	accidenti	expression of anger; damn it!
 1302	bellissimo	nice, fair, fine, pleasant; beautiful
-1303	quegli	used to refer to someone distant in terms of space or time…
+1303	quegli	that, those
 1304	dovrebbero	to owe
 1305	vivi	to live; to be alive
 1306	speranza	hope
@@ -1766,7 +1766,7 @@ rank	word	english
 1765	indagine	investigation, inquiry, probe, enquiry
 1766	pensava	to think
 1767	passata	past
-1768	super	super
+1768	super	the best
 1769	eppure	and yet, but, all the same, still
 1770	fottuto	bloody, fucking
 1771	propria	one's, one's own, her, its, their
@@ -1842,7 +1842,7 @@ rank	word	english
 1841	genio	genius
 1842	caduto	to fall
 1843	corri	to run
-1844	cinema	cinema
+1844	cinema	cinema, movie theater, film theatre
 1845	t	abbreviation of torre
 1846	passati	past
 1847	tetto	roof
@@ -1856,7 +1856,7 @@ rank	word	english
 1855	conosciamo	to know, to meet, to experience
 1856	vissuto	to live; to be alive
 1857	piaci	to be pleasing to
-1858	internet	internet
+1858	internet	web, internet
 1859	lettere	letter
 1860	occupato	occupied, busy, engaged
 1861	sposata	married, wedded
@@ -1913,7 +1913,7 @@ rank	word	english
 1912	comincia	to begin, to start, to commence, to set about
 1913	orologio	clock, watch
 1914	eravate	Used as a copula. to be
-1915	fan	fan
+1915	fan	apocopic form of fanno
 1916	erba	grass
 1917	viso	face
 1918	bevi	to drink
@@ -2005,7 +2005,7 @@ rank	word	english
 2004	invitato	guest
 2005	regola	rule, norm, code, principle, order
 2006	servizi	service, serve
-2007	zero	zero
+2007	zero	nil
 2008	ruolo	role
 2009	cavalli	horse
 2010	c	abbreviation of cavallo
@@ -2119,7 +2119,7 @@ rank	word	english
 2118	finora	so far, till now, up to now, yet
 2119	membro	member
 2120	lupo	wolf
-2121	gas	gas
+2121	gas	carbon dioxide
 2122	macchine	machine
 2123	risposte	answer, reply, response, feedback
 2124	lotta	fight, struggle
@@ -2197,7 +2197,7 @@ rank	word	english
 2196	parlano	to talk, to speak
 2197	scherzi	joke, jest, trick, hoax, frolic
 2198	trucco	makeup
-2199	lord	lord
+2199	lord	gentleman
 2200	trovate	to find
 2201	t'	apocopic form of ti
 2202	dovevamo	to owe
@@ -2225,7 +2225,7 @@ rank	word	english
 2224	credito	credit
 2225	recente	recent
 2226	dovrà	to owe
-2227	pizza	pizza
+2227	pizza	reel
 2228	fatemi	compound of fate, the second-person plural imperative form…
 2229	amato	to love, to like
 2230	telecamere	television camera
@@ -2685,7 +2685,7 @@ rank	word	english
 2684	gusto	taste
 2685	compiti	poised
 2686	esca	to go out, leave, exit
-2687	tunnel	tunnel
+2687	tunnel	nutmeg
 2688	cercano	to look for
 2689	assicurazione	assurance
 2690	foresta	forest
@@ -2714,7 +2714,7 @@ rank	word	english
 2713	tornerà	to return, to come back
 2714	tizi	man, someone, guy, what's-his-name
 2715	belli	nice, fair, fine, pleasant; beautiful
-2716	van	van
+2716	van	apocopic form of vanno
 2717	grazia	grace
 2718	red	a type of rice
 2719	dicessi	to utter with one's voice
@@ -2755,7 +2755,7 @@ rank	word	english
 2754	vivono	to live; to be alive
 2755	esco	to go out, leave, exit
 2756	west	West
-2757	sport	sport
+2757	sport	hobby, pastime
 2758	vederci	compound of the infinitive vedere with ci
 2759	sfortunatamente	unfortunately, unluckily
 2760	contatti	contact
@@ -2884,7 +2884,7 @@ rank	word	english
 2883	biblioteca	library
 2884	tornerò	to return, to come back
 2885	settore	sector
-2886	robot	robot
+2886	robot	bot
 2887	canta	to sing
 2888	portano	to bring, fetch, take, carry
 2889	veleno	poison
@@ -3004,7 +3004,7 @@ rank	word	english
 3003	scoprirlo	compound of the infinitive scoprire with lo
 3004	maledetta	cursed, damned
 3005	deserto	deserted, desert
-3006	golf	golf
+3006	golf	jumper, cardigan
 3007	mando	to send, forward, dispatch, transmit
 3008	ringraziamento	thanks, thank-you
 3009	ricordati	second-person singular imperative of ricordarsi
@@ -3207,7 +3207,7 @@ rank	word	english
 3206	bassa	low
 3207	territorio	territory
 3208	raccogliere	to pick up, glean
-3209	chef	chef
+3209	chef	a sophisticated cook
 3210	combattimento	battle, fight
 3211	bruciato	burnt
 3212	larga	wide, broad
@@ -3242,7 +3242,7 @@ rank	word	english
 3241	uniforme	uniform
 3242	barba	beard
 3243	tramite	by means of, by, through, using, by way of
-3244	e-mail	e-mail
+3244	e-mail	e-mail address
 3245	quanta	how much, how many, however much, however many
 3246	mezzi	half
 3247	primavera	spring
@@ -3435,7 +3435,7 @@ rank	word	english
 3434	girato	to turn, stir, turn over
 3435	felicità	happiness
 3436	fresca	fresh
-3437	album	album
+3437	album	scrapbook
 3438	pasto	meal
 3439	comincio	to begin, to start, to commence, to set about
 3440	abbi	to have
@@ -3560,7 +3560,7 @@ rank	word	english
 3559	tocco	to touch
 3560	florida	thriving, flourishing, blooming, healthy, florid
 3561	conosca	to know, to meet, to experience
-3562	mister	mister
+3562	mister	coach
 3563	disagio	discomfort, usually mental rather than physical
 3564	parlami	compound of parla, the second-person singular imperative…
 3565	coma	coma
@@ -3987,7 +3987,7 @@ rank	word	english
 3986	carattere	character, letter
 3987	stando	to stay, remain
 3988	vincitore	winning, victorious
-3989	dose	dose
+3989	dose	quantity, amount, measure
 3990	abita	to live, to reside
 3991	curare	to treat, cure
 3992	mollare	to let go, get off
@@ -4007,7 +4007,7 @@ rank	word	english
 4006	mandata	mandate, charge, commission, task
 4007	campeggio	camping
 4008	banco	desk
-4009	euro	euro
+4009	euro	synonym of scirocco: Eurus
 4010	possibili	possible
 4011	patetico	pathetic, pitiful
 4012	monte	mountain, mount
@@ -4080,7 +4080,7 @@ rank	word	english
 4079	operatoria	operating
 4080	peccati	sin
 4081	erica	heather
-4082	negro	negro
+4082	negro	nigger
 4083	indagare	to investigate, scrutinize something
 4084	capacita	to persuade
 4085	giallo	yellow
@@ -4117,7 +4117,7 @@ rank	word	english
 4116	secco	dry
 4117	svegli	awake
 4118	rimediare	to remedy, to fix
-4119	topi	topi
+4119	topi	mouse, rat
 4120	bambola	doll, dolly
 4121	hamburger	patty
 4122	presumo	to guess, to presume, to suppose
@@ -4697,7 +4697,7 @@ rank	word	english
 4696	seminterrato	basement
 4697	beviamo	to drink
 4698	muscoli	muscle
-4699	poker	poker
+4699	poker	four of a kind
 4700	ascoltatemi	compound of ascoltate, the second-person plural imperative…
 4701	preda	prey
 4702	mancava	to be lacking, to be missing
@@ -4725,7 +4725,7 @@ rank	word	english
 4724	lavare	to wash
 4725	presentano	to present
 4726	svelta	quick
-4727	gene	gene
+4727	gene	cheek
 4728	cinquanta	fifty
 4729	boschi	woodland
 4730	sorellina	smaller or younger sister
@@ -4771,7 +4771,7 @@ rank	word	english
 4770	medio	middle finger, tall man
 4771	prometti	to promise
 4772	divertirsi	to enjoy oneself, to have fun, to have a good time
-4773	cocktail	cocktail
+4773	cocktail	cocktail party
 4774	scontato	discounted
 4775	cassetto	drawer
 4776	permetti	to allow, to let, to permit, to authorize, to entitle
@@ -4833,14 +4833,14 @@ rank	word	english
 4832	sentiero	path, trail
 4833	arriveremo	to arrive, to come, to reach
 4834	preoccupazione	preoccupation, worry, cares, concern
-4835	scotch	scotch
+4835	scotch	adhesive tape
 4836	muova	to move
 4837	insegnanti	teacher, master
 4838	vedeva	to see
 4839	mostrarti	compound of the infinitive mostrare with ti
 4840	bagagliaio	boot, trunk
 4841	incidenti	incident
-4842	lire	lira
+4842	lire	two cents, farthing, a worthless amount or in the negative…
 4843	ripresa	resumption
 4844	supermercato	supermarket
 4845	pulizie	cleaning
@@ -4873,7 +4873,7 @@ rank	word	english
 4872	positiva	positive
 4873	collaborazione	cooperation, collaboration, teamwork, contribution
 4874	radiazioni	radiation
-4875	festival	festival
+4875	festival	worker's festival
 4876	vacca	cow
 4877	soddisfatto	satisfied, pleased
 4878	diventerà	to become, to go, to turn
@@ -5042,7 +5042,7 @@ rank	word	english
 5041	piene	full
 5042	centesimo	hundredth
 5043	occupando	to occupy, take over, squat in
-5044	rotelle	rotelle
+5044	rotelle	small wheel; roller; roller skate
 5045	soldo	penny, cent
 5046	nè	misspelling of né
 5047	fagli	compound of fa, the second-person singular imperative form…
@@ -5051,7 +5051,7 @@ rank	word	english
 5050	autostrada	motorway, expressway, freeway, highway, turnpike
 5051	complimento	congratulations
 5052	riuscirci	compound of the infinitive riuscire with ci
-5053	bingo	bingo
+5053	bingo	bingo!
 5054	darai	to give
 5055	seri	serious
 5056	tieniti	to hold, lean
@@ -5186,7 +5186,7 @@ rank	word	english
 5185	andò	to go
 5186	certificato	certificate
 5187	dentista	dentist
-5188	routine	routine
+5188	routine	rut
 5189	detesto	to detest, to loathe, to hate
 5190	porre	to put
 5191	guardava	to look at, to watch, to glance or gaze at
@@ -5269,7 +5269,7 @@ rank	word	english
 5268	fermarsi	to stop, arrest
 5269	potessero	can, could; to be able to
 5270	sconfiggere	to overcome, to defeat
-5271	clan	clan
+5271	clan	team
 5272	quì	misspelling of qui
 5273	indiana	Indian
 5274	morì	to die
@@ -5336,7 +5336,7 @@ rank	word	english
 5335	mosse	movement
 5336	togliermi	compound of the infinitive togliere with mi
 5337	concludere	to conclude, close, end, finish
-5338	diploma	diploma
+5338	diploma	to award or give a diploma to, to graduate
 5339	contenuto	restrained, suppressed
 5340	guadagni	to earn
 5341	riga	line
@@ -5474,7 +5474,7 @@ rank	word	english
 5473	telefonica	telephone, phone
 5474	riscontro	comparison
 5475	stiate	to stay, remain
-5476	nausea	nausea
+5476	nausea	to nauseate, to make sick
 5477	cristallo	crystal
 5478	chiari	bright, shiny
 5479	applauso	applause
@@ -5538,7 +5538,7 @@ rank	word	english
 5537	ego	ego
 5538	madonna	express anger, astonishment, fear etc
 5539	andarvene	compound of the infinitive andare with ve and ne
-5540	curriculum	curriculum
+5540	curriculum	curriculum vitae, CV; resume: summary of education and…
 5541	rendono	to give back, to return
 5542	budget	a budget
 5543	sindacato	syndicated
@@ -5747,7 +5747,7 @@ rank	word	english
 5746	sbattere	to beat
 5747	pescare	to fish
 5748	adolescenti	adolescent
-5749	formula	formula
+5749	formula	to formulate, to phrase
 5750	guadagna	to earn
 5751	delicata	delicate
 5752	costruzione	construction
@@ -5845,7 +5845,7 @@ rank	word	english
 5844	bancone	counter
 5845	ospedali	hospital
 5846	infinite	infinite
-5847	pro	pro
+5847	pro	for, in favor of/in favour of
 5848	verbale	verbal, spoken
 5849	innocenza	innocence, specifically
 5850	inferiore	inferior
@@ -6317,7 +6317,7 @@ rank	word	english
 6316	vendendo	to sell
 6317	delta	delta
 6318	mise	to put, to place, to lay, to set
-6319	tequila	tequila
+6319	tequila	peyote cactus
 6320	squali	shark
 6321	sposarci	compound of the infinitive sposare with ci
 6322	acquisto	purchase, acquisition
@@ -6482,7 +6482,7 @@ rank	word	english
 6481	bè	alternative form of beh
 6482	benone	well, nicely, OK, right
 6483	esclusiva	exclusive, scoop, sole right, patent
-6484	infantile	infantile
+6484	infantile	infantile puerile, childish, babyish
 6485	pacifico	peaceable, peaceful
 6486	butti	to throw, to toss, to fling, to chuck, to sling
 6487	caviglia	ankle
@@ -6573,7 +6573,7 @@ rank	word	english
 6572	amarti	compound of the infinitive amare with ti
 6573	voluta	deliberate, intentional
 6574	scrittura	handwriting
-6575	orchestra	orchestra
+6575	orchestra	band
 6576	scambiare	to exchange, swap, switch, bandy
 6577	imparando	to learn
 6578	tonnellate	tonne, ton
@@ -6762,7 +6762,7 @@ rank	word	english
 6761	feccia	dregs
 6762	braccialetto	small bracelet, armlet
 6763	pulizia	cleaning
-6764	audio	audio
+6764	audio	sound, volume, audio
 6765	privati	private, personal
 6766	trasforma	to change, transform, convert, turn
 6767	esposto	facing
@@ -6826,7 +6826,7 @@ rank	word	english
 6825	ringraziarmi	compound of the infinitive ringraziare with mi
 6826	benessere	well-being, wellness, health, fitness, welfare, affluence
 6827	raramente	rarely; seldom
-6828	lava	lava
+6828	lava	to wash
 6829	estrema	extreme, utmost, farthest, terminal, outermost
 6830	armate	armed
 6831	completare	to finish, complete, conclude
@@ -7137,7 +7137,7 @@ rank	word	english
 7136	inchiostro	ink
 7137	energie	energy
 7138	tantissime	feminine plural of tantissimo
-7139	gorilla	gorilla
+7139	gorilla	bodyguard
 7140	pentirai	to repent
 7141	vicinanze	proximity, closeness, nearness
 7142	metterà	to put, to place, to lay, to set
@@ -7348,7 +7348,7 @@ rank	word	english
 7347	rubate	to steal
 7348	separazione	separation, split-up, breakup, division, parting
 7349	splendore	splendour, glow
-7350	pony	pony
+7350	pony	pony express
 7351	tirarmi	compound of the infinitive tirare with mi
 7352	cappella	chapel
 7353	perdenti	loser
@@ -7640,7 +7640,7 @@ rank	word	english
 7639	emozionato	emotionally agitated; moved
 7640	asino	donkey, ass
 7641	mantello	cloak, cape
-7642	yacht	yacht
+7642	yacht	the letter Y in the Italian spelling alphabet
 7643	credibile	believable, credible
 7644	differente	different, differing, dissimilar, unlike
 7645	misero	to put, to place, to lay, to set
@@ -8261,7 +8261,7 @@ rank	word	english
 8260	esservi	synonym of esserci
 8261	finanziaria	investment company, finance company
 8262	dintorni	surroundings, environs, outskirts
-8263	plasma	plasma
+8263	plasma	to mould/mold, shape
 8264	prevede	to foresee, to anticipate
 8265	sigaro	cigar, cheroot
 8266	pancetta	paunch
@@ -8751,7 +8751,7 @@ rank	word	english
 8750	penseremo	to think
 8751	agisce	to act or operate
 8752	scenda	to descend, move downward; go down
-8753	fax	fax
+8753	fax	fax machine
 8754	ladra	thief, lift
 8755	afferra	to grab; to grasp
 8756	scadente	of poor quality, of low quality, shoddy
@@ -8763,7 +8763,7 @@ rank	word	english
 8762	montaggio	assembly
 8763	mastro	master
 8764	affamata	starving
-8765	yankee	Yankee
+8765	yankee	synonym of uccellina
 8766	razionale	rational
 8767	sportiva	sports; sporting
 8768	volano	to fly
@@ -9016,7 +9016,7 @@ rank	word	english
 9015	canaglia	scoundrel, rogue
 9016	promettente	promising
 9017	venissero	to come
-9018	tango	tango
+9018	tango	to touch
 9019	stressato	stressed
 9020	amatoriale	amateur, home-made
 9021	strambo	strange, queer, odd
@@ -9257,7 +9257,7 @@ rank	word	english
 9256	morirete	to die
 9257	posticino	a small, confined but comfortable place
 9258	telefonico	telephone, phone
-9259	snob	snob
+9259	snob	snobbish
 9260	catering	catering, specifically when renting a front-of-house crew…
 9261	reclamo	a complaint, a claim
 9262	atomica	atomic
@@ -9334,7 +9334,7 @@ rank	word	english
 9333	rendiamo	to give back, to return
 9334	comportano	to entail; to imply; to spell; to require
 9335	indossano	to put on, to don, to wear
-9336	aurora	aurora
+9336	aurora	dawn, sunrise
 9337	poteste	can, could; to be able to
 9338	calde	warm, hot
 9339	connesso	connected, associated, linked, related
@@ -9832,7 +9832,7 @@ rank	word	english
 9831	vitamine	vitamin
 9832	panda	panda, especially the giant panda
 9833	davo	to give
-9834	nova	nova
+9834	nova	alternative form of nuovo
 9835	sovrano	sovereign
 9836	magistrato	magistrate
 9837	giriamo	to turn, stir, turn over

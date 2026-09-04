@@ -25,6 +25,68 @@ export interface WordlistLanguage {
 	script: string;
 }
 
+/**
+ * ISO 639-3, because Tatoeba names its exports that way and ISO 639-1 does not
+ * reach far enough. A few are choices rather than conversions: Malay takes
+ * `zsm` (standard Malay), Norwegian `nob` (Bokmål, matching the word list),
+ * Persian `pes` (Iranian) and Chinese `cmn` (Mandarin).
+ */
+const ISO3: Record<string, string> = {
+	af: 'afr',
+	ar: 'ara',
+	bg: 'bul',
+	bn: 'ben',
+	bs: 'bos',
+	ca: 'cat',
+	cs: 'ces',
+	da: 'dan',
+	de: 'deu',
+	el: 'ell',
+	en: 'eng',
+	eo: 'epo',
+	es: 'spa',
+	et: 'est',
+	eu: 'eus',
+	fa: 'pes',
+	fi: 'fin',
+	fr: 'fra',
+	gl: 'glg',
+	he: 'heb',
+	hi: 'hin',
+	hr: 'hrv',
+	hu: 'hun',
+	hy: 'hye',
+	id: 'ind',
+	is: 'isl',
+	it: 'ita',
+	ka: 'kat',
+	ko: 'kor',
+	lt: 'lit',
+	lv: 'lvs',
+	mk: 'mkd',
+	ml: 'mal',
+	ms: 'zsm',
+	nl: 'nld',
+	no: 'nob',
+	pl: 'pol',
+	pt: 'por',
+	ro: 'ron',
+	ru: 'rus',
+	sk: 'slk',
+	sl: 'slv',
+	sq: 'sqi',
+	sr: 'srp',
+	sv: 'swe',
+	ta: 'tam',
+	te: 'tel',
+	tl: 'tgl',
+	tr: 'tur',
+	uk: 'ukr',
+	ur: 'urd',
+	vi: 'vie',
+	zh: 'cmn'
+};
+
 export const WORDLIST_LANGUAGES: WordlistLanguage[] = [
 	['af', 'Afrikaans', 'Afrikaans', 'af', 'Afrikaans', 'Latin'],
 	['ar', 'Arabic', 'العربية', 'ar', 'Arabic', 'Arabic'],
@@ -89,5 +151,6 @@ export const WORDLIST_LANGUAGES: WordlistLanguage[] = [
 	slug: name.toLowerCase().replace(/[^a-z]+/g, '-'),
 	freq,
 	wiktionary,
-	script
+	script,
+	iso3: ISO3[code]
 }));

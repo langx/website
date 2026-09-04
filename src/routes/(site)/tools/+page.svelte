@@ -5,14 +5,80 @@
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS, totalWords } from '$lib/data/most-common-words';
+	import { SAY_WORDS } from '$lib/data/say-words';
+	import { LANGUAGE_PAIRS } from '$lib/data/language-pairs';
+	import { ALPHABETS } from '$lib/data/alphabets';
 
 	const nf = new Intl.NumberFormat('en-US');
 
-	/** A few scripts as a sample of the range, not a ranking. */
-	const SAMPLE = ['es', 'ru', 'zh', 'ar', 'el', 'ko', 'he', 'hi'];
-	const sample = SAMPLE.map((c) => WORD_LISTS.find((l) => l.code === c)).filter(
+	/** Every script we carry, one language each, in the order they read best. */
+	const STRIP = [
+		'zh',
+		'ar',
+		'ru',
+		'ko',
+		'el',
+		'he',
+		'hi',
+		'ka',
+		'hy',
+		'ta',
+		'bn',
+		'te',
+		'ml',
+		'th',
+		'es',
+		'tr',
+		'vi',
+		'pl',
+		'is',
+		'fi'
+	];
+	const strip = STRIP.map((c) => WORD_LISTS.find((l) => l.code === c)).filter(
 		Boolean
 	) as typeof WORD_LISTS;
+
+	const tools = [
+		{
+			href: '/tools/most-common-words',
+			title: `The most common words in ${WORD_LISTS.length} languages`,
+			what: `${nf.format(
+				totalWords
+			)} words ranked by how often they are actually spoken, each with its meaning in English. Search every language at once, or download any slice as CSV or an Anki deck.`,
+			figure: nf.format(totalWords),
+			label: 'words'
+		},
+		{
+			href: '/tools/say',
+			title: `Say it in ${WORD_LISTS.length} languages`,
+			what: `${nf.format(
+				SAY_WORDS.length
+			)} everyday English words, each one shown across every language that has a common word for it — and how often that language uses it.`,
+			figure: nf.format(SAY_WORDS.length),
+			label: 'words, side by side'
+		},
+		{
+			href: '/tools/alphabet',
+			title: 'Alphabets',
+			what: `Every letter of ${ALPHABETS.length} writing systems — Greek, Cyrillic, Arabic, Hangul, Devanagari and the rest — with what each is called and roughly how it sounds.`,
+			figure: `${ALPHABETS.length}`,
+			label: 'writing systems'
+		},
+		{
+			href: '/tools/similar',
+			title: 'Languages that overlap',
+			what: `${LANGUAGE_PAIRS.length} pairs where words are written the same and mean the same — Czech and Slovak share 256 of their commonest two thousand. If you have one of a pair, this is the part you do not have to learn.`,
+			figure: `${LANGUAGE_PAIRS.length}`,
+			label: 'pairs of languages'
+		},
+		{
+			href: '/tools/vocabulary-test/spanish',
+			title: 'How many words do you know?',
+			what: 'Forty words spread from the commonest to the rarest, in any of the 53 languages. Mark the ones you know and see roughly how much of the language that covers.',
+			figure: '40',
+			label: 'words, two minutes'
+		}
+	];
 
 	const ld = JSON.stringify({
 		'@context': 'https://schema.org',
@@ -24,15 +90,13 @@
 			{
 				'@type': 'ItemList',
 				name: 'Free language tools from LangX',
-				numberOfItems: 1,
-				itemListElement: [
-					{
-						'@type': 'ListItem',
-						position: 1,
-						name: `The most common words in ${WORD_LISTS.length} languages`,
-						url: `${siteBaseUrl}/tools/most-common-words`
-					}
-				]
+				numberOfItems: tools.length,
+				itemListElement: tools.map((t, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: t.title,
+					url: `${siteBaseUrl}${t.href}`
+				}))
 			}
 		]
 	});
@@ -49,9 +113,9 @@
 <Seo
 	title="Free language tools"
 	path="/tools"
-	description="Free tools for language learners from LangX. No account, no sign-up — starting with frequency-ranked word lists for {WORD_LISTS.length} languages, {nf.format(
+	description="Free tools for language learners from LangX. No account, no sign-up — {nf.format(
 		totalWords
-	)} words, every one with its meaning in English."
+	)} words across {WORD_LISTS.length} languages, searchable, downloadable, and yours to keep."
 />
 
 <svelte:head>
@@ -59,36 +123,47 @@
 </svelte:head>
 
 <div class="container">
-	<header class="lede-block">
-		<p class="kicker">Free · no account</p>
-		<h1>Tools</h1>
+	<header class="hero">
+		<p class="kicker">Free · no account · yours to download</p>
+		<h1>Tools for the part<br />nobody sells you.</h1>
 		<p class="lede">
-			Small, free things worth keeping open in a tab while you learn. Nothing here asks you to sign
-			up, and everything here can be downloaded and kept.
+			The vocabulary, the frequency, the raw lists — the unglamorous half of learning a language,
+			free and open. Everything here works without signing up, and everything here can be taken with
+			you.
 		</p>
 	</header>
+</div>
 
-	<ul class="tools rows" role="list">
-		<li>
-			<a href="/tools/most-common-words">
-				<div class="head">
-					<h2>The most common words in {WORD_LISTS.length} languages</h2>
-					<span class="go" aria-hidden="true">
-						<svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
+<!-- Full-bleed: every script we carry, running edge to edge. -->
+<div class="strip" aria-hidden="true">
+	<div class="track">
+		{#each [...strip, ...strip] as l}
+			<ScriptDisc nativeName={l.nativeName} code={l.code} size={52} />
+		{/each}
+	</div>
+</div>
+
+<div class="container">
+	<ul class="tools" role="list">
+		{#each tools as t}
+			<li>
+				<a href={t.href}>
+					<span class="figure">
+						<span class="n tabular">{t.figure}</span>
+						<span class="unit">{t.label}</span>
 					</span>
-				</div>
-				<p class="what">
-					{nf.format(totalWords)} words ranked by how often they are actually spoken, each with its meaning
-					in English. Search every language at once, or download a whole list as a spreadsheet.
-				</p>
-				<div class="discs" aria-hidden="true">
-					{#each sample as l}
-						<ScriptDisc nativeName={l.nativeName} size={30} />
-					{/each}
-					<span class="more">+{WORD_LISTS.length - sample.length} more</span>
-				</div>
-			</a>
-		</li>
+					<span class="body">
+						<span class="head">
+							<h2>{t.title}</h2>
+							<span class="go" aria-hidden="true">
+								<svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
+							</span>
+						</span>
+						<span class="what">{t.what}</span>
+					</span>
+				</a>
+			</li>
+		{/each}
 	</ul>
 
 	<p class="note">
@@ -100,8 +175,8 @@
 	<section class="cta">
 		<h2 class="cta-h">Learning is easier with someone on the other end.</h2>
 		<p>
-			The tools are free and always will be. The app is where you put them to use — with a person
-			who speaks what you are learning.
+			The tools are free and stay free. The app is where you put them to use — with a person who
+			speaks what you are learning, and is learning what you speak.
 		</p>
 		<div use:ownsPrimary>
 			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
@@ -112,7 +187,7 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
-	.lede-block {
+	.hero {
 		padding: var(--space-2xl) 0 var(--space-lg);
 
 		@include for-tablet-portrait-down {
@@ -129,6 +204,10 @@
 		margin-bottom: var(--space-xs);
 	}
 
+	h1 {
+		max-width: 20ch;
+	}
+
 	.lede {
 		font-size: 1.125rem;
 		line-height: 1.55;
@@ -137,20 +216,126 @@
 		margin-top: var(--space-sm);
 	}
 
-	// Rows, not cards: the tool is a hairline-bounded row like every other list
-	// on the site, and the type does the work of making it feel substantial.
-	.rows {
+	// The one attention-grabbing object on the page, and it is the product's own
+	// material rather than decoration: every writing system we carry, bleeding to
+	// the viewport edges between two hairlines — the same device the homepage
+	// marquee uses.
+	.strip {
+		margin: var(--space-md) calc(50% - 50vw) var(--space-xl);
+		width: 100vw;
+		overflow: hidden;
+		border-top: 1px solid var(--color--border);
+		border-bottom: 1px solid var(--color--border);
+		padding: var(--space-sm) 0;
+		position: relative;
+
+		// Ground-coloured fades at each edge, the way the homepage marquee does
+		// it — rather than a mask, which would need a colour of its own.
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 10%;
+			z-index: 1;
+			pointer-events: none;
+		}
+
+		&::before {
+			left: 0;
+			background: linear-gradient(90deg, var(--color--page-background), transparent);
+		}
+
+		&::after {
+			right: 0;
+			background: linear-gradient(270deg, var(--color--page-background), transparent);
+		}
+	}
+
+	.track {
+		display: flex;
+		gap: var(--space-2xs);
+		width: max-content;
+		animation: slide 60s linear infinite;
+	}
+
+	@keyframes slide {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			// The list is rendered twice, so half a turn is a seamless loop.
+			transform: translateX(-50%);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.strip {
+			overflow-x: auto;
+			mask-image: none;
+		}
+		.track {
+			animation: none;
+		}
+	}
+
+	.tools {
 		border-top: 1px solid var(--color--border);
 
 		li {
 			border-bottom: 1px solid var(--color--border);
 		}
+
+		a {
+			display: grid;
+			grid-template-columns: 12rem 1fr;
+			gap: var(--space-lg);
+			padding: var(--space-lg) 0;
+			color: var(--color--text);
+		}
+
+		@include for-tablet-portrait-down {
+			a {
+				grid-template-columns: 1fr;
+				gap: var(--space-2xs);
+				padding: var(--space-md) 0;
+			}
+		}
 	}
 
-	.tools a {
+	.figure {
+		display: flex;
+		flex-direction: column;
+
+		.n {
+			font-family: var(--font--title);
+			font-weight: 800;
+			font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.375rem);
+			line-height: 1.05;
+			letter-spacing: -0.02em;
+		}
+
+		.unit {
+			font-size: 0.8125rem;
+			color: var(--color--text-quiet);
+			margin-top: 2px;
+		}
+
+		@include for-tablet-portrait-down {
+			flex-direction: row;
+			align-items: baseline;
+			gap: var(--space-2xs);
+
+			.unit {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.body {
 		display: block;
-		padding: var(--space-md) 0;
-		color: var(--color--text);
+		min-width: 0;
 	}
 
 	.head {
@@ -191,22 +376,10 @@
 	}
 
 	.what {
+		display: block;
 		color: var(--color--text-shade);
-		max-width: 62ch;
+		max-width: 64ch;
 		margin-top: var(--space-2xs);
-	}
-
-	.discs {
-		display: flex;
-		align-items: center;
-		gap: 6px;
-		margin-top: var(--space-sm);
-
-		.more {
-			margin-left: var(--space-3xs);
-			font-size: 0.8125rem;
-			color: var(--color--text-quiet);
-		}
 	}
 
 	.note {
@@ -239,7 +412,7 @@
 
 		p {
 			color: var(--color--text-shade);
-			max-width: 48ch;
+			max-width: 52ch;
 			margin: var(--space-2xs) 0 var(--space-md);
 		}
 	}

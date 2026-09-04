@@ -15,7 +15,7 @@ rank	word	english
 14	hvad	what
 15	med	with
 16	så	so, often with a following dependent result clause…
-17	for	for
+17	for	of
 18	mig	first person singular accusative personal pronoun; me
 19	der	there
 20	han	he
@@ -215,7 +215,7 @@ rank	word	english
 214	eneste	only, sole
 215	morgen	morning
 216	endnu	yet
-217	under	under
+217	under	underneath
 218	holde	to hold
 219	fandt	to find
 220	bruge	to use
@@ -267,7 +267,7 @@ rank	word	english
 266	derfor	therefore
 267	hallo	hello
 268	familie	family
-269	gange	Used to show that one has to multiply one or more numbers…
+269	gange	Used between two or more sizes to specify a target object,…
 270	gode	good
 271	tiden	time
 272	øjeblik	blink of an eye, moment
@@ -387,7 +387,7 @@ rank	word	english
 386	sjovt	funnily
 387	sæt	to put, place, set
 388	lang	long
-389	job	job
+389	job	a task
 390	inde	inside, indoors
 391	datter	daughter
 392	problemer	problem
@@ -428,7 +428,7 @@ rank	word	english
 427	velkommen	welcome
 428	kæft	mouth
 429	måtte	mat
-430	ringe	ring
+430	ringe	circle
 431	hader	to hate
 432	løb	to run
 433	stå	to stand
@@ -479,7 +479,7 @@ rank	word	english
 478	stort	large
 479	glem	to forget
 480	blod	blood
-481	live	live
+481	live	to enliven
 482	nummer	number
 483	the	alternative spelling of te
 484	kæreste	boyfriend or girlfriend; significant other
@@ -577,7 +577,7 @@ rank	word	english
 576	dræber	to kill
 577	unge	young
 578	ansigt	face
-579	ej	used to express surprise, irritation, reproach, annoyance…
+579	ej	own
 580	held	luck, fortune
 581	købe	buy
 582	værd	worth
@@ -601,7 +601,7 @@ rank	word	english
 600	oppe	try one's best; try to improve
 601	begyndte	to start, begin, commence, open
 602	hoved	head
-603	person	person
+603	person	character
 604	stykke	piece
 605	træt	tired
 606	by	town, city
@@ -1087,7 +1087,7 @@ rank	word	english
 1086	fjols	fool
 1087	ordre	order
 1088	vore	our/ours, plural of vor
-1089	form	form
+1089	form	shape
 1090	flyet	airplane, aeroplane
 1091	kontrol	control
 1092	fortsætter	to continue
@@ -1394,7 +1394,7 @@ rank	word	english
 1393	vidt	wide
 1394	bøger	book
 1395	målet	language
-1396	arm	arm
+1396	arm	unfortunate, poor
 1397	billedet	picture, image
 1398	høje	hill
 1399	bygningen	a building; closed structure with walls and a roof
@@ -1435,7 +1435,7 @@ rank	word	english
 1434	angrebet	attack
 1435	firma	a company, a firm
 1436	computer	computer
-1437	personer	person
+1437	personer	character
 1438	lyd	to sound, to be realized
 1439	aftenen	evening
 1440	ballade	ballad
@@ -1478,7 +1478,7 @@ rank	word	english
 1477	hvile	rest, repose
 1478	ordentligt	accurately, awfully, carefully, correctly, decently,…
 1479	æg	egg
-1480	rose	rose
+1480	rose	rosé
 1481	drik	drink
 1482	kaldes	to call, to refer to
 1483	sørger	to grieve, mourn, lament
@@ -1583,7 +1583,7 @@ rank	word	english
 1582	succes	success
 1583	bruges	to use
 1584	systemet	system
-1585	banken	bank
+1585	banken	only used in certain expressions
 1586	gæster	visitor, guest
 1587	historier	history
 1588	græde	cry, weep
@@ -1712,7 +1712,7 @@ rank	word	english
 1711	sovet	to sleep
 1712	aftalen	arrangement
 1713	løsning	an answer
-1714	fucking	fucking
+1714	fucking	fucking, intensifier, especially to indicate annoyance
 1715	papirer	paper
 1716	kaster	caste
 1717	nul	zero
@@ -1805,7 +1805,7 @@ rank	word	english
 1804	bygning	a building; closed structure with walls and a roof
 1805	sande	to sprinkle with sand; to strew sand
 1806	mandag	Monday
-1807	spore	spore
+1807	spore	spur
 1808	behold	to keep, retain, maintain
 1809	opdaget	to discover, detect
 1810	fløj	to fly
@@ -1858,7 +1858,7 @@ rank	word	english
 1857	skjuler	To hide, conceal
 1858	personlige	personal
 1859	folks	people, persons
-1860	banker	bank
+1860	banker	only used in certain expressions
 1861	diskutere	to discuss
 1862	sal	hall, room
 1863	risiko	A risk
@@ -1909,7 +1909,7 @@ rank	word	english
 1908	bande	gang
 1909	viden	to know
 1910	weekenden	weekend
-1911	video	video
+1911	video	video recorder
 1912	kortet	card
 1913	speciel	special
 1914	søndag	Sunday
@@ -1994,7 +1994,7 @@ rank	word	english
 1993	færdigt	finished, completed
 1994	regering	government; the executive body of a country's governmental…
 1995	afslutte	finish, end
-1996	grave	grave
+1996	grave	accent grave – accent grave, grave accent
 1997	hospital	hospital
 1998	hopper	mare
 1999	formål	purpose, cause
@@ -2260,8 +2260,8 @@ rank	word	english
 2259	ansvaret	responsibility
 2260	ofret	sacrifice
 2261	forskellen	difference
-2262	joke	joke
-2263	finger	finger
+2262	joke	to joke
+2263	finger	to simulate, fake, feign
 2264	tillader	to allow, permit
 2265	ungerne	young one
 2266	legetøj	toy
@@ -2274,7 +2274,7 @@ rank	word	english
 2273	jage	to hunt, shoot
 2274	river	rake
 2275	beskidt	dirty
-2276	post	post
+2276	post	post, mail
 2277	årsag	cause, reason
 2278	jakkesæt	a suit
 2279	råbe	to call, cry out, shout
@@ -2520,7 +2520,7 @@ rank	word	english
 2519	indsats	effort, exertion
 2520	bønner	request, plea
 2521	bestilt	to order
-2522	status	status
+2522	status	a company's statements of assets and liabilities
 2523	evighed	eternity
 2524	knogler	bone
 2525	regn	to rain
@@ -2695,7 +2695,7 @@ rank	word	english
 2694	bro	bridge
 2695	forræder	a traitor
 2696	fylde	volume
-2697	storm	storm
+2697	storm	to storm
 2698	eksamen	examination, exam
 2699	salt	salty, salt
 2700	lastbil	truck
@@ -2767,14 +2767,14 @@ rank	word	english
 2766	skinner	rail
 2767	sæk	A sack
 2768	faktum	fact
-2769	spare	spare
+2769	spare	to save
 2770	internettet	internet
 2771	svinet	hog, pig, swine
 2772	sange	song
 2773	kriger	warrior
 2774	ellen	alder
 2775	mødre	mother
-2776	race	race
+2776	race	breed
 2777	nytte	usefulness, utility
 2778	forandre	to change, alter
 2779	resultatet	result
@@ -2803,7 +2803,7 @@ rank	word	english
 2802	fødderne	foot
 2803	særlige	special; particular
 2804	tyskerne	German
-2805	base	base
+2805	base	headquarters
 2806	sport	sport
 2807	kram	hug
 2808	forfærdelige	terrible, awful
@@ -2948,7 +2948,7 @@ rank	word	english
 2947	klæde	cloth
 2948	katten	cat
 2949	fjernsyn	television
-2950	personen	person
+2950	personen	character
 2951	yo	yo
 2952	kæmp	fight, struggle, battle
 2953	ko	cow
@@ -3016,7 +3016,7 @@ rank	word	english
 3015	nævner	to mention
 3016	overraske	surprise to feel surprise
 3017	kastet	throw
-3018	total	total
+3018	total	two
 3019	fræk	mischievous
 3020	tilfældigvis	by chance
 3021	stående	to stand
@@ -3089,7 +3089,7 @@ rank	word	english
 3088	truffet	to meet, hook up
 3089	aftensmad	supper, dinner, evening meal
 3090	feber	fever
-3091	flag	flag
+3091	flag	fly a flag
 3092	smile	to smile
 3093	drager	draw
 3094	komplet	complete
@@ -3124,7 +3124,7 @@ rank	word	english
 3123	sangen	song
 3124	hot	modern, in, fashionable, trendy
 3125	udviklet	to develop
-3126	golf	golf
+3126	golf	a gulf
 3127	kanten	edge, border
 3128	forældrene	parent
 3129	guvernør	A governor
@@ -3152,7 +3152,7 @@ rank	word	english
 3151	suppe	soup
 3152	pistoler	handgun, pistol
 3153	vejr	weather
-3154	alibi	alibi
+3154	alibi	excuse, justification
 3155	forstand	intellect, intelligence, reason
 3156	stodder	A douchebag, motherfucker, man who behaves unpleasantly or…
 3157	kriminalitet	crime, criminality
@@ -3163,7 +3163,7 @@ rank	word	english
 3162	rejsen	journey
 3163	gribe	catch
 3164	fatte	to understand or grasp the true meaning or significance of…
-3165	apropos	apropos
+3165	apropos	aside
 3166	sæson	the time in which something is done
 3167	hvil	to rest
 3168	områder	area, region, territory
@@ -3190,7 +3190,7 @@ rank	word	english
 3189	skrig	scream
 3190	venligt	kind, kindly
 3191	sværdet	sword
-3192	juice	juice
+3192	juice	a container containing juice
 3193	gader	street
 3194	nætter	night
 3195	gade	street
@@ -3510,7 +3510,7 @@ rank	word	english
 3509	tænderne	lighter, igniter
 3510	passet	passport
 3511	kjolen	dress, gown
-3512	sporer	spore
+3512	sporer	spur
 3513	leverer	supply, furnish
 3514	ledig	unoccupied
 3515	lag	layer, coat
@@ -3717,7 +3717,7 @@ rank	word	english
 3716	værdig	worthy
 3717	kedelige	boring
 3718	tilståelse	admission, confession
-3719	roser	rose
+3719	roser	rosé
 3720	aber	monkey
 3721	familiens	family
 3722	buret	cage
@@ -3842,15 +3842,15 @@ rank	word	english
 3841	tårnet	tower
 3842	kaution	caution, security, guaranty
 3843	sloges	to beat, hit, knock
-3844	original	original
+3844	original	an original
 3845	brune	to brown
 3846	følelsen	feeling
 3847	cd	CD, compact disc
 3848	rosa	rose-coloured, rose
-3849	balance	balance
+3849	balance	a balance sheet
 3850	negle	to steal, nick
 3851	hemmeligheden	secret
-3852	tone	tone
+3852	tone	note
 3853	aske	ash
 3854	kysset	kiss
 3855	ere	to be
@@ -4084,7 +4084,7 @@ rank	word	english
 4083	sult	hunger
 4084	kunderne	customer
 4085	menneskene	human, human being, man
-4086	former	form
+4086	former	shape
 4087	våde	peril, disaster, damage
 4088	sporede	spur
 4089	mikrofon	microphone
@@ -4294,7 +4294,7 @@ rank	word	english
 4293	bart	bare, naked
 4294	februar	February
 4295	ivrig	eager
-4296	massage	massage
+4296	massage	a prostitute's services
 4297	fruen	wife
 4298	tårn	tower
 4299	forsinkelsen	delay
@@ -4413,7 +4413,7 @@ rank	word	english
 4412	bluse	blouse
 4413	pink	pink
 4414	udrydde	exterminate, wipe out
-4415	laser	laser
+4415	laser	rag
 4416	rødder	root
 4417	slukkede	put out
 4418	græsset	grass
@@ -4531,7 +4531,7 @@ rank	word	english
 4530	morgenmaden	breakfast
 4531	nag	grudge
 4532	biblen	Bible
-4533	pen	pen
+4533	pen	quill
 4534	nyttig	useful
 4535	plager	nuisance, pest
 4536	skaderne	damage, harm
@@ -4635,7 +4635,7 @@ rank	word	english
 4634	helten	hero
 4635	ignorer	to ignore
 4636	paven	pope
-4637	isolation	isolation
+4637	isolation	The act of isolating
 4638	papiret	paper
 4639	tapper	brave, courageous
 4640	cv	resumé, curriculum vitae
@@ -4707,7 +4707,7 @@ rank	word	english
 4706	benægte	To deny
 4707	badeværelse	bathroom
 4708	derimod	however
-4709	spores	spore
+4709	spores	spur
 4710	hagen	chin
 4711	hylde	shelf
 4712	tæer	toe
@@ -4768,7 +4768,7 @@ rank	word	english
 4767	bridge	bridge
 4768	forsæt	forethought, premeditation
 4769	ingeniør	engineer
-4770	march	march
+4770	march	march!
 4771	dødsårsagen	cause of death
 4772	inspiration	inspiration
 4773	vågnet	to awake, to wake
@@ -4790,7 +4790,7 @@ rank	word	english
 4789	vægten	weight
 4790	klogeste	sensible
 4791	vanskeligheder	difficulty
-4792	banket	bank
+4792	banket	only used in certain expressions
 4793	slæbt	to drag, lug
 4794	ofrer	sacrifice
 4795	øjeblikkelig	immediately, right away
@@ -4843,7 +4843,7 @@ rank	word	english
 4842	lokker	to tempt, entice, lure, seduce
 4843	tæv	a beating, thrashing
 4844	hegn	fence
-4845	social	social
+4845	social	sociable
 4846	blokerer	to block
 4847	fysik	physics
 4848	vådt	wet
@@ -5030,7 +5030,7 @@ rank	word	english
 5029	dødbringende	lethal, deadly, fatal
 5030	bibelen	Bible
 5031	fornøjelsen	something pleasurable
-5032	hacker	hacker
+5032	hacker	to hack
 5033	dæmp	to curb
 5034	kodeord	password
 5035	krogen	hook
@@ -5048,7 +5048,7 @@ rank	word	english
 5047	munk	monk
 5048	dødsstraf	capital punishment, death penalty
 5049	godkendelse	approval, endorsement
-5050	temperament	temperament
+5050	temperament	a temperamental nature; a temper
 5051	tilfældig	random
 5052	reserveret	reserved, distant, aloof
 5053	bønder	farmer
@@ -5065,8 +5065,8 @@ rank	word	english
 5064	befolkning	population
 5065	redning	rescue
 5066	kompagni	a company, partnership
-5067	bitter	bitter
-5068	banks	bank
+5067	bitter	A bitter form of an aquavit
+5068	banks	only used in certain expressions
 5069	sunde	collect oneself
 5070	riget	kingdom
 5071	forbyder	to disallow, forbid, ban
@@ -5355,7 +5355,7 @@ rank	word	english
 5354	vingerne	wing
 5355	rap	quack
 5356	kortere	short
-5357	depression	depression
+5357	depression	a depression
 5358	håndjernene	handcuff
 5359	englænder	Englishman
 5360	ottende	eighth
@@ -5364,7 +5364,7 @@ rank	word	english
 5363	drengens	boy, lad
 5364	logik	logic
 5365	vaskede	to wash
-5366	producer	producer
+5366	producer	to produce
 5367	arter	kind
 5368	løste	to solve
 5369	bedrag	deceit, deception, illusion
@@ -5733,7 +5733,7 @@ rank	word	english
 5732	specifik	specific
 5733	musiker	A musician
 5734	pumpe	pump
-5735	bat	bat
+5735	bat	to have effect
 5736	dokument	document
 5737	babser	boob, breast
 5738	gensyn	reunion
@@ -5783,7 +5783,7 @@ rank	word	english
 5782	nederen	which sucks, shitty
 5783	formodentlig	presumably
 5784	fremgang	progress
-5785	brutale	brutal
+5785	brutale	savage
 5786	itu	broken
 5787	indkøb	shopping, procurement
 5788	lister	a list
@@ -5834,7 +5834,7 @@ rank	word	english
 5833	revolutionen	revolution
 5834	ussel	miserable, wretched
 5835	aids	AIDS
-5836	sending	sending
+5836	sending	consignment, shipment
 5837	besværligt	with difficulty
 5838	bestil	imperativ of bestille
 5839	villa	a villa
@@ -5911,7 +5911,7 @@ rank	word	english
 5910	udfordringer	a challenge
 5911	udryddet	exterminate, wipe out
 5912	forhindret	to prevent, hinder, stop
-5913	arrangement	arrangement
+5913	arrangement	event, party
 5914	utroskab	unfaithfulness, infidelity, adultery
 5915	rustning	armament
 5916	tjald	weed, pot
@@ -5928,13 +5928,13 @@ rank	word	english
 5927	knob	knot
 5928	magter	power
 5929	hundesulten	very hungry
-5930	brutal	brutal
+5930	brutal	savage
 5931	anledning	cause, occasion, reason
 5932	litteratur	literature
 5933	vande	water
 5934	torturere	to torture
 5935	berømmelse	fame, renown
-5936	instrument	instrument
+5936	instrument	musical instrument
 5937	fraværende	absent
 5938	fjolset	fool
 5939	udskud	outcast, pariah
@@ -6129,7 +6129,7 @@ rank	word	english
 6128	aflyste	to cancel
 6129	bryllupper	wedding
 6130	leveren	liver
-6131	pasta	pasta
+6131	pasta	paste
 6132	hvorvidt	whether
 6133	romerske	Roman
 6134	gokke	bat
@@ -6178,7 +6178,7 @@ rank	word	english
 6177	biologi	biology
 6178	reglen	rule
 6179	frosne	to freeze
-6180	rosen	rose
+6180	rosen	rosé
 6181	sås	sow
 6182	længste	long
 6183	glæden	joy
@@ -6442,7 +6442,7 @@ rank	word	english
 6441	nisse	A small mythological being living in farmsteads; in modern…
 6442	høflighed	politeness, civility, courtesy
 6443	englænderne	Englishman
-6444	tonen	tone
+6444	tonen	note
 6445	magasin	store, storehouse, warehouse
 6446	gummi	rubber
 6447	gælden	debt, debts
@@ -6451,7 +6451,7 @@ rank	word	english
 6450	vegetar	vegetarian
 6451	skrækslagen	terrified
 6452	tændstikker	match
-6453	ringene	ring
+6453	ringene	circle
 6454	toiletter	toilet, bathroom
 6455	gab	mouth, jaws
 6456	spolere	to spoil, ruin, wreck, mess up
@@ -6479,7 +6479,7 @@ rank	word	english
 6478	spærrer	barrier
 6479	menstruation	menstruation
 6480	laks	salmon
-6481	racer	racer
+6481	racer	breed
 6482	drone	a drone
 6483	sørgelige	sad, evoking sadness
 6484	arbejderne	work
@@ -6671,7 +6671,7 @@ rank	word	english
 6670	marina	marina
 6671	måltider	meal
 6672	dybde	depth
-6673	bankerne	bank
+6673	bankerne	only used in certain expressions
 6674	optimistisk	optimistic
 6675	ruden	pane
 6676	pibe	pipe
@@ -6820,7 +6820,7 @@ rank	word	english
 6819	formular	form
 6820	forudså	foresee
 6821	kælenavn	pet name
-6822	polo	polo
+6822	polo	polo shirt
 6823	præstation	performance
 6824	ydmygelse	humiliation
 6825	slæng	posse, gang -- group of friends
@@ -6839,7 +6839,7 @@ rank	word	english
 6838	feer	fairy, fay
 6839	overlagt	deliberate, premeditated
 6840	bedrift	achievement
-6841	ocean	ocean
+6841	ocean	abundance
 6842	slaveri	slavery
 6843	diplomatisk	diplomatic
 6844	sorgen	sorrow, grief
@@ -6856,7 +6856,7 @@ rank	word	english
 6855	ædel	noble, chivalrous
 6856	konflikter	conflict
 6857	pomfritter	a single french fry; a chip
-6858	lime	lime
+6858	lime	to glue
 6859	vikar	a substitute worker, a substitute teacher
 6860	haglgevær	a shotgun
 6861	kirsebær	a cherry
@@ -6879,7 +6879,7 @@ rank	word	english
 6878	puden	cushion
 6879	forsinkede	to delay; to hold up
 6880	stangen	bar
-6881	brunch	brunch
+6881	brunch	to brunch
 6882	skelet	skeleton
 6883	akkurat	right, exactly
 6884	holt	wood, forest; coppice
@@ -6921,7 +6921,7 @@ rank	word	english
 6920	tatoveret	to tattoo
 6921	eliminere	to eliminate
 6922	lim	glue
-6923	like	like
+6923	like	to like
 6924	fladt	flat
 6925	nedtrykt	depressed, sad, moody
 6926	nederdel	skirt
@@ -6929,7 +6929,7 @@ rank	word	english
 6928	overlegen	superior, brilliant
 6929	hormoner	hormone
 6930	frossen	frozen
-6931	persons	person
+6931	persons	character
 6932	lågen	gate
 6933	lånet	loan
 6934	nedre	lower
@@ -6998,7 +6998,7 @@ rank	word	english
 6997	produktionen	production
 6998	bås	a booth
 6999	kategori	category
-7000	smiley	smiley
+7000	smiley	emoticon, smiley
 7001	væn	fair, beautiful, attractive
 7002	slurk	gulp, swallow
 7003	mellemnavn	an additional surname placed before the last name; a…
@@ -7203,7 +7203,7 @@ rank	word	english
 7202	desserten	dessert
 7203	sunget	sing
 7204	krænket	offend
-7205	cancer	cancer
+7205	cancer	Something perceived as bad
 7206	mental	mental
 7207	afføring	defecation, bowel movement, motion
 7208	afdelinger	part
@@ -7240,7 +7240,7 @@ rank	word	english
 7239	skallen	shell, valve
 7240	hallen	hall
 7241	pikslikker	cocksucker
-7242	toner	tone
+7242	toner	note
 7243	øjebliks	blink of an eye, moment
 7244	grisen	pig
 7245	forsamling	an assembly or congregation
@@ -7294,7 +7294,7 @@ rank	word	english
 7293	skovtur	picnic, not necessarily in a forest
 7294	slikket	candy, sweet
 7295	troldmænd	a male wizard
-7296	forme	form
+7296	forme	shape
 7297	vidunder	wonder, marvel
 7298	svulst	growth, tumor, cyst
 7299	efterlysning	all-points bulletin, missing person report
@@ -7354,7 +7354,7 @@ rank	word	english
 7353	prutter	fart
 7354	invadere	to invade
 7355	brudepige	bridesmaid
-7356	motivation	motivation
+7356	motivation	incentive
 7357	enighed	agreement, consensus
 7358	ignoreret	to ignore
 7359	comeback	comeback
@@ -7582,7 +7582,7 @@ rank	word	english
 7581	livmoderen	uterus
 7582	beskrivelsen	description
 7583	utålmodig	impatient
-7584	formen	form
+7584	formen	shape
 7585	retfærdige	just, fair
 7586	kirker	church
 7587	blinkede	blink
@@ -7654,7 +7654,7 @@ rank	word	english
 7653	slikkede	to lick
 7654	lasagne	lasagna, lasagne
 7655	pedel	caretaker, janitor
-7656	rapper	rapper
+7656	rapper	to quack like a duck
 7657	skrap	restrictive
 7658	fløjter	flute
 7659	legeplads	playground
@@ -7723,7 +7723,7 @@ rank	word	english
 7722	brikker	piece, man, counter
 7723	taberen	a loser
 7724	mønstret	figured, with a pattern
-7725	rust	rust
+7725	rust	corrosion
 7726	konsul	consul
 7727	bæver	beaver
 7728	sambo	monoecious
@@ -7734,7 +7734,7 @@ rank	word	english
 7733	grus	gravel
 7734	bestige	to climb
 7735	venners	friend
-7736	opium	opium
+7736	opium	activity that is stimulating and exiting
 7737	forsædet	a front seat
 7738	magasinet	store, storehouse, warehouse
 7739	pligten	duty
@@ -7837,7 +7837,7 @@ rank	word	english
 7836	hyrde	herder, herdsman, shepherd
 7837	sart	tender, vulnerable
 7838	pinde	stick
-7839	hundred	hundred
+7839	hundred	a unit of about one hundred
 7840	hævner	an avenger
 7841	spær	bar
 7842	blomstre	to flower, bloom, blossom
@@ -7961,7 +7961,7 @@ rank	word	english
 7960	opfatte	to perceive, grasp, understand
 7961	målløs	speechless, dumbfounded
 7962	butterfly	bowtie
-7963	dyt	Used in the expression ikke en dyt
+7963	dyt	The sound of a car horn
 7964	elefanten	elephant
 7965	værket	work
 7966	installere	to install
@@ -8105,7 +8105,7 @@ rank	word	english
 8104	marv	marrow
 8105	rigt	richly, abundantly
 8106	orkanen	a hurricane
-8107	neutral	neutral
+8107	neutral	uncontroversial
 8108	møderne	meeting
 8109	muskel	muscle
 8110	husarrest	house arrest
@@ -8157,12 +8157,12 @@ rank	word	english
 8156	barndommen	childhood
 8157	kapacitet	capacity
 8158	skrives	to write
-8159	pennen	pen
+8159	pennen	quill
 8160	egnen	area
 8161	sprøjtede	to squirt, spout, spurt
 8162	fjernbetjening	remote control
 8163	illusioner	illusion
-8164	basis	basis
+8164	basis	base
 8165	vagabond	vagabond
 8166	svovl	sulphur
 8167	ukrudt	weed
@@ -8309,7 +8309,7 @@ rank	word	english
 8308	obligatorisk	mandatory
 8309	kunstnerisk	artistic
 8310	tidsalder	an age, era
-8311	fold	fold
+8311	fold	crease
 8312	skytter	marksman
 8313	herefter	hereafter
 8314	kurerer	courier, messenger
@@ -8364,7 +8364,7 @@ rank	word	english
 8363	uddeler	to distribute, to hand out to multiple parties
 8364	analytiker	an analyst
 8365	finere	fine
-8366	note	note
+8366	note	to supply a board to a groove
 8367	berører	to touch
 8368	medbringe	to bring / take along, to bring with
 8369	nødvendighed	necessity, need
@@ -8382,7 +8382,7 @@ rank	word	english
 8381	regerer	to rule, to govern
 8382	bakkede	hilly
 8383	noterer	To note, record, jot down
-8384	skilling	skilling
+8384	skilling	small donation
 8385	downloade	download
 8386	bogstaverne	letter
 8387	rumvæsnerne	alien, space alien, extraterrestrial
@@ -8407,7 +8407,7 @@ rank	word	english
 8406	bevaret	preserve, protect
 8407	slide	labour; work hard
 8408	meldinger	announcement
-8409	arrester	arrest
+8409	arrester	confinement, detention
 8410	empati	empathy
 8411	havfrue	a mermaid
 8412	guldfisk	goldfish, Carassius auratus
@@ -8438,7 +8438,7 @@ rank	word	english
 8437	omfavne	embrace, hug
 8438	begejstrede	Excited and happy about something; enthusiastic
 8439	adskilte	to separate into separate parts
-8440	bronze	bronze
+8440	bronze	an abbreviation of bronzemedalje
 8441	forudsigelig	predictable
 8442	fyraften	quitting time
 8443	indrettet	to furnish for some purpose
@@ -8542,7 +8542,7 @@ rank	word	english
 8541	hektisk	hectic, busy
 8542	tapet	wallpaper
 8543	læben	lip
-8544	bankens	bank
+8544	bankens	only used in certain expressions
 8545	klappede	to clap, to applaud
 8546	skandaløst	scandalously
 8547	omtanke	consideration, care, thoughtfulness
@@ -8723,7 +8723,7 @@ rank	word	english
 8722	sod	soot
 8723	eder	an oath
 8724	forrykt	crazy, insane, mad, deranged
-8725	roserne	rose
+8725	roserne	rosé
 8726	greve	count
 8727	blide	trebuchet
 8728	mætte	full
@@ -8871,7 +8871,7 @@ rank	word	english
 8870	laboratorier	laboratory
 8871	bageri	a bakery, a baker's shop
 8872	mase	crush
-8873	straight	straight
+8873	straight	honest, reliable
 8874	ubestemt	indefinite, indeterminate, vague
 8875	rigets	kingdom
 8876	afvisning	rejection, refusal, dismissal, denial
@@ -9066,7 +9066,7 @@ rank	word	english
 9065	intellekt	intellect
 9066	respektabel	respectable
 9067	ømhed	tenderness, affection
-9068	tanks	tank
+9068	tanks	filling station, gas station, petrol station, service…
 9069	rude	pane
 9070	kulør	color, colour
 9071	efterligner	to imitate, copy
@@ -9121,7 +9121,7 @@ rank	word	english
 9120	forklares	to explain
 9121	bibelsk	biblical
 9122	ansættelse	employment
-9123	meditation	meditation
+9123	meditation	pondering
 9124	tyveriet	thievery, theft
 9125	totale	total
 9126	region	region
@@ -9129,7 +9129,7 @@ rank	word	english
 9128	appetitten	appetite
 9129	låses	lock
 9130	forretningsmænd	businessman
-9131	neutrale	neutral
+9131	neutrale	uncontroversial
 9132	dolke	stab
 9133	gigt	rheumatism, arthritis, gout
 9134	digitalt	digital
@@ -9145,7 +9145,7 @@ rank	word	english
 9144	jordskælvet	earthquake
 9145	skovens	forest
 9146	ordforråd	vocabulary, lexicon
-9147	distance	distance
+9147	distance	detachment
 9148	brøkdel	fraction
 9149	hackere	hacker
 9150	gladiator	gladiator
@@ -9168,7 +9168,7 @@ rank	word	english
 9167	romer	a Roman
 9168	forråd	supply, store, stock
 9169	sammenhold	cohesion, unity
-9170	relation	relation
+9170	relation	relationship
 9171	kik	alternative spelling of kigge
 9172	hemmelighederne	secret
 9173	goder	advantage, blessing, boon
@@ -9207,7 +9207,7 @@ rank	word	english
 9206	orientering	orientation
 9207	producent	a producer or manufacturer
 9208	modsige	to contradict
-9209	kiosken	kiosk
+9209	kiosken	convenience store, corner shop
 9210	gelé	jelly
 9211	rødderne	root
 9212	eddike	vinegar
@@ -9396,7 +9396,7 @@ rank	word	english
 9395	vorde	to become, get
 9396	rappe	to quack like a duck
 9397	stift	a diocese, a bishopric
-9398	roses	rose
+9398	roses	rosé
 9399	sympatisk	sympathetic, inspring like
 9400	flora	flora
 9401	halt	lame
@@ -9480,7 +9480,7 @@ rank	word	english
 9479	japaner	Japanese
 9480	øllet	beer
 9481	suveræn	sovereign
-9482	soda	soda
+9482	soda	soda water
 9483	debut	debut
 9484	kløe	an itch, itching
 9485	firkant	A quadrangle
@@ -9504,7 +9504,7 @@ rank	word	english
 9503	uenighed	disagreement, dissensus
 9504	elektriciteten	electricity
 9505	fordelt	distribute
-9506	matador	matador
+9506	matador	tycoon
 9507	opdagelser	A discovery
 9508	målt	to measure
 9509	mile	dune
@@ -9525,7 +9525,7 @@ rank	word	english
 9524	mønsteret	pattern
 9525	gavmildt	generous
 9526	pumpen	pump
-9527	personerne	person
+9527	personerne	character
 9528	indkørsel	driveway
 9529	renhed	cleanness, property of being clean, not dirty
 9530	brydning	breaking
@@ -9586,7 +9586,7 @@ rank	word	english
 9585	slikkepind	lollipop
 9586	respirator	respirator
 9587	ridderne	knight
-9588	viking	Viking
+9588	viking	Viking sea journey, Viking raid
 9589	ironien	irony
 9590	billiger	to approve of, to sanction
 9591	kulhydrater	carbohydrate
@@ -9843,7 +9843,7 @@ rank	word	english
 9842	tallerkenen	plate
 9843	bundtet	bundle
 9844	brudgommen	a bridegroom or groom
-9845	human	human
+9845	human	humane
 9846	forsinkelser	delay
 9847	pjække	to play truant, be absent from school or work without a…
 9848	kogte	to boil
@@ -9865,9 +9865,9 @@ rank	word	english
 9864	kosten	food
 9865	udskifter	a substitute
 9866	observatør	observer
-9867	tankene	tank
+9867	tankene	filling station, gas station, petrol station, service…
 9868	pollen	pollen
-9869	arrest	arrest
+9869	arrest	confinement, detention
 9870	lagnerne	sheet
 9871	forudser	foresee
 9872	titanium	titanium

@@ -561,7 +561,7 @@ rank	word	english
 560	mitu	several
 561	peavad	to keep, to hold
 562	annab	to give
-563	number	number
+563	number	number plate, licence plate, license plate
 564	kellelegi	someone, somebody
 565	tahtsid	to want
 566	hakkame	to start, begin
@@ -781,7 +781,7 @@ rank	word	english
 780	linn	city
 781	vea	mistake, error, fault
 782	külm	cold
-783	filmi	film
+783	filmi	photographic film
 784	jõudnud	to be able to, can
 785	leitnant	lieutenant in the Estonian and other national defence forces
 786	rõõm	joy, happiness
@@ -972,7 +972,7 @@ rank	word	english
 971	isale	father
 972	tulime	to come
 973	tõepoolest	indeed, really, truly
-974	mark	mark
+974	mark	tally mark
 975	selja	back
 976	võimas	powerful, strong, great, awesome
 977	aju	brain
@@ -1061,7 +1061,7 @@ rank	word	english
 1060	paremale	to the right, right
 1061	ohutu	safe, harmless
 1062	eelmine	previous
-1063	film	film
+1063	film	photographic film
 1064	osas	part
 1065	sult	you, thou
 1066	kah	also, too
@@ -1273,7 +1273,7 @@ rank	word	english
 1272	pealik	chief, leader
 1273	siga	pig
 1274	kuue	six
-1275	numbri	number
+1275	numbri	number plate, licence plate, license plate
 1276	ettevaatlikult	carefully, cautiously
 1277	tonni	ton, tonne
 1278	päevas	day
@@ -1485,7 +1485,7 @@ rank	word	english
 1484	mõistus	mind
 1485	tahtsime	to want
 1486	maitsev	delicious
-1487	filmis	film
+1487	filmis	photographic film
 1488	pruut	bride
 1489	varas	thief
 1490	viskan	to throw
@@ -1863,7 +1863,7 @@ rank	word	english
 1862	odav	cheap, inexpensive
 1863	tegelane	a figure or person who is active or heavily involved in…
 1864	rohtu	grass
-1865	filme	film
+1865	filme	photographic film
 1866	ettepanek	proposal, proposition
 1867	kade	envious
 1868	korrus	storey, floor
@@ -2130,7 +2130,7 @@ rank	word	english
 2129	viskama	to throw
 2130	nälga	hunger
 2131	verine	bloody
-2132	moment	moment
+2132	moment	aspect, side, point
 2133	karp	box
 2134	liit	alliance, union
 2135	kaelakee	necklace
@@ -2637,7 +2637,7 @@ rank	word	english
 2636	lipsu	tie, necktie
 2637	habet	beard
 2638	jäätis	ice cream
-2639	marki	mark
+2639	marki	tally mark
 2640	kasiino	casino
 2641	tähendus	meaning, sense
 2642	tõstma	to lift, to raise
@@ -2767,7 +2767,7 @@ rank	word	english
 2766	piibel	bible
 2767	haid	shark
 2768	minuni	I
-2769	press	press
+2769	press	pressure
 2770	vältimatu	unavoidable, inevitable
 2771	segama	to mix, to stir, to mingle
 2772	ettevaatlikum	careful, cautious, wary
@@ -2934,7 +2934,7 @@ rank	word	english
 2933	diivan	divan, sofa, couch for sitting and lying down
 2934	valede	lie
 2935	müük	sale
-2936	lamp	lamp
+2936	lamp	random
 2937	higi	sweat
 2938	load	permission
 2939	pomme	bomb
@@ -3407,7 +3407,7 @@ rank	word	english
 3406	münt	mint
 3407	vastupandamatu	irresistible
 3408	higine	sweaty
-3409	masti	mast
+3409	masti	suit
 3410	pasas	crap, shit, faeces
 3411	orkaan	hurricane
 3412	okse	vomit
@@ -3932,7 +3932,7 @@ rank	word	english
 3931	tutvustama	to introduce, to present
 3932	televiisor	television, television set
 3933	uksekell	doorbell
-3934	marka	mark
+3934	marka	tally mark
 3935	salk	a small unorganised group
 3936	eriüksuse	special forces
 3937	kaev	well
@@ -4052,7 +4052,7 @@ rank	word	english
 4051	taru	beehive
 4052	väljuma	to depart, to leave
 4053	kõrvaklapid	headphones
-4054	hamburger	hamburger
+4054	hamburger	a sign resembling a multi-layered bun, under which a web…
 4055	harv	rare, uncommon
 4056	petma	to deceive, to betray, be unfaithful to
 4057	suveniir	souvenir
@@ -4542,7 +4542,7 @@ rank	word	english
 4541	huligaan	hooligan
 4542	viide	reference
 4543	palgapäev	payday
-4544	marke	mark
+4544	marke	tally mark
 4545	dušš	shower
 4546	kehaosa	body part
 4547	puus	tree
@@ -4627,7 +4627,7 @@ rank	word	english
 4626	kunn	synonym of kuningas
 4627	tonn	ton, tonne
 4628	hukas	degenerated, gone downhill
-4629	mast	mast
+4629	mast	suit
 4630	härja	ox
 4631	näpp	finger
 4632	suurendama	to increase
@@ -4709,7 +4709,7 @@ rank	word	english
 4708	vibukütt	archer
 4709	sebra	zebra
 4710	hüüdma	to yell, scream
-4711	margi	mark
+4711	margi	tally mark
 4712	leukeemia	leukemia
 4713	ärtu	hearts
 4714	aastaaeg	season, time of year
@@ -5166,7 +5166,7 @@ rank	word	english
 5165	raamatupood	bookshop, bookstore
 5166	ainust	only, sole
 5167	kiirendama	to accelerate, to speed up, to make go faster
-5168	monument	monument
+5168	monument	A sculpture or building built for the honour and…
 5169	alul	area, territory, region
 5170	tekiila	tequila
 5171	lennuõnnetus	aviation accident

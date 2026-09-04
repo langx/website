@@ -238,7 +238,7 @@ rank	word	english
 237	veces	by, times
 238	serio	serious, earnest, sober, solemn
 239	ven	to come, by default the speaker's location
-240	idea	idea
+240	idea	to devise, to come up with
 241	eh	hey!
 242	tarde	late
 243	problema	problem, issue, challenge
@@ -400,7 +400,7 @@ rank	word	english
 399	llegar	to arrive, get
 400	incluso	even
 401	algunos	some, any
-402	doctor	doctor
+402	doctor	physician
 403	difícil	difficult, hard, tough, challenging, rough, tricky, trying,…
 404	aunque	though, although, even though, albeit
 405	hubiera	have; forms the perfect aspect
@@ -442,7 +442,7 @@ rank	word	english
 441	oportunidad	opportunity, chance, shot, break, occasion, time
 442	teléfono	telephone
 443	necesitamos	to need
-444	final	final
+444	final	end
 445	listo	clever, smart
 446	fiesta	party
 447	muchos	much, a lot of
@@ -559,7 +559,7 @@ rank	word	english
 558	marido	husband
 559	paz	peace
 560	idiota	idiotic
-561	plan	plan
+561	plan	scheme
 562	dado	given, considering
 563	cuanto	whatever quantity, as much, however much
 564	peor	bad
@@ -604,7 +604,7 @@ rank	word	english
 603	acaba	to finish; to end
 604	prueba	to prove
 605	increíble	incredible, unbelievable
-606	real	real
+606	real	true friend, best friend
 607	libro	book
 608	orden	order
 609	semanas	week
@@ -766,7 +766,7 @@ rank	word	english
 765	pagar	to pay
 766	mató	to kill, slay
 767	llamo	to summon, to call
-768	personal	personal
+768	personal	personnel, staff
 769	sientes	to feel
 770	ocurre	to happen, to occur
 771	ésta	this one
@@ -866,7 +866,7 @@ rank	word	english
 865	entra	to enter; to come in; to get in; to go in; to get inside;…
 866	prisa	hurry, rush, urgency
 867	carajo	cock
-868	embargo	embargo
+868	embargo	trade embargo
 869	interesante	interesting
 870	tendrás	to have; to possess
 871	escuchar	to listen to, to hear out
@@ -946,7 +946,7 @@ rank	word	english
 945	locura	madness, craziness
 946	oro	gold
 947	permiso	permission
-948	director	director
+948	director	conductor
 949	peligro	danger, peril
 950	libertad	liberty, freedom
 951	alegro	to make happy
@@ -1033,7 +1033,7 @@ rank	word	english
 1032	beber	to drink
 1033	deje	to leave
 1034	finalmente	lastly, finally, in the end
-1035	simple	simple
+1035	simple	mere, ordinary
 1036	daré	to give, to give out
 1037	sabías	to know, to understand
 1038	puedas	to be able to, can
@@ -1084,7 +1084,7 @@ rank	word	english
 1083	existe	to exist
 1084	zona	zone, district, area
 1085	destino	destiny, fate
-1086	base	base
+1086	base	basis
 1087	solía	to be accustomed to doing something, to do something on a…
 1088	cliente	client
 1089	irse	to go
@@ -1125,7 +1125,7 @@ rank	word	english
 1124	escúchame	to listen to, to hear out
 1125	ejemplo	example
 1126	ése	that one
-1127	radio	radio
+1127	radio	radius
 1128	lee	to read
 1129	calma	calm, stillness, peacefulness
 1130	hogar	home
@@ -1365,7 +1365,7 @@ rank	word	english
 1364	mismos	same; identical; one and the same; indicates that the two…
 1365	tomado	to take
 1366	habías	have; forms the perfect aspect
-1367	planes	plan
+1367	planes	scheme
 1368	cine	cinema, moviehouse
 1369	toca	to touch
 1370	brillante	bright, brilliant, lustrous, shiny, glowing, sparkly,…
@@ -1670,7 +1670,7 @@ rank	word	english
 1669	contrato	contract, agreement
 1670	viernes	Friday
 1671	bienvenidos	welcome
-1672	ex	ex
+1672	ex	former, ex-
 1673	hechos	done, completed
 1674	sociedad	society, social order
 1675	tengan	to have; to possess
@@ -1739,7 +1739,7 @@ rank	word	english
 1738	asesinado	murdered, slain
 1739	humana	human
 1740	directo	direct, straightforward
-1741	central	central
+1741	central	headquarter
 1742	termina	to finish, to end, to terminate, to conclude
 1743	compañeros	companion
 1744	escuchado	to listen to, to hear out
@@ -1761,9 +1761,9 @@ rank	word	english
 1760	siguen	to follow
 1761	romper	to break
 1762	cambia	to change, to shift, to switch, to alter
-1763	fiscal	fiscal
+1763	fiscal	prosecuting
 1764	jardín	garden
-1765	natural	natural
+1765	natural	native; indigenous
 1766	gratis	free, without charge
 1767	cuesta	slope
 1768	amenaza	threat, menace, an indication of danger
@@ -1809,12 +1809,12 @@ rank	word	english
 1808	juegos	play
 1809	correo	mail
 1810	confía	to reassure
-1811	video	video
+1811	video	video rental shop
 1812	perfectamente	perfectly
 1813	harán	to do, perform, execute, carry out
 1814	teatro	theater
 1815	dormido	to sleep
-1816	local	local
+1816	local	premises, rooms
 1817	quedado	to be, to end up
 1818	lástima	pity
 1819	calles	street
@@ -1932,7 +1932,7 @@ rank	word	english
 1931	domingo	Sunday
 1932	tomas	conquest, capture, taking, takeover
 1933	sensación	sensation
-1934	alcohol	alcohol
+1934	alcohol	galena
 1935	tercera	a third
 1936	agentes	agent
 1937	disculpas	excuse
@@ -2013,7 +2013,7 @@ rank	word	english
 2012	pensó	to think, ponder
 2013	cadáver	cadaver, corpse
 2014	gracia	grace, charm
-2015	doctora	doctor
+2015	doctora	physician
 2016	escuchen	to listen to, to hear out
 2017	amante	loving
 2018	temporada	season, period, span of time
@@ -2035,7 +2035,7 @@ rank	word	english
 2034	idiotas	idiotic
 2035	enemigos	adverse; hostile
 2036	camisa	shirt
-2037	superior	superior
+2037	superior	better
 2038	criminal	criminal
 2039	preocupada	worried, concerned
 2040	bote	boat, dinghy
@@ -2069,7 +2069,7 @@ rank	word	english
 2068	tormenta	storm
 2069	relájate	to relax, to loosen
 2070	siéntese	to seat
-2071	chocolate	chocolate
+2071	chocolate	hot chocolate
 2072	pedazo	piece, chunk, hunk, bit, bite
 2073	tomo	to take
 2074	olor	smell, scent, odor
@@ -2221,7 +2221,7 @@ rank	word	english
 2220	pieza	piece, part
 2221	estómago	stomach
 2222	disparó	to shoot, to fire
-2223	legal	legal
+2223	legal	statutory
 2224	conseguí	to achieve, succeed in, reach, accomplish, attain
 2225	california	californium
 2226	rara	rare
@@ -2332,7 +2332,7 @@ rank	word	english
 2331	labios	lip
 2332	cola	tail
 2333	estemos	to be
-2334	whisky	whisky
+2334	whisky	cheese
 2335	taza	cup, mug
 2336	despues	misspelling of después
 2337	preguntarte	to ask
@@ -2567,7 +2567,7 @@ rank	word	english
 2566	paciencia	patience, forbearance
 2567	sacado	to put out, to get out
 2568	echo	to throw, toss, cast, jettison
-2569	crisis	crisis
+2569	crisis	attack; fit
 2570	asesinos	murderous, homicidal
 2571	oíste	to hear
 2572	dejando	to leave
@@ -2613,7 +2613,7 @@ rank	word	english
 2612	presento	to present, to submit
 2613	hazme	to do, perform, execute, carry out
 2614	leí	to read
-2615	virus	virus
+2615	virus	computer virus
 2616	lárgate	to chase away
 2617	sigan	to follow
 2618	compró	to buy
@@ -2636,7 +2636,7 @@ rank	word	english
 2635	ponerse	to put, to place
 2636	sacó	to put out, to get out
 2637	orgullo	pride
-2638	reales	real
+2638	reales	royal, regal
 2639	esperan	to hope
 2640	vuelves	to return, to revert, to get back
 2641	serlo	to be
@@ -2669,7 +2669,7 @@ rank	word	english
 2668	dulces	sweet
 2669	zorra	slut, prostitute
 2670	cómodo	comfortable
-2671	cruel	cruel
+2671	cruel	mean
 2672	sofá	sofa, couch
 2673	perdiste	to lose
 2674	encantadora	charmer
@@ -2689,7 +2689,7 @@ rank	word	english
 2688	condición	condition
 2689	recompensa	reward, recompense
 2690	doce	twelve
-2691	actor	actor
+2691	actor	defendant
 2692	actitud	posture, pose, stance
 2693	cuida	to look after, take care of
 2694	salsa	sauce, gravy
@@ -2726,7 +2726,7 @@ rank	word	english
 2725	ayudando	to help
 2726	campeón	champion, champ
 2727	bebiendo	to drink
-2728	adorable	adorable
+2728	adorable	lovable, loveable, cuddly, cute, sweet, dear, endearing
 2729	ayudó	to help
 2730	ciego	blind person
 2731	falsa	false; untrue
@@ -2786,7 +2786,7 @@ rank	word	english
 2785	mato	to kill, slay
 2786	jugador	player
 2787	humo	smoke
-2788	popular	popular
+2788	popular	Pertaining to PP, a Spanish political party
 2789	nación	nation
 2790	conocimos	to know, to be familiar with, to be acquainted with
 2791	tropas	troop, crowd
@@ -2891,7 +2891,7 @@ rank	word	english
 2890	nuevamente	newly
 2891	damos	to give, to give out
 2892	pagado	to pay
-2893	federal	federal
+2893	federal	federal law enforcement officer belonging to the Mexican…
 2894	cuán	accented form of cuan
 2895	escalera	stairs
 2896	acepto	to accept, to take up, to take up on
@@ -2922,7 +2922,7 @@ rank	word	english
 2921	suelta	release
 2922	despedida	farewell
 2923	sucedido	to happen, to befall, to occur
-2924	pasta	pasta
+2924	pasta	paste, dough
 2925	cristal	crystal
 2926	vegas	meadow
 2927	gritando	to shout, to scream, to cry out, to call out
@@ -3053,7 +3053,7 @@ rank	word	english
 3052	piezas	piece, part
 3053	ladrones	thievish
 3054	metro	meter
-3055	kilos	kilo
+3055	kilos	the letter K in the Spanish spelling alphabet
 3056	recuerde	to remember, to recollect
 3057	español	Spanish
 3058	motivos	reason, ground, motive
@@ -3070,7 +3070,7 @@ rank	word	english
 3069	quitar	to remove, to take away, to take down, to take off, to pull…
 3070	amanecer	to dawn
 3071	corazones	heart
-3072	rumores	rumor
+3072	rumores	murmur
 3073	llames	to summon, to call
 3074	celoso	jealous
 3075	utilizar	to use; to make use of; to utilize
@@ -3097,7 +3097,7 @@ rank	word	english
 3096	emperador	emperor
 3097	cigarrillo	cigarette
 3098	cuéntame	to count; to tally
-3099	do	do
+3099	do	C
 3100	secreta	secret
 3101	haberse	have; forms the perfect aspect
 3102	mortal	deadly
@@ -3245,7 +3245,7 @@ rank	word	english
 3244	parezco	to seem, to see fit
 3245	excelencia	excellency, brilliance
 3246	despedido	laid off, dismissed
-3247	moral	moral
+3247	moral	morals, standard
 3248	asalto	assault
 3249	decente	decent
 3250	informes	shapeless, formless
@@ -3254,7 +3254,7 @@ rank	word	english
 3253	poca	little, not much
 3254	pasaría	to pass, to hand, to slip
 3255	médica	doctor
-3256	combustible	combustible
+3256	combustible	fuel
 3257	discusión	discussion
 3258	verán	to see, to spot
 3259	ciertas	true
@@ -3416,7 +3416,7 @@ rank	word	english
 3415	salto	to jump
 3416	sonar	to sound, to ring
 3417	publicidad	advertisement
-3418	temporal	temporal
+3418	temporal	temporary
 3419	antecedentes	precedent
 3420	probado	to prove
 3421	llamaron	to summon, to call
@@ -3552,7 +3552,7 @@ rank	word	english
 3551	religión	religion
 3552	risas	laugh, laughter
 3553	despejado	clear, all-clear
-3554	miserable	miserable
+3554	miserable	poor
 3555	hierro	iron
 3556	corona	crown
 3557	serías	to be
@@ -3562,7 +3562,7 @@ rank	word	english
 3561	inmunidad	immunity
 3562	grabación	recording
 3563	producción	production
-3564	nuclear	nuclear
+3564	nuclear	to join up; to unite
 3565	clima	climate, weather
 3566	puesta	standing
 3567	buscarlo	to seek, search for, look for, try to find, to scour
@@ -3716,7 +3716,7 @@ rank	word	english
 3715	mueren	to die
 3716	cincuenta	fifty
 3717	jugadores	player
-3718	web	web
+3718	web	webpage, website
 3719	apropiado	appropriate, suitable
 3720	robot	robot
 3721	considerado	considerate
@@ -3766,7 +3766,7 @@ rank	word	english
 3765	salta	to jump
 3766	daremos	to give, to give out
 3767	agradecido	grateful, thankful, appreciative, obliged, indebted
-3768	terror	terror
+3768	terror	horror
 3769	sacrificio	sacrifice
 3770	destrucción	destruction
 3771	texto	text
@@ -3959,7 +3959,7 @@ rank	word	english
 3958	as	an ace
 3959	poderosa	powerful
 3960	prometió	to promise
-3961	drama	drama
+3961	drama	drama, tragedy, plight
 3962	confundido	confused, addled
 3963	olvídate	to forget
 3964	normales	normal, standard, regular, fine
@@ -4038,10 +4038,10 @@ rank	word	english
 4037	fianza	suretyship
 4038	consejos	advice, counsel, piece of advice
 4039	mostrarte	to show
-4040	doctores	doctor
+4040	doctores	physician
 4041	auténtico	authentic, real, true
 4042	usamos	to use
-4043	romance	Romance
+4043	romance	romance, love affair
 4044	miente	to lie
 4045	importan	to matter, to be important
 4046	paren	to stop, halt
@@ -4107,7 +4107,7 @@ rank	word	english
 4106	ayudas	help, aid
 4107	regresado	to return, go back, come back
 4108	conducta	behaviour, conduct
-4109	am	AM
+4109	am	a.m
 4110	participar	to participate, to take part, to partake
 4111	lana	wool
 4112	hacernos	to do, perform, execute, carry out
@@ -4125,7 +4125,7 @@ rank	word	english
 4124	identificar	to identify, to pinpoint
 4125	alfombra	carpet, rug
 4126	perdóneme	to pardon, excuse, forgive
-4127	actores	actor
+4127	actores	defendant
 4128	atractiva	attractive, appealing
 4129	permítame	to allow, permit
 4130	desperté	to wake
@@ -4134,7 +4134,7 @@ rank	word	english
 4133	preciso	precise
 4134	comprendes	to understand, to comprehend
 4135	altos	tall
-4136	fan	fan
+4136	fan	obsolete form of hacer
 4137	papas	pope
 4138	anciano	elderly
 4139	profunda	deep
@@ -4317,7 +4317,7 @@ rank	word	english
 4316	sonríe	to smile
 4317	ordenó	to order, arrange
 4318	go	go
-4319	motel	motel
+4319	motel	brothel, whorehouse
 4320	venimos	to come, by default the speaker's location
 4321	cuente	to count; to tally
 4322	preguntes	to ask
@@ -4386,7 +4386,7 @@ rank	word	english
 4385	ingeniero	engineer
 4386	cráneo	skull, cranium
 4387	desesperado	desperate
-4388	baby	baby
+4388	baby	girl, love
 4389	separados	separated, apart
 4390	queja	complaint, grievance, gripe, grumble
 4391	jugada	play, move, turn
@@ -4440,7 +4440,7 @@ rank	word	english
 4439	hacéis	to do, perform, execute, carry out
 4440	actualmente	at present, currently, now, nowadays
 4441	rifle	rifle
-4442	casino	casino
+4442	casino	cafeteria, canteen
 4443	logro	to get, to obtain
 4444	trajeron	to bring
 4445	celos	jealousy
@@ -4459,11 +4459,11 @@ rank	word	english
 4458	menores	underage, underaged
 4459	constantemente	constantly
 4460	conozca	to know, to be familiar with, to be acquainted with
-4461	directora	director
+4461	directora	conductor
 4462	borracha	drunkard
 4463	ventas	sale
 4464	alivio	relief
-4465	trauma	trauma
+4465	trauma	injury; harm
 4466	enseñarte	to teach
 4467	estadounidenses	American, U.S. American
 4468	necesidades	need
@@ -4509,7 +4509,7 @@ rank	word	english
 4508	prioridad	priority
 4509	mentes	mind, intellect
 4510	francos	frank, candid, straightforward
-4511	rumor	rumor
+4511	rumor	murmur
 4512	confías	to reassure
 4513	dibujo	drawing
 4514	saliste	to go out, to leave, to depart, to head out
@@ -4548,7 +4548,7 @@ rank	word	english
 4547	sucederá	to happen, to befall, to occur
 4548	asumir	to assume, take on
 4549	rusa	tit fuck, titwank, titjob
-4550	habitual	habitual
+4550	habitual	beans
 4551	id	to go
 4552	posesión	possession
 4553	inténtalo	to try, to attempt; especially: to strain or put forth…
@@ -4843,7 +4843,7 @@ rank	word	english
 4842	actividades	activity
 4843	líderes	leader
 4844	escuchad	to listen to, to hear out
-4845	global	global
+4845	global	aggregate
 4846	esclavo	slave
 4847	ocasiones	occasion
 4848	dejarle	to leave
@@ -4911,7 +4911,7 @@ rank	word	english
 4910	encontrarán	to meet
 4911	cuentos	story
 4912	maletín	briefcase, attaché case
-4913	perfume	perfume
+4913	perfume	to scent
 4914	grabar	to record
 4915	crece	to grow
 4916	echarle	to throw, toss, cast, jettison
@@ -4926,7 +4926,7 @@ rank	word	english
 4925	lleves	to take somewhere
 4926	enciende	to light, ignite
 4927	quitó	to remove, to take away, to take down, to take off, to pull…
-4928	radar	radar
+4928	radar	speed camera
 4929	seriamente	seriously
 4930	probabilidades	probability
 4931	capullo	cocoon
@@ -5158,7 +5158,7 @@ rank	word	english
 5157	saldré	to go out, to leave, to depart, to head out
 5158	licor	liqueur
 5159	llevara	to take somewhere
-5160	teme	teme
+5160	teme	to have an obsession
 5161	ídolo	idol
 5162	sindicato	trade union; syndicate
 5163	fallado	to fail
@@ -5209,7 +5209,7 @@ rank	word	english
 5208	manejarlo	to handle
 5209	fenómeno	phenomenon
 5210	quejas	complaint, grievance, gripe, grumble
-5211	coca	coca
+5211	coca	coke, cocaine
 5212	persiguiendo	to pursue, to chase, to go after
 5213	lotería	lottery
 5214	acerques	to bring close
@@ -5273,7 +5273,7 @@ rank	word	english
 5272	edición	edition
 5273	atreve	to dare
 5274	ganan	to gain
-5275	debate	debate
+5275	debate	discussion
 5276	cables	cable, cord
 5277	necesitará	to need
 5278	compraré	to buy
@@ -5300,7 +5300,7 @@ rank	word	english
 5299	visual	visual
 5300	acostado	recumbent, lying
 5301	ángulo	angle
-5302	inferior	inferior
+5302	inferior	inferior; lower
 5303	incapaz	incapable, unable
 5304	volante	flying
 5305	sierra	saw
@@ -5384,7 +5384,7 @@ rank	word	english
 5383	fingiendo	to pretend
 5384	significaba	to signify
 5385	mensajero	messenger
-5386	test	test
+5386	test	multiple-choice test, multiple-choice question
 5387	cortesía	courtesy
 5388	campus	campus
 5389	compro	to buy
@@ -5422,7 +5422,7 @@ rank	word	english
 5421	contenido	content
 5422	razon	obsolete spelling of razón
 5423	sana	healthy, sound
-5424	ritual	ritual
+5424	ritual	rite
 5425	aliados	allied
 5426	orina	urine
 5427	ofender	to offend
@@ -5435,7 +5435,7 @@ rank	word	english
 5434	matrícula	matriculation
 5435	dejarán	to leave
 5436	raya	line
-5437	superiores	superior
+5437	superiores	better
 5438	islas	island
 5439	dispuestos	willing, ready, game, down
 5440	mascota	pet
@@ -5587,7 +5587,7 @@ rank	word	english
 5586	cubre	to cover
 5587	jabón	soap; a bar of soap
 5588	terminemos	to finish, to end, to terminate, to conclude
-5589	simples	simple
+5589	simples	mere, ordinary
 5590	concentración	concentration
 5591	dejarnos	to leave
 5592	déjanos	to leave
@@ -5782,7 +5782,7 @@ rank	word	english
 5781	terminaron	to finish, to end, to terminate, to conclude
 5782	sip	yep, yeah, uh-huh
 5783	esperábamos	to hope
-5784	flash	flash
+5784	flash	freezie, freeze pop
 5785	enseño	to teach
 5786	cruzado	crossed
 5787	roba	to rob
@@ -5868,9 +5868,9 @@ rank	word	english
 5867	norma	rule, norm, standard, touchstone
 5868	mecánico	mechanical
 5869	perdedores	losing
-5870	polis	polis
+5870	polis	cop
 5871	reconocido	recognized, acknowledged
-5872	videos	video
+5872	videos	video rental shop
 5873	gripe	flu, influenza
 5874	ataca	to attack, to come at
 5875	sacarle	to put out, to get out
@@ -5887,7 +5887,7 @@ rank	word	english
 5886	espantoso	ghastly, gruesome, dreadful, awful, godawful, horrific,…
 5887	comience	to begin, to commence
 5888	quitarle	to remove, to take away, to take down, to take off, to pull…
-5889	postal	postal
+5889	postal	postcard
 5890	claridad	clarity, clearness
 5891	demostrado	to show, to demonstrate
 5892	acusaciones	accusation
@@ -6012,7 +6012,7 @@ rank	word	english
 6011	er	eye dialect spelling of el
 6012	usaste	to use
 6013	salvación	salvation
-6014	cobra	cobra
+6014	cobra	the act of hacer la cobra
 6015	baloncesto	basketball
 6016	pacto	pact
 6017	aceptó	to accept, to take up, to take up on
@@ -6110,7 +6110,7 @@ rank	word	english
 6109	srta	alternative spelling of Srta
 6110	echas	to throw, toss, cast, jettison
 6111	caca	poo
-6112	legales	legal
+6112	legales	statutory
 6113	legalmente	legally, lawfully
 6114	won	won
 6115	prostitutas	plural of prostituta
@@ -6183,7 +6183,7 @@ rank	word	english
 6182	materiales	material
 6183	acostarse	to lay
 6184	arruinó	to ruin
-6185	brutal	brutal
+6185	brutal	cool; dope; amazing
 6186	responsabilidades	responsibility, responsibleness
 6187	guardaespaldas	bodyguard
 6188	pretende	to intend, to aim
@@ -6285,7 +6285,7 @@ rank	word	english
 6284	jungla	jungle
 6285	ayudé	to help
 6286	destinado	destined; predestined
-6287	triple	triple
+6287	triple	threefold
 6288	colinas	hill
 6289	ofrecerle	to offer, to offer up, to provide
 6290	pantano	swamp, marsh
@@ -6295,7 +6295,7 @@ rank	word	english
 6294	particularmente	particularly
 6295	morgue	morgue
 6296	implica	to imply, to implicate
-6297	set	set
+6297	set	set or series of things
 6298	drogado	high
 6299	divina	divine
 6300	empezaremos	to start, begin, to get started
@@ -6367,7 +6367,7 @@ rank	word	english
 6366	pasaremos	to pass, to hand, to slip
 6367	talvez	alternative form of tal vez
 6368	cam	acronym of Comunidad Autónoma de Madrid
-6369	naturales	natural
+6369	naturales	native; indigenous
 6370	corrección	correction
 6371	entiendas	to understand, to fathom
 6372	estate	to be
@@ -6446,7 +6446,7 @@ rank	word	english
 6445	ayudarles	to help
 6446	necesitábamos	to need
 6447	arreglos	adjustment, arrangement
-6448	supervisor	supervisor
+6448	supervisor	handler
 6449	zapatillas	slipper, slip-on shoe
 6450	experiencias	experience
 6451	sobrevivido	to survive
@@ -6454,19 +6454,19 @@ rank	word	english
 6453	servidor	server
 6454	solían	to be accustomed to doing something, to do something on a…
 6455	estimado	dear
-6456	bases	base
+6456	bases	basis
 6457	mónica	monic
 6458	cristianos	Christian
 6459	propongo	to propose, to propound, to put forth, to put forward, to…
 6460	bendito	blessed
 6461	caerá	to fall
-6462	altar	altar
+6462	altar	stone that separates the firebox from the hearth in…
 6463	disfruten	to enjoy
 6464	luchador	fighting
 6465	cierren	to close, to shut
 6466	alboroto	fuss, commotion, ruckus, hubbub, brouhaha, ado, uproar,…
 6467	extrañé	to miss
-6468	formal	formal
+6468	formal	reliable, dependable
 6469	hermandad	brotherhood
 6470	rompiendo	to break
 6471	arriesgar	to venture; to risk; to hazard
@@ -6492,7 +6492,7 @@ rank	word	english
 6491	sirvo	to serve
 6492	tenés	to have; to possess
 6493	enseñarme	to teach
-6494	rival	rival
+6494	rival	adverse
 6495	tarda	tardy, late
 6496	marcho	to go, travel
 6497	comisionado	commissioner
@@ -6567,7 +6567,7 @@ rank	word	english
 6566	film	alternative spelling of filme
 6567	bate	bat
 6568	suenas	to sound, to ring
-6569	lunar	lunar
+6569	lunar	birthmark, beauty mark
 6570	delta	Greek letter delta
 6571	pongamos	to put, to place
 6572	cógelo	to take, catch, hold, to get, to seize
@@ -6827,7 +6827,7 @@ rank	word	english
 6826	ocupar	to occupy
 6827	tijeras	scissors
 6828	senos	to be
-6829	calibre	calibre
+6829	calibre	calipers
 6830	dominio	domain
 6831	instrumentos	instrument, tool
 6832	demostración	demonstration
@@ -6953,7 +6953,7 @@ rank	word	english
 6952	notar	to note
 6953	inestable	unstable
 6954	manga	sleeve
-6955	lava	lava
+6955	lava	washing
 6956	delicada	delicate
 6957	cambias	to change, to shift, to switch, to alter
 6958	generales	general, overall
@@ -7169,7 +7169,7 @@ rank	word	english
 7168	inspección	inspection
 7169	cansados	tired, weary, wearied
 7170	cosquillas	tickling, tickle
-7171	factor	factor
+7171	factor	an opinion considered a true fact; a trufax; a truth
 7172	recientes	recent
 7173	trece	thirteen
 7174	violín	violin
@@ -7747,7 +7747,7 @@ rank	word	english
 7746	disfruto	to enjoy
 7747	suprema	a milanesa made with chicken
 7748	despegar	to detach, to remove, to unstick
-7749	monitor	monitor
+7749	monitor	instructor, monitor
 7750	globos	balloon
 7751	mandaré	to send
 7752	vagón	train car; railroad car; railway carriage
@@ -7758,7 +7758,7 @@ rank	word	english
 7757	cera	wax
 7758	mirarte	to look at
 7759	protegerla	to protect, to defend
-7760	aroma	aroma
+7760	aroma	to scent
 7761	enfrenta	to confront, to face, to stand up to
 7762	curado	cured, healed
 7763	interpretar	to interpret, explain, decipher
@@ -7869,7 +7869,7 @@ rank	word	english
 7868	agujas	needle
 7869	iniciales	initial
 7870	fino	fine
-7871	kilo	kilo
+7871	kilo	the letter K in the Spanish spelling alphabet
 7872	pollos	inexperienced
 7873	bolos	bowling
 7874	elijo	to choose
@@ -7969,7 +7969,7 @@ rank	word	english
 7968	efectivamente	indeed, quite right
 7969	limusina	limousine, limo
 7970	ancestros	ancestor, forefather
-7971	superficial	superficial
+7971	superficial	shallow
 7972	rebelión	rebellion
 7973	motocicleta	motorcycle
 7974	tardado	to take some amount of time
@@ -8129,7 +8129,7 @@ rank	word	english
 8128	temen	to have an obsession
 8129	quitas	exempt
 8130	arruinando	to ruin
-8131	natal	natal
+8131	natal	native
 8132	ajo	garlic
 8133	adoran	to adore
 8134	evitando	to avoid, to bypass, to evade, to circumvent, to dodge, to…
@@ -8259,7 +8259,7 @@ rank	word	english
 8258	cross	cross country
 8259	mueves	to move
 8260	pésimo	bad
-8261	directores	director
+8261	directores	conductor
 8262	pagarás	to pay
 8263	toc	initialism of trastorno obsesivo-compulsivo
 8264	mapas	map
@@ -8276,7 +8276,7 @@ rank	word	english
 8275	topo	mole
 8276	financiera	finance company, financier company
 8277	nace	to be born, to sprout, to begin to grow; to hatch
-8278	penal	penal
+8278	penal	a kind of prison
 8279	noto	southerly
 8280	amabas	to love, have great affection for, care about
 8281	eliges	to choose
@@ -8408,7 +8408,7 @@ rank	word	english
 8407	dárselo	infinitive of dar combined with indirect object le/les and…
 8408	explosivo	explosive
 8409	árabes	Arabic
-8410	labor	labor
+8410	labor	job, task, chore
 8411	fina	fine
 8412	pentágono	pentagonal
 8413	guardando	to save
@@ -8542,7 +8542,7 @@ rank	word	english
 8541	dondequiera	anywhere, wherever
 8542	describe	to describe, represent in words
 8543	insecto	insect
-8544	propaganda	propaganda
+8544	propaganda	advertisement
 8545	cantaba	to sing
 8546	carros	cart
 8547	mudamos	to move, relocate, move to a new house
@@ -8617,7 +8617,7 @@ rank	word	english
 8616	suposición	assumption, guess, supposition
 8617	asegurarte	to secure
 8618	donación	donation
-8619	formidable	formidable
+8619	formidable	great, fantastic
 8620	elefantes	elephant
 8621	leve	mild, slight, light
 8622	conforme	as, while
@@ -8802,7 +8802,7 @@ rank	word	english
 8801	atrapamos	to capture
 8802	pillar	to catch, get, to grab
 8803	lecturas	reading
-8804	populares	popular
+8804	populares	Pertaining to PP, a Spanish political party
 8805	luchó	to fight, to battle, to do battle
 8806	luto	mourning
 8807	terminaré	to finish, to end, to terminate, to conclude
@@ -8910,7 +8910,7 @@ rank	word	english
 8909	olvídelo	to forget
 8910	ingenieros	engineer
 8911	relacionados	related
-8912	plasma	plasma
+8912	plasma	to mould, shape
 8913	puros	pure, clear
 8914	demandar	to insist, ask, request
 8915	llanto	crying
@@ -9039,7 +9039,7 @@ rank	word	english
 9038	dirigimos	to direct
 9039	rotas	broken
 9040	escúchenme	to listen to, to hear out
-9041	email	email
+9041	email	email address
 9042	darías	to give, to give out
 9043	rabino	rabbi
 9044	terminada	finished
@@ -9076,7 +9076,7 @@ rank	word	english
 9075	right	right fielder
 9076	tapadera	lid, cover
 9077	variar	to alter, vary, change
-9078	tango	tango
+9078	tango	a style of music associated with the tango dance
 9079	gramos	gram
 9080	maniobra	maneuver
 9081	compensar	to compensate, make up for
@@ -9112,7 +9112,7 @@ rank	word	english
 9111	signifique	to signify
 9112	letrero	sign, signboard, signpost
 9113	trayectoria	trajectory
-9114	gala	gala
+9114	gala	elegant dress, male clothes, specially those used in a gala
 9115	lucir	to shine
 9116	evacuar	to evacuate
 9117	pescador	fishing; that fishes
@@ -9178,7 +9178,7 @@ rank	word	english
 9177	atar	to tie, tie up, tie down, to tether by rope or the like
 9178	esperaría	to hope
 9179	esperaban	to hope
-9180	cereales	cereal
+9180	cereales	breakfast cereal
 9181	proposición	proposition
 9182	ventilación	ventilation
 9183	pídele	to ask for something
@@ -9291,7 +9291,7 @@ rank	word	english
 9290	subiré	to go up or come up
 9291	maquina	to machinate, plot
 9292	detectar	to detect
-9293	banana	banana
+9293	banana	an idiot
 9294	tesis	thesis
 9295	acabaré	to finish; to end
 9296	enojo	anger
@@ -9327,7 +9327,7 @@ rank	word	english
 9326	construyeron	to build
 9327	camarote	cabin, quarters
 9328	determinación	determination, identification, establishment, establishing
-9329	dobla	dobla
+9329	dobla	to fold
 9330	bofetada	a slap in the face
 9331	equivocó	to mistake, mix up
 9332	elevador	lifting
@@ -9347,7 +9347,7 @@ rank	word	english
 9346	corazonada	hunch; gut feeling
 9347	agotada	tired, exhausted, worn out
 9348	castigar	to punish, to castigate
-9349	rivales	rival
+9349	rivales	adverse
 9350	resolución	resolution
 9351	lograron	to get, to obtain
 9352	financieros	financial
@@ -9361,7 +9361,7 @@ rank	word	english
 9360	tolerar	to tolerate
 9361	símbolos	symbol
 9362	aliviar	to lighten
-9363	yes	yes
+9363	yes	The name of the Latin script letter Y/y
 9364	visitarme	to visit
 9365	pope	pope
 9366	racional	rational
@@ -9395,7 +9395,7 @@ rank	word	english
 9394	representan	to represent
 9395	et	ampersand
 9396	agencias	agency
-9397	avatar	avatar
+9397	avatar	vicissitudes, ups and downs
 9398	respire	to breathe
 9399	mecánica	mechanics
 9400	leeré	to read
@@ -9416,7 +9416,7 @@ rank	word	english
 9415	intentemos	to try, to attempt; especially: to strain or put forth…
 9416	activar	to activate
 9417	panqueques	crepe, pancake
-9418	marine	marine
+9418	marine	to marinate, to marinade
 9419	cuadrado	square
 9420	dejaran	to leave
 9421	futuros	future
@@ -9558,7 +9558,7 @@ rank	word	english
 9557	cante	to sing
 9558	entraré	to enter; to come in; to get in; to go in; to get inside;…
 9559	plantado	to plant
-9560	individual	individual
+9560	individual	case-by-case
 9561	pertenencias	belonging
 9562	fuertemente	strongly, hard, severely, heavily
 9563	noroeste	northwest
@@ -9573,7 +9573,7 @@ rank	word	english
 9572	confieso	to confess, to come clean about
 9573	triángulo	triangle
 9574	funcionarios	official, public official
-9575	titular	titular
+9575	titular	headline
 9576	yace	to lie; to recline
 9577	catástrofe	catastrophe, disaster
 9578	plantar	to plant
@@ -9638,7 +9638,7 @@ rank	word	english
 9637	acantilado	steep, sheer
 9638	creerías	to believe
 9639	arrojó	to throw, to hurl, to toss, to fling
-9640	aria	aria
+9640	aria	Aryan
 9641	mareado	dizzy, woozy, vertiginous
 9642	taxis	taxi
 9643	podríais	to be able to, can
@@ -9653,7 +9653,7 @@ rank	word	english
 9652	partió	to divide, split
 9653	presidencial	presidential
 9654	bailamos	to dance
-9655	audio	audio
+9655	audio	voice message
 9656	apestas	to stink
 9657	robarle	to rob
 9658	dormimos	to sleep
@@ -9665,7 +9665,7 @@ rank	word	english
 9664	probé	to prove
 9665	imitación	imitation, mimicking, mimicry, emulation
 9666	solicitar	to request, to ask for, to solicit
-9667	casual	casual
+9667	casual	accidental
 9668	aprobar	to approve, to condone, to permit
 9669	aprecia	to appreciate
 9670	barca	a small boat
@@ -9802,11 +9802,11 @@ rank	word	english
 9801	resonancia	resonance
 9802	socia	partner
 9803	agradece	to thank
-9804	miserables	miserable
+9804	miserables	poor
 9805	severo	severe
 9806	cuanta	as much; as many; however much; however many
 9807	esperó	to hope
-9808	tornado	tornado
+9808	tornado	to return
 9809	propietarios	proprietary
 9810	pizca	a little bit, ounce, iota, smidgeon, modicum, trace, lick
 9811	arreglará	to fix, to repair, to mend
@@ -9888,7 +9888,7 @@ rank	word	english
 9887	callen	to calm
 9888	respondiendo	to answer, to reply
 9889	mudado	to move, relocate, move to a new house
-9890	flora	flora
+9890	flora	to flower; to bloom
 9891	gemelo	twin
 9892	desmayó	to cause a person to faint
 9893	apariencias	appearance
@@ -9954,7 +9954,7 @@ rank	word	english
 9953	derrame	leakage, effusion
 9954	reporteros	reporter
 9955	espina	thorn
-9956	frontal	frontal
+9956	frontal	frontal bone
 9957	tramposo	cheating
 9958	ferry	alternative spelling of ferri
 9959	apasionado	passionate
@@ -9973,7 +9973,7 @@ rank	word	english
 9972	gritan	to shout, to scream, to cry out, to call out
 9973	bi	bi
 9974	pensáis	to think, ponder
-9975	royal	royal
+9975	royal	baking powder
 9976	ahogado	drowned man
 9977	defensas	defense
 9978	comparten	to share

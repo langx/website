@@ -11,7 +11,7 @@ rank	word	english
 10	van	of
 11	wat	what: e.g. asking for a subject complement; asking for a…
 12	we	we; first-person plural subjective personal pronoun
-13	in	in
+13	in	in, inside
 14	ze	she; third-person singular feminine subjective personal…
 15	hij	he; third-person singular masculine subjective personal…
 16	te	too
@@ -59,7 +59,7 @@ rank	word	english
 58	ook	also, too, moreover
 59	doen	to do
 60	uit	out, from the inside to the outside
-61	zou	used to indicate intent or disposition to perform an action…
+61	zou	used to form the future tense of a verb, together with an…
 62	ga	to go, to move from one place to another
 63	of	or
 64	gaan	to go, to move from one place to another
@@ -73,7 +73,7 @@ rank	word	english
 72	daar	there
 73	jullie	you; second-person plural subjective personal pronoun
 74	gaat	to go, to move from one place to another
-75	zal	used to indicate intent or disposition to perform an action…
+75	zal	used to form the future tense of a verb, together with an…
 76	m	nonstandard form of 'm
 77	hebt	to have, to possess, own, hold
 78	kom	to come
@@ -189,13 +189,13 @@ rank	word	english
 188	niks	nothing
 189	binnen	inside, indoors
 190	zitten	to sit
-191	zullen	used to indicate intent or disposition to perform an action…
+191	zullen	used to form the future tense of a verb, together with an…
 192	na	after
 193	helpen	to help
 194	wist	to know, to be aware of something
 195	vind	to find
 196	genoeg	enough
-197	sorry	sorry
+197	sorry	sorry, pardon, excuse me
 198	vast	surely, certainly
 199	elkaar	each other, one another
 200	ging	to go, to move from one place to another
@@ -304,7 +304,7 @@ rank	word	english
 303	halen	to fetch, to get
 304	familie	relatives
 305	elke	each; every
-306	zouden	used to indicate intent or disposition to perform an action…
+306	zouden	used to form the future tense of a verb, together with an…
 307	hoop	to hope for, to wish for
 308	politie	police
 309	mannen	man, human male, either adult or age-irrespective
@@ -357,7 +357,7 @@ rank	word	english
 356	zoeken	to search
 357	oude	old
 358	ding	to solicit
-359	moment	moment
+359	moment	moment of force, moment
 360	best	quite, rather
 361	tussen	between
 362	plaats	to place
@@ -399,7 +399,7 @@ rank	word	english
 398	dokter	doctor
 399	agent	a police officer
 400	help	to help
-401	later	later
+401	later	in the future
 402	voordat	before
 403	ogen	eye
 404	vrij	fairly, rather, quite, very
@@ -411,7 +411,7 @@ rank	word	english
 410	dochter	daughter
 411	problemen	problem
 412	plek	spot, place
-413	water	water
+413	water	body of water
 414	kent	to know, be acquainted with, to have knowledge of the…
 415	week	to soak
 416	beginnen	to begin
@@ -457,7 +457,7 @@ rank	word	english
 456	wees	to be, to exist
 457	nacht	night
 458	nieuws	new
-459	bed	bed
+459	bed	patch, bed
 460	liet	to leave, to cause to remain in the same position or state
 461	lopen	course, duration
 462	gelukkig	luckily
@@ -481,7 +481,7 @@ rank	word	english
 480	veilig	safely
 481	redden	to save, rescue
 482	hart	heart, main muscle pumping blood through the body
-483	zult	used to indicate intent or disposition to perform an action…
+483	zult	used to form the future tense of a verb, together with an…
 484	duidelijk	clearly
 485	stel	to position; place
 486	schiet	to shoot, fire
@@ -729,7 +729,7 @@ rank	word	english
 728	woorden	word
 729	zeven	seven
 730	brengt	to bring, to carry
-731	half	half
+731	half	half before the next whole
 732	hierheen	hither, towards here
 733	trots	pride
 734	spullen	stuff
@@ -857,7 +857,7 @@ rank	word	english
 856	slaan	to hit, to slap
 857	gaten	gap, hole
 858	doel	aim, purpose
-859	meter	meter
+859	meter	measurer
 860	drugs	recreational drugs
 861	gevaarlijk	dangerous
 862	geweldige	tremendous, enormous
@@ -970,7 +970,7 @@ rank	word	english
 969	gewerkt	to work, labour
 970	helaas	unfortunately
 971	grapje	joke
-972	arm	arm
+972	arm	branch
 973	show	a show
 974	lachen	to laugh
 975	leggen	to lay
@@ -980,7 +980,7 @@ rank	word	english
 979	keek	to look
 980	aantal	countable amount
 981	zoekt	to search
-982	extra	extra
+982	extra	on purpose
 983	zweer	a purulent boil, skin injury containing pus, ulcer
 984	leiden	to lead, to take the lead
 985	lijk	to seem, appear
@@ -1010,7 +1010,7 @@ rank	word	english
 1009	persoonlijk	personal
 1010	liegen	to lie
 1011	zwanger	pregnant
-1012	club	club
+1012	club	nightclub
 1013	respect	respect
 1014	steek	to prick, sting
 1015	waarvoor	what for
@@ -1067,7 +1067,7 @@ rank	word	english
 1066	slag	a blow, knock, strike
 1067	sluit	to close
 1068	zelfmoord	suicide
-1069	computer	computer
+1069	computer	to use the computer
 1070	planeet	a planet
 1071	bereiken	reach
 1072	verdachte	suspicious, suspect
@@ -1076,7 +1076,7 @@ rank	word	english
 1075	beloofd	to promise
 1076	laatst	recently
 1077	winkel	shop, store
-1078	zul	used to indicate intent or disposition to perform an action…
+1078	zul	used to form the future tense of a verb, together with an…
 1079	wagen	a wagon, carriage
 1080	angst	fear, fright, anxiety
 1081	muur	wall
@@ -1253,7 +1253,7 @@ rank	word	english
 1252	kennis	knowledge
 1253	patiënt	patient, someone who receives therapeutic treatment
 1254	zware	heavy, hefty
-1255	basis	basis
+1255	basis	base
 1256	kat	domestic cat, pussy, Felis silvestris catus
 1257	glas	glass
 1258	sloeg	to hit, to slap
@@ -1342,7 +1342,7 @@ rank	word	english
 1341	perfecte	perfect
 1342	dorp	village, small settlement
 1343	eikel	acorn
-1344	dossier	dossier
+1344	dossier	file, physical collection of documentation
 1345	past	to fit
 1346	code	book or body of laws, code of laws, lawbook
 1347	vieren	to celebrate
@@ -1380,7 +1380,7 @@ rank	word	english
 1379	verbergen	to hide
 1380	draait	to turn, to turn round
 1381	leidt	to lead, to take the lead
-1382	armen	arm
+1382	armen	branch
 1383	taak	task
 1384	ware	true
 1385	lab	lab
@@ -1459,13 +1459,13 @@ rank	word	english
 1458	mening	an opinion
 1459	geweer	rifle
 1460	bezit	possession
-1461	top	top
+1461	top	apex
 1462	wonder	wonder, miracle
 1463	vergeven	to forgive
 1464	stopt	to stop, to halt
 1465	hopen	hope, aspiration, wish
 1466	ophalen	to haul up, to raise
-1467	wind	wind
+1467	wind	flatulence, fart
 1468	oplossen	to dissolve
 1469	jaloers	jealous, envious
 1470	onmiddellijk	immediately, instantly
@@ -1535,7 +1535,7 @@ rank	word	english
 1534	persoonlijke	personal
 1535	bepaalde	certain
 1536	sommigen	some
-1537	momentje	moment
+1537	momentje	moment of force, moment
 1538	medische	medical
 1539	sexy	sexy
 1540	burgemeester	mayor, burgomaster
@@ -1574,7 +1574,7 @@ rank	word	english
 1573	opeens	suddenly, all of a sudden
 1574	beest	an animal, a beast
 1575	afgesproken	to agree, to make an agreement
-1576	halve	half
+1576	halve	half before the next whole
 1577	rijdt	to ride
 1578	belangrijkste	masculine/feminine singular attributive
 1579	kamp	camp
@@ -1646,7 +1646,7 @@ rank	word	english
 1645	jury	jury
 1646	verslaan	to defeat
 1647	vangen	to catch
-1648	testen	test
+1648	testen	a test, an earthen bowl or pot
 1649	grens	physical, territorial border, frontier
 1650	paniek	panic
 1651	nogmaals	once again
@@ -1734,7 +1734,7 @@ rank	word	english
 1733	sterke	strong, having physical strength
 1734	afscheid	farewell
 1735	menselijke	human
-1736	minister	minister
+1736	minister	a servant of a monastery, or assistant of a priest
 1737	coach	trainer, instructor, tutor, coach
 1738	verboden	forbidden, prohibited
 1739	kelder	cellar, basement
@@ -1805,7 +1805,7 @@ rank	word	english
 1804	genoegen	satisfaction
 1805	senator	senator
 1806	buren	neighbour
-1807	internet	Internet
+1807	internet	to use the internet
 1808	vloer	a floor
 1809	zwemmen	to swim
 1810	bedoeld	to intend, to have an aim
@@ -1838,7 +1838,7 @@ rank	word	english
 1837	eenvoudig	plain
 1838	hiervoor	for
 1839	stukken	a piece, part, share
-1840	tent	tent
+1840	tent	pavillion
 1841	pauze	pause, break
 1842	raden	an advice, counsel
 1843	roepen	call, shout, cry
@@ -1858,7 +1858,7 @@ rank	word	english
 1857	kerst	Christmas, the major Christian feast commemorating the…
 1858	invloed	influence
 1859	geheugen	memory
-1860	station	station
+1860	station	disk drive
 1861	doorheen	through, during
 1862	vogel	bird, any member of the class Aves
 1863	verantwoordelijkheid	responsibility
@@ -1868,7 +1868,7 @@ rank	word	english
 1867	vlug	quick, fast
 1868	deuren	door
 1869	woonde	to live
-1870	west	west
+1870	west	westwards
 1871	huh	huh
 1872	verstand	reason, mind, intellect, brains, wit
 1873	moeilijke	hard, difficult
@@ -1987,7 +1987,7 @@ rank	word	english
 1986	keel	throat
 1987	schepen	ship
 1988	gouden	golden, made of gold
-1989	blind	blind
+1989	blind	window shutter
 1990	achterlaten	to leave behind, to abandon
 1991	gevangene	a prisoner
 1992	voordeel	advantage
@@ -2012,7 +2012,7 @@ rank	word	english
 2011	feiten	fact
 2012	virus	virus
 2013	ha	ha
-2014	plus	plus
+2014	plus	plus sign; +
 2015	groene	green
 2016	bomen	tree
 2017	personeel	staff
@@ -2058,7 +2058,7 @@ rank	word	english
 2057	waarschuwen	to warn, to let someone know, to notify about a threat or…
 2058	melden	to report, to communicate; let know
 2059	oceaan	ocean
-2060	gas	gas
+2060	gas	liquefied petroleum gas
 2061	goden	god, deity
 2062	mogelijke	possible
 2063	voorlopig	for now, for the moment, for the time being
@@ -2198,7 +2198,7 @@ rank	word	english
 2197	priester	male priest, clergyman, religious officiant
 2198	meent	communal pasture, common land for grazing
 2199	zelfde	same
-2200	dossiers	dossier
+2200	dossiers	file, physical collection of documentation
 2201	proost	cheers
 2202	kloppen	to knock or beat audibly
 2203	gekend	to know, be acquainted with, to have knowledge of the…
@@ -2240,7 +2240,7 @@ rank	word	english
 2239	verzet	resistance
 2240	richten	to direct, aim
 2241	steunen	support
-2242	wolf	wolf
+2242	wolf	one of many other canids of the family Canidae, especially…
 2243	advocaten	attorney, lawyer
 2244	dwars	in a crosswise direction, transverse, at right angles
 2245	oefenen	to practice, train
@@ -2273,7 +2273,7 @@ rank	word	english
 2272	hierin	in, inside
 2273	uniform	uniform; a distinctive outfit
 2274	voorbereid	first-person singular dependent-clause present indicative…
-2275	wild	wild
+2275	wild	game
 2276	regen	rain
 2277	drinkt	to drink, consume a liquid
 2278	studenten	a student at an institute for academic tertiary education
@@ -2318,7 +2318,7 @@ rank	word	english
 2317	begreep	to understand, to comprehend, to grasp
 2318	kist	a box, chest
 2319	middelbare	ellipsis of middelbare school
-2320	training	training
+2320	training	a training session
 2321	pik	penis
 2322	race	a speed contest, a race
 2323	geliefde	loved one
@@ -2331,14 +2331,14 @@ rank	word	english
 2330	douche	shower
 2331	reageren	to react, to respond
 2332	zwijg	to be silent, to shut one's mouth
-2333	alcohol	alcohol
+2333	alcohol	alcoholic beverages, collectively
 2334	stoor	to disturb, to bother
 2335	verdiende	to earn, get paid, have an income
 2336	gave	whole, complete, not injured
 2337	sprong	to jump, to leap
 2338	bewakers	guard
 2339	aangenomen	to take
-2340	model	model
+2340	model	shape, the proper arrangement of something
 2341	data	data, information
 2342	oor	ear
 2343	jeetje	alternative form of jee
@@ -2678,13 +2678,13 @@ rank	word	english
 2677	inclusief	including, included
 2678	oudere	parent, father or mother; by extension a substitute…
 2679	verraad	to betray
-2680	interview	interview
+2680	interview	to interview
 2681	middel	means
 2682	geboorte	birth
 2683	nicht	female cousin; daughter of someone's uncle or aunt
-2684	momenten	moment
+2684	momenten	moment of force, moment
 2685	podium	stage
-2686	effect	effect
+2686	effect	security, notably bond or stock
 2687	vijftien	fifteen
 2688	houding	attitude
 2689	veroorzaken	to cause
@@ -2835,7 +2835,7 @@ rank	word	english
 2834	aanpakken	to take, to hold, to take over
 2835	namens	on behalf of
 2836	afhandelen	to argue out, settle
-2837	stress	stress
+2837	stress	to be stressed
 2838	waarschuw	to warn, to let someone know, to notify about a threat or…
 2839	bijbel	bible
 2840	studie	the activity of studying
@@ -2893,7 +2893,7 @@ rank	word	english
 2892	bot	not sharp, blunt, dull
 2893	ei	egg
 2894	beroemde	famous, renowned
-2895	chaos	chaos
+2895	chaos	primordial disorder
 2896	verbaast	to amaze, befuddle
 2897	gedumpt	to dump, to dispose off, either to throw away something or…
 2898	tekst	text
@@ -2903,7 +2903,7 @@ rank	word	english
 2902	maagd	a maiden, a virgin
 2903	bijzondere	special
 2904	sex	alternative spelling of seks
-2905	e-mail	e-mail
+2905	e-mail	to e-mail
 2906	lafaard	coward, wuss
 2907	mei	May
 2908	dodelijk	deadly, lethal, mortal, fatal
@@ -2953,7 +2953,7 @@ rank	word	english
 2952	uitvoeren	to execute, carry out; perform
 2953	haatte	to hate
 2954	vrachtwagen	truck, lorry
-2955	tank	tank
+2955	tank	a muscular, physically imposing man
 2956	vanzelf	automatically
 2957	schone	beautiful
 2958	beschadigd	to damage
@@ -3081,7 +3081,7 @@ rank	word	english
 3080	sigaretten	cigarette
 3081	toont	to show, to demonstrate
 3082	serie	series
-3083	status	status
+3083	status	medical file
 3084	voorzien	to provide, to supply
 3085	mooier	beautiful, pretty, handsome
 3086	rit	a ride on a mount or man-powered vehicle
@@ -3108,7 +3108,7 @@ rank	word	english
 3107	nut	use, point, utility, sense
 3108	stervende	masculine/feminine singular attributive
 3109	ondergoed	underwear
-3110	euro	euro
+3110	euro	a euro
 3111	incident	an incident
 3112	zing	to sing
 3113	mijzelf	myself
@@ -3123,7 +3123,7 @@ rank	word	english
 3122	vandaar	thence
 3123	jonger	young
 3124	flinke	large, considerable
-3125	check	check
+3125	check	to check, to inspect, examine
 3126	titel	title
 3127	privacy	privacy
 3128	heelal	universe
@@ -3142,7 +3142,7 @@ rank	word	english
 3141	angel	sting, dart
 3142	gespannen	tense
 3143	terugkeren	to return
-3144	crisis	crisis
+3144	crisis	financial crisis
 3145	zoektocht	search, quest
 3146	emotioneel	emotional, sentimental
 3147	overkant	the other side, the opposite side, the far side
@@ -3312,7 +3312,7 @@ rank	word	english
 3311	schulden	debt, account payable
 3312	hup	synonym of hoppa
 3313	waag	to venture, take risks
-3314	go	go
+3314	go	go, an approval or permission to do something
 3315	massa	mass
 3316	gewonden	casualty, a wounded
 3317	ontkennen	to deny
@@ -3386,7 +3386,7 @@ rank	word	english
 3385	verlangen	to long for, desire, yearn
 3386	revolutie	revolution
 3387	pastoor	parish priest
-3388	drama	drama
+3388	drama	something tragic, a tragedy
 3389	maal	meal
 3390	laden	drawer
 3391	moeilijkheden	difficulty
@@ -3418,7 +3418,7 @@ rank	word	english
 3417	beweeg	to move, to be in motion
 3418	duiken	to dive
 3419	kindje	child, kid, non-adult human
-3420	fruit	fruit
+3420	fruit	to fry in boiling fat
 3421	bevroren	to freeze
 3422	erbuiten	outside
 3423	sloot	to close
@@ -3656,7 +3656,7 @@ rank	word	english
 3655	snij	to cut
 3656	droomde	to dream
 3657	zeep	soap
-3658	accent	accent
+3658	accent	a notably deviant or disprivileged pronunciation of a…
 3659	gefaald	to fail
 3660	drieën	three
 3661	werknemers	an employee
@@ -3797,7 +3797,7 @@ rank	word	english
 3796	bruin	brown
 3797	emotionele	emotional, sentimental
 3798	blank	white, pale
-3799	lamp	lamp
+3799	lamp	vacuum tube, thermionic valve
 3800	district	district
 3801	vermoorde	to murder
 3802	arrest	sentence passed by a higher court
@@ -3825,8 +3825,8 @@ rank	word	english
 3824	stapel	pile
 3825	misselijk	nauseous, nauseated, having the urge to vomit
 3826	front	front
-3827	bingo	bingo
-3828	wolven	wolf
+3827	bingo	bingo; expression to claim a win in bingo
+3828	wolven	one of many other canids of the family Canidae, especially…
 3829	plaat	board, sheet, plate
 3830	rob	seal, any member of the family Phocidae
 3831	paus	pope
@@ -3894,7 +3894,7 @@ rank	word	english
 3893	sokken	sock
 3894	opgezet	to set up, to install
 3895	onzichtbaar	invisible
-3896	echo	echo
+3896	echo	ultrasound scan
 3897	wonderen	wonder, miracle
 3898	luid	loud
 3899	straling	radiation
@@ -3970,14 +3970,14 @@ rank	word	english
 3969	uitleg	explanation
 3970	kofferbak	a luggage compartment in a car; trunk, boot
 3971	fascinerend	fascinatingly
-3972	service	service
+3972	service	after-sales
 3973	schuilplaats	shelter
 3974	schilderen	to paint
 3975	mekaar	each other
 3976	boekje	book
 3977	hope	to hope for, to wish for
 3978	kruipen	to crawl
-3979	tempo	tempo
+3979	tempo	tempo, time
 3980	depressief	depressed
 3981	huisje	a house, home; residence
 3982	joodse	Jewish
@@ -4010,7 +4010,7 @@ rank	word	english
 4009	vrijwel	almost
 4010	vergif	poison
 4011	mariniers	marine
-4012	scan	scan
+4012	scan	to scan
 4013	tenen	toe
 4014	tegelijkertijd	simultaneously, at the same time
 4015	gene	one, person
@@ -4189,7 +4189,7 @@ rank	word	english
 4188	eis	to demand
 4189	buitenland	all foreign countries, collectively; anything abroad
 4190	ongeacht	regardless of
-4191	g	The seventh letter of the Dutch alphabet, written in the…
+4191	g	a unit of gravitational acceleration
 4192	krijt	chalk
 4193	oven	oven, furnace
 4194	gps	global positioning system
@@ -4229,7 +4229,7 @@ rank	word	english
 4228	medewerkers	employee
 4229	tatoeage	tattoo
 4230	visioen	vision
-4231	dealer	dealer
+4231	dealer	drug dealer
 4232	nieuwste	masculine/feminine singular attributive
 4233	dekmantel	coverup, guise, facade
 4234	scheppen	to create
@@ -4242,7 +4242,7 @@ rank	word	english
 4241	golven	wave
 4242	belasting	strain, burden, load
 4243	ridder	knight
-4244	tanks	tank
+4244	tanks	a muscular, physically imposing man
 4245	bezoekers	visitor
 4246	waaronder	under, downwards
 4247	gewoond	to live
@@ -4369,7 +4369,7 @@ rank	word	english
 4368	handdoek	a towel, a cloth used for drying one's hands
 4369	expres	on purpose, deliberately
 4370	luchthaven	airport
-4371	coke	coke
+4371	coke	synonym of cocaïne
 4372	lerares	female teacher
 4373	origineel	original
 4374	dosis	dose
@@ -4525,7 +4525,7 @@ rank	word	english
 4524	twijfels	doubt, uncertainty
 4525	jood	Jew
 4526	geloofd	to believe, to hold a belief
-4527	cash	cash
+4527	cash	in coins and bills/notes
 4528	ladder	a ladder
 4529	onderdelen	component
 4530	allergisch	allergic
@@ -4567,7 +4567,7 @@ rank	word	english
 4566	opera	opera
 4567	rugzak	rucksack, backpack
 4568	alfa	the letter alpha
-4569	tests	test
+4569	tests	a test, an earthen bowl or pot
 4570	bukken	to duck, to bend down
 4571	jongere	a young person, an adolescent
 4572	parfum	a perfume, a luxury product providing a fragrant scent
@@ -4757,7 +4757,7 @@ rank	word	english
 4756	uitdrukking	expression, act or process of expressing something
 4757	anoniem	anonymous, without an name
 4758	martelen	to torture, to torment
-4759	re	re
+4759	re	d
 4760	kane	to eat, munch
 4761	vastgehouden	to hold, to retain
 4762	leken	layman, non-clergyman
@@ -4976,7 +4976,7 @@ rank	word	english
 4975	suite	suite
 4976	vernield	to destroy
 4977	sfeer	sphere, round object
-4978	iris	iris
+4978	iris	synonym of lis
 4979	nesten	a nest
 4980	landing	landing, touchdown of an airplane or any other airborne…
 4981	goederen	goods, wares, commodities, assets
@@ -5114,7 +5114,7 @@ rank	word	english
 5113	mijnen	mine
 5114	kamergenoot	roommate
 5115	toelaten	to allow, tolerate
-5116	ribben	rib
+5116	ribben	a truss
 5117	ideaal	ideal, perfect; optimal
 5118	cadeautjes	plural of cadeautje
 5119	conciërge	concierge, janitor
@@ -5130,7 +5130,7 @@ rank	word	english
 5129	overgeplaatst	to transfer
 5130	kapsel	haircut, hairstyle, hairdo
 5131	software	software
-5132	bunker	bunker
+5132	bunker	bunker, cargo hold, storage room
 5133	terugkom	first-person singular dependent-clause present indicative…
 5134	gekkenhuis	a madhouse, asylum for the insane
 5135	bezorgdheid	anxiety, concern
@@ -5227,7 +5227,7 @@ rank	word	english
 5226	geduldig	patient
 5227	gesprongen	to jump, to leap
 5228	beroerte	fit, stroke or seizure
-5229	trainer	trainer
+5229	trainer	coach
 5230	uitgezet	to expand
 5231	thuiskomt	second/third-person singular dependent-clause present…
 5232	fatsoenlijk	decent
@@ -5277,7 +5277,7 @@ rank	word	english
 5276	acteren	to act
 5277	fietsen	bicycle
 5278	gordijnen	curtain
-5279	discreet	discreet
+5279	discreet	discrete
 5280	beschouwd	to contemplate
 5281	opvoeden	to raise, to bring up
 5282	eilanden	island
@@ -5347,7 +5347,7 @@ rank	word	english
 5346	ondersteuning	support
 5347	immers	Indicates that an explanation is being given for an earlier…
 5348	gram	gram
-5349	fucking	fucking
+5349	fucking	fucking, intensifier, especially to indicate annoyance
 5350	verstoren	to disturb, to disrupt
 5351	betrekking	relation
 5352	ijskoud	ice-cold, freezing cold
@@ -5364,7 +5364,7 @@ rank	word	english
 5363	hoera	hurrah!
 5364	ophoudt	second/third-person singular dependent-clause present…
 5365	verzameld	to collect, to gather
-5366	focus	focus
+5366	focus	focus, centre
 5367	noten	nut
 5368	zakelijke	to the point, succinct
 5369	georganiseerd	to organise; organize
@@ -5389,7 +5389,7 @@ rank	word	english
 5388	doorzoek	to search through
 5389	vervelen	to annoy, to pester
 5390	kaal	featureless, bare, smooth, bland, plain
-5391	hint	hint
+5391	hint	to hint
 5392	oorlogen	war
 5393	vergeeft	to forgive
 5394	gore	dirty, filthy, disgusting
@@ -5401,7 +5401,7 @@ rank	word	english
 5400	uitgezocht	to pick out, to choose, to select
 5401	eerdere	earlier, former
 5402	afloop	ending, result, termination
-5403	tour	tour
+5403	tour	to tour
 5404	uithalen	to lash out, strike out
 5405	chocola	alternative form of chocolade
 5406	logica	logic
@@ -5477,7 +5477,7 @@ rank	word	english
 5476	werelds	worldly
 5477	opschrijven	to write down
 5478	familieleden	relative, family member
-5479	barbecue	barbecue
+5479	barbecue	to barbecue, to have a barbecue
 5480	verspilt	to waste
 5481	poosje	undefined period of time, an indefinite period
 5482	chirurgie	surgery; a medical operation
@@ -5515,14 +5515,14 @@ rank	word	english
 5514	aanvraag	application, request
 5515	pier	a worm, earthworm
 5516	opgezocht	to visit
-5517	lobby	lobby
+5517	lobby	act of lobbying
 5518	arrogant	arrogant
 5519	gigantisch	gigantic
 5520	hoofdstad	capital city
 5521	kardinaal	cardinal
 5522	drijft	to float
 5523	beschuldiging	accusation
-5524	corrupt	corrupt
+5524	corrupt	corrupt errors
 5525	benaderen	to approach
 5526	krediet	credit
 5527	balkon	balcony
@@ -5639,7 +5639,7 @@ rank	word	english
 5638	karma	karma
 5639	kopieën	copy
 5640	cv	curriculum vitae
-5641	gangster	gangster
+5641	gangster	cool, awesome
 5642	romantiek	Romanticism
 5643	opkomen	to come up, to rise
 5644	pub	pub
@@ -5766,7 +5766,7 @@ rank	word	english
 5765	intens	intense
 5766	afblijven	to keep one's hands off
 5767	romeinen	a Roman
-5768	modellen	model
+5768	modellen	shape, the proper arrangement of something
 5769	autoriteit	authority
 5770	versteld	to adjust
 5771	kartel	cartel
@@ -5782,7 +5782,7 @@ rank	word	english
 5781	dramatisch	dramatically
 5782	terugkrijgen	to get back, recover
 5783	pistolen	pistol
-5784	poker	poker
+5784	poker	somebody who pokes a fire
 5785	passeren	to pass by
 5786	krap	without much room, narrow, close
 5787	gecondoleerd	condolences; said to express sympathy with someone when…
@@ -5903,7 +5903,7 @@ rank	word	english
 5902	feestdagen	holiday, day off
 5903	demonstratie	demonstration, demo
 5904	goedheid	goodness
-5905	clubs	club
+5905	clubs	nightclub
 5906	charme	charm
 5907	verhoren	to interrogate
 5908	groei	to grow physically
@@ -5950,9 +5950,9 @@ rank	word	english
 5949	kaliber	calibre
 5950	instorten	to collapse
 5951	zaterdagavond	Saturday evening
-5952	ram	RAM
+5952	ram	male rabbit
 5953	raven	to rave, to party wildly
-5954	permanent	permanent
+5954	permanent	perm, permanent, permanent wave
 5955	onderzoekers	researcher
 5956	verkrachten	to rape, to abuse
 5957	wortels	root
@@ -6024,7 +6024,7 @@ rank	word	english
 6023	bekent	to acknowledge, confess
 6024	regeling	arrangement
 6025	inkomen	to come in
-6026	concept	concept
+6026	concept	draft, sketch
 6027	zonlicht	sunlight
 6028	melkweg	Milky Way
 6029	aflopen	to walk down
@@ -6082,7 +6082,7 @@ rank	word	english
 6081	verwelkomen	to welcome
 6082	worm	worm, vernacular term for various, mostly legless…
 6083	geschrokken	to be startled, to get a scare
-6084	palm	palm
+6084	palm	a palm, the flat
 6085	asjeblieft	alternative form of alsjeblieft
 6086	schijnbaar	seemingly, apparently
 6087	altaar	altar
@@ -6097,7 +6097,7 @@ rank	word	english
 6096	gravin	countess
 6097	plas	a body of still water, pool
 6098	bedreigingen	threat, menace
-6099	instrumenten	instrument
+6099	instrumenten	musical instrument
 6100	condooms	condom
 6101	toernooi	tournament
 6102	orkaan	hurricane
@@ -6106,7 +6106,7 @@ rank	word	english
 6105	vega	a vegetarian, a veggie
 6106	gezakt	to fall, to drop, to sink
 6107	geruïneerd	to ruin, destroy
-6108	instrument	instrument
+6108	instrument	musical instrument
 6109	belachelijke	ridiculous, risible
 6110	aanhouden	to arrest
 6111	tang	pliers
@@ -6128,7 +6128,7 @@ rank	word	english
 6127	angsten	fear, fright, anxiety
 6128	bedreigt	to threaten
 6129	gearriveerd	to arrive
-6130	bridge	bridge
+6130	bridge	to play bridge
 6131	verblijft	to stay, to reside
 6132	binnenuit	only used in van binnenuit
 6133	perspectief	perspective
@@ -6179,7 +6179,7 @@ rank	word	english
 6178	nieren	a kidney
 6179	gevleid	to flatter, coax, sweet-talk, wheedle
 6180	walvis	whale, mammal of the order Cetacea
-6181	lampen	lamp
+6181	lampen	vacuum tube, thermionic valve
 6182	achtervolging	pursuit
 6183	exemplaar	copy
 6184	getrapt	to step, to tread
@@ -6194,7 +6194,7 @@ rank	word	english
 6193	zorgvuldig	careful, meticulous
 6194	vredig	peaceful
 6195	zalm	salmon
-6196	dam	dam
+6196	dam	king
 6197	vizier	visor, a removable protective guard on a helmet
 6198	roer	a boat's wheel
 6199	trieste	pitiful
@@ -6276,7 +6276,7 @@ rank	word	english
 6275	vergezellen	to accompany
 6276	wiel	wheel
 6277	kinderachtig	childish, infantile
-6278	rotten	rot
+6278	rotten	a file
 6279	schrap	bracing oneself, tense, ready for impact
 6280	kit	metal can, used mainly for coal
 6281	pand	house
@@ -6312,7 +6312,7 @@ rank	word	english
 6311	bedriegt	to deceive
 6312	opmerkelijk	remarkably
 6313	smokkelen	to smuggle, to transport contraband
-6314	bedden	bed
+6314	bedden	patch, bed
 6315	verhaaltje	story
 6316	luik	hatch
 6317	eruitziet	second/third-person singular dependent-clause present…
@@ -6352,11 +6352,11 @@ rank	word	english
 6351	plaatsvinden	to take place, occur
 6352	gecheckt	to check, to inspect, examine
 6353	zuigt	suck
-6354	stunt	stunt
+6354	stunt	to stunt, to do stunts
 6355	talloze	innumerable
 6356	voeg	junction, joint
 6357	baarmoeder	uterus, womb
-6358	web	web
+6358	web	the Web, the World Wide Web
 6359	rechtdoor	straight, straight ahead
 6360	voorwaardelijk	conditional
 6361	knijpen	to pinch, to squeeze
@@ -6373,7 +6373,7 @@ rank	word	english
 6372	afspraakjes	a romantic date
 6373	getal	an expressed number
 6374	ondersteunen	to support
-6375	wateren	water
+6375	wateren	body of water
 6376	dook	to dive
 6377	zadel	saddle
 6378	draden	thread
@@ -6618,7 +6618,7 @@ rank	word	english
 6617	minuutjes	plural of minuutje
 6618	tillen	to lift, to raise
 6619	hacker	a hacker
-6620	ark	ark
+6620	ark	houseboat
 6621	uitgesproken	to pronounce
 6622	onderhandelingen	negotiation
 6623	gehoor	hearing
@@ -6815,7 +6815,7 @@ rank	word	english
 6814	neven	beside, next to
 6815	tegenstanders	adversary, opponent
 6816	aandoening	ailment
-6817	regiment	regiment
+6817	regiment	regimen, regime
 6818	gedekt	to cover
 6819	zogenaamd	supposedly
 6820	gepikt	to peck, hammer
@@ -7215,7 +7215,7 @@ rank	word	english
 7214	mishandeld	to abuse, to mistreat, to maltreat, to hurt
 7215	halte	stop
 7216	zeur	a sour or whiny person
-7217	effecten	effect
+7217	effecten	security, notably bond or stock
 7218	cover	a cover, cover song, cover version
 7219	versterkt	to strengthen
 7220	opgroeide	to grow up, to spend childhood
@@ -7245,7 +7245,7 @@ rank	word	english
 7244	trapte	to step, to tread
 7245	herhaling	repetition
 7246	verlang	to long for, desire, yearn
-7247	capsule	capsule
+7247	capsule	cover over the cork and opening of a bottle
 7248	bederven	to spoil, to go off, to go bad
 7249	vijver	pond
 7250	clowns	clown
@@ -7386,13 +7386,13 @@ rank	word	english
 7385	snapte	to get, to understand
 7386	pit	a seed inside a fruit
 7387	waardeert	to appreciate, to value
-7388	sponsor	sponsor
+7388	sponsor	to sponsor
 7389	gestegen	to climb, to go up, to rise
 7390	gestrest	stressed
 7391	vernietigde	destroyed
 7392	geïsoleerd	to insulate
 7393	bevestigde	to fasten, attach
-7394	fax	fax
+7394	fax	to fax
 7395	gepubliceerd	to publish
 7396	voorste	foremost
 7397	touwtjes	plural of touwtje
@@ -7455,7 +7455,7 @@ rank	word	english
 7454	chagrijnig	bad-tempered, grumpy, cranky
 7455	fluisteren	to whisper
 7456	ruziën	to quarrel
-7457	winden	wind
+7457	winden	flatulence, fart
 7458	olympische	Olympic
 7459	spontaan	spontaneously
 7460	wijzer	wise
@@ -7589,7 +7589,7 @@ rank	word	english
 7588	ironie	irony
 7589	vernoemd	to name after
 7590	paarse	purple
-7591	topje	top
+7591	topje	apex
 7592	begeven	to give way, to collapse, to break down
 7593	verrichten	to perform, to carry out
 7594	dochtertje	daughter
@@ -7630,7 +7630,7 @@ rank	word	english
 7629	linksaf	towards the left
 7630	overeenkomsten	similarity
 7631	verwisseld	to swap, replace, exchange
-7632	cobra	cobra
+7632	cobra	Indian cobra
 7633	sympathie	sympathy
 7634	balie	counter
 7635	complexe	complex
@@ -7740,7 +7740,7 @@ rank	word	english
 7739	aanleiding	reason, cause, inducement
 7740	onroerend	immobile
 7741	have	property, possession
-7742	trailer	trailer
+7742	trailer	semi-trailer truck
 7743	gedanst	to dance
 7744	federaal	federal
 7745	overgedragen	to convey, hand over, transfer
@@ -7777,7 +7777,7 @@ rank	word	english
 7776	hoeden	a hat, worn on the head
 7777	beschaafd	civilized, cultured
 7778	scanner	scanner
-7779	strip	strip
+7779	strip	comic
 7780	abel	capable, able
 7781	dakloos	homeless
 7782	explosief	explosive
@@ -7907,7 +7907,7 @@ rank	word	english
 7906	minachting	contempt, scorn
 7907	verantwoorden	to justify, be responsible for
 7908	geboeid	to tie down, tie up, bind, shackle
-7909	bittere	bitter
+7909	bittere	bitter, embittered
 7910	discussiëren	to discuss
 7911	zeke	to piss
 7912	vertegenwoordig	to represent
@@ -7918,7 +7918,7 @@ rank	word	english
 7917	paars	purple
 7918	riskeert	to risk
 7919	adviseer	to recommend
-7920	fair	fair
+7920	fair	a fair
 7921	krassen	to scratch on a hard, even surface
 7922	gegrepen	to grab
 7923	kauwen	to chew
@@ -7946,7 +7946,7 @@ rank	word	english
 7945	geschonden	to violate
 7946	levensstijl	lifestyle
 7947	ongedierte	vermin, pests, harmful or undesirable animals
-7948	bitter	bitter
+7948	bitter	bitter, embittered
 7949	beroemdheid	fame
 7950	overbodig	superfluous, redundant
 7951	logeert	to stay
@@ -7972,7 +7972,7 @@ rank	word	english
 7971	danser	dancer, person who dances
 7972	oprechte	sincere, honest, upright, upstanding
 7973	poepen	to defecate; to shit
-7974	rubber	rubber
+7974	rubber	piece of rubber used in machines
 7975	leverancier	supplier
 7976	voorzichtiger	careful
 7977	rechtvaardig	fair, just
@@ -8016,7 +8016,7 @@ rank	word	english
 8015	tol	top, spinning top
 8016	executeren	to execute, to kill as punishment
 8017	zege	victory, triumph
-8018	tennis	tennis
+8018	tennis	to play tennis
 8019	breuken	fracture, break
 8020	geërfd	to inherit
 8021	relatief	relatively
@@ -8413,7 +8413,7 @@ rank	word	english
 8412	suggereren	to suggest
 8413	zaag	to saw
 8414	brigade	brigade, a military unit consisting of two or more…
-8415	rib	rib
+8415	rib	a truss
 8416	voldoening	satisfaction
 8417	straalt	to radiate, to shine
 8418	essentie	essence
@@ -8889,7 +8889,7 @@ rank	word	english
 8888	verbrandde	to burn, consume/kill in fire
 8889	druiven	grape
 8890	dansvloer	dancefloor
-8891	paranoia	paranoia
+8891	paranoia	paranoid
 8892	wandel	to stroll, be on a walk
 8893	opgescheept	stuck, burdened, inflicted
 8894	aantrekt	second/third-person singular dependent-clause present…
@@ -8947,7 +8947,7 @@ rank	word	english
 8946	samenwerkt	second/third-person singular dependent-clause present…
 8947	voetstappen	footstep
 8948	opgewekt	cheerful
-8949	joker	joker
+8949	joker	any wild card or similar, even in non-card games
 8950	welles	used to contradict a negative assertion
 8951	martelaar	martyr
 8952	bloedgroep	blood type
@@ -9259,7 +9259,7 @@ rank	word	english
 9258	bezielde	to give a soul to, to animate
 9259	molen	mill
 9260	repareer	to repair
-9261	pupillen	pupil
+9261	pupillen	minor, generally a prepubescent child over the age of 5
 9262	achtervolgde	to pursue
 9263	bijdehand	bright, smart, sly, pedantic
 9264	opzichten	supervision
@@ -9326,7 +9326,7 @@ rank	word	english
 9325	vuisten	to fist-fuck
 9326	gekleurde	not neutral, subjective
 9327	verwijdert	to remove
-9328	snack	snack
+9328	snack	to snack
 9329	reizigers	traveller, voyager
 9330	levensverzekering	life insurance
 9331	getto	ghetto
@@ -9433,7 +9433,7 @@ rank	word	english
 9432	brandend	to burn, to set aflame, to be alight
 9433	kasten	cupboard, closet, wardrobe
 9434	stijlvol	stylish
-9435	regime	regime
+9435	regime	regimen, diet
 9436	legden	to lay
 9437	slijm	slime
 9438	platte	flat
@@ -9454,7 +9454,7 @@ rank	word	english
 9453	jeuk	an itch; an itching
 9454	fouilleren	to search, to frisk
 9455	jongelui	youth, youngsters
-9456	tenten	tent
+9456	tenten	pavillion
 9457	bars	a bar, counter, drink cabinet
 9458	blokkade	blockade
 9459	planken	made of plank and/or board
@@ -9665,7 +9665,7 @@ rank	word	english
 9664	afdoen	to remove, to take off
 9665	zwijgt	to be silent, to shut one's mouth
 9666	glimp	glimpse
-9667	stations	station
+9667	stations	disk drive
 9668	naarmate	as, to the extent that
 9669	krot	derelict or rudimentary house, shanty
 9670	woeste	wild, savage, feral, ferocious, furious
@@ -9793,7 +9793,7 @@ rank	word	english
 9792	bevatte	to contain
 9793	ambities	ambition
 9794	kogelvrij	bulletproof
-9795	macho	macho
+9795	macho	a macho male
 9796	flarden	bit, piece
 9797	zonneschijn	sunshine
 9798	wrijf	to rub
@@ -9985,7 +9985,7 @@ rank	word	english
 9984	overname	takeover
 9985	ruimtes	space, room
 9986	premiejager	bounty hunter
-9987	waters	water
+9987	waters	body of water
 9988	barrière	barrier
 9989	burrito	burrito
 9990	bespelen	to play

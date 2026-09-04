@@ -29,7 +29,12 @@ module.exports = {
 			files: [
 				'**/tools/+page.svelte',
 				'**/most-common-words/+page.svelte',
-				'**/most-common-words/*/+page.svelte'
+				'**/most-common-words/*/+page.svelte',
+				'**/tools/say/+page.svelte',
+				'**/tools/say/*/+page.svelte',
+				'**/tools/vocabulary-test/*/+page.svelte',
+				'**/tools/similar/*/+page.svelte',
+				'**/tools/alphabet/*/+page.svelte'
 			],
 			rules: { 'svelte/no-at-html-tags': 'off' }
 		},

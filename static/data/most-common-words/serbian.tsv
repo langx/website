@@ -434,7 +434,7 @@ rank	word	english
 433	tek	only, only just, hardly, barely
 434	valjda	probably, likely
 435	noći	night, nighttime
-436	halo	halo
+436	halo	hello
 437	spreman	ready, prepared
 438	životu	life
 439	poput	like, as, such as
@@ -1064,7 +1064,7 @@ rank	word	english
 1063	uopće	generally, in general
 1064	igraš	to play
 1065	klub	club
-1066	idiot	idiot
+1066	idiot	teleprompter
 1067	mirno	peacefully
 1068	cela	whole
 1069	davno	long ago
@@ -1265,7 +1265,7 @@ rank	word	english
 1264	negdje	somewhere
 1265	daju	third-person plural present of davati
 1266	mami	to lure, entice
-1267	pali	Pali
+1267	pali	to kindle, light, set fire to
 1268	veće	council
 1269	kamion	truck
 1270	autu	car, automobile
@@ -1534,7 +1534,7 @@ rank	word	english
 1533	boja	color, tint
 1534	osiguranje	insurance, assurance
 1535	sekund	second
-1536	gas	gas
+1536	gas	acceleration
 1537	nebo	sky
 1538	leti	summers, in summer, during the summer
 1539	šou	show
@@ -1927,7 +1927,7 @@ rank	word	english
 1926	paket	packet
 1927	zatvoren	closed
 1928	velikih	big, large
-1929	virus	virus
+1929	virus	computer virus
 1930	droga	drug
 1931	toplo	warmly
 1932	kafa	coffee
@@ -2319,7 +2319,7 @@ rank	word	english
 2318	mesecima	for months and months
 2319	diše	to breathe, take breath
 2320	vic	joke
-2321	vila	vila
+2321	vila	fairy
 2322	donijeti	to bring, carry
 2323	boj	battle
 2324	lovac	hunter
@@ -3891,7 +3891,7 @@ rank	word	english
 3890	dupeta	ass
 3891	gnezdo	nest
 3892	odjel	department, section
-3893	rani	rani
+3893	rani	early
 3894	isključiti	to turn off, disconnect
 3895	nakaza	freak, monster
 3896	pozdraviti	to greet
@@ -4134,7 +4134,7 @@ rank	word	english
 4133	varam	to cheat, deceive, trick, swindle
 4134	zanimanje	interest
 4135	plašiti	to frighten, scare
-4136	finale	finale
+4136	finale	finals
 4137	japanski	Japanese
 4138	baki	grandmother, grandma
 4139	dobrobit	well being, health
@@ -5226,7 +5226,7 @@ rank	word	english
 5225	curama	girl
 5226	krasti	to steal
 5227	prikaz	display, depiction, portrait
-5228	karate	karate
+5228	karate	to scold
 5229	šetao	to walk, stroll
 5230	limun	lemon
 5231	preseliti	to move, relocate
@@ -5427,7 +5427,7 @@ rank	word	english
 5426	lija	fox
 5427	ponosno	proudly
 5428	političar	politician
-5429	talent	talent
+5429	talent	talented person
 5430	paljba	fire, firing off
 5431	plešu	bald spot
 5432	obavestiti	to inform, let know, notify
@@ -6246,9 +6246,9 @@ rank	word	english
 6245	prihod	income, revenue
 6246	odlučeno	to decide
 6247	siđe	to descend, get down, come down
-6248	formula	formula
+6248	formula	rule
 6249	poteškoća	difficulty, trouble
-6250	transfer	transfer
+6250	transfer	transport
 6251	venama	vein
 6252	kometa	comet
 6253	istraživač	explorer
@@ -6268,7 +6268,7 @@ rank	word	english
 6267	učinak	effect
 6268	obesiti	to hang
 6269	poreći	to deny
-6270	mudra	mudra
+6270	mudra	wise
 6271	skupina	group
 6272	odgovarajući	corresponding
 6273	audicija	audition
@@ -6853,7 +6853,7 @@ rank	word	english
 6852	glede	as regards, concerning
 6853	izneti	to carry out, take out
 6854	splav	raft, float
-6855	diploma	diploma
+6855	diploma	degree
 6856	kauča	couch
 6857	novak	recruit
 6858	ruševinama	ruin, wreck, wreckage
@@ -7097,7 +7097,7 @@ rank	word	english
 7096	medvede	bear
 7097	odnekud	from somewhere
 7098	sedmoro	seven persons of different gender/sex
-7099	dinar	dinar
+7099	dinar	a small amount of money in general
 7100	ubola	to sting, prick
 7101	stopu	foot
 7102	rode	gender
@@ -8799,7 +8799,7 @@ rank	word	english
 8798	španska	Spanish
 8799	plivač	swimmer
 8800	korpa	basket
-8801	region	region
+8801	region	former Yugoslavia
 8802	sloma	breakdown, breakage
 8803	zavisno	depending
 8804	posebice	especially, particularly, in particular
@@ -9103,7 +9103,7 @@ rank	word	english
 9102	šargarepa	carrot
 9103	jevanđelje	gospel
 9104	risa	lynx
-9105	ponor	ponor
+9105	ponor	abyss
 9106	osama	loneliness, solitude, isolation
 9107	obveza	obligation
 9108	opšti	general, universal
@@ -9689,7 +9689,7 @@ rank	word	english
 9688	faliti	to lack, to miss, to be short of
 9689	veto	veto
 9690	letak	leaflet, flyer
-9691	tutor	tutor
+9691	tutor	guardian
 9692	putnički	as a traveler
 9693	napušen	high
 9694	knjižica	diminutive of knjȉga; booklet

@@ -7,7 +7,7 @@ rank	word	english
 6	ka	that; used to link a subordinate clause to the main clause,…
 7	man	to me; dative singular of es
 8	to	that; accusative singular masculine of tas
-9	vai	used to indicate a disjunction between two elements; or
+9	vai	interrogative particle, used in either-or questions
 10	ko	who, what
 11	ar	with
 12	par	about, on
@@ -16,13 +16,13 @@ rank	word	english
 15	kā	how
 16	viņš	he; third person pronoun, referring to someone other than…
 17	tev	to you; dative singular of tu
-18	jā	used to express, reinforce agreement or confirmation,…
+18	jā	used as a noun, generally with teikt or sacīt, to indicate…
 19	uz	on, onto
 20	no	from
 21	mēs	we; first person pronoun, referring to the speaker and…
 22	nav	is not; third-person singular present indicative of nebūt
 23	labi	well; adverbial form of labs
-24	nē	used to deny or disagree with what was said in the…
+24	nē	used instead of a negative verb form; no, ...not
 25	bet	adversative conjunction, used to express contrast or…
 26	jūs	you; accusative plural of jūs
 27	lai	with the conditional, indicating purpose, sometimes cause;…
@@ -36,22 +36,22 @@ rank	word	english
 35	tevi	you; accusative singular of tu
 36	mums	to us; dative plural of mēs
 37	ne	not
-38	tikai	used to limit the meaning of a word or expression; only,…
+38	tikai	referring to other possibilities, alternatives; not only,…
 39	tad	then
 40	viņi	they; third person pronoun, referring to people other than…
 41	kad	when
 42	jums	to you; dative plural of jūs
-43	arī	used to indicate connection, addition; too, also, either
+43	arī	as well as
 44	viss	all, everything, anything
 45	pie	at
 46	kur	where? in what place?
 47	nu	well
-48	vēl	used to indicate that a given action, expected to happen,…
+48	vēl	yet; again; in addition
 49	tik	so
 50	jau	used to indicate that an action or event has started,…
 51	tur	used to indicate an unnamed location relatively far from…
 52	te	here
-53	kaut	Used to stress the meaning of a particular word
+53	kaut	Links parts of a sentence and expresses a wish
 54	būs	will be; third-person singular future indicative of būt
 55	paldies	thank you
 56	visu	all, whole, entire
@@ -90,7 +90,7 @@ rank	word	english
 89	varētu	can; to be able to
 90	būt	to be, to exist
 91	tam	to that; dative singular masculine of tas
-92	tāpēc	used to refer to the cause, motive or purpose of something…
+92	tāpēc	used, together with lai, to indicate intention or purpose;…
 93	visi	all, whole, entire
 94	nezinu	to not know; negative form of zināt
 95	šī	of this; genitive singular masculine of šis
@@ -802,7 +802,7 @@ rank	word	english
 801	saprati	to understand
 802	jāsaka	to say, tell
 803	vīrietis	man
-804	vis	Used to strengthen denying of the verb
+804	vis	very, most
 805	patiesi	true, right, genuine, truly, rightly, genuinely, really,…
 806	jaunais	having relatively low age, young, new
 807	divām	two
@@ -912,7 +912,7 @@ rank	word	english
 911	dzirdu	to hear
 912	māti	mother
 913	stundām	hour
-914	visai	used with an adjective or adverb to indicate a degree that…
+914	visai	all, whole, entire
 915	aizmirsti	to forget
 916	skatīties	to look at
 917	prātu	mind
@@ -1657,7 +1657,7 @@ rank	word	english
 1656	sākums	beginning, starting point *in time or space
 1657	lien	to creep
 1658	domu	thought
-1659	soda	soda
+1659	soda	natron
 1660	ņemšu	to take; to seize with one's hands for some purpose
 1661	minūšu	minute
 1662	vainu	fault, guilt
@@ -1726,7 +1726,7 @@ rank	word	english
 1725	aizej	to leave, to go away, to escape
 1726	īstu	real, true, genuine, not false or artificial
 1727	pagaidīt	to wait for a while
-1728	sodu	soda
+1728	sodu	natron
 1729	kurai	which, who
 1730	ieročiem	weapon
 1731	vīrus	husband
@@ -4640,7 +4640,7 @@ rank	word	english
 4639	ekonomikas	economy
 4640	resni	thick, fat, thickly, fatly; adverbial form of resns
 4641	izrādes	performance, show, play
-4642	ego	ego
+4642	ego	eglantine
 4643	krievijā	locative singular of Krievija
 4644	žurnāls	magazine
 4645	datumā	date
@@ -5323,7 +5323,7 @@ rank	word	english
 5322	aktīvi	active, actively; adverbial form of aktīvs
 5323	tuva	close, near, nearby
 5324	irākā	locative singular of Irāka
-5325	distanci	distance
+5325	distanci	interval
 5326	asi	sharp, sharply; adverbial form of ass
 5327	skaidras	clean, clear, bright, without clouds
 5328	būtību	essence
@@ -7428,7 +7428,7 @@ rank	word	english
 7427	sacītu	to say, tell
 7428	rīsi	to swallow, to gulp down
 7429	mjau	meow
-7430	sodas	soda
+7430	sodas	natron
 7431	laivai	boat
 7432	pārejas	crossing, pass
 7433	lielumā	size, value, magnitude
@@ -9413,7 +9413,7 @@ rank	word	english
 9412	skaistajām	beautiful
 9413	vainoja	to find guilty, to blame, to attribute guilt to
 9414	vienīgajai	only, unique
-9415	plate	plate
+9415	plate	table-leaf
 9416	biežs	frequent
 9417	galdus	table
 9418	plauksta	hand
@@ -9737,7 +9737,7 @@ rank	word	english
 9736	asteroīdu	asteroid
 9737	turējuši	having held, having kept; indefinite past active participle…
 9738	ikdiena	weekday
-9739	distance	distance
+9739	distance	interval
 9740	jēgā	meaning, sense, point
 9741	kustaties	to move; reflexive of kustēt
 9742	adrenalīns	adrenaline

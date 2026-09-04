@@ -26,10 +26,26 @@ described below.
 | Licence      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)    |
 | Downloaded   | 4 September 2026                                                   |
 
+## Example sentences
+
+|              |                                                                    |
+| ------------ | ------------------------------------------------------------------ |
+| Source       | <https://tatoeba.org>, per-language exports                        |
+| Licence      | [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/)    |
+| Downloaded   | 4 September 2026                                                   |
+| Files        | `ex/*.tsv`                                                          |
+
+Each sentence is written by a person and paired with an English translation
+that is also theirs. Coverage of the first thousand words runs from 99% in the
+larger languages down to 17% in Telugu; where there is no sentence the page
+says so rather than inventing one.
+
 ## What this licence means here
 
-Both sources are share-alike, so these files are **CC BY-SA 4.0 as well**, and
-so is anything derived from them. That is narrower than the MIT licence the
+The frequency and gloss sources are share-alike, so the word lists are **CC
+BY-SA 4.0 as well**, and so is anything derived from them. Tatoeba's CC BY 2.0
+FR asks only for attribution, which is why the sentences live in their own
+`ex/` directory rather than inside the lists. That is narrower than the MIT licence the
 rest of this repository carries: `LICENSE` in this directory governs the data,
 `../../../LICENSE` governs the code. Redistributing these lists is fine, and
 required to stay under the same terms with the same credit.
