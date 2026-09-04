@@ -38,7 +38,10 @@ export const plans: Plan[] = [
 			{ label: '20 translations a day' },
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
-			{ label: 'Unlimited photos, videos and voice notes' },
+			{
+				label: '50 messages with a photo, video or voice note a day',
+				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
+			},
 			{ label: '6 photos on your profile' }
 		]
 	},
