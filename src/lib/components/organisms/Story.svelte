@@ -77,7 +77,7 @@
 				<li>
 					<UiIcon name="check" size={22} strokeWidth={3} /><span>Translate right in the chat</span>
 				</li>
-				<li><UiIcon name="check" size={22} strokeWidth={3} /><span>No ads, no trackers</span></li>
+				<li><UiIcon name="check" size={22} strokeWidth={3} /><span>No ads, nothing sold</span></li>
 			</ul>
 		</div>
 	</section>

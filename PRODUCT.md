@@ -35,8 +35,13 @@ replace langx.io and send visitors to the app (iOS, Android, web).
 
 Matching runs in **both directions**, and **corrections are unlimited on every
 plan** — the part that teaches is never rationed. The app and API are open
-source (BSD-3) and self-hostable. No ads, no advertising identifiers, no
-third-party analytics SDK. "Open source alternative to Tandem" is an existing,
+source (BSD-3) and self-hostable. No ads and no advertising identifiers. There **is** a
+third-party analytics SDK — PostHog, on its EU cloud, screen names and a short
+list of events keyed by the LangX user id, no session recording, off in
+Settings → Privacy. It arrived after this file was written and after the
+privacy policy said there was none; both have been corrected. Any claim about
+tracking on a new page has to be checked against
+`langx/docs/store/privacy-data-safety.md`, which is written from the code. "Open source alternative to Tandem" is an existing,
 published line.
 
 ## Operating Context
