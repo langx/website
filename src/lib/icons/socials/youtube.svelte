@@ -1,5 +1,5 @@
 <svg
-	fill="#000000"
+	fill="currentColor"
 	height="24"
 	width="24"
 	viewBox="0 -4 32 32"
