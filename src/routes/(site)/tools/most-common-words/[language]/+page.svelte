@@ -295,7 +295,7 @@
 		color: var(--color--text-shade);
 		border-radius: var(--radius-pill);
 		padding: 7px 14px;
-		font-size: 0.875rem;
+		font-size: 0.8125rem;
 		cursor: pointer;
 		transition: color var(--dur-fast) ease, border-color var(--dur-fast) ease,
 			transform var(--dur-press) var(--ease-out);
@@ -425,7 +425,7 @@
 
 	.count {
 		color: var(--color--text-tertiary);
-		font-size: 0.875rem;
+		font-size: 0.8125rem;
 	}
 
 	.download,
@@ -449,12 +449,12 @@
 	}
 
 	.quiet-link {
-		color: var(--color--primary);
+		color: var(--color--accent);
 		font-weight: 600;
 	}
 
 	.credit {
-		font-size: 0.875rem;
+		font-size: 0.8125rem;
 		color: var(--color--text-tertiary);
 		margin-top: var(--space-sm);
 	}
@@ -482,16 +482,5 @@
 				color: var(--color--text);
 			}
 		}
-	}
-
-	// DESIGN.md: never the browser default ring.
-	:global(.words a:focus-visible),
-	.chip:focus-visible,
-	.show-more:focus-visible,
-	.search input:focus-visible,
-	.others a:focus-visible {
-		outline: 2px solid var(--color--primary);
-		outline-offset: 2px;
-		border-radius: 8px;
 	}
 </style>

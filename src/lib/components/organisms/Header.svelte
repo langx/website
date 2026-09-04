@@ -11,7 +11,6 @@
 	const links = [
 		{ href: '/#how', label: 'How it works' },
 		{ href: '/pro', label: 'Plans' },
-		{ href: '/tools/most-common-words', label: 'Word lists' },
 		{ href: '/blog', label: 'Blog' },
 		{ href: 'https://docs.langx.io', label: 'Docs', external: true }
 	];
