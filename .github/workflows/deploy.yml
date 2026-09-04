@@ -68,30 +68,17 @@ jobs:
       # under us — but a branch reference is how an unrelated upstream commit
       # gets to run in our deploy, which is worth closing whether or not this
       # particular one is asleep.
-      # The list is explicit because the "https://langx.io/*" entry below is a
-      # wildcard purge, which Cloudflare only honours on Enterprise — on this
-      # plan it silently does nothing. robots.txt was served from a fourteen
-      # hour old cache after the tools deploy for exactly that reason.
+      #
+      # No PURGE_URLS on purpose. The action's own documentation: "If unset,
+      # the action will purge everything (which is suggested)." The explicit
+      # list that used to be here never covered the pages that actually change
+      # — the 53 word-list pages went out stale after their own deploy — and
+      # the "https://langx.io/*" entry at the end of it was a wildcard purge,
+      # which Cloudflare only honours on Enterprise, so it silently did
+      # nothing. A hand-maintained list of a static site's URLs will always
+      # drift; purging the zone cannot.
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@v0.3.0
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          PURGE_URLS: |
-            [
-              "https://www.langx.io",
-              "https://langx.io",
-              "https://langx.io/blog",
-              "https://langx.io/pro",
-              "https://langx.io/welcome-back",
-              "https://langx.io/rss.xml",
-              "https://langx.io/sitemap.xml",
-              "https://langx.io/terms-conditions",
-              "https://langx.io/privacy-policy",
-              "https://langx.io/cookie-policy",
-              "https://langx.io/data-deletion",
-              "https://langx.io/robots.txt",
-              "https://langx.io/tools",
-              "https://langx.io/tools/most-common-words",
-              "https://langx.io/*"
-            ]
