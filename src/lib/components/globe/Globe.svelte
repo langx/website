@@ -10,11 +10,9 @@
 	 */
 	import { onMount } from 'svelte';
 	import { loadGsap } from '$lib/utils/reveal';
-	import type { GlobeColors, GlobeHandle, GlobeOptions } from './scene';
+	import type { GlobeColors, GlobeHandle } from './scene';
 
 	export let label: string;
-	/** Two cities and one arc between them, instead of the whole world. */
-	export let pair: GlobeOptions['pair'] = undefined;
 	/** Turn and tip the globe as it scrolls through the viewport. */
 	export let scroll = false;
 
@@ -41,7 +39,7 @@
 		import('./scene').then(({ createGlobe }) => {
 			if (cancelled) return;
 			try {
-				handle = createGlobe(container, { colors: readColors(), animate: !reduced, pair });
+				handle = createGlobe(container, { colors: readColors(), animate: !reduced });
 			} catch {
 				failed = true;
 				return;

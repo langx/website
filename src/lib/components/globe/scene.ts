@@ -38,13 +38,6 @@ export interface GlobeOptions {
 	colors: GlobeColors;
 	/** `false` draws one still frame with every arc complete (reduced motion). */
 	animate: boolean;
-	/**
-	 * Two `[latitude, longitude]` points. With a pair the globe shows those two
-	 * cities alone, one arc between them, and turns to face them rather than
-	 * spinning — the matching row's "you and them" rather than the hero's
-	 * "everyone, everywhere".
-	 */
-	pair?: [[number, number], [number, number]];
 }
 
 export interface GlobeHandle {
@@ -176,7 +169,6 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 	camera.position.set(0, 0.35, 4.8);
 	camera.lookAt(0, 0, 0);
 
-	const pairMode = !!options.pair;
 	const tilt = new Group();
 	tilt.rotation.z = -TILT;
 	// Scroll turns the outer group so the drag and the auto-spin underneath
@@ -209,16 +201,7 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 	});
 	spin.add(new Points(dotsGeometry, dotsMaterial));
 
-	const cityVectors = (options.pair ?? CITIES).map(([lat, lon]) =>
-		toVector(lat, lon, RADIUS * 1.01)
-	);
-	if (options.pair) {
-		// Turn the globe so the midpoint of the pair faces the camera: first
-		// about y to bring it to the front, then about x to bring it level.
-		const mid = cityVectors[0].clone().add(cityVectors[1]).normalize();
-		spin.rotation.y = -Math.atan2(mid.x, mid.z);
-		spin.rotation.x = Math.asin(mid.y) * 0.85;
-	}
+	const cityVectors = CITIES.map(([lat, lon]) => toVector(lat, lon, RADIUS * 1.01));
 	const cityGeometry = new BufferGeometry().setFromPoints(cityVectors);
 	const cityMaterial = new PointsMaterial({
 		color: options.colors.city,
@@ -233,7 +216,6 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 	const arcs: Arc[] = [];
 
 	function pickPair(): [Vector3, Vector3] {
-		if (pairMode) return [cityVectors[0], cityVectors[1]];
 		const a = Math.floor(Math.random() * cityVectors.length);
 		let b = a;
 		// Skip neighbours: a Berlin–Paris arc is too short to read as travel.
@@ -262,10 +244,7 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 		arc.head.visible = true;
 	}
 
-	const arcCount = pairMode ? 1 : ARC_COUNT;
-	// One arc has nothing to hand over to, so it rests longer before it fades.
-	const hold = pairMode ? 3 : HOLD;
-	for (let i = 0; i < arcCount; i++) {
+	for (let i = 0; i < ARC_COUNT; i++) {
 		const material = new MeshBasicMaterial({ color: options.colors.arc, transparent: true });
 		const tube = new Mesh(new TubeGeometry(), material);
 		const head = new Mesh(headGeometry, material);
@@ -296,13 +275,13 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 					arc.t = 0;
 				}
 			} else if (arc.phase === 'hold') {
-				if (arc.t >= hold) {
+				if (arc.t >= HOLD) {
 					arc.phase = 'fade';
 					arc.t = 0;
 				}
 			} else {
 				arc.material.opacity = Math.max(1 - arc.t / FADE, 0);
-				if (arc.t >= FADE) restart(arc, pairMode ? 1 : Math.random() * 0.8);
+				if (arc.t >= FADE) restart(arc, Math.random() * 0.8);
 			}
 		}
 	}
@@ -352,7 +331,7 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 		raf = requestAnimationFrame(frame);
 		// Cap the step so a tab that was asleep does not lurch when it wakes.
 		const dt = Math.min(clock.getDelta(), 0.05);
-		if (!dragging && !pairMode) spin.rotation.y += dt * SPIN;
+		if (!dragging) spin.rotation.y += dt * SPIN;
 		step(dt);
 		render();
 	}
