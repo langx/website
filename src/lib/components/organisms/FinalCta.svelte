@@ -1,47 +1,57 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
-	import { ownsPrimary } from '$lib/stores/cta';
+	import Mark from '$lib/components/globe/Mark.svelte';
+	import { reveal } from '$lib/utils/reveal';
 </script>
 
-<section class="final">
-	<h2>practice a language with LangX.</h2>
-	<div class="buttons" use:ownsPrimary>
-		<Button href="https://app.langx.io" variant="primary" size="lg" block>Start for free</Button>
-		<Button href="https://app.langx.io" variant="secondary" size="lg" block>
-			I already have an account
-		</Button>
+<!-- The mark turning in three dimensions, one line, and the same two buttons as the top of the page. -->
+<section class="final" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
+	<Mark size={96} />
+	<h2>Practice a language with LangX</h2>
+	<div class="buttons">
+		<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
+		<Button href="https://get.langx.io" variant="secondary" size="lg" block
+			>I have an account</Button
+		>
 	</div>
+	<p>iPhone · Android · Browser — the same app everywhere.</p>
 </section>
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
 	.final {
-		padding: var(--space-3xl) 0 var(--space-2xl);
-		border-top: 1px solid var(--color--border);
+		padding: 120px 0 100px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 28px;
 		text-align: center;
-		gap: var(--space-lg);
 
 		@include for-phone-only {
-			padding: var(--space-2xl) 0 var(--space-xl);
+			padding: 80px 0 72px;
 		}
+	}
 
-		h2 {
-			font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
-			line-height: 1.05;
-			letter-spacing: -0.02em;
-			max-width: 16ch;
-		}
+	h2 {
+		margin: 0;
+		max-width: 18ch;
+		font-weight: 900;
+		font-size: clamp(1.875rem, 4vw, 2.875rem);
+		line-height: 1.1;
 	}
 
 	.buttons {
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: 12px;
 		width: 100%;
 		max-width: 330px;
+	}
+
+	p {
+		margin: 0;
+		font-size: 0.875rem;
+		color: var(--color--text-tertiary);
 	}
 </style>

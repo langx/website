@@ -12,7 +12,7 @@
 	export let align: 'start' | 'center' = 'start';
 
 	export const links = {
-		web: 'https://app.langx.io',
+		web: 'https://get.langx.io',
 		ios: 'https://apps.apple.com/app/languagexchange/id6474187141',
 		android: 'https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange'
 	};

@@ -63,6 +63,17 @@ h5 {
 	color: var(--color--text);
 }
 
+// The small blue word above a section title: what the section is about.
+.eyebrow {
+	display: block;
+	font-family: var(--font--title);
+	font-weight: 800;
+	font-size: 0.8125rem;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: var(--color--accent);
+}
+
 // Section-opening paragraph: one size up from body, never full-bleed.
 .lede {
 	font-size: 1.125rem;

@@ -1,8 +1,15 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
-	import Socials from '$lib/components/molecules/Socials.svelte';
-	import NewsletterForm from '$lib/components/molecules/NewsletterForm.svelte';
 
+	const links = [
+		{ label: 'GitHub', href: 'https://github.com/langx/langx' },
+		{ label: 'Discord', href: 'https://discord.langx.io' },
+		{ label: 'Privacy', href: '/privacy-policy' },
+		{ label: 'Terms', href: '/terms-conditions' }
+	];
+
+	// Not in the design, kept on purpose: the blog, the tools and the legal
+	// pages are reachable from nowhere else on the site.
 	const groups = [
 		{
 			title: 'Product',
@@ -68,49 +75,39 @@
 	const isExternal = (href: string) => /^https?:\/\//.test(href);
 </script>
 
-<footer class="footer" aria-labelledby="footer-heading">
-	<h2 id="footer-heading" class="sr-only">Footer</h2>
-	<div class="container">
-		<div class="newsletter">
-			<div class="newsletter-text">
-				<h3>Get the big updates</h3>
-				<p>One email when something new ships. No spam.</p>
+<!-- One line, the way the design has it; the link groups sit quietly under it. -->
+<footer class="footer">
+	<div class="container row">
+		<Logo height={16} />
+		<span class="licence">Open source · BSD-3 · No ads</span>
+		<nav class="links" aria-label="Footer">
+			{#each links as link}
+				<a
+					href={link.href}
+					target={isExternal(link.href) ? '_blank' : undefined}
+					rel={isExternal(link.href) ? 'noopener noreferrer' : undefined}>{link.label}</a
+				>
+			{/each}
+		</nav>
+	</div>
+	<div class="container groups">
+		{#each groups as group}
+			<div class="group">
+				<h3>{group.title}</h3>
+				<ul role="list">
+					{#each group.links as link}
+						<li>
+							<a
+								href={link.href}
+								target={isExternal(link.href) ? '_blank' : undefined}
+								rel={isExternal(link.href) ? 'noopener noreferrer' : undefined}>{link.label}</a
+							>
+						</li>
+					{/each}
+				</ul>
 			</div>
-			<NewsletterForm />
-		</div>
-
-		<div class="top">
-			<div class="brand">
-				<Logo height={22} />
-				<p>Practice a language with someone learning yours. Free, open source, no ads.</p>
-			</div>
-
-			<div class="groups">
-				{#each groups as group}
-					<div class="group">
-						<h3>{group.title}</h3>
-						<ul role="list">
-							{#each group.links as link}
-								<li>
-									<a
-										href={link.href}
-										target={isExternal(link.href) ? '_blank' : undefined}
-										rel={isExternal(link.href) ? 'noopener noreferrer' : undefined}>{link.label}</a
-									>
-								</li>
-							{/each}
-						</ul>
-					</div>
-				{/each}
-			</div>
-		</div>
-
-		<div class="bottom">
-			<p class="copy">
-				© {new Date().getFullYear()} LangX · New Chapter Technology LLC
-			</p>
-			<Socials />
-		</div>
+		{/each}
+		<p class="copy">© {new Date().getFullYear()} LangX · New Chapter Technology LLC</p>
 	</div>
 </footer>
 
@@ -119,77 +116,46 @@
 
 	.footer {
 		border-top: 1px solid var(--color--border);
-		padding: var(--space-2xl) 0 var(--space-lg);
-		margin-top: var(--space-2xl);
-		color: var(--color--text);
+		font-size: 0.875rem;
+		color: var(--color--text-shade);
+	}
+
+	.row {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 12px 20px;
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		margin-left: auto;
 
 		@include for-phone-only {
-			padding-top: var(--space-xl);
+			width: 100%;
+			margin-left: 0;
 		}
 	}
 
-	.newsletter {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-		gap: var(--space-lg);
-		align-items: center;
-		padding-bottom: var(--space-xl);
-		margin-bottom: var(--space-xl);
-		border-bottom: 1px solid var(--color--border);
+	.footer a {
+		color: var(--color--text-shade);
 
-		@include for-tablet-portrait-down {
-			grid-template-columns: 1fr;
-			gap: var(--space-md);
-		}
-	}
-
-	.newsletter-text {
-		h3 {
-			font-size: 1.25rem;
-			margin: 0 0 4px;
-		}
-
-		p {
-			margin: 0;
-			font-size: 0.9375rem;
-			color: var(--color--text-shade);
-		}
-	}
-
-	.top {
-		display: grid;
-		grid-template-columns: minmax(0, 1.2fr) minmax(0, 3fr);
-		gap: var(--space-xl);
-
-		@media (max-width: 1010px) {
-			grid-template-columns: 1fr;
-			gap: var(--space-lg);
-		}
-	}
-
-	.brand {
-		display: flex;
-		flex-direction: column;
-		gap: var(--space-sm);
-		align-items: flex-start;
-
-		p {
-			font-size: 0.9375rem;
-			line-height: 1.5;
-			color: var(--color--text-shade);
-			max-width: 32ch;
-			margin: 0;
+		&:hover {
+			color: var(--color--text);
 		}
 	}
 
 	.groups {
 		display: grid;
-		// Was a fixed four, which left the fifth group stranded alone on a second
-		// row. Five will not fit across the space the brand column leaves — the
-		// labels here are longer than "Legal" — so three and two, which reads as
-		// a layout rather than an accident.
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-		gap: var(--space-lg) var(--space-md);
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 24px 20px;
+		padding-top: 24px;
+		padding-bottom: 32px;
+		border-top: 1px solid var(--color--border);
 
 		@include for-phone-only {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -198,53 +164,24 @@
 
 	.group {
 		h3 {
+			margin: 0 0 6px;
 			font-size: 0.8125rem;
-			font-weight: 700;
-			letter-spacing: 0.02em;
-			color: var(--color--text-quiet);
-			margin: 0 0 var(--space-xs);
-			font-family: var(--font--default);
-		}
-
-		ul {
-			display: flex;
-			flex-direction: column;
-			gap: 2px;
+			font-weight: 800;
+			color: var(--color--text);
 		}
 
 		a {
 			display: inline-flex;
 			align-items: center;
-			min-height: 32px;
-			font-size: 0.9375rem;
-			font-weight: 600;
-			color: var(--color--text);
-
-			&:hover {
-				color: var(--color--accent);
-			}
-		}
-	}
-
-	.bottom {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: var(--space-md);
-		flex-wrap: wrap;
-		margin-top: var(--space-xl);
-		padding-top: var(--space-md);
-		border-top: 1px solid var(--color--border);
-
-		@include for-phone-only {
-			flex-direction: column-reverse;
-			align-items: flex-start;
+			min-height: 28px;
+			font-size: 0.8125rem;
 		}
 	}
 
 	.copy {
-		margin: 0;
+		grid-column: 1 / -1;
+		margin: 8px 0 0;
 		font-size: 0.8125rem;
-		color: var(--color--text-quiet);
+		color: var(--color--text-tertiary);
 	}
 </style>

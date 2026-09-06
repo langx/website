@@ -43,6 +43,8 @@ export interface GlobeOptions {
 export interface GlobeHandle {
 	setColors(colors: GlobeColors): void;
 	setPaused(paused: boolean): void;
+	/** 0 as the globe enters the viewport, 1 as it leaves: it turns and tips a little on the way. */
+	setScroll(progress: number): void;
 	destroy(): void;
 }
 
@@ -169,8 +171,12 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 
 	const tilt = new Group();
 	tilt.rotation.z = -TILT;
+	// Scroll turns the outer group so the drag and the auto-spin underneath
+	// keep their own accumulated rotation.
+	const scroll = new Group();
 	const spin = new Group();
-	tilt.add(spin);
+	scroll.add(spin);
+	tilt.add(scroll);
 	scene.add(tilt);
 
 	const disc = discTexture();
@@ -367,6 +373,11 @@ export function createGlobe(container: HTMLElement, options: GlobeOptions): Glob
 			paused = next;
 			if (paused) stop();
 			else start();
+		},
+		setScroll(progress) {
+			scroll.rotation.y = progress * 1.2;
+			scroll.rotation.x = (progress - 0.5) * 0.3;
+			if (!running) render();
 		},
 		destroy() {
 			stop();

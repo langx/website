@@ -131,7 +131,7 @@
 		<h2>Knowing the word is the easy half.</h2>
 		<p>Using it with someone who speaks the language is the half that sticks.</p>
 		<div use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
 	</section>
 </div>

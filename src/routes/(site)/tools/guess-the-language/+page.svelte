@@ -190,7 +190,7 @@
 		<h2>Recognising a language is the first step.</h2>
 		<p>Speaking one is the rest of it.</p>
 		<div use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
 	</section>
 </div>

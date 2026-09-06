@@ -136,7 +136,7 @@
 		<h2>Reading it is one thing.</h2>
 		<p>Being understood when you say it is another. That takes a person.</p>
 		<div use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
 	</section>
 </div>

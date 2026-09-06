@@ -201,7 +201,7 @@
 			speaks what you are learning, and is learning what you speak.
 		</p>
 		<div use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
 	</section>
 </div>

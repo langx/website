@@ -10,10 +10,11 @@
 @import '$lib/scss/_code-highlights.scss';
 @import '$lib/scss/animations.scss';
 
-// Nunito is display-only: two weights, self-hosted, subset per script by
+// Nunito is display-only: three weights, self-hosted, subset per script by
 // unicode-range so a Latin page downloads Latin alone.
 @import '@fontsource/nunito/700.css';
 @import '@fontsource/nunito/800.css';
+@import '@fontsource/nunito/900.css';
 
 html {
 	font-size: 16px;
@@ -55,4 +56,20 @@ body {
 
 main {
 	flex: 1;
+}
+
+// Scroll reveals (`utils/reveal.ts`). Elements start invisible only once the
+// pre-paint script in app.html has removed `no-js`, so a visitor without
+// script gets the page as it is; a visitor who asked for reduced motion gets
+// it too, because the action does nothing for them.
+html:not(.no-js) [data-reveal],
+html:not(.no-js) [data-reveal-children] > * {
+	opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html:not(.no-js) [data-reveal],
+	html:not(.no-js) [data-reveal-children] > * {
+		opacity: 1;
+	}
 }

@@ -1,24 +1,30 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Globe from '$lib/components/globe/Globe.svelte';
-	import { ownsPrimary } from '$lib/stores/cta';
+	import { reveal } from '$lib/utils/reveal';
 </script>
 
-<!-- The world on the left, the ask on the right. Two buttons, nothing else. -->
+<!--
+	One headline, one sentence, two buttons, and the globe underneath. The copy
+	plays in line by line on load; the globe settles in after it.
+-->
 <section id="hero" class="hero">
-	<div class="device">
-		<Globe label="A globe with arcs linking cities where people are chatting on LangX" />
+	<div
+		class="copy"
+		data-reveal-children
+		use:reveal={{ children: true, onLoad: true, stagger: 0.12 }}
+	>
+		<h1>The friendly way to practise a language with real people</h1>
+		<p class="lede">Chat with someone who speaks your target language and is learning yours.</p>
+		<div class="buttons">
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="#features" variant="secondary" size="lg">See how it works</Button>
+		</div>
+		<p class="fine">Free · Open source · No ads</p>
 	</div>
 
-	<div class="copy">
-		<h1>The friendly way to practise a language with real people.</h1>
-		<div class="buttons" use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg" block>Start for free</Button>
-			<Button href="https://app.langx.io" variant="secondary" size="lg" block>
-				I already have an account
-			</Button>
-		</div>
-		<p class="fine">Chat with someone who speaks your target language and is learning yours.</p>
+	<div class="globe" data-reveal use:reveal={{ onLoad: true, y: 0, scale: 0.94, delay: 0.4 }}>
+		<Globe label="A globe with arcs linking cities where people are chatting on LangX" />
 	</div>
 </section>
 
@@ -26,67 +32,53 @@
 	@import '$lib/scss/breakpoints.scss';
 
 	.hero {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-		align-items: center;
-		gap: var(--space-xl);
-		padding: var(--space-xl) 0 var(--space-2xl);
-		min-height: calc(100vh - var(--header-height));
-		min-height: calc(100dvh - var(--header-height));
-		max-height: 900px;
-
-		@include for-tablet-portrait-down {
-			grid-template-columns: 1fr;
-			min-height: 0;
-			max-height: none;
-			padding: var(--space-lg) 0 var(--space-xl);
-			gap: var(--space-lg);
-		}
-	}
-
-	.device {
-		display: flex;
-		justify-content: center;
-
-		@include for-tablet-portrait-down {
-			order: 2;
-			max-width: 360px;
-			margin: 0 auto;
-		}
-	}
-
-	.copy {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 110px 0 70px;
 		text-align: center;
-		gap: var(--space-lg);
 
-		h1 {
-			max-width: 18ch;
-			font-size: clamp(1.9rem, 1.3rem + 2.2vw, 2.75rem);
-			line-height: 1.15;
+		@include for-phone-only {
+			padding: 56px 0 48px;
 		}
+	}
 
-		@include for-tablet-portrait-down {
-			order: 1;
-			gap: var(--space-md);
-		}
+	h1 {
+		margin: 0;
+		font-weight: 900;
+		font-size: clamp(2.5rem, 6vw, 4rem);
+		line-height: 1.05;
+		letter-spacing: -0.02em;
+	}
+
+	.lede {
+		margin: 28px auto 0;
+		max-width: 46ch;
+		font-size: 1.2rem;
+		line-height: 1.6;
 	}
 
 	.buttons {
 		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		width: 100%;
-		max-width: 330px;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 14px;
+		margin-top: 40px;
 	}
 
 	.fine {
+		margin: 32px 0 0;
 		font-size: 0.9375rem;
-		line-height: 1.5;
-		color: var(--color--text-shade);
-		max-width: 34ch;
-		margin: 0;
+		color: var(--color--text-tertiary);
+	}
+
+	.globe {
+		width: 100%;
+		max-width: 520px;
+		margin: 56px auto 0;
+
+		@include for-phone-only {
+			max-width: 360px;
+			margin-top: 40px;
+		}
 	}
 </style>

@@ -168,7 +168,7 @@
 		<h2>Knowing a word and using it are different things.</h2>
 		<p>The second one needs somebody on the other end.</p>
 		<div use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
 	</section>
 </div>

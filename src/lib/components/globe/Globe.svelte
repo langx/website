@@ -1,17 +1,20 @@
 <script lang="ts">
 	/**
-	 * A globe with arcs linking cities, for the hero. Three.js is loaded on
-	 * the client only, after mount, so the page prerenders without it and the
-	 * chunk only ships to the homepage.
+	 * A globe with arcs linking cities. Three.js is loaded on the client only,
+	 * after mount, so the page prerenders without it and the chunk only ships
+	 * to the homepage.
 	 *
 	 * Colours come from the theme tokens on the element itself, so the globe
 	 * follows the light/dark switch. It stops rendering while off-screen or in
 	 * a hidden tab, and under reduced motion it draws one complete frame.
 	 */
 	import { onMount } from 'svelte';
+	import { loadGsap } from '$lib/utils/reveal';
 	import type { GlobeColors, GlobeHandle } from './scene';
 
 	export let label: string;
+	/** Turn and tip the globe as it scrolls through the viewport. */
+	export let scroll = false;
 
 	let container: HTMLDivElement;
 	let failed = false;
@@ -31,14 +34,12 @@
 		let handle: GlobeHandle | undefined;
 		let cancelled = false;
 		const cleanups: Array<() => void> = [];
+		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 		import('./scene').then(({ createGlobe }) => {
 			if (cancelled) return;
 			try {
-				handle = createGlobe(container, {
-					colors: readColors(),
-					animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches
-				});
+				handle = createGlobe(container, { colors: readColors(), animate: !reduced });
 			} catch {
 				failed = true;
 				return;
@@ -68,6 +69,22 @@
 				inView.disconnect();
 				document.removeEventListener('visibilitychange', sync);
 			});
+
+			// The page's scroll position drives the globe directly (scrub), so
+			// it moves exactly as far as the reader does and stops when they do.
+			if (scroll && !reduced) {
+				loadGsap().then(({ ScrollTrigger }) => {
+					if (cancelled) return;
+					const trigger = ScrollTrigger.create({
+						trigger: container,
+						start: 'top bottom',
+						end: 'bottom top',
+						scrub: true,
+						onUpdate: (self) => handle?.setScroll(self.progress)
+					});
+					cleanups.push(() => trigger.kill());
+				});
+			}
 		});
 
 		return () => {
