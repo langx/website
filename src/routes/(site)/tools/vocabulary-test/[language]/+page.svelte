@@ -215,7 +215,7 @@
 
 			<div class="cta" use:ownsPrimary>
 				<h2>Find out the part a test cannot tell you.</h2>
-				<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+				<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 			</div>
 		</section>
 	{/if}

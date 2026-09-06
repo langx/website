@@ -6,7 +6,7 @@
 <section class="final" data-reveal use:reveal={{ y: 30, scale: 0.96 }}>
 	<div class="box">
 		<h2>Someone out there is learning your language.</h2>
-		<Button href="https://app.langx.io" variant="dark" size="lg">Start for free</Button>
+		<Button href="https://get.langx.io" variant="dark" size="lg">Start for free</Button>
 		<p>iOS · Android · Web</p>
 	</div>
 </section>

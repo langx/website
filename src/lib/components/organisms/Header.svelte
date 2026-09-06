@@ -28,7 +28,7 @@
 
 		<div class="tools">
 			<ThemeToggle />
-			<Button href="https://app.langx.io" variant="primary" size="sm">Get the app</Button>
+			<Button href="https://get.langx.io" variant="primary" size="sm">Get the app</Button>
 		</div>
 	</div>
 </header>

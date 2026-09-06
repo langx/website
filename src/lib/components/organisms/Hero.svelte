@@ -20,7 +20,7 @@
 			Real conversations, with corrections and translation built in.
 		</p>
 		<div class="buttons">
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 			<Button href="#features" variant="secondary" size="lg">See how it works</Button>
 		</div>
 		<p class="fine">Free · Open source · No ads</p>

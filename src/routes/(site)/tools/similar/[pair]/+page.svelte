@@ -134,7 +134,7 @@
 		<h2>The overlap is the easy part.</h2>
 		<p>The rest comes from using it with someone who speaks it.</p>
 		<div use:ownsPrimary>
-			<Button href="https://app.langx.io" variant="primary" size="lg">Start for free</Button>
+			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
 	</section>
 </div>
