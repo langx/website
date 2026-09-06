@@ -14,16 +14,15 @@
 		data-reveal-children
 		use:reveal={{ children: true, onLoad: true, stagger: 0.12 }}
 	>
-		<h1>Learn a language by actually speaking it.</h1>
+		<h1>The friendly way to practise a language with real people</h1>
 		<p class="lede">
-			LangX matches you with people who speak the language you're learning — and are learning yours.
-			Real conversations, with corrections and translation built in.
+			Chat with someone who speaks your target language and is learning yours. Free, open source, no
+			ads.
 		</p>
 		<div class="buttons">
 			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 			<Button href="#features" variant="secondary" size="lg">See how it works</Button>
 		</div>
-		<p class="fine">Free · Open source · No ads</p>
 	</div>
 
 	<div class="globe" data-reveal use:reveal={{ onLoad: true, y: 0, scale: 0.94, delay: 0.4 }}>
@@ -66,12 +65,6 @@
 		flex-wrap: wrap;
 		gap: 14px;
 		margin-top: 40px;
-	}
-
-	.fine {
-		margin: 32px 0 0;
-		font-size: 0.9375rem;
-		color: var(--color--text-tertiary);
 	}
 
 	.globe {
