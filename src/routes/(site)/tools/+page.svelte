@@ -146,7 +146,7 @@
 
 <div class="container">
 	<header class="hero">
-		<p class="kicker">Free · no account · yours to download</p>
+		<span class="eyebrow">Free · no account · yours to download</span>
 		<h1>Tools for the part<br />nobody sells you.</h1>
 		<p class="lede">
 			The vocabulary, the frequency, the raw lists — the unglamorous half of learning a language,
@@ -217,17 +217,9 @@
 		}
 	}
 
-	.kicker {
-		font-size: 0.6875rem;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--color--text-quiet);
-		margin-bottom: var(--space-xs);
-	}
-
 	h1 {
 		max-width: 20ch;
+		margin-top: 12px;
 	}
 
 	.lede {

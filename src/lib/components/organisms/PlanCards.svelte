@@ -1,15 +1,23 @@
 <script lang="ts">
 	import { plans, planNotes } from '$lib/data/plans';
 	import { reveal } from '$lib/utils/reveal';
+
+	/**
+	 * `detailed` is the plans page: the notes under each point are shown, and
+	 * the section title is left to the page header above.
+	 */
+	export let detailed = false;
 </script>
 
 <!-- Three cards from plans.ts, so a limit that changes there changes here. -->
-<section id="plans" class="plans">
-	<header class="head" data-reveal use:reveal>
-		<span class="eyebrow">Plans</span>
-		<h2>Free is a real plan, not a trial</h2>
-		<p>Each tier only lists what's new. Prices are set per region and shown in the app.</p>
-	</header>
+<section id="plans" class="plans" class:detailed>
+	{#if !detailed}
+		<header class="head" data-reveal use:reveal>
+			<span class="eyebrow">Plans</span>
+			<h2>Free is a real plan, not a trial</h2>
+			<p>Each tier only lists what's new. Prices are set per region and shown in the app.</p>
+		</header>
+	{/if}
 
 	<div class="grid" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
 		{#each plans as plan}
@@ -21,8 +29,11 @@
 				<ul class="rows" role="list">
 					{#each plan.points as point}
 						<li>
-							{point.label}{#if point.pending}
-								<span class="soon">Coming soon</span>{/if}
+							<span class="label">
+								{point.label}{#if point.pending}
+									<span class="soon">Coming soon</span>{/if}
+							</span>
+							{#if detailed && point.note}<small>{point.note}</small>{/if}
 						</li>
 					{/each}
 				</ul>
@@ -41,6 +52,14 @@
 
 		@include for-phone-only {
 			padding-top: 72px;
+		}
+
+		&.detailed {
+			padding-top: 0;
+
+			.grid {
+				margin-top: 0;
+			}
 		}
 	}
 
@@ -118,6 +137,15 @@
 		padding: 10px 0;
 		font-size: 0.9375rem;
 		line-height: 1.5;
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+	}
+
+	small {
+		font-size: 0.8125rem;
+		line-height: 1.45;
+		color: var(--color--text-shade);
 	}
 
 	.soon {

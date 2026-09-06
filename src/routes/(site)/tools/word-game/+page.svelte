@@ -16,6 +16,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="Five letters, once a day"
 		lede="Guess the day's word in six tries. Every answer comes from the words that language uses most,
 		so a puzzle is never a word nobody has met."

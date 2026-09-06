@@ -85,6 +85,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		{title}
 		lede="Every one of these is a word that turns up in ordinary speech, not a dictionary curiosity — the number beside it is where it ranks in that language."
 	/>

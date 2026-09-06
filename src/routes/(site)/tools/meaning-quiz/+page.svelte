@@ -13,6 +13,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="Do you know what these words mean?"
 		lede="Ten words a day, four meanings each. Every word comes from the first fifteen hundred its
 		language uses most, so these are words you would actually meet."

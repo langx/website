@@ -1,8 +1,7 @@
 <script lang="ts">
 	import { legacyTokenDivisor, welcomeBackBonus } from '$lib/data/token';
 	import AppStores from '$lib/components/molecules/AppStores.svelte';
-	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
-	import WelcomeBackScreen from '$lib/components/phone/WelcomeBackScreen.svelte';
+	import RestoreCard from '$lib/components/organisms/RestoreCard.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 </script>
 
@@ -104,13 +103,9 @@
 		</div>
 	</div>
 
-	<div class="device">
+	<div class="aside">
 		<div class="sticky">
-			<PhoneFrame
-				label="The welcome-back screen: your handle, imported conversations, converted tokens and a frozen streak"
-			>
-				<WelcomeBackScreen />
-			</PhoneFrame>
+			<RestoreCard />
 		</div>
 	</div>
 </section>
@@ -195,24 +190,16 @@
 		padding: var(--space-md) 0 0;
 	}
 
-	.device {
-		--phone-zoom: 0.8;
+	.aside {
 		display: flex;
 		justify-content: center;
-
-		@include for-tablet-portrait-down {
-			justify-content: flex-start;
-			--phone-zoom: 0.72;
-		}
-
-		@include for-phone-only {
-			--phone-zoom: 0.66;
-		}
 	}
 
 	.sticky {
 		position: sticky;
 		top: calc(var(--header-height) + 24px);
+		width: 100%;
+		max-width: 400px;
 
 		@include for-tablet-portrait-down {
 			position: static;

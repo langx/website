@@ -5,6 +5,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Coming from v1"
 		title="Welcome back"
 		lede="LangX v2 is a rebuild, not an update on top of the old app. Here is everything that changes for you, including the parts we would rather you heard from us than discovered."
 	/>

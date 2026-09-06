@@ -66,6 +66,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		{title}
 		lede="Among the two thousand words each language uses most, these are written identically and carry
 		the same meaning in both. If you have one of the two, this is the part you do not have to learn."
