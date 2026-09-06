@@ -6,12 +6,12 @@
 	const links = [
 		{ href: '/#features', label: 'Features' },
 		{ href: '/#plans', label: 'Plans' },
-		{ href: '/#reviews', label: 'Reviews' },
-		{ href: 'https://github.com/langx', label: 'GitHub', external: true }
+		{ href: '/#faq', label: 'FAQ' },
+		{ href: 'https://github.com/langx/langx', label: 'GitHub', external: true }
 	];
 </script>
 
-<!-- Logo, four links, the theme switch and one yellow button. It scrolls with the page. -->
+<!-- Logo, four links, the theme switch and one yellow button. Sticks to the top; the page shows through it. -->
 <header class="header">
 	<div class="container bar">
 		<Logo height={24} />
@@ -28,7 +28,7 @@
 
 		<div class="tools">
 			<ThemeToggle />
-			<Button href="https://get.langx.io" variant="primary" size="sm">Get the app</Button>
+			<Button href="https://get.langx.io" variant="primary" size="sm">Get started</Button>
 		</div>
 	</div>
 </header>
@@ -36,36 +36,42 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
+	.header {
+		position: sticky;
+		top: 0;
+		z-index: 30;
+		background: rgba(var(--color--page-background-rgb), 0.92);
+		backdrop-filter: blur(8px);
+		-webkit-backdrop-filter: blur(8px);
+		border-bottom: 1px solid var(--color--border);
+	}
+
 	.bar {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
 		flex-wrap: wrap;
-		gap: 16px;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		gap: 16px 28px;
+		padding-top: 14px;
+		padding-bottom: 14px;
 	}
 
 	.links {
 		display: flex;
 		align-items: center;
 		flex-wrap: wrap;
-		gap: 4px;
+		gap: 24px;
+		margin-left: auto;
+		font-family: var(--font--title);
+		font-size: 0.9375rem;
+		font-weight: 700;
 
 		a {
-			display: inline-flex;
-			align-items: center;
-			padding: 8px 14px;
-			border-radius: var(--radius-pill);
-			font-size: 0.9375rem;
-			font-weight: 600;
 			color: var(--color--text-shade);
-			transition: color var(--dur-fast) ease, background-color var(--dur-fast) ease;
+			transition: color var(--dur-fast) ease;
 
 			@media (hover: hover) and (pointer: fine) {
 				&:hover {
-					color: var(--color--text);
-					background: var(--color--muted);
+					color: var(--color--accent);
 				}
 			}
 		}
@@ -75,6 +81,7 @@
 			order: 3;
 			width: 100%;
 			justify-content: center;
+			gap: 20px;
 		}
 	}
 
@@ -82,5 +89,9 @@
 		display: flex;
 		align-items: center;
 		gap: var(--space-xs);
+
+		@include for-phone-only {
+			margin-left: auto;
+		}
 	}
 </style>

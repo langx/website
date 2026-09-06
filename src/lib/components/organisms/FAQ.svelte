@@ -1,5 +1,6 @@
 <script lang="ts">
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
+	import { reveal } from '$lib/utils/reveal';
 
 	interface FaqObject {
 		id: number;
@@ -42,7 +43,7 @@
 		{
 			id: 7,
 			title: 'Is it safe?',
-			content: `Yes. The whole app is open source on <a href="https://github.com/langx/langx" target="_blank" rel="noopener noreferrer">GitHub</a>, so anyone can see exactly how it works and what it stores. You can report or block anyone from inside the app, reports go to a moderation team, and you need to be 18 or older to join.`
+			content: `Yes. The whole app is open source on <a href="https://github.com/langx/langx" target="_blank" rel="noopener noreferrer">GitHub</a>, so anyone can see exactly how it works and what it stores. You can report or block anyone from inside the app, reports go to a moderation team, and you need to be 16 or older to join.`
 		},
 		{
 			id: 8,
@@ -51,17 +52,20 @@
 		}
 	];
 
-	let openId: number | null = null;
+	// The first answer is open on arrival, so the list reads as answers, not a
+	// row of closed doors.
+	let openId: number | null = faqObjects[0].id;
 
 	const toggle = (id: number) => (openId = openId === id ? null : id);
 </script>
 
 <section id="faq" class="faq">
-	<header class="head">
+	<header class="head" data-reveal use:reveal>
+		<span class="eyebrow">FAQ</span>
 		<h2>Questions</h2>
 	</header>
 
-	<div class="accordion">
+	<div class="accordion" data-reveal use:reveal>
 		{#each faqObjects as item (item.id)}
 			<div class="item" class:open={openId === item.id}>
 				<h3>
@@ -96,21 +100,34 @@
 	@import '$lib/scss/breakpoints.scss';
 
 	.faq {
-		padding: var(--space-3xl) 0 0;
+		padding: 110px 0 0;
 
 		@include for-phone-only {
-			padding-top: var(--space-2xl);
+			padding-top: 72px;
 		}
 	}
 
+	// Centred, unlike the sections above it: the list is narrower than the
+	// page, and a left-aligned title over a centred list looked adrift.
 	.head {
-		max-width: 60ch;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		text-align: center;
+
+		h2 {
+			margin: 0;
+			font-weight: 900;
+			font-size: clamp(1.625rem, 3vw, 2.125rem);
+			line-height: 1.15;
+		}
 	}
 
 	.accordion {
-		margin-top: var(--space-lg);
+		margin: 32px auto 0;
 		border-top: 1px solid var(--color--border);
-		max-width: 76ch;
+		max-width: 760px;
 	}
 
 	.item {
@@ -128,15 +145,15 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: var(--space-md);
+		gap: 20px;
 		width: 100%;
-		padding: 18px 0;
+		padding: 20px 0;
 		background: none;
 		border: 0;
 		text-align: left;
 		cursor: pointer;
 		color: var(--color--text);
-		font-family: var(--font--default);
+		font-family: var(--font--title);
 		border-radius: var(--radius-sm);
 
 		&:hover .title {
@@ -146,16 +163,16 @@
 
 	.title {
 		font-size: 1.0625rem;
-		font-weight: 600;
+		font-weight: 800;
 		line-height: 1.4;
 		transition: color var(--dur-fast) ease;
 	}
 
 	.chevron {
 		flex: 0 0 auto;
-		color: var(--color--text-quiet);
+		color: var(--color--text-tertiary);
 		display: inline-flex;
-		transition: transform var(--dur-fast) var(--ease-out);
+		transition: transform var(--dur-fast) var(--ease-out), color var(--dur-fast) ease;
 	}
 
 	.open .chevron {
@@ -182,9 +199,9 @@
 
 	.content {
 		padding: 0 0 22px;
-		max-width: 68ch;
+		max-width: 64ch;
 		font-size: 1rem;
-		line-height: 1.6;
+		line-height: 1.65;
 		color: var(--color--text-shade);
 		opacity: 0;
 		transition: opacity var(--dur-fast) ease;

@@ -1,48 +1,57 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
+	import Logo from '$lib/components/atoms/Logo.svelte';
 	import { reveal } from '$lib/utils/reveal';
 </script>
 
-<section class="final" data-reveal use:reveal={{ y: 30, scale: 0.96 }}>
-	<div class="box">
-		<h2>Someone out there is learning your language.</h2>
-		<Button href="https://get.langx.io" variant="dark" size="lg">Start for free</Button>
-		<p>iOS · Android · Web</p>
+<!-- The mark, one line, and the same two buttons as the top of the page. -->
+<section class="final" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
+	<Logo variant="mark" height={52} href={undefined} />
+	<h2>Practice a language with LangX</h2>
+	<div class="buttons">
+		<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
+		<Button href="https://get.langx.io" variant="secondary" size="lg" block
+			>I have an account</Button
+		>
 	</div>
+	<p>iPhone · Android · Browser — the same app everywhere.</p>
 </section>
 
 <style lang="scss">
-	.final {
-		max-width: 1060px;
-		margin: 0 auto;
-		padding: 0 0 110px;
-	}
+	@import '$lib/scss/breakpoints.scss';
 
-	.box {
-		background: var(--color--primary);
-		border-radius: 32px;
-		padding: 70px 40px;
+	.final {
+		padding: 120px 0 100px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 28px;
 		text-align: center;
+
+		@include for-phone-only {
+			padding: 80px 0 72px;
+		}
 	}
 
 	h2 {
 		margin: 0;
-		max-width: 22ch;
+		max-width: 18ch;
 		font-weight: 900;
-		font-size: clamp(1.9rem, 4.5vw, 3rem);
-		line-height: 1.08;
-		letter-spacing: -0.02em;
-		color: var(--color--on-primary);
+		font-size: clamp(1.875rem, 4vw, 2.875rem);
+		line-height: 1.1;
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		width: 100%;
+		max-width: 330px;
 	}
 
 	p {
 		margin: 0;
-		font-size: 0.9375rem;
-		color: var(--color--on-primary);
-		opacity: 0.75;
+		font-size: 0.875rem;
+		color: var(--color--text-tertiary);
 	}
 </style>

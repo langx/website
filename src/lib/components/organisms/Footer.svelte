@@ -2,13 +2,10 @@
 	import Logo from '$lib/components/atoms/Logo.svelte';
 
 	const links = [
-		{ label: 'Web app', href: 'https://app.langx.io' },
-		{ label: 'App Store', href: 'https://apps.apple.com/app/id6474187141' },
-		{
-			label: 'Google Play',
-			href: 'https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange'
-		},
-		{ label: 'GitHub', href: 'https://github.com/langx' }
+		{ label: 'GitHub', href: 'https://github.com/langx/langx' },
+		{ label: 'Discord', href: 'https://discord.langx.io' },
+		{ label: 'Privacy', href: '/privacy-policy' },
+		{ label: 'Terms', href: '/terms-conditions' }
 	];
 
 	// Not in the design, kept on purpose: the blog, the tools and the legal
@@ -78,15 +75,18 @@
 	const isExternal = (href: string) => /^https?:\/\//.test(href);
 </script>
 
+<!-- One line, the way the design has it; the link groups sit quietly under it. -->
 <footer class="footer">
 	<div class="container row">
-		<div class="brand">
-			<Logo height={18} />
-			<span class="licence">Open source · BSD-3</span>
-		</div>
+		<Logo height={16} />
+		<span class="licence">Open source · BSD-3 · No ads</span>
 		<nav class="links" aria-label="Footer">
 			{#each links as link}
-				<a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>
+				<a
+					href={link.href}
+					target={isExternal(link.href) ? '_blank' : undefined}
+					rel={isExternal(link.href) ? 'noopener noreferrer' : undefined}>{link.label}</a
+				>
 			{/each}
 		</nav>
 	</div>
@@ -107,8 +107,8 @@
 				</ul>
 			</div>
 		{/each}
+		<p class="copy">© {new Date().getFullYear()} LangX · New Chapter Technology LLC</p>
 	</div>
-	<p class="container copy">© {new Date().getFullYear()} LangX · New Chapter Technology LLC</p>
 </footer>
 
 <style lang="scss">
@@ -116,51 +116,45 @@
 
 	.footer {
 		border-top: 1px solid var(--color--border);
+		font-size: 0.875rem;
+		color: var(--color--text-shade);
 	}
 
 	.row {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
 		flex-wrap: wrap;
-		gap: 20px;
-		padding-top: 40px;
-		padding-bottom: 28px;
-	}
-
-	.brand {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-	}
-
-	.licence {
-		font-size: 0.875rem;
-		color: var(--color--text-tertiary);
-		margin-left: 8px;
+		gap: 12px 20px;
+		padding-top: 32px;
+		padding-bottom: 32px;
 	}
 
 	.links {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 20px;
-		font-size: 0.9375rem;
+		margin-left: auto;
 
-		a {
-			color: var(--color--text-shade);
+		@include for-phone-only {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
 
-			&:hover {
-				color: var(--color--text);
-			}
+	.footer a {
+		color: var(--color--text-shade);
+
+		&:hover {
+			color: var(--color--text);
 		}
 	}
 
 	.groups {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-		gap: 28px 20px;
-		padding-top: 28px;
-		padding-bottom: 36px;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 24px 20px;
+		padding-top: 24px;
+		padding-bottom: 32px;
 		border-top: 1px solid var(--color--border);
 
 		@include for-phone-only {
@@ -170,37 +164,24 @@
 
 	.group {
 		h3 {
-			margin: 0 0 8px;
-			font-family: var(--font--default);
+			margin: 0 0 6px;
 			font-size: 0.8125rem;
-			font-weight: 700;
-			letter-spacing: 0.02em;
-			color: var(--color--text-quiet);
-		}
-
-		ul {
-			display: flex;
-			flex-direction: column;
-			gap: 2px;
+			font-weight: 800;
+			color: var(--color--text);
 		}
 
 		a {
 			display: inline-flex;
 			align-items: center;
-			min-height: 30px;
-			font-size: 0.9375rem;
-			color: var(--color--text-shade);
-
-			&:hover {
-				color: var(--color--text);
-			}
+			min-height: 28px;
+			font-size: 0.8125rem;
 		}
 	}
 
 	.copy {
-		margin: 0;
-		padding-bottom: 28px;
+		grid-column: 1 / -1;
+		margin: 8px 0 0;
 		font-size: 0.8125rem;
-		color: var(--color--text-quiet);
+		color: var(--color--text-tertiary);
 	}
 </style>

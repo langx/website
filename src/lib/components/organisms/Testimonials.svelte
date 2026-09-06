@@ -41,8 +41,9 @@
 
 <section id="reviews" class="reviews">
 	<header class="head" data-reveal use:reveal>
+		<span class="eyebrow">Reviews</span>
 		<h2>What people say</h2>
-		<p class="lede">Rated 5.0 on the App Store and 4.4 on Google Play.</p>
+		<p>Rated 5.0 on the App Store and 4.4 on Google Play.</p>
 	</header>
 
 	<ul class="grid" role="list" data-reveal-children use:reveal={{ children: true, stagger: 0.08 }}>
@@ -61,7 +62,7 @@
 				<blockquote>{review.body}</blockquote>
 				<div class="who">
 					<span class="name">{review.name}</span>
-					<span class="store">{review.store}</span>
+					<span class="store">· {review.store}</span>
 				</div>
 			</li>
 		{/each}
@@ -69,59 +70,65 @@
 </section>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	.reviews {
-		max-width: 1060px;
-		margin: 0 auto;
-		padding: 0 0 110px;
+		padding: 110px 0 0;
+
+		@include for-phone-only {
+			padding-top: 72px;
+		}
 	}
 
 	.head {
-		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
 
 		h2 {
-			margin: 0 0 12px;
+			margin: 0;
 			font-weight: 900;
-			font-size: clamp(1.9rem, 4vw, 2.6rem);
-			letter-spacing: -0.015em;
+			font-size: clamp(1.625rem, 3vw, 2.125rem);
+			line-height: 1.15;
 		}
 
-		.lede {
-			margin: 0 auto 56px;
-			max-width: none;
-			font-size: 1.125rem;
+		p {
+			margin: 0;
+			font-size: 1.0625rem;
+			color: var(--color--text-shade);
 		}
 	}
 
 	.grid {
+		margin-top: 32px;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 40px;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		column-gap: 56px;
 	}
 
 	.review {
+		padding: 24px 0;
+		border-bottom: 1px solid var(--color--border);
 		display: flex;
 		flex-direction: column;
-		gap: 12px;
+		gap: 10px;
 	}
 
 	.stars {
 		display: inline-flex;
 		gap: 2px;
-		color: var(--color--streak);
+		color: var(--color--primary);
 	}
 
 	blockquote {
 		margin: 0;
-		font-size: 1.0625rem;
-		line-height: 1.55;
+		font-size: 1rem;
+		line-height: 1.6;
 		color: var(--color--text);
 	}
 
 	.who {
-		display: flex;
-		align-items: baseline;
-		gap: 8px;
-		font-size: 0.9375rem;
+		font-size: 0.875rem;
 	}
 
 	.name {
@@ -130,6 +137,6 @@
 	}
 
 	.store {
-		color: var(--color--text-shade);
+		color: var(--color--text-tertiary);
 	}
 </style>
