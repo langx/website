@@ -3,6 +3,7 @@
 	import Hero from '$lib/components/organisms/Hero.svelte';
 	import LanguageMarquee from '$lib/components/organisms/LanguageMarquee.svelte';
 	import Features from '$lib/components/organisms/Features.svelte';
+	import ChatCard from '$lib/components/organisms/ChatCard.svelte';
 	import PlanCards from '$lib/components/organisms/PlanCards.svelte';
 	import Testimonials from '$lib/components/organisms/Testimonials.svelte';
 	import FAQ from '$lib/components/organisms/FAQ.svelte';
@@ -15,6 +16,7 @@
 	<Hero />
 	<LanguageMarquee />
 	<Features />
+	<ChatCard />
 	<PlanCards />
 	<Testimonials />
 	<FAQ />

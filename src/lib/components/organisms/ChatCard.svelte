@@ -3,49 +3,64 @@
 </script>
 
 <!--
-	The whole product in one card: who you are matched with, two messages, a
-	correction, and translation one tap away. Sized by whoever places it.
+	The whole product in one card, after the three features that make it up:
+	who you are matched with, two messages, a correction, and translation one
+	tap away.
 -->
-<div
-	class="card"
-	role="img"
-	aria-label="A LangX chat: two messages, then a correction"
-	data-reveal
-	use:reveal={{ y: 40 }}
->
-	<div class="who">
-		<span class="avatar" aria-hidden="true">M</span>
-		<span class="meta">
-			<span class="name">María</span>
-			<span class="langs">speaks Spanish · learning English</span>
+<section class="wrap">
+	<div
+		class="card"
+		role="img"
+		aria-label="A LangX chat: two messages, then a correction"
+		data-reveal
+		use:reveal={{ y: 40 }}
+	>
+		<div class="who">
+			<span class="avatar" aria-hidden="true">M</span>
+			<span class="meta">
+				<span class="name">María</span>
+				<span class="langs">speaks Spanish · learning English</span>
+			</span>
+		</div>
+		<p class="bubble theirs">¡Hola! Yo aprendo inglés hace dos años 😄</p>
+		<p class="bubble mine">Estudio español hace dos mes</p>
+		<div class="correction">
+			<span class="label">Correction</span>
+			<span class="text">hace dos <s>mes</s> <strong>meses</strong> ✓</span>
+		</div>
+		<span class="translate">
+			<svg
+				width="14"
+				height="14"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2.5"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				aria-hidden="true"
+				><path d="m5 8 6 6" /><path d="m4 14 6-6 2-3" /><path d="M2 5h12" /><path d="M7 2h1" /><path
+					d="m22 22-5-10-5 10"
+				/><path d="M14 18h6" /></svg
+			>
+			Translate
 		</span>
 	</div>
-	<p class="bubble theirs">¡Hola! Yo aprendo inglés hace dos años 😄</p>
-	<p class="bubble mine">Estudio español hace dos mes</p>
-	<div class="correction">
-		<span class="label">Correction</span>
-		<span class="text">hace dos <s>mes</s> <strong>meses</strong> ✓</span>
-	</div>
-	<span class="translate">
-		<svg
-			width="14"
-			height="14"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2.5"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			aria-hidden="true"
-			><path d="m5 8 6 6" /><path d="m4 14 6-6 2-3" /><path d="M2 5h12" /><path d="M7 2h1" /><path
-				d="m22 22-5-10-5 10"
-			/><path d="M14 18h6" /></svg
-		>
-		Translate
-	</span>
-</div>
+</section>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
+	.wrap {
+		max-width: 400px;
+		margin: 0 auto;
+		padding: 110px 0 0;
+
+		@include for-phone-only {
+			padding-top: 72px;
+		}
+	}
+
 	.card {
 		background: var(--color--surface);
 		border: 2px solid var(--color--border);
