@@ -1,17 +1,15 @@
 <script lang="ts">
 	import { legacyTokenDivisor, welcomeBackBonus } from '$lib/data/token';
-	import { reveal } from '$lib/utils/reveal';
 
 	/** What a returning v1 user sees. The 20 carried-over tokens are a demo balance. */
 	const carried = 20;
 </script>
 
+<!-- No reveal: /welcome-back ships no JS (csr = dev), so a hidden card would stay hidden. -->
 <div
 	class="card"
 	role="img"
 	aria-label="The welcome-back screen: your handle, imported conversations, converted tokens and a frozen streak"
-	data-reveal
-	use:reveal={{ y: 40 }}
 >
 	<div class="hello">
 		<span class="wave" aria-hidden="true">👋</span>

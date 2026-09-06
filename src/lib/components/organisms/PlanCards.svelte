@@ -4,7 +4,8 @@
 
 	/**
 	 * `detailed` is the plans page: the notes under each point are shown, and
-	 * the section title is left to the page header above.
+	 * the section title is left to the page header above. That page ships no
+	 * JS (csr = dev), so nothing on it may start hidden for a reveal.
 	 */
 	export let detailed = false;
 </script>
@@ -19,7 +20,11 @@
 		</header>
 	{/if}
 
-	<div class="grid" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
+	<div
+		class="grid"
+		data-reveal-children={detailed ? undefined : true}
+		use:reveal={{ children: true, stagger: 0.1 }}
+	>
 		{#each plans as plan}
 			<article class="card {plan.tone ?? 'free'}">
 				<div class="name">

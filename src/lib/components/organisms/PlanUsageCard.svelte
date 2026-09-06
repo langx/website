@@ -1,18 +1,15 @@
 <script lang="ts">
-	import { reveal } from '$lib/utils/reveal';
-
 	// What a Fluent day looks like inside the app. The 300 is Fluent's
 	// translation cap in `data/plans.ts`; the 12 is a morning's use.
 	const used = 12;
 	const cap = 300;
 </script>
 
+<!-- No reveal: /pro ships no JS (csr = dev), so a hidden card would stay hidden. -->
 <div
 	class="card"
 	role="img"
 	aria-label="A Fluent account's day: unlimited chats, 12 of 300 translations used, two languages each way"
-	data-reveal
-	use:reveal={{ y: 40 }}
 >
 	<div class="head">
 		<span class="plan">Fluent</span>
