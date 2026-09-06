@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
-	import Logo from '$lib/components/atoms/Logo.svelte';
+	import Mark from '$lib/components/globe/Mark.svelte';
 	import { reveal } from '$lib/utils/reveal';
 </script>
 
-<!-- The mark, one line, and the same two buttons as the top of the page. -->
+<!-- The mark turning in three dimensions, one line, and the same two buttons as the top of the page. -->
 <section class="final" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
-	<Logo variant="mark" height={52} href={undefined} />
+	<Mark size={96} />
 	<h2>Practice a language with LangX</h2>
 	<div class="buttons">
 		<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>

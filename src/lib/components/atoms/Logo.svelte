@@ -4,6 +4,11 @@
 	export let href: string | undefined = '/';
 	/** `mark` renders only the two hooks, for tight spaces. */
 	export let variant: 'full' | 'mark' = 'full';
+	/**
+	 * Turn the mark slowly, the way the 3D one at the foot of the homepage
+	 * turns. Done in CSS, so a header on every page never loads Three.js.
+	 */
+	export let animated = false;
 
 	$: markWidth = (height * 14.6) / 21.544;
 </script>
@@ -18,6 +23,7 @@
 	this={href ? 'a' : 'span'}
 	{href}
 	class="logo"
+	class:animated
 	style="--h:{height}px"
 	aria-label={href ? 'LangX home' : 'LangX'}
 >
@@ -62,6 +68,33 @@
 		height: var(--h);
 		width: auto;
 		flex: 0 0 auto;
+	}
+
+	// A swing of ±40° about the vertical axis rather than a full turn, so
+	// the drawing never shows mirrored.
+	.animated svg {
+		animation: turn 5s ease-in-out infinite;
+		transform-origin: 50% 50%;
+	}
+
+	.animated {
+		perspective: 120px;
+	}
+
+	@keyframes turn {
+		0%,
+		100% {
+			transform: rotateY(-40deg);
+		}
+		50% {
+			transform: rotateY(40deg);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.animated svg {
+			animation: none;
+		}
 	}
 
 	.hook-yellow {

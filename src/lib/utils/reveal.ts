@@ -24,13 +24,17 @@ export interface RevealOptions {
 	onLoad?: boolean;
 }
 
-let gsapReady: Promise<typeof import('gsap').gsap> | undefined;
+type Gsap = typeof import('gsap').gsap;
+type ScrollTriggerClass = typeof import('gsap/ScrollTrigger').ScrollTrigger;
 
-function loadGsap() {
+let gsapReady: Promise<{ gsap: Gsap; ScrollTrigger: ScrollTriggerClass }> | undefined;
+
+/** GSAP with ScrollTrigger registered, loaded once, in its own chunk. */
+export function loadGsap() {
 	gsapReady ??= Promise.all([import('gsap'), import('gsap/ScrollTrigger')]).then(
 		([{ gsap }, { ScrollTrigger }]) => {
 			gsap.registerPlugin(ScrollTrigger);
-			return gsap;
+			return { gsap, ScrollTrigger };
 		}
 	);
 	return gsapReady;
@@ -57,7 +61,7 @@ export function reveal(
 	let cancelled = false;
 	let tween: gsap.core.Tween | undefined;
 
-	loadGsap().then((gsap) => {
+	loadGsap().then(({ gsap }) => {
 		if (cancelled) return;
 		tween = gsap.fromTo(
 			targets,

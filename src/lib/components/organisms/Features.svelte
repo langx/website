@@ -1,5 +1,12 @@
 <script lang="ts">
+	import Globe from '$lib/components/globe/Globe.svelte';
 	import { reveal } from '$lib/utils/reveal';
+
+	// New York and Madrid: an English speaker and a Spanish speaker, one arc.
+	const pair: [[number, number], [number, number]] = [
+		[40.71, -74.01],
+		[40.42, -3.7]
+	];
 
 	// Six more things, one line each. Every claim has to be true of the
 	// shipping app; the paid one names its plan.
@@ -47,27 +54,15 @@
 			</p>
 		</div>
 		<div class="visual">
-			<div class="pair" aria-hidden="true">
-				<div class="pill">
+			<div class="pair">
+				<div class="small-globe">
+					<Globe {pair} label="A globe with one arc, from New York to Madrid" />
+				</div>
+				<div class="pill" aria-hidden="true">
 					<span class="name">You</span>
 					<span class="langs">speak English · learning Spanish</span>
 				</div>
-				<span class="swap">
-					<svg
-						width="20"
-						height="20"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2.5"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						><path d="m21 16-4 4-4-4" /><path d="M17 20V4" /><path d="m3 8 4-4 4 4" /><path
-							d="M7 4v16"
-						/></svg
-					>
-				</span>
-				<div class="pill">
+				<div class="pill" aria-hidden="true">
 					<span class="name">María</span>
 					<span class="langs">speaks Spanish · learning English</span>
 				</div>
@@ -181,13 +176,19 @@
 		justify-content: center;
 	}
 
-	// Matching: two people, and the arrows that make them a pair.
+	// Matching: two people, and the arc between them.
 	.pair {
 		display: flex;
 		flex-direction: column;
 		gap: 12px;
 		width: 100%;
 		max-width: 340px;
+	}
+
+	.small-globe {
+		width: 100%;
+		max-width: 260px;
+		margin: 0 auto 8px;
 	}
 
 	.pill {
@@ -210,12 +211,6 @@
 			font-size: 0.875rem;
 			color: var(--color--text-shade);
 		}
-	}
-
-	.swap {
-		align-self: center;
-		display: flex;
-		color: var(--color--accent);
 	}
 
 	// Corrections and translation: one message, and what happens to it.
