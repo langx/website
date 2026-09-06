@@ -1,16 +1,13 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
-	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
-	import ChatScreen from '$lib/components/phone/ChatScreen.svelte';
+	import Globe from '$lib/components/globe/Globe.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 </script>
 
-<!-- The app on the left doing its thing, the ask on the right. Two buttons, nothing else. -->
+<!-- The world on the left, the ask on the right. Two buttons, nothing else. -->
 <section id="hero" class="hero">
 	<div class="device">
-		<PhoneFrame label="A LangX chat: two messages in Spanish, then a friendly correction">
-			<ChatScreen loop />
-		</PhoneFrame>
+		<Globe label="A globe with arcs linking cities where people are chatting on LangX" />
 	</div>
 
 	<div class="copy">
@@ -48,21 +45,13 @@
 	}
 
 	.device {
-		--phone-zoom: 0.78;
 		display: flex;
 		justify-content: center;
 
-		@media (max-width: 1100px) {
-			--phone-zoom: 0.7;
-		}
-
 		@include for-tablet-portrait-down {
 			order: 2;
-			--phone-zoom: 0.72;
-		}
-
-		@include for-phone-only {
-			--phone-zoom: 0.66;
+			max-width: 360px;
+			margin: 0 auto;
 		}
 	}
 
