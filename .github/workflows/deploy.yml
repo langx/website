@@ -80,5 +80,5 @@ jobs:
       - name: Purge cache
         uses: jakejarvis/cloudflare-purge-action@v0.3.0
         env:
-          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE_ID }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
