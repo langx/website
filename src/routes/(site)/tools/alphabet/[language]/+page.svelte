@@ -69,6 +69,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		{title}
 		lede="{count} letters, each with its name and roughly the sound it makes. The sounds are English approximations — enough to sound a word out, not enough to pass for a local."
 	/>

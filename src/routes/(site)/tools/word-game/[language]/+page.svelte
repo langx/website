@@ -171,6 +171,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="{meta.name} in five letters"
 		lede="A new word every day, taken from the {meta.name} words that come up most in ordinary speech. Six
 		tries. Green is right, yellow is in the word somewhere."

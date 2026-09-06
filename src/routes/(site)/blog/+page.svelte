@@ -19,6 +19,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Blog"
 		title="Blog"
 		lede="Notes on language exchange, learning habits, and how LangX is built."
 	/>

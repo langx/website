@@ -17,6 +17,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="If you know one, you already know some of the other"
 		lede="{LANGUAGE_PAIRS.length} pairs where words are written identically and mean the same thing, inside
 		the two thousand each language uses most. Sorted by how much they share."

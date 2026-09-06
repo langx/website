@@ -4,6 +4,10 @@
 </script>
 
 <div class="container">
-	<PageHeader title="Data Deletion" lede="How to delete your account and the data it holds." />
+	<PageHeader
+		eyebrow="Legal"
+		title="Data Deletion"
+		lede="How to delete your account and the data it holds."
+	/>
 	<DataDeletion />
 </div>

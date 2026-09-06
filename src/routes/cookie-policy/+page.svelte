@@ -4,6 +4,10 @@
 </script>
 
 <div class="container">
-	<PageHeader title="Cookie Policy" lede="Which cookies LangX uses, and how to control them." />
+	<PageHeader
+		eyebrow="Legal"
+		title="Cookie Policy"
+		lede="Which cookies LangX uses, and how to control them."
+	/>
 	<CookiePolicy />
 </div>

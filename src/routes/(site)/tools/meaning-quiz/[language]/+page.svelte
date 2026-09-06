@@ -98,6 +98,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="What do these {meta.name} words mean?"
 		lede="Ten words a day, all of them from the first fifteen hundred {meta.name} uses most — so these are
 		words you would meet, not dictionary curiosities."

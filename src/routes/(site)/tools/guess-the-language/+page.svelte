@@ -105,6 +105,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="Which language is this?"
 		lede="Ten words a day, drawn from the {WORD_LISTS.length} lists. Each one appears in exactly one of
 		them — no word here belongs to two languages, so there are no trick questions."

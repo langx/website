@@ -19,6 +19,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="How many words do you know?"
 		lede="Forty-two words drawn from across the whole frequency range — the commonest through to the
 		rare. Mark the ones you know and see roughly how much of the language that covers. Two minutes, no

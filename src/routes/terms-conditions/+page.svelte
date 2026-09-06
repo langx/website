@@ -4,6 +4,10 @@
 </script>
 
 <div class="container">
-	<PageHeader title="Terms & Conditions" lede="The terms you agree to when you use LangX." />
+	<PageHeader
+		eyebrow="Legal"
+		title="Terms & Conditions"
+		lede="The terms you agree to when you use LangX."
+	/>
 	<TermsAndConditions />
 </div>

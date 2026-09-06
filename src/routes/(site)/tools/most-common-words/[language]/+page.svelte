@@ -231,6 +231,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		{title}
 		lede="Ranked by how often each word turns up in everyday {meta.name}, with its meaning in English."
 	/>

@@ -141,6 +141,7 @@
 
 <div class="container">
 	<PageHeader
+		eyebrow="Tools"
 		title="How many {meta.name} words do you know?"
 		lede="{total} words, drawn from every part of the {nf.format(
 			meta.count

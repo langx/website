@@ -4,6 +4,10 @@
 </script>
 
 <div class="container">
-	<PageHeader title="Privacy Policy" lede="What LangX collects, why, and what it never touches." />
+	<PageHeader
+		eyebrow="Legal"
+		title="Privacy Policy"
+		lede="What LangX collects, why, and what it never touches."
+	/>
 	<PrivacyPolicy />
 </div>
