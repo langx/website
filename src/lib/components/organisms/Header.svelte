@@ -14,7 +14,7 @@
 <!-- Logo, four links, the theme switch and one yellow button. Sticks to the top; the page shows through it. -->
 <header class="header">
 	<div class="container bar">
-		<Logo height={24} animated />
+		<Logo height={24} />
 
 		<nav class="links" aria-label="Primary">
 			{#each links as link}
