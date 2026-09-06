@@ -56,7 +56,8 @@
 		white-space: nowrap;
 		user-select: none;
 		transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease,
-			color var(--dur-fast) ease, border-color var(--dur-fast) ease;
+			color var(--dur-fast) ease, border-color var(--dur-fast) ease,
+			box-shadow var(--dur-press) var(--ease-out);
 
 		// The press is the feedback: the interface heard you.
 		&:active {
@@ -81,29 +82,49 @@
 	}
 
 	.sm {
-		min-height: 40px;
-		padding: 0 16px;
-		font-size: 0.875rem;
-	}
-	.md {
-		min-height: 48px;
+		min-height: 42px;
 		padding: 0 22px;
 		font-size: 0.9375rem;
 	}
+	.md {
+		min-height: 48px;
+		padding: 0 24px;
+		font-size: 0.9375rem;
+	}
 	.lg {
-		min-height: 54px;
-		padding: 0 28px;
-		font-size: 1rem;
+		min-height: 56px;
+		padding: 0 32px;
+		font-size: 1.0625rem;
+	}
+
+	// The yellow and the outlined pill stand on a hard edge and press down
+	// into it, the way the app's buttons do. `--edge` is the colour of that
+	// edge; the lift is a touch taller on the large size.
+	.primary,
+	.secondary {
+		--lift: 4px;
+		box-shadow: 0 var(--lift) 0 var(--edge);
+
+		&:active {
+			transform: translateY(calc(var(--lift) - 1px));
+			box-shadow: 0 1px 0 var(--edge);
+		}
+	}
+	.primary.lg,
+	.secondary.lg {
+		--lift: 5px;
 	}
 
 	.primary {
+		--edge: var(--color--primary-shade);
 		background: var(--color--primary);
 		color: var(--color--on-primary);
 	}
 	.secondary {
+		--edge: var(--color--border);
 		background: var(--color--surface);
-		color: var(--color--text);
-		border-color: var(--color--border);
+		color: var(--color--accent);
+		border: 2px solid var(--color--border);
 	}
 	.dark {
 		background: var(--color--text);
@@ -118,12 +139,12 @@
 
 	@media (hover: hover) and (pointer: fine) {
 		.primary:hover {
-			background: var(--color--primary-shade);
+			background: color-mix(in srgb, var(--color--primary), white 12%);
 			color: var(--color--on-primary);
 		}
 		.secondary:hover {
 			background: var(--color--muted);
-			color: var(--color--text);
+			color: var(--color--accent);
 		}
 		.dark:hover {
 			background: var(--color--text-shade);
@@ -136,7 +157,9 @@
 	}
 
 	@media (prefers-reduced-motion: reduce) {
-		.btn:active {
+		.btn:active,
+		.primary:active,
+		.secondary:active {
 			transform: none;
 		}
 	}

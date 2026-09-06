@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { reveal } from '$lib/utils/reveal';
+
 	// Real reviews, quoted as written, from the public Google Play listing
 	// (tech.newchapter.languageXchange). App Store ratings for the app exist
 	// (5.0 from 11 ratings on 2 Sep 2026) but no written App Store reviews are
@@ -38,12 +40,12 @@
 </script>
 
 <section id="reviews" class="reviews">
-	<header class="head">
+	<header class="head" data-reveal use:reveal>
 		<h2>What people say</h2>
 		<p class="lede">Rated 5.0 on the App Store and 4.4 on Google Play.</p>
 	</header>
 
-	<ul class="grid" role="list">
+	<ul class="grid" role="list" data-reveal-children use:reveal={{ children: true, stagger: 0.08 }}>
 		{#each reviews as review}
 			<li class="review">
 				<div class="stars" role="img" aria-label="5 out of 5 stars">
@@ -67,40 +69,39 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
-
 	.reviews {
-		padding: var(--space-3xl) 0 0;
-
-		@include for-phone-only {
-			padding-top: var(--space-2xl);
-		}
+		max-width: 1060px;
+		margin: 0 auto;
+		padding: 0 0 110px;
 	}
 
 	.head {
-		display: flex;
-		flex-direction: column;
-		gap: var(--space-sm);
-		max-width: 60ch;
-	}
+		text-align: center;
 
-	.grid {
-		margin-top: var(--space-lg);
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		column-gap: var(--space-2xl);
+		h2 {
+			margin: 0 0 12px;
+			font-weight: 900;
+			font-size: clamp(1.9rem, 4vw, 2.6rem);
+			letter-spacing: -0.015em;
+		}
 
-		@include for-tablet-portrait-down {
-			grid-template-columns: 1fr;
+		.lede {
+			margin: 0 auto 56px;
+			max-width: none;
+			font-size: 1.125rem;
 		}
 	}
 
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 40px;
+	}
+
 	.review {
-		padding: 22px 0;
-		border-bottom: 1px solid var(--color--border);
 		display: flex;
 		flex-direction: column;
-		gap: 10px;
+		gap: 12px;
 	}
 
 	.stars {

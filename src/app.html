@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 	<head>
 		<meta charset="utf-8" />
 		<link
@@ -38,6 +38,8 @@
 			// Runs before paint so a dark-mode visitor never sees a flash of light.
 			const theme = localStorage.getItem('theme-preference') || 'auto';
 			document.firstElementChild?.setAttribute('data-theme', theme);
+			// Scroll reveals hide their elements only once script has proven it runs.
+			document.firstElementChild?.classList.remove('no-js');
 		</script>
 
 		%sveltekit.head%

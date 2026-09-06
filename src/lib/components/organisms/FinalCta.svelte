@@ -1,47 +1,48 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
-	import { ownsPrimary } from '$lib/stores/cta';
+	import { reveal } from '$lib/utils/reveal';
 </script>
 
-<section class="final">
-	<h2>practice a language with LangX.</h2>
-	<div class="buttons" use:ownsPrimary>
-		<Button href="https://app.langx.io" variant="primary" size="lg" block>Start for free</Button>
-		<Button href="https://app.langx.io" variant="secondary" size="lg" block>
-			I already have an account
-		</Button>
+<section class="final" data-reveal use:reveal={{ y: 30, scale: 0.96 }}>
+	<div class="box">
+		<h2>Someone out there is learning your language.</h2>
+		<Button href="https://app.langx.io" variant="dark" size="lg">Start for free</Button>
+		<p>iOS · Android · Web</p>
 	</div>
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
-
 	.final {
-		padding: var(--space-3xl) 0 var(--space-2xl);
-		border-top: 1px solid var(--color--border);
+		max-width: 1060px;
+		margin: 0 auto;
+		padding: 0 0 110px;
+	}
+
+	.box {
+		background: var(--color--primary);
+		border-radius: 32px;
+		padding: 70px 40px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 28px;
 		text-align: center;
-		gap: var(--space-lg);
-
-		@include for-phone-only {
-			padding: var(--space-2xl) 0 var(--space-xl);
-		}
-
-		h2 {
-			font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
-			line-height: 1.05;
-			letter-spacing: -0.02em;
-			max-width: 16ch;
-		}
 	}
 
-	.buttons {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		width: 100%;
-		max-width: 330px;
+	h2 {
+		margin: 0;
+		max-width: 22ch;
+		font-weight: 900;
+		font-size: clamp(1.9rem, 4.5vw, 3rem);
+		line-height: 1.08;
+		letter-spacing: -0.02em;
+		color: var(--color--on-primary);
+	}
+
+	p {
+		margin: 0;
+		font-size: 0.9375rem;
+		color: var(--color--on-primary);
+		opacity: 0.75;
 	}
 </style>
