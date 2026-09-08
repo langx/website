@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Mark from '$lib/components/globe/Mark.svelte';
+	import { ownsPrimary } from '$lib/stores/cta';
 	import { reveal } from '$lib/utils/reveal';
 </script>
 
@@ -8,7 +9,7 @@
 <section class="final" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
 	<Mark size={96} />
 	<h2>Practice a language with LangX</h2>
-	<div class="buttons">
+	<div class="buttons" use:ownsPrimary>
 		<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
 		<Button href="https://get.langx.io" variant="secondary" size="lg" block
 			>I have an account</Button

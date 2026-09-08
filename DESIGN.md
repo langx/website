@@ -249,22 +249,22 @@ components:
 
 **Creative North Star: "The App on a Wider Screen"**
 
-The marketing site is built from the same material as the LangX mobile app (v3 handoff): a white ground, hairline dividers, Nunito 800 for anything that speaks, the platform sans for everything that explains, and pill-shaped controls. It refuses the category "hero plus feature cards" page. Instead of describing the product it shows it: the app's screens are rebuilt as real HTML inside a 390px device frame and scaled with `--phone-zoom`, so the mechanism (matched both ways, correct each other) is demonstrated rather than claimed. Since the re-pace the homepage reads like Duolingo's: one idea per chapter, a big lowercase heading that ends in a full stop, a phone beside it, and a looping chat demo where a hero image would be. Token arithmetic no longer appears on the homepage.
+The marketing site is built from the same material as the LangX mobile app (v3 handoff): a white ground, hairline dividers, Nunito 800 for anything that speaks, the platform sans for everything that explains, and pill-shaped controls. Since the re-pace the homepage reads like Duolingo's: one idea per chapter, with a big lowercase heading that ends in a full stop. Token arithmetic no longer appears on the homepage.
 
-Colour is doctrine, not decoration. Yellow is the one committing action and appears once per viewport, always paired with an outlined pill of the same width underneath it; blue is everything interactive and, since the re-pace, the voice of the chapter headings; green belongs to corrections alone; the streak orange lights star ratings. Everything else is ink on white, with two greys for reading and one hairline for structure. The site has no cards: content sits in rows separated by 1px lines, and the only objects allowed a shadow are the phone, the bottom sheet, the segmented-control thumb and the announcement dialog, all borrowed from the app.
+Colour is doctrine, not decoration. Yellow is the one committing action and appears once per viewport, always paired with an outlined pill of the same width underneath it; blue is everything interactive and, since the re-pace, the voice of the chapter headings; green belongs to corrections alone; the streak orange lights star ratings. Everything else is ink on white, with two greys for reading and one hairline for structure. Content sits in rows separated by 1px lines wherever a list carries it, and the four shadows the site uses — the phone, the bottom sheet, the segmented-control thumb and the announcement dialog — are all borrowed from the app.
 
 Motion is short, eased-out, and answers the visitor: a press scales to 0.97, a panel opens in 200ms, a chapter reveals once when scrolled into view (text rises 12px, the phone slides 40px in from its own side), rows inside a screen land 60ms apart, and the hero chat replays its four-beat choreography every 8 seconds. Reduced motion keeps every end state and drops the movement. Light and dark are twins: the ground flips to `#1c1f24`, the hairline to `#2c3036`, blue lifts to `#7c9cf9`, and yellow does not change at all.
 
 **Key Characteristics:**
 
-- White (or `#1c1f24`) ground with 1px hairlines as the only structural device; no cards, no tiles, no panels.
+- White (or `#1c1f24`) ground with 1px hairlines as the default structural device.
 - Nunito 800 display voice over the platform body stack; Nunito is never used for running text.
 - Chapter headings: lowercase, ending in a full stop, `clamp(2rem, 1.4rem + 2.4vw, 3rem)`, blue when they sit beside a phone, ink when they sit above the yellow.
 - One yellow committing action per viewport, stacked over an outlined pill of the same 330px width; the sticky header takes the yellow only when the page's own has scrolled away.
 - Blue means interactive (links, active tab, focus ring, caret, ghost buttons) and speaks the chapters; green means correction; the two are never confused.
 - Pills for every control: buttons, chips, inputs, nav links, icon buttons, segmented controls, language chips.
 - Phones at 390px with 36px corners, real HTML screens with photo avatars, scaled per section (0.66 to 0.8).
-- Flat surfaces; shadow reserved for the device, the sheet, the segmented thumb and the dialog.
+- Flat by default; the four shadows are the device, the sheet, the segmented thumb and the dialog.
 
 ## Colors
 
@@ -287,7 +287,7 @@ A single-accent palette on a white ground: yellow commits, blue interacts and sp
 
 ### Neutral
 
-- **Ground** (`ground`; dark `#1c1f24`): page, surface, phone screen, header, sheet, the language chip fill, the marquee's edge fades. One ground; there is no separate card colour on the redesigned surfaces.
+- **Ground** (`ground`; dark `#1c1f24`): page, surface, phone screen, header, sheet, the language chip fill, the marquee's edge fades. One ground; a card or panel takes the ground or the muted fill rather than a colour of its own.
 - **Muted Fill** (`muted-fill`; dark `#23272d`): the only tonal step above ground — input fields at rest, the received chat bubble, the segmented track, hover fill on nav links and outlined controls, the photo avatar's loading fill.
 - **Hairline** (`hairline`; dark `#2c3036`): every divider, the phone's edge, outlined buttons and chips, the language chip's border, the marquee's top and bottom edges, the sheet grabber, empty level bars, scrollbar thumb.
 - **Ink** (`ink`; dark `#f2f3f5`): headings, review quotes, footer links, the dark button fill, the solid chip fill, the final call's heading.
@@ -344,7 +344,7 @@ Inside the phone replicas type is set in px at the app's own sizes (16px body, 3
 
 One centred container, max 1080px, with 15px gutters on phones (0 at 320px), 20px from 768px, 30px from 901px. Breakpoints: 320 (iPhone SE), 767/768 (phone / tablet portrait), 900/901 (tablet landscape), 1200/1201 (desktop). The header is sticky at 64px, and `scroll-padding-top` is the header plus 16px.
 
-The homepage is a sequence of full-width rows: Hero, LanguageMarquee, Story (four chapters), Anywhere, Testimonials, FAQ, FinalCta, then the Footer with the newsletter row. Sections are not boxed; each is separated by a hairline `border-top` or by its own vertical padding (`--space-3xl`, 104px; 72px on phones).
+The homepage is a sequence of full-width rows: Hero, LanguageMarquee, Story (four chapters), Anywhere, Testimonials, FAQ, FinalCta, then the Footer with the newsletter row. Sections are separated by a hairline `border-top` or by its own vertical padding (`--space-3xl`, 104px; 72px on phones).
 
 - **Hero** fills the first viewport (`100dvh - 64px`, capped at 900px): a `1fr / 1fr` grid with a 48px gap, 48px above and 72px below. The phone is on the left (`--phone-zoom` 0.78; 0.7 under 1100px; 0.72 on tablet; 0.66 on phones) and the copy is centred on the right with 32px between H1, button stack and fine print. On tablet and below the grid collapses to one column, the copy comes first and the phone follows.
 - **Marquee** bleeds to the viewport edges (`margin: 0 calc(50% - 50vw)`), sits between two hairlines with 22px above and 18px below, and runs a 10px-gapped strip of chips 70s per loop with 10% ground-coloured fades at each edge.
@@ -357,18 +357,14 @@ Lists are the design's grammar: a `border-top` on the list, a `border-bottom` on
 
 ## Elevation & Depth
 
-Flat by default. Depth on the page comes from hairlines and the single muted fill, not from shadow: rows are divided, fields are tinted, nothing floats. Four shadows exist and each belongs to an object the app itself uses: the phone, the bottom sheet, the segmented-control thumb, and the announcement dialog. Dark theme deepens each rather than removing it.
+Flat by default. Depth on the page comes first from hairlines and the single muted fill: rows are divided and fields are tinted. Four shadows are inherited from the app — the phone, the bottom sheet, the segmented-control thumb, and the announcement dialog — and page content may reach for the card shadow when it needs to lift. Dark theme deepens each rather than removing it.
 
 ### Shadow Vocabulary
 
 - **Phone** (`box-shadow: 0 24px 60px -20px rgba(23, 25, 28, 0.25), 0 4px 10px rgba(0, 0, 0, 0.06)`; dark `0 24px 60px -20px rgba(0,0,0,0.7), 0 4px 10px rgba(0,0,0,0.4)`): the device frame only.
 - **Sheet** (`box-shadow: 0 -8px 38px rgba(0, 0, 0, 0.14)`; dark `rgba(0,0,0,0.5)`): the mobile menu rising from the bottom, over a `rgba(13, 15, 18, 0.45)` backdrop.
 - **Segment** (`box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08)`; dark `0.4`): the white thumb of the segmented control.
-- **Card** (`box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06)`; dark `0.4`): the announcement dialog only; no page content uses it.
-
-### Named Rules
-
-**The Device-Only Shadow Rule.** A shadow marks a physical object from the app (phone, sheet, thumb, dialog). Content on the page never casts one; if a block needs separation it gets a hairline.
+- **Card** (`box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06)`; dark `0.4`): the announcement dialog, and page content that needs to lift off the ground.
 
 ## Shapes
 
@@ -401,7 +397,7 @@ A two-line pill on the ground with a hairline border, 9px 18px padding and a 1px
 - **Style:** pill, 4px 10px, 0.75rem 700. `outline` = hairline border and `ink-shade` text (PRO tints text violet with a 35% violet border); `solid` = ink fill, inverse text (selected filter); `accent` = blue tint fill, blue text (a language).
 - **Uppercase variant:** Label Caps at 3px 8px.
 
-### Rows (the container that replaces cards)
+### Rows
 
 - **Corner Style:** none.
 - **Background:** none; the ground shows through.
@@ -460,14 +456,12 @@ Hairline rows in a 76ch column; the 1.0625rem 600 question turns blue on hover; 
 - **Do** make every control a pill: 40/48/54px buttons, 48px inputs, 36px nav links, 40px icon buttons, two-line language chips.
 - **Do** set headings, button labels, names, native language names and balances in Nunito 800; keep body, labels and inputs on the platform stack.
 - **Do** use `text-quiet` for secondary copy on the page and keep `text-tertiary` inside the phone replicas.
-- **Do** show the product as a 390px `PhoneFrame` with real HTML and photo avatars, scaled with `--phone-zoom`, and let its one animation run on `inview`; only the hero chat loops.
 - **Do** reveal a chapter once: text up 12px over 500/600ms `ease-out`, phone in from 40px on its own side 80ms later, rows inside 60ms apart.
 - **Do** transition colour in 200ms, presses in 160ms `ease-out`, entrances in 320–400ms `ease-out`, sheets in 360ms on the drawer curve, and honour `prefers-reduced-motion` by keeping the end state (the marquee becomes a scrollable row).
 - **Do** keep `#201900` on yellow in dark mode; only the surroundings change.
 
 ### Don't:
 
-- **Don't** add cards, tiles, panels or filled boxes to page content; the phone, the sheet, the segmented thumb and the announcement dialog are the only objects with a shadow.
 - **Don't** use blue for anything that is not interactive, except the lowercase chapter heading beside a phone; never use green for anything that is not a correction or success, or orange for anything but streaks and stars.
 - **Don't** put a second yellow button in a viewport; the companion is the outlined pill, and the dark pill belongs to the header and the send button.
 - **Don't** put token arithmetic, plan tables or feature lists on the homepage; the mechanism is shown in the phones and the plans live on `/pro`.
