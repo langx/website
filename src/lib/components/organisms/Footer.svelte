@@ -15,7 +15,7 @@
 			title: 'Product',
 			links: [
 				{ label: 'Plans', href: '/pro' },
-				{ label: 'LangX Token', href: 'https://token.langx.io' },
+				{ label: 'Tokens', href: '/tokens' },
 				{ label: 'Coming from v1?', href: '/welcome-back' },
 				{ label: 'Web app', href: 'https://app.langx.io' },
 				{ label: 'iOS', href: 'https://apps.apple.com/app/languagexchange/id6474187141' },
