@@ -69,14 +69,13 @@ export type SiteEvent =
 const APP_HOSTS = ['get.langx.io', 'app.langx.io', 'apps.apple.com', 'play.google.com'];
 
 /**
- * The package's default entry. The `dist/module.no-external.js` build was tried
- * here, on the theory that compiling PostHog's extensions in would stop the SDK
- * fetching anything from its asset CDN — it does exactly that on
- * token.langx.io, which uses the `array.no-external` build. It made no
- * difference from this entry point: the network log still shows the request to
- * eu-assets.i.posthog.com. Not worth a fragile deep import into `dist/` for
- * nothing, so this stays the plain import and section 3.4 of the cookie policy
- * names that request rather than pretending it away.
+ * The package's default entry. `dist/module.no-external.js` was tried here, on
+ * the theory that compiling PostHog's extensions in would stop the SDK fetching
+ * anything from its asset CDN, and made no difference — but measured against
+ * the built, prerendered output the default entry makes no asset-CDN or /flags
+ * request either. The earlier observation of both came from `vite preview`, so
+ * treat request counts as something to re-measure on a real build rather than
+ * to assume from a dev server.
  */
 type PostHog = typeof import('posthog-js').default;
 
@@ -86,9 +85,11 @@ let starting: Promise<void> | null = null;
 /**
  * Starts the SDK and the one listener that feeds it.
  *
- * Called from the root layout's `load`, which runs at prerender time as well
- * as in the browser — hence the `browser` guard rather than a check inside the
- * caller, so there is one place that knows this must not run on the server.
+ * Called from the root layout's `onMount`, not its `load`: every page here is
+ * prerendered, and SvelteKit hydrates a prerendered page from serialised data
+ * rather than re-running the universal `load`, so `load` never fired on a visit
+ * arriving from outside. The `browser` guard stays anyway — it costs nothing
+ * and keeps the rule in one place rather than in the caller.
  */
 export function initAnalytics(): void {
 	if (!browser || !apiKey || starting) return;

@@ -34,7 +34,7 @@
 
 		**We do not use any.** There is no Google Analytics, no advertising network, and no social media tracking pixel on this site, and the analytics in section 3.3 sets no cookie of any kind. PostHog's script is served from langx.io itself rather than from its CDN, the way our fonts are.
 
-		Two things are worth naming rather than hiding behind that sentence. The star count in our header is read from GitHub's public API by your browser, so GitHub sees the request the way it sees any visit to a page. And serving PostHog's script ourselves does not mean your browser never talks to PostHog: the SDK fetches a small configuration file from its asset host, and the events themselves go to its European endpoint, so both of those connections are made from your browser directly. Neither GitHub nor PostHog sets a cookie, and neither is told anything about you beyond what is described above.
+		Two things are worth naming rather than hiding behind that sentence. The star count in our header is read from GitHub's public API by your browser, so GitHub sees the request the way it sees any visit to a page. And serving PostHog's script ourselves does not mean your browser never talks to PostHog: the page views go to its European endpoint, and that connection is made from your browser directly rather than through us. Neither GitHub nor PostHog sets a cookie, and neither is told anything about you beyond what is described above.
 
 	4. Your Consent
 
