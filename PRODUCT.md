@@ -51,7 +51,9 @@ published line.
 ## Operating Context
 
 - The site is static (SvelteKit + adapter-static) on Cloudflare Pages, deployed
-  from `main`. It carries the blog (mdsvex), legal pages, plans, token page and
+  from `main`. The one exception is `functions/relay/`, a Pages Function that
+  forwards analytics to PostHog from our own domain so that blockers do not
+  drop the page views; every other path is a file. It carries the blog (mdsvex), legal pages, plans, token page and
   a welcome-back page for v1 users.
 - Plan limits, token rules and cosmetics are **mirrored by hand** from
   `langx/packages/shared` into `src/lib/data/*.ts`; every number on the site

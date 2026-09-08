@@ -38,7 +38,21 @@ import { browser } from '$app/environment';
  * is a key change and a stamp that stops mattering, nothing more.
  */
 
-const DEFAULT_HOST = 'https://eu.i.posthog.com';
+/**
+ * Events do not leave for `eu.i.posthog.com` any more; they go to `/relay/` on
+ * whatever origin served the page, and `functions/relay/[[path]].js` forwards
+ * them from Cloudflare's edge. The reason is the one PostHog's own setup check
+ * gives: its ingestion host is on every blocklist worth the name, so page views
+ * were being dropped before they were sent, silently and in unknown numbers. A
+ * first-party path is not blocked, because blocking it would break the site.
+ *
+ * This changes who the browser connects to and nothing about what is sent, and
+ * that distinction is the one `/cookie-policy` §3.4 now draws for the reader.
+ *
+ * The path has to match `PREFIX` in the Function. It is not `/ingest`, which is
+ * what PostHog's guide suggests and therefore the first thing a list will learn.
+ */
+const PROXY_PATH = '/relay';
 
 /**
  * Vite inlines `VITE_*` at build time and leaves it `undefined` when unset,
@@ -49,7 +63,14 @@ const DEFAULT_HOST = 'https://eu.i.posthog.com';
  * clones this repository.
  */
 const apiKey = (import.meta.env.VITE_POSTHOG_KEY as string | undefined) || null;
-const apiHost = (import.meta.env.VITE_POSTHOG_HOST as string | undefined) || DEFAULT_HOST;
+
+/**
+ * The escape hatch, and the only way left to talk to PostHog directly: set
+ * `VITE_POSTHOG_HOST` to `https://eu.i.posthog.com`. `npm run dev` serves no
+ * Pages Function, so a key set locally needs it; unset, as it is in CI and for
+ * anyone who clones this, the proxy is what runs.
+ */
+const apiHostOverride = (import.meta.env.VITE_POSTHOG_HOST as string | undefined) || null;
 
 /**
  * Every event this site is allowed to send, as a closed union — the same
@@ -97,7 +118,15 @@ export function initAnalytics(): void {
 		try {
 			const { default: posthog } = await import('posthog-js');
 			posthog.init(apiKey, {
-				api_host: apiHost,
+				// `window` rather than a hardcoded https://langx.io: the same bundle
+				// is what a branch preview on pages.dev serves, and each carries its
+				// own copy of the Function.
+				api_host: apiHostOverride ?? `${window.location.origin}${PROXY_PATH}`,
+				// Where the *dashboard* lives, which the SDK can no longer infer once
+				// `api_host` is ours. Only links out of the toolbar use it, and the
+				// toolbar is not loaded here — it is set so the day something does
+				// need it, it does not point at langx.io.
+				ui_host: 'https://eu.posthog.com',
 				// Pins the SDK's behaviour to a dated set of defaults rather than
 				// to whatever the latest version decides. This one turns
 				// `capture_pageview` into 'history_change', which is what makes
