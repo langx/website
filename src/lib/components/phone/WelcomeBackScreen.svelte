@@ -27,8 +27,8 @@
 		},
 		{
 			icon: 'zap',
-			title: '34-day streak, frozen',
-			body: 'Kept exactly where it stopped. Restore it with tokens whenever you like.'
+			title: '34-day streak, still counting',
+			body: 'Restored alive on the day you come back, not reset to zero. It costs nothing.'
 		}
 	];
 </script>

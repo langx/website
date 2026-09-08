@@ -420,8 +420,8 @@ A 40px disc (any size; font is 34% of it, the online dot 21%, min 10px). With `s
 
 ### Navigation
 
-- **Header:** sticky, 64px, ground-coloured, a hairline appears at the bottom after 8px of scroll. Links (How it works, Plans, Blog, Docs) are 36px pills (0.9375rem 600, `ink-shade`; hover ink on `muted-fill`), hidden at 900px and below. Tools on the right: the GitHub star pill (hairline, 36px), the 40px theme toggle, and the sm CTA (dark while the page's yellow is on screen, yellow once it leaves; hidden on phones), then the 40px hairline menu button.
-- **Bottom sheet (mobile menu):** the app's sheet — 38×4px grabber, 28px top corners, sheet shadow, 24px side padding plus safe-area bottom, rises over 360ms on the drawer curve `cubic-bezier(0.32, 0.72, 0, 1)` while the backdrop only fades in 200ms. Links are hairline rows (1.0625rem 600) with a quiet chevron or external icon; the yellow CTA sits full-width at the bottom.
+- **Header:** sticky, 64px, ground-coloured, a hairline appears at the bottom after 8px of scroll. Links (Features, Plans, FAQ, GitHub) are 36px pills (0.9375rem 600, `ink-shade`; hover blue). Tools on the right: the 40px theme toggle and the sm CTA, dark while the page's yellow is on screen and yellow once it leaves. On a phone the bar wraps rather than collapsing behind a menu: the logo and the tools hold the first row, the links take a centred row of their own beneath them, and the CTA stays reachable at the top right.
+- **Bottom sheet:** the app's sheet — 38×4px grabber, 28px top corners, sheet shadow, 24px side padding plus safe-area bottom, rises over 360ms on the drawer curve `cubic-bezier(0.32, 0.72, 0, 1)` while the backdrop only fades in 200ms. The site has no mobile menu to put in one; the announcement dialog is what uses it.
 - **Footer:** four groups under 0.8125rem `text-quiet` headings; links are 32px-tall 0.9375rem 600 ink, blue on hover.
 - **Replica tab bar:** four tabs (Discover, Chats, Feed, Me), 22px stroke icons over 11px 600 labels with a 4px gap, on 10px 8px 24px padding; `text-tertiary` at rest and blue when active. The unread badge is error red and rides the Chats icon, not the tab.
 
