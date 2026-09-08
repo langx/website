@@ -126,11 +126,11 @@
 		</article>
 
 		<article class="block">
-			<h2>Where the longer version lives</h2>
+			<h2>Where these numbers come from</h2>
 			<p>
-				This page is the rules as the app enforces them, mirrored from its source so they cannot
-				drift apart. The model itself — where it came from, what it is for, and the reasoning behind
-				it — is written up at
+				Every rate and ceiling above is mirrored from the app's own source, so the page and the app
+				cannot drift apart. Everything that is not a rule — the model, its history, the reasoning —
+				lives at
 				<a href="https://token.langx.io" target="_blank" rel="noopener noreferrer">token.langx.io</a
 				>.
 			</p>
