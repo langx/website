@@ -1,6 +1,5 @@
 <script lang="ts">
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
-	import { inview } from '$lib/utils/inview';
 
 	/**
 	 * `app/(app)/wallet` from the design handoff. The app calls this screen
@@ -16,7 +15,7 @@
 	];
 </script>
 
-<div class="screen" use:inview={{ threshold: 0.4 }}>
+<div class="screen">
 	<div class="head">
 		<span class="back"><UiIcon name="back" size={22} /></span>
 		<span class="title">Wallet</span>

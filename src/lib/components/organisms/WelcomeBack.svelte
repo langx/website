@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { legacyTokenDivisor, welcomeBackBonus } from '$lib/data/token';
 	import AppStores from '$lib/components/molecules/AppStores.svelte';
-	import RestoreCard from '$lib/components/organisms/RestoreCard.svelte';
+	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
+	import WelcomeBackScreen from '$lib/components/phone/WelcomeBackScreen.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 </script>
 
@@ -103,9 +104,18 @@
 		</div>
 	</div>
 
+	<!--
+		The app's own welcome-back screen, beside the prose that explains it. It
+		animates nothing and hides nothing, so it survives this page shipping no
+		JavaScript.
+	-->
 	<div class="aside">
 		<div class="sticky">
-			<RestoreCard />
+			<PhoneFrame
+				label="The welcome-back screen: your handle, your conversations, your tokens and your streak"
+			>
+				<WelcomeBackScreen />
+			</PhoneFrame>
 		</div>
 	</div>
 </section>
@@ -196,10 +206,11 @@
 	}
 
 	.sticky {
+		--phone-zoom: 0.72;
 		position: sticky;
 		top: calc(var(--header-height) + 24px);
-		width: 100%;
-		max-width: 400px;
+		display: flex;
+		justify-content: center;
 
 		@include for-tablet-portrait-down {
 			position: static;

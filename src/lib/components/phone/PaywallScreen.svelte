@@ -4,9 +4,9 @@
 
 	/**
 	 * `app/(app)/paywall` from the design handoff, on the Fluent tab. The
-	 * benefits are the real ones from `$lib/data/plans.ts`; the prices are the
-	 * prototype's example figures, and the screen says so — the app sets them
-	 * per region.
+	 * benefits are the real ones from `$lib/data/plans.ts`. Where the app puts
+	 * a price, this replica puts nothing: /pro says prices are shown in the
+	 * app, and a number here would contradict the page it sits on.
 	 */
 	const features = [
 		{ text: 'Unlimited new conversations', soon: false },
@@ -32,12 +32,7 @@
 		</p>
 
 		<Segmented options={['Fluent', 'Polyglot']} active={0} />
-		<Segmented options={['Yearly · save 35%', 'Monthly']} active={0} />
-
-		<div class="price">
-			<span class="amount">€4.99</span>
-			<span class="per">/ month · billed yearly</span>
-		</div>
+		<Segmented options={['Yearly', 'Monthly']} active={0} />
 
 		<ul class="features" role="list">
 			{#each features as f}
@@ -50,8 +45,8 @@
 		</ul>
 
 		<p class="fine">
-			Prices shown are examples for this screen; the app sets them per region. Cancel any time in
-			your store account. Tokens never unlock a plan.
+			Prices are set per region and shown in the app. Cancel any time in your store account. Tokens
+			never unlock a plan.
 		</p>
 	</div>
 
@@ -121,24 +116,6 @@
 		margin: 0;
 		font-size: 16px;
 		line-height: 1.5;
-		color: var(--color--text-shade);
-	}
-
-	.price {
-		display: flex;
-		align-items: baseline;
-		gap: 8px;
-		padding-top: 6px;
-	}
-
-	.amount {
-		font-family: var(--font--title);
-		font-size: 44px;
-		font-weight: 800;
-	}
-
-	.per {
-		font-size: 15px;
 		color: var(--color--text-shade);
 	}
 
