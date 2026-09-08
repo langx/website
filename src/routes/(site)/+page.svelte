@@ -6,6 +6,7 @@
 	import ChatCard from '$lib/components/organisms/ChatCard.svelte';
 	import Anywhere from '$lib/components/organisms/Anywhere.svelte';
 	import Features from '$lib/components/organisms/Features.svelte';
+	import TokenSection from '$lib/components/organisms/TokenSection.svelte';
 	import GuessTheLanguage from '$lib/components/organisms/GuessTheLanguage.svelte';
 	import PlanCards from '$lib/components/organisms/PlanCards.svelte';
 	import Testimonials from '$lib/components/organisms/Testimonials.svelte';
@@ -28,6 +29,7 @@
 	<ChatCard />
 	<Anywhere />
 	<Features />
+	<TokenSection />
 	<GuessTheLanguage />
 	<PlanCards />
 	<Testimonials />
