@@ -33,12 +33,14 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
+	// Stacked and left-aligned, not a full-width row: the rules below sit in a
+	// 1.2fr column, so a button pushed to the container's right edge lands over
+	// the phone and reads as belonging to neither.
 	.promo {
 		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		gap: var(--space-sm) var(--space-lg);
+		flex-direction: column;
+		align-items: flex-start;
+		gap: var(--space-sm);
 		padding: 0 0 var(--space-lg);
 
 		p {
@@ -47,11 +49,6 @@
 			font-size: 1rem;
 			line-height: 1.6;
 			color: var(--color--text-shade);
-		}
-
-		@include for-phone-only {
-			align-items: flex-start;
-			flex-direction: column;
 		}
 	}
 </style>
