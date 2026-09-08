@@ -5,7 +5,7 @@
 	export let tone: 'accent' | 'muted' | 'inverse' = 'accent';
 	export let label: string | undefined = undefined;
 
-	const heights = [5, 8, 11, 14, 17];
+	const heights = [6, 8, 10, 12, 14];
 </script>
 
 <span

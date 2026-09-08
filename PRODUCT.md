@@ -79,7 +79,7 @@ published line.
   the site's visual language: Nunito 800 display, platform body stack, white
   ground, yellow `#ffc409` reserved for the one committing action per screen,
   blue `#3b6cf6` for everything interactive, corrections green, Copilot blue,
-  plain lists with hairline dividers instead of cards, pill controls.
+  hairline dividers, pill controls.
 - Dark theme via `[data-theme='dark']` and `auto`.
 
 ## Evidence on Hand

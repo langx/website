@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
+	import Globe from '$lib/components/globe/Globe.svelte';
+	import { reveal } from '$lib/utils/reveal';
 
 	const links = {
 		web: 'https://app.langx.io',
@@ -9,7 +11,14 @@
 	};
 </script>
 
+<!--
+	The breather between the chapters and the rest: the globe turning as it
+	scrolls past, and the three places the same app runs.
+-->
 <section class="anywhere">
+	<div class="globe" data-reveal use:reveal={{ scale: 0.94, y: 24 }}>
+		<Globe label="A globe with arcs linking cities where people are chatting on LangX" scroll />
+	</div>
 	<h2>on your phone, in your browser.</h2>
 	<p>The same app on iPhone, Android and the web. Open source, no ads.</p>
 	<div class="buttons">
@@ -24,6 +33,16 @@
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
+
+	.globe {
+		width: 100%;
+		max-width: 460px;
+		margin-bottom: var(--space-sm);
+
+		@include for-phone-only {
+			max-width: 320px;
+		}
+	}
 
 	.anywhere {
 		padding: var(--space-3xl) 0;

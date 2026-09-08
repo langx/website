@@ -2,6 +2,7 @@
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
+	import { primaryCtaInView } from '$lib/stores/cta';
 
 	const links = [
 		{ href: '/#features', label: 'Features' },
@@ -11,7 +12,12 @@
 	];
 </script>
 
-<!-- Logo, four links, the theme switch and one yellow button. Sticks to the top; the page shows through it. -->
+<!--
+	Logo, four links, the theme switch and one button. Sticks to the top; the
+	page shows through it. The button is ink while the page's own yellow is on
+	screen and takes the yellow the moment it scrolls away, so a viewport never
+	carries two.
+-->
 <header class="header">
 	<div class="container bar">
 		<Logo height={24} />
@@ -28,7 +34,9 @@
 
 		<div class="tools">
 			<ThemeToggle />
-			<Button href="https://get.langx.io" variant="primary" size="sm">Get started</Button>
+			<Button href="https://get.langx.io" variant={$primaryCtaInView ? 'dark' : 'primary'} size="sm"
+				>Get started</Button
+			>
 		</div>
 	</div>
 </header>

@@ -63,7 +63,8 @@
 		text-align: center;
 		font-size: 14px;
 		font-weight: 600;
-		padding: 10px 0;
+		padding: 11px 6px;
+		white-space: nowrap;
 		border-radius: var(--radius-pill);
 		color: var(--color--text-shade);
 		background: none;

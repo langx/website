@@ -1,0 +1,357 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import Button from '$lib/components/atoms/Button.svelte';
+	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
+	import { WORD_LISTS } from '$lib/data/most-common-words';
+	import { reveal } from '$lib/utils/reveal';
+
+	/**
+	 * Four rounds of the /tools game, played where the visitor already is.
+	 * The words are real rows of
+	 * `static/data/most-common-words/games/languages.json`, where every word
+	 * belongs to exactly one list, so no round has two right answers. The four
+	 * below are the set that renders without JavaScript; once the pool has
+	 * loaded, every visit deals a different four. The full ten-round daily game
+	 * lives at /tools/guess-the-language.
+	 */
+	const NAME = new Map(WORD_LISTS.map((l) => [l.code, l.name]));
+	const CODES = WORD_LISTS.map((l) => l.code);
+
+	const COUNT = 4;
+	const OPTIONS = 4;
+	/** Words below this rank in their own list — common enough to be gettable. */
+	const MAX_RANK = 40;
+
+	type Round = { word: string; answer: string; options: string[] };
+
+	const FALLBACK: Round[] = [
+		{ word: 'თმა', answer: 'ka', options: ['el', 'hy', 'ka', 'he'] },
+		{ word: 'không', answer: 'vi', options: ['tr', 'vi', 'id', 'is'] },
+		{ word: 'mitä', answer: 'fi', options: ['et', 'hu', 'is', 'fi'] },
+		{ word: 'אני', answer: 'he', options: ['he', 'ar', 'hy', 'ru'] }
+	];
+
+	let rounds: Round[] = FALLBACK;
+	let pool: [string, string, number][] = [];
+
+	let at = 0;
+	let picked: string | null = null;
+	let right = 0;
+	let done = false;
+
+	$: round = rounds[at];
+	$: correct = picked === round.answer;
+
+	const pickOne = <T>(list: T[]): T => list[Math.floor(Math.random() * list.length)];
+
+	/** Four rounds, each a different language, the answer somewhere in the four. */
+	function deal(): Round[] {
+		const usable = pool.filter(([, code, rank]) => rank <= MAX_RANK && NAME.has(code));
+		if (usable.length < COUNT) return FALLBACK;
+
+		const used = new Set<string>();
+		const out: Round[] = [];
+		let guard = 0;
+		while (out.length < COUNT && guard++ < 500) {
+			const [word, answer] = pickOne(usable);
+			if (used.has(answer)) continue;
+			used.add(answer);
+
+			const options = [answer];
+			while (options.length < OPTIONS) {
+				const c = pickOne(CODES);
+				if (!options.includes(c)) options.push(c);
+			}
+			for (let i = options.length - 1; i > 0; i--) {
+				const j = Math.floor(Math.random() * (i + 1));
+				[options[i], options[j]] = [options[j], options[i]];
+			}
+			out.push({ word, answer, options });
+		}
+		return out.length === COUNT ? out : FALLBACK;
+	}
+
+	onMount(async () => {
+		try {
+			const res = await fetch('/data/most-common-words/games/languages.json');
+			pool = await res.json();
+			// Only swap the four out before anyone has answered one of them.
+			if (at === 0 && !picked) rounds = deal();
+		} catch {
+			// The four above are already on screen; leave them there.
+		}
+	});
+
+	function pick(code: string) {
+		if (picked) return;
+		picked = code;
+		if (code === round.answer) right += 1;
+	}
+
+	function next() {
+		picked = null;
+		if (at === rounds.length - 1) done = true;
+		else at += 1;
+	}
+
+	function again() {
+		rounds = pool.length ? deal() : FALLBACK;
+		at = 0;
+		picked = null;
+		right = 0;
+		done = false;
+	}
+</script>
+
+<section class="game" data-reveal use:reveal={{ y: 40 }}>
+	<div class="intro">
+		<h2>Which language is this?</h2>
+		<p>
+			Four words from the lists behind our free tools. On LangX you'd have someone to ask — here,
+			guess.
+		</p>
+	</div>
+
+	{#if done}
+		<div class="result">
+			<p class="score">{right} out of {rounds.length}</p>
+			<p class="after">
+				{right === rounds.length
+					? 'Every one. Try the ten-word daily game.'
+					: 'The daily game has ten, and a new set every day.'}
+			</p>
+			<div class="actions">
+				<Button href="/tools/guess-the-language" variant="secondary" size="md">
+					Play the daily game
+				</Button>
+				<button class="again" type="button" on:click={again}>
+					<UiIcon name="refresh" size={18} />
+					Play four more
+				</button>
+			</div>
+		</div>
+	{:else}
+		<div class="play">
+			<p class="count">Word {at + 1} of {rounds.length}</p>
+			<p class="word" lang={round.answer}>{round.word}</p>
+
+			<ul class="options" role="list">
+				{#each round.options as code}
+					<li>
+						<button
+							type="button"
+							class="option"
+							class:right={picked && code === round.answer}
+							class:wrong={picked === code && code !== round.answer}
+							disabled={!!picked}
+							on:click={() => pick(code)}
+						>
+							{NAME.get(code)}
+						</button>
+					</li>
+				{/each}
+			</ul>
+
+			<p class="verdict" aria-live="polite">
+				{#if picked}
+					{correct ? 'Right' : `Not quite — it's ${NAME.get(round.answer)}`}
+				{/if}
+			</p>
+
+			{#if picked}
+				<button class="next" type="button" on:click={next}>
+					{at === rounds.length - 1 ? 'See how you did' : 'Next word'}
+					<UiIcon name="arrow-right" size={18} />
+				</button>
+			{/if}
+		</div>
+	{/if}
+
+	<p class="more">
+		More to play with: <a href="/tools">word games, alphabets and the 10,000 most common words</a>
+		in
+		{WORD_LISTS.length} languages.
+	</p>
+</section>
+
+<style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
+	.game {
+		border-top: 1px solid var(--color--border);
+		padding: var(--space-3xl) 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--space-lg);
+		text-align: center;
+
+		@include for-phone-only {
+			padding: var(--space-2xl) 0;
+		}
+	}
+
+	.intro {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+
+		h2 {
+			margin: 0;
+			font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.375rem);
+			line-height: 1.15;
+			letter-spacing: -0.015em;
+		}
+
+		p {
+			margin: 0 auto;
+			max-width: 46ch;
+			font-size: 1.0625rem;
+			line-height: 1.6;
+			color: var(--color--text-shade);
+		}
+	}
+
+	.play,
+	.result {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--space-sm);
+		width: 100%;
+	}
+
+	.count,
+	.after {
+		margin: 0;
+		font-size: 0.8125rem;
+		color: var(--color--text-quiet);
+	}
+
+	// The word is the app speaking in its own voice, so it takes the display face.
+	.word {
+		margin: 0;
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: clamp(2.5rem, 1.6rem + 3.4vw, 4rem);
+		line-height: 1.1;
+		letter-spacing: -0.02em;
+	}
+
+	.options {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 10px;
+		width: 100%;
+		max-width: 420px;
+
+		@include for-iphone-se {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.option {
+		width: 100%;
+		min-height: 48px;
+		padding: 0 18px;
+		border: 1px solid var(--color--border);
+		border-radius: var(--radius-pill);
+		background: none;
+		color: var(--color--text);
+		font-family: var(--font--title);
+		font-size: 1rem;
+		font-weight: 800;
+		cursor: pointer;
+		transition: background-color 200ms var(--ease-out), border-color 200ms var(--ease-out),
+			color 200ms var(--ease-out), transform 160ms var(--ease-out);
+
+		@media (hover: hover) and (pointer: fine) {
+			&:hover:not(:disabled) {
+				border-color: var(--color--accent);
+				color: var(--color--accent);
+			}
+		}
+
+		&:active:not(:disabled) {
+			transform: scale(0.97);
+		}
+
+		&:disabled {
+			cursor: default;
+		}
+
+		&.right {
+			border-color: var(--color--success);
+			background: var(--color--success-tint);
+			color: var(--color--success);
+		}
+
+		&.wrong {
+			border-color: var(--color--error);
+			color: var(--color--error);
+		}
+	}
+
+	.verdict {
+		margin: 0;
+		min-height: 1.5rem;
+		font-size: 0.9375rem;
+		font-weight: 600;
+		color: var(--color--text-shade);
+	}
+
+	.next,
+	.again {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		min-height: 40px;
+		padding: 0 16px;
+		border: none;
+		border-radius: var(--radius-pill);
+		background: none;
+		color: var(--color--accent);
+		font-family: var(--font--title);
+		font-size: 0.9375rem;
+		font-weight: 800;
+		cursor: pointer;
+		transition: background-color 200ms var(--ease-out), transform 160ms var(--ease-out);
+
+		@media (hover: hover) and (pointer: fine) {
+			&:hover {
+				background: var(--color--accent-tint);
+			}
+		}
+
+		&:active {
+			transform: scale(0.97);
+		}
+	}
+
+	.score {
+		margin: 0;
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+		line-height: 1.05;
+		letter-spacing: -0.02em;
+	}
+
+	.actions {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: var(--space-xs);
+	}
+
+	.more {
+		margin: 0;
+		font-size: 0.9375rem;
+		color: var(--color--text-quiet);
+
+		a {
+			color: var(--color--accent);
+		}
+	}
+</style>

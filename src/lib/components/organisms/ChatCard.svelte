@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Avatar from '$lib/components/atoms/Avatar.svelte';
 	import { reveal } from '$lib/utils/reveal';
 
 	// Twelve bars, tallest in the middle: a voice note that looks like speech.
@@ -14,7 +15,7 @@
 <section class="wrap" data-reveal-children use:reveal={{ children: true, stagger: 0.12, y: 40 }}>
 	<div class="card" role="img" aria-label="A LangX chat: two messages, then a correction">
 		<div class="who">
-			<span class="avatar" aria-hidden="true">M</span>
+			<Avatar src="/images/people/maria.webp" initials="M" tone="accent" size={36} name="María" />
 			<span class="meta">
 				<span class="name">María</span>
 				<span class="langs">speaks Spanish · learning English</span>
@@ -51,7 +52,7 @@
 		aria-label="A LangX chat: a translated message, a voice note, a photo, and a streak"
 	>
 		<div class="who">
-			<span class="avatar green" aria-hidden="true">K</span>
+			<Avatar src="/images/people/kenji.webp" initials="K" tone="success" size={36} name="Kenji" />
 			<span class="meta">
 				<span class="name">Kenji</span>
 				<span class="langs">speaks Japanese · learning English</span>
@@ -90,14 +91,16 @@
 	.wrap {
 		max-width: 840px;
 		margin: 0 auto;
-		padding: 110px 0 0;
+		// The section that follows draws the hairline; the cards need room
+		// above it or they read as sitting on the line.
+		padding: 110px 0 var(--space-3xl);
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		gap: 24px;
 		align-items: start;
 
 		@include for-phone-only {
-			padding-top: 72px;
+			padding: 72px 0 var(--space-2xl);
 		}
 	}
 
@@ -118,24 +121,6 @@
 		gap: 10px;
 		padding-bottom: 12px;
 		border-bottom: 1px solid var(--color--border);
-	}
-
-	.avatar {
-		width: 36px;
-		height: 36px;
-		border-radius: 50%;
-		background: var(--color--accent-tint);
-		display: grid;
-		place-items: center;
-		font-family: var(--font--title);
-		font-weight: 800;
-		font-size: 0.875rem;
-		color: var(--color--accent-shade);
-
-		&.green {
-			background: var(--color--success-tint);
-			color: var(--color--success);
-		}
 	}
 
 	.meta {
