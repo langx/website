@@ -38,7 +38,20 @@ import { browser } from '$app/environment';
  * is a key change and a stamp that stops mattering, nothing more.
  */
 
-const DEFAULT_HOST = 'https://eu.i.posthog.com';
+/**
+ * Our own domain, not PostHog's. `/ingest/*` is a Pages Function that forwards
+ * to PostHog's European cloud — `functions/ingest/[[path]].js` says what it
+ * does and why. An ad blocker cannot drop a request to langx.io without
+ * dropping the site, which is the whole point; PostHog's health check calls it
+ * a reverse proxy and had been asking for one.
+ *
+ * Absolute rather than the bare `/ingest` a same-origin site could use:
+ * PostHog's proxy documentation asks for a full origin, and this string is
+ * also what the SDK derives its asset URLs from. The cost is that a preview
+ * deployment on *.pages.dev reports to production — which is where its events
+ * would land anyway, one project being all the free plan allows.
+ */
+const DEFAULT_HOST = 'https://langx.io/ingest';
 
 /**
  * Vite inlines `VITE_*` at build time and leaves it `undefined` when unset,
@@ -98,6 +111,11 @@ export function initAnalytics(): void {
 			const { default: posthog } = await import('posthog-js');
 			posthog.init(apiKey, {
 				api_host: apiHost,
+				// Where events go is `api_host` above; this is where *links* go.
+				// Left unset, the SDK derives the app's address from `api_host`
+				// and the toolbar would point at langx.io, which does not have
+				// one.
+				ui_host: 'https://eu.posthog.com',
 				// Pins the SDK's behaviour to a dated set of defaults rather than
 				// to whatever the latest version decides. This one turns
 				// `capture_pageview` into 'history_change', which is what makes

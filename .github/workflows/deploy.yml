@@ -36,11 +36,20 @@ jobs:
         run: |
           npm run build
 
+      # Two paths, so the artifact keeps them side by side the way the
+      # repository does. `build/` is the site; `functions/` is the PostHog
+      # reverse proxy, which is not a static file and must not be published as
+      # one. Wrangler looks for a `functions` directory in its *working*
+      # directory rather than inside the directory it publishes — which is why
+      # the deploy step below publishes `build` from the root instead of `.`
+      # from inside it, and why moving either path means moving both.
       - name: Upload Artifacts
         uses: actions/upload-artifact@v7
         with:
           name: website
-          path: 'build/'
+          path: |
+            build/
+            functions/
 
   deploy:
     needs: build_site
@@ -65,7 +74,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: website
-          directory: '.'
+          directory: 'build'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           wranglerVersion: '3'

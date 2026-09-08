@@ -20,3 +20,7 @@ vite.config.ts.timestamp-*
 
 # Cached Wiktextract lookups for scripts/wordlists (re-downloadable)
 /.cache
+
+# Local state written by `wrangler pages dev`, which is how the /ingest proxy
+# in functions/ is run outside a deploy.
+/.wrangler
