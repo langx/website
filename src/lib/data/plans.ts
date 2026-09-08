@@ -43,7 +43,7 @@ export const plans: Plan[] = [
 			{ label: '20 translations a day' },
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
-			{ label: '6 photos on your profile' }
+			{ label: '5 photos on your profile' }
 		]
 	},
 	{
@@ -57,6 +57,7 @@ export const plans: Plan[] = [
 				note: 'Far more than a conversation uses. Translation is the one feature with a real per-request cost, so it has a number rather than a promise.'
 			},
 			{ label: '2 languages you are learning, 2 you speak natively' },
+			{ label: '10 photos on your profile' },
 			{ label: 'Filters: gender and city' }
 		]
 	},
