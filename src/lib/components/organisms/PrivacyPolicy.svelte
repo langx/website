@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 3, Sep 2026*
+	*Effective Date: 8, Sep 2026*
 
 	1. Introduction
 
@@ -58,7 +58,9 @@
 		- **No location from analytics.** PostHog is told not to turn the connection's IP address into a country, so analytics adds nothing to what section 3 describes.
 		- **The identifier is ours.** You are identified by your LangX user id and nothing else — no email address, no name. That is also what lets a deleted account's events be found and deleted with it.
 
-		It is on by default and it is optional: **Settings → Privacy → Share usage data** turns it off, and a refusal made before signing in is honoured. There is no analytics on this website — no page-view counter, no analytics cookie, nothing.
+		It is on by default and it is optional: **Settings → Privacy → Share usage data** turns it off, and a refusal made before signing in is honoured.
+
+		**The website is a second, smaller answer.** Until September 2026 the line here said langx.io had no analytics at all; it now has some, and this paragraph went in with the change rather than after it. langx.io and token.langx.io send page views, a click on a link that leaves for the app, and a completed newsletter sign-up to the same PostHog, on the same European cloud — in cookieless mode, which writes no cookie and no browser storage whatsoever and counts a visitor with a hash PostHog derives from a daily salt it then discards. There is no account to attach it to and no attempt to make one: no person record is created, nothing is identified, and a visitor today cannot be recognised as the same one tomorrow. That is a deliberate limit and not an oversight. The [cookie policy](/cookie-policy) describes it in section 3.3.
 
 	3. Approximate Location, and Only If You Ask For It
 
@@ -75,7 +77,7 @@
 		Stating this precisely is what makes the rest of the policy credible.
 
 		- **No precise location.** See section 3: the app asks for the coarsest reading your device will give and rounds it before storing it. A street-level position is never collected.
-		- **No session recording, and no analytics on this website.** The app does send usage analytics — section 2.4 says exactly what, and how to turn it off — but nothing records your screen, and langx.io itself has no analytics of any kind: no page-view counter, no analytics cookie.
+		- **No session recording, anywhere.** The app and the website both send usage analytics — section 2.4 says exactly what, and how to turn the app's off — but nothing records your screen, and the website's analytics writes no cookie and no browser storage at all.
 		- **No advertising identifiers.** No IDFA, no Android advertising ID, no ad network, and nothing is sold or passed to a data broker.
 		- **No tracking across other apps or websites.**
 		- **No contacts, no calendar, no photos beyond the ones you choose to upload, no microphone access outside recording a voice message you send, no health data.**
@@ -101,7 +103,7 @@
 		- **Expo's push service**, and through it Apple's and Google's push infrastructure — your push token and the text of the notification. A new-message notification includes the beginning of the message, because that is what makes it useful; if you would rather it did not, turn notifications off.
 		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos, videos and voice messages, to host them.
 		- **Sentry**, our error reporting service — the details of a server error, with your user id attached so we can tell whether a fault affected one account or everybody. It is configured never to send request bodies, cookies or authentication headers, so message contents and session tokens do not reach it.
-		- **PostHog**, our analytics provider, on its European cloud — the screen names, events and user id described in section 2.4. It processes them for us and for nothing of its own, and you can switch this off in Settings.
+		- **PostHog**, our analytics provider, on its European cloud — the screen names, events and user id described in section 2.4, and from the website the page views and two events described in the same section. It processes them for us and for nothing of its own, and you can switch the app's off in Settings.
 		- **Google and Apple**, if you choose to sign in with them — they tell us your email address and name; we tell them nothing about what you do in LangX.
 
 		Our servers run on **Fly.io** in Frankfurt, our database is **MongoDB Atlas**, and langx.io is served through **Cloudflare**. These providers host and deliver the service and do not use your data for any purpose of their own.
