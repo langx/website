@@ -39,7 +39,11 @@ source (BSD-3) and self-hostable. No ads and no advertising identifiers. There *
 third-party analytics SDK — PostHog, on its EU cloud, screen names and a short
 list of events keyed by the LangX user id, no session recording, off in
 Settings → Privacy. It arrived after this file was written and after the
-privacy policy said there was none; both have been corrected. Any claim about
+privacy policy said there was none; both have been corrected. **This site has
+analytics too**, since September 2026: the same PostHog, in cookieless mode, so
+it writes nothing to the visitor's browser and there is still no cookie banner.
+A "no trackers" line is false on both, but "nothing is stored on your device" is
+true of the site. Any claim about
 tracking on a new page has to be checked against
 `langx/docs/store/privacy-data-safety.md`, which is written from the code. "Open source alternative to Tandem" is an existing,
 published line.

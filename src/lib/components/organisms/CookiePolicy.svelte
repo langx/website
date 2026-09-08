@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 27, Aug 2026*
+	*Effective Date: 8, Sep 2026*
 
 	1. Introduction
 
@@ -22,19 +22,23 @@
 
 		3.3 Analytics
 
-		**None on this site.** LangX version 1 ran a self-hosted analytics service on langx.io; it was retired and version 2 replaced it with nothing. This site sets no analytics cookie and counts no page views.
+		**This site has some now, and it stores nothing on your device to do it.** That is a change: until September 2026 this section said there were none at all, and the sentence you are reading replaced that one in the same release that switched them on.
 
-		The **app** is a different answer, and this section used to give the wrong one. It sends usage analytics to PostHog — screen names, a short list of events and your LangX user id, with no session recording and nothing that carries the content of a message. That is described in full in section 2.4 of the [privacy policy](/privacy-policy), and it is turned off in Settings → Privacy → Share usage data. It arrived without this page being updated first, which is not how it was supposed to go; the promise to say so beforehand stands for anything that comes next.
+		langx.io and token.langx.io send page views and a short list of events to **PostHog**, on its European cloud, in what PostHog calls cookieless mode. No cookie, no local storage, no session storage — nothing is written to your browser. A visitor is counted with a hash PostHog computes on its own side from a salt that is thrown away daily, so there is no identifier here that outlives a day. What is sent is the address of the page you are on, whether you clicked a link that leaves for the app, and whether a newsletter sign-up went through. There is no session recording, and clicks are not swept up wholesale — only the one just named.
+
+		The cost of that choice is worth stating rather than leaving you to work out: it cannot tell a returning reader from a new one, so it measures what gets read and never who reads it.
+
+		The **app** is a separate answer with a separate switch. It sends screen names, a short list of events and your LangX user id, described in full in section 2.4 of the [privacy policy](/privacy-policy) and turned off in Settings → Privacy → Share usage data. When that arrived, this page was not updated first, and we said the promise to say so beforehand would stand for anything that came next. This was that next thing.
 
 		3.4 Third-party cookies
 
-		**We do not use any.** There is no Google Analytics, no advertising network, and no social media tracking pixel on this site. Fonts and scripts are served from langx.io itself rather than from a third-party CDN.
+		**We do not use any.** There is no Google Analytics, no advertising network, and no social media tracking pixel on this site, and the analytics in section 3.3 sets no cookie of any kind. PostHog's script is served from langx.io itself rather than from its CDN, the way our fonts are.
 
-		One thing is worth naming rather than hiding behind that sentence: the star count in our header is read from GitHub's public API by your browser, so GitHub sees the request the way it sees any visit to a page. It sets no cookie and we send it nothing about you.
+		Two things are worth naming rather than hiding behind that sentence. The star count in our header is read from GitHub's public API by your browser, so GitHub sees the request the way it sees any visit to a page. And serving PostHog's script ourselves does not mean your browser never talks to PostHog: the SDK fetches a small configuration file from its asset host, and the events themselves go to its European endpoint, so both of those connections are made from your browser directly. Neither GitHub nor PostHog sets a cookie, and neither is told anything about you beyond what is described above.
 
 	4. Your Consent
 
-		The only things stored on your device are the ones described above: what is needed to keep you signed in, and preferences you set yourself. Nothing here tracks you, which is why this site has no cookie banner — there is nothing to ask you to consent to. You can clear what is stored at any time through your browser settings, though clearing the essential ones will sign you out.
+		The only things stored on your device are the ones described above: what is needed to keep you signed in, and preferences you set yourself. The analytics in section 3.3 adds nothing to that list, because it writes nothing at all — which is why this site still has no cookie banner. There is genuinely nothing stored on your device for us to ask you to consent to. You can clear what is stored at any time through your browser settings, though clearing the essential ones will sign you out.
 
 	5. How to Manage Cookies
 

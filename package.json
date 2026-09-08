@@ -79,6 +79,7 @@
 		"@fontsource/nunito": "^5.3.0",
 		"@types/three": "^0.185.4",
 		"gsap": "^3.15.0",
+		"posthog-js": "^1.428.6",
 		"three": "^0.185.1"
 	}
 }

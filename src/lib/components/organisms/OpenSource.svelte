@@ -9,8 +9,9 @@
 	 * the licence file, the repository, the self-hosting guide.
 	 *
 	 * Deliberately says nothing about tracking or analytics. The app ships a
-	 * product-analytics SDK, so a "no trackers" line here would be false — see
-	 * the note in PRODUCT.md.
+	 * product-analytics SDK and this site now sends cookieless page views to the
+	 * same one, so a "no trackers" line here would be false — see the note in
+	 * PRODUCT.md and `$lib/analytics`.
 	 */
 	const repo = 'langx/langx';
 	let stars = -1;

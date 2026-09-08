@@ -26,6 +26,13 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
+          # A repository *variable*, not a secret, and deliberately so: Vite
+          # inlines this into the bundle every visitor downloads, so calling it
+          # a secret would only be theatre. A PostHog project API key can write
+          # events and never read them, and this is literally the app's
+          # EXPO_PUBLIC_POSTHOG_KEY — one project, because the free plan allows
+          # one. Unset, the SDK is never loaded and the site sends nothing.
+          VITE_POSTHOG_KEY: ${{ vars.VITE_POSTHOG_KEY }}
         run: |
           npm run build
 

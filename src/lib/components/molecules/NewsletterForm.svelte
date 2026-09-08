@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
+	import { track } from '$lib/analytics';
 
 	let email = '';
 	let state: 'idle' | 'sending' | 'ok' | 'error' = 'idle';
@@ -17,6 +18,9 @@
 			if (data.status === 'ok') {
 				email = '';
 				state = 'ok';
+				// The event carries no properties on purpose: the address went to
+				// our own API a line above and has no business going anywhere else.
+				track({ name: 'newsletter_subscribed' });
 			} else {
 				state = 'error';
 			}
