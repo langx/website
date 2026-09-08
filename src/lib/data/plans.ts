@@ -67,11 +67,19 @@ export const plans: Plan[] = [
 		points: [
 			{ label: 'See who viewed your profile' },
 			{ label: 'Incognito browsing' },
+			{
+				label: 'Write in your language, send in theirs',
+				note: 'Reading a translation is free on every plan. This is the other direction — your own message goes with a translation under it.'
+			},
 			{ label: '1000 translations a day' },
 			{ label: '5 languages you are learning, 5 you speak natively' },
 			{
 				label: 'Nearby',
 				note: 'Sorts discovery by distance, if you turn location sharing on.'
+			},
+			{
+				label: 'Export your saved phrases',
+				note: 'A conversation’s saved phrases as a file. It opens in Anki.'
 			},
 			{
 				label: 'LangX Copilot',
