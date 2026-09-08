@@ -35,7 +35,14 @@
 		eye: 'M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z',
 		pin: 'M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21ZM14 10.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z',
 		award: 'M17 8.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0ZM9 12.5 8 21l4-2 4 2-1-8.5',
-		gift: 'M4 11h16v9H4zM4 7h16v4H4zM12 7v13M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0'
+		gift: 'M4 11h16v9H4zM4 7h16v4H4zM12 7v13M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0',
+		// The app's streak mark. A flame reads as "hot", the bolt as "a day kept".
+		zap: 'M13 2 3 14h9l-1 8 10-12h-9Z',
+		sliders: 'M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6',
+		play: 'M5 3l14 9-14 9Z',
+		scan: 'M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M16 21h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3',
+		translate: 'M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6',
+		wallet: 'M2 5h20v14H2zM2 10h20'
 	};
 </script>
 

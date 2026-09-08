@@ -77,13 +77,17 @@
 		text-align: center;
 	}
 
+	// The app's status bar: 50px tall, the clock and glyphs sitting on its
+	// bottom edge in Nunito 700.
 	.status {
+		height: 50px;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
-		padding: 18px 26px 6px;
-		font-size: 13px;
-		font-weight: 600;
+		align-items: flex-end;
+		padding: 0 28px 6px;
+		font-family: var(--font--title);
+		font-size: 15px;
+		font-weight: 700;
 		flex: 0 0 auto;
 	}
 
@@ -102,7 +106,7 @@
 	}
 
 	.battery {
-		width: 22px;
+		width: 24px;
 		height: 11px;
 		border: 1.5px solid currentColor;
 		border-radius: 3px;

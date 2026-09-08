@@ -368,7 +368,7 @@ Flat by default. Depth on the page comes first from hairlines and the single mut
 
 ## Shapes
 
-Two silhouettes: the pill and the device. Every control is a full pill (999px): buttons of 40/48/54px height, chips, the two-line language chip, inputs, nav links, 40px icon buttons, avatars, the segmented track and thumb, the unread badge, the grabber. Rectangular things use the app's radius scale — 16px for the correction card, 20px for chat bubbles (with the tail corner cut to 6px), 14px for post thumbnails, 8px as the focus-ring radius — and the phone is 36px. The bottom sheet rounds only its top corners at 28px. Borders are 1px hairlines; there are no 2px strokes and no dashed lines. Icons are one stroke at 2.5px with round caps and joins, 22px in the tab bar and 18–20px inline; the review star is a 16px filled glyph in streak orange.
+Two silhouettes: the pill and the device. Every control is a full pill (999px): buttons of 40/48/54px height, chips, the two-line language chip, inputs, nav links, 40px icon buttons, avatars, the segmented track and thumb, the unread badge, the grabber. Rectangular things use the app's radius scale — 16px for the correction card, 20px for chat bubbles (with the tail corner cut to 6px), 14px for post thumbnails, 8px as the focus-ring radius — and the phone is 36px. Inside the phone the app's own shapes win over the pill: a committing button there is a 16px slab on a 4px hard ledge in `yellow-commit-pressed`, and the chat's send button a 48px square at 14px with a 3px ledge. The bottom sheet rounds only its top corners at 28px. Borders are 1px hairlines; there are no 2px strokes and no dashed lines. Icons are one stroke at 2.5px with round caps and joins, 22px in the tab bar and 18–20px inline; the review star is a 16px filled glyph in streak orange.
 
 ## Components
 
@@ -423,7 +423,7 @@ A 40px disc (any size; font is 34% of it, the online dot 21%, min 10px). With `s
 - **Header:** sticky, 64px, ground-coloured, a hairline appears at the bottom after 8px of scroll. Links (How it works, Plans, Blog, Docs) are 36px pills (0.9375rem 600, `ink-shade`; hover ink on `muted-fill`), hidden at 900px and below. Tools on the right: the GitHub star pill (hairline, 36px), the 40px theme toggle, and the sm CTA (dark while the page's yellow is on screen, yellow once it leaves; hidden on phones), then the 40px hairline menu button.
 - **Bottom sheet (mobile menu):** the app's sheet — 38×4px grabber, 28px top corners, sheet shadow, 24px side padding plus safe-area bottom, rises over 360ms on the drawer curve `cubic-bezier(0.32, 0.72, 0, 1)` while the backdrop only fades in 200ms. Links are hairline rows (1.0625rem 600) with a quiet chevron or external icon; the yellow CTA sits full-width at the bottom.
 - **Footer:** four groups under 0.8125rem `text-quiet` headings; links are 32px-tall 0.9375rem 600 ink, blue on hover.
-- **Replica tab bar:** four tabs, 22px stroke icons, 11px 600 labels, `text-tertiary` at rest and blue when active; unread badge in error red.
+- **Replica tab bar:** four tabs (Discover, Chats, Feed, Me), 22px stroke icons over 11px 600 labels with a 4px gap, on 10px 8px 24px padding; `text-tertiary` at rest and blue when active. The unread badge is error red and rides the Chats icon, not the tab.
 
 ### Chapter (signature)
 
@@ -431,11 +431,11 @@ One idea, one phone. A `1fr / 1fr` grid, 560px minimum, with a blue lowercase Ch
 
 ### Phone Frame (signature)
 
-A 390px device with 36px corners, a hairline edge, the phone shadow and a 9:41 status bar, `user-select: none` because nothing inside is a control; `height="auto"` hugs short screens like the paywall. Screens are real HTML at the app's sizes: a 16px body, `muted-fill` received bubbles and blue-tint sent bubbles (20px radius, 6px tail), a green-tint correction card (16px radius), a pill compose field with a yellow send button, and photo avatars from `static/images/people/`. Each screen plays one authored moment on `inview` (threshold 0.35, once): the chat lands two messages, a typing state and the correction at 250 / 1100 / 1900 / 3100ms and, with `loop`, replays every 8 seconds; Discover and Feed rows rise from 10px over 400ms, 60ms apart. A 13px `text-quiet` caption under every phone says it is a demonstration.
+A 390px device with 36px corners, a hairline edge, the phone shadow and a 50px status bar whose 9:41 and glyphs sit on its bottom edge in Nunito 700 15px, `user-select: none` because nothing inside is a control; `height="auto"` hugs screens taller than the device, like the paywall and the wallet. The seven screens are redrawn from the app's own routes — `discover`, `feed`, `me`, `chat/[id]`, `wallet`, `paywall`, `welcome-back` — at the app's sizes: a 16px body, 20px section padding, `muted-fill` received bubbles and blue-tint sent bubbles (20px radius, 6px tail), a green-tint correction card (16px radius) that opens with a Label Caps green "Correction from …", the translation in blue _under_ the bubble rather than inside it, a 24px-radius compose field with the yellow send slab beside it, and photo avatars from `static/images/people/`. Each screen plays one authored moment on `inview` (threshold 0.35, once): the chat lands two messages, a typing state and the correction at 250 / 1100 / 1900 / 3100ms and, with `loop`, replays every 8 seconds; Discover and Feed rows rise from 10px over 400ms, 60ms apart; the Me week chart's bars grow from the baseline 45ms apart. A 13px `text-quiet` caption under every phone says it is a demonstration.
 
 ### Segmented Control
 
-The app's toggle: a `muted-fill` pill track with 3px padding and a ground-coloured thumb carrying the segment shadow that slides in 200ms `ease-out`; options are 14px 600 `ink-shade`, 700 ink when active.
+The app's toggle: a `muted-fill` pill track with 3px padding and a ground-coloured thumb carrying the segment shadow that slides in 200ms `ease-out`; options are 14px 600 `ink-shade`, 700 ink when active, on 11px 6px padding and never wrapping.
 
 ### Theme Toggle
 

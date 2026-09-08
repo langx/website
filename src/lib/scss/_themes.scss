@@ -13,7 +13,7 @@
 
 @mixin base-theme {
 	@include define-color('primary', #ffc409);
-	@include define-color('primary-shade', #e0ac08);
+	@include define-color('primary-shade', #d9a504);
 	@include define-color('on-primary', #201900);
 
 	// Legacy brand orange. Not used by the redesigned surfaces; kept so blog
@@ -73,7 +73,7 @@
 
 @mixin dark-theme {
 	@include define-color('primary', #ffc409);
-	@include define-color('primary-shade', #e0ac08);
+	@include define-color('primary-shade', #d9a504);
 	@include define-color('on-primary', #201900);
 
 	@include define-color('secondary', #ff723f);

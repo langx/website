@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
@@ -7,27 +8,79 @@
 	/**
 	 * Four rounds of the /tools game, played where the visitor already is.
 	 * The words are real rows of
-	 * `static/data/most-common-words/games/languages.json`, each picked because
-	 * it appears in exactly one of the site's word lists, so no round has two
-	 * right answers. The full ten-round daily game lives at
-	 * /tools/guess-the-language.
+	 * `static/data/most-common-words/games/languages.json`, where every word
+	 * belongs to exactly one list, so no round has two right answers. The four
+	 * below are the set that renders without JavaScript; once the pool has
+	 * loaded, every visit deals a different four. The full ten-round daily game
+	 * lives at /tools/guess-the-language.
 	 */
 	const NAME = new Map(WORD_LISTS.map((l) => [l.code, l.name]));
+	const CODES = WORD_LISTS.map((l) => l.code);
 
-	const ROUNDS = [
+	const COUNT = 4;
+	const OPTIONS = 4;
+	/** Words below this rank in their own list — common enough to be gettable. */
+	const MAX_RANK = 40;
+
+	type Round = { word: string; answer: string; options: string[] };
+
+	const FALLBACK: Round[] = [
 		{ word: 'თმა', answer: 'ka', options: ['el', 'hy', 'ka', 'he'] },
 		{ word: 'không', answer: 'vi', options: ['tr', 'vi', 'id', 'is'] },
 		{ word: 'mitä', answer: 'fi', options: ['et', 'hu', 'is', 'fi'] },
 		{ word: 'אני', answer: 'he', options: ['he', 'ar', 'hy', 'ru'] }
 	];
 
+	let rounds: Round[] = FALLBACK;
+	let pool: [string, string, number][] = [];
+
 	let at = 0;
 	let picked: string | null = null;
 	let right = 0;
 	let done = false;
 
-	$: round = ROUNDS[at];
+	$: round = rounds[at];
 	$: correct = picked === round.answer;
+
+	const pickOne = <T>(list: T[]): T => list[Math.floor(Math.random() * list.length)];
+
+	/** Four rounds, each a different language, the answer somewhere in the four. */
+	function deal(): Round[] {
+		const usable = pool.filter(([, code, rank]) => rank <= MAX_RANK && NAME.has(code));
+		if (usable.length < COUNT) return FALLBACK;
+
+		const used = new Set<string>();
+		const out: Round[] = [];
+		let guard = 0;
+		while (out.length < COUNT && guard++ < 500) {
+			const [word, answer] = pickOne(usable);
+			if (used.has(answer)) continue;
+			used.add(answer);
+
+			const options = [answer];
+			while (options.length < OPTIONS) {
+				const c = pickOne(CODES);
+				if (!options.includes(c)) options.push(c);
+			}
+			for (let i = options.length - 1; i > 0; i--) {
+				const j = Math.floor(Math.random() * (i + 1));
+				[options[i], options[j]] = [options[j], options[i]];
+			}
+			out.push({ word, answer, options });
+		}
+		return out.length === COUNT ? out : FALLBACK;
+	}
+
+	onMount(async () => {
+		try {
+			const res = await fetch('/data/most-common-words/games/languages.json');
+			pool = await res.json();
+			// Only swap the four out before anyone has answered one of them.
+			if (at === 0 && !picked) rounds = deal();
+		} catch {
+			// The four above are already on screen; leave them there.
+		}
+	});
 
 	function pick(code: string) {
 		if (picked) return;
@@ -37,11 +90,12 @@
 
 	function next() {
 		picked = null;
-		if (at === ROUNDS.length - 1) done = true;
+		if (at === rounds.length - 1) done = true;
 		else at += 1;
 	}
 
 	function again() {
+		rounds = pool.length ? deal() : FALLBACK;
 		at = 0;
 		picked = null;
 		right = 0;
@@ -60,9 +114,9 @@
 
 	{#if done}
 		<div class="result">
-			<p class="score">{right} out of {ROUNDS.length}</p>
+			<p class="score">{right} out of {rounds.length}</p>
 			<p class="after">
-				{right === ROUNDS.length
+				{right === rounds.length
 					? 'Every one. Try the ten-word daily game.'
 					: 'The daily game has ten, and a new set every day.'}
 			</p>
@@ -72,13 +126,13 @@
 				</Button>
 				<button class="again" type="button" on:click={again}>
 					<UiIcon name="refresh" size={18} />
-					Play these again
+					Play four more
 				</button>
 			</div>
 		</div>
 	{:else}
 		<div class="play">
-			<p class="count">Word {at + 1} of {ROUNDS.length}</p>
+			<p class="count">Word {at + 1} of {rounds.length}</p>
 			<p class="word" lang={round.answer}>{round.word}</p>
 
 			<ul class="options" role="list">
@@ -106,7 +160,7 @@
 
 			{#if picked}
 				<button class="next" type="button" on:click={next}>
-					{at === ROUNDS.length - 1 ? 'See how you did' : 'Next word'}
+					{at === rounds.length - 1 ? 'See how you did' : 'Next word'}
 					<UiIcon name="arrow-right" size={18} />
 				</button>
 			{/if}

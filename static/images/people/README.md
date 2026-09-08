@@ -1,10 +1,11 @@
 # Sample portraits
 
 Demonstration faces for the phone screens on the site (Discover, Feed, Chat,
-Me). None of these people exist: the images are AI-generated portraits fetched
-from xsgames.co/randomusers (avatar.php) on 2 September 2026 and resized to
-160×160 WebP. They stand in for real users until the product has photos it can
-show; swap them freely, keep the file names.
+Me) and for the two chat cards. None of these people exist: the images are
+AI-generated portraits fetched from xsgames.co/randomusers (avatar.php) — the
+first six on 2 September 2026, `maria` and `kenji` on 7 September 2026 — and
+resized to 160×160 WebP. They stand in for real users until the product has
+photos it can show; swap them freely, keep the file names.
 
 | File          | Used as                            |
 | ------------- | ---------------------------------- |
@@ -14,3 +15,5 @@ show; swap them freely, keep the file names.
 | `mateo.webp`  | Mateo P. (Discover, Feed)          |
 | `daniel.webp` | Daniel K. (Feed)                   |
 | `sofia.webp`  | Sofia R. (Me, the example account) |
+| `maria.webp`  | María (ChatCard)                   |
+| `kenji.webp`  | Kenji (ChatCard)                   |

@@ -4,6 +4,8 @@
 	export let active: 'discover' | 'chats' | 'feed' | 'me' = 'discover';
 	export let unread = 0;
 
+	// The app's four tabs, in the app's order. `chat` is the message glyph and
+	// `person` the user one; the unread count rides the icon, not the tab.
 	const tabs = [
 		{ id: 'discover', label: 'Discover', icon: 'search' },
 		{ id: 'chats', label: 'Chats', icon: 'chat' },
@@ -19,11 +21,13 @@
 			class:on={tab.id === active}
 			aria-current={tab.id === active ? 'page' : undefined}
 		>
-			<UiIcon name={tab.icon} size={22} />
+			<span class="glyph">
+				<UiIcon name={tab.icon} size={22} />
+				{#if tab.id === 'chats' && unread > 0}
+					<span class="badge">{unread}</span>
+				{/if}
+			</span>
 			<span class="label">{tab.label}</span>
-			{#if tab.id === 'chats' && unread > 0}
-				<span class="badge">{unread}</span>
-			{/if}
 		</span>
 	{/each}
 </nav>
@@ -33,25 +37,27 @@
 		display: flex;
 		background: var(--color--surface);
 		border-top: 1px solid var(--color--border);
-		padding: 10px 6px 16px;
+		padding: 10px 8px 24px;
 		flex: 0 0 auto;
 		margin-top: auto;
 	}
 
 	.tab {
-		position: relative;
 		flex: 1;
-		min-height: 52px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		gap: 5px;
+		gap: 4px;
 		color: var(--color--text-tertiary);
 
 		&.on {
 			color: var(--color--accent);
 		}
+	}
+
+	.glyph {
+		position: relative;
+		display: flex;
 	}
 
 	.label {
@@ -61,18 +67,17 @@
 
 	.badge {
 		position: absolute;
-		top: 4px;
-		right: 28px;
+		top: -4px;
+		right: -10px;
 		min-width: 18px;
 		height: 18px;
 		background: var(--color--error);
-		color: #fefefe;
+		color: #fff;
 		font-size: 11px;
 		font-weight: 700;
+		line-height: 18px;
 		border-radius: var(--radius-pill);
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		text-align: center;
 		padding: 0 5px;
 	}
 </style>

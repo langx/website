@@ -6,6 +6,11 @@
 	import TabBar from './TabBar.svelte';
 	import { inview } from '$lib/utils/inview';
 
+	/**
+	 * `app/(app)/(tabs)/discover` from the design handoff: the title with a
+	 * search and a filter button, the language pair the list is filtered by,
+	 * the three sorts, then one hairline row per person.
+	 */
 	const people = [
 		{
 			initials: 'LM',
@@ -13,10 +18,12 @@
 			tone: 'accent',
 			name: 'Lucía M.',
 			age: 26,
+			flag: '🇪🇸',
 			streak: 41,
 			online: true,
 			pair: 'Spanish → English',
 			level: 2,
+			distance: '4 km away',
 			bio: 'Madrid. I correct everything, sorry in advance.'
 		},
 		{
@@ -25,10 +32,12 @@
 			tone: 'success',
 			name: 'Javier R.',
 			age: 31,
+			flag: '🇪🇸',
 			streak: 7,
 			online: false,
 			pair: 'Spanish, Catalan → English',
 			level: 3,
+			distance: '',
 			bio: 'Teaching myself English from song lyrics. It is going badly.'
 		},
 		{
@@ -37,10 +46,12 @@
 			tone: 'ink',
 			name: 'Ana C.',
 			age: 24,
+			flag: '🇪🇸',
 			streak: 0,
 			online: true,
 			pair: 'Spanish → English',
 			level: 1,
+			distance: '',
 			bio: 'Day one. Voice notes only — typing English takes me an hour.'
 		},
 		{
@@ -49,10 +60,12 @@
 			tone: 'accent',
 			name: 'Mateo P.',
 			age: 29,
+			flag: '🇦🇷',
 			streak: 122,
 			online: false,
 			pair: 'Spanish → English',
 			level: 4,
+			distance: '',
 			bio: 'Buenos Aires. Happy to explain the subjunctive again.'
 		}
 	] as const;
@@ -62,8 +75,13 @@
 	<div class="head">
 		<div class="title-row">
 			<h2 class="title">Discover</h2>
-			<UiIcon name="filter" size={22} />
+			<span class="icon-btn"><UiIcon name="search" size={22} /></span>
+			<span class="icon-btn filters">
+				<UiIcon name="sliders" size={22} />
+				<span class="count">2</span>
+			</span>
 		</div>
+		<span class="pair-label">English ↔ Spanish</span>
 		<div class="seg"><Segmented options={['For you', 'Active', 'Nearby']} active={0} /></div>
 	</div>
 
@@ -82,12 +100,18 @@
 					<div class="line">
 						<span class="name">{p.name}</span>
 						<span class="age">{p.age}</span>
-						{#if p.streak}<span class="streak">🔥 {p.streak}</span>{/if}
+						<span class="flag" aria-hidden="true">{p.flag}</span>
+						{#if p.streak}
+							<span class="streak"><UiIcon name="zap" size={13} />{p.streak}</span>
+						{/if}
 					</div>
 					<div class="pair">
 						<span>{p.pair}</span>
 						<LevelBars level={p.level} />
 					</div>
+					{#if p.distance}
+						<div class="distance">{p.distance}</div>
+					{/if}
 					<div class="bio">{p.bio}</div>
 				</div>
 			</li>
@@ -106,21 +130,60 @@
 	}
 
 	.head {
-		padding: 14px 24px 0;
+		padding: 12px 20px 0;
 	}
 
 	.title-row {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		gap: 14px;
+		min-height: 48px;
 	}
 
 	.title {
 		margin: 0;
+		flex: 1;
 		font-size: 34px;
 		font-weight: 800;
 		line-height: 1.15;
 		letter-spacing: 0;
+	}
+
+	.icon-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		color: var(--color--text);
+		flex: 0 0 auto;
+	}
+
+	// The filter button carries the number of filters that are on.
+	.filters {
+		width: auto;
+		gap: 6px;
+	}
+
+	.count {
+		min-width: 18px;
+		padding: 0 5px;
+		background: var(--color--accent);
+		color: #fff;
+		border-radius: var(--radius-pill);
+		font-size: 11px;
+		font-weight: 700;
+		line-height: 18px;
+		text-align: center;
+	}
+
+	// The pair the list is filtered by — a shortcut back into the filters.
+	.pair-label {
+		display: block;
+		margin-top: 2px;
+		font-size: 14px;
+		font-weight: 700;
+		color: var(--color--accent);
 	}
 
 	.seg {
@@ -131,12 +194,13 @@
 		flex: 1;
 		min-height: 0;
 		overflow: hidden;
-		padding: 6px 24px 0;
+		padding: 8px 20px 0;
 	}
 
 	.person {
 		display: flex;
-		gap: 14px;
+		gap: 16px;
+		align-items: flex-start;
 		padding: 20px 0;
 		border-bottom: 1px solid var(--color--border);
 
@@ -148,18 +212,24 @@
 	.body {
 		flex: 1;
 		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	.line {
 		display: flex;
-		align-items: baseline;
-		gap: 8px;
+		align-items: center;
+		gap: 10px;
 	}
 
 	.name {
 		font-family: var(--font--title);
 		font-size: 17px;
 		font-weight: 800;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	.age {
@@ -167,8 +237,15 @@
 		color: var(--color--text-shade);
 	}
 
+	.flag {
+		font-size: 15px;
+	}
+
 	.streak {
 		margin-left: auto;
+		display: flex;
+		align-items: center;
+		gap: 3px;
 		font-size: 13px;
 		color: var(--color--text-shade);
 		white-space: nowrap;
@@ -178,18 +255,27 @@
 	.pair {
 		display: flex;
 		align-items: center;
-		gap: 8px;
+		gap: 12px;
 		font-size: 14px;
 		font-weight: 600;
 		color: var(--color--accent);
-		margin-top: 3px;
 	}
 
+	.distance {
+		font-size: 13px;
+		color: var(--color--text-shade);
+	}
+
+	// Two lines, then it stops — the app clamps the bio so every row is the
+	// same shape however much someone wrote.
 	.bio {
 		font-size: 15px;
-		line-height: 1.5;
+		line-height: 1.45;
 		color: var(--color--text-shade);
-		margin-top: 5px;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 
 	// Rows land one after another, 60ms apart, the first time the screen is seen.

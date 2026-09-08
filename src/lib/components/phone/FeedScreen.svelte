@@ -1,9 +1,15 @@
 <script lang="ts">
 	import Avatar from '$lib/components/atoms/Avatar.svelte';
-	import LevelBars from '$lib/components/atoms/LevelBars.svelte';
 	import Segmented from '$lib/components/atoms/Segmented.svelte';
+	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import TabBar from './TabBar.svelte';
 	import { inview } from '$lib/utils/inview';
+
+	/**
+	 * `app/(app)/(tabs)/feed` from the design handoff, on its Corrections tab.
+	 * Everything you can do to a post is a quiet blue word under it — the feed
+	 * carries no yellow, because committing happens in the correction sheet.
+	 */
 </script>
 
 <div class="screen" use:inview={{ threshold: 0.35 }}>
@@ -12,7 +18,7 @@
 			<h2 class="title">Feed</h2>
 			<span class="ask">+ Ask</span>
 		</div>
-		<div class="seg"><Segmented options={['Needs correction', 'Following']} active={0} /></div>
+		<div class="seg"><Segmented options={['Corrections', 'Pronunciation']} active={0} /></div>
 	</div>
 
 	<ul class="list" role="list">
@@ -26,15 +32,15 @@
 					name="Daniel K."
 				/>
 				<div class="who">
-					<div class="name">Daniel K.</div>
-					<div class="meta"><span>Spanish</span><LevelBars level={2} /><span>· 12 min</span></div>
+					<span class="name">Daniel K.</span>
+					<span class="meta">Spanish · 12 min</span>
 				</div>
-				<span class="state none">No corrections</span>
 			</div>
 			<p class="text">Me gusta mucho el café pero yo no puedo dormir después de las seis.</p>
 			<div class="actions">
+				<span class="like"><UiIcon name="heart" size={18} />3</span>
+				<span class="count">No corrections yet</span>
 				<span class="correct">Correct this</span>
-				<span class="fine">Looks fine</span>
 			</div>
 		</li>
 
@@ -48,19 +54,20 @@
 					name="Mateo P."
 				/>
 				<div class="who">
-					<div class="name">Mateo P.</div>
-					<div class="meta"><span>English</span><LevelBars level={4} /><span>· 1 h</span></div>
+					<span class="name">Mateo P.</span>
+					<span class="meta">English · 1 h</span>
 				</div>
-				<span class="state some">4 corrections</span>
+				<span class="top">Top</span>
 			</div>
 			<p class="text">Yesterday I was very tired, so I go to bed early.</p>
 			<div class="top-correction">
-				<div class="from">Top correction · James W.</div>
-				<div class="fixed">…so I <s>go</s> <strong>went</strong> to bed early.</div>
+				<span class="from">Top correction · James W.</span>
+				<span class="fixed">…so I <s>go</s> <strong>went</strong> to bed early.</span>
 			</div>
-			<div class="links">
-				<span class="add">Add yours</span>
-				<span class="all">See all 4</span>
+			<div class="actions">
+				<span class="like liked"><UiIcon name="heart" size={18} />12</span>
+				<span class="count">4 corrections</span>
+				<span class="correct">Correct this</span>
 			</div>
 		</li>
 
@@ -68,12 +75,16 @@
 			<div class="author">
 				<Avatar src="/images/people/ana.webp" initials="AC" tone="ink" size={40} name="Ana C." />
 				<div class="who">
-					<div class="name">Ana C.</div>
-					<div class="meta"><span>English</span><LevelBars level={1} /><span>· 3 h</span></div>
+					<span class="name">Ana C.</span>
+					<span class="meta">English · 3 h</span>
 				</div>
-				<span class="state none">No corrections</span>
 			</div>
 			<p class="text">Today the weather is very nice, I want go to the park.</p>
+			<div class="actions">
+				<span class="like"><UiIcon name="heart" size={18} />1</span>
+				<span class="count">1 correction</span>
+				<span class="correct">Correct this</span>
+			</div>
 		</li>
 	</ul>
 
@@ -89,17 +100,19 @@
 	}
 
 	.head {
-		padding: 14px 24px 0;
+		padding: 12px 20px 0;
 	}
 
 	.title-row {
 		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
+		align-items: center;
+		gap: 14px;
+		min-height: 48px;
 	}
 
 	.title {
 		margin: 0;
+		flex: 1;
 		font-size: 34px;
 		font-weight: 800;
 		line-height: 1.15;
@@ -107,7 +120,12 @@
 	}
 
 	.ask {
-		font-size: 16px;
+		display: flex;
+		align-items: center;
+		height: 40px;
+		padding: 0 14px;
+		border-radius: var(--radius-pill);
+		font-size: 15px;
 		font-weight: 700;
 		color: var(--color--accent);
 	}
@@ -120,12 +138,15 @@
 		flex: 1;
 		min-height: 0;
 		overflow: hidden;
-		padding: 6px 24px 0;
+		padding: 8px 20px 0;
 	}
 
 	.post {
-		padding: 20px 0;
+		padding: 22px 0;
 		border-bottom: 1px solid var(--color--border);
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
 
 		&:last-child {
 			border-bottom: 0;
@@ -135,78 +156,53 @@
 	.author {
 		display: flex;
 		align-items: center;
-		gap: 11px;
+		gap: 12px;
 	}
 
 	.who {
 		flex: 1;
 		min-width: 0;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.name {
 		font-family: var(--font--title);
-		font-size: 16px;
+		font-size: 15px;
 		font-weight: 800;
 	}
 
 	.meta {
-		display: flex;
-		align-items: center;
-		gap: 6px;
 		font-size: 13px;
-		color: var(--color--text-shade);
+		color: var(--color--text-tertiary);
 	}
 
-	.state {
-		font-size: 13px;
-		font-weight: 600;
+	// The one ink-filled thing on the screen: the post the community rated
+	// highest today.
+	.top {
 		flex: 0 0 auto;
-
-		&.none {
-			color: var(--color--error);
-		}
-		&.some {
-			color: var(--color--success);
-		}
+		padding: 4px 10px;
+		border-radius: var(--radius-pill);
+		background: var(--color--text);
+		color: var(--color--text-inverse);
+		font-size: 12px;
+		font-weight: 700;
 	}
 
 	.text {
-		font-size: 17px;
-		line-height: 1.55;
-		margin: 12px 0 0;
-	}
-
-	.actions {
-		display: flex;
-		align-items: center;
-		gap: 16px;
-		margin-top: 14px;
-	}
-
-	.correct {
-		background: var(--color--primary);
-		color: var(--color--on-primary);
-		font-family: var(--font--title);
-		font-size: 14px;
-		font-weight: 800;
-		min-height: 44px;
-		display: flex;
-		align-items: center;
-		padding: 0 20px;
-		border-radius: var(--radius-pill);
-	}
-
-	.fine {
-		font-size: 14px;
-		font-weight: 600;
-		color: var(--color--text-shade);
+		margin: 0;
+		font-size: 18px;
+		line-height: 1.5;
+		text-wrap: pretty;
 	}
 
 	.top-correction {
-		margin-top: 12px;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 		background: var(--color--success-tint);
-		border-radius: var(--radius-md);
-		padding: 12px 14px;
+		border-radius: var(--radius-lg);
+		padding: 14px 16px;
 
 		.from {
 			font-size: 12px;
@@ -215,13 +211,10 @@
 		}
 
 		.fixed {
-			font-size: 15px;
-			line-height: 1.5;
-			margin-top: 5px;
-			font-weight: 600;
+			font-size: 16px;
+			line-height: 1.45;
 
 			s {
-				font-weight: 400;
 				color: var(--color--text-shade);
 			}
 
@@ -232,20 +225,32 @@
 		}
 	}
 
-	.links {
+	.actions {
 		display: flex;
+		align-items: center;
 		gap: 20px;
-		margin-top: 14px;
 		font-size: 14px;
+		font-weight: 600;
+	}
 
-		.add {
-			font-weight: 700;
-			color: var(--color--accent);
+	.like {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		color: var(--color--text-shade);
+
+		&.liked {
+			color: var(--color--error);
 		}
-		.all {
-			font-weight: 600;
-			color: var(--color--text-shade);
-		}
+	}
+
+	.count {
+		color: var(--color--text-shade);
+	}
+
+	.correct {
+		margin-left: auto;
+		color: var(--color--accent);
 	}
 
 	// Rows land one after another, 60ms apart, the first time the screen is seen.
@@ -259,9 +264,6 @@
 	}
 	.post:nth-child(3) {
 		transition-delay: 120ms;
-	}
-	.post:nth-child(4) {
-		transition-delay: 180ms;
 	}
 	:global(.is-in) .post {
 		opacity: 1;

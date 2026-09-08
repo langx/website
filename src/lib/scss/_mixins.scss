@@ -47,3 +47,23 @@
 			var(--color--text-inverse)
 		)};
 }
+
+// The app's committing button, as it is drawn inside the phone replicas.
+// Not the site's pill: in the device the button is a 16px-cornered slab with
+// a 4px hard ledge under it, and the label is Nunito 800 in Label Caps. The
+// ledge is the app's press affordance — `:active` drops the button onto it.
+@mixin app-button($height: 56px, $shade: var(--color--primary-shade)) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+	min-height: $height;
+	border-radius: var(--radius-lg);
+	font-family: var(--font--title);
+	font-size: 15px;
+	font-weight: 800;
+	letter-spacing: 0.8px;
+	text-transform: uppercase;
+	box-shadow: 0 4px 0 #{$shade};
+}
