@@ -15,8 +15,8 @@ export const tokenEarning = [
 ];
 
 export const tokenCaps = [
-	'Up to 100 tokens a day from messages.',
-	'At most 30 of those from any one person, so talking to a single partner all day is not a strategy.',
+	'Up to 200 tokens a day from messages.',
+	'At most 60 of those from any one person, so it takes four partners to reach the ceiling and talking to one all day is not a strategy.',
 	'A shared daily pool of 10,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it.'
 ];
 
@@ -46,7 +46,7 @@ export const tokenSinks = [
 		name: 'Frames and titles',
 		price: '1,000 – 100,000 tokens',
 		description:
-			'Cosmetic only: ten avatar frames from Slate to Midnight, and ten titles from Beginner to Legend.'
+			'Cosmetic only: ten avatar frames from Slate to Aurora, and ten titles from Beginner to Legend.'
 	}
 ];
 

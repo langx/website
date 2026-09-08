@@ -9,7 +9,7 @@
 	<PageHeader
 		eyebrow="Tokens"
 		title="A point you earn by helping somebody"
-		lede="Tokens are in-app points, earned by practising and teaching and spent on a streak freeze, a missed day or something cosmetic. They cannot be bought, sold, traded or withdrawn, and there is no chain behind them. Here is every rule, including the ceilings."
+		lede="Tokens are in-app points, earned by practising and teaching and spent on a streak freeze, a missed day or something cosmetic. They cannot be bought, sold, traded or withdrawn, and there is no chain behind them. Here is how they are earned, capped and spent."
 	/>
 
 	<!--
