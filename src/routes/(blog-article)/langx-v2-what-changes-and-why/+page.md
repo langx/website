@@ -88,11 +88,11 @@ describing something tradable, staked and eventually listed on an exchange.
 **The name stays. The trading does not.**
 
 LangX Token in v2 is an in-app point. You earn it by practising and by teaching
-— correcting someone else's sentence is worth five times sending a message —
-and you spend it on a streak freeze or on cosmetic frames and titles. That is
-the complete list of things to spend it on, and it is complete on purpose: if
-tokens could buy a Pro feature, farming tokens would become a substitute for
-subscribing.
+— correcting someone else's sentence is worth ten times sending a message — and
+you spend it on your streak or on cosmetics: a freeze, a filled-in day, frames,
+titles and sticker packs. That is the complete list of things to spend it on,
+and it is complete on purpose: if tokens could buy a Pro feature, farming
+tokens would become a substitute for subscribing.
 
 It cannot be bought, sold, traded, staked, transferred or withdrawn, and it is
 not on a blockchain. **The on-chain design in the old litepaper is not being
