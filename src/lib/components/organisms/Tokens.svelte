@@ -126,6 +126,17 @@
 		</article>
 
 		<article class="block">
+			<h2>Where the longer version lives</h2>
+			<p>
+				This page is the rules as the app enforces them, mirrored from its source so they cannot
+				drift apart. The model itself — where it came from, what it is for, and the reasoning behind
+				it — is written up at
+				<a href="https://token.langx.io" target="_blank" rel="noopener noreferrer">token.langx.io</a
+				>.
+			</p>
+		</article>
+
+		<article class="block">
 			<h2>These are starting values</h2>
 			<p>
 				Every number here is marked as a starting value in the app's own source, and is expected to

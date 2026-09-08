@@ -28,7 +28,7 @@
 		{
 			id: 4,
 			title: 'What is LangX Token?',
-			content: `Points you earn by chatting and by correcting other people. You spend them inside the app on a streak freeze or on frames and titles for your profile. They aren't money: you can't buy, sell or trade them, and they never unlock a paid plan.`
+			content: `Points you earn by chatting and by correcting other people. You spend them inside the app on a streak freeze or on frames and titles for your profile. They aren't money: you can't buy, sell or trade them, and they never unlock a paid plan. <a href="/tokens">Every rule is on the tokens page</a>, and the longer write-up is at <a href="https://token.langx.io" target="_blank" rel="noopener noreferrer">token.langx.io</a>.`
 		},
 		{
 			id: 5,
