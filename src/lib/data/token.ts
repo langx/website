@@ -47,6 +47,12 @@ export const tokenSinks = [
 		price: '1,000 – 100,000 tokens',
 		description:
 			'Cosmetic only: ten avatar frames from Slate to Aurora, and ten titles from Beginner to Legend.'
+	},
+	{
+		name: 'Sticker packs',
+		price: '1,000 tokens each',
+		description:
+			'Two packs of twelve stickers to send in a chat. Both cost the same — one pack is never a rung above another — and none of them carry lettering, because the app is read in eight languages.'
 	}
 ];
 
