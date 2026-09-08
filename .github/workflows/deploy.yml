@@ -36,11 +36,23 @@ jobs:
         run: |
           npm run build
 
+      # Two paths, and the second one is the reason the deploy step below
+      # publishes `build` rather than `.`. Wrangler compiles Pages Functions
+      # from a `functions/` directory in its *working* directory, not from
+      # inside the directory it publishes, and the deploy job never checks the
+      # repository out — it only unpacks this artifact. Naming two paths makes
+      # upload-artifact keep the workspace as the artifact root, so the deploy
+      # job unpacks `build/` and `functions/` side by side exactly as they sit
+      # here. With a single `build/` path the artifact root is `build/` itself
+      # and the output lands at the top level, which is what `directory: '.'`
+      # used to mean.
       - name: Upload Artifacts
         uses: actions/upload-artifact@v7
         with:
           name: website
-          path: 'build/'
+          path: |
+            build/
+            functions/
 
   deploy:
     needs: build_site
@@ -65,7 +77,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: website
-          directory: '.'
+          directory: 'build'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           wranglerVersion: '3'
