@@ -9,19 +9,30 @@
 <section id="welcome-back" class="welcome">
 	<div class="blocks">
 		<article class="block">
-			<h2>You have to sign up again</h2>
+			<h2>Your account is already here. Your old password is not.</h2>
 			<p>
-				Use the same email address you used before. The old password hashes could not be carried
-				over, so there is no way to keep your old password, but everything attached to that email is
-				waiting for you once it is verified.
+				The old password hashes could not be carried over, so there is no way to keep the password
+				you had. Everything else attached to that email is waiting for you. Use the same address you
+				used before, and take whichever way back in you prefer:
 			</p>
+			<ul>
+				<li>Continue with Google or Apple, if one of them has that address.</li>
+				<li>Ask for a sign-in link. It arrives by email; one tap and you are in.</li>
+				<li>Forgot password, which sets a new one.</li>
+				<li>
+					Or sign up again with it, the way this page used to tell you to. That address already has
+					an account, so instead of making a second one we email you a sign-in link for the one you
+					have.
+				</li>
+			</ul>
 		</article>
 
 		<article class="block">
 			<h2>Your username is reserved</h2>
 			<p>
-				Nobody else can take it. Sign up with your old email, verify it, and the app offers your
-				handle back to you during onboarding, along with the profile details it can pre-fill.
+				Nobody else can take it. Come back with your old email, whichever way you choose, and the app
+				offers your handle back to you during onboarding, along with the profile details it can
+				pre-fill.
 			</p>
 		</article>
 
