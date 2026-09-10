@@ -168,7 +168,7 @@
 
 		We retain your information for as long as your account exists, and as required by applicable laws.
 
-		When you delete your account it becomes invisible immediately and every session is ended. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos, videos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
+		When you delete your account it is removed from discovery and search immediately and every session is ended; someone who already has a conversation with you can still open your profile, marked as deleted. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos, videos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
 
 		Three exceptions are worth stating plainly:
 
@@ -177,6 +177,8 @@
 		- **Your email address is kept**, and it is the only thing that is. When your account is removed we move the address onto a list that holds nothing else: no name, no profile, no identifier that links it back to the account, which is deleted in full. We keep it so that we can tell you about LangX in the future, and we only send promotional email to an address whose owner turned promotional email on while their account existed. Write to [hi@langx.io](mailto:hi@langx.io) at any time — before or after deleting your account — and we will remove your address from that list too.
 
 		Records of who viewed a profile are deleted automatically after 90 days, whether or not you delete your account.
+
+		If your account is suspended, we keep a record of the suspension — when it was applied, how long for, and the reason it was reported under — for as long as the suspension applies, along with the text of any appeal you send us. Both are removed with the rest of your account when it is deleted.
 
 	12. Age
 

@@ -36,6 +36,16 @@ export default [
 		]
 	},
 	{
+		name: 'Boosted profiles',
+		description:
+			'Paid profiles appear in a strip above the Discover list, to people whose languages match theirs. Polyglot leads it.',
+		image: 'images/features/7.png',
+		tags: [
+			{ label: 'Fluent', color: 'pro' },
+			{ label: 'First: Polyglot', color: 'pro-plus' }
+		]
+	},
+	{
 		name: 'See who viewed your profile',
 		description: 'Curious who has been looking? Polyglot shows you.',
 		image: 'images/features/5.png',
