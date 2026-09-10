@@ -30,8 +30,8 @@
 		<article class="block">
 			<h2>Your username is reserved</h2>
 			<p>
-				Nobody else can take it. Come back with your old email, whichever way you choose, and the app
-				offers your handle back to you during onboarding, along with the profile details it can
+				Nobody else can take it. Come back with your old email, whichever way you choose, and the
+				app offers your handle back to you during onboarding, along with the profile details it can
 				pre-fill.
 			</p>
 		</article>
