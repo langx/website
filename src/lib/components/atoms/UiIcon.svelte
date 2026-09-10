@@ -1,7 +1,9 @@
 <script lang="ts" context="module">
 	// One stroke, one weight, round caps — the app's own icon grammar.
 	const PATHS: Record<string, string> = {
-		search: 'M18 18a7 7 0 1 0-14 0 7 7 0 0 0 14 0Zm2 2-4.5-4.5',
+		// The lens is centred at 11,11: at 11,18 it hung 1px past the 24 box and
+		// clipped flat, which reads as a filled blob rather than a magnifier.
+		search: 'M18 11a7 7 0 1 0-14 0 7 7 0 0 0 14 0Zm2 9-4.5-4.5',
 		chat: 'M4 5h16v11H9l-5 4z',
 		feed: 'M4 6h16M4 12h16M4 18h11',
 		person: 'M4 20v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z',

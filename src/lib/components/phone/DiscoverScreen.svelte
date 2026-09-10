@@ -9,8 +9,58 @@
 	/**
 	 * `app/(app)/(tabs)/discover` from the design handoff: the title with a
 	 * search and a filter button, the language pair the list is filtered by,
-	 * the three sorts, then one hairline row per person.
+	 * the three sorts, the boosted strip, then one hairline row per person.
 	 */
+
+	/**
+	 * The paying members above the list, Polyglot first — `BoostedProfiles` in
+	 * the app. Four faces the list below does not use, so one screen never
+	 * shows the same person twice; `sofia` is the example account on `me` and
+	 * stays out for the same reason.
+	 *
+	 * The app hides the strip entirely when nobody qualifies. Here somebody
+	 * always does: this is the shot the stores get, and an empty strip is the
+	 * one state it must not show.
+	 */
+	const boosted = [
+		{
+			initials: 'MG',
+			photo: '/images/people/maria.webp',
+			tone: 'accent',
+			name: 'María',
+			pair: 'Spanish → English',
+			tier: 'POLYGLOT',
+			online: true
+		},
+		{
+			initials: 'DK',
+			photo: '/images/people/daniel.webp',
+			tone: 'success',
+			name: 'Daniel',
+			pair: 'German → English',
+			tier: 'POLYGLOT',
+			online: false
+		},
+		{
+			initials: 'KT',
+			photo: '/images/people/kenji.webp',
+			tone: 'ink',
+			name: 'Kenji',
+			pair: 'Japanese → English',
+			tier: 'FLUENT',
+			online: true
+		},
+		{
+			initials: 'SR',
+			photo: '/images/people/sofia.webp',
+			tone: 'accent',
+			name: 'Sofia',
+			pair: 'Portuguese → English',
+			tier: 'POLYGLOT',
+			online: false
+		}
+	] as const;
+
 	const people = [
 		{
 			initials: 'LM',
@@ -83,6 +133,39 @@
 		</div>
 		<span class="pair-label">English ↔ Spanish</span>
 		<div class="seg"><Segmented options={['For you', 'Active', 'Nearby']} active={0} /></div>
+	</div>
+
+	<!--
+		Full-bleed: the negative margin cancels the screen's gutter and the strip's
+		own padding puts it back, so the fourth card sits half off the edge and
+		says there is more to the right.
+	-->
+	<div class="boosted">
+		<div class="boosted-head">
+			<span class="boosted-title"><UiIcon name="zap" size={15} />Boosted</span>
+			<span class="boosted-what">What is this?</span>
+		</div>
+		<div class="strip">
+			{#each boosted as b}
+				<div class="boost-card">
+					<span class="ring">
+						<Avatar
+							src={b.photo}
+							initials={b.initials}
+							tone={b.tone}
+							size={64}
+							online={b.online}
+							name={b.name}
+						/>
+					</span>
+					<span class="boost-text">
+						<span class="boost-name">{b.name}</span>
+						<span class="boost-pair">{b.pair}</span>
+					</span>
+					<span class="boost-plan">{b.tier}</span>
+				</div>
+			{/each}
+		</div>
 	</div>
 
 	<ul class="list" role="list">
@@ -188,6 +271,114 @@
 
 	.seg {
 		margin-top: 18px;
+	}
+
+	// The paid strip. Full-bleed, so the gutter is cancelled here and returned
+	// by the strip's own padding.
+	.boosted {
+		margin: 24px -20px 0;
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.boosted-head {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+
+	.boosted-title {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		font-family: var(--font--title);
+		font-size: 17px;
+		font-weight: 800;
+		color: var(--color--text);
+
+		// The bolt is the one thing on this screen in the paid colour.
+		:global(svg) {
+			color: var(--color--pro);
+		}
+	}
+
+	.boosted-what {
+		font-size: 13px;
+		font-weight: 600;
+		color: var(--color--text-shade);
+	}
+
+	.strip {
+		display: flex;
+		gap: 12px;
+		padding: 0 20px 4px;
+		overflow: hidden;
+	}
+
+	.boost-card {
+		flex: 0 0 auto;
+		width: 132px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		padding: 16px 12px 14px;
+		border-radius: var(--radius-xl);
+		background: var(--color--muted);
+		text-align: center;
+	}
+
+	// The ring is what marks a card as boosted at a glance; the gap inside it
+	// is the card's own fill showing through.
+	.ring {
+		display: flex;
+		padding: 3px;
+		border: 3px solid var(--color--pro);
+		border-radius: var(--radius-pill);
+	}
+
+	.boost-text {
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		width: 100%;
+		min-width: 0;
+	}
+
+	// First name only: two words do not fit 132px, and an ellipsis through
+	// somebody's surname reads worse than leaving it for the profile.
+	.boost-name {
+		font-family: var(--font--title);
+		font-size: 15px;
+		font-weight: 800;
+		color: var(--color--text);
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.boost-pair {
+		font-size: 12px;
+		font-weight: 600;
+		color: var(--color--accent);
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	// A brand mark rather than a translated string — the same word in every
+	// locale, as on `me`.
+	.boost-plan {
+		padding: 4px 10px;
+		border-radius: var(--radius-pill);
+		background: var(--color--accent-tint);
+		color: var(--color--pro);
+		font-size: 10px;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		white-space: nowrap;
 	}
 
 	.list {
