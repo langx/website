@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 31, Aug 2026*
+	*Effective Date: 10, Sep 2026*
 
 	If you would like to delete your LangX account or the data we hold about you, you can do it yourself from inside the app — you do not need to contact us first.
 
@@ -8,7 +8,7 @@
 
 		- Open LangX and go to **Settings**.
 		- Choose **Delete my account**.
-		- Confirm. Your account becomes invisible immediately and every session is signed out.
+		- Confirm. Your account is removed from discovery and search immediately and every session is signed out. Someone who already has a conversation with you can still open your profile until the data is removed, where it is marked as a deleted account.
 
 		The data is permanently removed **30 days** after you confirm. If you change your mind, signing back in during those 30 days cancels the deletion.
 

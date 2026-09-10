@@ -58,7 +58,11 @@ export const plans: Plan[] = [
 			},
 			{ label: '2 languages you are learning, 2 you speak natively' },
 			{ label: '10 photos on your profile' },
-			{ label: 'Filters: gender and city' }
+			{ label: 'Filters: gender and city' },
+			{
+				label: 'Boosted profile',
+				note: 'A Boosted strip above the Discover list, shown to everyone whose languages match yours. On by default; switch it off in Settings.'
+			}
 		]
 	},
 	{
@@ -77,6 +81,10 @@ export const plans: Plan[] = [
 			{
 				label: 'Nearby',
 				note: 'Sorts discovery by distance, if you turn location sharing on.'
+			},
+			{
+				label: 'Boosted to the front',
+				note: 'Polyglot profiles lead the Boosted strip, ahead of Fluent.'
 			},
 			{
 				label: 'Export your saved phrases',

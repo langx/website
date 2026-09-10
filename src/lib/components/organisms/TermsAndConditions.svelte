@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 3, Sep 2026*
+	*Effective Date: 10, Sep 2026*
 
 	1. Acceptance of Terms
 
@@ -62,7 +62,7 @@
 
 	8. Account Deletion and Termination
 
-		You may delete your account from within the App at any time. On deletion your account becomes invisible immediately and every session is ended; the data is permanently removed 30 days later. Signing back in within those 30 days cancels the deletion.
+		You may delete your account from within the App at any time. On deletion your account is removed from discovery and search immediately and every session is ended; someone who already has a conversation with you can still open your profile, marked as deleted, until the data is permanently removed 30 days later. Signing back in within those 30 days cancels the deletion.
 
 		Messages you sent are not removed from the other person's copy of the conversation. Their content is removed and they are marked as belonging to a deleted account, because deleting them outright would rewrite a conversation someone else is also a party to. The token ledger is kept as an anonymised audit record. Both exceptions are described in the [privacy policy](/privacy-policy).
 
@@ -70,7 +70,13 @@
 
 		Deleting your account does not cancel a subscription bought through a store. Cancel it with Apple, Google or our web payment provider, whichever you bought it from, or it continues to renew.
 
-		LangX reserves the right to terminate or suspend your account and access to the App for any reason, including but not limited to a violation of these Terms and Conditions.
+		When a report about your account is reviewed by a person, we may suspend it. A suspension is either for a stated period or permanent. You are shown which in the App, with the end date when there is one and the reason it was reported for. Some conduct does not get a temporary suspension: the cases listed as having no second chance in our [community guidelines](https://github.com/langx/langx/blob/main/docs/community-guidelines.md) lead straight to a permanent one.
+
+		While a suspension is in force you cannot use the App. Your profile is removed from discovery, from search and from its shared link, though someone who already has a conversation with you can still open it, marked as suspended. Your existing conversations and posts stay where they are. Your tokens and streak are kept, and nothing is earned while the suspension lasts.
+
+		A suspension does not cancel a subscription. As with deletion above, cancel it with Apple, Google or our web payment provider, or it continues to renew.
+
+		You may appeal once per suspension, from the App or by writing to [hi@langx.io](mailto:hi@langx.io). A person reads every appeal. We do not tell the person who reported you what came of it, and we do not tell you who reported you.
 
 	9. Intellectual Property
 

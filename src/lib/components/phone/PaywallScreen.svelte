@@ -12,6 +12,7 @@
 		{ text: 'Unlimited new conversations', soon: false },
 		{ text: '300 translations a day', soon: false },
 		{ text: 'Gender and city filters', soon: false },
+		{ text: 'Boosted profile', soon: false },
 		{ text: '2 languages you are learning, 2 you speak natively', soon: false },
 		{ text: 'Everything in Free', soon: false },
 		{ text: 'LangX Copilot in the correction sheet', soon: true }
