@@ -43,7 +43,7 @@
 		{
 			id: 7,
 			title: 'Is it safe?',
-			content: `Yes. The whole app is open source on <a href="https://github.com/langx/langx" target="_blank" rel="noopener noreferrer">GitHub</a>, so anyone can see exactly how it works and what it stores. You can report or block anyone from inside the app, reports are reviewed by a person, and you need to be 16 or older to join.`
+			content: `Yes. The whole app is open source on <a href="https://github.com/langx/langx" target="_blank" rel="noopener noreferrer">GitHub</a>, so anyone can see exactly how it works and what it stores. You can report or block anyone from inside the app, reports are reviewed by our moderation team — reachable at <a href="mailto:hi@langx.io">hi@langx.io</a> — and you need to be 16 or older to join.`
 		},
 		{
 			id: 8,
