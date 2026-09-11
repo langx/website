@@ -16,7 +16,14 @@ import { browser } from '$app/environment';
  *    cookie, no localStorage, no sessionStorage. PostHog counts a visitor with
  *    a hash it computes on its own side from a salt it discards daily, so
  *    there is nothing stored on your device to ask consent for, and the site
- *    keeps its promise of having no cookie banner.
+ *    keeps its promise of having no cookie banner. **This one has a second
+ *    half that lives outside the repository**: the project must have
+ *    "Cookieless server hash mode" switched on, or ingestion drops every event
+ *    the setting below produces. Nothing warns you — the request is accepted,
+ *    answered `{"status":"Ok"}`, and the event never appears. It cost an
+ *    afternoon and two days of traffic to find, so: if the site looks
+ *    instrumented and PostHog is empty, check that setting before anything
+ *    here.
  *  - `person_profiles: 'never'` — no person record is created and `identify()`
  *    is a no-op. This site has no accounts; identity lives in the app.
  *  - `disable_session_recording: true` — no recordings, the same answer the app
@@ -156,6 +163,26 @@ export function initAnalytics(): void {
 				// the request count.
 				advanced_disable_flags: true
 			});
+			/**
+			 * The first page has to be captured by hand, and this is not a
+			 * belt-and-braces call — without it the landing page is never
+			 * counted at all.
+			 *
+			 * `defaults: '2026-05-30'` sets `capture_pageview: 'history_change'`,
+			 * and that mode is exactly what it says: the SDK wraps `pushState`,
+			 * `replaceState` and `popstate` and captures a page view when one of
+			 * them changes the path. A visit that arrives from outside changes
+			 * nothing — it *is* the first path — so the only page views that were
+			 * being recorded were internal link clicks, and a marketing site's
+			 * traffic is mostly people who read one page and leave.
+			 *
+			 * Measured rather than reasoned about: on a cold load the network tab
+			 * shows no request to the relay at all, and clicking an internal link
+			 * immediately shows one. The duplicate this might look like cannot
+			 * happen — the history hook only captures when the path, search or
+			 * hash differs from the last one it saw.
+			 */
+			posthog.capture('$pageview');
 			client = posthog;
 			listenForAppLinks();
 		} catch {
