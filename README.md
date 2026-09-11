@@ -87,7 +87,7 @@ LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the ve
 
 ### [v0.2](https://github.com/langx/website/releases/tag/v0.2)
 
-![Site Preview v0.2 langx.io](static/images/site-preview.png)
+![Site Preview v0.2 langx.io](static/versioning/v0.2.png)
 
 ### [v0.1](https://github.com/langx/website/releases/tag/v0.1)
 
