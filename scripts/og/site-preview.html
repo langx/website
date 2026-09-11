@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>LangX — site preview card</title>
+		<!--
+			The social card behind `static/images/site-preview.png`, cut at the
+			1200x630 every scraper expects. It is not a screenshot of the page: a
+			screenshot of a 100dvh hero always loses its bottom third to the 1.91:1
+			crop. This is the hero rebuilt for that shape, out of the same material
+			— white ground, Nunito 800 heading, the real chat replica at the app's
+			own sizes, the one yellow on the send slab.
+
+			Render it with `node scripts/og/render.mjs`, which drives headless
+			Chrome and writes the PNG.
+		-->
+		<style>
+			/* Nunito is display-only here too; body copy stays on the platform
+			   stack, so only the two display weights are loaded. */
+			@font-face {
+				font-family: 'Nunito';
+				font-style: normal;
+				font-weight: 700;
+				src: url(../../node_modules/@fontsource/nunito/files/nunito-latin-700-normal.woff2)
+					format('woff2');
+			}
+			@font-face {
+				font-family: 'Nunito';
+				font-style: normal;
+				font-weight: 800;
+				src: url(../../node_modules/@fontsource/nunito/files/nunito-latin-800-normal.woff2)
+					format('woff2');
+			}
+
+			:root {
+				--font--default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+					Arial, sans-serif;
+				--font--title: 'Nunito', var(--font--default);
+
+				--color--primary: #ffc409;
+				--color--primary-shade: #d9a504;
+				--color--on-primary: #201900;
+				--color--accent: #3b6cf6;
+				--color--accent-tint: #e9f0fe;
+				--color--success: #009f70;
+				--color--success-tint: #e2f6ee;
+				--color--surface: #ffffff;
+				--color--muted: #f4f5f7;
+				--color--border: #e8eaec;
+				--color--text: #17191c;
+				--color--text-shade: #62676d;
+				--color--text-quiet: #6b7075;
+				--color--text-tertiary: #9aa1a7;
+
+				--radius-lg: 16px;
+				--radius-bubble: 20px;
+				--radius-phone: 36px;
+				--radius-pill: 999px;
+				--shadow-phone: 0 24px 60px -20px rgba(23, 25, 28, 0.25), 0 4px 10px rgba(0, 0, 0, 0.06);
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				width: 1200px;
+				height: 630px;
+				overflow: hidden;
+				background: var(--color--surface);
+				color: var(--color--text);
+				font-family: var(--font--default);
+				-webkit-font-smoothing: antialiased;
+			}
+
+			/* A hairline all the way round, so the card never dissolves into a
+			   white feed. Same 1px the page uses to separate anything else. */
+			.card {
+				position: relative;
+				width: 1200px;
+				height: 630px;
+				display: grid;
+				grid-template-columns: 1fr 312px;
+				align-items: center;
+				gap: 56px;
+				padding: 0 96px 0 72px;
+				border: 1px solid var(--color--border);
+			}
+
+			/* ---- The copy ------------------------------------------------- */
+
+			.copy {
+				display: flex;
+				flex-direction: column;
+				gap: 32px;
+			}
+
+			.logo {
+				display: flex;
+				align-items: center;
+				gap: 13px;
+				line-height: 1;
+			}
+
+			.logo svg {
+				display: block;
+			}
+
+			.wordmark {
+				font-family: var(--font--title);
+				font-weight: 800;
+				font-size: 37px;
+				letter-spacing: -0.02em;
+				line-height: 1;
+				/* Optical: Nunito's baseline sits a touch high next to the mark. */
+				transform: translateY(1px);
+			}
+
+			h1 {
+				margin: 0;
+				max-width: 16ch;
+				font-family: var(--font--title);
+				font-weight: 800;
+				font-size: 60px;
+				line-height: 1.12;
+				letter-spacing: -0.02em;
+				text-wrap: balance;
+			}
+
+			.fine {
+				margin: 0;
+				max-width: 40ch;
+				font-size: 20px;
+				line-height: 1.5;
+				color: var(--color--text-shade);
+			}
+
+			/* ---- The device ----------------------------------------------- */
+
+			/* The hero's own device, sized so the whole of it — corners, shadow
+			   and the yellow send slab — lands inside the 630. */
+			.device {
+				zoom: 0.72;
+				width: 390px;
+				justify-self: center;
+			}
+
+			.phone {
+				width: 100%;
+				background: var(--color--surface);
+				border: 1px solid var(--color--border);
+				border-radius: var(--radius-phone);
+				box-shadow: var(--shadow-phone);
+				display: flex;
+				flex-direction: column;
+				overflow: hidden;
+				font-size: 16px;
+				line-height: 1.5;
+				text-align: left;
+			}
+
+			.status {
+				height: 50px;
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-end;
+				padding: 0 28px 6px;
+				font-family: var(--font--title);
+				font-size: 15px;
+				font-weight: 700;
+				flex: 0 0 auto;
+			}
+
+			.glyphs {
+				display: flex;
+				gap: 6px;
+				align-items: center;
+			}
+
+			.signal {
+				width: 16px;
+				height: 9px;
+				background: currentColor;
+				border-radius: 2px;
+				display: block;
+			}
+
+			.battery {
+				width: 24px;
+				height: 11px;
+				border: 1.5px solid currentColor;
+				border-radius: 3px;
+				display: block;
+			}
+
+			.chat {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.top {
+				display: flex;
+				align-items: center;
+				gap: 12px;
+				padding: 6px 16px 12px;
+				border-bottom: 1px solid var(--color--border);
+				flex: 0 0 auto;
+			}
+
+			.icon {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex: 0 0 auto;
+			}
+
+			.back {
+				width: 34px;
+				height: 34px;
+			}
+
+			.more {
+				width: 36px;
+				height: 36px;
+			}
+
+			.avatar {
+				position: relative;
+				width: 40px;
+				height: 40px;
+				flex: 0 0 auto;
+			}
+
+			.avatar img {
+				width: 100%;
+				height: 100%;
+				border-radius: var(--radius-pill);
+				object-fit: cover;
+				display: block;
+				background: var(--color--muted);
+			}
+
+			.online {
+				position: absolute;
+				right: -1px;
+				bottom: -1px;
+				width: 10px;
+				height: 10px;
+				border-radius: var(--radius-pill);
+				background: var(--color--success);
+				box-shadow: 0 0 0 2px var(--color--surface);
+			}
+
+			.who {
+				flex: 1;
+				min-width: 0;
+				display: flex;
+				flex-direction: column;
+			}
+
+			.name {
+				font-family: var(--font--title);
+				font-size: 17px;
+				font-weight: 800;
+			}
+
+			.status-line {
+				font-size: 13px;
+				color: var(--color--success);
+			}
+
+			.thread {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				padding: 16px 16px 8px;
+			}
+
+			.day {
+				text-align: center;
+				font-size: 12px;
+				font-weight: 600;
+				color: var(--color--text-tertiary);
+				padding: 4px 0 10px;
+			}
+
+			.msg {
+				max-width: 78%;
+				display: flex;
+				flex-direction: column;
+				gap: 6px;
+			}
+
+			.bubble {
+				padding: 13px 16px;
+				font-size: 16px;
+				line-height: 1.45;
+				text-wrap: pretty;
+			}
+
+			.them {
+				align-self: flex-start;
+				align-items: flex-start;
+			}
+
+			.them .bubble {
+				background: var(--color--muted);
+				border-radius: var(--radius-bubble) var(--radius-bubble) var(--radius-bubble) 6px;
+			}
+
+			.mine {
+				align-self: flex-end;
+				align-items: flex-end;
+			}
+
+			.mine .bubble {
+				background: var(--color--accent-tint);
+				border-radius: var(--radius-bubble) var(--radius-bubble) 6px var(--radius-bubble);
+				text-align: left;
+			}
+
+			/* The translation sits under the bubble in blue, never inside it. */
+			.translation {
+				display: flex;
+				align-items: flex-start;
+				gap: 8px;
+				padding: 0 6px;
+				font-size: 14px;
+				line-height: 1.4;
+				color: var(--color--accent);
+			}
+
+			.translation svg {
+				margin-top: 3px;
+				flex: 0 0 auto;
+			}
+
+			.meta {
+				font-size: 11px;
+				color: var(--color--text-tertiary);
+			}
+
+			.correction {
+				align-self: stretch;
+				display: flex;
+				flex-direction: column;
+				gap: 6px;
+				background: var(--color--success-tint);
+				border-radius: var(--radius-lg);
+				padding: 14px 16px;
+			}
+
+			.correction .from {
+				font-size: 12px;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.04em;
+				color: var(--color--success);
+			}
+
+			.correction .was {
+				font-size: 15px;
+				line-height: 1.45;
+				color: var(--color--text-shade);
+				text-decoration: line-through;
+			}
+
+			.correction .now {
+				font-size: 16px;
+				line-height: 1.45;
+				font-weight: 600;
+			}
+
+			.correction .note {
+				font-size: 14px;
+				line-height: 1.45;
+				color: var(--color--text-shade);
+				border-top: 1px solid rgba(0, 159, 112, 0.2);
+				padding-top: 8px;
+				margin-top: 2px;
+			}
+
+			.correction .time {
+				align-self: flex-end;
+				font-size: 11px;
+				color: var(--color--text-tertiary);
+			}
+
+			.compose {
+				display: flex;
+				align-items: flex-end;
+				gap: 8px;
+				border-top: 1px solid var(--color--border);
+				padding: 10px 16px 28px;
+				flex: 0 0 auto;
+				margin-top: auto;
+			}
+
+			.plus {
+				width: 44px;
+				height: 48px;
+				color: var(--color--text-shade);
+			}
+
+			.field {
+				flex: 1;
+				min-height: 48px;
+				display: flex;
+				align-items: center;
+				background: var(--color--muted);
+				border-radius: 24px;
+				padding: 13px 18px;
+				font-size: 16px;
+				line-height: 1.4;
+				color: var(--color--text-tertiary);
+			}
+
+			/* The one yellow, and the only control with the app's hard ledge. */
+			.send {
+				width: 48px;
+				height: 48px;
+				background: var(--color--primary);
+				color: var(--color--on-primary);
+				border-radius: 14px;
+				box-shadow: 0 3px 0 var(--color--primary-shade);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="copy">
+				<div class="logo">
+					<svg viewBox="0 0 14.6 21.544" width="22" height="32" aria-hidden="true">
+						<path
+							fill="var(--color--primary)"
+							d="m0 14.076 1.715-1.188s2.307 3.177 5.641 1.188a4.088 4.088 0 0 0 1.656-1.875 4.757 4.757 0 0 0-.311-3.842l1.817-1.115s2.745 4.625-1.305 8.207a6.717 6.717 0 0 1-5.509 1.239A6.3 6.3 0 0 1 0 14.076Z"
+						/>
+						<path
+							fill="currentColor"
+							d="m14.539 4.475-1.712 1.2s-2.252-3.189-5.588-1.2A4.123 4.123 0 0 0 5.618 6.41a4.751 4.751 0 0 0 .221 3.783l-1.654 1.145S1.319 6.776 5.369 3.193a6.685 6.685 0 0 1 5.47-1.316 6.3 6.3 0 0 1 3.7 2.598Z"
+						/>
+					</svg>
+					<span class="wordmark">LangX</span>
+				</div>
+
+				<h1>The friendly way to practise a language with real people</h1>
+
+				<p class="fine">
+					Chat with someone who speaks your target language and is learning yours. Free, open
+					source, no ads.
+				</p>
+			</div>
+
+			<div class="device">
+				<div class="phone">
+					<div class="status">
+						<span>9:41</span>
+						<span class="glyphs"><span class="signal"></span><span class="battery"></span></span>
+					</div>
+
+					<div class="chat">
+						<header class="top">
+							<span class="icon back">
+								<svg
+									width="22"
+									height="22"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M19 12H6M11 6l-6 6 6 6" />
+								</svg>
+							</span>
+							<span class="avatar">
+								<img src="../../static/images/people/lucia.webp" alt="" />
+								<span class="online"></span>
+							</span>
+							<span class="who">
+								<span class="name">Lucía M.</span>
+								<span class="status-line">Online</span>
+							</span>
+							<span class="icon more">
+								<svg
+									width="22"
+									height="22"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M12 5.5v.01M12 12v.01M12 18.5v.01" />
+								</svg>
+							</span>
+						</header>
+
+						<div class="thread">
+							<div class="day">Today</div>
+
+							<div class="msg them">
+								<span class="bubble"
+									>¿Cómo fue tu fin de semana? Cuéntame en inglés si quieres.</span
+								>
+								<span class="translation">
+									<svg
+										width="14"
+										height="14"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path d="M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6" />
+									</svg>
+									How was your weekend? Tell me in English if you like.
+								</span>
+								<span class="meta">09:12</span>
+							</div>
+
+							<div class="msg mine">
+								<span class="bubble"
+									>Fui a la playa con mi hermana. Hacía mucho calor y yo no llevé agua.</span
+								>
+								<span class="meta">09:14 · Read</span>
+							</div>
+
+							<div class="correction">
+								<span class="from">Correction from Lucía</span>
+								<span class="was">Hacía mucho calor y yo no llevé agua.</span>
+								<span class="now">Hacía mucho calor y no llevé agua.</span>
+								<span class="note">
+									The «yo» isn't wrong, it just sounds emphatic — like you specifically forgot.
+								</span>
+								<span class="time">09:15</span>
+							</div>
+						</div>
+
+						<div class="compose">
+							<span class="icon plus">
+								<svg
+									width="22"
+									height="22"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M12 5v14M5 12h14" />
+								</svg>
+							</span>
+							<span class="field">Message in Spanish…</span>
+							<span class="icon send">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M21 3 10 14M21 3l-7 18-4-7-7-4z" />
+								</svg>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
