@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 8, Sep 2026*
+	*Effective Date: 13, Sep 2026*
 
 	1. Introduction
 
@@ -52,13 +52,13 @@
 
 		What reaches it is the name of the screen you are on, a short list of events — a message sent, onboarding finished, the paywall shown, a purchase started and finished — and your LangX user id. Nothing else. The list of events is fixed in the code as a closed type, and the keys that would carry personal content (a message body, an email address, a display name, a handle) are refused when the app is built rather than filtered afterwards.
 
-		Three settings make the rest of the answer, and each is set in the app's source:
+		Since September 2026 the app also records the screen, on iOS and Android. What is recorded is a wireframe rather than a picture of your phone: every piece of text and every image is replaced by a grey block on the device, before a frame leaves it, so a conversation is a column of grey blocks and a profile is a grey block where the photo was. What survives is the layout, the timing and where the taps went — which is what shows us where people get stuck, and is the whole reason the recording exists. The app's own log output and the addresses it requests are excluded as well, because no masking ever sees either. An earlier version of this policy said no recording was made; that was true when it was written and is the reason this paragraph is here rather than a line in a list.
 
-		- **No session recording.** Screen replay is switched off. Nobody watches a recording of you using the app, because none is made.
+		Two more settings make the rest of the answer, and each is set in the app's source:
 		- **No location from analytics.** PostHog is told not to turn the connection's IP address into a country, so analytics adds nothing to what section 3 describes.
 		- **The identifier is ours.** You are identified by your LangX user id and nothing else — no email address, no name. That is also what lets a deleted account's events be found and deleted with it.
 
-		It is on by default and it is optional: **Settings → Privacy → Share usage data** turns it off, and a refusal made before signing in is honoured.
+		It is on by default and it is optional: **Settings → Privacy → Share usage data** turns it off — the events and the recording together, without waiting for a restart — and a refusal made before signing in is honoured.
 
 		**The website is a second, smaller answer.** Until September 2026 the line here said langx.io had no analytics at all; it now has some, and this paragraph went in with the change rather than after it. langx.io and token.langx.io send page views, a click on a link that leaves for the app, and a completed newsletter sign-up to the same PostHog, on the same European cloud — in cookieless mode, which writes no cookie and no browser storage whatsoever and counts a visitor with a hash PostHog derives from a daily salt it then discards. There is no account to attach it to and no attempt to make one: no person record is created, nothing is identified, and a visitor today cannot be recognised as the same one tomorrow. That is a deliberate limit and not an oversight. From langx.io those requests go to langx.io itself and are forwarded to PostHog from there, rather than being made to PostHog directly by your browser — which changes who your browser connects to and nothing about what is sent; the [cookie policy](/cookie-policy) describes the forwarding in section 3.4.
 
@@ -79,7 +79,7 @@
 		Stating this precisely is what makes the rest of the policy credible.
 
 		- **No precise location.** See section 3: the app asks for the coarsest reading your device will give and rounds it before storing it. A street-level position is never collected.
-		- **No session recording, anywhere.** The app and the website both send usage analytics — section 2.4 says exactly what, and how to turn the app's off — but nothing records your screen, and neither of the website's two writes a cookie or any browser storage at all.
+		- **Nothing readable in a screen recording.** The app does record the screen — section 2.4 says why, and how to turn it off — but every word and every image is masked on the device before a frame is sent, so what exists is a wireframe and not your conversations, your photos or your profile. The website is not recorded at all: the recorder is a native component and there is none in a browser, and neither of the website's two analytics writes a cookie or any browser storage.
 		- **No advertising identifiers.** No IDFA, no Android advertising ID, no ad network, and nothing is sold or passed to a data broker.
 		- **No tracking across other apps or websites.**
 		- **No contacts, no calendar, no photos beyond the ones you choose to upload, no microphone access outside recording a voice message you send, no health data.**
@@ -105,7 +105,7 @@
 		- **Expo's push service**, and through it Apple's and Google's push infrastructure — your push token and the text of the notification. A new-message notification includes the beginning of the message, because that is what makes it useful; if you would rather it did not, turn notifications off.
 		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos, videos and voice messages, to host them.
 		- **Sentry**, our error reporting service — the details of a server error, with your user id attached so we can tell whether a fault affected one account or everybody. It is configured never to send request bodies, cookies or authentication headers, so message contents and session tokens do not reach it.
-		- **PostHog**, our analytics provider, on its European cloud — the screen names, events and user id described in section 2.4, and from the website the page views and two events described in the same section. It processes them for us and for nothing of its own, and you can switch the app's off in Settings.
+		- **PostHog**, our analytics provider, on its European cloud — the screen names, events, user id and masked screen recordings described in section 2.4, and from the website the page views and two events described in the same section. It processes them for us and for nothing of its own, and you can switch the app's off in Settings.
 		- **Google and Apple**, if you choose to sign in with them — they tell us your email address and name; we tell them nothing about what you do in LangX.
 
 		Our servers run on **Fly.io** in Frankfurt, our database is **MongoDB Atlas**, and langx.io is served through **Cloudflare**, which also measures the traffic it delivers as described in section 2.4. These providers host and deliver the service and do not use your data for any purpose of their own.
@@ -152,7 +152,7 @@
 
 		10.5 Usage analytics
 
-		**Settings → Privacy → Share usage data** turns off the analytics described in section 2.4. Switching it off stops the app sending anything further and discards the identifier it was using. A refusal made before you sign in is honoured.
+		**Settings → Privacy → Share usage data** turns off the analytics described in section 2.4, the screen recording included. Switching it off stops the app sending anything further and discards the identifier it was using. A refusal made before you sign in is honoured.
 
 		10.6 Notifications and email
 

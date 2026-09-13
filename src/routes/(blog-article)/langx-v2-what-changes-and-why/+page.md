@@ -78,6 +78,14 @@ stays open source under BSD-3, and you can host your own instance.
 > [privacy policy](/privacy-policy) describes it in full. There are still no
 > ads and no advertising identifiers.
 
+> **Note added 13 September 2026.** Half of the note above has gone the same
+> way, and is left standing for the same reason. The app does now record the
+> screen on iOS and Android — masked on the device, every word and every image
+> replaced by a grey block before a frame is sent, so the recording is a
+> wireframe and not a picture of your phone. The same switch turns it off, and
+> section 2.4 of the [privacy policy](/privacy-policy) says what is in one.
+> This website is not recorded.
+
 The full comparison is on the [plans page](/pro).
 
 ## The second: LangX Token is not what the litepaper described
