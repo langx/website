@@ -26,8 +26,9 @@ import { browser } from '$app/environment';
  *    here.
  *  - `person_profiles: 'never'` — no person record is created and `identify()`
  *    is a no-op. This site has no accounts; identity lives in the app.
- *  - `disable_session_recording: true` — no recordings, the same answer the app
- *    gives.
+ *  - `disable_session_recording: true` — no recordings. The app stopped giving
+ *    this answer in September 2026 and now records its screens masked; this
+ *    site is read rather than used, so there is no funnel here to watch.
  *  - `autocapture: false` — clicks are not swept up wholesale. What is sent is
  *    the page you are on plus the closed list of events in `SiteEvent` below,
  *    which is the only reason a page like `/privacy-policy` can describe this
