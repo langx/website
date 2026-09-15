@@ -17,7 +17,7 @@ export const tokenEarning = [
 export const tokenCaps = [
 	'Up to 200 tokens a day from messages.',
 	'At most 60 of those from any one person, so it takes four partners to reach the ceiling and talking to one all day is not a strategy.',
-	'A shared daily pool of 10,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it.'
+	'A shared daily pool of 5,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it — 250 tokens.'
 ];
 
 export const streakMilestones = [
