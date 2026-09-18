@@ -42,6 +42,10 @@ export const plans: Plan[] = [
 			{ label: '5 new conversations a day' },
 			{ label: '20 translations a day' },
 			{
+				label: '15 chat messages read aloud a day',
+				note: 'Hold any message to hear it said, in a voice that runs on our own machines rather than somebody’s meter.'
+			},
+			{
 				label: '10 Echo cards read aloud a day',
 				note: 'A synthetic voice for a card nobody has recorded yet. A pack’s readings are already there and cost nothing.'
 			},
@@ -60,6 +64,7 @@ export const plans: Plan[] = [
 				label: '300 translations a day',
 				note: 'Far more than a conversation uses. Translation is the one feature with a real per-request cost, so it has a number rather than a promise.'
 			},
+			{ label: '100 chat messages read aloud a day' },
 			{ label: '50 Echo cards read aloud a day' },
 			{ label: '2 languages you are learning, 2 you speak natively' },
 			{ label: '10 photos on your profile' },
@@ -82,6 +87,7 @@ export const plans: Plan[] = [
 				note: 'Reading a translation is free on every plan. This is the other direction — your own message goes with a translation under it.'
 			},
 			{ label: '1000 translations a day' },
+			{ label: '250 chat messages read aloud a day' },
 			{ label: '100 Echo cards read aloud a day' },
 			{ label: '5 languages you are learning, 5 you speak natively' },
 			{
