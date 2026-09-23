@@ -90,7 +90,9 @@ def main() -> int:
     per_page = {}
     per_lang: dict[str, set] = {}
     for word, slug in pages:
-        clips = [(code, term) for code, term, _rank, _gloss in index.get(word, []) if voice_for(code)]
+        # Rows are [code, word, rank, gloss, ...] — the IPA came in as a fifth
+        # column, and anything after the word is none of this script's business.
+        clips = [(row[0], row[1]) for row in index.get(word, []) if voice_for(row[0])]
         per_page[slug] = clips
         for code, term in clips:
             per_lang.setdefault(code, set()).add(term)
