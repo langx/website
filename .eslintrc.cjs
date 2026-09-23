@@ -34,7 +34,9 @@ module.exports = {
 				'**/tools/say/*/+page.svelte',
 				'**/tools/vocabulary-test/*/+page.svelte',
 				'**/tools/similar/*/+page.svelte',
-				'**/tools/alphabet/*/+page.svelte'
+				'**/tools/alphabet/*/+page.svelte',
+				'**/tools/word-game/*/+page.svelte',
+				'**/tools/meaning-quiz/*/+page.svelte'
 			],
 			rules: { 'svelte/no-at-html-tags': 'off' }
 		},
