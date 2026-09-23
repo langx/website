@@ -23,8 +23,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # The word readings behind every speaker button outside /tools/say —
-      # three hundred-odd megabytes of MP3 that are kept out of git and
+      # The word and example-sentence readings behind every speaker button
+      # outside /tools/say (static/audio/w and x) — some four hundred
+      # megabytes of MP3 that are kept out of git and
       # published as a release asset instead; see
       # scripts/wordlists/build-word-audio.py and word-audio.sh. The tag is
       # pinned here, so a new set of readings goes live by changing this line
@@ -33,13 +34,14 @@ jobs:
       - name: Unpack word audio
         env:
           GH_TOKEN: ${{ github.token }}
-          WORD_AUDIO_RELEASE: word-audio-2026-09-23c
+          WORD_AUDIO_RELEASE: word-audio-2026-09-23d
         run: |
           set -o pipefail
-          mkdir -p static/audio/w
+          mkdir -p static/audio
           gh release download "$WORD_AUDIO_RELEASE" --repo "$GITHUB_REPOSITORY" \
-            --pattern word-audio.tar --output - | tar -x -C static/audio/w
+            --pattern word-audio.tar --output - | tar -x -C static/audio
           test -f static/audio/w/en/index.json
+          test -f static/audio/x/en/index.json
 
       - name: build
         env:

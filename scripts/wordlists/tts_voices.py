@@ -56,10 +56,15 @@ TRIES = 3
 # twenty-two, where three more plain tries managed four. Only words the plain
 # reading failed ever get here, so nothing already cached changes. Past the
 # last way the row goes without a button.
+def ended(text: str) -> str:
+    """The text with a full stop, unless it already ends a sentence."""
+    return text if text[-1:] in ".!?…。" else text + "."
+
+
 ASKS = [
     (lambda w: w, None),
-    (lambda w: w + ".", None),
-    (lambda w: w[:1].upper() + w[1:] + ".", 0.333),
+    (ended, None),
+    (lambda w: ended(w[:1].upper() + w[1:]), 0.333),
 ]
 
 # The first voice `SPEECH_VOICES` lists for each of Kokoro's six: the one chat
