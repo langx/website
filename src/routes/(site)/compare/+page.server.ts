@@ -13,7 +13,10 @@ const isComparison = (slug: string) =>
 	slug.startsWith('social-') ||
 	slug.startsWith('best-language-exchange-apps') ||
 	slug.startsWith('best-apps-to-practice-') ||
-	slug === 'free-language-exchange-apps';
+	slug === 'free-language-exchange-apps' ||
+	slug === 'best-language-learning-apps' ||
+	slug === 'free-language-learning-apps' ||
+	slug === 'can-you-become-fluent-with-duolingo';
 
 export async function load() {
 	const posts = filteredPosts.filter((p) => isComparison(p.slug));

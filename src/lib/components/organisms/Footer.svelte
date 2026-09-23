@@ -56,6 +56,7 @@
 			links: [
 				{ label: 'Best language exchange apps', href: '/best-language-exchange-apps' },
 				{ label: 'Free language exchange apps', href: '/free-language-exchange-apps' },
+				{ label: 'Best language learning apps', href: '/best-language-learning-apps' },
 				{ label: 'What is a language exchange?', href: '/what-is-a-language-exchange' },
 				{ label: 'Find a partner', href: '/how-to-find-a-language-exchange-partner' },
 				{ label: 'Conversation topics', href: '/language-exchange-conversation-topics' },
