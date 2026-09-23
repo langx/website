@@ -6,6 +6,7 @@
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import type { Alphabet } from '$lib/data/alphabets';
+	import { alphabetGuide } from '$lib/data/alphabet-guides';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
 	export let data: {
@@ -21,23 +22,7 @@
 	$: count = alphabet.groups.reduce((n, g) => n + g.letters.length, 0);
 	$: title = `The ${lang.name} alphabet`;
 
-	// Languages with a long-form beginner's guide on the blog, by list slug.
-	const GUIDES = new Set([
-		'arabic',
-		'armenian',
-		'bengali',
-		'bulgarian',
-		'georgian',
-		'greek',
-		'hebrew',
-		'hindi',
-		'korean',
-		'malayalam',
-		'persian',
-		'russian',
-		'ukrainian'
-	]);
-	$: guide = GUIDES.has(lang.slug) ? `/${lang.slug}-alphabet-guide` : null;
+	$: guide = alphabetGuide(lang.slug);
 
 	const KIND: Record<string, string> = {
 		alphabet: 'An alphabet: vowels and consonants are letters of equal standing.',

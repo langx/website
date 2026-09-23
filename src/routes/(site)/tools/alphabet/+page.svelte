@@ -4,12 +4,18 @@
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ALPHABETS } from '$lib/data/alphabets';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
+	import { alphabetGuide } from '$lib/data/alphabet-guides';
 
 	const rows = ALPHABETS.map((a) => ({
 		a,
 		lang: WORD_LISTS.find((l) => l.code === a.code),
 		count: a.groups.reduce((n, g) => n + g.letters.length, 0)
 	})).filter((r) => r.lang);
+
+	const guides = rows
+		.map((r) => ({ name: r.lang?.name ?? '', href: alphabetGuide(r.lang?.slug) }))
+		.filter((g) => g.href)
+		.sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
 <Seo
@@ -37,6 +43,18 @@
 			</li>
 		{/each}
 	</ul>
+
+	{#if guides.length}
+		<section class="guides">
+			<h2>Beginner's guides</h2>
+			<p>How each script works, the letters that trip people up, and a plan to learn it.</p>
+			<ul role="list">
+				{#each guides as g}
+					<li><a href={g.href}>The {g.name} alphabet</a></li>
+				{/each}
+			</ul>
+		</section>
+	{/if}
 
 	<p class="note">
 		Chinese is missing on purpose: it has no alphabet, and a list of letters is the wrong shape for
@@ -86,6 +104,38 @@
 		}
 		.rows a {
 			grid-template-columns: auto 1fr auto;
+		}
+	}
+
+	.guides {
+		margin-top: var(--space-xl);
+
+		h2 {
+			margin-bottom: 4px;
+		}
+
+		p {
+			color: var(--color--text-shade);
+			margin-bottom: var(--space-sm);
+		}
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		a {
+			display: inline-block;
+			padding: 6px 14px;
+			border-radius: var(--radius-pill);
+			background: var(--color--muted);
+			font-weight: 700;
+			font-size: 0.9375rem;
+			color: var(--color--text);
 		}
 	}
 
