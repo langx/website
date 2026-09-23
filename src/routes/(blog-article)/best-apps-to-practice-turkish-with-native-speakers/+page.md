@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Turkish with native speakers are **HelloTalk** and **Tandem**, the two largest exchange communities, where Turkish speakers learning English or German are easy to find. **LangX** suits learners who want every message open to correction and no ads, and **italki** or **Preply** give you a paid tutor on video. For structure between conversations, the Yunus Emre Institute's free online **Turkish course** is hard to beat.
 
 Turkish is built differently from English. Words grow by adding suffixes one after another, the vowels in those suffixes change to match the word, and the verb comes at the end of the sentence. None of it is hard once it clicks, but it clicks faster when a native speaker corrects *evlerde* into *evlerimizde* in your own sentence than when you read the rule.
+
+<KeyTakeaways items={[
+  "HelloTalk and Tandem are the two largest exchange communities, where Turkish speakers learning English or German are easy to find.",
+  "LangX: every message open to correction, and no ads.",
+  "italki or Preply for a paid tutor; the Yunus Emre Institute's free online course for structure.",
+  "Vowel harmony, suffixes and verb-last order are exactly the mistakes a partner can fix line by line.",
+  "Speak and Praktika do not teach Turkish at the time of writing, so practice speaking with people."
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -73,6 +85,18 @@ Features change often, so check each store listing before committing. We do not 
 
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The biggest exchange community, and Turkish speakers are active on it",
+    "Moments: corrections from several native speakers on the long words you build",
+    "Live group audio in Voicerooms"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation and some tools; VIP removes them"
+  ]}
+/>
+
 ### Tandem
 
 [Tandem](https://tandem.net) reviews new members and focuses on one-to-one conversations with text, voice messages and calls. For Turkish, a single patient partner who knows your recurring suffix mistakes is worth more than many short chats.
@@ -82,12 +106,31 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members and focuses on one-to-one conversations",
+    "One patient partner who knows your recurring suffix mistakes",
+    "Filter for a partner in a specific country"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Turkish as the language you are learning and you see Turkish speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters when a single Turkish word can carry three suffixes and each one can be wrong. Translation is inside the chat (20 a day on Free).
 
 - **Best for:** careful written practice where fixing suffixes is the point, with no ads.
 - **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan, which matters when a single Turkish word can carry three suffixes. Translation is inside the chat."
+/>
 
 ### Conversation Exchange
 
@@ -125,6 +168,17 @@ Build your first message only from phrases you are certain of. Short, correct se
 > Merhaba, nasılsın? Benim adım Sam. Kanadalıyım. Türkçe öğreniyorum. Sen İngilizce öğreniyorsun, değil mi? Birlikte pratik yapalım mı? İngilizcene yardım edebilirim. Hatalarımı düzeltir misin?
 
 In English: "Hello, how are you? My name is Sam. I'm Canadian. I'm learning Turkish. You're learning English, right? Shall we practice together? I can help with your English. Would you correct my mistakes?" Every sentence is short enough to be sure of, and the harmony is at work throughout: *Kanadalı-yım* takes *ı* to match *a*, and *düzeltir misin* takes *i* to match *e*. When your partner replies, ask how they would say the same thing more naturally, and you have your first correction.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello", text: "Merhaba, nasılsın?" },
+    { title: "Introduce yourself", text: "Benim adım Sam. Kanadalıyım." },
+    { title: "Say what you're learning, and what they are", text: "Türkçe öğreniyorum. Sen İngilizce öğreniyorsun, değil mi?" },
+    { title: "Suggest an exchange and offer help", text: "Birlikte pratik yapalım mı? İngilizcene yardım edebilirim." },
+    { title: "Ask for corrections", text: "Hatalarımı düzeltir misin?" }
+  ]}
+/>
 
 Three more phrases you will use every week:
 

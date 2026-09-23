@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice French with native speakers are **HelloTalk** and **Tandem** for the biggest pool of French-speaking partners, **LangX** if you want every message open to correction and no ads, **Conversation Exchange** for meeting someone in Paris, Montreal or your own city, and **italki** or **Preply** for a paid tutor on video. Add a free listening source such as **TV5MONDE EDU** or **Dreaming**, because with French, understanding fast speech is half the battle.
 
 French has a big gap between textbook French and the French people actually speak. A native speaker closes that gap faster than any course, as long as you pick the right kind of practice and the right kind of French.
+
+<KeyTakeaways items={[
+  "HelloTalk and Tandem have the biggest pool of French-speaking partners.",
+  "LangX: every message open to correction, and no ads.",
+  "Conversation Exchange for meeting in person; italki or Preply for a paid tutor on video.",
+  "Add free listening like TV5MONDE EDU or Dreaming: understanding fast speech is half the battle.",
+  "Tu is normal between exchange partners of similar age; if unsure, ask \"On se tutoie ?\""
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -72,6 +84,19 @@ Features change often, so check each store listing before committing. We do not 
 - **Best for:** finding partners quickly and seeing several corrections of the same sentence.
 - **Keep in mind:** the free tier has ads and daily caps on translation and some tools; VIP removes them. Popular French profiles get many messages, so a specific opener helps.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The largest exchange community, so French speakers are easy to find",
+    "Moments: native speakers correct your genders, agreements and tenses",
+    "See several corrections of the same sentence"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation and some tools; VIP removes them",
+    "Popular French profiles get many messages, so you need a specific opener"
+  ]}
+/>
+
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 ### Tandem
@@ -83,12 +108,31 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members; built around one-to-one text, voice messages and calls",
+    "Filter by country to find a partner in Quebec, Belgium or Switzerland",
+    "Good for a regular weekly call with one French partner"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set French as the language you are learning and you see French speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which helps in a language where one sentence can hide a gender, an agreement and an accent mistake at once. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken, useful when the spelling gives little away.
 
 - **Best for:** written practice where fixing mistakes is the point, with no ads.
 - **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Translation is inside the chat, and read-aloud lets you hear a message spoken."
+/>
 
 ### Conversation Exchange
 
@@ -128,6 +172,16 @@ Keep it short, friendly and specific to their profile.
 > Bonjour Camille ! Je m'appelle Sam et je viens du Canada. J'apprends le français et j'ai vu que tu apprends l'anglais. Je t'aide en anglais et tu corriges mon français ?
 
 In English: "Hello Camille! My name is Sam and I'm from Canada. I'm learning French and I saw you're learning English. I help you with English and you correct my French?" (The space before "!" and "?" is French typography as used in France; Quebec usually leaves it out.)
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello and introduce yourself", text: "Bonjour Camille ! Je m'appelle Sam et je viens du Canada." },
+    { title: "Say what you're learning", text: "J'apprends le français" },
+    { title: "Show you read their profile", text: "et j'ai vu que tu apprends l'anglais." },
+    { title: "Offer help and ask for corrections", text: "Je t'aide en anglais et tu corriges mon français ?" }
+  ]}
+/>
 
 Three more phrases you will use every week:
 

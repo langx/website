@@ -12,8 +12,8 @@
 			<li>
 				<span class="n" aria-hidden="true">{s.label ?? i + 1}</span>
 				<div>
-					<p class="t">{s.title}</p>
-					{#if s.text}<p class="x">{s.text}</p>{/if}
+					<p class="t" dir="auto">{s.title}</p>
+					{#if s.text}<p class="x" dir="auto">{s.text}</p>{/if}
 				</div>
 			</li>
 		{/each}

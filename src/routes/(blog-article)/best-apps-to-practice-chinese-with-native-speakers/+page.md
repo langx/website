@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best app to practice Mandarin Chinese with native speakers is usually **HelloTalk**, which is based in Shenzhen and has a very large Chinese-speaking community. **Tandem** is good for a steady one-to-one partner, **LangX** for corrections on every message with no ads, and **italki** for a paid Chinese teacher. Between conversations, keep **Pleco** open as your dictionary and use **HelloChinese** if you want a structured course with pronunciation feedback.
 
 Chinese asks different things of a language exchange than European languages do. You need to hear tones, not just read words; you have to choose between simplified and traditional characters; and at the start you depend on pinyin to read anything at all. The apps below are chosen with that in mind.
+
+<KeyTakeaways items={[
+  "HelloTalk, based in Shenzhen, is usually the easiest place to find Mandarin speakers.",
+  "Tandem for a steady one-to-one partner; LangX for corrections on every message with no ads; italki for a paid teacher.",
+  "Keep Pleco open as your dictionary, and use HelloChinese for a structured course.",
+  "Mandarin is tonal: voice messages, calls or read-aloud matter more than for European languages.",
+  "Choose simplified or traditional characters, and write \"Mandarin\" in your profile."
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -67,6 +79,19 @@ Features change often, so check each store listing before committing. We do not 
 - **Best for:** finding partners quickly. Transliteration and translation inside the chat help with characters you cannot read yet, and **Moments** lets several native speakers correct a short post.
 - **Keep in mind:** the free tier has ads and caps on translation and other extras; VIP removes them. With so many learners writing to Chinese speakers, a specific opener helps.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "Founded in Shenzhen; the most practical place to find Mandarin speakers learning English",
+    "Transliteration and translation inside the chat help with characters you cannot read yet",
+    "Moments: several native speakers correct a short post"
+  ]}
+  cons={[
+    "Free tier has ads and caps on translation and other extras; VIP removes them",
+    "Many learners write to Chinese speakers, so you need a specific opener"
+  ]}
+/>
+
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 ### Tandem
@@ -78,12 +103,31 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members; built around one-to-one text, voice messages and calls",
+    "Country filter for a partner in Taiwan or Singapore",
+    "Good for a regular weekly call with one Mandarin partner"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Chinese as the language you are learning and you see Chinese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, so a wrong character or a missing measure word can be fixed right where you wrote it. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful when you cannot yet sound out the characters.
 
 - **Best for:** careful written practice with corrections, and no ads.
 - **Keep in mind:** the community is much smaller than HelloTalk's, so finding Chinese partners can take longer. There are **no live calls**, only text, voice, photo and video messages; voice messages are how you practice tones. Free allows 5 new conversations a day, with unlimited replies. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan, so a wrong character can be fixed right where you wrote it. Read-aloud lets you hear any message spoken."
+/>
 
 A practical note: Google Play is not available in mainland China, and many partners there use Chinese apps such as WeChat day to day. If a partner suggests moving your chat to another app, it is fine to stay where you are until you know them.
 
@@ -119,6 +163,17 @@ Keep it short and simple. Here it is in simplified characters, with pinyin:
 (Nǐ hǎo! Wǒ jiào Sam, wǒ shì Jiānádà rén. Wǒ zài xué Zhōngwén. Hěn gāoxìng rènshi nǐ!)
 
 In English: "Hello! My name is Sam, I'm Canadian. I'm learning Chinese. Nice to meet you!" In traditional characters, three words change: 学 becomes 學, 高兴 becomes 高興, and 认识 becomes 認識.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello", text: "你好！ (Nǐ hǎo!)" },
+    { title: "Introduce yourself", text: "我叫Sam，我是加拿大人。 (Wǒ jiào Sam, wǒ shì Jiānádà rén.)" },
+    { title: "Say what you're learning", text: "我在学中文。 (Wǒ zài xué Zhōngwén.)" },
+    { title: "Say it's nice to meet them", text: "很高兴认识你！ (Hěn gāoxìng rènshi nǐ!)" },
+    { title: "Offer help and ask for corrections", text: "It is fine to add a line in English saying what you can help with and asking them to correct your Chinese." }
+  ]}
+/>
 
 It is fine to add a line in English saying what you can help with and asking them to correct your Chinese. Then a few phrases you will use constantly:
 
