@@ -111,7 +111,7 @@ Some notes for English speakers:
 - **The puff of air is a real difference.** क (ka) and ख (kha) are two letters and can make two different words. Hold your hand in front of your mouth: you should feel air on kha and almost none on ka.
 - **The two t-rows are different.** ट and त are both named "ta", but one is said with the tongue curled back and the other with the tongue on the teeth. English *t* sits between them, which is why they are hard to hear at first.
 - **ङ and ञ rarely stand alone.** You'll mostly meet those sounds inside conjuncts or written with a dot (see below).
-- **ष is the traditional curled-back *sh*.** Our chart describes it that way; in everyday Hindi most speakers say it much like श.
+- **ष was traditionally a curled-back *sh*.** In everyday Hindi most speakers say it much like श, and our chart says so.
 
 ### Dots under letters: the nukta
 

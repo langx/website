@@ -37,7 +37,7 @@ This guide takes the letters, names and sounds from our free [Bulgarian alphabet
 
 <KeyTakeaways items={[
   "Bulgarian uses a 30-letter Cyrillic alphabet: 8 vowel letters, 21 consonants and the sign ь.",
-  "Six letters look like Latin ones but are not: В is v, Н is n, Р is r, С is s, У is u, Х is a throaty h.",
+  "Six letters look like Latin ones but are not: В is v, Н is n, Р is r, С is s, У is u, Х is the ch in loch.",
   "Unlike Russian, Bulgarian has no Ы, Э or Ё, Ъ is a real vowel, and Щ is said sht.",
   "Spelling is close to sound, but stress is not written, so learn each word with its stress.",
   "Read real words from the most common words list as soon as you know a dozen letters."
@@ -104,14 +104,14 @@ Here are the 21 consonants from our chart, plus the one sign. Bulgarian names ea
 | С с | sŭ | s |
 | Т т | tŭ | t |
 | Ф ф | fŭ | f |
-| Х х | hŭ | h (a throaty h) |
+| Х х | hŭ | ch in loch |
 | Ц ц | tsŭ | ts in cats |
 | Ч ч | chŭ | ch in chair |
 | Ш ш | shŭ | sh |
 | Щ щ | shtŭ | sht |
 | Ь ь | er malŭk | silent, softens |
 
-A note on Х: our chart gives it as *h*, which is close enough to read with. Strictly, it is the same sound as Russian х, like the *ch* in Scottish *loch*, made at the back of the mouth rather than a breathy English *h*.
+A note on Х: it is the same sound as Russian х, like the *ch* in Scottish *loch*, made at the back of the mouth rather than a breathy English *h*.
 
 ## Bulgarian vs Russian: what is different
 
@@ -159,7 +159,7 @@ The false friends:
 | Р р | P | r |
 | С с | C | s |
 | У у | y | oo in boot |
-| Х х | X | throaty h |
+| Х х | X | ch in Scottish loch |
 
 A few lowercase letters are traps of their own: п looks like an *n* but is *p*, и looks like a backwards *N* and is *ee*, and я looks like a backwards *R* and is *ya*.
 
@@ -235,7 +235,7 @@ Roughly like the *u* in *but*, or the vowel in the second syllable of *sofa*. It
 
 ### Which Bulgarian letters look like English letters?
 
-А, Е, К, М, О and Т look and sound much like their English twins. В, Н, Р, С, У and Х look like English letters but stand for v, n, r, s, oo and a throaty h.
+А, Е, К, М, О and Т look and sound much like their English twins. В, Н, Р, С, У and Х look like English letters but stand for v, n, r, s, oo and the ch in loch.
 
 ### How long does it take to learn the Bulgarian alphabet?
 
