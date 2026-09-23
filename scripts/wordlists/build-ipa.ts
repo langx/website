@@ -15,11 +15,11 @@
  *     stress where it belongs. The same dumps build.ts reads for meanings, but
  *     the gzipped per-language files: a tenth of the size, and the only part of
  *     them this needs is `sounds`.
- *   - eSpeak NG, or for Turkish rules of our own (ipa-turkish.ts), for the
- *     words Wiktionary has no transcription for — mostly inflected forms
- *     ("hablamos"), which Wiktionary files under their lemma.
- *     Its rules are good where the spelling is regular and its dictionaries
- *     cover the common irregulars, which is the whole of a frequency list.
+ *   - eSpeak NG, or for six languages rules of our own (ipa-turkish.ts,
+ *     ipa-rules.ts), for the words Wiktionary has no transcription for —
+ *     mostly inflected forms ("hablamos"), which Wiktionary files under their
+ *     lemma. Rules are good where the spelling is regular, and eSpeak's
+ *     dictionaries cover the common irregulars of a frequency list.
  *
  * Some languages get no eSpeak fallback at all: it has no voice for Galician or
  * Tagalog, and it cannot read unvowelled Arabic or Hebrew or tell which of a
@@ -36,6 +36,7 @@ import { createGunzip } from 'node:zlib';
 import path from 'node:path';
 import { WORDLIST_LANGUAGES, type WordlistLanguage } from './languages.ts';
 import { turkishIpa } from './ipa-turkish.ts';
+import { albanianIpa, estonianIpa, galicianIpa, georgianIpa, malayIpa } from './ipa-rules.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
 const DATA = path.join(ROOT, 'static/data/most-common-words');
@@ -52,8 +53,12 @@ interface Accent {
 	prefer?: string[];
 	/** A transcription must carry one of these tags to count at all. */
 	require?: string[];
-	/** Taken out of eSpeak's reading: what it marks, it marks in the wrong place. */
-	strip?: RegExp;
+	/**
+	 * Rewrites of eSpeak's reading into the notation Wiktionary uses for the
+	 * same sound — its German "ɜ" is everyone else's "ɐ" — or out of it, where
+	 * what it marks it marks in the wrong place.
+	 */
+	fix?: [RegExp, string][];
 	/**
 	 * Spelling rules of our own, used instead of eSpeak where they read the
 	 * language better. Held to the same test against Wiktionary.
@@ -73,18 +78,21 @@ const ACCENTS: Record<string, Accent> = {
 	cs: { espeak: 'cs' },
 	// Stød sits after the vowel; eSpeak writes it before, and a transcription
 	// without it is one plenty of dictionaries print.
-	da: { espeak: 'da', strip: /ʔ/g },
-	de: { espeak: 'de', prefer: ['Standard'] },
+	da: { espeak: 'da', fix: [[/ʔ/g, '']] },
+	// "-er" as a vowel: eSpeak writes it "ɜ", Wiktionary and Duden "ɐ".
+	de: { espeak: 'de', prefer: ['Standard'], fix: [[/ɜ/g, 'ɐ']] },
 	el: { espeak: 'el' },
 	en: { espeak: 'en-us', prefer: ['General-American', 'US'] },
 	eo: { espeak: 'eo' },
 	es: { espeak: 'es-419', prefer: ['Latin-America'] },
-	et: { espeak: 'et' },
+	// eSpeak writes Estonian "õ" as "ɵ" and doubles long vowels; the rules in
+	// ipa-rules.ts read it as Wiktionary does.
+	et: { espeak: 'et', rules: estonianIpa },
 	eu: { espeak: 'eu' },
 	fa: { espeak: 'fa', prefer: ['Iranian-Persian', 'Iran'] },
 	fi: { espeak: 'fi' },
 	fr: { espeak: 'fr-fr', prefer: ['France'] },
-	gl: { espeak: null },
+	gl: { espeak: null, rules: galicianIpa },
 	he: { espeak: null, prefer: ['Modern-Israeli-Hebrew'] },
 	hi: { espeak: 'hi' },
 	hr: { espeak: 'sr' },
@@ -93,26 +101,47 @@ const ACCENTS: Record<string, Accent> = {
 	id: { espeak: 'id' },
 	is: { espeak: 'is' },
 	it: { espeak: 'it' },
-	ka: { espeak: 'ka' },
+	ka: { espeak: 'ka', rules: georgianIpa },
 	kk: { espeak: 'kk' },
 	ko: { espeak: 'ko', prefer: ['Seoul'] },
 	lt: { espeak: 'lt' },
 	lv: { espeak: 'lv' },
 	mk: { espeak: 'mk' },
 	ml: { espeak: 'ml' },
-	ms: { espeak: 'ms' },
+	ms: { espeak: 'ms', rules: malayIpa },
 	nl: { espeak: 'nl', prefer: ['Netherlands'] },
 	no: { espeak: 'nb', prefer: ['Urban-East-Norwegian'] },
 	pl: { espeak: 'pl' },
-	pt: { espeak: 'pt-br', prefer: ['Brazil'] },
+	// eSpeak's Brazilian notation, rewritten into Wiktionary's: "y" for an
+	// unstressed final "i" (livre /ˈlivri/), "æ" for a final "ɐ", "x" for the
+	// "rr" written "ʁ", a nasal vowel as vowel-plus-"ŋ" ("vindo" /ˈviŋdʊ/ for
+	// /ˈvĩdu/), "aʊ" for "aw", "lj" for "lh" /ʎ/, and a "ə" after "r" that
+	// Brazilian Portuguese does not have.
+	pt: {
+		espeak: 'pt-br',
+		prefer: ['Brazil'],
+		fix: [
+			[/y/g, 'i'],
+			[/æ/g, 'ɐ'],
+			[/x/g, 'ʁ'],
+			[/ɐ̃ʊ̃/g, 'ɐ̃w̃'],
+			[/eɪŋ/g, 'ẽ'],
+			[/([aeiouɐ])\u0303?ŋ(?![aeiouɐɛɔ])/g, '$1\u0303'],
+			[/([aeiouɛɔ])ʊ/g, '$1w'],
+			[/ʊ/g, 'u'],
+			[/lj/g, 'ʎ'],
+			[/ə/g, '']
+		]
+	},
 	ro: { espeak: 'ro' },
 	ru: { espeak: 'ru' },
 	si: { espeak: 'si' },
 	sk: { espeak: 'sk' },
 	sl: { espeak: 'sl' },
-	sq: { espeak: 'sq' },
+	// eSpeak reads "ë" as /ʌ/ and "gj", "q" as /dʑ tɕ/.
+	sq: { espeak: 'sq', rules: albanianIpa },
 	sr: { espeak: 'sr' },
-	sv: { espeak: 'sv', prefer: ['Central-Swedish'] },
+	sv: { espeak: 'sv', prefer: ['Central-Swedish'], fix: [[/ə/g, 'ɛ']] },
 	ta: { espeak: 'ta' },
 	te: { espeak: 'te' },
 	tl: { espeak: null },
@@ -285,7 +314,7 @@ function cleanEspeak(out: string): string {
 }
 
 /** eSpeak NG, a few hundred words per call: one process per word would take an hour. */
-function fromEspeak(voice: string, words: string[], strip?: RegExp) {
+function fromEspeak(voice: string, words: string[], fix: [RegExp, string][] = []) {
 	const out = new Map<string, string>();
 	const run = (batch: string[]) =>
 		spawnSync('espeak-ng', ['-q', '--ipa', '-v', voice], {
@@ -302,7 +331,7 @@ function fromEspeak(voice: string, words: string[], strip?: RegExp) {
 		if (lines.length !== batch.length) lines = batch.map((w) => run([w]).join(' '));
 		batch.forEach((w, k) => {
 			let ipa = cleanEspeak(lines[k] ?? '');
-			if (strip) ipa = ipa.replace(strip, '');
+			for (const [from, to] of fix) ipa = ipa.replace(from, to);
 			if (ipa && !/[A-Z0-9]/.test(ipa)) out.set(w, `/${ipa}/`);
 		});
 	}
@@ -340,9 +369,15 @@ function skeleton(ipa: string, stress = true): string {
 			.replace(/[ɛe]/g, 'e')
 			.replace(/[ɔo]/g, 'o')
 			.replace(/[ɑaɐ]/g, 'a')
+			// A syllabic consonant or a schwa before it: German "sitzen" is
+			// /ˈzɪtsn̩/ in Wiktionary and /ˈzɪtsən/ in Duden.
+			.replace(/ə(?=[nlm](?![aeiouyæøœəɔɛɜɞɘɵɶʏɯɨʉʌɤ]))/g, '')
 			// Stress compared by the vowel it lands on, not by where the syllable
 			// starts: "misˈteik" and "miˈsteik" stress the same vowel.
 			.replace(/ˈ([^aeiouyæøœəɔɛɜɞɘɵɶʏɯɨʉʌɤ]*)/g, '$1ˈ')
+			// A long consonant written twice or with a length mark: Telugu "amma"
+			// is /amːa/ in Wiktionary and /amma/ in eSpeak.
+			.replace(/(\p{L})\1+/gu, '$1')
 	);
 }
 
@@ -364,10 +399,12 @@ const SAMPLE = 1000;
 /**
  * The share of those it must get right, sound for sound, to be trusted with
  * the words Wiktionary does not cover. Measured on 23 September 2026:
- * Esperanto 100%, Serbo-Croatian and Catalan 94%, French 90%, Finnish 79% and
- * Spanish 76% clear it; Russian (17%) puts the stress on the wrong syllable too
- * often, and Albanian (58%) reads "ë" as another vowel. Turkish failed with
- * eSpeak (55%) and passes with ipa-turkish.ts (81%).
+ * Esperanto 100%, Finnish 98%, Serbo-Croatian 96%, French 93%, Portuguese 86%
+ * and German 72% clear it — the last two once their notation is rewritten
+ * (`fix`); Russian (17%) and Norwegian (42%) put the stress or the vowel wrong
+ * too often. The rules in ipa-turkish.ts and ipa-rules.ts clear it too:
+ * Georgian 94%, Albanian 90%, Estonian 85%, Turkish 81%, Galician 78% and
+ * Malay 67%, where eSpeak managed at most 58%.
  */
 const TRUST = 0.6;
 
@@ -384,7 +421,7 @@ function readerFor(accent: Accent) {
 			);
 	}
 	const voice = accent.espeak;
-	return voice ? (words: string[]) => fromEspeak(voice, words, accent.strip) : null;
+	return voice ? (words: string[]) => fromEspeak(voice, words, accent.fix) : null;
 }
 
 /**
@@ -402,8 +439,18 @@ function agreement(read: (words: string[]) => Map<string, string>, wiki: Map<str
 		// A word of one syllable has nowhere else to put the stress, and
 		// Wiktionary marks it on some of them and not others.
 		const syllabic = skeleton(ipa, false).match(/[aeiouyæøœəɔɛɜɯɨʉʌɤ]+/g)?.length ?? 0;
-		const marked = ipa.includes('ˈ') && syllabic > 1;
+		// Nor is a reading that makes no claim about stress marked down for it:
+		// the Albanian and Georgian rules leave stress out, and the page shows
+		// what they say, not what they do not.
+		const marked = ipa.includes('ˈ') && syllabic > 1 && Boolean(guess?.includes('ˈ'));
 		if (guess && distance(skeleton(guess, marked), skeleton(ipa, marked)) === 0) same++;
+		// IPA_DEBUG=1 prints every disagreement, for tuning a language's notation.
+		else if (process.env.IPA_DEBUG)
+			console.log(
+				`MISS\t${w}\t${ipa}\t${guess}\t${skeleton(ipa, marked)}\t${
+					guess ? skeleton(guess, marked) : ''
+				}`
+			);
 	}
 	return sample.length ? same / sample.length : 0;
 }
