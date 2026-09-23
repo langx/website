@@ -22,9 +22,23 @@ keywords:
   - italki language exchange
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to italki for free conversation practice with native speakers, LangX is a free, open source (BSD-3) language exchange app that matches you with people who speak what you learn and learn what you speak, with corrections on every message. It does not replace an italki teacher: italki is mainly a marketplace for paid one-to-one lessons, and LangX is for the free peer practice you do between those lessons.
 
 This page compares LangX vs italki as of September 2026. We make LangX, and we will be honest about where a paid teacher is simply the better choice.
+
+<KeyTakeaways items={[
+  "italki is mainly a marketplace for paid one-to-one lessons, plus a free community.",
+  "italki no longer has a language partner search; LangX is built around exactly that.",
+  "LangX is free peer practice with two-way matching and unlimited corrections, not a teacher.",
+  "The best setup for many learners: italki lessons, with daily LangX conversations in between."
+]} />
 
 ## What italki is today
 
@@ -35,6 +49,34 @@ It still has a **free Community**, where you can post writing for corrections, a
 What it no longer has is a dedicated **language partner search**. italki used to let you look for free exchange partners, and many learners joined for exactly that. Posts on italki's own community show users asking where the feature went and being told it is no longer available, going back to at least early 2021. italki has not, as far as we can find, published an official date. If you searched for an "italki language partner" and could not find the option, this is why.
 
 ## LangX vs italki at a glance
+
+<VersusCard
+  title="LangX vs italki"
+  a={{
+    name: "LangX",
+    tagline: "Free language exchange app",
+    points: [
+      "Practice with learners who are native speakers of your target language",
+      "Two-way matching",
+      "Correct any message in the chat, unlimited on every plan",
+      "Voice, photo and video messages; no live calls",
+      "No ads; open source, BSD-3"
+    ],
+    bestFor: "daily practice without paying per session"
+  }}
+  b={{
+    name: "italki",
+    tagline: "Marketplace for paid lessons, plus a free community",
+    points: [
+      "Professional teachers and community tutors",
+      "Choose a teacher by language, price, availability and reviews",
+      "Teachers correct you in live video lessons",
+      "Pay per lesson; optional italki Plus subscription",
+      "Teachers in over 100 languages"
+    ],
+    bestFor: "guided, structured or exam-focused progress"
+  }}
+/>
 
 *LangX vs italki: how the open source alternative to italki compares for practice with native speakers (September 2026)*
 
@@ -63,6 +105,22 @@ italki is very good at what it has become, and for many goals it is the right to
 - **Community tutors for conversation.** If you want live speaking practice with someone whose job is to keep the conversation going, italki's community tutors are designed for exactly that.
 - **A free community.** Posting a short text and having native speakers correct it is useful, and costs nothing.
 
+<ProsCons
+  name="italki"
+  pros={[
+    "Real teachers who can diagnose mistakes and explain grammar",
+    "Teachers for well over 100 languages, with reviews and trial lessons",
+    "Book when you want, with whom you want",
+    "A free community for corrections on posted writing"
+  ]}
+  cons={[
+    "Lessons are paid, so daily practice adds up",
+    "No language partner search any more",
+    "Translation is not a chat feature",
+    "Closed source"
+  ]}
+/>
+
 If you can afford regular lessons and want fast, guided progress, italki is an excellent choice. LangX is not trying to replace that.
 
 ## Where LangX differs
@@ -74,6 +132,12 @@ On LangX nobody is paid. You help someone with your native language and they hel
 ### A partner search that still exists
 
 LangX is built entirely around what italki removed: finding language exchange partners. Matching runs in both directions, so you only see people who speak the language you are learning *and* are learning a language you speak. Free filters cover country, age and level.
+
+<AppDemo
+  screen="discover"
+  title="The partner search italki removed"
+  text="Discover on LangX shows people who speak the language you are learning and are learning a language you speak, filtered by country, age and level on the free plan."
+/>
 
 ### Corrections in every conversation
 

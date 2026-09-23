@@ -21,7 +21,22 @@ keywords:
   - babbel live alternative
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to Babbel for speaking with real people, LangX is a free, open source (BSD-3) language exchange app where you chat one-to-one with native speakers and every message can be corrected. It does not replace Babbel's structured course, so the fair answer to "LangX vs Babbel" is that Babbel teaches you the language and LangX gives you people to use it with.
+
+<KeyTakeaways items={[
+  "Babbel is a structured course app for 14 languages, with dialogue-based lessons, grammar and review.",
+  "Babbel Live was discontinued for individual learners in 2025.",
+  "LangX is a free, open source language exchange: native speakers, unlimited human corrections, 182 languages.",
+  "Best together: learn a structure in Babbel, use it the same day on LangX."
+]} />
 
 We make LangX, so we are not neutral, but we will be clear about where Babbel is the better tool. Everything about Babbel below comes from its official site, help center, press releases and app store listings at the time of writing (September 2026).
 
@@ -62,6 +77,34 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | No community to match with; 50M+ downloads on Google Play |
 
+<VersusCard
+  title="LangX vs Babbel in one look"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app with real people",
+    points: [
+      "Native speakers matched two ways",
+      "A human partner can correct any message, unlimited on every plan",
+      "182 languages listed in the app",
+      "Voice, photo and video messages; no live calls",
+      "Free plan, no ads, open source (BSD-3)"
+    ],
+    bestFor: "real conversations once you know the basics"
+  }}
+  b={{
+    name: "Babbel",
+    tagline: "Structured course app",
+    points: [
+      "Dialogue-based lessons with grammar tips and review",
+      "Babbel Speak AI scenarios",
+      "Automatic feedback on exercises and speech",
+      "14 languages",
+      "First lesson of each course free to try"
+    ],
+    bestFor: "a clear, structured course"
+  }}
+/>
+
 ## What Babbel does well
 
 Babbel is one of the most respected course apps, and it earns that.
@@ -76,6 +119,24 @@ Babbel is one of the most respected course apps, and it earns that.
 
 For a beginner or a returning learner who wants a clear, well-explained path, Babbel is a very reasonable choice.
 
+<ProsCons
+  name="Babbel"
+  pros={[
+    "Lessons built around real dialogues",
+    "Grammar that is actually explained",
+    "Spaced review that brings words back",
+    "Babbel Speak for AI-guided speaking",
+    "First lesson of every course free to try"
+  ]}
+  cons={[
+    "Full access needs a subscription",
+    "14 languages",
+    "No human conversation partners for individual learners",
+    "Babbel Live discontinued for individual learners in 2025",
+    "Closed source"
+  ]}
+/>
+
 ## Where LangX differs from Babbel
 
 ### It is the conversation layer
@@ -85,6 +146,12 @@ A course teaches you how to ask for directions; it cannot give you a person who 
 ### Human corrections, unlimited
 
 On LangX, your partner holds any message to correct it, and corrections are unlimited on every plan, including Free. Human corrections often point out what sounds natural or old-fashioned, which automatic checking can miss. You correct them in your language too.
+
+<AppDemo
+  screen="chat"
+  title="A native speaker corrects you, in the chat"
+  text="Your LangX partner holds any message to correct it. Corrections are unlimited on every plan, including Free."
+/>
 
 ### Many more languages
 
@@ -127,9 +194,14 @@ For the speaking part, yes. LangX Free has no time limit and no ads, and replies
 
 **Use both if you want steady progress.** This is what we would suggest:
 
-1. Do a Babbel lesson to learn a new structure or set of phrases.
-2. Use it that same day in a LangX conversation.
-3. Let your partner correct you, and add the fixes to your notes.
+<Steps
+  title="How to use Babbel and LangX together"
+  steps={[
+    { title: "Do a Babbel lesson", text: "Learn a new structure or set of phrases." },
+    { title: "Use it that same day on LangX", text: "Bring it into a conversation with your partner." },
+    { title: "Let your partner correct you", text: "Add the fixes to your notes." }
+  ]}
+/>
 
 The course gives you the building blocks; the exchange makes you use them. For the human half, see [how to do a language exchange](/how-to-do-a-language-exchange) and [language exchange conversation topics](/language-exchange-conversation-topics). To check your level first, try a free [vocabulary test](/tools/vocabulary-test/spanish).
 

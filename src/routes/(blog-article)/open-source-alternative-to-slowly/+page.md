@@ -24,9 +24,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 LangX is an open source alternative to Slowly for people who want to practice a language with pen pals: a free language exchange app with public code (BSD-3), two-way matching and corrections on any message, unlimited on every plan. The honest difference is pace. Slowly delivers anonymous letters that take hours or days to arrive, which is lovely for thoughtful writing; LangX is a fast one-to-one chat built to teach, so it suits you better if you want daily practice and feedback.
+
+<KeyTakeaways items={[
+  "Slowly is a pen-pal app: anonymous letters that take from about half an hour to a few days to arrive.",
+  "LangX is a fast one-to-one chat with two-way matching and corrections on any message.",
+  "Both are free; LangX has no ads and is open source (BSD-3).",
+  "Pick Slowly for long letters and anonymity, LangX for daily practice and feedback, or use both."
+]} />
 
 Everything about Slowly below comes from its app store listings, its own site and reputable reviews at the time of writing (September 2026).
 
@@ -50,6 +61,34 @@ Everything about Slowly below comes from its app store listings, its own site an
 
 *Table: LangX vs Slowly, the open source alternative to Slowly compared feature by feature (September 2026).*
 
+<VersusCard
+  title="LangX vs Slowly in one look"
+  a={{
+    name: "LangX",
+    tagline: "Instant one-to-one chat",
+    points: [
+      "Replies in minutes, as fast as you both reply",
+      "Two-way matching on the languages you speak and learn",
+      "Hold any message to correct it, unlimited on every plan",
+      "Translation built into the chat",
+      "No ads; open source (BSD-3)"
+    ],
+    bestFor: "daily practice with feedback"
+  }}
+  b={{
+    name: "Slowly",
+    tagline: "Letters delivered with a delay",
+    points: [
+      "Letters take from about half an hour to a few days",
+      "Auto-match by interests, or browse by topics, region and languages",
+      "Nickname and avatar, no real names or photos required",
+      "Unlimited free letters",
+      "Much larger community: 5M+ downloads on Google Play"
+    ],
+    bestFor: "long, thoughtful letters and anonymity"
+  }}
+/>
+
 ## What Slowly does well
 
 Slowly is one of the most loved pen-pal apps around, and any honest Slowly alternative page should start by saying why.
@@ -63,6 +102,24 @@ Slowly is one of the most loved pen-pal apps around, and any honest Slowly alter
 
 If you love letters, want anonymity, and are happy to wait for a reply, Slowly is hard to beat.
 
+<ProsCons
+  name="Slowly"
+  pros={[
+    "Long, thoughtful letters: great reading and writing practice",
+    "Privacy by design: nickname and avatar, no photos needed",
+    "More than 2,000 collectible stamps",
+    "Language levels and filters by language, topics and region",
+    "Unlimited letters for free"
+  ]}
+  cons={[
+    "Letters take hours or days to arrive",
+    "No correction tools; it is not a learning app",
+    "No built-in translation; you look words up yourself",
+    "Google Play lists the app as containing ads",
+    "Closed source"
+  ]}
+/>
+
 ## Where LangX differs from Slowly
 
 LangX makes nearly the opposite trade-off. It is built around fast, frequent practice with someone who is learning your language in return.
@@ -74,6 +131,12 @@ The LangX app and API are public on [GitHub](https://github.com/langx/langx) und
 ### Corrections are the core, not an extra
 
 Slowly is a pen-pal app first. It has no correction tool, so if a pen pal wants to fix your grammar they have to rewrite your sentence in their own letter, and you might see it days later. On LangX you hold any message to correct it, and the fix shows up in the chat right away. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you.
+
+<AppDemo
+  screen="chat"
+  title="A correction arrives while you still remember writing it"
+  text="On LangX your partner holds any message to fix it, and the correction shows up in the chat right away instead of in a letter days later."
+/>
 
 ### Two-way matching instead of shared interests
 

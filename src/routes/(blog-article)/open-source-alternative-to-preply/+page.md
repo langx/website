@@ -23,9 +23,21 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 If you want a free, open source alternative to Preply for conversation practice, LangX is a language exchange app with public code (BSD-3) that matches you with native speakers who are learning your language, with corrections on any message, unlimited on every plan. It does not replace a Preply tutor: Preply is a marketplace for paid one-to-one lessons, and LangX is for the free peer practice you do between those lessons.
+
+<KeyTakeaways items={[
+  "Preply is a marketplace for paid one-to-one lessons: a trial, then a subscription with one tutor.",
+  "LangX is a free language exchange app with native speakers who learn your language and unlimited corrections.",
+  "LangX has no tutors and no live calls, so it does not replace lessons.",
+  "The strong setup: a tutor once or twice a week, a LangX partner every day."
+]} />
 
 This page compares LangX vs Preply as of September 2026. We make LangX, and we will be honest about where a paid tutor is simply the better choice.
 
@@ -60,6 +72,34 @@ So a "Preply alternative" can mean two things:
 
 *Table: LangX vs Preply, the open source alternative to Preply compared for speaking practice (September 2026).*
 
+<VersusCard
+  title="LangX vs Preply in one look"
+  a={{
+    name: "LangX",
+    tagline: "Free language exchange app",
+    points: [
+      "182 languages listed in the app",
+      "Two-way matching with native speakers",
+      "Hold any message to correct it, unlimited on every plan",
+      "Voice, photo and video messages; no live calls",
+      "Free plan, no ads, open source (BSD-3)"
+    ],
+    bestFor: "free daily practice between lessons"
+  }}
+  b={{
+    name: "Preply",
+    tagline: "Marketplace for paid one-to-one lessons",
+    points: [
+      "90+ languages, plus other subjects",
+      "Choose a tutor by price, reviews, specialty and schedule",
+      "Live video lessons in Preply's online classroom",
+      "Trial lesson, then a subscription billed every 28 days",
+      "Much larger: 5M+ downloads on Google Play"
+    ],
+    bestFor: "structured lessons with a tutor"
+  }}
+/>
+
 ## What Preply does well
 
 Preply is one of the largest tutoring platforms, and for many goals it is the right tool:
@@ -71,6 +111,22 @@ Preply is one of the largest tutoring platforms, and for many goals it is the ri
 - **Live speaking.** Lessons are live video, so you practice speaking and listening in real time, which is exactly what text chat cannot fully replace.
 
 If you are working toward a deadline and can budget for it, a good Preply tutor is one of the fastest ways to improve.
+
+<ProsCons
+  name="Preply"
+  pros={[
+    "A huge choice of tutors, filtered by price, reviews and specialty",
+    "A teacher who can diagnose mistakes and explain grammar",
+    "A weekly subscription keeps you consistent",
+    "Trial lesson first, with a free replacement trial within limits",
+    "Live video speaking and listening"
+  ]}
+  cons={[
+    "No free lessons; only browsing is free",
+    "A subscription with one tutor, billed every 28 days",
+    "Closed source"
+  ]}
+/>
 
 ## Where LangX differs from Preply
 
@@ -90,6 +146,12 @@ On Preply you pay for a tutor's time. On LangX the person correcting you is some
 
 On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included, as are replies to anyone who writes to you. Because the conversation is written down, every correction stays in the chat. Translation and read-aloud are there when you need them.
 
+<AppDemo
+  screen="chat"
+  title="Practice between lessons, corrected"
+  text="Hold any message on LangX to correct it. Every fix stays in the chat, so you can review it later or take it to your tutor."
+/>
+
 ### Not live, and not a teacher
 
 LangX has no live calls; conversations are text, voice, photo and video messages. And a partner is not a trained teacher: they know what sounds natural but may not be able to explain why. If you need structured lessons, grammar explained or exam preparation, keep your tutor.
@@ -102,7 +164,14 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/pro). Prices are set per region and shown in the app. No plan includes a tutor.
 
-<Callout type="info">Get more from each paid lesson: collect the corrections your LangX partners give you during the week and bring the ones you do not understand to your Preply tutor. Your partner tells you what sounds natural; your tutor explains why.</Callout>
+<Steps
+  title="Get more from each paid lesson"
+  steps={[
+    { label: "Every day", title: "Chat with a LangX partner", text: "Collect the corrections they give you during the week." },
+    { label: "Before class", title: "Pick the ones you do not understand", text: "Your partner tells you what sounds natural." },
+    { label: "Lesson", title: "Bring them to your Preply tutor", text: "Your tutor explains why." }
+  ]}
+/>
 
 ## LangX vs Preply: who should pick which?
 

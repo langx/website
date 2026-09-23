@@ -21,11 +21,53 @@ keywords:
   - free conversation exchange alternative
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to Conversation Exchange, LangX is a free, open source (BSD-3) language exchange app for iOS, Android and the web that matches you in both directions and lets you correct any message right inside the chat. Conversation Exchange is still a good, simple website for finding partners, especially for meeting in person, so the best Conversation Exchange alternative depends on whether you want an app with built-in learning tools or a directory that hands you off to other chat apps.
 
 This page is a fair LangX vs Conversation Exchange comparison, written in September 2026. We make LangX, so we have tried to be generous where Conversation Exchange is genuinely better.
 
+<KeyTakeaways items={[
+  "Conversation Exchange is a long-running website for finding partners, strongest for meeting in person.",
+  "LangX is an app where the chat happens, with two-way matching, corrections and translation built in.",
+  "LangX is open source (BSD-3) and has no ads on any plan.",
+  "LangX has no live calls and a smaller community; Conversation Exchange hands you off to Skype, WhatsApp or a café."
+]} />
+
 ## LangX vs Conversation Exchange at a glance
+
+<VersusCard
+  title="LangX vs Conversation Exchange"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app with chat built in",
+    points: [
+      "Two-way matching",
+      "Correct any message in the chat, unlimited on every plan",
+      "Translation built into the chat",
+      "No ads; open source, BSD-3",
+      "iOS, Android and web"
+    ],
+    bestFor: "an app where the conversation teaches you something"
+  }}
+  b={{
+    name: "Conversation Exchange",
+    tagline: "Website for finding language partners",
+    points: [
+      "Search profiles by language, location and exchange type",
+      "In-person meetups with city-level search",
+      "ChitChat text chat; calls happen in Skype, WhatsApp and similar",
+      "Free to use, with banner ads for free members",
+      "Long-running, online since 2005"
+    ],
+    bestFor: "an in-person partner in your city or a pen pal"
+  }}
+/>
 
 *LangX vs Conversation Exchange: how the open source alternative to Conversation Exchange compares (September 2026)*
 
@@ -55,6 +97,22 @@ Conversation Exchange has been around since 2005, which is a very long time for 
 - **Simple and fast.** There is no feed and no gamification, just profiles and messages.
 - **Learning resources.** Tips, conversation topics, survival phrases and pronunciation pages sit alongside the partner search.
 
+<ProsCons
+  name="Conversation Exchange"
+  pros={[
+    "Face-to-face exchanges, with search by language and city",
+    "Face-to-face, pen pal and chat partners in one place",
+    "No lock-in: talk wherever you both like",
+    "Free at its core; .edu emails get Unlimited at no cost"
+  ]}
+  cons={[
+    "No built-in correction tool or translation",
+    "Banner ads and some messaging limits for free members",
+    "No official app, only a mobile-friendly website",
+    "Closed source"
+  ]}
+/>
+
 If you want an in-person tandem partner in your city, Conversation Exchange is still worth a try, and we would honestly suggest keeping your profile there even if you also use an app.
 
 ## Where LangX differs
@@ -68,6 +126,12 @@ On LangX you only see people who speak the language you are learning *and* are l
 ### Corrections are built in, and unlimited
 
 The most useful thing a partner can do is fix your sentence. On LangX you hold any message and correct it right in the conversation. Corrections are unlimited on every plan, including Free. On Conversation Exchange, corrections depend on the chat tool you end up in.
+
+<AppDemo
+  screen="chat"
+  title="The correction happens in the conversation"
+  text="On LangX your partner holds any message and fixes it right in the chat, so you see the better version next to what you wrote. Unlimited on every plan."
+/>
 
 ### Translation, voice messages and read-aloud in one place
 

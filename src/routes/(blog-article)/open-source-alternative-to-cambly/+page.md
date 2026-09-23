@@ -23,9 +23,21 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 If you want a free, open source alternative to Cambly for extra English practice, LangX is a language exchange app with public code (BSD-3) that matches you with native English speakers who are learning your language, with corrections on any message, unlimited on every plan. It does not replace a Cambly tutor: Cambly sells live video lessons with paid tutors, and LangX is for the free peer practice you do between those lessons.
+
+<KeyTakeaways items={[
+  "Cambly sells live video English lessons with paid, native English-speaking tutors.",
+  "LangX is a free language exchange app: no tutors, but native speakers who learn your language, with unlimited corrections.",
+  "LangX does not replace a tutor; it fills the days between lessons.",
+  "A good routine: one Cambly lesson a week plus ten minutes a day on LangX."
+]} />
 
 This page compares LangX vs Cambly as of September 2026. We make LangX, and we will be clear about where a paid tutor is simply the better choice.
 
@@ -61,6 +73,34 @@ So a "Cambly alternative" can mean two things:
 
 *Table: LangX vs Cambly, the open source alternative to Cambly compared for English speaking practice (September 2026).*
 
+<VersusCard
+  title="LangX vs Cambly in one look"
+  a={{
+    name: "LangX",
+    tagline: "Free language exchange app",
+    points: [
+      "182 languages listed in the app",
+      "Native speakers who are learning your language",
+      "Hold any message to correct it, unlimited on every plan",
+      "Voice, photo and video messages; no live calls",
+      "Free plan, no ads, open source (BSD-3)"
+    ],
+    bestFor: "free daily practice between lessons"
+  }}
+  b={{
+    name: "Cambly",
+    tagline: "Paid online English tutoring",
+    points: [
+      "English only, with native English-speaking tutors",
+      "Live one-to-one video lessons, plus small group lessons",
+      "The tutor corrects you live",
+      "Recordings and transcripts on some plans",
+      "Subscription plans by minutes and days per week"
+    ],
+    bestFor: "guided live speaking practice"
+  }}
+/>
+
 ## What Cambly does well
 
 Cambly is popular with English learners for good reasons, and it is better than LangX at several things:
@@ -72,6 +112,22 @@ Cambly is popular with English learners for good reasons, and it is better than 
 - **Low friction.** You can sign up and look around before paying, and plans are sold by how many minutes a day and days a week you want, so you commit to a routine rather than to single lessons.
 
 If you are preparing for an interview, an exam or a move abroad and can budget for it, a Cambly tutor gives you guided speaking practice that a free exchange cannot.
+
+<ProsCons
+  name="Cambly"
+  pros={[
+    "A native English speaker, often available right now",
+    "Every lesson is live video speaking practice",
+    "A tutor adapts the lesson to your goals",
+    "Group or private plans; a separate program for kids",
+    "You can sign up and look around before paying"
+  ]}
+  cons={[
+    "No free plan",
+    "English only",
+    "Closed source"
+  ]}
+/>
 
 ## Where LangX differs from Cambly
 
@@ -93,6 +149,12 @@ One honest caveat: matching depends on who is learning your language. If you spe
 
 On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included. Because the conversation is written down, every correction stays in the chat for you to review later, and read-aloud lets you hear any message spoken.
 
+<AppDemo
+  screen="chat"
+  title="Corrections you can scroll back to"
+  text="Your partner holds any message to correct it, and the fix stays in the chat, ready to review or to bring to your next lesson."
+/>
+
 ### Not live, and not a teacher
 
 LangX has no live calls. Conversations are text, voice, photo and video messages. And a partner is not a trained teacher: they can tell you what sounds natural, but they may not be able to explain why. If you need grammar explained or want live speaking under pressure, keep your tutor.
@@ -105,7 +167,14 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/pro). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
 
-<Callout type="info">A simple routine that works: one Cambly lesson a week for live speaking, and ten minutes a day on LangX writing to an English-speaking partner. Bring the corrections you collect during the week to your next lesson and ask your tutor to explain the ones you do not understand.</Callout>
+<Steps
+  title="A simple routine that works"
+  steps={[
+    { label: "Weekly", title: "One Cambly lesson", text: "Live speaking with a tutor." },
+    { label: "Daily", title: "Ten minutes on LangX", text: "Write to an English-speaking partner and collect corrections." },
+    { label: "Next lesson", title: "Bring your corrections", text: "Ask your tutor to explain the ones you do not understand." }
+  ]}
+/>
 
 ## LangX vs Cambly: who should pick which?
 

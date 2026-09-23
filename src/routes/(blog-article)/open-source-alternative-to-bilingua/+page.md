@@ -24,11 +24,22 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 If you used Bilingua and are looking for an open source alternative to Bilingua, LangX is a free, open source (BSD-3) language exchange app for iOS, Android and the web that matches you with people who speak what you learn and learn what you speak. Bilingua itself appears to be gone: it has disappeared from both app stores and its website domain is parked, so anyone searching for a Bilingua alternative in 2026 needs a new home for their practice.
 
 This page explains what happened to Bilingua, what it did well, and how LangX vs Bilingua compares for former users. We make LangX, so we will also point you to other apps like Bilingua where they fit you better.
+
+<KeyTakeaways items={[
+  "Bilingua is effectively closed: removed from Google Play in 2023, App Store listing gone, domain parked.",
+  "Former users liked its personality matching, the Shiro conversation helper and light learning games.",
+  "LangX matches two ways and has unlimited corrections from real people, but no chatbot and no live calls.",
+  "LangX is open source (BSD-3), so its code cannot disappear with a company."
+]} />
 
 ## What happened to Bilingua?
 
@@ -45,6 +56,34 @@ If you still have an old copy of Bilingua installed, do not rely on it. An app w
 </Callout>
 
 ## LangX vs Bilingua at a glance
+
+<VersusCard
+  title="LangX vs Bilingua"
+  a={{
+    name: "LangX",
+    tagline: "Active on iOS, Android and web",
+    points: [
+      "Two-way matching",
+      "Correct any message in the chat, unlimited on every plan",
+      "Translation built into the chat",
+      "Voice, photo and video messages; read-aloud",
+      "Open source, BSD-3 on GitHub"
+    ],
+    bestFor: "a new home for your practice that is still being developed"
+  }}
+  b={{
+    name: "Bilingua (closed)",
+    tagline: "No longer in the app stores; website parked",
+    points: [
+      "Matched partners by shared interests and personality",
+      "Its chat assistant, Shiro, suggested corrections and translations",
+      "Topic suggestions, games and quizzes",
+      "Text-first chat",
+      "Was free to use"
+    ],
+    bestFor: "nobody today: the app is gone"
+  }}
+/>
 
 *LangX vs Bilingua: the open source alternative to Bilingua, feature by feature (September 2026)*
 
@@ -72,6 +111,22 @@ Bilingua had a thoughtful idea at its core, and it is worth saying what people l
 - **Light learning tools.** A vocabulary list, a news feed, progress stats, games and quizzes made it feel more like a learning app than a chat app.
 - **Free to use.** Bilingua positioned itself as fun, free and effective, with languages like English, Chinese, Spanish, French and Japanese.
 
+<ProsCons
+  name="Bilingua"
+  pros={[
+    "Matching on personality and interests",
+    "Shiro suggested topics, translations and corrections",
+    "Vocabulary list, news feed, progress stats, games and quizzes",
+    "Free to use"
+  ]}
+  cons={[
+    "Removed from Google Play on June 4, 2023",
+    "No updates since October 2018",
+    "Text-first chat",
+    "Closed source, so it vanished with the company"
+  ]}
+/>
+
 If those were the parts you valued, look for an app that helps you start conversations and keeps them going, not just one with a big profile list.
 
 ## Where LangX fits for former Bilingua users
@@ -85,6 +140,12 @@ On LangX you only see people who speak the language you are learning *and* are l
 ### Corrections from real people, unlimited
 
 Instead of an assistant suggesting fixes, on LangX your partner holds any message and corrects it. Corrections are unlimited on every plan, including Free, because they are the part of an exchange that actually teaches.
+
+<AppDemo
+  screen="chat"
+  title="A real person, not a bot, fixes your sentence"
+  text="On LangX your partner holds any message and corrects it right in the chat. Corrections are unlimited on every plan, Free included."
+/>
 
 ### Translation inside the chat
 

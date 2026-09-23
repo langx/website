@@ -22,9 +22,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 **HelloTalk is better if you want the biggest community and many ways to practice at once: chat, a social feed, group voice rooms and livestreams. Tandem is better if you want a calmer, reviewed community built around one-to-one exchange with a steady partner.** Both are free to start, both show ads on the free tier, and both put their most useful extras, like unlimited translation, behind a subscription.
+
+<KeyTakeaways items={[
+  "HelloTalk: instant signup and a social app, with chat, a Moments feed, Voicerooms and livestreams.",
+  "Tandem: every application reviewed by a person, and a calmer community built around one-to-one exchange.",
+  "Both are free to start, show ads on the free tier and put unlimited translation behind a subscription.",
+  "HelloTalk's free tier is a little more generous for daily chatting; Tandem Pro has the fuller AI toolkit."
+]} />
 
 Below is a feature-by-feature comparison, checked against each company's own site, help pages and store listings in September 2026. We make a third app, LangX, so we mention it once at the end and otherwise keep out of the way.
 
@@ -49,6 +60,34 @@ Below is a feature-by-feature comparison, checked against each company's own sit
 | Open source | No | No |
 
 Details as listed by Tandem and HelloTalk at the time of writing (September 2026). Plans change, so check before subscribing. We do not list prices, which vary by country.
+
+<VersusCard
+  title="Tandem vs HelloTalk in one look"
+  a={{
+    name: "Tandem",
+    tagline: "Profile-based, focused on one-to-one exchange",
+    points: [
+      "Application reviewed by a person",
+      "300+ languages, including 12 sign languages",
+      "Inline corrections, free",
+      "Language Parties and Language Clubs",
+      "AI grammar check, rewrite and correction explanations with Pro"
+    ],
+    bestFor: "a curated community and one steady partner"
+  }}
+  b={{
+    name: "HelloTalk",
+    tagline: "Social: chat plus a public feed and live audio",
+    points: [
+      "Instant signup",
+      "260+ languages",
+      "In-chat correction tool",
+      "Moments feed, Voicerooms and HelloTalk Live",
+      "Unlimited translation and AI tools with VIP"
+    ],
+    bestFor: "starting today and a busy social feed"
+  }}
+/>
 
 ## Signing up: review vs instant access
 
@@ -75,6 +114,22 @@ Both apps have communities that are very large by any standard, many times bigge
 
 If you enjoy scrolling, posting and dipping into rooms, HelloTalk will feel alive. If you find feeds distracting and want one or two good partners, Tandem's structure helps.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "Instant signup: practice tonight",
+    "Moments: several people correct the same text",
+    "Voicerooms and HelloTalk Live for group speaking",
+    "A slightly more generous free tier for daily chatting"
+  ]}
+  cons={[
+    "Ads on the free tier",
+    "Daily caps on translation, AI correction and voice-to-text",
+    "Less filtered at the door",
+    "Nearby search only with VIP"
+  ]}
+/>
+
 ## Corrections, translation and learning tools
 
 Both apps let your partner correct a message inside the chat, showing the fix next to what you wrote. Both have translation built in. Both have added AI tools. The free tiers are where they differ.
@@ -84,6 +139,23 @@ Both apps let your partner correct a message inside the chat, showing the fix ne
 **HelloTalk's free tier** includes its correction and transliteration tools, with daily caps on translation, AI correction and voice-to-text. When you hit the translation cap, the tool is unavailable until the next day. **HelloTalk VIP** removes those caps and the ads.
 
 In practice, HelloTalk's free tier feels a little more generous for day-to-day chatting, while Tandem Pro's AI toolkit is the more complete paid package if you want explanations and not just fixes.
+
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Every profile reviewed by a person",
+    "Built around one-to-one exchange with a steady partner",
+    "300+ languages, including 12 sign languages",
+    "Pro's AI toolkit explains corrections, not just fixes them",
+    "Travel filter for a city you are about to visit (Pro)"
+  ]}
+  cons={[
+    "You may wait before your first conversation",
+    "Three free translations a day",
+    "Free members get up to an hour of Language Parties a day",
+    "Ads on the free tier"
+  ]}
+/>
 
 ## Voice and video
 
@@ -123,6 +195,12 @@ Whichever you pick, the app matters less than the habit. Two short conversations
 ## Or try an open-source alternative
 
 If you like the idea of Tandem or HelloTalk but want something different underneath, **[LangX](https://get.langx.io)** is our open-source language exchange app (BSD-3). Matching runs both ways, corrections and replies are unlimited on every plan including Free, and there are no ads. It is honest to say what it lacks next to these two: a **far smaller community**, and **no live calls or group audio rooms**; you practice through text, voice and photo messages.
+
+<AppDemo
+  screen="chat"
+  title="LangX: one-to-one chat with corrections"
+  text="On LangX your partner holds any message to correct it. Corrections and replies are unlimited on every plan, and there are no ads."
+/>
 
 For a detailed comparison with each, see [the open source alternative to Tandem](/open-source-alternative-to-tandem) and [the open source alternative to HelloTalk](/open-source-alternative-to-hellotalk).
 

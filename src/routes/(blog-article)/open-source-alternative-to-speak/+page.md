@@ -21,7 +21,22 @@ keywords:
   - ai conversation partner vs native speaker
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to Speak that gets you talking with real people instead of an AI tutor, LangX is a free, open source (BSD-3) language exchange app that matches you with native speakers and lets them correct any message you send. Speak is the better tool for structured, out-loud speaking drills with instant AI feedback, so the honest answer to "LangX vs Speak" is that they do different jobs, and many learners are best served by using both.
+
+<KeyTakeaways items={[
+  "Speak is an AI speaking tutor: a structured course where you talk out loud and get instant AI feedback.",
+  "LangX is a language exchange with real native speakers and unlimited human corrections.",
+  "LangX is free, has no ads and is open source (BSD-3), but has no lessons or AI tutor today.",
+  "Best together: rehearse with Speak's AI, then use the phrases on LangX the same day."
+]} />
 
 We make LangX, so we have a stake in this. Everything about Speak below comes from its own site, its app store listings and reputable reviews at the time of writing (September 2026).
 
@@ -56,6 +71,34 @@ So a "Speak alternative" can mean two things:
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | No community to match with; 10M+ downloads on Google Play |
 
+<VersusCard
+  title="LangX vs Speak in one look"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app with real people",
+    points: [
+      "Native speakers matched two ways",
+      "A human partner can correct any message, unlimited on every plan",
+      "182 languages listed in the app",
+      "Voice, photo and video messages; no live calls",
+      "Free plan, no ads, open source (BSD-3)"
+    ],
+    bestFor: "real conversations once you know the basics"
+  }}
+  b={{
+    name: "Speak",
+    tagline: "AI speaking tutor with a structured course",
+    points: [
+      "Talk out loud to the Speak Tutor AI",
+      "Instant AI feedback on pronunciation and phrasing",
+      "Tutor lessons, drills, roleplays and vocab builders",
+      "Six languages for English speakers, plus English",
+      "Free trial, then Premium or Premium Plus"
+    ],
+    bestFor: "guided speaking practice for beginners"
+  }}
+/>
+
 ## What Speak does well
 
 Speak is one of the most polished AI language apps around, and any fair Speak alternative page has to start with what it gets right.
@@ -70,6 +113,23 @@ Speak is one of the most polished AI language apps around, and any fair Speak al
 
 If you are a beginner in one of Speak's languages and you want to get over the fear of speaking, it is a very good place to start.
 
+<ProsCons
+  name="Speak"
+  pros={[
+    "Makes you speak full sentences from day one",
+    "No social pressure: the AI never sighs",
+    "Instant feedback on pronunciation and phrasing",
+    "Always available, at any hour",
+    "A real curriculum, with roleplays and free talk"
+  ]}
+  cons={[
+    "No human conversation partners",
+    "Ongoing use needs a subscription",
+    "Focuses on a handful of major languages",
+    "Closed source"
+  ]}
+/>
+
 ## Where LangX differs from Speak
 
 ### Real people instead of an AI
@@ -79,6 +139,12 @@ An AI tutor is patient and always on, but it is still an AI. It will not tell yo
 ### Corrections from a human, unlimited
 
 On LangX your partner holds any message to correct it, and corrections are unlimited on every plan, including Free. A human correction often comes with the "why" and with the more natural way a local would say it, not just the grammatically correct one. You correct them in return, which is also a great way to notice patterns in your own language.
+
+<AppDemo
+  screen="chat"
+  title="A human correction, in the chat"
+  text="On LangX your partner holds any message to correct it and can show how a local would say it. Corrections are unlimited on every plan, including Free."
+/>
 
 ### Many more languages
 
@@ -121,9 +187,14 @@ For speaking with real people, yes. LangX Free has no time limit and no ads, and
 
 **Or use both.** This is what we would suggest to most learners:
 
-1. Rehearse a scenario with Speak's AI until you can say it without thinking.
-2. Use the same phrases that day in a LangX chat with a native speaker.
-3. Save your partner's corrections and bring them back to your next AI session.
+<Steps
+  title="How to use Speak and LangX together"
+  steps={[
+    { title: "Rehearse with Speak's AI", text: "Practice a scenario until you can say it without thinking." },
+    { title: "Use it on LangX that day", text: "Say the same phrases in a chat with a native speaker." },
+    { title: "Bring the corrections back", text: "Save your partner's corrections and take them to your next AI session." }
+  ]}
+/>
 
 The AI builds confidence; the human tests it. Our guide on [AI conversation partners vs real language exchange](/ai-conversation-partner-vs-language-exchange) goes deeper, and [how to do a language exchange](/how-to-do-a-language-exchange) covers your first chats.
 
