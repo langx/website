@@ -3,7 +3,7 @@ title: Top 10 Tips for Learning a New Language Quickly
 slug: top-10-tips-for-learning-a-new-language-quickly
 coverImage: /images/posts/top-10-tips-for-learning-a-new-language-quickly.jpeg
 date: 2024-06-16T13:45:00Z
-excerpt: Learning a new language can be both exciting and challenging. Whether you're preparing for a trip abroad, enhancing your career prospects, or simply satisfying a personal goal, mastering a new language quickly is achievable with the right strategies. Here are the top 10 tips to accelerate your language learning journey! 
+excerpt: '10 tips for learning a new language quickly: immersion, speaking early, high-frequency words, spaced repetition, grammar in context and consistency.'
 author:
   name: Triangukum
   url: https://github.com/triangukum
@@ -76,7 +76,7 @@ When it comes to learning grammar, instead of just memorizing grammar rules, lea
 
 To aid you in your language learning journey, there are many apps and resources out there to help you. Some of these apps include:
 
-- [Duolingo](https://www.duolingo.com/)
+- [Duolingo](https://www.duolingo.com/) (and [Duolingo alternatives that get you speaking](/duolingo-alternatives-for-speaking))
 - [LangX](https://langx.io/)
 - [Babbel](https://babbel.com/)
 

@@ -5,23 +5,38 @@
 		imageAlt,
 		imageHeight,
 		imageWidth,
-		keywords,
+		keywords as defaultKeywords,
 		title as defaultTitle,
 		siteBaseUrl
 	} from '$lib/data/meta';
 
-	/** Page title. Suffixed with the brand, except on the homepage. */
+	/** Page title. Suffixed with the brand unless it is long, and never on the homepage. */
 	export let title: string | null = null;
 	export let description: string = defaultDescription;
 	/** Path, not a full URL — e.g. `/pro`. */
 	export let path: string = '';
+	/** Kept out of the index, for pages like the 404 that must not rank. */
+	export let noindex = false;
+	export let keywords: string[] = defaultKeywords;
+	/** `article` on posts; everything else is a `website`. */
+	export let type: 'website' | 'article' = 'website';
+	/** Absolute URL of a page-specific social card; the site card otherwise. */
+	export let ogImage: string | null = null;
+	export let ogImageAlt: string | null = null;
 
-	$: pageTitle = title ? `${title} | LangX` : defaultTitle;
+	// A long title already fills a results line; the suffix would only push
+	// the words that matter past the cut.
+	$: pageTitle = title ? (title.length > 56 ? title : `${title} | LangX`) : defaultTitle;
 	$: canonical = `${siteBaseUrl}${path}`;
+	$: cardImage = ogImage ?? image;
+	$: cardAlt = ogImage ? ogImageAlt ?? pageTitle : imageAlt;
 </script>
 
 <svelte:head>
 	<link rel="canonical" href={canonical} />
+	{#if noindex}
+		<meta name="robots" content="noindex, follow" />
+	{/if}
 	<meta name="keywords" content={keywords.join(', ')} />
 
 	<meta name="description" content={description} />
@@ -33,12 +48,17 @@
 	<meta name="twitter:title" content={pageTitle} />
 
 	<meta property="og:url" content={canonical} />
-	<meta property="og:image" content={image} />
-	<meta property="og:image:width" content={String(imageWidth)} />
-	<meta property="og:image:height" content={String(imageHeight)} />
-	<meta property="og:image:alt" content={imageAlt} />
-	<meta name="twitter:image" content={image} />
-	<meta name="twitter:image:alt" content={imageAlt} />
+	<meta property="og:type" content={type} />
+	<meta property="og:site_name" content="LangX" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:image" content={cardImage} />
+	{#if !ogImage}
+		<meta property="og:image:width" content={String(imageWidth)} />
+		<meta property="og:image:height" content={String(imageHeight)} />
+	{/if}
+	<meta property="og:image:alt" content={cardAlt} />
+	<meta name="twitter:image" content={cardImage} />
+	<meta name="twitter:image:alt" content={cardAlt} />
 
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>

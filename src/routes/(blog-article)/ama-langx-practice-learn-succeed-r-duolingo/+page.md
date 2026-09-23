@@ -1,9 +1,9 @@
 ---
-title: AMA - LangX | Practice, Learn, Succeed! – A New Era in Language Learning on r/duolingo!
+title: 'AMA on r/duolingo: LangX, the Open Source Language Exchange'
 slug: ama-langx-practice-learn-succeed-r-duolingo
 coverImage: /images/posts/ama-langx-practice-learn-succeed-r-duolingo.png
 date: 2024-06-22T00:22:54.639Z
-excerpt: Join us for an AMA on r/duolingo to discover LangX, a revolutionary, open-source, ad-free language learning platform. Learn how LangX Copilot, real-time feedback, and a vibrant community can enhance your language journey.
+excerpt: 'Our 2024 AMA on r/duolingo: the LangX team answered questions about an open-source, ad-free language exchange app, its community and its plans.'
 author:
   name: xuelink
   url: https://github.com/xuelink

@@ -1,4 +1,8 @@
-import { description, siteBaseUrl, title } from '$lib/data/meta';
+import { siteBaseUrl } from '$lib/data/meta';
+
+const title = 'LangX Blog';
+const description =
+	'Guides to language exchange, honest app comparisons, and notes on how LangX is built.';
 import type { BlogPost } from '$lib/utils/types';
 import dateformat from 'dateformat';
 import { filterPosts, importPosts } from '$lib/data/blog-posts/utils';
@@ -45,8 +49,8 @@ const xml = (posts: BlogPost[]) => `
 				(post) => `
         <item>
           <guid>${siteBaseUrl}/${post.slug}</guid>
-          <title>${post.title}</title>
-          <description>${post.excerpt}</description>
+          <title><![CDATA[${post.title}]]></title>
+          <description><![CDATA[${post.excerpt}]]></description>
           <dc:creator><![CDATA[${post.author.name}]]></dc:creator>
           <author>
             <name><![CDATA[${post.author.name}]]></name>

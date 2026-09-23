@@ -3,7 +3,7 @@ title: Addressing Allegations and Clarifying Our Commitment
 slug: addressing-allegations-and-clarifying-our-commitment
 coverImage: /images/posts/addressing-allegations-and-clarifying-our-commitment.png
 date: 2024-06-24T08:30:00.639Z
-excerpt: Recently, there have been allegations on Reddit suggesting that LangX is involved in fraudulent activities, specifically labeling us as a crypto scam. As a community-driven, open-source platform, we prioritize transparency and integrity. We want to address these concerns openly and provide clarity on our operations.
+excerpt: 'Our 2024 answer to Reddit posts calling LangX a crypto scam: what the project is, how it works, and why an open-source app can be checked by anyone.'
 author:
   name: xuelink
   url: https://github.com/xuelink

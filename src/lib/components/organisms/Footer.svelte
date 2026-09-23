@@ -8,8 +8,8 @@
 		{ label: 'Terms', href: '/terms-conditions' }
 	];
 
-	// Not in the design, kept on purpose: the blog, the tools and the legal
-	// pages are reachable from nowhere else on the site.
+	// Not in the design, kept on purpose: the legal pages are reachable from
+	// nowhere else, and every guide and comparison gets a sitewide link.
 	const groups = [
 		{
 			title: 'Product',
@@ -49,6 +49,34 @@
 				{ label: 'Which language is this?', href: '/tools/guess-the-language' },
 				{ label: 'Meaning quiz', href: '/tools/meaning-quiz' },
 				{ label: 'Languages that overlap', href: '/tools/similar' }
+			]
+		},
+		{
+			title: 'Guides',
+			links: [
+				{ label: 'Best language exchange apps', href: '/best-language-exchange-apps' },
+				{ label: 'Free language exchange apps', href: '/free-language-exchange-apps' },
+				{ label: 'What is a language exchange?', href: '/what-is-a-language-exchange' },
+				{ label: 'Find a partner', href: '/how-to-find-a-language-exchange-partner' },
+				{ label: 'Conversation topics', href: '/language-exchange-conversation-topics' },
+				{ label: 'Duolingo alternatives', href: '/duolingo-alternatives-for-speaking' },
+				{ label: 'Social language apps', href: '/social-language-learning-apps' },
+				{
+					label: 'Easiest languages to learn',
+					href: '/easiest-languages-to-learn-for-english-speakers'
+				}
+			]
+		},
+		{
+			title: 'Compare',
+			links: [
+				{ label: 'All comparisons', href: '/compare' },
+				{ label: 'LangX vs Tandem', href: '/open-source-alternative-to-tandem' },
+				{ label: 'LangX vs HelloTalk', href: '/open-source-alternative-to-hellotalk' },
+				{ label: 'Social alternative to Duolingo', href: '/social-alternative-to-duolingo' },
+				{ label: 'LangX vs Duolingo', href: '/open-source-alternative-to-duolingo' },
+				{ label: 'Speaky alternative', href: '/open-source-alternative-to-speaky' },
+				{ label: 'Tandem vs HelloTalk', href: '/tandem-vs-hellotalk' }
 			]
 		},
 		{

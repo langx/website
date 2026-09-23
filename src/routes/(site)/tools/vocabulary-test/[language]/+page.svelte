@@ -130,9 +130,9 @@
 </script>
 
 <Seo
-	title="{meta.name} vocabulary test"
+	title="{meta.name} Vocabulary Test: How Many Words Do You Know?"
 	{path}
-	description="{meta.name} words drawn from across the whole frequency range. Mark the ones you know and see roughly how much of the language's everyday vocabulary that covers. Free, no account."
+	description="How many {meta.name} words do you know? Mark the ones you recognise and see roughly how much everyday {meta.name} vocabulary you cover. Free, no account."
 />
 
 <svelte:head>

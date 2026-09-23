@@ -1,9 +1,9 @@
 ---
-title: Introducing Our Day Streaks - Importance Discussion
+title: 'Day Streaks: Why Daily Practice Matters in Language Learning'
 slug: introducing-our-day-streaks-importance-discussion
 coverImage: /images/posts/introducing-our-day-streaks-importance-discussion.png
 date: 2024-03-09T13:58:03.363Z
-excerpt: We're excited to introduce our Day Streaks feature. Explore the importance of building language streaks in language learning and discover diverse perspectives on this topic.
+excerpt: 'Why daily streaks help language learning: the case for small, consistent practice, the arguments against streaks, and how LangX introduced them.'
 author:
   name: xuelink
   url: https://github.com/xuelink

@@ -4,16 +4,21 @@
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import { primaryCtaInView } from '$lib/stores/cta';
 
+	// `wide` links drop out on a phone, where the rest share one row. The
+	// blog, the tools and the comparisons are here rather than only in the
+	// footer because they are most of what arrives from search.
 	const links = [
-		{ href: '/#features', label: 'Features' },
-		{ href: '/#plans', label: 'Plans' },
-		{ href: '/#faq', label: 'FAQ' },
-		{ href: 'https://github.com/langx/langx', label: 'GitHub', external: true }
+		{ href: '/#features', label: 'Features', wide: true },
+		{ href: '/pro', label: 'Plans' },
+		{ href: '/compare', label: 'Compare' },
+		{ href: '/tools', label: 'Tools' },
+		{ href: '/blog', label: 'Blog' },
+		{ href: 'https://github.com/langx/langx', label: 'GitHub', external: true, wide: true }
 	];
 </script>
 
 <!--
-	Logo, four links, the theme switch and one button. Sticks to the top; the
+	Logo, the links, the theme switch and one button. Sticks to the top; the
 	page shows through it. The button is ink while the page's own yellow is on
 	screen and takes the yellow the moment it scrolls away, so a viewport never
 	carries two.
@@ -26,6 +31,7 @@
 			{#each links as link}
 				<a
 					href={link.href}
+					class:wide={link.wide}
 					target={link.external ? '_blank' : undefined}
 					rel={link.external ? 'noopener noreferrer' : undefined}>{link.label}</a
 				>
@@ -90,6 +96,10 @@
 			width: 100%;
 			justify-content: center;
 			gap: 20px;
+
+			.wide {
+				display: none;
+			}
 		}
 	}
 

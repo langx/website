@@ -218,11 +218,11 @@
 </script>
 
 <Seo
-	{title}
+	title="{nf.format(meta.count)} Most Common {meta.name} Words (with English Meanings)"
 	{path}
 	description="The {nf.format(
 		meta.count
-	)} most common words in {meta.name} ({meta.nativeName}), ranked by how often they turn up in everyday speech, each with its meaning in English. Free to browse and download."
+	)} most common {meta.name} words ({meta.nativeName}), ranked by how often they are spoken, each with its English meaning. Free to browse and download."
 />
 
 <svelte:head>

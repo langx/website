@@ -1,9 +1,9 @@
 ---
-title: Why Consistent Practice is Key to Language Learning Success?
+title: 'Why Consistent Practice Is the Key to Learning a Language'
 slug: why-consistent-practice-is-key-to-language-learning-success
 coverImage: /images/posts/why-consistent-practice-is-key-to-language-learning-success.png
 date: 2024-03-03T00:22:54.639Z
-excerpt: Language learning is a journey that requires dedication, perseverance, and consistent practice.
+excerpt: 'Why consistent practice beats cramming: how daily language practice improves recall, fluency, accuracy, cultural understanding and motivation.'
 author:
   name: xuelink
   url: https://github.com/xuelink

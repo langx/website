@@ -40,7 +40,9 @@
 </script>
 
 <Seo
-	title="Say it in {WORD_LISTS.length} languages"
+	title="Words in Different Languages: {nf.format(
+		SAY_WORDS.length
+	)} Words, {WORD_LISTS.length} Languages"
 	path="/tools/say"
 	description="{nf.format(
 		SAY_WORDS.length

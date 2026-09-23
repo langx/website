@@ -12,9 +12,66 @@
 	import Testimonials from '$lib/components/organisms/Testimonials.svelte';
 	import FAQ from '$lib/components/organisms/FAQ.svelte';
 	import FinalCta from '$lib/components/organisms/FinalCta.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
+	import { faqObjects } from '$lib/data/faq';
+	import {
+		appStoreUrl,
+		description,
+		image,
+		organization,
+		playStoreUrl,
+		siteBaseUrl
+	} from '$lib/data/meta';
+
+	const stripTags = (html: string) => html.replace(/<[^>]+>/g, '');
+
+	/**
+	 * Who publishes the site, what the site is, and the app it is for. No
+	 * rating is given: there is no aggregate we could honestly cite. The offer
+	 * at 0 is the free plan, which is real and permanent.
+	 */
+	const ld = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			organization,
+			{
+				'@type': 'WebSite',
+				'@id': `${siteBaseUrl}/#website`,
+				name: 'LangX',
+				url: siteBaseUrl,
+				description,
+				publisher: { '@id': `${siteBaseUrl}/#organization` },
+				inLanguage: 'en'
+			},
+			{
+				'@type': 'MobileApplication',
+				'@id': `${siteBaseUrl}/#app`,
+				name: 'LangX',
+				description,
+				url: siteBaseUrl,
+				image,
+				applicationCategory: 'EducationalApplication',
+				operatingSystem: 'iOS, Android, Web',
+				installUrl: [appStoreUrl, playStoreUrl, 'https://app.langx.io'],
+				offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', category: 'Free plan' },
+				publisher: { '@id': `${siteBaseUrl}/#organization` },
+				license: 'https://opensource.org/licenses/BSD-3-Clause',
+				isAccessibleForFree: true
+			},
+			{
+				'@type': 'FAQPage',
+				mainEntity: faqObjects.map((q) => ({
+					'@type': 'Question',
+					name: q.title,
+					acceptedAnswer: { '@type': 'Answer', text: stripTags(q.content) }
+				}))
+			}
+		]
+	};
 </script>
 
-<Seo />
+<Seo path="/" />
+<JsonLd data={ld} />
 
 <!--
 	The page shows the app before it describes it: a chat playing in the hero,

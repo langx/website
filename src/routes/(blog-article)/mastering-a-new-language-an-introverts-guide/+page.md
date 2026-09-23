@@ -1,9 +1,9 @@
 ---
-title: Mastering a New Language - An Introvert's Guide
+title: 'How to Learn a Language as an Introvert: A Practical Guide'
 slug: mastering-a-new-language-an-introverts-guide
 coverImage: /images/posts/mastering-a-new-language-an-introverts-guide.jpeg
 date: 2024-06-19T20:16:22Z
-excerpt: Learning a language as an introvert can be challenging, mainly due to the fact that one of the best methods for language acquisition is to interact with natives and those who are fluent in the language. However, due to that not being an option for some, in this article, we will be talking about how you can learn a language, without even leaving the house.
+excerpt: 'Learning a language as an introvert: courses, apps, films, books, podcasts and writing you can do at home, and a low-pressure way into speaking.'
 author:
   name: Triangukum
   url: https://github.com/triangukum
@@ -29,7 +29,7 @@ Learning a language as an introvert can be challenging, mainly due to the fact t
 
 When it comes to learning a language, online language courses and apps nowadays are really popular, and for good reason. Not only do they help you learn a language in a structured and organized way, however they also aid in tracking progress, as well as it being self paced and available to do in a comfortable environment of your choice! (Like your home for example.) Some good examples of online courses and apps for language acquisition are the following:
 
-- [Duolingo](https://duolingo.com/)
+- [Duolingo](https://duolingo.com/) (see how it compares: [LangX vs Duolingo](/open-source-alternative-to-duolingo))
 - [Babbel](https://babbel.com/)
 - [Rosetta Stone](https://rosettastone.com/)
 

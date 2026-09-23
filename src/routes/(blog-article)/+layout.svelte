@@ -4,7 +4,9 @@
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import dateformat from 'dateformat';
 
-	import { keywords, siteBaseUrl, title } from '$lib/data/meta';
+	import Seo from '$lib/components/atoms/Seo.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
+	import { image, keywords, organization, siteBaseUrl } from '$lib/data/meta';
 	import type { BlogPost } from '$lib/utils/types';
 	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
@@ -12,35 +14,66 @@
 	export let data: { post: BlogPost };
 	$: ({ post } = data);
 
-	let metaKeywords = keywords;
+	// Rebuilt from scratch per post: appending to the previous value carried
+	// one post's keywords into the next on client-side navigation.
+	$: metaKeywords = [...new Set([...(post?.keywords ?? []), ...(post?.tags ?? []), ...keywords])];
 
-	$: {
-		if (post?.tags?.length) {
-			metaKeywords = post.tags.concat(metaKeywords);
-		}
-		if (post?.keywords?.length) {
-			metaKeywords = post.keywords.concat(metaKeywords);
-		}
-	}
+	$: url = post ? `${siteBaseUrl}/${post.slug}` : siteBaseUrl;
+	$: ld = post
+		? {
+				'@context': 'https://schema.org',
+				'@graph': [
+					{
+						'@type': 'BlogPosting',
+						'@id': `${url}#article`,
+						headline: post.title,
+						description: post.excerpt,
+						url,
+						mainEntityOfPage: url,
+						image: post.coverImage ? `${siteBaseUrl}${post.coverImage}` : image,
+						datePublished: new Date(post.date).toISOString(),
+						dateModified: new Date(post.updated ?? post.date).toISOString(),
+						author: post.author
+							? { '@type': 'Person', name: post.author.name, url: post.author.url }
+							: { '@id': `${siteBaseUrl}/#organization` },
+						publisher: organization,
+						keywords: [...(post.keywords ?? []), ...(post.tags ?? [])].join(', '),
+						articleSection: post.tags?.[0],
+						inLanguage: 'en'
+					},
+					{
+						'@type': 'BreadcrumbList',
+						itemListElement: [
+							{ '@type': 'ListItem', position: 1, name: 'Home', item: `${siteBaseUrl}/` },
+							{ '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteBaseUrl}/blog` },
+							{ '@type': 'ListItem', position: 3, name: post.title }
+						]
+					}
+				]
+		  }
+		: {};
 </script>
+
+{#if post}
+	<Seo
+		title={post.title}
+		description={post.excerpt}
+		path="/{post.slug}"
+		type="article"
+		ogImage={post.coverImage ? `${siteBaseUrl}${post.coverImage}` : null}
+		ogImageAlt={post.title}
+		keywords={metaKeywords}
+	/>
+	<JsonLd data={ld} />
+{/if}
 
 <svelte:head>
 	{#if post}
-		<meta name="keywords" content={metaKeywords.join(', ')} />
-
-		<meta name="description" content={post.excerpt} />
-		<meta property="og:description" content={post.excerpt} />
-		<meta name="twitter:description" content={post.excerpt} />
-		<link rel="canonical" href="{siteBaseUrl}/{post.slug}" />
-
-		<title>{post.title} - {title}</title>
-		<meta property="og:title" content="{post.title} - {title}" />
-		<meta name="twitter:title" content="{post.title} - {title}" />
-
-		{#if post.coverImage}
-			<meta property="og:image" content="{siteBaseUrl}{post.coverImage}" />
-			<meta name="twitter:image" content="{siteBaseUrl}{post.coverImage}" />
-		{/if}
+		<meta property="article:published_time" content={new Date(post.date).toISOString()} />
+		<meta property="article:modified_time" content={new Date(post.updated ?? post.date).toISOString()} />
+		{#each post.tags ?? [] as tag}
+			<meta property="article:tag" content={tag} />
+		{/each}
 	{/if}
 </svelte:head>
 

@@ -5,6 +5,8 @@
 	/** A row in a list of posts — the app's own list grammar, not a card. */
 	export let title: string;
 	export let coverImage: string | undefined = undefined;
+	/** A square made for lists; the cover is cropped to fit where there is none. */
+	export let thumbnail: string | undefined = undefined;
 	export let excerpt: string;
 	export let slug: string;
 	export let tags: string[] | undefined;
@@ -13,9 +15,9 @@
 </script>
 
 <a class="post" href="/{slug}" data-sveltekit-preload-data>
-	{#if showImage && coverImage}
+	{#if showImage && (thumbnail || coverImage)}
 		<span class="thumb">
-			<img src={coverImage} alt="" loading="lazy" decoding="async" />
+			<img src={thumbnail ?? coverImage} alt="" loading="lazy" decoding="async" />
 		</span>
 	{/if}
 	<span class="body">

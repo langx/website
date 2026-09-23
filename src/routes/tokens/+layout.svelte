@@ -5,7 +5,7 @@
 <SiteShell
 	title="Tokens"
 	path="/tokens"
-	description="LangX tokens are in-app points: earned by practising and teaching, spent on a streak freeze and cosmetics. They cannot be bought, sold, traded or withdrawn, and there is no blockchain behind them."
+	description="LangX tokens are in-app points you earn by practising and teaching and spend on a streak freeze or cosmetics. Not money: no buying, selling or blockchain."
 >
 	<slot />
 </SiteShell>

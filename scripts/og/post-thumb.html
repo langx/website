@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>LangX — post thumbnail</title>
+		<!--
+			The square beside a post in a list, 176x176 (88px at 2x). A 1.91:1
+			social card cropped to a square cuts its title in half, so posts with a
+			drawn card get this instead: one glyph for the kind of post, on the tint
+			of the colour that kind already uses on the site. Drawn by
+			`scripts/og/posts.mjs`.
+		-->
+		<style>
+			@font-face {
+				font-family: 'Nunito';
+				font-weight: 900;
+				src: url(../../node_modules/@fontsource/nunito/files/nunito-latin-900-normal.woff2)
+					format('woff2');
+			}
+			html,
+			body {
+				margin: 0;
+			}
+			body {
+				width: 176px;
+				height: 176px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-family: 'Nunito', sans-serif;
+				font-weight: 900;
+				font-size: 72px;
+				letter-spacing: -0.03em;
+				overflow: hidden;
+			}
+			.compare {
+				background: #e9f0fe;
+				color: #3b6cf6;
+			}
+			.words {
+				background: #e2f6ee;
+				color: #009f70;
+			}
+			.guide {
+				background: #f4f5f7;
+				color: #17191c;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			const q = new URLSearchParams(location.search);
+			const kind = q.get('kind') || 'guide';
+			document.body.className = kind;
+			document.body.textContent = { compare: 'vs', words: 'Aa', guide: '101' }[kind] || '101';
+		</script>
+	</body>
+</html>
