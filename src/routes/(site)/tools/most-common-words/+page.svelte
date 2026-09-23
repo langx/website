@@ -2,6 +2,8 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS, totalWords } from '$lib/data/most-common-words';
@@ -270,20 +272,30 @@
 						{#each group.rows as hit}
 							{@const l = byCode.get(hit.code)}
 							{#if l}
+								<!-- The language name is the link, stretched over the row, so the
+								     speaker beside the word can be a button of its own. -->
 								<li>
-									<a href="/tools/most-common-words/{l.slug}">
-										<ScriptDisc nativeName={l.nativeName} code={l.code} size={34} />
-										<span class="term" lang={hit.code}>{hit.word}</span>
-										<span class="lang">{l.name}</span>
-										<span class="meaning">{hit.gloss}</span>
-										<span class="rank tabular">#{nf.format(hit.rank)}</span>
-									</a>
+									<ScriptDisc nativeName={l.nativeName} code={l.code} size={34} />
+									<span class="term"
+										><span lang={hit.code}>{hit.word}</span>
+										<SpeakButton
+											code={hit.code}
+											rank={hit.rank}
+											label="Hear {hit.word} in {l.name}"
+										/></span
+									>
+									<a class="lang" href="/tools/most-common-words/{l.slug}">{l.name}</a>
+									<span class="meaning">{hit.gloss}</span>
+									<span class="rank tabular">#{nf.format(hit.rank)}</span>
 								</li>
 							{/if}
 						{/each}
 					</ul>
 				</div>
 			{/each}
+			{#if groups.length}
+				<VoiceCredit codes={groups.flatMap((g) => g.rows.map((r) => r.code))} />
+			{/if}
 		</div>
 	</section>
 
@@ -581,7 +593,8 @@
 		}
 	}
 
-	.group a {
+	.group li {
+		position: relative;
 		display: grid;
 		grid-template-columns: auto minmax(6rem, auto) minmax(5rem, auto) 1fr auto;
 		align-items: center;
@@ -590,6 +603,9 @@
 		color: var(--color--text);
 
 		.term {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
 			font-family: var(--font--title);
 			font-weight: 800;
 		}
@@ -597,6 +613,12 @@
 		.lang {
 			color: var(--color--text-shade);
 			font-size: 0.9375rem;
+
+			&::after {
+				content: '';
+				position: absolute;
+				inset: 0;
+			}
 		}
 
 		.meaning {

@@ -2,6 +2,8 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -101,7 +103,17 @@
 		<tbody>
 			{#each rows as r}
 				<tr>
-					<td class="word">{r.word}</td>
+					<!-- Same spelling, two languages: one speaker for each, because how
+					     differently they say it is half of what this page is about. -->
+					<td class="word"
+						><span class="spelled">{r.word}</span><span class="speakers"
+							><SpeakButton code={a.code} rank={r.rankA} label="Hear {r.word} in {a.name}" size={26}
+								>{a.code}</SpeakButton
+							><SpeakButton code={b.code} rank={r.rankB} label="Hear {r.word} in {b.name}" size={26}
+								>{b.code}</SpeakButton
+							></span
+						></td
+					>
 					<td class="gloss">{r.english}</td>
 					<td class="r tabular">#{nf.format(r.rankA)}</td>
 					<td class="r tabular">#{nf.format(r.rankB)}</td>
@@ -118,6 +130,8 @@
 			>
 		</p>
 	{/if}
+
+	<VoiceCredit codes={[a.code, b.code]} />
 
 	{#if others.length}
 		<nav class="others" aria-label="Related pairs">
@@ -208,7 +222,14 @@
 		.word {
 			font-family: var(--font--title);
 			font-weight: 800;
-			width: 26%;
+			width: 34%;
+		}
+
+		.speakers {
+			display: inline-flex;
+			gap: 2px;
+			margin-left: 8px;
+			vertical-align: middle;
 		}
 
 		.gloss {
@@ -227,7 +248,7 @@
 				display: none;
 			}
 			.word {
-				width: 42%;
+				width: 52%;
 			}
 		}
 	}

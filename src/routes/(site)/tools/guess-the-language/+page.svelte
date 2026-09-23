@@ -3,6 +3,8 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
@@ -11,7 +13,7 @@
 	const OPTIONS = 4;
 	const byCode = new Map(WORD_LISTS.map((l) => [l.code, l]));
 
-	type Round = { word: string; answer: string; options: string[] };
+	type Round = { word: string; rank: number; answer: string; options: string[] };
 
 	let pool: [string, string, number][] = [];
 	let rounds: Round[] = [];
@@ -51,7 +53,7 @@
 		const out: Round[] = [];
 		let guard = 0;
 		while (out.length < ROUNDS && guard++ < 5000) {
-			const [word, code] = pool[Math.floor(rand() * pool.length)];
+			const [word, code, rank] = pool[Math.floor(rand() * pool.length)];
 			if (used.has(code) || !byCode.has(code)) continue;
 			used.add(code);
 			const options = [code];
@@ -64,7 +66,7 @@
 				const j = Math.floor(rand() * (i + 1));
 				[options[i], options[j]] = [options[j], options[i]];
 			}
-			out.push({ word, answer: code, options });
+			out.push({ word, rank, answer: code, options });
 		}
 		rounds = out;
 		picked = Array(out.length).fill(null);
@@ -124,7 +126,15 @@
 				{#each rounds as r, i}
 					{@const right = byCode.get(r.answer)}
 					<li class:wrong={picked[i] !== r.answer}>
-						<span class="w" lang={r.answer}>{r.word}</span>
+						<span class="w"
+							><span lang={r.answer}>{r.word}</span>
+							<SpeakButton
+								code={r.answer}
+								rank={r.rank}
+								label="Hear {r.word} in {right?.name}"
+								size={28}
+							/></span
+						>
 						<span class="a">
 							{#if right}<ScriptDisc
 									nativeName={right.nativeName}
@@ -156,7 +166,18 @@
 	{:else if rounds.length}
 		{@const r = rounds[at]}
 		<p class="progress">Word {at + 1} of {rounds.length}</p>
-		<p class="word" lang={r.answer}>{r.word}</p>
+		<!-- Only once answered: the voice would say which language it is. -->
+		<p class="word">
+			<span lang={r.answer}>{r.word}</span>
+			{#if picked[at] !== null}
+				<SpeakButton
+					code={r.answer}
+					rank={r.rank}
+					label="Hear {r.word} in {byCode.get(r.answer)?.name}"
+					size={44}
+				/>
+			{/if}
+		</p>
 
 		<ul class="options" role="list">
 			{#each r.options as code}
@@ -187,6 +208,8 @@
 		{/if}
 	{/if}
 
+	{#if answered}<VoiceCredit codes={rounds.map((r) => r.answer)} />{/if}
+
 	<section class="cta">
 		<h2>Recognising a language is the first step.</h2>
 		<p>Speaking one is the rest of it.</p>
@@ -209,6 +232,10 @@
 	}
 
 	.word {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px 12px;
 		font-family: var(--font--title);
 		font-weight: 800;
 		font-size: clamp(2.125rem, 1.4rem + 3vw, 3.5rem);

@@ -2,7 +2,7 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
-	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -32,30 +32,16 @@
 	 * word reuses this component, so the player is swapped when the slug is —
 	 * and whatever the last page was saying stops with it.
 	 */
-	let sprite: ReturnType<typeof audioSprite> | null = null;
-	let spriteFor = '';
-	let playing: string | null = null;
-	let presses = 0;
+	let sprite = audioSprite(`/audio/say/${data.entry.slug}.mp3`);
+	let spriteFor = data.entry.slug;
 	$: if (entry.slug !== spriteFor) {
-		sprite?.stop();
+		sprite.stop();
 		sprite = audioSprite(`/audio/say/${entry.slug}.mp3`);
 		spriteFor = entry.slug;
-		playing = null;
 	}
-	onDestroy(() => sprite?.stop());
+	onDestroy(() => sprite.stop());
 
-	async function say(r: Row) {
-		if (!r.audio || !sprite) return;
-		const press = ++presses;
-		playing = r.code;
-		try {
-			await sprite.play(r.audio[0], r.audio[1]);
-		} catch {
-			// Offline, or the file is missing: the button simply stops glowing.
-		} finally {
-			if (press === presses) playing = null;
-		}
-	}
+	const say = (span: [number, number]) => () => sprite.play(span[0], span[1]);
 
 	const nf = new Intl.NumberFormat('en-US');
 	$: title = `How to say “${entry.word}” in ${entry.count} different languages`;
@@ -302,14 +288,7 @@
 					<span class="big" lang={r.code} dir={RTL.has(r.code) ? 'rtl' : undefined}>{r.word}</span>
 					<span class="which">
 						<span class="lang-name">{r.name}</span>
-						{#if r.audio}<button
-								type="button"
-								class="say"
-								class:on={playing === r.code}
-								aria-label="Hear {r.word} in {r.name}"
-								on:click={() => say(r)}
-								><UiIcon name="volume" size={16} strokeWidth={2.25} /></button
-							>{/if}
+						{#if r.audio}<SpeakButton label="Hear {r.word} in {r.name}" play={say(r.audio)} />{/if}
 					</span>
 				</li>
 			{/each}
@@ -352,13 +331,10 @@
 				<ScriptDisc nativeName={r.native} code={r.code} size={34} />
 				<a class="lang" href="/tools/most-common-words/{r.slug}">{r.name}</a>
 				<span class="term"
-					><span lang={r.code}>{r.word}</span>{#if r.audio}<button
-							type="button"
-							class="say"
-							class:on={playing === r.code}
-							aria-label="Hear {r.word} in {r.name}"
-							on:click={() => say(r)}><UiIcon name="volume" size={18} strokeWidth={2.25} /></button
-						>{/if}</span
+					><span lang={r.code}>{r.word}</span>{#if r.audio}<SpeakButton
+							label="Hear {r.word} in {r.name}"
+							play={say(r.audio)}
+						/>{/if}</span
 				>
 				{#if adds(r.gloss, entry.word)}<span class="gloss">{r.gloss}</span>{:else}<span />{/if}
 				<span class="rank tabular">#{nf.format(r.rank)}</span>
@@ -530,63 +506,6 @@
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		color: var(--color--text-quiet);
-	}
-
-	.say {
-		// Above the stretched link, or every press would open the language list.
-		position: relative;
-		z-index: 1;
-		flex: 0 0 auto;
-		display: inline-grid;
-		place-items: center;
-		width: 32px;
-		height: 32px;
-		margin: -4px 0;
-		border: 0;
-		border-radius: var(--radius-pill);
-		background: transparent;
-		color: var(--color--accent);
-		cursor: pointer;
-		transition: background-color 200ms ease, transform 160ms ease-out;
-
-		@media (hover: hover) and (pointer: fine) {
-			&:hover {
-				background: var(--color--accent-tint);
-			}
-		}
-
-		&:active {
-			transform: scale(0.97);
-		}
-
-		&:focus-visible {
-			outline: 2px solid var(--color--accent);
-			outline-offset: 2px;
-		}
-
-		&.on {
-			background: var(--color--accent-tint);
-
-			:global(.ui-icon) {
-				animation: speaking 0.9s ease-in-out infinite;
-			}
-		}
-
-		@media (prefers-reduced-motion: reduce) {
-			&:active {
-				transform: none;
-			}
-
-			&.on :global(.ui-icon) {
-				animation: none;
-			}
-		}
-	}
-
-	@keyframes speaking {
-		50% {
-			opacity: 0.45;
-		}
 	}
 
 	.gloss {

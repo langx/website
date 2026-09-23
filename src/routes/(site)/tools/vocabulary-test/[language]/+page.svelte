@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -158,17 +160,32 @@
 				<h2>Words ranked {nf.format(band.from)}–{nf.format(band.to)}</h2>
 				<ul class="rows" role="list">
 					{#each band.words as w}
+						<!-- Two labels for the one checkbox, so the speaker can sit beside the
+						     word without being inside a label, where a button may not go. -->
 						<li>
 							<label>
-								<input type="checkbox" checked={!!known[w.rank]} on:change={() => toggle(w.rank)} />
+								<input
+									type="checkbox"
+									id="known-{w.rank}"
+									checked={!!known[w.rank]}
+									on:change={() => toggle(w.rank)}
+								/>
 								<span class="word" lang={meta.code}>{w.word}</span>
-								<span class="hint">I know this</span>
 							</label>
+							<SpeakButton
+								code={meta.code}
+								rank={w.rank}
+								label="Hear {w.word} in {meta.name}"
+								size={32}
+							/>
+							<label class="hint" for="known-{w.rank}">I know this</label>
 						</li>
 					{/each}
 				</ul>
 			</section>
 		{/each}
+
+		<VoiceCredit codes={[meta.code]} />
 
 		<div class="finish" use:ownsPrimary>
 			<Button on:click={finish} variant="primary" size="lg">See the estimate</Button>
@@ -247,6 +264,9 @@
 		border-top: 1px solid var(--color--border);
 
 		li {
+			display: flex;
+			align-items: center;
+			gap: var(--space-2xs);
 			border-bottom: 1px solid var(--color--border);
 		}
 	}
@@ -274,8 +294,9 @@
 		}
 
 		// The meaning is deliberately absent: showing it would answer the question.
-		.hint {
-			margin-left: auto;
+		&.hint {
+			flex: 1;
+			justify-content: flex-end;
 			color: var(--color--text-tertiary);
 			font-size: 0.8125rem;
 		}

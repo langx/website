@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
@@ -27,7 +29,7 @@
 		};
 	}
 
-	type Round = { word: string; answer: string; options: string[] };
+	type Round = { word: string; rank: number; answer: string; options: string[] };
 
 	$: rounds = (() => {
 		const rand = rng(Math.floor(Date.parse(today) / 86_400_000) + meta.code.charCodeAt(0) * 7919);
@@ -48,7 +50,7 @@
 				const j = Math.floor(rand() * (k + 1));
 				[options[k], options[j]] = [options[j], options[k]];
 			}
-			out.push({ word: entry.word, answer: entry.english, options });
+			out.push({ word: entry.word, rank: entry.rank, answer: entry.english, options });
 		}
 		return out;
 	})();
@@ -146,7 +148,15 @@
 			<ul class="review" role="list">
 				{#each rounds as r, i}
 					<li class:wrong={picked[i] !== r.answer}>
-						<span class="w" lang={meta.code}>{r.word}</span>
+						<span class="w"
+							><span lang={meta.code}>{r.word}</span>
+							<SpeakButton
+								code={meta.code}
+								rank={r.rank}
+								label="Hear {r.word} in {meta.name}"
+								size={28}
+							/></span
+						>
 						<span class="a">{r.answer}</span>
 						{#if picked[i] !== r.answer}<span class="you">you said “{picked[i]}”</span>{/if}
 					</li>
@@ -170,7 +180,11 @@
 	{:else if rounds.length}
 		{@const r = rounds[at]}
 		<p class="progress">Word {at + 1} of {rounds.length}</p>
-		<p class="word" lang={meta.code}>{r.word}</p>
+		<!-- Hearing the word gives nothing away: the question is what it means. -->
+		<p class="word">
+			<span lang={meta.code}>{r.word}</span>
+			<SpeakButton code={meta.code} rank={r.rank} label="Hear {r.word} in {meta.name}" size={44} />
+		</p>
 
 		<ul class="options" role="list">
 			{#each r.options as option}
@@ -197,6 +211,8 @@
 		{/if}
 	{/if}
 
+	<VoiceCredit codes={[meta.code]} />
+
 	<section class="cta">
 		<h2>Knowing a word and using it are different things.</h2>
 		<p>The second one needs somebody on the other end.</p>
@@ -215,6 +231,10 @@
 	}
 
 	.word {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px 12px;
 		font-family: var(--font--title);
 		font-weight: 800;
 		font-size: clamp(2.125rem, 1.4rem + 3vw, 3.5rem);

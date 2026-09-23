@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
@@ -21,6 +23,8 @@
 	let guessable = new Set<string>();
 	let letters: string[] = [];
 	let answer = '';
+	/** Its rank in the list, for the reading played once the game is over. */
+	let answerRank: number | undefined;
 	let loaded = false;
 
 	let rows: string[] = [];
@@ -45,6 +49,7 @@
 			// changes once a day without anything being stored on a server.
 			const days = Math.floor(Date.parse(today) / 86_400_000);
 			answer = answers[days % answers.length];
+			answerRank = d.answerRanks?.[days % answers.length];
 			loaded = true;
 			restore();
 		} catch {
@@ -240,6 +245,13 @@
 				{:else}
 					Today’s word was <strong lang={meta.code}>{answer}</strong>.
 				{/if}
+				<!-- Only once the game is over: before then it would be the answer. -->
+				<SpeakButton
+					code={meta.code}
+					rank={answerRank}
+					label="Hear {answer} in {meta.name}"
+					size={36}
+				/>
 			</p>
 			<div class="after">
 				<button type="button" class="share" on:click={copyResult}>
@@ -280,6 +292,8 @@
 			{/each}
 		</ul>
 	</nav>
+
+	{#if done}<VoiceCredit codes={[meta.code]} />{/if}
 
 	<section class="cta">
 		<h2>Guessing is one way to meet a word.</h2>
