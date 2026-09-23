@@ -54,17 +54,17 @@ A fourth group is **free to try**: you start with an allowance of minutes or exe
 
 ## Free tiers at a glance
 
-| App | Kind of free | Ads on the free version | What is free | Main free limit |
+| App | Kind of free | No ads | What is free | Main free limit |
 | --- | --- | --- | --- | --- |
-| Speaky | No subscription | Yes on Android | Partner search, chat, AI practice partners | No paid tier to lift anything; quality varies by language pair |
-| InterPals | No subscription | Yes | Profiles, search, messaging | Daily cap on new contacts, which rises the longer you are a member |
-| Conversation Exchange | Free, optional membership | Yes | Search, pen-pal and local meetup requests, ChitChat | Messaging limits; the membership removes them and the ads |
-| HelloTalk | Freemium with ads | Yes | Chat, calls, Moments, Voicerooms, livestreams | Daily caps on translation, transliteration, voice-to-text, AI correction and new partners |
-| Tandem | Freemium with ads | Yes | Chat, corrections, voice messages, calls | 10 new conversations and 3 translations a day; Language Parties up to 60 minutes a day |
-| LangX | Freemium, no ads | No | Unlimited text, replies and corrections | 5 new conversations and 20 translations per rolling 24 hours; no live calls on any plan |
-| Slowly | Free, optional subscription | Yes | Unlimited letters to your pen pals | A quota on friends; letters take hours to arrive by design |
-| Lingbe | Free to try | Yes | Starter minutes of live calls | Keep going by earning credit (helping others), or pay |
-| Busuu | Free to try | Yes | Some lessons and Community corrections | A limited number of exercises sent for correction |
+| Speaky | No subscription | No (ads on Android) | Partner search, chat, AI practice partners | No paid tier to lift anything; quality varies by language pair |
+| InterPals | No subscription | No | Profiles, search, messaging | Daily cap on new contacts, which rises the longer you are a member |
+| Conversation Exchange | Free, optional membership | No | Search, pen-pal and local meetup requests, ChitChat | Messaging limits; the membership removes them and the ads |
+| HelloTalk | Freemium with ads | No | Chat, calls, Moments, Voicerooms, livestreams | Daily caps on translation, transliteration, voice-to-text, AI correction and new partners |
+| Tandem | Freemium with ads | No | Chat, corrections, voice messages, calls | 10 new conversations and 3 translations a day; Language Parties up to 60 minutes a day |
+| LangX | Freemium, no ads | Yes | Unlimited text, replies and corrections | 5 new conversations and 20 translations per rolling 24 hours; no live calls on any plan |
+| Slowly | Free, optional subscription | No | Unlimited letters to your pen pals | A quota on friends; letters take hours to arrive by design |
+| Lingbe | Free to try | No | Starter minutes of live calls | Keep going by earning credit (helping others), or pay |
+| Busuu | Free to try | No | Some lessons and Community corrections | A limited number of exercises sent for correction |
 
 "Ads" follows each app's own statements and whether Google Play marks the app as containing ads, at the time of writing (September 2026).
 

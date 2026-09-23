@@ -36,14 +36,17 @@ export async function load() {
 		return (ia === -1 ? order.length : ia) - (ib === -1 ? order.length : ib);
 	});
 	return {
-		posts: posts.map(({ slug, title, excerpt, coverImage, thumbnail, readingTime, tags }) => ({
-			slug,
-			title,
-			excerpt,
-			coverImage,
-			thumbnail,
-			readingTime,
-			tags
-		}))
+		posts: posts.map(
+			({ slug, title, excerpt, coverImage, thumbnail, readingTime, tags, apps }) => ({
+				slug,
+				title,
+				excerpt,
+				coverImage,
+				thumbnail,
+				readingTime,
+				tags,
+				apps
+			})
+		)
 	};
 }

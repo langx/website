@@ -97,6 +97,7 @@
 							readingTime={post.readingTime}
 							slug={post.slug}
 							tags={post.tags}
+							apps={post.apps}
 						/>
 					</li>
 				{/each}
