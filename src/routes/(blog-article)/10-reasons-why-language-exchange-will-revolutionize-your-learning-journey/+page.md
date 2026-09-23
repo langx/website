@@ -1,5 +1,5 @@
 ---
-title: 10 Reasons Why Language Exchange Will Revolutionize Your Learning Journey
+title: '10 Reasons Language Exchange Will Transform How You Learn'
 slug: 10-reasons-why-language-exchange-will-revolutionize-your-learning-journey
 coverImage: /images/posts/10-reasons-why-language-exchange-will-revolutionize-your-learning-journey.png
 date: 2024-02-28T08:52:31.808Z
