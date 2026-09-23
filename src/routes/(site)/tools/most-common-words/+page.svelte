@@ -597,10 +597,14 @@
 		}
 	}
 
+	// Every row is its own grid, so the columns are fixed widths: sized to
+	// their content, each row lined its language up wherever its own word
+	// ended. 11rem holds the longest word with its IPA; longer ones wrap in
+	// place. 7rem holds "Vietnamese", the longest language name.
 	.group li {
 		position: relative;
 		display: grid;
-		grid-template-columns: auto minmax(6rem, auto) minmax(5rem, auto) 1fr auto;
+		grid-template-columns: auto 11rem 7rem 1fr auto;
 		align-items: center;
 		gap: var(--space-sm);
 		padding: 12px 0;
@@ -609,6 +613,8 @@
 		.term {
 			display: inline-flex;
 			flex-wrap: wrap;
+			min-width: 0;
+			overflow-wrap: anywhere;
 			align-items: center;
 			gap: 0 6px;
 			font-family: var(--font--title);
@@ -638,7 +644,7 @@
 		}
 
 		.rank {
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			font-size: 0.8125rem;
 		}
 
