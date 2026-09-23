@@ -528,7 +528,7 @@ Urdu جنگل (#208) is the most common, and it is where English gets "jungle". 
 | Malay | alam |
 | Tagalog | kalikasan |
 
-Nature is the rarest word here, with 31 languages; Tagalog *kalikasan* (#546) leads. Some rows on the full page mean a person's nature instead, and the Romanian row is spelled *fire*, meaning "essence, nature". For light, dark, moon and star with other languages, see [powerful words in different languages](/beautiful-words-in-different-languages).
+Nature is the rarest word here, with 31 languages; Tagalog *kalikasan* (#546) leads. Some rows on the full page mean a person's nature instead, and the Romanian row is spelled *fire*, meaning "essence, nature". For light, dark, moon and star with other languages, see [powerful words in different languages](/beautiful-words-in-different-languages). For universe, space, planet and night, see [space words in different languages](/space-words-in-different-languages).
 
 [See "nature" in all 31 languages →](/tools/say/nature)
 

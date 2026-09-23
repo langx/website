@@ -414,7 +414,7 @@ On [LangX](/), you're matched with people who speak the language you're learning
   text="Describe your family in the language you're learning. Your partner can hold any message to correct it, and translation is built into the chat if a word stumps you."
 />
 
-For words beyond the family, like freedom, soul and destiny, see [powerful words in different languages](/beautiful-words-in-different-languages).
+For words beyond the family, like freedom, soul and destiny, see [powerful words in different languages](/beautiful-words-in-different-languages). For kings, queens, princes and princesses, see [fantasy words in different languages](/fantasy-words-in-different-languages).
 
 ## FAQ
 

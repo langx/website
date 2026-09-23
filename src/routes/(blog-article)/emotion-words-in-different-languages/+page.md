@@ -369,7 +369,7 @@ On [LangX](/), you're matched with people who speak the language you're learning
   text="Tell a partner about your day in the language you're learning. When a feeling comes out wrong, they can hold your message to correct it, and translation is built into the chat."
 />
 
-For people words, see [family words in different languages](/family-words-in-different-languages), and for words about the world around you, [nature words in different languages](/nature-words-in-different-languages).
+For people words, see [family words in different languages](/family-words-in-different-languages), and for words about the world around you, [nature words in different languages](/nature-words-in-different-languages). For bold words like strong, fate, faith and promise, see [strong words in different languages](/strong-words-in-different-languages).
 
 <Callout type="info">
 Before you use any word from this list for a tattoo, a name or a gift, check it with a native speaker. The data is real, but a single word can't tell you whether it carries the feeling you mean, and some of these, like pride, lean differently from one language to the next.
