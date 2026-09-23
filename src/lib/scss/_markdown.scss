@@ -7,16 +7,42 @@
 			line-height: 1.6;
 		}
 
+		// A post is read in sections, so each H2 opens one: a hairline above it
+		// and room on both sides, at the Title size rather than the page
+		// Headline — a 38px heading every few paragraphs shouted over the text.
 		h2 {
-			margin: 3rem 0 0.6rem;
+			position: relative;
+			font-size: clamp(1.5rem, 1.25rem + 0.9vw, 1.875rem);
+			line-height: 1.2;
+			margin: 3.5rem 0 0.75rem;
+			padding-top: 2rem;
+			border-top: 1px solid var(--color--border);
+			scroll-margin-top: calc(64px + 16px);
 		}
 
 		h3 {
+			position: relative;
 			font-size: 1.25rem;
 			margin: 2rem 0 0.4rem;
+			scroll-margin-top: calc(64px + 16px);
+		}
+
+		ul,
+		ol {
+			padding-left: 1.25rem;
+		}
+
+		li {
+			margin: 0.35rem 0;
+			line-height: 1.55;
+		}
+
+		li::marker {
+			color: var(--color--text-quiet);
 		}
 
 		h4 {
+			position: relative;
 			font-size: 1.125rem;
 			margin: 2rem 0 0.3rem;
 		}
@@ -78,35 +104,136 @@
 			margin: 2.5rem 0;
 		}
 
+		// Wrapped by src/lib/utils/rehype-tables.js: a wide table scrolls inside
+		// its own box on a phone rather than widening the page.
+		.table-wrap {
+			margin: 1.75rem 0;
+			overflow-x: auto;
+			border-top: 1px solid var(--color--border);
+		}
+
 		table {
 			width: 100%;
 			border-collapse: collapse;
-			font-size: 0.95rem;
-			margin: 1.5rem 0;
+			font-size: 0.9375rem;
+
+			// Four columns squeezed into a phone make every cell a column of
+			// single words; past three, the table keeps a readable width and
+			// scrolls sideways inside its wrapper instead.
+			&:has(th:nth-child(4)) {
+				min-width: 36rem;
+			}
 
 			th,
 			td {
 				text-align: left;
-				padding: 10px 8px;
+				vertical-align: top;
+				padding: 12px 12px 12px 0;
 				border-bottom: 1px solid var(--color--border);
 			}
 
 			th {
-				font-size: 0.8rem;
+				font-size: 0.6875rem;
 				font-weight: 700;
+				letter-spacing: 0.04em;
+				text-transform: uppercase;
+				color: var(--color--text-quiet);
+				white-space: nowrap;
+			}
+
+			// The first column names the row.
+			td:first-child {
+				font-weight: 600;
+				color: var(--color--text);
+			}
+
+			// A mark beside the answer, as on /compare: the icon carries the scan,
+			// the word the meaning. Blue checks, as in the plan rows — green
+			// belongs to corrections.
+			// The answer wraps like any other text ("Yes, with ads and daily
+			// caps"); the mark stays at the start of its first line.
+			td.yes,
+			td.no,
+			td.part {
+				&::before {
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					width: 20px;
+					height: 20px;
+					margin-right: 6px;
+					border-radius: var(--radius-pill);
+					font-size: 0.75rem;
+					font-weight: 800;
+					vertical-align: -3px;
+				}
+			}
+
+			td.yes::before {
+				content: '✓';
+				background: var(--color--accent-tint);
+				color: var(--color--accent);
+			}
+
+			td.part {
 				color: var(--color--text-shade);
+
+				&::before {
+					content: '~';
+					background: var(--color--muted);
+					color: var(--color--text-shade);
+				}
+			}
+
+			td.no {
+				color: var(--color--text-quiet);
+
+				&::before {
+					content: '✕';
+					background: var(--color--muted);
+					color: var(--color--text-quiet);
+				}
 			}
 		}
 	}
 
+	// The permalink "#" that rehype-autolink-headings puts in every heading.
+	// It sat in front of each one as a literal "#", which made the posts read
+	// like unrendered markdown; now it hangs in the margin and shows on hover,
+	// for the people who want to copy a link to a section. Touch screens,
+	// which cannot hover, do without it.
 	.heading-link {
-		color: var(--color--text-quiet);
-		text-decoration: none;
-		margin-right: 8px;
-		font-weight: 700;
+		display: none;
+	}
 
-		&:hover {
-			color: var(--color--accent);
+	@media (hover: hover) and (pointer: fine) {
+		.heading-link {
+			display: block;
+			position: absolute;
+			left: -1.1em;
+			bottom: 0.05em;
+			width: 1em;
+			color: var(--color--text-quiet);
+			text-decoration: none;
+			font-weight: 700;
+			opacity: 0;
+			transition: opacity 200ms ease-out, color 200ms ease-out;
+
+			&:hover {
+				color: var(--color--accent);
+			}
+		}
+
+		h2 .heading-link {
+			bottom: auto;
+			top: calc(2rem + 0.1em);
+		}
+
+		h2:hover .heading-link,
+		h3:hover .heading-link,
+		h4:hover .heading-link,
+		.heading-link:focus-visible {
+			opacity: 1;
 		}
 	}
 }

@@ -37,8 +37,11 @@
 		border-radius: var(--radius-lg);
 	}
 
+	// What an app does well sits on the ground with a hairline and blue
+	// checks, like a plan row; a green block read as a correction, which is
+	// the one thing green means on this site.
 	.pros {
-		background: var(--color--success-tint);
+		border: 1px solid var(--color--border);
 	}
 
 	.cons {
@@ -75,10 +78,10 @@
 	}
 
 	.pros span {
-		color: var(--color--success);
+		color: var(--color--accent);
 	}
 
 	.cons span {
-		color: var(--color--text-tertiary);
+		color: var(--color--text-quiet);
 	}
 </style>

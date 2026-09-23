@@ -10,6 +10,8 @@
 	import type { BlogPost } from '$lib/utils/types';
 	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
+	import PostArt from '$lib/components/blog/PostArt.svelte';
+	import PostToc from '$lib/components/blog/PostToc.svelte';
 
 	export let data: { post: BlogPost };
 	$: ({ post } = data);
@@ -118,9 +120,20 @@
 			<div class="cover-image">
 				<Image src={post.coverImage} alt={post.title} />
 			</div>
+		{:else if post}
+			<div class="art">
+				<PostArt {post} />
+			</div>
 		{/if}
-		<div class="content">
-			<slot />
+		<div class="body">
+			{#if post?.headings?.length}
+				<aside class="toc-rail">
+					<PostToc headings={post.headings} />
+				</aside>
+			{/if}
+			<div class="content">
+				<slot />
+			</div>
 		</div>
 	</article>
 
@@ -200,6 +213,34 @@
 		:global(.cover-image img) {
 			max-height: 420px;
 			object-fit: cover;
+		}
+
+		.art {
+			width: min(var(--main-column-width), 100%);
+			margin: 0 auto;
+		}
+
+		.body {
+			position: relative;
+		}
+
+		// "On this page" hangs in the left margin, its right edge 48px off the
+		// text column. It takes the body's font size so that 68ch here is the
+		// same width as the column's 68ch; the list sets its own sizes in rem.
+		// Below 1240px there is no margin wide enough, and the post is read
+		// top to bottom as before.
+		.toc-rail {
+			display: none;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 13.75rem;
+			font-size: 1.0625rem;
+			right: calc(50% + var(--main-column-width) / 2 + 3rem);
+
+			@media (min-width: 1240px) {
+				display: block;
+			}
 		}
 
 		.content {

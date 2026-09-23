@@ -80,7 +80,7 @@
 
 	.lang {
 		font-size: 0.8125rem;
-		color: var(--color--text-tertiary);
+		color: var(--color--text-quiet);
 	}
 
 	figcaption {

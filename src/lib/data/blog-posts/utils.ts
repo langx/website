@@ -8,6 +8,7 @@ import 'prism-svelte';
 import readingTime from 'reading-time';
 import striptags from 'striptags';
 import type { BlogPost } from '$lib/utils/types';
+import { COMPETITORS } from '$lib/data/competitors';
 
 export const importPosts = (render = false) => {
 	const blogImports = import.meta.glob('$routes/*/*/*.md', { eager: true });
@@ -49,9 +50,51 @@ export const filterPosts = (posts: BlogPost[]) => {
 			return {
 				...post,
 				readingTime: readingTimeResult ? readingTimeResult.text : '',
-				relatedPosts: relatedPosts
+				relatedPosts: relatedPosts,
+				headings: post.html ? headingsOf(post.html) : [],
+				apps: post.html ? appsIn(post.title, post.html) : []
 			} as BlogPost;
 		});
+};
+
+/**
+ * The H2s of a rendered post, for the table of contents beside it. This is the
+ * last place the body is at hand — `blog-posts/index.ts` drops it before it
+ * reaches a page — and rehype-slug has already given every heading its id.
+ * The permalink "#" that rehype-autolink-headings puts inside each one is
+ * taken out with the rest of the markup.
+ */
+const headingsOf = (html: string) =>
+	[...html.matchAll(/<h2 id="([^"]+)"[^>]*>([\s\S]*?)<\/h2>/g)]
+		.map(([, id, inner]) => ({
+			id,
+			text: striptags(inner.replace(/<a class="heading-link"[\s\S]*?<\/a>/, ''))
+				.replace(/&amp;/g, '&')
+				.replace(/&#39;|&apos;/g, '’')
+				.replace(/&quot;/g, '"')
+				.trim()
+		}))
+		.filter((h) => h.text);
+
+/**
+ * The apps a post is about, for the art above it: the ones named in the title
+ * first, in the order they appear there, then whichever the body keeps coming
+ * back to. A name mentioned once in passing is not what the post is about.
+ */
+const appsIn = (title: string, html: string) => {
+	const text = striptags(html);
+	const count = (name: string) =>
+		text.match(new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'g'))?.length ??
+		0;
+	const inTitle = COMPETITORS.map((c) => ({ name: c.name, at: title.indexOf(c.name) }))
+		.filter((c) => c.at >= 0)
+		.sort((a, b) => a.at - b.at)
+		.map((c) => c.name);
+	const inBody = COMPETITORS.map((c) => ({ name: c.name, n: count(c.name) }))
+		.filter((c) => c.n >= 2 && !inTitle.includes(c.name))
+		.sort((a, b) => b.n - a.n)
+		.map((c) => c.name);
+	return [...inTitle, ...inBody];
 };
 
 // #region Unexported Functions

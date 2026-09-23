@@ -118,9 +118,10 @@
 		line-height: 1.45;
 	}
 
+	// Blue checks, as in the plan rows; green is kept for corrections.
 	svg path {
 		fill: none;
-		stroke: var(--color--success);
+		stroke: var(--color--accent);
 		stroke-width: 2;
 		stroke-linecap: round;
 		stroke-linejoin: round;

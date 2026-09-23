@@ -127,8 +127,10 @@
 		background: var(--color--accent);
 	}
 
+	// The row the post is pointing at, in ink beside the blue: it stands out
+	// without borrowing green, which on this site means a correction.
 	.highlight .bar {
-		background: var(--color--success);
+		background: var(--color--text);
 	}
 
 	.value {

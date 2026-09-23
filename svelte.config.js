@@ -4,6 +4,7 @@ import { mdsvex } from 'mdsvex';
 import rehypeExternalLinks from 'rehype-external-links';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeTables from './src/lib/utils/rehype-tables.js';
 
 const extensions = ['.svelte', '.md'];
 
@@ -29,6 +30,7 @@ const config = {
 			extensions: extensions,
 			rehypePlugins: [
 				rehypeExternalLinks, // Adds 'target' and 'rel' to external links
+				rehypeTables, // Scroll wrapper and yes/no marks; see the file
 				rehypeSlug, // Adds 'id' attributes to Headings (h1,h2,etc)
 				[
 					rehypeAutolinkHeadings,
