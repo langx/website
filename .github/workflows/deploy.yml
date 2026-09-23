@@ -66,21 +66,22 @@ jobs:
         with:
           name: website
 
-      # `cloudflare/pages-action` is archived and its README points at
-      # `wrangler-action`. Left alone here on purpose: swapping it changes the
-      # command, the token scope and the branch handling of the deploy that
-      # publishes langx.io, and none of that can be tested anywhere but on
-      # main. It is a change of its own, not a version bump.
+      # `cloudflare/pages-action` was archived, then deleted: from 23 Sep 2026
+      # every run failed at "Unable to resolve action", and langx.io stayed on
+      # the 18 Sep deploy. `wrangler-action` is what its README pointed at. It
+      # runs the same `wrangler pages deploy` the old action wrapped, with the
+      # same token, project and branch, so the swap is the command spelled out
+      # rather than a change in what is published. Wrangler compiles Pages
+      # Functions from `functions/` in its working directory — the artifact
+      # root, where the upload step above puts it beside `build/`.
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: website
-          directory: 'build'
+          command: pages deploy build --project-name=website --branch=main
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          wranglerVersion: '3'
+          wranglerVersion: '4'
 
       # Pinned to the last tag rather than @master. The repository is archived
       # and has not moved since 2022, so the branch is not going to change

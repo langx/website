@@ -54,7 +54,7 @@
 			title: `Say it in ${WORD_LISTS.length} languages`,
 			what: `${nf.format(
 				SAY_WORDS.length
-			)} everyday English words, each one shown across every language that has a common word for it — and how often that language uses it.`,
+			)} everyday English words, each one shown across every language that has a common word for it — how often that language uses it, and how it sounds.`,
 			figure: nf.format(SAY_WORDS.length),
 			label: 'words, side by side'
 		},
