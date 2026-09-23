@@ -4,6 +4,7 @@
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
+	import { VOICE_CREDITS } from '$lib/data/voices';
 	import { reveal } from '$lib/utils/reveal';
 
 	/**
@@ -138,7 +139,9 @@
 			<!-- Only once answered: the voice would say which language it is. -->
 			<p class="word">
 				<span lang={round.answer}>{round.word}</span>
-				{#if picked}
+				<!-- Not the voices whose licence asks to be named: the home page has
+				     no room for the credit line the tools pages carry. -->
+				{#if picked && !VOICE_CREDITS[round.answer]}
 					<SpeakButton
 						code={round.answer}
 						rank={round.rank}
