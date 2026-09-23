@@ -70,7 +70,7 @@ If you know one Cyrillic alphabet, this table is the shortcut. It compares the t
 | И sounds like | i in bill | ee in see | ee in see |
 | Е sounds like | e in bet | ye in yes | e in bet |
 | Щ sounds like | shch | longer, softer sh | sht |
-| Х sounds like | ch in loch | ch in loch | h |
+| Х sounds like | ch in loch | ch in loch | ch in loch |
 | Ъ | not used | hard sign, separates | a vowel, u in but |
 | Separating sign before я, ю | apostrophe | ъ | none |
 | How yo is written | йо, ьо | ё | йо, ьо |

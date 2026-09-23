@@ -67,9 +67,9 @@ These are the vowels in their standalone form. The sounds are rough English appr
 | --- | --- | --- |
 | অ | a | o in got |
 | আ | aa | a in father |
-| ই | i | i in bit |
+| ই | i | ee in see |
 | ঈ | ii | ee in see |
-| উ | u | u in put |
+| উ | u | oo in boot |
 | ঊ | uu | oo in boot |
 | ঋ | ri | ri |
 | এ | e | e in they |
@@ -80,7 +80,7 @@ These are the vowels in their standalone form. The sounds are rough English appr
 Two things surprise beginners:
 
 - **অ is named "a" but said like the *o* in "got".** This is the vowel every consonant carries. The name comes from the shared Indian tradition; the sound is Bengali's own.
-- **ই and ঈ, উ and ঊ, are "short" and "long" on paper only.** Modern Bengali lost the difference in vowel length, so ই and ঈ are both said *i*, and উ and ঊ are both said *u*. Our chart keeps the traditional split (bit vs see), but in everyday speech you won't hear it. The difference still matters for spelling, so learn which one a word uses.
+- **ই and ঈ, উ and ঊ, are "short" and "long" on paper only.** Modern Bengali lost the difference in vowel length, so ই and ঈ are both said *i*, and উ and ঊ are both said *u*. Our chart gives each pair the same sound for that reason. The difference still matters for spelling, so learn which one a word uses.
 
 Two of these vowels are also everyday words on their own. ও (o) is a word for "he, she" and is the 52nd most common word on our list; এ (e) is another, at 105th.
 
@@ -114,7 +114,7 @@ A few notes for English speakers:
 
 - **য is a *j*, not a *y*.** In Devanagari the matching letter य is *ya*; in Bengali য sounds like জ. For the *y* sound Bengali uses য় (the same letter with a dot), as in সময় (time, #349 on our list).
 - **ণ and ন sound the same today.** ণ was once said with the tongue curled back; in modern Bengali it is almost always the same *n* as ন. The difference survives in spelling.
-- **শ, ষ and স are usually all *sh*.** Our chart gives স as *s*, and it does keep an *s* sound in some clusters, such as স্ত in রাস্তা (road, #281) or স্ক in স্কুল (school, #496). In many other words, like সময় (time), it is said *sh*.
+- **শ, ষ and স are usually all *sh*.** Our chart gives স as *sh*, with an *s* sound kept in some clusters, such as স্ত in রাস্তা (road, #281) or স্ক in স্কুল (school, #496). In many other words, like সময় (time), it is said *sh*.
 - **There is no separate *v* letter.** ব covers *b*, and loanwords with a *v* are usually written with ভ or ব.
 - **The two t-rows really are different.** ট and ত are both named "ta", but one is said with the tongue curled back and the other with the tongue on the teeth. You'll hear the difference from a native speaker, not from a table.
 

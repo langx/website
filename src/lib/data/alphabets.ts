@@ -207,7 +207,7 @@ export const ALPHABETS: Alphabet[] = [
 Т т | tŭ | t
 У у | u | oo in boot
 Ф ф | fŭ | f
-Х х | hŭ | h
+Х х | hŭ | ch in loch
 Ц ц | tsŭ | ts in cats
 Ч ч | chŭ | ch in chair
 Ш ш | shŭ | sh
@@ -255,7 +255,7 @@ export const ALPHABETS: Alphabet[] = [
 Ќ ќ | kje | soft k, close to ch
 У у | u | oo in boot
 Ф ф | ef | f
-Х х | ha | h
+Х х | ha | ch in loch
 Ц ц | tse | ts in cats
 Ч ч | che | ch in chair
 Џ џ | dzhe | j in jam
@@ -304,7 +304,7 @@ export const ALPHABETS: Alphabet[] = [
 		code: 'hy',
 		script: 'Armenian',
 		kind: 'alphabet',
-		note: 'Thirty-nine letters, devised in the fifth century for this language alone and used for nothing else since. It writes vowels and consonants as equals, and the order below is the traditional one.',
+		note: 'Thirty-eight letters: thirty-six devised in the fifth century for this language alone, and Օ and Ֆ added in the Middle Ages. Reformed Eastern spelling also counts the ligature և, which makes thirty-nine. It writes vowels and consonants as equals, and the order below is the traditional one.',
 		groups: [
 			{
 				title: 'The alphabet',
@@ -342,7 +342,7 @@ export const ALPHABETS: Alphabet[] = [
 Տ տ | tiwn | t
 Ր ր | reh | r
 Ց ց | co | ts with a puff of air
-Ւ ւ | yiwn | w
+Ւ ւ | yiwn | only in ու (u) and և
 Փ փ | piwr | p with a puff of air
 Ք ք | keh | k with a puff of air
 Օ օ | oh | o in more
@@ -370,16 +370,16 @@ export const ALPHABETS: Alphabet[] = [
 ზ | zen | z
 თ | tan | t with a puff of air
 ი | in | ee in see
-კ | kan | sharp k
+კ | k'an | sharp k
 ლ | las | l
 მ | man | m
 ნ | nar | n
 ო | on | o in more
-პ | par | sharp p
+პ | p'ar | sharp p
 ჟ | zhan | s in measure
 რ | rae | rolled r
 ს | san | s
-ტ | tar | sharp t
+ტ | t'ar | sharp t
 უ | un | oo in boot
 ფ | par | p with a puff of air
 ქ | kan | k with a puff of air
@@ -389,8 +389,8 @@ export const ALPHABETS: Alphabet[] = [
 ჩ | chin | ch with a puff of air
 ც | can | ts with a puff of air
 ძ | jil | dz
-წ | cil | sharp ts
-ჭ | char | sharp ch
+წ | c'il | sharp ts
+ჭ | ch'ar | sharp ch
 ხ | xan | ch in loch
 ჯ | jhan | j in jam
 ჰ | hae | h
@@ -583,7 +583,7 @@ export const ALPHABETS: Alphabet[] = [
 ल | la | l
 व | va | v or w
 श | sha | sh
-ष | sha | sh, tongue curled back
+ष | sha | sh; most speakers say it like श
 स | sa | s
 ह | ha | h
 `)
@@ -601,10 +601,10 @@ export const ALPHABETS: Alphabet[] = [
 				letters: L(`
 অ | a | o in got
 আ | aa | a in father
-ই | i | i in bit
-ঈ | ii | ee in see
-উ | u | u in put
-ঊ | uu | oo in boot
+ই | i | ee in see
+ঈ | ii | ee in see, the same sound as ই
+উ | u | oo in boot
+ঊ | uu | oo in boot, the same sound as উ
 ঋ | ri | ri
 এ | e | e in they
 ঐ | oi | oy in boy
@@ -629,7 +629,7 @@ export const ALPHABETS: Alphabet[] = [
 ঠ | tha | the same with a puff of air
 ড | da | d, tongue curled back
 ঢ | dha | the same with a puff of air
-ণ | na | n, tongue curled back
+ণ | na | n, said like ন today
 ত | ta | t on the teeth
 থ | tha | the same with a puff of air
 দ | da | d on the teeth
@@ -645,7 +645,7 @@ export const ALPHABETS: Alphabet[] = [
 ল | la | l
 শ | sha | sh
 ষ | sha | sh
-স | sa | s
+স | sa | sh; s in clusters like স্ত and স্ক
 হ | ha | h
 `)
 			}

@@ -100,11 +100,11 @@ Fifteen of the 28 consonants fall into five sets of three. In each set there is 
 
 | Sound family | Voiced | With a puff of air | Sharp (ejective) |
 | --- | --- | --- | --- |
-| p | ბ ban (b) | ფ par | პ par |
-| t | დ don (d) | თ tan | ტ tar |
-| k | გ gan (g) | ქ kan | კ kan |
-| ts | ძ jil (dz) | ც can | წ cil |
-| ch | ჯ jhan (j) | ჩ chin | ჭ char |
+| p | ბ ban (b) | ფ par | პ p'ar |
+| t | დ don (d) | თ tan | ტ t'ar |
+| k | გ gan (g) | ქ kan | კ k'an |
+| ts | ძ jil (dz) | ც can | წ c'il |
+| ch | ჯ jhan (j) | ჩ chin | ჭ ch'ar |
 | q | | | ყ qar (k from the throat) |
 
 The other 12 consonants are close to English sounds, with two exceptions marked below:
@@ -132,9 +132,9 @@ A useful first approximation for English speakers: the k in "skin" has no puff o
 
 The difference changes meaning. On our common words list, **კარი** (door, #733) starts with the sharp k, and **ქარი** (wind, #1,084) starts with the aspirated one. Say both to a Georgian speaker and they will hear two different words.
 
-### Letters that share a name on our chart
+### Telling the sharp letters apart by name
 
-Our chart spells the names without apostrophes, so two pairs look identical: კ and ქ are both "kan", and პ and ფ are both "par". Georgian textbooks usually write the sharp one with an apostrophe (k'ani, p'ari) to keep them apart. Go by the shape and the sound column, not the name.
+The sharp (ejective) letters have almost the same names as their partners with a puff of air: კ is k'an and ქ is kan, პ is p'ar and ფ is par. Our chart writes the apostrophe the way Georgian textbooks do (they spell the full names k'ani and p'ari), and it marks ტ t'ar, წ c'il and ჭ ch'ar the same way. The apostrophe is the sharp sound.
 
 ## Consonant clusters
 

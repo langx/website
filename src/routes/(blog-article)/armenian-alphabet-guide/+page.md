@@ -82,7 +82,7 @@ Armenian has seven vowel letters, plus one two-letter combination for the oo sou
 
 Two pairs share a sound. ե and է are both e, and ո and օ are both o; the difference is that ե adds a y and ո adds a v at the start of a word. So երեկ (yesterday, #527) is *ye-rek*, and ոչ (no, #11) is *voch*.
 
-The oo sound has no letter of its own: it is written with two letters, ո plus ւ, much as Greek writes it with ου. Our chart gives ւ (yiwn) the sound "w"; in modern Eastern spelling you will meet it almost only inside ու and inside the ligature և, so read ու as a single oo.
+The oo sound has no letter of its own: it is written with two letters, ո plus ւ, much as Greek writes it with ου. In modern Eastern spelling you will meet ւ (yiwn) only inside ու and inside the ligature և, as our chart notes, so read ու as a single oo.
 
 ## Armenian consonants
 
