@@ -44,8 +44,23 @@ def too_long(seconds: float, word: str) -> bool:
 
 
 # Piper samples noise into every reading, so a word that rambles once may not
-# the next time. Past this many tries the row goes without a button.
+# the next time. Each way of asking below gets this many tries.
 TRIES = 3
+
+# How to ask again when the plain word keeps rambling: (how the text is
+# written, Piper's noise scales or None for the voice's own). A full stop tells
+# the model the utterance ends there, and that is most of what a VITS voice
+# trained on sentences is missing from a lone word — measured on 23 September
+# 2026 against forty Finnish words that had failed three plain tries, "word."
+# read twenty of them cleanly and "Word." with the noise turned down
+# twenty-two, where three more plain tries managed four. Only words the plain
+# reading failed ever get here, so nothing already cached changes. Past the
+# last way the row goes without a button.
+ASKS = [
+    (lambda w: w, None),
+    (lambda w: w + ".", None),
+    (lambda w: w[:1].upper() + w[1:] + ".", 0.333),
+]
 
 # The first voice `SPEECH_VOICES` lists for each of Kokoro's six: the one chat
 # plays, and the one a language leads with. `server.LANGUAGES` holds them as a
@@ -137,6 +152,31 @@ def limit_threads(threads: int) -> None:
     ort.InferenceSession = session
 
 
+def piper_wav(voice, text: str, noise: float | None) -> bytes:
+    """`server.piper_wav`, with the noise scales settable."""
+    if noise is None:
+        return server.piper_wav(voice, text)
+    import io
+    import wave
+
+    from piper import SynthesisConfig
+
+    config = SynthesisConfig(noise_scale=noise, noise_w_scale=noise)
+    buffer = io.BytesIO()
+    with wave.open(buffer, "wb") as out:
+        written = False
+        for chunk in voice.synthesize(text, syn_config=config):
+            if not written:
+                out.setframerate(chunk.sample_rate)
+                out.setsampwidth(chunk.sample_width)
+                out.setnchannels(chunk.sample_channels)
+                written = True
+            out.writeframes(chunk.audio_int16_bytes)
+        if not written:
+            raise ValueError("piper produced no audio")
+    return buffer.getvalue()
+
+
 def synthesise(job) -> tuple[str, int, int]:
     """One language's share of the words, into the cache. Returns counts."""
     code, words, cache = job
@@ -147,17 +187,20 @@ def synthesise(job) -> tuple[str, int, int]:
         if target.exists():
             continue
         pcm = None
-        for _ in range(TRIES):
+        # Kokoro takes no noise setting; it gets the rewritten text alone.
+        attempts = [(ask, noise) for ask, noise in ASKS for _ in range(TRIES)]
+        for ask, noise in attempts:
+            text = ask(word)
             try:
                 if engine == "kokoro":
                     global _kokoro
                     if _kokoro is None:
                         _kokoro = server.load_kokoro()
                     espeak_lang, _ = server.LANGUAGES[code]
-                    samples, rate = _kokoro.create(word, voice=voice, speed=1.0, lang=espeak_lang)
+                    samples, rate = _kokoro.create(text, voice=voice, speed=1.0, lang=espeak_lang)
                     wav = server.kokoro_wav(samples, rate)
                 else:
-                    wav = server.piper_wav(server.load_piper(voice["id"], voice["model"]), word)
+                    wav = piper_wav(server.load_piper(voice["id"], voice["model"]), text, noise)
                 reading = to_pcm(wav)
             except Exception as caught:  # one bad word must not cost the batch
                 print(f"  {code} {word!r}: {caught}", flush=True)
