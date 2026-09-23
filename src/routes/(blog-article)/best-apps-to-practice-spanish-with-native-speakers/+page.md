@@ -157,3 +157,5 @@ Yes. HelloTalk and Tandem include free calls with partners, and Conversation Exc
 ### Is Dreaming Spanish enough to become fluent?
 
 It builds listening very well, but most learners also need to speak with people to become comfortable producing Spanish. Use it alongside a language exchange partner or a tutor.
+
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.

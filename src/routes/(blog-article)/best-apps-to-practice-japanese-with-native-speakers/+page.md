@@ -162,3 +162,5 @@ Yes. HelloTalk and Tandem include free calls with exchange partners. LangX suppo
 ### Do I need to read Japanese before using an exchange app?
 
 Not strictly, since translation and romanization help at first, but learning hiragana and katakana first makes every conversation easier and earns you better corrections.
+
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.

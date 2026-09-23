@@ -153,3 +153,5 @@ On big apps they receive a lot of messages. Mention their profile, offer help wi
 ### Are AI apps as good as native speakers?
 
 No, but they are a useful warm-up. Use Speak or Praktika to build confidence, and real people for the humor, culture and natural phrasing AI tends to smooth over.
+
+More guides in this series: practicing [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.

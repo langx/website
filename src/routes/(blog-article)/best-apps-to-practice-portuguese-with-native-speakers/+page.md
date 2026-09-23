@@ -150,8 +150,6 @@ For what to talk about next, see our [conversation topics](/language-exchange-co
 A good first month: one exchange partner from the country you care about, messaged daily; one live conversation a week; and 15 minutes a day of Portuguese audio or video you mostly understand.
 </Callout>
 
-More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
-
 ## FAQ
 
 ### What is the best app to practice Portuguese with native speakers?
@@ -169,3 +167,5 @@ Use a country filter to show partners in Portugal, say in your profile that you 
 ### Can I practice Portuguese speaking for free?
 
 Yes. HelloTalk and Tandem include free calls with partners, and Lingbe gives some free practice time for live calls. LangX supports voice messages but not live calls.
+
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.
