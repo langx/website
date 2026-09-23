@@ -2,13 +2,14 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	type Entry = { rank: number; word: string; english: string };
+	type Entry = { rank: number; word: string; english: string; ipa: string };
 
 	export let data: {
 		meta: WordListMeta;
@@ -29,7 +30,7 @@
 		};
 	}
 
-	type Round = { word: string; rank: number; answer: string; options: string[] };
+	type Round = { word: string; rank: number; ipa: string; answer: string; options: string[] };
 
 	$: rounds = (() => {
 		const rand = rng(Math.floor(Date.parse(today) / 86_400_000) + meta.code.charCodeAt(0) * 7919);
@@ -50,7 +51,13 @@
 				const j = Math.floor(rand() * (k + 1));
 				[options[k], options[j]] = [options[j], options[k]];
 			}
-			out.push({ word: entry.word, rank: entry.rank, answer: entry.english, options });
+			out.push({
+				word: entry.word,
+				rank: entry.rank,
+				ipa: entry.ipa,
+				answer: entry.english,
+				options
+			});
 		}
 		return out;
 	})();
@@ -155,7 +162,8 @@
 								rank={r.rank}
 								label="Hear {r.word} in {meta.name}"
 								size={28}
-							/></span
+							/>
+							<Ipa ipa={r.ipa} /></span
 						>
 						<span class="a">{r.answer}</span>
 						{#if picked[i] !== r.answer}<span class="you">you said “{picked[i]}”</span>{/if}
@@ -184,6 +192,8 @@
 		<p class="word">
 			<span lang={meta.code}>{r.word}</span>
 			<SpeakButton code={meta.code} rank={r.rank} label="Hear {r.word} in {meta.name}" size={44} />
+			<!-- Nor does reading it: the sound of a word is not its meaning. -->
+			<span class="say"><Ipa ipa={r.ipa} large /></span>
 		</p>
 
 		<ul class="options" role="list">
@@ -242,6 +252,12 @@
 		letter-spacing: -0.02em;
 		padding: var(--space-sm) 0 var(--space-lg);
 		overflow-wrap: anywhere;
+
+		.say {
+			flex-basis: 100%;
+			line-height: 1.5;
+			letter-spacing: 0;
+		}
 	}
 
 	.options {

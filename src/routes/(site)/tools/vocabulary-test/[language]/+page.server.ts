@@ -34,8 +34,8 @@ export async function load({ params }) {
 		.slice(1)
 		.filter(Boolean)
 		.map((line) => {
-			const [rank, word, english] = line.split('\t');
-			return { rank: Number(rank), word, english: english ?? '' };
+			const [rank, word, english, ipa] = line.split('\t');
+			return { rank: Number(rank), word, english: english ?? '', ipa: ipa ?? '' };
 		});
 
 	// A deterministic spread: the same page always offers the same words, so a

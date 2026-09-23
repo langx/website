@@ -3,6 +3,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -15,6 +16,8 @@
 		word: string;
 		rank: number;
 		gloss: string;
+		/** IPA with its brackets; empty where there is none. */
+		ipa: string;
 		name: string;
 		native: string;
 		slug: string;
@@ -307,7 +310,11 @@
 					class:wide={phoneWide[i]}
 					style="--len: {Math.max(letters(r), 6)}; --k: {WIDE_SCRIPT.has(r.code) ? 105 : 130}"
 				>
-					<span class="big" lang={r.code} dir={RTL.has(r.code) ? 'rtl' : undefined}>{r.word}</span>
+					<span
+						><span class="big" lang={r.code} dir={RTL.has(r.code) ? 'rtl' : undefined}
+							>{r.word}</span
+						><Ipa ipa={r.ipa} block /></span
+					>
 					<span class="which">
 						<span class="lang-name">{r.name}</span>
 						{#if r.audio}<SpeakButton label="Hear {r.word} in {r.name}" play={say(r.audio)} />{/if}
@@ -356,7 +363,7 @@
 					><span lang={r.code}>{r.word}</span>{#if r.audio}<SpeakButton
 							label="Hear {r.word} in {r.name}"
 							play={say(r.audio)}
-						/>{/if}</span
+						/>{/if}<Ipa ipa={r.ipa} block /></span
 				>
 				{#if adds(r.gloss, entry.word)}<span class="gloss">{r.gloss}</span>{:else}<span />{/if}
 				<span class="rank tabular">#{nf.format(r.rank)}</span>
@@ -468,8 +475,14 @@
 
 	.term {
 		display: inline-flex;
+		flex-wrap: wrap;
 		align-items: center;
-		gap: 6px;
+		gap: 0 6px;
+
+		// The pronunciation takes a line of its own under the word.
+		:global(.ipa) {
+			flex-basis: 100%;
+		}
 		font-family: var(--font--title);
 		font-weight: 800;
 		overflow-wrap: anywhere;
@@ -530,6 +543,7 @@
 	}
 
 	.big {
+		display: block;
 		font-family: var(--font--title);
 		font-weight: 800;
 		// Short words at full size; long ones shrink to fit their tile on one

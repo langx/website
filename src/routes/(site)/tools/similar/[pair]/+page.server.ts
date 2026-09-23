@@ -3,6 +3,7 @@ import path from 'node:path';
 import { error } from '@sveltejs/kit';
 import { LANGUAGE_PAIRS } from '$lib/data/language-pairs';
 import { WORD_LISTS } from '$lib/data/most-common-words';
+import { ipaMap } from '$lib/server/ipa';
 
 /** Enough to make the case; the file has the rest. */
 const SHOWN = 200;
@@ -40,5 +41,13 @@ export async function load({ params }) {
 			p.slug !== pair.slug && (p.a === pair.a || p.b === pair.a || p.a === pair.b || p.b === pair.b)
 	).slice(0, 8);
 
-	return { pair, a, b, rows: rows.slice(0, SHOWN), total: rows.length, shown: SHOWN, others };
+	// Spelled the same is not said the same, so each language keeps its own.
+	const [ipaA, ipaB] = await Promise.all([ipaMap(a.slug), ipaMap(b.slug)]);
+	const listed = rows.slice(0, SHOWN).map((r) => ({
+		...r,
+		ipaA: ipaA.get(r.word.toLowerCase()) ?? '',
+		ipaB: ipaB.get(r.word.toLowerCase()) ?? ''
+	}));
+
+	return { pair, a, b, rows: listed, total: rows.length, shown: SHOWN, others };
 }

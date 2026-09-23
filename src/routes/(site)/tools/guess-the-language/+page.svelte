@@ -4,6 +4,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
@@ -13,9 +14,9 @@
 	const OPTIONS = 4;
 	const byCode = new Map(WORD_LISTS.map((l) => [l.code, l]));
 
-	type Round = { word: string; rank: number; answer: string; options: string[] };
+	type Round = { word: string; rank: number; ipa: string; answer: string; options: string[] };
 
-	let pool: [string, string, number][] = [];
+	let pool: [string, string, number, string?][] = [];
 	let rounds: Round[] = [];
 	let at = 0;
 	let picked: (string | null)[] = [];
@@ -53,7 +54,7 @@
 		const out: Round[] = [];
 		let guard = 0;
 		while (out.length < ROUNDS && guard++ < 5000) {
-			const [word, code, rank] = pool[Math.floor(rand() * pool.length)];
+			const [word, code, rank, ipa = ''] = pool[Math.floor(rand() * pool.length)];
 			if (used.has(code) || !byCode.has(code)) continue;
 			used.add(code);
 			const options = [code];
@@ -66,7 +67,7 @@
 				const j = Math.floor(rand() * (i + 1));
 				[options[i], options[j]] = [options[j], options[i]];
 			}
-			out.push({ word, rank, answer: code, options });
+			out.push({ word, rank, ipa, answer: code, options });
 		}
 		rounds = out;
 		picked = Array(out.length).fill(null);
@@ -133,7 +134,8 @@
 								rank={r.rank}
 								label="Hear {r.word} in {right?.name}"
 								size={28}
-							/></span
+							/>
+							<Ipa ipa={r.ipa} /></span
 						>
 						<span class="a">
 							{#if right}<ScriptDisc
@@ -176,6 +178,7 @@
 					label="Hear {r.word} in {byCode.get(r.answer)?.name}"
 					size={44}
 				/>
+				<span class="say"><Ipa ipa={r.ipa} large /></span>
 			{/if}
 		</p>
 
@@ -243,6 +246,12 @@
 		letter-spacing: -0.02em;
 		padding: var(--space-sm) 0 var(--space-lg);
 		overflow-wrap: anywhere;
+
+		.say {
+			flex-basis: 100%;
+			line-height: 1.5;
+			letter-spacing: 0;
+		}
 	}
 
 	.options {

@@ -13,7 +13,7 @@ const IDX = () => path.join(process.cwd(), 'static/data/most-common-words/idx/e'
  * Loaded once for the whole prerender rather than once per page: there are
  * nearly a thousand of these and they share a few hundred shards.
  */
-const shards = new Map<string, Record<string, [string, string, number, string][]>>();
+const shards = new Map<string, Record<string, [string, string, number, string, string?][]>>();
 let split: string[] | null = null;
 
 async function rowsFor(word: string) {
@@ -45,7 +45,7 @@ export async function load({ params }) {
 	const spans: Record<string, [number, number]> =
 		(SAY_AUDIO as unknown as Record<string, Record<string, [number, number]>>)[entry.slug] ?? {};
 	const rows = (await rowsFor(entry.word))
-		.map(([code, word, rank, gloss]) => {
+		.map(([code, word, rank, gloss, ipa]) => {
 			const lang = byCode.get(code);
 			return lang
 				? {
@@ -53,6 +53,7 @@ export async function load({ params }) {
 						word,
 						rank,
 						gloss,
+						ipa: ipa ?? '',
 						name: lang.name,
 						native: lang.nativeName,
 						slug: lang.slug,

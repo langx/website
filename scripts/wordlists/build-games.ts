@@ -57,6 +57,8 @@ const wordGame: { code: string; slug: string; name: string; answers: number }[] 
 /** word -> the languages it appears in, for the language quiz. */
 const seenIn = new Map<string, Set<string>>();
 const rankOf = new Map<string, number>();
+/** `code|word` -> IPA, for the language quiz's answer reveal. */
+const ipaOf = new Map<string, string>();
 
 for (const lang of langs) {
 	const rows = (await readFile(path.join(DATA, `${lang.slug}.tsv`), 'utf8'))
@@ -65,9 +67,10 @@ for (const lang of langs) {
 		.filter(Boolean)
 		.map((line) => line.split('\t'));
 
-	for (const [rank, word] of rows) {
+	for (const [rank, word, , ipa] of rows) {
 		if (Number(rank) > 3000) break;
 		const key = word.toLowerCase();
+		if (ipa && !ipaOf.has(`${lang.code}|${key}`)) ipaOf.set(`${lang.code}|${key}`, ipa);
 		if (!seenIn.has(key)) seenIn.set(key, new Set());
 		seenIn.get(key)?.add(lang.code);
 		const prev = rankOf.get(key);
@@ -80,14 +83,17 @@ for (const lang of langs) {
 	// Each answer's rank in the list, beside it, so the game can play the
 	// reading once the word is out (`$lib/utils/wordAudio`, keyed by rank).
 	const answerRanks: number[] = [];
+	// And its pronunciation, shown with the reveal.
+	const answerIpa: string[] = [];
 	const guesses: string[] = [];
-	for (const [rank, word] of rows) {
+	for (const [rank, word, , ipa] of rows) {
 		const w = word.toLowerCase();
 		if (!isWord(w)) continue;
 		if (Number(rank) <= GUESS_DEPTH) guesses.push(w);
 		if (Number(rank) <= ANSWER_DEPTH) {
 			answers.push(w);
 			answerRanks.push(Number(rank));
+			answerIpa.push(ipa ?? '');
 		}
 	}
 	if (answers.length < MIN_ANSWERS) continue;
@@ -100,19 +106,20 @@ for (const lang of langs) {
 
 	await writeFile(
 		path.join(OUT, 'word', `${lang.slug}.json`),
-		JSON.stringify({ answers, answerRanks, guesses, letters })
+		JSON.stringify({ answers, answerRanks, answerIpa, guesses, letters })
 	);
 	wordGame.push({ code: lang.code, slug: lang.slug, name: lang.name, answers: answers.length });
 }
 
 // A word in exactly one language is a fair question; "no" is in eleven.
-const unique: [string, string, number][] = [];
+const unique: [string, string, number, string][] = [];
 for (const [word, codes] of seenIn) {
 	if (codes.size !== 1) continue;
 	if ([...word].length < 3 || /[^\p{L}]/u.test(word)) continue;
 	const rank = rankOf.get(word) as number;
 	if (rank > 1500) continue;
-	unique.push([word, [...codes][0], rank]);
+	const code = [...codes][0];
+	unique.push([word, code, rank, ipaOf.get(`${code}|${word}`) ?? '']);
 }
 unique.sort((a, b) => a[2] - b[2]);
 await writeFile(path.join(OUT, 'languages.json'), JSON.stringify(unique.slice(0, 4000)));
