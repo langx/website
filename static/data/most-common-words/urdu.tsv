@@ -9,7 +9,7 @@ rank	word	english	ipa
 8	سے	comparative postposition: than	/seː/
 9	ہیں	to be, to exist	/ɦɛ̃ː/
 10	کو	in, at the time of	/koː/
-11	اس	third-person singular objective personal pronoun: him, her,…	
+11	اس	third-person singular objective personal pronoun: him, her,…	/ɪs/
 12	نے	The marker of the ergative case with perfective-aspect…	/neː/
 13	یہ	this; he; she; it; they	/jəɦ/
 14	کیا	initial interrogative particle	/kjɑː/
@@ -28,17 +28,17 @@ rank	word	english	ipa
 27	مجھے	first-person singular subjective personal pronoun: I	/mʊ.d͡ʒʱeː/
 28	بھی	too, also, as well	/bʱiː/
 29	تو	second-person singular subjective personal pronoun: you,…	/t̪uː/
-30	ٹھیک	exactly	
+30	ٹھیک	exactly	/ʈʰiːk/
 31	کچھ	something	/kʊt͡ʃʰ/
 32	کوئی	any	/koː.iː/
 33	سب	all	/səb/
 34	یہاں	here	/jə.ɦɑ̃ː/
 35	ساتھ	together	/sɑːt̪ʰ/
 36	ہاں	yes	/ɦɑ̃ː/
-37	ان	third-person plural objective personal pronoun: them	
+37	ان	third-person plural objective personal pronoun: them	/ɪn/
 38	گیا	to go, to leave	/ɡə.jɑː/
-39	اسے	this; he; she; it; they	
-40	اب	now, presently	
+39	اسے	this; he; she; it; they	/ɪseː/
+40	اب	now, presently	/əb/
 41	طرح	method, manner, mode	/t̪ə.ɾɑː/
 42	لیکن	but	/leː.kɪn/
 43	صرف	only, just	/sɪɾf/
@@ -77,7 +77,7 @@ rank	word	english	ipa
 76	واپس	back	/ʋɑː.pəs/
 77	ہمیں	first-person plural subjective or objective personal…	/ɦə.mẽː/
 78	نہ	not, don't, do not	/nə/
-79	ہر	each	
+79	ہر	each	/ɦəɾ/
 80	مجھ	first-person singular subjective personal pronoun: I	/mʊd͡ʒʱ/
 81	پاس	near, nearby	/pɑːs/
 82	طرف	side	/t̪ə.ɾəf/
@@ -99,13 +99,13 @@ rank	word	english	ipa
 98	نام	name	/nɑːm/
 99	لیے	to take, get	/lɪ.jeː/
 100	اوہ	oh no!	/uːɦ/
-101	جانا	to go, to leave	
+101	جانا	to go, to leave	/d͡ʒɑːnɑː/
 102	کوشش	effort	/koː.ʃɪʃ/
-103	ماں	mother	
+103	ماں	mother	/mɑː̃/
 104	ہوا	to be, to exist	/ɦuː.ɑː/
 105	خیال	thought, idea, opinion; reasoning, contemplation	/xə.jɑːl/
 106	رات	night, nighttime	/ɾɑːt̪/
-107	وجہ	face, visage, countenance, aspect	
+107	وجہ	face, visage, countenance, aspect	/ʋəd͡ʒə/
 108	دن	day	/d̪ɪn/
 109	بار	time, turn, occasion, instance, occurrence	/bɑːɾ/
 110	بس	merely, only	/bəs/
@@ -118,7 +118,7 @@ rank	word	english	ipa
 117	دنیا	world	/d̪ʊn.jɑː/
 118	تیار	ready	/t̪ə̯i.jɑːɾ/
 119	صاحب	sir	/sɑː.ɦɪb/
-120	ابھی	immediately, right away, shortly, at once, this instant,…	
+120	ابھی	immediately, right away, shortly, at once, this instant,…	/əbʱiː/
 121	استعمال	use, usage, utilisation, employment	/ɪs.t̪eː.mɑːl/
 122	ہمیشہ	always	/ɦə.meː.ʃɑ(ː)/
 123	بالکل	absolutely	/bɪl.kʊl/
@@ -128,7 +128,7 @@ rank	word	english	ipa
 127	والد	father	/ʋɑː.lɪd̪/
 128	معلوم	known	/mɑː.luːm/
 129	سال	year	/sɑːl/
-130	واقعی	really, truly, verily, certainly, actually, indeed	
+130	واقعی	really, truly, verily, certainly, actually, indeed	/ʋɑːqɪiː/
 131	آج	today	/ɑːd͡ʒ/
 132	بغیر	without	/bə.ɣɛːɾ/
 133	شاید	maybe, perhaps	/ʃɑː.jəd̪/
@@ -145,7 +145,7 @@ rank	word	english	ipa
 144	ختم	finished	/xət̪m/
 145	خود	reflexive pronoun: oneself, one's own	/xʊd̪/
 146	چیز	thing	/t͡ʃiːz/
-147	شروع	beginning	
+147	شروع	beginning	/ʃʊɾuː/
 148	منٹ	minute	/mɪ.nəʈ/
 149	اندر	inside	/ən.d̪əɾ/
 150	قسم	kind, type, category, brand	/qɪsm/
@@ -164,7 +164,7 @@ rank	word	english	ipa
 163	شہر	city	/ʃəɦɾ/
 164	پوشیدہ	hidden, concealed, secret, not visible	/poː.ʃiː.d̪ᵊ/
 165	مسئلہ	problem, issue	/məs.ʔə.lɑ(ː)/
-166	آخر	after all	
+166	آخر	after all	/ɑːxɪɾ/
 167	موجود	existing	/mɔː.d͡ʒuːd̪/
 168	بڑا	big, large, huge	/bə.ɽɑː/
 169	آیا	to come, to arrive	/ɑː.jɑː/
@@ -198,14 +198,14 @@ rank	word	english	ipa
 197	کہانی	story, tale	/kə.ɦɑː.niː/
 198	دوبارہ	again, anew, twice, second time, newly	/d̪oː.bɑː.ɾɑː/
 199	کل	tomorrow	/kəl/
-200	جلدی	quickness	
+200	جلدی	quickness	/d͡ʒəld̪iː/
 201	پانچ	five	/pɑ̃ːt͡ʃ/
 202	انسان	human	/ɪn.sɑːn/
 203	محسوس	felt, sensed, perceived	/məɦ.suːs/
 204	پال	a male given name from English, equivalent to English Paul	/pɑːl/
 205	گولی	bullet; pellet	/ɡoː.liː/
 206	ہیک	hiccup	/ɦiːk/
-207	درمیان	in the middle or midst	
+207	درمیان	in the middle or midst	/d̪əɾmɪjɑːn/
 208	جنگل	jungle, forest, wilderness	/d͡ʒəŋ.ɡəl/
 209	کھانا	to eat	/kʰɑː.nɑː/
 210	جناب	sir, mister	/d͡ʒə.nɑːb/
@@ -220,7 +220,7 @@ rank	word	english	ipa
 219	بنا	without, prepared without	/bɪ.nɑː/
 220	زندہ	alive, living	/zɪn.d̪ɑ(ː)/
 221	آخری	final, last	/ɑː.xɪ.ɾiː/
-222	اتنا	as much as	
+222	اتنا	as much as	/ɪt̪nɑː/
 223	گاڑی	car	/ɡɑː.ɽiː/
 224	آگے	forward	/ɑː.ɡeː/
 225	غیر	other	/ɣɛːɾ/
@@ -232,7 +232,7 @@ rank	word	english	ipa
 231	خاندان	family	/xɑːn.d̪ɑːn/
 232	واضح	evident, manifest, elaborate, clear, apparent	/ʋɑː.ziːɦ/
 233	بے	not, non, un-, in-, dis-, ir, -less, im-	/beː/
-234	لڑکے	boy	
+234	لڑکے	boy	/ləɽkeː/
 235	سرور	exhilaration, delight, joy, cheerfulness	/sʊ.ɾuːɾ/
 236	مقصد	purpose	/məq.səd̪/
 237	مزید	greater, increased	/mə.ziːd̪/
@@ -250,7 +250,7 @@ rank	word	english	ipa
 249	چیزیں	direct plural of چِیز	/t͡ʃiː.zẽː/
 250	حق	a right	/ɦəq/
 251	آرام	rest	/ɑː.ɾɑːm/
-252	افسوس	sorrow	
+252	افسوس	sorrow	/əfsoːs/
 253	قریب	nearly	/qə.ɾiːb/
 254	جھوٹ	lie, fib, falsehood, fabrication	/d͡ʒʱuːʈ/
 255	اتارنا	to lessen	/ʊ.t̪ɑːɾ.nɑː/
@@ -278,11 +278,11 @@ rank	word	english	ipa
 277	فکر	concern	/fɪkɾ/
 278	چیزوں	oblique plural of چِیز	/t͡ʃiː.zõː/
 279	سن	age	/sɪn/
-280	مگر	but	
+280	مگر	but	/məɡəɾ/
 281	تباہ	destroyed, ruined	/t̪ə.bɑːɦ/
 282	سوال	question	/sə.ʋɑːl/
 283	بیٹا	son, boy	/beː.ʈɑː/
-284	اسی	eighty	
+284	اسی	eighty	/əssiː/
 285	عظیم	great, grand, vast, magnificent	/(ʔ)ə.ziːm/
 286	تحفظ	security, protection, safeguarding, preservation,…	/t̪ə.ɦəf.fʊz/
 287	خاص	special	/xɑːs/
@@ -296,7 +296,7 @@ rank	word	english	ipa
 295	برا	bad	/bʊ.ɾɑː/
 296	از	from, by	/əz/
 297	ہوائی	aerial	/ɦə.ʋɑː.iː/
-298	سنا	always	
+298	سنا	always	/sənɑː/
 299	درست	in good condition; unbroken, in working order	/d̪ʊ.ɾʊst̪/
 300	توجہ	attention, care	/t̪ə.ʋəd̪.d͡ʒʊ(ɦ)/
 301	گائے	cow	/ɡɑː.eː/
@@ -311,17 +311,17 @@ rank	word	english	ipa
 310	بچوں	oblique plural of بَچَّہ	/bət̪.t͡ʃõː/
 311	ہمارا	first-person plural possessive pronoun: ours; plural of میرا	/ɦə.mɑː.ɾɑː/
 312	زبان	tongue	/zə.bɑːn/
-313	فوری	immediate, urgent, prompt, rapid, instantaneous, instant	
+313	فوری	immediate, urgent, prompt, rapid, instantaneous, instant	/fɔːɾiː/
 314	سوالات	formal plural of سَوَال	/sə.ʋɑː.lɑːt̪/
 315	چوری	theft	/t͡ʃoː.ɾiː/
 316	مذاق	fun, joke	/mə.zɑːq/
 317	شادی	wedding, marriage	/ʃɑː.d̪iː/
 318	ہوشیار	clever, smart	/ɦoː.ʃɪ.jɑːɾ/
-319	جلد	soon	
-320	حل	solution, resolution	
+319	جلد	soon	/d͡ʒəld̪/
+320	حل	solution, resolution	/ɦəl/
 321	ناممکن	impossible	/nɑː.mʊm.kɪn/
 322	بینک	bank	/bɛːŋk/
-323	سو	so, hence	
+323	سو	so, hence	/soː/
 324	کمرے	oblique/vocative singular	/kəm.ɾeː/
 325	خوشی	happiness; pleasure; delight; joy	/xʊ.ʃiː/
 326	پہلی	feminine of پَہْلا	/pəɦ.liː/
@@ -338,14 +338,14 @@ rank	word	english	ipa
 337	جہاز	plane, ship	/d͡ʒə.ɦɑːz/
 338	پیغام	message	/pɛː.ɣɑːm/
 339	مشکل	difficult	/mʊʃ.kɪl/
-340	بندی	prisoner	
+340	بندی	prisoner	/bənd̪iː/
 341	گروپ	group	/ɡɾuːp/
 342	ماہ	moon	/mɑːɦ/
 343	وہی	he, she, it, they, that, those	/ʋə.ɦiː/
 344	صبح	in the morning	/sʊ.bəɦ/
 345	عجیب	strange	/ə.d͡ʒiːb/
 346	حصہ	part, share, piece	/ɦɪs.sɑː/
-347	ظاہر	clear, apparent, obviously	
+347	ظاہر	clear, apparent, obviously	/zɑːɦɪɾ/
 348	بیوی	wife	/biː.ʋiː/
 349	پرواز	flight	/pəɾ.ʋɑːz/
 350	الوداع	a farewell	/əl.ʋɪ.d̪ɑː/
@@ -353,7 +353,7 @@ rank	word	english	ipa
 352	عام	common	/(ʔ)ɑːm/
 353	فیصلہ	decision; judgment	/fɛːs.lɑ(ː)/
 354	پیش	presented	/peːʃ/
-355	ذرا	a little	
+355	ذرا	a little	/zəɾɑː/
 356	ہفتے	direct plural	/ɦəf.t̪eː/
 357	عمل	action, deed	/ə.məl/
 358	مٹی	soil, earth	/mɪʈ.ʈiː/
@@ -367,7 +367,7 @@ rank	word	english	ipa
 366	خنجر	dagger, khanjar	/xən.d͡ʒəɾ/
 367	بچہ	baby; kid, child	/bət̪.t͡ʃɑ(ː)/
 368	کھڑے	standing	/kʰə.ɽeː/
-369	گواہ	witness	
+369	گواہ	witness	/ɡəʋɑːɦ/
 370	خبر	news	/xə.bəɾ/
 371	سودا	goods, wares; trade, traffic; marketing; purchase, bargain	/sɔː.d̪ɑː/
 372	اگلے	direct masculine plural	/əɡ.leː/
@@ -378,7 +378,7 @@ rank	word	english	ipa
 377	ذمہ	obligation	/zɪm.mɑ(ː)/
 378	شامل	included, comprised, incorporated	/ʃɑː.mɪl/
 379	قبول	acceptance, assent	/qʊ.buːl/
-380	دیوار	wall	
+380	دیوار	wall	/d̪iːʋɑːɾ/
 381	فوجی	martial	/fɔː.d͡ʒiː/
 382	مرکزی	central	/məɾ.kə.ziː/
 383	موقع	chance, opportunity	/mɔː.qɑː/
@@ -389,12 +389,12 @@ rank	word	english	ipa
 388	مردوں	oblique plural of مَرْد	/məɾ.d̪õː/
 389	ہتھیار	weapon	/ɦə.t̪ʰɪ.jɑːɾ/
 390	جاری	running, flowing	/d͡ʒɑː.ɾiː/
-391	ڈر	fear, dread	
+391	ڈر	fear, dread	/ɖəɾ/
 392	کب	when	/kəb/
 393	دار	wife	/d̪ɑːɾ/
-394	انٹرنیٹ	the Internet	
+394	انٹرنیٹ	the Internet	/ɪnʈəɾneːʈ/
 395	اگرچہ	although	/ə.ɡəɾ.t͡ʃeː/
-396	کارڈ	card	
+396	کارڈ	card	/kɑːɾɖ/
 397	حقیقت	truth	/ɦə.qiː.qət̪/
 398	چکی	millstone, mill, handmill, quern	/t͡ʃək.kiː/
 399	ہدایات	formal plural of ہِدایَت	/ɦɪ.d̪ɑː.jɑːt̪/
@@ -410,7 +410,7 @@ rank	word	english	ipa
 409	بیگ	hastily, speedily, quickly, soon	/beːɡ/
 410	سامنا	front; facade	/sɑːm.nɑː/
 411	میل	mile	/miːl/
-412	لعنت	curse, anathema, imprecation	
+412	لعنت	curse, anathema, imprecation	/lənət̪/
 413	دس	ten	/d̪əs/
 414	ممکن	possible	/mʊm.kɪn/
 415	آگ	fire	/ɑːɡ/
@@ -430,17 +430,17 @@ rank	word	english	ipa
 429	دفعہ	occasion, time	/d̪əf.(ʔ)ɑ(ː)/
 430	ریت	sand	/ɾeːt̪/
 431	پناہ	refuge	/pə.nɑːɦ/
-432	لڑکیوں	girl	
+432	لڑکیوں	girl	/ləɽkɪjoː̃/
 433	جیت	victory, win	/d͡ʒiːt̪/
 434	شکار	hunt	/ʃɪ.kɑːɾ/
 435	رنگ	colour	/ɾəŋɡ/
-436	لطف	enjoyment, pleasure	
+436	لطف	enjoyment, pleasure	/lʊt̪f/
 437	خدمت	service	/xɪd̪.mət̪/
 438	مشہور	famous, reputed	/məʃ.ɦuːɾ/
 439	صورت	appearance	/suː.ɾət̪/
 440	قدم	footstep, step	/qə.d̪əm/
 441	فٹ	foot	/fʊʈ/
-442	ذاتی	inherent	
+442	ذاتی	inherent	/zɑːt̪iː/
 443	ثبوت	evidence	/sə.buːt̪/
 444	ریاست	rule, control	/ɾɪ.jɑː.sət̪/
 445	ناکام	failed	/nɑː.kɑːm/
@@ -461,7 +461,7 @@ rank	word	english	ipa
 460	پوچھنا	to ask, enquire	/puːt͡ʃʰ.nɑː/
 461	درخواست	appeal, petition	/d̪əɾ.xʷɑːst̪/
 462	فہرست	list	/fəɦ.ɾɪst̪/
-463	لڑکوں	boy	
+463	لڑکوں	boy	/ləɽkoː̃/
 464	دروازہ	door	/d̪əɾ.ʋɑː.zɑ(ː)/
 465	نجی	private, personal, unofficial, confidential	/nɪ.d͡ʒiː/
 466	مستقبل	future	/mʊs.t̪əq.bɪl/
@@ -483,7 +483,7 @@ rank	word	english	ipa
 482	حیرت	astonishment; amazement; surprise; wonder	/ɦɛː.ɾət̪/
 483	عیسائی	Christian	/(ʔ)iː.sɑː.iː/
 484	نو	nine	/nɔː/
-485	حضرات	formal plural of حَضْرَت	
+485	حضرات	formal plural of حَضْرَت	/ɦəzɾɑːt̪/
 486	علاقے	oblique/vocative singular	/(ʔ)ɪ.lɑː.qeː/
 487	کارروائی	procedure, conduct, action, process, proceeding,…	/kɑːɾ.ɾə.ʋɑː.iː/
 488	جیل	jail, the slammer	/d͡ʒeːl/
@@ -511,9 +511,9 @@ rank	word	english	ipa
 510	روز	daily, everyday; always	/ɾoːz/
 511	آنکھیں	direct plural of آن٘کھ	/ɑ̃ː.kʰẽː/
 512	لینا	to take, get	/leː.nɑː/
-513	اصلی	original	
+513	اصلی	original	/əsliː/
 514	غائب	hidden	/ɣɑː.jəb/
-515	منگل	auspicious, lucky	
+515	منگل	auspicious, lucky	/mənɡəl/
 516	خارج	outside	/xɑː.ɾɪd͡ʒ/
 517	شہزادہ	prince	/ʃəɦ.zɑːd̪.ɑ(ː)/
 518	آنکھوں	oblique plural of آن٘کھ	/ɑ̃ː.kʰõː/
@@ -521,7 +521,7 @@ rank	word	english	ipa
 520	انداز	style, manner	/ən.d̪ɑːz/
 521	آواز	voice	/ɑː.ʋɑːz/
 522	پینا	to drink	/piː.nɑː/
-523	بول	speech, speaking, word, talk, conversation, delivery,…	
+523	بول	speech, speaking, word, talk, conversation, delivery,…	/boːl/
 524	جوتا	shoe	/d͡ʒuː.t̪ɑː/
 525	پھاٹک	big door, gate, entrance	/pʰɑː.ʈək/
 526	تجھے	dative of تُو	/t̪ʊ.d͡ʒʱeː/
@@ -529,7 +529,7 @@ rank	word	english	ipa
 528	واحد	single	/ʋɑː.ɦɪd̪/
 529	شہزادی	princess	/ʃəɦ.zɑː.d̪iː/
 530	ماضی	past	/mɑː.ziː/
-531	مقدس	holy, sacred	
+531	مقدس	holy, sacred	/mʊqəd̪d̪əs/
 532	بیس	twenty	/biːs/
 533	قانونی	legal	/qɑː.nuː.niː/
 534	ملنا	to be found	/mɪl.nɑː/
@@ -538,8 +538,8 @@ rank	word	english	ipa
 537	دھماکہ	explosion, boom	/d̪ʱə.mɑː.kɑ(ːɦ)/
 538	صدر	president	/səd̪ɾ/
 539	واہ	wow, whoa	/ʋɑːɦ/
-540	عمارت	building	
-541	سیاہ	black	
+540	عمارت	building	/ɪmɑːɾət̪/
+541	سیاہ	black	/sɪjɑːɦ/
 542	لگے	to seem, to appear	/lə.ɡeː/
 543	سخت	strict, severe, hard, tough, harsh	/səxt̪/
 544	سرخ	red	/sʊɾx/
@@ -563,12 +563,12 @@ rank	word	english	ipa
 562	محترمہ	lady	/mʊɦ.t̪əɾ.mɑː/
 563	کامیاب	prosperous, successful	/kɑːm.jɑːb/
 564	ہوٹل	hotel	/ɦoː.ʈəl/
-565	دیگر	other	
+565	دیگر	other	/d̪iːɡəɾ/
 566	ساری	whole, entire	/sɑː.ɾiː/
 567	سورج	Sun, sun	/suː.ɾəd͡ʒ/
 568	دشمن	enemy, foe	/d̪ʊʃ.mən/
 569	خواہش	wish	/xɑː.ɦɪʃ/
-570	پارٹی	political group	
+570	پارٹی	political group	/pɑːɾʈiː/
 571	دنوں	oblique plural of دِن	/d̪ɪ.nõː/
 572	تسلیم	acceptance	/t̪əs.liːm/
 573	استاد	professor; teacher, tutor	/ʊs.t̪ɑːd̪/
@@ -592,12 +592,12 @@ rank	word	english	ipa
 591	منسلک	joined, appended, annexed, attached	/mʊn.sə.lɪk/
 592	کرم	grace; generosity	/kə.ɾəm/
 593	انتہائی	extreme, utmost, excessive	/ɪn.t̪ɪ.ɦɑː.iː/
-594	تنہا	alone	
-595	سوار	rider, horseman	
+594	تنہا	alone	/t̪ənɦɑː/
+595	سوار	rider, horseman	/səʋɑːɾ/
 596	کتے	direct plural	/kʊt̪.t̪eː/
 597	عزیز	dear, loved	/ə.ziːz/
 598	خاموش	quiet	/xɑː.moːʃ/
-599	بہادر	brave	
+599	بہادر	brave	/bəɦɑːd̪ʊɾ/
 600	ٹیپ	tape	/ʈeːp/
 601	فخر	glory	/fəxɾ/
 602	جاگ	wake; wakefulness	/d͡ʒɑːɡ/
@@ -615,16 +615,16 @@ rank	word	english	ipa
 614	کپڑے	oblique/vocative singular	/kəp.ɽeː/
 615	راہ	path, way	/ɾɑːɦ/
 616	دودھ	milk	/d̪uːd̪ʱ/
-617	اختتام	completion	
+617	اختتام	completion	/ɪxt̪ɪt̪ɑːm/
 618	منحصر	limited, confined, encompassed	/mʊn.ɦə.sɪɾ/
 619	لباس	clothes, clothing, attire	/lɪ.bɑːs/
 620	آزادی	freedom, independence	/ɑː.zɑː.d̪iː/
 621	بوجھ	burden, load	/boːd͡ʒʱ/
 622	ادائیگی	fulfilment	/ə.d̪ɑː.iː.ɡiː/
 623	منزل	storey, floor	/mən.zɪl/
-624	خطرناک	dangerous	
+624	خطرناک	dangerous	/xət̪əɾnɑːk/
 625	مالک	God	/mɑː.lɪk/
-626	آدمیوں	man	
+626	آدمیوں	man	/ɑːd̪mɪjoː̃/
 627	پیسہ	paisa	/pɛː.sɑ(ː)/
 628	ناظم	secretary, manager, organizer	/nɑː.zɪm/
 629	مچھلی	fish	/mət͡ʃʰ.liː/
@@ -645,14 +645,14 @@ rank	word	english	ipa
 644	عمر	age	/ʊm.ɾᵊ/
 645	پیروی	pleading	/pɛː.ɾə.ʋiː/
 646	روشنی	brightness	/ɾɔːʃ.niː/
-647	خوفزدہ	afraid, frightened, terrified	
+647	خوفزدہ	afraid, frightened, terrified	/xɔːfzəd̪ə/
 648	مصیبت	trouble, distress	/mʊ.siː.bət̪/
 649	بجے	o'clock	/bə.d͡ʒeː/
 650	تابوت	coffin	/t̪ɑː.buːt̪/
 651	دوسرا	other, another	/d̪uːs.ɾɑː/
 652	وجود	existence	/ʋə.d͡ʒuːd̪/
 653	الفاظ	plural of لَفْظ	/əl.fɑːz/
-654	مایا	magical power	
+654	مایا	magical power	/mɑːjɑː/
 655	کاپی	copy	/kɑː.piː/
 656	کان	ear	/kɑːn/
 657	پاسپورٹ	passport	/pɑːs.poːɾʈ/
@@ -661,14 +661,14 @@ rank	word	english	ipa
 660	تجربہ	experience	/t̪əd͡ʒ.ɾɪ.bɑ(ː)/
 661	فارسی	Persian, Persic; Persianate	/fɑːɾ.siː/
 662	زہر	poison	/zəɦɾ/
-663	تیج	the third day of the lunar fortnight	
+663	تیج	the third day of the lunar fortnight	/t̪iːd͡ʒ/
 664	کاش	I wish, if only	/kɑːʃ/
 665	قبل	previous, before, ago	/qəbl/
-666	نشانہ	aim, target	
+666	نشانہ	aim, target	/nɪʃɑːnə/
 667	ڈبے	oblique/vocative singular	/ɖɪb.beː/
 668	چرچ	building of a church	/t͡ʃəɾt͡ʃ/
 669	مثال	example, instance, specimen, model, precedent	/mɪ.sɑːl/
-670	پیٹھ	back, support, aid	
+670	پیٹھ	back, support, aid	/piːʈʰ/
 671	اگلا	next	/əɡ.lɑː/
 672	تا	to	/t̪ɑː/
 673	کاغذ	paper, document	/kɑː.ɣəz/
@@ -691,17 +691,17 @@ rank	word	english	ipa
 690	دلچسپ	interesting	/d̪ɪl.t͡ʃəsp/
 691	تنگ	tight, narrow	/t̪əŋɡ/
 692	پرندوں	oblique plural of پَرِنْدَہ	/pə.ɾɪn.d̪õː/
-693	عوامی	public	
-694	جاسوس	spy	
+693	عوامی	public	/əʋɑːmiː/
+694	جاسوس	spy	/d͡ʒɑːsuːs/
 695	دفاع	defence	/d̪ɪ.fɑː(ʔ)/
 696	قیمت	price	/qiː.mət̪/
 697	گیارہ	eleven	/ɡjɑː.ɾəɦ/
 698	خراب	spoiled, ruined, damaged	/xə.ɾɑːb/
-699	شناختی	identification	
+699	شناختی	identification	/ʃənɑːxt̪iː/
 700	اضافہ	increase	/ɪ.zɑː.fɑ(ː)/
 701	بعض	some, certain, few, several	/bɑːz/
 702	تکلیف	trouble, difficulty	/t̪ək.liːf/
-703	کور	blind	
+703	کور	blind	/koːɾ/
 704	ٹکٹ	ticket	/ʈɪ.kəʈ/
 705	سنگین	stony, as stone	/səŋ.ɡiːn/
 706	زلزلے	direct plural	/zəl.zə.leː/
@@ -717,11 +717,11 @@ rank	word	english	ipa
 716	جھٹکا	shock, jerk, sudden stroke, jolt, shake	/d͡ʒʱəʈ.kɑː/
 717	انسانی	human	/ɪn.sɑː.niː/
 718	مرکز	centre, center	/məɾ.kəz/
-719	نقل	copy, imitation	
+719	نقل	copy, imitation	/nəqəl/
 720	شکست	defeat, failure	/ʃɪ.kəst̪/
 721	قبضہ	occupation; annexation, takeover	/qəb.zɑ(ː)/
 722	انھیں	alternative spelling of اِنہیں	/ɪn.ɦẽː/
-723	ذہن	intellect	
+723	ذہن	intellect	/zɪɦn/
 724	حملوں	oblique plural of حَمْلَہ	/ɦəm.lõː/
 725	مدت	period, duration	/mʊd̪.d̪ət̪/
 726	بیان	statement	/bə.jɑːn/
@@ -734,9 +734,9 @@ rank	word	english	ipa
 733	شرم	shame	/ʃəɾm/
 734	ہفتوں	oblique plural of ہَفْتَہ	/ɦəf.t̪õː/
 735	برباد	ruined	/bəɾ.bɑːd̪/
-736	شک	doubt, uncertainty	
+736	شک	doubt, uncertainty	/ʃək/
 737	کشتی	boat, ship	/kəʃ.t̪iː/
-738	دیو	demon	
+738	دیو	demon	/d̪eːoː/
 739	قوم	nation	/qɔːm/
 740	موبائل	phone, telephone, mobile	/moː.bɑːjl/
 741	سماعت	hearing, proceeding	/sə.mɑː.(ʔ)ət̪/
@@ -749,17 +749,17 @@ rank	word	english	ipa
 748	روٹی	bread	/ɾoː.ʈiː/
 749	پندرہ	fifteen	/pən.d̪ɾəɦ/
 750	چاہے	though, even if	/t͡ʃɑː.ɦeː/
-751	شکل	face	
+751	شکل	face	/ʃəkl/
 752	پہاڑ	mountain	/pə.ɦɑːɽ/
 753	بھوک	appetite, hunger	/bʱuːk/
 754	پاپ	sin	/pɑːp/
 755	بلا	affliction, scourge	/bə.lɑː/
-756	متحدہ	united, unified	
+756	متحدہ	united, unified	/mʊt̪t̪əɦɪd̪ə/
 757	تشدد	violence, oppression, aggression	/t̪ə.ʃəd̪.d̪ʊd̪/
-758	ورنہ	otherwise	
+758	ورنہ	otherwise	/ʋəɾnɑː/
 759	درخت	tree	/d̪ə.ɾəxt̪/
 760	کھڑا	standing	/kʰə.ɽɑː/
-761	او	he, she	
+761	او	he, she	/oː/
 762	تلوار	a sword	/t̪əl.ʋɑːɾ/
 763	محل	palace	/mə.ɦəl/
 764	رفتار	motion	/ɾəf.t̪ɑːɾ/
@@ -771,7 +771,7 @@ rank	word	english	ipa
 770	نرم	soft	/nəɾm/
 771	بنیادی	fundamental, primary, basic, principal	/bʊ.nɪ.jɑː.d̪iː/
 772	پولس	police	/pʊ.liːs/
-773	ہزار	thousand	
+773	ہزار	thousand	/ɦəzɑːɾ/
 774	دارالحکومت	capital city, seat of government	/d̪ɑːɾ ʊl ɦʊ.kuː.mət̪/
 775	ڈرامہ	drama	/ɖɾɑː.mɑː ɖə.ɾɑː.mɑː/
 776	دکھانا	to show	/d̪ɪ.kʰɑː.nɑː/
@@ -783,29 +783,29 @@ rank	word	english	ipa
 782	فیصد	percent	/fiː.səd̪/
 783	انتخاب	election	/ɪn.t̪ɪ.xɑːb/
 784	منشیات	plural of مُنَشّی; intoxicants, addictives	/mʊ.nəʃ.ʃɪ.jɑːt̪/
-785	ٹینک	tank	
+785	ٹینک	tank	/ʈɛːnk/
 786	میدان	ground, field, arena	/mɛː.d̪ɑːn/
 787	چاکلیٹ	chocolate	/t͡ʃɑːk.leːʈ/
 788	ملکی	belonging to one's own country; indigenous, national,…	/mʊl.kiː/
 789	قابو	control	/qɑː.buː/
 790	درد	pain; ache	/d̪əɾd̪/
-791	سعودی	Saudi, Saudi Arabian	
+791	سعودی	Saudi, Saudi Arabian	/səuːd̪iː/
 792	بت	shipworm	/bʊt̪/
 793	ذکر	penis	/zə.kəɾ/
 794	ہائے	alas!	/ɦɑːj/
 795	افسر	officer	/əf.səɾ/
-796	تجھ	second-person singular objective personal pronoun: you,…	
+796	تجھ	second-person singular objective personal pronoun: you,…	/t̪ʊd͡ʒʱ/
 797	یعنی	means	/jɑː.niː/
 798	تعداد	quantity, amount, number	/t̪ɑː.d̪ɑːd̪/
 799	مسئلے	direct plural	/mə.sə.leː/
 800	گمنام	unknown; obscure	/ɡʊm.nɑːm/
 801	کمال	complete	/kə.mɑːl/
 802	شہری	urban; pertaining to the city	/ʃəɦ.ɾiː/
-803	واپسی	return, coming-back	
+803	واپسی	return, coming-back	/ʋɑːpsiː/
 804	انصاف	justice	/ɪn.sɑːf/
 805	ملوث	involved, implicated	/mʊ.ləʋ.ʋəs/
 806	گڑبڑ	irregular, unusual	/ɡəɽ.bəɽ/
-807	لڑاکا	fighter, one that fights	
+807	لڑاکا	fighter, one that fights	/ləɽɑːkɑː/
 808	سلطنت	kingdom, empire, dominion, realm, reign, Reich	/səl.t̪ə.nət̪/
 809	اتفاق	agreement; concord	/ɪt̪.t̪ɪ.fɑːq/
 810	گناہ	sin	/ɡʊ.nɑːɦ/
@@ -832,11 +832,11 @@ rank	word	english	ipa
 831	ٹھنڈا	cold	/ʈʰən.ɖɑː/
 832	سیارے	oblique/vocative singular	/səj.jɑː.ɾeː/
 833	بیکر	baker	/beː.kəɾ/
-834	شہد	honey	
+834	شہد	honey	/ʃəɦd̪/
 835	ٹھیکیدار	contractor	/ʈʰeː.keː.d̪ɑːɾ/
-836	شو	show	
+836	شو	show	/ʃoː/
 837	تفصیلات	formal plural of تَفْصِیل	/t̪əf.siː.lɑːt̪/
-838	سینٹر	centre, center	
+838	سینٹر	centre, center	/seːnʈəɾ/
 839	دوپہر	afternoon, noon, midday	/d̪oː.pə.ɦəɾ/
 840	انتظام	preparation, arrangement	/ɪn.t̪ɪ.zɑːm/
 841	سرنگ	an underground passage	/sʊ.ɾəŋɡ/
@@ -875,7 +875,7 @@ rank	word	english	ipa
 874	محروم	deprived of; excluded	/məɦ.ɾuːm/
 875	اسٹیشن	station, stop	/ɪs.ʈeː.ʃən/
 876	مطالعہ	study, reading, perusal	/mʊ.t̪ɑː.lə.(ʔ)ɑ(ː)/
-877	غصہ	anger	
+877	غصہ	anger	/ɣʊssɑː/
 878	فرض	obligatory; compulsory	/fəɾz/
 879	بغاوت	rebellion, revolt	/bə.ɣɑː.ʋət̪/
 880	ہجوم	crowd, mob	/ɦʊ.d͡ʒuːm/
@@ -885,7 +885,7 @@ rank	word	english	ipa
 884	جن	jinn	/d͡ʒɪn/
 885	مہمان	guest	/meːɦ.mɑːn/
 886	مصروف	busy, occupied, engaged	/məs.ɾuːf/
-887	دین	poor	
+887	دین	poor	/d̪iːn/
 888	خوابوں	oblique plural of خْوَاب	/xʋɑː.bõː/
 889	دروازوں	oblique plural of دَرْوَازَہ	/d̪əɾ.ʋɑː.zõː/
 890	بلند	high, lofty	/bə.lənd̪/
@@ -894,7 +894,7 @@ rank	word	english	ipa
 893	وطن	nation, country	/ʋə.t̪ən/
 894	صفر	zero	/sɪfɾ/
 895	تصدیق	verification	/t̪əs.d̪iːq/
-896	انتخابات	broken plural of اِنْتِخاب	
+896	انتخابات	broken plural of اِنْتِخاب	/ɪnt̪ɪxɑːbɑːt̪/
 897	لائبریری	library	/lɑː.ɪb.ɾeː.ɾiː/
 898	عذاب	torture	/(ʔ)ə.zɑːb/
 899	شدت	severity, sternness, rigour; intensity, harshness	/ʃɪd̪.d̪ət̪/
@@ -913,7 +913,7 @@ rank	word	english	ipa
 912	کائنات	the universe	/kɑː.ɪ.nɑːt̪/
 913	قربان	corban	/qʊɾ.bɑːn/
 914	تازہ	fresh, just made	/t̪ɑː.zɑ(ː)/
-915	حدود	limits, irregular plural of حَدّ	
+915	حدود	limits, irregular plural of حَدّ	/ɦʊd̪uːd̪/
 916	سمندر	sea, ocean	/sə.mʊn.d̪əɾ/
 917	قید	jail, prison	/qɛːd̪/
 918	صلاحیت	capability; capacity	/sə.lɑː.ɦɪ.jət̪/
@@ -929,9 +929,9 @@ rank	word	english	ipa
 928	دعوی	claim, assertion, pretension	/d̪ə(ʔ).ʋɑː/
 929	معاملات	formal plural of مُعَامَلَہ	/mʊ.(ʔ)ɑː.mə.lɑːt̪/
 930	سامان	luggage, baggage	/sɑː.mɑːn/
-931	شاندار	magnificent, excellent	
-932	نامعلوم	unknown, unfamiliar	
-933	سبق	lesson	
+931	شاندار	magnificent, excellent	/ʃɑːnd̪ɑːɾ/
+932	نامعلوم	unknown, unfamiliar	/nɑːməluːm/
+933	سبق	lesson	/səbəq/
 934	جنوبی	southern	/d͡ʒʊ.nuː.biː/
 935	مواصلات	communications, telecommunications	/mʊ.ʋɑː.sə.lɑːt̪/
 936	عوام	public; masses, common folk, laity	/(ʔ)ə.ʋɑːm/
@@ -943,9 +943,9 @@ rank	word	english	ipa
 942	سنجیدہ	weighted	/sən.d͡ʒiː.d̪ɑː/
 943	آسٹریا	Austria	/ɑːs.ʈɾɪ.jɑː/
 944	خانہ	place, site, dwelling, house	/xɑːn.ɑ(ː)/
-945	صندوق	box, trunk, coffer, chest, casket	
+945	صندوق	box, trunk, coffer, chest, casket	/sənd̪uːq/
 946	سننا	to listen, to hear	/sʊn.nɑː/
-947	سرد	autumn	
+947	سرد	autumn	/səɾəd̪/
 948	واقف	aware of, knowing, conversant, informed, sensible,…	/ʋɑː.qɪf/
 949	تیس	thirty	/t̪iːs/
 950	انتباہ	attention, alert, warning, notice	/ɪn.t̪ɪ.bɑːɦ/
@@ -962,7 +962,7 @@ rank	word	english	ipa
 961	درجہ	level, extent, rate	/d̪əɾ.d͡ʒɑː/
 962	ہفتہ	week, sennight	/ɦəf.t̪ɑ(ː)/
 963	قومی	national	/qɔː.miː/
-964	پرتگالی	Portuguese	
+964	پرتگالی	Portuguese	/pʊɾt̪ɡɑːliː/
 965	کثرت	plenty, excess	/kəs.ɾət̪/
 966	منسوخ	cancelled, abolished, annulled, repealed, abrogated, erased	/mən.suːx/
 967	نوکری	job, employment, service	/nɔːk.ɾiː/
@@ -976,19 +976,19 @@ rank	word	english	ipa
 975	بیت	couplet, distich	/bɛːt̪/
 976	منظور	approved, granted, sanctioned	/mən.zuːɾ/
 977	راضی	willing to comply; compliant	/ɾɑː.ziː/
-978	نیلا	blue	
+978	نیلا	blue	/niːlɑː/
 979	مستحق	deserving, worthy	/mʊs.t̪ə.ɦəq/
-980	بلکل	misspelling of بِالْکُل	
+980	بلکل	misspelling of بِالْکُل	/bɪlkʊl/
 981	تالا	lock	/t̪ɑː.lɑː/
 982	اعتبار	trust, confidence	/ɪʕ.t̪ɪ.bɑːɾ/
-983	بھاری	heavy	
+983	بھاری	heavy	/bʱɑːɾiː/
 984	کاغذات	plural of کاغَذ	/kɑːɣ.zɑːt̪/
-985	بھیڑیا	wolf	
+985	بھیڑیا	wolf	/bʱeːɽjɑː/
 986	رونا	to cry, weep	/ɾoː.nɑː/
 987	موجودگی	presence, attendance	/mɔː.d͡ʒuː.d̪ə.ɡiː/
 988	امکان	possibility, probability	/ɪm.kɑːn/
-989	چالیس	forty	
-990	بکواس	talkativeness, garrulity, chatter, blathering	
+989	چالیس	forty	/t͡ʃɑːliːs/
+990	بکواس	talkativeness, garrulity, chatter, blathering	/bəkʋɑːs/
 991	پاؤں	foot	/pɑː.ũː/
 992	توانائی	energy	/t̪ə.wɑː.nɑːj/
 993	مسائل	formal plural of مَسْئَلَہ	/mə.sɑː.ɪl/
@@ -1012,11 +1012,11 @@ rank	word	english	ipa
 1011	منظر	sight; view; scene	/mən.zəɾ/
 1012	سائز	size	/sɑː.ɪz/
 1013	اقوام	plural of قَوم	/əq.ʋɑːm/
-1014	شور	noise	
+1014	شور	noise	/ʃoːɾ/
 1015	حضرت	gentleman	/ɦəd̪.ɾət̪/
 1016	گلی	street, lane	/ɡə.liː/
 1017	تیاری	readiness	/t̪ə̯i.jɑː.ɾiː/
-1018	چکر	round, perimeter	
+1018	چکر	round, perimeter	/t͡ʃəkkəɾ/
 1019	پیٹ	stomach, belly	/peːʈ/
 1020	سرحد	border, frontier	/səɾ.ɦəd̪/
 1021	خارجہ	foreign, external, outer	/xɑː.ɾɪ.d͡ʒᵊ/
@@ -1048,11 +1048,11 @@ rank	word	english	ipa
 1047	خوراک	victuals, meal, food	/xʊ.ɾɑːk/
 1048	آگاہ	informed, aware, known to	/ɑː.ɡɑːɦ/
 1049	نسل	race, ethnic group	/nəsl/
-1050	گزر	carrot	
+1050	گزر	carrot	/ɡəzəɾ/
 1051	نیند	sleep, slumber	/niːnd̪/
 1052	حقوق	plural of حَق: rights	/ɦʊ.quːq/
 1053	زلزلہ	earthquake, seism	/zəl.zə.lɑː/
-1054	چھری	knife	
+1054	چھری	knife	/t͡ʃʰʊɾiː/
 1055	وار	assault, attack	/ʋɑːɾ/
 1056	بظاہر	seemingly	/bə.zɑː.ɦɪɾ/
 1057	ٹانگ	leg	/ʈɑːŋɡ/
@@ -1063,19 +1063,19 @@ rank	word	english	ipa
 1062	استقبال	welcome, hail, reception	/ɪs.t̪ɪq.bɑːl/
 1063	مؤثر	effective	/mʊ.(ʔ)əs.sɪɾ/
 1064	رکاوٹ	obstruction	/ɾʊ.kɑː.ʋəʈ/
-1065	پیشہ	profession, occupation, trade, business	
+1065	پیشہ	profession, occupation, trade, business	/peːʃə/
 1066	آوازیں	voice	/ɑː.ʋɑː.zẽː/
-1067	سابق	former, prior, precedent, preceding, foregoing	
-1068	وزن	weight, weighing, measure, balance	
+1067	سابق	former, prior, precedent, preceding, foregoing	/sɑːbɪq/
+1068	وزن	weight, weighing, measure, balance	/ʋəzn/
 1069	خلل	break, breach	/xə.ləl/
 1070	قواعد	grammar	/qə.ʋɑː.jəd̪/
-1071	صد	hundred	
+1071	صد	hundred	/səd̪/
 1072	مکھی	fly	/mək.kʰiː/
-1073	لا	not	
+1073	لا	not	/lɑː/
 1074	انعام	reward	/ɪn.ʔɑːm/
-1075	اضافی	possessively	
+1075	اضافی	possessively	/ɪzɑːfiː/
 1076	مقدمہ	case, lawsuit	/mʊ.qəd̪.mɑ(ː)/
-1077	اتر	northern	
+1077	اتر	northern	/ʊt̪t̪əɾ/
 1078	جواز	justification	/d͡ʒə.ʋɑːz/
 1079	ملکہ	queen	/mə.lɪ.kɑ(ː)/
 1080	مردار	dead	/mʊɾ.d̪ɑːɾ/
@@ -1089,8 +1089,8 @@ rank	word	english	ipa
 1088	کھاتے	to eat	/kʰɑː.t̪eː/
 1089	مبنی	foundation, base, origin	/məb.nɑː/
 1090	اخبار	news	/əx.bɑːɾ/
-1091	دراڑ	rift, split, rupture	
-1092	عارضی	temporary	
+1091	دراڑ	rift, split, rupture	/d̪əɾɑːɾ/
+1092	عارضی	temporary	/ɑːɾɪziː/
 1093	گوشت	meat	/ɡoːʃt̪/
 1094	سیب	apple	/seːb/
 1095	کنارے	direct plural	/kɪ.nɑː.ɾeː/
@@ -1110,17 +1110,17 @@ rank	word	english	ipa
 1109	دکھ	sadness, grief	/d̪ʊkʰ/
 1110	سردی	the cold	/səɾ.d̪iː/
 1111	زور	powerfully	/zoːɾ/
-1112	عیسائیوں	Christian	
+1112	عیسائیوں	Christian	/iːsɑːɪjoː̃/
 1113	عبادت	worship	/(ʔ)ɪ.bɑː.d̪ət̪/
 1114	غلاموں	oblique plural of غُلام	/ɣʊ.lɑː.mõː/
 1115	بھیجنا	to send	/bʱeːd͡ʒ.nɑː/
 1116	تجزیہ	analysis, dissolution	/t̪əd͡ʒ.zɪ.jɑː/
-1117	تنخواہ	salary	
+1117	تنخواہ	salary	/t̪ənxɑːɦ/
 1118	ملازمت	employment, job, service, duty	/mʊ.lɑː.zə.mət̪/
 1119	خاتون	lady	/xɑː.t̪uːn/
 1120	ٹوکری	basket	/ʈoːk.ɾiː/
 1121	تحقیق	research, investigation	/t̪əɦ.qiːq/
-1122	دائرہ	circumference, limit	
+1122	دائرہ	circumference, limit	/d̪ɑːɪɾə/
 1123	پیر	foot	/pɛːɾ/
 1124	گردوں	oblique plural of گُرْدَہ	/ɡʊɾ.d̪õː/
 1125	طبی	medical	/t̪ɪb.biː/
@@ -1159,13 +1159,13 @@ rank	word	english	ipa
 1158	آدھا	half	/ɑː.d̪ʱɑː/
 1159	تعلقات	formal plural of تَعَلُّق	/t̪ə.(ʔ)əl.lʊ.qɑːt̪/
 1160	ارب	billion	/ə.ɾəb/
-1161	کرا	did, do	
+1161	کرا	did, do	/kəɾɑː/
 1162	اجنبی	strange, foreign, unfamiliar	/əd͡ʒ.nə.biː/
 1163	مشق	exercise, drill	/məʃq/
 1164	سفارت	embassy; consulate	/sɪ.fɑː.ɾət̪/
 1165	نشانی	memorial, mark of remembrance, keepsake, bookmark	/nɪ.ʃɑː.niː/
 1166	پادری	clergyman; Christian priest	/pɑːd̪.ɾiː/
-1167	بچت	savings	
+1167	بچت	savings	/bət͡ʃət̪/
 1168	شب	night	/ʃəb/
 1169	باغ	garden	/bɑːɣ/
 1170	طلاق	talaq, divorce	/t̪ə.lɑːq/
@@ -1174,16 +1174,16 @@ rank	word	english	ipa
 1173	مزاحمت	resistance, opposition, obstacle, impediment, hindrance	/mʊ.zɑː.ɦə.mət̪/
 1174	ہار	loss, defeat	/ɦɑːɾ/
 1175	بولنا	to speak	/boːl.nɑː/
-1176	مایوس	despondent, despirited, downcast, heartsick	
+1176	مایوس	despondent, despirited, downcast, heartsick	/mɑːjuːs/
 1177	شعر	couplet	/ʃiʔr/
 1178	گلے	direct plural	/ɡə.leː/
 1179	ٹھگ	swindler, fraud, cheat	/ʈʰəɡ/
 1180	شعلے	direct plural	/ʃʊʕ.leː/
-1181	ذخیرہ	storehouse	
+1181	ذخیرہ	storehouse	/zəxeːɾəɦ/
 1182	گھنٹہ	hour	/ɡʱən.ʈɑ(ː)/
 1183	ستارہ	star	/sɪ.t̪ɑː.ɾɑ(ː)/
 1184	توپ	gun	/t̪oːp/
-1185	گن	quality, condition	
+1185	گن	quality, condition	/ɡʊn/
 1186	چوکیدار	watchman, chaukidar	/t͡ʃɔː.kiː.d̪ɑːɾ/
 1187	آبشار	waterfall; cascade	/ɑːb.ʃɑːɾ/
 1188	زبانوں	oblique plural of زُبان	/zə.bɑː.nõː/
@@ -1200,17 +1200,17 @@ rank	word	english	ipa
 1199	اندھا	blind	/ən.d̪ʱɑː/
 1200	غدار	treacherous, disloyal, traitor	/ɣəd̪.d̪ɑːɾ/
 1201	معمول	made, prepared; acted upon; governed	/mɑː.muːl/
-1202	چھوڑنا	to let go	
+1202	چھوڑنا	to let go	/t͡ʃʰoːɽnɑː/
 1203	رائے	king	/ɾɑː.eː/
 1204	گنا	sugar cane	/ɡən.nɑː/
-1205	برابر	continuously, without interruption	
+1205	برابر	continuously, without interruption	/bəɾɑːbəɾ/
 1206	بیل	creeper	/beːl/
-1207	جنات	jinn	
-1208	سچائی	truth	
+1207	جنات	jinn	/d͡ʒɪnnɑːt̪/
+1208	سچائی	truth	/sət͡ʃt͡ʃɑːiː/
 1209	انڈے	direct plural	/ən.ɖeː/
 1210	اصول	bottom	/ʊ.suːl/
 1211	کلب	club	/kləb/
-1212	پچاس	fifty	
+1212	پچاس	fifty	/pət͡ʃɑːs/
 1213	ٹانگوں	oblique plural of ٹان٘گ	/ʈɑːŋ.ɡõː/
 1214	قدر	value, worth	/qəd̪ɾ/
 1215	مخالف	contrary, opposite	/mʊ.xɑː.lɪf/
@@ -1219,18 +1219,18 @@ rank	word	english	ipa
 1218	خشک	dry	/xʊʃk/
 1219	مٹھائی	mithai	/mɪ.ʈʰɑː.iː/
 1220	اتار	descent, fall	/ʊ.t̪ɑːɾ/
-1221	بل	power	
+1221	بل	power	/bəl/
 1222	گرمی	heat	/ɡəɾ.miː/
 1223	پٹی	bandage	/pəʈ.ʈiː/
 1224	موضوع	subject, topic, issue, matter, discussion	/mɔː.zuː(ʔ)/
 1225	اول	first	/əʋː.əl/
 1226	تیرا	second-person singular possessive pronoun: yours, thine;…	/t̪eː.ɾɑː/
-1227	مان	conceit	
+1227	مان	conceit	/mɑːn/
 1228	فورا	immediately, instantly, urgently, promptly, rapidly,…	/fɔː.ɾən/
-1229	پرستار	adorer	
+1229	پرستار	adorer	/pəɾəst̪ɑːɾ/
 1230	حمایت	support, backing, aid, advocacy	/ɦɪ.mɑː.jət̪/
 1231	طے	decided, predetermined	/t̪ɛː/
-1232	بولنے	to speak	
+1232	بولنے	to speak	/boːlneː/
 1233	ہنگامی	temporal, temporary, ephemeral	/ɦəŋ.ɡɑː.miː/
 1234	نمونہ	specimen, sample, example	/nə.muː.nᵊ/
 1235	تعلیم	education	/t̪ɑː.liːm/
@@ -1242,7 +1242,7 @@ rank	word	english	ipa
 1241	سرخی	redness, red ink	/sʊɾ.xiː/
 1242	طیارے	direct plural	/t̪əj.jɑː.ɾeː/
 1243	درجن	dozen	/d̪əɾ.d͡ʒən/
-1244	تھکا	tired	
+1244	تھکا	tired	/t̪ʰəkɑː/
 1245	گاہ	sometimes	/ɡɑːɦ/
 1246	وقار	dignity, honour, prestige	/ʋə.qɑːɾ/
 1247	شرکت	contribution, role	/ʃɪɾ.kət̪/
@@ -1300,9 +1300,9 @@ rank	word	english	ipa
 1299	بازار	market, souq	/bɑː.zɑːɾ/
 1300	زندگیوں	oblique plural of زِنْدَگِی	/zɪn.d̪ə.ɡɪ.jõː/
 1301	روح	soul, spirit	/ɾuːɦ/
-1302	عرب	Arab	
+1302	عرب	Arab	/əɾəb/
 1303	سمجھدار	prudent, witty, sensible	/sə.məd͡ʒʱ.d̪ɑːɾ/
-1304	ڈھیر	heap	
+1304	ڈھیر	heap	/ɖʱeːɾ/
 1305	آسانی	ease, simplicity, convenience	/ɑː.sɑː.niː/
 1306	جیب	pocket	/d͡ʒeːb/
 1307	جمعرات	Thursday	/d͡ʒʊ.mɪʔ.ɾɑːt̪/
@@ -1332,19 +1332,19 @@ rank	word	english	ipa
 1331	قدیم	ancient, old	/qə.d̪iːm/
 1332	زمانے	direct plural	/zə.mɑː.neː/
 1333	ماحول	ambience, atmosphere	/mɑː.ɦɔːl/
-1334	من	maund	
+1334	من	maund	/mən/
 1335	فضل	grace	/fəzl/
 1336	سمجھنا	to understand	/sə.məd͡ʒʱ.nɑː/
-1337	صحافیوں	oblique plural of صِحَافی	
+1337	صحافیوں	oblique plural of صِحَافی	/sɪɦɑːfɪjoː̃/
 1338	بارش	rain	/bɑː.ɾɪʃ/
 1339	والدہ	mother	/ʋɑː.lɪ.d̪ɑ(ː)/
 1340	تشکیل	formation; foundation, establishment	/t̪əʃ.kiːl/
 1341	انقلاب	revolution	/ɪn.qɪ.lɑːb/
 1342	بندے	oblique/vocative singular	/bən.d̪eː/
-1343	کافر	unbeliever	
+1343	کافر	unbeliever	/kɑːfɪɾ/
 1344	کپ	cup, glass	/kəp/
-1345	لکیر	line, boundary	
-1346	حاضر	ready	
+1345	لکیر	line, boundary	/ləkiːɾ/
+1346	حاضر	ready	/ɦɑːzɪɾ/
 1347	کمزوری	weakness	/kəm.zoː.ɾiː/
 1348	تشریف	honour	/t̪əʃ.ɾiːf/
 1349	ترس	pity, mercy	/t̪ə.ɾəs/
@@ -1358,11 +1358,11 @@ rank	word	english	ipa
 1357	متعارف	known to each other, already introduced, mutually known,…	/mʊ.t̪ə.(ʔ)ɑː.ɾəf/
 1358	دولت	wealth; riches; fortune	/d̪ɔː.lət̪/
 1359	شیر	lion	/ʃeːɾ/
-1360	معنی	meaning	
+1360	معنی	meaning	/məniː/
 1361	ناکہ	checkpost	/nɑː.kɑ(ː)/
-1362	گلا	neck	
+1362	گلا	neck	/ɡəlɑː/
 1363	سچا	truthful, honest	/sət̪.t͡ʃɑː/
-1364	اہمیت	importance	
+1364	اہمیت	importance	/əɦmɪjət̪/
 1365	راتوں	night, nighttime	/ɾɑː.t̪õː/
 1366	مستقل	permanent	/mʊs.t̪ə.qɪl/
 1367	جاپانی	Japanese	/d͡ʒɑː.pɑː.niː/
@@ -1394,15 +1394,15 @@ rank	word	english	ipa
 1393	جھاڑو	broom	/d͡ʒʱɑː.ɽuː/
 1394	وادی	valley	/ʋɑː.d̪iː/
 1395	آلو	potato	/ɑː.luː/
-1396	پھلی	bean	
-1397	قد	height, stature	
+1396	پھلی	bean	/pʰəliː/
+1397	قد	height, stature	/qəd̪/
 1398	واقعات	plural of واقِعَہ	/ʋɑː.qɪ.(ʔ)ɑːt̪/
 1399	نزدیک	close, closeby	/nəz.d̪iːk/
 1400	چھلانگ	jump, leap	/t͡ʃʰə.lɑːŋɡ/
 1401	محکمہ	tribunal, assize	/məɦ.kəm.ɑ(ː)/
 1402	علاقوں	oblique plural of عِلاقَہ	/(ʔ)ɪ.lɑː.qõː/
 1403	پول	emptiness, meaninglessness	/poːl/
-1404	چمک	brightness	
+1404	چمک	brightness	/t͡ʃəmək/
 1405	منحوس	ill-omened	/mən.ɦuːs/
 1406	لب	lip	/ləb/
 1407	گنبد	dome, cupola	/ɡʊm.bəd̪/
@@ -1422,7 +1422,7 @@ rank	word	english	ipa
 1421	مترجم	translator; interpreter	/mʊ.t̪əɾ.d͡ʒɪm/
 1422	دوستو	vocative plural of دوسْت	/d̪oːs.t̪oː/
 1423	گردش	rotation	/ɡəɾ.d̪ɪʃ/
-1424	ساٹھ	sixty	
+1424	ساٹھ	sixty	/sɑːʈʰ/
 1425	ابا	father	/əbː.ɑː/
 1426	تاش	playing cards	/t̪ɑːʃ/
 1427	امی	alternative form of اَمّا	/əmː.iː/
@@ -1432,13 +1432,13 @@ rank	word	english	ipa
 1431	معروف	famous, renowned	/məʕ.ɾuːf/
 1432	بیٹھنا	to sit	/bɛːʈʰ.nɑː/
 1433	دھات	metal	/d̪ʱɑːt̪/
-1434	اقرار	promise	
+1434	اقرار	promise	/ɪqɾɑːɾ/
 1435	انتقال	death, passing	/ɪn.t̪ɪ.qɑːl/
 1436	منفرد	unique, singular, apart, alone, separate, isolated	/mʊn.fə.ɾɪd̪/
 1437	کارن	cause, reason	/kɑː.ɾən/
 1438	جشن	banquet, feast	/d͡ʒəʃ(.ə)n/
 1439	برف	ice	/bəɾf/
-1440	روپے	oblique/vocative singular	
+1440	روپے	oblique/vocative singular	/ɾuːpeː/
 1441	معاہدہ	a peace treaty, accord	/mʊ.(ʔ)ɑː.ɦə.d̪ɑ(ː)/
 1442	پتلون	pants, trousers	/pət̪.luːn/
 1443	نگاہ	synonym of نَظَر	/nɪ.ɡɑːɦ/
@@ -1456,17 +1456,17 @@ rank	word	english	ipa
 1455	گرڈ	eagle	/ɡə.ɾʊɖ/
 1456	بدھ	Buddha	/bʊd̪ʱ/
 1457	افواہ	rumor, speculation; idle talk	/əf.ʋɑː(ɦ)/
-1458	مال	property, possessions, goods	
+1458	مال	property, possessions, goods	/mɑːl/
 1459	واقعہ	event, incident	/ʋɑː.qɪ.(ʔ)ɑ(ː)/
 1460	کتا	dog	/kʊt̪.t̪ɑː/
 1461	پیشاب	urine	/peː.ʃɑːb/
 1462	بوڑھے	direct masculine plural	/buː.ɽʱeː/
 1463	علیحدہ	separately, apiece	/(ʔ)ə.lɛː.ɦɪ.d̪ɑː/
 1464	کنواری	maiden	/kʊ̃.ʋɑː.ɾiː/
-1465	بقایا	remaining, outstanding	
+1465	بقایا	remaining, outstanding	/bəqɑːjɑː/
 1466	عالم	world	/ɑː.ləm/
 1467	صلیب	crucifix	/sə.liːb/
-1468	تیر	shore	
+1468	تیر	shore	/t̪iːɾ/
 1469	ہرن	deer, hart, gazelle, antelope	/ɦɪ.ɾən/
 1470	کلو	black, dark, someone of dark skin	/kəl.luː/
 1471	ترجمہ	translation; interpretation	/t̪əɾ.d͡ʒə.mɑ(ː)/
@@ -1479,11 +1479,11 @@ rank	word	english	ipa
 1478	فوجوں	army	/foː.d͡ʒõː/
 1479	قرار	peace, tranquility, rest, calm	/qə.ɾɑːɾ/
 1480	نایاب	rare, scarce	/nɑː.jɑːb/
-1481	عزم	determination, resolve, resolution	
+1481	عزم	determination, resolve, resolution	/əzm/
 1482	حادثہ	accident	/ɦɑː.d̪ɪ.sɑ(ː)/
 1483	پکار	cry, call	/pʊ.kɑːɾ/
 1484	تخت	throne	/t̪əxt̪/
-1485	کتابیں	direct plural of کِتاب	
+1485	کتابیں	direct plural of کِتاب	/kɪt̪ɑːbeː̃/
 1486	جنم	birth; emergence	/d͡ʒə.nəm/
 1487	سینے	direct plural	/siː.neː/
 1488	ترکی	of or belonging to a Turk; Turkish, Turk-like	/t̪ʊɾ.kiː/
@@ -1495,7 +1495,7 @@ rank	word	english	ipa
 1494	نائب	naib, viceroy, deputy	/nɑː.ɪb/
 1495	بوم	earth, land, soil	/buːm/
 1496	فضول	nonsense	/fʊ.zuːl/
-1497	پا	foot	
+1497	پا	foot	/pɑː/
 1498	لاگت	expense; cost, price	/lɑː.ɡət̪/
 1499	باتوں	talk, conversation	/bɑː.t̪õː/
 1500	روایت	legend, narrative	/ɾɪ.ʋɑː.jət̪/
@@ -1533,7 +1533,7 @@ rank	word	english	ipa
 1532	رہائش	residence, stay	/ɾə.ɦɑː.ɪʃ/
 1533	چپٹی	palm	/t͡ʃəp.ʈiː/
 1534	رشتے	direct plural	/ɾɪʃ.t̪eː/
-1535	لگاتار	continuously, uninterrupted	
+1535	لگاتار	continuously, uninterrupted	/ləɡɑːt̪ɑːɾ/
 1536	برآمد	export	/bə.ɾɑː.məd̪/
 1537	ڈاک	mail, post	/ɖɑːk/
 1538	ہواؤں	air	/ɦʋɑː.õː/
@@ -1542,7 +1542,7 @@ rank	word	english	ipa
 1541	فاصلہ	distance	/fɑː.sɪ.lɑː/
 1542	مجموعہ	sum, total	/məd͡ʒ.muː.ʔɑ(ː)/
 1543	تجاوز	deviation, excess	/t̪ə.d͡ʒɑː.ʋʊz/
-1544	ساکھ	trust	
+1544	ساکھ	trust	/sɑːkʰ/
 1545	قمیض	shirt	/qə.miːz/
 1546	مذہبی	religious	/məz.ɦə.biː/
 1547	نیک	good, virtuous, righteous, upright, pious, kind-hearted,…	/neːk/
@@ -1561,22 +1561,22 @@ rank	word	english	ipa
 1560	سلامت	safety, peace	/sə.lɑː.mət̪/
 1561	سیلاب	flood, torrent, deluge, inundation	/sɛː.lɑːb/
 1562	فلائٹ	flight	/flɑː.ɪʈ/
-1563	در	door	
+1563	در	door	/d̪əɾ/
 1564	تن	body	/t̪ən/
 1565	ماہرین	expert, professional	/mɑː.ɦɪ.ɾiːn/
 1566	ظالم	oppressor, unjust, dictator, tyrannical, wrongdoer	/zɑː.lɪm/
 1567	عالیہ	high, elevated, exalted, eminent, noble, grand, sublime	/(ʔ)ɑː.lɪ.jɑ(ː)/
-1568	کھونا	to lose	
+1568	کھونا	to lose	/kʰoːnɑː/
 1569	نقشہ	map, chart	/nəq.ʃəɦ/
 1570	سبب	cause, reason	/sə.bəb/
 1571	چوک	square; chowk	/t͡ʃɔːk/
-1572	رعایا	broken plural of رَعِیَّت	
+1572	رعایا	broken plural of رَعِیَّت	/ɾɪɑːjɑː/
 1573	زبانیں	direct plural of زُبان	/zə.bɑː.nẽː/
 1574	بیویوں	oblique plural of بِیوی	/biː.ʋɪ.jõː/
 1575	گھوڑا	horse	/ɡʱoː.ɽɑː/
 1576	ڈھونڈنا	to seek	/ɖʱuːnɖ.nɑː/
 1577	مظاہرہ	demonstration	/mʊ.zɑː.ɦɪ.ɾɑː/
-1578	بد	bad	
+1578	بد	bad	/bəd̪/
 1579	وقف	devoted	/ʋəqf/
 1580	تلواریں	direct plural of تَلْوَار	/t̪əl.ʋɑː.ɾẽː/
 1581	تجارتی	mercantile, commercial, business	/t̪ɪ.d͡ʒɑː.ɾə.t̪iː/
@@ -1589,7 +1589,7 @@ rank	word	english	ipa
 1588	آب	water	/ɑːb/
 1589	بچانا	to save, rescue	/bə.t͡ʃɑː.nɑː/
 1590	لوٹ	spoils	/luːʈ/
-1591	پٹ	crack	
+1591	پٹ	crack	/pəʈ/
 1592	پروردگار	an appellation or epithet of God	/pəɾ.ʋəɾ.d̪ɪ.ɡɑːɾ/
 1593	طلوع	sunrise, moonrise	/t̪ʊ.luː(ʔ)/
 1594	صدی	century	/sə.d̪iː/
@@ -1604,7 +1604,7 @@ rank	word	english	ipa
 1603	مادہ	female	/mɑː.d̪ɑː/
 1604	سبت	the Sabbath	/səbt̪/
 1605	بھوکے	direct masculine plural	/bʱuː.keː/
-1606	بلانا	to shout	
+1606	بلانا	to shout	/bʊlɑːnɑː/
 1607	نہایت	extremely	/nɪ.hɑː.jət̪/
 1608	خونی	killer, murderer	/xuː.niː/
 1609	گم	lost, missing	/ɡʊm/
@@ -1635,7 +1635,7 @@ rank	word	english	ipa
 1634	فرانسیسی	French	/f(ə.)ɾɑːn.siː.siː/
 1635	آئین	constitution	/ɑː.iːn/
 1636	گلابی	rosy	/ɡʊ.lɑː.biː/
-1637	اداکاری	acting	
+1637	اداکاری	acting	/əd̪əkɑːɾɪ/
 1638	آمدنی	gross income, earning	/ɑːm.d̪ə.niː/
 1639	تبادلہ	exchange, transfer	/t̪ə.bɑː.d̪ɪ.lɑ(ɦ)/
 1640	رومی	of or belonging to Rūm	/ɾuː.miː/
@@ -1653,20 +1653,20 @@ rank	word	english	ipa
 1652	نیچا	low, under	/niː.t͡ʃɑː/
 1653	سلوک	behaviour, conduct	/sʊ.luːk/
 1654	خزاں	fall, autumn	/xɪ.zɑ̃ː/
-1655	مخصوص	private, characteristic	
-1656	نوے	ninety	
+1655	مخصوص	private, characteristic	/məxsuːs/
+1656	نوے	ninety	/nəʋʋeː/
 1657	سلسلہ	chain, shackle	/sɪl.sɪ.lɑː/
 1658	گھونٹ	sip, gulp	/ɡʱuːnʈ/
-1659	نیکی	virtue, goodness	
-1660	بندوبست	arrangement	
+1659	نیکی	virtue, goodness	/neːkiː/
+1660	بندوبست	arrangement	/bənd̪oːbəst̪/
 1661	حمل	transport, carriage, bearing	/ɦəml/
 1662	تہائی	third	/t̪ɪ.ɦɑː.iː/
 1663	فلسفہ	philosophy	/fəl.sə.fᵊ/
-1664	جائیداد	alternative spelling of جَائِداد	
+1664	جائیداد	alternative spelling of جَائِداد	/d͡ʒɑːiːd̪ɑːd̪/
 1665	تار	cord, wire	/t̪ɑːɾ/
 1666	اندراج	registration, insertion, entry	/ɪn.d̪ɪ.ɾɑːd͡ʒ/
 1667	وعدے	direct plural	/ʋə.(ʔ)d̪eː/
-1668	کلیدی	key, essential, basic, central, pivotal	
+1668	کلیدی	key, essential, basic, central, pivotal	/kəliːd̪iː/
 1669	ظفر	victory, triumph	/zə.fəɾ/
 1670	حراست	arrest, custody	/ɦɪ.ɾɑː.sət̪/
 1671	تشریح	exegesis	/t̪əʃ.ɾiːɦ/
@@ -1685,13 +1685,13 @@ rank	word	english	ipa
 1684	فراز	above, upwards	/fə.ɾɑːz/
 1685	اٹھارہ	eighteen	/ə.ʈʰɑː.ɾəɦ/
 1686	آفت	calamity, disaster	/ɑː.fət̪/
-1687	ماننا	to believe	
+1687	ماننا	to believe	/mɑːnnɑː/
 1688	وارث	heir, inheritor	/ʋɑː.ɾɪs/
 1689	احمقانہ	moronic, stupid	/əɦ.mə.qɑːn.ɑ(ː)/
 1690	سرگرمی	activity, hobby	/səɾ.ɡəɾ.miː/
 1691	باہمی	mutual, shared, reciprocal, together	/bɑː.ɦə.miː/
 1692	دوستانہ	friendly	/d̪oːs.t̪ɑː.nə/
-1693	یہود	Jewry	
+1693	یہود	Jewry	/jəɦuːd̪/
 1694	حکیم	physician, doctor	/ɦə.kiːm/
 1695	جنازوں	oblique plural of جَنازَہ	/d͡ʒə.nɑː.zõː/
 1696	اک	alternative form of ایک	/ɪk/
@@ -1713,20 +1713,20 @@ rank	word	english	ipa
 1712	جمہوریہ	republic	/d͡ʒəm.ɦuː.ɾɪ.jə/
 1713	بہنوں	oblique plural of بَہَن	/bə.ɦə.nõː/
 1714	سیاح	tourist, traveller	/səj.jɑːɦ/
-1715	بدنام	infamous	
+1715	بدنام	infamous	/bəd̪nɑːm/
 1716	جڑ	root	/d͡ʒəɽ/
-1717	بتیس	thirty-two	
+1717	بتیس	thirty-two	/bət̪t̪iːs/
 1718	انکشافات	formal plural of اِنْکِشاف	/ɪn.kɪ.ʃɑː.fɑːt̪/
 1719	لاپتہ	missing	/lɑː.pə.t̪ɑ(ː)/
 1720	صلی	only used in صلیٰ اللہ علیہ وسلم	/səl.lɑː/
 1721	حساب	account	/ɦɪ.sɑːb/
 1722	دیوانہ	obsessed	/d̪iː.ʋɑː.nɑ(ː)/
 1723	نغمے	direct plural	/nəɣ.meː/
-1724	عالی	high, elevated, exalted, eminent, noble, grand, sublime	
+1724	عالی	high, elevated, exalted, eminent, noble, grand, sublime	/ɑːliː/
 1725	گائیڈ	guide; guide book	/ɡɑː.iːɖ/
 1726	صنعت	industry	/sən.(ʔ)ət̪/
 1727	شہید	martyred	/ʃə.ɦiːd̪/
-1728	محور	axis	
+1728	محور	axis	/mɪɦʋəɾ/
 1729	لومڑی	fox	/loːm.ɽiː/
 1730	انتہا	limit, extent	/ɪn.t̪ɪ.ɦɑː/
 1731	خریدنا	to buy, to purchase	/xə.ɾiːd̪.nɑː/
@@ -1738,7 +1738,7 @@ rank	word	english	ipa
 1737	اخذ	seizing, taking	/əxz/
 1738	ہندو	Hindu, a follower of Hinduism	/ɦɪn.d̪uː/
 1739	قطرہ	drop/droplet	/qət̪.ɾɑ(ː)/
-1740	لوٹنا	to loot, steal	
+1740	لوٹنا	to loot, steal	/luːʈnɑː/
 1741	ہاٹ	market, marketplace	/ɦɑːʈ/
 1742	ہانک	calling aloud, bawling	/ɦɑ̃ːk/
 1743	پکڑنا	to hold	/pə.kəɽ.nɑː/
@@ -1752,7 +1752,7 @@ rank	word	english	ipa
 1751	قہر	fury, anger, rage, wrath	/qəɦɾ/
 1752	نقاب	mask	/nɪ.qɑːb/
 1753	ہیر	diamond	/ɦiːɾ/
-1754	عادی	normal	
+1754	عادی	normal	/ɑːd̪iː/
 1755	رسول	Messenger, prophet	/ɾə.suːl/
 1756	خلا	vacancy, hollowness, lacuna	/xə.lɑː/
 1757	قافلوں	oblique plural of قافِلَہ	/qɑː.fɪ.lõː/
@@ -1767,15 +1767,15 @@ rank	word	english	ipa
 1766	آتش	fire; flame	/ɑː.t̪ɪʃ/
 1767	بھیانک	scary, horrible, terrifying	/bʱə.jɑː.nək/
 1768	بکس	box, chest	/bəks/
-1769	اخباری	journalistic	
+1769	اخباری	journalistic	/əxbɑːɾiː/
 1770	خارجی	foreign	/xɑː.ɾɪ.d͡ʒiː/
 1771	معدہ	stomach	/meː.d̪a/
 1772	چوتڑ	buttocks	/t͡ʃuː.t̪əɽ/
 1773	موج	a wave, surge, billow	/mɔːd͡ʒ/
 1774	محتاط	guarded, cautious, careful	/mʊɦ.t̪ɑːt̪/
 1775	سیکھنا	to learn	/siːkʰ.nɑː/
-1776	اصلیت	genuineness, originality, quiddity	
-1777	ڈبہ	a box, container	
+1776	اصلیت	genuineness, originality, quiddity	/əslɪjət̪/
+1777	ڈبہ	a box, container	/ɖɪbbə/
 1778	حلوہ	dessert	/ɦəl.ʋɑ(ː)/
 1779	متجسس	curious	/mʊ.t̪ə.d͡ʒəs.sɪs/
 1780	قومیت	nationality	/qɔː.mɪ.jət̪/
@@ -1788,30 +1788,30 @@ rank	word	english	ipa
 1787	انگوٹھی	a ring	/əŋ.ɡuː.ʈʰiː/
 1788	غالب	dominant, predominant	/ɣɑː.lɪb/
 1789	شیخی	boasting, bragging, arrogance	/ʃeː.xiː/
-1790	کرسمس	Christmas	
+1790	کرسمس	Christmas	/kɪɾɪsməs/
 1791	جھنڈا	flag, banner	/d͡ʒʱən.ɖɑː/
 1792	سفیر	ambassador, envoy	/sə.fiːɾ/
-1793	لڑکیاں	girl	
+1793	لڑکیاں	girl	/ləɽkɪjɑː̃/
 1794	جمہوری	democratic	/d͡ʒəm.ɦuː.ɾiː/
 1795	مہاجر	refugee, immigrant	/mʊ.ɦɑː.d͡ʒɪɾ/
 1796	جادوگر	magician, sorcerer, wizard, enchanter, conjurer	/d͡ʒɑː.d̪uː.ɡəɾ/
 1797	استحکام	establishment, stability, firmness, corroboration,…	/ɪs.t̪ɪɦ.kɑːm/
 1798	پسینہ	sweat, perspiration	/pə.siːn.ɑ(ː)/
-1799	لنڈ	penis, cock, dick	
+1799	لنڈ	penis, cock, dick	/lənɖ/
 1800	مربع	square	/mʊ.ɾəb.bɑː(ʔ)/
 1801	دمہ	asthma	/d̪ə.mɑ(ː)/
 1802	بجنا	to play	/bəd͡ʒ.nɑː/
 1803	سلمی	a female given name, Salma, from Arabic	/səl.mɑː/
 1804	گانا	song	/ɡɑː.nɑː/
 1805	ٹیچر	teacher	/ʈiː.t͡ʃəɾ/
-1806	اسرار	arrow	
+1806	اسرار	arrow	/əsɾɑːɾ/
 1807	چننا	to gather	/t͡ʃɪn.nɑː/
 1808	قسط	share, portion	/qɪst̪/
-1809	ستر	seventy	
+1809	ستر	seventy	/sət̪t̪əɾ/
 1810	تسمہ	shoelace	/t̪əs.mᵊ/
 1811	دانت	tooth	/d̪ɑ̃ːt̪/
-1812	حکمت	wisdom	
-1813	کانٹے	thorn	
+1812	حکمت	wisdom	/ɦɪkmət̪/
+1813	کانٹے	thorn	/kɑːnʈeː/
 1814	سائنسی	scientific	/sɑː.ɪn.siː/
 1815	توڑنا	to break, snap	/t̪oːɽ.nɑː/
 1816	پاکستانی	Pakistani	/pɑː.kɪs.t̪ɑː.niː/
@@ -1821,7 +1821,7 @@ rank	word	english	ipa
 1820	ہٹنا	to move aside	/ɦəʈ.nɑː/
 1821	ناشتا	breakfast	/nɑːʃ.t̪ɑː/
 1822	اکتوبر	October	/ək.t̪uː.bəɾ/
-1823	حرم	forbidden	
+1823	حرم	forbidden	/ɦəɾəm/
 1824	بناوٹ	creation, making	/bə.nɑː.ʋət̪/
 1825	غلیظ	filthy, dirty, nasty, foul	/ɣə.liːz/
 1826	کری	an elephant	/kə.ɾiː/
@@ -1841,17 +1841,17 @@ rank	word	english	ipa
 1840	تاریخی	historical	/t̪ɑː.ɾiː.xiː/
 1841	دلہن	bride	/d̪ʊl.ɦən/
 1842	ماٹی	clay, earth, soil	/mɑː.ʈiː/
-1843	بدمعاش	thug, bully	
+1843	بدمعاش	thug, bully	/bəd̪məɑːʃ/
 1844	صفحہ	page	/səf.ɦɑ(ː)/
 1845	گھریلو	domestic	/ɡʱə.ɾeː.luː/
 1846	رواں	flowing	/ɾə.ʋɑ̃ː/
-1847	ادار	munificent	
-1848	ذہین	intellectual	
+1847	ادار	munificent	/ʊd̪ɑːɾ/
+1848	ذہین	intellectual	/zəɦiːn/
 1849	عظمت	grandeur, greatness; might	/(ʔ)əz.mət̪/
 1850	کمر	waist; loin	/kə.məɾ/
 1851	کرنیں	direct plural of کِرَن	/kɪ.ɾə.nẽː/
 1852	رومال	handkerchief	/ɾuː.mɑːl/
-1853	اولین	firstly	
+1853	اولین	firstly	/əʋʋəliːn/
 1854	شفقت	affection; compassion	/ʃəf.qət̪/
 1855	چوبیس	twenty-four	/t͡ʃɔː.biːs/
 1856	سطحی	superficial	/sət̪.ɦiː/
@@ -1872,9 +1872,9 @@ rank	word	english	ipa
 1871	گھوڑوں	horse	/ɡʱoː.ɽõː/
 1872	کھیت	farm, plantation	/kʰeːt̪/
 1873	بھولا	innocent, naive	/bʱoː.lɑː/
-1874	لعنتی	cursed, accursed	
+1874	لعنتی	cursed, accursed	/lənət̪iː/
 1875	اندھے	direct masculine plural	/ən.d̪ʱeː/
-1876	پینتیس	thirty-five	
+1876	پینتیس	thirty-five	/pɛː̃t̪iːs/
 1877	مہربان	loving, affectionate, friendly, kind, benevolent,…	/mɪɦɾ.bɑːn/
 1878	اولاد	offspring	/ɔː.lɑːd̪/
 1879	سوتیلی	feminine of سَوتیلا	/sɔː.t̪eː.liː/
@@ -1910,18 +1910,18 @@ rank	word	english	ipa
 1909	طالبان	plural of طالب	/t̪ɑː.lɪ.bɑːn/
 1910	جماعت	community; organisation; group	/d͡ʒə.mɑː.(ʔ)ət̪/
 1911	سالانہ	yearly, annual	/sɑː.lɑː.nɑː/
-1912	تقطیع	cutting into parts, dissection	
-1913	جزوی	partial	
+1912	تقطیع	cutting into parts, dissection	/t̪əqt̪iː/
+1913	جزوی	partial	/d͡ʒʊzʋɪ/
 1914	جہاد	jihad, holy war, crusade	/d͡ʒɪ.ɦɑːd̪/
 1915	لوہے	iron	/loː.ɦeː/
 1916	مرغی	hen	/mʊɾ.ɣiː/
-1917	آئندہ	in the future, as we move ahead	
+1917	آئندہ	in the future, as we move ahead	/ɑːɪnd̪ə/
 1918	فہم	understanding, comprehension	/fəɦm/
 1919	سگریٹ	cigarette	/sɪɡ.ɾeːʈ/
 1920	بیوہ	widow	/beːʋ.ɑ(ː)/
 1921	اختلاف	discord, clash, difference, disagreement, misunderstanding,…	/ɪx.t̪ɪ.lɑːf/
 1922	چڑھنا	to climb	/t͡ʃəɽʱ.nɑː/
-1923	اصرار	insistence, obduracy, obstinacy, persistence	
+1923	اصرار	insistence, obduracy, obstinacy, persistence	/ɪsɾɑːɾ/
 1924	مطمئن	satisfied	/mʊt̪.mə.ɪn/
 1925	کھلونا	toy	/kʰɪ.lɔː.nɑː/
 1926	حالیہ	recent	/ɦɑː.lɪ.jɑ(ː)/
@@ -1930,7 +1930,7 @@ rank	word	english	ipa
 1929	کمبل	blanket	/kəm.bəl/
 1930	جگ	jug	/d͡ʒəɡ/
 1931	نعمت	blessing, grace	/nɪ.(ʔ)mət̪/
-1932	جائز	permissible, permitted, allowed	
+1932	جائز	permissible, permitted, allowed	/d͡ʒɑːɪz/
 1933	چمن	garden	/t͡ʃə.mən/
 1934	تماشا	amusement	/t̪ə.mɑː.ʃɑː/
 1935	گلاب	rosewater	/ɡʊ.lɑːb/
@@ -1943,22 +1943,22 @@ rank	word	english	ipa
 1942	قول	vow, pledge, word of honour, promise	/qɔːl/
 1943	سنہ	obsolete spelling of سِن٘گھ	/sɪ̃ŋɦ/
 1944	کروانا	to cause to do, to make do or cause, to have or get done or…	/kəɾ.ʋɑː.nɑː/
-1945	اثاثہ	belonging	
+1945	اثاثہ	belonging	/əsɑːsəɦ/
 1946	قلعہ	fort, fortress, castle	/qɪl.ʔɑ(ː)/
 1947	حیوان	beast; animal	/ɦɛː.ʋɑːn/
 1948	بحریہ	navy	/bəɦ.ɾɪ.jɑː/
 1949	تمنا	wish, desire	/t̪ə.mən.nɑː/
-1950	آکسیجن	oxygen	
+1950	آکسیجن	oxygen	/ɑːkseːd͡ʒən/
 1951	تارکین	immigrants	/t̪ɑː.ɾɪ.kiːn/
 1952	لانا	to bring	/lɑː.nɑː/
 1953	رخ	face, cheek	/ɾʊx/
-1954	اذان	call to prayer, adhan	
-1955	نشر	broadcasting, telecasting, transmission, publishing,…	
+1954	اذان	call to prayer, adhan	/əzɑːn/
+1955	نشر	broadcasting, telecasting, transmission, publishing,…	/nəʃəɾ/
 1956	مسلسل	continuously	/mʊ.səl.səl/
 1957	وفات	death, decease, demise	/ʋə.fɑːt̪/
-1958	گرہ	planet	
+1958	گرہ	planet	/ɡɾəɦ/
 1959	اٹاری	attic	/ə.ʈɑː.ɾiː/
-1960	طب	medicine	
+1960	طب	medicine	/t̪ɪbb/
 1961	اونچائی	height	/ũː.t͡ʃɑː.iː/
 1962	منع	prohibited, forbidden, not allowed	[mə.nɑː]
 1963	ڈیڑھ	one and a half; 1.5	/ɖeːɽʱ/
@@ -1971,7 +1971,7 @@ rank	word	english	ipa
 1970	جینا	to live	/d͡ʒiː.nɑː/
 1971	سلطان	sultan	/sʊl.t̪ɑːn/
 1972	ہمیشگی	eternity, perpetuity	/ɦə.meːʃ.ɡiː/
-1973	بیاسی	eighty-two	
+1973	بیاسی	eighty-two	/bəjɑːsiː/
 1974	آزادیوں	freedom, independence	/ɑː.zɑː.d̪ɪ.jõː/
 1975	ضدی	stubborn; obstinate	/zɪd̪.d̪iː/
 1976	قدرت	nature	/qʊd̪.ɾət̪/
@@ -1979,7 +1979,7 @@ rank	word	english	ipa
 1978	قربانی	sacrifice	/qʊɾ.bɑː.niː/
 1979	ڈالنا	to pour	/ɖɑːl.nɑː/
 1980	فن	art, craft, skill	/fən/
-1981	رسمی	usual	
+1981	رسمی	usual	/ɾəsmiː/
 1982	معیاری	qualitative, standard	/meː.(ʔ)jɑː.ɾiː/
 1983	ہڈی	bone	/ɦəɖː.iː/
 1984	پنیر	paneer	/pə.niːɾ/
@@ -1996,14 +1996,14 @@ rank	word	english	ipa
 1995	شترمرغ	ostrich, Struthio camelus	/ʃʊ.t̪ʊɾ.mʊɾɣ/
 1996	پردہ	veil, cover	/pəɾ.d̪ɑ(ː)/
 1997	لازم	necessary, imperative	/lɑː.zɪm/
-1998	بارود	gunpowder	
+1998	بارود	gunpowder	/bɑːɾuːd̪/
 1999	کتوں	oblique plural of کُتّا	/kʊt̪.t̪õː/
 2000	فلکیات	astronomy	/fəl.kiː.jɑːt̪/
 2001	پریڈ	parade	/pə.ɾɛːɖ/
 2002	یادداشت	memory	/jɑːd̪.d̪ɑːʃt̪/
 2003	قرآن	Qur'an	/qʊɾ.ʔɑːn/
 2004	یکم	first day of the month	/jə.kʊm/
-2005	جوڑا	a pair	
+2005	جوڑا	a pair	/d͡ʒoːɽɑː/
 2006	چوروں	thief	/t͡ʃoː.ɾõː/
 2007	چالاک	quick; speedy	/t͡ʃɑː.lɑːk/
 2008	مشعل	a sort of cresset; a torch, flambeau	/məʃ.(ʔ)əl/
@@ -2018,7 +2018,7 @@ rank	word	english	ipa
 2017	دھند	fog	/d̪ʱʊnd̪/
 2018	کھولنا	to open	/kʰoːl.nɑː/
 2019	لال	red	/lɑːl/
-2020	کومل	soft	
+2020	کومل	soft	/koːməl/
 2021	مٹھائیاں	direct plural of مِٹھائی	/mɪ.ʈʰɑː.ɪ.jɑ̃ː/
 2022	چادر	covering	/t͡ʃɑː.d̪əɾ/
 2023	مزیدار	fun	/mə.zeː.d̪ɑːɾ/
@@ -2030,18 +2030,18 @@ rank	word	english	ipa
 2029	نابینا	blind, sightless	/nɑː.biː.nɑː/
 2030	سڑا	rotten, putrid	/sə.ɽɑː/
 2031	بھیس	disguise; guise	/bʱeːs/
-2032	چوم	kiss	
+2032	چوم	kiss	/t͡ʃuːm/
 2033	بور	bored	/boːɾ/
 2034	منا	darling, dear, boy	/mʊn.nɑː/
 2035	لشکر	army, armed force, military	/ləʃ.kəɾ/
 2036	رینو	vocative plural of رَین	/ɾɛː.noː/
-2037	مٹھاس	sweetness	
+2037	مٹھاس	sweetness	/mɪʈʰɑːs/
 2038	چشمہ	a fountain	/t͡ʃəʃ.mɑ(ː)/
 2039	کلی	bud	/kə.liː/
-2040	زنا	zina, extramarital and premarital sexual intercourse	
+2040	زنا	zina, extramarital and premarital sexual intercourse	/zɪnɑː/
 2041	نسخہ	prescription	/nʊs.xɑ(ː)/
 2042	نگاہیں	direct plural of نِگاہ	/nɪ.ɡɑː.ɦẽː/
-2043	سوٹکیس	alternative form of سوٹ کیس	
+2043	سوٹکیس	alternative form of سوٹ کیس	/suːʈkeːs/
 2044	راہیں	path, way	/ɾɑː.ɦẽː/
 2045	گنگنا	lukewarm	/ɡʊn.ɡʊ.nɑː/
 2046	حوروں	oblique plural of حُور	/ɦuː.ɾõː/
@@ -2052,29 +2052,29 @@ rank	word	english	ipa
 2051	بکرا	billy goat, male goat	/bək.ɾɑː/
 2052	حوریں	direct plural of حُور	/ɦuː.ɾẽː/
 2053	دہی	curd, yogurt	/d̪ə.ɦiː/
-2054	چولہا	alternative form of چُولھَا	
+2054	چولہا	alternative form of چُولھَا	/t͡ʃuːlɦɑː/
 2055	بڑھیا	old woman	/bʊɽʱ.jɑː/
 2056	ریگستان	desert	/ɾeː.ɡɪs.t̪ɑːn/
 2057	تازی	feminine of تَازہ	/t̪ɑː.ziː/
 2058	چتا	pyre	/t͡ʃɪ.t̪ɑː/
-2059	شائستہ	civilized, well-bred	
-2060	کتابوں	oblique plural of کِتاب	
+2059	شائستہ	civilized, well-bred	/ʃɑːɪst̪ɑː/
+2060	کتابوں	oblique plural of کِتاب	/kɪt̪ɑːboː̃/
 2061	کتب	formal plural of کِتاب	/kʊ.t̪ʊb/
 2062	تلخ	bitter, distasteful	/t̪əl̪x/
 2063	حوالہ	reference, citing	/ɦə.ʋɑː.lɑː/
 2064	ادارتی	institutional	/ɪ.d̪ɑː.ɾə.t̪iː/
-2065	اخلاقی	ethical, moral	
+2065	اخلاقی	ethical, moral	/əxlɑːqɪ/
 2066	راستوں	oblique plural of راسْتَہ	/ɾɑːs.t̪õː/
 2067	یک	one	/jək/
 2068	مرمت	repair, mend	/mə.ɾəmː.ət̪/
 2069	سوتے	to sleep	/soː.t̪eː/
-2070	اطراف	side	
+2070	اطراف	side	/ət̪ɾɑːf/
 2071	پھل	fruit	/pʰəl/
 2072	بندش	closure, restriction, stoppage	/bən.d̪ɪʃ/
 2073	فرمان	a royal decree, order	/fəɾ.mɑːn/
 2074	پکوان	dish, cuisine; any cooked or prepared food	/pək.wɑːn/
-2075	حلقوں	oblique plural of حَلْقَہ	
-2076	میراث	inheritance	
+2075	حلقوں	oblique plural of حَلْقَہ	/ɦəlqoː̃/
+2076	میراث	inheritance	/miːɾɑːs/
 2077	ارادے	direct plural	/ɪ.ɾɑː.d̪eː/
 2078	سنتان	offspring, progeny	/sən.t̪ɑːn/
 2079	مسوڑھوں	oblique plural of مَسُوڑھا ”	/mə.suː.ɽʱõː/
@@ -2086,7 +2086,7 @@ rank	word	english	ipa
 2085	جائیدادوں	alternative spelling of جَائِداد	/d͡ʒɑː.eː.d̪ɑː.d̪õː/
 2086	بالٹی	bucket	/bɑːl.ʈiː/
 2087	پذیر	accepting, admitting	/pə.ziːɾ/
-2088	اماں	mom, mother	
+2088	اماں	mom, mother	/əmmɑː̃/
 2089	پکانا	to cook, prepare food	/pə.kɑː.nɑː/
 2090	وقوع	occurrence, event	/ʋʊ.quː(ʔ)/
 2091	نافرمان	disobedient	/nɑː.fəɾ.mɑːn/
@@ -2094,7 +2094,7 @@ rank	word	english	ipa
 2093	باسی	inhabitant; dweller	/bɑː.siː/
 2094	کپڑوں	oblique plural of کَپْڑا	/kəp.ɽõː/
 2095	بکاؤ	sellable	/bɪ.kɑː.uː/
-2096	حلقے	oblique singular/ vocative singular/ direct plural of…	
+2096	حلقے	oblique singular/ vocative singular/ direct plural of…	/ɦəlqeː/
 2097	انتیس	twenty-nine	/ʊn.t̪iːs/
 2098	شاہ	king	/ʃɑːɦ/
 2099	بھانجا	sororal nephew	/bʱɑːn.d͡ʒɑː/
@@ -2103,11 +2103,11 @@ rank	word	english	ipa
 2102	پہر	unit of time equalling three hours	/pə.ɦəɾ/
 2103	پہچان	recognition, identification	/pəɦ.t͡ʃɑːn/
 2104	مہرہ	vertebra	/mʊɦ.ɾɑ(ː)/
-2105	ارادی	deliberate, intentional, voluntary	
+2105	ارادی	deliberate, intentional, voluntary	/eːɾɑːd̪iː/
 2106	کھجور	date; date palm	/kʰə.d͡ʒuːɾ/
 2107	ناچ	dance, dancing	/nɑːt͡ʃ/
 2108	سنچری	century	/sɪn.t͡ʃʊ.ɾiː/
-2109	تول	balance	
+2109	تول	balance	/t̪oːl/
 2110	شہرت	fame, reputation; renown	/ʃʊɦ.ɾət̪/
 2111	کووں	oblique plural of کَوّا	/kəʋ.ʋõː/
 2112	اکلوتی	feminine of اِکْلَوتا	/ɪk.lɔː.t̪iː/
@@ -2129,7 +2129,7 @@ rank	word	english	ipa
 2128	رمزی	of or pertaining to a symbol or symbols	/ɾəm.ziː/
 2129	ڈکی	trunk, boot	/ɖɪkːiː/
 2130	بھتیجا	fraternal nephew	/bʱə.t̪iː.d͡ʒɑː/
-2131	کباب	kebab	
+2131	کباب	kebab	/kəbɑːb/
 2132	چغد	any small species of owl	/ˈt͡ʃʊɣd̪/
 2133	کیڑا	worm	/kiː.ɽɑː/
 2134	قاعدہ	abecedarium, primer	/qɑːj.d̪ɑ(ː)/
@@ -2140,8 +2140,8 @@ rank	word	english	ipa
 2139	کمینہ	bastard	/kə.miː.nɑ(ː)/
 2140	جوانوں	oblique plural of جَوان	/d͡ʒə.ʋɑː.nõː/
 2141	قرضہ	debt	/qəɾ.zɑ(ː)/
-2142	استفسار	question, query, inquiry	
-2143	ربڑ	rubber, eraser	
+2142	استفسار	question, query, inquiry	/ɪst̪eːfsɑːɾ/
+2143	ربڑ	rubber, eraser	/ɾəbəɽ/
 2144	آفریدی	Afridi	/ɑːf.ɾiː.d̪iː/
 2145	نقلی	fake, imitated	/nəq.liː/
 2146	پتی	leaf	/pət̪.t̪iː/
@@ -2153,14 +2153,14 @@ rank	word	english	ipa
 2152	طبقے	direct plural	/t̪ə.bə.qeː/
 2153	بیعانہ	earnest money; deposit	/bɛː.(ʔ)ɑː.nɑ(ː)/
 2154	پڑھنا	to read	/pəɽʱ.nɑː/
-2155	سینتیس	thirty-seven	
+2155	سینتیس	thirty-seven	/sɛː̃t̪iːs/
 2156	ایرانی	Iranian	/iː.ɾɑː.niː/
 2157	ادھیڑ	middle-aged	/ə.d̪ʱeːɽ/
 2158	اکیس	twenty-one	/ɪk.kiːs/
 2159	اختلافات	formal plural of اِخْتِلاف	/ɪx.t̪ɪ.lɑː.fɑːt̪/
 2160	ننھا	little, young, wee	/nə.nʱɑː/
-2161	اونچی	high, tall, lofty	
-2162	ہون	Any ritual in which making offerings into a consecrated…	
+2161	اونچی	high, tall, lofty	/uːnt͡ʃiː/
+2162	ہون	Any ritual in which making offerings into a consecrated…	/ɦəʋən/
 2163	تعدد	a numerous number	[tɑːd̪.d̪ʊd̪]
 2164	تجربات	formal plural of تَجْرِبَہ	/t̪əd͡ʒ.ɾɪ.bɑːt̪/
 2165	مشقت	toil, trouble	/mə.ʃəqː.ət̪/
@@ -2174,11 +2174,11 @@ rank	word	english	ipa
 2173	اسپتال	hospital	/əs.pə.t̪ɑːl/
 2174	نشست	seat	/nə.ʃɪst̪/
 2175	ثواب	requital, reward	/sə.ʋɑːb/
-2176	پلی	a very small cup	
+2176	پلی	a very small cup	/pəliː/
 2177	گھاس	grass	/ɡʱɑːs/
 2178	لاطینی	Latin	/lɑː.t̪iː.niː/
-2179	احتساب	accountability	
-2180	باقاعدہ	regular, standard, proper	
+2179	احتساب	accountability	/eːɦt̪eːsɑːb/
+2180	باقاعدہ	regular, standard, proper	/bɑːqɑːjd̪ɑː/
 2181	ماندہ	stale	/mɑːn.d̪ɑ(ː)/
 2182	گردنوں	oblique plural of گَرْدَن	/ɡəɾ.d̪ə.nõː/
 2183	گال	cheek	/ɡɑːl/
@@ -2204,12 +2204,12 @@ rank	word	english	ipa
 2203	رعایت	care, support, custody	/ɾɪ.(ʔ)ɑː.jət̪/
 2204	پاستا	pasta	/pɑːs.t̪ɑː/
 2205	شمعیں	direct plural of شَمْع	/ʃəm.(ʔ)ẽː/
-2206	ارتکاب	perpetration	
+2206	ارتکاب	perpetration	/ɪɾt̪ɪkɑːb/
 2207	وابستگی	attachment, affinity, relationship, adherence	/ʋɑː.bəs.t̪ə.ɡiː/
 2208	لاٹھی	lathi	/lɑː.ʈʰiː/
 2209	پہرہ	guard, watch	/pəɦ.ɾᵊ/
-2210	حذف	delete	
-2211	ایڈز	AIDS	
+2210	حذف	delete	/ɦəzəf/
+2211	ایڈز	AIDS	/eːɖz/
 2212	اداس	sad, unhappy	/ʊ.d̪ɑːs/
 2213	ہنسنا	to laugh	/ɦə̃s.nɑː/
 2214	کھلونوں	oblique plural of کِھلَونا	/kʰɪ.lɔː.nõː/
@@ -2221,7 +2221,7 @@ rank	word	english	ipa
 2220	عیش	luxury, pleasure, delight	/(ʔ)ɛːʃ/
 2221	حامی	supporter, defender, helper, ally	/ɦɑː.miː/
 2222	حویلی	mansion, haveli	/ɦə.ʋeː.liː/
-2223	دوری	distance	
+2223	دوری	distance	/d̪uːɾiː/
 2224	ایکواڈور	Ecuador	/eːk.ʋɑː.ɖoːɾ/
 2225	تکمیل	finishing, completion, conclusion	/t̪ək.miːl/
 2226	معیار	standard, quality	/meː(ʔ).jɑːɾ/
@@ -2234,11 +2234,11 @@ rank	word	english	ipa
 2233	توبہ	repentance	/t̪ɔː.bɑ(ː)/
 2234	داغ	a stain, spot	/d̪ɑːɣ/
 2235	ہستی	existence, being	/ɦəs.t̪iː/
-2236	لفظوں	oblique plural of لَفْظ	
+2236	لفظوں	oblique plural of لَفْظ	/ləfzoː̃/
 2237	نادان	naive	/nɑː.d̪ɑːn/
 2238	اکثریت	majority	/ək.sə.ɾɪ.jət̪/
 2239	صلاح	advice, counsel	/sə.lɑːɦ/
-2240	افلاطون	a very clever or wise person	
+2240	افلاطون	a very clever or wise person	/əflɑːt̪uːn/
 2241	تمیز	recognition, distinction, discrimination	/t̪ə.miːz/
 2242	موتی	pearl	/moː.t̪iː/
 2243	ننگا	nude, naked	/nə̃ŋ.ɡɑː/
@@ -2258,7 +2258,7 @@ rank	word	english	ipa
 2257	شہنشاہ	shahanshah; king of kings	/ʃə.ɦən.ʃɑːɦ/
 2258	تلاوت	tilawa, recitation	/t̪ɪ.lɑː.ʋət̪/
 2259	قصائی	a butcher	/qə.sɑː.iː/
-2260	مبتلا	afflicted	
+2260	مبتلا	afflicted	/mʊbt̪ələn/
 2261	زیادتیاں	direct plural of زِیَادَتی	/zɪ.jɑː.d̪ə.t̪ɪ.jɑ̃ː/
 2262	مذمت	condemnation	/mə.zəm.mət̪/
 2263	ٹھیس	blow; knock, strike	/ʈʰeːs/
@@ -2266,18 +2266,18 @@ rank	word	english	ipa
 2265	حادثات	formal plural of حادِثَہ	/ɦɑː.d̪ɪ.sɑːt̪/
 2266	وصیت	will, testament	/ʋə.sɪ.jət̪/
 2267	خیریت	welfare, well-being, health	/xɛː.ɾɪ.jət̪/
-2268	بحیرہ	sea	
-2269	ادراک	insight	
+2268	بحیرہ	sea	/bʊɦɛːɾə/
+2269	ادراک	insight	/ɪd̪ɾɑːk/
 2270	ناقوس	bell, church bell	/nɑː.quːs/
 2271	خوشبودار	fragrant, aromatic; perfumed	/xʊʃ.buː.d̪ɑːɾ/
 2272	دھواں	smoke	/d̪ʱuː.ɑ̃ː/
 2273	کارخانہ	workshop	/kɑːɾ.xɑː.nɑ(ː)/
-2274	معظم	magnified; great; honoured, respected, revered	
+2274	معظم	magnified; great; honoured, respected, revered	/mʊəzzəm/
 2275	مقبول	accepted, assenting	/məq.buːl/
 2276	فوجیں	army	/foː.d͡ʒẽː/
 2277	پروا	care, concern	/pəɾ.ʋɑː/
 2278	ٹوٹا	cracked, shattered	/ʈuː.ʈɑː/
-2279	مشاورت	counseling	
+2279	مشاورت	counseling	/mʊʃɑːʋəɾət̪/
 2280	اگست	August	/ə.ɡəst̪/
 2281	چھبیس	twenty-six	/t͡ʃʰəb.biːs/
 2282	معبود	deity, god	/mɑː.(ʔ)buːd̪/
@@ -2291,7 +2291,7 @@ rank	word	english	ipa
 2290	برکت	blessing	/bəɾ.kət̪/
 2291	فرعون	pharaoh	/fɪɾ.(ʔ)ɔːn/
 2292	غرض	in short, in summary	/ɣə.ɾəz/
-2293	ازسرنو	afresh	
+2293	ازسرنو	afresh	/əzsəɾeːnɔː/
 2294	سمندروں	oblique plural of سَمُنْدَر	/sə.mʊn.d̪ə.ɾõː/
 2295	پینسل	alternative form of پِنْسِل	/peːn.sɪl/
 2296	اندھیرا	dark	/ən.d̪ʱeː.ɾɑː/
@@ -2299,16 +2299,16 @@ rank	word	english	ipa
 2298	رتبہ	rank, status, station	/ɾʊt̪.bɑ(ː)/
 2299	سادگی	simplicity, naivety	/sɑːd̪.ɡiː/
 2300	مقید	incarcerated; confined, shackled	/mʊ.qəj.jəd̪/
-2301	عراقی	Iraqi	
+2301	عراقی	Iraqi	/ɪɾɑːqiː/
 2302	اقتصادی	economic	/ɪq.t̪ɪ.sɑː.d̪iː/
 2303	امور	affair, matter, transaction, business	/ʊ.muːɾ/
-2304	خودکار	automatic	
+2304	خودکار	automatic	/xʊd̪kɑːɾ/
 2305	صارفین	plural of صارِف	/sɑː.ɾɪ.fiːn/
 2306	بہار	spring	/bə.ɦɑːɾ/
 2307	اجرا	issue	/ɪd͡ʒ.ɾɑː/
 2308	لرزاں	trembling, shaking	/ləɾ.zɑ̃ː/
 2309	نیزے	direct plural	/neː.zeː/
-2310	پراسیکیوٹر	prosecutor	
+2310	پراسیکیوٹر	prosecutor	/pɾɑːsɪjkjʊʋʈəɾ/
 2311	نخلستان	oasis	/nəx.lɪs.t̪ɑːn/
 2312	تولیے	direct plural/ oblique singular/ vocative singular of…	/t̪ɔː.lɪ.jeː/
 2313	چھینک	a sneeze	/t͡ʃʰĩːk/
@@ -2325,18 +2325,18 @@ rank	word	english	ipa
 2324	کھیلا	play, sport, game	/kʰeː.lɑː/
 2325	سوم	third	/soːm/
 2326	سینگ	horn	/siːŋɡ/
-2327	بابت	regarding, concerning, respecting, considering, about	
+2327	بابت	regarding, concerning, respecting, considering, about	/bɑːbət̪/
 2328	کرن	ray, beam	/kɪ.ɾən/
 2329	کھینچنا	to pull	/kʰẽːt͡ʃ.nɑː/
 2330	الماری	cupboard, shelf; almirah	/əl.mɑː.ɾiː/
-2331	پچاسی	eighty-five	
+2331	پچاسی	eighty-five	/pət͡ʃɑːsiː/
 2332	ناو	boat	/nɑːʋ/
 2333	افق	horizon	/ʊ.fʊq/
 2334	بخشش	pardon	/bəx.ʃɪʃ/
 2335	چکنا	smooth, polished; slippery	/t͡ʃɪk.nɑː/
 2336	گلاس	glass	/ɡlɑːs/
-2337	ذیلی	sub, lower part of something	
-2338	امت	ummah	
+2337	ذیلی	sub, lower part of something	/zɛːliː/
+2338	امت	ummah	/ʊmmət̪/
 2339	اصطلاح	idiom, term, vocable	/ɪs.t̪ɪ.lɑːɦ/
 2340	شرافت	civility; decency	/ʃə.ɾɑː.fət̪/
 2341	سترہ	seventeen	/sət̪.ɾəɦ/
@@ -2349,7 +2349,7 @@ rank	word	english	ipa
 2348	اپریل	April	/əp.ɾɛːl/
 2349	فتنہ	evil, chaos, doom	/fɪt̪.nɑ(ː)/
 2350	رانی	queen	/ɾɑː.niː/
-2351	اخبارات	newspaper	
+2351	اخبارات	newspaper	/əxbɑːɾɑːt̪/
 2352	عروج	ascent, ascension	/(ʔ)ʊ.ɾuːd͡ʒ/
 2353	مظلوم	oppressed, treated unjustly	/məz.luːm/
 2354	سامعین	audience, listeners	/sɑː.meː.(ʔ)iːn/
@@ -2364,7 +2364,7 @@ rank	word	english	ipa
 2363	یادیں	memory	/jɑː.d̪ẽː/
 2364	کپڑا	cloth	/kəp.ɽɑː/
 2365	دیور	husband's younger brother	/d̪eː.ʋəɾ/
-2366	ابر	now	
+2366	ابر	now	/əbəɾ/
 2367	تائید	help; aid, support	/t̪ɑː.iːd̪/
 2368	نادر	priceless, rare, precious	/nɑː.d̪ɪɾ/
 2369	فراموش	forgotten	/fə.ɾɑː.moːʃ/
@@ -2379,13 +2379,13 @@ rank	word	english	ipa
 2378	بھائیو	brother	/bʱɑː.ɪ.joː/
 2379	فانی	mortal; perishable	/fɑː.niː/
 2380	غرور	pride, vanity, haughtiness	/ɣʊ.ɾuːɾ/
-2381	کوٹ	fortress, fort, castle	
+2381	کوٹ	fortress, fort, castle	/koːʈ/
 2382	فصل	crop, farm	/fəsl/
 2383	عدم	nonexistence, negation, nonentity, nothingness, void	/(ʔ)ə.d̪əm/
 2384	چہروں	oblique plural of چِہْرَہ	/t͡ʃɪɦ.ɾõː/
-2385	درمیانی	middle	
+2385	درمیانی	middle	/d̪əɾmɪjɑːniː/
 2386	مویشی	herd	/mə.ʋeː.ʃiː/
-2387	بالغ	an adult	
+2387	بالغ	an adult	/bɑːlɪɣ/
 2388	جلسے	direct plural	/d͡ʒəl.seː/
 2389	قطرے	direct plural	/qət̪.ɾeː/
 2390	اجتماع	assemblage	/ɪd͡ʒ.t̪ɪ.mɑː/
@@ -2401,13 +2401,13 @@ rank	word	english	ipa
 2400	باعث	cause, reason	/bɑː.(ʔ)ɪs/
 2401	ضم	integrate, merge, incorporate	/zəm/
 2402	وضع	making; devising; forming; invention	/ʋəz(ʔ)/
-2403	اخراج	expulsion, efflux, relegation	
+2403	اخراج	expulsion, efflux, relegation	/ɪxɾɑːd͡ʒ/
 2404	کمپن	vibration, shaking	/kəm.pən/
 2405	بندر	port, harbour	/bən.d̪əɾ/
 2406	آدم	man	/ɑː.d̪əm/
 2407	ہکا	hiccup	/ɦɪk.kɑː/
 2408	جھٹکے	direct plural	/d͡ʒʱəʈ.keː/
-2409	سرکشی	stubbornness	
+2409	سرکشی	stubbornness	/səɾkəʃiː/
 2410	صورتیں	direct plural of صُورَت	/suː.ɾə.t̪ẽː/
 2411	رس	sap, juice, gum	/ɾəs/
 2412	پابند	restrained, encumbered	/pɑː.bənd̪/
@@ -2416,7 +2416,7 @@ rank	word	english	ipa
 2415	وزیر	minister	/ʋə.ziːɾ/
 2416	برسات	rain	/bəɾ.sɑːt̪/
 2417	شفا	healing, recovery	/ʃɪ.fɑː/
-2418	وقفہ	space, gap	
+2418	وقفہ	space, gap	/ʋəqfə/
 2419	سخی	generous, bountiful	/sə.xiː/
 2420	قمیص	alternative form of قمیض	/qə.miːs/
 2421	بدلنا	to change, to transform	/bə.d̪əl.nɑː/
@@ -2436,15 +2436,15 @@ rank	word	english	ipa
 2435	مقیم	resident	/mʊ.qiːm/
 2436	جرسی	jersey; sweater	/d͡ʒəɾ.siː/
 2437	گذشتہ	alternative spelling of گزشتہ	/ɡʊ.zəʃ.t̪ᵊ/
-2438	عجائبات	wonder	
-2439	ابراہام	Abraham, a prophetic figure of Judaism, Christianity	
+2438	عجائبات	wonder	/əd͡ʒɑːɪbɑːt̪/
+2439	ابراہام	Abraham, a prophetic figure of Judaism, Christianity	/əbɾɑːɦɑːm/
 2440	استر	wigan	/əs.t̪əɾ/
-2441	مبارکباد	congratulations	
+2441	مبارکباد	congratulations	/mʊbɑːɾəkbɑːd̪/
 2442	تلفظ	pronunciation	/t̪ə.ləf.fʊz/
-2443	لار	drivel, saliva	
+2443	لار	drivel, saliva	/lɑːɾ/
 2444	مکھیوں	oblique plural of مَکّھی	/mək.kʰɪ.jõː/
 2445	اجمود	celery, Apium graveolens	/əd͡ʒ.moːd̪/
-2446	مرچ	pepper	
+2446	مرچ	pepper	/mɪɾt͡ʃ/
 2447	اجوائن	anise	/əd͡ʒ.ʋɑː.ɪn/
 2448	دری	a big bright star	/d̪ʊ.ɾiː/
 2449	جوانی	youth	/d͡ʒə.ʋɑː.niː/
@@ -2458,13 +2458,13 @@ rank	word	english	ipa
 2457	اترنا	to get down, to get off	/ʊ.t̪əɾ.nɑː/
 2458	شاخ	horn; antler	/ʃɑːx/
 2459	تلواروں	oblique plural of تَلْوَار	/t̪əl.ʋɑː.ɾõː/
-2460	شیطانی	diabolical, satanic, mischievous	
+2460	شیطانی	diabolical, satanic, mischievous	/ʃɛːt̪ɑːniː/
 2461	کانٹوں	thorn	/kɑːn.ʈõː/
 2462	شرفا	meek, gentle, noble, upstanding	/ʃʊ.ɾə.fɑː/
 2463	دبانا	to press, apply pressure	/d̪ə.bɑː.nɑː/
 2464	سپاہیوں	oblique plural of سِپاہی	/sɪ.pɑː.ɦɪ.jõː/
-2465	شاہانہ	of or belonging to a king, royal, princely; splendid,…	
-2466	سرف	extravagance, excess, non-essential expenditure	
+2465	شاہانہ	of or belonging to a king, royal, princely; splendid,…	/ʃɑːɦɑːnə/
+2466	سرف	extravagance, excess, non-essential expenditure	/səɾf/
 2467	کرکٹ	cricket	/kɪɾ.kɪʈ/
 2468	شیشہ	glass	/ʃiː.ʃɑ(ː)/
 2469	منتظم	moderator, supervisor, administrator, manager	/mʊn.t̪ə.zɪm/
@@ -2489,7 +2489,7 @@ rank	word	english	ipa
 2488	ممنوع	forbidden, prohibited	/məm.nuː(ʔ)/
 2489	سینہ	chest, breast	/siː.nɑ(ː)/
 2490	غٹاغٹ	in large gulps	/ɣə.ʈɑː.ɣəʈ/
-2491	عطا	giving	
+2491	عطا	giving	/ət̪ɑː/
 2492	حسین	beautiful, handsome	/ɦə.siːn/
 2493	عہد	vow, pledge	/ə.ɦəd̪/
 2494	پاسبان	guard, watchman, sentinel	/pɑːs.bɑːn/
@@ -2507,7 +2507,7 @@ rank	word	english	ipa
 2506	غمگین	sorrowful, grieved, dejected, sad	/ɣəm.ɡiːn/
 2507	بادشاہت	monarchy	/bɑːd̪.ʃɑː.ɦət̪/
 2508	جھوٹوں	oblique plural of جُھوٹ	/d͡ʒʱuː.ʈõː/
-2509	اچھائی	goodness, merit, virtue	
+2509	اچھائی	goodness, merit, virtue	/ət͡ʃt͡ʃɦɑːiː/
 2510	دستہ	an army formation, typically a troop or company	/d̪əs.t̪ɑ(ː)/
 2511	طاقتیں	direct plural of طَاقَت	/t̪ɑː.qə.t̪ẽː/
 2512	بیماری	illness, disease	/biː.mɑː.ɾiː/
@@ -2518,7 +2518,7 @@ rank	word	english	ipa
 2517	گردے	direct plural	/ɡʊɾ.d̪eː/
 2518	بھوت	ghost	/bʱuːt̪/
 2519	اقلیت	minority	/ə.qəl.lɪ.jət̪/
-2520	نیل	indigo	
+2520	نیل	indigo	/niːl/
 2521	جھگڑا	fight	/d͡ʒʱəɡ.ɽɑː/
 2522	لامتناہی	infinite, endless	/lɑː.mʊ.t̪ə.nɑː.ɦiː/
 2523	کہنی	elbow	/kʊɦ.niː/
@@ -2526,7 +2526,7 @@ rank	word	english	ipa
 2525	تمھیں	alternative form of تمہیں	/t̪ʊ.mʱẽː/
 2526	کمانا	to earn	/kə.mɑː.nɑː/
 2527	صدیوں	oblique plural of صَدی	/sə.d̪ɪ.jõː/
-2528	مسلمانوں	Muslim	
+2528	مسلمانوں	Muslim	/mʊsəlmɑːnoː̃/
 2529	غموں	oblique plural of غَم	/ɣə.mõː/
 2530	اذیت	torture, agony, bane, harassment, sufferance, suffering,…	/ə.zɪ.jət̪/
 2531	فرشتے	direct plural	/fə.ɾɪʃ.t̪eː/
@@ -2539,31 +2539,31 @@ rank	word	english	ipa
 2538	آٹا	flour of unspecified kind or wholegrain	/ɑː.ʈɑː/
 2539	پوتی	son's son, paternal grandson	/poː.t̪iː/
 2540	افسانوی	legendary	/əf.sɑːn.ʋiː/
-2541	اکتیس	thirty-one	
+2541	اکتیس	thirty-one	/ɪkt̪iːs/
 2542	مشاہدات	plural of مُشَاہِدَہ	/mʊ.ʃɑː.ɦɪ.d̪ɑːt̪/
 2543	عملہ	an official, clerk	/(ʔ)ə.mə.lɑː/
 2544	تال	rhythm, beat, tune	/t̪ɑːl/
 2545	ہموار	flat, smooth, even	/ɦəm.ʋɑːɾ/
 2546	کٹھور	hard	/kəʈʰōɾ/
 2547	افزائش	augmentation	/əf.zɑː.ɪʃ/
-2548	مغربی	western	
+2548	مغربی	western	/məɣɾɪbiː/
 2549	مور	peacock	/moːɾ/
 2550	غذا	food, diet, victuals, provisions	/ɣɪ.zɑː/
 2551	جھوٹا	false, untrue	/d͡ʒʱuː.ʈɑː/
 2552	لغوی	belonging to a language, literal, verbal, lexical	/lʊɣ.ʋiː/
-2553	اساتذہ	formal plural of اُسْتاد	
+2553	اساتذہ	formal plural of اُسْتاد	/əsɑːt̪ɪzə/
 2554	پیانو	piano	/pɪ.jɑː.noː/
 2555	نوش	nectar, ambrosia, water of life	/noːʃ/
 2556	عکس	reverse	/(ʔ)əks/
 2557	چھٹیوں	oblique plural of چُھٹّی	/t͡ʃʰʊʈ.ʈɪ.jõː/
 2558	جامنی	purple	/d͡ʒɑːm.niː/
-2559	زرد	yellow	
+2559	زرد	yellow	/zəɾd̪/
 2560	مومن	devout Muslim, true believer	/moː.mɪn/
 2561	گڑیا	a doll	/ɡʊ.ɽɪ.jɑː/
 2562	تولیہ	towel	/t̪ɔː.lɪ.jɑ(ː)/
 2563	قالین	rug, carpet	/qɑː.liːn/
 2564	پرورش	nurture, upbringing	/pəɾ.ʋə.ɾɪʃ/
 2565	لوگو	people	/loː.ɡoː/
-2566	اجارہ	holding	
+2566	اجارہ	holding	/ɪd͡ʒɑːɾɑː/
 2567	نرد	counter	/nəɾd̪/
 2568	مصنف	author, writer, compiler	/mʊ.sən.nɪf/

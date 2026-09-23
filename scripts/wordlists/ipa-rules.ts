@@ -410,3 +410,164 @@ export function malayIpa(word: string): string | null {
 	}
 	return `/${out.join('')}/`;
 }
+
+// — Korean —————————————————————————————————————————————————————————————
+
+const KO_ONSET = [
+	'k',
+	'k͈',
+	'n',
+	't',
+	't͈',
+	'ɾ',
+	'm',
+	'p',
+	'p͈',
+	's',
+	's͈',
+	'',
+	't͡ɕ',
+	't͡ɕ͈',
+	't͡ɕʰ',
+	'kʰ',
+	'tʰ',
+	'pʰ',
+	'h'
+];
+const KO_VOWEL = [
+	'a',
+	'ɛ',
+	'ja',
+	'jɛ',
+	'ʌ',
+	'e',
+	'jʌ',
+	'je',
+	'o',
+	'wa',
+	'wɛ',
+	'we',
+	'jo',
+	'u',
+	'wʌ',
+	'we',
+	'wi',
+	'ju',
+	'ɯ',
+	'ɰi',
+	'i'
+];
+/** Final consonant clusters: [the one said at the end, the one that moves on before a vowel]. */
+const KO_CODA: [string, string][] = [
+	['', ''],
+	['k', 'k'],
+	['k', 'k͈'],
+	['k', 's͈'],
+	['n', 'n'],
+	['n', 't͡ɕ'],
+	['n', 'h'],
+	['t', 't'],
+	['l', 'ɾ'],
+	['k', 'ɡ'],
+	['m', 'm'],
+	['l', 'b'],
+	['l', 's͈'],
+	['l', 'tʰ'],
+	['p', 'pʰ'],
+	['l', 'h'],
+	['m', 'm'],
+	['p', 'p'],
+	['p', 's͈'],
+	['t', 's'],
+	['t', 's͈'],
+	['ŋ', ''],
+	['t', 't͡ɕ'],
+	['t', 't͡ɕʰ'],
+	['k', 'kʰ'],
+	['t', 'tʰ'],
+	['p', 'pʰ'],
+	['t', 'h']
+];
+const KO_LAX: Record<string, string> = { k: 'ɡ', t: 'd', p: 'b', t͡ɕ: 'd͡ʑ' };
+const KO_TENSE: Record<string, string> = { k: 'k͈', t: 't͈', p: 'p͈', s: 's͈', t͡ɕ: 't͡ɕ͈' };
+const KO_ASPIRATE: Record<string, string> = { k: 'kʰ', t: 'tʰ', p: 'pʰ', t͡ɕ: 't͡ɕʰ' };
+
+/**
+ * Korean from Hangul, with the sound changes the spelling does not show: a
+ * final consonant moves on to a following vowel ("있어" [is͈ʌ]), a final stop
+ * is unreleased and a plain one after it tense, "k t p" before "n m" turn
+ * nasal, a plain stop between voiced sounds is voiced ("내가" [nɛɡa]), "ㅎ"
+ * aspirates the stop beside it, "ㅌ" before "이" is [t͡ɕʰ], and "ㄹ" is [ɾ] between
+ * vowels and [l] elsewhere. Written [phonetic], as Wiktionary writes Korean.
+ */
+export function koreanIpa(word: string): string | null {
+	const syls: { on: string; v: string; coda: number }[] = [];
+	for (const ch of word) {
+		const code = ch.codePointAt(0)! - 0xac00;
+		if (code < 0 || code > 11171) return null;
+		syls.push({
+			on: KO_ONSET[Math.floor(code / 588)],
+			v: KO_VOWEL[Math.floor((code % 588) / 28)],
+			coda: code % 28
+		});
+	}
+	if (!syls.length) return null;
+
+	const parts: { on: string; v: string; end: string }[] = syls.map((s) => ({
+		on: s.on,
+		v: s.v,
+		end: ''
+	}));
+	for (let i = 0; i < syls.length; i++) {
+		const [said, moves] = KO_CODA[syls[i].coda];
+		const next = parts[i + 1];
+		if (!syls[i].coda) continue;
+		if (next && next.on === '' && syls[i].coda !== 21) {
+			// Liaison: the consonant opens the next syllable; "ㅎ" goes silent.
+			const moved = moves === 'h' ? '' : moves;
+			if (said !== moves && said !== 't' && said !== 'k' && said !== 'p' && moves !== 'h')
+				parts[i].end = said;
+			// Before "이", "ㅌ ㄷ" palatalise: "같이" [kat͡ɕʰi], "굳이" [kud͡ʑi].
+			const palatal: Record<string, string> = { tʰ: 't͡ɕʰ', t: 'd͡ʑ', s: 'ɕ' };
+			next.on = next.v === 'i' && palatal[moved] ? palatal[moved] : moved;
+			continue;
+		}
+		if (moves === 'h' && next && KO_ASPIRATE[next.on]) {
+			parts[i].end = said === 't' ? '' : said;
+			next.on = KO_ASPIRATE[next.on];
+			continue;
+		}
+		parts[i].end = said;
+		if (next) {
+			if ((said === 'k' || said === 't' || said === 'p') && next.on === 'h') {
+				parts[i].end = '';
+				next.on = KO_ASPIRATE[said];
+			} else if ((said === 'k' || said === 't' || said === 'p') && KO_TENSE[next.on]) {
+				next.on = KO_TENSE[next.on];
+			} else if (
+				(said === 'k' || said === 't' || said === 'p') &&
+				(next.on === 'n' || next.on === 'm')
+			) {
+				parts[i].end = { k: 'ŋ', t: 'n', p: 'm' }[said] as string;
+			} else if (next.on === 'ɾ') {
+				next.on = said === 'l' || said === 'n' ? 'l' : 'n';
+				if (said === 'n') parts[i].end = 'l';
+			}
+		}
+	}
+
+	let out = '';
+	parts.forEach((p, i) => {
+		let on = p.on;
+		const prevEnd = i > 0 ? parts[i - 1].end : undefined;
+		const voicedBefore = i > 0 && (prevEnd === '' || /^[nmŋl]$/.test(prevEnd ?? ''));
+		if (voicedBefore && KO_LAX[on]) on = KO_LAX[on];
+		if (on === 's' && /^[ij]/.test(p.v)) on = 'ɕ';
+		if (on === 's͈' && /^[ij]/.test(p.v)) on = 'ɕ͈';
+		if (on === 'ɾ' && i === 0) on = 'ɾ';
+		const v = p.v === 'ɰi' && i > 0 ? 'i' : p.v;
+		const end = p.end === '' ? '' : /^[ktp]$/.test(p.end) ? `${p.end}̚` : p.end;
+		out += on + v + end;
+	});
+	return `[${out}]`;
+}

@@ -9,26 +9,32 @@
  * It writes a fourth column, `ipa`, into static/data/most-common-words/*.tsv
  * and updates the byte counts in src/lib/data/most-common-words.ts.
  *
- * Four sources, in this order:
+ * Five sources, in this order, each used only for the words the ones before
+ * it left empty:
  *
  *   - Wiktionary, through kaikki.org — a transcription a person wrote, with the
  *     stress where it belongs. The same dumps build.ts reads for meanings, but
  *     the gzipped per-language files: a tenth of the size, and the only part of
- *     them this needs is `sounds`.
- *   - For Norwegian and Danish, the pronunciation dictionaries linguists made
- *     for the National Library of Norway: NB Uttale (ipa-nb-uttale.ts) and
- *     NST's Danish lexicon (ipa-nst-danish.ts).
- *   - eSpeak NG, or for six languages rules of our own (ipa-turkish.ts,
- *     ipa-rules.ts), for the words Wiktionary has no transcription for —
- *     mostly inflected forms ("hablamos"), which Wiktionary files under their
- *     lemma. Rules are good where the spelling is regular, and eSpeak's
- *     dictionaries cover the common irregulars of a frequency list.
+ *     them this needs is `sounds`. A word is also looked up under its other
+ *     spellings (ipa-variants.ts): Russian "еще" is Wiktionary's "ещё".
+ *   - Pronunciation dictionaries linguists made: NB Uttale for Norwegian
+ *     (ipa-nb-uttale.ts), NST's lexicon for Danish (ipa-nst-danish.ts) and the
+ *     Icelandic Pronunciation Dictionary (ipa-iceprondict.ts).
+ *   - Wiktionary's romanisations and stress-marked spellings, read by rules
+ *     (ipa-spelled.ts, ipa-translit.ts): they carry the vowels and stress the
+ *     plain spelling leaves out, for Arabic, Hebrew, Persian, Hindi, Urdu,
+ *     Bengali, Malayalam, Bulgarian, Lithuanian, Russian and Mandarin.
+ *   - eSpeak NG, or for seven languages rules of our own (ipa-turkish.ts,
+ *     ipa-rules.ts) — mostly for inflected forms ("hablamos"), which Wiktionary
+ *     files under their lemma. Rules are good where the spelling is regular,
+ *     and eSpeak's dictionaries cover the common irregulars of a word list.
  *   - goruut's word lists (ipa-goruut.ts), for what is left.
  *
- * Some languages get no eSpeak fallback at all: it has no voice for Galician or
- * Tagalog, and it cannot read unvowelled Arabic or Hebrew or tell which of a
- * character's Mandarin readings is meant. A missing pronunciation is better
- * than a wrong one said with confidence, so those rows keep an empty column.
+ * Everything that guesses — the romanisation readers, the rules, eSpeak,
+ * goruut — is used for a language only if it agrees with Wiktionary on the
+ * words both cover (see TRUST). A missing pronunciation is better than a wrong
+ * one said with confidence, so what none of them can read keeps an empty
+ * column: chat abbreviations, slang, and a few hundred words across 53 lists.
  */
 import { createReadStream, createWriteStream } from 'node:fs';
 import { mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
@@ -42,8 +48,32 @@ import { WORDLIST_LANGUAGES, type WordlistLanguage } from './languages.ts';
 import { turkishIpa } from './ipa-turkish.ts';
 import { nbUttale } from './ipa-nb-uttale.ts';
 import { nstDanish } from './ipa-nst-danish.ts';
+import { iceprondict } from './ipa-iceprondict.ts';
 import { goruut } from './ipa-goruut.ts';
-import { albanianIpa, estonianIpa, galicianIpa, georgianIpa, malayIpa } from './ipa-rules.ts';
+import { syllableStress } from './ipa-stress.ts';
+import { russianVariants, vietnameseVariants } from './ipa-variants.ts';
+import { spelledFor, type Spelled } from './ipa-spelled.ts';
+import {
+	arabicIpa,
+	bengaliIpa,
+	bulgarianIpa,
+	chineseIpa,
+	hebrewIpa,
+	hebrewPointedIpa,
+	hindustaniIpa,
+	lithuanianIpa,
+	malayalamIpa,
+	persianIpa,
+	russianIpa
+} from './ipa-translit.ts';
+import {
+	albanianIpa,
+	estonianIpa,
+	galicianIpa,
+	georgianIpa,
+	koreanIpa,
+	malayIpa
+} from './ipa-rules.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
 const DATA = path.join(ROOT, 'static/data/most-common-words');
@@ -76,6 +106,18 @@ interface Accent {
 	 * asked, given the words wanted and the cache directory.
 	 */
 	/**
+	 * A word no source has is read as the run of shorter words it is written
+	 * with, each from whichever source has it: Chinese 所有人 is 所有 and 人.
+	 */
+	compose?: boolean;
+	/** Other spellings to look the word up under in Wiktionary (ipa-variants.ts). */
+	variants?: (word: string) => string[];
+	/**
+	 * Reads Wiktionary's romanisation or stress-marked spelling of a word
+	 * (ipa-spelled.ts) as IPA, for the words it gives no IPA of their own.
+	 */
+	spelled?: (s: Spelled) => string | null;
+	/**
 	 * Differences of notation only, for comparing this language's sources:
 	 * applied to both sides of the agreement test, never to what is shown.
 	 */
@@ -96,9 +138,9 @@ interface Accent {
 
 const ACCENTS: Record<string, Accent> = {
 	af: { espeak: 'af' },
-	ar: { espeak: null },
-	bg: { espeak: 'bg' },
-	bn: { espeak: 'bn' },
+	ar: { espeak: null, spelled: arabicIpa },
+	bg: { espeak: 'bg', spelled: bulgarianIpa },
+	bn: { espeak: 'bn', spelled: bengaliIpa },
 	// eSpeak's Serbian reads Bosnian and Croatian Latin spelling right 94% of the
 	// time; its own Bosnian and Croatian voices, under half.
 	bs: { espeak: 'sr' },
@@ -133,25 +175,33 @@ const ACCENTS: Record<string, Accent> = {
 	// ipa-rules.ts read it as Wiktionary does.
 	et: { espeak: 'et', rules: estonianIpa },
 	eu: { espeak: 'eu' },
-	fa: { espeak: 'fa', prefer: ['Iranian-Persian', 'Iran'] },
+	fa: { espeak: 'fa', prefer: ['Iranian-Persian', 'Iran'], spelled: persianIpa },
 	fi: { espeak: 'fi' },
 	fr: { espeak: 'fr-fr', prefer: ['France'] },
 	gl: { espeak: null, rules: galicianIpa },
-	he: { espeak: null, prefer: ['Modern-Israeli-Hebrew'] },
-	hi: { espeak: 'hi' },
+	// The romanisation where there is one; the vowel points otherwise.
+	he: {
+		espeak: null,
+		prefer: ['Modern-Israeli-Hebrew'],
+		spelled: (s) => hebrewIpa(s) ?? hebrewPointedIpa(s)
+	},
+	hi: { espeak: 'hi', spelled: hindustaniIpa },
 	hr: { espeak: 'sr' },
 	hu: { espeak: 'hu' },
 	hy: { espeak: 'hy', prefer: ['Eastern-Armenian'] },
 	id: { espeak: 'id' },
-	is: { espeak: 'is' },
+	is: {
+		espeak: 'is',
+		lexicon: { name: 'Icelandic Pronunciation Dictionary', read: iceprondict, trusted: true }
+	},
 	it: { espeak: 'it' },
 	ka: { espeak: 'ka', rules: georgianIpa },
 	kk: { espeak: 'kk' },
-	ko: { espeak: 'ko', prefer: ['Seoul'] },
-	lt: { espeak: 'lt' },
+	ko: { espeak: 'ko', prefer: ['Seoul'], rules: koreanIpa },
+	lt: { espeak: 'lt', spelled: lithuanianIpa },
 	lv: { espeak: 'lv' },
 	mk: { espeak: 'mk' },
-	ml: { espeak: 'ml' },
+	ml: { espeak: 'ml', spelled: malayalamIpa },
 	ms: { espeak: 'ms', rules: malayIpa },
 	nl: { espeak: 'nl', prefer: ['Netherlands'] },
 	no: {
@@ -182,7 +232,14 @@ const ACCENTS: Record<string, Accent> = {
 		]
 	},
 	ro: { espeak: 'ro' },
-	ru: { espeak: 'ru' },
+	// Wiktionary writes stressed "ё" after a soft consonant [ɵ], which is the
+	// same vowel as /o/ there; and "ы" is sometimes [ɨ], sometimes [ɨ̞].
+	ru: {
+		espeak: 'ru',
+		variants: russianVariants,
+		spelled: russianIpa,
+		same: [[/ɵ/g, 'o']]
+	},
 	si: { espeak: 'si' },
 	sk: { espeak: 'sk' },
 	sl: { espeak: 'sl' },
@@ -197,9 +254,19 @@ const ACCENTS: Record<string, Accent> = {
 	// syllable): 55%. The rules in ipa-turkish.ts do better.
 	tr: { espeak: 'tr', rules: turkishIpa },
 	uk: { espeak: 'uk' },
-	ur: { espeak: 'ur' },
-	vi: { espeak: 'vi', prefer: ['Hà-Nội'] },
-	zh: { espeak: null, require: ['Mandarin'], prefer: ['Standard-Chinese', 'Sinological-IPA'] }
+	ur: { espeak: 'ur', spelled: hindustaniIpa },
+	vi: { espeak: 'vi', prefer: ['Hà-Nội'], variants: vietnameseVariants },
+	// Pinyin read as IPA for words with pinyin and no IPA. Compared without
+	// tone numbers: Wiktionary writes the sandhi ("²¹⁴⁻³⁵") and the pinyin
+	// does not, and the tone itself comes from Wiktionary's pinyin anyway.
+	zh: {
+		espeak: null,
+		require: ['Mandarin'],
+		prefer: ['Standard-Chinese', 'Sinological-IPA'],
+		spelled: chineseIpa,
+		compose: true,
+		same: [[/[⁰¹²³⁴⁵⁶⁷⁸⁹⁻\s]/g, '']]
+	}
 };
 
 /**
@@ -313,43 +380,6 @@ async function fromWiktionary(lang: WordlistLanguage, words: Set<string>) {
 		}
 	}
 	return new Map([...best].map(([k, v]) => [k, v.ipa]));
-}
-
-const VOWEL = /[aeiouyɑɐɒæɛəɜɞɘɵøœɶɪʏʊʌɔɤɯɨʉɚɝ]/;
-const APPROXIMANT = /^[lɾrɹjwʎʁʀɫʋɥ]/;
-/** Diacritics and modifier letters that belong to the letter before them. */
-const MODIFIER = /[\p{M}ʰʲʷˠˤⁿˡːˑ̃]/u;
-
-/**
- * eSpeak puts the stress mark before the stressed vowel ("aβlˈamos"); IPA and
- * Wiktionary put it before the syllable ("aˈβlamos"). Moves it back over the
- * consonants that open the syllable: all of them at the start of a word, else
- * one — two when the second is a liquid or glide, as in "bl", "tr", "kw".
- */
-function syllableStress(ipa: string): string {
-	const segs: string[] = [];
-	for (const ch of ipa) {
-		const last = segs.length - 1;
-		if (last >= 0 && (MODIFIER.test(ch) || segs[last].endsWith('͡'))) segs[last] += ch;
-		else if (ch === '͡' && last >= 0) segs[last] += ch;
-		else segs.push(ch);
-	}
-	const isCons = (s: string) => !VOWEL.test(s[0]) && !/[ˈˌ\s.‿-]/.test(s[0]) && !s.includes('̩');
-	for (let i = 0; i < segs.length; i++) {
-		if (segs[i] !== 'ˈ' && segs[i] !== 'ˌ') continue;
-		let j = i;
-		while (j > 0 && isCons(segs[j - 1])) j--;
-		const cluster = i - j;
-		if (!cluster) continue;
-		const atStart = j === 0 || /[\s‿-]/.test(segs[j - 1]);
-		let onset = 1;
-		if (atStart) onset = cluster;
-		else if (cluster >= 2 && APPROXIMANT.test(segs[i - 1]) && !APPROXIMANT.test(segs[i - 2]))
-			onset = 2;
-		const mark = segs.splice(i, 1)[0];
-		segs.splice(i - onset, 0, mark);
-	}
-	return segs.join('');
 }
 
 function cleanEspeak(out: string): string {
@@ -503,6 +533,27 @@ const GORUUT: Record<string, string> = {
 	zh: 'chinese'
 };
 
+/**
+ * A word as the fewest pieces that each have a transcription, joined: the
+ * longest words a source knows, not a character at a time where it can help.
+ */
+function composeFrom(chars: string[], piece: (p: string) => string | undefined) {
+	const best: (string[] | null)[] = [[]];
+	for (let j = 1; j <= chars.length; j++) {
+		best[j] = null;
+		for (let i = 0; i < j; i++) {
+			const prev = best[i];
+			const ipa = prev && piece(chars.slice(i, j).join(''));
+			if (!prev || !ipa) continue;
+			if (!best[j] || prev.length + 1 < (best[j] as string[]).length) best[j] = [...prev, ipa];
+		}
+	}
+	const parts = best[chars.length];
+	return parts && parts.length > 1
+		? `/${parts.map((p) => p.replace(/^[/[]|[/\]]$/g, '')).join(' ')}/`
+		: null;
+}
+
 /** The entries of a dictionary for these words, as a reader would return them. */
 function pick(dict: Map<string, string>, words: string[]) {
 	return new Map(words.flatMap((w) => (dict.has(w) ? [[w, dict.get(w) as string] as const] : [])));
@@ -565,8 +616,35 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 	const rows = lines.slice(1).map((l) => l.split('\t').slice(0, 3));
 	const words = new Set(rows.map((r) => r[1].toLowerCase()));
 
-	const wiki = await fromWiktionary(lang, words);
 	const accent = ACCENTS[lang.code];
+	// Other spellings are looked up in the same pass; a word Wiktionary has
+	// under another spelling takes that spelling's pronunciation.
+	const variantsOf = new Map(
+		[...words].map((w) => [w, accent?.variants ? accent.variants(w) : []])
+	);
+	// For composing: every shorter run of characters in every word.
+	const parts = new Set<string>();
+	if (accent?.compose)
+		for (const w of words) {
+			const cs = [...w];
+			for (let i = 0; i < cs.length; i++)
+				for (let j = i + 1; j <= cs.length; j++)
+					if (j - i < cs.length) parts.add(cs.slice(i, j).join(''));
+		}
+	const found = await fromWiktionary(
+		lang,
+		new Set([...words, ...parts, ...[...variantsOf.values()].flat()])
+	);
+	const wiki = new Map<string, string>();
+	for (const w of words) {
+		const ipa =
+			found.get(w) ??
+			variantsOf
+				.get(w)
+				?.map((v) => found.get(v))
+				.find(Boolean);
+		if (ipa) wiki.set(w, ipa);
+	}
 
 	// A second dictionary, where there is one, goes before any guessing — held
 	// to the same test, so a notation that drifts from Wiktionary's shows up.
@@ -577,13 +655,52 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 	const lexOk = lexAgrees >= TRUST || Boolean(accent?.lexicon?.trusted);
 	const fromLex = new Map([...lexicon].filter(([w]) => !wiki.has(w) && lexOk));
 
+	// Then Wiktionary's own romanisation or stressed spelling, read by rules.
+	let fromSpelled = new Map<string, string>();
+	let spelledAgrees = 0;
+	if (accent?.spelled) {
+		const glosses = new Map<string, string>([...[...parts].map((p) => [p, ''] as const)]);
+		for (const r of rows) glosses.set(r[1].toLowerCase(), r[2] ?? '');
+		const spelled = await spelledFor(await dumpFor(lang), glosses);
+		const convert = accent.spelled;
+		const all = new Map(
+			[...spelled].flatMap(([w, candidates]) => {
+				for (const c of candidates) {
+					const ipa = convert(c);
+					if (ipa) return [[w, ipa] as const];
+				}
+				return [];
+			})
+		);
+		spelledAgrees = agreement((ws) => pick(all, ws), wiki, accent.same);
+		if (spelledAgrees >= TRUST)
+			fromSpelled = new Map(
+				[...all].filter(([w]) => words.has(w) && !wiki.has(w) && !fromLex.has(w))
+			);
+		if (accent.compose && spelledAgrees >= TRUST) {
+			// Pieces: whatever Wiktionary transcribes, then what its pinyin gives.
+			const piece = (p: string) => found.get(p) ?? all.get(p);
+			for (const w of words) {
+				if (wiki.has(w) || fromSpelled.has(w)) continue;
+				const ipa = composeFrom([...w], piece);
+				if (ipa) fromSpelled.set(w, ipa);
+			}
+		}
+	}
+
 	const read = accent ? readerFor(accent) : null;
 	const agrees = read ? agreement(read, wiki, accent?.same) : 0;
 	const by = accent?.rules ? 'rules' : 'eSpeak';
-	// A clitic cut off by the tokeniser ("'t", "c'") is not a word eSpeak can
-	// read: it spells the letter.
+	// A clitic cut off by the tokeniser with no vowel of its own ("'t", "c'")
+	// is not a word eSpeak can read: it spells the letter. An elided word with
+	// one ("dell'", "quell'") it reads as it is said.
 	const missing = [...words].filter(
-		(w) => !wiki.has(w) && !fromLex.has(w) && !/^['’]|['’]$/.test(w)
+		(w) =>
+			!wiki.has(w) &&
+			!fromLex.has(w) &&
+			!fromSpelled.has(w) &&
+			!/^['’]/.test(w) &&
+			!(/['’]$/.test(w) && !/[aeiouàèéìòù]/.test(w))
 	);
 	const machine = read && agrees >= TRUST ? read(missing) : new Map<string, string>();
 
@@ -605,14 +722,22 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 
 	let fromWiki = 0;
 	let fromDict = 0;
+	let fromSpell = 0;
 	let fromMachine = 0;
 	let fromLast = 0;
 	const out = ['rank\tword\tenglish\tipa'];
 	for (const [rank, word, english] of rows) {
 		const key = word.toLowerCase();
-		const ipa = wiki.get(key) ?? fromLex.get(key) ?? machine.get(key) ?? last.get(key) ?? '';
+		const ipa =
+			wiki.get(key) ??
+			fromLex.get(key) ??
+			fromSpelled.get(key) ??
+			machine.get(key) ??
+			last.get(key) ??
+			'';
 		if (wiki.has(key)) fromWiki++;
 		else if (fromLex.has(key)) fromDict++;
+		else if (fromSpelled.has(key)) fromSpell++;
 		else if (machine.has(key)) fromMachine++;
 		else if (ipa) fromLast++;
 		out.push(`${rank}\t${word}\t${english ?? ''}\t${ipa}`);
@@ -624,12 +749,15 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 			(accent?.lexicon
 				? `${pct(fromDict)}% ${accent.lexicon.name} (agrees on ${Math.round(lexAgrees * 100)}%), `
 				: '') +
+			(accent?.spelled
+				? `${pct(fromSpell)}% romanised (agrees on ${Math.round(spelledAgrees * 100)}%), `
+				: '') +
 			`${pct(fromMachine)}% ${by}` +
 			(read ? ` (agrees on ${Math.round(agrees * 100)}%), ` : ', ') +
 			(lastAgrees
 				? `${pct(fromLast)}% goruut (agrees on ${Math.round(lastAgrees * 100)}%), `
 				: '') +
-			`${rows.length - fromWiki - fromDict - fromMachine - fromLast} words without`
+			`${rows.length - fromWiki - fromDict - fromSpell - fromMachine - fromLast} words without`
 	);
 	return (await stat(file)).size;
 }

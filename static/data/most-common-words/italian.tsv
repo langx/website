@@ -142,7 +142,7 @@ rank	word	english	ipa
 141	anni	year	/ˈan.ni/
 142	cui	whose	/ku.i/
 143	andiamo	to go	/anˈdja.mo/
-144	dell'	contraction of di l'; of the, from the	
+144	dell'	contraction of di l'; of the, from the	/ˈdɛl/
 145	parte	to depart; to leave; to set forth	/ˈpar.te/
 146	visto	to see	/ˈvis.to/
 147	qualcuno	someone, somebody	/kwalˈku.no/
@@ -164,7 +164,7 @@ rank	word	english	ipa
 163	posto	place, spot	/ˈpos.to/
 164	nessuno	no, any	/nesˈsu.no/
 165	via	away	/ˈvi.a/
-166	cos'	apocopic form of cosa	
+166	cos'	apocopic form of cosa	/ˈkɔs/
 167	fai	to do	/ˈfa.i/
 168	signore	lady	/siɲˈɲo.re/
 169	meglio	better	/ˈmɛʎ.ʎo/
@@ -332,7 +332,7 @@ rank	word	english	ipa
 331	fratello	brother, sibling	/fraˈtɛl.lo/
 332	stavo	to stay, remain	/ˈsta.vo/
 333	uomini	person, man	/ˈwɔ.mi.ni/
-334	nell'	contraction of in l'; in the	
+334	nell'	contraction of in l'; in the	/ˈnɛl/
 335	domani	tomorrow	/doˈma.ni/
 336	facciamo	to do	/fatˈt͡ʃa.mo/
 337	abbastanza	enough, sufficiently	/ab.basˈtan.t͡sa/
@@ -349,7 +349,7 @@ rank	word	english	ipa
 348	giorni	days	/ˈd͡ʒor.ni/
 349	nemmeno	not even	/nemˈme.no/
 350	mano	hand	/ˈma.no/
-351	dall'	contraction of da l'; from the	
+351	dall'	contraction of da l'; from the	/ˈdal/
 352	presto	soon	/ˈprɛs.to/
 353	stati	state	/ˈsta.ti/
 354	merda	shit, crap	/ˈmɛr.da/
@@ -452,7 +452,7 @@ rank	word	english	ipa
 451	lasciato	to leave	/laʃˈʃa.to/
 452	ascolta	to listen to	/asˈkol.ta/
 453	difficile	difficult, hard	/difˈfi.t͡ʃi.le/
-454	quell'	apocopic form of quella	
+454	quell'	apocopic form of quella	/ˈkwell/
 455	auto	clipping of automobile: car	/ˈa.u.to/
 456	chiamato	to call	/kjaˈmato/
 457	ciò	this	/ˈt͡ʃɔ/
@@ -464,7 +464,7 @@ rank	word	english	ipa
 463	numero	number	/ˈnu.me.ro/
 464	veramente	really, indeed, actually, truly	/ve.raˈmen.te/
 465	fanno	to do	/ˈfan.no/
-466	com'	apocopic form of come	
+466	com'	apocopic form of come	/ˈkom/
 467	serio	serious	/ˈsɛ.rjo/
 468	possa	can, could; to be able to	/ˈpɔs.sa/
 469	fossi	Used as a copula. to be	/ˈfɔs.si/
@@ -763,7 +763,7 @@ rank	word	english	ipa
 762	brava	good, well-behaved	/ˈbra.va/
 763	incidente	incident	/in.t͡ʃiˈdɛn.te/
 764	allo	contraction of a + lo, literally “to the, at the”	/ˈal.lo/
-765	dev'	apocopic form of deve	
+765	dev'	apocopic form of deve	/ˈdɛv/
 766	intenzione	intention, intent, purpose, mind, wish	/in.tenˈt͡sjo.ne/
 767	speciale	special	/speˈt͡ʃa.le/
 768	cambiare	to exchange	/kamˈbja.re/
@@ -827,7 +827,7 @@ rank	word	english	ipa
 826	vanno	to go	/ˈvan.no/
 827	nave	ship	/ˈna.ve/
 828	iniziato	to begin, to set about	/initˈsjato/
-829	perche'	misspelling of perché	
+829	perche'	misspelling of perché	/ˈpɛrke/
 830	informazioni	information	/in.for.matˈt͡sjo.ni/
 831	libero	free	/ˈli.be.ro/
 832	stronzo	turd	/ˈstron.t͡so/
@@ -1333,7 +1333,7 @@ rank	word	english	ipa
 1332	ami	hook	/ˈa.mi/
 1333	vite	life	/ˈvi.te/
 1334	scherzo	joke, jest, trick, hoax, frolic	/ˈsker.t͡so/
-1335	qualcos'	apocopic form of qualcosa	
+1335	qualcos'	apocopic form of qualcosa	/ˈkwalkos/
 1336	finta	affectation, simulation	/ˈfin.ta/
 1337	testimone	witness	/tes.tiˈmɔ.ne/
 1338	fratelli	brother, sibling	/fraˈtɛl.li/
@@ -1490,7 +1490,7 @@ rank	word	english	ipa
 1489	dovevi	to owe	/doˈve.vi/
 1490	aiutami	compound of aiuta, the second-person singular imperative…	/aˈjutamɪ/
 1491	tranquilla	calm, sober, tranquil	/tranˈkwilla/
-1492	cosi'	alternative spelling of così	
+1492	cosi'	alternative spelling of così	/ˈkɔzɪ/
 1493	naso	nose	/ˈna.zo/
 1494	andava	to go	/anˈda.va/
 1495	nemico	enemy, foe	/neˈmi.ko/
@@ -1867,8 +1867,8 @@ rank	word	english	ipa
 1866	compagno	alike, like, similar, the same	/komˈpaɲ.ɲo/
 1867	merito	deserved	/ˈmɛ.ri.to/
 1868	società	society, community	/so.t͡ʃeˈta/
-1869	quand'	apocopic form of quando	
-1870	nient'	apocopic form of niente	
+1869	quand'	apocopic form of quando	/ˈkwand/
+1870	nient'	apocopic form of niente	/ˈnjent/
 1871	spada	sword	/ˈspa.da/
 1872	vedermi	compound of the infinitive vedere with mi	/veˈder.mi/
 1873	scendere	to descend, move downward; go down	/ˈʃen.de.re/
@@ -2100,7 +2100,7 @@ rank	word	english	ipa
 2099	mal	apocopic form of male	/ˈmal/
 2100	interesse	interest, concern	/in.teˈrɛs.se/
 2101	mettiamo	to put, to place, to lay, to set	/meˈtːjamo/
-2102	bell'	apocopic form of bella	
+2102	bell'	apocopic form of bella	/ˈbɛl/
 2103	ossa	bone	/ˈɔs.sa/
 2104	roma	a type of rice	/ˈroma/
 2105	carico	loaded, laden	/ˈka.ri.ko/
@@ -2402,7 +2402,7 @@ rank	word	english	ipa
 2401	ricordate	to remember, to recall, to recollect	/ri.korˈda.te/
 2402	portate	second-hand, used	/porˈtate/
 2403	tavola	table	/ˈta.vo.la/
-2404	mezz'	apocopic form of mezza	
+2404	mezz'	apocopic form of mezza	/ˈmɛdzː/
 2405	trovarla	compound of the infinitive trovare with la	/troˈvar.la/
 2406	carica	loaded, laden	/ˈka.ri.ka/
 2407	salta	to jump, to leap, to spring	/ˈsal.ta/
@@ -3739,7 +3739,7 @@ rank	word	english	ipa
 3738	mancata	missed	/manˈka.ta/
 3739	sostegno	support	/sosˈteɲ.ɲo/
 3740	bloccata	blocked	/blokˈka.ta/
-3741	neanch'	apocopic form of neanche	
+3741	neanch'	apocopic form of neanche	/ˈnɛantʃ/
 3742	sbagliate	wrong, mistaken, erroneous, incorrect	/zbaˈʎate/
 3743	controllando	to check, verify, inspect, examine	/kontrolˈlando/
 3744	gentiluomo	gentleman	/d͡ʒen.tiˈlwɔ.mo/
@@ -4197,7 +4197,7 @@ rank	word	english	ipa
 4196	sincera	sincere, honest	/sintˈʃera/
 4197	pipi	to smoke a pipe	/ˈpipɪ/
 4198	falsa	false	/ˈfal.sa/
-4199	senz'	apocopic form of senza	
+4199	senz'	apocopic form of senza	/ˈsents/
 4200	contenti	satisfied, pleased	/konˈtɛn.ti/
 4201	undici	eleven	/ˈun.di.t͡ʃi/
 4202	tipa	person, fellow, guy, bloke, character, chap, turn	/ˈti.pa/
@@ -5434,7 +5434,7 @@ rank	word	english	ipa
 5433	satana	an evil or wicked person	/ˈsatana/
 5434	cercata	feminine singular of cercato	/t͡ʃerˈka.ta/
 5435	esagerando	to exaggerate	/ezadʒeˈrando/
-5436	nessun'	apocopic form of nessuna	
+5436	nessun'	apocopic form of nessuna	/nesˈsun/
 5437	ucciderci	compound of the infinitive uccidere with ci	/ʊtˈʃːidertʃɪ/
 5438	astronave	spaceship	/as.troˈna.ve/
 5439	abituata	used	/a.bi.tuˈa.ta/
@@ -7071,7 +7071,7 @@ rank	word	english	ipa
 7070	farsa	farce, masquerade	/ˈfar.sa/
 7071	mantieni	to maintain, to keep	/manˈtjɛnɪ/
 7072	maggioranza	majority, most	/mad.d͡ʒoˈran.t͡sa/
-7073	sott'	apocopic form of sotto	
+7073	sott'	apocopic form of sotto	/ˈsɔtː/
 7074	arteria	artery, arteria	/arˈtɛ.rja/
 7075	necessita	to be necessary, to be needed, to be required	/netˈʃessita/
 7076	sedute	sitting, seated	/seˈdute/
@@ -9864,7 +9864,7 @@ rank	word	english	ipa
 9863	forzare	to force	/forˈt͡sa.re/
 9864	temporaneamente	temporarily, provisionally	/tem.po.ra.ne.aˈmen.te/
 9865	mollo	wet, damp, saturated, soaked	/ˈmɔl.lo/
-9866	sant'	saint	
+9866	sant'	saint	/ˈsant/
 9867	attira	to attract, hook	/aˈtːira/
 9868	migliora	to improve, to ameliorate, to better	/miʎˈʎo.ra/
 9869	potersi	compound of the infinitive potere with si	/poˈtersɪ/

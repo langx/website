@@ -11,7 +11,7 @@ rank	word	english	ipa
 10	ഇവിടെ	here	/iʋiɖe/
 11	എന്നെ	1st person singular pronoun	/en̪n̪e/
 12	തന്നെ	same	/t̪ɐn̪n̪e/
-13	പക്ഷെ	obsolete spelling of പക്ഷേ	
+13	പക്ഷെ	obsolete spelling of പക്ഷേ	/pɐkʂe/
 14	എന്താ	what	/en̪t̪aː/
 15	ഇല്ല	no	/illɐ/
 16	അതെ	yes	/ɐd̪e/
@@ -66,7 +66,7 @@ rank	word	english	ipa
 65	എങ്ങനെ	how	/eŋŋɐne/
 66	മതി	enough	/mɐd̪i/
 67	സമയം	time	/sɐmɐjɐm/
-68	എത്ര	How many	
+68	എത്ര	How many	/et̪ɾɐ/
 69	പറ്റി	about; concerning; regarding	/pɐrri/
 70	വീണ്ടും	again	/ʋiːɳɖum/
 71	ആര്	who	/aːɾɨ/
@@ -96,14 +96,14 @@ rank	word	english	ipa
 95	അമ്മ	mother	/ɐmmɐ/
 96	ദയവായി	please	/d̪ɐjɐʋaːji/
 97	അയാൾ	that person	/ajaːɭ/
-98	നാശം	disaster; doom	
+98	നാശം	disaster; doom	/naːʃɐm/
 99	എപ്പോഴും	always; invariably, uniformly	/eppoːɻum/
 100	ചെറിയ	small; tiny	/t͡ʃerijɐ/
 101	നാം	we	/n̪aːm/
 102	കഴിഞ്ഞു	finished	/kɐɻiɲɲu/
-103	പ്രശ്നം	problem	
+103	പ്രശ്നം	problem	/pɾɐʃnɐm/
 104	ചില	some	/t͡ʃilɐ/
-105	എന്ന	which, the mentioned one	
+105	എന്ന	which, the mentioned one	/ennɐ/
 106	ജീവിതം	life; living	/d͡ʒiːʋid̪ɐm/
 107	പെട്ടെന്ന്	quickly, fast	/peʈʈen̪n̪ɨ/
 108	സത്യം	truth	/sat̪jam/
@@ -137,7 +137,7 @@ rank	word	english	ipa
 136	സന്തോഷം	happiness	/sɐn̪t̪oːʂɐm/
 137	പണി	work; job; occupation	/pɐɳi/
 138	അടുത്ത്	near	/ɐɖut̪t̪ɨ/
-139	യുദ്ധം	war	
+139	യുദ്ധം	war	/jud̪d̪ʱɐm/
 140	വെള്ളം	water	/ʋeɭɭɐm/
 141	കഴിഞ്ഞ	past, finished	/kɐɻiɲːɐ/
 142	താഴെ	below	/t̪äːɻe/
@@ -151,7 +151,7 @@ rank	word	english	ipa
 150	ആകെ	wholly, total	/aːɡe/
 151	താ	to give to the 1st or 2nd person	/t̪aː/
 152	നേരെ	straight	/n̪eːɾe/
-153	അല്ലെങ്കിൽ	or, if not	
+153	അല്ലെങ്കിൽ	or, if not	/ɐlleŋkil/
 154	നിൽക്ക്	to stand	/n̪ilkkɨ/
 155	കുറെ	less	/kure/
 156	രാവിലെ	morning	/ɾaːʋile/
@@ -167,9 +167,9 @@ rank	word	english	ipa
 166	കാലം	season	/kaːlɐm/
 167	ലോകം	world	/loːɡɐm/
 168	ഇന്നലെ	yesterday	/in̪n̪ɐle/
-169	വിട്	to leave something, release hold	
+169	വിട്	to leave something, release hold	/ʋiʈɨ/
 170	സഹായം	help, assistance	/sɐhaːjɐm/
-171	യാത്ര	travelling	
+171	യാത്ര	travelling	/jaːt̪ɾɐ/
 172	പകരം	instead of	/pɐɡɐɾɐm/
 173	അധികം	degree	/ɐd̪(ʱ)iɡɐm/
 174	കഥ	story	/kɐt̪(ʰ)ɐ/
@@ -194,7 +194,7 @@ rank	word	english	ipa
 193	സാധനം	stuff	/saːd̪(ʱ)ɐnɐm/
 194	അങ്ങോട്ട്	to there, at that place	/ɐŋŋoːʈʈɨ/
 195	കാശ്	cash, money	/kaːʃɨ/
-196	മിനിറ്റ്	minute; 60 seconds	
+196	മിനിറ്റ്	minute; 60 seconds	/minirrɨ/
 197	എങ്കിലും	nevertheless	/eŋkilum/
 198	നാല്	four	/n̪aːlɨ/
 199	അങ്ങ്	you	/ɐŋŋɨ/
@@ -202,7 +202,7 @@ rank	word	english	ipa
 201	ഉത്തരം	answer	/ut̪t̪ɐɾɐm/
 202	തിരികെ	back	/t̪iɾiɡe/
 203	പിടിക്ക്	catch	/piɖikkɨ/
-204	മുൻപ്	before	
+204	മുൻപ്	before	/munpɨ/
 205	കുഴപ്പം	problem, trouble	/kuɻɐppɐm/
 206	സാധാരണ	common	/saːd̪(ʱ)aːɾɐɳɐ/
 207	ബാക്കി	remaining, what's left	/baːkki/
@@ -210,7 +210,7 @@ rank	word	english	ipa
 209	ആദ്യത്തെ	first	/aːd̪jɐt̪t̪e/
 210	ഇത്തരം	this kind, thus	/it̪t̪ɐɾɐm/
 211	നേരം	time	/n̪eːɾɐm/
-212	ഇരിക്ക്	to sit	
+212	ഇരിക്ക്	to sit	/iɾikkɨ/
 213	സ്വപ്നം	dream seen at night, Imaginary events seen in the mind…	/sʋɐpnɐm/
 214	മോശം	bad	/moːʃɐm/
 215	ഇവര്	they	/iʋɐɾɨ̆/
@@ -222,12 +222,12 @@ rank	word	english	ipa
 221	സ്ത്രീ	girl	/st̪riː/
 222	പാവം	harmless	/paːʋɐm/
 223	അച്ഛൻ	father	/ɐt͡ʃt͡ʃ(ʰ)ɐn/
-224	മുന്നില്	in front, before	
+224	മുന്നില്	in front, before	/munnilɨ/
 225	ഓഫ്	off, stop	/oːfɨ/
 226	ഉടനെ	soon	/uɖɐne/
 227	കളി	game	/kɐɭi/
-228	ആവശ്യം	need	
-229	ഭാഗം	part	
+228	ആവശ്യം	need	/aːʋɐʃjɐm/
+229	ഭാഗം	part	/bʱaːɡɐm/
 230	കൂടാതെ	and also; and	/kuːɖaːd̪e/
 231	കേട്ടു	to hear	/keːʈʈu/
 232	എടാ	a term of address to a male of same age or younger; used…	/eɖaː/
@@ -239,7 +239,7 @@ rank	word	english	ipa
 238	ധാരാളം	plenty enough	/d̪(ʱ)aːɾaːɭɐm/
 239	പൈസ	paisa; a currency unit in India equal to 1/100 of a rupee	/pɐi̯sɐ/
 240	ശക്തി	power, force, strength	/ʃɐkt̪i/
-241	മാന്	alternative spelling of മാൻ	
+241	മാന്	alternative spelling of മാൻ	/maːnɨ/
 242	അഞ്ച്	five	/ɐɲt͡ʃɨ/
 243	അവസരം	opportunity, chance	/ɐʋɐsɐɾɐm/
 244	ശരീരം	body	/ʃaɾiːɾam/
@@ -265,18 +265,18 @@ rank	word	english	ipa
 264	ബന്ധം	relationship	/bɐn̪d̪(ʱ)ɐm/
 265	എന്നിട്ടും	even then	/en̪ːiʈːum/
 266	മൊത്തം	whole	/mot̪t̪ɐm/
-267	കുടുംബം	family	
+267	കുടുംബം	family	/kuʈumbɐm/
 268	അതുപോലെ	like that	/ɐd̪uboːle/
 269	കണ്ണ്	eye	/kɐɳɳɨ/
 270	കഴിഞ്ഞ്	finished	/kɐɻiɲɲɨ/
-271	ആല്	alternative form of ആൽ	
+271	ആല്	alternative form of ആൽ	/aːlɨ/
 272	ചുമ്മാ	gratis	/t͡ʃummaː/
-273	കാല്	alternative spelling of കാൽ	
+273	കാല്	alternative spelling of കാൽ	/kaːlɨ/
 274	ഇഷ്ടം	liking	/iʂʈɐm/
 275	നിയമം	law	/n̪ijamam/
 276	സുഖം	well being	/suk(ʰ)ɐm/
 277	മുതൽ	from; since; starting from	/mud̪ɐl/
-278	കയ്യിൽ	in hand	
+278	കയ്യിൽ	in hand	/kɐjjil/
 279	മോര്	buttermilk	/moːɾɨ/
 280	ദൂരെ	far	/d̪uːɾe/
 281	ഇവിടം	this place	/iʋiɖɐm/
@@ -289,7 +289,7 @@ rank	word	english	ipa
 288	ഉറപ്പ്	surety	/urɐppɨ/
 289	മുറി	room	/muri/
 290	മറുപടി	reply	/mɐrubɐɖi/
-291	വേദന	pain	
+291	വേദന	pain	/ʋeːd̪ɐnɐ/
 292	കള്ളം	lie	/kɐɭɭɐm/
 293	അകത്ത്	inside	/ɐɡɐt̪t̪ɨ/
 294	ഒരാൾ	one person	/oɾäːɭ/
@@ -324,7 +324,7 @@ rank	word	english	ipa
 323	ഏറെ	many, much	/eːre/
 324	സ്നേഹം	love	/sneːhɐm/
 325	വിചാരം	thought	/ʋid͡ʒaːɾɐm/
-326	സമ്മാനം	gift, present	
+326	സമ്മാനം	gift, present	/sɐmmaːnɐm/
 327	ആഗ്രഹം	eagerness, wish, desire	/aːɡɾɐhɐm/
 328	പാട്ട്	song	/paːʈʈɨ/
 329	റൂം	room	/ruːm/
@@ -334,17 +334,17 @@ rank	word	english	ipa
 333	ദൂരം	distance	/d̪uːɾɐm/
 334	ഇവള്	she	/iʋɐɭɨ̆/
 335	പ്രിയപ്പെട്ട	dear, dearest	/prijɐppeʈʈɐ/
-336	മുകളിൽ	above, up	
+336	മുകളിൽ	above, up	/mukɐɭil/
 337	വസ്ത്രം	dress	/ʋɐst̪rɐm/
 338	കൊല്ലം	year	/kollɐm/
 339	തരണം	overcome	/t̪ɐɾɐɳɐm/
 340	മാപ്പ്	absolution, forgiveness, indemnity, apology, pardon,…	/maːppɨ/
 341	ആദ്യമായി	firstly; for the first time	/aːd̪jɐmaːji/
 342	മനസ്സ്	mind, psyche	/mɐnɐssɨ/
-343	നഗരം	city	
+343	നഗരം	city	/nɐɡɐɾɐm/
 344	ബാഗ്	bag	/bäːɡɨ̆/
-345	ചിത്രം	picture	
-346	ക്ഷമ	patience	
+345	ചിത്രം	picture	/t͡ʃit̪ɾɐm/
+346	ക്ഷമ	patience	/kʂɐmɐ/
 347	കത്ത്	letter; a written or printed communication, generally…	/kɐt̪t̪ɨ/
 348	എല്ലായിടത്തും	everywhere	/elːäːjiɖɐt̪ːum/
 349	മനുഷ്യൻ	human, person	/mɐnuʂjɐn/
@@ -357,7 +357,7 @@ rank	word	english	ipa
 356	ഉള്ളു	to be, exist, be present, be located	/uɭɭu/
 357	എളുപ്പം	easy	/eɭuppɐm/
 358	വല്യ	alternative form of വലിയ	/ʋɐljɐ/
-359	ചിലത്	some	
+359	ചിലത്	some	/t͡ʃilɐt̪ɨ/
 360	സ്ഥാനം	place	/st̪(ʰ)aːnɐm/
 361	കത്തി	knife	/kɐt̪t̪i/
 362	ശ്വാസം	breath	/ʃʋaːsɐm/
@@ -405,7 +405,7 @@ rank	word	english	ipa
 404	മനോഹരമായ	beautiful	/mɐnoːhɐɾɐmaːjɐ/
 405	ആത്മഹത്യ	suicide	/aːt̪mɐhɐt̪jɐ/
 406	വെളിച്ചം	light	/ʋeɭit͡ʃt͡ʃɐm/
-407	തോല്	alternative spelling of തോൽ . skin	
+407	തോല്	alternative spelling of തോൽ . skin	/t̪oːlɨ/
 408	വിഡ്ഢി	fool, idiot	/ʋiɖɖ(ʱ)i/
 409	കഷ്ടം	suffering	/kɐʂʈɐm/
 410	ഭാഷ	language	/b(ʱ)aːʂɐ/
@@ -435,20 +435,20 @@ rank	word	english	ipa
 434	സൈന്യം	army	/säinjɐm/
 435	കല്ല്	stone, rock	/kɐllɨ/
 436	താമസം	living, stay; accommodation	/t̪aːmɐsɐm/
-437	വേര്	root	
+437	വേര്	root	/ʋeːɾɨ/
 438	പണ്ട്	ago	/pɐɳɖɨ/
 439	കുഞ്ഞ്	child	/kuɲɲɨ/
 440	ഇല്ലാത്ത	lacking; devoid of; without	/illaːt̪t̪ɐ/
 441	ബോംബ്	bomb	/boːmbɨ/
-442	പരിശീലനം	training	
+442	പരിശീലനം	training	/pɐɾiʃiːlɐnɐm/
 443	മരം	tree	/mɐɾɐm/
 444	യഥാർത്ഥ	real	/jat̪(ʰ)aːrt̪t̪(ʰ)a/
 445	പേടി	fear	/peːɖi/
 446	ഇദ്ദേഹം	The respectful form of he, used for mahatmas, celebrities,…	/id̪d̪eːhɐm/
-447	മകൻ	son	
-448	പേർ	alternative form of പേര്	
+447	മകൻ	son	/mɐkɐn/
+448	പേർ	alternative form of പേര്	/peːr/
 449	അത്ഭുതം	miracle	/ɐt̪b(ʱ)ud̪ɐm/
-450	ടീം	team, group	
+450	ടീം	team, group	/ʈiːm/
 451	ചൂട്	heat	/t͡ʃuːɖɨ/
 452	പണ്ടാരം	treasury	/pɐɳɖaːɾɐm/
 453	ഒന്നാം	first	/on̪n̪aːm/
@@ -461,10 +461,10 @@ rank	word	english	ipa
 460	ഒരുപക്ഷേ	perhaps	/oɾubäkʂeː/
 461	അധികാരം	authority	/ad̪(ʱ)iɡaːɾam/
 462	പിടി	handle	/piɖi/
-463	പദ്ധതി	project	
+463	പദ്ധതി	project	/pɐd̪d̪ʱɐt̪i/
 464	ഏക	only	/eːɡɐ/
 465	ഭൂമി	earth	/b(ʱ)uːmi/
-466	ബോധം	consciousness	
+466	ബോധം	consciousness	/boːd̪ʱɐm/
 467	ഇരുന്നു	to sit	/iɾun̪n̪u/
 468	ഭയം	fear	/b(ʱ)ɐjɐm/
 469	റിപ്പോർട്ട്	report	/ripːoːrʈːɨ̆/
@@ -485,18 +485,18 @@ rank	word	english	ipa
 484	നില	level	/n̪ilɐ/
 485	ശമ്പളം	salary, wage	/ʃɐmpɐɭɐm/
 486	ഗംഭീരം	excellent, great, awesome	/ɡɐmb(ʱ)iːɾɐm/
-487	വിഷയം	subject	
+487	വിഷയം	subject	/ʋiʂɐjɐm/
 488	അന്വേഷണം	inquiry	/ɐnʋeːʂɐɳɐm/
 489	വയസ്സ്	age	/ʋɐjɐssɨ/
 490	കയറ്	alternative form of കയർ	/kɐjɐrɨ/
-491	പ്രതീക്ഷ	hope	
+491	പ്രതീക്ഷ	hope	/pɾɐt̪iːkʂɐ/
 492	ബുദ്ധി	wisdom, intelligence	/bud̪d̪(ʱ)i/
-493	താല്പര്യം	alternative spelling of താൽപ്പര്യം	
+493	താല്പര്യം	alternative spelling of താൽപ്പര്യം	/t̪aːlpɐɾjɐm/
 494	ആയിരം	thousand	/aːjiɾɐm/
 495	പ്രതികാരം	revenge	/prad̪iɡaːɾam/
 496	അതിര്	border, boundary	/ɐd̪iɾɨ/
 497	സംഗീതം	song, music	/sɐŋɡiːd̪ɐm/
-498	വ്യക്തമായി	clearly	
+498	വ്യക്തമായി	clearly	/ʋjɐkt̪ɐmaːji/
 499	ഏഴ്	seven	/eːɻɨ/
 500	അഭിപ്രായം	opinion	/ɐb(ʱ)ipraːjɐm/
 501	നാക്ക്	tongue	/n̪aːkkɨ/
@@ -545,9 +545,9 @@ rank	word	english	ipa
 544	ആശയം	concept	/äːʃɐjɐm/
 545	തെളിവ്	evidence	/t̪eɭiʋɨ/
 546	അടുത്തത്	next, next one	/ɐɖut̪t̪ɐd̪ɨ/
-547	വാഗ്ദാനം	assurance, pledge, commitment, promise	
+547	വാഗ്ദാനം	assurance, pledge, commitment, promise	/ʋaːɡd̪aːnɐm/
 548	പ്രധാനം	important, foremost	/prɐd̪(ʱ)aːnɐm/
-549	തുക	sum	
+549	തുക	sum	/t̪ukɐ/
 550	സഹോദരി	sister	/sɐhoːd̪ɐɾi/
 551	കഴിവ്	ability, potential	/kɐɻiʋɨ/
 552	റെഡ്	red	/reɖɨ̆/
@@ -579,8 +579,8 @@ rank	word	english	ipa
 578	അത്തരം	that type	/ɐt̪t̪ɐɾɐm/
 579	മുത്തശ്ശി	grandmother	/mut̪t̪ɐʃʃi/
 580	ഡാൻസ്	dance	/ɖaːnsɨ/
-581	ശതമാനം	percentage	
-582	ആക്രമണം	attack	
+581	ശതമാനം	percentage	/ʃɐt̪ɐmaːnɐm/
+582	ആക്രമണം	attack	/aːkɾɐmɐɳɐm/
 583	റാണി	queen, a female ruler or the female spouse of a king	/raːɳi/
 584	പരമാവധി	maximum extent	/pɐɾɐmaːʋɐd̪(ʱ)i/
 585	ശത്രു	enemy	/ʃɐt̪ru/
@@ -591,8 +591,8 @@ rank	word	english	ipa
 590	നിറം	colour	/n̪irɐm/
 591	പന്ന	fallen, crowling or creeping along the ground	/pɐnnɐ/
 592	അഥവാ	or	/ɐt̪(ʰ)ɐʋaː/
-593	രചന	literary composition; work	
-594	നിയന്ത്രണം	control	
+593	രചന	literary composition; work	/ɾɐt͡ʃɐnɐ/
+594	നിയന്ത്രണം	control	/nijɐnt̪ɾɐɳɐm/
 595	സംഗതി	the thing, matter	/sɐŋɡɐd̪i/
 596	വക	own	/ʋɐɡɐ/
 597	സ്വഭാവം	behavior	/sʋɐb(ʱ)aːʋɐm/
@@ -616,17 +616,17 @@ rank	word	english	ipa
 615	സൈനിക	military; relating to army	/sɐi̯niɡɐ/
 616	ഉറക്കെ	loudly	/urɐkːe/
 617	രോഗം	disease	/ɾoːɡɐm/
-618	കൃത്യം	exact	
+618	കൃത്യം	exact	/kɾt̪jɐm/
 619	ഭൂമിയുടെ	earth	/b(ʱ)uːmijuɖe/
 620	ടാ	Shortened version of എടാ	/ʈaː/
 621	പച്ച	green colour	/pɐt͡ʃt͡ʃɐ/
-622	പോവുക	alternative form of പോകുക	
+622	പോവുക	alternative form of പോകുക	/poːʋukɐ/
 623	ബോയ്	palanquin bearers	/boːjɨ/
 624	നാടകം	drama	/n̪aːɖɐɡɐm/
 625	ഉപകാരം	help	/ubɐɡaːɾɐm/
 626	വായു	air	/ʋaːju/
-627	കൊല്ല്	to kill	
-628	ചരിത്രം	history	
+627	കൊല്ല്	to kill	/kollɨ/
+628	ചരിത്രം	history	/t͡ʃɐɾit̪ɾɐm/
 629	മുറിവ്	wound, cut	/muriʋɨ/
 630	പ്രിയ	dear	/prijɐ/
 631	അടിപൊളി	fabulous; superb	/ɐɖiboɭi/
@@ -634,7 +634,7 @@ rank	word	english	ipa
 633	തുണി	cloth, textiles	/t̪uɳi/
 634	എട്ട്	eight	/eʈʈɨ/
 635	ഇട്ടു	to drop something down, to put	/iʈʈu/
-636	പങ്ക്	allocated portion	
+636	പങ്ക്	allocated portion	/pɐŋkɨ/
 637	പ്രണയം	love affair, fondness	/prɐɳɐjɐm/
 638	വാടക	rent	/ʋaːɖɐɡɐ/
 639	ഭർത്താവ്	husband	/b(ʱ)ɐrt̪t̪aːʋɨ/
@@ -643,9 +643,9 @@ rank	word	english	ipa
 642	ഏ	eh, what	/eː/
 643	അങ്ങേര്	The respectful form of he, but less than addeham	/ɐŋŋeːɾɨ/
 644	വടക്ക്	north	/ʋɐɖɐkkɨ/
-645	മകൾ	daughter	
+645	മകൾ	daughter	/mɐkɐɭ/
 646	വട്ടം	circle	/ʋɐʈʈɐm/
-647	പാല്	alternative form of പാൽ	
+647	പാല്	alternative form of പാൽ	/paːlɨ/
 648	വിളി	call	/ʋiɭi/
 649	നാട്	state, country, nation, kingdom	/n̪aːɖɨ/
 650	പല്ല്	tooth	/pɐllɨ/
@@ -674,7 +674,7 @@ rank	word	english	ipa
 673	കോട്ട്	coat	/koːʈʈɨ/
 674	നേര്	alternative form of നേർ	/n̪eːɾɨ/
 675	സ്ഥിതി	situation	/st̪(ʰ)id̪i/
-676	മയക്കുമരുന്ന്	drug used for recreational use	
+676	മയക്കുമരുന്ന്	drug used for recreational use	/mɐjɐkkumɐɾunnɨ/
 677	ഉന്നം	aim	/unːɐm/
 678	എം	our	/em/
 679	നീതി	justice	/n̪iːd̪i/
@@ -702,8 +702,8 @@ rank	word	english	ipa
 701	ചെവി	ear; the sense organ responsible for hearing	/t͡ʃeʋi/
 702	അവകാശം	a legal or moral entitlement; right	/aʋaɡaːʃam/
 703	കേക്ക്	cake	/keːkːi/
-704	വിപ്ലവം	revolution, political upheaval	
-705	പ്രതിഫലം	reward	
+704	വിപ്ലവം	revolution, political upheaval	/ʋiplɐʋɐm/
+705	പ്രതിഫലം	reward	/pɾɐt̪ipʰɐlɐm/
 706	പുറം	back	/purɐm/
 707	നാറി	scoundrel; rascal	/n̪aːri/
 708	പരിചയം	experience	/paɾid͡ʒajam/
@@ -744,7 +744,7 @@ rank	word	english	ipa
 743	കഴിയുക	To be over; be spent	/kɐɻijuɡɐ/
 744	എങ്ങും	anywhere	/eŋːum/
 745	ഉള്ളിൽ	inside	/uɭɭil/
-746	പെൺകുട്ടി	girl	
+746	പെൺകുട്ടി	girl	/peɳkuʈʈi/
 747	പാഠം	lesson	/paːʈ(ʰ)ɐm/
 748	ഇരുപത്	twenty	/iɾubɐd̪ɨ/
 749	സാഹചര്യം	situation	/saːhɐd͡ʒɐɾjɐm/
@@ -767,7 +767,7 @@ rank	word	english	ipa
 766	മൂക്ക്	nose	/muːkkɨ/
 767	ജ്ജ്	dialectal form of നീ	/d͡ʒd͡ʒɨ/
 768	മൊഴി	statement; testimony	/moɻi/
-769	വാർത്ത	news	
+769	വാർത്ത	news	/ʋaːrt̪t̪ɐ/
 770	ബൈക്ക്	bicycle	/bäikːɨ̆/
 771	ഒത്തിരി	a lot, much	/ot̪t̪iɾi/
 772	അവധി	leave	/ɐʋɐd̪(ʱ)i/
@@ -777,14 +777,14 @@ rank	word	english	ipa
 776	ദേശീയ	national	/d̪eːʃiːjɐ/
 777	വിഭാഗം	section	/ʋib(ʱ)aːɡam/
 778	മഞ്ഞ	yellow; the colour of sunflower petals	/mɐɲɲɐ/
-779	മുൻപിൽ	in front of	
+779	മുൻപിൽ	in front of	/munpil/
 780	മദ്യം	alcohol	/mɐd̪jɐm/
 781	വാഹനം	vehicle	/ʋaːhɐnɐm/
 782	ഇരട്ടി	double; twice	/iɾɐʈʈi/
 783	മീറ്റർ	metre	/miːtar/
 784	സീറ്റ്	seat	/siːrrɨ/
-785	അപ്പുറത്ത്	on that side of	
-786	വിദ്യ	knowledge	
+785	അപ്പുറത്ത്	on that side of	/ɐppurɐt̪t̪ɨ/
+786	വിദ്യ	knowledge	/ʋid̪jɐ/
 787	മാന്ത്രിക	magical	/maːn̪t̪riɡɐ/
 788	മന്ത്രി	minister	/mɐn̪t̪ri/
 789	കോടി	crore, that is 10,000,000	/koːɖi/
@@ -795,7 +795,7 @@ rank	word	english	ipa
 794	ബഹുമാനം	respect	/bɐhumaːnɐm/
 795	പതിവ്	custom, routine, usual practice	/pɐd̪iʋɨ/
 796	സിസ്റ്റം	system	/sisrrɐm/
-797	വിശേഷം	specialty	
+797	വിശേഷം	specialty	/ʋiʃeːʂɐm/
 798	അപ്പുറം	across	/ɐppurɐm/
 799	കൂട്ട്	like, similar	/kuːʈʈɨ/
 800	നൂറ്	hundred	/n̪uːrɨ/
@@ -809,7 +809,7 @@ rank	word	english	ipa
 808	കണ്ണട	glasses	/kɐɳːɐɖɐ/
 809	ശ്രീ	Lakshmi, the Hindu goddess of wealth	/ʃriː/
 810	ചിരി	laughter	/t͡ʃiɾi/
-811	ടെസ്റ്റ്	test	
+811	ടെസ്റ്റ്	test	/ʈesrrɨ/
 812	മാംസം	meat	/maːmsɐm/
 813	കാലാവസ്ഥ	weather	/kaːlaːʋɐst̪(ʰ)ɐ/
 814	കോളേജ്	college	/koːɭeːd͡ʒɨ/
@@ -827,7 +827,7 @@ rank	word	english	ipa
 826	അർത്ഥം	meaning	/art̪t̪ʰam/
 827	ഭംഗി	beauty	/b(ʱ)ɐŋɡi/
 828	വാദം	discussion	/ʋaːd̪ɐm/
-829	ഉപദേശം	advice	
+829	ഉപദേശം	advice	/upɐd̪eːʃɐm/
 830	പ്രദേശം	area	/prad̪eːʃam/
 831	തീയതി	date	/t̪iːjɐd̪i/
 832	മോചനം	liberation	/moːd͡ʒɐnɐm/
@@ -839,15 +839,15 @@ rank	word	english	ipa
 838	വസ്തു	object	/ʋɐst̪u/
 839	പൂച്ച	cat, Felis catus, small, domesticated carnivorous mammal…	/puːt͡ʃt͡ʃɐ/
 840	നായ	dog	/n̪aːjɐ/
-841	പ്രഭു	lord	
+841	പ്രഭു	lord	/pɾɐbʱu/
 842	കൊടുങ്കാറ്റ്	typhoon	/koɖuŋkaːrrɨ/
-843	സൂ	zoo	
-844	പുറകിൽ	behind, in back of	
-845	മറ്റും	etc, so on	
-846	ലോട്ടറി	lottery	
+843	സൂ	zoo	/suː/
+844	പുറകിൽ	behind, in back of	/purɐkil/
+845	മറ്റും	etc, so on	/mɐrrum/
+846	ലോട്ടറി	lottery	/loːʈʈɐri/
 847	നീളം	length	/n̪iːɭɐm/
 848	ചുമതല	responsibility; duty	/t͡ʃumɐd̪ɐlɐ/
-849	കെട്ടിടം	building	
+849	കെട്ടിടം	building	/keʈʈiʈɐm/
 850	ആധുനിക	modern	/äːd̪ʱuniɡä/
 851	അറിവ്	knowledge	/ɐriʋɨ/
 852	ഏറെക്കുറെ	somewhat, more or less	/eːrekkure/
@@ -858,15 +858,15 @@ rank	word	english	ipa
 857	കള്ള	false	/käɭːä/
 858	ഉയരം	height	/ujɐɾɐm/
 859	ഞായറാഴ്ച	Sunday	/ɲaːjɐraːɻt͡ʃɐ/
-860	ദൗത്യം	mission	
+860	ദൗത്യം	mission	/d̪ɐu̯t̪jɐm/
 861	സ്പാനിഷ്	Spanish	/spaːniʂɨ/
 862	ഡ്രൈവ്	drive	/ɖrɐi̯ʋɨ/
 863	പന്ത്രണ്ട്	twelve	/pɐn̪t̪rɐɳɖɨ/
 864	തൊലി	skin, the outer protective layer of the body of human or…	/t̪oli/
 865	പട്ടിണി	famine	/pɐʈʈiɳi/
 866	കറുപ്പ്	black	/kɐruppɨ/
-867	പരിശോധന	inspection	
-868	പാത	path	
+867	പരിശോധന	inspection	/pɐɾiʃoːd̪ʱɐnɐ/
+868	പാത	path	/paːt̪ɐ/
 869	ജോഡി	pair	/d͡ʒoːɖi/
 870	കഠിനമായ	hard	/kɐʈ(ʰ)inɐmaːjɐ/
 871	അനുമതി	permission	/ɐnumɐd̪i/
@@ -874,10 +874,10 @@ rank	word	english	ipa
 873	പുറകോട്ട്	backward	/purɐɡoːʈʈɨ/
 874	ഉടമ്പടി	treaty	/uɖɐmpɐɖi/
 875	വിതരണം	distribution	/ʋid̪ɐɾɐɳɐm/
-876	വിരല്	finger	
+876	വിരല്	finger	/ʋiɾɐlɨ/
 877	പരിശുദ്ധ	immaculate	/pɐɾiʃud̪d̪(ʱ)ɐ/
 878	കണ്ണാടി	mirror, a smooth surface, made of glass with reflective…	/kɐɳːaːɖi/
-879	പ്രതികരണം	response	
+879	പ്രതികരണം	response	/pɾɐt̪ikɐɾɐɳɐm/
 880	കുറ്റവാളി	culprit	/kurrɐʋaːɭi/
 881	നിരവധി	many	/n̪iɾɐʋɐd̪(ʱ)i/
 882	കിഴക്ക്	east, the cardinal direction in which the earth spins	/kiɻɐkkɨ/
@@ -888,18 +888,18 @@ rank	word	english	ipa
 887	ആകാശം	sky	/aːɡaːʃɐm/
 888	മനസ്	alternative spelling of മനസ്സ്	/mɐnɐsɨ/
 889	ശനിയാഴ്ച	Saturday	/ʃɐnijaːɻt͡ʃɐ/
-890	വഴക്ക്	quarrel	
+890	വഴക്ക്	quarrel	/ʋɐɻɐkkɨ/
 891	ചർച്ച	discussion	/t͡ʃɐrt͡ʃt͡ʃɐ/
-892	പ്രവാചകന്	prophet	
+892	പ്രവാചകന്	prophet	/pɾɐʋaːt͡ʃɐkɐnɨ/
 893	പന്ത്	ball	/pɐn̪t̪ɨ/
 894	പുല്ല്	grass; short plants with long narrow leaves and hollow…	/pulːɨ/
 895	പാനപാത്രം	glass, a vessel used for drinking a liquid	/paːnɐbaːt̪rɐm/
 896	സേവനം	service	/seːʋɐnɐm/
 897	എലി	rat	/eli/
 898	സ്വർണം	alternative form of സ്വർണ്ണം	/sʋɐrɳɐm/
-899	ചെന്നായ്	alternative form of ചെന്നായ	
+899	ചെന്നായ്	alternative form of ചെന്നായ	/t͡ʃennaːjɨ/
 900	വേശ്യ	prostitute	/ʋeːʃjɐ/
-901	പഠനം	study	
+901	പഠനം	study	/pɐʈʰɐnɐm/
 902	തെമ്മാടി	rogue	/t̪emmaːɖi/
 903	കിട്ടുക	to get	/kiʈʈuɡɐ/
 904	ബാറ്ററി	battery	/baːrrɐri/
@@ -909,7 +909,7 @@ rank	word	english	ipa
 908	കൊന്ന	the tree Castia Fistula	/kon̪n̪ɐ/
 909	വശം	side	/ʋɐʃɐm/
 910	കൊട്ടാരം	palace	/koʈʈaːɾɐm/
-911	പൈലറ്റ്	pilot	
+911	പൈലറ്റ്	pilot	/pɐi̯lɐrrɨ/
 912	പ്രകൃതി	nature	/prɐkrɨd̪i/
 913	വിലാസം	address, location	/ʋilaːsɐm/
 914	ജനറൽ	general	/d͡ʒɐnɐrɐl/
@@ -917,14 +917,14 @@ rank	word	english	ipa
 916	തടി	wood, timber; the substance making up the central part of…	/t̪ɐɖi/
 917	പിന്നോട്ട്	backward	/pin̪n̪oːʈʈɨ/
 918	സമരം	strike	/samaɾam/
-919	സംരക്ഷണം	protection	
+919	സംരക്ഷണം	protection	/sɐmɾɐkʂɐɳɐm/
 920	നാണയം	coin	/n̪aːɳɐjɐm/
 921	ഉപ്പ്	salt	/uppɨ/
 922	നദി	a river	/n̪ɐd̪i/
 923	അതി	sword	/ɐd̪i/
-924	പക്ഷം	stance, position	
+924	പക്ഷം	stance, position	/pɐkʂɐm/
 925	ചെറു	small	/t͡ʃeru/
-926	ചെസ്സ്	chess	
+926	ചെസ്സ്	chess	/t͡ʃessɨ/
 927	തനിച്ച്	alone	/t̪anit͡ʃt͡ʃə/
 928	എടുക്കുക	to take	/eɖukkuɡɐ/
 929	വേലി	fence, a thin artificial barrier	/ʋeːli/
@@ -944,14 +944,14 @@ rank	word	english	ipa
 943	ഭയങ്കരം	fearsome; terrifying	/b(ʱ)ɐjɐŋkɐɾɐm/
 944	കുറ്റബോധം	feeling guilty; remorse; guilt	/kurrɐboːd̪(ʱ)ɐm/
 945	വട്ട്	eccentricity, insanity	/ʋɐʈʈɨ/
-946	ജീവി	living organism	
-947	സാവധാനം	slowly	
+946	ജീവി	living organism	/d͡ʒiːʋi/
+947	സാവധാനം	slowly	/saːʋɐd̪ʱaːnɐm/
 948	ഇന്ധനം	fuel	/in̪d̪(ʱ)ɐnɐm/
 949	ജഡ്ജി	judge	/d͡ʒäɖd͡ʒi/
 950	മധുരം	a sweet, dessert	/mɐd̪(ʱ)uɾɐm/
 951	പ്രാദേശിക	local	/praːd̪eːʃiɡɐ/
 952	കലാപം	quarrel	/kɐlaːbɐm/
-953	പാപം	sin	
+953	പാപം	sin	/paːpɐm/
 954	വിളിക്കുക	to call	/ʋiɭikkjuɡɐ/
 955	ഊഹം	guess	/uːhɐm/
 956	എതിരെ	against	/ed̪iɾe/
@@ -959,14 +959,14 @@ rank	word	english	ipa
 958	കിലോ	kilogram	/kiloː/
 959	മിഠായി	candy	/miʈ(ʰ)aːji/
 960	പനി	fever, influenza, flu	/pɐni/
-961	അനേകം	several	
+961	അനേകം	several	/ɐneːkɐm/
 962	ചിലർ	some people	/t͡ʃilɐr/
 963	ബുദ്ധിമുട്ട്	difficulty	/bud̪d̪(ʱ)imuʈʈɨ/
 964	എഴുത്ത്	writing	/eɻut̪t̪ɨ/
 965	അടിമ	slave	/ɐɖimɐ/
 966	പാർട്ടി	party	/päːrʈːi/
-967	പ്രസംഗം	speech; allocution	
-968	സെന്റ്	cent	
+967	പ്രസംഗം	speech; allocution	/pɾɐsɐŋɡɐm/
+968	സെന്റ്	cent	/senrɨ/
 969	നീളമുള്ള	length having	/n̪iːɭɐmuɭɭɐ/
 970	ഘട്ടം	phase, stage	/ɡ(ʱ)ɐʈʈɐm/
 971	അൽപം	little	/alpam/
@@ -1000,7 +1000,7 @@ rank	word	english	ipa
 999	സഹായി	helper	/sɐhaːji/
 1000	ഉപകരണം	device	/ubɐɡɐɾɐɳɐm/
 1001	വൻ	big, huge	/ʋɐn/
-1002	നോട്ടീസ്	notice	
+1002	നോട്ടീസ്	notice	/noːʈʈiːsɨ/
 1003	ചികിത്സ	treatment, medical care	/t͡ʃiɡit̪sɐ/
 1004	പൂ	flower	/puː/
 1005	പരാജയം	defeat	/pɐɾaːd͡ʒɐjɐm/
@@ -1010,7 +1010,7 @@ rank	word	english	ipa
 1009	വൈദ്യുതി	electricity	/ʋɐjd̪jud̪i/
 1010	കൂലി	salary, payment for doing job	/kuːli/
 1011	തള്ള്	over exaggeration	/t̪ɐɭɭɨ/
-1012	കുറ്റസമ്മതം	admission	
+1012	കുറ്റസമ്മതം	admission	/kurrɐsɐmmɐt̪ɐm/
 1013	ഭേദം	splitting, breaking, division	/b(ʱ)eːd̪ɐm/
 1014	മൂത്ത	elder	/muːt̪t̪ɐ/
 1015	പാമ്പ്	snake, limbless reptile with long, slender bodies belonging…	/paːmpɨ/
@@ -1026,15 +1026,15 @@ rank	word	english	ipa
 1025	ഒറ്റപ്പെട്ട	isolated	/orrɐppeʈʈɐ/
 1026	കൊഞ്ച്	long-clawed shrimp, shrimps in the family Palaemonidae with…	/koɲt͡ʃɨ/
 1027	വിശപ്പ്	hunger	/ʋiʃɐppɨ/
-1028	ഉത്തരവാദിത്വം	responsibility	
+1028	ഉത്തരവാദിത്വം	responsibility	/ut̪t̪ɐɾɐʋaːd̪it̪ʋɐm/
 1029	താഴ്	a lock	/t̪aːɻɨ/
 1030	കുറിപ്പ്	note	/kurippɨ/
 1031	പൊടി	dust	/poɖi/
-1032	സകല	all	
+1032	സകല	all	/sɐkɐlɐ/
 1033	ഓർക്കുക	to think, remember	/oːrkkuɡɐ/
 1034	ഗുളിക	tablet medicine	/ɡuɭiɡɐ/
 1035	ക്ഷീണം	tire, fatigue, tiredness	/kʂiːɳɐm/
-1036	വ്യവസ്ഥ	term, condition	
+1036	വ്യവസ്ഥ	term, condition	/ʋjɐʋɐst̪ʰɐ/
 1037	നന്മ	goodness	/n̪ɐnmɐ/
 1038	വിശ്രമം	rest	/ʋiʃrɐmɐm/
 1039	പീ	excrement	/piː/
@@ -1043,7 +1043,7 @@ rank	word	english	ipa
 1042	വെള്ളി	silver	/ʋeɭɭi/
 1043	തലയോട്ടി	scalp	/t̪ɐlɐjoːʈʈi/
 1044	ജനം	people	/d͡ʒɐnɐm/
-1045	ആവേശം	excitedness	
+1045	ആവേശം	excitedness	/aːʋeːʃɐm/
 1046	തിരക്ക്	crowdedness	/t̪iɾɐkkɨ/
 1047	മുറിക്ക്	to cut	/murikkɨ/
 1048	ഗ്രേ	gray	/ɡɾeː/
@@ -1066,14 +1066,14 @@ rank	word	english	ipa
 1065	കരുണ	kindness, mercy	/käɾuɳä/
 1066	സംഭാഷണം	conversation	/sɐmb(ʱ)aːʂɐɳɐm/
 1067	ചെറ്റ	small hut made of leaves	/t͡ʃerrɐ/
-1068	പടിഞ്ഞാറ്	west	
+1068	പടിഞ്ഞാറ്	west	/pɐʈiɲɲaːrɨ/
 1069	കുമാരി	a surname	/kumaːɾi/
 1070	മുൻ	previous, before	/mun/
 1071	കരടി	bear	/kɐɾɐɖi/
 1072	വെക്കുക	to put	/ʋekkuɡɐ/
 1073	ഫ്ലൈറ്റ്	flight	/fɭäitɨ̆/
 1074	കസേര	chair	/kɐseːɾɐ/
-1075	പ്രേമം	love	
+1075	പ്രേമം	love	/pɾeːmɐm/
 1076	ഇര	prey, food for animals	/iɾɐ/
 1077	കൃഷ്ണ	black	/krɨʂɳɐ/
 1078	സംഭവിക്കുക	to happen	/sɐmb(ʱ)ɐʋikkjuɡɐ/
@@ -1083,16 +1083,16 @@ rank	word	english	ipa
 1082	സമ്പത്ത്	wealth	/sɐmpɐt̪t̪ɨ/
 1083	ഇൻസ്പെക്ടർ	inspector	/inspekʈar/
 1084	നിധി	treasure	/n̪id̪(ʱ)i/
-1085	ശപഥം	oath	
+1085	ശപഥം	oath	/ʃɐpɐt̪ʰɐm/
 1086	തക്ക	fit; suiting	/t̪ɐkkɐ/
 1087	വാൾ	sword	/ʋaːɭ/
 1088	വുഡ്	wood	/ʋuɖɨ̆/
-1089	ഗതി	situation, condition	
+1089	ഗതി	situation, condition	/ɡɐt̪i/
 1090	വിസ	visa	/ʋisɐ/
 1091	എടീ	used to call a familiar female of same age or younger; or…	/eɖiː/
 1092	ചുവപ്പ്	red	/t͡ʃuʋɐppɨ/
 1093	തുള്ളി	A drop	/t̪uɭɭi/
-1094	നാറ്റം	bad smell	
+1094	നാറ്റം	bad smell	/naːrrɐm/
 1095	ചീട്ട്	card	/t͡ʃiːʈʈɨ/
 1096	ഡോർ	door	/ɖoːr/
 1097	താടി	beard	/t̪aːɖi/
@@ -1100,12 +1100,12 @@ rank	word	english	ipa
 1099	റോസ	rose, flowering plant of the genus Rosa	/roːsɐ/
 1100	ലൈംഗിക	sexual; pertaining to sex	/lɐi̯ŋɡiɡɐ/
 1101	ഗാനം	song, music	/ɡaːnɐm/
-1102	അന്ത്യം	the end	
-1103	ചെലവ്	expenditure, expense, spending	
+1102	അന്ത്യം	the end	/ɐnt̪jɐm/
+1103	ചെലവ്	expenditure, expense, spending	/t͡ʃelɐʋɨ/
 1104	കാത്തിരിക്കുക	to wait	/kaːt̪t̪iɾikkjuɡɐ/
 1105	പുലി	leopard, Panthera pardus, a large carnivorous felid with a…	/puli/
-1106	രേഖ	line	
-1107	പ്രചോദനം	encouragement	
+1106	രേഖ	line	/ɾeːkʰɐ/
+1107	പ്രചോദനം	encouragement	/pɾɐt͡ʃoːd̪ɐnɐm/
 1108	കരാർ	agreement	/kɐɾaːr/
 1109	അപേക്ഷ	request	/ɐbeːkʂɐ/
 1110	രാജ്ഞി	queen	/ɾaːd͡ʒɲi/
@@ -1118,9 +1118,9 @@ rank	word	english	ipa
 1117	കാമറ	camera	/kaːmɐrɐ/
 1118	ഗുഹ	a cave	/ɡuhɐ/
 1119	ഭംഗിയുള്ള	beautiful; having beauty	/b(ʱ)ɐŋɡijuɭɭɐ/
-1120	പരീക്ഷ	academic test, exam, examination	
+1120	പരീക്ഷ	academic test, exam, examination	/pɐɾiːkʂɐ/
 1121	പെട്ട	a female bird	/peʈʈɐ/
-1122	സുന്ദരം	beautiful	
+1122	സുന്ദരം	beautiful	/sund̪ɐɾɐm/
 1123	പന്നിക്കുട്ടി	piglet	/pɐn̪ˑn̪ikˑkuʈˑʈi/
 1124	വ്യാഴാഴ്ച	Thursday	/ʋjaːɻaːɻt͡ʃɐ/
 1125	അളവ്	measurement	/ɐɭɐʋɨ/
@@ -1146,12 +1146,12 @@ rank	word	english	ipa
 1145	എഴുത്	to write	/eɻud̪ɨ/
 1146	ഭീരു	coward; a person who lacks courage	/b(ʱ)iːɾu/
 1147	കടൽ	sea	/kɐɖɐl/
-1148	സംഭാവന	donation	
+1148	സംഭാവന	donation	/sɐmbʱaːʋɐnɐ/
 1149	പക്കൽ	in hand; in the possession of	/pɐkkɐl/
 1150	മൃഗം	animal	/mrɨɡɐm/
 1151	ചിങ്കി	poison	/t͡ʃiŋki/
 1152	പ്രോഗ്രാം	program	/pɾoːɡɾäːm/
-1153	നിലവിളി	loud scream or cry	
+1153	നിലവിളി	loud scream or cry	/nilɐʋiɭi/
 1154	തിളങ്ങുന്ന	shining, glowing	/t̪iɭɐŋŋun̪n̪ɐ/
 1155	നിരന്തരം	continuously	/n̪iɾɐn̪t̪ɐɾɐm/
 1156	കാക്ക	crow, large passerine bird belonging to the genus Corvus…	/kaːkːɐ/
@@ -1165,7 +1165,7 @@ rank	word	english	ipa
 1164	ചൂഷണം	exploitation	/t͡ʃuːʂɐɳɐm/
 1165	ചോളം	corn, maize, Zea mays	/t͡ʃoːɭɐm/
 1166	മന്ത്രം	mantra	/mɐn̪t̪rɐm/
-1167	കുപ്പായം	shirt	
+1167	കുപ്പായം	shirt	/kuppaːjɐm/
 1168	വിത്ത്	seed, nut	/ʋit̪t̪ɨ/
 1169	ഇരട്ട	two	/iɾɐʈʈɐ/
 1170	ഊർജ്ജം	energy	/uːrd͡ʒd͡ʒɐm/
@@ -1174,7 +1174,7 @@ rank	word	english	ipa
 1173	മുപ്പത്	thirty	/muppɐd̪ɨ/
 1174	വെയിറ്റ്	wait	/ʋejitɨ̆/
 1175	പ്രഭാതം	morning	/prab(ʱ)aːd̪am/
-1176	വിദ്യാഭ്യാസം	education	
+1176	വിദ്യാഭ്യാസം	education	/ʋid̪jaːbʱjaːsɐm/
 1177	മേ	canopy	/meː/
 1178	നടത്തം	walk	/n̪ɐɖɐt̪t̪ɐm/
 1179	ഒടുക്കം	in the end	/oɖukːɐm/
@@ -1198,7 +1198,7 @@ rank	word	english	ipa
 1197	ജയിൽ	jail	/d͡ʒɐjil/
 1198	ഓർമ്മ	memory	/oːrmmɐ/
 1199	എടോ	Used to address a person of same age or younger. Less…	/eɖoː/
-1200	വാചകം	sentence	
+1200	വാചകം	sentence	/ʋaːt͡ʃɐkɐm/
 1201	മുരളി	flute	/muɾɐɭi/
 1202	ഗെയിം	game	/ɡejim/
 1203	നല്ലപോലെ	very well	/n̪ɐllɐboːle/
@@ -1212,7 +1212,7 @@ rank	word	english	ipa
 1211	നീര്	swelling	/n̪iːɾɨ/
 1212	അൽപ്പം	less	/ɐlpɐm/
 1213	വൈൻ	wine	/ʋai̯n/
-1214	പ്രധാനമന്ത്രി	prime minister	
+1214	പ്രധാനമന്ത്രി	prime minister	/pɾɐd̪ʱaːnɐmɐnt̪ɾi/
 1215	ചെറുത്	small one	/t͡ʃerut̪ə/
 1216	മാനം	sky	/maːnɐm/
 1217	അടുക്കള	kitchen	/ɐɖukkɐɭɐ/
@@ -1220,27 +1220,27 @@ rank	word	english	ipa
 1219	പ്രപഞ്ചം	The Universe, cosmos	/prɐbɐɲt͡ʃɐm/
 1220	മത്സ്യം	fish	/mɐt̪sjɐm/
 1221	നിര	line	/n̪iɾɐ/
-1222	സഹതാപം	sympathy	
+1222	സഹതാപം	sympathy	/sɐhɐt̪aːpɐm/
 1223	ഗ്രഹം	planet; a body which orbits a star	/ɡɾɐhɐm/
 1224	തടവ്	imprisonment	/t̪ɐɖɐʋɨ/
-1225	ബലാത്സംഗം	rape, forced non-consensual sexual act	
+1225	ബലാത്സംഗം	rape, forced non-consensual sexual act	/bɐlaːt̪sɐŋɡɐm/
 1226	കൈമാറ്റം	transfer	/kai̯maːtːam/
 1227	കഞ്ചാവ്	cannabis	/kɐɲt͡ʃaːʋɨ/
 1228	ഊണ്	meals	/uːɳɨ/
 1229	പ്രയോജനം	benefit; use	/prɐjoːd͡ʒɐnɐm/
-1230	മര്യാദ	manners	
+1230	മര്യാദ	manners	/mɐɾjaːd̪ɐ/
 1231	പിടിക്കുക	catch	/piɖikkjuɡɐ/
 1232	മരുഭൂമി	desert	/mɐɾub(ʱ)uːmi/
 1233	പടി	the way, in the manner, so as	/pɐɖi/
 1234	ഒന്നാമത്തെ	first	/on̪n̪aːmɐt̪t̪e/
-1235	ഉദ്ദേശ്യം	goal	
+1235	ഉദ്ദേശ്യം	goal	/ud̪d̪eːʃjɐm/
 1236	ഒന്നാന്തരം	first class, best, highest quality	/on̪n̪aːn̪t̪ɐɾɐm/
 1237	വക്കീൽ	lawyer	/ʋɐkkiːl/
 1238	പട	army; fighting force	/pɐɖɐ/
 1239	സേന	army	/seːnɐ/
 1240	നിൽക്കുക	to stand	/n̪ilkːuɡɐ/
-1241	രാജകുമാരൻ	prince	
-1242	കരച്ചിൽ	crying	
+1241	രാജകുമാരൻ	prince	/ɾaːd͡ʒɐkumaːɾɐn/
+1242	കരച്ചിൽ	crying	/kɐɾɐt͡ʃt͡ʃil/
 1243	നടക്കുക	to walk	/n̪ɐɖɐkkuɡɐ/
 1244	പൂട്ടി	locked	/puːʈʈi/
 1245	കൊച്ച്	small	/kot͡ːʃɨ̆/
@@ -1262,16 +1262,16 @@ rank	word	english	ipa
 1261	പേപ്പർ	paper	/peːppɐr/
 1262	സഹായിക്കുക	to help	/sɐhaːjikkjuɡɐ/
 1263	ഉടുപ്പ്	clothing	/uɖupːɨ̆/
-1264	ആൺകുട്ടി	boy, young male	
+1264	ആൺകുട്ടി	boy, young male	/aːɳkuʈʈi/
 1265	തൊഴിൽ	job	/t̪oɻil/
 1266	ഫയൽ	file	/pʰajal/
-1267	ഭൂതം	ghost	
+1267	ഭൂതം	ghost	/bʱuːt̪ɐm/
 1268	പ്രയാസം	effortful; requiring effort	/prɐjaːsɐm/
 1269	ആദ്യത്തേത്	first one	/aːd̪jɐt̪t̪eːd̪ɨ/
 1270	വ്യാജ	fake	/ʋjaːd͡ʒɐ/
-1271	പ്രസ്താവന	statement; declaration	
+1271	പ്രസ്താവന	statement; declaration	/pɾɐst̪aːʋɐnɐ/
 1272	പുതുതായി	newly	/pud̪ut̪aːji/
-1273	താത്പര്യം	alternative spelling of താൽപ്പര്യം	
+1273	താത്പര്യം	alternative spelling of താൽപ്പര്യം	/t̪aːt̪pɐɾjɐm/
 1274	ആസൂത്രണം	planning	/aːsuːt̪rɐɳɐm/
 1275	വിവിധ	various	/ʋiʋid̪(ʱ)ɐ/
 1276	സ്വിച്ച്	switch	/sʋit͡ʃːɨ̆/
@@ -1300,7 +1300,7 @@ rank	word	english	ipa
 1299	കാരറ്റ്	carrot	/kaːɾɐrrɨ/
 1300	ഉച്ച	noon	/ut͡ʃt͡ʃɐ/
 1301	ഉയർന്ന	high; elevated	/ujɐrn̪ːɐ/
-1302	ബിയർ	beer	
+1302	ബിയർ	beer	/bijɐr/
 1303	അഞ്ചാം	fifth, 5th	/ɐɲt͡ʃaːm/
 1304	മുതലാളി	boss	/mud̪ɐlaːɭi/
 1305	രക്ഷ	saving	/ɾɐkʂɐ/
@@ -1312,7 +1312,7 @@ rank	word	english	ipa
 1311	എന്റ	colloquial form of എന്റെ	/en̪rɐ/
 1312	കയർ	coir	/kɐjɐr/
 1313	കാവൽ	guard, safety	/käːʋɐl/
-1314	പ്രവർത്തനം	activity	
+1314	പ്രവർത്തനം	activity	/pɾɐʋɐrt̪t̪ɐnɐm/
 1315	ഇനം	breed; a specific group of domesticated animals of a common…	/inɐm/
 1316	ഭ്രാന്തൻ	mad man	/b(ʱ)ɾaːn̪t̪ɐn/
 1317	നടപടി	action; charge, process	/n̪ɐɖɐbɐɖi/
@@ -1323,24 +1323,24 @@ rank	word	english	ipa
 1322	ആഗോള	global	/äːɡoːɭɐ/
 1323	തീറ്റ	feed, fodder, food for animals and pets	/t̪iːrrɐ/
 1324	തരിക	alternative form of തരുക	/t̪ɐɾiɡɐ/
-1325	അസൂയ	jealousy; envy	
+1325	അസൂയ	jealousy; envy	/ɐsuːjɐ/
 1326	കഷണം	piece	/kɐʂɐɳɐm/
 1327	കര	land, earth, soil	/kɐɾɐ/
 1328	വജ്രം	diamond	/ʋɐd͡ʒrɐm/
-1329	ഭയാനകമായ	horrible, scary	
+1329	ഭയാനകമായ	horrible, scary	/bʱɐjaːnɐkɐmaːjɐ/
 1330	പരിധി	limit	/pɐɾid̪(ʱ)i/
 1331	പതിനഞ്ച്	fifteen	/pɐd̪inɐɲt͡ʃɨ/
 1332	പൊട്ടിത്തെറി	explosion	/poʈʈit̪t̪eri/
 1333	പ്രതിരോധം	defense	/prɐd̪iɾoːd̪(ʱ)ɐm/
 1334	പോക്കറ്റ്	pocket	/poːkːetɨ̆/
 1335	ജാഗ്രത	alert	/d͡ʒaːɡɾɐd̪ɐ/
-1336	ദാരിദ്ര്യം	poverty	
+1336	ദാരിദ്ര്യം	poverty	/d̪aːɾid̪ɾjɐm/
 1337	കതക്	door; A portal of entry into a building or vehicle, with a…	/kad̪aɡɨ̆/
 1338	ശാസ്ത്രം	science	/ʃaːst̪rɐm/
 1339	ഉപയോഗിക്കുക	to use	/ubäjoːɡikːuɡä/
 1340	ആരോപണം	allegation	/aːɾoːbaɳam/
-1341	അഭിനയം	acting	
-1342	പൂവ്	alternative form of പൂ	
+1341	അഭിനയം	acting	/ɐbʱinɐjɐm/
+1342	പൂവ്	alternative form of പൂ	/puːʋɨ/
 1343	കുത്ത്	dot, point	/kut̪t̪ɨ/
 1344	നേട്ടം	achievement, profit, success	/n̪eːʈʈɐm/
 1345	മാ	1/20; one twentieth	/maː/
@@ -1361,13 +1361,13 @@ rank	word	english	ipa
 1360	ഓട്ടം	running	/oːʈʈɐm/
 1361	ചായം	paint	/t͡ʃaːjam/
 1362	അപരാധി	wrongdoer	/ɐbɐɾaːd̪(ʱ)i/
-1363	സൂപ്പർ	super	
+1363	സൂപ്പർ	super	/suːppɐr/
 1364	റിമോട്ട്	remote	/rimoːʈːɨ̆/
 1365	ഇന്ദു	moon	/in̪d̪u/
 1366	സർക്യൂട്ട്	circuit	/särkjuːʈːɨ̆/
-1367	ഷർട്ട്	shirt	
+1367	ഷർട്ട്	shirt	/ʂɐrʈʈɨ/
 1368	വിലപ്പെട്ട	valuable	/ʋilɐppeʈʈɐ/
-1369	സഹോദര	siblingly	
+1369	സഹോദര	siblingly	/sɐhoːd̪ɐɾɐ/
 1370	ഇടത്	left; opposite of right	/iɖɐd̪ɨ/
 1371	സൈക്കിൾ	bicycle, cycle	/sɐi̯kkiɭ/
 1372	കഠിന	hard	/kɐʈ(ʰ)inɐ/
@@ -1377,8 +1377,8 @@ rank	word	english	ipa
 1376	പഞ്ചസാര	white sugar	/pɐɲt͡ʃɐsaːɾɐ/
 1377	ദുഃഖം	sadness	/d̪ukk(ʰ)ɐm/
 1378	ഇരുമ്പ്	iron	/iɾumbɨ/
-1379	ധാരണ	understanding	
-1380	പാരിതോഷികം	reward, award	
+1379	ധാരണ	understanding	/d̪ʱaːɾɐɳɐ/
+1380	പാരിതോഷികം	reward, award	/paːɾit̪oːʂikɐm/
 1381	സിദ്ധാന്തം	theory	/sid̪d̪(ʱ)aːn̪d̪am/
 1382	ആശങ്ക	worry, doubt, apprehension; misgiving	/aːʃɐŋkɐ/
 1383	കെട്ട	lacking	/keʈʈɐ/
@@ -1389,16 +1389,16 @@ rank	word	english	ipa
 1388	വകുപ്പ്	department	/ʋɐɡuppɨ/
 1389	തൊണ്ട	throat	/t̪oɳɖɐ/
 1390	ശേഷി	capability	/ʃeːʂi/
-1391	ഗുരുത്വാകർഷണം	gravity	
+1391	ഗുരുത്വാകർഷണം	gravity	/ɡuɾut̪ʋaːkɐrʂɐɳɐm/
 1392	രംഗം	color	/ɾɐŋɡɐm/
 1393	സഞ്ചി	bag; kit	/sɐɲt͡ʃi/
-1394	കമ്മിറ്റി	committee	
+1394	കമ്മിറ്റി	committee	/kɐmmirri/
 1395	വലത്	right; opposite of left	/ʋɐlɐd̪ɨ/
 1396	സർക്കാർ	government	/sɐrkkaːr/
 1397	അന്തസ്സ്	dignity, prestige	/ɐn̪t̪ɐssə/
-1398	മാതൃക	model; praiseworthy example	
+1398	മാതൃക	model; praiseworthy example	/maːt̪ɾkɐ/
 1399	പ്രവേശനം	entry, door	/prɐʋeːʃɐnɐm/
-1400	നടുക്ക്	In the middle	
+1400	നടുക്ക്	In the middle	/nɐʈukkɨ/
 1401	അപ്പൻ	father	/ɐppɐn/
 1402	ഉപരി	over, above	/ubɐɾi/
 1403	ഉണങ്ങിയ	dried	/uɳɐŋŋijɐ/
@@ -1408,8 +1408,8 @@ rank	word	english	ipa
 1407	ടയർ	tyre	/ʈäjɐr/
 1408	എല്ല്	bone	/elːɨ/
 1409	യജമാനൻ	master	/jɐd͡ʒɐmaːnɐn/
-1410	നിരാശ	disappointment	
-1411	ക്ഷാമം	scarcity, dearth, want, shortage	
+1410	നിരാശ	disappointment	/niɾaːʃɐ/
+1411	ക്ഷാമം	scarcity, dearth, want, shortage	/kʂaːmɐm/
 1412	സമ്പാദ്യം	earnings	/sɐmpaːd̪jɐm/
 1413	പൊക്കം	height	/pokkɐm/
 1414	നാമം	name	/n̪aːmɐm/
@@ -1433,26 +1433,26 @@ rank	word	english	ipa
 1432	കടലാസ്	paper	/kɐɖɐlaːsɨ/
 1433	ഇൽ	house	/il/
 1434	വല്യച്ഛൻ	older paternal uncle	/ʋɐljɐt͡ʃt͡ʃ(ʰ)ɐn/
-1435	ജന്തു	creature, animal	
+1435	ജന്തു	creature, animal	/d͡ʒɐnt̪u/
 1436	ചവറ്	trash	/t͡ʃɐʋɐrɨ/
 1437	സുഗന്ധം	pleasant smell; fragrance; scent	/suɡɐn̪d̪(ʱ)ɐm/
 1438	ചെണ്ട	a drum of Kerala	/t͡ʃeɳɖɐ/
 1439	ചതി	cheating	/t͡ʃɐd̪i/
 1440	ഏകാന്തത	solitude	/eːɡaːn̪t̪ɐd̪ɐ/
-1441	നഷ്ടപരിഹാരം	compensation	
+1441	നഷ്ടപരിഹാരം	compensation	/nɐʂʈɐpɐɾihaːɾɐm/
 1442	കുടി	the act of drinking	/kuɖi/
 1443	അതിഥി	guest	/ɐd̪it̪(ʰ)i/
 1444	ജർമൻ	German	/d͡ʒɐrmɐn/
 1445	ചെക്കൻ	boy	/t͡ʃekkɐn/
 1446	ആവശ്യത്തിലധികം	more than enough	/aːʋɐʃjɐt̪t̪ilɐd̪(ʱ)iɡɐm/
 1447	പുരോഗതി	progress	/puɾoːɡɐd̪i/
-1448	ഇരി	to sit	
+1448	ഇരി	to sit	/iɾi/
 1449	ഇറ്റാലിയൻ	Italian	/ittaːlijɐn/
 1450	വരുക	to come	/ʋɐɾuɡɐ/
 1451	തോണി	boat	/t̪oːɳi/
 1452	പൊതി	cover	/pod̪i/
-1453	മുത്തച്ഛൻ	grandfather	
-1454	സമുദ്രം	ocean	
+1453	മുത്തച്ഛൻ	grandfather	/mut̪t̪ɐt͡ʃt͡ʃʰɐn/
+1454	സമുദ്രം	ocean	/sɐmud̪ɾɐm/
 1455	പാകം	ripe, cooked, roasted, boiled; ready to consume or take	/paːɡɐm/
 1456	ദാഹം	thirst for water	/d̪aːhɐm/
 1457	ദുരന്തം	disaster, hazard	/d̪uɾɐn̪t̪ɐm/
@@ -1460,12 +1460,12 @@ rank	word	english	ipa
 1459	സ്വാഭാവിക	natural, self-generated, spontaneous	/sʋaːb(ʱ)aːʋiɡɐ/
 1460	ശരിയാണെങ്കിൽ	if so be, if it is correct	/ʃɐɾijaːɳeŋkil/
 1461	ത്യാഗം	sacrifice	/t̪jaːɡɐm/
-1462	മുദ്ര	seal	
-1463	ദാനം	donation	
+1462	മുദ്ര	seal	/mud̪ɾɐ/
+1463	ദാനം	donation	/d̪aːnɐm/
 1464	കുട	umbrella, parasol	/kuɖɐ/
 1465	ആറാം	sixth, 6th	/aːraːm/
 1466	ചെടി	plant, an organism of the kingdom Plantae	/t͡ʃeɖi/
-1467	കൂട്ടാൻ	dish, side dish, any curry	
+1467	കൂട്ടാൻ	dish, side dish, any curry	/kuːʈʈaːn/
 1468	വനം	forest	/ʋɐnɐm/
 1469	മൂത്രം	urine	/muːt̪rɐm/
 1470	കല	art	/kɐlɐ/
@@ -1476,7 +1476,7 @@ rank	word	english	ipa
 1475	മോന്ത	face	/moːn̪t̪ɐ/
 1476	ജനാധിപത്യം	democracy	/d͡ʒanaːd̪(ʱ)ibat̪jam/
 1477	ജനാല	window	/d͡ʒɐnaːlɐ/
-1478	തോൽ	skin	
+1478	തോൽ	skin	/t̪oːl/
 1479	എത്തുക	to reach	/et̪t̪uɡɐ/
 1480	പതിനൊന്ന്	eleven	/pɐd̪inon̪n̪ɨ/
 1481	അനിയത്തി	younger sister	/ɐnijɐt̪t̪i/
@@ -1486,7 +1486,7 @@ rank	word	english	ipa
 1485	മാല	necklace, usually made of a string of precious metals,…	/maːlɐ/
 1486	കിളി	Any small bird	/kiɭi/
 1487	പിഴ	fine, penalty	/piɻɐ/
-1488	ഭൂപടം	chart, map	
+1488	ഭൂപടം	chart, map	/bʱuːpɐʈɐm/
 1489	പെണ്ണുങ്ങൾ	woman	/peɳɳuŋŋɐɭ/
 1490	പിന്തുണ	support	/pin̪t̪uɳɐ/
 1491	ദേഹം	body	/d̪eːhɐm/
@@ -1495,7 +1495,7 @@ rank	word	english	ipa
 1494	അകലം	distance	/ɐɡɐlɐm/
 1495	കുഴി	pit	/kuɻi/
 1496	അസാധാരണ	unusual	/äsäːd̪ʱäːɾɐɳä/
-1497	വരുമാനം	income	
+1497	വരുമാനം	income	/ʋɐɾumaːnɐm/
 1498	സ്പൂൺ	spoon	/spuːɳ/
 1499	അറ	chamber	/ɐrɐ/
 1500	വീർ	roar of elephants, grunt of pigs	/ʋiːr/
@@ -1524,10 +1524,10 @@ rank	word	english	ipa
 1523	ഉറവിടം	source	/urɐʋiɖɐm/
 1524	സൂചി	needle	/suːd͡ʒi/
 1525	സിംഹം	lion	/simhɐm/
-1526	വസ്തുത	fact, reality	
+1526	വസ്തുത	fact, reality	/ʋɐst̪ut̪ɐ/
 1527	അപകട	Pertaining to accident	/ɐbɐɡɐɖɐ/
 1528	കൊഴുപ്പ്	fat	/koɻuppɨ/
-1529	ഭൂകമ്പം	earthquake	
+1529	ഭൂകമ്പം	earthquake	/bʱuːkɐmpɐm/
 1530	സ്തുതിക്കുക	to praise	/st̪ud̪ikkjuɡɐ/
 1531	ഉപ്പ	father	/uppɐ/
 1532	കവാടം	entrance, gate	/kɐʋaːɖɐm/
@@ -1544,13 +1544,13 @@ rank	word	english	ipa
 1543	ഹിന്ദു	Hindu; adherent of Hinduism	/hin̪d̪u/
 1544	പീരങ്കി	a cannon	/piːɾɐŋki/
 1545	വെണ്ണ	butter	/ʋeɳɳɐ/
-1546	ജൂതൻ	Jew	
+1546	ജൂതൻ	Jew	/d͡ʒuːt̪ɐn/
 1547	ചില്ലറ	small change, small coin, small amount	/t͡ʃillɐrɐ/
 1548	അനുഗ്രഹം	blessing	/änuɡɾɐhɐm/
 1549	ആണുങ്ങൾ	male	/aːɳuŋŋɐɭ/
 1550	ഉണ്ടാവുക	alternative spelling of ഉണ്ടാകുക	/uɳɖaːʋuɡɐ/
 1551	ചാര	ashy	/t͡ʃaːɾɐ/
-1552	നഴ്സ്	nurse	
+1552	നഴ്സ്	nurse	/nɐɻsɨ/
 1553	സന്ധി	joint	/sɐn̪d̪(ʱ)i/
 1554	കെണി	trap	/keɳi/
 1555	സൗന്ദര്യം	beauty	/sɐun̪d̪ɐɾjɐm/
@@ -1567,7 +1567,7 @@ rank	word	english	ipa
 1566	പൈപ്പ്	tap	/pɐi̯ppɨ/
 1567	തട്ടിപ്പ്	fraud	/t̪ɐʈʈippɨ/
 1568	അറ്റം	end	/ɐrrɐm/
-1569	ചുരുക്കം	few	
+1569	ചുരുക്കം	few	/t͡ʃuɾukkɐm/
 1570	കൊടി	flag	/koɖi/
 1571	തീരം	beach	/t̪iːɾɐm/
 1572	മുഖ്യ	chief	/muk(ʰ)jɐ/
@@ -1587,7 +1587,7 @@ rank	word	english	ipa
 1586	തുരങ്കം	tunnel	/t̪uɾɐŋkɐm/
 1587	പാൽ	milk	/paːl/
 1588	തക്കാളി	tomato; Solanum lycopersicum, a widely cultivated plant in…	/t̪ɐkːaːɭi/
-1589	സഹകരണം	cooperation	
+1589	സഹകരണം	cooperation	/sɐhɐkɐɾɐɳɐm/
 1590	ശാരീരിക	bodily	/ʃaːɾiːɾiɡɐ/
 1591	അമ്പ്	arrow	/ɐmpɨ/
 1592	വേട്ട	hunting	/ʋeːʈʈɐ/
@@ -1598,19 +1598,19 @@ rank	word	english	ipa
 1597	കനം	weight	/kɐnɐm/
 1598	സായുധ	armed, wielding weapons	/saːjud̪(ʱ)ɐ/
 1599	പോരാളി	fighter	/poːɾaːɭi/
-1600	ജീവിക്കുക	to live	
+1600	ജീവിക്കുക	to live	/d͡ʒiːʋikkukɐ/
 1601	ഐറ്റം	item	/äjtɐm/
 1602	അഞ്ഞൂറ്	five hundred	/ɐɲɲuːrɨ/
 1603	ജീപ്പ്	jeep	/d͡ʒiːpːɨ̆/
 1604	ചേരുക	to join	/t͡ʃeːɾuɡɐ/
-1605	മഹത്വം	significance	
+1605	മഹത്വം	significance	/mɐhɐt̪ʋɐm/
 1606	എണ്ണ്	to count	/eɳɳɨ/
-1607	റാങ്ക്	rank	
+1607	റാങ്ക്	rank	/raːŋkɨ/
 1608	സൗഹൃദം	friendship	/sɐu̯hrɨd̪ɐm/
 1609	മന	A house, particularly the house of a Brahmin	/mɐnɐ/
 1610	തീപ്പെട്ടി	matchbox	/t̪iːppeʈʈi/
 1611	മുതിർന്ന	grown up	/mud̪irn̪n̪ɐ/
-1612	വ്യക്തിത്വം	personality	
+1612	വ്യക്തിത്വം	personality	/ʋjɐkt̪it̪ʋɐm/
 1613	ബോർഡ്	board	/boːrɖɨ̆/
 1614	കടുപ്പം	toughness	/käɖupːɐm/
 1615	ഇതിഹാസം	legend, epic	/id̪ihaːsɐm/
@@ -1619,15 +1619,15 @@ rank	word	english	ipa
 1618	എങ്ങനെയിരിക്കുന്നു	how are you?	
 1619	കോപം	anger	/koːbɐm/
 1620	പഠിക്കുക	to learn	/pɐʈ(ʰ)ikkjuɡɐ/
-1621	കുറ്റകൃത്യം	criminal act	
+1621	കുറ്റകൃത്യം	criminal act	/kurrɐkɾt̪jɐm/
 1622	പൊട്ടൻ	a stupid person	/poʈʈɐn/
-1623	ഭവനം	house, home, residence	
+1623	ഭവനം	house, home, residence	/bʱɐʋɐnɐm/
 1624	കട്ട	block	/kɐʈʈɐ/
-1625	സിന്ദാബാദ്	long live	
-1626	പശ്ചാത്താപം	regret, repenting	
+1625	സിന്ദാബാദ്	long live	/sind̪aːbaːd̪ɨ/
+1626	പശ്ചാത്താപം	regret, repenting	/pɐʃt͡ʃaːt̪t̪aːpɐm/
 1627	ഇങ്ങേര്	The respectful form of he, but less than addeham	/iŋŋeːɾɨ/
 1628	പാസ്പോർട്ട്	passport	/päːspoːrʈːɨ̆/
-1629	വലയം	circle	
+1629	വലയം	circle	/ʋɐlɐjɐm/
 1630	ശേഖരം	collection	/ʃeːk(ʰ)ɐɾɐm/
 1631	മേഖല	region	/meːk(ʰ)ɐlɐ/
 1632	മൊത്തത്തിൽ	overall	/mot̪t̪ɐt̪t̪il/
@@ -1635,18 +1635,18 @@ rank	word	english	ipa
 1634	ശരാശരി	average	/ʃɐɾaːʃɐɾi/
 1635	ചങ്ങല	chain	/t͡ʃɐŋŋɐlɐ/
 1636	ചീഞ്ഞ	rotten	/t͡ʃiːɲɲɐ/
-1637	ചതിയൻ	cheater	
+1637	ചതിയൻ	cheater	/t͡ʃɐt̪ijɐn/
 1638	അമ്മാവൻ	uncle	/amːaːʋan/
 1639	മഞ്ഞുകാലം	winter season	/mɐɲːuɡaːlɐm/
 1640	മാനേജർ	manager	/mäːneːd͡ʒɐr/
 1641	അഴുക്ക്	dirt	/ɐɻukkɨ/
 1642	ചെളി	mud	/t͡ʃeɭi/
 1643	അന്തിമ	last; final, ending	/ɐn̪t̪imɐ/
-1644	ലഹരി	addictive substance	
+1644	ലഹരി	addictive substance	/lɐhɐɾi/
 1645	വിരുന്ന്	feast	/ʋiɾun̪n̪ɨ/
 1646	കാലാവധി	lifespan; time period	/kaːlaːʋɐd̪(ʱ)i/
 1647	സദ്യ	Kerala feast consisting of rice and numerous dishes,…	/sɐd̪jɐ/
-1648	വഞ്ചന	fraud	
+1648	വഞ്ചന	fraud	/ʋɐɲt͡ʃɐnɐ/
 1649	പുതപ്പ്	blanket	/pud̪ɐppɨ/
 1650	മണൽ	sand	/mɐɳɐl/
 1651	കരുത്ത്	strength	/kɐɾut̪t̪ɨ/
@@ -1657,15 +1657,15 @@ rank	word	english	ipa
 1656	മരിക്കുക	to die	/mɐɾikkjuɡɐ/
 1657	ടീ	tea	/ʈiː/
 1658	കോള	Maroon	/koːɭɐ/
-1659	സ്വകാര്യം	private information	
+1659	സ്വകാര്യം	private information	/sʋɐkaːɾjɐm/
 1660	പ്രബന്ധം	thesis; dissertation	/praban̪d̪(ʱ)am/
 1661	കാരം	ash	/kaːɾɐm/
 1662	വൃത്തി	cleanliness	/ʋrɨt̪t̪i/
 1663	ഒന്നാമത്	first, firstly	/on̪n̪aːmɐd̪ɨ/
 1664	ചെകുത്താൻ	devil, satan	/t͡ʃeɡut̪t̪aːn/
 1665	അംശം	part; small portion	/ɐmʃɐm/
-1666	പുരുഷൻ	man	
-1667	പെട്രോൾ	petrol	
+1666	പുരുഷൻ	man	/puɾuʂɐn/
+1667	പെട്രോൾ	petrol	/peʈɾoːɭ/
 1668	കാഹളം	trumpet	/kaːhɐɭɐm/
 1669	പ്രഭാഷണം	lecture	/prɐb(ʱ)aːʂɐɳɐm/
 1670	മെഴുകുതിരി	candle	/meɻuɡud̪iɾi/
@@ -1677,12 +1677,12 @@ rank	word	english	ipa
 1676	ആലിംഗനം	hug; embrace	/äːliŋɡɐnɐm/
 1677	താജ്	peacock	/t̪aːd͡ʒɨ/
 1678	ജാതി	caste	/d͡ʒaːd̪i/
-1679	ഭീകരം	scary, horrible	
+1679	ഭീകരം	scary, horrible	/bʱiːkɐɾɐm/
 1680	യോനി	yoni, vagina	/joːni/
 1681	വര	line	/ʋɐɾɐ/
 1682	അച്ചൻ	priest	/ɐt͡ʃt͡ʃɐn/
 1683	അധികാരി	a person in power, authority	/ɐd̪(ʱ)iɡaːɾi/
-1684	സമനില	mental stability, saneness	
+1684	സമനില	mental stability, saneness	/sɐmɐnilɐ/
 1685	അടിസ്ഥാനം	foundation, base	/ɐɖist̪(ʰ)aːnɐm/
 1686	പ്രാക്ടീസ്	practice	/präːkʈiːsɨ̆/
 1687	ലളിതം	simple	/lɐɭid̪ɐm/
@@ -1698,15 +1698,15 @@ rank	word	english	ipa
 1697	ഒൻപത്	nine	/onpɐd̪ɨ/
 1698	പഴി	blame	/pɐɻi/
 1699	അറിയപ്പെടുന്ന	well-known, famous	/ärijɐpːeɖun̪ːɐ/
-1700	സമിതി	committee	
+1700	സമിതി	committee	/sɐmit̪i/
 1701	ഓവ്	ditch, trench, drainage	/oːʋɨ/
 1702	പ്ലാസ്റ്റിക്	plastic	/pläːstikːɨ/
-1703	പ്രവാഹം	flow	
+1703	പ്രവാഹം	flow	/pɾɐʋaːhɐm/
 1704	ദ്വാരം	a hole or door	/d̪ʋaːɾɐm/
 1705	കഴിക്കുക	to eat	/kɐɻikkjuɡɐ/
 1706	ചുവട്	step	/t͡ʃuʋɐɖɨ/
 1707	ജീവ	relating to life	/d͡ʒiːʋɐ/
-1708	മുസ്ലിം	muslim	
+1708	മുസ്ലിം	muslim	/muslim/
 1709	അയക്കുക	alternative spelling of അയയ്ക്കുക	/ɐjɐkkuɡɐ/
 1710	പിൻ	after	/pin/
 1711	അസാധ്യം	impossible	/äsäːd̪ʱjɐm/
@@ -1727,11 +1727,11 @@ rank	word	english	ipa
 1726	കഷണ്ടി	partial baldness; alopecia of head	/kɐʂɐɳɖi/
 1727	യുവതി	young lady	/juʋɐd̪i/
 1728	പാഴ്	futile; useless; vain	/paːɻɨ/
-1729	പദവി	post of employment	
-1730	ചക്രവർത്തി	king, emperor	
-1731	നിർദ്ദേശം	suggestion	
+1729	പദവി	post of employment	/pɐd̪ɐʋi/
+1730	ചക്രവർത്തി	king, emperor	/t͡ʃɐkɾɐʋɐrt̪t̪i/
+1731	നിർദ്ദേശം	suggestion	/nird̪d̪eːʃɐm/
 1732	ചിന്തിക്കുക	to think	/t͡ʃin̪t̪ikkjuɡɐ/
-1733	പ്രതിനിധി	representative	
+1733	പ്രതിനിധി	representative	/pɾɐt̪inid̪ʱi/
 1734	നാര്	fiber	/n̪aːɾɨ/
 1735	ഗർഭിണി	a pregnant woman	/ɡarb(ʱ)iɳi/
 1736	ബന്ധു	relative	/bɐn̪d̪(ʱ)u/
@@ -1739,27 +1739,27 @@ rank	word	english	ipa
 1738	ഗോതമ്പ്	wheat, Any of the cereal grains in the genus Triticum	/ɡoːd̪ɐmpɨ/
 1739	ആപ്പിൾ	apple	/aːppiɭ/
 1740	തത്സമയം	live; of an event, as it happens	/t̪ɐtsɐmɐjɐm/
-1741	പഞ്ചാര	alternative form of പഞ്ചസാര	
+1741	പഞ്ചാര	alternative form of പഞ്ചസാര	/pɐɲt͡ʃaːɾɐ/
 1742	മനോഭാവം	attitude	/mɐnoːb(ʱ)aːʋɐm/
 1743	അപവാദം	calumny	/äbɐʋäːd̪ɐm/
 1744	ഗതാഗത	transport	/ɡɐd̪aːɡɐd̪ɐ/
 1745	സാമ്യം	similarity	/saːmjɐm/
-1746	നൂല്	alternative form of നൂൽ	
+1746	നൂല്	alternative form of നൂൽ	/nuːlɨ/
 1747	ചിലന്തി	spider; Any of the various eight-legged predatory…	/t͡ʃilɐn̪d̪i/
-1748	വാക്യം	sentence	
+1748	വാക്യം	sentence	/ʋaːkjɐm/
 1749	പരുന്ത്	eagle or kite, carnivorous birds of family Accipitridae	/pɐɾun̪t̪ɨ/
-1750	സഖ്യം	alliance	
+1750	സഖ്യം	alliance	/sɐkʰjɐm/
 1751	പൂന്തോട്ടം	garden	/puːn̪t̪oːʈʈɐm/
-1752	അപ്പം	bread, bun, chapatti	
+1752	അപ്പം	bread, bun, chapatti	/ɐppɐm/
 1753	കട്ടിൽ	cot	/kɐʈʈil/
 1754	ശവശരീരം	corpse, dead body	/ʃɐʋɐʃɐɾiːɾɐm/
-1755	മൃതശരീരം	body	
+1755	മൃതശരീരം	body	/mɾt̪ɐʃɐɾiːɾɐm/
 1756	വീര്യം	strength	/ʋiːɾjɐm/
-1757	വ്യവസായം	industry	
+1757	വ്യവസായം	industry	/ʋjɐʋɐsaːjɐm/
 1758	പിറ്റേന്ന്	the next-day; following day	/pirreːn̪n̪ɨ/
-1759	നിലപാട്	position, opinion, stance	
+1759	നിലപാട്	position, opinion, stance	/nilɐpaːʈɨ/
 1760	ചിലവ്	misspelling of ചെലവ്	/t͡ʃilaʋə/
-1761	വനിത	woman	
+1761	വനിത	woman	/ʋɐnit̪ɐ/
 1762	ചാരം	ash	/t͡ʃaːɾɐm/
 1763	റെക്കോഡ്	record	/rekːoːɖɨ̆/
 1764	ചില്ല്	glass, an amorphous often transparent substance, usually…	/t͡ʃilːɨ̆/
@@ -1779,7 +1779,7 @@ rank	word	english	ipa
 1778	തലസ്ഥാനം	capital city	/t̪ɐlɐst̪ʰäːnɐm/
 1779	വഞ്ചി	boat	/ʋɐɲt͡ʃi/
 1780	ഇങ്ങോട്	to here, at this place	/iŋŋoːɖɨ/
-1781	ആനന്ദം	enjoyment	
+1781	ആനന്ദം	enjoyment	/aːnɐnd̪ɐm/
 1782	കൊട്	to give to the 3rd person	/koɖɨ/
 1783	സ്നേഹിക്കുക	to love	/sneːhikkjuɡɐ/
 1784	ചന്തി	buttock	/t͡ʃɐn̪t̪i/
@@ -1790,7 +1790,7 @@ rank	word	english	ipa
 1789	ആമ	terrapin, small turtles that live in fresh or brackish water	/aːmɐ/
 1790	ന്യായം	justice	/njaːjɐm/
 1791	അനിയൻ	younger brother	/ɐnijɐn/
-1792	കാ	alternative form of കായ	
+1792	കാ	alternative form of കായ	/kaː/
 1793	വ്യതിയാനം	deviation	/ʋjɐd̪ijaːnɐm/
 1794	ആദരവ്	respect	/aːd̪ɐɾɐʋɨ/
 1795	കഷ്ടപ്പാട്	difficulty	/käʂʈɐpːäːɖɨ̆/
@@ -1801,31 +1801,31 @@ rank	word	english	ipa
 1800	കന്നഡ	Kannada	/kɐn̪n̪ɐɖɐ/
 1801	പിറന്നാൾ	birthday	/pirɐn̪n̪aːɭ/
 1802	രണ്ടായിരം	two thousand; 2000	/ɾɐɳɖaːjiɾɐm/
-1803	വിവരണം	description	
-1804	മുന്നെ	before	
+1803	വിവരണം	description	/ʋiʋɐɾɐɳɐm/
+1804	മുന്നെ	before	/munne/
 1805	മാതാപിതാക്കൾ	parents	/maːd̪aːbid̪aːkːal/
 1806	യുവാവ്	youngster	/juʋaːʋɨ/
-1807	വെല്ലുവിളി	challenge	
+1807	വെല്ലുവിളി	challenge	/ʋelluʋiɭi/
 1808	താവളം	base of a military group	/t̪aːʋɐɭɐm/
 1809	സംഖ്യ	number	/sɐŋk(ʰ)jɐ/
-1810	ദുരുപയോഗം	misuse, abuse	
+1810	ദുരുപയോഗം	misuse, abuse	/d̪uɾupɐjoːɡɐm/
 1811	പൊതുവായ	general	/pod̪uʋaːjɐ/
-1812	കടപ്പാട്	obligation	
+1812	കടപ്പാട്	obligation	/kɐʈɐppaːʈɨ/
 1813	ജനസംഖ്യ	population count	/d͡ʒanasank(ʰ)ja/
 1814	വാങ്ങുക	to receive, buy	/ʋaːŋŋuɡɐ/
-1815	ടാക്സ്	tax	
+1815	ടാക്സ്	tax	/ʈaːksɨ/
 1816	കീഴ്	below	/kiːɻɨ/
 1817	ബലൂൺ	balloon	/bɐluːɳ/
 1818	അത്യാഹിതം	causality	/ɐt̪jaːhid̪ɐm/
 1819	ഐക്യം	unity	/ai̯kjɐm/
 1820	ഓം	om; ॐ	/oːm/
 1821	തരി	a grain; a particle; a tiny piece	/t̪ɐɾi/
-1822	സമ്മർദ്ദം	coercion, compulsion	
+1822	സമ്മർദ്ദം	coercion, compulsion	/sɐmmɐrd̪d̪ɐm/
 1823	പകർത്തുക	to spread manually	/pɐɡɐrt̪t̪uɡɐ/
 1824	കയറുക	to climb	/kɐjɐruɡɐ/
 1825	സ്ഥാപനം	institution	/st̪(ʰ)aːbɐnɐm/
 1826	ഉന്നത	top	/un.nɐ.d̪ɐ/
-1827	വിരോധം	hostility	
+1827	വിരോധം	hostility	/ʋiɾoːd̪ʱɐm/
 1828	പരിഗണന	consideration	/pɐɾiɡɐɳɐnɐ/
 1829	അമ്പത്	fifty	/ɐmpɐd̪ɨ/
 1830	സാബത്ത്	Sabbath	/saːbɐt̪t̪ɨ/
@@ -1835,7 +1835,7 @@ rank	word	english	ipa
 1834	പതിമൂന്ന്	thirteen	/pɐd̪imuːn̪n̪ɨ/
 1835	ശരത്	autumn	/ʃɐɾɐd̪ɨ/
 1836	പൂജ	puja, pooja; a religious ritual performed in South Asia as…	/puːd͡ʒɐ/
-1837	സമൃദ്ധി	prosperity	
+1837	സമൃദ്ധി	prosperity	/sɐmɾd̪d̪ʱi/
 1838	ഭൂരിപക്ഷം	majority	/b(ʱ)uːɾibɐkʂɐm/
 1839	പാശ്ചാത്യ	western	/paːʃt͡ʃaːt̪jɐ/
 1840	സോഷ്യലിസം	socialism	/soːʂjɐlisɐm/
@@ -1859,12 +1859,12 @@ rank	word	english	ipa
 1858	ഇസ്ലാം	Islam	/islaːm/
 1859	സൃഷ്ടി	creation	/srɨʂʈi/
 1860	ധിക്കാരം	reproach	/d̪(ʱ)ikkaːɾɐm/
-1861	വ്യായാമം	physical exercise	
+1861	വ്യായാമം	physical exercise	/ʋjaːjaːmɐm/
 1862	ആഘാതം	impact	/äːɡʱäːd̪ɐm/
 1863	വാൽ	tail	/ʋaːl/
 1864	അടിക്കുക	to beat	/ɐɖikkjuɡɐ/
 1865	ഉടമ	owner	/uɖɐmɐ/
-1866	ആട്	goat	
+1866	ആട്	goat	/aːʈɨ/
 1867	അടുത്തിടെ	recently	/ɐɖut̪t̪iɖe/
 1868	തട്ട്	tap, hit	/t̪ɐʈʈɨ/
 1869	വെടിമരുന്ന്	gunpowder	/ʋeɖimɐɾun̪n̪ɨ/
@@ -1875,7 +1875,7 @@ rank	word	english	ipa
 1874	തിരഞ്ഞെടുപ്പ്	election	/t̪iɾaɲːeɖupːə/
 1875	ലേലം	auction	/leːlɐm/
 1876	തുറക്കുക	to open	/t̪urɐkkuɡɐ/
-1877	സാഹസം	adventure	
+1877	സാഹസം	adventure	/saːhɐsɐm/
 1878	പ്രശസ്ത	famous, well-known	/prɐʃɐst̪ɐ/
 1879	ഡസൻ	dozen	/ɖäsɐn/
 1880	തിര	wave, billow	/t̪iɾɐ/
@@ -1886,7 +1886,7 @@ rank	word	english	ipa
 1885	അടിയന്തര	urgent	/ɐɖijɐn̪t̪ɐɾɐ/
 1886	ആണി	nail, spike-shaped metal fastener	/aːɳi/
 1887	കെമിസ്ട്രി	chemistry	/kemisʈri/
-1888	ആൺ	alternative form of ആണ്	
+1888	ആൺ	alternative form of ആണ്	/aːɳ/
 1889	ചുറ്റിക	hammer	/t͡ʃurriɡɐ/
 1890	തടവുപുള്ളി	prisoner	/t̪ɐɖɐʋubuɭɭi/
 1891	തേ	tea	/t̪eː/
@@ -1898,17 +1898,17 @@ rank	word	english	ipa
 1897	അവധിക്കാലം	holidays; vacation	/aʋad̪(ʱ)ikːaːlam/
 1898	വാട്ടർ	water	/ʋäːʈːɐr/
 1899	മതിൽ	fence wall	/mɐd̪il/
-1900	അനുശോചനം	condolences	
+1900	അനുശോചനം	condolences	/ɐnuʃoːt͡ʃɐnɐm/
 1901	നിഴൽ	shadow; A dark image cast upon a surface by a body blocking…	/n̪iɻɐl/
 1902	ചോദിക്കുക	to ask	/t͡ʃoːd̪ikkjuɡɐ/
 1903	നിശ്ചയം	surety	/n̪iʃt͡ʃɐjɐm/
-1904	തൊട്ടടുത്ത	adjacent; very next	
+1904	തൊട്ടടുത്ത	adjacent; very next	/t̪oʈʈɐʈut̪t̪ɐ/
 1905	കിരീടം	crown	/kiɾiːɖɐm/
 1906	സിവിൽ	civil	/siʋil/
 1907	ചോയ്സ്	choice	/t͡ʃoːjsɨ̆/
 1908	മിടുക്കൻ	smart man	/miɖukkɐn/
 1909	വലിക്കുക	to pull	/ʋɐlikkjuɡɐ/
-1910	ബ്രെഡ്	bread	
+1910	ബ്രെഡ്	bread	/bɾeɖɨ/
 1911	കള്ളത്തരം	fraud; artifice	/kɐɭɭɐt̪t̪ɐɾɐm/
 1912	മറു	other; opposite	/mɐru/
 1913	മാറ്റുക	to switch	/maːrruɡɐ/
@@ -1920,10 +1920,10 @@ rank	word	english	ipa
 1919	ലോഹം	metal, material which when polished shows lustrous…	/loːhɐm/
 1920	തൂക്കം	weight	/t̪uːkkɐm/
 1921	നനഞ്ഞ	wet	/n̪ɐnɐɲɲɐ/
-1922	ഭരണകൂടം	government	
+1922	ഭരണകൂടം	government	/bʱɐɾɐɳɐkuːʈɐm/
 1923	കുട്ടിക്കാലം	childhood days	/kuʈʈikkaːlɐm/
 1924	ആവുക	alternative form of ആകുക	/aːʋuɡɐ/
-1925	ഫ്രിഡ്ജ്	fridge; refrigerator	
+1925	ഫ്രിഡ്ജ്	fridge; refrigerator	/pʰɾiɖd͡ʒɨ/
 1926	കഴുക്	vulture	/kɐɻuɡɨ/
 1927	കള്ളൻ	thief	/kɐɭɭɐn/
 1928	അതിശയം	surprising	/ɐd̪iʃɐjɐm/
@@ -1932,45 +1932,45 @@ rank	word	english	ipa
 1931	ജലദോഷം	common cold	/d͡ʒɐlɐd̪oːʂɐm/
 1932	മന്ത്രവാദം	witchcraft	/mɐn̪t̪rɐʋaːd̪ɐm/
 1933	വെട്ട്	cut	/ʋeʈʈɨ/
-1934	സ്ഫോടനം	explosion	
+1934	സ്ഫോടനം	explosion	/spʰoːʈɐnɐm/
 1935	പ്രായശ്ചിത്തം	atonement	/praːjaʃt͡ʃit̪ːam/
 1936	ഗംഭീരമായ	majestic; magnificent	/ɡambʱiːɾamaːja/
 1937	വിറക്	firewood	/ʋirɐɡɨ/
 1938	അന്തരീക്ഷ	pertaining to atmosphere	/än̪t̪ɐɾikʂɐ/
 1939	വെട്ടം	light	/ʋeʈʈɐm/
 1940	പലതരം	several	/pɐlɐd̪ɐɾɐm/
-1941	തള്ളവിരൽ	thumb	
+1941	തള്ളവിരൽ	thumb	/t̪ɐɭɭɐʋiɾɐl/
 1942	കിടു	awesome; superb; excellent	/kiɖu/
 1943	സ്രാവ്	shark, a predatory fish	/sraːʋɨ/
 1944	പരിസ്ഥിതി	environment; natural world or ecosystem	/pɐɾist̪(ʰ)id̪i/
 1945	അമ്പലം	temple	/ɐmpɐlɐm/
 1946	പടിഞ്ഞാറൻ	western	/paɖiɲɲaːran/
 1947	ഗവണ്മെന്റ്	government	/ɡɐʋɐɳmen̪rɨ/
-1948	പാദം	foot	
-1949	നയം	policy	
+1948	പാദം	foot	/paːd̪ɐm/
+1949	നയം	policy	/nɐjɐm/
 1950	മടി	laziness	/mɐɖi/
 1951	തുടങ്ങുക	to begin; start	/t̪uɖɐŋŋuɡɐ/
 1952	തോട്	shell	/t̪oːɖɨ/
 1953	ഉച്ചാരണം	pronunciation	/ut͡ʃt͡ʃaːɾɐɳɐm/
 1954	ജീവപര്യന്തം	life sentence	/d͡ʒiːʋɐbɐɾjɐn̪t̪ɐm/
-1955	പ്രതീകം	symbol	
+1955	പ്രതീകം	symbol	/pɾɐt̪iːkɐm/
 1956	രണ്ടുതവണ	twice	/ɾɐɳɖud̪ɐʋɐɳɐ/
 1957	ചാട്ടം	jumping	/t͡ʃaːʈʈɐm/
 1958	അമിതമായി	excessively	/ɐmid̪ɐmaːji/
 1959	ഇടുക	to drop something down, to put	/iɖuɡɐ/
-1960	ഭരണഘടന	constitution	
-1961	മത്സ്യ	Adjective version of മത്സ്യം	
+1960	ഭരണഘടന	constitution	/bʱɐɾɐɳɐɡʱɐʈɐnɐ/
+1961	മത്സ്യ	Adjective version of മത്സ്യം	/mɐt̪sjɐ/
 1962	ഫോർക്ക്	fork	/foːrkːɨ̆/
 1963	ഏറ്റം	ascent, rise, high-tide, prop for a climbing plant,…	/eːrrɐm/
-1964	ടോ	Shortened version of എടോ	
+1964	ടോ	Shortened version of എടോ	/ʈoː/
 1965	സിമന്റ്	cement	/simandɨ̆/
 1966	വികൃതി	naughty; misbehavior	/ʋikrɨd̪i/
-1967	നട്ടെല്ല്	back bone	
+1967	നട്ടെല്ല്	back bone	/nɐʈʈellɨ/
 1968	ഇട	time	/iɖɐ/
 1969	യുക്തി	logic; reasoning, rationale	/jukt̪i/
 1970	പച്ചപ്പ്	greenery	/pɐt͡ʃt͡ʃɐppɨ/
 1971	പക	vengeance	/paɡa/
-1972	സന്യാസി	alternative spelling of സന്ന്യാസി	
+1972	സന്യാസി	alternative spelling of സന്ന്യാസി	/sɐnjaːsi/
 1973	തിളക്കം	shine; glowiness	/t̪iɭɐkkɐm/
 1974	ക്രൂരത	cruelty	/kruːɾɐd̪ɐ/
 1975	പുകയില	tobacco, Nicotiana tabacum, the leaves of which are used in…	/puɡɐjilɐ/
@@ -1991,13 +1991,13 @@ rank	word	english	ipa
 1990	വേലക്കാരി	female servant, maid	/ʋeːlɐkkaːɾi/
 1991	പ്രക്രിയ	process	/prɐkrijɐ/
 1992	അസ്വസ്ഥത	discomfort	/äsʋɐst̪t̪ʰɐd̪ä/
-1993	തലയണ	pillow	
+1993	തലയണ	pillow	/t̪ɐlɐjɐɳɐ/
 1994	വടക്കൻ	northern; characteristic of the North	/ʋɐɖɐkkɐn/
 1995	വയസ്സൻ	elderly man, old man	/ʋɐjɐssɐn/
 1996	സെമിത്തേരി	cemetery	/semit̪t̪eːɾi/
 1997	അനാവശ്യമായ	unnecessary	/ɐnaːʋɐʃjɐmaːjɐ/
 1998	അംഗം	member; an individual	/ɐŋɡɐm/
-1999	ക്രമീകരണം	setting	
+1999	ക്രമീകരണം	setting	/kɾɐmiːkɐɾɐɳɐm/
 2000	ഘടന	structure of an assembly	/ɡ(ʱ)ɐɖɐnɐ/
 2001	സാമാനം	stuff	/saːmaːnɐm/
 2002	ശവകുടീരം	tomb	/ʃaʋaɡuɖiːɾam/
@@ -2016,7 +2016,7 @@ rank	word	english	ipa
 2015	അറബി	Arabic, Arab	/ɐrɐbi/
 2016	ഹോസ്പിറ്റൽ	hospital	/hoːspitel/
 2017	അടിത്തറ	foundation of a building	/ɐɖit̪t̪ɐrɐ/
-2018	പിഴവ്	fault	
+2018	പിഴവ്	fault	/piɻɐʋɨ/
 2019	കൂണ്	alternative form of കൂൺ	/kuːɳɨ/
 2020	ലോറി	lorry, truck	/loːri/
 2021	കാമുകൻ	a male lover	/käːmuɡɐn/
@@ -2031,7 +2031,7 @@ rank	word	english	ipa
 2030	കൂത്തിച്ചി	prostitute	/kuːt̪t̪it͡ʃt͡ʃi/
 2031	മിച്ചം	remainder	/mit͡ʃt͡ʃɐm/
 2032	നീങ്ങുക	to move	/n̪iːŋŋuɡɐ/
-2033	തിരഞ്ഞെടുത്ത	selected	
+2033	തിരഞ്ഞെടുത്ത	selected	/t̪iɾɐɲɲeʈut̪t̪ɐ/
 2034	ചന്ത	market	/t͡ʃɐn̪t̪ɐ/
 2035	എന്നാലേ	only if	/en̪n̪aːleː/
 2036	ഭിക്ഷ	beggary	/b(ʱ)ikʂɐ/
@@ -2046,15 +2046,15 @@ rank	word	english	ipa
 2045	പട്ടം	kite	/pɐʈʈɐm/
 2046	പട്ടാളക്കാരൻ	soldier	/paʈʈaːɭakkaːɾan/
 2047	ബ്രഷ്	brush	/bräʂɨ̆/
-2048	മുത്തശ്ശൻ	grandfather	
+2048	മുത്തശ്ശൻ	grandfather	/mut̪t̪ɐʃʃɐn/
 2049	ലളിതമായി	simply; in a simple manner	/lɐɭid̪ɐmaːji/
 2050	ഉഗ്രൻ	great	/uɡɾɐn/
 2051	കട്ടി	thick	/kɐʈʈi/
 2052	ഇഷ്ടിക	brick	/iʂʈiɡɐ/
-2053	വ്യാപാരം	trade	
+2053	വ്യാപാരം	trade	/ʋjaːpaːɾɐm/
 2054	നിക്ഷേപം	investment	/n̪ikʂeːbɐm/
 2055	പ്രഥമ	first	/prɐt̪(ʰ)ɐmɐ/
-2056	മർദ്ദം	pressure	
+2056	മർദ്ദം	pressure	/mɐrd̪d̪ɐm/
 2057	തേനീച്ച	honey bee; Any of the small insects in the genus Apis that…	/t̪eːniːt͡ʃt͡ʃɐ/
 2058	കള്ള്	toddy, an alcoholic beverage made from the sap of certain…	/kɐɭːɨ̆/
 2059	എറിയുക	to throw	/erijuɡɐ/
@@ -2071,7 +2071,7 @@ rank	word	english	ipa
 2070	മുന്തിരി	grapevine; A woody vine in the genus Vitis that yields…	/mun̪t̪iɾi/
 2071	കശാപ്പ്	slaughter, butchery	/kɐʃaːppɨ/
 2072	സ്വമേധയാ	voluntarily; according to one's own will	/sʋämeːd̪ʱäjäː/
-2073	പ്രതിബിംബം	reflection	
+2073	പ്രതിബിംബം	reflection	/pɾɐt̪ibimbɐm/
 2074	വിശകലനം	analysis	/ʋiʃaɡalanam/
 2075	സുൽത്താൻ	A Muslim ruler, controller	/sult̪ːäːn/
 2076	ഒഴിവാക്കുക	to exclude, exempt	/oɻiʋäːkːuɡä/
@@ -2079,7 +2079,7 @@ rank	word	english	ipa
 2078	തുഴ	paddle, oar	/t̪uɻɐ/
 2079	പ്രാർത്ഥന	praise	/praːrt̪t̪(ʰ)ɐnɐ/
 2080	ശൈലി	style	/ʃɐi̯li/
-2081	നായ്	alternative form of നായ	
+2081	നായ്	alternative form of നായ	/naːjɨ/
 2082	പങ്കായം	oar, paddle	/pɐŋkaːjɐm/
 2083	വൃത്തികേട്	untidiness, clutter, dirty	/ʋrɨt̪t̪iɡeːɖɨ/
 2084	താരം	star	/t̪aːɾɐm/
@@ -2108,7 +2108,7 @@ rank	word	english	ipa
 2107	ദൃശ്യം	scene, tableau	/d̪r̩ʃjɐm/
 2108	കളിക്കുക	to play	/kɐɭikkjuɡɐ/
 2109	മീശ	moustache	/miːʃɐ/
-2110	സ്വകാര്യത	privacy	
+2110	സ്വകാര്യത	privacy	/sʋɐkaːɾjɐt̪ɐ/
 2111	ബംഗാളി	Bengali	/bɐŋɡaːɭi/
 2112	വലി	pulling	/ʋɐli/
 2113	സഞ്ചാരി	traveller, voyager	/sɐɲt͡ʃaːɾi/
@@ -2117,18 +2117,18 @@ rank	word	english	ipa
 2116	പിന്തുടരുക	To follow, go after, pursue	/pin̪t̪uɖɐɾuɡɐ/
 2117	ഗ്രാമ	relating to a village	/ɡɾaːmɐ/
 2118	വിവർത്തനം	translation	/ʋiʋɐrt̪t̪ɐnɐm/
-2119	വെയ്ക്കുക	alternative form of വെക്കുക	
-2120	ശുദ്ധജലം	fresh water	
+2119	വെയ്ക്കുക	alternative form of വെക്കുക	/ʋejkkukɐ/
+2120	ശുദ്ധജലം	fresh water	/ʃud̪d̪ʱɐd͡ʒɐlɐm/
 2121	പരമ്പരാഗത	traditional	/paɾampaɾaːɡat̪a/
 2122	പോള	thin sheet	/poːɭɐ/
-2123	സൗണ്ട്	sound	
+2123	സൗണ്ട്	sound	/sɐu̯ɳʈɨ/
 2124	അനുവദിക്കുക	to allow	/ɐnuʋɐd̪ikkjuɡɐ/
 2125	തിന്മ	evil; moral badness	/t̪inmɐ/
 2126	മുഷിഞ്ഞ	dull	/muʂiɲɲɐ/
 2127	പോരാടുക	to fight	/poːɾaːɖuɡɐ/
 2128	ട്യൂബ്	tube	/ʈjuːbɨ/
 2129	മാറുക	to replace	/maːruɡɐ/
-2130	ചുമര്	alternative form of ചുവര്	
+2130	ചുമര്	alternative form of ചുവര്	/t͡ʃumɐɾɨ/
 2131	വരുത്തുക	to cause to come	/ʋɐɾut̪t̪uɡɐ/
 2132	ഉത്തമം	ideal	/ut̪t̪ɐmɐm/
 2133	ജപമാല	rosery	/d͡ʒɐbɐmaːlɐ/
@@ -2159,7 +2159,7 @@ rank	word	english	ipa
 2158	പൊരുതുക	to fight	/poɾud̪uɡɐ/
 2159	തീവ്രവാദി	extremist	/t̪iːʋrɐʋaːd̪i/
 2160	പതിനേഴ്	seventeen	/pɐd̪ineːɻɨ/
-2161	സഹാറ	Sahara	
+2161	സഹാറ	Sahara	/sɐhaːrɐ/
 2162	അഗ്നി	fire	/ɐɡni/
 2163	ചെരുപ്പ്	chappal, sandal	/t͡ʃeɾuppɨ/
 2164	തിരിച്ചറിയുക	to identify	/t̪iɾit͡ʃt͡ʃɐrijuɡɐ/
@@ -2167,8 +2167,8 @@ rank	word	english	ipa
 2166	കമ്പിളി	wool	/kɐmpiɭi/
 2167	പരവതാനി	carpet	/pɐɾɐʋɐd̪aːni/
 2168	പാലിക്കുക	to follow; abide by	/paːlikkjuɡɐ/
-2169	തിരിച്ചറിയൽ	identification	
-2170	ഭയാനകം	horrible, scary	
+2169	തിരിച്ചറിയൽ	identification	/t̪iɾit͡ʃt͡ʃɐrijɐl/
+2170	ഭയാനകം	horrible, scary	/bʱɐjaːnɐkɐm/
 2171	വെയിൽ	sunlight, sunshine	/ʋejil/
 2172	കയറ്റം	ascent; climb	/kɐjɐrrɐm/
 2173	ശുക്ലം	semen	/ʃukɭɐm/
@@ -2177,23 +2177,23 @@ rank	word	english	ipa
 2176	മുഴു	full, complete, perfect	/muɻu/
 2177	വളവ്	curve	/ʋɐɭɐʋɨ/
 2178	ഭവതി	you	/b(ʱ)ɐʋɐd̪i/
-2179	സാഹസിക	adventure; adventurous	
+2179	സാഹസിക	adventure; adventurous	/saːhɐsikɐ/
 2180	ഒഴിവ്	vacancy	/oɻiʋɨ/
 2181	സഞ്ചാരം	journey, travel, tour	/sɐɲt͡ʃaːɾɐm/
 2182	തിരമാല	wave	/t̪iɾɐmaːlɐ/
 2183	തറ	floor	/t̪ɐrɐ/
 2184	പിച്ച	beggary	/pit͡ʃt͡ʃɐ/
-2185	വ്യവസായ	industrial	
+2185	വ്യവസായ	industrial	/ʋjɐʋɐsaːjɐ/
 2186	ഉചിതം	proper; appropriate; suitable; best for the situation	/ud͡ʒid̪ɐm/
 2187	പെരും	big, massive, heavy	/peɾum/
-2188	മന്ത്രാലയം	ministry	
+2188	മന്ത്രാലയം	ministry	/mɐnt̪ɾaːlɐjɐm/
 2189	കന്യക	girl	/kɐnjɐɡɐ/
 2190	അവതരണം	presentation	/aʋad̪aɾaɳam/
 2191	ടെലിവിഷൻ	television	/ʈeliʋiʂɐn/
 2192	ശ്രദ്ധേയമായ	notable	/ʃrɐd̪d̪(ʱ)eːjɐmaːjɐ/
-2193	സന്തതി	offspring	
+2193	സന്തതി	offspring	/sɐnt̪ɐt̪i/
 2194	ഉഷ്ണമേഖല	torrid zone	/uʂɳɐmeːk(ʰ)ɐlɐ/
-2195	വർത്തമാനം	communication, conversation	
+2195	വർത്തമാനം	communication, conversation	/ʋɐrt̪t̪ɐmaːnɐm/
 2196	തുണ്ടം	piece, bit, slice	/t̪uɳɖɐm/
 2197	കണ്ണീര്	tears	/kɐɳɳiːɾɨ/
 2198	ഗവേഷണം	research	/ɡɐʋeːʂɐɳɐm/
@@ -2219,11 +2219,11 @@ rank	word	english	ipa
 2218	അടിവസ്ത്രം	underwear	/ɐɖiʋɐst̪rɐm/
 2219	പ്രവണത	tendency	/prɐʋɐɳɐd̪ɐ/
 2220	നേർ	truth	/n̪eːr/
-2221	നിരീക്ഷണം	observation	
+2221	നിരീക്ഷണം	observation	/niɾiːkʂɐɳɐm/
 2222	പ്രതിസന്ധി	crisis	/prɐd̪isɐn̪d̪(ʱ)i/
-2223	താൽപര്യം	alternative spelling of താൽപ്പര്യം	
+2223	താൽപര്യം	alternative spelling of താൽപ്പര്യം	/t̪aːlpɐɾjɐm/
 2224	വീഴുക	to fall	/ʋiːɻuɡɐ/
-2225	നിർബന്ധം	mandatory; compulsory	
+2225	നിർബന്ധം	mandatory; compulsory	/nirbɐnd̪ʱɐm/
 2226	ധനം	wealth	/d̪(ʱ)ɐnɐm/
 2227	രാജ	king	/ɾaːd͡ʒɐ/
 2228	വചനം	word	/ʋɐd͡ʒɐnɐm/
@@ -2240,7 +2240,7 @@ rank	word	english	ipa
 2239	സമീപം	near	/sɐmiːbɐm/
 2240	ബദാം	almond	/bɐd̪aːm/
 2241	ഖനി	mine; an excavation from which ores and minerals are…	/k(ʰ)ɐni/
-2242	വേട്ടക്കാരൻ	hunter	
+2242	വേട്ടക്കാരൻ	hunter	/ʋeːʈʈɐkkaːɾɐn/
 2243	മടുപ്പ്	tiredness	/mɐɖuppɨ/
 2244	കനമുള്ള	heavy	/kɐnɐmuɭɭɐ/
 2245	പുണ്യം	pure	/puɳjɐm/
@@ -2249,7 +2249,7 @@ rank	word	english	ipa
 2248	വളയം	ring	/ʋɐɭɐjɐm/
 2249	ക്ഷയം	tuberculosis disease	/kʂɐjɐm/
 2250	പ്രസക്തി	relevance	/prasakt̪i/
-2251	കക്ഷം	armpit	
+2251	കക്ഷം	armpit	/kɐkʂɐm/
 2252	കിഴങ്ങ്	tuber, the fleshy, thickened underground stem of a plant,…	/kiɻɐŋːɨ̆/
 2253	കണ്ണി	link of a chain; unit component	/kɐɳɳi/
 2254	കിട	equality; match	/kiɖɐ/
@@ -2260,7 +2260,7 @@ rank	word	english	ipa
 2259	ബാ	northern dialectal form of വാ	/baː/
 2260	സമത്വം	equality	/sɐmɐt̪ʋɐm/
 2261	കളങ്കം	taint; stain	/kɐɭɐŋkɐm/
-2262	മുദ്രാവാക്യം	slogan	
+2262	മുദ്രാവാക്യം	slogan	/mud̪ɾaːʋaːkjɐm/
 2263	വിസ്താരം	extent; coverage	/ʋist̪aːɾɐm/
 2264	ഉണക്ക	dry	/uɳɐkkɐ/
 2265	പതനം	downfall	/pɐd̪ɐnɐm/
@@ -2269,23 +2269,23 @@ rank	word	english	ipa
 2268	വന്ദനം	greetings	/ʋɐn̪d̪ɐnɐm/
 2269	പൊങ്ങച്ചം	boasting	/poŋŋɐt͡ʃt͡ʃɐm/
 2270	വിശിഷ്ട	distinguished; special	/ʋiʃiʂʈɐ/
-2271	കൊള്ളക്കാരൻ	male robber	
+2271	കൊള്ളക്കാരൻ	male robber	/koɭɭɐkkaːɾɐn/
 2272	സൗജന്യമായി	for free	/säud͡ʒɐnjämäːji/
 2273	കരം	tax	/kɐɾɐm/
 2274	തിരഞ്ഞെടുക്കുക	To elect	/t̪iɾɐɲɲeɖukkuɡɐ/
 2275	വയലറ്റ്	violet	/ʋɐjɐlɐrrɨ/
 2276	പരുപരുത്ത	rough,uneven, coarse, rugged	/pɐɾubɐɾut̪t̪ɐ/
 2277	ബൈബിൾ	The Bible	/bɐi̯biɭɐ/
-2278	ശ്ലോകം	stanza, verse	
+2278	ശ്ലോകം	stanza, verse	/ʃloːkɐm/
 2279	കൂതറ	a thug	/kuːd̪ɐrɐ/
 2280	സാരി	sari	/saːɾi/
-2281	മോഹം	desire	
+2281	മോഹം	desire	/moːhɐm/
 2282	ഉണ്ടാകുക	to come into existence	/uɳɖaːɡukɐ/
 2283	കണ്ടുപിടിക്കുക	to invent	/käɳʈubiɖikʲːuɡä/
 2284	ദക്ഷിണ	southern	/d̪ɐkʂiɳɐ/
-2285	പ്രസ്ഥാനം	movement	
+2285	പ്രസ്ഥാനം	movement	/pɾɐst̪ʰaːnɐm/
 2286	ഈവ്	donation, gift	/iːʋɨ/
-2287	സന്ധ്യ	twilight	
+2287	സന്ധ്യ	twilight	/sɐnd̪ʱjɐ/
 2288	ആവശ്യകത	necessity; the need	/aːʋɐʃjɐɡɐd̪ɐ/
 2289	വിരുദ്ധ	anti	/ʋiɾud̪d̪(ʱ)ɐ/
 2290	ഒത്ത	matching	/ot̪ːä/
@@ -2300,11 +2300,11 @@ rank	word	english	ipa
 2299	അനാവശ്യ	unnecessary	/ɐnaːʋɐʃjɐ/
 2300	ഏമ്പക്കം	belch, burp	/eːmpɐkkɐm/
 2301	തൂവൽ	feather; branching epidermal outgrowths covering the body…	/t̪uːʋɐl/
-2302	വിനയം	humility	
+2302	വിനയം	humility	/ʋinɐjɐm/
 2303	വീക്ഷണം	view	/ʋiːkʂaɳam/
 2304	ആരാധന	worship	/äːɾäːdʱɐnä/
-2305	വീതിയുള്ള	width having	
-2306	നൂറ്റാണ്ട്	century	
+2305	വീതിയുള്ള	width having	/ʋiːt̪ijuɭɭɐ/
+2306	നൂറ്റാണ്ട്	century	/nuːrraːɳʈɨ/
 2307	പൂർണ	finished	/puːrɳɐ/
 2308	പ്രസിദ്ധ	famous	/prɐsid̪d̪(ʱ)ɐ/
 2309	ശോഭ	grace, beauty, brightness	/ʃoːb(ʱ)ɐ/
@@ -2320,7 +2320,7 @@ rank	word	english	ipa
 2319	വഴികാട്ടി	guide	/ʋɐɻiɡaːʈʈi/
 2320	തത്ത	parrot, colorful birds of the order Psittaciformes with…	/t̪ɐt̪ːɐ/
 2321	ചക്കര	palm sugar; jaggery	/t͡ʃɐkkɐɾɐ/
-2322	പാളി	layer	
+2322	പാളി	layer	/paːɭi/
 2323	നശിപ്പിക്കുക	ruin	/n̪ɐʃippikkjuɡɐ/
 2324	ഉത്തര	northern	/ut̪t̪ɐɾɐ/
 2325	ധാരണം	wearing	/d̪(ʱ)aːɾɐɳɐm/
@@ -2333,7 +2333,7 @@ rank	word	english	ipa
 2332	രോഷം	wrath, anger, fury	/ɾoːʂam/
 2333	കടത്ത്	ferrying, ferry, transporting, jetty	/kɐɖɐt̪t̪ɨ/
 2334	പത്തുലക്ഷം	ten lakhs, million	/pɐt̪t̪ulɐkʂɐm/
-2335	ദേവത	angel	
+2335	ദേവത	angel	/d̪eːʋɐt̪ɐ/
 2336	യൂണിവേഴ്സിറ്റി	university	/juːɳiʋeːɻsitːi/
 2337	ബീഡി	beedi	/biːɖi/
 2338	ഓളം	current	/oːɭɐm/
@@ -2342,7 +2342,7 @@ rank	word	english	ipa
 2341	കൊട്ട്	tap, hit	/koʈʈɨ/
 2342	ഭീമൻ	giant	/b(ʱ)iːmɐn/
 2343	കുടം	pot	/kuɖɐm/
-2344	ശൈത്യം	winter	
+2344	ശൈത്യം	winter	/ʃɐi̯t̪jɐm/
 2345	പതിനെട്ട്	eighteen	/pɐd̪ineʈʈɨ/
 2346	എവിടം	where	/eʋiɖɐm/
 2347	ഉത്തമ	best	/ut̪ːɐmä/
@@ -2359,14 +2359,14 @@ rank	word	english	ipa
 2358	ക്രിസ്ത്യൻ	christian	/krist̪jɐn/
 2359	പ്രവേഗം	velocity	/prɐʋeːɡɐm/
 2360	അണ്ടി	nut	/ɐɳɖi/
-2361	പ്രയോഗം	application	
+2361	പ്രയോഗം	application	/pɾɐjoːɡɐm/
 2362	തൊണ്ണൂറ്	ninety	/t̪oɳɳuːrɨ/
 2363	കാലുറ	socks	/käːlurä/
 2364	അദ്ഭുതം	supernatural, unexpected, shocking	/ɐd̪b(ʱ)ud̪ɐm/
 2365	വിദ്യാഭ്യാസ	academic	/ʋid̪jaːb(ʱ)jaːsɐ/
 2366	സൈനികൻ	soldier	/sɐi̯niɡɐn/
 2367	കൂദാശ	sacrament	/kuːd̪aːʃɐ/
-2368	പരിഭ്രാന്തി	panic, consternation	
+2368	പരിഭ്രാന്തി	panic, consternation	/pɐɾibʱɾaːnt̪i/
 2369	ചോക്ക്	chalk used for writing on blackboard	/t͡ʃoːkːɨ̆/
 2370	പ്രതിമ	statue	/prɐd̪imɐ/
 2371	ഹെൽപ്പ്	help	/helpːɨ̆/
@@ -2375,7 +2375,7 @@ rank	word	english	ipa
 2374	വിനിമയം	exchange; barter	/ʋinimɐjɐm/
 2375	പഴുത്ത	ripe	/pɐɻut̪t̪ɐ/
 2376	ദ്രാവകം	liquid	/d̪ɾaːʋɐɡɐm/
-2377	സ്വീകരണം	reception, welcoming	
+2377	സ്വീകരണം	reception, welcoming	/sʋiːkɐɾɐɳɐm/
 2378	പുതുമ	newness	/pud̪umɐ/
 2379	ഉത്കണ്ഠ	worry; anxiety; concern	/ulkaɳʈʰa/
 2380	ചലച്ചിത്രം	movie	/t͡ʃɐlɐt͡ʃt͡ʃit̪rɐm/
@@ -2383,29 +2383,29 @@ rank	word	english	ipa
 2382	ഉരുക്ക്	steel	/uɾukkɨ/
 2383	മൂല	source	/muːlɐ/
 2384	തീരുമാനിക്കുക	to decide a plan, course, decision, etc	/t̪iːɾumaːnikkjuɡɐ/
-2385	സജീവമായ	active	
-2386	ശിഷ്യൻ	student	
+2385	സജീവമായ	active	/sɐd͡ʒiːʋɐmaːjɐ/
+2386	ശിഷ്യൻ	student	/ʃiʂjɐn/
 2387	അനവധി	numerous	/ɐnɐʋɐd̪(ʱ)i/
 2388	മൂല്യമുള്ള	valuable	/muːljɐmuɭɭɐ/
 2389	മൂഞ്ചി	fuck up	/muːɲt͡ʃi/
 2390	കൊള്ളുക	to fit something inside of	/koɭɭuɡɐ/
-2391	മൂർച്ച	sharpness	
-2392	ഇപ്പൊൾ	archaic form of ഇപ്പോൾ	
+2391	മൂർച്ച	sharpness	/muːrt͡ʃt͡ʃɐ/
+2392	ഇപ്പൊൾ	archaic form of ഇപ്പോൾ	/ippoɭ/
 2393	ദോഷം	fault, bad	/d̪oːʂɐm/
 2394	തലക്കെട്ട്	title	/t̪ɐlɐkkeʈʈɨ/
 2395	തലേന്ന്	the previous day; preceding day	/t̪ɐleːn̪n̪ɨ/
 2396	മേൽക്കൂര	roof	/meːlkkuːɾɐ/
-2397	ഉപദ്രവം	harm, causing damage, torture	
+2397	ഉപദ്രവം	harm, causing damage, torture	/upɐd̪ɾɐʋɐm/
 2398	രാജ്യദ്രോഹം	sedition	/ɾaːd͡ʒjɐd̪ɾoːhɐm/
 2399	സമ്മേളനം	conference	/sɐmmeːɭɐnɐm/
-2400	മട്ട്	sediment	
+2400	മട്ട്	sediment	/mɐʈʈɨ/
 2401	രാഷ്ട്രം	realm	/ɾaːʂʈrɐm/
 2402	നിലാവ്	moonlight	/n̪ilaːʋɨ/
 2403	നീന്തൽ	swimming	/n̪iːn̪d̪al/
 2404	അച്ചടക്ക	disciplinary; pertaining to discipline	/ɐt͡ʃt͡ʃɐɖɐkkɐ/
 2405	മാവ്	mango tree	/maːʋɨ̆/
 2406	തോന്നുക	to feel	/t̪oːn̪n̪uɡɐ/
-2407	പരിചരണം	care	
+2407	പരിചരണം	care	/pɐɾit͡ʃɐɾɐɳɐm/
 2408	പതിനാറ്	sixteen	/pɐd̪inaːrɨ/
 2409	ഹൃദയാഘാതം	heart attack	/hr̩d̪ɐjäːɡʱäːd̪ɐm/
 2410	ബലൂണ്	balloon	/bɐluːɳɨ̆/
@@ -2419,15 +2419,15 @@ rank	word	english	ipa
 2418	ഇരുപത്തഞ്ച്	alternative form of ഇരുപത്തിയഞ്ച്	/iɾubɐt̪t̪ɐɲt͡ʃɨ/
 2419	നങ്കൂരം	anchor	/n̪ɐŋkuːɾɐm/
 2420	ദൃഷ്ടി	view	/d̪rɨʂʈi/
-2421	ശിരസ്സ്	head	
+2421	ശിരസ്സ്	head	/ʃiɾɐssɨ/
 2422	അത്യാഗ്രഹം	greed	/ɐt̪jaːɡɾɐhɐm/
 2423	ചാല്	channel, canal, watercourse	/t͡ʃaːlɨ/
 2424	തായ്	Thai	/t̪aːjɨ/
 2425	അണപ്പല്ല്	molar	/ɐɳɐppɐllɨ/
 2426	ഓട്ട	alternative form of ഊട്ട	/oːʈʈɐ/
-2427	ജാലവിദ്യ	magic	
+2427	ജാലവിദ്യ	magic	/d͡ʒaːlɐʋid̪jɐ/
 2428	തകർക്കുക	to destroy	/t̪aɡarkkuɡa/
-2429	ഔദാര്യം	generosity	
+2429	ഔദാര്യം	generosity	/ɐu̯d̪aːɾjɐm/
 2430	ജൈവ	relating to life; living	/d͡ʒɐi̯ʋɐ/
 2431	മുളക്	chili pepper, varieties of berry-fruit plants from the…	/muɭɐɡɨ/
 2432	വളർച്ച	growth	/ʋɐɭɐrt͡ʃt͡ʃɐ/
@@ -2435,22 +2435,22 @@ rank	word	english	ipa
 2434	തിരി	wick of a candle or a lamp	/t̪iɾi/
 2435	അലവലാതി	tramp, beggar, person in tattered clothes, loafer	/ɐlɐʋɐlaːd̪i/
 2436	കുരങ്ങ്	monkey	/kuɾɐŋŋɨ/
-2437	ചരട്	thread	
+2437	ചരട്	thread	/t͡ʃɐɾɐʈɨ/
 2438	വിലങ്ങ്	handcuff	/ʋilɐŋŋɨ/
 2439	ഭിത്തി	house wall	/b(ʱ)it̪t̪i/
 2440	തരുക	to give to the 1st or 2nd person	/t̪ɐɾuɡɐ/
 2441	നിഗൂഢത	mystery; secrecy, concealment	/n̪iɡuːɖ(ʱ)ɐd̪ɐ/
-2442	ഓഹരി	share	
+2442	ഓഹരി	share	/oːhɐɾi/
 2443	മിഥ്യ	unreal; imaginary	/mit̪(ʰ)jɐ/
 2444	കൊതി	strong desire	/kod̪i/
 2445	കവചം	shield, armor	/kɐʋɐd͡ʒɐm/
-2446	സ്വർഗ്ഗം	heaven	
+2446	സ്വർഗ്ഗം	heaven	/sʋɐrɡɡɐm/
 2447	പരട്ട	useless	/pɐɾɐʈʈɐ/
 2448	കൊന്ത	rosary	/kon̪t̪ɐ/
 2449	ആചാരം	ritual	/aːd͡ʒaːɾɐm/
 2450	മൈതാനം	alternative form of മൈദാനം	/mɐi̯d̪aːnɐm/
 2451	സങ്കീർണ്ണമായ	complicated	/sɐŋkiːrɳɳɐmaːjɐ/
-2452	ഭാഗ്യവാൻ	a blessed man, a lucky man, a fortunate man	
+2452	ഭാഗ്യവാൻ	a blessed man, a lucky man, a fortunate man	/bʱaːɡjɐʋaːn/
 2453	ഉത്സവം	festival	/ut̪sɐʋɐm/
 2454	കുളം	pond	/kuɭɐm/
 2455	എരിവ്	pungency of chilli, hot, spicy	/eɾiʋɨ/
@@ -2459,20 +2459,20 @@ rank	word	english	ipa
 2458	പുഴു	worm, any of the various tubular invertebrates in the phyla…	/puɻu/
 2459	കാട്ടുതീ	wildfire	/kaːʈʈud̪iː/
 2460	നൽകുക	to give	/n̪ɐlkuɡɐ/
-2461	പ്രവർത്തി	misspelling of പ്രവൃത്തി	
+2461	പ്രവർത്തി	misspelling of പ്രവൃത്തി	/pɾɐʋɐrt̪t̪i/
 2462	വാതകം	gas	/ʋaːd̪aɡam/
-2463	വിദ്വേഷം	hate	
+2463	വിദ്വേഷം	hate	/ʋid̪ʋeːʂɐm/
 2464	പ്രധാനമായി	importantly	/prɐd̪(ʱ)aːnɐmaːji/
 2465	ആറായിരം	six thousand	/aːraːjiɾɐm/
 2466	ആദി	beginning	/aːd̪i/
-2467	സ്വല്പം	a little	
+2467	സ്വല്പം	a little	/sʋɐlpɐm/
 2468	പാതിരി	Christian priest	/paːd̪iɾi/
 2469	ചെങ്കോല്	alternative spelling of ചെങ്കോൽ	/t͡ʃeŋkoːlə/
 2470	ചേരി	slum	/t͡ʃeːɾi/
 2471	പെരുമാറുക	to behave	/peɾumaːruɡɐ/
 2472	കരുതൽ	care, regard, providing, commitment	/kɐɾud̪ɐl/
-2473	കൊയ്	to reap, harvest, cut	
-2474	പരിണാമം	evolution	
+2473	കൊയ്	to reap, harvest, cut	/kojɨ/
+2474	പരിണാമം	evolution	/pɐɾiɳaːmɐm/
 2475	ചിറക്	wing	/t͡ʃirɐɡɨ/
 2476	പെൻസിൽ	pencil	/pensil/
 2477	ആരവം	cry, noise	/aːɾɐʋɐm/
@@ -2486,7 +2486,7 @@ rank	word	english	ipa
 2485	വള്ളി	vine, climber	/ʋɐɭɭi/
 2486	നരഹത്യ	homicide	/n̪ɐɾɐhɐt̪jɐ/
 2487	കേട്	defect	/keːɖɨ/
-2488	വിഭജനം	partition	
+2488	വിഭജനം	partition	/ʋibʱɐd͡ʒɐnɐm/
 2489	അങ്ങോട്	to there, at that place	/ɐŋŋoːɖɨ/
 2490	തന്ത	father	/t̪ɐn̪t̪ɐ/
 2491	മുൻവശം	front	/munʋɐʃɐm/
@@ -2497,7 +2497,7 @@ rank	word	english	ipa
 2496	കേമം	that which is superior, great, fine, excellent,…	/keːmɐm/
 2497	അറപ്പ്	disgust	/ɐrɐppə/
 2498	വൃക്ഷം	tree	/ʋrɨkʂɐm/
-2499	നിരൂപണം	review; critical evaluation	
+2499	നിരൂപണം	review; critical evaluation	/niɾuːpɐɳɐm/
 2500	നീക്കുക	to cause to move	/n̪iːkkuɡɐ/
 2501	പിടിത്തം	capture	/piɖit̪ːam/
 2502	കൂട്ടുകെട്ട്	friendship	/kuːʈːuɡeʈːɨ̆/
@@ -2510,12 +2510,12 @@ rank	word	english	ipa
 2509	ഒലിവ്	olive, Olea europaea, an evergreen tree native to the…	/oliʋɨ/
 2510	കൂടാരം	tent	/kuːɖaːɾam/
 2511	ഇടിവെട്ട്	lightning	/iɖiʋeʈʈɨ/
-2512	മദ്യപാനം	drinking of alcohol	
+2512	മദ്യപാനം	drinking of alcohol	/mɐd̪jɐpaːnɐm/
 2513	ഉടമസ്ഥൻ	owner	/uɖɐmɐst̪(ʰ)ɐn/
 2514	ബദൽ	alternative	/bɐd̪ɐl/
 2515	വിദ്യാർഥി	student	/ʋid̪jaːrt̪(ʰ)i/
 2516	ഉന്മാദം	hysteria	/unmaːd̪ɐm/
-2517	അലൂമിനിയം	misspelling of അലുമിനിയം	
+2517	അലൂമിനിയം	misspelling of അലുമിനിയം	/ɐluːminijɐm/
 2518	കൂമ്പാരം	heap	/kuːmpaːɾam/
 2519	കഠിനം	hard	/kɐʈ(ʰ)inɐm/
 2520	കരി	charcoal	/kɐɾi/
@@ -2527,13 +2527,13 @@ rank	word	english	ipa
 2526	അർദ്ധരാത്രി	midnight	/ärd̪d̪ʱɐɾäːt̪ɾi/
 2527	ദത്ത്	adoption	/d̪ɐt̪t̪ɨ/
 2528	കൃപ	grace, kindness, compassion	/kr̩ba/
-2529	ചുക്കാൻ	helm	
+2529	ചുക്കാൻ	helm	/t͡ʃukkaːn/
 2530	പൈശാചിക	satanic	/pɐi̯ʃaːd͡ʒiɡɐ/
 2531	പാനീയം	beverage	/paːniːjɐm/
-2532	സ്ത്രീധനം	dowry; payment by the bride's family to the groom	
-2533	സ്വതന്ത്രം	having freedom, free	
+2532	സ്ത്രീധനം	dowry; payment by the bride's family to the groom	/st̪ɾiːd̪ʱɐnɐm/
+2533	സ്വതന്ത്രം	having freedom, free	/sʋɐt̪ɐnt̪ɾɐm/
 2534	കാണ്ടാമൃഗം	rhinoceros; any of the large horned herbivorous ungulates…	/kaːɳɖaːmrɨɡɐm/
-2535	മുഖ്യം	chief	
+2535	മുഖ്യം	chief	/mukʰjɐm/
 2536	ചവുട്ടി	mat for wiping foot; welcome mat	/t͡ʃɐʋuʈʈi/
 2537	ക്രൈസ്തവ	Christian; relating to Christianity	/krɐi̯st̪ɐʋɐ/
 2538	മൂസ്	moose	/muːsɨ̆/
@@ -2548,17 +2548,17 @@ rank	word	english	ipa
 2547	കോമഡി	comedy	/koːmɐɖi/
 2548	വണ്ട്	beetle; Any member of the insect order Coleoptera,…	/ʋɐɳɖɨ/
 2549	നൗക	boat	/n̪ɐu̯kɐ/
-2550	പലചരക്ക്	grocery, general goods	
+2550	പലചരക്ക്	grocery, general goods	/pɐlɐt͡ʃɐɾɐkkɨ/
 2551	ഉജ്ജ്വലം	bright	/ud͡ʒd͡ʒʋɐlɐm/
 2552	അറിവില്ലായ്മ	unknowingness; knowledgelessness	/ɐriʋillaːjmɐ/
-2553	നിൻ	you	
+2553	നിൻ	you	/nin/
 2554	ചെറുക്കൻ	boy	/t͡ʃerukkɐn/
 2555	കൂട്ടുക	to add	/kuːʈʈuɡɐ/
-2556	ദേവാലയം	a worshiping place	
+2556	ദേവാലയം	a worshiping place	/d̪eːʋaːlɐjɐm/
 2557	ശോകം	distress	/ʃoːɡɐm/
 2558	ഗോപുരം	tower	/ɡoːbuɾɐm/
 2559	മെഴുക്	wax, especially beeswax, the substance that forms the walls…	/meɻuɡɨ/
-2560	കാഠിന്യം	hardness	
+2560	കാഠിന്യം	hardness	/kaːʈʰinjɐm/
 2561	മോക്ഷം	salvation	/moːkʂɐm/
 2562	നിരക്ക്	rate	/n̪iɾɐkkɨ/
 2563	പ്രവിശ്യ	province; An administrative subdivision of certain countries	/prɐʋiʃjɐ/
@@ -2574,7 +2574,7 @@ rank	word	english	ipa
 2573	കാലഘട്ടം	a period of time in history; epoch, era	/käːlɐɡʱɐʈːɐm/
 2574	ഉത്ഭവം	origin	/ut̪b(ʱ)ɐʋɐm/
 2575	കച്ചേരി	office	/kɐt͡ʃt͡ʃeːɾi/
-2576	ചിത	cremation pyre	
+2576	ചിത	cremation pyre	/t͡ʃit̪ɐ/
 2577	കുറയ്ക്കുക	to subtract, reduce	/kurɐkkjuɡɐ/
 2578	തിന്നുക	to eat	/t̪innuɡɐ/
 2579	മുന്നൂറ്	three hundred	/mun̪n̪uːrɨ/
@@ -2596,9 +2596,9 @@ rank	word	english	ipa
 2595	യശസ്സ്	fame	/jɐʃɐssɨ/
 2596	ധ്വനി	sound	/d̪(ʱ)ʋɐni/
 2597	അജ്ഞാത	unknown	/ɐd͡ʒɲaːd̪ɐ/
-2598	യാഥാർത്ഥ്യം	reality	
+2598	യാഥാർത്ഥ്യം	reality	/jaːt̪ʰaːrt̪t̪ʰjɐm/
 2599	ആലോചിക്കുക	to think	/aːloːd͡ʒikkjuɡɐ/
-2600	തകർച്ച	collapse	
+2600	തകർച്ച	collapse	/t̪ɐkɐrt͡ʃt͡ʃɐ/
 2601	പ്രതിബദ്ധത	commitment	/prɐd̪ibɐd̪d̪(ʱ)ɐd̪ɐ/
 2602	അഴുകിയ	rotten	/ɐɻuɡijɐ/
 2603	സ്ഥിരത	stability	/st̪(ʰ)iɾɐd̪ɐ/
@@ -2613,8 +2613,8 @@ rank	word	english	ipa
 2612	തുള	hole	/t̪uɭɐ/
 2613	സൗജന്യം	for free	/sau̯d͡ʒanjam/
 2614	ഡിസൈൻ	design	/ɖisäin/
-2615	പശ	glue	
-2616	ദ്രവ്യം	matter, basic structural component of the universe with…	
+2615	പശ	glue	/pɐʃɐ/
+2616	ദ്രവ്യം	matter, basic structural component of the universe with…	/d̪ɾɐʋjɐm/
 2617	ഇന്ന	this	/in̪n̪ɐ/
 2618	ണ്ട്	to be, exist, be present, be located	/ɳɖɨ/
 2619	മുള്ള്	thorn	/muɭɭɨ/
@@ -2624,7 +2624,7 @@ rank	word	english	ipa
 2623	ജനൽ	alternative form of ജനാല	/d͡ʒɐnɐl/
 2624	സാമി	God	/saːmi/
 2625	ചുമ	cough, noisy expulsion of air from lungs	/t͡ʃumɐ/
-2626	സുന്ദരൻ	beautiful guy; handsome	
+2626	സുന്ദരൻ	beautiful guy; handsome	/sund̪ɐɾɐn/
 2627	പ്രതിധ്വനി	echo; reflected sound	/prɐd̪id̪(ʱ)ʋɐni/
 2628	ഇടുപ്പ്	hip	/iɖuppɨ/
 2629	മറാത്തി	Marathi	/mɐraːt̪t̪i/
@@ -2632,14 +2632,14 @@ rank	word	english	ipa
 2631	ധിക്കാരി	an arrogant and disobedient person	/d̪(ʱ)ikkaːɾi/
 2632	ആസ്ഥാനം	headquarters	/aːst̪(ʰ)aːnam/
 2633	ആതിഥ്യം	hospitality	/aːd̪it̪(ʰ)jam/
-2634	കൽക്കരി	coal	
+2634	കൽക്കരി	coal	/kɐlkkɐɾi/
 2635	സംരംഭം	initiative	/sɐmrɐmb(ʱ)ɐm/
 2636	രക്ഷകൻ	savior	/ɾɐkʂɐɡɐn/
 2637	പേശി	muscle	/peːʃi/
 2638	ചങ്ങാത്തം	friendship	/t͡ʃɐŋŋaːt̪t̪ɐm/
 2639	ഈണം	music	/iːɳɐm/
 2640	ആഗിരണം	absorption	/äːɡiɾɐɳɐm/
-2641	ചെരിപ്പ്	alternative form of ചെരുപ്പ്	
+2641	ചെരിപ്പ്	alternative form of ചെരുപ്പ്	/t͡ʃeɾippɨ/
 2642	മസ്തിഷ്കം	brain	/mɐst̪iʂkɐm/
 2643	പുലയാടി	bastard	/pulɐjaːɖi/
 2644	ഗർഭം	pregnancy	/ɡɐrb(ʱ)ɐm/
@@ -2652,7 +2652,7 @@ rank	word	english	ipa
 2651	പൂമ്പാറ്റ	butterfly	/puːmpaːrrɐ/
 2652	ഉയർത്തുക	to raise	/ujɐrt̪t̪uɡɐ/
 2653	തവിട്ട്	brown	/t̪ɐʋiʈʈɨ/
-2654	ഒരിനം	Of a specific kind, category, or type; specific, certain,…	
+2654	ഒരിനം	Of a specific kind, category, or type; specific, certain,…	/oɾinɐm/
 2655	കുളി	bath	/kuɭi/
 2656	കോ	king, emperor	/koː/
 2657	ഹൈഡ്രജൻ	hydrogen	/häiɖräːd͡ʒɐn/
@@ -2661,7 +2661,7 @@ rank	word	english	ipa
 2660	തുല്യം	equal	/t̪uljɐm/
 2661	നിഗൂഢമായ	mysterious; unknown, secret	/n̪iɡuːɖ(ʱ)ɐmaːjɐ/
 2662	ആശംസ	bestowing of wish, greeting	/aːʃɐmsɐ/
-2663	പുള്ളിപ്പുലി	leopard	
+2663	പുള്ളിപ്പുലി	leopard	/puɭɭippuli/
 2664	ഉപഭോക്താവ്	consumer	/ubɐb(ʱ)oːkt̪aːʋɨ/
 2665	മലിനീകരണം	pollution	/mɐliniːɡɐɾɐɳɐm/
 2666	രാസ	chemical	/ɾaːsɐ/
@@ -2696,22 +2696,22 @@ rank	word	english	ipa
 2695	ഏറ്റെടുക്കുക	To take over	/eːteɖukːuɡä/
 2696	രാശി	astrological sign, zodiac sign	/ɾaːʃi/
 2697	മണ്ട	skull, cranium	/mɐɳɖɐ/
-2698	ഉൾ	alternative form of ഉള്ള്	
-2699	വിദ്യാർത്ഥി	student	
+2698	ഉൾ	alternative form of ഉള്ള്	/uɭ/
+2699	വിദ്യാർത്ഥി	student	/ʋid̪jaːrt̪t̪ʰi/
 2700	പറച്ചിൽ	utterance, something spoken	/pɐrɐt͡ʃt͡ʃil/
-2701	ഇപ്പുറത്ത്	on this side of	
+2701	ഇപ്പുറത്ത്	on this side of	/ippurɐt̪t̪ɨ/
 2702	ഉൾപ്പെടെ	including	/uɭpːeɖe/
 2703	ചൂരൽ	cane	/t͡ʃuːɾɐl/
 2704	വ്യഭിചാരം	adultery	/ʋjab(ʱ)id͡ʒaːɾam/
 2705	കായിക	relating to sports	/käːjiɡä/
-2706	ചെയ്യൽ	the act of doing	
+2706	ചെയ്യൽ	the act of doing	/t͡ʃejjɐl/
 2707	തൂവാല	towel	/t̪uːʋaːlɐ/
-2708	സഹാനുഭൂതി	empathy	
+2708	സഹാനുഭൂതി	empathy	/sɐhaːnubʱuːt̪i/
 2709	ഓല	coconut leaf	/oːlɐ/
 2710	മാലിന്യം	waste	/maːlinjɐm/
 2711	മുഴ	protuberance	/muɻɐ/
 2712	വെള്ളപ്പൊക്കം	flood	/ʋeɭɭɐppokkɐm/
-2713	കഠിനാദ്ധ്വാനം	hard work	
+2713	കഠിനാദ്ധ്വാനം	hard work	/kɐʈʰinaːd̪d̪ʱʋaːnɐm/
 2714	കൂട്ടായ്മ	team	/kuːʈʈaːjmɐ/
 2715	കുട്ട	round wicker basket, often made of bamboo	/kuʈʈɐ/
 2716	വായിക്കുക	to read	/ʋaːjikkjuɡɐ/
@@ -2724,12 +2724,12 @@ rank	word	english	ipa
 2723	ആക്ഷേപം	reproach	/aːkʂeːbɐm/
 2724	ഊർജം	energy	/uːrd͡ʒɐm/
 2725	കാലക്രമേണ	over time; over the course of time	/käːlɐkɾɐmeːɳä/
-2726	അധ്വാനം	labour; work	
+2726	അധ്വാനം	labour; work	/ɐd̪ʱʋaːnɐm/
 2727	പ്രചരണം	walking about, going	/prɐd͡ʒɐɾɐɳɐm/
 2728	ആധിപത്യം	hegemony	/äːd̪ʱibɐt̪jɐm/
 2729	അടപ്പ്	lid	/ɐɖɐppɨ/
 2730	നാരങ്ങ	lemon, lime	/n̪aːɾɐŋŋɐ/
-2731	പര്യവേഷണം	exploration	
+2731	പര്യവേഷണം	exploration	/pɐɾjɐʋeːʂɐɳɐm/
 2732	അഹിംസ	nonviolence	/ɐhimsɐ/
 2733	സൃഷ്ടിക്കുക	to create	/srɨʂʈikkjuɡɐ/
 2734	സമം	equal	/sɐmɐm/
@@ -2742,7 +2742,7 @@ rank	word	english	ipa
 2741	നിയന്ത്രിക്കുക	to control, exercise influenc	/n̪ijɐn̪t̪rikkjuɡɐ/
 2742	പരുത്തി	cotton; a widely cultivated fibre crop belonging to the…	/pɐɾut̪t̪i/
 2743	തോറ്റ	defeated	/t̪oːrrɐ/
-2744	മതപരമായ	regarding religion	
+2744	മതപരമായ	regarding religion	/mɐt̪ɐpɐɾɐmaːjɐ/
 2745	അന്യായം	injustice	/änjäːjɐm/
 2746	നിൽ	to stand	/n̪il/
 2747	തുണ	help	/t̪uɳɐ/
@@ -2756,13 +2756,13 @@ rank	word	english	ipa
 2755	മഷി	ink	/mɐʂi/
 2756	കരിമരുന്ന്	black powder; a form of gunpowder	/käɾimɐɾun̪ːɨ̆/
 2757	നേർത്ത	early	/n̪eːrt̪t̪ɐ/
-2758	ബൾബ്	bulb	
+2758	ബൾബ്	bulb	/bɐɭbɨ/
 2759	അവറ്റ	3rd person plural non-human pronoun; those	/ɐʋɐrrɐ/
 2760	വീതി	width	/ʋiːd̪i/
 2761	പണിയെടുക്കുക	to work; to labor;to toil; to perform a task	/pɐɳijeɖukkuɡɐ/
 2762	ഏകാന്ത	solitary	/eːɡaːn̪t̪ɐ/
 2763	തയ്യാറാക്കുക	to prepare something	/t̪ɐjjaːraːkkuɡɐ/
-2764	ഉദ്യമം	initiative	
+2764	ഉദ്യമം	initiative	/ud̪jɐmɐm/
 2765	കുള്ളൻ	a dwarf	/kuɭɭɐn/
 2766	കിറുക്കൻ	madman; maniac; crazy person	/kirukkɐn/
 2767	പന്ത്രണ്ടാം	twelfth, 12th	/pɐn̪t̪rɐɳɖaːm/
@@ -2780,11 +2780,11 @@ rank	word	english	ipa
 2779	ബന്ദി	slave	/bän̪d̪i/
 2780	അവലോകനം	review	/aʋaloːɡanam/
 2781	പശു	cow; An adult female of the species Bos taurus	/pɐʃu/
-2782	വിപത്ത്	disaster	
+2782	വിപത്ത്	disaster	/ʋipɐt̪t̪ɨ/
 2783	ചൈതന്യം	spirit	/t͡ʃɐi̯d̪ɐnjɐm/
 2784	അന്തരം	difference	/ɐn̪t̪ɐɾɐm/
 2785	നിലക്കടല	groundnut, peanut	/n̪ilɐkkɐɖɐlɐ/
-2786	ഭൂഖണ്ഡം	continent	
+2786	ഭൂഖണ്ഡം	continent	/bʱuːkʰɐɳɖɐm/
 2787	ആഗ്രഹിക്കുക	to desire	/aːɡɾɐhikkjuɡɐ/
 2788	മഹാൻ	great, respected, renowned person	/mɐhaːn/
 2789	ധാന്യം	grain	/d̪(ʱ)aːnjɐm/
@@ -2794,22 +2794,22 @@ rank	word	english	ipa
 2793	ഘടികാരം	clock	/ɡ(ʱ)ɐɖiɡaːɾɐm/
 2794	ജിജ്ഞാസ	curiosity, desire to know	/d͡ʒid͡ʒɲaːsɐ/
 2795	കുറേശ്ശെ	a little	/kureːʃːe/
-2796	ഉൽപ്പന്നം	alternative spelling of ഉത്പന്നം	
+2796	ഉൽപ്പന്നം	alternative spelling of ഉത്പന്നം	/ulppɐnnɐm/
 2797	നായകൻ	captain	/n̪aːjɐɡɐn/
 2798	ഉഷാർ	alert	/uʂaːr/
 2799	ഗീതം	song, music	/ɡiːd̪ɐm/
 2800	ഇഡ	praise	/iɖɐ/
 2801	കുടല്	guts	/kuɖɐlɨ/
 2802	വളം	fertilizer, manure	/ʋɐɭɐm/
-2803	തിമിംഗലം	alternative form of തിമിംഗിലം	
+2803	തിമിംഗലം	alternative form of തിമിംഗിലം	/t̪imiŋɡɐlɐm/
 2804	ബംഗ്ലാവ്	bungalow	/bɐŋɡɭaːʋɨ/
 2805	മിടുക്ക്	smartness	/miɖukkɨ/
 2806	ദുഷ്ടത	malice; cruelty, wickedness	/d̪uʂʈɐd̪ɐ/
 2807	ഒഴിക്കുക	to pour	/oɻikkjuɡɐ/
 2808	മുല്ല	jasmine	/mulːɐ/
-2809	വികസനം	development	
-2810	വിഷാദം	depression	
-2811	ടൺ	tonne	
+2809	വികസനം	development	/ʋikɐsɐnɐm/
+2810	വിഷാദം	depression	/ʋiʂaːd̪ɐm/
+2811	ടൺ	tonne	/ʈɐɳ/
 2812	ഓട	trench	/oːɖɐ/
 2813	മൗനം	silence	/mɐu̯nɐm/
 2814	പാപ്പ	pope	/paːppɐ/
@@ -2828,13 +2828,13 @@ rank	word	english	ipa
 2827	പ്രലോഭനം	temptation	/prɐloːb(ʱ)ɐnɐm/
 2828	എലിവിഷം	rat poison	/eliʋiʂɐm/
 2829	കലാകാരൻ	artist	/käläːɡäːɾɐn/
-2830	ധീരത	bravery	
+2830	ധീരത	bravery	/d̪ʱiːɾɐt̪ɐ/
 2831	പൊട്ടാസ്യം	potassium	/poʈːaːsjam/
 2832	ഉറുമ്പ്	ant; Any of the various small eusocial insects belonging to…	/urumpɨ/
 2833	പടയാളി	soldier	/pɐɖɐjaːɭi/
 2834	തിരശ്ശീല	curtain, screen	/t̪iɾɐʃʃiːlɐ/
 2835	നെറ്റി	forehead	/n̪erri/
-2836	മുടന്ത്	lameness	
+2836	മുടന്ത്	lameness	/muʈɐnt̪ɨ/
 2837	ആരംഭിക്കുക	to begin, start	/aːɾɐmb(ʱ)ikkjuɡɐ/
 2838	ടൗൺ	town	/ʈɐuɳ/
 2839	ചൂടൻ	hot	/t͡ʃuːɖɐn/
@@ -2878,16 +2878,16 @@ rank	word	english	ipa
 2877	തിരിക്കുക	to rotate; spin, turn	/t̪iɾikkjuɡɐ/
 2878	നേടുക	To get	/n̪eːɖuɡɐ/
 2879	ഹരി	green	/hɐɾi/
-2880	വ്യാപ്തി	extent	
-2881	കാഷ്ടം	feces	
+2880	വ്യാപ്തി	extent	/ʋjaːpt̪i/
+2881	കാഷ്ടം	feces	/kaːʂʈɐm/
 2882	തട്ടാൻ	gold smith	/t̪ɐʈʈaːn/
-2883	വിവേകം	wiseness; wisdom	
+2883	വിവേകം	wiseness; wisdom	/ʋiʋeːkɐm/
 2884	എണ്ണൂറ്	eight hundred	/eɳɳuːrɨ/
 2885	മാമോദീസ	baptism, the Christian sacrament of initiation, in which…	/maːmoːd̪iːsɐ/
 2886	ആർത്തി	greed	/äːrt̪ːi/
-2887	വീമ്പ്	boast	
+2887	വീമ്പ്	boast	/ʋiːmpɨ/
 2888	സൂപ്രണ്ട്	superintendent	/suːprɐɳʈɨ̆/
-2889	അസ്തിത്വം	existence	
+2889	അസ്തിത്വം	existence	/ɐst̪it̪ʋɐm/
 2890	മുറ	usual style or practice	/murɐ/
 2891	തമിഴ്	Tamil	/t̪ɐmiɻɨ/
 2892	ചട്ടം	frame, framework	/t͡ʃɐʈʈɐm/
@@ -2899,12 +2899,12 @@ rank	word	english	ipa
 2898	പൊട്ടിക്കുക	To break	/poʈʈikkjuɡɐ/
 2899	തുടയ്ക്ക്	to wipe	/t̪uɖɐjkkɨ/
 2900	നിർമ്മാണം	production	/n̪irmːaːɳam/
-2901	യുഗം	age	
+2901	യുഗം	age	/juɡɐm/
 2902	ഗൂഢാലോചന	conspiracy	/ɡuːɖʰäːloːdʒɐnɐ/
 2903	അരങ്ങ്	stage	/ɐɾɐŋŋɨ/
 2904	അസാധ്യ	impossible	/äsäːd̪ʱjɐ/
 2905	മുന്നേറുക	To advance	/mun̪n̪eːruɡɐ/
-2906	ദീപം	oil lamp	
+2906	ദീപം	oil lamp	/d̪iːpɐm/
 2907	പ്രതിമാസം	monthly; every month	/prɐd̪imaːsɐm/
 2908	ഈച്ച	housefly; Any fly commonly found in human habitations	/iːt͡ʃt͡ʃɐ/
 2909	ഔചിത്യം	appropriateness	/äud͡ʒit̪jɐm/
@@ -2912,9 +2912,9 @@ rank	word	english	ipa
 2911	അവഗണിക്കുക	to slight; to forbearing to treat with attention or respect	/äʋäɡäɳikːuɡä/
 2912	വിജാഗിരി	hinge, a flexible mechanical device that allows the…	/ʋid͡ʒaːɡiɾi/
 2913	ദേവലോകം	heaven	/d̪eːʋɐloːɡɐm/
-2914	ശിശു	child	
+2914	ശിശു	child	/ʃiʃu/
 2915	അധ്യാപകൻ	teacher	/ɐd̪(ʱ)jaːbɐɡɐn/
-2916	യാത്രികൻ	traveler	
+2916	യാത്രികൻ	traveler	/jaːt̪ɾikɐn/
 2917	വീക്കം	inflammation; -itis	/ʋiːkkɐm/
 2918	വെളുത്തുള്ളി	garlic, Allium sativum, perennial flowering plant with…	/ʋeɭut̪t̪uɭɭi/
 2919	അംഗത്വം	membership	/ɐŋɡɐt̪ʋɐm/
@@ -2923,7 +2923,7 @@ rank	word	english	ipa
 2922	ത്രികോണം	triangle	/t̪riɡoːɳɐm/
 2923	ചൂല്	broom	/t͡ʃuːlɨ/
 2924	ചൂത്	gambling	/t͡ʃuːd̪ɨ/
-2925	വെപ്പാട്ടി	concubine; mistress	
+2925	വെപ്പാട്ടി	concubine; mistress	/ʋeppaːʈʈi/
 2926	മുക്തി	liberation	/mukt̪i/
 2927	ഭഗവാൻ	God	/b(ʱ)ɐɡɐʋaːn/
 2928	പൊറുക്കുക	to live	/porukkuɡɐ/
@@ -2953,56 +2953,56 @@ rank	word	english	ipa
 2952	ആരംഭം	beginning	/aːɾɐmb(ʱ)ɐm/
 2953	ഉരുണ്ട	round	/uɾuɳɖɐ/
 2954	വിളവ്	yield of crop; harvest	/ʋiɭɐʋɨ/
-2955	കൃതജ്ഞത	gratitude	
+2955	കൃതജ്ഞത	gratitude	/kɾt̪ɐd͡ʒɲɐt̪ɐ/
 2956	ഉപരിതലം	surface	/ubɐɾid̪ɐlɐm/
 2957	സാഹിത്യ	literary; relating to literature	/saːhit̪jɐ/
-2958	ഉടനീളം	along; by the length of	
+2958	ഉടനീളം	along; by the length of	/uʈɐniːɭɐm/
 2959	തോത്	measure, scale, standard, rate, criterion	/t̪oːd̪ɨ/
 2960	ബാലൻസ്	balance	/bäːlɐnsɨ̆/
 2961	ശൂലം	any sharp instrument or pointed dart, lance, pike, spear	/ʃuːlɐm/
 2962	ആക്സിലറേറ്റർ	accelerator	/aːksilɐreːrrɐr/
 2963	അഭിനയിക്കുക	to act in movie, drama, play, etc	/ɐb(ʱ)inɐjikkjuɡɐ/
 2964	അലമ്പ്	mess; disorder	/ɐlɐmpɨ/
-2965	ജലാംശം	moisture	
-2966	സംഭവിക്കാവുന്ന	happenable; occurable	
+2965	ജലാംശം	moisture	/d͡ʒɐlaːmʃɐm/
+2966	സംഭവിക്കാവുന്ന	happenable; occurable	/sɐmbʱɐʋikkaːʋunnɐ/
 2967	കീടം	pest, insect, worm	/kiːɖɐm/
 2968	കിടക്കുക	to lie down	/kiɖɐkkuɡɐ/
 2969	അശ്ലീലം	obscene	/ɐʃliːlɐm/
 2970	പനിനീര്	ice water	/pɐnin̪iːɾɨ/
 2971	അംഗീകരിക്കുക	To accept	/ɐŋɡiːɡɐɾikkjuɡɐ/
 2972	വയറിളക്കം	diarrhea, loose motion, watery bowel movements	/ʋɐjɐriɭɐkkɐm/
-2973	പൈജാമ	pajamas	
+2973	പൈജാമ	pajamas	/pɐi̯d͡ʒaːmɐ/
 2974	അമർത്തുക	to press, crush, overcome, overpower	/ɐmɐrt̪t̪uɡɐ/
 2975	അയയ്ക്കുക	to send, dispatch	/ɐjɐkkjuɡɐ/
-2976	സസ്തനി	mammal	
+2976	സസ്തനി	mammal	/sɐst̪ɐni/
 2977	മേൽവിലാസം	postal address	/meːlʋilaːsɐm/
 2978	അമൂല്യ	invaluable	/ɐmuːljɐ/
 2979	അമോണിയ	ammonia	/ɐmoːɳijɐ/
-2980	സജീവ	active	
+2980	സജീവ	active	/sɐd͡ʒiːʋɐ/
 2981	ചതുരം	quadrilateral	/t͡ʃɐd̪uɾɐm/
 2982	കടത്തുക	to transport; to cause to cross	/kɐɖɐt̪t̪uɡɐ/
 2983	ക്രിയ	verb	/krijɐ/
 2984	അനുസരണക്കേട്	disobedience	/ɐnusɐɾɐɳɐkkeːɖɨ/
 2985	ദശ	ten	/d̪ɐʃɐ/
-2986	കോഴ	bribe	
+2986	കോഴ	bribe	/koːɻɐ/
 2987	ജനനി	mother	/d͡ʒɐnɐn̪i/
 2988	വിദേശി	foreigner	/ʋid̪eːʃi/
 2989	ദുർഗന്ധം	stench; foul smell	/d̪urɡan̪d̪(ʱ)am/
-2990	മുൻഗണന	priority	
+2990	മുൻഗണന	priority	/munɡɐɳɐnɐ/
 2991	ചിപ്പി	small shell	/t͡ʃippi/
-2992	അഭിലാഷം	desire; wish	
+2992	അഭിലാഷം	desire; wish	/ɐbʱilaːʂɐm/
 2993	ചെയ്ക	alternative form of ചെയ്യുക	/t͡ʃejɡɐ/
 2994	തുടക്ക്	to wipe	/t̪uɖɐkkɨ/
 2995	അയ്യായിരം	five thousand	/ɐjjaːjiɾɐm/
 2996	ചങ്ക്	conch	/t͡ʃɐŋkɨ/
 2997	ചാണകം	cowdung	/t͡ʃaːɳɐɡɐm/
-2998	പഴഞ്ചൊല്ല്	proverb, traditional saying	
+2998	പഴഞ്ചൊല്ല്	proverb, traditional saying	/pɐɻɐɲt͡ʃollɨ/
 2999	ഉപചാരം	gratis	/ubɐd͡ʒaːɾɐm/
 3000	താന്തോന്നി	prodigal person	/t̪aːn̪t̪oːn̪n̪i/
 3001	റഹ്മാൻ	merciful, compassionate	/rɐhmaːn/
 3002	പാടം	field	/paːɖɐm/
 3003	മയക്കം	sleep	/mɐjɐkkɐm/
-3004	വാഴ്	to reign	
+3004	വാഴ്	to reign	/ʋaːɻɨ/
 3005	വില്ലേജ്	village	/ʋilːeːd͡ʒɨ̆/
 3006	ക്രിസ്ത്യാനി	Christian	/krist̪jaːni/
 3007	എത്രാമത്തെ	what number, how manyth	/et̪raːmɐt̪t̪e/
@@ -3019,11 +3019,11 @@ rank	word	english	ipa
 3018	വയ്യായ്ക	unwellness	/ʋɐjjaːjɡɐ/
 3019	സ്ഥിര	permanent	/st̪(ʰ)iɾɐ/
 3020	കൺഫ്യൂഷൻ	confusion	/käɳfjuːʂɐn/
-3021	തേജസ്സ്	alternative spelling of തേജസ്	
+3021	തേജസ്സ്	alternative spelling of തേജസ്	/t̪eːd͡ʒɐssɨ/
 3022	വ്യാഖ്യാനം	definition	/ʋjaːk(ʰ)jaːnɐm/
 3023	ബാലൻ	boy	/baːlɐn/
 3024	മുക്കുവൻ	a caste associated with fishing	/mukkuʋɐn/
-3025	യൗവനം	youth	
+3025	യൗവനം	youth	/jɐu̯ʋɐnɐm/
 3026	പടക്കം	firecracker	/pɐɖɐkkɐm/
 3027	തിക്ക്	pressure, congestion	/t̪ikkɨ/
 3028	മുതുക്	back of the body	/mud̪uɡɨ/
@@ -3033,9 +3033,9 @@ rank	word	english	ipa
 3032	മൺവെട്ടി	hoe	/mɐɳʋeʈʈi/
 3033	മരുമകൾ	sister's daughter; a niece	/mɐɾumɐɡɐɭ/
 3034	വീര	courageous, brave	/ʋiːɾɐ/
-3035	പക്വത	mature, grown up	
+3035	പക്വത	mature, grown up	/pɐkʋɐt̪ɐ/
 3036	അടിയന്തരാവസ്ഥ	emergency	/ɐɖijɐn̪t̪ɐɾaːʋɐst̪(ʰ)ɐ/
-3037	ഹിതം	will	
+3037	ഹിതം	will	/hit̪ɐm/
 3038	ഉഴുന്ന്	urad; black gram	/uɻun̪ːɨ̆/
 3039	ദൃഢത	rigidity	/d̪rɨɖ(ʱ)ɐd̪ɐ/
 3040	പല്ലി	lizard	/pɐlli/
@@ -3045,7 +3045,7 @@ rank	word	english	ipa
 3044	പൊന്ന്	gold	/pon.nɨ̆/
 3045	ആണത്തം	manliness; masculinity	/aːɳat̪ːam/
 3046	കിഴവൻ	old male	/kiɻɐʋɐn/
-3047	ഇവന്മാർ	he	
+3047	ഇവന്മാർ	he	/iʋɐnmaːr/
 3048	സോഡിയം	sodium	/soːɖijam/
 3049	പതക്കം	medal, award	/pɐd̪ɐkkɐm/
 3050	ബഹു	great, big, large, massive	/bɐhu/
@@ -3073,7 +3073,7 @@ rank	word	english	ipa
 3072	അതാത്	misspelling of അതത്	/ɐd̪aːt̪ɨ/
 3073	മരവിപ്പ്	numbness	/mɐɾɐʋippɨ/
 3074	ജന്മ	birth; relating to birth or creation	/d͡ʒɐnmɐ/
-3075	പണ്ടാറം	alternative form of പണ്ടാരം	
+3075	പണ്ടാറം	alternative form of പണ്ടാരം	/pɐɳʈaːrɐm/
 3076	കുടിൽ	hut	/kuɖil/
 3077	ഉദയം	rise	/ud̪ɐjɐm/
 3078	വൃഷണം	testicle	/ʋrɨʂɐɳɐm/
@@ -3100,13 +3100,13 @@ rank	word	english	ipa
 3099	ഇളയത്	younger one; the one who is younger than the other	/iɭɐjɐd̪ɨ/
 3100	പരുക്കൻ	rough, coarse, not smooth	/pɐɾukkɐn/
 3101	ക്രൂരം	cruel	/kruːɾɐm/
-3102	എത്രാം	which position or rank in order	
+3102	എത്രാം	which position or rank in order	/et̪ɾaːm/
 3103	ഖണ്ഡിക	paragraph	/k(ʰ)ɐɳɖiɡɐ/
 3104	അഴി	river-mouth, confluence of river or backwater and sea	/ɐɻi/
 3105	ആശ്രമം	monastery; building for monks	/äːʃɾɐmɐm/
 3106	ലഭ്യം	available	/lɐb(ʱ)jɐm/
 3107	പ്രസാദം	Prasada	/prɐsaːd̪ɐm/
-3108	കാവ്യം	poetry	
+3108	കാവ്യം	poetry	/kaːʋjɐm/
 3109	നനവ്	wetness	/n̪ɐnɐʋɨ/
 3110	കോല്	a long stick	/koːlɨ/
 3111	നടത്തിപ്പ്	management	/n̪ɐɖɐt̪t̪ippɨ/
@@ -3114,12 +3114,12 @@ rank	word	english	ipa
 3113	സുവിശേഷം	the gospel	/suʋiʃeːʂɐm/
 3114	മരതകം	emerald; one of the navaratnas	/mɐɾɐd̪ɐɡɐm/
 3115	അധികാരികൾ	a person in power, authority	/ɐd̪(ʱ)iɡaːɾiɡɐɭ/
-3116	പായസം	payasam; a milk dessert	
+3116	പായസം	payasam; a milk dessert	/paːjɐsɐm/
 3117	പ്രണാമം	pranama; salutation	/praɳaːmam/
 3118	കരിങ്കാലി	A person who works despite an ongoing strike; blackleg,…	/kɐɾiŋkaːli/
-3119	സാഹസികം	adventure	
+3119	സാഹസികം	adventure	/saːhɐsikɐm/
 3120	അളിഞ്ഞ	decayed and rotten	/ɐɭiɲɲɐ/
-3121	ഉദ്യോഗസ്ഥൻ	official; officeholder	
+3121	ഉദ്യോഗസ്ഥൻ	official; officeholder	/ud̪joːɡɐst̪ʰɐn/
 3122	പൊരുത്	to fight	/poɾud̪ɨ/
 3123	ആടി	swung, shook, oscillated	/aːɖi/
 3124	തടയുക	to block	/t̪ɐɖɐjuɡɐ/
@@ -3140,7 +3140,7 @@ rank	word	english	ipa
 3139	കൃതി	literary work	/krɨd̪i/
 3140	സൂര്യോദയം	sunrise	/suːɾjoːd̪ɐjɐm/
 3141	വളരുക	to grow	/ʋɐɭɐɾuɡɐ/
-3142	സംബോധന	vocative noun case; -ഏ	
+3142	സംബോധന	vocative noun case; -ഏ	/sɐmboːd̪ʱɐnɐ/
 3143	മഴവില്ല്	rainbow; An arch of colours formed in the sky, formed by…	/mɐɻɐʋillɨ/
 3144	കൊമ്പ്	horn	/kompɨ/
 3145	ഉപസംഹാരം	conclusion	/ubasamhaːɾam/
@@ -3151,7 +3151,7 @@ rank	word	english	ipa
 3150	വാണിജ്യ	commercial; pertaining to trade or commerce	/ʋaːɳiɟja/
 3151	ബുദ്ധിമതി	an intelligent woman	/bud̪d̪(ʱ)imɐd̪i/
 3152	കുഴൽ	pipe	/kuɻɐl/
-3153	നാമകരണം	naming	
+3153	നാമകരണം	naming	/naːmɐkɐɾɐɳɐm/
 3154	വാദ്യം	musical instrument	/ʋaːd̪jɐm/
 3155	അഭിരുചി	liking; predilection; taste; aptitude	/ɐb(ʱ)iɾud͡ʒi/
 3156	അന്തം	end	/ɐn̪t̪ɐm/
@@ -3177,7 +3177,7 @@ rank	word	english	ipa
 3176	നിരപരാധിത്വം	innocence; not guilty	/n̪iɾɐbɐɾaːd̪(ʱ)it̪ʋɐm/
 3177	ഇരുപത്തിയേഴ്	twenty-seven	/iɾubɐt̪t̪ijeːɻɨ/
 3178	അലുമിനിയം	aluminium	/äluminijɐm/
-3179	വക്കിൽ	Locative case form of വക്ക്	
+3179	വക്കിൽ	Locative case form of വക്ക്	/ʋɐkkil/
 3180	ചുറ്റൽ	act of rotating	/t͡ʃurrɐl/
 3181	അനുജൻ	little brother	/ɐnud͡ʒɐn/
 3182	ശരിയാക്കുക	to fix, set right	/ʃɐɾijaːkkuɡɐ/
@@ -3189,7 +3189,7 @@ rank	word	english	ipa
 3188	സാരം	meaning	/saːɾɐm/
 3189	നീളെ	along; very long	/n̪iːɭe/
 3190	കോപ്പ	large cup	/koːppɐ/
-3191	തുകൽ	leather	
+3191	തുകൽ	leather	/t̪ukɐl/
 3192	അഭ്യൂഹം	hypothesis	/ɐb(ʱ)juːhɐm/
 3193	ഞാഞ്ഞൂൽ	earthworm	/ɲaːɲɲuːl/
 3194	വിലമതിക്കാനാവാത്ത	invaluable	/ʋilɐmɐd̪ikkaːnaːʋaːt̪t̪ɐ/
@@ -3217,10 +3217,10 @@ rank	word	english	ipa
 3216	കാള	bull	/kaːɭɐ/
 3217	കുഴമ്പ്	an ayurvedic liquid type of medicine	/kuɻɐmpɨ/
 3218	മുൻഭാഗം	front part	/munb(ʱ)aːɡɐm/
-3219	ദൗർബല്യം	weakness, frailty	
+3219	ദൗർബല്യം	weakness, frailty	/d̪ɐu̯rbɐljɐm/
 3220	വിധിക്കുക	to declare	/ʋid̪(ʱ)ikkjuɡɐ/
 3221	വിനാഗിരി	vinegar	/ʋinaːɡiɾi/
-3222	പിച്ചള	alternative form of പിത്തള	
+3222	പിച്ചള	alternative form of പിത്തള	/pit͡ʃt͡ʃɐɭɐ/
 3223	ഋതു	season	/rid̪u/
 3224	അസഭ്യം	vulgarity, indecency	/ɐsɐb(ʱ)jɐm/
 3225	കരൾ	liver	/kɐɾɐɭ/
@@ -3231,12 +3231,12 @@ rank	word	english	ipa
 3230	ചുരം	mountain pass with steep climb	/t͡ʃuɾam/
 3231	ചെറുകിട	small	/t͡ʃeruɡiɖɐ/
 3232	മേന്മ	betterness	/meːnmɐ/
-3233	ആശ്രയം	reliance	
+3233	ആശ്രയം	reliance	/aːʃɾɐjɐm/
 3234	പാറ്റ	cockroach; Any of the various nocturnal scavenging insects…	/paːtːɐ/
 3235	പരിഗണിക്കുക	to consider; to regard; look at attentively	/pɐɾiɡɐɳikkjuɡɐ/
 3236	ആദരണീയനായ	honorable; respected	/äːd̪äɾɐɳiːjɐnäːjɐ/
 3237	ദോശ	dosa; a type of thin South Indian food made from fermented…	/d̪oːʃɐ/
-3238	പത്രപ്രവർത്തകൻ	journalist of newspaper	
+3238	പത്രപ്രവർത്തകൻ	journalist of newspaper	/pɐt̪ɾɐpɾɐʋɐrt̪t̪ɐkɐn/
 3239	ദിനംപ്രതി	daily; every day	/d̪inɐmprɐd̪i/
 3240	കപ്പ	tapioca, casava	/kɐppɐ/
 3241	ആങ്ങള	brother, when spoken of or to by his sister. Female's…	/aːŋŋɐɭɐ/
@@ -3247,20 +3247,20 @@ rank	word	english	ipa
 3246	മുഹൂർത്തം	at the end moment	/muhuːrt̪t̪ɐm/
 3247	ഒണ്ട്	to be, exist, be present, be located	/oɳɖɨ/
 3248	ട്രോഫി	trophy	/ʈroːfi/
-3249	കെട്ടിയോൻ	alternative form of കെട്ടിയവൻ	
-3250	എപ്പൊഴും	archaic form of എപ്പോഴും	
+3249	കെട്ടിയോൻ	alternative form of കെട്ടിയവൻ	/keʈʈijoːn/
+3250	എപ്പൊഴും	archaic form of എപ്പോഴും	/eppoɻum/
 3251	വേള	time	/ʋeːɭɐ/
-3252	ദൂതൻ	messenger, envoy	
+3252	ദൂതൻ	messenger, envoy	/d̪uːt̪ɐn/
 3253	നിറയ്ക്കുക	to fill	/n̪irɐkkjuɡɐ/
 3254	യഹോവ	Lord	/jɐhoːʋä/
-3255	വമ്പിച്ച	big	
+3255	വമ്പിച്ച	big	/ʋɐmpit͡ʃt͡ʃɐ/
 3256	ബർഗർ	burger	/bɐrɡɐr/
 3257	ഇടത്തരം	of intermediate quality	/iɖat̪t̪aɾam/
 3258	അണി	beautiful	/ɐɳi/
 3259	മുള	bamboo	/muɭɐ/
 3260	ഞാവൽ	fruit of Syzygium cumini, Java plum	/ɲaːʋɐl/
 3261	സമുറായി	samurai	/sämuräːji/
-3262	വട്ടൻ	tick, parasitic insect of cattle	
+3262	വട്ടൻ	tick, parasitic insect of cattle	/ʋɐʈʈɐn/
 3263	കലവറ	storehouse	/käläʋɐrä/
 3264	മാനേജ്മെന്റ്	management	/maːneːd͡ʒmen̪rɨ/
 3265	കീരി	mongoose, any of the various small predatory mammals in the…	/kiːɾi/
@@ -3272,21 +3272,21 @@ rank	word	english	ipa
 3271	ഗിയർ	gear	/ɡijɐɾ/
 3272	അസ്ഥികൂടം	skeleton	/ɐst̪(ʰ)iɡuːɖɐm/
 3273	സത്ത്	essence	/sɐt̪t̪ɨ/
-3274	പുരസ്കാരം	award	
+3274	പുരസ്കാരം	award	/puɾɐskaːɾɐm/
 3275	അഭിവൃദ്ധി	progress	/ɐb(ʱ)iʋrɨd̪d̪(ʱ)i/
 3276	പെരുച്ചാഴി	greater bandicoot rat	/peɾut͡ʃt͡ʃaːɻi/
 3277	ബാക്ടീരിയ	bacterium	/baːkʈiːɾijɐ/
-3278	മര്യാദയില്ലാത്ത	impolite	
+3278	മര്യാദയില്ലാത്ത	impolite	/mɐɾjaːd̪ɐjillaːt̪t̪ɐ/
 3279	ഊമ	dumb; a person unable to speak	/uːmɐ/
 3280	മടങ്ങുക	to return	/mɐɖɐŋŋuɡɐ/
-3281	വാക്സിൻ	vaccine	
+3281	വാക്സിൻ	vaccine	/ʋaːksin/
 3282	സഹകരണ	cooperative	/sɐhɐɡɐɾɐɳɐ/
 3283	ഗാംഭീര്യം	excellence, solemnity	/ɡaːmb(ʱ)iːɾjɐm/
 3284	മഞ്ഞുകട്ട	ice; the solid form of water	/mɐɲɲuɡɐʈʈɐ/
 3285	ആലസ്യം	laziness; lethargy	/äːlɐsjɐm/
 3286	സ്ഥാപിക്കുക	To place	/st̪(ʰ)aːbikkjuɡɐ/
-3287	സമീപ	near	
-3288	തൂക്ക്	to hang; to suspend	
+3287	സമീപ	near	/sɐmiːpɐ/
+3288	തൂക്ക്	to hang; to suspend	/t̪uːkkɨ/
 3289	ചക്രവാളം	horizon	/t͡ʃakraʋaːɭam/
 3290	ഉപായം	solution to a problem	/ubäːjɐm/
 3291	ഒളിച്ചുകളി	hide and seek	/oɭit͡ʃt͡ʃuɡɐɭi/
@@ -3309,7 +3309,7 @@ rank	word	english	ipa
 3308	അവജ്ഞ	despise; disregard, look down, contempt	/ɐʋɐd͡ʒɲɐ/
 3309	പുച്ഛം	contempt, scorn, abhorrence, decision	/put͡ʃt͡ʃ(ʰ)ɐm/
 3310	ബുദ്ധിശാലി	an intelligent person	/bud̪d̪(ʱ)iʃaːli/
-3311	ദർശനം	vision	
+3311	ദർശനം	vision	/d̪ɐrʃɐnɐm/
 3312	സംഭോഗം	intercourse; copulation	/sɐmb(ʱ)oːɡɐm/
 3313	മാനവികത	humanity	/maːnɐʋiɡɐd̪ɐ/
 3314	ഇക്ക	elder brother	/ikkɐ/
@@ -3327,13 +3327,13 @@ rank	word	english	ipa
 3326	പരിപാലനം	maintenance	/pɐɾibaːlɐnɐm/
 3327	തൊഴുത്ത്	cowshed	/t̪oɻut̪t̪ɨ/
 3328	ആഗോളതാപനം	global warming	/äːɡoːɭɐt̪äːpɐnɐm/
-3329	രൊക്കം	alternative form of റൊക്കം	
+3329	രൊക്കം	alternative form of റൊക്കം	/ɾokkɐm/
 3330	കുയിൽ	koel, a cuckoo bird that has a characteristic bird call	/kujil/
 3331	ശാസന	disciplinary order	/ʃaːsana/
 3332	അയല	Indian mackerel, Rastrelliger kanagurta, small marine fish…	/ɐjɐlɐ/
 3333	കൂന	heap; pile	/kuːnɐ/
 3334	ചീവീട്	cicada; Any of the various winged insects in the…	/t͡ʃiːʋiːɖɨ/
-3335	കായ്	alternative form of കായ	
+3335	കായ്	alternative form of കായ	/kaːjɨ/
 3336	സാദൃശ്യം	similarity in appearance	/saːd̪rɨʃjɐm/
 3337	തൊട്ടി	bucket	/t̪oʈʈi/
 3338	ബിരിയാണി	biryani	/biɾijaːɳi/
@@ -3343,18 +3343,18 @@ rank	word	english	ipa
 3342	കുരു	seed	/kuɾu/
 3343	ചെടികൾ	herbage	/t͡ʃeɖiɡɐɭ/
 3344	ചൂതാട്ടം	gambling	/t͡ʃuːd̪aːʈʈɐm/
-3345	നടുമുറ്റം	inner courtyard; similar to patio	
+3345	നടുമുറ്റം	inner courtyard; similar to patio	/nɐʈumurrɐm/
 3346	ദിവ്യ	divine	/d̪iʋjɐ/
 3347	ഏകീകരണം	unification	/eːɡiːkɐɾɐɳɐm/
 3348	ഗ്രീഷ്മം	summer	/ɡɾiːʂmɐm/
 3349	കത്തിക്കുക	to burn; to ignite; to set fire to	/kɐt̪t̪ikkjuɡɐ/
 3350	പൊരുത്തം	matchingness	/poɾut̪t̪ɐm/
-3351	പ്രതിഫലനം	reflection	
+3351	പ്രതിഫലനം	reflection	/pɾɐt̪ipʰɐlɐnɐm/
 3352	വീശ്	to fan	/ʋiːʃɨ/
 3353	ആദിവാസി	Adivasi	/äːd̪iʋäːsi/
 3354	നയിക്കുക	to lead, guide or direct	/n̪ɐjikkjuɡɐ/
 3355	ഫോട്ടോഗ്രാഫ്	photograph	/foːʈːoːɡräːfɨ̆/
-3356	അവബോധം	apprehension	
+3356	അവബോധം	apprehension	/ɐʋɐboːd̪ʱɐm/
 3357	സാധ്യമാക്കുക	to enable	/saːd̪(ʱ)jɐmaːkkuɡɐ/
 3358	നുകം	yoke	/n̪uɡam/
 3359	വ്യാവസായിക	industrial	/ʋjaːʋasaːjika/
@@ -3368,7 +3368,7 @@ rank	word	english	ipa
 3367	ശൂന്യം	empty	/ʃuːnjɐm/
 3368	തീർക്കുക	to finish	/t̪iːrkkuɡɐ/
 3369	കുഷ്ഠം	leprosy	/kuʂʈʰam/
-3370	ചൂളം	whistle	
+3370	ചൂളം	whistle	/t͡ʃuːɭɐm/
 3371	കാന്തം	magnet	/kaːn̪t̪ɐm/
 3372	തളർച്ച	fatigue; tiredness; exhaustion	/t̪ɐɭɐrt͡ʃt͡ʃɐ/
 3373	തോൽവി	defeat	/t̪oːlʋi/
@@ -3379,7 +3379,7 @@ rank	word	english	ipa
 3378	മധുവിധു	honeymoon	/mɐd̪(ʱ)uʋid̪(ʱ)u/
 3379	ചൊരുക്ക്	resentment; grudge	/t͡ʃoɾukkɨ/
 3380	സ്കൂട്ടർ	scooter	/skuːʈːɐr/
-3381	കാബേജ്	cabbage	
+3381	കാബേജ്	cabbage	/kaːbeːd͡ʒɨ/
 3382	മുഖേന	through; by means of	/muk(ʰ)eːnɐ/
 3383	ഊതുക	to blow	/uːd̪uɡɐ/
 3384	സങ്കൽപം	concept	/sɐŋkɐlpɐm/
@@ -3398,22 +3398,22 @@ rank	word	english	ipa
 3397	പ്ലം	plum	/pɭɐm/
 3398	മഴു	axe, a weapon consisting of a heavy head flattened to a…	/mɐɻu/
 3399	മേനി	body	/meːni/
-3400	രക്തസാക്ഷിത്വം	martyrdom	
+3400	രക്തസാക്ഷിത്വം	martyrdom	/ɾɐkt̪ɐsaːkʂit̪ʋɐm/
 3401	കലാകാരി	artist	/käläːɡäːɾi/
 3402	അശ്രദ്ധ	carelessness, inadvertence	/äʃɾɐd̪d̪ʱä/
-3403	ടൂറിസം	tourism	
+3403	ടൂറിസം	tourism	/ʈuːrisɐm/
 3404	കടുംകൈ	extreme doing	/kɐɖuŋkɐi̯/
 3405	കേൾവി	hearing	/keːɭʋi/
 3406	ശാപ്പാട്	food	/ʃaːppaːɖɨ/
 3407	നശീകരണം	act of causing damage or destruction; ruining	/n̪ɐʃiːɡɐɾɐɳɐm/
-3408	വോയ്സ്	voice	
+3408	വോയ്സ്	voice	/ʋoːjsɨ/
 3409	നരക	hellish	/n̪ɐɾɐɡɐ/
 3410	അന്വേഷിക്കുക	to inquire	/ɐnʋeːʂikkjuɡɐ/
 3411	താമര	lotus, an aquatic plant with cultural significance	/t̪aːmɐɾɐ/
 3412	സ്വീകാര്യം	acceptable	/sʋiːɡäːɾjɐm/
 3413	അധിപൻ	chief; head	/äd̪ʱibɐn/
 3414	ജാലകം	window	/d͡ʒaːlɐɡɐm/
-3415	സന്നാഹം	equipage	
+3415	സന്നാഹം	equipage	/sɐnnaːhɐm/
 3416	ഇടവക	parish	/iɖɐʋɐɡɐ/
 3417	അസ്തമയം	sunset	/ɐst̪ɐmɐjɐm/
 3418	എന്റർപ്രൈസ്	enterprise	/endarpɾaisɨ̆/
