@@ -23,13 +23,19 @@
 
 	// Languages with a long-form beginner's guide on the blog, by list slug.
 	const GUIDES = new Set([
+		'arabic',
+		'armenian',
 		'bengali',
 		'bulgarian',
+		'georgian',
 		'greek',
+		'hebrew',
 		'hindi',
 		'korean',
 		'malayalam',
-		'russian'
+		'persian',
+		'russian',
+		'ukrainian'
 	]);
 	$: guide = GUIDES.has(lang.slug) ? `/${lang.slug}-alphabet-guide` : null;
 
