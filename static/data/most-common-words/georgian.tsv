@@ -24,7 +24,7 @@ rank	word	english	ipa
 23	შენი	your, yours	[ʃe̞ni]
 24	ვარ	to be	[väɾ]
 25	ხარ	to be	[χäɾ]
-26	იყო	to be	
+26	იყო	to be	[iχʼo]
 27	ჩვენ	we	[t͡ʃʰʷe̞n]
 28	არის	to be	[äɾis]
 29	ძალიან	very	[d͡zäliän]
@@ -35,7 +35,7 @@ rank	word	english	ipa
 34	ვიცი	first-person singular present simple of იცის: I know	[vit͡sʰi]
 35	რაც	that, which, that which, it that, it which	[ɾät͡sʰ]
 36	როგორ	how	[ɾo̞ɡo̞ɾ]
-37	როგორც	as	
+37	როგორც	as	[ɾoɡoɾt͡sʰ]
 38	რატომ	why	[ɾätʼo̞m]
 39	მისი	his/her/its	[misi]
 40	ასე	so, like this, like so, thus	[äse̞]
@@ -46,7 +46,7 @@ rank	word	english	ipa
 45	მათ	they, those	[mätʰ]
 46	ერთად	conjointly, together	[e̞ɾtʰätʰ]
 47	როცა	when	[ɾo̞t͡sʰä]
-48	ნუ	Expresses negation combined with prohibition; corresponds…	
+48	ნუ	Expresses negation combined with prohibition; corresponds…	[nu]
 49	ხომ	Used when the response is expected to be confirmative. It…	[χo̞m]
 50	ჩვენი	our	[t͡ʃʰʷe̞ni]
 51	ჩემს	dative/adverbial attributive of ჩემი	[t͡ʃʰe̞ms]
@@ -98,7 +98,7 @@ rank	word	english	ipa
 97	თავი	self	[tʰävi]
 98	მაინც	still, anyway	[mäint͡sʰ]
 99	იმ	that	[im]
-100	ამის	this	
+100	ამის	this	[amis]
 101	სულ	completely, entirely, all, the whole of	[sul]
 102	სმა	to drink	[smä]
 103	დღეს	today	[d̥ʁe̞s]
@@ -127,12 +127,12 @@ rank	word	english	ipa
 126	ხართ	to be	[χäɾtʰ]
 127	რადგან	because	[ɾädɡän]
 128	თქმა	to say	[tʰkʰmä]
-129	ჩრდილოეთის	north	
+129	ჩრდილოეთის	north	[t͡ʃʰɾdiloetʰis]
 130	საკუთარი	own	[säkʼutʰäɾi]
 131	უკან	back, backwards	[ukʼän]
 132	გამო	because of	[ɡ̊ämo̞]
 133	მეტი	more	[me̞tʼi]
-134	წლის	year	
+134	წლის	year	[t͡sʼlis]
 135	მართლა	really	[mäɾtʰɫä]
 136	ყველაზე	A form of ყველა having a postposition: -ზე	[χʼʷe̞ɫäze̞]
 137	შესახებ	about, concerning, regarding	[ʃe̞säχe̞pʰ]
@@ -156,8 +156,8 @@ rank	word	english	ipa
 155	ვიდრე	than	[vidɾe̞]
 156	იქ	there, therein	[ikʰ]
 157	თუმცა	though	[tʰumt͡sʰä]
-158	ერთ	country, nation	
-159	თავის	head	
+158	ერთ	country, nation	[eɾtʰ]
+159	თავის	head	[tʰavis]
 160	იგი	he, she, it	[iɡi]
 161	მზად	ready	[mzätʰ]
 162	დღე	day	[d̥ʁe̞]
@@ -188,7 +188,7 @@ rank	word	english	ipa
 187	განა	adds a nuance of surprise to questions, and is used when…	[ɡ̊änä]
 188	არასდროს	never	[äɾäsdɾo̞s]
 189	რამე	something	[ɾäme̞]
-190	ანუ	Used to connect words of similar meaning when the next word…	
+190	ანუ	Used to connect words of similar meaning when the next word…	[anu]
 191	წინ	forward, ahead	[t͡sʼin]
 192	ისეთი	such	[ise̞tʰi]
 193	ესე	synonym of ასე	[e̞se̞]
@@ -221,7 +221,7 @@ rank	word	english	ipa
 220	გოგო	girl	[ɡ̊o̞ɡo̞]
 221	ჩანს	to be visible	[t͡ʃʰäns]
 222	თავისი	his, her, its	[tʰävisi]
-223	ხოლმე	Used to mark repetitive or habitual action. In past…	
+223	ხოლმე	Used to mark repetitive or habitual action. In past…	[χolme]
 224	გვჭირდება	to need	[ɡ̊ʷt͡ʃʼiɾde̞bä]
 225	მეორე	second	[me̞o̞ɾe̞]
 226	ახალი	new, fresh	[äχäli]
@@ -238,10 +238,10 @@ rank	word	english	ipa
 237	უკაცრავად	excuse me, sorry	[ukʼät͡sʰɾävätʰ]
 238	გთხოვთ	please, I ask...; I'm begging you	[ɡ̊tʰχo̞ftʰ]
 239	ვიცოდი	to know	[vit͡sʰo̞di]
-240	რკინის	iron	
+240	რკინის	iron	[ɾkʼinis]
 241	არმია	army	[äɾmiä]
 242	ნამდვილი	real	[nämdʷili]
-243	სუნთქვა	to breathe	
+243	სუნთქვა	to breathe	[suntʰkʰʷa]
 244	მინდოდა	to want	[mindo̞dä]
 245	სახელი	name	[säχe̞li]
 246	რათა	in order to, so that	[ɾätʰä]
@@ -279,7 +279,7 @@ rank	word	english	ipa
 278	ერთმანეთს	each other	[e̞ɾtʰmäne̞tʰs]
 279	კვლავ	again	[kʼʷɫäv]
 280	ჩემთვის	postpositional form with -თვის of მე	[t͡ʃʰe̞mtʰʷis]
-281	ღმერთო	God	
+281	ღმერთო	God	[ʁmeɾtʰo]
 282	სადაც	where	[sädät͡sʰ]
 283	ერთხელ	once	[e̞ɾtʰχe̞l]
 284	ხო	yeah	[χo̞]
@@ -348,13 +348,13 @@ rank	word	english	ipa
 347	მძიმე	comma	[md͡zime̞]
 348	ზოგჯერ	sometimes	[zo̞ɡd͡ʒe̞ɾ]
 349	თითქოს	as if	[tʰitʰkʰo̞s]
-350	ოჯახის	family	
+350	ოჯახის	family	[od͡ʒaχis]
 351	შესაძლოა	possibly	[ʃe̞säd͡zɫo̞ä]
 352	იცოდი	to know	[it͡sʰo̞di]
-353	კაცების	man	
+353	კაცების	man	[kʼat͡sʰebis]
 354	ღრიალი	roar	[ʁɾiäli]
 355	სამი	three	[sämi]
-356	წავიდეთ	to go	
+356	წავიდეთ	to go	[t͡sʼavidetʰ]
 357	რაიმე	any, anything	[ɾäime̞]
 358	ვის	who	[vis]
 359	ძლიერი	strong	[d͡zlie̞ɾi]
@@ -376,10 +376,10 @@ rank	word	english	ipa
 375	შეუძლიათ	to be able to	[ʃe̞ud͡zliätʰ]
 376	სამეფოს	kingdom	[säme̞pʰo̞s]
 377	ყორანი	raven	[χʼo̞ɾäni]
-378	ღვთის	God	
+378	ღვთის	God	[ʁvtʰis]
 379	დაცვა	to defend	[d̥ät͡sʰʷä]
-380	სიყვარულო	love	
-381	მშვიდობისა	peace	
+380	სიყვარულო	love	[siχʼʷaɾulo]
+381	მშვიდობისა	peace	[mʃʷidobisa]
 382	უბედური	calamitous, hapless, ill-fated, sorry, unhappy, unlucky,…	[ube̞duɾi]
 383	ცოცხალი	alive, animate, brisk, live, lively, living, spirited, spry	[t͡sʰo̞t͡sʰχäli]
 384	წითელი	red	[t͡sʼitʰe̞li]
@@ -402,7 +402,7 @@ rank	word	english	ipa
 401	თორემ	or else, otherwise	[tʰo̞ɾe̞m]
 402	მეგობარს	friend	[me̞ɡo̞bäɾs]
 403	იცით	to know	[it͡sʰitʰ]
-404	ღმერთები	God	
+404	ღმერთები	God	[ʁmeɾtʰebi]
 405	საუკეთესო	nice, okay, well, good	[säukʼe̞tʰe̞so̞]
 406	ადგილი	place	[ädɡili]
 407	მომეცი	to give	[mo̞me̞t͡sʰi]
@@ -411,7 +411,7 @@ rank	word	english	ipa
 410	ცხოვრებას	life	[t͡sʰχo̞vɾe̞bäs]
 411	ძმას	brother	[d͡zmäs]
 412	საუბარი	conversation, talk	[säubäɾi]
-413	ბიჭო	bastard, illegitimate child	
+413	ბიჭო	bastard, illegitimate child	[bit͡ʃʼo]
 414	ლამა	llama, lama	[ɫämä]
 415	წასვლა	to go	[t͡sʼäsʷɫä]
 416	ციხე	fortress	[t͡sʰiχe̞]
@@ -421,20 +421,20 @@ rank	word	english	ipa
 420	ვიქნებით	to be	[vikʰne̞bitʰ]
 421	ისევე	in that same way	[ise̞ve̞]
 422	უკანასკნელი	last	[ukʼänäskʼne̞li]
-423	შვილები	child	
+423	შვილები	child	[ʃʷilebi]
 424	ადამიანის	human, person	[ädämiänis]
 425	შვიდი	seven	[ʃʷidi]
 426	მოგვიანებით	later	[mo̞ɡʷiäne̞bitʰ]
 427	უფლება	right, claim	[upʰle̞bä]
-428	ღმერთს	God	
+428	ღმერთს	God	[ʁmeɾtʰs]
 429	გითხრა	to tell	[ɡ̊itʰχɾä]
-430	თვალები	eye	
+430	თვალები	eye	[tʰʷalebi]
 431	მკვდარი	dead	/mkʼvdari/
 432	იციან	to know	[it͡sʰiän]
-433	ღმერთმა	God	
+433	ღმერთმა	God	[ʁmeɾtʰma]
 434	მომწონს	to like	[mo̞mt͡sʼo̞ns]
 435	ხანი	A period of time; time	[χäni]
-436	უფლის	The Lord	
+436	უფლის	The Lord	[upʰlis]
 437	ვთქვი	to say	[ftʰkʰʷi]
 438	არანაირი	Lacking anything similar	[äɾänäiɾi]
 439	მოგწონს	to like	[mo̞ɡt͡sʼo̞ns]
@@ -454,7 +454,7 @@ rank	word	english	ipa
 453	შინ	home	[ʃin]
 454	ბებია	grandmother, grannie, granny	[b̥e̞biä]
 455	ადამიანი	human, person	[ädämiäni]
-456	ღამის	night	
+456	ღამის	night	[ʁamis]
 457	დაბრუნება	to return, to give back	[d̥äbɾune̞bä]
 458	სახლიდან	postpositional suffixed with -დან of სახლი	[säχlidän]
 459	არჩევანი	assortment, choice, option	[äɾt͡ʃʰe̞väni]
@@ -495,13 +495,13 @@ rank	word	english	ipa
 494	შიგნით	inside	[ʃiɡnitʰ]
 495	ხშირად	often, frequently	[χʃiɾätʰ]
 496	ერთმანეთი	each other	[e̞ɾtʰmäne̞tʰi]
-497	ქალები	woman	
+497	ქალები	woman	[kʰalebi]
 498	სამეფო	kingdom	[säme̞pʰo̞]
 499	ახალ	new, fresh	[äχäl]
 500	მოდით	let's	[mo̞ditʰ]
 501	მოსწონს	to like	[mo̞st͡sʼo̞ns]
 502	სიმართლე	truth	[simäɾtʰle̞]
-503	კაცის	man	
+503	კაცის	man	[kʼat͡sʰis]
 504	კვნესა	groan, moan, groan, lament, moan	[kʼʷne̞sä]
 505	რწმენა	faith, belief	[ɾt͡sʼme̞nä]
 506	არამედ	On the contrary, but rather, but	[äɾäme̞tʰ]
@@ -520,7 +520,7 @@ rank	word	english	ipa
 519	შენმა	your, yours	[ʃe̞nmä]
 520	აკეთებს	to make	[äkʼe̞tʰe̞bs]
 521	ქმრის	husband	[kʰmɾis]
-522	დედის	mother	
+522	დედის	mother	[dedis]
 523	ქვეყნად	country	[kʰʷe̞χʼnätʰ]
 524	საკმაოდ	enough, pretty, quite, rather	[säkʼmäo̞tʰ]
 525	ხანგრძლივი	lasting, long-lived	[χäŋɡɾd͡zlivi]
@@ -541,7 +541,7 @@ rank	word	english	ipa
 540	მიხარია	to be happy because of something; to be made happy by…	[miχäɾiä]
 541	დიდხანს	long	[d̥idχäns]
 542	წყალი	water	[t͡sʼχʼäli]
-543	ქალის	woman	
+543	ქალის	woman	[kʰalis]
 544	ცოდვილი	peccable, profane, sinful, unhallowed, wicked, sinner	[t͡sʰo̞dʷili]
 545	ხუმრობა	joke	[χumɾo̞bä]
 546	ხელს	hand	[χe̞ls]
@@ -556,11 +556,11 @@ rank	word	english	ipa
 555	ვერასოდეს	alternative form of ვერასდროს	[ve̞ɾäso̞de̞s]
 556	ყოველი	each	[χʼo̞ve̞li]
 557	გარდა	besides; except for	[ɡ̊äɾdä]
-558	სიცოცხლის	life	
+558	სიცოცხლის	life	[sit͡sʰot͡sʰχlis]
 559	ხანდახან	sometimes	[χändäχän]
 560	მოვიდნენ	to come	[mo̞vidne̞n]
 561	ათასი	thousand	[ätʰäsi]
-562	ცოლად	wife	
+562	ცოლად	wife	[t͡sʰolatʰ]
 563	ჩვენთვის	postpositional form with -თვის of ჩვენ	[t͡ʃʰʷe̞ntʰʷis]
 564	მანამდე	before that	[mänämde̞]
 565	დავიწყოთ	to begin, to start, to initiate	[d̥ävit͡sʼχʼo̞tʰ]
@@ -574,8 +574,8 @@ rank	word	english	ipa
 573	თითქმის	almost, nearly	[tʰitʰkʰmis]
 574	დაიწყო	to begin, to start, to initiate	[d̥äit͡sʼχʼo̞]
 575	უფალი	The Lord	[upʰäli]
-576	ამისთვის	for this	
-577	ხნის	A period of time; time	
+576	ამისთვის	for this	[amistʰʷis]
+577	ხნის	A period of time; time	[χnis]
 578	ჩრდილოეთით	north	[t͡ʃʰɾdiɫo̞e̞tʰitʰ]
 579	ვაპირებ	to plan on, be going to	[väpʼiɾe̞pʰ]
 580	გეუბნები	to tell	[ɡ̊e̞ubne̞bi]
@@ -586,15 +586,15 @@ rank	word	english	ipa
 585	ვერა	no	[ve̞ɾä]
 586	სწორედ	exactly, precisely	[st͡sʼo̞ɾe̞tʰ]
 587	იყავით	to be	[iχʼävitʰ]
-588	კედლის	wall	
+588	კედლის	wall	[kʼedlis]
 589	მუშაობს	to work	[muʃäo̞bs]
-590	შვილს	child	
-591	საქმეები	affair	
+590	შვილს	child	[ʃʷils]
+591	საქმეები	affair	[sakʰmeebi]
 592	ღამეს	at night	[ʁäme̞s]
 593	დილას	in the morning	[d̥iɫäs]
 594	რეკვა	to phone, to toll, to ring, to telephone	[ɾe̞kʼʷä]
 595	კარები	double doors	[kʼäɾe̞bi]
-596	განმავლობაში	during	
+596	განმავლობაში	during	[ɡanmavlobaʃi]
 597	ძალით	constrainedly	[d͡zälitʰ]
 598	ყურადღება	attention, heed, mindfulness, regard, watch	[χʼuɾädʁe̞bä]
 599	საჭიროება	need	[sät͡ʃʼiɾo̞e̞bä]
@@ -618,7 +618,7 @@ rank	word	english	ipa
 617	სჭირდება	to need	[st͡ʃʼiɾde̞bä]
 618	მოკლედ	briefly, in short	[mo̞kʼle̞tʰ]
 619	ჟამს	pest, plague	[ʒäms]
-620	ღამით	night	
+620	ღამით	night	[ʁamitʰ]
 621	ცეკვა	dance	[t͡sʰe̞kʼʷä]
 622	ზეობა	heyday, golden age, renaissance, apex/pinnacle of power,…	[ze̞o̞bä]
 623	ნებისმიერი	whate'er, whatever, whatsoe'er, whatsoever, either	[ne̞bismie̞ɾi]
@@ -652,7 +652,7 @@ rank	word	english	ipa
 651	ვერაფერი	nothing, not … anything	[ve̞ɾäpʰe̞ɾi]
 652	მიიღებს	to get, to receive	[miiʁe̞bs]
 653	დასვენება	rest, relaxation, unburdening, recuperation, repose,…	[d̥äsʷe̞ne̞bä]
-654	კაცები	man	
+654	კაცები	man	[kʼat͡sʰebi]
 655	შეცდომა	error, lapse, mistake, slip-up	[ʃe̞t͡sʰdo̞mä]
 656	მამაო	father	[mämäo̞]
 657	ლაპარაკი	speech, talk	[ɫäpʼäɾäkʼi]
@@ -666,18 +666,18 @@ rank	word	english	ipa
 665	სამუდამოდ	forever	[sämudämo̞tʰ]
 666	მოხუცი	old, elderly	[mo̞χut͡sʰi]
 667	რაში	wherein, in what	[ɾäʃi]
-668	სამყაროს	world, Universe	
+668	სამყაროს	world, Universe	[samχʼaɾos]
 669	იქნებით	to be	[ikʰne̞bitʰ]
 670	ჯარისკაცი	soldier	[d͡ʒäɾiskʼät͡sʰi]
 671	სიკვდილით	death	[sikʼʷdilitʰ]
 672	შესანიშნავი	excellent, remarkable, great	[ʃe̞säniʃnävi]
-673	აქაურობა	Things of this place or this place	
+673	აქაურობა	Things of this place or this place	[akʰauɾoba]
 674	ნეტავი	alternative form of ნეტა	[ne̞tʼävi]
 675	მშობლები	parent, begetter	[mʃo̞ble̞bi]
 676	ჩხუბი	fight, fray, quarrel, scrimmage, skirmish, spat, brawl,…	[t͡ʃʰχubi]
 677	დაბრუნდი	to return	[d̥äbɾundi]
 678	აპირებს	to plan on, be going to	[äpʼiɾe̞bs]
-679	აქვთ	to have	
+679	აქვთ	to have	[akʰvtʰ]
 680	დღის	day	[d̥ʁis]
 681	მამაშენი	your father	[mämäʃe̞ni]
 682	გადაწყვიტა	to decide, to resolve	[ɡ̊ädät͡sʼχʼʷitʼä]
@@ -690,7 +690,7 @@ rank	word	english	ipa
 689	ბევრად	much	[b̥e̞vɾätʰ]
 690	ოდნავ	slightly	[o̞dnäv]
 691	კმაყოფილი	content, contented, satisfied	[kʼmäχʼo̞pʰili]
-692	ცხენის	horse	
+692	ცხენის	horse	[t͡sʰχenis]
 693	გილოცავ	first-person singular present indicative with second-person…	[ɡ̊iɫo̞t͡sʰäv]
 694	გმადლობ	thank you	[ɡ̊mädɫo̞pʰ]
 695	ბინძური	very dirty	[b̥ind͡zuɾi]
@@ -719,7 +719,7 @@ rank	word	english	ipa
 718	მოდიხარ	to come	[mo̞diχäɾ]
 719	თეატრში	postpositional suffixed with -ში of თეატრი	[tʰe̞ätʼɾʃi]
 720	უარესი	bad	[uäɾe̞si]
-721	რახან	alternative form of რადგან	
+721	რახან	alternative form of რადგან	[ɾaχan]
 722	იდეალური	ideal	[ide̞äɫuɾi]
 723	მხიარული	blithe, blithesome, breezy, buoyant, cheerful, chirpy, gay,…	[mχiäɾuli]
 724	უყურებს	to watch, look at	[uχʼuɾe̞bs]
@@ -766,21 +766,21 @@ rank	word	english	ipa
 765	ცხოვრობ	to live, reside	[t͡sʰχo̞vɾo̞pʰ]
 766	გადავწყვიტე	to decide, to resolve	[ɡ̊ädäft͡sʼχʼʷitʼe̞]
 767	მოვდივარ	to come	[mo̞vdiväɾ]
-768	ამბები	news	
+768	ამბები	news	[ambebi]
 769	გაცილებით	far	[ɡ̊ät͡sʰile̞bitʰ]
 770	დროის	time	[d̥ɾo̞is]
 771	მაგარი	hard, firm, strong	[mäɡäɾi]
-772	კაცთან	man	
+772	კაცთან	man	[kʼat͡sʰtʰan]
 773	ცივი	cold	[t͡sʰivi]
 774	მობრძანდით	second-person plural imperative of ბრძანდება and…	[mo̞bɾd͡zänditʰ]
-775	მომავლის	future	
+775	მომავლის	future	[momavlis]
 776	ბავშვის	baby, child	[b̥äfʃʷis]
 777	მასე	so, like that	[mäse̞]
-778	გემები	ship	
+778	გემები	ship	[ɡemebi]
 779	მეომარი	warrior	[me̞o̞mäɾi]
 780	შესაფერისი	apposite, appropriate, apropos, apt, befitting, meet,…	[ʃe̞säpʰe̞ɾisi]
 781	საერთოდ	at all	[säe̞ɾtʰo̞tʰ]
-782	ბიჭები	bastard, illegitimate child	
+782	ბიჭები	bastard, illegitimate child	[bit͡ʃʼebi]
 783	ყოფნა	existence, being	[χʼo̞pʰnä]
 784	დავლიოთ	to drink	[d̥ävlio̞tʰ]
 785	ამბავი	news	[ämbävi]
@@ -793,7 +793,7 @@ rank	word	english	ipa
 792	ზღვის	sea	[zʁʷis]
 793	შენგან	postpositional suffixed with -გან of შენ	[ʃe̞ŋɡän]
 794	დანაშაული	crime	[d̥änäʃäuli]
-795	კაცმა	man	
+795	კაცმა	man	[kʼat͡sʰma]
 796	გაყიდე	to sell	[ɡ̊äχʼide̞]
 797	მანდ	there	[mäntʰ]
 798	ვდგავარ	to stand	[vdɡäväɾ]
@@ -811,10 +811,10 @@ rank	word	english	ipa
 810	მანქანა	machine	[mäŋkʰänä]
 811	სასამართლო	court	[säsämäɾtʰɫo̞]
 812	იღება	to open	[iʁe̞bä]
-813	სიმართლეს	truth	
-814	სიტყვები	word	
+813	სიმართლეს	truth	[simaɾtʰles]
+814	სიტყვები	word	[sitʼχʼʷebi]
 815	სახის	face	[säχis]
-816	შვილო	child	
+816	შვილო	child	[ʃʷilo]
 817	შევიდეთ	to enter, to go inwards	[ʃe̞vide̞tʰ]
 818	გავაკეთებ	to make	[ɡ̊äväkʼe̞tʰe̞pʰ]
 819	ზემოთ	above, up, upstairs	[ze̞mo̞tʰ]
@@ -831,12 +831,12 @@ rank	word	english	ipa
 830	სტუმრები	guest	[stʼumɾe̞bi]
 831	მოშლა	verbal noun of მოიშლება	[mo̞ʃɫä]
 832	დაუფლება	to gain control	[d̥äupʰle̞bä]
-833	გეების	gay man	
-834	ბატონო	gentleman, mister, sir	
+833	გეების	gay man	[ɡeebis]
+834	ბატონო	gentleman, mister, sir	[batʼono]
 835	უცხო	strange	[ut͡sʰχo̞]
 836	რომლის	that, which	[ɾo̞mlis]
 837	მისმა	his/her/its	[mismä]
-838	ქალბატონო	madam, lady, Ms, Mrs	
+838	ქალბატონო	madam, lady, Ms, Mrs	[kʰalbatʼono]
 839	ჰყავდა	to have	[hχʼävdä]
 840	ჭკვიანი	smart, gifted	[t͡ʃʼkʼʷiäni]
 841	ერთგულება	adherence, allegiance, devotion, faithfulness, fidelity,…	[e̞ɾtʰɡule̞bä]
@@ -847,7 +847,7 @@ rank	word	english	ipa
 846	ფლოტი	fleet, marine, navy	[pʰɫo̞tʼi]
 847	ყური	ear	[χʼuɾi]
 848	ფერი	color, hue	[pʰe̞ɾi]
-849	ქვის	stone	
+849	ქვის	stone	[kʰʷis]
 850	გამოსავალი	solution, way out	[ɡ̊ämo̞säväli]
 851	გამოდის	to come out, to leave	[ɡ̊ämo̞dis]
 852	ზედმეტად	overly, excessively, too much, exorbitantly, superfluously	[ze̞dme̞tʼätʰ]
@@ -880,7 +880,7 @@ rank	word	english	ipa
 879	დროზე	on time	[d̥ɾo̞ze̞]
 880	მეფემ	king	[me̞pʰe̞m]
 881	ეპიზოდი	episode	[e̞pʼizo̞di]
-882	ამჯერად	this time, on this occasion	
+882	ამჯერად	this time, on this occasion	[amd͡ʒeɾatʰ]
 883	სეზონი	season	[se̞zo̞ni]
 884	მშვიდობა	peace	[mʃʷido̞bä]
 885	დაინახავს	to see	[d̥äinäχäfs]
@@ -910,14 +910,14 @@ rank	word	english	ipa
 909	მდგომარეობა	condition, shape, state, status, situation, standing	[mdɡo̞mäɾe̞o̞bä]
 910	რაინდი	knight	[ɾäindi]
 911	ხელით	manually	[χe̞litʰ]
-912	უფალს	The Lord	
+912	უფალს	The Lord	[upʰals]
 913	სვლა	an act of walking	[sʷɫä]
 914	ზამთარი	winter	[zämtʰäɾi]
 915	ვითომ	as if	[vitʰo̞m]
 916	დგას	to stand	[d̥ɡäs]
 917	ვიღაც	someone	[viʁät͡sʰ]
 918	მოსმენა	listening, hearing	[mo̞sme̞nä]
-919	გაგება	verbal noun of გაიგებს	
+919	გაგება	verbal noun of გაიგებს	[ɡaɡeba]
 920	სადღაც	somewhere	[sädʁät͡sʰ]
 921	ნახევარი	half	[näχe̞väɾi]
 922	მეთაური	leader, head	[me̞tʰäuɾi]
@@ -934,7 +934,7 @@ rank	word	english	ipa
 933	იტყვით	to say	[itʼχʼʷitʰ]
 934	მოწყალება	alms	[mo̞t͡sʼχʼäle̞bä]
 935	შურისძიება	retribution, revenge, vengeance, avenge	[ʃuɾisd͡zie̞bä]
-936	გულის	heart	
+936	გულის	heart	[ɡulis]
 937	მცირე	small, insignificant	[mt͡sʰiɾe̞]
 938	კაკუნი	knocking	[kʼäkʼuni]
 939	გადასახდელი	to be paid, due, payable, owed	[ɡ̊ädäsäχde̞li]
@@ -945,12 +945,12 @@ rank	word	english	ipa
 944	დე	clipping of დედა or დედი; mom, mum, mummy	[d̥e̞]
 945	ნაბიჯები	footstep	[näbid͡ʒe̞bi]
 946	ფიქრი	thought	[pʰikʰɾi]
-947	ცხოველები	beastly animal	
-948	გეები	gay man	
+947	ცხოველები	beastly animal	[t͡sʰχovelebi]
+948	გეები	gay man	[ɡeebi]
 949	მსახიობი	actor, artist, entertainer, play-actor	[msäχio̞bi]
 950	მუშაობა	work	[muʃäo̞bä]
 951	ზამთრის	winter	[zämtʰɾis]
-952	სიყვარულს	love	
+952	სიყვარულს	love	[siχʼʷaɾuls]
 953	ვდგავართ	to stand	[vdɡäväɾtʰ]
 954	დაკარგვა	to lose	[d̥äkʼäɾɡʷä]
 955	უსახო	faceless	[usäχo̞]
@@ -1000,7 +1000,7 @@ rank	word	english	ipa
 999	ჯარი	army, host	[d͡ʒäɾi]
 1000	სამწუხაროდ	unfortunately, deplorably, lamentably, regrettably	[sämt͡sʼuχäɾo̞tʰ]
 1001	მოიცა	alternative form of მოიცადე	[mo̞it͡sʰä]
-1002	რასა	race	
+1002	რასა	race	[ɾasa]
 1003	გეგმა	plan	[ɡ̊e̞ɡmä]
 1004	ქარიშხალი	storm	[kʰäɾiʃχäli]
 1005	ადამიანური	human	[ädämiänuɾi]
@@ -1028,7 +1028,7 @@ rank	word	english	ipa
 1027	მოკეტე	shut up!	[mo̞kʼe̞tʼe̞]
 1028	გყავთ	to have	[ɡ̊χʼäftʰ]
 1029	ტირილი	cry	[tʼiɾili]
-1030	ყურადღებას	attention, heed, mindfulness, regard, watch	
+1030	ყურადღებას	attention, heed, mindfulness, regard, watch	[χʼuɾadʁebas]
 1031	გამარჯობათ	hello	[ɡ̊ämäɾd͡ʒo̞bätʰ]
 1032	არმიით	army	[äɾmiitʰ]
 1033	ადი	to go upwards	[ädi]
@@ -1038,14 +1038,14 @@ rank	word	english	ipa
 1037	უთქვამს	to say	[utʰkʰʷäms]
 1038	მორჩი	spray, sprig, sprout	[mo̞ɾt͡ʃʰi]
 1039	საათზე	postpositional suffixed with -ზე of საათი	[säätʰze̞]
-1040	კითხვები	question	
+1040	კითხვები	question	[kʼitʰχʷebi]
 1041	უსაფრთხოდ	safely, securely	[usäpʰɾtʰχo̞tʰ]
 1042	კვირას	on Sunday, Sunday	[kʼʷiɾäs]
 1043	სახლისთვის	postpositional suffixed with -თვის of სახლი	[säχlistʰʷis]
 1044	ახლო	close, near	[äχɫo̞]
 1045	ათი	ten	[ätʰi]
 1046	წუთი	minute	[t͡sʼutʰi]
-1047	რაღაცები	something	
+1047	რაღაცები	something	[ɾaʁat͡sʰebi]
 1048	ვცხოვრობ	to live, reside	[ft͡sʰχo̞vɾo̞pʰ]
 1049	კვირა	week	[kʼʷiɾä]
 1050	პაქტი	pact	[pʼäkʰtʼi]
@@ -1059,7 +1059,7 @@ rank	word	english	ipa
 1058	შუა	between, among	[ʃuä]
 1059	უნდათ	to want	[undätʰ]
 1060	ბრძანება	order, command, commandment, behest, bidding	[b̥ɾd͡zäne̞bä]
-1061	თმის	hair	
+1061	თმის	hair	[tʰmis]
 1062	პრინცესა	princess	[pʼɾint͡sʰe̞sä]
 1063	აზრს	opinion	[äzɾs]
 1064	გააკეთოს	to make	[ɡ̊ääkʼe̞tʰo̞s]
@@ -1070,7 +1070,7 @@ rank	word	english	ipa
 1069	დილა	morning	[d̥iɫä]
 1070	გაჩერდი	to stop	[ɡ̊ät͡ʃʰe̞ɾdi]
 1071	ბუზი	fly	[b̥uzi]
-1072	ტელეფონით	phone, telephone	
+1072	ტელეფონით	phone, telephone	[tʼelepʰonitʰ]
 1073	დაბრუნებას	dative singular of დაბრუნება	[d̥äbɾune̞bäs]
 1074	კვალი	trail	[kʼʷäli]
 1075	გრძელი	long	[ɡ̊ɾd͡ze̞li]
@@ -1094,7 +1094,7 @@ rank	word	english	ipa
 1093	გადაღმა	across	[ɡ̊ädäʁmä]
 1094	მშია	to be hungry	[mʃiä]
 1095	გტკივა	to suffer, to feel pain	[ɡ̊tʼkʼivä]
-1096	ფეხები	leg	
+1096	ფეხები	leg	[pʰeχebi]
 1097	გემსახუროთ	to serve	[ɡ̊e̞msäχuɾo̞tʰ]
 1098	კინო	movie	[kʼino̞]
 1099	გიყვარვარ	second-person singular present indicative with first-person…	[ɡ̊iχʼʷäɾʷäɾ]
@@ -1129,8 +1129,8 @@ rank	word	english	ipa
 1128	ცვლილება	alteration, change, mutation, permutation, reversal, shift,…	[t͡sʰʷlile̞bä]
 1129	მარცხი	baffle, balk, bust, miscarriage, wreck, wrecks	[mäɾt͡sʰχi]
 1130	სხვაგვარად	alias, other, otherwise	[sχʷäɡʷäɾätʰ]
-1131	შეხება	to touch	
-1132	ანკარა	pure, clear, transparent	
+1131	შეხება	to touch	[ʃeχeba]
+1132	ანკარა	pure, clear, transparent	[ankʼaɾa]
 1133	დავბრუნდი	to return	[d̥ävbɾundi]
 1134	მეტისმეტად	exorbitantly, superfluously, too, excessively, overly, too…	[me̞tʼisme̞tʼätʰ]
 1135	ჭამ	to eat	[t͡ʃʼäm]
@@ -1142,7 +1142,7 @@ rank	word	english	ipa
 1141	ძრავა	engine	[d͡zɾävä]
 1142	სამუშაო	job	[sämuʃäo̞]
 1143	იდიოტი	idiot	[idio̞tʼi]
-1144	კაცზე	man	
+1144	კაცზე	man	[kʼat͡sʰze]
 1145	წერილები	letter	[t͡sʼe̞ɾile̞bi]
 1146	დაუყოვნებლივ	immediately, instantly	[d̥äuχʼo̞vne̞bliv]
 1147	ტუსაღი	prisoner, captive	[tʼusäʁi]
@@ -1159,7 +1159,7 @@ rank	word	english	ipa
 1158	ავირჩევ	to choose	[äviɾt͡ʃʰe̞v]
 1159	ჭორი	gossip, rumour, whispering	[t͡ʃʼo̞ɾi]
 1160	მთარგმნელი	translator, interpreter	[mtʰäɾɡmne̞li]
-1161	წინაპართა	ancestor, ancestress, forbear, forefather, progenitor	
+1161	წინაპართა	ancestor, ancestress, forbear, forefather, progenitor	[t͡sʼinapʼaɾtʰa]
 1162	ღირსება	dignity, worthiness	[ʁiɾse̞bä]
 1163	მისცემ	to give	[mist͡sʰe̞m]
 1164	თანაცხოვრება	cohabitation, cohabit	[tʰänät͡sʰχo̞vɾe̞bä]
@@ -1201,9 +1201,9 @@ rank	word	english	ipa
 1200	ჩაიცვი	to get dressed	[t͡ʃʰäit͡sʰʷi]
 1201	უკანა	rear, back, hind, posterior	[ukʼänä]
 1202	მწვანე	green	/mt͡sʼvanɛ/
-1203	ჯინსი	jeans	
+1203	ჯინსი	jeans	[d͡ʒinsi]
 1204	მეგობართან	postpositional suffixed with -თან of მეგობარი	[me̞ɡo̞bäɾtʰän]
-1205	ქალებს	woman	
+1205	ქალებს	woman	[kʰalebs]
 1206	ხურდა	change	[χuɾdä]
 1207	ქუჩის	street	[kʰut͡ʃʰis]
 1208	მძინარე	sleeping	[md͡zinäɾe̞]
@@ -1221,7 +1221,7 @@ rank	word	english	ipa
 1220	მართავს	to manage, to administer, to govern, to rule, to lead	[mäɾtʰäfs]
 1221	კალმახი	trout	[kʼälmäχi]
 1222	მღერიან	to sing	[mʁe̞ɾiän]
-1223	ხელები	hand	
+1223	ხელები	hand	[χelebi]
 1224	არია	aria	[äɾiä]
 1225	სიზმარი	dream	[sizmäɾi]
 1226	კედელი	wall	[kʼe̞de̞li]
@@ -1230,8 +1230,8 @@ rank	word	english	ipa
 1229	გამოუცხადეს	to declare	[ɡ̊ämo̞ut͡sʰχäde̞s]
 1230	სისხლი	blood	[sisχli]
 1231	შექმნა	to create	[ʃe̞kʰmnä]
-1232	გროვა	heap	
-1233	შეეხება	to touch	
+1232	გროვა	heap	[ɡɾova]
+1233	შეეხება	to touch	[ʃeeχeba]
 1234	ქალაქს	town, city	[kʰäɫäkʰs]
 1235	აღიაროს	to acknowledge, to recognize	[äʁiäɾo̞s]
 1236	შური	envy	[ʃuɾi]
@@ -1251,15 +1251,15 @@ rank	word	english	ipa
 1250	რადგანაც	because	[ɾädɡänät͡sʰ]
 1251	ეშინია	to be afraid, to be scared, to be terrified	[e̞ʃiniä]
 1252	ეშინიათ	to be afraid, to be scared, to be terrified	[e̞ʃiniätʰ]
-1253	მიწები	ground, land	
+1253	მიწები	ground, land	[mit͡sʼebi]
 1254	სამხრეთით	south	[sämχɾe̞tʰitʰ]
-1255	სიცოცხლეს	life	
+1255	სიცოცხლეს	life	[sit͡sʰot͡sʰχles]
 1256	დამპყრობელი	conqueror, invader	[d̥ämpʼχʼɾo̞be̞li]
 1257	აკეთებდი	to make	[äkʼe̞tʰe̞bdi]
-1258	შედეგები	result	
+1258	შედეგები	result	[ʃedeɡebi]
 1259	გამატარეთ	second-person plural aorist indicative, taking first-person…	[ɡ̊ämätʼäɾe̞tʰ]
 1260	დღემდე	till today	[d̥ʁe̞mde̞]
-1261	ყურის	ear	
+1261	ყურის	ear	[χʼuɾis]
 1262	მაგივრად	instead of	[mäɡivɾätʰ]
 1263	ლომი	lion	[ɫo̞mi]
 1264	შეხვდი	to meet	[ʃe̞χʷdi]
@@ -1269,21 +1269,21 @@ rank	word	english	ipa
 1268	სამჯერ	thrice, three times	[sämd͡ʒe̞ɾ]
 1269	ჭინკა	imp	[t͡ʃʼiŋkʼä]
 1270	ყვითელი	yellow	[χʼʷitʰe̞li]
-1271	ღმერთებო	God	
+1271	ღმერთებო	God	[ʁmeɾtʰebo]
 1272	ლურჯი	blue	[ɫuɾd͡ʒi]
 1273	ვერცხლისფერი	argent, silvery	[ve̞ɾt͡sʰχlispʰe̞ɾi]
 1274	კაცად	man	[kʼät͡sʰätʰ]
 1275	მსუქანი	fat, fatty	[msukʰäni]
-1276	ფლობა	to own, to possess	
-1277	ვიცნობ	first-person singular present simple of ცნობა; I know…	
+1276	ფლობა	to own, to possess	[pʰloba]
+1277	ვიცნობ	first-person singular present simple of ცნობა; I know…	[vit͡sʰnopʰ]
 1278	დათმობს	to unwillingly give up, to surrender unwillingly	[d̥ätʰmo̞bs]
 1279	იქამდე	to there	[ikʰämde̞]
 1280	სხვისი	other's, someone else's	[sχʷisi]
-1281	ადამიანთა	human, person	
+1281	ადამიანთა	human, person	[adamiantʰa]
 1282	იმით	therewith, therewithal	[imitʰ]
 1283	არმიას	army	[äɾmiäs]
 1284	პირობა	promise	[pʼiɾo̞bä]
-1285	ცეცხლს	fire	
+1285	ცეცხლს	fire	[t͡sʰet͡sʰχls]
 1286	სამსახურში	postpositional suffixed with -ში of სამსახური	[sämsäχuɾʃi]
 1287	მარაგი	fund, hoard, spare, spares, stockpile, store	[mäɾäɡi]
 1288	მოლაპარაკება	negotiation, parley	[mo̞ɫäpʼäɾäkʼe̞bä]
@@ -1297,7 +1297,7 @@ rank	word	english	ipa
 1296	პანდა	panda	[pʼändä]
 1297	იცნობს	to know	[it͡sʰno̞bs]
 1298	ლამის	almost, nearly	[ɫämis]
-1299	ცოლს	wife	
+1299	ცოლს	wife	[t͡sʰols]
 1300	გნებავთ	to want, to have a need	[ɡ̊ne̞bäftʰ]
 1301	შევხვდეთ	to meet	[ʃe̞fχʷde̞tʰ]
 1302	გისმენთ	first-person singular present indicative, taking…	[ɡ̊isme̞ntʰ]
@@ -1320,13 +1320,13 @@ rank	word	english	ipa
 1319	საშინელება	dreadfulness, fearfulness, gruesomeness, horridness, horror	[säʃine̞le̞bä]
 1320	გყავდა	to have	[ɡ̊χʼävdä]
 1321	ვიხდი	to take off	[viχdi]
-1322	ტიპი	type	
+1322	ტიპი	type	[tʼipʼi]
 1323	ავიღოთ	to take	[äviʁo̞tʰ]
 1324	ვიყიდე	to buy	[viχʼide̞]
 1325	სართულზე	postpositional suffixed with -ზე of სართული	[säɾtʰulze̞]
 1326	გაიცანით	to know	[ɡ̊äit͡sʰänitʰ]
 1327	კარგა	very, fairly, rather, noticeably	[kʼäɾɡä]
-1328	სავსებით	fully, completely, entirely, quite	
+1328	სავსებით	fully, completely, entirely, quite	[savsebitʰ]
 1329	იპოვე	to find	[ipʼo̞ve̞]
 1330	წარმატებები	success	[t͡sʼäɾmätʼe̞be̞bi]
 1331	ბიძია	uncle	[b̥id͡ziä]
@@ -1337,7 +1337,7 @@ rank	word	english	ipa
 1336	ექიმმა	physician, doctor	[e̞kʰimmä]
 1337	ველოდი	to await	[ve̞ɫo̞di]
 1338	მგრძნობიარე	feeling, libidinous, sensitive, sensory	[mɡɾd͡zno̞biäɾe̞]
-1339	მშვიდობის	peace	
+1339	მშვიდობის	peace	[mʃʷidobis]
 1340	უწინდებურად	same as before, as in former times, same as previously,…	[ut͡sʼinde̞buɾätʰ]
 1341	წუთით	minute	[t͡sʼutʰitʰ]
 1342	სხვანაირად	differently, otherwise	[sχʷänäiɾätʰ]
@@ -1362,22 +1362,22 @@ rank	word	english	ipa
 1361	დაიწყე	to begin, to start, to initiate	[d̥äit͡sʼχʼe̞]
 1362	დარჩენილი	residuary, remained, stayed	[d̥äɾt͡ʃʰe̞nili]
 1363	ვიცოდით	to know	[vit͡sʰo̞ditʰ]
-1364	ტყის	forest, wood	
+1364	ტყის	forest, wood	[tʼχʼis]
 1365	გაიგებს	to understand	[ɡ̊äiɡe̞bs]
 1366	წამი	second	[t͡sʼämi]
 1367	შეთანხმება	agreement	[ʃe̞tʰänχme̞bä]
 1368	მტკიცედ	enduringly, hard, resolutely, sturdily, unfalteringly	[mtʼkʼit͡sʰe̞tʰ]
-1369	სიმართლის	truth	
+1369	სიმართლის	truth	[simaɾtʰlis]
 1370	განაჩენი	award, judgement, sentence	[ɡ̊änät͡ʃʰe̞ni]
 1371	ლგბტ	LGBT	[ɫɘɡɘbɘtʼɘ]
 1372	მემკვიდრე	heir, inheritor	[me̞mkʼʷidɾe̞]
 1373	სასიკვდილო	death	[säsikʼʷdiɫo̞]
 1374	პირადად	bodily, peculiarly, personally, privately	[pʼiɾädätʰ]
 1375	როდესმე	sometime	[ɾo̞de̞sme̞]
-1376	ქალაქები	town, city	
+1376	ქალაქები	town, city	[kʰalakʰebi]
 1377	დროებით	provisionally, temporarily	[d̥ɾo̞e̞bitʰ]
 1378	მამაჩემის	the speaker's father; my father	[mämät͡ʃʰe̞mis]
-1379	სიყვარულის	love	
+1379	სიყვარულის	love	[siχʼʷaɾulis]
 1380	უწოდებს	to call, to name	[ut͡sʼo̞de̞bs]
 1381	წერია	to be written	[t͡sʼe̞ɾiä]
 1382	დასრულება	to finish	[d̥äsɾule̞bä]
@@ -1387,8 +1387,8 @@ rank	word	english	ipa
 1386	აღიარებს	to acknowledge, to recognize	[äʁiäɾe̞bs]
 1387	ეტყობა	to appear, to seem	[e̞tʼχʼo̞bä]
 1388	სირი	penis	[siɾi]
-1389	წევრები	member	
-1390	მამის	father	
+1389	წევრები	member	[t͡sʼevɾebi]
+1390	მამის	father	[mamis]
 1391	ბოროტება	evil, malice, spite	[b̥o̞ɾo̞tʼe̞bä]
 1392	მარტივად	simply, easily, plainly, in an uncomplicated way	[mäɾtʼivätʰ]
 1393	რჩეული	chosen, chosen one	[ɾt͡ʃʰe̞uli]
@@ -1398,7 +1398,7 @@ rank	word	english	ipa
 1397	სუსტი	weak	[sustʼi]
 1398	დროში	time	[d̥ɾo̞ʃi]
 1399	მრისხანე	ferocious, redoubtable, truculent, wrathful	[mɾisχäne̞]
-1400	პასუხები	answer	
+1400	პასუხები	answer	[pʼasuχebi]
 1401	შიში	fear, phobia	[ʃiʃi]
 1402	ხეები	tree	[χe̞e̞bi]
 1403	მაგალითად	for example	[mäɡälitʰätʰ]
@@ -1406,7 +1406,7 @@ rank	word	english	ipa
 1405	ერქვა	to be called	[e̞ɾkʰʷä]
 1406	მსგავსი	similar, alike, resembling	[msɡäfsi]
 1407	ღირსეული	worthy	[ʁiɾse̞uli]
-1408	მეგობრების	friend	
+1408	მეგობრების	friend	[meɡobɾebis]
 1409	ხასიათი	disposition, character, mettle	[χäsiätʰi]
 1410	ამინ	amen	[ämin]
 1411	მიდის	to go	[midis]
@@ -1455,7 +1455,7 @@ rank	word	english	ipa
 1454	შეშინებული	afraid, aghast, apprehensive, frightened, boggled, bugged,…	[ʃe̞ʃine̞buli]
 1455	თამაშობს	to play	[tʰämäʃo̞bs]
 1456	გავდივარ	to leave, to go outwards	[ɡ̊ävdiväɾ]
-1457	ჰომოსექსუალები	homosexual, gay or lesbian	
+1457	ჰომოსექსუალები	homosexual, gay or lesbian	[homosekʰsualebi]
 1458	წავიკითხე	to read	[t͡sʼävikʼitʰχe̞]
 1459	სამივე	all three	[sämive̞]
 1460	დიდება	glory, fame	[d̥ide̞bä]
@@ -1465,7 +1465,7 @@ rank	word	english	ipa
 1464	ჰეტეროსექსუალი	heterosexual	[he̞tʼe̞ɾo̞se̞kʰsuäli]
 1465	ძლევამოსილი	mighty, powerful, puissant, triumphant, victorious	[d͡zle̞vämo̞sili]
 1466	დაძინება	verbal noun of დააძინებს	[d̥äd͡zine̞bä]
-1467	შვილის	child	
+1467	შვილის	child	[ʃʷilis]
 1468	უძირო	bottomless, abysmal	[ud͡ziɾo̞]
 1469	ექვსი	six	[e̞kʰʷsi]
 1470	ასწავლის	to teach	[äst͡sʼävlis]
@@ -1476,13 +1476,13 @@ rank	word	english	ipa
 1475	უნარი	capability, proficiency	[unäɾi]
 1476	მივედი	to go	[mive̞di]
 1477	მათთან	postpositional suffixed with -თან of ისინი	[mätʰtʰän]
-1478	ბუნების	nature	
+1478	ბუნების	nature	[bunebis]
 1479	გქონდა	to have	[ɡ̊kʰo̞ndä]
 1480	ერთგულები	devoted, faithful	[e̞ɾtʰɡule̞bi]
 1481	შემდგომ	subsequently	[ʃe̞mdɡo̞m]
 1482	გამოცდილი	experienced, expert, practised, proficient, tested, tried	[ɡ̊ämo̞t͡sʰdili]
 1483	სურვილები	desire, wish	[suɾʷile̞bi]
-1484	ოცნებები	dream, hope, wish	
+1484	ოცნებები	dream, hope, wish	[ot͡sʰnebebi]
 1485	რისხვა	rage	[ɾisχʷä]
 1486	გაგებით	understandably	[ɡ̊äɡe̞bitʰ]
 1487	დაი	used to address a female	[d̥äi]
@@ -1533,7 +1533,7 @@ rank	word	english	ipa
 1532	ეტყვის	to tell	[e̞tʼχʼʷis]
 1533	არს	obsolete spelling of არის	[äɾs]
 1534	აგრძელებს	to lengthen, to make longer	[äɡɾd͡ze̞le̞bs]
-1535	ადგილები	place	
+1535	ადგილები	place	[adɡilebi]
 1536	უბერავს	to puff, to blow	[ube̞ɾäfs]
 1537	აღვირახსნილი	unbridled	[äʁʷiɾäχsnili]
 1538	ატრიალებს	to turn	[ätʼɾiäle̞bs]

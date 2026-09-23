@@ -38,7 +38,8 @@ described below.
 
 An IPA transcription for each word, taken from its Wiktionary entry where there
 is one. Where there is not — mostly inflected forms — eSpeak NG reads the word
-(for Turkish, spelling rules of our own in `scripts/wordlists/ipa-turkish.ts`),
+(for Turkish, Estonian, Albanian, Galician, Georgian and Malay, spelling rules
+of our own in `scripts/wordlists/ipa-turkish.ts` and `ipa-rules.ts`),
 but only in languages where that reading matches Wiktionary's on a sample of
 words that have both; the rest keep an empty column. eSpeak NG is GPL-3.0
 software; what it outputs is not covered by that licence, and the column is
