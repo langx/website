@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Memrise: LangX vs Memrise (2026)'
 date: 2026-09-23T05:40:00.000Z
 excerpt: 'Looking for an open source alternative to Memrise? LangX vs Memrise compared honestly: what Memrise is in 2026, real native speakers vs AI chat, and free plans.'
 coverImage: /images/posts/open-source-alternative-to-memrise.png
+thumbnail: /images/posts/open-source-alternative-to-memrise-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

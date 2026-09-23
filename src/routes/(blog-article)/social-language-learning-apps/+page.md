@@ -4,6 +4,7 @@ title: 'The Best Social Language Learning Apps in 2026'
 date: 2026-09-23T05:58:00.000Z
 excerpt: 'The best social language learning apps in 2026: where you practice with real people through exchange, corrections, pen pals or voice rooms, compared fairly.'
 coverImage: /images/posts/social-language-learning-apps.png
+thumbnail: /images/posts/social-language-learning-apps-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

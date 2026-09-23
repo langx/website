@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Preply: LangX vs Preply (2026)'
 date: 2026-09-23T05:40:00.000Z
 excerpt: 'Looking for a free, open source alternative to Preply? LangX vs Preply compared honestly: a paid tutor subscription vs free peer practice between lessons.'
 coverImage: /images/posts/open-source-alternative-to-preply.png
+thumbnail: /images/posts/open-source-alternative-to-preply-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

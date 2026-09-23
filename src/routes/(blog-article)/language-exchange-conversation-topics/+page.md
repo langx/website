@@ -4,6 +4,7 @@ title: '100 Language Exchange Conversation Topics (by Level)'
 date: 2026-09-23T05:00:00.000Z
 excerpt: '100 language exchange conversation topics and questions for beginner, intermediate and advanced learners, grouped by theme, plus tips to keep the chat going.'
 coverImage: /images/posts/language-exchange-conversation-topics.png
+thumbnail: /images/posts/language-exchange-conversation-topics-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

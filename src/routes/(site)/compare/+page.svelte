@@ -142,6 +142,7 @@
 					<BlogPostCard
 						title={post.title}
 						coverImage={post.coverImage}
+						thumbnail={post.thumbnail}
 						excerpt={post.excerpt}
 						readingTime={post.readingTime}
 						slug={post.slug}
@@ -160,6 +161,7 @@
 					<BlogPostCard
 						title={post.title}
 						coverImage={post.coverImage}
+						thumbnail={post.thumbnail}
 						excerpt={post.excerpt}
 						readingTime={post.readingTime}
 						slug={post.slug}
@@ -180,6 +182,8 @@
 </div>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	.block {
 		border-top: 1px solid var(--color--border);
 		padding: var(--space-xl) 0;
@@ -203,6 +207,11 @@
 			gap: var(--space-sm);
 			padding: 12px 0;
 			border-bottom: 1px solid var(--color--border);
+
+			@include for-phone-only {
+				grid-template-columns: 1fr;
+				gap: 2px;
+			}
 		}
 
 		dt {

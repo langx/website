@@ -33,4 +33,6 @@ export type BlogPost = {
 	readingTime: string;
 	relatedPosts: BlogPost[];
 	coverImage: string | undefined;
+	/** Square image for post lists, drawn by scripts/og/posts.mjs. */
+	thumbnail?: string;
 };

@@ -4,6 +4,7 @@ title: 'Duolingo Alternatives That Actually Get You Speaking (2026)'
 date: 2026-09-23T02:30:00.000Z
 excerpt: 'Duolingo builds the habit, but not conversation. The best Duolingo alternatives for speaking in 2026, by goal: exchange apps, tutors, audio and input.'
 coverImage: /images/posts/duolingo-alternatives-for-speaking.png
+thumbnail: /images/posts/duolingo-alternatives-for-speaking-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

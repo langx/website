@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Slowly: LangX vs Slowly (2026)'
 date: 2026-09-23T05:10:00.000Z
 excerpt: 'Looking for an open source alternative to Slowly? LangX vs Slowly compared honestly: slow pen-pal letters vs fast chat with corrections, free plans and ads.'
 coverImage: /images/posts/open-source-alternative-to-slowly.png
+thumbnail: /images/posts/open-source-alternative-to-slowly-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

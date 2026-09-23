@@ -4,6 +4,7 @@ title: 'The Social Alternative to Duolingo: Practice with Real People'
 date: 2026-09-23T05:55:00.000Z
 excerpt: 'Looking for a social alternative to Duolingo? LangX is a social language app where the lesson is a real conversation with a native speaker learning your language.'
 coverImage: /images/posts/social-alternative-to-duolingo.png
+thumbnail: /images/posts/social-alternative-to-duolingo-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

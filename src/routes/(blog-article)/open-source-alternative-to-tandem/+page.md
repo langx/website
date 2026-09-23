@@ -5,6 +5,7 @@ date: 2024-02-27T11:15:21.800Z
 updated: 2026-09-23T06:00:00.000Z
 excerpt: 'Looking for an open source alternative to Tandem? An honest LangX vs Tandem comparison for 2026: matching, corrections, free plans, calls and community.'
 coverImage: /images/posts/open-source-alternative-to-tandem.png
+thumbnail: /images/posts/open-source-alternative-to-tandem-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

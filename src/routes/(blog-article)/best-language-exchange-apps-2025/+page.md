@@ -4,6 +4,7 @@ title: 'The Best Language Exchange Apps of 2025: A Look Back'
 date: 2026-09-23T05:40:00.000Z
 excerpt: 'The best language exchange apps of 2025 in review: HelloTalk, Tandem, Speaky, Lingbe and more, what changed across the market, and what the year taught us.'
 coverImage: /images/posts/best-language-exchange-apps-2025.png
+thumbnail: /images/posts/best-language-exchange-apps-2025-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

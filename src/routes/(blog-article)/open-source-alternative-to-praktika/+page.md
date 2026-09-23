@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Praktika: LangX vs Praktika (2026)'
 date: 2026-09-23T05:20:00.000Z
 excerpt: 'Want an open source alternative to Praktika? LangX vs Praktika compared fairly: AI avatar tutors vs real native speakers, free plans, and when to use both.'
 coverImage: /images/posts/open-source-alternative-to-praktika.png
+thumbnail: /images/posts/open-source-alternative-to-praktika-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

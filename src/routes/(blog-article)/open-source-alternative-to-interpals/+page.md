@@ -4,6 +4,7 @@ title: 'Open Source Alternative to InterPals: LangX vs InterPals (2026)'
 date: 2026-09-23T05:20:00.000Z
 excerpt: 'Want an open source alternative to InterPals for language exchange? LangX vs InterPals compared fairly: matching, corrections, translation, ads and free use.'
 coverImage: /images/posts/open-source-alternative-to-interpals.png
+thumbnail: /images/posts/open-source-alternative-to-interpals-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

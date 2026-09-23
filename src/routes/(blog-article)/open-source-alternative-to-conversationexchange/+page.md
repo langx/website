@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Conversation Exchange (2026)'
 date: 2026-09-23T04:10:00.000Z
 excerpt: 'Looking for an open source alternative to Conversation Exchange? LangX vs Conversation Exchange compared: matching, corrections, chat, apps, and ads.'
 coverImage: /images/posts/open-source-alternative-to-conversationexchange.png
+thumbnail: /images/posts/open-source-alternative-to-conversationexchange-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

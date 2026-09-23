@@ -4,6 +4,7 @@ title: 'Open Source Alternative to HelloTalk: LangX vs HelloTalk (2026)'
 date: 2026-09-23T02:30:00.000Z
 excerpt: 'Want an open source alternative to HelloTalk? A fair LangX vs HelloTalk comparison for 2026: matching, corrections, Moments, Voicerooms, free plans and ads.'
 coverImage: /images/posts/open-source-alternative-to-hellotalk.png
+thumbnail: /images/posts/open-source-alternative-to-hellotalk-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

@@ -4,6 +4,7 @@ title: 'What Is a Language Exchange? How It Works and Why It Works'
 date: 2026-09-23T02:00:00.000Z
 excerpt: 'A language exchange pairs you with a native speaker who wants to learn your language, so you teach each other. How it works, its history, pros and cons.'
 coverImage: /images/posts/what-is-a-language-exchange.png
+thumbnail: /images/posts/what-is-a-language-exchange-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

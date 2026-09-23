@@ -4,6 +4,7 @@ title: 'How Many Words Do You Need to Be Fluent in a Language?'
 date: 2026-09-23T03:30:00.000Z
 excerpt: 'How many words do you need to be fluent? What the research says (2,000 to 9,000 word families), what that means in practice, and which words to learn first.'
 coverImage: /images/posts/how-many-words-do-you-need-to-be-fluent.png
+thumbnail: /images/posts/how-many-words-do-you-need-to-be-fluent-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

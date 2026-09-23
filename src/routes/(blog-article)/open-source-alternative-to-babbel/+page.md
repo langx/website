@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Babbel: LangX vs Babbel (2026)'
 date: 2026-09-23T05:30:00.000Z
 excerpt: 'Need an open source alternative to Babbel for real conversation? LangX vs Babbel compared honestly, what happened to Babbel Live, and how to use both.'
 coverImage: /images/posts/open-source-alternative-to-babbel.png
+thumbnail: /images/posts/open-source-alternative-to-babbel-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Lingbe: LangX vs Lingbe (2026)'
 date: 2026-09-23T04:30:00.000Z
 excerpt: 'Looking for an open source alternative to Lingbe? LangX vs Lingbe compared: instant voice calls vs chat with corrections, credits, ads, and free plans.'
 coverImage: /images/posts/open-source-alternative-to-lingbe.png
+thumbnail: /images/posts/open-source-alternative-to-lingbe-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

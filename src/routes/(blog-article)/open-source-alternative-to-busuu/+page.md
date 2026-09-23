@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Busuu: LangX vs Busuu (2026)'
 date: 2026-09-23T04:40:00.000Z
 excerpt: 'Want an open source alternative to Busuu for talking with native speakers? LangX vs Busuu compared honestly, plus when to use the two together.'
 coverImage: /images/posts/open-source-alternative-to-busuu.png
+thumbnail: /images/posts/open-source-alternative-to-busuu-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

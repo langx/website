@@ -4,6 +4,7 @@ title: 'The Easiest Languages to Learn for English Speakers (2026)'
 date: 2026-09-23T04:30:00.000Z
 excerpt: 'The easiest languages to learn for English speakers, ranked by the US Foreign Service Institute''s categories, and why Spanish, Dutch and Norwegian are quick.'
 coverImage: /images/posts/easiest-languages-to-learn-for-english-speakers.png
+thumbnail: /images/posts/easiest-languages-to-learn-for-english-speakers-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

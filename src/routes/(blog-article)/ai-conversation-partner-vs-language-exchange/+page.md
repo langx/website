@@ -4,6 +4,7 @@ title: 'AI Conversation Partner vs Real Language Exchange: Which Helps You Speak
 date: 2026-09-23T05:50:00.000Z
 excerpt: 'AI conversation partner or real language exchange? An honest look at what each does best for speaking, where each falls short, and how to combine them.'
 coverImage: /images/posts/ai-conversation-partner-vs-language-exchange.png
+thumbnail: /images/posts/ai-conversation-partner-vs-language-exchange-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

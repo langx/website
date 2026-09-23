@@ -4,6 +4,7 @@ title: 'The 9 Best Language Exchange Apps in 2026 (Honest Comparison)'
 date: 2026-09-23T04:00:00.000Z
 excerpt: 'The best language exchange apps in 2026, compared honestly: HelloTalk, Tandem, Speaky, LangX and more. Free vs paid, voice, safety, and who each one suits.'
 coverImage: /images/posts/best-language-exchange-apps.png
+thumbnail: /images/posts/best-language-exchange-apps-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

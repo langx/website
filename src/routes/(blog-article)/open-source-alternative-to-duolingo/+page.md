@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Duolingo? LangX vs Duolingo (2026)'
 date: 2026-09-23T05:50:00.000Z
 excerpt: 'Is there an open source alternative to Duolingo? An honest LangX vs Duolingo comparison for 2026: bite-size lessons vs real conversation, and using both.'
 coverImage: /images/posts/open-source-alternative-to-duolingo.png
+thumbnail: /images/posts/open-source-alternative-to-duolingo-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Cambly: LangX vs Cambly (2026)'
 date: 2026-09-23T05:30:00.000Z
 excerpt: 'Looking for a free, open source alternative to Cambly for English practice? LangX vs Cambly compared honestly: paid tutors vs free practice between lessons.'
 coverImage: /images/posts/open-source-alternative-to-cambly.png
+thumbnail: /images/posts/open-source-alternative-to-cambly-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

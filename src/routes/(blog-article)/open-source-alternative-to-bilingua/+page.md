@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Bilingua: LangX vs Bilingua (2026)'
 date: 2026-09-23T04:20:00.000Z
 excerpt: 'Bilingua is gone from the app stores. Looking for an open source alternative to Bilingua? See LangX vs Bilingua and the best apps like Bilingua in 2026.'
 coverImage: /images/posts/open-source-alternative-to-bilingua.png
+thumbnail: /images/posts/open-source-alternative-to-bilingua-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

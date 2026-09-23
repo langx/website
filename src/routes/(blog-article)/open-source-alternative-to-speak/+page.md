@@ -4,6 +4,7 @@ title: 'Open Source Alternative to Speak: LangX vs Speak (2026)'
 date: 2026-09-23T05:10:00.000Z
 excerpt: 'Looking for an open source alternative to Speak? LangX vs Speak compared honestly: an AI speaking tutor vs real native speakers, and when to use both.'
 coverImage: /images/posts/open-source-alternative-to-speak.png
+thumbnail: /images/posts/open-source-alternative-to-speak-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink
