@@ -556,7 +556,7 @@ Arabic ذكرى and Malay *kenangan* mean a memory you look back on, a remembran
 
 ## More powerful words people look up
 
-These don't get a table here, but each has its own full page: [princess](/tools/say/princess), [prince](/tools/say/prince), [sword](/tools/say/sword), [mountain](/tools/say/mountain), [river](/tools/say/river), [wind](/tools/say/wind), [energy](/tools/say/energy), [blood](/tools/say/blood), [war](/tools/say/war), [monster](/tools/say/monster), [boss](/tools/say/boss), [idiot](/tools/say/idiot) and [mine](/tools/say/mine). For people rather than ideas, see [family words in different languages](/family-words-in-different-languages).
+These don't get a table here, but each has its own full page: [princess](/tools/say/princess), [prince](/tools/say/prince), [sword](/tools/say/sword), [mountain](/tools/say/mountain), [river](/tools/say/river), [wind](/tools/say/wind), [energy](/tools/say/energy), [blood](/tools/say/blood), [war](/tools/say/war), [monster](/tools/say/monster), [boss](/tools/say/boss), [idiot](/tools/say/idiot) and [mine](/tools/say/mine). Princess, prince, sword and monster now have full tables in [fantasy words in different languages](/fantasy-words-in-different-languages), and war, blood, fate and faith in [strong words in different languages](/strong-words-in-different-languages). For universe, space and planet, see [space words in different languages](/space-words-in-different-languages). For people rather than ideas, see [family words in different languages](/family-words-in-different-languages).
 
 ## Using these words for tattoos, names, writing and gifts
 
