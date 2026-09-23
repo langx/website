@@ -119,14 +119,19 @@
 	{:else if finished}
 		<section class="result">
 			<p class="big tabular">{score}<span>/{rounds.length}</span></p>
-			<p class="grid">
-				{#each rounds as r, i}{picked[i] === r.answer ? '🟩' : '🟥'}{/each}
-			</p>
+			<!-- The grid people share, drawn in the site's own colours; the copied
+			     text keeps the emoji, which is what a chat window can show. -->
+			<ol class="track large" aria-label="{score} right, {rounds.length - score} wrong">
+				{#each rounds as r, i}
+					<li class:right={picked[i] === r.answer} class:wrong={picked[i] !== r.answer} />
+				{/each}
+			</ol>
 
 			<ul class="review" role="list">
 				{#each rounds as r, i}
 					{@const right = byCode.get(r.answer)}
 					<li class:wrong={picked[i] !== r.answer}>
+						<span class="mark" role="img" aria-label={picked[i] === r.answer ? 'Right' : 'Wrong'} />
 						<span class="w"
 							><span lang={r.answer}>{r.word}</span>
 							<SpeakButton
@@ -168,6 +173,16 @@
 	{:else if rounds.length}
 		{@const r = rounds[at]}
 		<p class="progress">Word {at + 1} of {rounds.length}</p>
+		<!-- The day so far, drawn: the text above carries it for screen readers. -->
+		<ol class="track" aria-hidden="true">
+			{#each rounds as round, i}
+				<li
+					class:right={picked[i] !== null && picked[i] === round.answer}
+					class:wrong={picked[i] !== null && picked[i] !== round.answer}
+					class:now={i === at && picked[i] === null}
+				/>
+			{/each}
+		</ol>
 		<!-- Only once answered: the voice would say which language it is. -->
 		<p class="word">
 			<span lang={r.answer}>{r.word}</span>
@@ -202,6 +217,12 @@
 			{/each}
 		</ul>
 
+		<p class="verdict" aria-live="polite">
+			{#if picked[at] !== null}
+				{picked[at] === r.answer ? 'Right.' : `Not quite — it’s ${byCode.get(r.answer)?.name}.`}
+			{/if}
+		</p>
+
 		{#if picked[at] !== null}
 			<div class="nextwrap">
 				<button type="button" class="next" on:click={next}>
@@ -211,7 +232,11 @@
 		{/if}
 	{/if}
 
-	{#if answered}<VoiceCredit codes={rounds.map((r) => r.answer)} />{/if}
+	<!-- Only the rounds already answered: naming a voice's language for a word
+	     still to come would give that answer away. -->
+	{#if answered}<VoiceCredit
+			codes={rounds.filter((_, i) => picked[i] !== null).map((r) => r.answer)}
+		/>{/if}
 
 	<section class="cta">
 		<h2>Recognising a language is the first step.</h2>
@@ -283,14 +308,35 @@
 				cursor: default;
 			}
 
+			// The answer is the one filled shape, and each state has a mark as
+			// well as a colour: green and red alone are one colour to a lot of
+			// people. The same tokens as the game on the home page.
+			&.right,
+			&.wrong {
+				&::after {
+					margin-left: auto;
+					font-size: 1rem;
+					line-height: 1;
+				}
+			}
+
 			&.right {
-				border-color: var(--color--callout-accent--success, #009f70);
-				color: var(--color--callout-accent--success, #009f70);
+				border-color: var(--color--success);
+				background: var(--color--success-tint);
+				color: var(--color--success);
+
+				&::after {
+					content: '✓';
+				}
 			}
 
 			&.wrong {
-				border-color: var(--color--callout-accent--error, #e5484d);
-				color: var(--color--callout-accent--error, #e5484d);
+				border-color: var(--color--error);
+				color: var(--color--error);
+
+				&::after {
+					content: '✕';
+				}
 			}
 
 			@media (hover: hover) and (pointer: fine) {
@@ -301,11 +347,77 @@
 		}
 	}
 
+	.verdict {
+		// Holds its line before the answer, so choosing does not push the page.
+		min-height: 1.5em;
+		margin: calc(var(--space-2xl) * -1 + var(--space-sm)) 0 0;
+		font-family: var(--font--title);
+		font-weight: 800;
+	}
+
 	.nextwrap {
-		// The grid above already carries the space; this only adds the gap
-		// between the answers and the button.
-		margin-top: calc(var(--space-2xl) * -1 + var(--space-md));
+		margin-top: var(--space-sm);
 		padding-bottom: var(--space-2xl);
+	}
+
+	// Ten steps: green for right, red for wrong, ink for the word on screen,
+	// the muted fill for those still to come.
+	.track {
+		display: flex;
+		gap: 4px;
+		margin: var(--space-2xs) 0 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			flex: 0 0 auto;
+			width: 20px;
+			height: 6px;
+			border-radius: var(--radius-pill);
+			background: var(--color--muted);
+			transition: background-color var(--dur-fast) ease;
+
+			&.now {
+				background: var(--color--text);
+			}
+
+			&.right {
+				background: var(--color--success);
+			}
+
+			&.wrong {
+				background: var(--color--error);
+			}
+		}
+
+		&.large {
+			gap: 6px;
+			margin: var(--space-sm) 0 var(--space-lg);
+
+			// Ten 28px squares are 334px with their gaps, wider than a 320px
+			// phone's column; there they shrink together and stay square.
+			li {
+				flex: 0 1 28px;
+				min-width: 0;
+				width: auto;
+				height: auto;
+				aspect-ratio: 1;
+				border-radius: 8px;
+				display: grid;
+				place-items: center;
+				color: var(--color--page-background);
+				font-size: 0.875rem;
+				font-weight: 800;
+
+				&.right::before {
+					content: '✓';
+				}
+
+				&.wrong::before {
+					content: '✕';
+				}
+			}
+		}
 	}
 
 	.next {
@@ -336,12 +448,6 @@
 		}
 	}
 
-	.grid {
-		font-size: 1.375rem;
-		letter-spacing: 2px;
-		margin: var(--space-2xs) 0 var(--space-lg);
-	}
-
 	.review {
 		border-top: 1px solid var(--color--border);
 
@@ -354,9 +460,38 @@
 			border-bottom: 1px solid var(--color--border);
 		}
 
+		// A tick or a cross in a disc, as in the tables in the posts, so the
+		// review reads without the colours too.
+		.mark {
+			flex: 0 0 auto;
+			display: inline-grid;
+			place-items: center;
+			width: 22px;
+			height: 22px;
+			border-radius: var(--radius-pill);
+			background: var(--color--success-tint);
+			color: var(--color--success);
+			font-size: 0.75rem;
+			font-weight: 800;
+
+			&::before {
+				content: '✓';
+			}
+		}
+
+		.wrong .mark {
+			background: var(--color--muted);
+			color: var(--color--error);
+
+			&::before {
+				content: '✕';
+			}
+		}
+
 		.w {
 			font-family: var(--font--title);
 			font-weight: 800;
+			font-size: 1.125rem;
 			min-width: 8rem;
 		}
 
