@@ -54,7 +54,7 @@ Below is a feature-by-feature comparison, checked against each company's own sit
 | Translation | Three free a day; unlimited with Pro | Daily cap on free; unlimited with VIP |
 | AI tools | Grammar check, rewrite, correction explanations (Pro) | AI correction, voice-to-text (capped on free) |
 | Location search | Nearby and Travel filters (Pro) | Nearby search (VIP) |
-| Ads on free tier | Yes | Yes |
+| No ads on free tier | No | No |
 | Paid plan | Tandem Pro | HelloTalk VIP |
 | Platforms | iOS, Android, web | iOS, Android, web (QR login from the phone) |
 | Open source | No | No |

@@ -66,7 +66,7 @@ So when people search for a "Praktika alternative", they usually want one of two
 | Languages | 182 listed in the app | Nine: English, Spanish, French, German, Italian, Portuguese (European and Brazilian), Japanese and Korean |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with limited practice and a free trial; full access needs a subscription |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (Premium subscription) |
-| Ads | None | None listed on Google Play |
+| No ads | Yes | Yes |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS and Android |
 | Community size | Small and growing | No community to match with; 10M+ downloads on Google Play |

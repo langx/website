@@ -93,7 +93,7 @@ So a Busuu alternative can mean two things:
 | Voice | Voice, photo and video messages, read-aloud; no live calls | Spoken exercises that others can correct |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limited features |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (Premium) |
-| Ads | None | Google Play lists the app as containing ads |
+| No ads | Yes | No (Premium removes them) |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community | Smaller and newer | Very large and global |

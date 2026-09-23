@@ -76,7 +76,7 @@ At the time of writing, Tandem's app overview compares the plans like this:
 | Location search (Nearby and Travel) | No | Yes |
 | AI toolkit | No | Grammar check, word definitions, conversation suggestions, rewrite, correction explanations |
 | Custom Tandem ID and Pro badge | No | Yes |
-| Ads | Yes | No ads |
+| No ads | No | Yes |
 
 *Table: Tandem free vs Tandem Pro, from Tandem's app overview (September 2026).*
 

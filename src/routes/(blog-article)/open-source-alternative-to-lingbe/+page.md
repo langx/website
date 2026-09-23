@@ -87,7 +87,7 @@ Its idea is simple. You press the call button and Lingbe connects you with someo
 | How practice is paid for | Free plan with daily limits on new conversations | Credits (lingos) earned by helping others or bought |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: free starter minutes, then earn lingos by helping |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (Pro subscription and lingo packs) |
-| Ads | None | Google Play lists the app as containing ads |
+| No ads | Yes | No |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android |
 | Community | Smaller and newer | Established; around since the mid-2010s |

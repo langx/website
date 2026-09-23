@@ -97,7 +97,7 @@ If you still have an old copy of Bilingua installed, do not rely on it. An app w
 | Voice and calls | Voice, photo and video messages; no live calls | Text-first chat |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Was free to use |
 | Paid plan | Yes (Fluent, Polyglot) | Not relevant today |
-| Ads | None | Not relevant today |
+| No ads | Yes | Not relevant today |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | Formerly iOS, Android, web |
 | Community | Smaller, growing, actively developed | Inactive |

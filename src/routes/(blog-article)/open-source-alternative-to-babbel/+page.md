@@ -72,7 +72,7 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | Languages | 182 listed in the app | 14 |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | The first lesson of each course is free to try; full access needs a subscription |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (subscription) |
-| Ads | None | None listed on Google Play |
+| No ads | Yes | Yes |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | No community to match with; 50M+ downloads on Google Play |

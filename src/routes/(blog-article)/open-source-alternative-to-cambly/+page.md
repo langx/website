@@ -66,7 +66,7 @@ So a "Cambly alternative" can mean two things:
 | Lesson recordings | Not applicable | Recordings and transcripts on some plans |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free plan; you can sign up and browse before subscribing |
 | Paid plan | Yes: Fluent and Polyglot | Yes: subscription plans by minutes and days per week |
-| Ads | None | None listed on Google Play |
+| No ads | Yes | Yes |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | Much larger; 10M+ downloads on Google Play |

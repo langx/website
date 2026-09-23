@@ -74,7 +74,7 @@ So today Memrise is best described as an **official-course app built on native-s
 | Languages | 182 listed in the app | Official courses in around 35 languages for English speakers, plus many more in community courses |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limits; many videos and AI features need a subscription |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (Memrise Pro) |
-| Ads | None | Google Play lists the app as containing ads |
+| No ads | Yes | No (Pro removes them) |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | No community to match with; 50M+ downloads on Google Play |

@@ -66,7 +66,7 @@ So a "Speak alternative" can mean two things:
 | Languages | 182 listed in the app | Spanish, French, Korean, Japanese, Italian and Chinese for English speakers, plus English for learners worldwide |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with a free trial; ongoing use needs a subscription |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (Premium, Premium Plus) |
-| Ads | None | None listed on Google Play |
+| No ads | Yes | Yes |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | No community to match with; 10M+ downloads on Google Play |
