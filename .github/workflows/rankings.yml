@@ -1,0 +1,59 @@
+name: Search rankings
+
+# Monday morning, after Search Console has finished counting last week. Also
+# runnable by hand from the Actions tab.
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      # Only to push the report to the `seo-rankings` branch below.
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+
+      # No `npm install`: the script uses only Node's own modules. The report
+      # also lands in this run's summary, so the Actions tab shows it.
+      - name: Build the report
+        env:
+          # The service account's JSON key, in full. It can only read Search
+          # Console; see the header of scripts/gsc/rankings.mjs.
+          GSC_KEY: ${{ secrets.GSC_SERVICE_ACCOUNT_KEY }}
+          GSC_SITE: ${{ vars.GSC_SITE }}
+        run: node scripts/gsc/rankings.mjs --out rankings
+
+      # History goes to its own branch, never to main: a push to main deploys
+      # the site, and a weekly data file is no reason to redeploy it. A push
+      # made with GITHUB_TOKEN does not start other workflows either.
+      - name: Save to the seo-rankings branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin seo-rankings > /dev/null; then
+            git fetch --depth 1 origin seo-rankings
+            git worktree add history FETCH_HEAD
+            git -C history checkout -B seo-rankings
+          else
+            git worktree add --detach history
+            git -C history checkout --orphan seo-rankings
+            git -C history rm -rfq .
+          fi
+          cp rankings/* history/
+          git -C history add -A
+          # A second run in the same week writes the same files.
+          if git -C history diff --cached --quiet; then
+            echo 'No change since the last run.'
+            exit 0
+          fi
+          git -C history commit -qm "Rankings to $(ls rankings/*.json | xargs -n1 basename | sed 's/\.json$//')"
+          git -C history push origin seo-rankings
