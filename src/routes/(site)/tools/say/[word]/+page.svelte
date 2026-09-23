@@ -218,6 +218,24 @@
 	const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 
 	/**
+	 * Armenian and Georgian letters, set in the fallback face, run wider than
+	 * the rest; their words get a smaller share of the tile per letter.
+	 */
+	const WIDE_SCRIPT = new Set(['hy', 'ka']);
+	const letters = (r: Row) => [...r.word].length;
+	/**
+	 * Which tiles take a full row on a phone, where a tile is half the screen:
+	 * a word too long for half a screen at the smallest size, and — so no row
+	 * is left with a hole — the first short tile when the short ones are odd.
+	 */
+	$: phoneWide = (() => {
+		const long = showcase.map((r) => letters(r) >= (WIDE_SCRIPT.has(r.code) ? 9 : 11));
+		const shortCount = long.filter((l) => !l).length;
+		const firstShort = long.indexOf(false);
+		return long.map((l, i) => l || (shortCount % 2 === 1 && i === firstShort));
+	})();
+
+	/**
 	 * Most rows gloss to the very word the page is about, which is a column of
 	 * "water" down a page titled water. Only the ones that say something else —
 	 * a narrower sense, a second meaning — are worth the space.
@@ -281,10 +299,14 @@
 		<ul
 			class="showcase"
 			role="list"
+			data-count={showcase.length}
 			aria-label="“{entry.word}” in {showcase.length} writing systems"
 		>
-			{#each showcase as r}
-				<li>
+			{#each showcase as r, i}
+				<li
+					class:wide={phoneWide[i]}
+					style="--len: {Math.max(letters(r), 6)}; --k: {WIDE_SCRIPT.has(r.code) ? 105 : 130}"
+				>
 					<span class="big" lang={r.code} dir={RTL.has(r.code) ? 'rtl' : undefined}>{r.word}</span>
 					<span class="which">
 						<span class="lang-name">{r.name}</span>
@@ -456,6 +478,11 @@
 	// The word in six writing systems, big enough to see the shapes: three
 	// across on a wide screen, two on a phone. Tiles take the ground with a
 	// hairline, like every other surface on the page.
+	// The word in up to six writing systems, big enough to see the shapes.
+	// The grid follows the count, so no row is left with a hole in it:
+	//   3 — one row;  4 — one row of four;  5 — the first tile spans two
+	//   columns over a row of three;  6 — two rows of three.
+	// A phone has two columns and its own rule, below.
 	.showcase {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -464,8 +491,26 @@
 		padding: 0;
 		list-style: none;
 
+		@include for-tablet-portrait-up {
+			&[data-count='4'] {
+				grid-template-columns: repeat(4, 1fr);
+			}
+
+			&[data-count='5'] li:first-child {
+				grid-column: span 2;
+			}
+		}
+
+		// On a phone the tiles are half the screen; `wide` ones (a long word,
+		// or the odd one out) take the whole row — see phoneWide — and `dense`
+		// lets a later short tile fill the half row a wide one skipped past.
 		@include for-phone-only {
 			grid-template-columns: repeat(2, 1fr);
+			grid-auto-flow: dense;
+
+			li.wide {
+				grid-column: span 2;
+			}
 		}
 
 		li {
@@ -478,13 +523,22 @@
 			padding: 16px 16px 12px;
 			border: 1px solid var(--color--border);
 			border-radius: var(--radius-lg);
+			// The word sizes itself to its tile (below), so each tile is a
+			// container of its own width.
+			container-type: inline-size;
 		}
 	}
 
 	.big {
 		font-family: var(--font--title);
 		font-weight: 800;
-		font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.125rem);
+		// Short words at full size; long ones shrink to fit their tile on one
+		// line — պատասխանատվություն is eighteen letters — rather than break
+		// mid-word. A letter runs up to about 0.77em wide, so a tile's width
+		// divided by (length × 0.77) is the size that fits: --k is 130 (that
+		// share, in cqi), 105 for the wider Armenian and Georgian; --len is the
+		// word's length, never below six.
+		font-size: clamp(1rem, calc(var(--k) * 1cqi / var(--len)), 2.125rem);
 		line-height: 1.15;
 		overflow-wrap: anywhere;
 		// A right-to-left word keeps its direction but sits on the same edge
