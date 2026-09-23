@@ -110,7 +110,7 @@ stays open source under BSD-3, and you can host your own instance.
 > section 2.4 of the [privacy policy](/privacy-policy) says what is in one.
 > This website is not recorded.
 
-The full comparison is on the [plans page](/pro).
+The full comparison is on the [plans page](/plans).
 
 ## The second: LangX Token is not what the litepaper described
 

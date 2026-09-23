@@ -34,7 +34,7 @@ If you want an open source alternative to Speak that gets you talking with real 
 <KeyTakeaways items={[
   "Speak is an AI speaking tutor: a structured course where you talk out loud and get instant AI feedback.",
   "LangX is a language exchange with real native speakers and unlimited human corrections.",
-  "LangX is free, has no ads and is open source (BSD-3), but has no lessons or AI tutor today.",
+  "LangX is free, has no ads and is open source (BSD-3); it has free Echo phrase packs to review, but no spoken lessons or AI tutor today.",
   "Best together: rehearse with Speak's AI, then use the phrases on LangX the same day."
 ]} />
 
@@ -44,7 +44,7 @@ We make LangX, so we have a stake in this. Everything about Speak below comes fr
 
 [Speak](https://www.speak.com) is an **AI speaking tutor**. It was founded in 2016 in San Francisco by Speakeasy Labs, is backed by the OpenAI Startup Fund, and is built around what it calls the Speak Method: learn phrases native speakers actually use, practice them until they are automatic, then apply them in back-and-forth conversation with the Speak Tutor AI. You speak out loud the whole time, and the app gives real-time feedback on pronunciation and phrasing.
 
-LangX is a **language exchange app**. There are no lessons and no AI tutor today. You are matched with people who speak the language you are learning and are learning a language you speak, and you have real conversations with them, with corrections, translation and voice messages built into the chat.
+LangX is a **language exchange app**. There is no lesson path and no AI tutor today; what you can study alone is Echo, free spaced-repetition packs of phrases in six languages, read aloud. You are matched with people who speak the language you are learning and are learning a language you speak, and you have real conversations with them, with corrections, translation and voice messages built into the chat.
 
 So a "Speak alternative" can mean two things:
 
@@ -59,7 +59,7 @@ So a "Speak alternative" can mean two things:
 | --- | --- | --- |
 | What it is | Language exchange app with real people | AI speaking tutor with a structured course |
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | The Speak Tutor AI, in lessons, roleplays and free talk |
-| Lessons | None | Expert-built course with tutor lessons, drills, roleplays and vocab builders |
+| Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Expert-built course with tutor lessons, drills, roleplays and vocab builders |
 | Corrections | A human partner can correct any message; unlimited on every plan | Instant AI feedback on pronunciation and phrasing |
 | Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; no live calls | You speak out loud to the AI throughout; no human calls |
@@ -152,7 +152,7 @@ Speak focuses on a handful of major languages. LangX lists 182 languages, so if 
 
 ### Open source, and a real free plan
 
-The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license, so anyone can read the code or host their own instance. Speak is closed source. LangX Free is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. The [plans page](/pro) has the details.
+The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license, so anyone can read the code or host their own instance. Speak is closed source. LangX Free is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. The [plans page](/plans) has the details.
 
 ### No ads, and honest analytics
 
@@ -161,7 +161,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 ### What LangX does not do
 
 - **No AI tutor today.** LangX Copilot, private AI feedback while you practice, is planned for Polyglot but has not shipped yet.
-- **No lessons or drills.** If you cannot yet form a sentence, LangX will not teach you how.
+- **No spoken lessons or drills.** Echo's free phrase packs are read aloud and reviewed on a schedule, but if you cannot yet form a sentence, LangX will not teach you how.
 - **No live calls,** only voice messages.
 - **Humans are not instant.** Your partner has a life and a time zone, and a smaller community means fewer people for some language pairs.
 

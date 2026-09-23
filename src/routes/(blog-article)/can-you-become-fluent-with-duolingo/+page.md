@@ -125,7 +125,7 @@ Our guide to [Duolingo alternatives for speaking](/duolingo-alternatives-for-spe
   ]}
 />
 
-On LangX, a partner corrects you by holding the message and writing the fix, and corrections and replies are unlimited on every plan, including Free. The honest limits: the community is smaller than the biggest exchange apps, the Free plan starts 5 new conversations a day, and there are no live calls; you practice with text, voice, photo and video messages. Details are on the [plans page](/pro).
+On LangX, a partner corrects you by holding the message and writing the fix, and corrections and replies are unlimited on every plan, including Free. The honest limits: the community is smaller than the biggest exchange apps, the Free plan starts 5 new conversations a day, and there are no live calls; you practice with text, voice, photo and video messages. Details are on the [plans page](/plans).
 
 <AppDemo
   screen="chat"

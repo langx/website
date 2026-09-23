@@ -96,7 +96,7 @@ Our app. [LangX](https://get.langx.io) matches in both directions, so every pers
 - **Filters by country, age and level** on Free, so you can find partners at a level that suits you.
 - **No ads** on any plan.
 
-The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI feedback, LangX Copilot, is planned for Polyglot but not shipped. Plans are on the [plans page](/pro).
+The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI feedback, LangX Copilot, is planned for Polyglot but not shipped. Plans are on the [plans page](/plans).
 
 <AppDemo
   screen="chat"

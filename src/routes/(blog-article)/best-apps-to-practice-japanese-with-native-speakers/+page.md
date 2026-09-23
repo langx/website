@@ -118,7 +118,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or see [Tandem v
 Our app. [LangX](https://get.langx.io) matches in both directions: you see Japanese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters in a language where so many mistakes are about register rather than grammar. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful when you cannot yet sound out the kanji.
 
 - **Best for:** careful written practice with corrections, and no ads.
-- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Japanese partners can take longer. There are **no live calls**, only text, voice and photo messages. Free allows 5 new conversations a day, with unlimited replies. On the Polyglot plan you can export a conversation's saved phrases as a file that opens in Anki. See [plans](/pro).
+- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Japanese partners can take longer. There are **no live calls**, only text, voice and photo messages. Free allows 5 new conversations a day, with unlimited replies. On the Polyglot plan you can export a conversation's saved phrases as a file that opens in Anki. See [plans](/plans).
 
 <AppDemo
   screen="chat"

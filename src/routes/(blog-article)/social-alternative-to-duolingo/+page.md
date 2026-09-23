@@ -99,13 +99,13 @@ If the game side is what you love about Duolingo, it is here too:
 
 The difference from Duolingo is what earns the points. On LangX you climb by talking to people and helping them learn your language.
 
-<Callout type="info">LangX is not a course. There is no lesson path, grammar unit or placement test. It works best once you can write a few simple sentences, which is roughly where Duolingo gets you.</Callout>
+<Callout type="info">LangX is not a course. There is no lesson path, grammar unit or placement test — Echo, its free spaced-repetition tab, gives you phrase packs to review, not lessons. It works best once you can write a few simple sentences, which is roughly where Duolingo gets you.</Callout>
 
 ## Duolingo vs LangX at a glance
 
 <VersusCard
   a={{ name: "Duolingo", tagline: "Course app with game-like lessons", points: ["You practice with the app, and an AI character on paid plans", "Friends, Friend Streaks, Friends Quests and leagues", "Structured lessons in every course", "No direct messaging between learners"], bestFor: "starting from zero and building the habit" }}
-  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "No lesson path and no live calls"], bestFor: "using what you learned with a real person" }}
+  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "Echo: free phrase packs to review", "No lesson path and no live calls"], bestFor: "using what you learned with a real person" }}
 />
 
 | | Duolingo | LangX |
@@ -117,7 +117,7 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 | Feedback | Automatic, against model answers | Corrections from native speakers, unlimited on every plan |
 | Speaking | Speaking exercises; AI Video Call and Roleplay on paid plans | Voice notes, read-aloud; no live calls |
 | Streaks and games | Streaks, XP, leagues, gems | Streaks, tokens, weekly/monthly/yearly/all-time leaderboards |
-| Structured lessons | Yes | No |
+| Structured lessons | Yes | No lesson path; Echo has free phrase packs to review |
 | Free plan | Yes, every course | Yes: unlimited replies and corrections, 5 new conversations a day, 20 translations a day |
 | No ads | No (Super removes them) | Yes |
 | Open source | No | Yes (BSD-3) |
@@ -159,7 +159,7 @@ If you want to compare LangX with the other apps where you practice with real pe
 
 ## Is LangX free like Duolingo?
 
-Yes. The Free plan is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages and extra filters; see the [plans page](/pro). Prices are set per region and shown in the app. Tokens cannot buy a paid plan.
+Yes. The Free plan is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app. Tokens cannot buy a paid plan.
 
 A note on privacy, since social apps involve other people's messages as well as yours: LangX has no ads and no advertising identifiers. It does use product analytics (PostHog, on its EU cloud), including a masked screen recording on iOS and Android that replaces every word and image with a grey block on your device. It is on by default and switches off in Settings → Privacy → Share usage data.
 

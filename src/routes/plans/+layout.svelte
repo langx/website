@@ -4,7 +4,7 @@
 
 <SiteShell
 	title="LangX plans"
-	path="/pro"
+	path="/plans"
 	description="What Fluent and Polyglot add, what stays free, and why corrections are unlimited on every plan."
 >
 	<slot />

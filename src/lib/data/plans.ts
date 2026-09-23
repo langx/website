@@ -25,6 +25,12 @@ export type Plan = {
 	/** `pro` and `pro-plus` tint the card the way the app tints the tier. */
 	tone?: 'pro' | 'pro-plus';
 	points: PlanPoint[];
+	/**
+	 * The four or five lines the card on /plans shows: the pitch, not the
+	 * record. Every one restates a point above (or, for Free, Echo — see
+	 * echo.ts), so the long list stays the only place a limit is defined.
+	 */
+	highlights: PlanPoint[];
 };
 
 export const plans: Plan[] = [
@@ -52,6 +58,13 @@ export const plans: Plan[] = [
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
 			{ label: '5 photos on your profile' }
+		],
+		highlights: [
+			{ label: 'Unlimited replies and corrections' },
+			{ label: '5 new conversations a day' },
+			{ label: '20 translations a day' },
+			{ label: 'Echo packs to learn from, free' },
+			{ label: 'No ads' }
 		]
 	},
 	{
@@ -73,6 +86,13 @@ export const plans: Plan[] = [
 				label: 'Boosted profile',
 				note: 'A Boosted strip above the Discover list, shown to everyone whose languages match yours. On by default; switch it off in Settings.'
 			}
+		],
+		highlights: [
+			{ label: 'Unlimited new conversations' },
+			{ label: '300 translations a day' },
+			{ label: '2 languages you learn, 2 you speak' },
+			{ label: 'Gender and city filters' },
+			{ label: 'Boosted profile' }
 		]
 	},
 	{
@@ -107,8 +127,34 @@ export const plans: Plan[] = [
 				note: 'Private AI feedback while you practise.',
 				pending: true
 			}
+		],
+		highlights: [
+			{ label: '1000 translations a day' },
+			{ label: '5 languages you learn, 5 you speak' },
+			{ label: 'Who viewed you, incognito, Nearby' },
+			{ label: 'Write in your language, send in theirs' },
+			{ label: 'LangX Copilot', pending: true }
 		]
 	}
+];
+
+/**
+ * The metered things, one row each, for the bars on /plans: the same numbers
+ * as the lists above, in the order Free, Fluent, Polyglot. `null` is
+ * unlimited; `shown` is the label when the number alone would mislead.
+ */
+export type LimitRow = {
+	label: string;
+	values: [number | null, number | null, number | null];
+	shown?: [string, string, string];
+};
+
+export const limits: LimitRow[] = [
+	{ label: 'New conversations a day', values: [5, null, null] },
+	{ label: 'Translations a day', values: [20, 300, 1000] },
+	{ label: 'Chat messages read aloud a day', values: [15, 100, 250] },
+	{ label: 'Echo cards read aloud a day', values: [10, 50, 100] },
+	{ label: 'Languages, learning + native', values: [2, 4, 10], shown: ['1 + 1', '2 + 2', '5 + 5'] }
 ];
 
 /** The three lines worth keeping under the plans. Everything else was noise. */

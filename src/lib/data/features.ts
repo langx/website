@@ -7,7 +7,7 @@ import type { Feature } from '$lib/utils/types';
 //
 // Matching, corrections and streaks are demonstrated with live screens higher
 // up the homepage, so they are not repeated here. Keep each line short and
-// plain; the details live on /pro and in the FAQ.
+// plain; the details live on /plans and in the FAQ.
 //
 // NOTE: `image` still points at v1 screenshots in `static/images/features/`.
 // Nothing renders them any more.

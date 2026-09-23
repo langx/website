@@ -121,7 +121,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Chinese as the language you are learning and you see Chinese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, so a wrong character or a missing measure word can be fixed right where you wrote it. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful when you cannot yet sound out the characters.
 
 - **Best for:** careful written practice with corrections, and no ads.
-- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Chinese partners can take longer. There are **no live calls**, only text, voice, photo and video messages; voice messages are how you practice tones. Free allows 5 new conversations a day, with unlimited replies. See [plans](/pro).
+- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Chinese partners can take longer. There are **no live calls**, only text, voice, photo and video messages; voice messages are how you practice tones. Free allows 5 new conversations a day, with unlimited replies. See [plans](/plans).
 
 <AppDemo
   screen="chat"

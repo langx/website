@@ -121,7 +121,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem).
 This is our app. [LangX](https://get.langx.io) matches in both directions: if you are learning English and speak, say, Portuguese, you only see English speakers who are learning Portuguese. That helps with the most common problem English learners hit on bigger apps: native speakers swamped with requests.
 
 - **Best for:** writing practice with corrections at the center. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**. Translation is built into the chat (20 a day on Free), and there are voice and photo messages and read-aloud for listening.
-- **Keep in mind:** the community is much smaller than HelloTalk's or Tandem's. There are **no live calls**; speaking practice happens through voice messages. The Free plan allows 5 new conversations a day, with unlimited replies. There are no ads on any plan; see [plans](/pro) for the rest.
+- **Keep in mind:** the community is much smaller than HelloTalk's or Tandem's. There are **no live calls**; speaking practice happens through voice messages. The Free plan allows 5 new conversations a day, with unlimited replies. There are no ads on any plan; see [plans](/plans) for the rest.
 
 <AppDemo
   screen="chat"

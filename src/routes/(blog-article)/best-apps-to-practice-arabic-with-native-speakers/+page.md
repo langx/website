@@ -132,7 +132,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Arabic as the language you are learning and you see Arabic speakers who are learning a language you speak. The country filter is on every plan, including Free, so you can look for partners in Egypt, Lebanon or Morocco. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**. Translation is inside the chat (20 a day on Free).
 
 - **Best for:** careful written practice in Arabic script, with no ads.
-- **Keep in mind:** ask about dialect in your first message, since a country filter only tells you where someone lives. The community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+- **Keep in mind:** ask about dialect in your first message, since a country filter only tells you where someone lives. The community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"

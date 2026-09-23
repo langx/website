@@ -135,7 +135,7 @@ When you are ready to start, our guides on [what a language exchange is](/what-i
 
 The one thing LangX has announced publicly for the future is **LangX Copilot**, private AI feedback inside the chat, which is planned for the Polyglot plan and is coming later. It is not shipped yet, and we are not giving it a date here.
 
-Everything else on LangX today is already in the app: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/pro), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
+Everything else on LangX today is already in the app: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/plans), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
 
 <ProsCons
   name="LangX heading into 2027"

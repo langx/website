@@ -1,23 +1,28 @@
 <script lang="ts">
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import { reveal } from '$lib/utils/reveal';
-	import { faqObjects } from '$lib/data/faq';
+	import { faqObjects, type FaqObject } from '$lib/data/faq';
+
+	/** The homepage questions unless a page brings its own; ids must be unique on the page. */
+	export let items: FaqObject[] = faqObjects;
+	export let eyebrow = 'FAQ';
+	export let title = 'Questions';
 
 	// The first answer is open on arrival, so the list reads as answers, not a
 	// row of closed doors.
-	let openId: number | null = faqObjects[0].id;
+	let openId: number | null = items[0]?.id ?? null;
 
 	const toggle = (id: number) => (openId = openId === id ? null : id);
 </script>
 
 <section id="faq" class="faq">
 	<header class="head" data-reveal use:reveal>
-		<span class="eyebrow">FAQ</span>
-		<h2>Questions</h2>
+		<span class="eyebrow">{eyebrow}</span>
+		<h2>{title}</h2>
 	</header>
 
 	<div class="accordion" data-reveal use:reveal>
-		{#each faqObjects as item (item.id)}
+		{#each items as item (item.id)}
 			<div class="item" class:open={openId === item.id}>
 				<h3>
 					<button

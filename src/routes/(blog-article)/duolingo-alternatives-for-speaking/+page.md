@@ -136,7 +136,7 @@ it does differently:
 The honest limits: the free plan lets you start 5 new conversations a day
 (replies are unlimited) and translate 20 messages a day; the paid plans,
 Fluent and Polyglot, raise those and add filters, as listed on the
-[plans page](/pro). LangX is younger and its community is smaller than Tandem's
+[plans page](/plans). LangX is younger and its community is smaller than Tandem's
 or HelloTalk's, and conversations happen in chat, with text, voice notes and
 photos, rather than in scheduled video lessons. LangX Copilot, private AI
 feedback, is not shipped yet.

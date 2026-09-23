@@ -13,7 +13,7 @@
 	/** Page title. Suffixed with the brand unless it is long, and never on the homepage. */
 	export let title: string | null = null;
 	export let description: string = defaultDescription;
-	/** Path, not a full URL — e.g. `/pro`. */
+	/** Path, not a full URL — e.g. `/plans`. */
 	export let path: string = '';
 	/** Kept out of the index, for pages like the 404 that must not rank. */
 	export let noindex = false;

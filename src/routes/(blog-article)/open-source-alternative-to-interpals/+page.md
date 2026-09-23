@@ -152,7 +152,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free InterPals alternative?
 
-Yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile, extra filters, and features like "who viewed you" and incognito; see the [plans page](/pro). Prices are set per region and shown in the app.
+Yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile, extra filters, and features like "who viewed you" and incognito; see the [plans page](/plans). Prices are set per region and shown in the app.
 
 InterPals is free too, and its FAQ mentions no subscription. So the choice comes down to what you want from the people you meet: a broad pen-pal community, or a focused language exchange with tools for learning.
 

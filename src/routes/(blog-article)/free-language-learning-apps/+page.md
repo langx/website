@@ -51,7 +51,7 @@ We make LangX, a language exchange app, so its limits are listed as plainly as e
 | Duolingo | Course | Free, with ads | Every course, including B2 content in nine popular courses | No ads, no Energy limit (Super); AI Video Call and Roleplay (Max) |
 | Anki | Flashcards | Free and open source | Desktop, Android (AnkiDroid) and AnkiWeb sync | Nothing to unlock; the iPhone app is paid |
 | Language Transfer | Audio course | Free, donation-funded | All courses, no ads, no sign-up | Nothing; donations are optional |
-| LangX | Language exchange | Free plan, no ads | Unlimited messages, replies and corrections; 5 new chats and 20 translations a day | More new chats, translations, languages and filters (Fluent, Polyglot) |
+| LangX | Language exchange | Free plan, no ads | Unlimited messages, replies and corrections; 5 new chats and 20 translations a day; Echo phrase packs in six languages | More new chats, translations, languages and filters (Fluent, Polyglot) |
 | HelloTalk | Language exchange | Free, with ads | Chat, calls, Moments, Voicerooms | No ads, no daily caps on translation and AI tools (VIP) |
 | Tandem | Language exchange | Free, with ads | Chat, calls, corrections; 10 new chats and 3 translations a day | No ads, 30 chats, unlimited translation, AI tools (Pro) |
 | Busuu | Course plus community | Limited, with ads | Lessons with a short ad before each | No ads, full course, unlimited community corrections |
@@ -103,7 +103,7 @@ Exchange apps are the only free way to talk with real native speakers, because y
 
 - **[HelloTalk](https://www.hellotalk.com)**: text and voice chat, calls, Moments (a feed where natives correct your posts) and Voicerooms are free. Translation, AI correction and voice-to-text have daily caps, and there are ads; VIP removes both. See [Is HelloTalk free?](/is-hellotalk-free)
 - **[Tandem](https://tandem.net)**: chat, corrections, voice messages and calls are free, with 10 new conversations and 3 translations a day and up to 60 minutes a day in Language Parties, plus ads. See [Is Tandem free?](/is-tandem-free)
-- **[LangX](https://get.langx.io)** (ours): no ads on any plan. Text messages, replies and **corrections are unlimited**: your partner holds any message to correct it. The Free plan starts 5 new conversations and 20 translations per rolling 24 hours. There are no live calls on any plan; you use voice, photo and video messages instead. The community is much smaller than HelloTalk's or Tandem's. Paid plans are on the [plans page](/pro).
+- **[LangX](https://get.langx.io)** (ours): no ads on any plan. Text messages, replies and **corrections are unlimited**: your partner holds any message to correct it. The Free plan starts 5 new conversations and 20 translations per rolling 24 hours. Echo, its spaced-repetition tab, is free too: eighteen packs of phrases in six languages, read aloud, plus cards made from your own chats. There are no live calls on any plan; you use voice, photo and video messages instead. The community is much smaller than HelloTalk's or Tandem's. Paid plans are on the [plans page](/plans).
 
 <AppDemo
   screen="discover"
@@ -145,7 +145,7 @@ Free trials that need a card usually renew automatically. If you start one, set 
 You can learn a language to a solid conversational level without paying, if you combine free tools that do different jobs:
 
 1. **A course for structure:** Duolingo, or Language Transfer if you prefer audio and explanation.
-2. **Flashcards for memory:** Anki with a frequency list. The [vocabulary tests](/tools/vocabulary-test) tell you roughly how many words you already know.
+2. **Flashcards for memory:** Anki with a frequency list, or Echo inside LangX, which ships free phrase packs in six languages and makes a card from any sentence a partner corrects. The [vocabulary tests](/tools/vocabulary-test) tell you roughly how many words you already know.
 3. **People for speaking:** one exchange partner on LangX, HelloTalk or Tandem. Our guide on [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) helps you spend a limited number of daily first messages well.
 4. **Listening:** free graded videos or podcasts you mostly understand.
 

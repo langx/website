@@ -37,7 +37,7 @@ LangX is an open source, social alternative to Duolingo for the part Duolingo do
 This page is a head-to-head LangX vs Duolingo comparison, checked at the time of writing (September 2026). We make LangX, and we will say plainly where Duolingo wins.
 
 <KeyTakeaways items={[
-  "Duolingo is a course app with bite-size lessons; LangX is a language exchange app with no lessons.",
+  "Duolingo is a course app with a lesson path; LangX is a language exchange app with free Echo packs to review, but no lesson path.",
   "LangX matches you with native speakers learning your language, with corrections unlimited on every plan.",
   "LangX is open source (BSD-3) and has no ads; Duolingo is closed source.",
   "Duolingo is better from zero; LangX works best once you can write simple sentences, so many learners use both."
@@ -51,7 +51,7 @@ Want the short version of that argument? Read [the social alternative to Duoling
 
 **Duolingo** is a course app. It teaches 40+ languages, plus Math, Music and Chess, through short, game-like lessons with reading, listening, writing and speaking exercises. Streaks, leaderboards and a friendly owl keep you coming back. Every language course is free, with paid Super and Max plans on top.
 
-**LangX** is a language exchange app. There are no lessons. You are matched with someone who speaks the language you are learning and is learning a language you speak, and you have real conversations with corrections, translation and voice messages built into the chat.
+**LangX** is a language exchange app. There is no lesson path — what it has to study alone is Echo, free spaced-repetition packs of phrases in six languages, plus a card for any message a partner corrects. You are matched with someone who speaks the language you are learning and is learning a language you speak, and you have real conversations with corrections, translation and voice messages built into the chat.
 
 So when people search for a Duolingo alternative, they usually mean one of two things:
 
@@ -70,6 +70,7 @@ So when people search for a Duolingo alternative, they usually mean one of two t
       "Two-way matching",
       "Hold any message to correct it; unlimited on every plan",
       "Daily streaks, leaderboards, the LangX Token",
+      "Echo: free spaced-repetition packs in six languages",
       "No ads; open source, BSD-3"
     ],
     bestFor: "getting you talking to real people"
@@ -91,7 +92,7 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 | | LangX | Duolingo |
 | --- | --- | --- |
 | What it is | Language exchange app | Course app with bite-size lessons |
-| How you learn | Real conversations with native speakers | Exercises along a lesson path |
+| How you learn | Real conversations with native speakers, plus Echo's free phrase packs to review | Exercises along a lesson path |
 | Who you talk to | Native speakers who are learning your language | The app; an AI character on the Max plan |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Not applicable; friends and leaderboards, no one-to-one chat |
 | Corrections | Hold any message to correct it; unlimited on every plan | Automatic feedback on each exercise |
@@ -163,7 +164,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ### What LangX does not do
 
-LangX does not teach you a language from zero. There is no lesson path, no grammar course and no placement test. It works best once you can write simple sentences, which is roughly where Duolingo gets you. And there are no live calls; conversations are text, voice, photo and video messages.
+LangX does not teach you a language from zero. There is no lesson path, no grammar course and no placement test; Echo's free phrase packs give you something to review from day one, but they will not explain the grammar. It works best once you can write simple sentences, which is roughly where Duolingo gets you. And there are no live calls; conversations are text, voice, photo and video messages.
 
 ## Is there an open source Duolingo alternative for lessons?
 
@@ -176,7 +177,7 @@ For a structured course, closed-source apps like Busuu and Babbel are the realis
 
 ## Is LangX a free Duolingo alternative?
 
-For conversation, yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/pro). Prices are set per region and shown in the app.
+For conversation, yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app.
 
 Duolingo's free version is generous too. The difference is not price; it is what you get: lessons on Duolingo, people on LangX.
 

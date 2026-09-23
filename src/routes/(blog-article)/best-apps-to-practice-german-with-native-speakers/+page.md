@@ -124,7 +124,7 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 Our app. [LangX](https://get.langx.io) matches in both directions: set German as the language you are learning and you see German speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters when a single German sentence can carry three case mistakes. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken.
 
 - **Best for:** careful written practice where fixing mistakes is the point, with no ads.
-- **Keep in mind:** the community is far smaller than Tandem's or HelloTalk's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+- **Keep in mind:** the community is far smaller than Tandem's or HelloTalk's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"

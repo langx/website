@@ -90,7 +90,8 @@ published line.
 
 ## Evidence on Hand
 
-- Seven real Google Play reviews (names and text in `Testimonials.svelte`).
+- Twelve real Google Play reviews (names, text and photos in
+  `src/lib/data/reviews.ts`; the homepage shows the first six, /compare all).
 - 18 blog posts under `src/routes/(blog-article)/`.
 - Store links: App Store id6474187141, Google Play
   `tech.newchapter.languageXchange`, web app `app.langx.io`.

@@ -122,7 +122,7 @@ If Tandem's translation cap, ads or application wait put you off, our roundup of
   text="On LangX you hold any message to correct it, and corrections are unlimited on every plan, including Free. There are no ads and no application wait."
 />
 
-LangX is our own app, so take this as a disclosure rather than a verdict. Its free plan has **no ads**, **unlimited replies and unlimited corrections** (hold any message to correct it), **20 translations a day** and 5 new conversations a day, and there is no application wait. The trade-offs are real: 5 new conversations is fewer than Tandem's 10, there are **no live calls or group rooms** (you practice with text plus voice, photo and video messages), and the community is much smaller. The app's code is open source; [LangX vs Tandem](/open-source-alternative-to-tandem) covers the full comparison, and the [plans page](/pro) lists every limit.
+LangX is our own app, so take this as a disclosure rather than a verdict. Its free plan has **no ads**, **unlimited replies and unlimited corrections** (hold any message to correct it), **20 translations a day** and 5 new conversations a day, and there is no application wait. The trade-offs are real: 5 new conversations is fewer than Tandem's 10, there are **no live calls or group rooms** (you practice with text plus voice, photo and video messages), and the community is much smaller. The app's code is open source; [LangX vs Tandem](/open-source-alternative-to-tandem) covers the full comparison, and the [plans page](/plans) lists every limit.
 
 <Callout type="info">
 Still deciding? The <a href="/best-language-exchange-apps">best language exchange apps</a> roundup compares the main options, and every LangX comparison is on the <a href="/compare">compare page</a>.

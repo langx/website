@@ -9,7 +9,7 @@
 	// footer because they are most of what arrives from search.
 	const links = [
 		{ href: '/#features', label: 'Features', wide: true },
-		{ href: '/pro', label: 'Plans' },
+		{ href: '/plans', label: 'Plans' },
 		{ href: '/compare', label: 'Compare' },
 		{ href: '/tools', label: 'Tools' },
 		{ href: '/blog', label: 'Blog' },

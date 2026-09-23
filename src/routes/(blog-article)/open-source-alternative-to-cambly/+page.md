@@ -45,7 +45,7 @@ This page compares LangX vs Cambly as of September 2026. We make LangX, and we w
 
 **Cambly** is an online English tutoring service. You subscribe to a plan, then book or start video lessons with native English-speaking tutors, around the clock. It teaches English only, and it has a separate program for children, Cambly Kids.
 
-**LangX** is a free language exchange app. There are no tutors and no lessons. You are matched with someone who speaks the language you are learning and is learning a language you speak, and you help each other in a one-to-one chat with corrections, translation and voice messages built in.
+**LangX** is a free language exchange app. There are no tutors and no lessons with a teacher; what you can study alone is Echo, free spaced-repetition packs of phrases in six languages. You are matched with someone who speaks the language you are learning and is learning a language you speak, and you help each other in a one-to-one chat with corrections, translation and voice messages built in.
 
 So a "Cambly alternative" can mean two things:
 
@@ -165,7 +165,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free Cambly alternative?
 
-For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/pro). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
+For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
 
 <Steps
   title="A simple routine that works"

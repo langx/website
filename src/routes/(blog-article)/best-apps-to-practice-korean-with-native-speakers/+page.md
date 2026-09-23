@@ -117,7 +117,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: you see Korean speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters in a language where many "mistakes" are about speech level rather than grammar. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful while your Hangul reading is still slow.
 
 - **Best for:** careful written practice with corrections, and no ads.
-- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Korean partners can take longer. There are **no live calls**; practice happens through text plus voice, photo and video messages. Free allows 5 new conversations a day, with unlimited replies. See [plans](/pro).
+- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Korean partners can take longer. There are **no live calls**; practice happens through text plus voice, photo and video messages. Free allows 5 new conversations a day, with unlimited replies. See [plans](/plans).
 
 <AppDemo
   screen="chat"

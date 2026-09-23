@@ -141,7 +141,7 @@ Lingbe's ratings tell you how you did overall. On LangX, your partner holds the 
 
 ### No credits to manage
 
-On LangX, conversations are not metered by the minute. The free plan limits how many *new* conversations you start (5 per rolling 24 hours) and how many translations you use (20), but replies and corrections are unlimited, so an ongoing exchange never runs out. Paid plans (Fluent and Polyglot) lift the new-conversation limit and add more translations and filters. See the [plans page](/pro).
+On LangX, conversations are not metered by the minute. The free plan limits how many *new* conversations you start (5 per rolling 24 hours) and how many translations you use (20), but replies and corrections are unlimited, so an ongoing exchange never runs out. Paid plans (Fluent and Polyglot) lift the new-conversation limit and add more translations and filters. See the [plans page](/plans).
 
 ### Lower pressure for beginners and introverts
 

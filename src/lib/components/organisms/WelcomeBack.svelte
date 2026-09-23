@@ -86,7 +86,7 @@
 					>replying to every message you get is unlimited</strong
 				>, and so is writing corrections, on every plan. The free plan limits how many conversations
 				you can open, never how much you can talk.
-				<a href="/pro">The full comparison is here</a>.
+				<a href="/plans">The full comparison is here</a>.
 			</p>
 		</article>
 
