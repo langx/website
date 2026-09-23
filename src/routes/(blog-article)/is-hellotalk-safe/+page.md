@@ -23,9 +23,19 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 HelloTalk is reasonably safe for language learning if you use the same care you would on any app that connects you with strangers: it has in-app reporting and blocking, a moderation team, limits on how many new people you can message, and separate spaces for users under 18. The real risks are the ones HelloTalk itself warns about, namely scammers and people looking for dating rather than a language exchange, plus a privacy trade-off worth understanding: the free app is ad-supported and the company is based in Hong Kong.
+
+<KeyTakeaways items={[
+  "HelloTalk has reporting, blocking, a moderation team and limits on messaging new people.",
+  "Under-18s need parental approval and can only find other minors; children under 12 are not allowed.",
+  "The main risks are scammers and people looking for dates, which HelloTalk warns about itself.",
+  "The free app is ad-supported, and the company is based in Hong Kong."
+]} />
 
 Sources: HelloTalk's help center, terms and privacy policy at the time of writing (September 2026), plus public user reviews. We make a different app, LangX, and mention it once at the end.
 
@@ -57,6 +67,12 @@ HelloTalk's rules are in the table above: no children under 12, parental approva
 ## Common problems HelloTalk users report
 
 Most people on HelloTalk are there to learn, and many describe genuinely useful exchanges. Three problems still come up repeatedly; HelloTalk acknowledges the first two itself.
+
+<ProsCons
+  name="HelloTalk"
+  pros={["Anonymous reporting from a chat or a profile", "Blocking in the same menus", "A moderation team that reviews reports", "Separate spaces for users under 18", "A daily cap on contacting new partners, against spam"]}
+  cons={["Romance, investment and \"butchering pig\" scams", "Dating-style messages on a large open network", "Bans that users say came without a clear explanation", "Ad-supported free app that can share data with ad networks"]}
+/>
 
 ### Scams
 
@@ -92,12 +108,17 @@ In practice: turn off personalized ads if you do not want them, grant location o
 
 ## How to stay safe on HelloTalk
 
-1. **Keep it about language.** Someone who never uses their target language or asks about yours may be after something else.
-2. **Stay in the app** until you know someone well. Pressure to move to WhatsApp, Telegram or WeChat early is a common first step in a scam.
-3. **Never send money, gift cards or crypto**, and never "invest" anywhere a chat partner suggests.
-4. **Keep personal details private:** address, workplace, ID documents, finances.
-5. **Use a video call** before trusting someone new. Scammers often avoid video.
-6. **Report and block freely.** It is anonymous and protects the next person too.
+<Steps
+  title="A safety checklist for HelloTalk"
+  steps={[
+    { title: "Keep it about language", text: "Someone who never uses their target language or asks about yours may be after something else." },
+    { title: "Stay in the app until you know someone well", text: "Pressure to move to WhatsApp, Telegram or WeChat early is a common first step in a scam." },
+    { title: "Never send money, gift cards or crypto", text: "And never \"invest\" anywhere a chat partner suggests." },
+    { title: "Keep personal details private", text: "Address, workplace, ID documents, finances." },
+    { title: "Use a video call before trusting someone new", text: "Scammers often avoid video." },
+    { title: "Report and block freely", text: "It is anonymous and protects the next person too." }
+  ]}
+/>
 
 The [red flags and safety checklist](/how-to-find-a-language-exchange-partner#red-flags-and-staying-safe) in our partner-finding guide applies to any app, including meeting in person.
 

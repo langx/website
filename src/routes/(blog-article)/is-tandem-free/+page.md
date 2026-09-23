@@ -23,9 +23,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Yes, Tandem is free: once your profile is approved you can chat, send voice messages, make audio and video calls and correct each other without paying. The free plan caps you at 10 new conversations and 3 translations a day, one learning language and an hour a day in Language Parties, and it shows ads; Tandem Pro lifts those limits, removes the ads and adds an AI toolkit.
+
+<KeyTakeaways items={[
+  "Tandem is free once your profile is approved: chat, audio messages, calls and corrections cost nothing.",
+  "The free plan allows 10 new conversations and 3 translations a day, one learning language and an hour of Language Parties.",
+  "The free version shows ads; Tandem Pro removes them and adds an AI toolkit.",
+  "Pro makes most sense for beginners who translate often or want explanations of their mistakes."
+]} />
 
 Everything below comes from Tandem's own app overview, FAQ and store listings at the time of writing (September 2026). We do not quote prices, since Tandem sets them by country and shows them in the app. We make a different app, LangX, and mention it briefly near the end.
 
@@ -45,6 +56,13 @@ There is one thing that is free but not instant: **every new profile goes throug
 ## What does Tandem limit on the free plan?
 
 At the time of writing, Tandem's app overview compares the plans like this:
+
+<StatRow stats={[
+  { value: "10 a day", label: "new conversations you can start for free (Pro: 30)" },
+  { value: "3 a day", label: "translations on the free plan (Pro: unlimited)" },
+  { value: "60 min", label: "of Language Parties a day for free members" },
+  { value: "1", label: "learning language on the free plan (Pro: up to 10)" }
+]} />
 
 | Feature | Tandem free | Tandem Pro |
 | --- | --- | --- |
@@ -79,6 +97,12 @@ Beyond lifting the limits in the table, Tandem Pro's main draw is its **AI toolk
 
 Is it worth it? Pro makes the most sense if you are a beginner who needs translation often, if you want explanations of your mistakes rather than just fixes, or if you travel and want to meet partners in person. If you mostly chat and call with one or two regular partners, the free plan covers that well.
 
+<VersusCard
+  title="Tandem free vs Tandem Pro"
+  a={{ name: "Tandem free", tagline: "The full exchange, with daily limits and ads", points: ["Text chat, audio messages and images", "Audio and video calls", "Inline corrections", "10 new conversations and 3 translations a day", "Language Parties up to 60 minutes a day"], bestFor: "chatting and calling with a few regular partners" }}
+  b={{ name: "Tandem Pro", tagline: "Paid, priced by country in the app", points: ["No ads", "Unlimited translations, 30 new conversations a day", "AI toolkit, including Explain Corrections", "Nearby and Travel search", "Up to 10 languages, unlimited Party time"], bestFor: "beginners who translate often, and travelers" }}
+/>
+
 ## How to get the most out of Tandem for free
 
 1. **Write a strong application.** Tandem reviews answers in its onboarding questions, and its help center says answers that are too short or written just to get past the questions do not help. Use a clear, recent photo of your face and your real name.
@@ -91,6 +115,12 @@ Is it worth it? Pro makes the most sense if you are a beginner who needs transla
 ## Free alternatives to Tandem
 
 If Tandem's translation cap, ads or application wait put you off, our roundup of [free language exchange apps](/free-language-exchange-apps) compares what each free tier includes. HelloTalk is the other big option, with no application review and a larger daily translation allowance; see [Is HelloTalk free?](/is-hellotalk-free) or [Tandem vs HelloTalk](/tandem-vs-hellotalk).
+
+<AppDemo
+  screen="chat"
+  title="LangX: corrections are never capped"
+  text="On LangX you hold any message to correct it, and corrections are unlimited on every plan, including Free. There are no ads and no application wait."
+/>
 
 LangX is our own app, so take this as a disclosure rather than a verdict. Its free plan has **no ads**, **unlimited replies and unlimited corrections** (hold any message to correct it), **20 translations a day** and 5 new conversations a day, and there is no application wait. The trade-offs are real: 5 new conversations is fewer than Tandem's 10, there are **no live calls or group rooms** (you practice with text plus voice, photo and video messages), and the community is much smaller. The app's code is open source; [LangX vs Tandem](/open-source-alternative-to-tandem) covers the full comparison, and the [plans page](/pro) lists every limit.
 

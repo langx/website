@@ -73,6 +73,9 @@
 		font-size: 1.125rem;
 		line-height: 1.2;
 		overflow-wrap: anywhere;
+		// A right-to-left word keeps its own direction but lines up with the
+		// language name under it rather than flying to the far edge.
+		text-align: left;
 	}
 
 	.lang {

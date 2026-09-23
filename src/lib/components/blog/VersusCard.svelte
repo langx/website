@@ -15,8 +15,8 @@
 	<div class="grid">
 		{#each [a, b] as side, i}
 			<section class="card" class:us={side.name === 'LangX'}>
-				<h4>{side.name}</h4>
-				{#if side.tagline}<p class="tag">{side.tagline}</p>{/if}
+				<span class="name">{side.name}</span>
+				{#if side.tagline}<span class="tag">{side.tagline}</span>{/if}
 				<ul role="list">
 					{#each side.points as p}
 						<li>
@@ -26,7 +26,7 @@
 						</li>
 					{/each}
 				</ul>
-				{#if side.bestFor}<p class="best"><strong>Best for:</strong> {side.bestFor}</p>{/if}
+				{#if side.bestFor}<div class="best"><strong>Best for:</strong> {side.bestFor}</div>{/if}
 			</section>
 			{#if i === 0}<span class="vs" aria-hidden="true">vs</span>{/if}
 		{/each}
@@ -83,7 +83,12 @@
 		}
 	}
 
-	h4 {
+	.name,
+	.tag {
+		display: block;
+	}
+
+	.name {
 		margin: 0;
 		font-family: var(--font--title);
 		font-weight: 800;

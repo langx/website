@@ -7,13 +7,13 @@
 
 <div class="pc">
 	<section class="col pros">
-		<h4>{name ? `${name}: good at` : 'Good at'}</h4>
+		<span class="name">{name ? `${name}: good at` : 'Good at'}</span>
 		<ul role="list">
 			{#each pros as p}<li><span aria-hidden="true">+</span>{p}</li>{/each}
 		</ul>
 	</section>
 	<section class="col cons">
-		<h4>{name ? `${name}: watch out for` : 'Watch out for'}</h4>
+		<span class="name">{name ? `${name}: watch out for` : 'Watch out for'}</span>
 		<ul role="list">
 			{#each cons as c}<li><span aria-hidden="true">−</span>{c}</li>{/each}
 		</ul>
@@ -45,7 +45,8 @@
 		background: var(--color--muted);
 	}
 
-	h4 {
+	.name {
+		display: block;
 		margin: 0 0 10px;
 		font-family: var(--font--title);
 		font-weight: 800;

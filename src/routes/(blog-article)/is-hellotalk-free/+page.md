@@ -23,9 +23,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Yes, HelloTalk is free: you can download it, find partners, chat by text and voice, make voice and video calls, post on Moments and correct each other without paying anything. The free plan has daily caps on a handful of tools (10 new partners, 10 translations, and limits on transliteration, voice-to-text, AI correction and Voicerooms time) and shows ads; HelloTalk VIP lifts those caps and removes the ads.
+
+<KeyTakeaways items={[
+  "The core of HelloTalk is free: chat, voice messages, voice and video calls, Moments and corrections.",
+  "The free plan caps new partners (10 a day) and translations (10 a day), and limits Voicerooms to 90 minutes a day.",
+  "The free version shows ads; VIP removes them and lifts the daily caps.",
+  "VIP matters most if you translate a lot, use transliteration or want to learn several languages."
+]} />
 
 Everything below comes from HelloTalk's own help center, blog and app store listings at the time of writing (September 2026). We do not quote prices because HelloTalk sets them per country and shows them in the app. We make a different language exchange app, LangX, so we mention it once near the end and otherwise stick to HelloTalk.
 
@@ -46,6 +57,13 @@ For most people, that is a complete language exchange app. You can practice ever
 ## What does HelloTalk limit on the free plan?
 
 The free plan caps the tools that cost HelloTalk money to run or that could be used for spam. Here is what applies at the time of writing:
+
+<StatRow stats={[
+  { value: "10 a day", label: "new partners you can contact for free (VIP: 25)" },
+  { value: "10 a day", label: "translations on the free plan, across the whole app" },
+  { value: "90 min", label: "of Voicerooms a day for free members" },
+  { value: "Unlimited", label: "messages and calls with partners, free or VIP" }
+]} />
 
 | Feature | HelloTalk free | HelloTalk VIP |
 | --- | --- | --- |
@@ -94,6 +112,12 @@ HelloTalk's FAQ lists these VIP benefits:
 
 HelloTalk's own blog frames VIP as convenience rather than the learning itself, and that is fair. VIP matters most if you are a beginner who translates nearly every message, if you learn a new script and use transliteration constantly, or if you want to learn two languages at once.
 
+<VersusCard
+  title="HelloTalk free vs HelloTalk VIP"
+  a={{ name: "HelloTalk free", tagline: "The full language exchange, with daily caps and ads", points: ["Unlimited chat, voice messages and calls", "Moments posts and corrections", "10 new partners and 10 translations a day", "Voicerooms up to 90 minutes a day", "One learning language"], bestFor: "chatting, calling and posting on Moments" }}
+  b={{ name: "HelloTalk VIP", tagline: "Paid, priced per country in the app", points: ["No ads", "Unlimited translation, transliteration and voice-to-text", "25 new partners a day", "Several learning languages, changeable anytime", "Nearby and gender search, profile visitors"], bestFor: "beginners who translate a lot, or learning two languages" }}
+/>
+
 ## How to get the most out of HelloTalk for free
 
 If you would rather not pay, a few habits stretch the free plan a long way:
@@ -108,6 +132,12 @@ If you would rather not pay, a few habits stretch the free plan a long way:
 ## Free alternatives to HelloTalk
 
 If HelloTalk's caps or ads bother you, there are other free options. Our roundup of [free language exchange apps](/free-language-exchange-apps) compares what each free tier includes, including Tandem (see [Is Tandem free?](/is-tandem-free)), Speaky and InterPals.
+
+<AppDemo
+  screen="chat"
+  title="LangX: corrections are never capped"
+  text="On LangX you hold any message to correct it, and corrections are unlimited on every plan, including Free. There are no ads."
+/>
 
 LangX is our own app, so weigh this accordingly. Its free plan has **no ads**, **unlimited replies and unlimited corrections** (you hold any message to correct it), 20 translations a day and 5 new conversations a day. Its limits are real: 5 new conversations is fewer than HelloTalk's 10, there are **no live calls** (you practice with text plus voice, photo and video messages), there is nothing like Moments' reach or Voicerooms, and the community is far smaller. The code is open source, which is the main reason people compare it with HelloTalk; [LangX vs HelloTalk](/open-source-alternative-to-hellotalk) covers the full picture, and the [plans page](/pro) lists every limit.
 

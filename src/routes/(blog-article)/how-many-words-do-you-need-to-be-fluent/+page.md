@@ -24,6 +24,10 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import BarChart from "$lib/components/blog/BarChart.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 For everyday conversation, most learners need somewhere around **2,000 to 3,000
@@ -32,6 +36,13 @@ to 7,000**; and to read unassisted, about **8,000 to 9,000** (Nation, 2006).
 Those numbers are about understanding. For speaking, you can get a long way with
 far fewer words, as long as they are the most frequent ones and you have used
 them in real conversations.
+
+<KeyTakeaways items={[
+  "Everyday conversation: around 2,000 to 3,000 word families.",
+  "Following speech comfortably: about 6,000 to 7,000; reading unassisted: about 8,000 to 9,000 (Nation, 2006).",
+  "Most research counts word families, a more generous unit than the words on a frequency list.",
+  "Learn the most frequent words first, then use them in real conversations."
+]} />
 
 The rest of this post explains where those figures come from, what a "word"
 actually means in them, and how to turn them into a plan.
@@ -62,6 +73,18 @@ The key idea in vocabulary research is **lexical coverage**: the percentage of
 words in a text or conversation that you know. Researchers test how comprehension
 changes as coverage rises, then work out how big a vocabulary gives you that
 coverage.
+
+<BarChart
+  title="Word families needed, by goal and coverage"
+  unit="word families"
+  source="van Zeeland and Schmitt (2013); Laufer and Ravenhorst-Kalovski (2010); Nation (2006). Studies on English. Bars show the upper end of each range."
+  data={[
+    { label: "Everyday speech, 95%", value: 3000, note: "2,000 to 3,000, van Zeeland and Schmitt (2013)" },
+    { label: "Reading, 95%", value: 5000, note: "4,000 to 5,000, Laufer and Ravenhorst-Kalovski (2010)" },
+    { label: "Speech, 98%", value: 7000, note: "6,000 to 7,000, Nation (2006)" },
+    { label: "Reading, 98%", value: 9000, note: "8,000 to 9,000, Nation (2006)" }
+  ]}
+/>
 
 ### 95% vs 98% coverage
 
@@ -198,19 +221,16 @@ flashcards at 1,000, not at 1.
 
 ## A practical plan
 
-1. **Take the vocabulary test** for your language and note roughly where your
-   knowledge drops off.
-2. **Learn the next 500 to 1,000 words in frequency order** with spaced
-   repetition. Ten to twenty new words a day is sustainable for most people;
-   at 15 a day, 1,000 words takes a little over two months.
-3. **Learn words in phrases, not alone.** "Can I have" teaches more than *have*.
-   The example sentences on the word list pages help here.
-4. **Use every new word in a real sentence within a few days**, in writing or
-   out loud.
-5. **Retest every month or two.** Watching the estimate climb is a good
-   antidote to feeling stuck.
-6. **Past about 3,000 words, shift toward input.** Reading, podcasts and
-   shows will teach you the long tail faster than flashcards.
+<Steps
+  steps={[
+    { title: "Take the vocabulary test", text: "For your language, and note roughly where your knowledge drops off." },
+    { title: "Learn the next 500 to 1,000 words in frequency order", text: "With spaced repetition. Ten to twenty new words a day is sustainable for most people; at 15 a day, 1,000 words takes a little over two months." },
+    { title: "Learn words in phrases, not alone", text: "\"Can I have\" teaches more than \"have\". The example sentences on the word list pages help here." },
+    { title: "Use every new word in a real sentence within a few days", text: "In writing or out loud." },
+    { title: "Retest every month or two", text: "Watching the estimate climb is a good antidote to feeling stuck." },
+    { title: "Past about 3,000 words, shift toward input", text: "Reading, podcasts and shows will teach you the long tail faster than flashcards." }
+  ]}
+/>
 
 For quick daily review, the [meaning quiz](/tools/meaning-quiz) asks ten words a
 day from the first fifteen hundred words of each language, and the
@@ -234,6 +254,12 @@ just type them. The free plan lets you start 5 new conversations a day, with
 unlimited replies. On the Polyglot plan you can export a conversation's saved
 phrases to a file that opens in Anki, which closes the loop between the words
 you meet in conversation and the ones you review.
+
+<AppDemo
+  screen="chat"
+  title="From recognition to production"
+  text="Use this week's words in a LangX chat. Your partner holds your message to correct it, and a word you have used and been corrected on tends to stay."
+/>
 
 If you are not sure how to start, read
 [what a language exchange is](/what-is-a-language-exchange) and bring a few

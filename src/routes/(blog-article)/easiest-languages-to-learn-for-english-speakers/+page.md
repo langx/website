@@ -22,6 +22,9 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import BarChart from "$lib/components/blog/BarChart.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 The easiest languages for English speakers are **Spanish, Portuguese, Italian,
@@ -30,6 +33,13 @@ of the US Foreign Service Institute's difficulty ranking, at 24 to 30 weeks of
 full-time training. Next come **German, Indonesian, Malay, Swahili and Haitian
 Creole** at about 36 weeks, while Arabic, Chinese, Japanese and Korean take
 about 88.
+
+<KeyTakeaways items={[
+  "FSI Category I, the easiest group: Spanish, Portuguese, Italian, French, Romanian, Dutch, Norwegian, Swedish and Danish, at 24 to 30 weeks.",
+  "German, Indonesian, Malay, Swahili and Haitian Creole follow at about 36 weeks.",
+  "Arabic, Chinese, Japanese and Korean take about 88 weeks.",
+  "Shared vocabulary, familiar grammar and a familiar alphabet do most of the work."
+]} />
 
 Below is what those categories mean, why each language lands where it does, and
 how to choose between them. The short version: shared vocabulary, familiar
@@ -174,6 +184,20 @@ prefixes and suffixes that shift a word's meaning. The two are closely
 related: [372 of the most common words are identical](/tools/similar/indonesian-and-malay).
 See the [most common Indonesian words](/tools/most-common-words/indonesian).
 
+<BarChart
+  title="Identical words among the two thousand each language uses most"
+  unit="words"
+  source="LangX language overlap pages (/tools/similar): words written the same and meaning the same in both languages."
+  data={[
+    { label: "Indonesian and Malay", value: 372 },
+    { label: "Danish and Norwegian", value: 326 },
+    { label: "Portuguese and Spanish", value: 167 },
+    { label: "Afrikaans and Dutch", value: 153 },
+    { label: "Norwegian and Swedish", value: 118 },
+    { label: "Italian and Spanish", value: 44, note: "far more are near-identical" }
+  ]}
+/>
+
 ### German
 
 German shares much of its core vocabulary with English, but it has three
@@ -222,6 +246,18 @@ Cantonese, Japanese and Korean**. The reasons stack up:
   spoken dialects differ considerably from the standard written language.
 - **Vocabulary.** Apart from loanwords, very little is shared with English.
 
+<BarChart
+  title="Weeks of full-time training to professional proficiency, by FSI category"
+  unit="weeks"
+  source="US Foreign Service Institute, state.gov (checked September 2026). Category I shows its lower end; French and Spanish take 30 weeks."
+  data={[
+    { label: "Category I", value: 24, note: "Danish, Dutch, Italian, Norwegian, Portuguese, Romanian, Swedish" },
+    { label: "Category II", value: 36, note: "German, Haitian Creole, Indonesian, Malay, Swahili" },
+    { label: "Category III", value: 44, note: "Russian, Greek, Hindi, Hebrew, Turkish and many more" },
+    { label: "Category IV", value: 88, note: "Arabic, Chinese, Japanese, Korean", highlight: true }
+  ]}
+/>
+
 The encouraging part is that not every piece is hard. The Korean alphabet has
 [just 24 letters](/tools/alphabet/korean) and can be learned in a few days of study, and
 Chinese has no verb conjugation at all. Our frequency lists for
@@ -259,6 +295,12 @@ The app lists 182 languages. If you have
 never done a language exchange, start with
 [what a language exchange is](/what-is-a-language-exchange), and see our
 [top tips for learning a new language quickly](/top-10-tips-for-learning-a-new-language-quickly).
+
+<AppDemo
+  screen="discover"
+  title="Partners for the language you picked"
+  text="LangX shows you people who speak the language you are learning and are learning yours. The app lists 182 languages."
+/>
 
 ## FAQ
 

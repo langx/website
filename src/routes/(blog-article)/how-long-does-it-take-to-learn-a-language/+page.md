@@ -26,6 +26,7 @@ keywords:
   import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
   import BarChart from "$lib/components/blog/BarChart.svelte";
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 For an English speaker, reaching professional working proficiency takes about
@@ -251,6 +252,18 @@ and keep old voice recordings so you can hear the difference.
 Most people who "fail" at a language simply stopped. Pick a daily minimum so
 small you will do it on your worst day, and see our tips on [staying
 motivated](/how-to-stay-motivated-while-learning-a-new-language).
+
+<Steps
+  title="What makes each hour count for more"
+  steps={[
+    { title: "Learn the most frequent words first", text: "A small set of words makes up most of everyday speech." },
+    { title: "Use spaced repetition for vocabulary", text: "Ten to twenty minutes a day with a flashcard app is enough for most learners." },
+    { title: "Start speaking early", text: "Short, low-pressure exchanges, voice messages or text chat, then build up." },
+    { title: "Get corrected", text: "A tutor, a teacher or a language exchange partner stops you practicing errors." },
+    { title: "Measure progress", text: "A vocabulary test every couple of months, and old voice recordings to compare." },
+    { title: "Make it easy to keep going", text: "Pick a daily minimum so small you will do it on your worst day." }
+  ]}
+/>
 
 ## Realistic timelines at a glance
 

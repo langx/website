@@ -23,9 +23,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 To do a language exchange well, split the time evenly between both languages, come with a few topics, agree on how you want to be corrected, and write down what you learn. Then keep showing up: a short exchange every day or two teaches far more than a long one every month.
+
+<KeyTakeaways items={[
+  "Split the time 50/50 between the two languages, and protect the split.",
+  "Prepare two or three topics and tell your partner how you want to be corrected.",
+  "Write down every new word and correction, and use translation only when you are stuck.",
+  "Keep it small and daily, with more than one partner."
+]} />
 
 Those are the essentials. The twelve rules below are what separates exchanges that fizzle after a week from ones that last for a year and actually move your level. They apply to text, voice and video, and to in-person meetings. If you still need a partner, start with [how to find a language exchange partner](/how-to-find-a-language-exchange-partner).
 
@@ -75,6 +86,12 @@ When you are the expert, a few habits make your corrections useful rather than d
 
 In [LangX](/), you can hold any message to correct it, so the fix sits right under the original sentence where both of you can see it. Corrections are unlimited on every plan, including the free one, so correcting generously never costs you anything.
 
+<AppDemo
+  screen="chat"
+  title="The fix sits under the original sentence"
+  text="In LangX your partner holds your message to correct it, and the correction appears right in the chat, where both of you can review it later."
+/>
+
 ## Rule 6: Record every new word and correction
 
 If you do not write it down, you will not remember it. Keep one running list per partner or per language: a notebook, a notes app, or a flashcard deck. For each item, note:
@@ -94,6 +111,13 @@ Translation is a crutch, and crutches are fine when you need one. The problem is
 - **Try first, then check.** Write your best attempt, then translate only the parts you were unsure about.
 
 LangX has translation built into the chat for exactly those moments: 20 translations a day on the free plan, 300 on Fluent and 1000 on Polyglot. Twenty is plenty if you use it the way this rule suggests.
+
+<StatRow stats={[
+  { value: "20 a day", label: "translations on the LangX Free plan" },
+  { value: "300 a day", label: "translations on Fluent" },
+  { value: "1,000 a day", label: "translations on Polyglot" },
+  { value: "Unlimited", label: "corrections, on every plan" }
+]} />
 
 ## Rule 8: Use voice notes, not just text
 
@@ -135,14 +159,15 @@ Short version: equal time, prepared topics, clear correction preferences, a word
 
 ## A simple session structure you can copy
 
-For a 40-minute call:
-
-| Minutes | What to do |
-| --- | --- |
-| 0–3 | Small talk, agree which language goes first |
-| 3–20 | Language A: your prepared topic, partner corrects |
-| 20–37 | Language B: their prepared topic, you correct |
-| 37–40 | Quick recap: each person names two things they learned |
+<Steps
+  title="A 40-minute call"
+  steps={[
+    { title: "Minutes 0–3: small talk", text: "Agree which language goes first." },
+    { title: "Minutes 3–20: language A", text: "Your prepared topic; your partner corrects." },
+    { title: "Minutes 20–37: language B", text: "Their prepared topic; you correct." },
+    { title: "Minutes 37–40: quick recap", text: "Each person names two things they learned." }
+  ]}
+/>
 
 For text, the rhythm is looser: a message or two a day in each language, corrections on the messages that need them, and a question at the end of every reply so the conversation keeps moving.
 
