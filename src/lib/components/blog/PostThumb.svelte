@@ -17,6 +17,7 @@
 	import { appIcon } from '$lib/data/app-icons';
 	import { COMPETITORS } from '$lib/data/competitors';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
+	import { signatureLetter } from '$lib/data/alphabet-guides';
 
 	export let title: string;
 	export let slug: string;
@@ -60,18 +61,7 @@
 		return pick(['LangX', ...(apps ?? named)]).slice(0, 4);
 	})();
 
-	/**
-	 * A letter only that script has. The first letter of the language's own
-	 * name works for most (한, ह, ব, മ), but Greek, Russian and Bulgarian open
-	 * with Ε, Р and Б, which read as Latin at a glance.
-	 */
-	const GLYPH: Record<string, string> = { el: 'Ω', ru: 'Ж', bg: 'Щ', uk: 'Ї', sr: 'Ђ', mk: 'Ѓ' };
-	$: letter = alphabet
-		? GLYPH[alphabet.code] ??
-		  ([...alphabet.nativeName].find((c) => /\p{L}/u.test(c)) ?? '').toLocaleUpperCase(
-				alphabet.code
-		  )
-		: '';
+	$: letter = alphabet ? signatureLetter(alphabet.code, alphabet.nativeName) : '';
 
 	/** Letters from eight scripts; each vocabulary post shows four of them. */
 	const SCRIPTS = [

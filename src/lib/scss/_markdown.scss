@@ -156,6 +156,26 @@
 				color: var(--color--text);
 			}
 
+			// A letter of another script (marked by rehype-tables) at the size
+			// of a letter: at 15px an alif is a hairline. The row lines up on
+			// the baseline so the name beside it sits on the letter's line.
+			td.glyph,
+			td .glyph {
+				font-family: var(--font--title);
+				font-weight: 800;
+				font-size: 1.5rem;
+				line-height: 1.2;
+				color: var(--color--text);
+			}
+
+			td .glyph {
+				margin-inline-end: 2px;
+			}
+
+			tr:has(.glyph) > td {
+				vertical-align: baseline;
+			}
+
 			// A mark beside the answer, as on /compare: the icon carries the scan,
 			// the word the meaning. Blue checks, as in the plan rows — green
 			// belongs to corrections.

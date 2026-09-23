@@ -7,14 +7,14 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import { image, keywords, organization, siteBaseUrl } from '$lib/data/meta';
-	import type { BlogPost } from '$lib/utils/types';
+	import type { BlogPost, PostScript } from '$lib/utils/types';
 	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
 	import PostArt from '$lib/components/blog/PostArt.svelte';
 	import PostToc from '$lib/components/blog/PostToc.svelte';
 
-	export let data: { post: BlogPost };
-	$: ({ post } = data);
+	export let data: { post: BlogPost; script?: PostScript };
+	$: ({ post, script } = data);
 
 	// Rebuilt from scratch per post: appending to the previous value carried
 	// one post's keywords into the next on client-side navigation.
@@ -122,7 +122,7 @@
 			</div>
 		{:else if post}
 			<div class="art">
-				<PostArt {post} />
+				<PostArt {post} {script} />
 			</div>
 		{/if}
 		<div class="body">
@@ -227,8 +227,9 @@
 		// "On this page" hangs in the left margin, its right edge 48px off the
 		// text column. It takes the body's font size so that 68ch here is the
 		// same width as the column's 68ch; the list sets its own sizes in rem.
-		// Below 1240px there is no margin wide enough, and the post is read
-		// top to bottom as before.
+		// The column is 68ch of the body face, about 730px, so the rail needs
+		// a 1340px window to keep 30px from the edge; at 1240px it ran off
+		// the left side. Narrower than that the post is read top to bottom.
 		.toc-rail {
 			display: none;
 			position: absolute;
@@ -238,7 +239,7 @@
 			font-size: 1.0625rem;
 			right: calc(50% + var(--main-column-width) / 2 + 3rem);
 
-			@media (min-width: 1240px) {
+			@media (min-width: 1340px) {
 				display: block;
 			}
 		}

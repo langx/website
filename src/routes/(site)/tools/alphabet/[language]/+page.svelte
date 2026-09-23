@@ -170,12 +170,19 @@
 		margin-bottom: var(--space-lg);
 	}
 
+	// A tinted block, the way a quote is in the posts: no coloured edge, and
+	// only the link itself in blue, since blue is what can be tapped.
 	.guide {
 		max-width: 66ch;
 		margin: calc(-1 * var(--space-sm)) 0 var(--space-lg);
 		padding: var(--space-sm) var(--space-md);
-		border-left: 3px solid var(--color--accent);
-		background: rgba(var(--color--accent-rgb), 0.06);
+		border-radius: var(--radius-lg);
+		background: var(--color--muted);
+
+		a {
+			color: var(--color--accent);
+			font-weight: 600;
+		}
 	}
 
 	.group {
@@ -208,6 +215,25 @@
 
 		&.rtl .glyph {
 			direction: rtl;
+		}
+
+		// A phone fits one 170px column, which made the chart a single file of
+		// forty-odd rows. Three across instead, each letter over its name and
+		// sound, so the script still reads as a block.
+		@include for-phone-only {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			column-gap: var(--space-sm);
+
+			li {
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 2px;
+			}
+
+			.glyph {
+				min-width: 0;
+				font-size: 1.625rem;
+			}
 		}
 	}
 

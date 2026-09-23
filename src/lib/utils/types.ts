@@ -40,3 +40,11 @@ export type BlogPost = {
 	/** Square image for post lists, drawn by scripts/og/posts.mjs. */
 	thumbnail?: string;
 };
+
+/** What the art above an alphabet guide draws (see the (blog-article) layout load). */
+export type PostScript = {
+	code: string;
+	rtl: boolean;
+	featured: { c: string; name: string; sound: string };
+	others: string[];
+};

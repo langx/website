@@ -6,6 +6,8 @@
 	 * drawing 80 covers — and the drawn covers only repeat the title in type.
 	 *
 	 * - a comparison: the apps it compares, as discs, LangX's mark first
+	 * - an alphabet guide: the script itself — its signature letter with the
+	 *   name and sound, and the letters that open the alphabet beside it
 	 * - a vocabulary post: language chips, the homepage marquee's own pill
 	 * - a note from the team: the mark
 	 * - anything else: the thing the app is about — a message and its correction
@@ -16,16 +18,20 @@
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 	import { appIcon } from '$lib/data/app-icons';
-	import type { BlogPost } from '$lib/utils/types';
+	import type { BlogPost, PostScript } from '$lib/utils/types';
 
 	export let post: BlogPost;
+	/** The script an alphabet guide teaches, from the layout's server load. */
+	export let script: PostScript | undefined = undefined;
 
 	/** The blog index's own grouping: these are notes from the team. */
 	const TEAM = ['LangX v2', 'Announcement', 'Transparency', 'Cloud Storage', 'Reddit'];
 
 	$: tags = post.tags ?? [];
 	$: apps = post.apps ?? [];
-	$: kind = tags.some((t) => TEAM.includes(t))
+	$: kind = script
+		? 'alphabet'
+		: tags.some((t) => TEAM.includes(t))
 		? 'team'
 		: tags.includes('Comparison') && apps.length
 		? 'versus'
@@ -80,6 +86,17 @@
 					<span class="name">{name}</span>
 				</div>
 			{/each}
+		</div>
+	{:else if kind === 'alphabet' && script}
+		<div class="script" lang={script.code}>
+			<div class="featured">
+				<span class="big">{script.featured.c}</span>
+				<span class="letter-name">{script.featured.name}</span>
+				<span class="sound">{script.featured.sound}</span>
+			</div>
+			<ul class="wall" dir={script.rtl ? 'rtl' : 'ltr'}>
+				{#each script.others as c}<li>{c}</li>{/each}
+			</ul>
 		</div>
 	{:else if kind === 'languages'}
 		<ul class="chips">
@@ -216,6 +233,89 @@
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
 		color: var(--color--text-quiet);
+	}
+
+	// — Alphabet ———————————————————————————————————————————————————————
+
+	// One letter large with what it is called and how it sounds, the way the
+	// chart on /tools/alphabet sets each one, and the alphabet's opening
+	// letters in a block beside it: the script, before a word about it.
+	.script {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: var(--space-xl);
+
+		@include for-phone-only {
+			gap: var(--space-md);
+		}
+	}
+
+	.featured {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-width: 7rem;
+		text-align: center;
+	}
+
+	.big {
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: 5rem;
+		line-height: 1.15;
+		color: var(--color--text);
+
+		@include for-phone-only {
+			font-size: 4rem;
+		}
+	}
+
+	.letter-name {
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: 1rem;
+	}
+
+	.sound {
+		font-size: 0.8125rem;
+		color: var(--color--text-quiet);
+	}
+
+	.wall {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(5, 44px);
+		gap: 6px;
+
+		li {
+			display: grid;
+			place-items: center;
+			height: 44px;
+			border-radius: 12px;
+			background: var(--color--muted);
+			font-family: var(--font--title);
+			font-weight: 800;
+			font-size: 1.25rem;
+			line-height: 1;
+			color: var(--color--text-shade);
+		}
+
+		// Four across on a phone, three rows: twelve letters, no ragged end.
+		@include for-phone-only {
+			grid-template-columns: repeat(4, 38px);
+
+			li {
+				height: 38px;
+				font-size: 1.125rem;
+			}
+
+			li:nth-child(n + 13) {
+				display: none;
+			}
+		}
 	}
 
 	// — Languages ————————————————————————————————————————————————————
