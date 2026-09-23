@@ -7,9 +7,9 @@ rank	word	english	ipa
 6	це	this, it	[t͡sɛ]
 7	ти	you; thou	[tɪ]
 8	так	so, thus	[tak]
-9	у	in, at	
+9	у	in, at	/u/
 10	і	and, also, even	[i]
-11	з	from	
+11	з	from	/tsɯ˧/
 12	а	and, and yet, but	[a]
 13	ми	we	[mɪ]
 14	все	all, everything	[ʍsɛ]
@@ -29,7 +29,7 @@ rank	word	english	ipa
 28	для	for	[dʲlʲa]
 29	його	his	[jɔˈɦɔ]
 30	о	at	[ɔ]
-31	но	but, yet	
+31	но	but, yet	/no/
 32	то	that	[ˈtɔ]
 33	ну	so, therefore	[nu]
 34	знаю	first-person singular present indicative of зна́ти impf	[ˈznajʊ]
@@ -151,7 +151,7 @@ rank	word	english	ipa
 150	сам	self, -self	[sam]
 151	мною	I	[ˈmnɔjʊ]
 152	має	third-person singular present imperfective of ма́ти	[ˈmaje]
-153	прошу	please	
+153	прошу	please	/proʃu/
 154	маю	first-person singular present imperfective of ма́ти	[ˈmajʊ]
 155	мама	mama, mummy, mom, ma	[ˈmamɐ]
 156	ли	interrogative particle	[ɫɪ]
@@ -273,7 +273,7 @@ rank	word	english	ipa
 272	чорт	devil, demon, Satan, evil spirit or force	[t͡ʃɔrt]
 273	сама	self, -self	[ˈsamɐ]
 274	думаєш	second-person singular present imperfective of ду́мати	[ˈdumɐjeʃ]
-275	во	initialism of ви́борчий о́круг	
+275	во	initialism of ви́борчий о́круг	/voː/
 276	потом	sweat, perspiration	[ˈpɔtɔm]
 277	такого	genitive masculine/neuter singular	[tɐˈkɔɦɔ]
 278	казав	masculine singular past imperfective of каза́ти	[kɐˈzau̯]
@@ -1575,7 +1575,7 @@ rank	word	english	ipa
 1574	всюди	everywhere	[ˈʍsʲude]
 1575	любив	masculine singular past indicative imperfective of люби́ти	[lʲʊˈbɪu̯]
 1576	чек	cheque, check	[t͡ʃɛk]
-1577	заберу	first-person singular future of забра́ти	
+1577	заберу	first-person singular future of забра́ти	/zɑbɛruː/
 1578	починається	third-person singular present indicative of почина́тися impf	[pɔt͡ʃeˈnajet͡sʲːɐ]
 1579	мамі	dative/locative singular of ма́ма	[ˈmamʲi]
 1580	дурень	fool, idiot, imbecile	[ˈdurenʲ]
@@ -1662,7 +1662,7 @@ rank	word	english	ipa
 1661	читав	masculine singular past imperfective of чита́ти	[t͡ʃeˈtau̯]
 1662	ублюдок	bastard	[ʊˈblʲudɔk]
 1663	сонця	genitive singular	[ˈsɔnʲt͡sʲɐ]
-1664	польщі	genitive/dative/locative singular of По́льща	
+1664	польщі	genitive/dative/locative singular of По́льща	/poʎʃʲi/
 1665	долю	accusative singular of до́ля	[ˈdɔlʲʊ]
 1666	звільнити	to free, to liberate, to release, to set free	[zʲʋʲilʲˈnɪte]
 1667	змогли	plural past indicative of змогти́ pf	[zmɔˈɦɫɪ]
@@ -1740,7 +1740,7 @@ rank	word	english	ipa
 1739	ідеї	genitive/dative/locative singular	[iˈdɛji]
 1740	генерал	general	[ɦeneˈraɫ]
 1741	всій	all, the whole	[ʍsʲii̯]
-1742	повернусь	first-person singular future indicative perfective of…	
+1742	повернусь	first-person singular future indicative perfective of…	/poʋeˈrnusʲ/
 1743	отримає	third-person singular future indicative of отри́мати pf	[ɔˈtrɪmɐje]
 1744	коштує	third-person singular present imperfective of ко́штувати	[ˈkɔʃtʊje]
 1745	кораблі	locative singular	[kɔrɐˈblʲi]
@@ -2019,7 +2019,7 @@ rank	word	english	ipa
 2018	останнього	masculine/neuter genitive singular	[ɔˈstanʲːɔɦɔ]
 2019	вижити	to survive	[ˈʋɪʒete]
 2020	собаку	accusative singular of соба́ка	[sɔˈbakʊ]
-2021	бизнес	business	
+2021	бизнес	business	/ˈbɪznɛs/
 2022	носа	nose	[ˈnɔsɐ]
 2023	нічим	instrumental singular of ніщо́	[nʲiˈt͡ʃɪm]
 2024	попросити	to ask	[pɔprɔˈsɪte]
@@ -2434,7 +2434,7 @@ rank	word	english	ipa
 2433	попередження	advance notice, advance notification	[pɔpeˈrɛd͡ʒenʲːɐ]
 2434	ненадовго	for a short time, for a short while, not for long	[nenɐˈdɔu̯ɦɔ]
 2435	самогубство	suicide	[sɐmoˈɦubstwɔ]
-2436	рок	rock music	
+2436	рок	rock music	/rok/
 2437	розмовляю	first-person singular present indicative of розмовля́ти impf	[rɔzmɔu̯ˈlʲajʊ]
 2438	чекала	feminine singular past imperfective of чека́ти	[t͡ʃeˈkaɫɐ]
 2439	проводить	third-person singular present indicative	[prɔˈwɔdetʲ]
@@ -2537,7 +2537,7 @@ rank	word	english	ipa
 2536	вашими	your, yours	[ˈʋaʃeme]
 2537	паспорт	passport	[ˈpaspɔrt]
 2538	тікати	to tick	[ˈtʲikɐte]
-2539	вижив	masculine singular past of ви́жити	
+2539	вижив	masculine singular past of ви́жити	/ʋɪʒeu̯/
 2540	обидві	nominative/vocative feminine plural	[ɔˈbɪdʲʋʲi]
 2541	написали	plural past perfective of написа́ти	[nɐpeˈsaɫe]
 2542	пропозицію	accusative singular of пропози́ція	[prɔpɔˈzɪt͡sʲijʊ]
@@ -2938,7 +2938,7 @@ rank	word	english	ipa
 2937	рухом	movement	[ˈruxɔm]
 2938	межами	instrumental plural of межа́	[ˈmɛʒɐme]
 2939	жінкам	dative plural of жі́нка	[ʒʲinˈkam]
-2940	черевики	nominative/accusative plural of череви́к	
+2940	черевики	nominative/accusative plural of череви́к	/tʃereˈʋɪki/
 2941	медсестра	nurse	[med͡zseˈstra]
 2942	приходити	to arrive, to come	[preˈxɔdete]
 2943	неймовірна	feminine nominative singular of неймові́рний	[nei̯mɔˈʋʲirnɐ]
@@ -3010,7 +3010,7 @@ rank	word	english	ipa
 3009	цирк	circus	[t͡sɪrk]
 3010	ходім	first-person plural imperative imperfective of ходи́ти	[xoˈdʲim]
 3011	істоти	genitive singular	[iˈstɔte]
-3012	варшави	genitive singular of Варша́ва	
+3012	варшави	genitive singular of Варша́ва	/ʋɐrʃaʋe/
 3013	батькові	dative/locative singular of ба́тько	[ˈbatʲkɔʋʲi]
 3014	бажає	third-person singular present indicative of бажа́ти impf	[bɐˈʒaje]
 3015	америці	dative/locative singular of Аме́рика	[ɐˈmɛret͡sʲi]
@@ -3071,7 +3071,7 @@ rank	word	english	ipa
 3070	бажаєш	second-person singular present indicative of бажа́ти impf	[bɐˈʒajeʃ]
 3071	носом	nose	[ˈnɔsɔm]
 3072	озеро	lake	[ˈɔzerɔ]
-3073	норвегії	genitive/dative/locative singular of Норве́гія	
+3073	норвегії	genitive/dative/locative singular of Норве́гія	/nɔrvɛgʲi/
 3074	виклик	call	[ˈʋɪkɫek]
 3075	клієнт	client	[klʲiˈjɛnt]
 3076	мішок	sack	[mʲiˈʃɔk]
@@ -3107,7 +3107,7 @@ rank	word	english	ipa
 3106	терпіти	to endure, to suffer, to tolerate, to stand	[terˈpʲite]
 3107	мову	accusative singular of мо́ва	[ˈmɔwʊ]
 3108	пили	plural past imperfective of пи́ти	[peˈɫɪ]
-3109	лондоні	locative singular of Ло́ндон	
+3109	лондоні	locative singular of Ло́ндон	/ɫɔndɔnʲi/
 3110	холодильник	fridge, refrigerator	[xɔɫɔˈdɪlʲnek]
 3111	євро	euro	[ˈjɛu̯rɔ]
 3112	світанку	genitive singular	[sʲʋʲiˈtankʊ]
@@ -3120,7 +3120,7 @@ rank	word	english	ipa
 3119	університету	genitive/dative singular of університе́т	[ʊnʲiʋerseˈtɛtʊ]
 3120	боротьба	fight, struggle	[bɔrɔdʲˈba]
 3121	стань	second-person singular imperative of ста́ти	[stanʲ]
-3122	франції	genitive/dative/locative singular of Фра́нція	
+3122	франції	genitive/dative/locative singular of Фра́нція	/fɾɑnʲtsʲi/
 3123	назви	genitive singular	[ˈnazʋe]
 3124	пастка	trap, snare	[ˈpastkɐ]
 3125	відносини	relations, business, terms, connections	[ʋʲidˈnɔsene]
@@ -3304,7 +3304,7 @@ rank	word	english	ipa
 3303	встиг	masculine singular past indicative of всти́гнути pf and…	[ʍstɪɦ]
 3304	зникне	third-person singular future indicative perfective of…	[ˈznɪkne]
 3305	помічник	helper, aide, assistant	[pɔmʲit͡ʃˈnɪk]
-3306	інтернет	alternative letter-case form of Інтерне́т	
+3306	інтернет	alternative letter-case form of Інтерне́т	/internɛt/
 3307	давав	masculine singular past indicative of дава́ти impf	[dɐˈʋau̯]
 3308	шматки	nominative/accusative/vocative plural of шмато́к	[ʃmɐtˈkɪ]
 3309	переміг	masculine singular past indicative of перемогти́ pf	[pereˈmʲiɦ]
@@ -3325,7 +3325,7 @@ rank	word	english	ipa
 3324	кістки	genitive singular of кі́стка	[ˈkʲistke]
 3325	почнуть	third-person plural future indicative of поча́ти pf	[pot͡ʃˈnutʲ]
 3326	точка	period, dot, full stop	[ˈtɔt͡ʃkɐ]
-3327	україні	dative/locative singular of Украї́на	
+3327	україні	dative/locative singular of Украї́на	/ʊkrɐjinʲi/
 3328	прийшло	neuter singular past indicative of прийти́ pf	[prei̯ʃˈɫɔ]
 3329	плавати	to swim	[ˈpɫaʋɐte]
 3330	запитань	genitive plural of запита́ння	[zɐpeˈtanʲ]
@@ -3386,7 +3386,7 @@ rank	word	english	ipa
 3385	добі	dative/locative singular of доба́	[doˈbʲi]
 3386	вірші	poem	[ˈʋʲirʃʲi]
 3387	баба	grandmother, granny, old woman	[ˈbabɐ]
-3388	європі	dative/locative singular of Євро́па	
+3388	європі	dative/locative singular of Євро́па	/jeu̯rɔpʲi/
 3389	заході	locative of за́хід	[ˈzaxɔdʲi]
 3390	невдаха	loser, failure, washout, misfit	[neu̯ˈdaxɐ]
 3391	англійською	in the English language	[ɐnˈɦlʲii̯sʲkɔjʊ]
@@ -3411,7 +3411,7 @@ rank	word	english	ipa
 3410	енергія	energy	[eˈnɛrɦʲijɐ]
 3411	вибачитися	to apologize	[ˈʋɪbɐt͡ʃetesʲɐ]
 3412	зустрічав	masculine singular past of зустріча́ти impf	[zʊstʲrʲiˈt͡ʃau̯]
-3413	росії	genitive/dative/locative singular of Росі́я	
+3413	росії	genitive/dative/locative singular of Росі́я	/rosʲiji/
 3414	красти	to steal	[ˈkraste]
 3415	вважати	to consider, to deem, to regard, to think	[ʋːɐˈʒate]
 3416	несправедливо	unjustly, wrongfully; unfairly	[nesprɐʋedˈɫɪwɔ]
@@ -3454,7 +3454,7 @@ rank	word	english	ipa
 3453	шукаєте	second-person plural present imperfective of шука́ти	[ʃʊˈkajete]
 3454	ока	genitive singular of о́ко	[ˈɔkɐ]
 3455	будь-хто	anyone, anybody	[budʲ ˈxtɔ]
-3456	нумо	Well then!	
+3456	нумо	Well then!	/nʊˈmɔ/
 3457	принесіть	second-person plural imperative of принести́ pf	[preneˈsʲitʲ]
 3458	районе	vocative singular of райо́н	[rɐˈjɔne]
 3459	коні	horse	[koˈnʲi]
@@ -3494,7 +3494,7 @@ rank	word	english	ipa
 3493	заманеться	third-person singular future indicative of заману́тися pf	[zɐmɐˈnɛt͡sʲːɐ]
 3494	розумно	reasonably, sensibly	[roˈzumnɔ]
 3495	суспільство	society	[sʊˈsʲpʲilʲstwɔ]
-3496	природи	genitive singular of приро́да	
+3496	природи	genitive singular of приро́да	/prerɔde/
 3497	самої	self, -self	[ˈsamɔji]
 3498	матуся	endearing form of ма́ти	[mɐˈtusʲɐ]
 3499	дід	grandfather, grandpa, old man	[dʲid]
@@ -3617,7 +3617,7 @@ rank	word	english	ipa
 3616	сном	sleep	[snɔm]
 3617	пиріг	pie, pastry	[peˈrʲiɦ]
 3618	стару	feminine accusative singular of стари́й	[stɐˈru]
-3619	інтернеті	locative singular of Інтерне́т	
+3619	інтернеті	locative singular of Інтерне́т	/ʲintɛrnɛti/
 3620	читаєш	second-person singular present imperfective of чита́ти	[t͡ʃeˈtajeʃ]
 3621	меню	menu	[meˈnʲu]
 3622	режим	regime	[reˈʒɪm]
@@ -3788,7 +3788,7 @@ rank	word	english	ipa
 3787	програв	masculine singular past perfective of програ́ти	[prɔˈɦrau̯]
 3788	подбати	to take care of, to look after	[pɔdˈbate]
 3789	порожній	empty	[pɔˈrɔʒnʲii̯]
-3790	банка	jar	
+3790	банка	jar	/baŋkɑ/
 3791	мовчати	to be silent; to keep quiet	[mɔu̯ˈt͡ʃate]
 3792	улюблена	feminine nominative singular of улю́блений	[ʊˈlʲubɫenɐ]
 3793	годувати	to feed, to nourish	[ɦɔdʊˈʋate]
@@ -3837,7 +3837,7 @@ rank	word	english	ipa
 3836	червоне	neuter nominative/accusative singular of черво́ний	[t͡ʃerˈwɔne]
 3837	сі	B, H, si	[sʲi]
 3838	африки	accusative singular of А́фрика	[ˈafreke]
-3839	м-р	contraction of мі́стер: Mr	
+3839	м-р	contraction of мі́стер: Mr	/mr̥/
 3840	зламати	to break, to fracture	[zɫɐˈmate]
 3841	дивилися	plural past imperfective of диви́тися	[deˈʋɪɫesʲɐ]
 3842	начальника	genitive/accusative singular of нача́льник	[nɐˈt͡ʃalʲnekɐ]
@@ -3879,7 +3879,7 @@ rank	word	english	ipa
 3878	білих	genitive/locative plural	[ˈbʲiɫex]
 3879	крила	genitive singular of крило́	[ˈkrɪɫɐ]
 3880	витримати	to withstand, to bear, to endure, to stand, to sustain	[ˈʋɪtremɐte]
-3881	нажаль	misspelling of на жа́ль	
+3881	нажаль	misspelling of на жа́ль	/naˈʒɑlʲ/
 3882	лежав	masculine singular past indicative of лежа́ти impf	[ɫeˈʒau̯]
 3883	думок	genitive plural of ду́мка	[dʊˈmɔk]
 3884	проблемою	instrumental singular of пробле́ма	[prɔˈbɫɛmɔjʊ]
@@ -4027,7 +4027,7 @@ rank	word	english	ipa
 4026	правильний	correct, right	[ˈpraʋelʲnei̯]
 4027	червону	feminine accusative singular of черво́ний	[t͡ʃerˈwɔnʊ]
 4028	продає	third-person singular present indicative of продава́ти impf	[prɔdɐˈjɛ]
-4029	ладу	accusative singular of ла́до	
+4029	ладу	accusative singular of ла́до	/ɫɑdʊ/
 4030	поводитися	to behave, to conduct oneself, to act	[pɔˈwɔdetesʲɐ]
 4031	яне	yang	[ˈjane]
 4032	шляхи	way, path	[ʃlʲɐˈxɪ]
@@ -4047,7 +4047,7 @@ rank	word	english	ipa
 4046	департамент	department	[depɐrˈtament]
 4047	бомби	genitive singular	[ˈbɔmbe]
 4048	привітати	to greet, to hail, to salute	[preʋʲiˈtate]
-4049	природу	accusative singular of приро́да	
+4049	природу	accusative singular of приро́да	/prerɔdʊ/
 4050	лежала	feminine singular past indicative of лежа́ти impf	[ɫeˈʒaɫɐ]
 4051	яблуко	apple	[ˈjabɫʊkɔ]
 4052	запросила	feminine singular past indicative perfective of запроси́ти	[zɐprɔˈsɪɫɐ]
@@ -4382,7 +4382,7 @@ rank	word	english	ipa
 4381	місць	genitive plural of мі́сце	[mʲisʲt͡sʲ]
 4382	ховатися	to hide	[xɔˈʋatesʲɐ]
 4383	створює	third-person singular present indicative of ство́рювати impf	[ˈstwɔrʲʊje]
-4384	бла	UAV, an unmanned aerial vehicle, drone	
+4384	бла	UAV, an unmanned aerial vehicle, drone	/blɑ/
 4385	сумка	bag, handbag	[ˈsumkɐ]
 4386	хмари	genitive singular	[ˈxmare]
 4387	кордону	genitive singular	[kɔrˈdɔnʊ]
@@ -4393,7 +4393,7 @@ rank	word	english	ipa
 4392	читає	third-person singular present imperfective of чита́ти	[t͡ʃeˈtaje]
 4393	минув	masculine singular past indicative perfective of мину́ти	[meˈnuu̯]
 4394	арешт	arrest	[ɐˈrɛʃt]
-4395	європи	genitive singular of Євро́па	
+4395	європи	genitive singular of Євро́па	/jeu̯rɔpe/
 4396	чорне	neuter nominative/accusative singular of чо́рний	[ˈt͡ʃɔrne]
 4397	кухня	kitchen	[ˈkuxnʲɐ]
 4398	промінь	ray, beam	[ˈprɔmʲinʲ]
@@ -4413,7 +4413,7 @@ rank	word	english	ipa
 4412	виросла	feminine singular past indicative of ви́рости pf	[ˈʋɪrɔsɫɐ]
 4413	нагадати	to remind про щось / що + clause	[nɐɦɐˈdate]
 4414	двір	court, yard	[dʲʋʲir]
-4415	варшаві	dative/locative singular of Варша́ва	
+4415	варшаві	dative/locative singular of Варша́ва	/ʋɐrʃaʋʲi/
 4416	країн	genitive plural of краї́на	[krɐˈjin]
 4417	звучало	neuter singular past indicative of звуча́ти impf	[zwʊˈt͡ʃaɫɔ]
 4418	лежи	second-person singular imperative of лежа́ти impf	[ɫeˈʒɪ]
@@ -4574,7 +4574,7 @@ rank	word	english	ipa
 4573	обговорювати	to discuss, to debate, to talk over	[ɔbɦɔˈwɔrʲʊʋɐte]
 4574	швидкості	genitive/dative/locative singular	[ˈʃʋɪdkɔsʲtʲi]
 4575	труси	pants, underpants, shorts	[trʊˈsɪ]
-4576	зо	approximately, roughly	
+4576	зо	approximately, roughly	/zo/
 4577	струн	genitive plural of струна́	[strun]
 4578	духом	spirit	[ˈduxɔm]
 4579	слон	elephant	[sɫɔn]
@@ -4659,7 +4659,7 @@ rank	word	english	ipa
 4658	звичайне	neuter nominative/accusative singular of звича́йний	[zʋeˈt͡ʃai̯ne]
 4659	офіцерів	genitive/accusative plural of офіце́р	[ɔfʲiˈt͡sɛrʲiu̯]
 4660	верх	top, upper part	[ʋɛrx]
-4661	інтернету	genitive/dative/locative singular of Інтерне́т	
+4661	інтернету	genitive/dative/locative singular of Інтерне́т	/ʲin̪tɛˈrnɛtʊ/
 4662	шолом	helmet	[ʃɔˈɫɔm]
 4663	зустріну	first-person singular future of зустрі́ти pf	[zʊˈstʲrʲinʊ]
 4664	заводі	locative singular of заво́д	[zɐˈwɔdʲi]
@@ -4873,7 +4873,7 @@ rank	word	english	ipa
 4872	маска	mask	[ˈmaskɐ]
 4873	виступати	to step forth, to step forward, to come forward	[ʋestʊˈpate]
 4874	розповіси	second-person singular future indicative of розповісти́	[rɔzpɔʋʲiˈsɪ]
-4875	янгол	angel	
+4875	янгол	angel	/jɑngɔl/
 4876	слабкі	nominative plural	[sɫɐbˈkʲi]
 4877	богиня	goddess	[bɔˈɦɪnʲɐ]
 4878	спальне	nominative/accusative neuter singular of спа́льний	[ˈspalʲne]
@@ -4984,7 +4984,7 @@ rank	word	english	ipa
 4983	пече	third-person singular present indicative of пекти́ impf	[peˈt͡ʃɛ]
 4984	підняв	masculine singular past indicative of підня́ти pf	[pʲidʲˈnʲau̯]
 4985	ручка	pen	[ˈrut͡ʃkɐ]
-4986	гайда	come on, c'mon	
+4986	гайда	come on, c'mon	/ɦɑjdɑ/
 4987	захворіла	feminine singular past indicative of захворі́ти pf	[zɐxwoˈrʲiɫɐ]
 4988	омар	lobster	[ɔˈmar]
 4989	грн	hryvnia, hryvna, grivna	[ˈɦrɪu̯nʲɐ]
@@ -4995,7 +4995,7 @@ rank	word	english	ipa
 4994	найняти	to hire	[nɐi̯ˈnʲate]
 4995	отримання	verbal noun of отри́мати pf: receipt, receiving, reception	[ɔˈtrɪmɐnʲːɐ]
 4996	кент	a dude, friend, homie	[kɛnt]
-4997	європу	accusative singular of Євро́па	
+4997	європу	accusative singular of Євро́па	/jeu̯rɔpʊ/
 4998	куртку	accusative singular of ку́ртка	[ˈkurtkʊ]
 4999	похід	campaign, drive, crusade	[poˈxʲid]
 5000	злодії	nominative/vocative plural	[ˈzɫɔdʲiji]
@@ -5020,7 +5020,7 @@ rank	word	english	ipa
 5019	версію	accusative singular of ве́рсія	[ˈʋɛrsʲijʊ]
 5020	знизу	from below	[ˈznɪzʊ]
 5021	кохала	feminine singular past imperfective of коха́ти	[kɔˈxaɫɐ]
-5022	австралії	genitive/dative/locative singular of Австра́лія	
+5022	австралії	genitive/dative/locative singular of Австра́лія	/ɑu̯strɑliji/
 5023	молоком	instrumental singular of молоко́	[mɔɫɔˈkɔm]
 5024	програли	plural past perfective of програ́ти	[prɔˈɦraɫe]
 5025	інтерес	interest	[inteˈrɛs]
@@ -5209,7 +5209,7 @@ rank	word	english	ipa
 5208	побудували	plural past indicative of побудува́ти	[pɔbʊdʊˈʋaɫe]
 5209	оці	nominative/vocative plural	[oˈt͡sʲi]
 5210	дивимось	first-person plural present imperfective of диви́тися	[ˈdɪʋemɔsʲ]
-5211	дуба	oak	
+5211	дуба	oak	/duˈbɑ/
 5212	запит	request	[ˈzapet]
 5213	щороку	each year, every year, annually, yearly	[ʃt͡ʃɔˈrɔkʊ]
 5214	комісія	commission	[koˈmʲisʲijɐ]
@@ -5474,7 +5474,7 @@ rank	word	english	ipa
 5473	продовжуємо	first-person plural present indicative of продо́вжувати impf	[prɔˈdɔu̯ʒʊjemɔ]
 5474	відправлю	first-person singular future perfective of відпра́вити	[ʋʲidˈprau̯lʲʊ]
 5475	величезну	feminine accusative singular of величе́зний	[ʋeɫeˈt͡ʃɛznʊ]
-5476	бостона	genitive singular of Бо́стон	
+5476	бостона	genitive singular of Бо́стон	/boˈstɔnɑ/
 5477	бачте	second-person plural imperative imperfective of ба́чити	[ˈbat͡ʃte]
 5478	зраду	accusative singular of зра́да	[ˈzradʊ]
 5479	просьба	request	[ˈprɔzʲbɐ]
@@ -5552,7 +5552,7 @@ rank	word	english	ipa
 5551	фільмах	film, movie	[ˈfʲilʲmɐx]
 5552	підібрати	to pick up	[pʲidʲiˈbrate]
 5553	посмішка	a smile, especially one that is ironic or skeptical	[ˈpɔsʲmʲiʃkɐ]
-5554	німеччині	dative/locative singular of Німе́ччина	
+5554	німеччині	dative/locative singular of Німе́ччина	/ɲimɛtʃʲtɕiː/
 5555	середину	accusative singular of сере́дина	[seˈrɛdenʊ]
 5556	боки	side, flank	[bɔˈkɪ]
 5557	вдих	inhalation, inbreath	[wdɪx]
@@ -5619,7 +5619,7 @@ rank	word	english	ipa
 5618	дешево	cheaply	[ˈdɛʃewɔ]
 5619	свіжі	nominative plural	[ˈsʲʋʲiʒʲi]
 5620	складі	warehouse	[ˈskɫadʲi]
-5621	празі	dative/locative singular of Пра́га	
+5621	празі	dative/locative singular of Пра́га	/prazʲi/
 5622	сидячи	present adverbial participle of сиді́ти impf	[sedʲɐˈt͡ʃɪ]
 5623	пудинг	pudding	[ˈpudenɦ]
 5624	куба	cube	[ˈkubɐ]
@@ -5821,7 +5821,7 @@ rank	word	english	ipa
 5820	дано	given, provided	[dɐˈnɔ]
 5821	ударів	genitive plural of уда́р	[ʊˈdarʲiu̯]
 5822	другові	friend, companion	[ˈdruɦɔʋʲi]
-5823	барбекю	barbecue	
+5823	барбекю	barbecue	/baɾbekʲu/
 5824	світової	feminine genitive singular of світови́й	[sʲʋʲitɔˈwɔji]
 5825	сліз	genitive plural of сльоза́	[sʲlʲiz]
 5826	спеціальний	special	[spet͡sʲiˈalʲnei̯]
@@ -5870,7 +5870,7 @@ rank	word	english	ipa
 5869	периметр	perimeter	[peˈrɪmetr]
 5870	певного	masculine/neuter genitive singular	[ˈpɛu̯nɔɦɔ]
 5871	святкування	verbal noun of святкува́ти impf: celebration	[sʲʋʲɐtkʊˈʋanʲːɐ]
-5872	італії	genitive/dative/locative singular of Іта́лія	
+5872	італії	genitive/dative/locative singular of Іта́лія	/italʲiji/
 5873	джунглі	jungle	[ˈd͡ʒunɦlʲi]
 5874	століть	genitive plural of столі́ття	[stoˈlʲitʲ]
 5875	радости	genitive singular of ра́дість	[ˈradɔste]
@@ -6002,7 +6002,7 @@ rank	word	english	ipa
 6001	відкриває	third-person singular present indicative of відкрива́ти impf	[ʋʲidkreˈʋaje]
 6002	використовуєте	second-person plural present indicative of використо́вувати…	[ʋekɔreˈstɔwʊjete]
 6003	секретарка	female equivalent of секрета́р: secretary	[sekreˈtarkɐ]
-6004	природі	dative/locative singular of приро́да	
+6004	природі	dative/locative singular of приро́да	/prerɔdʲi/
 6005	купиш	second-person singular future perfective of купи́ти	[ˈkupeʃ]
 6006	багаття	bonfire	[bɐˈɦatʲːɐ]
 6007	вірили	plural past indicative imperfective of ві́рити	[ˈʋʲireɫe]
@@ -6922,7 +6922,7 @@ rank	word	english	ipa
 6921	вічі	accusative plural of о́ко	[ˈʋʲit͡ʃʲi]
 6922	особливих	genitive plural	[ɔsɔˈbɫɪʋex]
 6923	плеча	genitive singular of плече́	[pɫeˈt͡ʃa]
-6924	якнайкраще	intensified form of найкра́ще	
+6924	якнайкраще	intensified form of найкра́ще	/jɑknaɪ̯ˈkrɑʃtʃe/
 6925	четвертій	feminine dative/locative singular of четве́ртий	[t͡ʃetˈʋɛrtʲii̯]
 6926	бійця	genitive/accusative singular of боє́ць	[bʲii̯ˈt͡sʲa]
 6927	твому	your, yours, thy, thine	[ˈtwɔmʊ]
@@ -6981,7 +6981,7 @@ rank	word	english	ipa
 6980	гаража	genitive singular of гара́ж	[ɦɐrɐˈʒa]
 6981	почуваєтеся	second-person plural present indicative of почува́тися impf	[pɔt͡ʃʊˈʋajetesʲɐ]
 6982	зайшло	neuter singular past indicative of зайти́ pf	[zɐi̯ʃˈɫɔ]
-6983	електрику	accusative singular of еле́ктрика	
+6983	електрику	accusative singular of еле́ктрика	/jelektɾɪku/
 6984	центра	centre, center	[ˈt͡sɛntrɐ]
 6985	полетіти	to fly	[pɔɫeˈtʲite]
 6986	побігли	plural past indicative of побі́гти pf	[poˈbʲiɦɫe]
@@ -6989,7 +6989,7 @@ rank	word	english	ipa
 6988	англієць	Englishman	[ɐnˈɦlʲijet͡sʲ]
 6989	маяк	lighthouse, beacon	[mɐˈjak]
 6990	світового	masculine/neuter genitive singular	[sʲʋʲitɔˈwɔɦɔ]
-6991	польщу	accusative singular of По́льща	
+6991	польщу	accusative singular of По́льща	/pɔlʲʃtʃʊ/
 6992	завоювати	to conquer	[zɐwɔjʊˈʋate]
 6993	галас	noise, din, racket	[ˈɦaɫɐs]
 6994	слухають	third-person plural present imperfective of слу́хати	[ˈsɫuxɐjʊtʲ]
@@ -7028,7 +7028,7 @@ rank	word	english	ipa
 7027	сідати	to sit down	[sʲiˈdate]
 7028	традиція	tradition	[trɐˈdɪt͡sʲijɐ]
 7029	клич	call	[kɫɪt͡ʃ]
-7030	валентина	genitive singular	
+7030	валентина	genitive singular	/ʋɐɫentɪnɐ/
 7031	співай	second-person singular imperative imperfective of співа́ти	[sʲpʲiˈʋai̯]
 7032	бомб	genitive plural of бо́мба	[bɔmb]
 7033	дорогенький	endearing form of дороги́й: dear, precious	[dɔrɔˈɦɛnʲkei̯]
@@ -7043,7 +7043,7 @@ rank	word	english	ipa
 7042	стекла	glass	[ˈstɛkɫɐ]
 7043	скучила	feminine singular past indicative of ску́чити pf	[ˈskut͡ʃeɫɐ]
 7044	подумаємо	first-person plural future indicative of поду́мати pf	[poˈdumɐjemɔ]
-7045	канади	genitive singular of Кана́да	
+7045	канади	genitive singular of Кана́да	/kɑnɑˈdɪ/
 7046	морської	feminine genitive singular of морськи́й	[mɔrˈsʲkɔji]
 7047	збитки	nominative/accusative/vocative plural of зби́ток	[ˈzbɪtke]
 7048	літ	flying	[lʲit]
@@ -7167,7 +7167,7 @@ rank	word	english	ipa
 7166	сторінку	accusative singular of сторі́нка	[stoˈrʲinkʊ]
 7167	заворушення	unrest, rioting, disturbances, upheaval	[zɐwoˈruʃenʲːɐ]
 7168	анітрохи	not at all	[ɐnʲiˈtrɔxe]
-7169	тат	genitive/accusative plural of та́то	
+7169	тат	genitive/accusative plural of та́то	/tat/
 7170	залишають	third-person plural present indicative of залиша́ти impf	[zɐɫeˈʃajʊtʲ]
 7171	намет	tent	[nɐˈmɛt]
 7172	королівський	royal	[kɔroˈlʲiu̯sʲkei̯]
@@ -7227,7 +7227,7 @@ rank	word	english	ipa
 7226	запитував	masculine singular past indicative of запи́тувати impf	[zɐˈpɪtʊʋɐu̯]
 7227	ненависті	genitive singular of нена́висть	[neˈnaʋesʲtʲi]
 7228	присвятити	to dedicate	[presʲʋʲɐˈtɪte]
-7229	москві	dative/locative singular of Москва́	
+7229	москві	dative/locative singular of Москва́	/mɔskʋʲi/
 7230	накласти	to lay on, to put on	[nɐˈkɫaste]
 7231	вбрання	clothes, costume, decoration	[ˈwbranʲːɐ]
 7232	ллє	third-person singular present indicative imperfective of…	[lʲːɛ]
@@ -7324,7 +7324,7 @@ rank	word	english	ipa
 7323	трусики	diminutive of труси́: panties, knickers	[ˈtruseke]
 7324	бажали	plural past indicative of бажа́ти impf	[bɐˈʒaɫe]
 7325	забити	to beat in, to drive in, to hammer in, to bang in, to ram in	[zɐˈbɪte]
-7326	німеччини	genitive singular of Німе́ччина	
+7326	німеччини	genitive singular of Німе́ччина	/ɲimɛtˈʃtsɪnʲi/
 7327	влаштовувати	to arrange, to organize, to establish	[wɫɐʃˈtɔwʊʋɐte]
 7328	вкласти	to put in, to insert, to enclose	[ˈʍkɫaste]
 7329	докупи	together	[doˈkupe]
@@ -7443,7 +7443,7 @@ rank	word	english	ipa
 7442	розумне	neuter nominative/accusative singular of розу́мний	[roˈzumne]
 7443	ввімкнути	to switch on, to turn on	[ʋʲːimkˈnute]
 7444	пошти	genitive singular of по́шта	[ˈpɔʃte]
-7445	вибив	masculine singular past of ви́бити	
+7445	вибив	masculine singular past of ви́бити	/ʋɪbeu̯/
 7446	анекдот	anecdote	[ɐneɡˈdɔt]
 7447	сильного	masculine/neuter genitive singular	[ˈsɪlʲnɔɦɔ]
 7448	ножі	knife	[noˈʒʲi]
@@ -7629,7 +7629,7 @@ rank	word	english	ipa
 7628	почують	third-person plural future indicative of почу́ти pf	[poˈt͡ʃujʊtʲ]
 7629	лідери	nominative/vocative plural of лі́дер	[ˈlʲidere]
 7630	срібний	silver	[ˈsʲrʲibnei̯]
-7631	єгипту	genitive dative singular of Єги́пет	
+7631	єгипту	genitive dative singular of Єги́пет	/jegʲiptu/
 7632	стріла	arrow	[stʲrʲiˈɫa]
 7633	поїзда	genitive singular of по́їзд	[ˈpɔjizdɐ]
 7634	звалити	to knock down, to knock over, to topple, to fell	[zʋɐˈɫɪte]
@@ -7816,7 +7816,7 @@ rank	word	english	ipa
 7815	видів	kind, sort	[ˈʋɪdʲiu̯]
 7816	пляма	spot, stain	[ˈplʲamɐ]
 7817	заявила	feminine singular past indicative of заяви́ти	[zɐjɐˈʋɪɫɐ]
-7818	іспанії	genitive/dative/locative singular of Іспа́нія	
+7818	іспанії	genitive/dative/locative singular of Іспа́нія	/ispanʲiji/
 7819	росія	Russia	[roˈsʲijɐ]
 7820	коштів	funds; allowance	[ˈkɔʃtʲiu̯]
 7821	готуйте	second-person plural imperative imperfective of готува́ти	[ɦoˈtui̯te]
@@ -7830,7 +7830,7 @@ rank	word	english	ipa
 7829	спортом	sport	[ˈspɔrtɔm]
 7830	учила	feminine singular past imperfective of учи́ти	[ʊˈt͡ʃɪɫɐ]
 7831	свіжий	fresh	[ˈsʲʋʲiʒei̯]
-7832	богдан	genitive/accusative plural of Богда́на	
+7832	богдан	genitive/accusative plural of Богда́на	/bogdɑn/
 7833	хитрість	cunning, craftiness, trickery, ruse	[ˈxɪtʲrʲisʲtʲ]
 7834	уранці	alternative form of вра́нці	[ʊˈranʲt͡sʲi]
 7835	попереджала	feminine singular past of попереджа́ти impf	[pɔpereˈd͡ʒaɫɐ]
@@ -7882,7 +7882,7 @@ rank	word	english	ipa
 7881	подібний	similar, alike	[poˈdʲibnei̯]
 7882	радій	radium	[ˈradʲii̯]
 7883	закінчувати	to end, to finish, to complete, to conclude	[zɐˈkʲint͡ʃʊʋɐte]
-7884	петра	genitive/accusative singular of Петро	
+7884	петра	genitive/accusative singular of Петро	/peˈtra/
 7885	гарантії	genitive/dative/locative singular	[ɦɐˈranʲtʲiji]
 7886	білої	genitive feminine singular of бі́лий	[ˈbʲiɫɔji]
 7887	жирна	nominative feminine singular of жи́рний	[ˈʒɪrnɐ]
@@ -8240,10 +8240,10 @@ rank	word	english	ipa
 8239	почуй	second-person singular imperative of почу́ти pf	[poˈt͡ʃui̯]
 8240	маніяк	maniac	[mɐnʲiˈjak]
 8241	баки	sideburns	[ˈbake]
-8242	азії	genitive/dative/locative singular of А́зія	
+8242	азії	genitive/dative/locative singular of А́зія	/azʲiji/
 8243	забили	plural past indicative perfective of заби́ти	[zɐˈbɪɫe]
 8244	використовуй	second-person singular imperative of використо́вувати impf	[ʋekɔreˈstɔwʊi̯]
-8245	олі	genitive/dative/locative singular	
+8245	олі	genitive/dative/locative singular	/ɔlʲi/
 8246	хімік	chemist	[ˈxʲimʲik]
 8247	додаткових	genitive plural	[dɔdɐtˈkɔʋex]
 8248	чашу	accusative singular of ча́ша	[ˈt͡ʃaʃʊ]
@@ -8352,7 +8352,7 @@ rank	word	english	ipa
 8351	стерти	to wipe, to wipe away, to wipe off, to wipe out	[ˈstɛrte]
 8352	ходячий	walking	[xɔˈdʲat͡ʃei̯]
 8353	продемонструвати	to demonstrate	[prɔdemɔnstrʊˈʋate]
-8354	природою	instrumental singular of приро́да	
+8354	природою	instrumental singular of приро́да	/prerɔdɔjʊ/
 8355	обирати	to elect	[ɔbeˈrate]
 8356	російською	in the Russian language	[roˈsʲii̯sʲkɔjʊ]
 8357	тиха	feminine nominative/vocative singular of ти́хий	[ˈtɪxɐ]
@@ -8370,9 +8370,9 @@ rank	word	english	ipa
 8369	перетворитися	to turn into, to become, to change, transform	[peretwɔˈrɪtesʲɐ]
 8370	внаслідок	as a consequence of, owing to, because of, on account of	[ˈwnasʲlʲidɔk]
 8371	мазь	ointment	[mazʲ]
-8372	рас	acronym of ро́злад аутистично́го спе́ктру: ASD	
+8372	рас	acronym of ро́злад аутистично́го спе́ктру: ASD	/ras/
 8373	гак	hook	[ɦak]
-8374	рената	genitive singular	
+8374	рената	genitive singular	/renatɐ/
 8375	наполегливо	persistently, perseverantly, perseveringly, pertinaciously	[nɐpɔˈɫɛɦɫewɔ]
 8376	виходячи	present adverbial participle of вихо́дити impf	[ʋeˈxɔdʲɐt͡ʃe]
 8377	постійний	permanent	[poˈsʲtʲii̯nei̯]
@@ -8488,7 +8488,7 @@ rank	word	english	ipa
 8487	повернулося	neuter singular past indicative of поверну́тися pf	[pɔʋerˈnuɫɔsʲɐ]
 8488	атож	so	[ɐˈtɔʒ]
 8489	глюк	hallucination	[ɦlʲuk]
-8490	норвегію	accusative singular of Норве́гія	
+8490	норвегію	accusative singular of Норве́гія	/nɔrʋɛɦʲijʊ/
 8491	найвищий	highest	[nɐjˈʋɪʃt͡ʃei̯]
 8492	зруйнували	plural past indicative of зруйнува́ти pf	[zrʊi̯nʊˈʋaɫe]
 8493	дню	day	[dʲnʲu]
@@ -8518,7 +8518,7 @@ rank	word	english	ipa
 8517	заміна	replacement, substitution	[zɐˈmʲinɐ]
 8518	наново	anew, afresh; again	[ˈnanɔwɔ]
 8519	проповідь	sermon	[ˈprɔpɔʋʲidʲ]
-8520	москви	genitive singular of Москва́	
+8520	москви	genitive singular of Москва́	/mɔskʋɪ/
 8521	заявив	masculine singular past indicative of заяви́ти	[zɐjɐˈʋɪu̯]
 8522	відвідував	masculine singular past indicative of відві́дувати impf	[ʋʲidʲˈʋʲidʊʋɐu̯]
 8523	розбиратися	to deal with, to get to grips with	[rɔzbeˈratesʲɐ]
@@ -8691,7 +8691,7 @@ rank	word	english	ipa
 8690	чаша	bowl	[ˈt͡ʃaʃɐ]
 8691	розвідка	intelligence, reconnaissance, scouting	[ˈrɔzʲʋʲidkɐ]
 8692	картині	dative/locative singular of карти́на	[kɐrˈtɪnʲi]
-8693	петре	vocative singular of Петро́	
+8693	петре	vocative singular of Петро́	/peˈtrɛ/
 8694	костел	alternative form of костьо́л	[kɔˈstɛɫ]
 8695	французькі	nominative plural	[frɐnˈt͡suzʲkʲi]
 8696	горіти	to burn	[ɦoˈrʲite]
@@ -8724,7 +8724,7 @@ rank	word	english	ipa
 8723	хребет	spine, spinal column, backbone	[xreˈbɛt]
 8724	готуються	third-person plural present indicative of готува́тися impf	[ɦoˈtujʊt͡sʲːɐ]
 8725	підпишеш	second-person singular future indicative of підписа́ти pf	[pʲidˈpɪʃeʃ]
-8726	всеодно	misspelling of все одно́	
+8726	всеодно	misspelling of все одно́	/fsʲo'dno/
 8727	язики	nominative/accusative/vocative plural of язи́к	[jɐzeˈkɪ]
 8728	народжуються	third-person plural present indicative of наро́джуватися…	[nɐˈrɔd͡ʒʊjʊt͡sʲːɐ]
 8729	холостяк	bachelor	[xɔɫɔˈsʲtʲak]
@@ -8732,14 +8732,14 @@ rank	word	english	ipa
 8731	переживає	third-person singular present indicative of пережива́ти impf	[pereʒeˈʋaje]
 8732	бісу	evil spirit, demon	[ˈbʲisʊ]
 8733	собачка	puppy	[sɔˈbat͡ʃkɐ]
-8734	електрики	genitive singular of еле́ктрика	
+8734	електрики	genitive singular of еле́ктрика	/jelektɾɪki/
 8735	посміхатися	to smile ironically or skeptically	[pɔsʲmʲiˈxatesʲɐ]
 8736	давним-давно	long ago, long long ago	[dɐu̯ˈnɪm dɐu̯ˈnɔ]
 8737	зовнішність	outward appearance, exterior	[ˈzɔu̯nʲiʃnʲisʲtʲ]
 8738	виграють	third-person plural future perfective of ви́грати	[ˈʋɪɦrɐjʊtʲ]
 8739	колин	Kolya's	[ˈkɔɫen]
 8740	серпні	locative singular	[ˈsɛrpnʲi]
-8741	москва	Muscovites, Russians	
+8741	москва	Muscovites, Russians	/mɔskʋa/
 8742	комісію	accusative singular of комі́сія	[koˈmʲisʲijʊ]
 8743	виходом	instrumental singular of ви́хід	[ˈʋɪxɔdɔm]
 8744	соціальний	social	[sɔt͡sʲiˈalʲnei̯]
@@ -8792,7 +8792,7 @@ rank	word	english	ipa
 8791	сучасної	feminine genitive singular of суча́сний	[sʊˈt͡ʃasnɔji]
 8792	вежа	tower	[ˈʋɛʒɐ]
 8793	обручка	wedding ring	[oˈbrut͡ʃkɐ]
-8794	францію	accusative singular of Фра́нція	
+8794	францію	accusative singular of Фра́нція	/frɑnʲtsʲiu̯/
 8795	лотос	lotus	[ˈɫɔtɔs]
 8796	стадіоні	locative singular of стадіо́н	[stɐdʲiˈɔnʲi]
 8797	спеціаліст	specialist	[spet͡sʲiɐˈlʲist]
@@ -8945,7 +8945,7 @@ rank	word	english	ipa
 8944	почистити	to clean	[pɔˈt͡ʃɪstete]
 8945	дісталася	feminine singular past indicative of діста́тися pf	[dʲiˈstaɫɐsʲɐ]
 8946	рішуче	decisively, resolutely, firmly	[rʲiˈʃut͡ʃe]
-8947	юстина	genitive singular	
+8947	юстина	genitive singular	/jʊstɪnɐ/
 8948	необхідність	necessity	[neobˈxʲidʲnʲisʲtʲ]
 8949	художником	instrumental singular of худо́жник	[xʊˈdɔʒnekɔm]
 8950	медицини	genitive singular	[medeˈt͡sɪne]
@@ -9338,7 +9338,7 @@ rank	word	english	ipa
 9337	гільдія	gild, guild	[ˈɦʲilʲdʲijɐ]
 9338	спаситель	Savior	[spɐˈsɪtelʲ]
 9339	капкан	trap, bear trap, leg trap	[kɐpˈkan]
-9340	ніка	genitive/accusative singular of Нік	
+9340	ніка	genitive/accusative singular of Нік	/ɲɪkɑ/
 9341	астронавт	astronaut	[ɐstrɔˈnau̯t]
 9342	роздратований	irritated, annoyed	[rɔzdrɐˈtɔʋɐnei̯]
 9343	вимовити	to pronounce	[ˈʋɪmɔʋete]
@@ -9430,7 +9430,7 @@ rank	word	english	ipa
 9429	літаком	instrumental singular of літа́к	[lʲitɐˈkɔm]
 9430	вдавай	second-person singular imperative of вдава́ти impf	[wdɐˈʋai̯]
 9431	часам	time	[t͡ʃɐˈsam]
-9432	океанії	genitive/dative/locative singular of Океа́нія	
+9432	океанії	genitive/dative/locative singular of Океа́нія	/ɔkeanʲiji/
 9433	вибухом	instrumental singular of ви́бух	[ˈʋɪbʊxɔm]
 9434	комфорт	comfort	[kɔmˈfɔrt]
 9435	збентежений	perturbed	[zbenˈtɛʒenei̯]
@@ -9521,7 +9521,7 @@ rank	word	english	ipa
 9520	очевидна	feminine nominative singular of очеви́дний	[ɔt͡ʃeˈʋɪdnɐ]
 9521	фрукт	fruit	[frukt]
 9522	поїздом	instrumental singular of по́їзд	[ˈpɔjizdɔm]
-9523	ізраїлю	dative/locative/vocative singular of Ізра́їль	
+9523	ізраїлю	dative/locative/vocative singular of Ізра́їль	/izrɑjɪlʲu/
 9524	районний	raion, district, regional	[rɐˈjɔnːei̯]
 9525	опитування	poll, survey	[ɔˈpɪtʊʋɐnʲːɐ]
 9526	розстріляти	to shoot dead, to execute	[rɔzstʲrʲiˈlʲate]
@@ -9565,7 +9565,7 @@ rank	word	english	ipa
 9564	робитимете	second-person plural synthetic future indicative…	[rɔˈbɪtemete]
 9565	припинення	verbal noun of припини́ти pf: stopping, cessation,…	[preˈpɪnenʲːɐ]
 9566	столиком	instrumental singular of сто́лик	[ˈstɔɫekɔm]
-9567	австрії	genitive/dative/locative singular of А́встрія	
+9567	австрії	genitive/dative/locative singular of А́встрія	/ɑu̯strʲiː/
 9568	скорбота	grief, sorrow, affliction, woe	[skɔrˈbɔtɐ]
 9569	горою	instrumental singular of гора́	[ɦɔˈrɔjʊ]
 9570	трансформатор	transformer	[trɐnsfɔrˈmatɔr]
@@ -9802,7 +9802,7 @@ rank	word	english	ipa
 9801	скуштувати	to taste, to try	[skʊʃtʊˈʋate]
 9802	політик	politician	[poˈlʲitek]
 9803	хворобою	instrumental singular of хворо́ба	[xwɔˈrɔbɔjʊ]
-9804	маркіз	marquis, marquess	
+9804	маркіз	marquis, marquess	/maˈɾkiːz/
 9805	сутичка	clash	[ˈsutet͡ʃkɐ]
 9806	цукром	instrumental singular of цу́кор	[ˈt͡sukrɔm]
 9807	вистежити	to hunt down, to spy out	[ˈʋɪsteʒete]
@@ -9812,7 +9812,7 @@ rank	word	english	ipa
 9811	навзаєм	mutually, reciprocally	[nɐu̯ˈzajem]
 9812	гарячою	feminine instrumental singular of гаря́чий	[ɦɐˈrʲat͡ʃɔjʊ]
 9813	корзина	basket	[kɔrˈzɪnɐ]
-9814	росією	instrumental singular of Росі́я	
+9814	росією	instrumental singular of Росі́я	/rosʲijejʊ/
 9815	шило	awl	[ˈʃɪɫɔ]
 9816	загальні	nominative plural	[zɐˈɦalʲnʲi]
 9817	сподіваємось	first-person plural present indicative of сподіва́тися impf	[spɔdʲiˈʋajemɔsʲ]
@@ -9942,7 +9942,7 @@ rank	word	english	ipa
 9941	пах	smell, scent, aroma, odor	[pax]
 9942	носилки	stretcher	[nɔˈsɪɫke]
 9943	виконували	plural past indicative of вико́нувати impf	[ʋeˈkɔnʊʋɐɫe]
-9944	кракова	genitive singular of Кра́ків	
+9944	кракова	genitive singular of Кра́ків	/krɑkɔvɑ/
 9945	відкриваю	first-person singular present indicative of відкрива́ти impf	[ʋʲidkreˈʋajʊ]
 9946	заволодіти	to take possession, to appropriate, to seize, to take over	[zɐwɔɫoˈdʲite]
 9947	рибалити	to fish	[reˈbaɫete]
@@ -9985,7 +9985,7 @@ rank	word	english	ipa
 9984	єдність	unity	[ˈjɛdʲnʲisʲtʲ]
 9985	дотепер	hitherto, thus far, to date, up to now	[dɔteˈpɛr]
 9986	феєрверк	firework	[fejerˈʋɛrk]
-9987	львів	lion	
+9987	львів	lion	/lʲʋʲiu̯/
 9988	перевернути	to turn over, to turn upside down, to upend, to upturn	[pereʋerˈnute]
 9989	зберу	first-person singular future indicative of зібра́ти pf	[zbeˈru]
 9990	перетворюватися	to turn into, to become, to change, to transform	[peretˈwɔrʲʊʋɐtesʲɐ]

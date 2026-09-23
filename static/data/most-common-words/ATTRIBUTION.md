@@ -49,6 +49,28 @@ software; what it outputs is not covered by that licence, and the column is
 share-alike with the rest of the list. `scripts/wordlists/build-ipa.ts` has the
 details.
 
+### Further pronunciation sources
+
+- **Danish** — the [NST Pronunciation Lexicon for Danish](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-26/)
+  (Nordisk Språkteknologi, kept by the National Library of Norway), CC0.
+  `scripts/wordlists/ipa-nst-danish.ts` converts its SAMPA to IPA.
+- **Icelandic, and a few words in Hungarian, Ukrainian, Macedonian, Polish
+  and Tagalog** — the word lists of [goruut](https://github.com/neurlang/goruut),
+  used only in languages where they agree with Wiktionary as often as any
+  other source must. MIT licence:
+
+  > Copyright (c) 2024 neurlang
+  >
+  > Permission is hereby granted, free of charge, to any person obtaining a
+  > copy of this software and associated documentation files (the
+  > "Software"), to deal in the Software without restriction, including
+  > without limitation the rights to use, copy, modify, merge, publish,
+  > distribute, sublicense, and/or sell copies of the Software, and to permit
+  > persons to whom the Software is furnished to do so, subject to the
+  > following conditions: The above copyright notice and this permission
+  > notice shall be included in all copies or substantial portions of the
+  > Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
 ## Example sentences
 
 |              |                                                                    |
