@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best language exchange apps for beginners are the ones that let you start in writing, with help on hand: **HelloTalk** for built-in translation, romanization and voice-to-text, **LangX** for calm text-first chats with unlimited corrections and no ads, and **Busuu** if you want a course that sends your exercises to native speakers before you ever hold a conversation. **Tandem** is great once you are ready for a steady partner, and AI apps like **Speak** or **Praktika** are a safe place to rehearse first.
 
 You do not need to be "good enough" to start a language exchange. You need about fifty useful words, a short introduction you have written in advance, and an app that gives you time to think. This guide shows which apps do that best, then gives you a two-week plan and first messages you can copy.
+
+<KeyTakeaways items={[
+  "Beginners do best in apps that let them start in writing, with help inside the chat.",
+  "HelloTalk has the most built-in help; LangX is calm and text-first with unlimited corrections and no ads; Busuu sends course exercises to native speakers.",
+  "You need about fifty useful words, a prepared introduction and time to think, not a certain level.",
+  "Rehearsing with an AI app like Speak or Praktika can make the first real conversation easier.",
+  "Two conversations past ten messages by the end of week two is a real result."
+]} />
 
 We make LangX, so weigh our entry accordingly. Features for other apps were checked against their own sites, help pages and store listings at the time of writing (September 2026). For the full ranking of every app, see [the best language exchange apps](/best-language-exchange-apps); this page only asks which ones make life easier at the very start.
 
@@ -68,6 +80,12 @@ Look for help **inside the chat**: translation, transliteration (romanization) f
 
 The catch: on the free tier each of those tools has a **daily cap**, and there are ads. VIP lifts both. The busy, social-feed atmosphere can also feel like a lot in week one. More in [LangX vs HelloTalk](/open-source-alternative-to-hellotalk) and [is HelloTalk free?](/is-hellotalk-free).
 
+<ProsCons
+  name="HelloTalk for beginners"
+  pros={["Translation, transliteration and voice-to-text inside the chat", "Moments: post one short sentence and get it corrected by several native speakers", "The fullest beginner toolkit of any exchange app"]}
+  cons={["Each tool has a daily cap on the free tier", "Ads on the free tier (VIP removes them)", "The busy social feed can feel like a lot in week one"]}
+/>
+
 ### LangX: text-first, with corrections that never run out
 
 Our app. [LangX](https://get.langx.io) matches in both directions, so every person you see speaks the language you are learning *and* is learning yours. There are no live calls on any plan, which for a nervous beginner is a feature: nobody can ring you. You practice with text, and with voice, photo and video messages when you are ready.
@@ -79,6 +97,12 @@ Our app. [LangX](https://get.langx.io) matches in both directions, so every pers
 - **No ads** on any plan.
 
 The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI feedback, LangX Copilot, is planned for Polyglot but not shipped. Plans are on the [plans page](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Nobody can ring you"
+  text="LangX has no live calls, so you answer when you are ready. Your partner holds any message to correct it, and corrections are unlimited on every plan."
+/>
 
 ### Busuu: a course first, native speakers second
 
@@ -100,20 +124,19 @@ The honest limits: the community is much smaller than HelloTalk's or Tandem's, F
 
 This plan assumes about twenty minutes a day. It works with any app above.
 
-**Days 1–3: prepare.**
-- If your language uses another script, learn it first with an [alphabet chart](/tools/alphabet).
-- Learn the first 50–100 words from a [most common words list](/tools/most-common-words). They carry a surprising share of any conversation.
-- Write your introduction (see the scripts below) and have a translation tool check it.
+<Steps
+  title="Your first two weeks, about twenty minutes a day"
+  steps={[
+    { title: "Days 1–3: prepare", text: "If your language uses another script, learn it first. Learn the first 50–100 most common words. Write your introduction and have a translation tool check it." },
+    { title: "Day 4: set up your profile", text: "Say your level plainly (\"Beginner, A1, please be patient\") and add two or three interests." },
+    { title: "Days 5–7: send five first messages", text: "Pick profiles that mention something you can ask about, and aim for two conversations that get past five messages." },
+    { title: "Days 8–10: add voice", text: "Send one short voice message a day: your introduction, what you ate, your plans for the weekend. Ask your partner to reply with a voice message and the text underneath." },
+    { title: "Days 11–12: ask for corrections", text: "Ask one partner to correct everything you write for a day. Copy every correction into a notebook or flashcards." },
+    { title: "Days 13–14: review and decide", text: "Reread your corrections, retest your vocabulary, and decide which app and which partner to keep. If you want live speaking next, try one short call on HelloTalk or Tandem, or book a tutor." }
+  ]}
+/>
 
-**Day 4: set up your profile.** Say your level plainly ("Beginner, A1, please be patient") and add two or three interests.
-
-**Days 5–7: send five first messages.** Pick profiles that mention something you can ask about, and aim for two conversations that get past five messages.
-
-**Days 8–10: add voice.** Send one short voice message a day: your introduction, what you ate, your plans for the weekend. Ask your partner to reply with a voice message and the text underneath.
-
-**Days 11–12: ask for corrections.** Ask one partner to correct everything you write for a day. Copy every correction into a notebook or flashcards.
-
-**Days 13–14: review and decide.** Reread your corrections, retest yourself with a [vocabulary test](/tools/vocabulary-test), and decide which app and which partner to keep. If you want live speaking next, try one short call on HelloTalk or Tandem, or book a tutor.
+Tools for the plan: an [alphabet chart](/tools/alphabet) for a new script, a [most common words list](/tools/most-common-words) for days 1–3, and a [vocabulary test](/tools/vocabulary-test) for days 13–14.
 
 <Callout type="success">
 Two conversations that last past ten messages by the end of week two is a real result. If week one feels slow, keep going: finding one good partner is the hardest part, and it only has to happen once.

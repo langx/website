@@ -24,11 +24,21 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import WordTiles from "$lib/components/blog/WordTiles.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Freedom is *libertad* in Spanish, *ελευθερία* in Greek, *자유* in Korean and *آزادی* in Persian. Soul is *alma*, *âme*, *ψυχή* or *आत्मा*. Below are 20 of the most searched "big" words (freedom, soul, destiny, love, hope and more), each in a handful of languages picked for their variety of scripts, with a link to the full list for every word.
 
 Every word here comes from our free [Say it in any language](/tools/say) tool, which shows 976 English words across up to 53 languages. The lists are not machine translations. They come from real usage, so each word is one people actually say, and each has a rank that tells you how common it is in that language.
+
+<KeyTakeaways items={[
+  "20 big words, from freedom and soul to love and hope, each in a handful of languages picked for their scripts.",
+  "Every word comes from film and TV subtitles, matched to English through Wiktionary, not from machine translation.",
+  "Some rows are verb forms, slang or a second meaning: for courage, the French and Hebrew words are slang.",
+  "Before a word goes on a tattoo, a ring or a logo, have a native speaker check it."
+]} />
 
 ## Where these words come from
 
@@ -46,6 +56,21 @@ For each word you get a short table, one line on what stands out, and a link to 
 
 ## Freedom in different languages
 
+
+<WordTiles
+  english="freedom"
+  href="/tools/say/freedom"
+  words={[
+    { language: "Spanish", word: "libertad", code: "es" },
+    { language: "French", word: "liberté", code: "fr" },
+    { language: "Greek", word: "ελευθερία", code: "el" },
+    { language: "Arabic", word: "حرية", code: "ar" },
+    { language: "Persian", word: "آزادی", code: "fa" },
+    { language: "Korean", word: "자유", code: "ko" },
+    { language: "Tamil", word: "சுதந்திரம்", code: "ta" },
+    { language: "Turkish", word: "özgürlük", code: "tr" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | libertad |
@@ -67,6 +92,21 @@ Persian and Urdu use the same written word, آزادی. The Bengali মুক্
 
 ## Soul in different languages
 
+
+<WordTiles
+  english="soul"
+  href="/tools/say/soul"
+  words={[
+    { language: "Spanish", word: "alma", code: "es" },
+    { language: "French", word: "âme", code: "fr" },
+    { language: "Greek", word: "ψυχή", code: "el" },
+    { language: "Hebrew", word: "נפש", code: "he" },
+    { language: "Hindi", word: "आत्मा", code: "hi" },
+    { language: "Urdu", word: "روح", code: "ur" },
+    { language: "Korean", word: "영혼", code: "ko" },
+    { language: "Ukrainian", word: "душа", code: "uk" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | alma |
@@ -109,6 +149,21 @@ Most languages use one word for both. Where they split, "fate" pulls toward luck
 
 ## Love in different languages
 
+
+<WordTiles
+  english="love"
+  href="/tools/say/love"
+  words={[
+    { language: "Spanish", word: "amor", code: "es" },
+    { language: "Italian", word: "amore", code: "it" },
+    { language: "Greek", word: "αγάπη", code: "el" },
+    { language: "Russian", word: "любовь", code: "ru" },
+    { language: "Hebrew", word: "אהבה", code: "he" },
+    { language: "Hindi", word: "प्यार", code: "hi" },
+    { language: "Georgian", word: "სიყვარული", code: "ka" },
+    { language: "Tagalog", word: "pag-ibig", code: "tl" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | amor |
@@ -273,6 +328,21 @@ The Tagalog *pangarap* and Turkish *hayal* are the dream you hope for rather tha
 
 ## Hope in different languages
 
+
+<WordTiles
+  english="hope"
+  href="/tools/say/hope"
+  words={[
+    { language: "Portuguese", word: "esperança", code: "pt" },
+    { language: "Ukrainian", word: "надія", code: "uk" },
+    { language: "Georgian", word: "იმედი", code: "ka" },
+    { language: "Persian", word: "امید", code: "fa" },
+    { language: "Hindi", word: "उम्मीद", code: "hi" },
+    { language: "Tamil", word: "நம்பிக்கை", code: "ta" },
+    { language: "Chinese", word: "希望", code: "zh" },
+    { language: "Turkish", word: "umut", code: "tr" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Portuguese | esperança |
@@ -293,6 +363,21 @@ People say "I hope" more often than they say "hope", so many rows on the full pa
 
 ## Peace in different languages
 
+
+<WordTiles
+  english="peace"
+  href="/tools/say/peace"
+  words={[
+    { language: "Spanish", word: "paz", code: "es" },
+    { language: "French", word: "paix", code: "fr" },
+    { language: "German", word: "Frieden", code: "de" },
+    { language: "Russian", word: "мир", code: "ru" },
+    { language: "Hebrew", word: "שלום", code: "he" },
+    { language: "Arabic", word: "سلام", code: "ar" },
+    { language: "Chinese", word: "和平", code: "zh" },
+    { language: "Turkish", word: "barış", code: "tr" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | paz |
@@ -333,6 +418,21 @@ This page shows exactly why you check before you ink. For French and Hebrew, the
 
 ## Heart in different languages
 
+
+<WordTiles
+  english="heart"
+  href="/tools/say/heart"
+  words={[
+    { language: "Spanish", word: "corazón", code: "es" },
+    { language: "French", word: "cœur", code: "fr" },
+    { language: "Greek", word: "καρδιά", code: "el" },
+    { language: "Russian", word: "сердце", code: "ru" },
+    { language: "Hindi", word: "दिल", code: "hi" },
+    { language: "Urdu", word: "دل", code: "ur" },
+    { language: "Georgian", word: "გული", code: "ka" },
+    { language: "Malayalam", word: "ഹൃദയം", code: "ml" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | corazón |
@@ -480,6 +580,12 @@ For writing a script correctly (Korean, Georgian, Hebrew, Arabic and others), th
 [LangX](/) is a language exchange app with a free plan. It matches you with people who speak the language you're curious about and are learning yours. You can send a photo of your design and ask what they think. They can correct your message directly, and there's translation inside the chat if you get stuck. Corrections are unlimited on every plan, and the free plan lets you start 5 new conversations a day, which is plenty for asking three or four people about one word.
 
 It isn't a translation service, and nobody there has to answer. What it gives you is real people who use the language every day. That's exactly who should check a tattoo. If you want to keep going after that, our [guide to language exchange](/what-is-a-language-exchange) explains how it works. [Get LangX](https://get.langx.io).
+
+<AppDemo
+  screen="chat"
+  title="Ask a native speaker before you ink"
+  text="Send your word or a photo of your design to someone who speaks the language. They can hold your message to correct it, and translation is built into the chat."
+/>
 
 ## FAQ
 

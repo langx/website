@@ -19,6 +19,7 @@ tags:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
@@ -28,6 +29,14 @@ Recently, there have been allegations on Reddit suggesting that LangX is involve
 ## Transparency and Our Commitment
 
 LangX is built on openness and transparency. Our entire codebase is publicly available on GitHub for anyone to inspect and contribute. All our products are free, and we have never asked for financial contributions. Our contributors, whom we met through the app, volunteer their expertise in various areas, including coding, app design, community moderation, AI training, marketing, and bug reporting. We work on this project almost every day, continuously adding new features and improvements. Check out our history logs and backlogs; all our repositories are open and 100% transparent.
+
+<KeyTakeaways items={[
+  "In June 2024, posts on Reddit labelled LangX a crypto scam. This was the team's reply.",
+  "The whole codebase is public on GitHub, so anyone can inspect it and follow contributions.",
+  "At the time, LangX had no cryptocurrency token on any real blockchain.",
+  "The company is registered in the United States through an agency whose address many businesses share.",
+  "LangX was banned from r/duolingo and its AMA post was removed."
+]} />
 
 ## Right to Respond and Cryptocurrency Clarification
 

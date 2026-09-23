@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 LangX is a social alternative to Duolingo: a social language app where the "lesson" is a conversation with a real person, a native speaker of the language you are learning who is learning yours. You chat, they correct you, you correct them. Think of it as Duolingo with real people instead of a lesson path, and it works best alongside Duolingo rather than instead of it.
 
 We make LangX, so read this with that in mind. We also like Duolingo, and we will be fair about it: Duolingo is not an antisocial app. It has friends, leagues and shared quests. What it does not have is a real person to talk to. That one gap is what this page is about.
+
+<KeyTakeaways items={[
+  "Duolingo has friends, leagues and shared quests, but no real person to talk to.",
+  "On Duolingo you practice with the app; on a social language app like LangX you practice with native speakers.",
+  "LangX keeps streaks, tokens and leaderboards, and swaps the lesson path for two-way matched chats with unlimited corrections.",
+  "It works best alongside Duolingo: about 20 minutes a day covers a lesson and a chat."
+]} />
 
 ## What Duolingo does well
 
@@ -40,6 +52,12 @@ Before talking about what is missing, it is worth being clear about what works, 
 - **It has started on speaking.** Duolingo Max includes **Video Call with Lily**, an AI character you talk to, and Roleplay scenarios with AI feedback. In 2026 Duolingo also began expanding Video Call to some Super subscribers.
 
 If you are starting a language from scratch, Duolingo is a very reasonable first app. Our [LangX vs Duolingo comparison](/open-source-alternative-to-duolingo) goes feature by feature.
+
+<ProsCons
+  name="Duolingo"
+  pros={["Streaks, short lessons and reminders turn five minutes a day into a habit", "A great on-ramp: start from zero and read simple sentences within days", "Friend Streaks, Friends Quests and weekly leagues", "AI speaking practice with Video Call and Roleplay on Max"]}
+  cons={["No chat with other learners", "No way to be matched with a native speaker", "Its old sentence discussion forums no longer take new comments"]}
+/>
 
 ## What Duolingo can't give you: a person
 
@@ -61,6 +79,12 @@ You only see people who speak the language you are learning *and* are learning a
 
 Hold any message in a chat to correct it, and the fix appears right in the conversation. You can also post a sentence to the Feed and let the community correct it. Corrections are **unlimited on every plan**, Free included, and so are replies to anyone who writes to you. This is the part that teaches, so it is never rationed.
 
+<AppDemo
+  screen="chat"
+  title="A correction, right in the conversation"
+  text="Hold any message to correct it and the fix appears in the chat. Corrections and replies are unlimited on every plan, Free included."
+/>
+
 ### Translation, voice notes and read-aloud
 
 Stuck on a word? Translate it inside the chat (20 translations a day on Free, 300 on Fluent, 1000 on Polyglot). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. There are no live calls on LangX; conversations happen through text, voice, photo and video messages, which also means you have time to think before you answer.
@@ -78,6 +102,11 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 <Callout type="info">LangX is not a course. There is no lesson path, grammar unit or placement test. It works best once you can write a few simple sentences, which is roughly where Duolingo gets you.</Callout>
 
 ## Duolingo vs LangX at a glance
+
+<VersusCard
+  a={{ name: "Duolingo", tagline: "Course app with game-like lessons", points: ["You practice with the app, and an AI character on paid plans", "Friends, Friend Streaks, Friends Quests and leagues", "Structured lessons in every course", "No direct messaging between learners"], bestFor: "starting from zero and building the habit" }}
+  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "No lesson path and no live calls"], bestFor: "using what you learned with a real person" }}
+/>
 
 | | Duolingo | LangX |
 | --- | --- | --- |
@@ -101,11 +130,16 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 
 You do not have to choose. The combination is the point: Duolingo gives you new words and grammar, and LangX gives you a real person to use them with. A realistic daily routine, about 20 minutes:
 
-1. **Do your Duolingo lesson** (5 to 10 minutes). Keep the streak; it is a great warm-up.
-2. **Take one thing from it into a chat.** Learned the past tense today? Write two or three sentences to a LangX partner about what you did yesterday.
-3. **Ask for corrections.** Say it plainly: "Please correct my mistakes." Then read each correction and write the sentence again.
-4. **Correct your partner back.** Fix a couple of their sentences in your native language. It is only fair, and it earns tokens too.
-5. **Send one voice note.** Thirty seconds is enough. Pronunciation is where text-only learners fall behind.
+<Steps
+  title="A 20-minute daily routine with Duolingo and LangX"
+  steps={[
+    { title: "Do your Duolingo lesson", text: "5 to 10 minutes. Keep the streak; it is a great warm-up." },
+    { title: "Take one thing from it into a chat", text: "Learned the past tense today? Write two or three sentences to a LangX partner about what you did yesterday." },
+    { title: "Ask for corrections", text: "Say it plainly: \"Please correct my mistakes.\" Then read each correction and write the sentence again." },
+    { title: "Correct your partner back", text: "Fix a couple of their sentences in your native language. It is only fair, and it earns tokens too." },
+    { title: "Send one voice note", text: "Thirty seconds is enough. Pronunciation is where text-only learners fall behind." }
+  ]}
+/>
 
 Short, regular chats beat one long session a week. If you run out of things to say, keep a list of [conversation topics](/language-exchange-conversation-topics) handy, and for the vocabulary gaps, the [most common words](/tools/most-common-words) in your language are the fastest win.
 

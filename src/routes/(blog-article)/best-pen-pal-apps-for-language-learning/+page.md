@@ -24,11 +24,24 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
 </script>
 
 The best pen pal apps for language learning in 2026 are **Slowly** for thoughtful, delayed letters, **InterPals** for the biggest and broadest pen-pal community, and **Conversation Exchange** for a no-frills directory with a dedicated pen-pal mode. If you want faster back-and-forth with corrections built into the chat, a language exchange app such as LangX (ours) fills the gap that pen-pal apps leave open.
 
 A pen pal is one of the oldest ways to learn a language, and it still works. This guide compares the options we could verify are active today, then explains how to actually learn from one. Everything about other services comes from their own sites and app store listings at the time of writing (September 2026).
+
+<KeyTakeaways items={[
+  "Slowly is best for thoughtful, delayed letters; InterPals has the biggest pen-pal community.",
+  "Conversation Exchange is a no-frills directory where everyone is there for languages.",
+  "Pen-pal apps have no correction tools, so ask for a few corrections in every letter and keep a mistake log.",
+  "For fast back-and-forth with corrections in the chat, add a language exchange app such as LangX.",
+  "Slow letters train reading and careful writing; fast chat trains everyday phrasing and confidence."
+]} />
 
 ## Pen pal apps compared
 
@@ -51,11 +64,23 @@ A pen pal is one of the oldest ways to learn a language, and it still works. Thi
 
 **Limits:** there are no correction tools, so you have to ask for feedback in the letter itself. The delay that makes letters thoughtful also means you might exchange only a few a week. Slowly has a free tier with a friend quota, a paid Slowly Plus membership, and collectible stamps; its Google Play listing says the app contains ads.
 
+<ProsCons
+  name="Slowly"
+  pros={["You wait for every reply, so people write real letters, not one-line messages", "Filter pen pals by language, topics and region", "Set your languages with a proficiency level", "A nickname and avatar, which many shy learners find freeing"]}
+  cons={["No correction tools: ask for feedback in the letter", "You might exchange only a few letters a week", "A friend quota on the free tier, and ads on Android"]}
+/>
+
 We compare it with LangX in detail in our [open source alternative to Slowly](/open-source-alternative-to-slowly) page.
 
 ## InterPals: best for the biggest pen-pal community
 
 [InterPals](https://www.interpals.net) calls itself "the original pen pal site" and has run since 1998. It says it has more than 8.5 million users in 180+ countries. You can search by country, age and the languages people speak or are learning, and message them for free.
+
+<StatRow stats={[
+  { value: "8.5M+", label: "users, according to InterPals" },
+  { value: "180+", label: "countries" },
+  { value: "1998", label: "running since" }
+]} />
 
 **Why it works for learners:** sheer size. For a less common language, it is one of the likeliest places to find a native speaker who wants to write, and it suits people who want friendship as much as grammar.
 
@@ -88,6 +113,12 @@ Two older sites are still active and worth a look if the options above do not ha
 
 The free plan lets you start 5 new conversations a day, with unlimited replies. The honest trade-off: LangX has a much smaller community than InterPals or Slowly, and it will not give you the slow, anticipatory joy of a letter arriving. Many learners use both: a Slowly or InterPals pen pal for long letters, and a chat partner for daily practice. If you would rather talk out loud, [language exchange Discord servers](/language-exchange-discord-servers) and [local language exchange meetups](/language-exchange-meetups) are the next step up.
 
+<AppDemo
+  screen="chat"
+  title="Minutes, not days"
+  text="On LangX replies come in minutes, and your partner holds any message to correct it right in the chat. Corrections are unlimited on every plan."
+/>
+
 ## How to use a pen pal to actually learn a language
 
 ### Write in your target language, then let them answer in theirs
@@ -113,6 +144,11 @@ End every letter with a question or two. It makes replying easy and keeps the co
 ## Slow letters or fast chat: which is better for learning?
 
 Both work. They train different things.
+
+<VersusCard
+  a={{ name: "Slow letters", tagline: "Pen-pal apps like Slowly and InterPals", points: ["A few long letters a week", "You ask for feedback in the next letter", "Intermediate and up gets the most out of it", "Risk: correspondence fizzles if one side is slow"], bestFor: "reading and careful writing" }}
+  b={{ name: "Fast chat", tagline: "Language exchange apps like LangX", points: ["A few short messages a day", "Corrections inside the chat, right away", "Works from beginner up", "Risk: messages stay shallow if you never go deeper"], bestFor: "everyday phrasing, speed and confidence" }}
+/>
 
 | | Slow letters (pen-pal apps) | Fast chat (language exchange apps) |
 | --- | --- | --- |

@@ -23,9 +23,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 The best social language learning apps in 2026 are **HelloTalk** for the biggest community and a social feed, **Tandem** for reviewed one-to-one exchange with calls, **LangX** for two-way matching and unlimited corrections with no ads, **Busuu** for native-speaker corrections on a structured course, and **Slowly** or **InterPals** if you want pen pals. What they share is the thing that makes an app "social": you practice with real people, not only with the app.
+
+<KeyTakeaways items={[
+  "A social language app is one where real people help you learn: exchange, community corrections, pen pals or group voice.",
+  "HelloTalk has the biggest community; Tandem is best for reviewed one-to-one exchange with calls.",
+  "LangX offers two-way matching and unlimited corrections with no ads; Busuu adds native-speaker corrections to a course.",
+  "Slowly and InterPals suit people who want pen pals.",
+  "Duolingo is social around your progress, not in your practice: there is no one to talk to."
+]} />
 
 We make LangX, so weigh our entry accordingly. Every other app below was checked against its official site and app store listings at the time of writing (September 2026), and we say plainly where another app is the better choice.
 
@@ -66,6 +77,12 @@ By that test, Duolingo is a social app for motivation but not for conversation, 
 
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk"
+  pros={["Every social format at once: exchange, community corrections and group voice", "Moments, a public feed where natives correct your posts", "Lots of people and fast replies in popular languages"]}
+  cons={["It feels like social media, with the noise that comes with it", "The free tier shows ads", "Extras like translation are capped until you pay for VIP"]}
+/>
+
 ## 2. Tandem: focused one-to-one exchange
 
 [Tandem](https://tandem.net) reviews new members before they join and is built around finding one or two steady partners. You get text chat with corrections, voice messages, audio and video calls, **Language Parties** (live audio rooms) and topic-based **Language Clubs**. It lists over 300 languages, including sign languages.
@@ -76,6 +93,12 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={["New members are reviewed before they join", "Audio and video calls, Language Parties and Language Clubs", "Over 300 languages, including sign languages"]}
+  cons={["A possible wait while your profile is reviewed", "Several filters and translations sit behind Tandem Pro"]}
+/>
+
 ## 3. LangX: a social language app built around corrections
 
 [LangX](https://get.langx.io) is our app. It matches in **both directions**: you only see people who speak the language you are learning and are learning one you speak, so every conversation is useful to both of you. Hold any message to correct it, or post a sentence to the Feed for the community to correct or ask for help with pronunciation. Corrections and replies are **unlimited on every plan**.
@@ -85,6 +108,12 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 - **Watch out for:** the community is much smaller than HelloTalk's or Tandem's, so rarer language pairs can take longer. There are no live calls or group voice rooms; practice is by text and voice messages. Free lets you start 5 new conversations and use 20 translations a day; [Fluent and Polyglot](/pro) raise those.
 
 If you came here from Duolingo, we wrote a separate page on LangX as [the social alternative to Duolingo](/social-alternative-to-duolingo).
+
+<AppDemo
+  screen="feed"
+  title="The Feed: sentences waiting for a correction"
+  text="Post a sentence to the LangX Feed and the community corrects it, or ask for help with pronunciation. In chat, hold any message to correct it."
+/>
 
 ## 4. Speaky: open, free exchange
 
@@ -145,6 +174,12 @@ Compare: [LangX vs Lingbe](/open-source-alternative-to-lingbe).
 ## Is Duolingo a social language learning app?
 
 Partly, and it is worth being fair. At the time of writing, Duolingo has real social features: you can follow friends, share a **Friend Streak** with up to five friends, team up on weekly **Friends Quests**, nudge and high-five each other, and compete in weekly **leagues**. For motivation, that is excellent, and Duolingo is very good at getting people to show up.
+
+<ProsCons
+  name="Duolingo as a social app"
+  pros={["Follow friends and share a Friend Streak with up to five of them", "Weekly Friends Quests, nudges and high-fives", "Weekly leagues that keep people showing up"]}
+  cons={["No messaging between learners", "Its old sentence discussion forums no longer take new comments", "Speaking practice is with AI characters, not people"]}
+/>
 
 What it does not have is a person to talk to. There is no messaging between learners, and its old sentence discussion forums no longer take new comments. Speaking practice is with AI characters, such as Video Call with Lily on its paid plans. So Duolingo is social around your progress, not in your practice. Most learners get the best of both by keeping Duolingo for lessons and adding one app from this list for conversation; see [LangX vs Duolingo](/open-source-alternative-to-duolingo) and our guide to [Duolingo alternatives for speaking](/duolingo-alternatives-for-speaking).
 

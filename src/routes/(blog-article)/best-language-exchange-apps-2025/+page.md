@@ -22,9 +22,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
 </script>
 
 The best language exchange apps of 2025 were **HelloTalk** for sheer community size, **Tandem** for focused one-to-one partners, **Speaky** for starting free, **Lingbe** for instant voice calls, and **Conversation Exchange** for meeting partners in person. The bigger story of the year was not a new exchange app at all: it was AI speaking practice arriving in mainstream course apps, while at least one major human-led service closed its doors to individual learners.
+
+<KeyTakeaways items={[
+  "2025's best exchange apps: HelloTalk for community size, Tandem for one-to-one partners, Speaky to start free, Lingbe for instant calls.",
+  "Conversation Exchange stayed the best way to meet a partner in person; InterPals the home of long pen-pal messages.",
+  "The big story was AI speaking practice arriving in course apps, while Babbel Live closed to individual learners.",
+  "The lesson of the year: AI for volume, humans for real conversation."
+]} />
 
 This is a look back, written in September 2026. We make LangX, which existed in 2025 as v1 and was rebuilt as v2 in August 2026, so we have a stake in this market. We have tried to judge 2025 on what actually happened, with dates you can check.
 
@@ -51,6 +62,12 @@ These are short on purpose. For full, current reviews of each app, see [our 2026
 ### HelloTalk: the default choice of 2025
 
 If you asked a language forum in 2025 which exchange app to download, the most common answer was [HelloTalk](https://www.hellotalk.com). Its advantage was the same one it has now: so many people that popular pairs, such as English with Spanish, Japanese or Korean, rarely wait long for a reply. Moments (a public feed that native speakers correct) and Voicerooms gave people who were not ready for one-to-one chat a way in. The trade-off was also familiar: ads on the free tier, daily caps on extras, and a social-network feel that not everyone enjoys.
+
+<ProsCons
+  name="HelloTalk in 2025"
+  pros={["So many people that popular pairs rarely wait long for a reply", "Moments, a public feed that native speakers correct", "Voicerooms as a way in for people not ready for one-to-one chat"]}
+  cons={["Ads on the free tier", "Daily caps on extras", "A social-network feel that not everyone enjoys"]}
+/>
 
 ### Tandem: the focused alternative
 
@@ -86,6 +103,12 @@ The exchange apps themselves had a quiet year. Most of the change happened aroun
 - **November 2025:** Memrise said it would not shut down its community courses, after years of uncertainty about them.
 - **Late December 2025:** Duolingo said its AI "Explain My Answer" feature would be free for all learners from January 1, 2026.
 
+<StatRow stats={[
+  { value: "148", label: "new Duolingo courses built with generative AI (April 30, 2025)" },
+  { value: "9", label: "Duolingo courses with AI Video Call for Max subscribers (September 2025)" },
+  { value: "June 30", label: "last day individual learners could book Babbel Live" }
+]} />
+
 Two older changes still shaped 2025. **Bilingua**, an interest-based matching app, had already disappeared from the stores (its Google Play removal was reported in June 2023), and **italki** had removed its free language-partner search years earlier. Former users of both spent 2025 looking for replacements; see [LangX vs Bilingua](/open-source-alternative-to-bilingua) and [LangX vs italki](/open-source-alternative-to-italki).
 
 Meanwhile, the big exchange apps added AI helpers around the human conversation rather than instead of it. By the time we reviewed them in 2026, Tandem Pro included an AI Toolkit (grammar check, a word finder, a rewrite tool) and HelloTalk offered a set of AI apps alongside its community. The pattern was consistent: AI for the moments when your partner is asleep or you do not want to bother them, humans for the conversation itself.
@@ -99,6 +122,12 @@ The AI speaking boom was well funded before 2025 even started. In December 2024,
 ### AI tutors are good at rehearsal, not at relationships
 
 By the end of 2025, anyone with Duolingo Max, Babbel or Google Translate could talk to an AI in their target language. What an AI could not give you was a person who remembers your week, laughs at a joke in their own language, or tells you that nobody actually says that. The lesson of 2025 was not "AI or humans" but "AI for volume, humans for real conversation". We go deeper in [AI conversation partner vs real language exchange](/ai-conversation-partner-vs-language-exchange).
+
+<VersusCard
+  title="What 2025 showed about AI and human practice"
+  a={{ name: "AI speaking practice", tagline: "Duolingo Max, Babbel Speak, Google Translate", points: ["Available to anyone with the app, at any hour", "Good for rehearsal and volume", "Cannot remember your week or laugh at your joke"], bestFor: "practice volume" }}
+  b={{ name: "Language exchange", tagline: "A real person on the other end", points: ["Remembers your week and tells you when nobody says that", "Nobody needs to be paid, because both people teach", "Needs a partner who is awake and willing"], bestFor: "real conversation" }}
+/>
 
 ### Human-led services are expensive, and they can disappear
 

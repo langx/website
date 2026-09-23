@@ -24,9 +24,21 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
 </script>
 
 Almost every language exchange app is free to download, but "free" means three very different things. **Speaky** and **InterPals** have no subscription at all and are paid for by ads. **HelloTalk** and **Tandem** give you the core app free, with ads and daily caps on extras like translation. **LangX** has no ads on its free plan and never limits replies or corrections, but caps new conversations at 5 a day.
+
+<KeyTakeaways items={[
+  "\"Free\" means three things: no subscription at all, freemium with ads, or freemium without ads.",
+  "Speaky and InterPals have no subscription and are paid for by ads.",
+  "HelloTalk and Tandem give you the core app free, with ads and daily caps on extras like translation.",
+  "LangX has no ads and never limits replies or corrections, but caps new conversations at 5 a day.",
+  "The limits you notice first are translation caps, then new-conversation caps."
+]} />
 
 Below is what each free tier actually includes and where it stops. We make LangX, so our own limits are listed as plainly as everyone else's. Everything below was checked against each app's help pages and app store listings in September 2026. We do not quote prices, because they change by country and by month.
 
@@ -103,6 +115,12 @@ HelloTalk's free tier is generous. At the time of writing, free members get:
 
 **VIP** removes the ads, lifts those caps, lets you contact up to 25 new partners a day, learn more than one language, search by gender and nearby, and turns on captions in Voicerooms and livestreams. If you lean on translation for every message, you will feel the cap. More in [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk Free"
+  pros={["Unlimited text and voice messages", "Voice and video calls with no time limit", "Moments, Voicerooms and livestreams"]}
+  cons={["Daily caps on translation, transliteration, voice-to-text and AI correction", "Ads (VIP removes them)", "Gender and nearby search are paid"]}
+/>
+
 ### Tandem
 
 Tandem's own app overview lists the free plan clearly: text chat, corrections, voice messages, and audio and video calls, plus **10 new conversations a day**, **3 translations a day**, up to **60 minutes a day** in Language Parties (its live audio rooms), one language to learn, and ads.
@@ -121,6 +139,12 @@ Our app, so judge this entry accordingly. LangX's free plan is a real plan rathe
 
 The honest limits: 5 new chats a day is fewer than Tandem's 10, there are **no live voice or video calls** on any plan (practice is text plus voice, photo and video messages), and the community is much smaller than HelloTalk's or Tandem's. **Fluent** and **Polyglot** lift the new-conversation cap, raise translations to 300 and 1,000 a day, and add languages and filters; the [plans page](/pro) lists everything.
 
+<AppDemo
+  screen="chat"
+  title="The free plan, with nothing rationed that teaches"
+  text="On LangX Free your partner holds any message to correct it, as often as you both like. Replies and corrections are unlimited, and there are no ads."
+/>
+
 ## Free to try, then earn or pay
 
 - **Lingbe** gives you starter minutes of live calls with native speakers; after that you earn credit ("lingos") by taking calls in your own language, or pay for Lingbe Pro or lingo packs. See [LangX vs Lingbe](/open-source-alternative-to-lingbe).
@@ -135,6 +159,13 @@ From most to least noticeable for a typical learner:
 2. **New-conversation caps.** These matter in your first week, while you look for one or two good partners. After that you are mostly replying, which is unlimited on Tandem, HelloTalk, InterPals and LangX alike.
 3. **Ads.** If they bother you, the ad-free free options here are LangX, and italki's Community for written answers only.
 4. **Language count and filters.** Most free tiers allow one learning language, and gender or nearby search is paid on HelloTalk, Tandem and LangX.
+
+<StatRow stats={[
+  { value: "3", label: "translations a day on Tandem's free plan" },
+  { value: "20", label: "translations a day on LangX Free" },
+  { value: "10", label: "new conversations a day on Tandem's free plan" },
+  { value: "5", label: "new conversations a day on LangX Free" }
+]} />
 
 ## How to practice for free without hitting the limits
 

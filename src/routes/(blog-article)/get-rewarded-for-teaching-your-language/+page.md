@@ -18,6 +18,12 @@ keywords:
   - langx token
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+</script>
+
 Most apps that reward you for learning a language reward you for doing it on
 your own: a lesson finished, a quiz passed, a streak kept. A language exchange
 works differently. What makes it useful is the other person — somebody who
@@ -27,6 +33,14 @@ while you do the same for them.
 So that is what LangX rewards. You earn **LangX Tokens**, an in-app point, for
 talking to people in the language you are learning and, above all, for helping
 them with yours.
+
+<KeyTakeaways items={[
+  "LangX Tokens are an in-app point for talking in the language you learn and, above all, for helping others with yours.",
+  "A message earns 1 token; correcting someone's sentence or answering a pronunciation request earns 10.",
+  "Corrections have no daily cap. Messages pay up to 200 a day, at most 60 from any one person.",
+  "Tokens buy a streak freeze, a filled-in day and cosmetics, never a paid feature.",
+  "They are not a cryptocurrency: they cannot be bought, sold, traded or withdrawn."
+]} />
 
 ## A correction is worth ten messages
 
@@ -48,6 +62,12 @@ medium.
 Corrections have **no daily cap**. Teaching is the behaviour the app exists
 for, so there is no point at which doing more of it stops counting.
 
+<AppDemo
+  screen="feed"
+  title="Where the ten-token answers are"
+  text="The Feed collects sentences and pronunciation requests from people learning your language. Correcting one, or answering with a recording, is worth ten messages."
+/>
+
 ## The caps are there so grinding does not win
 
 Messages are a different story. Up to **200 messages a day** pay, and at most
@@ -61,6 +81,13 @@ Nobody can take more than 5% of it. The score behind it counts new
 conversations, corrections and the number of different people you talked to
 more heavily than raw message volume: talking to four people beats sending four
 times as many messages to one.
+
+<StatRow stats={[
+  { value: "200", label: "messages a day that pay" },
+  { value: "60", label: "paid messages from any one person" },
+  { value: "5,000", label: "tokens in the daily shared pool" },
+  { value: "5%", label: "the most of the pool one person can take" }
+]} />
 
 Streaks pay too — a bonus at 7, 30, 100, 180, 365, 730 and 1,095 days, from 50
 tokens at the first milestone to 25,000 at the last.

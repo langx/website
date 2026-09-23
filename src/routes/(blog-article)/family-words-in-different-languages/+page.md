@@ -24,11 +24,22 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import WordTiles from "$lib/components/blog/WordTiles.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Mother is *madre* in Spanish, *μητέρα* in Greek, *어머니* in Korean and *माँ* in Hindi. Aunt is *tante* in French and German and *zia* in Italian, but in Turkish the most common word is *hala*, which means a father's sister. That is the fun part of family words. Many languages have no single word for "aunt", "uncle" or "grandmother". They have one for each side of the family.
 
 Below are 15 family words in a selection of languages with different scripts. Each one links to its full page on our free [Say it in any language](/tools/say) tool.
+
+<KeyTakeaways items={[
+  "15 family words in languages with different scripts, from film and TV subtitle data matched to English through Wiktionary.",
+  "Many languages have one word for each side of the family: Turkish hala is a father's sister, Korean 이모 a mother's sister.",
+  "Chinese, Korean, Tagalog, Turkish and Malay words for sister and brother often say who is older.",
+  "In Vietnamese, family words double as pronouns, which is why they rank so high.",
+  "Words stick when you use them about real people, so describe your own family to someone."
+]} />
 
 ## Where the words come from
 
@@ -41,6 +52,21 @@ Two things to keep in mind:
 
 ## Mother in different languages
 
+
+<WordTiles
+  english="mother"
+  href="/tools/say/mother"
+  words={[
+    { language: "Spanish", word: "madre", code: "es" },
+    { language: "Greek", word: "μητέρα", code: "el" },
+    { language: "Russian", word: "мать", code: "ru" },
+    { language: "Hebrew", word: "אמא", code: "he" },
+    { language: "Hindi", word: "माँ", code: "hi" },
+    { language: "Korean", word: "어머니", code: "ko" },
+    { language: "Georgian", word: "დედა", code: "ka" },
+    { language: "Turkish", word: "anne", code: "tr" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | madre |
@@ -63,6 +89,21 @@ Mother is one of the words found in all 53 languages. It is most common in Georg
 
 ## Father and dad in different languages
 
+
+<WordTiles
+  english="father"
+  href="/tools/say/father"
+  words={[
+    { language: "Spanish", word: "padre", code: "es" },
+    { language: "Russian", word: "отец", code: "ru" },
+    { language: "Hebrew", word: "אבא", code: "he" },
+    { language: "Hindi", word: "पिता", code: "hi" },
+    { language: "Persian", word: "پدر", code: "fa" },
+    { language: "Korean", word: "아버지", code: "ko" },
+    { language: "Georgian", word: "მამა", code: "ka" },
+    { language: "Turkish", word: "baba", code: "tr" }
+  ]}
+/>
 | Language | Father | Dad |
 | --- | --- | --- |
 | Spanish | padre | papá |
@@ -195,6 +236,21 @@ Korean 할머니 and 할아버지 can also mean any elderly woman or man; the da
 
 ## Husband and wife in different languages
 
+
+<WordTiles
+  english="husband"
+  href="/tools/say/husband"
+  words={[
+    { language: "Spanish", word: "marido", code: "es" },
+    { language: "Italian", word: "marito", code: "it" },
+    { language: "Russian", word: "муж", code: "ru" },
+    { language: "Chinese", word: "丈夫", code: "zh" },
+    { language: "Hindi", word: "पति", code: "hi" },
+    { language: "Georgian", word: "ქმარი", code: "ka" },
+    { language: "Vietnamese", word: "chồng", code: "vi" },
+    { language: "Malayalam", word: "ഭർത്താവ്", code: "ml" }
+  ]}
+/>
 | Language | Husband | Wife |
 | --- | --- | --- |
 | Spanish | marido | esposa |
@@ -215,6 +271,21 @@ Estonian uses one word, *abikaasa*, for husband and wife alike ("spouse"). In Af
 
 ## Son and daughter in different languages
 
+
+<WordTiles
+  english="daughter"
+  href="/tools/say/daughter"
+  words={[
+    { language: "Spanish", word: "hija", code: "es" },
+    { language: "Portuguese", word: "filha", code: "pt" },
+    { language: "German", word: "Tochter", code: "de" },
+    { language: "Russian", word: "дочь", code: "ru" },
+    { language: "Hebrew", word: "בת", code: "he" },
+    { language: "Hindi", word: "बेटी", code: "hi" },
+    { language: "Persian", word: "دختر", code: "fa" },
+    { language: "Korean", word: "딸", code: "ko" }
+  ]}
+/>
 | Language | Son | Daughter |
 | --- | --- | --- |
 | Spanish | hijo | hija |
@@ -257,6 +328,21 @@ Chinese 孩子 is the 18th most used word in the Chinese list, and Tamil கு�
 
 ## Family in different languages
 
+
+<WordTiles
+  english="family"
+  href="/tools/say/family"
+  words={[
+    { language: "Spanish", word: "familia", code: "es" },
+    { language: "French", word: "famille", code: "fr" },
+    { language: "Greek", word: "οικογένεια", code: "el" },
+    { language: "Arabic", word: "عائلة", code: "ar" },
+    { language: "Hindi", word: "परिवार", code: "hi" },
+    { language: "Persian", word: "خانواده", code: "fa" },
+    { language: "Korean", word: "가족", code: "ko" },
+    { language: "Georgian", word: "ოჯახი", code: "ka" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | familia |
@@ -278,6 +364,21 @@ Family shows up in 52 languages. Dutch and Finnish get more specific: *gezin* an
 
 ## Friend in different languages
 
+
+<WordTiles
+  english="friend"
+  href="/tools/say/friend"
+  words={[
+    { language: "Spanish", word: "amigo", code: "es" },
+    { language: "German", word: "Freund", code: "de" },
+    { language: "Russian", word: "друг", code: "ru" },
+    { language: "Hebrew", word: "חבר", code: "he" },
+    { language: "Hindi", word: "दोस्त", code: "hi" },
+    { language: "Persian", word: "دوست", code: "fa" },
+    { language: "Chinese", word: "朋友", code: "zh" },
+    { language: "Korean", word: "친구", code: "ko" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | amigo |
@@ -306,6 +407,12 @@ A list like this is a start. Family words stick when you use them about real peo
 - **Learn the script, not only the sound.** If your language uses one, the [alphabet pages](/tools/alphabet) show every letter.
 
 On [LangX](/), you're matched with people who speak the language you're learning and are learning yours. Tell your partner about your family, and they can correct your message directly (corrections are unlimited on every plan). If a word stumps you, translation is built into the chat. The app has a free plan, and you can [get it here](https://get.langx.io). If you don't have a partner yet, see [how to find a language exchange partner](/how-to-find-a-language-exchange-partner).
+
+<AppDemo
+  screen="chat"
+  title="Tell a partner about your family"
+  text="Describe your family in the language you're learning. Your partner can hold any message to correct it, and translation is built into the chat if a word stumps you."
+/>
 
 For words beyond the family, like freedom, soul and destiny, see [powerful words in different languages](/beautiful-words-in-different-languages).
 
