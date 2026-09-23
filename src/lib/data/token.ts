@@ -11,12 +11,14 @@ export const tokenEarning = [
 	{ action: 'Send a message', amount: '1' },
 	{ action: "Correct someone else's sentence", amount: '10' },
 	{ action: 'Answer a pronunciation request with a recording', amount: '10' },
-	{ action: 'First conversation where both of you have spoken', amount: '15' }
+	{ action: 'First conversation where both of you have spoken', amount: '15' },
+	{ action: 'Finish a review in Echo (ten cards)', amount: '5' }
 ];
 
 export const tokenCaps = [
 	'Up to 200 tokens a day from messages.',
 	'At most 60 of those from any one person, so it takes four partners to reach the ceiling and talking to one all day is not a strategy.',
+	'Echo pays for five reviews a day — 25 tokens at most.',
 	'A shared daily pool of 5,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it — 250 tokens.'
 ];
 
@@ -50,9 +52,9 @@ export const tokenSinks = [
 	},
 	{
 		name: 'Sticker packs',
-		price: '1,000 tokens each',
+		price: '1,000 – 1,500 tokens',
 		description:
-			'Two packs of twelve stickers to send in a chat. Both cost the same — one pack is never a rung above another — and none of them carry lettering, because the app is read in eight languages.'
+			'Three packs of twelve stickers to send in a chat: Starter and Practice at 1,000, and Pixel, drawn entirely for LangX, at 1,500. No pack is a rung above another, so any one can be bought first — and none of them carry lettering, because the app is read in eight languages.'
 	}
 ];
 
@@ -77,6 +79,19 @@ export const tokenIsNot = [
 	'It is not on a blockchain. There is no chain, no contract, no wallet address.',
 	'It cannot unlock a paid plan. Those are subscriptions; tokens buy none of them.'
 ];
+
+/**
+ * The referral programme; mirrors `TOKEN_RULES.referral` and `signupBonus`.
+ * Nothing is paid for signing up — an invite pays once the invitee writes to
+ * somebody — and the plan bonus goes to the inviter, never to whoever paid.
+ */
+export const tokenInvites = [
+	{ when: 'They write their first message or correction', amount: '1,000' },
+	{ when: 'They ever start a paid plan', amount: '4,000' }
+];
+
+export const tokenInviteNote =
+	'At most 5,000 per person you invite. They earn 750 at the same moment, so with the 250 every new account starts with they begin on 1,000. Nothing is paid for signing up alone, and the person who pays for a plan gets no tokens for paying.';
 
 /** v1 balances are credited to earned tokens divided by this. */
 export const legacyTokenDivisor = 100;
