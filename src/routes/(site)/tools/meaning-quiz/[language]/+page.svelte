@@ -2,6 +2,7 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
@@ -88,13 +89,44 @@
 		}
 		setTimeout(() => (copied = ''), 2500);
 	}
+
+	$: ld = JSON.stringify({
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Meaning quiz',
+						item: `${siteBaseUrl}/tools/meaning-quiz`
+					},
+					{ '@type': 'ListItem', position: 3, name: meta.name }
+				]
+			}
+		]
+	});
+
+	// The angle bracket is written as an escape and never appears literally in
+	// this file: Svelte's parser scans the raw source, comments included, and
+	// treats a script tag written out in full as a real tag.
+	const LT = '\u003c';
+	$: ldScript = `${LT}script type="application/ld+json">${ld
+		.split(LT)
+		.join('\\u003c')}${LT}/script>`;
 </script>
 
 <Seo
-	title="Do you know what these {meta.name} words mean?"
+	title="{meta.name} vocabulary quiz: ten common words a day"
 	path="/tools/meaning-quiz/{meta.slug}"
-	description="Ten {meta.name} words from the first fifteen hundred the language uses most, four meanings each. New ten every day, free, no account."
+	description="A daily {meta.name} vocabulary quiz: ten common words, four English meanings each. Drawn from the 1,500 words {meta.name} uses most. Free, no account."
 />
+
+<svelte:head>
+	{@html ldScript}
+</svelte:head>
 
 <div class="container">
 	<PageHeader

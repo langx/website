@@ -3,6 +3,7 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import type { WordGameLanguage } from '$lib/data/word-game';
 	import type { WordListMeta } from '$lib/data/most-common-words';
@@ -159,15 +160,46 @@
 		}
 		setTimeout(() => (copied = ''), 2500);
 	}
+
+	$: ld = JSON.stringify({
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+					{
+						'@type': 'ListItem',
+						position: 2,
+						name: 'Word game',
+						item: `${siteBaseUrl}/tools/word-game`
+					},
+					{ '@type': 'ListItem', position: 3, name: meta.name }
+				]
+			}
+		]
+	});
+
+	// The angle bracket is written as an escape and never appears literally in
+	// this file: Svelte's parser scans the raw source, comments included, and
+	// treats a script tag written out in full as a real tag.
+	const LT = '\u003c';
+	$: ldScript = `${LT}script type="application/ld+json">${ld
+		.split(LT)
+		.join('\\u003c')}${LT}/script>`;
 </script>
 
 <svelte:window on:keydown={onKey} />
 
 <Seo
-	title="{meta.name} word game"
+	title="{meta.name} word game: a daily five-letter puzzle"
 	path="/tools/word-game/{game.slug}"
-	description="A new five-letter {meta.name} word every day, drawn from the words the language actually uses most. Six tries, no account, free."
+	description="A daily five-letter word puzzle in {meta.name}, played like Wordle: six tries, green for right, yellow for misplaced. Words come from everyday {meta.name}. Free."
 />
+
+<svelte:head>
+	{@html ldScript}
+</svelte:head>
 
 <div class="container">
 	<PageHeader
