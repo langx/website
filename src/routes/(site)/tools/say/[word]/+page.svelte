@@ -89,33 +89,62 @@
 		'Greek'
 	];
 	/**
-	 * Only rows that list the word itself among their senses. A row that turned
-	 * up under a neighbouring sense ("noche" under dark) is fine in the table,
-	 * where its gloss sits beside it, and wrong as a one-line answer.
+	 * Only rows that mean the word first. A row that turned up under a
+	 * neighbouring sense ("noche" under dark) is fine in the table, where its
+	 * gloss sits beside it, and wrong as a one-line answer. Listing the word
+	 * further along is not enough when what comes first is another word:
+	 * Arabic سيدة is glossed "mistress, princess", and a reader who asked for
+	 * princess and got "lady" was given the wrong word. A definition in front
+	 * is different — Chinese 公主, "daughter of a monarch; princess", is the
+	 * word — so a first sense of three words or more does not count against it.
+	 * Verbs are glossed "to read" and some nouns "a princess"; the particle is
+	 * dropped before comparing, or no verb page would have an answer line.
 	 */
-	const means = (gloss: string, word: string) =>
-		gloss
+	const primarily = (gloss: string, word: string) => {
+		const senses = gloss
 			.toLowerCase()
 			.split(/[,;/]/)
-			.map((sense) => sense.trim().replace(/[.:\s]+$/, ''))
-			.includes(word.toLowerCase());
+			.map((sense) =>
+				sense
+					.replace(/\([^)]*\)/g, '')
+					.trim()
+					.replace(/^(to|a|an|the)\s+/, '')
+					.replace(/[.:\s]+$/, '')
+			)
+			.filter(Boolean);
+		const target = word.toLowerCase();
+		if (senses[0] === target) return true;
+		return senses.includes(target) && senses[0].split(/\s+/).length >= 3;
+	};
 	$: featured = FEATURED.map((name) =>
-		rows.find((r) => r.name === name && means(r.gloss, entry.word))
+		rows.find((r) => r.name === name && primarily(r.gloss, entry.word))
 	).filter((r): r is Row => Boolean(r));
-	/** The words people search for most, linked from every page in the set. */
+	/**
+	 * The words people search for most, linked from every page in the set.
+	 * Taken from Search Console (June–September 2026): the pages with the most
+	 * impressions, most of them sitting just below the top five, where a
+	 * thousand internal links do the most good. "love", "moon" and "star" were
+	 * here on a guess and drew almost no searches. "mine" draws plenty but mixes
+	 * "my own" with "a mine", so it is not one to show off. The weekly report
+	 * (scripts/gsc/rankings.mjs) says when this list wants redoing.
+	 */
 	const POPULAR = [
-		'love',
-		'freedom',
-		'soul',
 		'princess',
-		'prince',
+		'freedom',
 		'aunt',
-		'hero',
-		'destiny',
+		'soul',
+		'mountain',
+		'prince',
+		'monster',
+		'river',
 		'magic',
 		'universe',
-		'moon',
-		'star'
+		'sword',
+		'hero',
+		'sea',
+		'nature',
+		'dark',
+		'energy'
 	];
 	$: popular = POPULAR.filter((w) => w !== entry.slug);
 
@@ -134,7 +163,9 @@
 		.find((d, i, all) => d.length <= 160 || i === all.length - 1) as string;
 
 	/** Where the word is commonest tells you something the table alone does not. */
-	$: commonest = [...rows].sort((a, b) => a.rank - b.rank)[0];
+	$: commonest = rows
+		.filter((r) => primarily(r.gloss, entry.word))
+		.sort((a, b) => a.rank - b.rank)[0];
 
 	/**
 	 * Most rows gloss to the very word the page is about, which is a column of
@@ -219,6 +250,10 @@
 		</p>
 	{/if}
 
+	<!-- Searches split between "princess in different languages", which the
+	     page heading answers, and "princess in other languages" or "words for
+	     princess in other languages", which nothing on the page said. -->
+	<h2 class="list-head">{cap} in other languages, A to Z</h2>
 	<ul class="rows" role="list">
 		{#each rows as r}
 			<!-- The row is still one link to the language's list, but the link is the
@@ -444,6 +479,16 @@
 		.rank {
 			display: none;
 		}
+	}
+
+	// A label for the table rather than a new section: title face, but body
+	// size, sitting on the table's own top rule.
+	.list-head {
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: 1.125rem;
+		letter-spacing: -0.01em;
+		margin: var(--space-lg) 0 var(--space-sm);
 	}
 
 	.credit {
