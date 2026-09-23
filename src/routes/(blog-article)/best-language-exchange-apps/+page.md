@@ -249,7 +249,7 @@ It depends on what "free" means to you. Speaky, Conversation Exchange and InterP
 
 ### Is there a free language exchange app with no ads?
 
-Yes. LangX has no ads on any plan, including Free. Most of the larger apps, including HelloTalk, Tandem and Speaky on Android, show ads on their free tiers and remove them with a paid plan.
+Yes. LangX has no ads on any plan, including Free. Most of the larger apps show ads on their free tiers: HelloTalk and Tandem remove them with a paid plan, and Speaky, which has no paid plan, shows them on Android.
 
 ### What is the best app to practice speaking a language with native speakers?
 

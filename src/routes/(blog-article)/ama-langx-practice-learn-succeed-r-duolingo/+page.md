@@ -26,6 +26,14 @@ tags:
   import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
+> **Note added 23 September 2026.** This is the June 2024 AMA as it was
+> posted, about LangX v1, and it is left standing rather than quietly edited.
+> Several things it says are no longer true. LangX v2 has a Free plan and two
+> paid plans, Fluent and Polyglot. LangX Token is now an in-app point: it
+> cannot be bought, sold, traded or withdrawn. LangX Copilot is planned for
+> Polyglot and is not in the app yet. There are still no ads.
+> [What changed in v2, and why](/langx-v2-what-changes-and-why).
+
 At LangX, we’re excited to bring you a revolutionary language learning experience. As a completely free, open-source, and ad-free platform, LangX is designed to enhance your language learning journey through advanced features and a community-driven approach. In this blog post, we’ll share highlights from our recent AMA session on r/duolingo, where we introduced LangX to the community.
 
 <KeyTakeaways items={[
