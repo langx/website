@@ -9,12 +9,14 @@
  * It writes a fourth column, `ipa`, into static/data/most-common-words/*.tsv
  * and updates the byte counts in src/lib/data/most-common-words.ts.
  *
- * Two sources, in this order:
+ * Three sources, in this order:
  *
  *   - Wiktionary, through kaikki.org — a transcription a person wrote, with the
  *     stress where it belongs. The same dumps build.ts reads for meanings, but
  *     the gzipped per-language files: a tenth of the size, and the only part of
  *     them this needs is `sounds`.
+ *   - For Norwegian, NB Uttale, the National Library of Norway's
+ *     pronunciation dictionary (ipa-nb-uttale.ts).
  *   - eSpeak NG, or for six languages rules of our own (ipa-turkish.ts,
  *     ipa-rules.ts), for the words Wiktionary has no transcription for —
  *     mostly inflected forms ("hablamos"), which Wiktionary files under their
@@ -36,6 +38,7 @@ import { createGunzip } from 'node:zlib';
 import path from 'node:path';
 import { WORDLIST_LANGUAGES, type WordlistLanguage } from './languages.ts';
 import { turkishIpa } from './ipa-turkish.ts';
+import { nbUttale } from './ipa-nb-uttale.ts';
 import { albanianIpa, estonianIpa, galicianIpa, georgianIpa, malayIpa } from './ipa-rules.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
@@ -64,6 +67,14 @@ interface Accent {
 	 * language better. Held to the same test against Wiktionary.
 	 */
 	rules?: (word: string) => string | null;
+	/**
+	 * A pronunciation dictionary to fill the gaps before rules or eSpeak are
+	 * asked, given the words wanted and the cache directory.
+	 */
+	lexicon?: {
+		name: string;
+		read: (words: Set<string>, cache: string) => Promise<Map<string, string>>;
+	};
 }
 
 const ACCENTS: Record<string, Accent> = {
@@ -110,7 +121,11 @@ const ACCENTS: Record<string, Accent> = {
 	ml: { espeak: 'ml' },
 	ms: { espeak: 'ms', rules: malayIpa },
 	nl: { espeak: 'nl', prefer: ['Netherlands'] },
-	no: { espeak: 'nb', prefer: ['Urban-East-Norwegian'] },
+	no: {
+		espeak: 'nb',
+		prefer: ['Urban-East-Norwegian'],
+		lexicon: { name: 'NB Uttale', read: nbUttale }
+	},
 	pl: { espeak: 'pl' },
 	// eSpeak's Brazilian notation, rewritten into Wiktionary's: "y" for an
 	// unstressed final "i" (livre /ˈlivri/), "æ" for a final "ɐ", "x" for the
@@ -408,6 +423,11 @@ const SAMPLE = 1000;
  */
 const TRUST = 0.6;
 
+/** The entries of a dictionary for these words, as a reader would return them. */
+function pick(dict: Map<string, string>, words: string[]) {
+	return new Map(words.flatMap((w) => (dict.has(w) ? [[w, dict.get(w) as string] as const] : [])));
+}
+
 /** The fallback reader for a language: its own rules if it has them, else eSpeak. */
 function readerFor(accent: Accent) {
 	if (accent.rules) {
@@ -463,29 +483,46 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 
 	const wiki = await fromWiktionary(lang, words);
 	const accent = ACCENTS[lang.code];
+
+	// A second dictionary, where there is one, goes before any guessing — held
+	// to the same test, so a notation that drifts from Wiktionary's shows up.
+	const lexicon = accent?.lexicon
+		? await accent.lexicon.read(words, path.join(ROOT, '.cache/wordlists'))
+		: new Map<string, string>();
+	const lexAgrees = lexicon.size ? agreement((ws) => pick(lexicon, ws), wiki) : 0;
+	const fromLex = new Map([...lexicon].filter(([w]) => !wiki.has(w) && lexAgrees >= TRUST));
+
 	const read = accent ? readerFor(accent) : null;
 	const agrees = read ? agreement(read, wiki) : 0;
 	const by = accent?.rules ? 'rules' : 'eSpeak';
 	// A clitic cut off by the tokeniser ("'t", "c'") is not a word eSpeak can
 	// read: it spells the letter.
-	const missing = [...words].filter((w) => !wiki.has(w) && !/^['’]|['’]$/.test(w));
+	const missing = [...words].filter(
+		(w) => !wiki.has(w) && !fromLex.has(w) && !/^['’]|['’]$/.test(w)
+	);
 	const machine = read && agrees >= TRUST ? read(missing) : new Map<string, string>();
 
 	let fromWiki = 0;
+	let fromDict = 0;
 	let fromMachine = 0;
 	const out = ['rank\tword\tenglish\tipa'];
 	for (const [rank, word, english] of rows) {
 		const key = word.toLowerCase();
-		const ipa = wiki.get(key) ?? machine.get(key) ?? '';
+		const ipa = wiki.get(key) ?? fromLex.get(key) ?? machine.get(key) ?? '';
 		if (wiki.has(key)) fromWiki++;
+		else if (fromLex.has(key)) fromDict++;
 		else if (ipa) fromMachine++;
 		out.push(`${rank}\t${word}\t${english ?? ''}\t${ipa}`);
 	}
 	await writeFile(file, out.join('\n') + '\n');
 	const pct = (n: number) => Math.round((n / rows.length) * 100);
 	console.log(
-		`  ${lang.code} ${lang.name}: ${pct(fromWiki)}% Wiktionary, ${pct(fromMachine)}% ${by}, ` +
-			`${pct(rows.length - fromWiki - fromMachine)}% none` +
+		`  ${lang.code} ${lang.name}: ${pct(fromWiki)}% Wiktionary, ` +
+			(accent?.lexicon
+				? `${pct(fromDict)}% ${accent.lexicon.name} (agrees on ${Math.round(lexAgrees * 100)}%), `
+				: '') +
+			`${pct(fromMachine)}% ${by}, ` +
+			`${pct(rows.length - fromWiki - fromDict - fromMachine)}% none` +
 			(read ? ` (${by} agrees on ${Math.round(agrees * 100)}%)` : '')
 	);
 	return (await stat(file)).size;
