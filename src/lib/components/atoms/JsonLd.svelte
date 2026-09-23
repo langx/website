@@ -1,4 +1,6 @@
 <script lang="ts">
+	// The one `{@html}` below writes JSON this component serialised itself.
+	/* eslint-disable svelte/no-at-html-tags */
 	/**
 	 * Structured data for search engines, as one `application/ld+json` block.
 	 *

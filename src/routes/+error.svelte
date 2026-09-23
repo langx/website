@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>{$page.status === 404 ? 'Page not found' : 'Something went wrong'} | LangX</title>
+	<meta name="robots" content="noindex" />
 </svelte:head>
 
 <Header />

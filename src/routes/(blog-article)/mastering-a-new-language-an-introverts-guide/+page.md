@@ -1,9 +1,9 @@
 ---
-title: Mastering a New Language - An Introvert's Guide
+title: 'How to Learn a Language as an Introvert: A Practical Guide'
 slug: mastering-a-new-language-an-introverts-guide
 coverImage: /images/posts/mastering-a-new-language-an-introverts-guide.jpeg
 date: 2024-06-19T20:16:22Z
-excerpt: Learning a language as an introvert can be challenging, mainly due to the fact that one of the best methods for language acquisition is to interact with natives and those who are fluent in the language. However, due to that not being an option for some, in this article, we will be talking about how you can learn a language, without even leaving the house.
+excerpt: 'Learning a language as an introvert: courses, apps, films, books, podcasts and writing you can do at home, and a low-pressure way into speaking.'
 author:
   name: Triangukum
   url: https://github.com/triangukum

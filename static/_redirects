@@ -6,3 +6,13 @@
 # 404. Both forms, since trailingSlash is 'always'.
 /unveiling-our-usage-of-plausible-community-edition   /blog/  301
 /unveiling-our-usage-of-plausible-community-edition/  /blog/  301
+
+# Demo posts that shipped with the blog template ("Project Structure", "How to
+# Customize this Template", "How Blog Posts Work"). They were indexed, said
+# nothing about LangX, and are gone; the blog is the closest page to them.
+/project-structure    /blog  301
+/project-structure/   /blog  301
+/customization        /blog  301
+/customization/       /blog  301
+/blog-posts           /blog  301
+/blog-posts/          /blog  301

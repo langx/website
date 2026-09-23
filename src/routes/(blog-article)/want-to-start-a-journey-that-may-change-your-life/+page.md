@@ -1,8 +1,8 @@
 ---
 slug: want-to-start-a-journey-that-may-change-your-life
-title: Want to start a journey, that may change your life?
+title: 'Why Learn a New Language? A Journey That Can Change Your Life'
 date: 2024-02-27T13:38:21.800Z
-excerpt: Many did before you and much more will come after you, so what is keeping you?
+excerpt: 'Thinking about learning a new language? Why so many people start, how to begin without overthinking it, and where to find people to practice with.'
 coverImage: /images/posts/want-to-start-a-journey-that-may-change-your-life.jpg
 author:
   name: Eveli
@@ -16,7 +16,6 @@ tags:
   - Culture Exchange
 ---
 
-# Want to start a journey, that may change your life?
 
 ## Many did before you and much more will come after you, so what is keeping you?
 

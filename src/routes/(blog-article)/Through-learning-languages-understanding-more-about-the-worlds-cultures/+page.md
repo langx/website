@@ -1,9 +1,9 @@
 ---
-title: Through learning languages, understanding more about the world's cultures
+title: 'How Learning a Language Helps You Understand Other Cultures'
 slug: Through-learning-languages-understanding-more-about-the-worlds-cultures
 coverImage: /images/posts/Through-learning-languages-understanding-more-about-the-worlds-cultures.jpg
 date: 2024-05-15T00:22:54.639Z
-excerpt: Language is not just a tool for communication; it also carries the essence and traditions of cultures. 
+excerpt: 'Language carries culture. How learning a language opens up the way other people think, joke and live, plus the common challenges and how to get past them.'
 author:
   name: Addison
   url: https://github.com/addison1

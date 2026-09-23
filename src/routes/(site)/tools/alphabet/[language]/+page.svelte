@@ -58,9 +58,9 @@
 </script>
 
 <Seo
-	{title}
+	title="{lang.name} Alphabet: All {count} Letters and How They Sound"
 	{path}
-	description="All {count} letters of the {lang.name} alphabet, each with its name and roughly how it sounds. Free, no account."
+	description="The {lang.name} alphabet: all {count} letters with their names and roughly how each one sounds, grouped the way the script works. Free chart, no account."
 />
 
 <svelte:head>

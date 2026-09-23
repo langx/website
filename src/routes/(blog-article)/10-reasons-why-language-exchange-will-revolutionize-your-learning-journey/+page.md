@@ -3,7 +3,7 @@ title: 10 Reasons Why Language Exchange Will Revolutionize Your Learning Journey
 slug: 10-reasons-why-language-exchange-will-revolutionize-your-learning-journey
 coverImage: /images/posts/10-reasons-why-language-exchange-will-revolutionize-your-learning-journey.png
 date: 2024-02-28T08:52:31.808Z
-excerpt: Unleash the potential of language exchange for immersive learning and cultural insight. Join the community and transform your language journey today!
+excerpt: 'Why language exchange works: 10 reasons that practicing with native speakers builds speaking confidence, cultural insight and fluency faster than drills.'
 author:
   name: xuelink 
   url: https://github.com/xuelink

@@ -1,9 +1,9 @@
 ---
-title: Stop the Struggle! How to Remember Your Foreign Languages (Even After Years)
+title: 'How to Remember a Foreign Language, Even After Years'
 slug: stop-the-struggle-how-to-remember-your-foreign-languages-even-after-years
 coverImage: /images/posts/stop-the-struggle-how-to-remember-your-foreign-languages-even-after-years.png
 date: 2024-02-27T17:25:43.510Z
-excerpt: Have you ever felt the bittersweet tug of memory—the fading whispers of a language once vibrant on your tongue?
+excerpt: 'Worried about forgetting a language you worked hard to learn? Why languages fade, who forgets most, and how to keep a foreign language alive for years.'
 author:
   name: Hafeez
   url: https://github.com/pizofreude
