@@ -15,8 +15,9 @@
  *     stress where it belongs. The same dumps build.ts reads for meanings, but
  *     the gzipped per-language files: a tenth of the size, and the only part of
  *     them this needs is `sounds`.
- *   - eSpeak NG, for the words Wiktionary has no transcription for — mostly
- *     inflected forms ("hablamos"), which Wiktionary files under their lemma.
+ *   - eSpeak NG, or for Turkish rules of our own (ipa-turkish.ts), for the
+ *     words Wiktionary has no transcription for — mostly inflected forms
+ *     ("hablamos"), which Wiktionary files under their lemma.
  *     Its rules are good where the spelling is regular and its dictionaries
  *     cover the common irregulars, which is the whole of a frequency list.
  *
@@ -34,6 +35,7 @@ import { pipeline } from 'node:stream/promises';
 import { createGunzip } from 'node:zlib';
 import path from 'node:path';
 import { WORDLIST_LANGUAGES, type WordlistLanguage } from './languages.ts';
+import { turkishIpa } from './ipa-turkish.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
 const DATA = path.join(ROOT, 'static/data/most-common-words');
@@ -52,6 +54,11 @@ interface Accent {
 	require?: string[];
 	/** Taken out of eSpeak's reading: what it marks, it marks in the wrong place. */
 	strip?: RegExp;
+	/**
+	 * Spelling rules of our own, used instead of eSpeak where they read the
+	 * language better. Held to the same test against Wiktionary.
+	 */
+	rules?: (word: string) => string | null;
 }
 
 const ACCENTS: Record<string, Accent> = {
@@ -109,7 +116,9 @@ const ACCENTS: Record<string, Accent> = {
 	ta: { espeak: 'ta' },
 	te: { espeak: 'te' },
 	tl: { espeak: null },
-	tr: { espeak: 'tr' },
+	// eSpeak gets Turkish sounds right and its stress wrong ("fakat" on the last
+	// syllable): 55%. The rules in ipa-turkish.ts do better.
+	tr: { espeak: 'tr', rules: turkishIpa },
 	uk: { espeak: 'uk' },
 	ur: { espeak: 'ur' },
 	vi: { espeak: 'vi', prefer: ['Hà-Nội'] },
@@ -356,27 +365,44 @@ const SAMPLE = 1000;
  * The share of those it must get right, sound for sound, to be trusted with
  * the words Wiktionary does not cover. Measured on 23 September 2026:
  * Esperanto 100%, Serbo-Croatian and Catalan 94%, French 90%, Finnish 79% and
- * Spanish 76% clear it; Turkish (53%) and Russian (15%) put the stress on the
- * wrong syllable too often, and Albanian (53%) reads "ë" as another vowel.
+ * Spanish 76% clear it; Russian (17%) puts the stress on the wrong syllable too
+ * often, and Albanian (58%) reads "ë" as another vowel. Turkish failed with
+ * eSpeak (55%) and passes with ipa-turkish.ts (81%).
  */
 const TRUST = 0.6;
 
+/** The fallback reader for a language: its own rules if it has them, else eSpeak. */
+function readerFor(accent: Accent) {
+	if (accent.rules) {
+		const rules = accent.rules;
+		return (words: string[]) =>
+			new Map(
+				words.flatMap((w) => {
+					const ipa = rules(w);
+					return ipa ? [[w, ipa] as const] : [];
+				})
+			);
+	}
+	const voice = accent.espeak;
+	return voice ? (words: string[]) => fromEspeak(voice, words, accent.strip) : null;
+}
+
 /**
- * Whether eSpeak reads this language well enough, judged on words Wiktionary
- * does transcribe. The words it would fill in are rarer forms of the same
- * spelling rules, so agreement here is the best estimate of accuracy there.
+ * Whether the fallback reads this language well enough, judged on words
+ * Wiktionary does transcribe. The words it would fill in are rarer forms of
+ * the same spelling rules, so agreement here is the best estimate of accuracy
+ * there.
  */
-function espeakAgreement(accent: Accent, wiki: Map<string, string>) {
+function agreement(read: (words: string[]) => Map<string, string>, wiki: Map<string, string>) {
 	const sample = [...wiki].filter((_, i) => i % Math.max(1, Math.floor(wiki.size / SAMPLE)) === 0);
-	const read = fromEspeak(
-		accent.espeak as string,
-		sample.map(([w]) => w),
-		accent.strip
-	);
+	const guesses = read(sample.map(([w]) => w));
 	let same = 0;
 	for (const [w, ipa] of sample) {
-		const guess = read.get(w);
-		const marked = ipa.includes('ˈ');
+		const guess = guesses.get(w);
+		// A word of one syllable has nowhere else to put the stress, and
+		// Wiktionary marks it on some of them and not others.
+		const syllabic = skeleton(ipa, false).match(/[aeiouyæøœəɔɛɜɯɨʉʌɤ]+/g)?.length ?? 0;
+		const marked = ipa.includes('ˈ') && syllabic > 1;
 		if (guess && distance(skeleton(guess, marked), skeleton(ipa, marked)) === 0) same++;
 	}
 	return sample.length ? same / sample.length : 0;
@@ -390,15 +416,13 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 
 	const wiki = await fromWiktionary(lang, words);
 	const accent = ACCENTS[lang.code];
-	const voice = accent?.espeak;
-	const agreement = voice ? espeakAgreement(accent, wiki) : 0;
+	const read = accent ? readerFor(accent) : null;
+	const agrees = read ? agreement(read, wiki) : 0;
+	const by = accent?.rules ? 'rules' : 'eSpeak';
 	// A clitic cut off by the tokeniser ("'t", "c'") is not a word eSpeak can
 	// read: it spells the letter.
 	const missing = [...words].filter((w) => !wiki.has(w) && !/^['’]|['’]$/.test(w));
-	const machine =
-		voice && agreement >= TRUST
-			? fromEspeak(voice, missing, accent.strip)
-			: new Map<string, string>();
+	const machine = read && agrees >= TRUST ? read(missing) : new Map<string, string>();
 
 	let fromWiki = 0;
 	let fromMachine = 0;
@@ -413,9 +437,9 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 	await writeFile(file, out.join('\n') + '\n');
 	const pct = (n: number) => Math.round((n / rows.length) * 100);
 	console.log(
-		`  ${lang.code} ${lang.name}: ${pct(fromWiki)}% Wiktionary, ${pct(fromMachine)}% eSpeak, ` +
+		`  ${lang.code} ${lang.name}: ${pct(fromWiki)}% Wiktionary, ${pct(fromMachine)}% ${by}, ` +
 			`${pct(rows.length - fromWiki - fromMachine)}% none` +
-			(voice ? ` (eSpeak agrees on ${Math.round(agreement * 100)}%)` : '')
+			(read ? ` (${by} agrees on ${Math.round(agrees * 100)}%)` : '')
 	);
 	return (await stat(file)).size;
 }
