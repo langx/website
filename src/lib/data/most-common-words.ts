@@ -53,7 +53,7 @@ export const WORD_LISTS: WordListMeta[] = [
 	{ code: 'mk', slug: 'macedonian', name: "Macedonian", nativeName: "македонски јазик", count: 10000, bytes: 475281, glossCoverage: 100 },
 	{ code: 'ms', slug: 'malay', name: "Malay", nativeName: "Bahasa Melayu", count: 5228, bytes: 223250, glossCoverage: 100 },
 	{ code: 'ml', slug: 'malayalam', name: "Malayalam", nativeName: "മലയാളം", count: 3457, bytes: 181437, glossCoverage: 100 },
-	{ code: 'no', slug: 'norwegian', name: "Norwegian", nativeName: "Norsk", count: 10000, bytes: 289546, glossCoverage: 100 },
+	{ code: 'no', slug: 'norwegian', name: "Norwegian", nativeName: "Norsk", count: 10000, bytes: 418982, glossCoverage: 100 },
 	{ code: 'fa', slug: 'persian', name: "Persian", nativeName: "فارسی", count: 7118, bytes: 326620, glossCoverage: 100 },
 	{ code: 'pl', slug: 'polish', name: "Polish", nativeName: "język polski", count: 10000, bytes: 451477, glossCoverage: 100 },
 	{ code: 'pt', slug: 'portuguese', name: "Portuguese", nativeName: "Português", count: 10000, bytes: 451579, glossCoverage: 100 },
