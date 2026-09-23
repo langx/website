@@ -4,6 +4,7 @@ title: 'Universe, Space, Star: Cosmic Words in 40+ Languages'
 date: 2026-09-23T15:30:00.000Z
 excerpt: 'Universe, space, star, planet and night in 40+ languages, from real usage data, with the false matches and mix-ups to watch for, like space vs. room.'
 coverImage: /images/posts/space-words-in-different-languages.png
+thumbnail: /images/posts/space-words-in-different-languages-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

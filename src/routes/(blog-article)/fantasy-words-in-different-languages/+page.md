@@ -4,6 +4,7 @@ title: 'Princess, Prince, Sword: Fantasy Words in 40+ Languages'
 date: 2026-09-23T15:10:00.000Z
 excerpt: 'Princess, prince, sword, magic, monster, hero and more fantasy words in different languages, from real usage data, with the mix-ups to watch for.'
 coverImage: /images/posts/fantasy-words-in-different-languages.png
+thumbnail: /images/posts/fantasy-words-in-different-languages-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink
