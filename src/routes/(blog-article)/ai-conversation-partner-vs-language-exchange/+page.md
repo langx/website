@@ -81,7 +81,7 @@ A **language exchange** is the old-fashioned alternative: two people who each sp
 
 **Real, unpredictable conversation.** Linguist Michael Long's interaction hypothesis (1996) argued that the back-and-forth of real conversation, where you have to negotiate meaning when you do not understand each other, is a key driver of acquisition. That struggle to be understood is exactly what an accommodating AI tends to smooth away.
 
-**Corrections with context.** A native speaker can tell you that your sentence is correct but sounds like a textbook, or that people in their region say it differently. On LangX, your partner can tap any message and correct it, and corrections are unlimited on every plan.
+**Corrections with context.** A native speaker can tell you that your sentence is correct but sounds like a textbook, or that people in their region say it differently. On LangX, your partner can hold any message and correct it, and corrections are unlimited on every plan.
 
 **You teach, too.** In an exchange you correct your partner's messages in your own language. Explaining why something sounds wrong makes you notice how languages work, which helps your own learning.
 

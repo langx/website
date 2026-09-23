@@ -77,7 +77,7 @@ However good an avatar is, it is still generating replies to please you. A nativ
 
 ### Corrections from people, unlimited on every plan
 
-On LangX your partner taps any message to correct it, and corrections are unlimited on every plan, Free included. A human usually tells you what a local would actually say, not only what is grammatically right. You also learn a lot by correcting their messages in your own language.
+On LangX your partner holds any message to correct it, and corrections are unlimited on every plan, Free included. A human usually tells you what a local would actually say, not only what is grammatically right. You also learn a lot by correcting their messages in your own language.
 
 ### Far more languages
 

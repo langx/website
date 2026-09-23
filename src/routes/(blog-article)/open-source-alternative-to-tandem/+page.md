@@ -39,7 +39,7 @@ Everything about Tandem below reflects its app store listings and its own site a
 | | LangX | Tandem |
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Browse the community with filters (language, age, level and more) |
-| Corrections | Tap any message to correct it; unlimited on every plan | Inline corrections in chat; Pro adds AI correction explanations |
+| Corrections | Hold any message to correct it; unlimited on every plan | Inline corrections in chat; Pro adds AI correction explanations |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Built in; limited on free, unlimited with Tandem Pro |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, audio and video calls, group audio Parties |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with daily limits |
@@ -78,7 +78,7 @@ On LangX you only see people who speak the language you are learning and are lea
 
 ### Corrections are never rationed
 
-Tap any message to suggest a better way to say it, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan, including Free. The free plan limits how many *new* conversations you start (5 a day) and how many translations you use (20 a day), never how much you talk or teach. The [plans page](/pro) has the full list.
+Hold any message to suggest a better way to say it, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan, including Free. The free plan limits how many *new* conversations you start (5 a day) and how many translations you use (20 a day), never how much you talk or teach. The [plans page](/pro) has the full list.
 
 ### No ads, and privacy you can check
 

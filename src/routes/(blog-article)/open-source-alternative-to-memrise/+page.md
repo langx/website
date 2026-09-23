@@ -80,7 +80,7 @@ Knowing a word when you see it and using it in a live conversation are different
 
 ### Human corrections, unlimited on every plan
 
-On LangX, your partner taps any message to correct it, and corrections are unlimited on every plan, Free included. A native speaker tells you what sounds natural, not only what is technically correct, and you return the favor in your own language.
+On LangX, your partner holds any message to correct it, and corrections are unlimited on every plan, Free included. A native speaker tells you what sounds natural, not only what is technically correct, and you return the favor in your own language.
 
 ### Open source and a real free plan
 

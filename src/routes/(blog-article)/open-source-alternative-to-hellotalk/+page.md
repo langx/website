@@ -29,7 +29,7 @@ Everything about HelloTalk below comes from its app store listings and its own s
 | | LangX | HelloTalk |
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Partner recommendations by native language, target language, level, goals and interests |
-| Corrections | Tap any message to correct it; unlimited on every plan | Correction tools in chat and on Moments posts; AI correction in chat with a daily cap on free |
+| Corrections | Hold any message to correct it; unlimited on every plan | Correction tools in chat and on Moments posts; AI correction in chat with a daily cap on free |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Built in, plus transliteration; daily cap on free, unlimited with VIP |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, voice and video calls, Voicerooms, livestreams |
 | Social features | A Feed for posting a sentence to be corrected or asking for pronunciation help | Moments (a global feed of posts others can correct), Voicerooms, livestreams |
@@ -70,7 +70,7 @@ LangX has no live rooms or livestreams. Its Feed is narrower than Moments: you p
 
 ### Corrections and replies are unlimited everywhere
 
-On LangX you tap any message to correct it, and corrections are unlimited on every plan, Free included. So are replies to anyone who writes to you. The free plan limits new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach. The full breakdown is on the [plans page](/pro).
+On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included. So are replies to anyone who writes to you. The free plan limits new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach. The full breakdown is on the [plans page](/pro).
 
 ### No ads
 

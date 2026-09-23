@@ -83,7 +83,7 @@ A course teaches you how to ask for directions; it cannot give you a person who 
 
 ### Human corrections, unlimited
 
-On LangX, your partner taps any message to correct it, and corrections are unlimited on every plan, including Free. Human corrections often point out what sounds natural or old-fashioned, which automatic checking can miss. You correct them in your language too.
+On LangX, your partner holds any message to correct it, and corrections are unlimited on every plan, including Free. Human corrections often point out what sounds natural or old-fashioned, which automatic checking can miss. You correct them in your language too.
 
 ### Many more languages
 

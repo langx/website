@@ -83,7 +83,7 @@ On LangX you only see people who speak the language you are learning *and* are l
 
 ### Corrections from real people, unlimited
 
-Instead of an assistant suggesting fixes, on LangX your partner taps any message and corrects it. Corrections are unlimited on every plan, including Free, because they are the part of an exchange that actually teaches.
+Instead of an assistant suggesting fixes, on LangX your partner holds any message and corrects it. Corrections are unlimited on every plan, including Free, because they are the part of an exchange that actually teaches.
 
 ### Translation inside the chat
 

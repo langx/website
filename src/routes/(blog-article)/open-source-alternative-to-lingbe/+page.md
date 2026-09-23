@@ -72,7 +72,7 @@ On LangX you only see people who speak the language you are learning *and* are l
 
 ### Corrections on the actual sentence
 
-Lingbe's ratings tell you how you did overall. On LangX, your partner taps the exact message and corrects it, so you see what was wrong and what the right version is. Corrections are unlimited on every plan, including Free.
+Lingbe's ratings tell you how you did overall. On LangX, your partner holds the exact message and corrects it, so you see what was wrong and what the right version is. Corrections are unlimited on every plan, including Free.
 
 ### No credits to manage
 

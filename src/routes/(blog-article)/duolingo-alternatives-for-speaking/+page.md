@@ -107,7 +107,7 @@ it does differently:
 - **Two-way matching.** You only see people who speak what you are learning
   *and* are learning what you speak, so every conversation is useful to both
   sides.
-- **Corrections on any message, unlimited on every plan.** Tap a message to
+- **Corrections on any message, unlimited on every plan.** Hold a message to
   correct it. The part that teaches is never rationed.
 - **Translation inside the chat**, voice and photo messages, read-aloud,
   and daily streaks, which will feel familiar if you are coming from Duolingo.

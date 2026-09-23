@@ -101,7 +101,7 @@ This is our app, so read this entry with that in mind. [LangX](https://get.langx
 - **Best for:** learners who want corrections at the center of the conversation, no ads, and an app whose code they can read.
 - **Free vs paid:** the Free plan is a real plan, not a trial. Replies and corrections are **unlimited on every plan**, and you get 5 new conversations and 20 in-chat translations per rolling 24 hours. **Fluent** and **Polyglot** add unlimited new conversations, more translations (300 and 1,000 a day), more languages and extra filters. Details are on the [plans page](/pro).
 - **Platforms:** iOS, Android and the web at app.langx.io.
-- **Standout features:** tap any message to correct it, translation inside the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point you earn by talking and teaching (not money, and it cannot be bought or sold). The whole app is [open source under BSD-3](https://github.com/langx/langx) and can be self-hosted. No ads.
+- **Standout features:** hold any message to correct it, translation inside the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point you earn by talking and teaching (not money, and it cannot be bought or sold). The whole app is [open source under BSD-3](https://github.com/langx/langx) and can be self-hosted. No ads.
 - **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. There are **no live voice or video calls** and no group audio rooms yet; practice happens through text and voice messages. AI feedback (LangX Copilot) is planned for Polyglot but not shipped.
 
 ## 4. Speaky

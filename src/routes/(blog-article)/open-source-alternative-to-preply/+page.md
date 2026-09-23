@@ -47,7 +47,7 @@ So a "Preply alternative" can mean two things:
 | Languages | 182 languages listed in the app | 90+ languages, plus other subjects |
 | Who you practice with | Native speakers who are learning your language | Tutors you choose |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You choose a tutor by language, price, reviews, specialty and schedule |
-| Corrections | Tap any message to correct it; unlimited on every plan | Your tutor corrects you in lessons |
+| Corrections | Hold any message to correct it; unlimited on every plan | Your tutor corrects you in lessons |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not a chat feature |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live video lessons in Preply's online classroom |
 | How you pay | Free plan, optional Fluent and Polyglot plans | A trial lesson, then a subscription with one tutor, billed every 28 days |
@@ -87,7 +87,7 @@ On Preply you pay for a tutor's time. On LangX the person correcting you is some
 
 ### Corrections you can review
 
-On LangX you tap any message to correct it, and corrections are unlimited on every plan, Free included, as are replies to anyone who writes to you. Because the conversation is written down, every correction stays in the chat. Translation and read-aloud are there when you need them.
+On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included, as are replies to anyone who writes to you. Because the conversation is written down, every correction stays in the chat. Translation and read-aloud are there when you need them.
 
 ### Not live, and not a teacher
 

@@ -144,7 +144,7 @@ In the first few messages, settle the basics: which language when, how you want 
 
 ### Give more than you take
 
-Correct their messages carefully, explain things when they ask, and be patient. The partners who are generous teachers are the ones people want to keep talking to. On LangX, for example, you can tap any message to correct it, and corrections are unlimited on every plan, so there is no reason to hold back.
+Correct their messages carefully, explain things when they ask, and be patient. The partners who are generous teachers are the ones people want to keep talking to. On LangX, for example, you can hold any message to correct it, and corrections are unlimited on every plan, so there is no reason to hold back.
 
 ### Always leave a question open
 

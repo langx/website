@@ -76,7 +76,7 @@ LangX is built entirely around what italki removed: finding language exchange pa
 
 ### Corrections in every conversation
 
-Your partner can tap any message and correct it, and corrections are unlimited on every plan, including Free. On italki's community you get corrections on posts; on LangX you get them inside an ongoing conversation.
+Your partner can hold any message and correct it, and corrections are unlimited on every plan, including Free. On italki's community you get corrections on posts; on LangX you get them inside an ongoing conversation.
 
 ### Translation and voice in the chat
 

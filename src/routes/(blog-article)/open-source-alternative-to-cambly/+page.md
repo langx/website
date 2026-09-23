@@ -47,7 +47,7 @@ So a "Cambly alternative" can mean two things:
 | Languages | 182 languages listed in the app | English only |
 | Who you practice with | Native speakers who are learning your language | Native English-speaking tutors |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You pick a tutor who is online now or book one in advance |
-| Corrections | Tap any message to correct it; unlimited on every plan | The tutor corrects you live; some plans add lesson feedback |
+| Corrections | Hold any message to correct it; unlimited on every plan | The tutor corrects you live; some plans add lesson feedback |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not a chat feature |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live one-to-one video lessons, plus small group lessons |
 | Lesson recordings | Not applicable | Recordings and transcripts on some plans |
@@ -90,7 +90,7 @@ One honest caveat: matching depends on who is learning your language. If you spe
 
 ### Corrections you can keep
 
-On LangX you tap any message to correct it, and corrections are unlimited on every plan, Free included. Because the conversation is written down, every correction stays in the chat for you to review later, and read-aloud lets you hear any message spoken.
+On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included. Because the conversation is written down, every correction stays in the chat for you to review later, and read-aloud lets you hear any message spoken.
 
 ### Not live, and not a teacher
 

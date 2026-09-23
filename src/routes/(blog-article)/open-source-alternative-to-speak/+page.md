@@ -77,7 +77,7 @@ An AI tutor is patient and always on, but it is still an AI. It will not tell yo
 
 ### Corrections from a human, unlimited
 
-On LangX your partner taps any message to correct it, and corrections are unlimited on every plan, including Free. A human correction often comes with the "why" and with the more natural way a local would say it, not just the grammatically correct one. You correct them in return, which is also a great way to notice patterns in your own language.
+On LangX your partner holds any message to correct it, and corrections are unlimited on every plan, including Free. A human correction often comes with the "why" and with the more natural way a local would say it, not just the grammatically correct one. You correct them in return, which is also a great way to notice patterns in your own language.
 
 ### Many more languages
 

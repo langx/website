@@ -230,7 +230,7 @@ Some topics, such as politics, religion and relationships, can be great conversa
 
 Any exchange format works: text chats, voice notes, video calls or a meetup at a café. If you do not have a partner yet, our guide on [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) covers apps, Reddit, Discord and local meetups, with first-message templates.
 
-In [LangX](/), you can drop one of these questions into a chat, and your partner can tap your answer to correct it, which works well for the intermediate and advanced questions where you are stretching your grammar. It is one option among several; we compare the rest in [the best language exchange apps](/best-language-exchange-apps).
+In [LangX](/), you can drop one of these questions into a chat, and your partner can hold your answer to correct it, which works well for the intermediate and advanced questions where you are stretching your grammar. It is one option among several; we compare the rest in [the best language exchange apps](/best-language-exchange-apps).
 
 ## FAQ
 

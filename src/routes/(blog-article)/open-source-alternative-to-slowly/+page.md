@@ -36,7 +36,7 @@ Everything about Slowly below comes from its app store listings, its own site an
 | Format | Instant one-to-one chat | Letters delivered with a delay based on distance |
 | Pace | Minutes, as fast as you both reply | From about half an hour to a few days per letter |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Auto-match by interests, or browse by topics, region and languages with a proficiency level |
-| Corrections | Tap any message to correct it; unlimited on every plan | No correction tools; it is not a learning app |
+| Corrections | Hold any message to correct it; unlimited on every plan | No correction tools; it is not a learning app |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not a listed feature; you look words up yourself |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Written letters, plus audio notes and photos when both sides agree; no calls |
 | Identity | Profile with your languages, usually with photos | Nickname and avatar, no real names or photos required |
@@ -72,7 +72,7 @@ The LangX app and API are public on [GitHub](https://github.com/langx/langx) und
 
 ### Corrections are the core, not an extra
 
-Slowly is a pen-pal app first. It has no correction tool, so if a pen pal wants to fix your grammar they have to rewrite your sentence in their own letter, and you might see it days later. On LangX you tap any message to correct it, and the fix shows up in the chat right away. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you.
+Slowly is a pen-pal app first. It has no correction tool, so if a pen pal wants to fix your grammar they have to rewrite your sentence in their own letter, and you might see it days later. On LangX you hold any message to correct it, and the fix shows up in the chat right away. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you.
 
 ### Two-way matching instead of shared interests
 

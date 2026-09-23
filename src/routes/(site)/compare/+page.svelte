@@ -28,7 +28,7 @@
 			label: 'Matching',
 			value: 'Both directions: people who speak what you learn and learn what you speak'
 		},
-		{ label: 'Corrections', value: 'Tap any message to correct it — unlimited on every plan' },
+		{ label: 'Corrections', value: 'Hold any message to correct it — unlimited on every plan' },
 		{
 			label: 'Translation',
 			value: 'Built into the chat — 20 a day free, 300 on Fluent, 1,000 on Polyglot'

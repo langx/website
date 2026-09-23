@@ -72,7 +72,7 @@ When you are the expert, a few habits make your corrections useful rather than d
 - **Pick your battles.** For a beginner, fix what blocks meaning first.
 - **Correct in writing when possible.** A written correction can be reviewed later; a spoken one is often forgotten by the end of the call.
 
-In [LangX](/), you can tap any message to correct it, so the fix sits right under the original sentence where both of you can see it. Corrections are unlimited on every plan, including the free one, so correcting generously never costs you anything.
+In [LangX](/), you can hold any message to correct it, so the fix sits right under the original sentence where both of you can see it. Corrections are unlimited on every plan, including the free one, so correcting generously never costs you anything.
 
 ## Rule 6: Record every new word and correction
 

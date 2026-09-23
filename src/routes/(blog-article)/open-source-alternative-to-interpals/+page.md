@@ -31,7 +31,7 @@ Everything about InterPals below comes from its own site, its FAQ and its app st
 | --- | --- | --- |
 | What it is | Language exchange app | Pen-pal and cultural exchange community, with language exchange as one use |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Search by country, city, age and the languages someone speaks or is learning |
-| Corrections | Tap any message to correct it; unlimited on every plan | No dedicated correction tool listed |
+| Corrections | Hold any message to correct it; unlimited on every plan | No dedicated correction tool listed |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Built-in message translation (per its Google Play listing) |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Text messages with photos and GIFs; no calls advertised |
 | Social features | A Feed for posting a sentence to be corrected or asking for pronunciation help | Groups, a community feed, photo albums, comments |
@@ -70,7 +70,7 @@ On InterPals you can filter by language, but you are browsing a general communit
 
 ### Corrections built into the chat
 
-InterPals does not list a correction tool, so a partner who wants to fix your sentence has to retype it. On LangX you tap any message to correct it, and the correction appears right there in the conversation. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you. That is the part that teaches, and it is never rationed.
+InterPals does not list a correction tool, so a partner who wants to fix your sentence has to retype it. On LangX you hold any message to correct it, and the correction appears right there in the conversation. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you. That is the part that teaches, and it is never rationed.
 
 ### Learning tools around the conversation
 

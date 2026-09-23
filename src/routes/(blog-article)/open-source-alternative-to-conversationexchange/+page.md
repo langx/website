@@ -66,7 +66,7 @@ On LangX you only see people who speak the language you are learning *and* are l
 
 ### Corrections are built in, and unlimited
 
-The most useful thing a partner can do is fix your sentence. On LangX you tap any message and correct it right in the conversation. Corrections are unlimited on every plan, including Free. On Conversation Exchange, corrections depend on the chat tool you end up in.
+The most useful thing a partner can do is fix your sentence. On LangX you hold any message and correct it right in the conversation. Corrections are unlimited on every plan, including Free. On Conversation Exchange, corrections depend on the chat tool you end up in.
 
 ### Translation, voice messages and read-aloud in one place
 

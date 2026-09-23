@@ -54,7 +54,7 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 | How you learn | Real conversations with native speakers | Exercises along a lesson path |
 | Who you talk to | Native speakers who are learning your language | The app; an AI character on the Max plan |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Not applicable; friends and leaderboards, no one-to-one chat |
-| Corrections | Tap any message to correct it; unlimited on every plan | Automatic feedback on each exercise |
+| Corrections | Hold any message to correct it; unlimited on every plan | Automatic feedback on each exercise |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Translation exercises are part of lessons |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Speaking exercises; AI Video Call and Roleplay on Max |
 | Streaks and games | Daily streaks, leaderboards, the LangX Token | Streaks, leagues, gems and much more |
@@ -85,7 +85,7 @@ Duolingo mostly asks you to recognize, arrange or complete sentences someone els
 
 ### Corrections from a native speaker
 
-Duolingo marks your answer right or wrong against its own model answers. On LangX a native speaker taps your message and shows you how they would actually say it. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you. That is the part that teaches, and it is never rationed.
+Duolingo marks your answer right or wrong against its own model answers. On LangX a native speaker holds your message and shows you how they would actually say it. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you. That is the part that teaches, and it is never rationed.
 
 ### An open source alternative to Duolingo
 

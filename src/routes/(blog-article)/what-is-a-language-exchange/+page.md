@@ -130,7 +130,7 @@ Not sure you are ready? Most people are ready earlier than they think. If you ca
 
 ### Where LangX fits
 
-We built [LangX](/) for the online, text-and-voice style of exchange. Matching runs in both directions, so you only see people who speak the language you are learning and are learning a language you speak. You can tap any message to correct it (corrections are unlimited on every plan), translate inside the chat, send voice and photo messages, and keep a daily streak. The free plan lets you start 5 new conversations a day, with unlimited replies; the [plans page](/pro) lists the rest. It does not replace a tutor, and there are plenty of good alternatives: we compare them honestly in [the best language exchange apps](/best-language-exchange-apps).
+We built [LangX](/) for the online, text-and-voice style of exchange. Matching runs in both directions, so you only see people who speak the language you are learning and are learning a language you speak. You can hold any message to correct it (corrections are unlimited on every plan), translate inside the chat, send voice and photo messages, and keep a daily streak. The free plan lets you start 5 new conversations a day, with unlimited replies; the [plans page](/pro) lists the rest. It does not replace a tutor, and there are plenty of good alternatives: we compare them honestly in [the best language exchange apps](/best-language-exchange-apps).
 
 ## FAQ
 

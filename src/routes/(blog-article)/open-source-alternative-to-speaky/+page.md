@@ -37,7 +37,7 @@ Details about Speaky come from its official store listings at the time of writin
 | | LangX | Speaky |
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Search the community and message partners directly; map of partners nearby or worldwide |
-| Corrections | Tap any message to correct it, or post a sentence to the Feed; unlimited on every plan | Partners can correct each other's messages |
+| Corrections | Hold any message to correct it, or post a sentence to the Feed; unlimited on every plan | Partners can correct each other's messages |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not confirmed |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to use |
@@ -73,7 +73,7 @@ Speaky lets you message anyone. LangX's Discover only shows people who speak the
 
 ### Corrections as the core feature
 
-On LangX you tap any message to suggest a better version, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan. The free plan caps new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach.
+On LangX you hold any message to suggest a better version, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan. The free plan caps new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach.
 
 ### Built-in translation and read-aloud
 

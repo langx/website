@@ -76,7 +76,7 @@ Busuu's community feedback is attached to exercises: you answer a prompt, someon
 
 ### Corrections are unlimited, for everyone
 
-On LangX, your partner can tap any message and correct it, and corrections are unlimited on every plan, including Free. On Busuu, according to its own help pages, free members can send a limited number of exercises for correction, while Premium members get unlimited submissions and priority.
+On LangX, your partner can hold any message and correct it, and corrections are unlimited on every plan, including Free. On Busuu, according to its own help pages, free members can send a limited number of exercises for correction, while Premium members get unlimited submissions and priority.
 
 ### Both sides benefit
 
