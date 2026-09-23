@@ -110,7 +110,11 @@
 				{/if}
 			{/if}
 		</div>
-		{#if post && post.coverImage}
+		<!--
+			A drawn card (a post with a thumbnail) is the title set in type for
+			social previews; above the article it would only repeat the heading.
+		-->
+		{#if post && post.coverImage && !post.thumbnail}
 			<div class="cover-image">
 				<Image src={post.coverImage} alt={post.title} />
 			</div>
