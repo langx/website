@@ -142,8 +142,6 @@ For what to talk about next, see our [conversation topics](/language-exchange-co
 A realistic weekly routine: daily messages and voice notes with one Mandarin partner, one live call or tutor session a week, and ten to fifteen minutes of character review every day.
 </Callout>
 
-More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers) and [Japanese](/best-apps-to-practice-japanese-with-native-speakers) with native speakers.
-
 ## FAQ
 
 ### What is the best app to practice Chinese with native speakers?
@@ -161,3 +159,5 @@ Yes. HelloTalk and Tandem include free calls with exchange partners. LangX suppo
 ### How do I practice Chinese tones with a partner?
 
 Send short voice messages, ask your partner to record the same sentence back, and ask them to point out every wrong tone. Native speakers often let tone mistakes pass unless you ask.
+
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.

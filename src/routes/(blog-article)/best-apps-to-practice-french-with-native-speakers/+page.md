@@ -151,8 +151,6 @@ For what to talk about next, keep our [conversation topics](/language-exchange-c
 A good first month: one exchange partner you message daily, one live conversation a week, and 20 minutes a day of French video you mostly understand.
 </Callout>
 
-More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
-
 ## FAQ
 
 ### What is the best free app to practice French with native speakers?
@@ -170,3 +168,5 @@ Tu is normal between exchange partners of similar age. Use vous with someone muc
 ### Can I practice French speaking for free?
 
 Yes. HelloTalk and Tandem include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX supports voice messages but not live calls. Tutors on italki and Preply are paid.
+
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.

@@ -152,8 +152,6 @@ For what to talk about next, see our [conversation topics](/language-exchange-co
 A good first month: one exchange partner you message daily, one live conversation a week, and one Nicos Weg episode or Easy German video a day.
 </Callout>
 
-More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
-
 ## FAQ
 
 ### What is the best app to practice German with native speakers?
@@ -171,3 +169,5 @@ Du is normal between exchange partners. Use Sie with someone much older or in a 
 ### Is Swiss German the same as German?
 
 Swiss people write Standard German, which you can learn anywhere, but they speak Swiss German dialects in daily life. If you are moving to German-speaking Switzerland, find a Swiss partner early to get used to hearing it.
+
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.
