@@ -400,7 +400,7 @@ Chinese 晚上 is glossed "evening; night" and ranks #95. The night page covers 
 | Chinese | 朋友 |
 | Korean | 친구 |
 
-Chinese 朋友 is the 26th most used word in Chinese. For more people words, see [family words in different languages](/family-words-in-different-languages).
+Chinese 朋友 is the 26th most used word in Chinese. For more people words, see [family words in different languages](/family-words-in-different-languages). For house, food, money and other everyday words, see [everyday words in different languages](/everyday-words-in-different-languages), and for eye, hand and head, [body words in different languages](/body-words-in-different-languages).
 
 [See "friend" in all 52 languages →](/tools/say/friend)
 

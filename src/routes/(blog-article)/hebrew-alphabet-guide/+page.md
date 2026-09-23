@@ -4,6 +4,7 @@ title: 'The Hebrew Alphabet: 22 Letters, Final Forms and Niqqud'
 date: 2026-09-23T17:30:00.000Z
 excerpt: 'The Hebrew alphabet for beginners: all 22 letters, the five final forms, vowel points (niqqud), look-alike letters and the dagesh, with real words to read.'
 coverImage: /images/posts/hebrew-alphabet-guide.png
+thumbnail: /images/posts/hebrew-alphabet-guide-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

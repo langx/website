@@ -4,6 +4,7 @@ title: 'The Arabic Alphabet: 28 Letters, Forms and Vowel Marks'
 date: 2026-09-23T17:20:00.000Z
 excerpt: 'The Arabic alphabet for beginners: 28 letters, their four joined forms, the six that never connect, short vowel marks, and how to read your first words.'
 coverImage: /images/posts/arabic-alphabet-guide.png
+thumbnail: /images/posts/arabic-alphabet-guide-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

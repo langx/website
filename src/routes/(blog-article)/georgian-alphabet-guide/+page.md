@@ -4,6 +4,7 @@ title: 'The Georgian Alphabet: 33 Letters and How to Read Them'
 date: 2026-09-23T17:40:00.000Z
 excerpt: 'The Georgian alphabet explained: 33 Mkhedruli letters, no capital letters, one sound per letter, the sharp ejective consonants and a plan to read real words.'
 coverImage: /images/posts/georgian-alphabet-guide.png
+thumbnail: /images/posts/georgian-alphabet-guide-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

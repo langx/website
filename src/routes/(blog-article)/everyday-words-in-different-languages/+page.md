@@ -4,6 +4,7 @@ title: 'House, Food, Money: Everyday Words in 50+ Languages'
 date: 2026-09-23T18:30:00.000Z
 excerpt: 'House, home, kitchen, food, money, work, time and more everyday words in 50+ languages, from real usage data, with the mix-ups to watch for.'
 coverImage: /images/posts/everyday-words-in-different-languages.png
+thumbnail: /images/posts/everyday-words-in-different-languages-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

@@ -4,6 +4,7 @@ title: 'The Armenian Alphabet: Letters, Sounds and How to Read'
 date: 2026-09-23T17:50:00.000Z
 excerpt: 'The Armenian alphabet explained: 36 letters by Mesrop Mashtots plus later additions, capital and small letters, Eastern vs Western sounds and look-alike letters.'
 coverImage: /images/posts/armenian-alphabet-guide.png
+thumbnail: /images/posts/armenian-alphabet-guide-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink

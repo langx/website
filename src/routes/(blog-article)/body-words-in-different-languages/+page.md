@@ -4,6 +4,7 @@ title: 'Eye, Hand, Head: Body Words in 50+ Languages'
 date: 2026-09-23T18:20:00.000Z
 excerpt: 'Eye, hand, head, face, hair, skin and more body words in 50+ languages, from real usage data, with the false matches and mix-ups to watch for.'
 coverImage: /images/posts/body-words-in-different-languages.png
+thumbnail: /images/posts/body-words-in-different-languages-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink
