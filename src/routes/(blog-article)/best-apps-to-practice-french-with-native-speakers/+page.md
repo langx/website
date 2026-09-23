@@ -126,7 +126,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set French as the language you are learning and you see French speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which helps in a language where one sentence can hide a gender, an agreement and an accent mistake at once. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken, useful when the spelling gives little away.
 
 - **Best for:** written practice where fixing mistakes is the point, with no ads.
-- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"

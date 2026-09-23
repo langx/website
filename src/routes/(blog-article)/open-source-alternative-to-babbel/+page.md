@@ -159,7 +159,7 @@ Babbel teaches 14 languages. LangX lists 182, so if your target language is not 
 
 ### Open source and a free plan that stays free
 
-The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Babbel is closed source. LangX Free is a real plan, not a sample: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See the [plans page](/pro) for what Fluent and Polyglot add.
+The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Babbel is closed source. LangX Free is a real plan, not a sample: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See the [plans page](/plans) for what Fluent and Polyglot add.
 
 ### No ads
 

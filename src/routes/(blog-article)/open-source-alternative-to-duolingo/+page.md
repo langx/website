@@ -177,7 +177,7 @@ For a structured course, closed-source apps like Busuu and Babbel are the realis
 
 ## Is LangX a free Duolingo alternative?
 
-For conversation, yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/pro). Prices are set per region and shown in the app.
+For conversation, yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app.
 
 Duolingo's free version is generous too. The difference is not price; it is what you get: lessons on Duolingo, people on LangX.
 

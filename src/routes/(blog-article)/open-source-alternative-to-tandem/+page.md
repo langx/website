@@ -140,7 +140,7 @@ On LangX you only see people who speak the language you are learning and are lea
 
 ### Corrections are never rationed
 
-Hold any message to suggest a better way to say it, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan, including Free. The free plan limits how many *new* conversations you start (5 a day) and how many translations you use (20 a day), never how much you talk or teach. The [plans page](/pro) has the full list.
+Hold any message to suggest a better way to say it, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan, including Free. The free plan limits how many *new* conversations you start (5 a day) and how many translations you use (20 a day), never how much you talk or teach. The [plans page](/plans) has the full list.
 
 ### No ads, and privacy you can check
 

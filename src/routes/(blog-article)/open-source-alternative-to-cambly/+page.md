@@ -165,7 +165,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free Cambly alternative?
 
-For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/pro). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
+For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
 
 <Steps
   title="A simple routine that works"

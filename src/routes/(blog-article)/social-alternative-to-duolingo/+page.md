@@ -159,7 +159,7 @@ If you want to compare LangX with the other apps where you practice with real pe
 
 ## Is LangX free like Duolingo?
 
-Yes. The Free plan is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages and extra filters; see the [plans page](/pro). Prices are set per region and shown in the app. Tokens cannot buy a paid plan.
+Yes. The Free plan is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app. Tokens cannot buy a paid plan.
 
 A note on privacy, since social apps involve other people's messages as well as yours: LangX has no ads and no advertising identifiers. It does use product analytics (PostHog, on its EU cloud), including a masked screen recording on iOS and Android that replaces every word and image with a grey block on your device. It is on by default and switches off in Settings → Privacy → Share usage data.
 

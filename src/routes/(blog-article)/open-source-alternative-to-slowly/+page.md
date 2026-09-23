@@ -156,7 +156,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free Slowly alternative?
 
-Yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/pro). Prices are set per region and shown in the app.
+Yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app.
 
 Slowly is free too, so price is not a reason to switch. The real reasons are speed, corrections, two-way matching and open source.
 

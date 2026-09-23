@@ -13,7 +13,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 1,
 		title: 'Is LangX free?',
-		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/pro">Fluent and Polyglot</a> remove those limits and add a few extras.`
+		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/plans">Fluent and Polyglot</a> remove those limits and add a few extras.`
 	},
 	{
 		id: 2,
@@ -43,7 +43,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 5,
 		title: 'What is LangX Copilot?',
-		content: `Private AI feedback on your own messages while you chat with a real person. Only you see it. It isn't in the app yet; it's coming later, for <a href="/pro">Polyglot</a>.`
+		content: `Private AI feedback on your own messages while you chat with a real person. Only you see it. It isn't in the app yet; it's coming later, for <a href="/plans">Polyglot</a>.`
 	},
 	{
 		id: 6,

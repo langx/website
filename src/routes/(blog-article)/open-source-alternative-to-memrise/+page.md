@@ -162,7 +162,7 @@ LangX has **Echo**, a spaced-repetition tab of its own, free on every plan. It s
 
 ### Open source and a real free plan
 
-The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Memrise is closed source, and many former users were frustrated when community courses were moved out of the app, which is part of why people look for an open source alternative to Memrise. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See [plans](/pro) for more.
+The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Memrise is closed source, and many former users were frustrated when community courses were moved out of the app, which is part of why people look for an open source alternative to Memrise. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See [plans](/plans) for more.
 
 ### No ads
 

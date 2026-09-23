@@ -5,7 +5,7 @@
 	/**
 	 * `app/(app)/paywall` from the design handoff, on the Fluent tab. The
 	 * benefits are the real ones from `$lib/data/plans.ts`. Where the app puts
-	 * a price, this replica puts nothing: /pro says prices are shown in the
+	 * a price, this replica puts nothing: /plans says prices are shown in the
 	 * app, and a number here would contradict the page it sits on.
 	 */
 	const features = [

@@ -105,7 +105,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 
 - **Why it is social:** every "lesson" is a person. Around the chat there is translation, voice, photo and video messages, read-aloud, daily streaks, leaderboards (week, month, year and all time) and the [LangX Token](/tokens), an in-app point you earn by talking and correcting. It is not money and cannot be bought or sold.
 - **Good for:** learners who want feedback at the center of the conversation, no ads, and code they can read: the app is [open source under BSD-3](https://github.com/langx/langx).
-- **Watch out for:** the community is much smaller than HelloTalk's or Tandem's, so rarer language pairs can take longer. There are no live calls or group voice rooms; practice is by text and voice messages. Free lets you start 5 new conversations and use 20 translations a day; [Fluent and Polyglot](/pro) raise those.
+- **Watch out for:** the community is much smaller than HelloTalk's or Tandem's, so rarer language pairs can take longer. There are no live calls or group voice rooms; practice is by text and voice messages. Free lets you start 5 new conversations and use 20 translations a day; [Fluent and Polyglot](/plans) raise those.
 
 If you came here from Duolingo, we wrote a separate page on LangX as [the social alternative to Duolingo](/social-alternative-to-duolingo).
 

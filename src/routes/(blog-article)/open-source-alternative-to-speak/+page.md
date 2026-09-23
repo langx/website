@@ -152,7 +152,7 @@ Speak focuses on a handful of major languages. LangX lists 182 languages, so if 
 
 ### Open source, and a real free plan
 
-The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license, so anyone can read the code or host their own instance. Speak is closed source. LangX Free is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. The [plans page](/pro) has the details.
+The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license, so anyone can read the code or host their own instance. Speak is closed source. LangX Free is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. The [plans page](/plans) has the details.
 
 ### No ads, and honest analytics
 

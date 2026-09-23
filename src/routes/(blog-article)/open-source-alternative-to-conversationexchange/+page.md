@@ -152,7 +152,7 @@ Be clear-eyed about it:
 - **No live calls.** LangX has voice messages, not voice or video calls. If you want live conversation, you can still meet a partner on LangX and move to a call elsewhere, just as you would with Conversation Exchange.
 - **Not built for in-person meetups.** Conversation Exchange's city search is better for that.
 - **A smaller community.** Conversation Exchange has had two decades to grow. LangX is newer, so in some language pairs you will find fewer people.
-- **The free plan has limits.** You can start 5 new conversations and use 20 translations per rolling 24 hours. Replies and corrections are never limited. See the [plans page](/pro) for details.
+- **The free plan has limits.** You can start 5 new conversations and use 20 translations per rolling 24 hours. Replies and corrections are never limited. See the [plans page](/plans) for details.
 
 ## Who should pick which?
 

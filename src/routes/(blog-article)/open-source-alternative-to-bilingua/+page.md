@@ -168,7 +168,7 @@ This is the biggest lesson from Bilingua. When a closed app shuts down, it is go
 - **No live calls** on LangX, only voice messages.
 - **No conversation bot.** LangX Copilot, private AI feedback on your own messages, is coming later for Polyglot, but it is not available yet.
 - **A smaller community** than the biggest exchange apps, so some language pairs have fewer people.
-- **The free plan caps new conversations** at 5 per rolling 24 hours. Replies and corrections are never capped. The [plans page](/pro) has the details.
+- **The free plan caps new conversations** at 5 per rolling 24 hours. Replies and corrections are never capped. The [plans page](/plans) has the details.
 
 ## Who should pick which?
 

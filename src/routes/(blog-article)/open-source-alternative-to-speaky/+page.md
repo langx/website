@@ -142,7 +142,7 @@ On LangX you hold any message to suggest a better version, or post a sentence to
 
 ### Built-in translation and read-aloud
 
-Translation sits inside the chat, so you do not leave the conversation to look up a word, and you can hold a message to hear it read aloud. Free includes 20 translations and 15 read-alouds a day; the [plans page](/pro) lists the rest.
+Translation sits inside the chat, so you do not leave the conversation to look up a word, and you can hold a message to hear it read aloud. Free includes 20 translations and 15 read-alouds a day; the [plans page](/plans) lists the rest.
 
 ### No ads
 

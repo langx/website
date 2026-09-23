@@ -14,7 +14,7 @@
 		{
 			title: 'Product',
 			links: [
-				{ label: 'Plans', href: '/pro' },
+				{ label: 'Plans', href: '/plans' },
 				{ label: 'Tokens', href: '/tokens' },
 				{ label: 'LangX Token', href: 'https://token.langx.io' },
 				{ label: 'Coming from v1?', href: '/welcome-back' },

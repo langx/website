@@ -157,7 +157,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 - **No live calls,** only voice messages. italki's lessons are live video.
 - **No curriculum or lesson plans.**
 - **A smaller community,** so rare languages may have few people.
-- **The free plan caps new conversations** at 5 per rolling 24 hours; replies and corrections are never capped. See the [plans page](/pro).
+- **The free plan caps new conversations** at 5 per rolling 24 hours; replies and corrections are never capped. See the [plans page](/plans).
 
 ## Who should pick which?
 

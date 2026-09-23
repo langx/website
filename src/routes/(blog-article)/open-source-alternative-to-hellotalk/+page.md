@@ -136,7 +136,7 @@ LangX has no live rooms or livestreams. Its Feed is narrower than Moments: you p
 
 ### Corrections and replies are unlimited everywhere
 
-On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included. So are replies to anyone who writes to you. The free plan limits new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach. The full breakdown is on the [plans page](/pro).
+On LangX you hold any message to correct it, and corrections are unlimited on every plan, Free included. So are replies to anyone who writes to you. The free plan limits new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach. The full breakdown is on the [plans page](/plans).
 
 ### No ads
 

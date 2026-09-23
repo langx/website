@@ -153,7 +153,7 @@ Praktika covers nine languages. LangX lists 182, so if you are learning, say, Tu
 
 ### Open source and a free plan with no time limit
 
-The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license, and you can host your own instance. Praktika is closed source. LangX Free is not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. Paid plans lift the limits; see [plans](/pro).
+The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license, and you can host your own instance. Praktika is closed source. LangX Free is not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. Paid plans lift the limits; see [plans](/plans).
 
 ### No ads
 

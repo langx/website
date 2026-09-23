@@ -464,7 +464,7 @@ Hairline rows in a 76ch column; the 1.0625rem 600 question turns blue on hover; 
 
 - **Don't** use blue for anything that is not interactive, except the lowercase chapter heading beside a phone; never use green for anything that is not a correction or success, or orange for anything but streaks and stars.
 - **Don't** put a second yellow button in a viewport; the companion is the outlined pill, and the dark pill belongs to the header and the send button.
-- **Don't** put token arithmetic, plan tables or feature lists on the homepage; the mechanism is shown in the phones and the plans live on `/pro`.
+- **Don't** put token arithmetic, plan tables or feature lists on the homepage; the mechanism is shown in the phones and the plans live on `/plans`.
 - **Don't** use Nunito for running text or in inputs, or reach for a Nunito weight lighter than 700.
 - **Don't** use the browser's default focus ring; the ring is 2px blue with a 2px offset and 8px radius.
 - **Don't** borrow the legacy orange (`--color--secondary`) or `#ffd400` on redesigned surfaces; they remain only so blog callouts keep a value.

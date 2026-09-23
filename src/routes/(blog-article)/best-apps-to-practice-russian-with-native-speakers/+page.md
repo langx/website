@@ -120,7 +120,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Russian as the language you are learning and you see Russian speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters when one Russian sentence can hold three wrong endings. Translation is inside the chat (20 a day on Free).
 
 - **Best for:** careful written practice where fixing endings is the point, with no ads.
-- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"

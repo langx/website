@@ -17,3 +17,8 @@
 /customization/       /blog  301
 /blog-posts           /blog  301
 /blog-posts/          /blog  301
+
+# The plans page moved from /pro to /plans on 23 September 2026: the old path
+# was published everywhere, so it lands on the new one rather than a 404.
+/pro   /plans  301
+/pro/  /plans  301

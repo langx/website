@@ -230,7 +230,7 @@ we built LangX around:
 When your partner isn't around, you can also hold any message in a LangX chat to
 hear it read aloud by a synthetic voice. That is handy for checking how a
 written message sounds, though a real partner's recording is better for
-shadowing. Read-aloud has a daily allowance that depends on your [plan](/pro).
+shadowing. Read-aloud has a daily allowance that depends on your [plan](/plans).
 
 <AppDemo
   screen="chat"

@@ -160,7 +160,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 - **No grammar explanations and no curriculum.** Echo's free phrase packs give you something to review, but if you need to be taught the basics, a course does that better.
 - **No live calls,** only voice messages.
 - **A smaller community,** so some language pairs have fewer people.
-- **The free plan caps new conversations** at 5 per rolling 24 hours (replies and corrections are never capped). The [plans page](/pro) has details.
+- **The free plan caps new conversations** at 5 per rolling 24 hours (replies and corrections are never capped). The [plans page](/plans) has details.
 
 ## Who should pick which?
 
