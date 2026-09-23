@@ -7,10 +7,16 @@
 			line-height: 1.6;
 		}
 
+		// Only the headings and lists the markdown itself writes — the direct
+		// children of the post body. Components set inside a post carry their
+		// own: the phone replicas have an H2 title and a list of rows, and
+		// reaching into them put a hairline over "Discover" and pushed its
+		// cards off the side of the phone.
+		//
 		// A post is read in sections, so each H2 opens one: a hairline above it
 		// and room on both sides, at the Title size rather than the page
 		// Headline — a 38px heading every few paragraphs shouted over the text.
-		h2 {
+		> h2 {
 			position: relative;
 			font-size: clamp(1.5rem, 1.25rem + 0.9vw, 1.875rem);
 			line-height: 1.2;
@@ -20,38 +26,41 @@
 			scroll-margin-top: calc(64px + 16px);
 		}
 
-		h3 {
+		> h3 {
 			position: relative;
 			font-size: 1.25rem;
 			margin: 2rem 0 0.4rem;
 			scroll-margin-top: calc(64px + 16px);
 		}
 
-		ul,
-		ol {
-			padding-left: 1.25rem;
-		}
-
-		li {
-			margin: 0.35rem 0;
-			line-height: 1.55;
-		}
-
-		li::marker {
-			color: var(--color--text-quiet);
-		}
-
-		h4 {
+		> h4 {
 			position: relative;
 			font-size: 1.125rem;
 			margin: 2rem 0 0.3rem;
+		}
+
+		> ul,
+		> ol {
+			padding-left: 1.25rem;
+
+			li {
+				margin: 0.35rem 0;
+				line-height: 1.55;
+			}
+
+			li::marker {
+				color: var(--color--text-quiet);
+			}
 		}
 
 		picture {
 			display: inline;
 		}
 
-		img {
+		// Photos in the text, not the avatars inside a phone replica: a 2rem
+		// margin and a card shadow on those knocked every Discover avatar out of
+		// its ring. The replicas style their own images and caption.
+		img:not(.device img) {
 			display: block;
 			margin: 2rem auto;
 			max-width: 100%;
@@ -61,7 +70,7 @@
 			box-shadow: var(--image-shadow);
 		}
 
-		figcaption {
+		figcaption:not(.device figcaption) {
 			font-size: 0.875rem;
 			text-align: center;
 			margin-bottom: 2rem;
