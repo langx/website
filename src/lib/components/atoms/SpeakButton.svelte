@@ -18,12 +18,14 @@
 	 */
 	import { onMount } from 'svelte';
 	import UiIcon from './UiIcon.svelte';
-	import { hasAudio, mayHaveAudio, playWord } from '$lib/utils/wordAudio';
+	import { hasAudio, mayHaveAudio, playWord, type AudioStore } from '$lib/utils/wordAudio';
 
 	export let label: string;
 	export let code: string | undefined = undefined;
 	export let rank: number | undefined | null = undefined;
 	export let play: (() => Promise<void>) | undefined = undefined;
+	/** `x` for a list's example sentence at that rank rather than the word. */
+	export let store: AudioStore = 'w';
 	export let size = 32;
 
 	/** null while the index is on its way; the button holds its space meanwhile. */
@@ -32,14 +34,14 @@
 	let presses = 0;
 	let mounted = false;
 
-	$: possible = !!play || (!!code && mayHaveAudio(code, rank));
-	$: if (mounted && !play && code && rank) check(code, rank);
+	$: possible = !!play || (!!code && mayHaveAudio(code, rank, store));
+	$: if (mounted && !play && code && rank) check(code, rank, store);
 
-	async function check(c: string, r: number) {
+	async function check(c: string, r: number, s: AudioStore) {
 		available = null;
-		const ok = await hasAudio(c, r);
+		const ok = await hasAudio(c, r, s);
 		// A row reused for another word may have moved on while this was out.
-		if (c === code && r === rank) available = ok;
+		if (c === code && r === rank && s === store) available = ok;
 	}
 
 	onMount(() => (mounted = true));
@@ -51,7 +53,7 @@
 		playing = true;
 		try {
 			if (play) await play();
-			else if (code && rank) await playWord(code, rank);
+			else if (code && rank) await playWord(code, rank, store);
 		} catch {
 			// Offline, or the file is missing: the button simply stops glowing.
 		} finally {

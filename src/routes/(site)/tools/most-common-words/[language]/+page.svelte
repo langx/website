@@ -328,7 +328,16 @@
 								<span class="ex-quiet">Loading…</span>
 							{:else if examples?.get(row.rank)}
 								{@const ex = examples.get(row.rank)}
-								<p class="ex-sentence" lang={meta.code}>{ex?.sentence}</p>
+								<p class="ex-sentence">
+									<span lang={meta.code}>{ex?.sentence}</span>
+									<SpeakButton
+										store="x"
+										code={meta.code}
+										rank={row.rank}
+										label="Hear the example sentence in {meta.name}"
+										size={28}
+									/>
+								</p>
 								<p class="ex-english">{ex?.english}</p>
 							{:else}
 								<span class="ex-quiet">No example sentence for this word yet.</span>
