@@ -1,9 +1,15 @@
 <script lang="ts">
 	import { reveal } from '$lib/utils/reveal';
+	import { echo } from '$lib/data/echo';
 
-	// Six more things, one line each. Every claim has to be true of the
-	// shipping app; the paid one names its plan.
+	// Seven more things, one line each. Every claim has to be true of the
+	// shipping app; the paid one names its plan, and Echo's numbers come from
+	// echo.ts.
 	const tiles = [
+		{
+			title: 'Echo: free packs to learn from',
+			body: `Spaced repetition on every plan: ${echo.packs} packs in ${echo.languages.length} languages, read aloud, and a card from any message a partner corrects.`
+		},
 		{
 			title: 'Open source',
 			body: 'The whole app is free to read on GitHub, and free to run yourself.'
@@ -33,8 +39,8 @@
 </script>
 
 <!--
-	What the chapters above do not stop to show: six more things, one line each,
-	in the app's list grammar.
+	What the chapters above do not stop to show: seven more things, one line
+	each, in the app's list grammar.
 -->
 <section id="features" class="features">
 	<h2 data-reveal use:reveal={{ y: 24 }}>Everything else in the app</h2>
