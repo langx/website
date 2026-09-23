@@ -152,7 +152,7 @@ For what to talk about next, see our [conversation topics](/language-exchange-co
 A good first month: one exchange partner you message daily, one live conversation a week, and one Nicos Weg episode or Easy German video a day.
 </Callout>
 
-More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers), [Korean](/best-apps-to-practice-korean-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
 
 ## FAQ
 

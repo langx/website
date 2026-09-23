@@ -150,7 +150,7 @@ For what to talk about next, see our [conversation topics](/language-exchange-co
 A good first month: one exchange partner from the country you care about, messaged daily; one live conversation a week; and 15 minutes a day of Portuguese audio or video you mostly understand.
 </Callout>
 
-More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers), [Korean](/best-apps-to-practice-korean-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
+More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [French](/best-apps-to-practice-french-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Chinese](/best-apps-to-practice-chinese-with-native-speakers) with native speakers.
 
 ## FAQ
 
