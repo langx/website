@@ -100,7 +100,7 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 | Streaks and games | Daily streaks, leaderboards, the LangX Token | Streaks, leagues, gems and much more |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: every language course, with ads and limits on how much you can do in a row |
 | Paid plan | Yes: Fluent and Polyglot | Yes: Super and Max |
-| Ads | None | On the free version; Super removes them |
+| No ads | Yes | No (Super removes them) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | Enormous; Duolingo calls itself the world's most downloaded education app |

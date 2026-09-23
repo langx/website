@@ -52,7 +52,7 @@ Everything about InterPals below comes from its own site, its FAQ and its app st
 | Social features | A Feed for posting a sentence to be corrected or asking for pronunciation help | Groups, a community feed, photo albums, comments |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: profile, search and messaging are free, with a daily limit on new contacts |
 | Paid plan | Yes: Fluent and Polyglot | No paid plan mentioned in its FAQ |
-| Ads | None | Yes; its FAQ says the site is funded by advertising |
+| No ads | Yes | No (funded by advertising) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | Web, iOS, Android |
 | Community size | Small and growing | Much larger; InterPals says it has 8.5 million members |

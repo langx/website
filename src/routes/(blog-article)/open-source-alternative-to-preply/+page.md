@@ -65,7 +65,7 @@ So a "Preply alternative" can mean two things:
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live video lessons in Preply's online classroom |
 | How you pay | Free plan, optional Fluent and Polyglot plans | A trial lesson, then a subscription with one tutor, billed every 28 days |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free lessons; browsing tutors is free |
-| Ads | None | None listed on Google Play |
+| No ads | Yes | Yes |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | Web, iOS, Android |
 | Community size | Small and growing | Much larger; 5M+ downloads on Google Play |

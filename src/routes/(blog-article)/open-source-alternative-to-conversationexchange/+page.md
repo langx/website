@@ -81,7 +81,7 @@ This page is a fair LangX vs Conversation Exchange comparison, written in Septem
 | In-person meetups | Not the focus; Polyglot adds Nearby sorting | Core feature, with city-level search |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: the site is free to use, with ads and some messaging limits |
 | Paid plan | Yes (Fluent, Polyglot) | Yes (memberships that remove ads and messaging limits) |
-| Ads | None | Banner ads for free members |
+| No ads | Yes | No (membership removes them) |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | Website (mobile-friendly); no official app |
 | Community | Smaller and newer | Long-running, online since 2005 |

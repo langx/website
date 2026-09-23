@@ -54,7 +54,7 @@ Everything about Slowly below comes from its app store listings, its own site an
 | Identity | Profile with your languages, usually with photos | Nickname and avatar, no real names or photos required |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: unlimited letters, with a quota on friends |
 | Paid plan | Yes: Fluent and Polyglot | Yes: Slowly Plus, plus Slowly Coins for stamps |
-| Ads | None | Google Play lists the app as containing ads (you can watch short ads to earn coins) |
+| No ads | Yes | No (some are optional, watched for coins) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | Much larger; 5M+ downloads on Google Play |

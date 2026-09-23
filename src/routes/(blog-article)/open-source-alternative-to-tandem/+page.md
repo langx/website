@@ -84,7 +84,7 @@ Everything about Tandem below reflects its app store listings and its own site a
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, audio and video calls, group audio Parties |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with daily limits |
 | Paid plan | Yes: Fluent and Polyglot | Yes: Tandem Pro |
-| Ads | None | Free version shows ads; Pro removes them |
+| No ads | Yes | No (Pro removes them) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | Much larger; 10M+ downloads on Google Play |

@@ -80,7 +80,7 @@ The free plan caps the tools that cost HelloTalk money to run or that could be u
 | Languages you can learn | One | Several, and change them anytime |
 | Search nearby or by gender | No | Yes |
 | See who visited your profile | No | Yes, and hide your own visits |
-| Ads | Yes | No ads |
+| No ads | No | Yes |
 
 *Table: HelloTalk free vs VIP, from HelloTalk's FAQ and blog (September 2026).*
 

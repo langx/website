@@ -119,7 +119,7 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 | Streaks and games | Streaks, XP, leagues, gems | Streaks, tokens, weekly/monthly/yearly/all-time leaderboards |
 | Structured lessons | Yes | No |
 | Free plan | Yes, every course | Yes: unlimited replies and corrections, 5 new conversations a day, 20 translations a day |
-| Ads | On the free version | None |
+| No ads | No (Super removes them) | Yes |
 | Open source | No | Yes (BSD-3) |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Enormous | Small and growing |

@@ -85,7 +85,7 @@ Details about Speaky come from its official store listings at the time of writin
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to use |
 | Paid plan | Yes: Fluent and Polyglot | None listed in the stores |
-| Ads | None | Google Play marks the app as containing ads |
+| No ads | Yes | No |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Languages | 182 listed in the app | 170+ listed |

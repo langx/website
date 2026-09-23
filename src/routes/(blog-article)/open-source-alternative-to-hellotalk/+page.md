@@ -78,7 +78,7 @@ Everything about HelloTalk below comes from its app store listings and its own s
 | Social features | A Feed for posting a sentence to be corrected or asking for pronunciation help | Moments (a global feed of posts others can correct), Voicerooms, livestreams |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: most core features, with daily caps on some tools |
 | Paid plan | Yes: Fluent and Polyglot | Yes: VIP |
-| Ads | None | Free version shows ads; VIP removes them |
+| No ads | Yes | No (VIP removes them) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, Mac, web (web.hellotalk.com) |
 | Community size | Small and growing | Much larger; 10M+ downloads on Google Play |

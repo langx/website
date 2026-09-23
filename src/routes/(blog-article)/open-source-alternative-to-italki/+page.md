@@ -90,7 +90,7 @@ What it no longer has is a dedicated **language partner search**. italki used to
 | Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Live video lessons |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Community is free; lessons are paid |
 | Paid plan | Yes (Fluent, Polyglot) | Pay per lesson; optional italki Plus subscription |
-| Ads | None | Not listed as containing ads on Google Play |
+| No ads | Yes | Yes |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | Web, iOS, Android |
 | Community | Smaller and newer | Very large, with teachers in over 100 languages |
