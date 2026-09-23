@@ -168,6 +168,70 @@
 		.sort((a, b) => a.rank - b.rank)[0];
 
 	/**
+	 * The writing system a word is in, from its first letter. Only the ones the
+	 * 53 lists use; anything else counts as Latin.
+	 */
+	const SCRIPTS: [string, RegExp][] = [
+		['arabic', /[\u0600-\u06ff]/],
+		['hebrew', /[\u0590-\u05ff]/],
+		['devanagari', /[\u0900-\u097f]/],
+		['bengali', /[\u0980-\u09ff]/],
+		['tamil', /[\u0b80-\u0bff]/],
+		['telugu', /[\u0c00-\u0c7f]/],
+		['malayalam', /[\u0d00-\u0d7f]/],
+		['thai', /[\u0e00-\u0e7f]/],
+		['georgian', /[\u10a0-\u10ff]/],
+		['armenian', /[\u0530-\u058f]/],
+		['hangul', /[\uac00-\ud7af\u1100-\u11ff]/],
+		['kana', /[\u3040-\u30ff]/],
+		['han', /\p{Script=Han}/u],
+		['cyrillic', /[\u0400-\u04ff]/],
+		['greek', /[\u0370-\u03ff]/]
+	];
+	const scriptOf = (word: string) => SCRIPTS.find(([, re]) => re.test(word))?.[0] ?? 'latin';
+
+	/**
+	 * The word written six ways, one writing system each — the thing a list of
+	 * rows cannot show at a glance. Languages are tried in the order people ask
+	 * about them, and only rows that mean the word first are used, so a tile is
+	 * never a neighbouring sense. Fewer than three scripts is not a showcase.
+	 */
+	const SHOWCASE = [
+		'Spanish',
+		'Russian',
+		'Arabic',
+		'Chinese',
+		'Korean',
+		'Hindi',
+		'Greek',
+		'Japanese',
+		'Hebrew',
+		'Georgian',
+		'Armenian',
+		'Thai',
+		'Bengali',
+		'Tamil',
+		'Malayalam',
+		'Telugu',
+		'Ukrainian',
+		'Persian',
+		'Urdu'
+	];
+	$: showcase = (() => {
+		const picked: Row[] = [];
+		const used = new Set<string>();
+		for (const name of SHOWCASE) {
+			const r = rows.find((x) => x.name === name && primarily(x.gloss, entry.word));
+			if (!r || used.has(scriptOf(r.word))) continue;
+			used.add(scriptOf(r.word));
+			picked.push(r);
+			if (picked.length === 6) break;
+		}
+		return picked.length >= 3 ? picked : [];
+	})();
+	const RTL = new Set(['ar', 'he', 'fa', 'ur']);
+
+	/**
 	 * Most rows gloss to the very word the page is about, which is a column of
 	 * "water" down a page titled water. Only the ones that say something else —
 	 * a narrower sense, a second meaning — are worth the space.
@@ -226,6 +290,31 @@
 		{title}
 		lede="Every one of these is a word that turns up in ordinary speech, not a dictionary curiosity — the number beside it is where it ranks in that language."
 	/>
+
+	{#if showcase.length}
+		<ul
+			class="showcase"
+			role="list"
+			aria-label="“{entry.word}” in {showcase.length} writing systems"
+		>
+			{#each showcase as r}
+				<li>
+					<span class="big" lang={r.code} dir={RTL.has(r.code) ? 'rtl' : undefined}>{r.word}</span>
+					<span class="which">
+						<span class="lang-name">{r.name}</span>
+						{#if r.audio}<button
+								type="button"
+								class="say"
+								class:on={playing === r.code}
+								aria-label="Hear {r.word} in {r.name}"
+								on:click={() => say(r)}
+								><UiIcon name="volume" size={16} strokeWidth={2.25} /></button
+							>{/if}
+					</span>
+				</li>
+			{/each}
+		</ul>
+	{/if}
 
 	{#if featured.length}
 		<p class="note quick">
@@ -386,6 +475,61 @@
 		font-family: var(--font--title);
 		font-weight: 800;
 		overflow-wrap: anywhere;
+	}
+
+	// The word in six writing systems, big enough to see the shapes: three
+	// across on a wide screen, two on a phone. Tiles take the ground with a
+	// hairline, like every other surface on the page.
+	.showcase {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 12px;
+		margin: 0 0 var(--space-lg);
+		padding: 0;
+		list-style: none;
+
+		@include for-phone-only {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		li {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: var(--space-sm);
+			min-height: 112px;
+			margin: 0;
+			padding: 16px 16px 12px;
+			border: 1px solid var(--color--border);
+			border-radius: var(--radius-lg);
+		}
+	}
+
+	.big {
+		font-family: var(--font--title);
+		font-weight: 800;
+		font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2.125rem);
+		line-height: 1.15;
+		overflow-wrap: anywhere;
+		// A right-to-left word keeps its direction but sits on the same edge
+		// as the others, so the grid reads as one set.
+		text-align: left;
+	}
+
+	.which {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+		min-height: 32px;
+	}
+
+	.lang-name {
+		font-size: 0.6875rem;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: var(--color--text-quiet);
 	}
 
 	.say {

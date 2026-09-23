@@ -9,6 +9,8 @@
 	import { COMPETITORS, type Competitor } from '$lib/data/competitors';
 	import StatRow from '$lib/components/blog/StatRow.svelte';
 	import AppDemo from '$lib/components/blog/AppDemo.svelte';
+	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
+	import ChatScreen from '$lib/components/phone/ChatScreen.svelte';
 	import type { BlogPost } from '$lib/utils/types';
 
 	export let data: { posts: BlogPost[] };
@@ -119,11 +121,21 @@
 <JsonLd data={ld} />
 
 <div class="container">
-	<PageHeader
-		eyebrow="Compare"
-		{title}
-		lede="LangX is an open source alternative to Tandem, HelloTalk and the other language exchange apps, and the social alternative to Duolingo: the conversation, with real people, that course apps leave out. Here is how it compares to each — including where they are the better choice."
-	/>
+	<!-- The page opened on a wall of type. The phone beside it plays the one
+	     thing every comparison below comes back to: a correction, inside a
+	     conversation with a real person. -->
+	<div class="hero">
+		<PageHeader
+			eyebrow="Compare"
+			{title}
+			lede="LangX is an open source alternative to Tandem, HelloTalk and the other language exchange apps, and the social alternative to Duolingo: the conversation, with real people, that course apps leave out. Here is how it compares to each — including where they are the better choice."
+		/>
+		<div class="hero-phone">
+			<PhoneFrame label="A LangX chat: two messages arrive, then a correction">
+				<ChatScreen loop />
+			</PhoneFrame>
+		</div>
+	</div>
 
 	<StatRow stats={headline} />
 
@@ -269,6 +281,30 @@
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
 
+	// Copy on the left, the phone on the right, as in the homepage hero; below
+	// tablet landscape the phone steps aside and the numbers come up sooner —
+	// the Discover demo further down still shows the app on a phone.
+	.hero {
+		display: grid;
+		grid-template-columns: 1fr;
+		align-items: center;
+		gap: var(--space-xl);
+
+		@include for-tablet-landscape-up {
+			grid-template-columns: 1fr auto;
+		}
+	}
+
+	.hero-phone {
+		display: none;
+		--phone-zoom: 0.62;
+
+		@include for-tablet-landscape-up {
+			display: block;
+			padding: var(--space-lg) 0;
+		}
+	}
+
 	.block {
 		border-top: 1px solid var(--color--border);
 		padding: var(--space-xl) 0;
@@ -329,7 +365,7 @@
 
 		thead th {
 			font-size: 0.8125rem;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			font-weight: 700;
 		}
 
@@ -382,7 +418,7 @@
 			margin: 4px 0 12px;
 			font-size: 0.8125rem;
 			line-height: 1.4;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 		}
 
 		ul {
@@ -421,7 +457,7 @@
 			margin-top: 2px;
 			font-size: 0.75rem;
 			font-weight: 400;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			white-space: normal;
 			max-width: 22ch;
 		}
@@ -448,13 +484,15 @@
 			flex: 0 0 auto;
 		}
 
+		// Blue checks, as in the plan rows and the posts' tables: green is kept
+		// for corrections.
 		&.yes {
 			color: var(--color--text);
 
 			&::before {
 				content: '✓';
-				background: var(--color--success-tint);
-				color: var(--color--success);
+				background: var(--color--accent-tint);
+				color: var(--color--accent);
 			}
 		}
 
@@ -468,13 +506,15 @@
 			}
 		}
 
+		// Text Quiet, not Tertiary: tertiary is the phone replicas' grey and
+		// too faint for page copy.
 		&.no {
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 
 			&::before {
 				content: '✕';
 				background: var(--color--muted);
-				color: var(--color--text-tertiary);
+				color: var(--color--text-quiet);
 			}
 		}
 	}
@@ -483,7 +523,7 @@
 		display: block;
 		font-size: 0.75rem;
 		font-weight: 600;
-		color: var(--color--text-tertiary);
+		color: var(--color--text-quiet);
 	}
 
 	.rows {

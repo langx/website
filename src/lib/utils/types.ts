@@ -32,6 +32,10 @@ export type BlogPost = {
 	html: string | undefined;
 	readingTime: string;
 	relatedPosts: BlogPost[];
+	/** The post's H2s, for the table of contents; read from the rendered HTML. */
+	headings?: { id: string; text: string }[];
+	/** Apps from `COMPETITORS` the post is about, title first; drives the art above it. */
+	apps?: string[];
 	coverImage: string | undefined;
 	/** Square image for post lists, drawn by scripts/og/posts.mjs. */
 	thumbnail?: string;
