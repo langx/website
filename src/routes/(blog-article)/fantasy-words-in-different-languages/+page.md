@@ -2,7 +2,7 @@
 slug: fantasy-words-in-different-languages
 title: 'Princess, Prince, Sword: Fantasy Words in 40+ Languages'
 date: 2026-09-23T15:10:00.000Z
-excerpt: 'Princess, prince, sword, monster, witch, ghost and more fantasy words in different languages, from real usage data, with the mix-ups to watch for.'
+excerpt: 'Princess, prince, sword, magic, monster, hero and more fantasy words in different languages, from real usage data, with the mix-ups to watch for.'
 coverImage: /images/posts/fantasy-words-in-different-languages.png
 author:
   name: xuelink
@@ -16,7 +16,9 @@ keywords:
   - princess in other languages
   - prince in different languages
   - sword in different languages
+  - magic in different languages
   - monster in different languages
+  - hero in different languages
 ---
 
 <script>
@@ -26,14 +28,14 @@ keywords:
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
-Princess is *princesa* in Spanish, πριγκίπισσα in Greek, 公主 in Chinese and *putri* in Indonesian. Prince is *príncipe* in Spanish, 王子 in Chinese and شاهزاده in Persian, and sword is *espada* in Spanish, *Schwert* in German and तलवार in Hindi. Below are 10 fantasy words, from princess and king to ghost and devil, in more than 40 languages and 14 scripts.
+Princess is *princesa* in Spanish, πριγκίπισσα in Greek, 公主 in Chinese and *putri* in Indonesian. Prince is *príncipe* in Spanish, 王子 in Chinese and شاهزاده in Persian, and sword is *espada* in Spanish, *Schwert* in German and तलवार in Hindi. Below are 12 fantasy words, from princess and king to ghost and devil, in more than 40 languages and 14 scripts.
 
 Every word comes from real usage data, not a phrasebook, and each section links to the full list on our free [Say it in any language](/tools/say) tool.
 
 <KeyTakeaways items={[
-  "10 fantasy words from film and TV subtitle frequency lists (OpenSubtitles 2018), matched to English through Wiktionary.",
-  "Queen has the most rows (50); monster and witch have the fewest (33).",
-  "Chinese has the most common real match for monster and angel, and Georgian for king and queen.",
+  "12 fantasy words from film and TV subtitle frequency lists (OpenSubtitles 2018), matched to English through Wiktionary.",
+  "Queen has the most rows (50) and magic the fewest (32).",
+  "Chinese has the most common real match for hero, monster and angel, and Georgian for king and queen.",
   "Some rows are false matches, like Spanish mala (bad) and Swedish katt (cat) on the devil page, so we left them out.",
   "Devil words rank high in the Nordic and Baltic languages because people swear with them."
 ]} />
@@ -47,7 +49,7 @@ Two things to know:
 - **Frequency lists count spellings, not meanings.** If a word for "sword" is spelled like an everyday verb, it ranks high for the wrong reason. We only print rows whose meaning matches, and we say where a row on the full page means something else.
 - **The lists are lowercase.** We capitalize German nouns (*Prinzessin*, *Schwert*) the way you'd see them in a sentence.
 
-Fantasy films and series are a big part of any subtitle collection, which is why words like sword and witch turn up in more than 30 languages each. Magic and hero have their own sections in our [powerful words in different languages](/beautiful-words-in-different-languages) post, next to soul, destiny and freedom.
+Fantasy films and series are a big part of any subtitle collection, which is why words like sword and witch turn up in more than 30 languages each.
 
 ## Princess in different languages
 
@@ -184,6 +186,47 @@ The German row on the full page is *miss*, glossed "title for a beauty queen", a
 
 [See "queen" in all 50 languages →](/tools/say/queen)
 
+## Magic in different languages
+
+<WordTiles
+  english="magic"
+  href="/tools/say/magic"
+  words={[
+    { language: "Spanish", word: "magia", code: "es" },
+    { language: "Greek", word: "μαγεία", code: "el" },
+    { language: "Hebrew", word: "קסם", code: "he" },
+    { language: "Urdu", word: "جادو", code: "ur" },
+    { language: "Hindi", word: "जादू", code: "hi" },
+    { language: "Chinese", word: "魔法", code: "zh" },
+    { language: "Korean", word: "마법", code: "ko" },
+    { language: "Tagalog", word: "salamangka", code: "tl" }
+  ]}
+/>
+
+| Language | Word |
+| --- | --- |
+| Spanish | magia |
+| French | magie |
+| German | Magie |
+| Greek | μαγεία |
+| Icelandic | töfrar |
+| Hebrew | קסם |
+| Persian | جادو |
+| Urdu | جادو |
+| Hindi | जादू |
+| Bengali | জাদু |
+| Chinese | 魔法 |
+| Korean | 마법 |
+| Turkish | büyü |
+| Indonesian | sihir |
+| Tagalog | salamangka |
+
+Magic has the fewest languages of the 12, at 32. It is most common in Urdu, where جادو ranks #264. Persian writes it the same way, and Hindi जादू and Bengali জাদু are the same word in other scripts. Chinese 魔法 and Korean 마법 are one word too. Several rows are glossed "magic, sorcery, witchcraft", because many languages don't separate stage magic from the spell-casting kind.
+
+Turkish *büyü* is the word for a spell, but it is also spelled like "grow up!", which may push its rank up. The Malayalam row, മായ, is glossed "maya" first (illusion), and the Telugu row is a verb, "to charm", so we left both out. Our [powerful words post](/beautiful-words-in-different-languages) has magic next to soul, destiny and freedom.
+
+[See "magic" in all 32 languages →](/tools/say/magic)
+
 ## Sword in different languages
 
 <WordTiles
@@ -269,6 +312,48 @@ Tagalog *halimaw* (#676) is glossed "beast; monster; ferocious animal", so it is
 
 [See "monster" in all 33 languages →](/tools/say/monster)
 
+## Hero in different languages
+
+<WordTiles
+  english="hero"
+  href="/tools/say/hero"
+  words={[
+    { language: "Greek", word: "ήρωας", code: "el" },
+    { language: "Czech", word: "hrdina", code: "cs" },
+    { language: "Arabic", word: "بطل", code: "ar" },
+    { language: "Persian", word: "قهرمان", code: "fa" },
+    { language: "Chinese", word: "英雄", code: "zh" },
+    { language: "Korean", word: "영웅", code: "ko" },
+    { language: "Indonesian", word: "pahlawan", code: "id" },
+    { language: "Tagalog", word: "bayani", code: "tl" }
+  ]}
+/>
+
+| Language | Word |
+| --- | --- |
+| Spanish | héroe |
+| French | héros |
+| Italian | eroe |
+| German | Held |
+| Swedish | hjälte |
+| Czech | hrdina |
+| Russian | герой |
+| Greek | ήρωας |
+| Arabic | بطل |
+| Persian | قهرمان |
+| Turkish | kahraman |
+| Hindi | नायक |
+| Chinese | 英雄 |
+| Korean | 영웅 |
+| Indonesian | pahlawan |
+| Tagalog | bayani |
+
+Chinese 英雄 (#353) is the most common, and Korean 영웅 is the same word. English "hero" comes from Greek ήρωας, and so do *héroe*, *eroe* and *герой*. Turkish *kahraman* is borrowed from Persian قهرمان, which also means "champion". Hindi नायक and Tamil நாயகன் (#482) are the hero of a story, the leading man; Slovenian *junak* (#574) is the next most common after the Tamil. Dutch and German share *held* (*Held* in German).
+
+We left out the Urdu row, which we couldn't confirm, and the Polish one is an inflected form.
+
+[See "hero" in all 42 languages →](/tools/say/hero)
+
 ## Witch in different languages
 
 | Language | Word |
@@ -290,7 +375,7 @@ Tagalog *halimaw* (#676) is glossed "beast; monster; ferocious animal", so it is
 | Korean | 마녀 |
 | Esperanto | sorĉistino |
 
-Esperanto *sorĉistino* (#575) is the most common, then Slovenian *čarovnica* (#789). The Esperanto ending *-ino* makes a word female, the same ending you see in *princino* (princess) and *reĝino* (queen). Greek μάγισσα comes from the same root as the English word "magic". Lithuanian and Latvian share *ragana*, and Arabic ساحرة and Persian ساحره are one word. Chinese 女巫 and Korean 마녀 both begin or end with "woman" (女, 녀).
+Esperanto *sorĉistino* (#575) is the most common, then Slovenian *čarovnica* (#789). The Esperanto ending *-ino* makes a word female, the same ending you see in *princino* (princess) and *reĝino* (queen). Greek μάγισσα comes from the same root as μαγεία (magic). Lithuanian and Latvian share *ragana*, and Arabic ساحرة and Persian ساحره are one word. Chinese 女巫 and Korean 마녀 both begin or end with "woman" (女, 녀).
 
 Tagalog *bruha*, from Spanish *bruja*, is glossed "hag; witch", and the Albanian row is a specific folk creature, a vampiric witch, so we left both out.
 
@@ -425,9 +510,9 @@ Spanish *príncipe*, French *prince*, German *Prinz*, Polish *książę*, Armeni
 
 Spanish *espada*, French *épée*, Italian *spada*, German *Schwert*, Greek σπαθί, Arabic سيف, Hindi तलवार, Turkish *kılıç* and Vietnamese *kiếm*. The [sword page](/tools/say/sword) has 41 languages.
 
-### How do you say "monster" in other languages?
+### How do you say "magic" and "monster" in other languages?
 
-Spanish *monstruo*, French *monstre*, German *Monster*, Greek τέρας, Croatian *čudovište*, Turkish *canavar*, Chinese 怪物 and Korean 괴물. The [monster page](/tools/say/monster) has 33 languages.
+Magic is *magia* in Spanish, μαγεία in Greek, جادو in Urdu and Persian, and 魔法 in Chinese. Monster is *monstruo* in Spanish, *Monster* in German, *canavar* in Turkish and 怪物 in Chinese. See the [magic](/tools/say/magic) and [monster](/tools/say/monster) pages for every language.
 
 ### Why do some pages list a strange word as the most common?
 
