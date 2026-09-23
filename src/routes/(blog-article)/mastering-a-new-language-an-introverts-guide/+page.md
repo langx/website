@@ -19,11 +19,20 @@ tags:
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 ## Mastering a New Language - An Introvert's Guide
 
 Learning a language as an introvert can be challenging, mainly due to the fact that one of the best methods for language acquisition is to interact with natives and those who are fluent in the language. However, due to that not being an option for some, in this article, we will be talking about how you can learn a language, without even leaving the house.
+
+<KeyTakeaways items={[
+  "Courses and apps give you structure and track progress at your own pace, at home.",
+  "Spaced-repetition tools like Anki and Memrise build vocabulary through solo study.",
+  "Language exchange apps let you practise with speakers by text and voice message, from behind a profile and without judgement.",
+  "Films, books, music, podcasts and writing in the language fill in the rest."
+]} />
 
 ## Online Language Courses and Apps
 
@@ -52,6 +61,12 @@ When it comes to languages, interacting with natives or people who speak the lan
 - [HelloTalk](https://hellotalk.com/)
 
 In this section, I'll talk mainly about [LangX](https://langx.io/) due to me being more familiar with it, however both are great examples of language exchange apps. With [LangX](https://langx.io/), you are able to send messages to other users, as well as voice messages. This gives you the opportunity to practice both your verbal and writing skills in your target language. The best thing is, of course, the ability to hide behind a profile, meaning no judgement. Due to these reasons, language exchange apps are truly the way to go.
+
+<AppDemo
+  screen="chat"
+  title="Speaking practice at your own pace"
+  text="A LangX chat: text and voice messages with someone who speaks the language you are learning, and you reply when you are ready. Your partner can hold any message to correct it."
+/>
 
 ## Watching Movies and TV Shows
 

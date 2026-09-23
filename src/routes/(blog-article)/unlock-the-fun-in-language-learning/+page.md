@@ -12,52 +12,31 @@ tags:
   - Fun With Languages
 ---
 
-
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+</script>
 
 Learning a new language can sometimes feel like navigating through a dense forest without a map. But fear not, intrepid language learners! We're here to sprinkle a bit of fun into your language learning journey. After all, who said mastering a new language has to be dull and dreary? Let's turn that frown into a smiley emoji as we explore some delightful ways to boost your language skills!
 
-## 1. **Emoji Extravaganza** 🎉🤔
+<KeyTakeaways items={[
+  "Language learning does not have to be dull: games, music and humour work too.",
+  "Emoji stories, karaoke and songs train memory, pronunciation and vocabulary.",
+  "Memes teach colloquial expressions and cultural quirks.",
+  "Turn flashcards into a game, and enjoy the journey."
+]} />
 
-Why not make use of those cute little emojis to enhance your vocabulary? Challenge yourself to describe your day or a recent event using only emojis. Not only does this exercise improve your visual memory, but it also adds a playful twist to your language learning routine. Plus, who doesn't love an excuse to use the dancing salsa lady emoji? 💃💬
+## 5 fun ways to learn a language
 
-### 🌈 Emoji Story Challenge
-
-Describe your weekend plans using only emojis! Here's mine:
-
-🍔🎥👫🎉🌇
-
-
-## 2. **Karaoke Catastrophe** 🎤🌐
-
-Grab your hairbrush microphone and get ready to belt out some tunes – in your target language, of course! Karaoke is not only a fantastic way to practice pronunciation but also a guaranteed mood lifter. Don't worry if you're a bit off-key; the goal is to have fun while learning. Bonus points if you can rap in your chosen language – Eminem, watch out!
-
-### 🎤 Karaoke Night
-
-Share a video of your karaoke performance in your target language! Bonus points for creativity and enthusiasm. 🌟
-
-## 3. **Meme Magic** 😂📸
-
-They say laughter is the best medicine, but did you know it's also an excellent language learning tool? Create or find memes in your target language that tickle your funny bone. Memes often encapsulate cultural nuances and language quirks, making them a sneaky way to absorb colloquial expressions. Remember, a meme a day keeps the language blues away!
-
-### 😆 Meme Monday
-
-Share the funniest meme you've found or created in your target language! Let's spread the laughter and language love. 🤣
-
-## 4. **Flashcard Fiesta** 🃏🎉
-
-Flashcards are a classic, but let's spice things up a bit. Add a twist to your usual flashcard routine by turning it into a game. Create a stack of flashcards with words or phrases on one side and a related action on the other. Every time you get a card right, perform the action. Soon enough, you'll be mastering language and dance moves simultaneously!
-
-### 🃏 Flashcard Fiesta Challenge
-
-Create a set of flashcards with actions and share a video of you acing the challenge! Get ready to dance, sing, and maybe even do the moonwalk. 🕺🌟
-
-## 5. **Travel Through Tunes** 🎵🌏
-
-Music transcends language barriers, so why not use it to your advantage? Explore songs in your target language, learn the lyrics, and sing along. It's a fantastic way to improve your pronunciation, expand your vocabulary, and connect with the culture. Plus, you'll have a catchy tune stuck in your head for the rest of the day – a small price to pay for language mastery!
-
-### 🎧 Tune Traveler
-
-Share your favorite song in your target language and tell us why you love it! Bonus points if you share a snippet of you singing along. 🎤🌟
+<Steps
+  steps={[
+    { title: "Emoji Extravaganza 🎉🤔", text: "Describe your day or a recent event using only emojis. It improves your visual memory and adds a playful twist to your routine (and an excuse to use the dancing salsa lady emoji 💃💬). Emoji Story Challenge: describe your weekend plans using only emojis! Here's mine: 🍔🎥👫🎉🌇" },
+    { title: "Karaoke Catastrophe 🎤🌐", text: "Grab your hairbrush microphone and sing in your target language. Karaoke is a fantastic way to practise pronunciation and a guaranteed mood lifter; don't worry if you're off-key, the goal is fun. Bonus points if you can rap in your chosen language – Eminem, watch out! Karaoke Night: share a video of your performance! Bonus points for creativity and enthusiasm. 🌟" },
+    { title: "Meme Magic 😂📸", text: "Create or find memes in your target language that tickle your funny bone. Memes capture cultural nuances and language quirks, a sneaky way to absorb colloquial expressions. A meme a day keeps the language blues away! Meme Monday: share the funniest meme you've found or created in your target language. 🤣" },
+    { title: "Flashcard Fiesta 🃏🎉", text: "Turn flashcards into a game: put a word or phrase on one side and a related action on the other, and perform the action every time you get a card right. Soon you'll be mastering language and dance moves at once! Flashcard Fiesta Challenge: share a video of you acing your action cards. Get ready to dance, sing, and maybe even moonwalk. 🕺🌟" },
+    { title: "Travel Through Tunes 🎵🌏", text: "Music transcends language barriers. Explore songs in your target language, learn the lyrics and sing along to improve your pronunciation, expand your vocabulary and connect with the culture, with a catchy tune stuck in your head as a bonus. Tune Traveler: share your favorite song in your target language and tell us why you love it! Bonus points for a snippet of you singing along. 🎤🌟" }
+  ]}
+/>
 
 ## **Conclusion**
 

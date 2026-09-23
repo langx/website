@@ -18,80 +18,51 @@ tags:
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 ## **Top 10 Tips for Learning a New Language Quickly**
 
 Learning a new language can be both exciting and challenging. Whether you're preparing for a trip abroad, enhancing your career prospects, or simply satisfying a personal goal, mastering a new language quickly is achievable with the right strategies. Here are the top 10 tips to accelerate your language learning journey!
 
-## **1. Immerse Yourself**
+<KeyTakeaways items={[
+  "Immerse yourself in the language and its culture, and start speaking early.",
+  "Learn high-frequency words first and review them with flashcards and spaced repetition.",
+  "Set SMART goals, track your progress and choose active learning over passive.",
+  "Consistency and patience matter more than any single trick."
+]} />
 
-When it comes to learning a language, one of the best ways to do so is to immerse yourself in it. Watch movies, listen to music, or follow the news. This will help improve your listening skills, as well as helping you improve your knowledge of how the language really sounds. In addition, this will help you learn slang, common phrases, and how people who speak the language actually talk.
+## The 10 tips
 
-## **2. Practice Speaking Regularly**
+<Steps
+  steps={[
+    { title: "Immerse yourself", text: "Watch movies, listen to music, or follow the news. It improves your listening and your sense of how the language really sounds, and teaches you slang, common phrases and how people actually talk." },
+    { title: "Practice speaking regularly", text: "Knowing the words is very different from putting them together and saying them out loud. The fix is practice: use an app to practise speaking and messaging in the language you're learning." },
+    { title: "Focus on high-frequency words", text: "Start with the words most commonly used in conversation. They give you a solid foundation to understand and communicate basic ideas quickly; after that, move on to more specific, less common words." },
+    { title: "Use flashcards and spaced repetition (SRS)", text: "Flashcards and spaced repetition systems are one of the easiest ways to memorize words and phrases." },
+    { title: "Set realistic goals and track progress", text: "Use SMART goals: Specific, Measurable, Achievable, Relevant and Time-bound. Track your progress regularly and update your goals as needed, so you know where you are and stay motivated." },
+    { title: "Engage in active learning", text: "Active learning, such as taking notes, asking questions and practising out loud, has been proven to be more effective than passive learning like reading or listening without interaction. Given the choice between listening to music and speaking with a native, always choose speaking with a native!" },
+    { title: "Learn grammar in context", text: "Instead of just memorizing rules, learn grammar through sentences and examples, so you see how it is used naturally in your target language." },
+    { title: "Use language learning apps and resources", text: "Plenty of apps and online resources can support your learning; some are listed below." },
+    { title: "Immerse yourself in the culture", text: "Learning about the culture makes learning more meaningful and fun, and helps you understand cultural references and idiomatic expressions." },
+    { title: "Consistency and patience", text: "These are the two most important things. Even without all the other tips, if you stay patient and consistent, you will make progress." }
+  ]}
+/>
 
-When the time comes to speaking in a language that you're learning, you may be surprised how different it is to know the words compared to being able to put them together, and speak them out loud. The best way to solve this? Practice! Use apps like [LangX](https://langx.io/) to practice speaking and messaging in the language(s) you're learning.
+### Apps and resources mentioned
 
-## **3. Focus on High Frequency Words**
+- Speaking and messaging practice: [LangX](https://langx.io/)
+- Flashcards and SRS: [Anki](https://apps.ankiweb.net/) and [Quizlet](https://quizlet.com/en)
+- Language learning apps: [Duolingo](https://www.duolingo.com/) (and [Duolingo alternatives that get you speaking](/duolingo-alternatives-for-speaking)), [LangX](https://langx.io/) and [Babbel](https://babbel.com/)
+- Online resources: [Youtube](https://www.youtube.com/) (for videos in your target language) and [Spotify](https://spotify.com/) (for podcasts and music)
 
-If you're learning a language, the best thing to focus on is high frequency words (words that are commonly used in conversations). This will help you build up a solid foundation, allowing you to understand and communicate basic ideas quickly!
-After learning these high frequency words, you can then focus on more specific and less commonly used words, further expanding your knowledge.
-
-## **4. Use Flashcards and Spaced Repetition Systems (SRS)**
-
-One of the easiest ways to help memorize words and phrases is to utilize flashcards and spaced repetition systems, or SRS. Tools like [Anki](https://apps.ankiweb.net/) and [Quizlet](https://quizlet.com/en) can help you with this.
-
-## **5. Set Realistic Goals and Track Progress**
-
-When learning, set yourself realistic goals, so you know where you want to be. To help you set these goals, you can use the acronym SMART, which stands for: 
-
-- Specific 
-- Measurable
-- Achievable
-- Relevant
-- Time-bound 
-
-In addition to setting goals, regularly track your progress, as well as update your goals as needed. This will help you keep up with where you are on your journey, as well as help keep you motivated.
-
-## **6. Engage in Active Learning**
-
-When learning, engage in active learning, which has been proven to be more effective than passive learning. Active learning includes but is not limited to:
-
-- Taking notes
-- Asking questions
-- Practicing out loud.
-
-While passive learning can include:
-
-- Reading
-- Listening without interaction
-
-That's why, when you have the choice to either listen to music, or speak with a native, you should always choose speaking with a native!
-
-## **7. Learn Grammar in Context**
-
-When it comes to learning grammar, instead of just memorizing grammar rules, learn them through sentences and examples, which will help you learn how grammar is used naturally in your target language.
-
-## **8. Use Language Learning Apps or Resources**
-
-To aid you in your language learning journey, there are many apps and resources out there to help you. Some of these apps include:
-
-- [Duolingo](https://www.duolingo.com/) (and [Duolingo alternatives that get you speaking](/duolingo-alternatives-for-speaking))
-- [LangX](https://langx.io/)
-- [Babbel](https://babbel.com/)
-
-While some good online resources can be found on:
-
-- [Youtube](https://www.youtube.com/) (For Videos in Your Target Language)
-- [Spotify](https://spotify.com/) (For Podcasts and Music)
-
-## **9. Immerse Yourself in the Culture**
-
-Learning about the culture associated with a language can make your learning experience more meaningful and fun. It can also help make understanding cultural references and idiomatic expressions, further helping you learn the ins and outs of the language.
-
-## **10. Consistency and Patience**
-
-The two most important things when it comes to learning any language, is consistency and patience. Without it, you truly cannot learn a langauge. Even without all these other tips and tricks, if you remain patient, and you stay consistent, I promise that you will make progress in your language learning journey.
+<AppDemo
+  screen="chat"
+  title="Tips 2 and 6: speak with a native"
+  text="On LangX you message and send voice messages to people who speak the language you are learning. Your partner can hold any message to correct it."
+/>
 
 ## **Conclusion**
 

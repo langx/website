@@ -19,15 +19,24 @@ tags:
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 The Crucial Importance of Language Practice: Why Consistent Practice is Key to Language Learning Success ?
 
-Language learning is a journey that requires dedication, perseverance, and consistent practice. Whether you're learning a new language for travel, work, or personal enrichment, the importance of practicing cannot be overstated.
-
 <Callout type="info">
 In this blog post, we'll explore why practicing a language is so important and how it can significantly impact your language learning success.
 </Callout>
+
+Language learning is a journey that requires dedication, perseverance, and consistent practice. Whether you're learning a new language for travel, work, or personal enrichment, the importance of practicing cannot be overstated.
+
+<KeyTakeaways items={[
+  "Regular practice helps you retain and recall vocabulary, grammar and structures.",
+  "Speaking, listening and interacting often builds fluency, confidence and accuracy.",
+  "Practising with native speakers deepens your understanding of the culture.",
+  "Seeing your own progress keeps you motivated to continue."
+]} />
 
 ## Retention and Recall
 
@@ -48,6 +57,12 @@ With each practice session, you'll become more proficient in the language and cl
 ## Cultural Understanding
 
 Language practice goes beyond just learning words and grammar – it also provides insights into the culture and customs of the target language. Through practice with native speakers, you gain exposure to different accents, expressions, and cultural nuances, which deepens your understanding of the language and its speakers.
+
+<AppDemo
+  screen="chat"
+  title="Practice with a native speaker"
+  text="On LangX you chat with people who speak the language you are learning, by text and voice message. Your partner can hold any message to correct it."
+/>
 
 ## Real-World Application
 

@@ -19,6 +19,9 @@ tags:
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 In today's era of globalization, learning languages has become more crucial than ever before. Language is not just a tool for communication; it also carries the essence and traditions of cultures.
@@ -26,6 +29,13 @@ In today's era of globalization, learning languages has become more crucial than
 By learning different languages, we can better understand people from diverse backgrounds and traditions, and broaden our perspectives to facilitate cross-cultural communication and understanding.
 
 This article will explore how learning languages helps us gain deeper insights into cultures from around the world.
+
+<KeyTakeaways items={[
+  "Every language carries the values, traditions, history and way of life of its culture.",
+  "Learning one broadens your perspective and reduces cross-cultural misunderstandings.",
+  "It also sharpens thinking and problem-solving, which helps personally and professionally.",
+  "The challenges are real, but varied practice, perseverance and real conversations get you past them."
+]} />
 
 ## The Close Connection Between Language and Culture
 
@@ -37,11 +47,15 @@ Therefore, by learning different languages, we can better understand and appreci
 
 ## The Importance of Language Learning
 
-Language learning brings numerous benefits. Firstly, it opens up broader perspectives, enabling us to gain deeper insights into different cultures and peoples.
+Language learning brings numerous benefits:
 
-Secondly, it fosters cross-cultural communication and understanding, helping to reduce misunderstandings and conflicts.
-
-Additionally, language learning enhances personal cognitive abilities and promotes diverse thinking, improving problem-solving skills, and contributing to personal and professional development.
+<Steps
+  steps={[
+    { title: "Broader perspectives", text: "It opens up broader perspectives, enabling us to gain deeper insights into different cultures and peoples." },
+    { title: "Cross-cultural understanding", text: "It fosters cross-cultural communication and understanding, helping to reduce misunderstandings and conflicts." },
+    { title: "Sharper thinking", text: "It enhances personal cognitive abilities and promotes diverse thinking, improving problem-solving skills and contributing to personal and professional development." }
+  ]}
+/>
 
 ## Understanding Cultures Around the World Through Language Learning
 
@@ -54,6 +68,12 @@ Through cultural experiences intertwined with language learning, we can apprecia
 While language learning offers numerous benefits, it also comes with its challenges. For instance, learning a new language may require a significant investment of time and effort, and individuals may encounter language barriers and comprehension difficulties.
 
 However, these challenges are not insurmountable. By adopting diverse learning methods, including listening, speaking, reading, and writing, maintaining perseverance in learning, and actively seeking opportunities for communication and language practice, we can overcome these challenges and achieve success.
+
+<AppDemo
+  screen="chat"
+  title="Practise with the people whose culture you are learning about"
+  text="On LangX you are matched with people who speak the language you are learning and are learning yours. Your partner can hold any message to correct it."
+/>
 
 ## Conclusion
 
