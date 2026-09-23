@@ -59,6 +59,7 @@
 				{ label: 'Find a partner', href: '/how-to-find-a-language-exchange-partner' },
 				{ label: 'Conversation topics', href: '/language-exchange-conversation-topics' },
 				{ label: 'Duolingo alternatives', href: '/duolingo-alternatives-for-speaking' },
+				{ label: 'Social language apps', href: '/social-language-learning-apps' },
 				{
 					label: 'Easiest languages to learn',
 					href: '/easiest-languages-to-learn-for-english-speakers'
@@ -71,6 +72,8 @@
 				{ label: 'All comparisons', href: '/compare' },
 				{ label: 'LangX vs Tandem', href: '/open-source-alternative-to-tandem' },
 				{ label: 'LangX vs HelloTalk', href: '/open-source-alternative-to-hellotalk' },
+				{ label: 'Social alternative to Duolingo', href: '/social-alternative-to-duolingo' },
+				{ label: 'LangX vs Duolingo', href: '/open-source-alternative-to-duolingo' },
 				{ label: 'Speaky alternative', href: '/open-source-alternative-to-speaky' },
 				{ label: 'Tandem vs HelloTalk', href: '/tandem-vs-hellotalk' }
 			]

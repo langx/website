@@ -1,7 +1,7 @@
 ---
 slug: how-to-find-a-language-exchange-partner
 title: 'How to Find a Language Exchange Partner Online (and Keep One)'
-date: 2026-09-23T09:00:00.000Z
+date: 2026-09-23T03:00:00.000Z
 excerpt: 'Where to find a language exchange partner online and nearby, a profile and first-message template that get replies, red flags, and how to keep a partner.'
 coverImage: /images/posts/how-to-find-a-language-exchange-partner.png
 author:

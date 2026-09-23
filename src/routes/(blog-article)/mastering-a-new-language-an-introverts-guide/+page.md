@@ -29,7 +29,7 @@ Learning a language as an introvert can be challenging, mainly due to the fact t
 
 When it comes to learning a language, online language courses and apps nowadays are really popular, and for good reason. Not only do they help you learn a language in a structured and organized way, however they also aid in tracking progress, as well as it being self paced and available to do in a comfortable environment of your choice! (Like your home for example.) Some good examples of online courses and apps for language acquisition are the following:
 
-- [Duolingo](https://duolingo.com/)
+- [Duolingo](https://duolingo.com/) (see how it compares: [LangX vs Duolingo](/open-source-alternative-to-duolingo))
 - [Babbel](https://babbel.com/)
 - [Rosetta Stone](https://rosettastone.com/)
 

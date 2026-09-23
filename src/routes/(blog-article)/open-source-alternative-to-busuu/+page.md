@@ -1,7 +1,7 @@
 ---
 slug: open-source-alternative-to-busuu
 title: 'Open Source Alternative to Busuu: LangX vs Busuu (2026)'
-date: 2026-09-23T10:40:00.000Z
+date: 2026-09-23T04:40:00.000Z
 excerpt: 'Want an open source alternative to Busuu for talking with native speakers? LangX vs Busuu compared honestly, plus when to use the two together.'
 coverImage: /images/posts/open-source-alternative-to-busuu.png
 author:
@@ -120,7 +120,7 @@ If you are looking at apps like Busuu for the speaking and feedback side, these 
 - **italki.** Paid one-to-one lessons with teachers and tutors, plus a free community for writing corrections. See [open source alternative to italki](/open-source-alternative-to-italki).
 - **Lingbe.** Instant live voice calls with native speakers. See [open source alternative to Lingbe](/open-source-alternative-to-lingbe).
 
-If what you want is another course app, our [Duolingo alternatives for speaking](/duolingo-alternatives-for-speaking) post covers the wider landscape.
+If what you want is another course app, our [Duolingo alternatives for speaking](/duolingo-alternatives-for-speaking) post covers the wider landscape, and [LangX vs Duolingo](/open-source-alternative-to-duolingo) is the closest comparison to this one.
 
 ## Free tools to go with any course
 

@@ -8,6 +8,9 @@ import { filteredPosts } from '$lib/data/blog-posts';
 const isComparison = (slug: string) =>
 	slug.startsWith('open-source-alternative-to-') ||
 	slug.endsWith('-vs-hellotalk') ||
+	slug.endsWith('-vs-language-exchange') ||
+	slug === 'duolingo-alternatives-for-speaking' ||
+	slug.startsWith('social-') ||
 	slug === 'best-language-exchange-apps';
 
 export async function load() {
@@ -16,7 +19,11 @@ export async function load() {
 	const order = [
 		'best-language-exchange-apps',
 		'open-source-alternative-to-tandem',
-		'open-source-alternative-to-hellotalk'
+		'open-source-alternative-to-hellotalk',
+		'open-source-alternative-to-duolingo',
+		'social-alternative-to-duolingo',
+		'tandem-vs-hellotalk',
+		'duolingo-alternatives-for-speaking'
 	];
 	posts.sort((a, b) => {
 		const ia = order.indexOf(a.slug);

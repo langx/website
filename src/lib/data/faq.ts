@@ -26,6 +26,16 @@ export const faqObjects: FaqObject[] = [
 		content: `You only see people who speak the language you're learning and are learning the language you speak. That way every conversation is useful for both of you, not a favour one person does for the other.`
 	},
 	{
+		id: 9,
+		title: 'Is LangX a social alternative to Duolingo?',
+		content: `Yes — think of it as Duolingo made of real people. Duolingo teaches with lessons and games, but there is no one on it to have a conversation with. On LangX the practice is a conversation with a native speaker who is learning your language, and they can correct you as you go. Plenty of people use both. See <a href="/social-alternative-to-duolingo">the social alternative to Duolingo</a> and the full <a href="/open-source-alternative-to-duolingo">LangX vs Duolingo</a> comparison.`
+	},
+	{
+		id: 10,
+		title: 'How does LangX compare with Tandem and HelloTalk?',
+		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities and live calls. <a href="/compare">Every comparison, side by side</a>.`
+	},
+	{
 		id: 4,
 		title: 'What is LangX Token?',
 		content: `Points you earn by chatting and by correcting other people. You spend them inside the app on a streak freeze or on frames and titles for your profile. They aren't money: you can't buy, sell or trade them, and they never unlock a paid plan. <a href="/tokens">Every rule is on the tokens page</a>, and the longer write-up is at <a href="https://token.langx.io" target="_blank" rel="noopener noreferrer">token.langx.io</a>.`

@@ -5,14 +5,14 @@
 export const siteBaseUrl = 'https://langx.io';
 
 export const description =
-	'Find a language exchange partner who speaks the language you are learning and is learning yours. Chat, corrections and built-in translation on iOS, Android and web.';
+	'The social language app: practice with real native speakers who are learning your language. Like Duolingo, but with people. Free on iOS, Android and web.';
 
 /**
  * The homepage title, and the only page where the brand is not a suffix. It
  * names the category people search for; the old slogan on its own told a
  * results page nothing about what LangX is.
  */
-export const title = 'LangX – Free Language Exchange App | Chat with Native Speakers';
+export const title = 'LangX – Social Language Exchange App | Practice with Real People';
 
 // The social card, cut to the 1200x630 every scraper expects by
 // `scripts/og/render.mjs`. Declaring the size stops X and Slack from guessing
@@ -37,6 +37,8 @@ export const keywords = [
 	'learn a language',
 	'speak with natives',
 	'open source language exchange',
+	'social language app',
+	'duolingo alternative',
 	'blog'
 ];
 

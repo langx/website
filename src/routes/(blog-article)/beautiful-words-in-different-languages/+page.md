@@ -1,7 +1,7 @@
 ---
 slug: beautiful-words-in-different-languages
 title: 'Freedom, Soul, Destiny: Powerful Words in 20+ Languages'
-date: 2026-09-23T10:00:00.000Z
+date: 2026-09-23T04:00:00.000Z
 excerpt: 'Freedom, soul, destiny, love and 16 more powerful words in different languages, taken from real usage data. Ideas for tattoos, names and gifts, checked.'
 coverImage: /images/posts/beautiful-words-in-different-languages.png
 author:

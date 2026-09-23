@@ -1,7 +1,7 @@
 ---
 slug: duolingo-alternatives-for-speaking
 title: 'Duolingo Alternatives That Actually Get You Speaking (2026)'
-date: 2026-09-23T08:30:00.000Z
+date: 2026-09-23T02:30:00.000Z
 excerpt: 'Duolingo builds the habit, but not conversation. The best Duolingo alternatives for speaking in 2026, by goal: exchange apps, tutors, audio and input.'
 coverImage: /images/posts/duolingo-alternatives-for-speaking.png
 author:
@@ -86,7 +86,7 @@ gap." That depends on your goal, your budget and how much structure you want.
 | [italki](https://www.italki.com) | Tutor marketplace | Paid 1:1 lessons, pay per lesson | Professional teachers and community tutors | Yes |
 | [Preply](https://preply.com) | Tutor marketplace | Regular scheduled lessons with one tutor | Tutors | Yes |
 | [Pimsleur](https://www.pimsleur.com) | Audio course | Speaking out loud from day one, hands-free | Recorded prompts | No |
-| [Babbel](https://www.babbel.com) | Structured course | Grammar and practical dialogues, optional live classes | App lessons; live classes in some languages | Optional |
+| [Babbel](https://www.babbel.com) | Structured course | Grammar and practical dialogues | App lessons plus AI speaking practice (Babbel Speak) | Optional |
 | [Busuu](https://www.busuu.com) | Structured course with community | Courses plus written and spoken feedback from natives | Community reviewers | Asynchronous |
 | [Dreaming Spanish](https://www.dreaming.com/spanish) | Comprehensible input (video) | Listening, so speaking comes more naturally later | Nobody, by design | No |
 | [Anki](https://apps.ankiweb.net) | Flashcards (open source) | Keeping vocabulary long term | Nobody | No |
@@ -182,9 +182,10 @@ the feeling of not really understanding the grammar, these two are the closest
 swaps.
 
 - **Babbel** offers lessons built around practical dialogues with clear grammar
-  explanations. It also runs Babbel Live, small live online classes with a
-  teacher, in a handful of languages. The live classes are the part that gets
-  you speaking.
+  explanations, and added Babbel Speak, an AI conversation feature, in 2025.
+  Its live online classes (Babbel Live) stopped taking individual learners in
+  mid-2025 and are now offered through Babbel for Business. We compare it with
+  LangX on [LangX vs Babbel](/open-source-alternative-to-babbel).
 - **Busuu** combines a course with a community feature where native speakers
   review your written and spoken exercises. Busuu, owned by Chegg since 2022,
   has also added AI conversation practice in its mobile apps. It is a good

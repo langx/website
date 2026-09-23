@@ -1,7 +1,7 @@
 ---
 slug: how-to-do-a-language-exchange
 title: 'How to Do a Language Exchange: 12 Rules That Make It Work'
-date: 2026-09-23T10:00:00.000Z
+date: 2026-09-23T04:00:00.000Z
 excerpt: 'How to do a language exchange well: split time 50/50, prepare topics, ask for the right corrections, record new words and keep going. 12 practical rules.'
 coverImage: /images/posts/how-to-do-a-language-exchange.png
 author:

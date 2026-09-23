@@ -1,7 +1,7 @@
 ---
 slug: open-source-alternative-to-speaky
 title: 'Open Source Alternative to Speaky: LangX vs Speaky (2026)'
-date: 2026-09-23T09:00:00.000Z
+date: 2026-09-23T03:00:00.000Z
 excerpt: 'Looking for an open source alternative to Speaky? LangX vs Speaky in 2026: is Speaky still working, how matching, corrections and free plans compare.'
 coverImage: /images/posts/open-source-alternative-to-speaky.png
 author:

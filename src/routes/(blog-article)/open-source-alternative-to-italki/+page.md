@@ -1,7 +1,7 @@
 ---
 slug: open-source-alternative-to-italki
 title: 'Open Source Alternative to italki: LangX vs italki (2026)'
-date: 2026-09-23T10:50:00.000Z
+date: 2026-09-23T04:50:00.000Z
 excerpt: 'Looking for an open source alternative to italki for free practice with native speakers? LangX vs italki compared: peers, tutors, and when to use both.'
 coverImage: /images/posts/open-source-alternative-to-italki.png
 author:

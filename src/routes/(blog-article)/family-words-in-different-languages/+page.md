@@ -1,7 +1,7 @@
 ---
 slug: family-words-in-different-languages
 title: 'Family Words in Different Languages: Mother, Aunt, Husband and More'
-date: 2026-09-23T11:00:00.000Z
+date: 2026-09-23T05:00:00.000Z
 excerpt: 'Mother, father, aunt, uncle, husband, wife and more family words in different languages, from real usage data, including where maternal and paternal differ.'
 coverImage: /images/posts/family-words-in-different-languages.png
 author:

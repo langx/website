@@ -1,7 +1,7 @@
 ---
 slug: best-language-exchange-apps
 title: 'The 9 Best Language Exchange Apps in 2026 (Honest Comparison)'
-date: 2026-09-23T10:00:00.000Z
+date: 2026-09-23T04:00:00.000Z
 excerpt: 'The best language exchange apps in 2026, compared honestly: HelloTalk, Tandem, Speaky, LangX and more. Free vs paid, voice, safety, and who each one suits.'
 coverImage: /images/posts/best-language-exchange-apps.png
 author:
@@ -170,7 +170,9 @@ Compare it in detail: [LangX vs italki](/open-source-alternative-to-italki).
 - **Free vs paid:** InterPals says creating a profile, searching and messaging are free.
 - **Platforms:** iOS, Android and web.
 - **Standout features:** search by location, age, language and interests; a long-established community in many countries.
-- **Drawbacks:** it is not built around learning, so there are no correction or translation tools, and you will need to say clearly that you want a language exchange.
+- **Drawbacks:** it is not built around learning. Its app lists message translation but no correction tool, and you will need to say clearly that you want a language exchange.
+
+Compare it in detail: [LangX vs InterPals](/open-source-alternative-to-interpals).
 
 ## Apps that closed or changed
 

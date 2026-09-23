@@ -76,7 +76,7 @@ When it comes to learning grammar, instead of just memorizing grammar rules, lea
 
 To aid you in your language learning journey, there are many apps and resources out there to help you. Some of these apps include:
 
-- [Duolingo](https://www.duolingo.com/)
+- [Duolingo](https://www.duolingo.com/) (and [Duolingo alternatives that get you speaking](/duolingo-alternatives-for-speaking))
 - [LangX](https://langx.io/)
 - [Babbel](https://babbel.com/)
 

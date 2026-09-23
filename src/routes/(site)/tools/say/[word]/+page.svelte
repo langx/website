@@ -226,6 +226,7 @@
 				<a href="/how-many-words-do-you-need-to-be-fluent">How many words make you fluent?</a>
 			</li>
 			<li><a href="/best-language-exchange-apps">The best language exchange apps</a></li>
+			<li><a href="/social-alternative-to-duolingo">A social alternative to Duolingo</a></li>
 		</ul>
 	</nav>
 

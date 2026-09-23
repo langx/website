@@ -12,9 +12,9 @@
 	export let data: { posts: BlogPost[] };
 	$: ({ posts } = data);
 
-	const title = 'LangX vs Tandem, HelloTalk and Other Language Exchange Apps';
+	const title = 'LangX vs Tandem, HelloTalk, Duolingo and Other Language Apps';
 	const description =
-		'Open source alternative to Tandem, HelloTalk, Speaky and more: honest one-to-one comparisons of LangX and every major language exchange app, updated for 2026.';
+		'Open source alternative to Tandem, HelloTalk, Duolingo and more: honest one-to-one comparisons of LangX with every major language app, updated for 2026.';
 
 	/**
 	 * What LangX is, in the rows every comparison asks about. Each line has to
@@ -66,7 +66,7 @@
 </script>
 
 <Seo
-	title="Open Source Tandem & HelloTalk Alternative: LangX Compared"
+	title="LangX vs Tandem, HelloTalk & Duolingo: Open Source Alternative"
 	path="/compare"
 	{description}
 />
@@ -76,7 +76,7 @@
 	<PageHeader
 		eyebrow="Compare"
 		{title}
-		lede="LangX is an open source alternative to Tandem, HelloTalk and the other language exchange apps. Here is how it compares to each of them — including where they are the better choice."
+		lede="LangX is an open source alternative to Tandem, HelloTalk and the other language exchange apps, and the social alternative to Duolingo: the conversation, with real people, that course apps leave out. Here is how it compares to each — including where they are the better choice."
 	/>
 
 	<section class="block">
@@ -93,7 +93,7 @@
 
 	{#if COMPETITORS.length}
 		<section class="block">
-			<h2>Language exchange apps, side by side</h2>
+			<h2>Language apps, side by side</h2>
 			<div class="scroll">
 				<table>
 					<thead>
