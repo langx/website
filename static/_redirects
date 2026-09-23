@@ -3,9 +3,10 @@
 
 # The Plausible post was deleted when insight.langx.io was retired. The URL was
 # published and linked from outside, so it lands on the blog index instead of a
-# 404. Both forms, since trailingSlash is 'always'.
-/unveiling-our-usage-of-plausible-community-edition   /blog/  301
-/unveiling-our-usage-of-plausible-community-edition/  /blog/  301
+# 404. Both forms, because either may be linked; the target has no slash since
+# Cloudflare serves /blog and 308s /blog/ to it, which would make a second hop.
+/unveiling-our-usage-of-plausible-community-edition   /blog  301
+/unveiling-our-usage-of-plausible-community-edition/  /blog  301
 
 # Demo posts that shipped with the blog template ("Project Structure", "How to
 # Customize this Template", "How Blog Posts Work"). They were indexed, said
