@@ -20,3 +20,5 @@ vite.config.ts.timestamp-*
 
 # Cached Wiktextract lookups for scripts/wordlists (re-downloadable)
 /.cache
+/static/audio/w
+__pycache__/

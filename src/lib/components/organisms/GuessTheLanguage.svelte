@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 	import { reveal } from '$lib/utils/reveal';
@@ -22,12 +23,13 @@
 	/** Words below this rank in their own list — common enough to be gettable. */
 	const MAX_RANK = 40;
 
-	type Round = { word: string; answer: string; options: string[] };
+	/** `rank` in the answer's own list, for its reading; absent, there is no button. */
+	type Round = { word: string; rank?: number; answer: string; options: string[] };
 
 	const FALLBACK: Round[] = [
 		{ word: 'თმა', answer: 'ka', options: ['el', 'hy', 'ka', 'he'] },
-		{ word: 'không', answer: 'vi', options: ['tr', 'vi', 'id', 'is'] },
-		{ word: 'mitä', answer: 'fi', options: ['et', 'hu', 'is', 'fi'] },
+		{ word: 'không', rank: 2, answer: 'vi', options: ['tr', 'vi', 'id', 'is'] },
+		{ word: 'mitä', rank: 7, answer: 'fi', options: ['et', 'hu', 'is', 'fi'] },
 		{ word: 'אני', answer: 'he', options: ['he', 'ar', 'hy', 'ru'] }
 	];
 
@@ -53,7 +55,7 @@
 		const out: Round[] = [];
 		let guard = 0;
 		while (out.length < COUNT && guard++ < 500) {
-			const [word, answer] = pickOne(usable);
+			const [word, answer, rank] = pickOne(usable);
 			if (used.has(answer)) continue;
 			used.add(answer);
 
@@ -66,7 +68,7 @@
 				const j = Math.floor(Math.random() * (i + 1));
 				[options[i], options[j]] = [options[j], options[i]];
 			}
-			out.push({ word, answer, options });
+			out.push({ word, rank, answer, options });
 		}
 		return out.length === COUNT ? out : FALLBACK;
 	}
@@ -133,7 +135,18 @@
 	{:else}
 		<div class="play">
 			<p class="count">Word {at + 1} of {rounds.length}</p>
-			<p class="word" lang={round.answer}>{round.word}</p>
+			<!-- Only once answered: the voice would say which language it is. -->
+			<p class="word">
+				<span lang={round.answer}>{round.word}</span>
+				{#if picked}
+					<SpeakButton
+						code={round.answer}
+						rank={round.rank}
+						label="Hear {round.word} in {NAME.get(round.answer)}"
+						size={44}
+					/>
+				{/if}
+			</p>
 
 			<ul class="options" role="list">
 				{#each round.options as code}
@@ -230,6 +243,10 @@
 
 	// The word is the app speaking in its own voice, so it takes the display face.
 	.word {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px 12px;
 		margin: 0;
 		font-family: var(--font--title);
 		font-weight: 800;

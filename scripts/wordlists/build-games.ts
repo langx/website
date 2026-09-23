@@ -77,12 +77,18 @@ for (const lang of langs) {
 	if (!ALPHABETIC.has(scriptOf[lang.code])) continue;
 
 	const answers: string[] = [];
+	// Each answer's rank in the list, beside it, so the game can play the
+	// reading once the word is out (`$lib/utils/wordAudio`, keyed by rank).
+	const answerRanks: number[] = [];
 	const guesses: string[] = [];
 	for (const [rank, word] of rows) {
 		const w = word.toLowerCase();
 		if (!isWord(w)) continue;
 		if (Number(rank) <= GUESS_DEPTH) guesses.push(w);
-		if (Number(rank) <= ANSWER_DEPTH) answers.push(w);
+		if (Number(rank) <= ANSWER_DEPTH) {
+			answers.push(w);
+			answerRanks.push(Number(rank));
+		}
 	}
 	if (answers.length < MIN_ANSWERS) continue;
 
@@ -94,7 +100,7 @@ for (const lang of langs) {
 
 	await writeFile(
 		path.join(OUT, 'word', `${lang.slug}.json`),
-		JSON.stringify({ answers, guesses, letters })
+		JSON.stringify({ answers, answerRanks, guesses, letters })
 	);
 	wordGame.push({ code: lang.code, slug: lang.slug, name: lang.name, answers: answers.length });
 }

@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -285,7 +287,15 @@
 			{#each visible as row (row.word)}
 				<tr class:open={open === row.rank}>
 					<td class="rank">{nf.format(row.rank)}</td>
-					<td class="word" lang={meta.code}>{row.word}</td>
+					<td class="word"
+						><span lang={meta.code}>{row.word}</span>
+						<SpeakButton
+							code={meta.code}
+							rank={row.rank}
+							label="Hear {row.word} in {meta.name}"
+							size={28}
+						/></td
+					>
 					<td class="gloss">
 						{row.english}
 						{#if row.rank <= 1000}
@@ -378,6 +388,7 @@
 			CC BY 2.0 FR. The
 			<a href={fileUrl} download>raw data file</a> is here too.
 		</p>
+		<VoiceCredit codes={[meta.code]} />
 	</section>
 
 	<section class="cta">
