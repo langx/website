@@ -11,7 +11,9 @@ const isComparison = (slug: string) =>
 	slug.endsWith('-vs-language-exchange') ||
 	slug === 'duolingo-alternatives-for-speaking' ||
 	slug.startsWith('social-') ||
-	slug === 'best-language-exchange-apps';
+	slug.startsWith('best-language-exchange-apps') ||
+	slug.startsWith('best-apps-to-practice-') ||
+	slug === 'free-language-exchange-apps';
 
 export async function load() {
 	const posts = filteredPosts.filter((p) => isComparison(p.slug));

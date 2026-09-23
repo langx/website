@@ -11,6 +11,9 @@
 
 	export let data: { posts: BlogPost[] };
 	$: ({ posts } = data);
+	// Roundups answer "which app?"; one-to-ones answer "this app or LangX?".
+	$: oneToOne = posts.filter((p) => p.slug.startsWith('open-source-alternative-to-'));
+	$: roundups = posts.filter((p) => !p.slug.startsWith('open-source-alternative-to-'));
 
 	const title = 'LangX vs Tandem, HelloTalk, Duolingo and Other Language Apps';
 	const description =
@@ -132,9 +135,27 @@
 	{/if}
 
 	<section class="block">
-		<h2>Every comparison</h2>
+		<h2>LangX vs each app</h2>
 		<ul class="rows" role="list">
-			{#each posts as post}
+			{#each oneToOne as post}
+				<li>
+					<BlogPostCard
+						title={post.title}
+						coverImage={post.coverImage}
+						excerpt={post.excerpt}
+						readingTime={post.readingTime}
+						slug={post.slug}
+						tags={post.tags}
+					/>
+				</li>
+			{/each}
+		</ul>
+	</section>
+
+	<section class="block">
+		<h2>Roundups and guides</h2>
+		<ul class="rows" role="list">
+			{#each roundups as post}
 				<li>
 					<BlogPostCard
 						title={post.title}
