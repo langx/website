@@ -24,6 +24,20 @@ export type Competitor = {
 	people: 'yes' | 'paid' | 'partial' | 'no';
 	/** A plan you can keep using without paying; `partial` is a trial or a sliver. */
 	freePlan: 'yes' | 'partial' | 'no';
+	/**
+	 * Advertising. `none`: no ads at all. `free-plan`: ads on the free tier
+	 * that a paid plan removes — only where the app's own page says it does.
+	 * `yes`: ads, with no paid way out that we could confirm. `unknown`: not
+	 * checked (an app that has closed).
+	 *
+	 * Checked on 23 September 2026 against each app's Google Play listing,
+	 * whose "Contains ads" label is the developer's own declaration, and for
+	 * `free-plan` against the paid plan's page (Tandem's blog, HelloTalk's VIP
+	 * FAQ, Duolingo's blog, Conversation Exchange's membership page, Busuu's
+	 * premium plans, Memrise's Play description). Slowly and Lingbe are said
+	 * to drop ads on their paid plans only by third parties, so they stay `yes`.
+	 */
+	ads: 'none' | 'free-plan' | 'yes' | 'unknown';
 };
 
 export const COMPETITORS: Competitor[] = [
@@ -38,7 +52,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://tandem.net',
 		kind: 'exchange',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'free-plan'
 	},
 	{
 		name: 'HelloTalk',
@@ -51,7 +66,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.hellotalk.com',
 		kind: 'exchange',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'free-plan'
 	},
 	{
 		name: 'Duolingo',
@@ -64,7 +80,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.duolingo.com',
 		kind: 'course',
 		people: 'no',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'free-plan'
 	},
 	{
 		name: 'Speaky',
@@ -77,7 +94,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.speaky.com',
 		kind: 'exchange',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'yes'
 	},
 	{
 		name: 'Conversation Exchange',
@@ -90,7 +108,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.conversationexchange.com',
 		kind: 'exchange',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'free-plan'
 	},
 	{
 		name: 'Lingbe',
@@ -103,7 +122,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.lingbe.com',
 		kind: 'exchange',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'yes'
 	},
 	{
 		name: 'Busuu',
@@ -116,7 +136,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.busuu.com',
 		kind: 'course',
 		people: 'partial',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'free-plan'
 	},
 	{
 		name: 'italki',
@@ -129,7 +150,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.italki.com',
 		kind: 'tutors',
 		people: 'paid',
-		freePlan: 'partial'
+		freePlan: 'partial',
+		ads: 'none'
 	},
 	{
 		name: 'Slowly',
@@ -142,7 +164,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://slowly.app',
 		kind: 'penpal',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'yes'
 	},
 	{
 		name: 'InterPals',
@@ -155,7 +178,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.interpals.net',
 		kind: 'penpal',
 		people: 'yes',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'yes'
 	},
 	{
 		name: 'Cambly',
@@ -168,7 +192,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.cambly.com',
 		kind: 'tutors',
 		people: 'paid',
-		freePlan: 'no'
+		freePlan: 'no',
+		ads: 'none'
 	},
 	{
 		name: 'Preply',
@@ -181,7 +206,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://preply.com',
 		kind: 'tutors',
 		people: 'paid',
-		freePlan: 'no'
+		freePlan: 'no',
+		ads: 'none'
 	},
 	{
 		name: 'Babbel',
@@ -194,7 +220,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.babbel.com',
 		kind: 'course',
 		people: 'no',
-		freePlan: 'partial'
+		freePlan: 'partial',
+		ads: 'none'
 	},
 	{
 		name: 'Memrise',
@@ -207,7 +234,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.memrise.com',
 		kind: 'course',
 		people: 'no',
-		freePlan: 'yes'
+		freePlan: 'yes',
+		ads: 'free-plan'
 	},
 	{
 		name: 'Speak',
@@ -220,7 +248,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://www.speak.com',
 		kind: 'ai',
 		people: 'no',
-		freePlan: 'no'
+		freePlan: 'no',
+		ads: 'none'
 	},
 	{
 		name: 'Praktika',
@@ -233,7 +262,8 @@ export const COMPETITORS: Competitor[] = [
 		website: 'https://praktika.ai',
 		kind: 'ai',
 		people: 'no',
-		freePlan: 'partial'
+		freePlan: 'partial',
+		ads: 'none'
 	},
 	{
 		name: 'Bilingua',
@@ -246,6 +276,7 @@ export const COMPETITORS: Competitor[] = [
 		website: '',
 		kind: 'exchange',
 		people: 'no',
-		freePlan: 'no'
+		freePlan: 'no',
+		ads: 'unknown'
 	}
 ];
