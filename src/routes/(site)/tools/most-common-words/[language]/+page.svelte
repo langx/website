@@ -396,8 +396,8 @@
 			<a href="https://github.com/espeak-ng/espeak-ng" rel="noopener noreferrer" target="_blank"
 				>eSpeak NG</a
 			>
-			filling in pronunciations Wiktionary lacks. The data is CC BY-SA 4.0, and so is this list —
-			keep the credit if you pass it on. Example sentences come from
+			filling in pronunciations Wiktionary lacks. The data is CC BY-SA 4.0, and so is this list — keep
+			the credit if you pass it on. Example sentences come from
 			<a href="https://tatoeba.org" rel="noopener noreferrer" target="_blank">Tatoeba</a>, CC BY 2.0
 			FR. The
 			<a href={fileUrl} download>raw data file</a> is here too.
@@ -477,9 +477,12 @@
 		transition: color var(--dur-fast) ease, border-color var(--dur-fast) ease,
 			transform var(--dur-press) var(--ease-out);
 
+		// The slice being shown. Selected is blue (DESIGN.md: if it is tapped,
+		// focused or selected, it is blue), in the app's tint rather than ink.
 		&.on {
-			color: var(--color--text);
-			border-color: var(--color--text);
+			color: var(--color--accent);
+			background: var(--color--accent-tint);
+			border-color: transparent;
 		}
 
 		&:active {
@@ -505,7 +508,7 @@
 		font-size: 0.9375rem;
 
 		&::placeholder {
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 		}
 	}
 
@@ -536,19 +539,28 @@
 			font-size: 0.75rem;
 			text-transform: uppercase;
 			letter-spacing: 0.06em;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			font-weight: 600;
 		}
 
 		.rank {
 			width: 4.5rem;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			font-variant-numeric: tabular-nums;
 		}
 
 		.word {
 			width: 38%;
 			font-weight: 600;
+
+			// The word is what the page is for, so it is set like a name: in
+			// Nunito 800, a step up from the text. At 600 and body size a word
+			// in Malayalam or Arabic was the faintest thing in its row.
+			> span:first-child {
+				font-family: var(--font--title);
+				font-weight: 800;
+				font-size: 1.125rem;
+			}
 		}
 
 		.gloss {
@@ -652,7 +664,7 @@
 	}
 
 	.count {
-		color: var(--color--text-tertiary);
+		color: var(--color--text-quiet);
 		font-size: 0.8125rem;
 	}
 
@@ -739,7 +751,7 @@
 
 	.credit {
 		font-size: 0.8125rem;
-		color: var(--color--text-tertiary);
+		color: var(--color--text-quiet);
 		margin-top: var(--space-sm);
 	}
 
