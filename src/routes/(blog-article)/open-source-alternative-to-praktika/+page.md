@@ -59,7 +59,7 @@ So when people search for a "Praktika alternative", they usually want one of two
 | --- | --- | --- |
 | What it is | Language exchange app with real people | AI tutor app with animated avatar tutors |
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | AI avatars with different personalities and accents |
-| Lessons | None | Learning paths with 1,000+ lessons, including exam prep |
+| Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Learning paths with 1,000+ lessons, including exam prep |
 | Corrections | A human partner can correct any message; unlimited on every plan | Real-time AI feedback on pronunciation, grammar and word choice, with adjustable strictness |
 | Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Tutors can explain in your native language |
 | Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Spoken, face-to-face-style conversation with an avatar; no human calls |
@@ -162,7 +162,7 @@ LangX shows no ads and uses no advertising identifiers. It does use product anal
 ### What LangX does not do
 
 - **No AI tutor today.** LangX Copilot, private AI feedback while you practice, is planned for Polyglot but not shipped.
-- **No lessons, paths or exam prep.**
+- **No learning paths or exam prep.** Echo's free phrase packs are something to review, not a course.
 - **No live calls,** only voice messages.
 - **People are not always online,** and a smaller community means fewer partners for some language pairs.
 

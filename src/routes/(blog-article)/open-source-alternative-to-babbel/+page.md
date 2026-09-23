@@ -44,7 +44,7 @@ We make LangX, so we are not neutral, but we will be clear about where Babbel is
 
 [Babbel](https://www.babbel.com) is a **structured course app**. It was founded in Berlin in 2007, runs on a subscription, and teaches 14 languages through short lessons built around practical dialogues, with clear grammar explanations and a review tool that brings vocabulary back before you forget it. It also has podcasts, videos and, since September 2025, **Babbel Speak**, an AI conversation feature that guides you through spoken real-life scenarios.
 
-LangX is a **language exchange app**. There are no lessons. You are matched with people who speak the language you are learning and are learning a language you speak, and you have real conversations, with corrections, translation and voice messages built into the chat.
+LangX is a **language exchange app**. There is no lesson path; what you can study alone is Echo, free spaced-repetition packs of phrases in six languages. You are matched with people who speak the language you are learning and are learning a language you speak, and you have real conversations, with corrections, translation and voice messages built into the chat.
 
 So a "Babbel alternative" can mean two things:
 
@@ -64,7 +64,7 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | | LangX | Babbel |
 | --- | --- | --- |
 | What it is | Language exchange app with real people | Structured course app |
-| Lessons | None | Dialogue-based lessons with grammar tips and vocabulary review |
+| Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Dialogue-based lessons with grammar tips and vocabulary review |
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | Babbel Speak AI scenarios; no human conversation partners for individual learners |
 | Corrections | A human partner can correct any message; unlimited on every plan | Automatic feedback on exercises and speech |
 | Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Part of the lessons, not a chat tool |
@@ -167,14 +167,14 @@ LangX has no ads and no advertising identifiers. It does use product analytics (
 
 ### What LangX does not do
 
-- **No lessons, grammar explanations or course path.** If you are starting from zero, begin with a course.
+- **No grammar explanations or course path.** Echo's free phrase packs are something to review, not a course; if you are starting from zero, begin with one.
 - **No AI conversation practice today.** LangX Copilot, private AI feedback, is planned for Polyglot but not shipped.
 - **No live calls or classes,** only voice messages.
 - **A smaller community,** so some language pairs have fewer people online.
 
 ## Is LangX a free Babbel alternative?
 
-For the speaking part, yes. LangX Free has no time limit and no ads, and replies and corrections are never capped. It is not a free Babbel course, and it will not teach you grammar from scratch. If you want a free course, you will have to look at other apps; if you want free conversation practice, LangX is built for it.
+For the speaking part, yes. LangX Free has no time limit and no ads, and replies and corrections are never capped. It is not a free Babbel course, and it will not teach you grammar from scratch; Echo, its free spaced-repetition tab, gives you phrase packs in six languages to review, not lessons. If you want a free course, look at other apps; if you want free conversation practice, LangX is built for it.
 
 ## LangX vs Babbel: who should pick which?
 

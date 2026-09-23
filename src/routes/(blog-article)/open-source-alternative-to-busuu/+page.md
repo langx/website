@@ -34,7 +34,7 @@ This page compares the two as of September 2026. We make LangX, and we will be c
 
 <KeyTakeaways items={[
   "Busuu is a course app with CEFR lessons from A1 to C1 and Community Corrections on exercises.",
-  "LangX is a language exchange app with no lessons: ongoing one-to-one chats with corrections built in.",
+  "LangX is a language exchange app: ongoing one-to-one chats with corrections built in, plus free Echo packs to review, but no lesson path.",
   "Corrections on LangX are unlimited on every plan; free Busuu members can send a limited number.",
   "For most learners the best setup is both: learn it on Busuu, use it the same day on LangX."
 ]} />
@@ -43,7 +43,7 @@ This page compares the two as of September 2026. We make LangX, and we will be c
 
 Busuu is a **course app**. It was founded in London in 2008 and has been owned by Chegg since 2022. It teaches 14 languages through lessons that run from A1 to C1 on the CEFR scale, with vocabulary review, grammar, and speaking and writing exercises. Its signature extra is **Community Corrections**: you submit a written or spoken exercise, and fluent speakers in the Busuu community correct it.
 
-LangX is a **language exchange app**. There are no lessons. You are matched with people who speak the language you are learning and are learning a language you speak, and you have real conversations, with corrections, translation and voice messages built into the chat.
+LangX is a **language exchange app**. There is no lesson path; what you can study alone is Echo, free spaced-repetition packs of phrases in six languages. You are matched with people who speak the language you are learning and are learning a language you speak, and you have real conversations, with corrections, translation and voice messages built into the chat.
 
 So a Busuu alternative can mean two things:
 
@@ -58,7 +58,7 @@ So a Busuu alternative can mean two things:
     name: "LangX",
     tagline: "Language exchange app",
     points: [
-      "No lessons; ongoing one-to-one chats",
+      "Ongoing one-to-one chats; Echo packs to review, no lesson path",
       "Two-way matching",
       "Correct any message, unlimited on every plan",
       "Translation built into the chat",
@@ -85,7 +85,7 @@ So a Busuu alternative can mean two things:
 | | LangX | Busuu |
 | --- | --- | --- |
 | What it is | Language exchange app | Structured course app with a community |
-| Lessons | None | CEFR-aligned lessons, A1 to C1, in 14 languages |
+| Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud, three levels each | CEFR-aligned lessons, A1 to C1, in 14 languages |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Exercises are routed to fluent speakers, or sent to friends |
 | Corrections | Correct any message in an ongoing conversation, unlimited on every plan | Community Corrections on course exercises; free members can send a limited number, Premium is unlimited |
 | Conversation | Ongoing one-to-one chats | Short exchanges around a correction |
@@ -157,7 +157,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 
 ### What LangX does not do
 
-- **No lessons, no grammar explanations, no curriculum.** If you need to be taught the basics, LangX will not do that.
+- **No grammar explanations and no curriculum.** Echo's free phrase packs give you something to review, but if you need to be taught the basics, a course does that better.
 - **No live calls,** only voice messages.
 - **A smaller community,** so some language pairs have fewer people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours (replies and corrections are never capped). The [plans page](/pro) has details.

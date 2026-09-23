@@ -45,7 +45,7 @@ This page compares LangX vs Preply as of September 2026. We make LangX, and we w
 
 **Preply** is a tutor marketplace. You browse tutors, filter by language, price, reviews, specialty and availability, book a trial lesson, and if you like the tutor you subscribe to a set number of lessons with them. Its app lists lessons in more than 90 languages, and the platform also covers subjects beyond languages. It also sells corporate language training for companies.
 
-**LangX** is a free language exchange app. There are no tutors and no lessons. You are matched with someone who speaks the language you are learning and is learning a language you speak, and you help each other in a one-to-one chat with corrections, translation and voice messages built in.
+**LangX** is a free language exchange app. There are no tutors and no lessons with a teacher; what you can study alone is Echo, free spaced-repetition packs of phrases in six languages. You are matched with someone who speaks the language you are learning and is learning a language you speak, and you help each other in a one-to-one chat with corrections, translation and voice messages built in.
 
 So a "Preply alternative" can mean two things:
 

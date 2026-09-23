@@ -29,12 +29,13 @@ keywords:
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
-If you want an open source alternative to Memrise for speaking with real people, LangX is a free, open source (BSD-3) language exchange app that matches you with native speakers who can correct any message you send. Memrise is still the better tool for learning vocabulary with native-speaker videos, spaced review and AI practice, so the honest answer to "LangX vs Memrise" is: Memrise helps you learn the words, LangX gives you people to use them with.
+If you want an open source alternative to Memrise for speaking with real people, LangX is a free, open source (BSD-3) language exchange app that matches you with native speakers who can correct any message you send. Memrise is still the better tool for learning vocabulary with native-speaker videos and AI practice, and its course library is far larger than Echo, LangX's own spaced-repetition tab. So the honest answer to "LangX vs Memrise" is: Memrise helps you learn the words, LangX gives you people to use them with — and, with Echo, a place to keep the sentences those people teach you.
 
 <KeyTakeaways items={[
   "Memrise is now an official-course app built on native-speaker videos, spaced review and AI practice.",
   "Community courses moved out of the app in 2024 to a separate website.",
   "LangX is a free, open source language exchange with real native speakers and unlimited human corrections.",
+  "LangX has Echo: free spaced repetition with 18 phrase packs in six languages, and a card for any message a partner corrects.",
   "Learn words in Memrise, then use them with a person on LangX."
 ]} />
 
@@ -65,7 +66,7 @@ So today Memrise is best described as an **official-course app built on native-s
 | | LangX | Memrise |
 | --- | --- | --- |
 | What it is | Language exchange app with real people | Vocabulary and course app with AI practice |
-| Lessons | None | Official courses organized into Scenarios, with spaced review |
+| Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud, three levels each | Official courses organized into Scenarios, with spaced review |
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | AI (MemBot, Podchats); no human conversation partners |
 | Corrections | A human partner can correct any message; unlimited on every plan | AI feedback on your conversations and exercises |
 | Native speakers | Real people in real chats | Short videos of native speakers saying words and phrases |
@@ -155,6 +156,10 @@ On LangX, your partner holds any message to correct it, and corrections are unli
   text="On LangX your partner holds any message to correct it, so you learn what sounds natural. Corrections are unlimited on every plan, Free included."
 />
 
+### Spaced repetition, fed by real conversations
+
+LangX has **Echo**, a spaced-repetition tab of its own, free on every plan. It ships with eighteen packs of phrases — English, Spanish, German, French, Russian and Italian, at three levels each, every phrase read aloud — so there is something to review before you have a single partner. The part Memrise cannot copy: one tap on any message, correction or feed post makes a card, so the sentences you review are the ones a real person actually said to you. Memrise's library is far larger, and its videos of native speakers have no equivalent here.
+
 ### Open source and a real free plan
 
 The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Memrise is closed source, and many former users were frustrated when community courses were moved out of the app, which is part of why people look for an open source alternative to Memrise. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See [plans](/pro) for more.
@@ -165,14 +170,14 @@ LangX shows no ads and uses no advertising identifiers. It does run product anal
 
 ### What LangX does not do
 
-- **No flashcards, spaced repetition or course.** LangX will not drill vocabulary for you.
+- **A much smaller library.** Echo has eighteen phrase packs and the cards you make yourself; there is no course of Memrise's size and no native-speaker videos.
 - **No community course library,** so it is not a replacement for Memrise's user-made courses.
 - **No AI chat today.** LangX Copilot, private AI feedback, is planned for Polyglot but not shipped.
 - **No live calls,** only voice messages, and a smaller community means fewer partners for some language pairs.
 
 ## Is LangX a free Memrise alternative?
 
-For speaking practice, yes: LangX Free has no time limit and no ads, and corrections and replies are never capped. It is not a free vocabulary course. If you want free flashcards, pair LangX with a spaced-repetition tool, and use our free [most common words](/tools/most-common-words) lists to decide what to learn first.
+For speaking practice, yes: LangX Free has no time limit and no ads, and corrections and replies are never capped. For vocabulary, Echo gives you free spaced repetition — eighteen phrase packs in six languages, read aloud, and a card for any sentence a partner sends or corrects — but not a course of Memrise's size. Our free [most common words](/tools/most-common-words) lists help you decide what to learn first.
 
 ## LangX vs Memrise: who should pick which?
 
@@ -188,6 +193,7 @@ For speaking practice, yes: LangX Free has no time limit and no ads, and correct
 - have some vocabulary and want to use it with real native speakers
 - want an open source alternative to Memrise you can audit or self-host
 - want unlimited human corrections on a free plan with no ads
+- want spaced repetition fed by real conversations: Echo turns any message into a card
 - are learning a language where you want real people, not just videos
 
 **Or combine them.** Learn ten words in Memrise, then use three of them in a LangX conversation that day. Words you have actually said to a person are much harder to forget. Our guide on [how to remember your foreign languages](/stop-the-struggle-how-to-remember-your-foreign-languages-even-after-years) and the free [vocabulary test](/tools/vocabulary-test/french) pair well with this routine.
@@ -207,7 +213,7 @@ For more speaking-focused options, see [Duolingo alternatives for speaking](/duo
 
 ### What is the best open source alternative to Memrise?
 
-For speaking practice with native speakers, LangX is an open source alternative to Memrise: its app and API are BSD-3 licensed on GitHub. For flashcards, an open source spaced-repetition tool is the closer match; LangX does not do vocabulary drills.
+For speaking practice with native speakers, LangX is an open source alternative to Memrise: its app and API are BSD-3 licensed on GitHub. For flashcards, LangX's Echo does spaced repetition too, with free packs in six languages and cards made from your chats, though an open source tool like Anki has a far larger library of decks.
 
 ### What happened to Memrise community courses?
 
