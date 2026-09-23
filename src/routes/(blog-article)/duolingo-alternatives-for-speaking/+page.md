@@ -100,7 +100,7 @@ gap." That depends on your goal, your budget and how much structure you want.
 | Tool | Type | Best for | Who you speak with | Live human? |
 |---|---|---|---|---|
 | [LangX](/) | Language exchange app | Regular practice and corrections from native speakers | Learners of your language who speak the one you are learning | Yes |
-| [Tandem](https://www.tandem.net) | Language exchange app | Exchange with text, voice and video calls | Language exchange partners, plus paid tutors | Yes |
+| [Tandem](https://www.tandem.net) | Language exchange app | Exchange with text, voice and video calls | Language exchange partners | Yes |
 | [HelloTalk](https://www.hellotalk.com) | Language exchange app with social feed | Lots of casual contact, posting and group voice rooms | Exchange partners and a public feed | Yes |
 | [italki](https://www.italki.com) | Tutor marketplace | Paid 1:1 lessons, pay per lesson | Professional teachers and community tutors | Yes |
 | [Preply](https://preply.com) | Tutor marketplace | Regular scheduled lessons with one tutor | Tutors | Yes |
@@ -150,8 +150,8 @@ feedback, is not shipped yet.
 ### Tandem
 
 Tandem is one of the best-known exchange apps. It supports text, voice messages
-and audio and video calls, has a tutor section for paid lessons, and is often
-praised for tighter profile moderation. A Pro subscription removes ads and adds
+and audio and video calls, and is often praised for tighter profile
+moderation. (Its paid tutoring service, Tandem Tutors, closed in 2020.) A Pro subscription removes ads and adds
 extra features. If you want video calls with exchange partners inside the same
 app, Tandem is a strong choice. We compare the two in detail on
 [LangX vs Tandem](/open-source-alternative-to-tandem).

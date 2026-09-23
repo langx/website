@@ -3,7 +3,8 @@ slug: langx-v2-what-changes-and-why
 title: 'LangX v2: what changes, and why'
 date: 2026-08-27T09:00:00.000Z
 excerpt: v2 is a ground-up rebuild. It also breaks two promises v1 made in public, and we would rather explain that here than let you find it in a Terms diff.
-coverImage: /images/posts/Promo.png
+coverImage: /images/posts/langx-v2-what-changes-and-why.png
+thumbnail: /images/posts/langx-v2-what-changes-and-why-thumb.png
 author:
   name: xuelink
   url: https://github.com/xuelink
