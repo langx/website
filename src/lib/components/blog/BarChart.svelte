@@ -31,7 +31,9 @@
 			>
 				<span class="label">{d.label}</span>
 				<span class="track">
-					<span class="bar" style="width: {Math.max((d.value / top) * 100, 1.5)}%" />
+					<span class="lane"
+						><span class="bar" style="width: {Math.max((d.value / top) * 100, 1.5)}%" /></span
+					>
 					<span class="value">{fmt(d.value)}</span>
 				</span>
 				{#if d.note}<span class="note">{d.note}</span>{/if}
@@ -110,12 +112,19 @@
 		min-width: 0;
 	}
 
+	// The lane is the scale: a bar's width is its share of the largest value,
+	// measured inside the lane, so the value label beside it never squeezes
+	// long bars to the same length.
+	.lane {
+		flex: 1 1 auto;
+		min-width: 0;
+	}
+
 	.bar {
+		display: block;
 		height: 14px;
 		border-radius: 0 4px 4px 0;
 		background: var(--color--accent);
-		flex: 0 0 auto;
-		max-width: calc(100% - 5.5rem);
 	}
 
 	.highlight .bar {
@@ -123,6 +132,7 @@
 	}
 
 	.value {
+		flex: 0 0 5.5rem;
 		font-size: 0.875rem;
 		font-weight: 700;
 		color: var(--color--text);
