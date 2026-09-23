@@ -18,7 +18,6 @@ tags:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
   import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
   import Steps from "$lib/components/blog/Steps.svelte";
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
@@ -81,7 +80,6 @@ In conclusion, language learning is a rich and meaningful process. It not only h
 
 Therefore, we should encourage more people to actively learn and explore different languages and cultures, expanding their perspectives and fostering cultural exchange and cooperation worldwide.
 
-<a href="https://langx.io" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 

@@ -17,7 +17,6 @@ tags:
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
   import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
   import Steps from "$lib/components/blog/Steps.svelte";
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
@@ -60,6 +59,5 @@ Here are ten compelling reasons why language exchange will revolutionize the way
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 
-<a href="https://langx.io" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
 **Have questions?** Contact us at [hi@langx.io](mailto:hi@langx.io), and let's keep your language skills thriving!

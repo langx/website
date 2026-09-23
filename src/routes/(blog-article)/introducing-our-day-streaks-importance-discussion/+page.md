@@ -23,7 +23,6 @@ tags:
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
   import ProsCons from "$lib/components/blog/ProsCons.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
 ## **Introducing Our Day Streaks**
@@ -82,7 +81,6 @@ Ultimately, the debate over the importance of building language streaks boils do
 
 > <a href="https://www.reddit.com/r/languagelearning/comments/1b7xn31/comment/ktmj21m/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">BitterBloodedDemon</a> shared a relatable experience with the challenges of maintaining streaks: "I just lost a 32 day streak on Duolingo... I no longer use Duo (or any app) for TL1, and I'm working on TL2."
 
-<a href="https://langx.io" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 

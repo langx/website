@@ -23,7 +23,6 @@ tags:
   import VersusCard from "$lib/components/blog/VersusCard.svelte";
   import ProsCons from "$lib/components/blog/ProsCons.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
 ## **Choosing Backblaze B2 over DigitalOcean Spaces for Cloud Storage**
@@ -88,7 +87,6 @@ As part of our commitment to embracing innovative technologies and solutions, we
 
 While DigitalOcean Spaces is a solid choice for cloud storage, offering competitive pricing and reliable performance, Backblaze B2 ultimately emerged as the preferred option for our needs. With its cost-effective pricing, robust performance, extensive ecosystem integration, and strong focus on security, Backblaze B2 provides the perfect combination of features and value for our cloud storage requirements, perfectly complementing the innovative capabilities of LangX App.
 
-<a href="https://langx.io" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 
