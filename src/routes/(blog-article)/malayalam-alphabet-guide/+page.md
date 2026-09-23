@@ -232,3 +232,5 @@ For most English speakers it is ഴ (zha), which our chart describes as "r and l
 ### How long does it take to learn the Malayalam alphabet?
 
 It depends on how much you practice. Learning it in the order above, vowels first, then consonant rows, then vowel signs, is faster than memorizing 49 unrelated shapes, and reading real words early makes the letters stick.
+
+More alphabet guides: [Hindi](/hindi-alphabet-guide) and [Bengali](/bengali-alphabet-guide), two more abugidas; [Korean](/korean-alphabet-guide); [Greek](/greek-alphabet-guide); and the Cyrillic [Russian](/russian-alphabet-guide) and [Bulgarian](/bulgarian-alphabet-guide) alphabets.
