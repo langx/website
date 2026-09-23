@@ -7,6 +7,7 @@
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { COMPETITORS, type Competitor } from '$lib/data/competitors';
+	import { appIcon } from '$lib/data/app-icons';
 	import StatRow from '$lib/components/blog/StatRow.svelte';
 	import AppDemo from '$lib/components/blog/AppDemo.svelte';
 	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
@@ -168,9 +169,22 @@
 					<h3>{k.title}</h3>
 					<p>{k.what}</p>
 					<ul role="list">
-						{#if k.kind === 'exchange'}<li class="us">LangX</li>{/if}
+						{#if k.kind === 'exchange'}<li class="us">
+								<img class="icon" src={appIcon('LangX')} alt="" width="20" height="20" />LangX
+							</li>{/if}
 						{#each byKind(k.kind) as c}
-							<li><a href="/{c.slug}">{c.name}</a></li>
+							<li>
+								<a href="/{c.slug}"
+									>{#if appIcon(c.name)}<img
+											class="icon"
+											src={appIcon(c.name)}
+											alt=""
+											width="20"
+											height="20"
+											loading="lazy"
+										/>{/if}{c.name}</a
+								>
+							</li>
 						{/each}
 					</ul>
 				</section>
@@ -196,7 +210,15 @@
 					<tbody>
 						<tr class="self">
 							<th scope="row">
-								LangX
+								<span class="app"
+									><img
+										class="icon"
+										src={appIcon('LangX')}
+										alt=""
+										width="24"
+										height="24"
+									/>LangX</span
+								>
 								<span class="what"
 									>Two-way exchange with corrections and translation in the chat</span
 								>
@@ -210,7 +232,16 @@
 						{#each COMPETITORS as c}
 							<tr>
 								<th scope="row">
-									<a href="/{c.slug}">{c.name}</a>
+									<span class="app"
+										>{#if appIcon(c.name)}<img
+												class="icon"
+												src={appIcon(c.name)}
+												alt=""
+												width="24"
+												height="24"
+												loading="lazy"
+											/>{/if}<a href="/{c.slug}">{c.name}</a></span
+									>
 									{#if c.status !== 'active'}<span class="closed">{c.status}</span>{/if}
 									<span class="what">{c.what}</span>
 								</th>
@@ -435,7 +466,9 @@
 
 			a,
 			&.us {
-				display: inline-block;
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
 				padding: 4px 10px;
 				border-radius: var(--radius-pill);
 				background: var(--color--muted);
@@ -448,10 +481,36 @@
 				background: var(--color--accent);
 				color: var(--color--surface);
 			}
+
+			// The icon sits in the pill's rounded end.
+			a:has(.icon),
+			&.us {
+				padding-left: 4px;
+			}
+
+			.icon {
+				width: 20px;
+				height: 20px;
+				border-radius: 6px;
+			}
 		}
 	}
 
 	.matrix {
+		.app {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+		}
+
+		.icon {
+			flex: none;
+			width: 24px;
+			height: 24px;
+			border-radius: 6px;
+			box-shadow: 0 0 0 1px var(--color--border);
+		}
+
 		.what {
 			display: block;
 			margin-top: 2px;

@@ -15,6 +15,7 @@
 	 */
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
+	import { appIcon } from '$lib/data/app-icons';
 	import type { BlogPost } from '$lib/utils/types';
 
 	export let post: BlogPost;
@@ -65,13 +66,17 @@
 			{#each sides as name, i}
 				{#if i === 1 && sides.length === 2}<span class="vs">vs</span>{/if}
 				<div class="app">
-					<span class="disc" class:mark={name === 'LangX'}>
-						{#if name === 'LangX'}
-							<Logo variant="mark" height={sides.length > 2 ? 24 : 32} href={undefined} />
-						{:else}
-							{initials(name)}
-						{/if}
-					</span>
+					{#if appIcon(name)}
+						<img class="icon" src={appIcon(name)} alt="" width="72" height="72" loading="lazy" />
+					{:else}
+						<span class="disc" class:mark={name === 'LangX'}>
+							{#if name === 'LangX'}
+								<Logo variant="mark" height={sides.length > 2 ? 24 : 32} href={undefined} />
+							{:else}
+								{initials(name)}
+							{/if}
+						</span>
+					{/if}
 					<span class="name">{name}</span>
 				</div>
 			{/each}
@@ -177,6 +182,21 @@
 			width: 56px;
 			height: 56px;
 			font-size: 1.125rem;
+		}
+	}
+
+	// Each app's own App Store icon, in the store's rounded square, with a
+	// hairline so a white icon still has an edge on the white card.
+	.icon {
+		display: block;
+		width: 72px;
+		height: 72px;
+		border-radius: 22%;
+		box-shadow: 0 0 0 1px var(--color--border);
+
+		.many & {
+			width: 56px;
+			height: 56px;
 		}
 	}
 

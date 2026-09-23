@@ -21,6 +21,18 @@
 	$: count = alphabet.groups.reduce((n, g) => n + g.letters.length, 0);
 	$: title = `The ${lang.name} alphabet`;
 
+	// Languages with a long-form beginner's guide on the blog, by list slug.
+	const GUIDES = new Set([
+		'bengali',
+		'bulgarian',
+		'greek',
+		'hindi',
+		'korean',
+		'malayalam',
+		'russian'
+	]);
+	$: guide = GUIDES.has(lang.slug) ? `/${lang.slug}-alphabet-guide` : null;
+
 	const KIND: Record<string, string> = {
 		alphabet: 'An alphabet: vowels and consonants are letters of equal standing.',
 		abjad: 'An abjad: the consonants are written and the short vowels are not.',
@@ -80,6 +92,13 @@
 	</p>
 
 	<p class="note">{alphabet.note}</p>
+
+	{#if guide}
+		<p class="guide">
+			New to it? <a href={guide}>Our beginner's guide to the {lang.name} alphabet</a> explains how the
+			script works and gives you a plan to learn it.
+		</p>
+	{/if}
 
 	{#each alphabet.groups as group}
 		<section class="group">
@@ -158,6 +177,14 @@
 		color: var(--color--text-shade);
 		max-width: 66ch;
 		margin-bottom: var(--space-lg);
+	}
+
+	.guide {
+		max-width: 66ch;
+		margin: calc(-1 * var(--space-sm)) 0 var(--space-lg);
+		padding: var(--space-sm) var(--space-md);
+		border-left: 3px solid var(--color--accent);
+		background: rgba(var(--color--accent-rgb), 0.06);
 	}
 
 	.group {
