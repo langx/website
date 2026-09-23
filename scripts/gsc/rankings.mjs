@@ -45,6 +45,16 @@ const MAX_PAGES = 4;
 // Below this, one extra impression swings the average position by whole
 // places, and the movers list fills with noise.
 const MIN_IMPRESSIONS = 20;
+// The trend charts. Search Console keeps sixteen months, so twelve weeks are
+// fetched fresh each run and no history has to be carried between runs.
+const TREND_WEEKS = 12;
+// Query-by-day rows run to one row per query per day it was seen, far more
+// than query rows over one week; allow more pages for them.
+const TREND_MAX_PAGES = 20;
+// A keyword line needs a few points to say anything, and more than a handful
+// of small charts buries the rest of the report.
+const MIN_TREND_POINTS = 3;
+const TREND_KEYWORDS = 6;
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 
@@ -134,10 +144,10 @@ async function pickSite(call, wanted) {
 	return site;
 }
 
-/** Every row for one dimension over one window, paging past the 25,000 cap. */
-async function rows(call, site, dimensions, { start, end }) {
+/** The API's rows as they come (`keys` in dimension order), paging past the 25,000 cap. */
+async function fetchRows(call, site, dimensions, { start, end }, maxPages = MAX_PAGES) {
 	const out = [];
-	for (let page = 0; page < MAX_PAGES; page++) {
+	for (let page = 0; page < maxPages; page++) {
 		const { rows: batch = [] } = await call(
 			`/sites/${encodeURIComponent(site)}/searchAnalytics/query`,
 			{
@@ -150,9 +160,19 @@ async function rows(call, site, dimensions, { start, end }) {
 			}
 		);
 		out.push(...batch);
-		if (batch.length < ROW_LIMIT) break;
+		if (batch.length < ROW_LIMIT) return out;
 	}
-	return out.map((r) => ({
+	// Every page came back full, so there may be more. Said on stderr, so the
+	// report itself stays clean, but a short count does not pass unnoticed.
+	console.warn(
+		`Stopped at ${out.length} rows for [${dimensions}] ${start}..${end}; there may be more.`
+	);
+	return out;
+}
+
+/** Every row for one dimension over one window. */
+async function rows(call, site, dimensions, win) {
+	return (await fetchRows(call, site, dimensions, win)).map((r) => ({
 		key: r.keys?.[0] ?? '',
 		clicks: r.clicks,
 		impressions: r.impressions,
@@ -173,6 +193,93 @@ export function windows(today = new Date()) {
 	return {
 		current: { start: day(start), end: day(end) },
 		previous: { start: day(shift(start, -WINDOW_DAYS)), end: day(shift(end, -WINDOW_DAYS)) }
+	};
+}
+
+/**
+ * The trend weeks, oldest first: seven-day runs ending on the report's last
+ * day, so the newest point is exactly the report's "this week". Calendar
+ * weeks would leave the newest one half counted most Mondays.
+ */
+export function trendWeeks(end, count = TREND_WEEKS) {
+	const last = new Date(`${end}T00:00:00Z`);
+	return Array.from({ length: count }, (_, i) => {
+		const weekEnd = shift(last, -(count - 1 - i) * WINDOW_DAYS);
+		return { start: day(shift(weekEnd, -(WINDOW_DAYS - 1))), end: day(weekEnd) };
+	});
+}
+
+// — Trends ———————————————————————————————————————————————————————————————
+
+// Position buckets for the query counts: the top three take most clicks,
+// 4–10 is the rest of page one, 11–20 is page two. A query's weekly average
+// is rounded first, as Search Console's own interface shows it, so 3.4 counts
+// as third.
+const BUCKETS = [
+	{ label: '1–3', max: 3 },
+	{ label: '4–10', max: 10 },
+	{ label: '11–20', max: 20 },
+	{ label: '21+', max: Infinity }
+];
+
+/**
+ * Daily rows folded into the trend weeks. `days` has keys [date]; `queryDays`
+ * has keys [query, date]. Position is averaged weighted by impressions, the
+ * way Search Console averages it across days: a day with one impression at 40
+ * should not count as much as a day with a hundred at 5. Pure, like
+ * buildReport.
+ */
+export function weeklyTrends({ weeks, days, queryDays, tracked }) {
+	const first = Date.parse(weeks[0].start);
+	const weekOf = (date) => {
+		const i = Math.floor((Date.parse(date) - first) / (WINDOW_DAYS * 86_400_000));
+		return i >= 0 && i < weeks.length ? i : -1;
+	};
+	const blank = () => weeks.map(() => ({ clicks: 0, impressions: 0, weighted: 0 }));
+	const add = (acc, r) => {
+		acc.clicks += r.clicks;
+		acc.impressions += r.impressions;
+		acc.weighted += r.position * r.impressions;
+	};
+	const settle = ({ clicks, impressions, weighted }) => ({
+		clicks,
+		impressions,
+		position: impressions ? weighted / impressions : null
+	});
+
+	const totals = blank();
+	for (const r of days) {
+		const i = weekOf(r.keys[0]);
+		if (i >= 0) add(totals[i], r);
+	}
+
+	const byQuery = new Map();
+	for (const r of queryDays) {
+		const i = weekOf(r.keys[1]);
+		if (i < 0) continue;
+		if (!byQuery.has(r.keys[0])) byQuery.set(r.keys[0], blank());
+		add(byQuery.get(r.keys[0])[i], r);
+	}
+
+	const buckets = weeks.map(() => BUCKETS.map(() => 0));
+	for (const perWeek of byQuery.values()) {
+		perWeek.forEach((w, i) => {
+			if (!w.impressions) return;
+			const rank = Math.round(w.weighted / w.impressions);
+			buckets[i][BUCKETS.findIndex((b) => rank <= b.max)]++;
+		});
+	}
+
+	return {
+		weeks,
+		totals: totals.map(settle),
+		buckets,
+		keywords: tracked
+			.filter((k) => byQuery.has(k))
+			.map((k) => ({
+				keyword: k,
+				weeks: byQuery.get(k).map((w) => (w.impressions ? settle(w) : null))
+			}))
 	};
 }
 
@@ -211,11 +318,171 @@ function table(head, lines) {
 
 const pathOf = (url) => url.replace(/^https?:\/\/(www\.)?langx\.io/, '') || '/';
 
+// — Charts ————————————————————————————————————————————————————————————————
+// Mermaid `xychart-beta` blocks: GitHub draws them in .md files and in Actions
+// job summaries, so the report needs no image files and no chart library.
+
+const shortDate = new Intl.DateTimeFormat('en-US', {
+	month: 'short',
+	day: 'numeric',
+	timeZone: 'UTC'
+});
+const dateLabel = (iso) => shortDate.format(new Date(`${iso}T00:00:00Z`));
+
+// Mermaid strings have no escape for a double quote, and a query can hold one.
+const quoted = (s) => `"${String(s).replace(/"/g, "'")}"`;
+
+/** A round number at or above n (1, 2, 2.5 or 5 times a power of ten), for the axis top. */
+function roundUp(n) {
+	if (!(n > 0)) return 1;
+	const unit = 10 ** Math.floor(Math.log10(n));
+	return [1, 2, 2.5, 5, 10].map((m) => m * unit).find((v) => v >= n);
+}
+
+/**
+ * One chart and, under it, the same numbers as a line of text: for a reader
+ * whose viewer does not draw Mermaid, and for a search through the history.
+ * `points` are [label, value] pairs; a null value (a week with no data) is
+ * left out of both, since xychart has no way to draw a gap.
+ */
+function chart({ title, axis, kind, points, format, small = false }) {
+	const shown = points.filter(([, v]) => v != null);
+	if (!shown.length) return `_${title}: no data yet._\n`;
+	const values = shown.map(([, v]) => v);
+	let range;
+	if (axis === 'Position') {
+		// Written high to low, so rank 1 sits at the top of the chart and a line
+		// going up means a better rank, as in Search Console.
+		const top = Math.max(1, Math.floor(Math.min(...values)));
+		const bottom = Math.max(Math.ceil(Math.max(...values)), top + 1);
+		range = `${bottom} --> ${top}`;
+	} else {
+		range = `0 --> ${roundUp(Math.max(...values))}`;
+	}
+	const round = (v) => (axis === 'Position' ? Number(v.toFixed(1)) : Math.round(v));
+	return [
+		'```mermaid',
+		// Smaller than the default 700 × 500, so the keyword and bucket charts
+		// read as a set of small multiples rather than a wall of full charts.
+		...(small ? ['---', 'config:', '  xyChart:', '    width: 500', '    height: 260', '---'] : []),
+		'xychart-beta',
+		`  title ${quoted(title)}`,
+		`  x-axis [${shown.map(([l]) => quoted(l)).join(', ')}]`,
+		`  y-axis ${quoted(axis)} ${range}`,
+		`  ${kind} [${values.map(round).join(', ')}]`,
+		'```',
+		'',
+		shown.map(([l, v]) => `${l}: ${format(v)}`).join(' · '),
+		''
+	].join('\n');
+}
+
+/** The Trends section: site totals, query counts by rank, and the tracked keywords over time. */
+function trendSection(trends) {
+	const { weeks, totals, buckets, keywords } = trends;
+	const labels = weeks.map((w) => dateLabel(w.end));
+	const series = (values) => labels.map((l, i) => [l, values[i]]);
+	const out = [];
+
+	out.push('## Trends');
+	out.push('');
+	out.push(
+		`The last ${weeks.length} weeks, ${weeks[0].start} to ${weeks.at(-1).end}. ` +
+			'Each point is the seven days ending on the date shown; the last one is this report’s week.'
+	);
+	out.push('');
+
+	out.push(
+		chart({
+			title: 'Clicks per week',
+			axis: 'Clicks',
+			kind: 'bar',
+			points: series(totals.map((t) => t.clicks)),
+			format: int
+		})
+	);
+	out.push(
+		chart({
+			title: 'Impressions per week',
+			axis: 'Impressions',
+			kind: 'bar',
+			points: series(totals.map((t) => t.impressions)),
+			format: int
+		})
+	);
+	out.push(
+		chart({
+			title: 'Average position per week',
+			axis: 'Position',
+			kind: 'line',
+			points: series(totals.map((t) => t.position)),
+			format: pos
+		})
+	);
+	out.push(
+		'Lower is better. The axis runs from the worst position at the bottom to the best at the top, so a rising line is a gain.'
+	);
+	out.push('');
+
+	out.push('### Queries by position');
+	out.push('');
+	out.push(
+		'How many queries averaged each rank that week. Search Console leaves rare queries out of query rows, so these add up to less than every search.'
+	);
+	out.push('');
+	BUCKETS.forEach((b, j) => {
+		out.push(
+			chart({
+				title: `Queries at position ${b.label}`,
+				axis: 'Queries',
+				kind: 'bar',
+				points: series(buckets.map((w) => w[j])),
+				format: int,
+				small: true
+			})
+		);
+	});
+
+	const impressionsOf = (k) => k.weeks.reduce((a, w) => a + (w?.impressions ?? 0), 0);
+	const enough = keywords.filter((k) => k.weeks.filter(Boolean).length >= MIN_TREND_POINTS);
+	const shown = [...enough]
+		.sort((a, b) => impressionsOf(b) - impressionsOf(a))
+		.slice(0, TREND_KEYWORDS);
+	const thin = keywords.length - enough.length;
+
+	out.push('### Tracked keywords over time');
+	out.push('');
+	out.push(
+		`Average position per week for the tracked keywords seen in at least ${MIN_TREND_POINTS} weeks, the ${TREND_KEYWORDS} with the most impressions first. ` +
+			'Weeks the keyword was not seen are skipped, so the points are not always evenly spaced in time.' +
+			(enough.length > shown.length
+				? ` ${enough.length - shown.length} more have enough weeks but fewer impressions.`
+				: '') +
+			(thin ? ` ${thin} more were seen in fewer than ${MIN_TREND_POINTS} weeks.` : '')
+	);
+	out.push('');
+	if (!shown.length) out.push('_Nothing to show yet._\n');
+	for (const k of shown) {
+		out.push(
+			chart({
+				title: k.keyword,
+				axis: 'Position',
+				kind: 'line',
+				points: series(k.weeks.map((w) => w?.position)),
+				format: pos,
+				small: true
+			})
+		);
+	}
+
+	return out.join('\n');
+}
+
 /**
  * The Markdown report. Pure: it takes the rows already fetched, so it can be
- * checked against fixtures without a key.
+ * checked against fixtures without a key. `trends` is weeklyTrends()'s result.
  */
-export function buildReport({ site, win, totals, queries, pages, tracked }) {
+export function buildReport({ site, win, totals, queries, pages, tracked, trends }) {
 	const prevQuery = new Map(queries.previous.map((r) => [r.key, r]));
 	const prevPage = new Map(pages.previous.map((r) => [r.key, r]));
 	const nowQuery = new Map(queries.current.map((r) => [r.key, r]));
@@ -255,6 +522,9 @@ export function buildReport({ site, win, totals, queries, pages, tracked }) {
 			]
 		)
 	);
+
+	// Optional, so a caller with only this week's rows still gets a report.
+	if (trends) out.push(trendSection(trends));
 
 	out.push('## Tracked keywords');
 	out.push('');
@@ -389,13 +659,21 @@ async function main() {
 		current: await rows(call, site, dimensions, win.current),
 		previous: await rows(call, site, dimensions, win.previous)
 	});
+	const weeks = trendWeeks(win.current.end);
+	const trendRange = { start: weeks[0].start, end: weeks.at(-1).end };
 	const data = {
 		site,
 		win,
 		totals: await fetchBoth([]),
 		queries: await fetchBoth(['query']),
 		pages: await fetchBoth(['page']),
-		tracked
+		tracked,
+		trends: weeklyTrends({
+			weeks,
+			tracked,
+			days: await fetchRows(call, site, ['date'], trendRange),
+			queryDays: await fetchRows(call, site, ['query', 'date'], trendRange, TREND_MAX_PAGES)
+		})
 	};
 	const report = buildReport(data);
 
