@@ -5,6 +5,8 @@
 		tokenCaps,
 		tokenEarning,
 		tokenGift,
+		tokenInviteNote,
+		tokenInvites,
 		tokenIsNot,
 		tokenSinks,
 		welcomeBackBonus
@@ -66,6 +68,23 @@
 					<span class="v quiet">{tokenGift.range}</span>
 				</li>
 			</ul>
+		</article>
+
+		<article class="block">
+			<h2>Inviting somebody</h2>
+			<p>
+				Your invite code is your username. The award waits until they have actually talked to
+				someone.
+			</p>
+			<ul class="rows" role="list">
+				{#each tokenInvites as row}
+					<li>
+						<span class="k">{row.when}</span>
+						<span class="v">+{row.amount}</span>
+					</li>
+				{/each}
+			</ul>
+			<p>{tokenInviteNote}</p>
 		</article>
 
 		<article class="block">
