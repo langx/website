@@ -167,4 +167,4 @@ LangX Copilot, private AI feedback in the chat, is planned for the Polyglot plan
 
 ### Is there a free language exchange app with no ads for 2027?
 
-At the time of writing, LangX has no ads on any plan, including Free, where replies and corrections are unlimited and you can start 5 new conversations a day. Speaky, Conversation Exchange and InterPals also need no subscription, though some show ads.
+At the time of writing, LangX has no ads on any plan, including Free, where replies and corrections are unlimited and you can start 5 new conversations a day. Speaky, Conversation Exchange and InterPals also need no subscription, though all three show ads.
