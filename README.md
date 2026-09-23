@@ -4,6 +4,12 @@
 
 Welcome to LangX! LangX matches you with people who speak the language you're learning and are learning the language you speak — real conversations, message corrections and built-in translation, on iOS, Android and the web.
 
+This repository is the site at [langx.io](https://langx.io): the product pages, the
+[blog](https://langx.io/blog), and a set of free [language tools](https://langx.io/tools) —
+the most common words in 53 languages, "say it in any language", word games, a
+vocabulary test and more, with the words read aloud by the same voices the app
+uses (see [`scripts/wordlists/`](scripts/wordlists)).
+
 ## Keeping the numbers honest
 
 Several pages state limits and prices that are enforced by the app, not by this
@@ -32,9 +38,12 @@ Before adding a feature claim, check it is one the shipping app actually meets.
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
+- [Keeping the numbers honest](#keeping-the-numbers-honest)
+- [Getting started](#getting-started)
 - [Building](#building)
 - [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Stats](#stats)
 - [License](#license)
 
 ## Getting started
@@ -70,20 +79,23 @@ You can preview the production build with `npm run preview`.
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to LangX, please fork our repository and submit a pull request. We'll review your changes and merge them if they meet our guidelines. Thank you for helping to make LangX even better!
+LangX is open source and we welcome contributions from the community. Fork the
+repository, make your change, and open a pull request — before you do, run:
 
 ```bash
-$ npm run lint
-$ npm run format
+npm run lint
+npm run format
 ```
 
 We'll review your changes and merge them if they meet our guidelines. Thank you for helping to make LangX even better!
 
-LangX is an open source project and we welcome contributions from the community. If you're interested in contributing, please check out our GitHub repository for more information.
-
 ## Versioning
 
 LangX uses [Semantic Versioning](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/langx/website/releases).
+
+### [v2](https://github.com/langx/website/releases/tag/v2.0.0)
+
+![Site Preview v2 langx.io](static/versioning/v2.png)
 
 ### [v0.2](https://github.com/langx/website/releases/tag/v0.2)
 
