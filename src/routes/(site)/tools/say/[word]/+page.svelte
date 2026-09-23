@@ -2,10 +2,13 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
+	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import type { SayWord } from '$lib/data/say-words';
+	import { audioSprite } from '$lib/utils/audioSprite';
+	import { onDestroy } from 'svelte';
 
 	type Row = {
 		code: string;
@@ -15,10 +18,44 @@
 		name: string;
 		native: string;
 		slug: string;
+		/** Start and length in this page's audio file, in ms; null with no voice. */
+		audio: [number, number] | null;
 	};
+	type Credit = { language: string; name: string; url: string; licence: string };
 
-	export let data: { entry: SayWord; rows: Row[]; nearby: SayWord[] };
-	$: ({ entry, rows, nearby } = data);
+	export let data: { entry: SayWord; rows: Row[]; nearby: SayWord[]; credits: Credit[] };
+	$: ({ entry, rows, nearby, credits } = data);
+	$: voiced = rows.filter((r) => r.audio).length;
+
+	/**
+	 * One audio file per page, fetched on the first press. Moving to the next
+	 * word reuses this component, so the player is swapped when the slug is —
+	 * and whatever the last page was saying stops with it.
+	 */
+	let sprite: ReturnType<typeof audioSprite> | null = null;
+	let spriteFor = '';
+	let playing: string | null = null;
+	let presses = 0;
+	$: if (entry.slug !== spriteFor) {
+		sprite?.stop();
+		sprite = audioSprite(`/audio/say/${entry.slug}.mp3`);
+		spriteFor = entry.slug;
+		playing = null;
+	}
+	onDestroy(() => sprite?.stop());
+
+	async function say(r: Row) {
+		if (!r.audio || !sprite) return;
+		const press = ++presses;
+		playing = r.code;
+		try {
+			await sprite.play(r.audio[0], r.audio[1]);
+		} catch {
+			// Offline, or the file is missing: the button simply stops glowing.
+		} finally {
+			if (press === presses) playing = null;
+		}
+	}
 
 	const nf = new Intl.NumberFormat('en-US');
 	$: title = `How to say “${entry.word}” in ${entry.count} different languages`;
@@ -184,17 +221,44 @@
 
 	<ul class="rows" role="list">
 		{#each rows as r}
+			<!-- The row is still one link to the language's list, but the link is the
+			     language name stretched over the row rather than a wrapper round it:
+			     a button inside a link is not a thing a browser will let you press. -->
 			<li>
-				<a href="/tools/most-common-words/{r.slug}">
-					<ScriptDisc nativeName={r.native} code={r.code} size={34} />
-					<span class="lang">{r.name}</span>
-					<span class="term" lang={r.code}>{r.word}</span>
-					{#if adds(r.gloss, entry.word)}<span class="gloss">{r.gloss}</span>{:else}<span />{/if}
-					<span class="rank tabular">#{nf.format(r.rank)}</span>
-				</a>
+				<ScriptDisc nativeName={r.native} code={r.code} size={34} />
+				<a class="lang" href="/tools/most-common-words/{r.slug}">{r.name}</a>
+				<span class="term"
+					><span lang={r.code}>{r.word}</span>{#if r.audio}<button
+							type="button"
+							class="say"
+							class:on={playing === r.code}
+							aria-label="Hear {r.word} in {r.name}"
+							on:click={() => say(r)}><UiIcon name="volume" size={18} strokeWidth={2.25} /></button
+						>{/if}</span
+				>
+				{#if adds(r.gloss, entry.word)}<span class="gloss">{r.gloss}</span>{:else}<span />{/if}
+				<span class="rank tabular">#{nf.format(r.rank)}</span>
 			</li>
 		{/each}
 	</ul>
+
+	{#if voiced}
+		<p class="credit">
+			The speaker reads the word in the voice the LangX app uses for that language — synthesised,
+			not a recording of a native speaker, so treat it as a guide. A row without a button has no
+			reading we are free to use, or none we trust, yet.{#if credits.length}
+				{' '}Voices for {#each credits as c, i}{c.language} (<a
+						href={c.url}
+						rel="noopener noreferrer"
+						target="_blank">{c.name}</a
+					>, {c.licence}){i === credits.length - 1
+						? '.'
+						: i === credits.length - 2
+						? ' and '
+						: ', '}{/each}
+			{/if}
+		</p>
+	{/if}
 
 	<nav class="nearby" aria-label="Other words">
 		<h2>Other words</h2>
@@ -257,15 +321,13 @@
 		border-top: 1px solid var(--color--border);
 
 		li {
-			border-bottom: 1px solid var(--color--border);
-		}
-
-		a {
+			position: relative;
 			display: grid;
 			grid-template-columns: auto minmax(7rem, auto) minmax(6rem, auto) 1fr auto;
 			align-items: center;
 			gap: var(--space-sm);
 			padding: 12px 0;
+			border-bottom: 1px solid var(--color--border);
 			color: var(--color--text);
 		}
 	}
@@ -273,12 +335,79 @@
 	.lang {
 		color: var(--color--text-shade);
 		font-size: 0.9375rem;
+
+		// The whole row is the link, as it was before the row had a button in it.
+		&::after {
+			content: '';
+			position: absolute;
+			inset: 0;
+		}
 	}
 
 	.term {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
 		font-family: var(--font--title);
 		font-weight: 800;
 		overflow-wrap: anywhere;
+	}
+
+	.say {
+		// Above the stretched link, or every press would open the language list.
+		position: relative;
+		z-index: 1;
+		flex: 0 0 auto;
+		display: inline-grid;
+		place-items: center;
+		width: 32px;
+		height: 32px;
+		margin: -4px 0;
+		border: 0;
+		border-radius: var(--radius-pill);
+		background: transparent;
+		color: var(--color--accent);
+		cursor: pointer;
+		transition: background-color 200ms ease, transform 160ms ease-out;
+
+		@media (hover: hover) and (pointer: fine) {
+			&:hover {
+				background: var(--color--accent-tint);
+			}
+		}
+
+		&:active {
+			transform: scale(0.97);
+		}
+
+		&:focus-visible {
+			outline: 2px solid var(--color--accent);
+			outline-offset: 2px;
+		}
+
+		&.on {
+			background: var(--color--accent-tint);
+
+			:global(.ui-icon) {
+				animation: speaking 0.9s ease-in-out infinite;
+			}
+		}
+
+		@media (prefers-reduced-motion: reduce) {
+			&:active {
+				transform: none;
+			}
+
+			&.on :global(.ui-icon) {
+				animation: none;
+			}
+		}
+	}
+
+	@keyframes speaking {
+		50% {
+			opacity: 0.45;
+		}
 	}
 
 	.gloss {
@@ -293,13 +422,21 @@
 	}
 
 	@include for-phone-only {
-		.rows a {
+		.rows li {
 			grid-template-columns: auto 1fr auto;
 			row-gap: 2px;
 		}
+		// Both pinned to the first row. With only the language placed, the word
+		// was auto-placed after it — which on a three-column row is the next
+		// line, under the disc.
 		.lang {
 			grid-column: 3;
+			grid-row: 1;
 			text-align: right;
+		}
+		.term {
+			grid-column: 2;
+			grid-row: 1;
 		}
 		.gloss {
 			grid-column: 2 / 4;
@@ -307,6 +444,13 @@
 		.rank {
 			display: none;
 		}
+	}
+
+	.credit {
+		font-size: 0.8125rem;
+		color: var(--color--text-tertiary);
+		max-width: 70ch;
+		margin: var(--space-sm) 0 var(--space-md);
 	}
 
 	.nearby,

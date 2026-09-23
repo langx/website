@@ -60,7 +60,8 @@
 		lede="{nf.format(
 			SAY_WORDS.length
 		)} everyday words, each one shown across every language that has a
-		common word for it — with how often that language actually uses it."
+		common word for it — with how often that language actually uses it,
+		and a button to hear it said in most of them."
 	/>
 
 	<section class="block">
