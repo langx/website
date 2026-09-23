@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Spanish with native speakers are **HelloTalk** and **Tandem** for the largest pool of Spanish-speaking partners, **LangX** if you want every message open to correction and no ads, **Conversation Exchange** for meeting a partner in person, and **italki** or **Preply** if you want a paid tutor on video. Pair any of them with a listening resource like **Dreaming**, and you cover both halves of the job: understanding Spanish and producing it.
 
 Spanish is one of the easiest languages to find partners for, because it is spoken across Spain and Latin America and many Spanish speakers are keen to practice English. The harder choices are which Spanish you want, and how much structure you need. This guide covers both.
+
+<KeyTakeaways items={[
+  "HelloTalk and Tandem have the largest pool of Spanish-speaking partners.",
+  "LangX: every message open to correction, and no ads.",
+  "Conversation Exchange for meeting a partner in person; italki or Preply for a paid tutor on video.",
+  "Add a listening resource like Dreaming to cover both understanding and speaking.",
+  "Spain and Latin America differ (vosotros, vos, vocabulary), but speakers understand each other easily."
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across all languages, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -70,6 +82,19 @@ Features change often, so check each store listing before committing. We do not 
 - **Best for:** volume and variety, and live group audio in Voicerooms.
 - **Keep in mind:** the free tier has ads and daily caps on translation; VIP removes them. Popular profiles get many messages, so write a specific opener.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The biggest exchange community, so Spanish-speaking partners are easy to find",
+    "Moments: several native speakers from different countries correct your post",
+    "Live group audio in Voicerooms"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation; VIP removes them",
+    "Popular profiles get many messages, so you need a specific opener"
+  ]}
+/>
+
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 ### Tandem
@@ -79,6 +104,19 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 - **Best for:** finding a regular partner for weekly calls.
 - **Keep in mind:** approval can take time, and some filters and unlimited translation are in Tandem Pro.
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members and focuses on one-to-one exchange",
+    "Filter for a partner in a particular country to practice the Spanish you need",
+    "Good for finding a regular partner for weekly calls"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
 ### LangX
@@ -87,6 +125,12 @@ Our app. [LangX](https://get.langx.io) matches in both directions: set Spanish a
 
 - **Best for:** writing practice where fixing mistakes is the point, with no ads.
 - **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only voice, photo and text messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Translation is inside the chat, and read-aloud lets you hear a message spoken."
+/>
 
 ### Speaky
 
@@ -117,6 +161,16 @@ Keep it short, friendly, and specific to their profile. Tú is normal between ex
 > ¡Hola, Lucía! ¿Qué tal? Me llamo Sam y soy de Canadá. Estoy aprendiendo español y vi que estás aprendiendo inglés. ¿Te ayudo con el inglés y tú me corriges el español?
 
 In English: "Hi Lucía! How's it going? My name is Sam and I'm from Canada. I'm learning Spanish and I saw you're learning English. Shall I help you with English and you correct my Spanish?"
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello", text: "¡Hola, Lucía! ¿Qué tal?" },
+    { title: "Introduce yourself", text: "Me llamo Sam y soy de Canadá." },
+    { title: "Say what you're learning, and what they are", text: "Estoy aprendiendo español y vi que estás aprendiendo inglés." },
+    { title: "Offer help and ask for corrections", text: "¿Te ayudo con el inglés y tú me corriges el español?" }
+  ]}
+/>
 
 Three more phrases you will use every week:
 

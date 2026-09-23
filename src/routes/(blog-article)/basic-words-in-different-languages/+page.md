@@ -24,11 +24,22 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import WordTiles from "$lib/components/blog/WordTiles.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Hello is *hola* in Spanish, *привет* in Russian, 你好 in Chinese and *merhaba* in Turkish. Thank you is *merci* in French, *спасибо* in Russian and 감사합니다 in Korean, and please is *bitte* in German and *lütfen* in Turkish. Below are the survival words, the ones you need on day one, in more than 30 languages and a dozen scripts.
 
 Every word here comes from real usage data, not from a phrasebook, and each section links to the full page on our free [Say it in any language](/tools/say) tool.
+
+<KeyTakeaways items={[
+  "Every word comes from film and TV subtitle frequency lists (OpenSubtitles 2018), matched to English through Wiktionary.",
+  "The lists count single words, so two-word phrases like good night can't appear, and some languages are missing from some tables.",
+  "Yes is the most common basic word in this data: the top word in Macedonian and in the top 20 for many other languages.",
+  "Politeness levels and context change the word, so a list is a start, not a phrasebook.",
+  "Every section links to the full list for that word, in up to 53 languages."
+]} />
 
 ## Where these words come from
 
@@ -42,6 +53,21 @@ A few things to know before you read the tables:
 
 ## Hello in different languages
 
+
+<WordTiles
+  english="hello"
+  href="/tools/say/hello"
+  words={[
+    { language: "Spanish", word: "hola", code: "es" },
+    { language: "French", word: "salut", code: "fr" },
+    { language: "Russian", word: "привет", code: "ru" },
+    { language: "Greek", word: "γεια", code: "el" },
+    { language: "Arabic", word: "مرحبا", code: "ar" },
+    { language: "Georgian", word: "გამარჯობა", code: "ka" },
+    { language: "Chinese", word: "你好", code: "zh" },
+    { language: "Turkish", word: "merhaba", code: "tr" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | hola |
@@ -104,6 +130,21 @@ Several of these carry their own picture: the data glosses Persian خداحاف�
 
 ## Thank you in different languages
 
+
+<WordTiles
+  english="thank you"
+  href="/tools/say/thank"
+  words={[
+    { language: "French", word: "merci", code: "fr" },
+    { language: "German", word: "danke", code: "de" },
+    { language: "Russian", word: "спасибо", code: "ru" },
+    { language: "Arabic", word: "شكرا", code: "ar" },
+    { language: "Hindi", word: "धन्यवाद", code: "hi" },
+    { language: "Chinese", word: "謝謝", code: "zh" },
+    { language: "Korean", word: "감사합니다", code: "ko" },
+    { language: "Tagalog", word: "salamat", code: "tl" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | French | merci |
@@ -127,6 +168,21 @@ This table combines the "thank" and "thanks" pages. Thank you is one of the most
 
 ## Please in different languages
 
+
+<WordTiles
+  english="please"
+  href="/tools/say/please"
+  words={[
+    { language: "German", word: "bitte", code: "de" },
+    { language: "Dutch", word: "alsjeblieft", code: "nl" },
+    { language: "Russian", word: "пожалуйста", code: "ru" },
+    { language: "Hebrew", word: "בבקשה", code: "he" },
+    { language: "Turkish", word: "lütfen", code: "tr" },
+    { language: "Hindi", word: "कृपया", code: "hi" },
+    { language: "Korean", word: "제발", code: "ko" },
+    { language: "Indonesian", word: "tolong", code: "id" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | German | bitte |
@@ -148,6 +204,21 @@ Turkish *lütfen* is the 60th most used word in Turkish. Spanish has no row at a
 
 ## Yes in different languages
 
+
+<WordTiles
+  english="yes"
+  href="/tools/say/yes"
+  words={[
+    { language: "Spanish", word: "sí", code: "es" },
+    { language: "French", word: "oui", code: "fr" },
+    { language: "Russian", word: "да", code: "ru" },
+    { language: "Greek", word: "ναι", code: "el" },
+    { language: "Hebrew", word: "כן", code: "he" },
+    { language: "Arabic", word: "نعم", code: "ar" },
+    { language: "Turkish", word: "evet", code: "tr" },
+    { language: "Georgian", word: "დიახ", code: "ka" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | sí |
@@ -172,6 +243,21 @@ Why no "no" table? The tool doesn't have a page for "no" yet, and we would rathe
 
 ## Sorry in different languages
 
+
+<WordTiles
+  english="sorry"
+  href="/tools/say/sorry"
+  words={[
+    { language: "Spanish", word: "perdón", code: "es" },
+    { language: "Finnish", word: "anteeksi", code: "fi" },
+    { language: "Polish", word: "przepraszam", code: "pl" },
+    { language: "Greek", word: "συγγνώμη", code: "el" },
+    { language: "Turkish", word: "affedersiniz", code: "tr" },
+    { language: "Bengali", word: "দুঃখিত", code: "bn" },
+    { language: "Indonesian", word: "maaf", code: "id" },
+    { language: "Chinese", word: "抱歉", code: "zh" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | perdón |
@@ -320,6 +406,21 @@ Chinese 朋友 is the 26th most used word in Chinese. For more people words, see
 
 ## Water in different languages
 
+
+<WordTiles
+  english="water"
+  href="/tools/say/water"
+  words={[
+    { language: "Spanish", word: "agua", code: "es" },
+    { language: "French", word: "eau", code: "fr" },
+    { language: "Russian", word: "вода", code: "ru" },
+    { language: "Arabic", word: "ماء", code: "ar" },
+    { language: "Hindi", word: "पानी", code: "hi" },
+    { language: "Georgian", word: "წყალი", code: "ka" },
+    { language: "Korean", word: "물", code: "ko" },
+    { language: "Vietnamese", word: "nước", code: "vi" }
+  ]}
+/>
 | Language | Word |
 | --- | --- |
 | Spanish | agua |
@@ -374,6 +475,12 @@ The fix is to hear the words in real conversation. Our guide to [how to do a lan
 If you want to go beyond survival words, the [most common words lists](/tools/most-common-words) show the top words in each language, and [how many words you need to be fluent](/how-many-words-do-you-need-to-be-fluent) puts those lists in context. If your language uses another script, the [alphabet pages](/tools/alphabet) show every letter.
 
 ## Practice them with a native speaker
+
+<AppDemo
+  screen="chat"
+  title="Try your first hello on a real person"
+  text="Open a conversation in the language you're learning. When you get a word or a form of politeness wrong, your partner holds your message to correct it, and translation is built into the chat."
+/>
 
 On [LangX](/), you're matched with people who speak the language you're learning and are learning yours. Open a conversation with a hello, and when you get a word or a form of politeness wrong, your partner can hold your message to correct it. Corrections are unlimited on every plan. If a word stumps you, translation is built into the chat. The free plan gives you five new conversations a day, with replies unlimited. You can [get the app here](https://get.langx.io), or read [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) first.
 

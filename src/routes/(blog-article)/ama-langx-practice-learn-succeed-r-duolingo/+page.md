@@ -21,10 +21,19 @@ tags:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
 At LangX, we’re excited to bring you a revolutionary language learning experience. As a completely free, open-source, and ad-free platform, LangX is designed to enhance your language learning journey through advanced features and a community-driven approach. In this blog post, we’ll share highlights from our recent AMA session on r/duolingo, where we introduced LangX to the community.
+
+<KeyTakeaways items={[
+  "In June 2024 the LangX team held an AMA on r/duolingo to introduce the app.",
+  "LangX is an open-source app focused on language exchange and practice.",
+  "At the time it had over 5000 users and 200 contributors.",
+  "The plans then: a spaced repetition algorithm, more gamification and better analytics."
+]} />
 
 <Callout type="info">
 Join our AMA on r/duolingo to learn more about LangX, our innovative features, and how our community-centric approach can help you achieve your language learning goals.
@@ -66,9 +75,11 @@ Our platform is completely open-sourced, and we invite you to join our developer
 
 We’re continuously working to improve LangX and have exciting plans for the future, including:
 
-- Implementing a Space Repetition Algorithm similar to Duolingo
-- Introducing more gamification features
-- Enhancing our analytics with advanced reporting and custom dashboards
+<Steps steps={[
+  { title: "Implementing a Space Repetition Algorithm similar to Duolingo" },
+  { title: "Introducing more gamification features" },
+  { title: "Enhancing our analytics with advanced reporting and custom dashboards" }
+]} />
 
 ## Join the LangX Community
 

@@ -24,9 +24,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 To find a language exchange meetup near you, search [Meetup](https://www.meetup.com) for "language exchange" plus your city, check whether [Mundo Lingo](https://mundolingo.org) or a Polyglot Club runs a weekly night where you live, ask your university's language center about tandem programs, and look at language exchange events on Couchsurfing. Most meetups are free: you show up at a bar or café, wear a sticker or name tag with your languages, and talk to whoever speaks what you are learning.
+
+<KeyTakeaways items={[
+  "Search Meetup for \"language exchange\" plus your city, and check Mundo Lingo, Polyglot Clubs and Couchsurfing events.",
+  "Students should ask their university about tandem programs, which pair you with one steady partner.",
+  "Most meetups are free; you are usually expected to buy a drink at the venue.",
+  "Prepare a short introduction and a few questions, then keep practicing between events."
+]} />
 
 One evening at a meetup can give you more speaking time than a week of apps. This guide covers where meetups are listed, what happens at one, your first event, and how to keep practicing in between. Details about each organization are from their own sites at the time of writing (September 2026), and schedules change, so always check the listing before you go.
 
@@ -59,6 +70,12 @@ Joining a group is usually free, though some organizers charge a small fee for p
 
 There is no registration or ticket, and Mundo Lingo says it never charges entry; buying a drink supports the venue. At the time of writing its [city directory](https://mundolingo.org/cities) lists active chapters in places including Buenos Aires, São Paulo, Rio de Janeiro, New York City, San Francisco, Montreal, London, Paris, Madrid, Lisbon, Stockholm, Bangkok and Melbourne. Check the directory for your city and the current night.
 
+<StatRow stats={[
+  { value: "1,300+", label: "language exchange groups on Meetup's topic page (September 2026)" },
+  { value: "2011", label: "the year Mundo Lingo started, in Buenos Aires" },
+  { value: "Free", label: "entry at Mundo Lingo, which says it never charges" }
+]} />
+
 ### Polyglot Clubs and other recurring socials
 
 Many cities have a long-running multilingual social under its own name. Polyglot Club groups are a common example: [Polyglot Club Paris](https://www.meetup.com/polyglotclub-paris/), for instance, lists free weekly events on Meetup. The format is similar to Mundo Lingo: a bar, a crowd, and tables or badges organized by language. Search Meetup and local listings for "polyglot," "language café" or "tandem" in your city.
@@ -88,6 +105,17 @@ Formats vary, but most follow one of three patterns:
 Expect short conversations with lots of people rather than one long one. You will repeat your introduction many times, which is actually great practice. Levels are mixed: you will meet complete beginners and near-native speakers in the same room. And you will probably speak English more than you plan to, because it is often the shared language. Steering back to your target language politely is part of the skill.
 
 ## Tips for your first language exchange meetup
+
+<Steps
+  title="Your first meetup, step by step"
+  steps={[
+    { title: "Prepare a 30-second introduction", text: "Name, where you are from, what you do, why you are learning. You will use it all night." },
+    { title: "Have five questions ready", text: "Conversations stall when you run out of questions, not words." },
+    { title: "Suggest a split", text: "\"Can we do ten minutes in Spanish and then ten in English?\" is a perfectly normal thing to say." },
+    { title: "Swap usernames with people you click with", text: "Exchanging usernames on a language app is less personal than a phone number." },
+    { title: "Keep practicing until the next event", text: "The meetup gives you speaking time; daily messages keep the words from fading." }
+  ]}
+/>
 
 ### Prepare your introduction
 
@@ -122,6 +150,12 @@ A weekly meetup gives you maybe an hour or two of real speaking. That is excelle
 - **After the event**, keep talking to the people you clicked with, or to a partner matched on an app, a few messages a day. Ask them how to say the things you got stuck on.
 
 This is where a language exchange app fits. [LangX](/) (our app) matches you in both directions, so you only see people who speak the language you are learning and are learning one you speak. You can hold any message to correct it, with corrections unlimited on every plan, use translation in the chat, and send voice messages to practice pronunciation. There are no live calls, so the meetup stays your place to speak face to face, and the app keeps the language alive between events. The free plan allows 5 new conversations a day, with unlimited replies. [Get it here](https://get.langx.io), or compare other options in [the best language exchange apps](/best-language-exchange-apps).
+
+<AppDemo
+  screen="discover"
+  title="Between meetups"
+  text="LangX shows you people who speak the language you are learning and are learning one you speak, so the practice keeps going between events."
+/>
 
 For the bigger picture, see [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) and [how to do a language exchange](/how-to-do-a-language-exchange). And if you want to understand why a little every day beats a lot once a week, we explain it in [why consistent practice is key](/why-consistent-practice-is-key-to-language-learning-success).
 

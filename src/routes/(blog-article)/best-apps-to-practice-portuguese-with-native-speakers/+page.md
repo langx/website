@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Portuguese with native speakers are **HelloTalk** and **Tandem** for the biggest pool of partners, **LangX** if you want every message open to correction and no ads, **Lingbe** for instant voice calls, and **italki** or **Preply** for a paid tutor from Brazil or Portugal. For European Portuguese in particular, add **Practice Portuguese**, a course made only for the Portuguese of Portugal.
 
 The first decision is not which app, but which Portuguese. Brazilian and European Portuguese are one language, yet they sound different enough that many learners pick one and look for partners from that country. This guide covers the apps and the choice.
+
+<KeyTakeaways items={[
+  "HelloTalk and Tandem have the biggest pool of partners, most of them Brazilian.",
+  "LangX: every message open to correction, and no ads. Lingbe: instant voice calls.",
+  "italki or Preply for a paid tutor from Brazil or Portugal.",
+  "Pick the variety of the place you will actually use it; with no preference, Brazilian is easier to find partners for.",
+  "For European Portuguese, add Practice Portuguese and use a country filter."
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -76,6 +88,18 @@ Features change often, so check each store listing before committing. We do not 
 
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The largest exchange community; Portuguese speakers, mostly Brazilian, are easy to find",
+    "Moments: corrections from several native speakers",
+    "Live group audio in Voicerooms"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation and some tools; VIP removes them"
+  ]}
+/>
+
 ### Tandem
 
 [Tandem](https://tandem.net) reviews new members and focuses on one-to-one conversations with text, voice messages and calls. Its country filter makes it one of the easier ways to find a partner in Portugal specifically.
@@ -85,12 +109,31 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members and focuses on one-to-one conversations",
+    "Country filter: one of the easier ways to find a partner in Portugal",
+    "Text, voice messages and calls for a regular weekly call"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Portuguese as the language you are learning and you see Portuguese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, handy when a partner from the other variety wants to show you how they would say it. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken.
 
 - **Best for:** written practice where fixing mistakes is the point, with no ads.
 - **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. The country filter is free. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Translation is inside the chat, and read-aloud lets you hear a message spoken."
+/>
 
 ### Lingbe
 
@@ -127,6 +170,16 @@ And to a partner in Portugal:
 > Olá, Ana! Tudo bem? Chamo-me Sam e sou do Canadá. Estou a aprender português e vi que estás a aprender inglês. Eu ajudo-te com o inglês e tu corriges o meu português?
 
 In English: "Hi Ana! How are you? My name is Sam and I'm from Canada. I'm learning Portuguese and I saw you're learning English. I help you with English and you correct my Portuguese?" Notice *aprendendo* against *a aprender*, *você* against *tu*, and where the pronoun goes: *te ajudo* in Brazil, *ajudo-te* in Portugal.
+
+<Steps
+  title="The first message, step by step (Brazilian Portuguese)"
+  steps={[
+    { title: "Say hello and introduce yourself", text: "Oi, Ana! Tudo bem? Meu nome é Sam e sou do Canadá." },
+    { title: "Say what you're learning, and what they are", text: "Estou aprendendo português e vi que você está aprendendo inglês." },
+    { title: "Suggest an exchange", text: "Vamos nos ajudar?" },
+    { title: "Offer help and ask for corrections", text: "Eu te ajudo com o inglês e você corrige o meu português." }
+  ]}
+/>
 
 Three more phrases you will use every week, the same in both varieties:
 

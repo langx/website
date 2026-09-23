@@ -21,9 +21,23 @@ keywords:
   - lingbe language exchange
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to Lingbe, LangX is a free, open source (BSD-3) language exchange app for iOS, Android and the web built around chat: two-way matching, corrections on any message, translation inside the conversation, and voice messages. Lingbe does something different and does it well: you press a button and get a live voice call with a native speaker. So LangX vs Lingbe is really a question of whether you want to practice by writing and recording at your own pace, or by talking live right now.
 
 This page compares the two fairly, as of September 2026. We make LangX, and we will tell you plainly when Lingbe is the better pick.
+
+<KeyTakeaways items={[
+  "Lingbe connects you to a live voice call with a native speaker at the press of a button.",
+  "LangX is chat-first: two-way matching, corrections on any message, translation and voice messages.",
+  "Lingbe runs on credits (lingos); on LangX replies and corrections are unlimited on every plan.",
+  "LangX is open source (BSD-3) with no ads, but has no live calls."
+]} />
 
 ## What is Lingbe?
 
@@ -32,6 +46,34 @@ Lingbe is a language exchange app from lingbe SL, a company based in Madrid. At 
 Its idea is simple. You press the call button and Lingbe connects you with someone who can help you practice your target language in that moment. Practice time runs on a credit called **lingos**: you get some free practice minutes when you sign up, you earn more lingos by helping people who are learning your native language, and you spend them to practice your own. There is also a paid Pro subscription and lingo packs for sale.
 
 ## LangX vs Lingbe at a glance
+
+<VersusCard
+  title="LangX vs Lingbe"
+  a={{
+    name: "LangX",
+    tagline: "Text chat with voice, photo and video messages",
+    points: [
+      "Two-way matching; you choose whom to message",
+      "Correct any message in the chat, unlimited on every plan",
+      "Translation built into the chat",
+      "No live calls",
+      "No ads; open source, BSD-3; iOS, Android and web"
+    ],
+    bestFor: "written and recorded practice at your own pace"
+  }}
+  b={{
+    name: "Lingbe",
+    tagline: "Instant live voice calls",
+    points: [
+      "Press a button to be connected to an available speaker",
+      "Ratings on grammar, pronunciation and fluency after each call",
+      "Practice paid for with lingos, earned by helping or bought",
+      "Google Play lists the app as containing ads",
+      "iOS and Android"
+    ],
+    bestFor: "live speaking practice right now"
+  }}
+/>
 
 *LangX vs Lingbe: how the open source alternative to Lingbe compares (September 2026)*
 
@@ -61,6 +103,22 @@ Lingbe solves the hardest part of speaking practice: actually opening your mouth
 - **Keep the good partners.** If you both like each other after a call, you can chat and practice again later, like a normal messaging app.
 - **Lingbe Tasks.** You can ask native speakers specific questions about their language, and answer others' questions to earn lingos.
 
+<ProsCons
+  name="Lingbe"
+  pros={[
+    "Zero setup: press a button and you are talking",
+    "Live calls train listening speed and spontaneous speech",
+    "You earn practice time by helping other learners",
+    "Ratings on grammar, pronunciation and fluency after each call"
+  ]}
+  cons={[
+    "Practice time is metered in lingos",
+    "Feedback is an overall rating, not a fix on the exact sentence",
+    "A live call with a stranger is a big step at A1 or A2",
+    "Google Play lists ads; no web version; closed source"
+  ]}
+/>
+
 If you already hold basic conversations and you want more live speaking time, Lingbe is a genuinely good choice.
 
 ## Where LangX differs
@@ -70,6 +128,12 @@ LangX is for the practice that happens between and around live conversations: wr
 ### You pick who you talk to
 
 On LangX you only see people who speak the language you are learning *and* are learning a language you speak, and you choose whom to message. Free filters cover country, age and level. Lingbe's instant matching is faster; LangX gives you more control over who your partners are.
+
+<AppDemo
+  screen="discover"
+  title="You choose your partners"
+  text="Discover on LangX shows only people who speak the language you are learning and are learning a language you speak. You decide whom to message."
+/>
 
 ### Corrections on the actual sentence
 

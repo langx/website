@@ -23,9 +23,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 The best language exchange Discord servers are ones built around a single language pair, such as the Spanish-English Learning Server or the English-Japanese Language Exchange, plus a few large multi-language servers like r/Language_Exchange's official server. To find more, search Discord's own server discovery or a list like Disboard for "language exchange" plus your language, then judge each server by its activity, its moderation and whether its voice channels are actually used.
+
+<KeyTakeaways items={[
+  "The best servers are built around one language pair, such as Spanish-English or English-Japanese.",
+  "Find more through Discord's server discovery, Disboard or the communities you already use.",
+  "Judge a server in five minutes: activity, used voice channels, native speakers, rules and learning structure.",
+  "Limit direct messages, never click unexpected links, and keep money out of it."
+]} />
 
 Discord is one of the best free places to practice speaking, because many servers have voice channels you can drop into at any hour. It is also noisy, and server lists are full of abandoned or mislabeled communities. This guide lists the servers we could verify, explains how to evaluate any server in five minutes, and covers the etiquette and safety basics. For the bigger picture on where to find partners, see [how to find a language exchange partner](/how-to-find-a-language-exchange-partner).
 
@@ -64,11 +75,16 @@ Servers change names, merge and close. If an invite stops working, search for th
 
 Give a new server five minutes before you commit:
 
-- **Is it active in your time zone?** Scroll the main text channels. Messages from the last hour are a good sign; the last message a month ago is not.
-- **Are the voice channels used?** Look at the sidebar at the time you would practice. If nobody is ever in voice, the server will not help your speaking.
-- **Is there a balance of native speakers?** Good exchange servers use roles to show native and learning languages. If almost everyone is a learner of the same language, you will struggle to find partners.
-- **Are the rules clear and enforced?** Look for a rules channel, visible moderators, and channels kept on topic. No rules usually means no moderation.
-- **Does it have learning structure?** Correction channels, question channels, study resources, or scheduled events such as reading clubs are signs of a server built for learners, not just a chat room with a flag in its name.
+<Steps
+  title="The five-minute server check"
+  steps={[
+    { title: "Is it active in your time zone?", text: "Scroll the main text channels. Messages from the last hour are a good sign; the last message a month ago is not." },
+    { title: "Are the voice channels used?", text: "Look at the sidebar at the time you would practice. If nobody is ever in voice, the server will not help your speaking." },
+    { title: "Is there a balance of native speakers?", text: "Good exchange servers use roles to show native and learning languages. If almost everyone is a learner of the same language, you will struggle to find partners." },
+    { title: "Are the rules clear and enforced?", text: "Look for a rules channel, visible moderators, and channels kept on topic. No rules usually means no moderation." },
+    { title: "Does it have learning structure?", text: "Correction channels, question channels, study resources, or scheduled events such as reading clubs are signs of a server built for learners, not just a chat room with a flag in its name." }
+  ]}
+/>
 
 ## Discord etiquette for language exchange
 
@@ -116,6 +132,11 @@ If someone moves from language practice to romance, money or pressure to switch 
 
 Discord and apps are good at different things, and many learners use both.
 
+<VersusCard
+  a={{ name: "Discord servers", tagline: "Free", points: ["Group voice chat, community and events", "You find people yourself in channels", "Corrections by quoting and rewriting by hand", "Busy, fast, sometimes chaotic"], bestFor: "group voice practice" }}
+  b={{ name: "Language exchange apps", tagline: "Usually a free plan, with paid options", points: ["One-to-one partners, steady daily practice", "The app matches you by language", "Built-in correction tools on most apps", "Calm, one conversation at a time"], bestFor: "a partner matched for you" }}
+/>
+
 | | Discord servers | Language exchange apps |
 | --- | --- | --- |
 | Best for | Group voice chat, community, events | One-to-one partners, steady daily practice |
@@ -131,6 +152,12 @@ A common pattern: meet people in a Discord voice channel, then keep practicing w
 LangX, our own language exchange app, has a community Discord server at [discord.langx.io](https://discord.langx.io). Be clear on what it is: it is the **project's community server**, where users give feedback, report bugs, follow updates and where contributors to the open source code talk. It is not a matching service and not a language exchange server like the ones above.
 
 To practice in LangX itself, [get the app](https://get.langx.io) on iOS, Android or the web. It matches you in both directions, lets you correct any message by holding it, with corrections unlimited on every plan, and supports voice and photo messages. It has no live calls, so for group voice practice, Discord is the better tool. More on the app is on the [LangX home page](/).
+
+<AppDemo
+  screen="chat"
+  title="Practice happens in the app, not on Discord"
+  text="In LangX you are matched one-to-one and can correct any message by holding it. Voice and photo messages are built in; live calls are not."
+/>
 
 ## FAQ
 

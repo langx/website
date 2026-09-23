@@ -24,9 +24,19 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 The fastest way to find a language exchange partner online is to join a language exchange app or community, write a specific profile, and send short, personal first messages to several people at once. Expect only some of them to reply, and keep the ones who show up consistently.
+
+<KeyTakeaways items={[
+  "Try two places at once: an app plus a community such as Reddit, Discord or a local meetup.",
+  "A specific profile with honest levels, real interests and one line in your target language gets more replies.",
+  "Short, personal first messages that end with a question work best; send them to several people.",
+  "Agree on the rules early and keep the two or three partners you enjoy most."
+]} />
 
 Finding someone is the easy part. Finding someone who is still talking to you in a month takes a little more thought, and that is what most of this guide is about: where to look, what to write, what to avoid, and how to keep an exchange alive once it starts. If you are new to the idea, start with [what a language exchange is and how it works](/what-is-a-language-exchange).
 
@@ -47,6 +57,12 @@ There is no single best place. Each has a different kind of person on it, and th
 Apps are where most people start, because they handle the matching for you. You set the languages you speak and the ones you are learning, and the app shows you people on the other side of that trade. The best-known include [Tandem](https://tandem.net) and [HelloTalk](https://www.hellotalk.com), which both offer text, voice and correction tools, and there are smaller options for specific needs. We compared them all honestly, including where competitors do better than us, in [the best language exchange apps](/best-language-exchange-apps), and the two giants head-to-head in [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
 [LangX](/) is our own app. Its matching runs in both directions, so everyone you see speaks the language you are learning *and* is learning one you speak, which cuts down on one-sided conversations. The free plan allows 5 new conversations a day, with unlimited replies and unlimited corrections. It is also open source, if that matters to you.
+
+<AppDemo
+  screen="discover"
+  title="Everyone you see is a two-way match"
+  text="On LangX, Discover shows people who speak the language you are learning and are learning one you speak. The free plan allows 5 new conversations a day, with unlimited replies."
+/>
 
 ### Reddit: r/language_exchange
 
@@ -70,6 +86,17 @@ If you live in a city, check [Meetup](https://www.meetup.com) for "language exch
 ### Universities, libraries and cultural institutes
 
 Many universities run tandem programs that pair local and international students each semester. Public libraries and cultural institutes often host conversation clubs as well. If you are a student, check your language center first: these partners tend to be motivated and reliable.
+
+<Steps
+  title="From first search to a regular partner"
+  steps={[
+    { title: "Look in two places at once", text: "An app plus one community, such as r/language_exchange, a Discord server or a local meetup." },
+    { title: "Write a specific profile", text: "Your languages and honest levels, what you want, two or three interests and one line in your target language." },
+    { title: "Message five to ten people", text: "Short, personal first messages that end with a question. Expect a few to reply." },
+    { title: "Agree on the rules early", text: "Which language when, how you want corrections and how often you will talk." },
+    { title: "Keep the two or three you enjoy most", text: "Give more than you take, and always leave a question open." }
+  ]}
+/>
 
 ## How to write a language exchange profile that gets replies
 

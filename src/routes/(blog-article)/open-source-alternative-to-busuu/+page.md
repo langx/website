@@ -21,9 +21,23 @@ keywords:
   - busuu community corrections
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to Busuu for practicing with native speakers, LangX is a free, open source (BSD-3) language exchange app where you chat one-to-one with people who speak what you learn, and every message can be corrected. It is not a replacement for Busuu's structured course, so the honest answer to "LangX vs Busuu" is that LangX covers the talking-and-getting-corrected part, and for many learners the best setup is to use both.
 
 This page compares the two as of September 2026. We make LangX, and we will be clear about where Busuu is the better tool.
+
+<KeyTakeaways items={[
+  "Busuu is a course app with CEFR lessons from A1 to C1 and Community Corrections on exercises.",
+  "LangX is a language exchange app with no lessons: ongoing one-to-one chats with corrections built in.",
+  "Corrections on LangX are unlimited on every plan; free Busuu members can send a limited number.",
+  "For most learners the best setup is both: learn it on Busuu, use it the same day on LangX."
+]} />
 
 ## Busuu and LangX are different kinds of app
 
@@ -37,6 +51,34 @@ So a Busuu alternative can mean two things:
 2. **A better way to talk with and get corrected by native speakers** (if Busuu's community side is what you want more of). That is exactly what LangX is for.
 
 ## LangX vs Busuu at a glance
+
+<VersusCard
+  title="LangX vs Busuu"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app",
+    points: [
+      "No lessons; ongoing one-to-one chats",
+      "Two-way matching",
+      "Correct any message, unlimited on every plan",
+      "Translation built into the chat",
+      "No ads; open source, BSD-3"
+    ],
+    bestFor: "real conversation once you know the basics"
+  }}
+  b={{
+    name: "Busuu",
+    tagline: "Structured course app with a community",
+    points: [
+      "CEFR-aligned lessons, A1 to C1, in 14 languages",
+      "Exercises routed to fluent speakers",
+      "Community Corrections; limited on free, unlimited on Premium",
+      "Google Play lists the app as containing ads",
+      "Very large, global community"
+    ],
+    bestFor: "beginners who want a structured path"
+  }}
+/>
 
 *LangX vs Busuu: comparing the open source alternative to Busuu's community practice (September 2026)*
 
@@ -67,6 +109,22 @@ Busuu is a well-designed course app, and there is a lot to like:
 - **Certificates.** Busuu offers level certificates for some languages, which some learners find motivating or useful.
 - **A polished, low-pressure experience.** Short lessons fit into a commute.
 
+<ProsCons
+  name="Busuu"
+  pros={[
+    "A real curriculum following CEFR levels A1 to C1",
+    "Explicit grammar and vocabulary review",
+    "Community Corrections from native speakers",
+    "Level certificates for some languages"
+  ]}
+  cons={[
+    "Feedback is attached to exercises, not ongoing conversations",
+    "Free members can send a limited number of exercises for correction",
+    "Google Play lists the app as containing ads",
+    "Closed source"
+  ]}
+/>
+
 If you are starting from zero, a course like Busuu is a very reasonable place to begin.
 
 ## Where LangX differs
@@ -78,6 +136,12 @@ Busuu's community feedback is attached to exercises: you answer a prompt, someon
 ### Corrections are unlimited, for everyone
 
 On LangX, your partner can hold any message and correct it, and corrections are unlimited on every plan, including Free. On Busuu, according to its own help pages, free members can send a limited number of exercises for correction, while Premium members get unlimited submissions and priority.
+
+<AppDemo
+  screen="chat"
+  title="Corrections in the middle of a real conversation"
+  text="On LangX your partner holds any message to correct it, and you correct theirs in return. Unlimited on every plan, Free included."
+/>
 
 ### Both sides benefit
 

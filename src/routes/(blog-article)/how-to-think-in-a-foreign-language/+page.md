@@ -23,6 +23,9 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 To think in a foreign language, **use it for the small, private moments of your
@@ -30,6 +33,13 @@ day**: narrate what you're doing, name the objects around you, rehearse
 conversations in your head, and write a few sentences each evening. Start with
 simple sentences you can build without translating, and make it a daily habit.
 Over weeks, the language starts showing up on its own.
+
+<KeyTakeaways items={[
+  "Use the language in small, private moments: narrate, label, rehearse and journal.",
+  "Learners do develop inner speech in a second language, and it grows with use.",
+  "There is no strong evidence that forcing it makes you learn faster; treat it as extra practice minutes.",
+  "About half an hour a day, spread across the day, is enough to build the habit."
+]} />
 
 Thinking in the language is less a trick than a side effect of lots of use. The
 nine habits below give you that use in minutes a day, without a classroom or a
@@ -191,6 +201,12 @@ learners who want to think before they answer. Our guides on [how to find a
 language exchange partner](/how-to-find-a-language-exchange-partner) and [how
 to do a language exchange](/how-to-do-a-language-exchange) help you get started.
 
+<AppDemo
+  screen="chat"
+  title="Check the sentences you built in your head"
+  text="Send them to a LangX partner as text or a voice message. They can hold any message to correct it, and you can hold one to hear it read aloud."
+/>
+
 ## How long until you think in the language?
 
 It depends on how much you use it. Many learners notice brief moments of
@@ -208,13 +224,14 @@ see [how many words you need to be fluent](/how-many-words-do-you-need-to-be-flu
 
 If you want one routine that combines the habits, try this:
 
-- **Morning (5 minutes):** narrate your breakfast routine, labeling what you
-  see.
-- **During the day:** think in chunks and describe instead of translating
-  whenever a thought comes up in the language.
-- **Afternoon (10 to 20 minutes):** exchange messages with a partner.
-- **Evening (5 minutes):** write three journal sentences, and replay one moment
-  from today's conversation.
+<Steps
+  steps={[
+    { title: "Morning (5 minutes)", text: "Narrate your breakfast routine, labeling what you see." },
+    { title: "During the day", text: "Think in chunks and describe instead of translating whenever a thought comes up in the language." },
+    { title: "Afternoon (10 to 20 minutes)", text: "Exchange messages with a partner." },
+    { title: "Evening (5 minutes)", text: "Write three journal sentences, and replay one moment from today's conversation." }
+  ]}
+/>
 
 That's roughly half an hour, spread across the day. Keeping it small is what
 lets you keep it going; see [why consistent practice is

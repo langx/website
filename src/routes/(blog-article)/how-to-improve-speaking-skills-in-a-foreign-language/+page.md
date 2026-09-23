@@ -23,6 +23,9 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 To improve your speaking in a foreign language, you have to **produce the
@@ -31,6 +34,13 @@ build understanding, but speaking is its own skill. The fastest ways to train it
 without moving abroad are shadowing native audio, recording and reviewing
 yourself, sending voice messages to native speakers, and having someone correct
 what you say.
+
+<KeyTakeaways items={[
+  "Speaking is its own skill: you improve it by producing the language out loud and getting feedback.",
+  "Solo methods (shadowing, talking to yourself, recording yourself) build fluency without a partner.",
+  "Voice messages bridge solo practice and live conversation, with far less pressure.",
+  "Ask for corrections, so mistakes do not become habits."
+]} />
 
 Most learners understand far more than they can say. That gap is normal, and it
 closes only with output practice. Below are the methods that work, what each one
@@ -109,10 +119,14 @@ mistakes while you are busy producing the sentence; on playback, you can.
 
 A simple routine:
 
-1. Pick a prompt, such as "describe your weekend" or "explain your job."
-2. Speak for one to two minutes without stopping.
-3. Listen back once for **pronunciation** and once for **grammar**.
-4. Write down three things to fix, then record again.
+<Steps
+  steps={[
+    { title: "Pick a prompt", text: "Such as \"describe your weekend\" or \"explain your job.\"" },
+    { title: "Speak for one to two minutes without stopping" },
+    { title: "Listen back twice", text: "Once for pronunciation and once for grammar." },
+    { title: "Write down three things to fix, then record again" }
+  ]}
+/>
 
 Keep your first recording. In three months, playing it next to a new one is the
 best motivation you will find.
@@ -172,6 +186,12 @@ useful, because you can review it later.
 On LangX, you can hold any message to correct it, and corrections are
 unlimited on every plan, including Free. A practical trick: after sending a
 voice note, type out what you said and ask your partner to correct the text.
+
+<AppDemo
+  screen="chat"
+  title="A correction you can keep"
+  text="On LangX your partner holds your message to correct it, and the fix stays in the chat for you to review later. Corrections are unlimited on every plan."
+/>
 
 ## 7. Work on pronunciation directly
 

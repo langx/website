@@ -22,7 +22,21 @@ keywords:
   - pen pal language exchange
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 LangX is an open source alternative to InterPals built only for language exchange: a free app with public code (BSD-3), two-way matching and corrections on any message, unlimited on every plan. InterPals is older, far larger and broader, a pen-pal community for friendship, travel and culture as well as languages, so it remains the better pick if you want to meet all kinds of people rather than only exchange partners.
+
+<KeyTakeaways items={[
+  "InterPals is a huge, long-running pen-pal community (8.5 million members, by its own count), free and funded by ads.",
+  "LangX is built only for language exchange: two-way matching and corrections on any message.",
+  "LangX shows no ads and is open source (BSD-3).",
+  "Pick InterPals for friendship and cultural exchange, LangX for focused practice, or use both."
+]} />
 
 Everything about InterPals below comes from its own site, its FAQ and its app store listings at the time of writing (September 2026).
 
@@ -45,6 +59,34 @@ Everything about InterPals below comes from its own site, its FAQ and its app st
 
 *Table: LangX vs InterPals, the open source alternative to InterPals compared feature by feature (September 2026).*
 
+<VersusCard
+  title="LangX vs InterPals in one look"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app",
+    points: [
+      "Two-way matching on the languages you speak and learn",
+      "Hold any message to correct it, unlimited on every plan",
+      "Translation and read-aloud in the chat",
+      "Voice, photo and video messages",
+      "No ads; open source (BSD-3)"
+    ],
+    bestFor: "focused, corrected language practice"
+  }}
+  b={{
+    name: "InterPals",
+    tagline: "Pen-pal and cultural exchange community",
+    points: [
+      "Search by country, city, age and languages",
+      "Groups, a community feed and photo albums",
+      "Built-in message translation",
+      "Free, with no paid plan mentioned in its FAQ",
+      "Much larger: 8.5 million members, by its own count"
+    ],
+    bestFor: "pen pals, friendship and cultural exchange"
+  }}
+/>
+
 ## What InterPals does well
 
 InterPals has been around since 1998, which makes it one of the oldest pen-pal communities on the web. A fair InterPals alternative page has to give it credit.
@@ -56,6 +98,23 @@ InterPals has been around since 1998, which makes it one of the oldest pen-pal c
 - **Message translation.** The Android listing mentions built-in message translation for when you get stuck.
 - **Moderation and control.** Message requests let you decide who gets through, and a moderation team reviews reported profiles, photos and messages. InterPals is clear that it is not a dating site.
 - **Long friendships.** Plenty of members have written to the same pen pal for years. If what you want is a long correspondence rather than quick practice, that culture is valuable.
+
+<ProsCons
+  name="InterPals"
+  pros={[
+    "Online since 1998, with members in a huge number of countries",
+    "Every service is free",
+    "Good search by country, city, age and languages",
+    "Groups, feed and albums for cultural exchange",
+    "Message requests and a moderation team"
+  ]}
+  cons={[
+    "Funded by advertising",
+    "No dedicated correction tool",
+    "A general community, not only language learners",
+    "Closed source"
+  ]}
+/>
 
 ## Where LangX differs from InterPals
 
@@ -72,6 +131,12 @@ On InterPals you can filter by language, but you are browsing a general communit
 ### Corrections built into the chat
 
 InterPals does not list a correction tool, so a partner who wants to fix your sentence has to retype it. On LangX you hold any message to correct it, and the correction appears right there in the conversation. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you. That is the part that teaches, and it is never rationed.
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the conversation"
+  text="Hold any message on LangX to correct it. The fix appears right in the chat, and corrections are unlimited on every plan, Free included."
+/>
 
 ### Learning tools around the conversation
 

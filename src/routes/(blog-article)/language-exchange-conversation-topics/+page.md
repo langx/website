@@ -23,19 +23,33 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Good language exchange conversation topics are ones you can talk about from your own life: yourself, food, daily routine, travel, work, culture and your plans. Below are 100 ready-to-use questions, grouped by level (beginner, intermediate, advanced) and by theme, so you never hit that "so... what do you want to talk about?" silence again.
+
+<KeyTakeaways items={[
+  "The best topics come from your own life: yourself, food, daily routine, travel, work, culture and plans.",
+  "Beginner questions (1–32) use simple tenses; intermediate ones (33–68) invite stories and opinions; advanced ones (69–100) ask for arguments and hypotheticals.",
+  "Prepare two or three topics per session and let the conversation wander.",
+  "Ask one follow-up for every answer, and write down the words you were missing."
+]} />
 
 Pick two or three before each session, look up a few words you will need, and let the conversation wander from there. If you are new to exchanges, read [what a language exchange is](/what-is-a-language-exchange) and [the 12 rules that make one work](/how-to-do-a-language-exchange) first.
 
 ## How to use these questions
 
-- **Match the level to the speaker, not the topic.** A beginner can answer "What does success mean in your culture?" in five simple words. An advanced learner can talk about breakfast for ten minutes. Use the level as a starting point.
-- **Answer your own question first.** It models the vocabulary and takes the pressure off your partner.
-- **Ask one follow-up for every answer.** "Why?", "What happened next?" and "How did you feel?" turn a quiz into a conversation.
-- **Turn it around.** Every question here works in both languages. Ask it in your target language, then let your partner ask you in theirs.
-- **Write down the words you were missing.** The gaps a topic reveals are exactly the words worth learning next.
+<Steps
+  steps={[
+    { title: "Match the level to the speaker, not the topic", text: "A beginner can answer \"What does success mean in your culture?\" in five simple words. An advanced learner can talk about breakfast for ten minutes. Use the level as a starting point." },
+    { title: "Answer your own question first", text: "It models the vocabulary and takes the pressure off your partner." },
+    { title: "Ask one follow-up for every answer", text: "\"Why?\", \"What happened next?\" and \"How did you feel?\" turn a quiz into a conversation." },
+    { title: "Turn it around", text: "Every question here works in both languages. Ask it in your target language, then let your partner ask you in theirs." },
+    { title: "Write down the words you were missing", text: "The gaps a topic reveals are exactly the words worth learning next." }
+  ]}
+/>
 
 ## Beginner conversation questions
 
@@ -232,6 +246,12 @@ Some topics, such as politics, religion and relationships, can be great conversa
 Any exchange format works: text chats, voice notes, video calls or a meetup at a café. If you do not have a partner yet, our guide on [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) covers apps, Reddit, Discord and local meetups, with first-message templates.
 
 In [LangX](/), you can drop one of these questions into a chat, and your partner can hold your answer to correct it, which works well for the intermediate and advanced questions where you are stretching your grammar. It is one option among several; we compare the rest in [the best language exchange apps](/best-language-exchange-apps).
+
+<AppDemo
+  screen="chat"
+  title="Ask a question, get corrected"
+  text="Drop a question into a LangX chat and answer it in your target language. Your partner holds your message to correct it, and corrections are unlimited on every plan."
+/>
 
 ## FAQ
 

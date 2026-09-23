@@ -21,7 +21,21 @@ keywords:
   - is speaky still working
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 LangX is an open source alternative to Speaky: a language exchange app with public code (BSD-3), two-way matching, and corrections that are unlimited on every plan. Speaky is still running in September 2026 and is free to use, with a huge language list, a web version and new AI practice partners, so it is worth comparing both before you switch.
+
+<KeyTakeaways items={[
+  "Speaky is still active in September 2026 and is free to use, with no paid plan listed.",
+  "LangX is open source (BSD-3), matches two ways and has no ads.",
+  "On LangX corrections and replies are unlimited on every plan; Free caps new conversations and translations.",
+  "Speaky has the larger community and AI practice partners; LangX has built-in translation."
+]} />
 
 ## Is Speaky still working in 2026?
 
@@ -34,6 +48,34 @@ If Speaky still works well for you, there may be no reason to leave. If it does 
 ## LangX vs Speaky at a glance
 
 Details about Speaky come from its official store listings at the time of writing (September 2026). Where we could not confirm something, the table says so.
+
+<VersusCard
+  title="LangX vs Speaky"
+  a={{
+    name: "LangX",
+    tagline: "Open source language exchange",
+    points: [
+      "Two-way matching",
+      "Hold any message to correct it; unlimited on every plan",
+      "Translation built into the chat",
+      "No ads; Free plan plus Fluent and Polyglot",
+      "Open source, BSD-3, self-hostable"
+    ],
+    bestFor: "no ads and unlimited corrections on a free plan"
+  }}
+  b={{
+    name: "Speaky",
+    tagline: "Free, long-running exchange app",
+    points: [
+      "Search the community and message anyone; partner map",
+      "Partners can correct each other's messages",
+      "AI practice partners with voices",
+      "Free to use; Google Play marks it as containing ads",
+      "Larger community; 5M+ downloads on Google Play"
+    ],
+    bestFor: "a completely free app with a big community"
+  }}
+/>
 
 | | LangX | Speaky |
 | --- | --- | --- |
@@ -62,6 +104,22 @@ Speaky has been around for years, and a fair Speaky alternative page should say 
 - **Web access.** web.speaky.com lets you chat from a computer.
 - **New practice tools.** AI practice partners, an interactive map and the Mojiku word game give you things to do when no human partner is online.
 
+<ProsCons
+  name="Speaky"
+  pros={[
+    "Free to use, with no paid plan listed in the stores",
+    "Low friction: write to someone straight away",
+    "More than 170 languages and 5M+ downloads on Google Play",
+    "AI practice partners, a partner map and the Mojiku game"
+  ]}
+  cons={[
+    "Closed source",
+    "Google Play marks the app as containing ads",
+    "Anyone can message you, even with nothing to exchange",
+    "Older reviews complained of disconnections and failed messages"
+  ]}
+/>
+
 ## Where LangX differs from Speaky
 
 ### An open source alternative to Speaky
@@ -75,6 +133,12 @@ Speaky lets you message anyone. LangX's Discover only shows people who speak the
 ### Corrections as the core feature
 
 On LangX you hold any message to suggest a better version, or post a sentence to the Feed and let the community correct it. Corrections and replies are unlimited on every plan. The free plan caps new conversations you start (5 a day) and translations (20 a day), never how much you talk or teach.
+
+<AppDemo
+  screen="chat"
+  title="Corrections sit inside the chat"
+  text="Your partner holds any message to suggest a better version, and the correction shows up right in the conversation. It is unlimited on every plan, Free included."
+/>
 
 ### Built-in translation and read-aloud
 

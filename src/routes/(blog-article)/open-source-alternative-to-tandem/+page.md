@@ -25,9 +25,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 LangX is the open source alternative to Tandem: a language exchange app whose code is public under the BSD-3 license, with two-way matching and corrections that are unlimited on every plan. Tandem is the bigger, more established app, with live calls, group audio Parties and a far larger community, so the right choice depends on what you need from a Tandem alternative.
+
+<KeyTakeaways items={[
+  "LangX is open source (BSD-3) and self-hostable; Tandem is not.",
+  "LangX matches two ways and keeps corrections unlimited on every plan, with no ads.",
+  "Tandem has live audio and video calls, group Parties and a much larger community.",
+  "Both have a usable free version and paid plans, so free alone is not a reason to switch."
+]} />
 
 <Callout type="info">
 This post was rewritten in September 2026 for LangX v2. The 2024 version described LangX v1, and several things it said (no paid plans, badges, a ChatGPT-powered assistant) are no longer true. What changed, and why, is in <a href="/langx-v2-what-changes-and-why">LangX v2: what changes, and why</a>.
@@ -36,6 +47,34 @@ This post was rewritten in September 2026 for LangX v2. The 2024 version describ
 ## LangX vs Tandem at a glance
 
 Everything about Tandem below reflects its app store listings and its own site at the time of writing (September 2026).
+
+<VersusCard
+  title="LangX vs Tandem"
+  a={{
+    name: "LangX",
+    tagline: "Open source language exchange",
+    points: [
+      "Two-way matching",
+      "Hold any message to correct it; unlimited on every plan",
+      "Voice, photo and video messages; no live calls",
+      "No ads",
+      "Open source, BSD-3, self-hostable"
+    ],
+    bestFor: "a focused one-to-one exchange you can audit"
+  }}
+  b={{
+    name: "Tandem",
+    tagline: "The bigger, established exchange app",
+    points: [
+      "Browse the community with filters",
+      "Inline corrections; Pro adds AI explanations",
+      "Audio and video calls, group audio Parties",
+      "Free version shows ads; Pro removes them",
+      "Much larger community; 10M+ downloads on Google Play"
+    ],
+    bestFor: "live calls and the biggest pool of partners"
+  }}
+/>
 
 | | LangX | Tandem |
 | --- | --- | --- |
@@ -63,6 +102,22 @@ It would be odd to write about a Tandem alternative without saying plainly why s
 - **A reviewed community.** New Tandem profiles go through an application review before they can use the app. It can mean a short wait, but many users like the extra filter.
 - **Tandem Pro extras.** The paid tier adds things like Nearby and Travel search, more languages on your profile, an AI toolkit and an ad-free experience.
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "A big, active community with 10M+ downloads on Google Play",
+    "Audio and video calls inside the app",
+    "Group audio Parties and topic-based Language Clubs",
+    "More than 300 languages, including 12 sign languages"
+  ]}
+  cons={[
+    "Closed source",
+    "The free version shows ads and has daily limits",
+    "Unlimited translation needs Tandem Pro",
+    "New profiles wait for an application review"
+  ]}
+/>
+
 If those are what you want, Tandem is a good app and we would rather tell you so.
 
 ## Where LangX differs from Tandem
@@ -76,6 +131,12 @@ The whole app and its API are public on [GitHub](https://github.com/langx/langx)
 ### Matching runs in both directions
 
 On LangX you only see people who speak the language you are learning and are learning a language you speak. Every conversation has something in it for both people, which cuts down on one-sided chats. If you want to understand why that balance matters, [what is a language exchange](/what-is-a-language-exchange) explains the idea.
+
+<AppDemo
+  screen="discover"
+  title="Only partners who fit both ways"
+  text="Discover on LangX shows people who speak the language you are learning and are learning a language you speak, so every chat has something in it for both of you."
+/>
 
 ### Corrections are never rationed
 

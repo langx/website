@@ -19,13 +19,23 @@ tags:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
 ## **Introducing Our Day Streaks**
 
 As a response to the diverse needs and preferences of our users, we at LangX are excited to announce the release of our Day Streaks feature. This new feature aims to encourage consistency and regular practice in language learning. Users can now track their daily progress and build streaks as they continue their language learning journey with us. We believe this feature will add an extra layer of motivation and make language learning even more engaging.
+
+<KeyTakeaways items={[
+  "LangX introduced Day Streaks in March 2024, with a leaderboard for top streakers.",
+  "For some learners, a daily streak is what builds consistency: one reached a high level in Russian with at least 15 minutes a day for more than two years.",
+  "Others prefer flexibility: longer sessions when possible and making up for missed days.",
+  "Some find streaks a chore, and do better with specific goals or spaced repetition like Anki.",
+  "Consistency matters most. Pick the method that keeps you motivated."
+]} />
 
 Remember, whether you prefer daily streaks, longer study sessions, or alternative approaches, the key is to find a method that works best for you and keeps you motivated on your language learning journey. Happy learning!
 
@@ -36,6 +46,12 @@ In the realm of language learning, the debate around the efficacy of building da
 ## **The Power of Consistency**
 
 For some, like the creator of the post, maintaining a daily streak has been instrumental in their language learning journey. Consistency, they argue, is key. By dedicating at least 15 minutes a day to Russian language activities, they managed to achieve a high level of fluency over a period of more than two years. This commitment, they emphasize, allowed them to progress steadily and maintain momentum in their learning.
+
+<AppDemo
+  screen="me"
+  title="Your streak, on your profile"
+  text="The streak sits on your LangX profile, next to your corrections and this week's activity, so you can see the chain you are building."
+/>
 
 > <a href="https://www.reddit.com/r/languagelearning/comments/1b7xn31/comment/ktlgxse/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">Deer-Eve</a> raised an interesting point, questioning the effectiveness of short daily sessions: "So basically you're saying 15 minutes a day over a consecutive daily period is enough to reach an acceptable level?"
 
@@ -49,6 +65,12 @@ Others in the discussion echoed the importance of consistency but highlighted th
 
 Personal preferences also play a significant role in the effectiveness of language streaks. While some thrive on the motivation provided by maintaining a streak, others find it burdensome or demotivating. For those who view streaks as a chore, alternative methods of motivation, such as setting specific goals or using spaced repetition systems like Anki, may be more effective.
 
+<ProsCons
+  name="Daily streaks"
+  pros={["Build consistency and keep momentum", "Add an extra layer of motivation", "Short daily sessions add up: 15 minutes a day for over two years, in one learner's case"]}
+  cons={["Hard to keep with an irregular schedule or limited time", "Can feel like a chore, or even demotivating", "Losing a long streak hurts, like the 32-day Duolingo streak one learner lost"]}
+/>
+
 > <a href="https://www.reddit.com/r/languagelearning/comments/1b7xn31/comment/ktlslqs/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">an_average_potato_1</a> offered insight into individual preferences: "I think it depends on the person! Anything with streaks/chains makes me feel like it's a chore in the end..."
 
 For more discussion on the importance of building language streaks, check out this post on Reddit: [Building Chains: Important or Not?](https://www.reddit.com/r/languagelearning/comments/1b7xn31/building_chains_is_important_or_not_while/)
@@ -59,7 +81,6 @@ Ultimately, the debate over the importance of building language streaks boils do
 
 > <a href="https://www.reddit.com/r/languagelearning/comments/1b7xn31/comment/ktmj21m/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">BitterBloodedDemon</a> shared a relatable experience with the challenges of maintaining streaks: "I just lost a 32 day streak on Duolingo... I no longer use Duo (or any app) for TL1, and I'm working on TL2."
 
-<a href="https://langx.io" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 

@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice English with native speakers fall into three groups. **Language exchange apps** like HelloTalk, Tandem and LangX are free to start, and you pay for the practice by helping a native English speaker with your language. **Tutor services** like Cambly, Preply and italki give you a paid professional on a live video call. **AI speaking apps** like Speak and Praktika are not native speakers at all, but they let you talk out loud with no nerves before you try it with a person.
 
 Most learners do best with one from the first group plus one from the second or third. Below: how to choose, what each app does well, and a first message native speakers actually answer.
+
+<KeyTakeaways items={[
+  "Language exchange apps (HelloTalk, Tandem, LangX) are free to start: you help a native English speaker with your language.",
+  "Tutor services (Cambly, Preply, italki) give you a paid professional on a live video call.",
+  "AI speaking apps (Speak, Praktika) are a low-pressure warm-up, not native speakers.",
+  "Most learners do best with one exchange app plus a tutor or an AI app.",
+  "A first message that is short, specific and offers something back gets answers."
+]} />
 
 We make LangX, so read our entry with that in mind. Everything about other apps was checked against their own sites and store listings at the time of writing (September 2026). For the full list of exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -67,6 +79,19 @@ In a language exchange, you help someone with your native language and they help
 - **Best for:** learners who want lots of people and lots of formats, including live voice.
 - **Keep in mind:** the free tier shows ads and caps translation and other extras; VIP removes them. Native English speakers on a busy app get many messages, so a specific first message matters (see below).
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The largest exchange app and the easiest place to find English speakers quickly",
+    "Moments: post a few sentences and native speakers correct them",
+    "Voicerooms: live group audio rooms"
+  ]}
+  cons={[
+    "Free tier shows ads and caps translation and other extras; VIP removes them",
+    "Native English speakers get many messages, so your first message has to stand out"
+  ]}
+/>
+
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 ### Tandem
@@ -76,6 +101,19 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 - **Best for:** finding one or two steady partners for regular calls.
 - **Keep in mind:** the approval step can mean a short wait, and some filters and unlimited translation are in Tandem Pro.
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Calmer than HelloTalk: new members are individually reviewed",
+    "Browse profiles and filter by language and interests",
+    "Free plan includes text, voice messages, calls and corrections"
+  ]}
+  cons={[
+    "The approval step can mean a short wait",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem).
 
 ### LangX
@@ -84,6 +122,12 @@ This is our app. [LangX](https://get.langx.io) matches in both directions: if yo
 
 - **Best for:** writing practice with corrections at the center. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**. Translation is built into the chat (20 a day on Free), and there are voice and photo messages and read-aloud for listening.
 - **Keep in mind:** the community is much smaller than HelloTalk's or Tandem's. There are **no live calls**; speaking practice happens through voice messages. The Free plan allows 5 new conversations a day, with unlimited replies. There are no ads on any plan; see [plans](/pro) for the rest.
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Translation is built into the chat, with voice and photo messages and read-aloud for listening."
+/>
 
 ### For writers: InterPals and Slowly
 
@@ -113,6 +157,16 @@ Messages that get answers are short, specific, and offer something back. "Hi" on
 > Hi Sam! I'm Ana from Brazil. I saw you're learning Portuguese, and I'm working on my English for my job in IT. Happy to help with your Portuguese, and I'd love corrections on my English. Did you start Portuguese for travel or for work?
 
 It uses their profile, offers something before asking, requests corrections explicitly (many native speakers will not correct unless asked, because it feels rude) and ends with an easy question.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello by name", text: "Hi Sam! I'm Ana from Brazil." },
+    { title: "Use their profile and say what you're learning", text: "I saw you're learning Portuguese, and I'm working on my English for my job in IT." },
+    { title: "Offer something, then ask for corrections", text: "Happy to help with your Portuguese, and I'd love corrections on my English." },
+    { title: "End with an easy question", text: "Did you start Portuguese for travel or for work?" }
+  ]}
+/>
 
 For more openers and what to talk about in week two, see our [language exchange conversation topics](/language-exchange-conversation-topics) and [how to find a language exchange partner](/how-to-find-a-language-exchange-partner).
 

@@ -21,7 +21,22 @@ keywords:
   - memrise community courses
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you want an open source alternative to Memrise for speaking with real people, LangX is a free, open source (BSD-3) language exchange app that matches you with native speakers who can correct any message you send. Memrise is still the better tool for learning vocabulary with native-speaker videos, spaced review and AI practice, so the honest answer to "LangX vs Memrise" is: Memrise helps you learn the words, LangX gives you people to use them with.
+
+<KeyTakeaways items={[
+  "Memrise is now an official-course app built on native-speaker videos, spaced review and AI practice.",
+  "Community courses moved out of the app in 2024 to a separate website.",
+  "LangX is a free, open source language exchange with real native speakers and unlimited human corrections.",
+  "Learn words in Memrise, then use them with a person on LangX."
+]} />
 
 We make LangX, so keep that in mind. Memrise has changed a lot over the years, and everything about it below comes from its own site, blog and app store listings at the time of writing (September 2026).
 
@@ -29,12 +44,17 @@ We make LangX, so keep that in mind. Memrise has changed a lot over the years, a
 
 Many people remember [Memrise](https://www.memrise.com) as a flashcard site full of user-made courses and funny "mems." It has changed a lot since then:
 
-- **2010:** Memrise launches in London, founded by memory champion Ed Cooke, Ben Whately and neuroscientist Greg Detre. It becomes known for spaced repetition, mnemonic "mems" and a huge library of community courses.
-- **2022:** Memrise phases out user-made mems and launches **MemBot**, an AI chat partner for spoken and written practice.
-- **2024:** Community courses move out of the app to a separate website. The app now centers on one official course per language, organized into real-life **Scenarios** with Learn and Review sections.
-- **November 2025:** Memrise says it is not shutting down community courses and is exploring how to bring community content back into the main product.
-- **February 2026:** Memrise adds Exam Prep (IELTS, GCSE, A-Level, IB and CEFR-aligned practice with an AI examiner), Memrise Stories, and **Podchats**, unscripted AI voice conversations with an AI podcast host for intermediate and advanced English learners.
-- **May 2026:** Mems return, now with AI able to generate the memory image for you.
+<Steps
+  title="Memrise, 2010 to 2026"
+  steps={[
+    { label: "2010", title: "Memrise launches in London", text: "Founded by memory champion Ed Cooke, Ben Whately and neuroscientist Greg Detre. It becomes known for spaced repetition, mnemonic mems and a huge library of community courses." },
+    { label: "2022", title: "MemBot arrives", text: "Memrise phases out user-made mems and launches MemBot, an AI chat partner for spoken and written practice." },
+    { label: "2024", title: "Community courses leave the app", text: "They move to a separate website. The app now centers on one official course per language, organized into real-life Scenarios with Learn and Review sections." },
+    { label: "Nov 2025", title: "Community courses stay", text: "Memrise says it is not shutting them down and is exploring how to bring community content back into the main product." },
+    { label: "Feb 2026", title: "Exam Prep, Stories and Podchats", text: "IELTS, GCSE, A-Level, IB and CEFR-aligned practice with an AI examiner, Memrise Stories, and Podchats: unscripted AI voice conversations with an AI podcast host for intermediate and advanced English learners." },
+    { label: "May 2026", title: "Mems return", text: "Now with AI able to generate the memory image for you." }
+  ]}
+/>
 
 So today Memrise is best described as an **official-course app built on native-speaker videos, spaced review and AI conversation practice**. Community courses still exist, on their own site.
 
@@ -59,6 +79,34 @@ So today Memrise is best described as an **official-course app built on native-s
 | Platforms | iOS, Android, web | iOS, Android, web |
 | Community size | Small and growing | No community to match with; 50M+ downloads on Google Play |
 
+<VersusCard
+  title="LangX vs Memrise in one look"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app with real people",
+    points: [
+      "Native speakers matched two ways",
+      "A human partner can correct any message, unlimited on every plan",
+      "Translation built into the chat",
+      "182 languages listed in the app",
+      "No ads; open source (BSD-3)"
+    ],
+    bestFor: "using your vocabulary with real people"
+  }}
+  b={{
+    name: "Memrise",
+    tagline: "Vocabulary and course app with AI practice",
+    points: [
+      "Official courses organized into Scenarios, with spaced review",
+      "Short videos of native speakers",
+      "AI practice with MemBot and Podchats",
+      "Official courses in around 35 languages, plus community courses",
+      "Free plan with limits; Memrise Pro"
+    ],
+    bestFor: "building vocabulary fast"
+  }}
+/>
+
 ## What Memrise does well
 
 Memrise has been around since 2010 for good reasons, and a fair Memrise alternative page should say so.
@@ -73,6 +121,24 @@ Memrise has been around since 2010 for good reasons, and a fair Memrise alternat
 
 If your main problem is vocabulary, Memrise remains one of the strongest apps you can use.
 
+<ProsCons
+  name="Memrise"
+  pros={[
+    "A very large library of native-speaker videos",
+    "Spaced repetition built by memory experts",
+    "Mems are back, with AI-generated images",
+    "Low-pressure AI practice with MemBot and Podchats",
+    "Exam prep for IELTS, GCSE, A-Level, IB and CEFR"
+  ]}
+  cons={[
+    "No human conversation partners",
+    "Many videos and AI features need a subscription",
+    "Google Play lists the app as containing ads",
+    "Community courses moved out of the app",
+    "Closed source"
+  ]}
+/>
+
 ## Where LangX differs from Memrise
 
 ### Real conversation, not just recognition
@@ -82,6 +148,12 @@ Knowing a word when you see it and using it in a live conversation are different
 ### Human corrections, unlimited on every plan
 
 On LangX, your partner holds any message to correct it, and corrections are unlimited on every plan, Free included. A native speaker tells you what sounds natural, not only what is technically correct, and you return the favor in your own language.
+
+<AppDemo
+  screen="chat"
+  title="The words you studied, corrected by a person"
+  text="On LangX your partner holds any message to correct it, so you learn what sounds natural. Corrections are unlimited on every plan, Free included."
+/>
 
 ### Open source and a real free plan
 

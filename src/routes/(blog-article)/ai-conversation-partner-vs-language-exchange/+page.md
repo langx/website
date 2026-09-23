@@ -23,11 +23,22 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 An AI conversation partner is best for low-pressure, high-volume rehearsal: it is always available, never judges you, and gives instant feedback, which makes it ideal for beginners building confidence. A real language exchange is best for the unpredictable, culturally rich conversation you eventually need, with corrections from someone who actually lives in the language. Most learners speak sooner and better by using both: rehearse with AI, then use it with a real person.
 
 We make LangX, a language exchange app, so we are not neutral. We have tried to be fair anyway, because both approaches genuinely work, and they work best together.
+
+<KeyTakeaways items={[
+  "An AI conversation partner is best for low-pressure, high-volume rehearsal with instant feedback.",
+  "A real language exchange is best for unpredictable, culturally rich conversation and corrections from someone who lives in the language.",
+  "Beginners: start with AI or a course. Early intermediate: add real people. Intermediate and above: let real conversation take over.",
+  "A simple rule: if you are rehearsing, use AI; if you are communicating, use a person."
+]} />
 
 ## What counts as an AI conversation partner?
 
@@ -41,6 +52,11 @@ An AI conversation partner is an app that talks back to you, usually by voice, u
 A **language exchange** is the old-fashioned alternative: two people who each speak the language the other is learning take turns helping each other. Apps like LangX, Tandem and HelloTalk match you with partners; our guide to [what a language exchange is](/what-is-a-language-exchange) explains the basics.
 
 ## AI conversation partner vs language exchange at a glance
+
+<VersusCard
+  a={{ name: "AI partner", tagline: "Speak, Praktika, Babbel Speak, Memrise", points: ["Any time, instantly", "Very low pressure; no one is judging you", "Instant, consistent feedback that can be lenient or miss nuance", "Usually a subscription after a trial"], bestFor: "rehearsal, volume and confidence" }}
+  b={{ name: "Real partner", tagline: "A language exchange", points: ["When your partner is free; time zones matter", "Real surprises: slang, humor, tangents, accents", "Tells you what a local would really say", "Often free, and sometimes a long-term friendship"], bestFor: "real, unpredictable conversation" }}
+/>
 
 *Table: how an AI conversation partner and a real language exchange compare for speaking practice.*
 
@@ -84,6 +100,12 @@ A **language exchange** is the old-fashioned alternative: two people who each sp
 
 **Corrections with context.** A native speaker can tell you that your sentence is correct but sounds like a textbook, or that people in their region say it differently. On LangX, your partner can hold any message and correct it, and corrections are unlimited on every plan.
 
+<AppDemo
+  screen="chat"
+  title="Corrections from someone who lives in the language"
+  text="On LangX your partner holds any message to correct it, right in the chat. Corrections are unlimited on every plan."
+/>
+
 **You teach, too.** In an exchange you correct your partner's messages in your own language. Explaining why something sounds wrong makes you notice how languages work, which helps your own learning.
 
 **Culture and friendship.** Many people who stick with a language for years can point to one person they talked to regularly. That is hard to get from an app that forgets you.
@@ -112,13 +134,18 @@ A **language exchange** is the old-fashioned alternative: two people who each sp
 
 ## A weekly routine that combines both
 
-1. **Learn** a few useful phrases or words, from a course or a list like the [most common words](/tools/most-common-words) in your target language.
-2. **Rehearse** them with an AI conversation partner until they come out without thinking.
-3. **Use** them the same day in a real chat. On LangX you can send a voice message so your partner hears your pronunciation, not just your spelling.
-4. **Collect** your partner's corrections and review them.
-5. **Return** to the AI with those corrections and practice the natural version.
+<Steps
+  title="Learn, rehearse, use, collect, return"
+  steps={[
+    { title: "Learn", text: "A few useful phrases or words, from a course or a list of the most common words in your target language." },
+    { title: "Rehearse", text: "Practice them with an AI conversation partner until they come out without thinking." },
+    { title: "Use", text: "Use them the same day in a real chat. On LangX you can send a voice message so your partner hears your pronunciation, not just your spelling." },
+    { title: "Collect", text: "Collect your partner's corrections and review them." },
+    { title: "Return", text: "Go back to the AI with those corrections and practice the natural version." }
+  ]}
+/>
 
-This loop gives you the volume of AI and the reality check of a human. It also means you always have something to talk about in your exchange: whatever you rehearsed.
+This loop gives you the volume of AI and the reality check of a human. It also means you always have something to talk about in your exchange: whatever you rehearsed. For the first step, a list of the [most common words](/tools/most-common-words) in your target language is a good place to start.
 
 ## What about AI inside language exchange apps?
 

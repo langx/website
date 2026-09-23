@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice German with native speakers are **Tandem**, the Berlin-founded exchange app built around one-to-one partners, and **HelloTalk**, the largest exchange community. **LangX** suits learners who want every message open to correction and no ads, **Conversation Exchange** helps you meet German speakers in person, and **italki** or **Preply** give you a paid tutor on video. For structure between conversations, **DW Learn German** from Deutsche Welle is free and excellent.
 
 German rewards practice with native speakers more than most languages, because its hardest parts (articles, cases and word order) are exactly the things you get wrong without noticing. A partner who corrects you turns those invisible mistakes into visible ones. This guide helps you find that partner.
+
+<KeyTakeaways items={[
+  "Tandem, Berlin-founded, is built around one-to-one partners; HelloTalk is the largest exchange community.",
+  "LangX: every message open to correction, and no ads.",
+  "Conversation Exchange for meeting in person; italki or Preply for a paid tutor on video.",
+  "DW Learn German from Deutsche Welle is free and gives you structure between conversations.",
+  "Du is normal between exchange partners; if unsure, ask \"Wollen wir uns duzen?\""
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -73,6 +85,19 @@ Features change often, so check each store listing before committing. We do not 
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members and focuses on one-to-one conversations",
+    "Text, voice messages and calls with one patient partner who knows your recurring mistakes",
+    "Filter for a partner in a specific country"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### HelloTalk
 
 [HelloTalk](https://www.hellotalk.com) is the biggest exchange community, so German speakers are easy to find. Its **Moments** feed lets you post a few sentences and get corrections from several native speakers, handy for seeing whether a word order sounds natural or only correct.
@@ -82,12 +107,30 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The biggest exchange community, so German speakers are easy to find",
+    "Moments: corrections from several native speakers on the same sentences",
+    "Live group audio in Voicerooms"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation and some tools; VIP removes them"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set German as the language you are learning and you see German speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters when a single German sentence can carry three case mistakes. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken.
 
 - **Best for:** careful written practice where fixing mistakes is the point, with no ads.
 - **Keep in mind:** the community is far smaller than Tandem's or HelloTalk's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Translation is inside the chat, and read-aloud lets you hear a message spoken."
+/>
 
 ### Conversation Exchange
 
@@ -127,6 +170,16 @@ Keep it short, friendly and specific to their profile.
 > Hallo Lena! Ich heiße Sam und komme aus Kanada. Ich lerne Deutsch und habe gesehen, dass du Englisch lernst. Wollen wir uns gegenseitig helfen? Ich helfe dir mit Englisch, und du korrigierst mein Deutsch.
 
 In English: "Hi Lena! My name is Sam and I'm from Canada. I'm learning German and saw that you're learning English. Shall we help each other? I help you with English, and you correct my German." Notice *lernst* at the end of the *dass* clause: German sends the verb to the end of a subordinate clause, and your partner will notice if you get it right.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello and introduce yourself", text: "Hallo Lena! Ich heiße Sam und komme aus Kanada." },
+    { title: "Say what you're learning, and what they are", text: "Ich lerne Deutsch und habe gesehen, dass du Englisch lernst." },
+    { title: "Suggest an exchange", text: "Wollen wir uns gegenseitig helfen?" },
+    { title: "Offer help and ask for corrections", text: "Ich helfe dir mit Englisch, und du korrigierst mein Deutsch." }
+  ]}
+/>
 
 Three more phrases you will use every week:
 

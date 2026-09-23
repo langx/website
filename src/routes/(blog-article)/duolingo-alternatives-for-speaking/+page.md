@@ -24,6 +24,10 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 If Duolingo has given you a streak but not a conversation, the fix is to add
@@ -39,6 +43,14 @@ The trouble starts when you expect it to do a different one. Below: what
 Duolingo does well, where it stops, and which alternative fits which goal. Every
 product was checked as active at the time of writing (September 2026), and we
 do not list prices because they change and vary by country.
+
+<KeyTakeaways items={[
+  "Duolingo is very good at getting you to show up; it is not built to make you hold a conversation.",
+  "For free, regular speaking practice with native speakers, add a language exchange app: LangX, Tandem or HelloTalk.",
+  "For guided speaking with a professional, pay a tutor on italki or Preply.",
+  "Pimsleur trains you to answer out loud, Babbel and Busuu add structure, comprehensible input builds listening, and Anki keeps vocabulary.",
+  "You do not need all of them: keep Duolingo as a warm-up and add one speaking source."
+]} />
 
 ## What Duolingo is genuinely good at
 
@@ -76,6 +88,12 @@ The limits are structural, not a matter of effort:
 
 So the question is not "what replaces Duolingo" but "what fills the speaking
 gap." That depends on your goal, your budget and how much structure you want.
+
+<ProsCons
+  name="Duolingo for speaking"
+  pros={["Streaks, leagues and short lessons make you show up every day", "A gentle on-ramp from zero knowledge", "Many languages with a free tier", "Video Call with Lily and Roleplay on Duolingo Max"]}
+  cons={["Most exercises ask you to recognize, not produce", "Nobody interrupts you with slang, accents or unexpected questions", "AI conversation helps, but it is not a person", "Video Call only for some courses and platforms"]}
+/>
 
 ## Duolingo alternatives for speaking at a glance
 
@@ -122,6 +140,12 @@ Fluent and Polyglot, raise those and add filters, as listed on the
 or HelloTalk's, and conversations happen in chat, with text, voice notes and
 photos, rather than in scheduled video lessons. LangX Copilot, private AI
 feedback, is not shipped yet.
+
+<AppDemo
+  screen="chat"
+  title="Practice in the chat, corrections included"
+  text="On LangX you talk with text, voice notes and photos. Your partner holds any message to correct it, unlimited on every plan."
+/>
 
 ### Tandem
 
@@ -230,15 +254,16 @@ you actually need, see
 You do not need all of these. A realistic setup for someone with 30 to 45
 minutes a day:
 
-1. **Keep your Duolingo streak** if it is what gets you to open a language app
-   every day. Treat it as a warm-up, not the whole workout.
-2. **Add 10 minutes of flashcards** with the most common words.
-3. **Message one or two exchange partners** most days. Short, regular chats beat
-   one long call a month. Send voice notes, not just text.
-4. **Once a week, do something harder:** a tutor lesson, a live class, or a
-   voice or video call with a partner you have gotten to know.
-5. **Listen to something every day**: comprehensible input, a podcast or a
-   show you half understand.
+<Steps
+  title="A simple weekly plan, 30 to 45 minutes a day"
+  steps={[
+    { title: "Keep your Duolingo streak", text: "If it is what gets you to open a language app every day. Treat it as a warm-up, not the whole workout." },
+    { title: "Add 10 minutes of flashcards", text: "With the most common words." },
+    { title: "Message one or two exchange partners most days", text: "Short, regular chats beat one long call a month. Send voice notes, not just text." },
+    { title: "Once a week, do something harder", text: "A tutor lesson, a live class, or a voice or video call with a partner you have gotten to know." },
+    { title: "Listen to something every day", text: "Comprehensible input, a podcast or a show you half understand." }
+  ]}
+/>
 
 If speaking to strangers is the part you dread, you are not alone; our
 [introvert's guide to learning a language](/mastering-a-new-language-an-introverts-guide)

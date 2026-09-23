@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Korean with native speakers are **HelloTalk**, which has one of the largest Korean communities of any exchange app, and **Tandem**, for steady one-to-one partners. **LangX** suits learners who want every message open to correction and no ads, and **italki** is the place for a paid Korean tutor. Keep **Naver Papago** and **Naver Dictionary** open beside whichever you choose.
 
 Korean rewards a language exchange more than most languages, because so much of it is about *how* you say something to *whom*. Every sentence carries a speech level, and the only way to get a feel for it is to talk to real people and have them tell you when you sound too stiff or too familiar. This guide picks apps and tools with that in mind.
+
+<KeyTakeaways items={[
+  "HelloTalk has one of the largest Korean communities of any exchange app; Tandem suits steady one-to-one partners.",
+  "LangX: every message open to correction, read-aloud, and no ads.",
+  "italki is the place for a paid Korean tutor; keep Naver Papago and Naver Dictionary open beside any app.",
+  "Learn Hangul first: most learners can read it slowly within a week or two.",
+  "Start with polite -요 speech and switch to 반말 only by agreement."
+]} />
 
 We make LangX, so read our entry with that in mind. Everything about other apps was checked against their own sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -64,6 +76,19 @@ Plans change often, so check each store listing before committing. We do not lis
 - **Best for:** finding Korean partners quickly. Its transliteration tool turns Hangul into romanization, translation sits inside the chat, and **Moments** lets several native speakers correct a short post at once.
 - **Keep in mind:** translation, transliteration and voice-to-text have daily caps on the free tier, and the free version shows ads; VIP lifts both. Lean on the romanization button for too long and it will slow your reading.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The most practical place to find Korean partners, especially Korean speakers learning English",
+    "Transliteration tool turns Hangul into romanization; translation sits inside the chat",
+    "Moments: several native speakers correct a short post at once"
+  ]}
+  cons={[
+    "Translation, transliteration and voice-to-text have daily caps on the free tier, which also shows ads; VIP lifts both",
+    "Leaning on the romanization button for too long will slow your reading"
+  ]}
+/>
+
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 ### Tandem
@@ -75,12 +100,30 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members; built around one-to-one text, voice messages and calls",
+    "One or two regular Korean partners rather than a busy feed"
+  ]}
+  cons={[
+    "The free plan allows 3 translations a day",
+    "The AI toolkit (grammar check, correction explanations) is part of Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: you see Korean speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters in a language where many "mistakes" are about speech level rather than grammar. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful while your Hangul reading is still slow.
 
 - **Best for:** careful written practice with corrections, and no ads.
 - **Keep in mind:** the community is much smaller than HelloTalk's, so finding Korean partners can take longer. There are **no live calls**; practice happens through text plus voice, photo and video messages. Free allows 5 new conversations a day, with unlimited replies. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Read-aloud lets you hear any message spoken, useful while your Hangul reading is still slow."
+/>
 
 ## Tutors and AI for Korean speaking practice
 
@@ -117,6 +160,17 @@ Keep it short and polite. Romanization follows the Revised Romanization of Korea
 (Annyeonghaseyo! Jeoneun Saem-ieyo. Hangugeoreul gongbuhago isseoyo. Mannaseo bangawoyo. Jal butakdeuryeoyo.)
 
 In English: "Hello! I'm Sam. I'm studying Korean. Nice to meet you. I look forward to talking with you." 잘 부탁드려요 has no neat English equivalent; it is a polite way to close an introduction.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello", text: "안녕하세요! (Annyeonghaseyo!)" },
+    { title: "Introduce yourself", text: "저는 샘이에요. (Jeoneun Saem-ieyo.)" },
+    { title: "Say what you're learning", text: "한국어를 공부하고 있어요. (Hangugeoreul gongbuhago isseoyo.)" },
+    { title: "Close the introduction", text: "만나서 반가워요. 잘 부탁드려요. (Mannaseo bangawoyo. Jal butakdeuryeoyo.)" },
+    { title: "Ask for corrections", text: "틀린 거 있으면 고쳐 주세요 (teullin geo isseumyeon gochyeo juseyo): if anything is wrong, please correct it." }
+  ]}
+/>
 
 Add a line in English saying what you can help with. Then a few phrases you will use constantly:
 

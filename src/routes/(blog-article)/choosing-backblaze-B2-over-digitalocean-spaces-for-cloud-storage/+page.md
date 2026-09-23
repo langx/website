@@ -19,13 +19,22 @@ tags:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
 </script>
 
 ## **Choosing Backblaze B2 over DigitalOcean Spaces for Cloud Storage**
 
 In the realm of cloud storage solutions, two prominent names stand out: Backblaze B2 and DigitalOcean Spaces. Both offer robust features and competitive pricing, making the choice between them a tough decision for businesses and individuals alike. After thorough evaluation, we decided to opt for Backblaze B2 over DigitalOcean Spaces. Here's why:
+
+<KeyTakeaways items={[
+  "LangX compared Backblaze B2 and DigitalOcean Spaces on pricing, performance, integrations and security, and chose B2.",
+  "B2 has transparent pay-as-you-go pricing with no hidden fees; Spaces charges for outgoing bandwidth.",
+  "Spaces performs reliably, but some users have reported slowdowns at peak times.",
+  "B2 integrates with a wider range of third-party tools and adds regular security audits."
+]} />
 
 ## **1. Pricing**
 
@@ -39,6 +48,12 @@ Backblaze B2 boasts impressive performance and reliability, with a proven track 
 
 While DigitalOcean Spaces offers reliable performance, some users have reported occasional slowdowns during peak usage periods. Additionally, DigitalOcean's infrastructure may not be as geographically distributed as Backblaze's, potentially impacting latency for users in certain regions.
 
+<ProsCons
+  name="DigitalOcean Spaces"
+  pros={["Competitive pricing", "Reliable performance", "Integrations with popular tools and services"]}
+  cons={["Costs can escalate quickly as usage grows", "Charges for outgoing bandwidth", "Occasional slowdowns reported at peak times", "May be less geographically distributed than Backblaze"]}
+/>
+
 ## **3. Ecosystem Integration**
 
 Backblaze B2 integrates seamlessly with a wide range of third-party applications and services, including backup solutions, content management systems, and file sharing platforms. This extensive ecosystem compatibility simplifies the process of integrating cloud storage into existing workflows and applications.
@@ -49,6 +64,21 @@ While DigitalOcean Spaces also offers integrations with popular tools and servic
 
 Both Backblaze B2 and DigitalOcean Spaces prioritize security and compliance, offering features such as encryption, access controls, and compliance certifications. However, Backblaze B2's approach to security, including server-side encryption and regular security audits, instills confidence in users concerned about data protection.
 
+<VersusCard
+  title="How the two compared for our needs"
+  a={{
+    name: "Backblaze B2",
+    tagline: "Our choice",
+    points: ["Transparent pay-as-you-go pricing, no hidden fees", "Proven track record of uptime and data durability", "Integrates with a wide range of third-party apps", "Server-side encryption and regular security audits"],
+    bestFor: "Mission-critical applications and large-scale storage"
+  }}
+  b={{
+    name: "DigitalOcean Spaces",
+    tagline: "A solid choice",
+    points: ["Competitive pricing, plus charges for outgoing bandwidth", "Reliable performance, with some reported peak-time slowdowns", "Integrations with popular tools and services", "Encryption, access controls and compliance certifications"]
+  }}
+/>
+
 ## **LangX App Integration**
 
 As part of our commitment to embracing innovative technologies and solutions, we're excited to announce that our decision to utilize Backblaze B2 aligns perfectly with our ethos of supporting open-source initiatives. In this spirit, we'd like to introduce LangX App, an open-source alternative to traditional language exchange platforms like Tandem. LangX App empowers users to practice, learn, and succeed by exchanging languages in a supportive and collaborative environment. By seamlessly integrating with our chosen cloud storage solution, LangX App ensures smooth and efficient data management, enhancing the overall user experience.
@@ -57,7 +87,6 @@ As part of our commitment to embracing innovative technologies and solutions, we
 
 While DigitalOcean Spaces is a solid choice for cloud storage, offering competitive pricing and reliable performance, Backblaze B2 ultimately emerged as the preferred option for our needs. With its cost-effective pricing, robust performance, extensive ecosystem integration, and strong focus on security, Backblaze B2 provides the perfect combination of features and value for our cloud storage requirements, perfectly complementing the innovative capabilities of LangX App.
 
-<a href="https://langx.io" target="_blank"> <Image src="/images/posts/Promo.png" alt="Promotional image for LangX" /></a>
 
 **Download & chat for free today!** ➡️ [LangX](https://langx.io/)
 

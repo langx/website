@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Russian with native speakers are **HelloTalk** and **Tandem**, the two largest exchange communities, where Russian speakers learning English are easy to find. **LangX** suits learners who want every message open to correction and no ads, **Conversation Exchange** helps you meet Russian speakers in person, and **italki** gives you a paid tutor on video. For listening, the free **Learn Russian with Max** podcast and **Easy Russian** videos fill the gaps between conversations.
 
 Russian is a language where a partner pays off quickly. Its six cases change the ends of nouns, adjectives and pronouns, and the stress in a word moves around without any mark on the page. You can study the tables for months, but a native speaker who corrects *с моя подруга* to *с моей подругой* teaches the instrumental case in one line.
+
+<KeyTakeaways items={[
+  "HelloTalk and Tandem are the two largest exchange communities, where Russian speakers learning English are easy to find.",
+  "LangX: every message open to correction, and no ads.",
+  "Conversation Exchange for meeting in person; italki for a paid tutor on video.",
+  "Learn Cyrillic first: it takes most learners a few days, not months.",
+  "If your partner lives in Russia, do not assume a call will work; fall back on voice messages if needed."
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -69,6 +81,18 @@ Features change often, so check each store listing before committing. We do not 
 
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The biggest exchange community, and Russian is well represented",
+    "Moments: post in Cyrillic and get corrections from several native speakers",
+    "Live group audio in Voicerooms"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation and some tools; VIP removes them"
+  ]}
+/>
+
 ### Tandem
 
 [Tandem](https://tandem.net) reviews new members and focuses on one-to-one conversations with text, voice messages and calls. For Russian, a single patient partner who knows your recurring case mistakes is worth more than many short chats.
@@ -78,12 +102,31 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members and focuses on one-to-one conversations",
+    "One patient partner who knows your recurring case mistakes",
+    "Filter for a partner in a specific country"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Russian as the language you are learning and you see Russian speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters when one Russian sentence can hold three wrong endings. Translation is inside the chat (20 a day on Free).
 
 - **Best for:** careful written practice where fixing endings is the point, with no ads.
 - **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan, which matters when one Russian sentence can hold three wrong endings. Translation is inside the chat."
+/>
 
 ### Conversation Exchange and pen pals
 
@@ -124,6 +167,16 @@ Keep it short, friendly and specific to their profile.
 > Привет, Аня! Меня зовут Сэм, я из Канады. Я учу русский язык и увидел, что ты учишь английский. Давай помогать друг другу? Я помогу тебе с английским, а ты будешь исправлять мои ошибки.
 
 In English: "Hi, Anya! My name is Sam, I'm from Canada. I'm learning Russian and saw that you're learning English. Shall we help each other? I'll help you with English, and you'll correct my mistakes." Notice *увидел*: past-tense verbs in Russian agree with the speaker's gender, so a woman writes *увидела*. And *с английским* puts "English" in the instrumental case after *с*. Your partner will spot both.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello and introduce yourself", text: "Привет, Аня! Меня зовут Сэм, я из Канады." },
+    { title: "Say what you're learning, and what they are", text: "Я учу русский язык и увидел, что ты учишь английский." },
+    { title: "Suggest an exchange", text: "Давай помогать друг другу?" },
+    { title: "Offer help and ask for corrections", text: "Я помогу тебе с английским, а ты будешь исправлять мои ошибки." }
+  ]}
+/>
 
 Three more phrases you will use every week:
 

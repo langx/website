@@ -23,6 +23,10 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import BarChart from "$lib/components/blog/BarChart.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 For an English speaker, reaching professional working proficiency takes about
@@ -32,6 +36,13 @@ hours for Arabic, Chinese, Japanese and Korean**, according to the US Foreign
 Service Institute. That is full-time study. At a few hours a week, the same goal
 takes years, while a solid conversational level (CEFR B1) is realistic in about
 one to two years for most people.
+
+<KeyTakeaways items={[
+  "Languages close to English: about 550–700 class hours to professional level (FSI).",
+  "Arabic, Chinese, Japanese and Korean: about 2,200 class hours.",
+  "A conversational level (B1) takes most part-time learners one to two years.",
+  "Speaking practice every week shortens the path more than extra study alone."
+]} />
 
 The honest answer depends on three things: which language, what you mean by
 "learn," and how many hours a week you actually put in. This guide gives you the
@@ -54,6 +65,18 @@ checked in September 2026:
 | Category II | About 36 | 828 | German, Haitian Creole, Indonesian, Malay, Swahili |
 | Category III: "hard languages" | About 44 | 1,012 | Many, including Russian, Greek, Hindi, Hebrew, Polish, Turkish, Thai, Vietnamese, Ukrainian |
 | Category IV: "super-hard languages" | 88 | 2,200 | Arabic, Chinese (Cantonese and Mandarin), Japanese, Korean |
+
+<BarChart
+  title="Class hours to professional proficiency, by FSI category"
+  unit="hours"
+  source="US Foreign Service Institute, state.gov (checked September 2026). Category I shows the upper end of its 552–690 range."
+  data={[
+    { label: "Category I", value: 690, note: "Spanish, French, Italian, Dutch, Portuguese" },
+    { label: "Category II", value: 828, note: "German, Indonesian, Malay, Swahili" },
+    { label: "Category III", value: 1012, note: "Russian, Greek, Hindi, Turkish, Polish" },
+    { label: "Category IV", value: 2200, note: "Arabic, Chinese, Japanese, Korean" }
+  ]}
+/>
 
 Two details on that page matter more than the table itself. First, a typical FSI
 week is **23 hours in class plus 17 hours of self-study**, so the class-hour
@@ -176,6 +199,12 @@ factors that move your timeline the most:
 
 You cannot cheat the hours, but you can make each hour count for more.
 
+<AppDemo
+  screen="chat"
+  title="Hours spent talking count double"
+  text="In a language exchange you practise speaking and get corrected in the same hour. On LangX your partner holds any message to fix it, right in the chat."
+/>
+
 ### Learn the most frequent words first
 
 A small set of words makes up most of everyday speech, which is why frequency
@@ -223,6 +252,18 @@ and keep old voice recordings so you can hear the difference.
 Most people who "fail" at a language simply stopped. Pick a daily minimum so
 small you will do it on your worst day, and see our tips on [staying
 motivated](/how-to-stay-motivated-while-learning-a-new-language).
+
+<Steps
+  title="What makes each hour count for more"
+  steps={[
+    { title: "Learn the most frequent words first", text: "A small set of words makes up most of everyday speech." },
+    { title: "Use spaced repetition for vocabulary", text: "Ten to twenty minutes a day with a flashcard app is enough for most learners." },
+    { title: "Start speaking early", text: "Short, low-pressure exchanges, voice messages or text chat, then build up." },
+    { title: "Get corrected", text: "A tutor, a teacher or a language exchange partner stops you practicing errors." },
+    { title: "Measure progress", text: "A vocabulary test every couple of months, and old voice recordings to compare." },
+    { title: "Make it easy to keep going", text: "Pick a daily minimum so small you will do it on your worst day." }
+  ]}
+/>
 
 ## Realistic timelines at a glance
 

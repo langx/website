@@ -26,11 +26,22 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 LangX is an open source, social alternative to Duolingo for the part Duolingo does not cover: real conversation with real people. Think of it as Duolingo made of people instead of lessons. It is a free language exchange app with public code (BSD-3) that matches you with native speakers who are learning your language, with corrections on any message, unlimited on every plan. It is not a course, so if you want structured bite-size lessons, Duolingo is still the better tool, and many learners get the most out of using both.
 
 This page is a head-to-head LangX vs Duolingo comparison, checked at the time of writing (September 2026). We make LangX, and we will say plainly where Duolingo wins.
+
+<KeyTakeaways items={[
+  "Duolingo is a course app with bite-size lessons; LangX is a language exchange app with no lessons.",
+  "LangX matches you with native speakers learning your language, with corrections unlimited on every plan.",
+  "LangX is open source (BSD-3) and has no ads; Duolingo is closed source.",
+  "Duolingo is better from zero; LangX works best once you can write simple sentences, so many learners use both."
+]} />
 
 Want the short version of that argument? Read [the social alternative to Duolingo](/social-alternative-to-duolingo).
 
@@ -48,6 +59,34 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 2. **Something that finally gets them talking to people.** That is exactly what LangX is for.
 
 ## LangX vs Duolingo at a glance
+
+<VersusCard
+  title="LangX vs Duolingo"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app",
+    points: [
+      "Real conversations with native speakers",
+      "Two-way matching",
+      "Hold any message to correct it; unlimited on every plan",
+      "Daily streaks, leaderboards, the LangX Token",
+      "No ads; open source, BSD-3"
+    ],
+    bestFor: "getting you talking to real people"
+  }}
+  b={{
+    name: "Duolingo",
+    tagline: "Course app with bite-size lessons",
+    points: [
+      "Exercises along a lesson path",
+      "Automatic feedback on each exercise",
+      "AI Video Call and Roleplay on Max",
+      "Every language course free, with ads; Super removes them",
+      "Enormous community"
+    ],
+    bestFor: "starting a language from zero"
+  }}
+/>
 
 | | LangX | Duolingo |
 | --- | --- | --- |
@@ -78,6 +117,22 @@ Duolingo is very good at its job, and an honest Duolingo alternative page should
 - **Lots of languages, and more than languages.** 40+ language courses, from Spanish and Japanese to Irish and Hawaiian, plus Math, Music and Chess.
 - **It has started to address speaking.** The Max plan includes Video Call with Lily, an AI character you talk to, and Roleplay scenarios with AI feedback.
 
+<ProsCons
+  name="Duolingo"
+  pros={[
+    "Streaks, leagues and five-minute lessons make you show up",
+    "A gentle on-ramp from zero",
+    "Every language course is free",
+    "40+ languages, plus Math, Music and Chess"
+  ]}
+  cons={[
+    "No one-to-one chat with real people",
+    "Feedback is right or wrong against model answers",
+    "Ads on the free version",
+    "Closed source"
+  ]}
+/>
+
 ## Where LangX differs from Duolingo
 
 ### Real people instead of a lesson path
@@ -87,6 +142,12 @@ Duolingo mostly asks you to recognize, arrange or complete sentences someone els
 ### Corrections from a native speaker
 
 Duolingo marks your answer right or wrong against its own model answers. On LangX a native speaker holds your message and shows you how they would actually say it. Corrections are unlimited on every plan, Free included, and so are replies to anyone who writes to you. That is the part that teaches, and it is never rationed.
+
+<AppDemo
+  screen="chat"
+  title="A native speaker, not a model answer"
+  text="On LangX your partner holds your message and shows you how they would actually say it, right in the chat. Unlimited on every plan, Free included."
+/>
 
 ### An open source alternative to Duolingo
 

@@ -21,11 +21,53 @@ keywords:
   - language exchange app
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 LangX is an open source alternative to HelloTalk: a language exchange app with public code (BSD-3), two-way matching and corrections that are unlimited on every plan. HelloTalk is far bigger and does much more, with Moments, Voicerooms, livestreams and calls, so it remains the better pick if you want a busy social network for learners rather than a focused one-to-one exchange.
+
+<KeyTakeaways items={[
+  "LangX is open source (BSD-3), has no ads and keeps corrections unlimited on every plan.",
+  "LangX focuses on one-to-one exchange with two-way matching.",
+  "HelloTalk is far bigger, with Moments, Voicerooms, livestreams and calls.",
+  "Both have a usable free tier; the real differences are open source, matching, ads and focus."
+]} />
 
 Everything about HelloTalk below comes from its app store listings and its own site at the time of writing (September 2026).
 
 ## LangX vs HelloTalk at a glance
+
+<VersusCard
+  title="LangX vs HelloTalk"
+  a={{
+    name: "LangX",
+    tagline: "Focused, open source exchange",
+    points: [
+      "Two-way matching",
+      "Hold any message to correct it; unlimited on every plan",
+      "A Feed for sentences to correct and pronunciation help",
+      "No live calls; voice, photo and video messages",
+      "No ads; open source, BSD-3"
+    ],
+    bestFor: "one-to-one exchange with a partner who fits both ways"
+  }}
+  b={{
+    name: "HelloTalk",
+    tagline: "A busy social network for learners",
+    points: [
+      "Recommendations by language, level, goals and interests",
+      "Correction tools in chat and on Moments",
+      "Voice and video calls, Voicerooms, livestreams",
+      "Free version shows ads; VIP removes them",
+      "Much larger community; 10M+ downloads on Google Play"
+    ],
+    bestFor: "a lively community with many ways to join in"
+  }}
+/>
 
 | | LangX | HelloTalk |
 | --- | --- | --- |
@@ -55,6 +97,23 @@ HelloTalk is one of the best-known language exchange apps for good reasons, and 
 - **Wide language coverage.** HelloTalk lists more than 260 languages.
 - **A generous free tier.** HelloTalk's own guide says chat, voice messages, Moments, corrections, Voicerooms and livestreams are free, with daily caps on translation, AI correction and voice-to-text. VIP adds unlimited use of those tools, more new partners a day, Nearby and city search, a gender filter and no ads.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "Somebody online for almost any language pair",
+    "Moments: several native speakers can correct the same post",
+    "Voicerooms and livestreams for listening and group practice",
+    "Translation and transliteration built into the chat",
+    "A generous free tier"
+  ]}
+  cons={[
+    "Closed source",
+    "The free version shows ads",
+    "Daily caps on translation, AI correction and voice-to-text on free",
+    "Busy and social rather than focused on one-to-one exchange"
+  ]}
+/>
+
 If you want a lively, social place to learn with lots of ways to join in, HelloTalk is hard to beat.
 
 ## Where LangX differs from HelloTalk
@@ -68,6 +127,12 @@ The LangX app and API are public on [GitHub](https://github.com/langx/langx) und
 ### Two-way matching at the center
 
 LangX has no live rooms or livestreams. Its Feed is narrower than Moments: you post a sentence for the community to correct, or ask how something is pronounced and get answers as recordings. The center of the app is Discover, which only shows people who speak the language you are learning *and* are learning a language you speak. Every chat starts balanced. If you are new to the idea, [what is a language exchange](/what-is-a-language-exchange) explains why that balance matters.
+
+<AppDemo
+  screen="discover"
+  title="Discover is the center of LangX"
+  text="It only shows people who speak the language you are learning and are learning a language you speak, so every chat starts balanced."
+/>
 
 ### Corrections and replies are unlimited everywhere
 

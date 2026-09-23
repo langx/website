@@ -23,9 +23,20 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 A language exchange is an arrangement where two people who speak different languages help each other learn: you practice their language with them, and they practice yours with you. It is free, it is reciprocal, and it works because each person is a native speaker of exactly what the other is trying to learn.
+
+<KeyTakeaways items={[
+  "Two people swap languages: you practice theirs with them, they practice yours with you.",
+  "It rests on two principles from tandem learning: reciprocity and learner autonomy.",
+  "It is free and gives you real, informal language, but your partner is not a teacher.",
+  "It works best alongside a course or tutor, not instead of one."
+]} />
 
 A Spanish speaker learning English and an English speaker learning Spanish, for example, might chat for an hour: thirty minutes in English, thirty in Spanish, each correcting the other along the way. That is the whole idea. The rest of this guide covers where it came from, the formats it takes today, what it does better than lessons, where it falls short, and how to start one this week.
 
@@ -33,10 +44,14 @@ A Spanish speaker learning English and an English speaker learning Spanish, for 
 
 Every language exchange, whatever the format, rests on the same simple trade:
 
-1. **You find a partner** whose native language is the one you are learning, and who is learning a language you speak well.
-2. **You split the time** roughly in half between the two languages.
-3. **You each act as the "expert"** in your own language: you answer questions, suggest more natural phrasing and correct mistakes when asked.
-4. **You each act as the "learner"** in the other language: you set the topics you want to practice, ask for the corrections you want, and take notes.
+<Steps
+  steps={[
+    { title: "You find a partner", text: "Someone whose native language is the one you are learning, and who is learning a language you speak well." },
+    { title: "You split the time", text: "Roughly in half between the two languages." },
+    { title: "You each act as the \"expert\" in your own language", text: "You answer questions, suggest more natural phrasing and correct mistakes when asked." },
+    { title: "You each act as the \"learner\" in the other language", text: "You set the topics you want to practice, ask for the corrections you want, and take notes." }
+  ]}
+/>
 
 Nobody is paid, and nobody is a trained teacher. What each side brings is native intuition: the sense of what sounds natural, what sounds odd, and what people actually say.
 
@@ -93,6 +108,11 @@ The trade is time for time. You can practice every day without a budget, which i
 
 A language exchange is not a replacement for a teacher, and a teacher is not a replacement for an exchange. They do different jobs.
 
+<VersusCard
+  a={{ name: "Language exchange", tagline: "Free: you pay in time", points: ["A native speaker, usually not a trained teacher", "You set the structure", "Plenty of real, informal language", "About half the time in your target language", "Often a lot of cultural insight and friendship"], bestFor: "volume, real conversation and motivation" }}
+  b={{ name: "Tutor or class", tagline: "Paid", points: ["A trained or experienced teacher", "The teacher sets the structure", "Clear, systematic grammar explanations", "Nearly all the time in your target language"], bestFor: "structure and explanations" }}
+/>
+
 | | Language exchange | Tutor or class |
 | --- | --- | --- |
 | Cost | Free (you pay in time) | Paid |
@@ -132,6 +152,12 @@ Not sure you are ready? Most people are ready earlier than they think. If you ca
 ### Where LangX fits
 
 We built [LangX](/) for the online, text-and-voice style of exchange. Matching runs in both directions, so you only see people who speak the language you are learning and are learning a language you speak. You can hold any message to correct it (corrections are unlimited on every plan), translate inside the chat, send voice and photo messages, and keep a daily streak. The free plan lets you start 5 new conversations a day, with unlimited replies; the [plans page](/pro) lists the rest. It does not replace a tutor, and there are plenty of good alternatives: we compare them honestly in [the best language exchange apps](/best-language-exchange-apps).
+
+<AppDemo
+  screen="discover"
+  title="Matching in both directions"
+  text="On LangX you only see people who speak the language you are learning and are learning a language you speak, so every exchange works both ways."
+/>
 
 ## FAQ
 

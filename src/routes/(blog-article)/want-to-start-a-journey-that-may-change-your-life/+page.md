@@ -16,14 +16,31 @@ tags:
   - Culture Exchange
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
 
 ## Many did before you and much more will come after you, so what is keeping you?
 
 > I have got to know many people who actually want to learn new languages. Some are already polyglot, others are not, some may only speak one language. For those who  are interested in learning languages **only** for the sake of learning a new language the main question is *„what is the hardest language to learn“* or *„what is the easiest language to learn“*. After someone figured out if it is either Spanish, English, French, German, maybe even Korean or Japanese, they try to figure out what might be the best way to actually learn. Is it by the best language learning apps, either free or payed, or by listening to songs or reading literature. No matter what way they chose to learn, it is always multi-medial. No one can really learn ***only by one source***. 
 
+<KeyTakeaways items={[
+  "No one really learns from only one source: mix apps, songs and books.",
+  "Build the language into your daily routine instead of strict study hours.",
+  "Reach out to native speakers and communicate with them, then enjoy their music and books.",
+  "Routine is crucial for both learning and keeping what you learn."
+]} />
+
 ## But how? you might ask. well...
 
 > The best option in my opinion is to implement the learning in your daily life-routines. Not necessarily by job or strict learning for *X* amount of time, but rather by reaching out to people that ave a native knowledge of the language you want to learn and try to communicate with them, listen to their music, read their books, once one is capable of that. The more that happens the easier it will be to get used to the languages facets and specialties. No matter whether it is a spoken, written or sign-language. The routine is crucial for both, learning and keeping the knowledge. 
+
+<AppDemo
+  screen="chat"
+  title="Reaching out to native speakers"
+  text="A LangX chat with someone who speaks the language you are learning and is learning yours. Your partner can hold any message to correct it."
+/>
 
 ## and **where**?
 

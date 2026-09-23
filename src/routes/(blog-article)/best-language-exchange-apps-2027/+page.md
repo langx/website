@@ -22,6 +22,10 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
 Heading into 2027, the best language exchange apps are **HelloTalk** if you want the biggest community, **Tandem** for a focused one-to-one partner, **Lingbe** for instant voice calls, and **LangX** if you want an open-source app with no ads and corrections that are never rationed. The smartest setup for 2027 is likely to be a human exchange for real conversation, plus an AI tool for rehearsal between chats.
@@ -31,6 +35,14 @@ This page was written in <strong>September 2026</strong> as a forward look. Ever
 </Callout>
 
 We make LangX, so we are not neutral. Where another app is the better choice, we say so.
+
+<KeyTakeaways items={[
+  "Current picks: HelloTalk for community size, Tandem for one steady partner, Lingbe for instant calls, LangX for open source and no ads.",
+  "AI speaking practice is spreading to free plans; the human conversation is what is worth choosing an exchange app for.",
+  "Exchange apps are adding AI around the conversation, not instead of it.",
+  "The smartest 2027 setup: a human exchange for real conversation, plus an AI tool for rehearsal between chats.",
+  "Anything about 2027 itself here is an expectation, based on dated changes from 2025 and 2026."
+]} />
 
 **See also:** [our 2026 list](/best-language-exchange-apps) · [The best language exchange apps of 2025: a look back](/best-language-exchange-apps-2025)
 
@@ -82,6 +94,12 @@ In September 2025 Apple announced Live Translation for AirPods, translating face
 
 On the practice side, voice is where apps differ most. Lingbe is built on live calls, HelloTalk has Voicerooms, and Tandem has calls and Language Parties. LangX has voice, photo and video messages and read-aloud, but **no live calls** today, so if live speaking is your main goal for 2027, one of those apps is the better fit.
 
+<AppDemo
+  screen="chat"
+  title="Voice messages, not live calls"
+  text="LangX practice happens in the chat: text, voice, photo and video messages, with read-aloud. Your partner holds any message to correct it."
+/>
+
 ### 5. Privacy and open source get more attention
 
 As apps add AI, analytics and recordings, it becomes more worthwhile to read what an app collects before you install it. Both Apple and Google show data-collection labels on store listings, and they are worth two minutes of your time.
@@ -98,13 +116,18 @@ Bilingua disappeared from the stores years ago, italki's free partner search is 
 
 Before you commit to an app for the year, run through this list:
 
-1. **Is it maintained?** Check the "last updated" date in the store. Anything older than a year deserves caution.
-2. **What does the free plan ration?** Many apps cap translations or new chats, which is reasonable. Be wary of caps on the part that teaches: replies and corrections.
-3. **Are there enough people for your language pair?** A big community matters most for less common languages. Try a search before you pay.
-4. **Is AI a helper or a replacement?** If you want real conversation, make sure the app is still built around people.
-5. **Which kind of voice practice do you need?** Live calls, group rooms and voice messages suit different learners. Shy beginners often do better with voice messages first.
-6. **What does it collect, and can you opt out?** Read the store privacy label and the privacy policy.
-7. **Safety tools:** reporting, blocking, and profile review or verification.
+<Steps
+  title="Seven checks before you commit to an app for 2027"
+  steps={[
+    { title: "Is it maintained?", text: "Check the \"last updated\" date in the store. Anything older than a year deserves caution." },
+    { title: "What does the free plan ration?", text: "Many apps cap translations or new chats, which is reasonable. Be wary of caps on the part that teaches: replies and corrections." },
+    { title: "Are there enough people for your language pair?", text: "A big community matters most for less common languages. Try a search before you pay." },
+    { title: "Is AI a helper or a replacement?", text: "If you want real conversation, make sure the app is still built around people." },
+    { title: "Which kind of voice practice do you need?", text: "Live calls, group rooms and voice messages suit different learners. Shy beginners often do better with voice messages first." },
+    { title: "What does it collect, and can you opt out?", text: "Read the store privacy label and the privacy policy." },
+    { title: "Safety tools", text: "Reporting, blocking, and profile review or verification." }
+  ]}
+/>
 
 When you are ready to start, our guides on [what a language exchange is](/what-is-a-language-exchange) and [how to run a language exchange session](/how-to-do-a-language-exchange) will help you get more out of each conversation.
 
@@ -113,6 +136,12 @@ When you are ready to start, our guides on [what a language exchange is](/what-i
 The one thing LangX has announced publicly for the future is **LangX Copilot**, private AI feedback inside the chat, which is planned for the Polyglot plan and is coming later. It is not shipped yet, and we are not giving it a date here.
 
 Everything else on LangX today is already in the app: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/pro), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
+
+<ProsCons
+  name="LangX heading into 2027"
+  pros={["No ads and no advertising identifiers", "Open source under BSD-3", "Corrections unlimited on every plan", "Two-way matching for one-to-one exchange"]}
+  cons={["No live calls or group audio today", "LangX Copilot is planned but not shipped", "Uses PostHog analytics (you can turn it off)", "A smaller, still-growing community"]}
+/>
 
 ## How we will update this page
 

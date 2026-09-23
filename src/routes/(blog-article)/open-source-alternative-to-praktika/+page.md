@@ -21,7 +21,22 @@ keywords:
   - ai language tutor vs language exchange
 ---
 
+<script>
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import VersusCard from "$lib/components/blog/VersusCard.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+</script>
+
 If you are looking for an open source alternative to Praktika that lets you practice with real people rather than AI avatars, LangX is a free, open source (BSD-3) language exchange app that matches you with native speakers who can correct any message you send. Praktika is the better choice if you want a patient AI tutor with lessons, instant feedback and no other humans involved, so in the LangX vs Praktika question the two apps really cover different stages of learning.
+
+<KeyTakeaways items={[
+  "Praktika is an AI tutor app: animated avatars, learning paths and instant, adjustable feedback.",
+  "LangX is a language exchange with real native speakers and unlimited human corrections.",
+  "Praktika covers nine languages; LangX lists 182, has a free plan with no time limit and is open source.",
+  "Use Praktika to rehearse, then have the same conversation for real on LangX."
+]} />
 
 We make LangX, so read this with that in mind. Everything about Praktika below comes from its official site, its app store listings and independent reviews at the time of writing (September 2026), when Praktika was active on iOS and Android.
 
@@ -56,6 +71,34 @@ So when people search for a "Praktika alternative", they usually want one of two
 | Platforms | iOS, Android, web | iOS and Android |
 | Community size | Small and growing | No community to match with; 10M+ downloads on Google Play |
 
+<VersusCard
+  title="LangX vs Praktika in one look"
+  a={{
+    name: "LangX",
+    tagline: "Language exchange app with real people",
+    points: [
+      "Native speakers matched two ways",
+      "A human partner can correct any message, unlimited on every plan",
+      "182 languages listed in the app",
+      "iOS, Android and web",
+      "Free plan, no ads, open source (BSD-3)"
+    ],
+    bestFor: "real conversations once you have the basics"
+  }}
+  b={{
+    name: "Praktika",
+    tagline: "AI tutor app with animated avatar tutors",
+    points: [
+      "AI avatars with different personalities and accents",
+      "Learning paths with 1,000+ lessons, including exam prep",
+      "Real-time AI feedback with adjustable strictness",
+      "Nine languages",
+      "Free trial, then a Premium subscription"
+    ],
+    bestFor: "guided, low-pressure speaking for beginners"
+  }}
+/>
+
 ## What Praktika does well
 
 Praktika has made AI tutoring feel unusually personal, and a fair Praktika alternative page should say so.
@@ -70,6 +113,24 @@ Praktika has made AI tutoring feel unusually personal, and a fair Praktika alter
 
 For a beginner who is too anxious to talk to a person yet, Praktika is a genuinely good first step.
 
+<ProsCons
+  name="Praktika"
+  pros={[
+    "Avatars that react and keep the thread of the conversation",
+    "Feedback you can set to soft, balanced or strict",
+    "No judgment, at any hour",
+    "Goal-based paths, including IELTS and TOEFL",
+    "Upload photos, audio, video or documents to talk about"
+  ]}
+  cons={[
+    "No human conversation partners",
+    "Full access needs a subscription",
+    "Nine languages",
+    "iOS and Android only",
+    "Closed source"
+  ]}
+/>
+
 ## Where LangX differs from Praktika
 
 ### Real humans, two-way matching
@@ -79,6 +140,12 @@ However good an avatar is, it is still generating replies to please you. A nativ
 ### Corrections from people, unlimited on every plan
 
 On LangX your partner holds any message to correct it, and corrections are unlimited on every plan, Free included. A human usually tells you what a local would actually say, not only what is grammatically right. You also learn a lot by correcting their messages in your own language.
+
+<AppDemo
+  screen="chat"
+  title="What a local would actually say"
+  text="On LangX your partner holds any message to correct it, right in the chat. Corrections are unlimited on every plan, Free included."
+/>
 
 ### Far more languages
 
@@ -119,7 +186,18 @@ If "free" means ongoing speaking practice without a subscription, yes: LangX Fre
 - want unlimited human corrections on a free plan
 - learn a language Praktika does not offer
 
-**Or combine them.** Rehearse a situation with a Praktika avatar, then have the same conversation for real with a LangX partner the same day, and bring their corrections back to your next AI session. Our guide to [AI conversation partners vs real language exchange](/ai-conversation-partner-vs-language-exchange) explains why the mix works, and [how to do a language exchange](/how-to-do-a-language-exchange) helps with the human half. Before your first chat, a look at the [most common words](/tools/most-common-words) in your target language goes a long way.
+**Or combine them.**
+
+<Steps
+  title="How to use Praktika and LangX together"
+  steps={[
+    { title: "Rehearse with a Praktika avatar", text: "Practice a situation until it feels comfortable." },
+    { title: "Have it for real on LangX", text: "The same conversation with a LangX partner, the same day." },
+    { title: "Bring the corrections back", text: "Take your partner's corrections to your next AI session." }
+  ]}
+/>
+
+Our guide to [AI conversation partners vs real language exchange](/ai-conversation-partner-vs-language-exchange) explains why the mix works, and [how to do a language exchange](/how-to-do-a-language-exchange) helps with the human half. Before your first chat, a look at the [most common words](/tools/most-common-words) in your target language goes a long way.
 
 ## Other Praktika alternatives
 

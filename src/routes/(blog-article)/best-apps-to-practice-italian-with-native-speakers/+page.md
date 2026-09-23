@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Italian with native speakers are **HelloTalk** and **Tandem**, the two largest exchange communities, where Italians learning English are easy to find. **LangX** suits learners who want every message open to correction and no ads, **Conversation Exchange** helps you meet Italian speakers in person, and **italki** or **Preply** give you a paid tutor on video. For listening between conversations, the free podcasts **Coffee Break Italian** and **Podcast Italiano** are hard to beat.
 
 Italian looks friendly at first: it is spelled almost as it sounds, and if you know Spanish or French you recognize half the words. The problems show up in conversation, where verb endings, the formal *Lei* and a doubled consonant can change what you mean. A native speaker hears those instantly, which is why a partner is worth more than another month of drills.
+
+<KeyTakeaways items={[
+  "HelloTalk and Tandem are the two largest exchange communities, where Italians learning English are easy to find.",
+  "LangX: every message open to correction, and no ads.",
+  "Conversation Exchange for meeting in person; italki or Preply for a paid tutor on video.",
+  "Free podcasts Coffee Break Italian and Podcast Italiano cover listening between conversations.",
+  "Tu is normal between exchange partners; if unsure, ask \"Possiamo darci del tu?\""
+]} />
 
 We make LangX, so weigh our entry accordingly. Facts about other apps were checked against their official sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -69,6 +81,18 @@ Features change often, so check each store listing before committing. We do not 
 
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "The biggest exchange community, so Italian speakers are easy to find",
+    "Moments: corrections from several native speakers at once",
+    "Live group audio in Voicerooms"
+  ]}
+  cons={[
+    "Free tier has ads and daily caps on translation and some tools; VIP removes them"
+  ]}
+/>
+
 ### Tandem
 
 [Tandem](https://tandem.net) reviews new members and focuses on one-to-one conversations with text, voice messages and calls. One patient Italian partner who remembers your recurring mistakes, and meets you for a call every week, is the fastest route from "I understand" to "I can answer".
@@ -78,12 +102,31 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members and focuses on one-to-one conversations",
+    "Text, voice messages and calls for a regular weekly call",
+    "Find a partner in a particular country"
+  ]}
+  cons={[
+    "Approval can take time",
+    "Some filters and unlimited translation are in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Italian as the language you are learning and you see Italian speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, so every missing accent and wrong ending can be fixed, not just the first few. Translation is inside the chat (20 a day on Free).
 
 - **Best for:** careful written practice where fixing mistakes is the point, with no ads.
 - **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan, so every missing accent and wrong ending can be fixed. Translation is inside the chat."
+/>
 
 ### Conversation Exchange
 
@@ -124,6 +167,16 @@ Keep it short, friendly and specific to their profile.
 > Ciao Giulia! Mi chiamo Sam e sono canadese. Sto imparando l'italiano e ho visto che studi l'inglese. Ti va di fare uno scambio? Io ti aiuto con l'inglese e tu mi correggi l'italiano.
 
 In English: "Hi Giulia! My name is Sam and I'm Canadian. I'm learning Italian and saw that you study English. Do you fancy doing an exchange? I help you with English and you correct my Italian." Notice *canadese* has no capital letter: Italian does not capitalize nationalities, languages, days or months. That is a small thing your partner will notice if you get it right.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello and introduce yourself", text: "Ciao Giulia! Mi chiamo Sam e sono canadese." },
+    { title: "Say what you're learning, and what they are", text: "Sto imparando l'italiano e ho visto che studi l'inglese." },
+    { title: "Suggest an exchange", text: "Ti va di fare uno scambio?" },
+    { title: "Offer help and ask for corrections", text: "Io ti aiuto con l'inglese e tu mi correggi l'italiano." }
+  ]}
+/>
 
 Three more phrases you will use every week:
 

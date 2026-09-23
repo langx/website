@@ -20,6 +20,9 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import StatRow from "$lib/components/blog/StatRow.svelte";
 </script>
 
 LangX v2 is a rebuild rather than an update: a new app, a new API, and a new
@@ -28,6 +31,14 @@ the rebuild. It is about the two things v1 promised in public that v2 does not
 keep, because those are the parts you deserve to hear from us rather than
 discover.
 
+<KeyTakeaways items={[
+  "v2 is a rebuild: a new app, a new API and a new database under the same store listings.",
+  "Matching runs both ways, corrections and translation live in the chat, and there are streaks, tokens and leaderboards.",
+  "Two paid plans, Fluent and Polyglot. The free plan has 5 new conversations and 20 translations per 24 hours; replies and corrections are unlimited.",
+  "LangX Token is now an in-app point that cannot be bought, sold or traded. v1 balances carry over, divided by 100.",
+  "Returning users sign up again with the same email; the username is reserved and the streak is frozen."
+]} />
+
 ## First, what is actually new
 
 Matching now runs in **both directions**. You only see people who speak the
@@ -35,10 +46,16 @@ language you are learning *and* are learning the language you speak, so every
 conversation has something in it for both of you rather than one person doing a
 favour.
 
-You can **correct any message** by tapping it, and translation is built into the
+You can **correct any message** by holding it, and translation is built into the
 chat so you never leave the conversation to look something up. There are daily
 streaks, LangX Tokens for talking and teaching, and weekly, monthly, yearly and
 all-time leaderboards.
+
+<AppDemo
+  screen="chat"
+  title="Corrections and translation, inside the chat"
+  text="Every conversation is between two people who each learn the other's language. Corrections and translation happen in the chat itself, so you never leave the conversation."
+/>
 
 ## The first broken promise: LangX is no longer free of charge
 
@@ -63,6 +80,12 @@ Corrections being unlimited is not an oversight we will quietly close later.
 Rate-limiting the free side of a language exchange would shrink what a paying
 user *receives* just as much as what a free user gives — the person correcting
 your sentences is usually someone on the free plan.
+
+<StatRow stats={[
+  { value: "5", label: "new conversations you start, per 24 hours on the free plan" },
+  { value: "20", label: "translations per 24 hours on the free plan" },
+  { value: "Unlimited", label: "replies and corrections, on every plan" }
+]} />
 
 The honest reason for the paywall is that the app costs money to run and had no
 revenue. We would rather charge for filters than sell your attention: there are

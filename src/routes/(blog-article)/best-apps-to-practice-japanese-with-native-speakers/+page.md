@@ -24,11 +24,23 @@ keywords:
 
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
+  import KeyTakeaways from "$lib/components/blog/KeyTakeaways.svelte";
+  import ProsCons from "$lib/components/blog/ProsCons.svelte";
+  import AppDemo from "$lib/components/blog/AppDemo.svelte";
+  import Steps from "$lib/components/blog/Steps.svelte";
 </script>
 
 The best apps to practice Japanese with native speakers are **HelloTalk**, which has a large community in Japan and East Asia, and **Tandem**, for steady one-to-one partners. **LangX** suits learners who want every message open to correction and no ads, **HiNative** is good for quick "does this sound natural?" questions, and **italki** is the place for a paid Japanese tutor. For the reading side, pair them with **Anki** or **WaniKani**.
 
 Japanese asks more of a language exchange than most languages do. You are juggling three scripts, a choice between polite and casual speech in every sentence, and a partner who may be too polite to correct you unless you ask. This guide picks apps with that in mind.
+
+<KeyTakeaways items={[
+  "HelloTalk has a large community in Japan and East Asia; Tandem suits steady one-to-one partners.",
+  "LangX: every message open to correction, read-aloud, and no ads.",
+  "HiNative for quick \"does this sound natural?\" questions; italki for a paid tutor.",
+  "Pair conversation with Anki or WaniKani for the reading side.",
+  "Start in polite desu/masu form, and ask clearly for corrections."
+]} />
 
 We make LangX, so read our entry with that in mind. Everything about other apps was checked against their own sites and store listings at the time of writing (September 2026). For exchange apps across every language, see [the best language exchange apps](/best-language-exchange-apps).
 
@@ -65,6 +77,19 @@ Plans change often, so check each store listing before committing. We do not lis
 - **Best for:** finding Japanese partners quickly. Transliteration and translation inside the chat help with kanji you cannot read yet, and **Moments** lets several native speakers correct a short post.
 - **Keep in mind:** the free tier has ads and caps on translation and other extras; VIP removes them. The social-feed format is not for everyone.
 
+<ProsCons
+  name="HelloTalk"
+  pros={[
+    "Roots in East Asia: the most practical starting point for finding Japanese partners",
+    "Transliteration and translation inside the chat help with kanji you cannot read yet",
+    "Moments: several native speakers correct a short post"
+  ]}
+  cons={[
+    "Free tier has ads and caps on translation and other extras; VIP removes them",
+    "The social-feed format is not for everyone"
+  ]}
+/>
+
 Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 ### Tandem
@@ -76,12 +101,30 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 
 Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or see [Tandem vs HelloTalk](/tandem-vs-hellotalk).
 
+<ProsCons
+  name="Tandem"
+  pros={[
+    "Reviews new members; built around one-to-one text, voice messages and calls",
+    "One or two regular Japanese partners rather than a busy feed"
+  ]}
+  cons={[
+    "Approval can take a while",
+    "Some filters and unlimited translation sit in Tandem Pro"
+  ]}
+/>
+
 ### LangX
 
 Our app. [LangX](https://get.langx.io) matches in both directions: you see Japanese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters in a language where so many mistakes are about register rather than grammar. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful when you cannot yet sound out the kanji.
 
 - **Best for:** careful written practice with corrections, and no ads.
 - **Keep in mind:** the community is much smaller than HelloTalk's, so finding Japanese partners can take longer. There are **no live calls**, only text, voice and photo messages. Free allows 5 new conversations a day, with unlimited replies. On the Polyglot plan you can export a conversation's saved phrases as a file that opens in Anki. See [plans](/pro).
+
+<AppDemo
+  screen="chat"
+  title="Corrections inside the chat"
+  text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Read-aloud lets you hear any message spoken, useful when you cannot yet sound out the kanji."
+/>
 
 ### HiNative
 
@@ -122,6 +165,17 @@ Keep it short and polite. Romanization is in brackets (Hepburn style).
 (Konnichiwa! Hajimemashite. Samu desu. Nihongo o benkyō shite imasu. Yoroshiku onegaishimasu.)
 
 In English: "Hello! Nice to meet you. I'm Sam. I'm studying Japanese. I look forward to talking with you." Yoroshiku onegaishimasu has no neat English equivalent; it is the standard way to close an introduction.
+
+<Steps
+  title="The first message, step by step"
+  steps={[
+    { title: "Say hello", text: "こんにちは！はじめまして。 (Konnichiwa! Hajimemashite.)" },
+    { title: "Introduce yourself", text: "サムです。 (Samu desu.)" },
+    { title: "Say what you're learning", text: "日本語を勉強しています。 (Nihongo o benkyō shite imasu.)" },
+    { title: "Close the introduction", text: "よろしくお願いします。 (Yoroshiku onegaishimasu.)" },
+    { title: "Offer help and ask for corrections", text: "It is fine to add a line in English saying what you can help with and asking them to correct your Japanese." }
+  ]}
+/>
 
 It is fine to add a line in English saying what you can help with and asking them to correct your Japanese. Then a few phrases you will use constantly:
 
