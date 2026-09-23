@@ -26,6 +26,24 @@ described below.
 | Licence      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)    |
 | Downloaded   | 4 September 2026                                                   |
 
+## Pronunciations
+
+|              |                                                                    |
+| ------------ | ------------------------------------------------------------------ |
+| Source       | <https://kaikki.org> (Wiktextract), then eSpeak NG                 |
+| Derived from | the English Wiktionary; <https://github.com/espeak-ng/espeak-ng>   |
+| Licence      | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)    |
+| Downloaded   | 23 September 2026                                                  |
+| Files        | the fourth column, `ipa`, of every `.tsv`                          |
+
+An IPA transcription for each word, taken from its Wiktionary entry where there
+is one. Where there is not — mostly inflected forms — eSpeak NG reads the word,
+but only in languages where its reading matches Wiktionary's on a sample of
+words that have both; the rest keep an empty column. eSpeak NG is GPL-3.0
+software; what it outputs is not covered by that licence, and the column is
+share-alike with the rest of the list. `scripts/wordlists/build-ipa.ts` has the
+details.
+
 ## Example sentences
 
 |              |                                                                    |
@@ -66,12 +84,14 @@ required to stay under the same terms with the same credit.
 4. Attach the best English gloss for each word, resolving inflected forms back
    to their lemma.
 5. Keep the top 10,000 that survive.
+6. Add each word's pronunciation (`build-ipa.ts`, run after `build.ts`).
 
 Step 5 is a ceiling, not a promise: several languages have fewer, and the pages
 say the real number rather than claiming ten thousand.
 
 ## Refreshing them
 
-Re-run `node scripts/wordlists/build.ts` from `website/`. Both sources are
+Re-run `node scripts/wordlists/build.ts` from `website/`, then
+`build-ipa.ts`, `build-index.ts`, `build-pairs.ts` and `build-games.ts`. Both sources are
 updated periodically upstream; **check the licence at the version you actually
 download** before committing a refresh, and update the dates above.

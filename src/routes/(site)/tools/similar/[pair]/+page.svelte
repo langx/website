@@ -3,6 +3,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
@@ -10,7 +11,14 @@
 	import type { LanguagePair } from '$lib/data/language-pairs';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	type Row = { word: string; rankA: number; rankB: number; english: string };
+	type Row = {
+		word: string;
+		rankA: number;
+		rankB: number;
+		english: string;
+		ipaA: string;
+		ipaB: string;
+	};
 
 	export let data: {
 		pair: LanguagePair;
@@ -112,7 +120,14 @@
 							><SpeakButton code={b.code} rank={r.rankB} label="Hear {r.word} in {b.name}" size={26}
 								>{b.code}</SpeakButton
 							></span
-						></td
+						>{#if r.ipaA && r.ipaA === r.ipaB}<span class="ipas"><Ipa ipa={r.ipaA} /></span
+							>{:else if r.ipaA || r.ipaB}<span class="ipas"
+								>{#if r.ipaA}<span class="said"
+										><abbr title={a.name}>{a.code}</abbr> <Ipa ipa={r.ipaA} /></span
+									>{/if}{#if r.ipaB}<span class="said"
+										><abbr title={b.name}>{b.code}</abbr> <Ipa ipa={r.ipaB} /></span
+									>{/if}</span
+							>{/if}</td
 					>
 					<td class="gloss">{r.english}</td>
 					<td class="r tabular">#{nf.format(r.rankA)}</td>
@@ -230,6 +245,22 @@
 			gap: 2px;
 			margin-left: 8px;
 			vertical-align: middle;
+		}
+
+		.ipas {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0 12px;
+			margin-top: 2px;
+			font-family: var(--font--default);
+		}
+
+		.said abbr {
+			text-decoration: none;
+			font-size: 0.75rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			color: var(--color--text-tertiary);
 		}
 
 		.gloss {

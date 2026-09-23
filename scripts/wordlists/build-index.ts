@@ -9,7 +9,7 @@
  *
  * The search has to work in two directions on a static site with no server:
  *
- *   agua  -> Spanish, rank 112, "water"          (what is this word?)
+ *   agua  -> Spanish, rank 112, "water", /ˈaɣwa/  (what is this word?)
  *   water -> agua, eau, Wasser, su, вода…        (how do I say this?)
  *
  * Loading 407,063 rows into the browser is out of the question, so the index is
@@ -128,7 +128,8 @@ async function run() {
 		const tsv = await readFile(path.join(DATA, `${lang.slug}.tsv`), 'utf8');
 		for (const line of tsv.split('\n').slice(1)) {
 			if (!line) continue;
-			const [rankRaw, word, gloss] = line.split('\t');
+			// The pronunciation rides along last, empty where build-ipa.ts had none.
+			const [rankRaw, word, gloss, ipa = ''] = line.split('\t');
 			const rank = Number(rankRaw);
 			if (!word || !gloss) continue;
 
@@ -137,13 +138,13 @@ async function run() {
 				if (!words.has(wkey)) words.set(wkey, []);
 				// Truncated: the index is for recognising a word, and the full
 				// gloss is one click away on the language page.
-				words.get(wkey)!.push([lang.code, rank, short(gloss)]);
+				words.get(wkey)!.push([lang.code, rank, short(gloss), ipa]);
 			}
 
 			if (rank <= ENGLISH_DEPTH) {
 				for (const token of tokenise(gloss)) {
 					if (!english.has(token)) english.set(token, []);
-					english.get(token)!.push([lang.code, word, rank, short(gloss)]);
+					english.get(token)!.push([lang.code, word, rank, short(gloss), ipa]);
 				}
 			}
 		}

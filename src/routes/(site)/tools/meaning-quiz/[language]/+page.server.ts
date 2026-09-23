@@ -27,8 +27,8 @@ export async function load({ params }) {
 		.slice(1, DEPTH + 1)
 		.filter(Boolean)
 		.map((line) => {
-			const [rank, word, english] = line.split('\t');
-			return { rank: Number(rank), word, english };
+			const [rank, word, english, ipa] = line.split('\t');
+			return { rank: Number(rank), word, english, ipa: ipa ?? '' };
 		})
 		// A gloss that describes rather than translates makes a poor multiple
 		// choice, and two rows with the same gloss make an unanswerable one.

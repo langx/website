@@ -3,13 +3,14 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	type Word = { rank: number; word: string; english: string };
+	type Word = { rank: number; word: string; english: string; ipa: string };
 	type Band = { from: number; to: number; words: Word[] };
 
 	export let data: { meta: WordListMeta; bands: Band[] };
@@ -171,6 +172,7 @@
 									on:change={() => toggle(w.rank)}
 								/>
 								<span class="word" lang={meta.code}>{w.word}</span>
+								<Ipa ipa={w.ipa} />
 							</label>
 							<SpeakButton
 								code={meta.code}

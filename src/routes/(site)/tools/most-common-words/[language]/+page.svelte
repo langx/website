@@ -2,6 +2,7 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
@@ -9,7 +10,7 @@
 	import { intro } from '$lib/data/most-common-words-intros';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	type Row = { rank: number; word: string; english: string };
+	type Row = { rank: number; word: string; english: string; ipa: string };
 
 	export let data: {
 		meta: WordListMeta;
@@ -91,8 +92,8 @@
 				.slice(1)
 				.filter(Boolean)
 				.map((line) => {
-					const [rank, word, english] = line.split('\t');
-					return { rank: Number(rank), word, english: english ?? '' };
+					const [rank, word, english, ipa] = line.split('\t');
+					return { rank: Number(rank), word, english: english ?? '', ipa: ipa ?? '' };
 				});
 			loaded = true;
 		} catch {
@@ -138,19 +139,27 @@
 					list.map((r) => `${r.word}\t${r.english}`).join('\n');
 			} else if (format === 'csv') {
 				body =
-					'rank,word,english\n' +
-					list.map((r) => `${r.rank},${csvCell(r.word)},${csvCell(r.english)}`).join('\n');
+					'rank,word,english,ipa\n' +
+					list
+						.map((r) => `${r.rank},${csvCell(r.word)},${csvCell(r.english)},${csvCell(r.ipa)}`)
+						.join('\n');
 			} else {
 				// Plain text carries the credit, because a file that travels away
 				// from this page still has to name where the data came from.
 				const width = Math.max(...list.map((r) => r.word.length)) + 2;
+				const ipaWidth = Math.max(...list.map((r) => [...r.ipa].length)) + 2;
 				body =
 					`# The ${nf.format(count)} most common ${meta.name} words\n` +
 					`# From langx.io/tools/most-common-words/${meta.slug}\n` +
 					`# Frequencies: OpenSubtitles via hermitdave/FrequencyWords. ` +
-					`Meanings: Wiktextract. Both CC BY-SA 4.0, as is this list.\n\n` +
+					`Meanings and pronunciations: Wiktextract, with eSpeak NG filling pronunciation gaps. ` +
+					`CC BY-SA 4.0, as is this list.\n\n` +
 					list
-						.map((r) => `${String(r.rank).padStart(6)}  ${r.word.padEnd(width)}${r.english}`)
+						.map(
+							(r) =>
+								`${String(r.rank).padStart(6)}  ${r.word.padEnd(width)}` +
+								`${r.ipa.padEnd(ipaWidth)}${r.english}`
+						)
 						.join('\n');
 			}
 
@@ -275,7 +284,8 @@
 
 	<table class="words">
 		<caption class="sr-only">
-			The most common words in {meta.name}, most frequent first, with English meanings.
+			The most common words in {meta.name}, most frequent first, with IPA pronunciations and English
+			meanings.
 		</caption>
 		<thead>
 			<tr
@@ -294,7 +304,7 @@
 							rank={row.rank}
 							label="Hear {row.word} in {meta.name}"
 							size={28}
-						/></td
+						/><Ipa ipa={row.ipa} block /></td
 					>
 					<td class="gloss">
 						{row.english}
@@ -348,8 +358,8 @@
 	<section class="download">
 		<h2>Take the list with you</h2>
 		<p>
-			Rank, word and meaning in three columns. Pick how much of the list you want — the same slices
-			as the buttons above.
+			Rank, word, meaning and IPA pronunciation in four columns. Pick how much of the list you want
+			— the same slices as the buttons above.
 		</p>
 
 		<div class="dl-grid">
@@ -381,11 +391,15 @@
 				href="https://github.com/hermitdave/FrequencyWords"
 				rel="noopener noreferrer"
 				target="_blank">hermitdave/FrequencyWords</a
-			>; English meanings from
-			<a href="https://kaikki.org" rel="noopener noreferrer" target="_blank">Wiktextract</a>. Both
-			are CC BY-SA 4.0, and so is this list — keep the credit if you pass it on. Example sentences
-			come from <a href="https://tatoeba.org" rel="noopener noreferrer" target="_blank">Tatoeba</a>,
-			CC BY 2.0 FR. The
+			>; English meanings and IPA pronunciations from
+			<a href="https://kaikki.org" rel="noopener noreferrer" target="_blank">Wiktextract</a>, with
+			<a href="https://github.com/espeak-ng/espeak-ng" rel="noopener noreferrer" target="_blank"
+				>eSpeak NG</a
+			>
+			filling in pronunciations Wiktionary lacks. The data is CC BY-SA 4.0, and so is this list —
+			keep the credit if you pass it on. Example sentences come from
+			<a href="https://tatoeba.org" rel="noopener noreferrer" target="_blank">Tatoeba</a>, CC BY 2.0
+			FR. The
 			<a href={fileUrl} download>raw data file</a> is here too.
 		</p>
 		<VoiceCredit codes={[meta.code]} />

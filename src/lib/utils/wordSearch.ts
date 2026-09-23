@@ -23,6 +23,8 @@ export interface WordHit {
 	word: string;
 	rank: number;
 	gloss: string;
+	/** IPA with its brackets; empty where there is none. */
+	ipa: string;
 }
 
 export interface EnglishHit {
@@ -30,6 +32,7 @@ export interface EnglishHit {
 	word: string;
 	rank: number;
 	gloss: string;
+	ipa: string;
 }
 
 interface Stats {
@@ -111,11 +114,12 @@ export async function lookupWord(query: string): Promise<{ key: string; hits: Wo
 		if (!key.startsWith(q)) continue;
 		out.push({
 			key,
-			hits: (shard[key] as [string, number, string][]).map(([code, rank, gloss]) => ({
+			hits: (shard[key] as [string, number, string, string?][]).map(([code, rank, gloss, ipa]) => ({
 				code,
 				word: key,
 				rank,
-				gloss
+				gloss,
+				ipa: ipa ?? ''
 			}))
 		});
 		if (out.length > 40) break;
@@ -136,12 +140,9 @@ export async function lookupEnglish(query: string): Promise<{ key: string; hits:
 		if (!key.startsWith(q)) continue;
 		out.push({
 			key,
-			hits: (shard[key] as [string, string, number, string][]).map(([code, word, rank, gloss]) => ({
-				code,
-				word,
-				rank,
-				gloss
-			}))
+			hits: (shard[key] as [string, string, number, string, string?][]).map(
+				([code, word, rank, gloss, ipa]) => ({ code, word, rank, gloss, ipa: ipa ?? '' })
+			)
 		});
 		if (out.length > 40) break;
 	}

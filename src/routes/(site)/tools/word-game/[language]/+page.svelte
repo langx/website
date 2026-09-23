@@ -3,6 +3,7 @@
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -25,6 +26,8 @@
 	let answer = '';
 	/** Its rank in the list, for the reading played once the game is over. */
 	let answerRank: number | undefined;
+	/** And its pronunciation, shown with the reveal. */
+	let answerIpa = '';
 	let loaded = false;
 
 	let rows: string[] = [];
@@ -50,6 +53,7 @@
 			const days = Math.floor(Date.parse(today) / 86_400_000);
 			answer = answers[days % answers.length];
 			answerRank = d.answerRanks?.[days % answers.length];
+			answerIpa = d.answerIpa?.[days % answers.length] ?? '';
 			loaded = true;
 			restore();
 		} catch {
@@ -252,6 +256,7 @@
 					label="Hear {answer} in {meta.name}"
 					size={36}
 				/>
+				<Ipa ipa={answerIpa} />
 			</p>
 			<div class="after">
 				<button type="button" class="share" on:click={copyResult}>

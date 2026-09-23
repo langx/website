@@ -3,6 +3,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
+	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
@@ -107,9 +108,12 @@
 				.filter(Boolean)
 				.map((line) => line.split('\t'));
 			const body =
-				'rank,word,english\n' +
+				'rank,word,english,ipa\n' +
 				rows
-					.map(([rank, word, english]) => `${rank},${csvCell(word)},${csvCell(english ?? '')}`)
+					.map(
+						([rank, word, english, ipa]) =>
+							`${rank},${csvCell(word)},${csvCell(english ?? '')},${csvCell(ipa ?? '')}`
+					)
 					.join('\n');
 			const url = URL.createObjectURL(new Blob([body], { type: 'text/csv;charset=utf-8' }));
 			const a = document.createElement('a');
@@ -282,7 +286,7 @@
 											code={hit.code}
 											rank={hit.rank}
 											label="Hear {hit.word} in {l.name}"
-										/></span
+										/><Ipa ipa={hit.ipa} block /></span
 									>
 									<a class="lang" href="/tools/most-common-words/{l.slug}">{l.name}</a>
 									<span class="meaning">{hit.gloss}</span>
@@ -604,10 +608,16 @@
 
 		.term {
 			display: inline-flex;
+			flex-wrap: wrap;
 			align-items: center;
-			gap: 6px;
+			gap: 0 6px;
 			font-family: var(--font--title);
 			font-weight: 800;
+
+			// The pronunciation takes a line of its own under the word.
+			:global(.ipa) {
+				flex-basis: 100%;
+			}
 		}
 
 		.lang {
