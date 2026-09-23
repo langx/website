@@ -15,7 +15,7 @@ rank	word	english	ipa
 14	ar	whether, if	[²ˈɐrˑ]
 15	o	and, but	[²ˈoː]
 16	man	I	[¹ˈmɑˑn]
-17	kas	who	
+17	kas	who	/kɐs/
 18	gerai	well	/ˈɡʲærɐɪ̯/
 19	mano	my, mine	[ˈmɐnoː]
 20	bet	but, yet, though	[ˈbʲɛt]
@@ -38,7 +38,7 @@ rank	word	english	ipa
 37	dabar	now	[dɐ²ˈbɐrˑ]
 38	apie	about	[ɐ²ˈpʲiɛ]
 39	viskas	everything	[ˈʋʲɪskɐs]
-40	jį	he, it	
+40	jį	he, it	/jiː/
 41	tave	you	[tɐˈʋʲɛ]
 42	jo	his	[²ˈjo̟ː]
 43	jau	already	/jɛʊ̯/
@@ -70,8 +70,8 @@ rank	word	english	ipa
 69	ją	she	/jaː/
 70	būti	to be	[ˈbuːtʲɪ]
 71	mums	we	[¹ˈmʊms]
-72	jam	he, it	
-73	jums	you	
+72	jam	he, it	/jaːm/
+73	jums	you	/jʊms/
 74	nes	because, since	[ˈnʲɛs]
 75	visi	everyone, all of them	[ʋʲɪˈsʲɪ]
 76	noriu	to want	[¹ˈnoːrʲʊ̟]
@@ -90,14 +90,14 @@ rank	word	english	ipa
 89	iki	to	[ɪˈkʲɪ]
 90	labas	hi, hello	/ˈɫɑ̌ːbɐs/
 91	jų	their	/juː/
-92	juos	they	
+92	juos	they	/ˈjuəs/
 93	prieš	versus	[²ˈpʲrʲiɛʃ]
 94	vienas	one	[¹ˈʋʲiɛnɐs]
 95	daugiau	much, a lot	[dɒʊ²ˈɡʲɛʊˑ]
 96	galiu	to be able to; can, may	[ɡɐˈlʲʊ̟]
 97	manau	to deem	[mɐ²ˈnɒʊˑ]
 98	mus	we	[ˈmʊs]
-99	jus	you	
+99	jus	you	/juːs/
 100	pas	by; with; at	[ˈpɐs]
 101	pat	very, right	[ˈpɐt]
 102	toks	such	[¹ˈtoːks]
@@ -107,7 +107,7 @@ rank	word	english	ipa
 106	žinoma	of course	[ˈʒʲɪnoːmɐ]
 107	kiek	how much, how many	[¹ˈkʲiɛk]
 108	koks	what, which	[¹ˈkoːks]
-109	mama	mother	
+109	mama	mother	/mɐˈmɐ/
 110	nei	neither ... nor	[²ˈnʲɛɪˑ]
 111	esu	first-person singular present of bū́ti	[ɛˈsʊ]
 112	pats	oneself: himself, herself, myself, yourself	[ˈpɐts]
@@ -120,7 +120,7 @@ rank	word	english	ipa
 119	jog	that	/ˈjôːɡ/
 120	geriau	comparative degree of gerai̇̃	[ɡʲɛ²ˈrʲɛʊˑ]
 121	visą	everyone, all of them	[ˈʋʲɪsɑː]
-122	jai	she	
+122	jai	she	/ˈjɐɪ/
 123	vieną	one	[¹ˈʋʲiɛnɑː]
 124	kada	when	[kɐˈdɐ]
 125	šiandien	today	[²ˈʃʲɛnʲˑdʲiɛn]
@@ -142,7 +142,7 @@ rank	word	english	ipa
 141	vėl	again	[²ˈʋʲeːl]
 142	manai	to deem	/mɐˈnɐɪ̌/
 143	jeigu	if	[jæjɡʊ]
-144	sveiki	hello	
+144	sveiki	hello	/svɛɪˈkɪ/
 145	visai	completely, entirely	/ˈvʲɪ.s̪ɐɪ/
 146	kartu	together	/kɐrˈtʊ/
 147	visada	always, constantly	[ʋʲɪsɐˈdɐ]
@@ -154,10 +154,10 @@ rank	word	english	ipa
 153	ta	that	[ˈtɐ]
 154	žmogus	human	[ʒmoːˈɡʊs]
 155	tačiau	but, yet	[tɐ²ˈt͡ʃʲɛʊˑ]
-156	jiems	they	
+156	jiems	they	/ˈjiəms/
 157	darai	to make	[dɐ²ˈrɐɪˑ]
 158	kažkas	something	/kɐʃˈkɐs/
-159	juo	he, it	
+159	juo	he, it	/ˈjuə/
 160	sakė	to say	[²ˈsɑːkʲeː]
 161	padaryti	to do, accomplish	[pɐdɐ¹ˈrʲiːtʲɪ]
 162	visus	everyone, all of them	[ʋʲɪˈsʊs]
@@ -165,7 +165,7 @@ rank	word	english	ipa
 164	geras	good	/ˈɡʲæɾɐs/
 165	eiti	to go	[ˈɛɪ̯̌ːtʲɪ]
 166	šūdas	shit	/ˈʃuːdɐs/
-167	sveikas	healthy	
+167	sveikas	healthy	/ˈsvɛɪkɐs/
 168	kokia	feminine nominative/instrumental singular of kóks	[koːˈkʲɛ]
 169	daryti	to make	[dɐ¹ˈrʲiːtʲɪ]
 170	galbūt	maybe	[ɡɐl¹ˈbuːt]
@@ -173,7 +173,7 @@ rank	word	english	ipa
 172	visa	everyone, all of them	/vʲɪˈs̪ɐ/
 173	kurie	which	[kʊ²ˈrʲiɛ]
 174	dieną	day, daytime	[²ˈdʲiɛnɑː]
-175	tam	for that purpose	
+175	tam	for that purpose	/taːm/
 176	padėti	to help, assist	/pɐˈd̪ʲêː.t̪ʲɪ/
 177	žmogau	human	[ʒmoː²ˈɡɒʊˑ]
 178	šis	this	[ˈʃʲɪs]
@@ -190,15 +190,15 @@ rank	word	english	ipa
 189	manimi	I	[mɐnʲɪˈmʲɪ]
 190	supratau	to perceive, to get it; to understand	[sʊprɐ²ˈtɒʊˑ]
 191	norėjau	to want	[noː¹ˈrʲeːjɛʊ]
-192	tikras	correct, true	
+192	tikras	correct, true	/ˈtɪkrɐs/
 193	laikas	time	/ˈɫɐɪ.kɐs/
 194	buvai	to be	[bʊ²ˈʋɐɪˑ]
 195	supranti	to perceive, to get it; to understand	[sʊprɐnʲˈtʲɪ]
 196	norėčiau	to want	[noː¹ˈrʲeːt͡ʃʲɛʊ]
 197	vyras	man	[¹ˈʋʲiːrɐs]
 198	tėvas	father	[¹ˈtʲeːʋɐs]
-199	paskui	following someone, behind	
-200	matai	second-person singular present of matýti	
+199	paskui	following someone, behind	/pɐsˈkʊɪ/
+200	matai	second-person singular present of matýti	/mɐˈtɐɪ/
 201	toliau	further; else	[toː²ˈlʲɛʊˑ]
 202	suprantu	to perceive, to get it; to understand	[sʊprɐnˈtʊ]
 203	diena	day, daytime	/dʲiəˈnɐ/
@@ -210,9 +210,9 @@ rank	word	english	ipa
 209	žiūrėk	to look at; to look into, observe; to watch	[ʒʲu̟ː¹ˈrʲeːk]
 210	puikiai	excellently	[²ˈpʊɪˑkʲɛɪ]
 211	metu	instrumental singular of mẽtas	[mʲɛˈtʊ]
-212	metus	accusative plural of mẽtas	
+212	metus	accusative plural of mẽtas	/mɛˈtʊs/
 213	duok	to give	[¹ˈduɔk]
-214	ja	she	
+214	ja	she	/jaː/
 215	malonu	pleasant, pleasing; agreeable	[mɐloːˈnʊ]
 216	lyg	like	/lʲiːk/
 217	ateik	to come, to arrive	[ɐ²ˈtʲɛɪˑk]
@@ -238,7 +238,7 @@ rank	word	english	ipa
 237	tarp	between	[²ˈtɐrˑp]
 238	pasakė	to say, to tell	[pɐ²ˈsɑːkʲeː]
 239	turite	to have	[ˈtʊrʲɪtʲɛ]
-240	kartais	sometimes	
+240	kartais	sometimes	/kɐrtɐɪs/
 241	šito	masculine genitive singular of šitas	[ˈʃʲɪtoː]
 242	anksčiau	early, prematurely	[ɐŋk²ˈʃʲt͡ʃʲɛʊˑ]
 243	gana	enough, sufficiently	[ɡɐˈnɐ]
@@ -247,14 +247,14 @@ rank	word	english	ipa
 246	draugas	male friend	[²ˈdrɒʊˑɡɐs]
 247	labiau	very; really	[lɐ²ˈbʲɛʊˑ]
 248	darbas	work, job	[¹ˈdɑˑrbɐs]
-249	vėliau	late	
+249	vėliau	late	/veːˈlʲɐʊ/
 250	turėjau	to have	[tʊ¹ˈrʲeːjɛʊ]
 251	ilgai	long	[ɪɫˈɡɐɪ̌ˑ]
 252	trys	three	[²ˈtʲrʲiːs]
 253	duris	accusative plural of dùrys	[dʊˈrʲɪs]
 254	vieta	place	[vʲɪəˈt̪ɐ]
 255	tuos	accusative masculine plural of tàs	[²ˈtuɔs]
-256	sakei	to say	
+256	sakei	to say	/sɐˈkɛɪ/
 257	vakar	yesterday	[²ˈʋɑːkɐr]
 258	turėtų	to have	[tʊ¹ˈrʲeːtuː]
 259	žmona	wife	[ʒmɔːˈn̪ɐ]
@@ -275,10 +275,10 @@ rank	word	english	ipa
 274	moteris	woman	[¹ˈmoːtʲɛrʲɪs]
 275	pagalbos	help	[pɐ¹ˈɡɑˑlboːs]
 276	būčiau	to be	[¹ˈbuːt͡ʃʲɛʊ]
-277	jas	they	
+277	jas	they	/jɐs/
 278	sūnus	son	[suːˈnʊs]
 279	draugai	male friend	[drɒʊ²ˈɡɐɪˑ]
-280	jumis	you	
+280	jumis	you	/jʊˈmɪs/
 281	žmones	human	[¹ˈʒmoːnʲɛs]
 282	abu	both	[ɐˈbʊ]
 283	būtent	exactly, precisely	[¹ˈbuːtʲɛnt]
@@ -288,16 +288,16 @@ rank	word	english	ipa
 287	būk	to be	[¹ˈbuːk]
 288	vyrai	nominative/vocative plural of výras	[¹ˈʋʲiːrɐɪ]
 289	gyvenimas	the time between birth and death	[ɡʲiː²ˈʋʲæːnʲɪmɐs]
-290	teisus	fair, honest	
+290	teisus	fair, honest	/tɛɪˈsʊs/
 291	laukia	to wait; to expect, to anticipate	[¹ˈlɑˑʊkʲɛ]
 292	vos	hardly, barely	[²ˈʋoːs]
 293	rankas	hand; arm	[rɐŋˈkɐs]
-294	pirma	non-pronominal feminine nominative/vocative singular…	
+294	pirma	non-pronominal feminine nominative/vocative singular…	/pɪrˈmɐ/
 295	kurią	which	[kʷʊˈr̺ʲæ̌ː]
-296	žinote	to know	
+296	žinote	to know	/ˈʒɪnoːtɛ/
 297	grįžti	to return	[ˈɡʲrʲǐːʃʲtʲɪ]
 298	gero	good	[²ˈɡʲæːroː]
-299	dienos	day, daytime	
+299	dienos	day, daytime	/ˈdiənoːs/
 300	norite	to want	[¹ˈnoːrʲɪtʲɛ]
 301	vieno	one	[¹ˈʋʲiɛnoː]
 302	vienintelis	only	[ʋʲiɛ²ˈnʲɪnʲˑtʲɛlʲɪs]
@@ -329,8 +329,8 @@ rank	word	english	ipa
 328	turėtum	to have	[tʊ¹ˈrʲeːtʊm]
 329	namų	house	[nɐ²ˈmuː]
 330	kalbėti	to speak	[kɐlʲ¹ˈbʲeːtʲɪ]
-331	seniai	long ago	
-332	alio	hello	
+331	seniai	long ago	/sɛˈnʲɐɪ/
+332	alio	hello	/ɐˈlʲoː/
 333	esate	to be	[²ˈæːsɐtʲɛ]
 334	pagaliau	finally; at last	[pɐɡɐ²ˈlʲɛʊˑ]
 335	mirties	death	[mʲɪrʲ²ˈtʲiɛs]
@@ -338,7 +338,7 @@ rank	word	english	ipa
 337	mumis	we	[mʊˈmʲɪs]
 338	pasaulyje	world	[pɐ¹ˈsɑˑʊlʲiːjɛ]
 339	namie	at home	[nɐ²ˈmʲiɛ]
-340	šitas	this	
+340	šitas	this	/ˈʃɪtɐs/
 341	mintis	thought	[mʲɪnʲˈtʲɪs]
 342	radau	find, discover	[rɐ²ˈdɒʊˑ]
 343	norėjo	to want	[noː¹ˈrʲeːjo̟ː]
@@ -357,7 +357,7 @@ rank	word	english	ipa
 356	gyventi	to live	[ɡʲiː¹ˈʋʲæˑnʲtʲɪ]
 357	prašom	please	[²ˈprɑːʃoːm]
 358	įdomu	interesting	[iːdoːˈmʊ]
-359	mašina	machine	
+359	mašina	machine	/mɐʃɪˈnɐ/
 360	brolis	brother	[¹ˈbroːlʲɪs]
 361	sakyk	to say	[sɐ¹ˈkʲiːk]
 362	kelio	genitive singular of kẽlis	[²ˈkʲæːlʲo̟ː]
@@ -368,7 +368,7 @@ rank	word	english	ipa
 367	oro	air	[¹ˈoːroː]
 368	dalis	part	[dɐˈlʲɪs]
 369	rasti	find, discover	/ˈrɐsʲ.tʲɪ/
-370	lauk	to wait; to expect, to anticipate	
+370	lauk	to wait; to expect, to anticipate	/ˈlɐʊk/
 371	tarsi	to pronounce; to articulate; to enunciate; to say	[²ˈtɐrʲˑsʲɪ]
 372	pasaulį	world	[pɐ¹ˈsɑˑʊlʲiː]
 373	tegu	let, may	[tʲɛˈɡʊ]
@@ -381,13 +381,13 @@ rank	word	english	ipa
 380	šitaip	in this way, like this	[ˈʃʲɪtɐɪp]
 381	dirbti	to work	/ˈdʲɪɾʲpʲtʲɪ/
 382	bėk	to run	[¹ˈbʲeːk]
-383	jais	they	
+383	jais	they	/ˈjɐɪs/
 384	puikus	excellent, wonderful	[pʊɪˈkʊs]
 385	dėkoju	thank you	[dʲeː¹ˈkoːjʊ̟]
 386	žmogų	human	[¹ˈʒmoːɡuː]
 387	būtum	to be	[¹ˈbuːtʊm]
 388	paskutinis	last, final	[pɐskʊˈtʲɪnʲɪs]
-389	kažkur	somewhere	
+389	kažkur	somewhere	/kɐʒkʊr/
 390	dingo	third-person singular/plural past of diñgti	[²ˈdʲɪŋˑɡoː]
 391	dėmesio	pay attention! attention!	[²ˈdʲeːmʲɛsʲo̟ː]
 392	ranką	hand; arm	[ˈɾɐŋkaː]
@@ -397,7 +397,7 @@ rank	word	english	ipa
 396	meilės	love	[¹ˈmʲæˑɪlʲeːs]
 397	vyrukas	boy, chap, fellow, lad, young man	[ʋʲiːˈrʊkɐs]
 398	pasakei	to say, to tell	[pɐsɐ²ˈkʲɛɪˑ]
-399	išeiti	to exit, leave, go out	
+399	išeiti	to exit, leave, go out	/ɪˈʃɛɪtɪ/
 400	reikalas	business, affair, matter, issue	[²ˈrʲɛɪˑkɐlɐs]
 401	kalbu	to speak	[kɐlˈbʊ]
 402	ateina	to come, to arrive	[ɐ²ˈtʲɛɪˑnɐ]
@@ -415,31 +415,31 @@ rank	word	english	ipa
 414	metai	year	[²ˈmʲæːtɐɪ]
 415	sakyti	to say	[sɐ¹ˈkʲiːtʲɪ]
 416	žinojau	to know	[ʒʲɪ¹ˈnoːjɛʊ]
-417	berniukas	lad	
-418	galvos	genitive singular of galvà	
+417	berniukas	lad	/bɛrˈnʲʊkɐs/
+418	galvos	genitive singular of galvà	/ɡɐlˈvoːs/
 419	gražu	beautiful	[ɡrɐˈʒʊ]
 420	pasaulis	world	[pɐ¹ˈsɑˑʊlʲɪs]
 421	tėvo	genitive singular of tė́vas	[¹ˈtʲeːʋoː]
 422	policija	police	/poːˈlʲɪt͡sʲɪjɐ/
 423	vaikus	accusative plural of vai̇̃kas	[ʋɐɪˈkʊs]
 424	kelią	accusative singular of kẽlias	[²ˈkʲæːlʲæː]
-425	eini	to go	
+425	eini	to go	/ɛɪˈnɪ/
 426	karo	genitive singular of kãras	[²ˈkɑːroː]
 427	omeny	alternative form of omenyjè: locative singular of omuõ	[oːmʲɛ²ˈnʲiː]
 428	šie	nominative plural of ši̇̀s	[²ˈʃʲiɛ]
 429	klausimas	question	[¹ˈklɑˑʊsʲɪmɐs]
 430	norėtum	to want	[noː¹ˈrʲeːtʊm]
-431	kiekvienas	each, every	
+431	kiekvienas	each, every	/kiəkˈviənɐs/
 432	sakant	present adverbial padalyvis participle of sakyti	[²ˈsɑːkɐnt]
 433	mudu	we, the two of us	[ˈmʊdʊ]
 434	gražus	beautiful	[ɡrɐˈʒʊs]
-435	mažiau	little, small	
+435	mažiau	little, small	/mɐˈʒʲɐʊ/
 436	žemyn	down, downwards	[ʒʲɛ²ˈmʲiːn]
 437	pradėti	to begin, to start	[prɐˈd̪ʲêːt̪ʲɪ]
 438	mirti	to die	[ˈmʲɪrʲ.tʲɪ]
 439	senas	old	[ˈsʲæːnɐs]
 440	darau	to make	[dɐ²ˈrɒʊˑ]
-441	leisti	let, allow, permit, authorize	
+441	leisti	let, allow, permit, authorize	/ˈlɛɪstɪ/
 442	turėti	to have	[tʊ¹ˈrʲeːtʲɪ]
 443	paliko	third-person past of pali̇̀kti	[pɐˈlʲɪkoː]
 444	pala	wait!	
@@ -450,8 +450,8 @@ rank	word	english	ipa
 449	tame	locative masculine singular of tàs	[tɐˈmʲɛ]
 450	susitikti	to meet up, get together	/sʊ.sɪˈtʲɪk.tʲɪ/
 451	norėjai	to want	[noː¹ˈrʲeːjɛɪ]
-452	problema	problem	
-453	kažkoks	of some kind, some kind of	
+452	problema	problem	/proːblɛˈmɐ/
+453	kažkoks	of some kind, some kind of	/kɐʒˈkoːks/
 454	daktaras	doctor	[²ˈdɑːktɐrɐs]
 455	kelių	genitive plural of kẽlis	[²ˈkʲæːlʲu̟ː]
 456	durų	genitive plural of dùrys	[ˈdʊruː]
@@ -481,13 +481,13 @@ rank	word	english	ipa
 480	nerūpi	negative form of rūpi	
 481	nuostabus	excellent, wonderful	[nuɔstɐˈbʊs]
 482	laiku	time	[lɐɪˈkʊ]
-483	mieste	locative singular of miẽstas	
+483	mieste	locative singular of miẽstas	/miəsˈtɛ/
 484	galva	head	[ɡɐɫ̪ˈvɐ]
 485	važiuoti	to go by vehicle, drive, ride	[ʋɐ¹ˈʒʲu̟ɔtʲɪ]
 486	nekenčiu	to hate	[nʲɛkʲɛnʲˈt͡ʃʲʊ̟]
 487	vyrų	genitive plural of výras	[¹ˈʋʲiːruː]
 488	filmas	film, movie	[¹ˈfʲɪlmɐs]
-489	rūpi	to concern	
+489	rūpi	to concern	/ˈruːpɪ/
 490	kartus	bitter	[kɐɾˈtʊs]
 491	žiūri	to look at; to look into, observe; to watch	/ʑuːˈɾʲɪ/
 492	dažnai	often	[dɐʒˈnɐɪ̯ˑ]
@@ -497,8 +497,8 @@ rank	word	english	ipa
 496	davė	to give	[²ˈdɑːʋʲeː]
 497	galėsi	to be able to; can, may	[ɡɐ¹ˈlʲeːsʲɪ]
 498	kalės	genitive singular of kalė̃	[kɐ²ˈlʲeːs]
-499	naujas	new	
-500	kavos	coffee	
+499	naujas	new	/ˈnɐʊjɐs/
+500	kavos	coffee	/ˈkaːvoːs/
 501	buvome	to be	[ˈbʊʋoːmʲɛ]
 502	vyrą	accusative singular of výras	[¹ˈʋʲiːrɑː]
 503	laivas	ship	[²ˈlɐɪˑʋɐs]
@@ -534,7 +534,7 @@ rank	word	english	ipa
 533	gavai	to get, to obtain, to gain	[ɡɐ²ˈʋɐɪˑ]
 534	mokyklos	school	[moː²ˈkʲiːkloːs]
 535	bloga	bad, wrong	[bloːˈɡɐ]
-536	kieno	whose; genitive of kas	
+536	kieno	whose; genitive of kas	/kiəˈnoː/
 537	ryto	genitive singular of rýtas	[¹ˈrʲiːtoː]
 538	numeris	number	[ˈnʊmʲɛrʲɪs]
 539	išskyrus	except, excluding	[ɪ¹ˈsʲkʲiːrʊs]
@@ -555,13 +555,13 @@ rank	word	english	ipa
 554	pabaiga	end	[pɐbɐɪ̯ˑˈɡɐ]
 555	mokyklą	school	[moː²ˈkʲiːklɑː]
 556	pasilikti	to stay	
-557	paprastai	simply	
-558	šita	feminine genitive/instrumental singular of šitas	
+557	paprastai	simply	/pɐprɐsˈtɐɪ/
+558	šita	feminine genitive/instrumental singular of šitas	/ʃɪˈtɐ/
 559	vyro	genitive singular of výras	[¹ˈʋʲiːroː]
 560	knygą	book	[²ˈknʲiːɡɑː]
 561	ateiti	to come, to arrive	[ɐˈtʲɛjːtʲɪ]
 562	arti	nearby, close, around	/ˈar.tʲɪ/
-563	amerikos	genitive singular of Amerika	
+563	amerikos	genitive singular of Amerika	/ɐˈmɛrɪkoːs/
 564	karto	time	/ˈkɐ̌rˑ.tɔː/
 565	moterys	nominative/vocative plural of móteris and mótė	[¹ˈmoːtʲɛrʲiːs]
 566	tiksliai	exactly, precisely, accurately	
@@ -609,7 +609,7 @@ rank	word	english	ipa
 608	maždaug	approximately	[mɐʒˈdɐuɡ]
 609	matė	to see	[ˈmaːte]
 610	dovana	gift	/doːvɐˈnɐ/
-611	kažkaip	somehow, in some way	
+611	kažkaip	somehow, in some way	/kɐʒˈkɐɪp/
 612	galėsiu	to be able to; can, may	[ɡɐ¹ˈlʲeːsʲʊ̟]
 613	žinojo	to know	[ʒʲɪ¹ˈnoːjo̟ː]
 614	laukti	to wait; to expect, to anticipate	[ˈlaʊkʲtʲɪ]
@@ -619,26 +619,26 @@ rank	word	english	ipa
 618	vienam	one	/vʲiəˈn̪â̤ˑm/
 619	draugė	a female friend	[ˈd̪rɐʊ̯ˑɡʲeː]
 620	pirmasis	first	[pʲɪrˈmɐsʲɪs]
-621	mielai	sweetly, nicely	
+621	mielai	sweetly, nicely	/ˈmiəlɐɪ/
 622	eikite	to go	[²ˈɛɪˑkʲɪtʲɛ]
 623	kuria	which	[kʊˈr̺ʲɐ]
 624	vaiko	genitive singular of vai̇̃kas	[²ˈʋɐɪˑkoː]
 625	minutės	minute	[mʲɪˈnʊtʲeːs]
 626	miestas	city	[²ˈmʲiɛstɐs]
-627	kasdien	daily	
+627	kasdien	daily	/kɐsˈdiən/
 628	valgyti	to eat	[¹ˈʋɑˑlʲɡʲiːtʲɪ]
 629	kalbėk	to speak	[kɐlʲ¹ˈbʲeːk]
 630	sistema	system	/sʲɪsʲtʲɛˈmɐ/
-631	judu	you, the two of you	
+631	judu	you, the two of you	/ˈjʊdʊ/
 632	mokykloje	school	[moː²ˈkʲiːkloːjɛ]
 633	panašus	similar, alike	[pɐnɐˈʃʊs]
 634	sudie	bye, adieu	[sʊ²ˈdʲiɛ]
-635	akys	eye	
+635	akys	eye	/ˈaːkiːs/
 636	laikaisi	second-person singular present of laikýtis	[lɐɪ²ˈkɐɪˑsʲɪ]
 637	pavyzdžiui	for example	[²ˈpɑːʋʲiːʒʲd͡ʒʲʊ̟ɪ]
 638	teko	third-person past of tèkti	[²ˈtʲæːkoː]
-639	lengvai	easily	
-640	karą	accusative singular of kãras	
+639	lengvai	easily	/lɛnɡvɐɪ/
+640	karą	accusative singular of kãras	/ˈkaːraː/
 641	pernelyg	too	/pʲɛr̺ʲ.nʲɛˈlʲîːk/
 642	patiks	to appeal, like	[pɐˈtʲɪks]
 643	baigiau	to finish	[bɐɪ²ˈɡʲɛʊˑ]
@@ -660,8 +660,8 @@ rank	word	english	ipa
 659	rankų	hand; arm	[²ˈrɐŋˑkuː]
 660	antra	non-pronominal feminine nominative/instrumental/vocative…	/ɐnˈtrɐ/
 661	keliu	instrumental singular of kẽlis	[kʲɛˈlʲʊ̟]
-662	laikai	The circumstances of a particular time period, the times	
-663	skolingas	indebted	
+662	laikai	The circumstances of a particular time period, the times	/lɐɪˈkɐɪ/
+663	skolingas	indebted	/skoːˈlɪnɡɐs/
 664	blogiau	badly, poorly	[bloː²ˈɡʲɛʊˑ]
 665	vanduo	water	[ʋɐn²ˈduɔ]
 666	anksti	early, prematurely	[ɐŋkˈsʲtʲɪ]
@@ -675,19 +675,19 @@ rank	word	english	ipa
 674	tol	until	
 675	kurias	which	[kʊˈr̺ʲɐs̪]
 676	kūną	body	[¹ˈkuːnɑː]
-677	radai	find, discover	
+677	radai	find, discover	/rɐˈdɐɪ/
 678	sena	old	[sʲɛˈnɐ]
 679	idėja	idea	[ɪ¹ˈdʲeːjɛ]
-680	laukiu	to wait; to expect, to anticipate	
+680	laukiu	to wait; to expect, to anticipate	/ˈlɐʊkʲʊ/
 681	stiprus	strong	[sʲtʲɪˈprʊs]
 682	ugnis	fire	[ʊˈɡnʲɪs]
 683	žinojai	to know	[ʒʲɪ¹ˈnoːjɛɪ]
 684	telefonas	telephone	[tʲɛlʲɛˈfɔnɐs]
-685	priežastis	cause, reason	
+685	priežastis	cause, reason	/priəʒɐsˈtɪs/
 686	kalė	female dog; bitch	[kɐ²ˈlʲeː]
 687	antrą	non-pronominal masculine/feminine accusative singular…	[²ˈɐnˑtrɑː]
-688	laisvas	free	
-689	išgirsti	to hear	
+688	laisvas	free	/ˈlɐɪsvɐs/
+689	išgirsti	to hear	/ɪʃɡɪrstɪ/
 690	klaida	error, mistake	/kɫɐɪˈdɐ/
 691	moterų	genitive plural of móteris and mótė	[¹ˈmoːtʲɛruː]
 692	paslaptis	secret	/pɐsɫɐpˈtʲɪs/
@@ -696,18 +696,18 @@ rank	word	english	ipa
 695	išvis	whatsoever, at all	/ɪˈʃʲvʲɪs/
 696	girdėti	to hear	[ɡʲɪrʲ¹ˈdʲeːtʲɪ]
 697	eisi	to go	[²ˈɛɪˑsʲɪ]
-698	buvote	to be	
+698	buvote	to be	/ˈbʊvoːtɛ/
 699	turės	to have	[tʊ²ˈrʲeːs]
 700	pakeliui	on the way	/pɐkʲɛˈlʲʊɪ̌/
 701	veikti	to act, work, function, operate, affect	[²ˈʋʲɛɪˑktʲɪ]
 702	mirs	to die	[²ˈmʲɪrˑs]
 703	sunaikinti	to destroy	[sʊnɐɪ¹ˈkʲɪnʲtʲɪ]
-704	pasiekti	to reach	
+704	pasiekti	to reach	/pɐˈsiəktɪ/
 705	kova	fight, struggle	[koːˈvɐ]
 706	blogo	bad, wrong	[ˈbloːɡo]
-707	gausi	to get, to obtain, to gain	
+707	gausi	to get, to obtain, to gain	/ˈɡɐʊsɪ/
 708	žodžiai	word	[²ˈʒoːd͡ʒʲɛɪ]
-709	jame	he, it	
+709	jame	he, it	/jɐˈmɛ/
 710	vyrus	accusative plural of výras	[¹ˈʋʲiːrʊs]
 711	kūno	body	[¹ˈkuːnoː]
 712	galvoti	to think about	[ɡɐl¹ˈʋoːtʲɪ]
@@ -719,7 +719,7 @@ rank	word	english	ipa
 718	atlikti	to perform, execute	/ɐt̪ʲˈlʲɪ.kʲt̪ʲɪ/
 719	kovoti	to fight	[koː¹ˈʋoːtʲɪ]
 720	bėgti	to run	/ˈbʲeːk.tʲɪ/
-721	name	house	
+721	name	house	/nɐˈmɛ/
 722	rankose	hand; arm	[²ˈrɐŋˑkoːsʲɛ]
 723	kartas	time	[ˈkɐr̺ˈtɐs̪]
 724	dingti	to disappear, vanish, go away	/ˈdʲɪŋk.tʲɪ/
@@ -750,10 +750,10 @@ rank	word	english	ipa
 749	buvęs	to be	[ˈbʊʋʲæːs]
 750	ginklas	weapon, arm	[²ˈɡʲɪŋˑklɐs]
 751	brolį	brother	[¹ˈbroːlʲiː]
-752	automobilį	car, automobile	
+752	automobilį	car, automobile	/ɐʊtoːmoːˈbɪliː/
 753	kūnas	body	[¹ˈkuːnɐs]
 754	žmonėmis	human	[ʒmoːnʲeːˈmʲɪs]
-755	juda	to move	
+755	juda	to move	/ˈjʊdɐ/
 756	kale	instrumental singular of kalė̃	[kɐˈlʲɛ]
 757	proga	chance, opportunity	[ˈprôːɡɐ]
 758	aiškiai	clearly, obviously	[¹ˈɑˑɪʃʲkʲɛɪ]
@@ -762,13 +762,13 @@ rank	word	english	ipa
 761	atsakymas	answer	[ɐt²ˈsɑːkʲiːmɐs]
 762	laimėti	to win, gain	[lɐɪ¹ˈmʲeːtʲɪ]
 763	kietas	hard, solid	[¹ˈkʲiɛtɐs]
-764	baigtas	to finish	
+764	baigtas	to finish	/ˈbɐɪɡtɐs/
 765	pavojus	danger	[pɐ²ˈʋoːjʊ̟s]
 766	knygos	book	[²ˈknʲiːɡoːs]
 767	darysime	to make	[dɐ¹ˈrʲiːsʲɪmʲɛ]
 768	žodžiu	orally, vocally, verbally	[ʒoːˈd͡ʒʲʊ̟]
 769	garbė	honor	[ɡɐrʲ²ˈbʲeː]
-770	gausiu	to get, to obtain, to gain	
+770	gausiu	to get, to obtain, to gain	/ˈɡɐʊsʲʊ/
 771	minutę	minute	[mʲɪˈnʊtʲæː]
 772	keistas	strange, odd, peculiar	[ˈkʲɛjstɐs]
 773	žudikas	assassin	[ʒʊˈdʲɪkɐs]
@@ -784,7 +784,7 @@ rank	word	english	ipa
 783	žmogui	human	[¹ˈʒmoːɡʊɪ]
 784	reikalingas	needed, necessary, required	[rʲɛɪkɐ¹ˈlʲɪŋɡɐs]
 785	kitur	elsewhere	[kʲɪ²ˈtʊrˑ]
-786	kalbos	language	
+786	kalbos	language	/kɐlboːs/
 787	suprantate	to perceive, to get it; to understand	[sʊ²ˈprɐnˑtɐtʲɛ]
 788	akį	eye	[²ˈɑːkʲiː]
 789	bijo	third-person singular/plural present of bijóti	[ˈbʲɪjo̟ː]
@@ -799,7 +799,7 @@ rank	word	english	ipa
 798	meilę	love	[¹ˈmʲæˑɪlʲæː]
 799	daina	song	[d̪ɐɪ̯ˑˈn̪ɐ]
 800	ateinu	to come, to arrive	[ɐtʲɛɪˈnʊ]
-801	teta	aunt	
+801	teta	aunt	/tɛˈtɐ/
 802	galimybė	possibility	[ɡɐlʲɪ¹ˈmʲiːbʲeː]
 803	mato	to see	[²ˈmɑːtoː]
 804	šalin	away, aside, out	[ʃɐ²ˈlʲɪnˑ]
@@ -867,7 +867,7 @@ rank	word	english	ipa
 866	galės	to be able to; can, may	[ɡɐ²ˈlʲeːs]
 867	motinos	genitive singular	[¹ˈmoːtʲɪnoːs]
 868	plaukai	hair	[plɒʊ²ˈkɐɪˑ]
-869	šitie	masculine nominative plural of šitas	
+869	šitie	masculine nominative plural of šitas	/ˈʃɪtiə/
 870	visame	everyone, all of them	[ʋʲɪsɐˈmʲɛ]
 871	žvaigždė	star	[ʒʋɐɪɡ²ˈʒʲdʲeː]
 872	armija	army	[¹ˈɑˑrʲmʲɪjɛ]
@@ -889,10 +889,10 @@ rank	word	english	ipa
 888	atidaryti	to open	[ɐtʲɪdɐ¹ˈrʲiːtʲɪ]
 889	likimas	fate, destiny	[lʲɪˈkʲɪmɐs]
 890	mokykla	school	[mɔː.kʲiːˈkɫɐ]
-891	girtas	drunk	
+891	girtas	drunk	/ˈɡɪrtɐs/
 892	žudyti	to murder, to kill	[ʒʊ¹ˈdʲiːtʲɪ]
 893	dariau	to make	[dɐ²ˈrʲɛʊˑ]
-894	kalbą	language	
+894	kalbą	language	/kɐlˈbɐ/
 895	šunį	accusative singular of šuõ	[ˈʃʊnʲiː]
 896	didvyris	hero	[ˈdʲɪdʲʋʲiːrʲɪs]
 897	vaistų	medicine, medication	[ˈʋaːjstuː]
@@ -922,26 +922,26 @@ rank	word	english	ipa
 921	grupė	group	[ˈɡrʊpʲeː]
 922	lėktuvas	airplane, aeroplane	[lʲeːkˈtʊʋɐs]
 923	misija	mission	[ˈmʲɪsʲɪjɛ]
-924	patinki	to appeal, like	
+924	patinki	to appeal, like	/pɐtɪnˈkɪ/
 925	seksas	sex	[ˈsʲɛksɐs]
 926	deni	vocative singular of dẽnis	[²ˈdʲæːnʲɪ]
 927	skaičius	number	[²ˈskɐɪˑt͡ʃʲʊ̟s]
 928	aukščiau	above, over	[ɒʊk²ˈʃʲt͡ʃʲɛʊˑ]
-929	skyrius	section, division	
+929	skyrius	section, division	/ˈskiːrʲʊs/
 930	rašo	to write	[²ˈrɑːʃoː]
 931	gėjus	a gay man	[²ˈɡʲeːjʊ̟s]
 932	galų	end, terminal	[ɡɐ²ˈluː]
 933	jūros	sea	[¹ˈju̟ːroːs]
 934	malonus	pleasant, pleasing; agreeable	[mɐloːˈnʊs]
 935	manei	to deem	[mɐ²ˈnʲɛɪˑ]
-936	joms	they	
+936	joms	they	/joːms/
 937	pasakyčiau	to say, to tell	[pɐsɐ¹ˈkʲiːt͡ʃʲɛʊ]
 938	gimtadienis	birthday	[ɡʲɪm²ˈtɑːdʲiɛnʲɪs]
 939	būdamas	adverbial pusdalyvis participle of būti	[¹ˈbuːdɐmɐs]
 940	ima	to take	[ˈɪmɐ]
 941	pavardė	surname, last name, family name	[pɐʋɐrʲ²ˈdʲeː]
 942	mirsiu	to die	[²ˈmʲɪrʲˑsʲʊ̟]
-943	jaustis	to feel	
+943	jaustis	to feel	/ˈjɐʊstɪs/
 944	dangaus	sky	[dɐŋ²ˈɡɒʊˑs]
 945	jūrų	sea	[¹ˈju̟ːruː]
 946	atsakyk	to reply, to respond, to answer	[ɐtsɐ¹ˈkʲiːk]
@@ -955,7 +955,7 @@ rank	word	english	ipa
 954	karalienė	queen, female sovereign or ruler	[kɐrɐ¹ˈlʲiɛnʲeː]
 955	koja	leg	[¹ˈkoːjɛ]
 956	nekenčia	to hate	[nʲɛ²ˈkʲɛnʲˑt͡ʃʲɛ]
-957	byla	lawsuit, case	
+957	byla	lawsuit, case	/biːˈlɐ/
 958	bomba	bomb	[¹ˈbɔmbɐ]
 959	interviu	interview	[ɪnʲtʲɛrʲˈʋʲʊ̟]
 960	skristi	to fly	[ˈsʲkʲɾʲɪsʲtʲɪ]
@@ -988,12 +988,12 @@ rank	word	english	ipa
 987	rankomis	hand; arm	[²ˈrɐŋˑkoːmʲɪs]
 988	rašyti	to write	[rɐ¹ˈʃʲiːtʲɪ]
 989	tekstą	accusative singular of tèkstas	[ˈtʲɛkstɑː]
-990	alkanas	alkane	
+990	alkanas	alkane	/ɐlˈkaːnɐs/
 991	seka	to observe	/ˈs̪ʲæ̌ː.kɐ/
 992	vyrui	dative singular of výras	[¹ˈʋʲiːrʊɪ]
 993	valgyk	to eat	[¹ˈʋɑˑlʲɡʲiːk]
 994	matėte	to see	[²ˈmɑːtʲeːtʲɛ]
-995	ateitis	future	
+995	ateitis	future	/ɐtɛɪˈtɪs/
 996	auka	sacrifice	/auˑˈka/
 997	gydytojas	doctor, physician	[¹ˈɡʲiːdʲiːtoːjɛs]
 998	advokatas	lawyer	[ɐdʋɔ²ˈkɑːtɐs]
@@ -1020,7 +1020,7 @@ rank	word	english	ipa
 1019	saugu	safe, secure	[sɒʊˈɡʊ]
 1020	supranta	to perceive, to get it; to understand	[sʊ²ˈprɐnˑtɐ]
 1021	kelyje	locative singular of kẽlis	[²ˈkʲæːlʲiːjɛ]
-1022	bare	bar	
+1022	bare	bar	/bɐˈrɛ/
 1023	mokytojas	teacher	[¹ˈmoːkʲiːtoːjɛs]
 1024	judėti	to move	[jʊˈdʲeːtʲɪ]
 1025	oda	skin	[ˈôːd̪ɐ]
@@ -1032,14 +1032,14 @@ rank	word	english	ipa
 1031	akimis	eye	[ɐkʲɪˈmʲɪs]
 1032	žinotum	to know	[ʒʲɪ¹ˈnoːtʊm]
 1033	stebi	to observe	[ˈsʲtʲæːbʲɪ]
-1034	valdžia	authority, power	
-1035	joje	she	
+1034	valdžia	authority, power	/vɐlˈd͡ʒʲɐ/
+1035	joje	she	/joːˈjɛ/
 1036	atsiprašyti	to apologize	/ɐ.t͡sʲɪ.prɐˈʃʲîː.tʲɪ/
 1037	senis	old man	[²ˈsʲæːnʲɪs]
 1038	stebėk	to observe	[sʲtʲɛ¹ˈbʲeːk]
 1039	mesti	to throw	[ˈmʲɛsʲtʲɪ]
 1040	įspūdinga	impressive; striking	[iːspuː¹ˈdʲɪŋɡɐ]
-1041	rimtas	serious, solemn, grave	
+1041	rimtas	serious, solemn, grave	/ˈrɪmtɐs/
 1042	pabaisa	monster	[pɐ¹ˈbɑˑɪsɐ]
 1043	upės	river	[ˈʊpʲeːs]
 1044	sėdėti	to sit	[sʲeː¹ˈdʲeːtʲɪ]
@@ -1078,7 +1078,7 @@ rank	word	english	ipa
 1077	vėjas	wind	[¹ˈʋʲeːjɛs]
 1078	automobilis	car, automobile	[ɒʊtɔmɔˈbʲɪlʲɪs]
 1079	dalyvauti	to participate	[dɐlʲiː¹ˈʋɑˑʊtʲɪ]
-1080	patiktų	to appeal, like	
+1080	patiktų	to appeal, like	/pɐˈtɪktuː/
 1081	žiedas	blossom	[¹ˈʒʲiɛdɐs]
 1082	darysiu	to make	[dɐ¹ˈrʲiːsʲʊ̟]
 1083	valia	will	/vɐˈlʲɛ/
@@ -1096,8 +1096,8 @@ rank	word	english	ipa
 1095	gražios	beautiful	[ɡrɐ²ˈʒʲo̟ːs]
 1096	supras	to perceive, to get it; to understand	[sʊˈprɐs]
 1097	akyse	eye	[ɐkʲiːˈsʲɛ]
-1098	raudona	red	
-1099	kalta	non-pronominal nominative/vocative singular of káltas,…	
+1098	raudona	red	/rɐʊˈdoːnɐ/
+1099	kalta	non-pronominal nominative/vocative singular of káltas,…	/kɐlˈtɐ/
 1100	linija	line	[ˈlʲɪnʲɪjɛ]
 1101	išmokti	to learn	[ɪʃ¹ˈmoːktʲɪ]
 1102	paruošti	to prepare	[pɐˈruə̯ɕtʲɪ]
@@ -1109,14 +1109,14 @@ rank	word	english	ipa
 1108	šuns	genitive singular of šuõ	[²ˈʃʊnˑs]
 1109	ane	Final interrogative particle, forming a yes/no question…	
 1110	pabūti	to stay for a while	[pɐ¹ˈbuːtʲɪ]
-1111	laisvai	freely	
-1112	mirtinai	to die	
+1111	laisvai	freely	/ˈlɐɪsvɐɪ/
+1112	mirtinai	to die	/mɪrtɪnɐɪ/
 1113	centras	center	[²ˈt͡sʲɛnˑtrɐs]
 1114	duktė	daughter	[dʊk²ˈtʲeː]
 1115	sakėte	to say	[²ˈsɑːkʲeːtʲɛ]
-1116	amerikoje	locative singular of Amerika	
+1116	amerikoje	locative singular of Amerika	/ɐˈmɛrɪkoːjɛ/
 1117	aukštas	high	[ˈä̂ˑʊ̯kʃt̪ɐs̪]
-1118	aukštai	high	
+1118	aukštai	high	/ˈɐʊkʃtɐɪ/
 1119	gavome	to get, to obtain, to gain	[²ˈɡɑːʋoːmʲɛ]
 1120	tenka	third-person present of tèkti	[²ˈtʲɛŋˑkɐ]
 1121	ate	goodbye, ta-ta	
@@ -1130,7 +1130,7 @@ rank	word	english	ipa
 1129	audra	storm	[ˈâ̤ˑʊ.drɐ]
 1130	pačiam	alone, on one's own, single-handedly	[pɐˈt͡ɕæ̂ˑm]
 1131	būkite	to be	[¹ˈbuːkʲɪtʲɛ]
-1132	atrodyti	to appear, seem, look	
+1132	atrodyti	to appear, seem, look	/ɐˈtroːdiːtɪ/
 1133	tapau	to become, get; to turn into	[tɐ²ˈpɒʊˑ]
 1134	sutikti	to agree	[sʊˈtʲɪkʲtʲɪ]
 1135	ateikite	to come, to arrive	[ɐ²ˈtʲɛɪˑkʲɪtʲɛ]
@@ -1153,7 +1153,7 @@ rank	word	english	ipa
 1152	pareigūnas	official, officer	[pɐrʲɛɪ²ˈɡuːnɐs]
 1153	video	video	
 1154	žinia	news	[ʒʲɪˈn̪ʲɛ]
-1155	gauja	pack	
+1155	gauja	pack	/ɡɐʊˈjɐ/
 1156	įsakymas	command, order	[iː²ˈsɑːkʲiːmɐs]
 1157	sapnas	dream	[²ˈsɑːpnɐs]
 1158	maži	little, small	[mɐˈʒʲɪ]
@@ -1162,7 +1162,7 @@ rank	word	english	ipa
 1161	lauki	to wait; to expect, to anticipate	[¹ˈlɑˑʊkʲɪ]
 1162	spalva	colour, color	[spɐlˈvɐ]
 1163	seną	old	[²ˈsʲæːnɑː]
-1164	programa	program, programme	
+1164	programa	program, programme	/proːɡrɐˈmɐ/
 1165	lauksiu	to wait; to expect, to anticipate	[¹ˈlɑˑʊksʲʊ̟]
 1166	uždaryti	to close, to shut	[ʊʒdɐ¹ˈrʲiːtʲɪ]
 1167	vadovas	leader, ruler; principal	[ʋɐ²ˈdoːʋɐs]
@@ -1181,8 +1181,8 @@ rank	word	english	ipa
 1180	sakote	to say	[²ˈsɑːkoːtʲɛ]
 1181	močiutė	grandmother	[moːˈt͡ʃʲʊ̟tʲeː]
 1182	pamišęs	crazy, mad, insane	[pɐˈmʲɪʃʲæːs]
-1183	dvasia	spirit, soul	
-1184	nutikti	to come up, occur	
+1183	dvasia	spirit, soul	/dvɐˈsʲɐ/
+1184	nutikti	to come up, occur	/nʊˈtɪktɪ/
 1185	įdomus	interesting	[iːdoːˈmʊs]
 1186	pasauliui	with the sun	[pɐˈsaʊlʲʊɪ]
 1187	ras	find, discover	[ˈrɐs]
@@ -1194,7 +1194,7 @@ rank	word	english	ipa
 1193	parašyti	to write, set out in writing	[pɐrɐ¹ˈʃʲiːtʲɪ]
 1194	palaikyti	to hold briefly	[pɐlɐɪ¹ˈkʲiːtʲɪ]
 1195	siena	wall	[¹ˈsʲiɛnɐ]
-1196	kava	coffee	
+1196	kava	coffee	/kɐˈvɐ/
 1197	grąžinti	to repay, give back, return	[ɡrɑː¹ˈʒʲɪnʲtʲɪ]
 1198	suras	to find, encounter, locate	[sʊˈrɐs]
 1199	protas	mind	[²ˈproːtɐs]
@@ -1218,13 +1218,13 @@ rank	word	english	ipa
 1217	baimė	fear	[¹ˈbɑˑɪmʲeː]
 1218	sakydavo	to say	[sɐ¹ˈkʲiːdɐʋoː]
 1219	bažnyčia	church; basilica	[bɐ¹ˈʒʲnʲiːt͡ʃʲɛ]
-1220	bjaurus	ugly, repulsive	
+1220	bjaurus	ugly, repulsive	/bjɐʊˈrʊs/
 1221	restoranas	restaurant	[rʲɛstɔ²ˈrɑːnɐs]
 1222	sėdžiu	to sit	[¹ˈsʲeːd͡ʒʲʊ̟]
 1223	krauju	blood	[krɒʊˈjʊ̟]
 1224	dega	to burn	[²ˈdʲæːɡɐ]
 1225	valdovas	ruler	[ʋɐl²ˈdoːʋɐs]
-1226	ameriką	accusative singular of Amerika	
+1226	ameriką	accusative singular of Amerika	/ɐˈmɛrɪkɐ/
 1227	sekti	to observe	/ˈs̪ʲɛ.kʲt̪ʲɪ/
 1228	profesorius	professor	[prɔˈfʲɛsɔrʲʊ̟s]
 1229	skonis	flavor	[ˈs̪kǒː.n̪ʲɪs̪]
@@ -1239,7 +1239,7 @@ rank	word	english	ipa
 1238	turtingas	rich, wealthy	[tʊrʲ¹ˈtʲɪŋɡɐs]
 1239	naudoti	to use, utilize	[nɒʊ¹ˈdoːtʲɪ]
 1240	pastebėjau	to notice, to observe	[pɐsʲtʲɛ¹ˈbʲeːjɛʊ]
-1241	dangų	sky	
+1241	dangų	sky	/dɐnˈɡuː/
 1242	blogų	bad, wrong	[bloˈɡuː]
 1243	vyrams	dative plural of výras	[¹ˈʋʲiːrɐms]
 1244	liga	illness	/lʲɪˈɡɐ/
@@ -1261,9 +1261,9 @@ rank	word	english	ipa
 1260	laikrodis	clock, watch	[²ˈlɐɪˑkroːdʲɪs]
 1261	pastatas	building	[²ˈpɑːstɐtɐs]
 1262	suprask	to perceive, to get it; to understand	[sʊˈprɐsk]
-1263	kare	locative singular of kãras	
+1263	kare	locative singular of kãras	/kɐˈrɛ/
 1264	viename	masculine locative singular of vi̇́enas	[ʋʲiɛnɐˈmʲɛ]
-1265	tema	theme; subject	
+1265	tema	theme; subject	/tɛˈmɐ/
 1266	krūva	pile, heap	[kruːˈvɐ]
 1267	greitas	quick	[ˈɡɾɛjtɐs]
 1268	netikėtai	suddenly, unexpectedly	[nʲɛtʲɪ¹ˈkʲeːtɐɪ]
@@ -1284,7 +1284,7 @@ rank	word	english	ipa
 1283	mažoji	little, small	[mɐ¹ˈʒoːjɪ]
 1284	uostą	harbor, port	[ˈuɔstaː]
 1285	užmigti	to go to sleep; to fall asleep	[ʊʑˈmʲɪ.kʲt̪ʲɪ]
-1286	išjungti	to switch off, to turn off	
+1286	išjungti	to switch off, to turn off	/ɪˈʃjʊnɡtɪ/
 1287	galėsite	to be able to; can, may	[ɡɐ¹ˈlʲeːsʲɪtʲɛ]
 1288	blogi	bad, wrong	[bloˈɡʲɪ]
 1289	suaugęs	adult, grown-up	[sʊ.¹ˈɑˑʊɡʲæːs]
@@ -1303,11 +1303,11 @@ rank	word	english	ipa
 1302	tapai	to become, get; to turn into	[tɐ²ˈpɐɪˑ]
 1303	meluoti	to lie	[mʲɛ¹ˈluɔtʲɪ]
 1304	norėtumėte	to want	[noː¹ˈrʲeːtʊmʲeːtʲɛ]
-1305	silpnas	weak	
+1305	silpnas	weak	/sɪlpnɐs/
 1306	beprotybė	madness, insanity, craziness	[bʲɛproː¹ˈtʲiːbʲeː]
 1307	lavonas	corpse, cadaver	[lɐ¹ˈʋoːnɐs]
 1308	pirkti	to buy	[²ˈpʲɪrʲˑktʲɪ]
-1309	reikšti	to mean, signify, convey indicate, express	
+1309	reikšti	to mean, signify, convey indicate, express	/ˈrɛɪkʃtɪ/
 1310	niekuomet	never	[nʲiɛkuɔˈmʲɛt]
 1311	didžiulis	huge	[dʲɪˈd͡ʒʲʊ̟lʲɪs]
 1312	pavargęs	tired	[pɐ²ˈʋɐrʲˑɡʲæːs]
@@ -1326,9 +1326,9 @@ rank	word	english	ipa
 1325	butas	flat, apartment	[ˈbʊtɐs]
 1326	svajonė	dream; daydream	[sʋɐ²ˈjo̟ːnʲeː]
 1327	skambinti	to telephone	[²ˈskɐmʲˑbʲɪnʲtʲɪ]
-1328	zona	zone	
-1329	svečias	guest	
-1330	stotis	station	
+1328	zona	zone	/zoːˈnɐ/
+1329	svečias	guest	/ˈsvæːt͡ʃʲɐs/
+1330	stotis	station	/stoːˈtɪs/
 1331	garsus	loud	[ɡɐrˈsʊs]
 1332	storas	thick	[¹ˈstoːrɐs]
 1333	žodžiais	word	[²ˈʒoːd͡ʒʲɛɪs]
@@ -1349,16 +1349,16 @@ rank	word	english	ipa
 1348	mokytoja	female teacher	[¹ˈmoːkʲiːtoːjɛ]
 1349	rašytojas	writer	[rɐ¹ˈʃʲiːtoːjɛs]
 1350	gatvę	street	[²ˈɡɑːtʲʋʲæː]
-1351	vasaros	summer	
+1351	vasaros	summer	/ˈvaːsɐroːs/
 1352	širdyje	locative singular of širdi̇̀s	[ʃʲɪrʲdʲiːˈjɛ]
-1353	sukelti	to cause	
+1353	sukelti	to cause	/sʊˈkæːltɪ/
 1354	laiškas	letter	[¹ˈlɑˑɪʃkɐs]
 1355	draugams	male friend	[drɒʊ¹ˈɡɑˑms]
 1356	blogiausia	bad, wrong	[bloː¹ˈɡʲæˑʊsʲɛ]
 1357	dukros	genitive singular	[ˈdʊkroːs]
 1358	skaičių	genitive plural of skai̇̃čius	[²ˈskɐɪˑt͡ʃʲu̟ː]
 1359	duos	to give	[²ˈduɔs]
-1360	pareiga	duty, obligation	
+1360	pareiga	duty, obligation	/pɐrɛɪˈɡɐ/
 1361	daugiausiai	much, a lot	[dɒʊ¹ˈɡʲæˑʊsʲɛɪ]
 1362	pastatyti	to set up, erect, place	[pɐstɐ¹ˈtʲiːtʲɪ]
 1363	keliais	instrumental plural of kẽlis	[²ˈkʲæːlʲɛɪs]
@@ -1369,7 +1369,7 @@ rank	word	english	ipa
 1368	teisingas	correct	[tʲɛɪ¹ˈsʲɪŋɡɐs]
 1369	geria	drink	[²ˈɡʲæːrʲɛ]
 1370	vartai	gate	[²ˈʋɐrˑtɐɪ]
-1371	jomis	they	
+1371	jomis	they	/joːˈmɪs/
 1372	baigei	to finish	[bɐɪ²ˈɡʲɛɪˑ]
 1373	dažniau	often	[dɐ²ˈʒʲnʲɛʊˑ]
 1374	atsisveikinti	to say goodbye	/ɐt͡sʲɪˈsʲʋʲæːjkʲɪnʲtʲɪ/
@@ -1403,7 +1403,7 @@ rank	word	english	ipa
 1402	sekantis	the next, the following	[²ˈsʲæːkɐnʲtʲɪs]
 1403	pasakytum	to say, to tell	[pɐsɐ¹ˈkʲiːtʊm]
 1404	moteriai	dative singular of móteris and mótė	[¹ˈmoːtʲɛrʲɛɪ]
-1405	baras	bar	
+1405	baras	bar	/ˈbaːrɐs/
 1406	pasak	according to	[pɐˈsɐk]
 1407	medis	tree	[²ˈmʲæːdʲɪs]
 1408	gerk	drink	[¹ˈɡʲæˑrk]
@@ -1426,7 +1426,7 @@ rank	word	english	ipa
 1425	asmuo	person	[ɐ²ˈsmuɔ]
 1426	sąrašas	list	[¹ˈsɑːrɐʃɐs]
 1427	lygis	level	[²ˈlʲiːɡʲɪs]
-1428	pulti	to fall	
+1428	pulti	to fall	/ˈpʊltɪ/
 1429	svajonių	dream; daydream	[sʋɐ²ˈjo̟ːnʲu̟ː]
 1430	juodas	black	[¹ˈju̟ɔdɐs]
 1431	aktorius	actor	[²ˈɑːktɔrʲʊ̟s]
@@ -1463,7 +1463,7 @@ rank	word	english	ipa
 1462	įstatymas	law	[iː²ˈstɑːtʲiːmɐs]
 1463	žiūrėjo	to look at; to look into, observe; to watch	[ʒʲu̟ː¹ˈrʲeːjo̟ː]
 1464	viskio	genitive singular of vi̇̀skis	[ˈʋʲɪsʲkʲo̟ː]
-1465	žalia	green	
+1465	žalia	green	/ʒɐˈlʲɐ/
 1466	šunų	genitive plural of šuõ	[ʃʊ²ˈnuː]
 1467	siūlai	thread	[¹ˈsʲu̟ːlɐɪ]
 1468	juoda	black	[ju̟ɔˈdɐ]
@@ -1478,15 +1478,15 @@ rank	word	english	ipa
 1477	išėjimas	an exit	[ɪʃʲeːˈjɪmɐs]
 1478	kalbėjome	to speak	[kɐlʲ¹ˈbʲeːjo̟ːmʲɛ]
 1479	daikto	thing	[¹ˈdɑˑɪktoː]
-1480	pranešimas	verbal noun of pranešti	
+1480	pranešimas	verbal noun of pranešti	/prɐnɛˈʃɪmɐs/
 1481	pasakoti	to tell, narrate	[²ˈpɑːsɐkoːtʲɪ]
 1482	laimei	happiness	[¹ˈlɑˑɪmʲɛɪ]
 1483	greitis	speed, velocity	[²ˈɡrʲɛɪˑtʲɪs]
 1484	medį	tree	[²ˈmʲæːdʲiː]
-1485	kardas	sabre	
+1485	kardas	sabre	/ˈkaːrdɐs/
 1486	gabalas	piece, lump	[²ˈɡɑːbɐlɐs]
-1487	gausime	to get, to obtain, to gain	
-1488	sutartis	agreement	
+1487	gausime	to get, to obtain, to gain	/ˈɡɐʊsɪmɛ/
+1488	sutartis	agreement	/sʊtɐrˈtɪs/
 1489	broliui	brother	[¹ˈbroːlʲʊ̟ɪ]
 1490	stilius	style	[ˈsʲtʲɪlʲʊ̟s]
 1491	kompiuteris	computer	[kɔmʲˈpʲʊ̟tʲɛrʲɪs]
@@ -1496,14 +1496,14 @@ rank	word	english	ipa
 1495	sėdėjo	to sit	[sʲeː¹ˈdʲeːjo̟ː]
 1496	mėsa	meat	/mʲeːˈsɐ/
 1497	baigiu	to finish	[bɐɪˈɡʲʊ̟]
-1498	raketa	rocket	
+1498	raketa	rocket	/rɐkɛˈtɐ/
 1499	atostogos	leave, holiday, vacation	[ɐ¹ˈtoːstoːɡoːs]
-1500	medžiaga	matter, stuff	
+1500	medžiaga	matter, stuff	/ˈmæːd͡ʒʲɐɡɐ/
 1501	atėjome	to come, to arrive	[ɐ²ˈtʲeːjo̟ːmʲɛ]
 1502	jausti	to feel	[ˈjɒʊsʲtʲɪ]
 1503	denis	deck	[²ˈdʲæːnʲɪs]
 1504	rašė	to write	[²ˈrɑːʃʲeː]
-1505	pamoka	lesson	
+1505	pamoka	lesson	/pɐmoːˈkɐ/
 1506	nustatyti	to ascertain, determine, set	[nʊstɐ¹ˈtʲiːtʲɪ]
 1507	atidarykite	to open	[ɐtʲɪdɐ¹ˈrʲiːkʲɪtʲɛ]
 1508	sulaukti	to wait for or until	[sʊˈlaʊkʲtʲɪ]
@@ -1533,17 +1533,17 @@ rank	word	english	ipa
 1532	kalnus	hill, mountain	[¹ˈkɑˑlnʊs]
 1533	sniego	snow	[²ˈsʲnʲiɛɡoː]
 1534	naujiena	news	[n̪ɐʊ̯ˑˈjîən̪ɐ]
-1535	praeiti	to pass	
+1535	praeiti	to pass	/prɐˈɛɪtɪ/
 1536	baigė	to finish	[²ˈbɐɪˑɡʲeː]
 1537	priminti	to remind, resemble	[pʲrʲɪ²ˈmʲɪnʲˑtʲɪ]
 1538	supratote	to perceive, to get it; to understand	[sʊ²ˈprɑːtoːtʲɛ]
-1539	temperatūra	temperature	
+1539	temperatūra	temperature	/tɛmpɛrɐtuːˈrɐ/
 1540	adresas	address	[²ˈɑːdʲrʲɛsɐs]
 1541	mirštu	to die	[¹ˈmʲɪrʃtʊ]
 1542	senos	old	[sʲɛˈnoːs]
 1543	vokiečiai	German; a man from Germany	[¹ˈʋoːkʲiɛt͡ʃʲɛɪ]
-1544	pagauti	to catch	
-1545	kalbų	language	
+1544	pagauti	to catch	/pɐˈɡɐʊtɪ/
+1545	kalbų	language	/kɐlˈbuː/
 1546	auksas	gold	[¹ˈɑˑʊksɐs]
 1547	dangus	sky	[dɐŋˈɡʊs]
 1548	mirtimi	death	[mʲɪrʲtʲɪˈmʲɪ]
@@ -1560,11 +1560,11 @@ rank	word	english	ipa
 1559	šypsena	smile	[²ˈʃʲiːpʲsʲɛnɐ]
 1560	kalėjimas	imprisonment, confinement	[kɐ¹ˈlʲeːjɪmɐs]
 1561	kiaulė	pig, piglet	[²ˈkʲɛʊˑlʲeː]
-1562	ginti	to drive	
+1562	ginti	to drive	/ɡɪntɪ/
 1563	parke	park	[¹ˈpɑˑrʲkʲɛ]
 1564	matėme	to see	[²ˈmɑːtʲeːmʲɛ]
 1565	bombos	bomb	[¹ˈbɔmboːs]
-1566	aleksandrai	vocative singular of Aleksándras	
+1566	aleksandrai	vocative singular of Aleksándras	/ɐlɛkˈsaːndrɐɪ/
 1567	kalną	hill, mountain	[¹ˈkɑˑlnɑː]
 1568	ligoninė	hospital	[lʲɪ¹ˈɡoːnʲɪnʲeː]
 1569	upę	river	[ˈʊpʲæː]
@@ -1581,12 +1581,12 @@ rank	word	english	ipa
 1580	boba	old woman	[¹ˈboːbɐ]
 1581	rita	to roll	[ˈrʲɪt̪ɐ]
 1582	žuvies	fish	[ʒʊ²ˈʋʲiɛs]
-1583	slaptas	secret	
+1583	slaptas	secret	/ˈslaːptɐs/
 1584	baigsi	to finish	[²ˈbɐɪˑksʲɪ]
 1585	kompiuterį	computer	[kɔmʲˈpʲʊ̟tʲɛrʲiː]
 1586	antro	non-pronominal masculine genitive singular positive degree…	[²ˈɐnˑtroː]
 1587	energiją	accusative singular of ener̃gija	[ɛ²ˈnʲɛrʲˑɡʲɪjæː]
-1588	tyli	to silence	
+1588	tyli	to silence	/ˈtiːlɪ/
 1589	žaizda	wound	[ʒɐɪ̯ˑz̪ˈd̪ɐ]
 1590	projektas	project	[prɔˈjɛktɐs]
 1591	kelius	accusative plural of kẽlis	[kʲɛˈlʲʊ̟s]
@@ -1613,7 +1613,7 @@ rank	word	english	ipa
 1612	pyktis	anger	[²ˈpʲiːktʲɪs]
 1613	verkti	cry, weep	/ˈvʲɛ͡rk.tʲɪ/
 1614	slėptis	to hide	[²ˈsʲlʲeːpʲtʲɪs]
-1615	atmintis	memory	
+1615	atmintis	memory	/ɐtmɪnˈtɪs/
 1616	groja	to play music	[¹ˈɡroːjɛ]
 1617	balta	white	[bɐl.ˈtɐ]
 1618	paskutiniai	last, final	[pɐskʊˈtʲɪnʲɛɪ]
@@ -1633,9 +1633,9 @@ rank	word	english	ipa
 1632	laukan	out, outside	[lɒʊ²ˈkɐnˑ]
 1633	parkas	park	[¹ˈpɑˑrkɐs]
 1634	linkai	to bend, stoop, be inclined	[lʲɪŋ²ˈkɐɪˑ]
-1635	elektra	electricity	
-1636	stovykla	camp	
-1637	šimtas	hundred	
+1635	elektra	electricity	/ɛlɛkˈtrɐ/
+1636	stovykla	camp	/stoːviːˈklɐ/
+1637	šimtas	hundred	/ʃɪmtɐs/
 1638	departamentas	department	[dʲɛpɐrtɐ²ˈmʲɛnˑtɐs]
 1639	dydis	size	[²ˈdʲiːdʲɪs]
 1640	bukas	beech	[ˈbʊkɐs̪]
@@ -1652,13 +1652,13 @@ rank	word	english	ipa
 1651	biuras	office	[ˈbʲʊ̟rɐs]
 1652	ypatingą	special, especial, particular, peculiar	[iːpɐ¹ˈtʲɪŋɡɑː]
 1653	patarimo	suggestion, advice	[pɐtɐˈrʲɪmoː]
-1654	atsitinka	third-person singular/plural present of atsiti̇́kti	
+1654	atsitinka	third-person singular/plural present of atsiti̇́kti	/ɐtsɪtɪnkɐ/
 1655	blogos	bad, wrong	[bloˈɡoːs]
 1656	žvaigždes	accusative plural of žvaigždė̃	[ʒʋɐɪɡˈʒʲdʲɛs]
 1657	žuvį	fish	[ˈʒʊʋʲiː]
 1658	nelaimė	misfortune, bad luck	[nʲɛ¹ˈlɑˑɪmʲeː]
 1659	kompiuterio	computer	[kɔmʲˈpʲʊ̟tʲɛrʲo̟ː]
-1660	trumpas	short	
+1660	trumpas	short	/trʊmpɐs/
 1661	žiurkė	rat	[¹ˈʒʲʊ̟rʲkʲeː]
 1662	žiemos	winter	[ʒʲiɛˈmɔs]
 1663	tėvams	dative plural of tė́vas	[tʲeː¹ˈʋɑˑms]
@@ -1705,8 +1705,8 @@ rank	word	english	ipa
 1704	baltas	white	[¹ˈbɑˑltɐs]
 1705	pačiame	oneself: himself, herself, myself, yourself	[pɐt͡ʃʲɛˈmʲɛ]
 1706	gatvėse	street	[²ˈɡɑːtʲʋʲeːsʲɛ]
-1707	suma	sum	
-1708	keltis	to rise	
+1707	suma	sum	/sʊˈmɐ/
+1708	keltis	to rise	/ˈkæːltɪs/
 1709	gražiausia	beautiful	[ɡrɐ¹ˈʒʲæˑʊsʲɛ]
 1710	keliai	nominative/vocative plural of kẽlis	[²ˈkʲæːlʲɛɪ]
 1711	žiaurus	cold, brisk	[ʒʲɛʊˈrʊs]
@@ -1720,16 +1720,16 @@ rank	word	english	ipa
 1719	nekenti	to hate	[nʲɛkʲɛnʲˈtʲɪ]
 1720	sunkvežimis	truck	[²ˈsʊŋˑkʋʲɛʒʲɪmʲɪs]
 1721	nuomonė	opinion	[¹ˈnuɔmoːnʲeː]
-1722	gausite	to get, to obtain, to gain	
+1722	gausite	to get, to obtain, to gain	/ˈɡɐʊsɪtɛ/
 1723	seno	old	[²ˈsʲæːnoː]
 1724	stebėjau	to observe	[sʲtʲɛ¹ˈbʲeːjɛʊ]
-1725	bėgi	to run	
+1725	bėgi	to run	/ˈbeːɡɪ/
 1726	simbolis	symbol	[²ˈsʲɪmˑbɔlʲɪs]
-1727	įjungti	to switch on, to turn on	
+1727	įjungti	to switch on, to turn on	/iːˈjʊnɡtɪ/
 1728	gaisras	conflagration, fire	[²ˈɡɐɪˑsrɐs]
 1729	pažinti	to know someone, know something	[pɐ¹ˈʒʲɪnʲtʲɪ]
 1730	blogiausias	bad, wrong	[bloː¹ˈɡʲæˑʊsʲɛs]
-1731	tašką	dot	
+1731	tašką	dot	/ˈtaːʃkaː/
 1732	didžiuotis	to take pride; to boast	[dʲɪ¹ˈd͡ʒʲu̟ɔtʲɪs]
 1733	žinočiau	to know	[ʒʲɪ¹ˈnoːt͡ʃʲɛʊ]
 1734	jaunuolis	youth, young man	[jɐuˈnʊɔlʲɪs]
@@ -1740,8 +1740,8 @@ rank	word	english	ipa
 1739	lietus	rain	/lʲiəˈtʊs/
 1740	burtininkas	wizard	[¹ˈbʊrʲtʲɪnʲɪŋkɐs]
 1741	dukrai	dative singular of dukrà	[ˈdʊkrɐɪ]
-1742	vonia	bath; tub	
-1743	gavote	to get, to obtain, to gain	
+1742	vonia	bath; tub	/voːˈnʲɐ/
+1743	gavote	to get, to obtain, to gain	/ˈɡaːvoːtɛ/
 1744	apgauti	to cheat; to fool	[ɐb¹ˈɡɑˑʊtʲɪ]
 1745	grožis	beauty	[²ˈɡroːʒʲɪs]
 1746	gauk	to get, to obtain, to gain	[¹ˈɡɑˑʊk]
@@ -1755,7 +1755,7 @@ rank	word	english	ipa
 1754	valtis	boat	[¹ˈʋɑˑlʲtʲɪs]
 1755	mudviejų	we, the two of us	[ˈmʊdʲʋʲiɛju̟ː]
 1756	kaltinti	to accuse, to charge; to prosecute, to indict	[¹ˈkɑˑlʲtʲɪnʲtʲɪ]
-1757	drąsa	courage	
+1757	drąsa	courage	/draːˈsɐ/
 1758	tauta	people, folk, nation	[tɒʊˈtɐ]
 1759	klausti	to ask	[ˈklaʊstɪ]
 1760	ruoštis	to prepare	[²ˈruɔʃʲtʲɪs]
@@ -1781,20 +1781,20 @@ rank	word	english	ipa
 1780	auklė	nannie, nurse	[¹ˈɑˑʊklʲeː]
 1781	esant	present adverbial padalyvis participle of būti	[²ˈæːsɐnt]
 1782	dovanas	free	[¹ˈdoːʋɐnɐs]
-1783	teisė	law	
+1783	teisė	law	/ˈtɛɪseː/
 1784	elgesys	conduct, behavior	[ɛlʲɡʲɛ²ˈsʲiːs]
 1785	rojus	heaven	[²ˈroːjʊ̟s]
 1786	sapnų	dream	[sɐ²ˈpnuː]
 1787	skaitau	to read	[skɐɪ²ˈtɒʊˑ]
 1788	gerbėjas	admirer, supporter, fan	[ɡʲɛrʲ¹ˈbʲeːjɛs]
-1789	alkana	hungry	
+1789	alkana	hungry	/ɐlkɐˈnɐ/
 1790	žemėlapis	map	[ʒʲɛ¹ˈmʲeːlɐpʲɪs]
-1791	objektas	object	
+1791	objektas	object	/oːˈbjɛktɐs/
 1792	malonumas	pleasure	[mɐloːˈnʊmɐs]
 1793	siųsti	to send, to dispatch	/ˈsʲuːsʲtʲɪ/
 1794	vynas	wine	[²ˈʋʲiːnɐs]
 1795	vėžys	crayfish	[ʋʲeː²ˈʒʲiːs]
-1796	ekspertas	expert	
+1796	ekspertas	expert	/ɛksˈpɛrtɐs/
 1797	daręs	to make	[²ˈdɑːrʲæːs]
 1798	geriu	drink	[ɡʲɛˈrʲʊ̟]
 1799	patarimas	suggestion, advice	[pɐtɐˈrʲɪmɐs]
@@ -1808,9 +1808,9 @@ rank	word	english	ipa
 1807	šoka	jump, leap	[¹ˈʃoːkɐ]
 1808	gėles	flower	[ɡʲeːˈlʲɛs]
 1809	būklė	state, condition	[¹ˈbuːklʲeː]
-1810	atsako	to reply, to respond, to answer	
+1810	atsako	to reply, to respond, to answer	/ɐtˈsaːkoː/
 1811	avarija	accident, breakdown, wreck, crash	[ɐ²ˈʋɑːrʲɪjɛ]
-1812	teksaso	genitive of Tèksasas	
+1812	teksaso	genitive of Tèksasas	/ˈtɛksɐsoː/
 1813	talentingas	talented	[tɐlʲɛnʲ¹ˈtʲɪŋɡɐs]
 1814	tualetas	toilet, restroom, lavatory	[tʊ.ɐˈlʲɛtɐs]
 1815	juosta	sash	[ˈjûəs̪t̪ɐ]
@@ -1835,7 +1835,7 @@ rank	word	english	ipa
 1834	kalbėsiu	to speak	[kɐlʲ¹ˈbʲeːsʲʊ̟]
 1835	juoktis	to laugh	/ˈjuɔ̌.kʲtʲɪs/
 1836	ledas	ice	[²ˈlʲæːdɐs]
-1837	lengvas	light	
+1837	lengvas	light	/lɛnɡvɐs/
 1838	gyvūnai	animal	[ɡʲiː²ˈʋuːnɐɪ]
 1839	varo	to expel or urge by force, to turn out	[²ˈʋɑːroː]
 1840	sėdėjau	to sit	[sʲeː¹ˈdʲeːjɛʊ]
@@ -1845,7 +1845,7 @@ rank	word	english	ipa
 1844	banga	wave, billow	[bɐŋˈɡɐ]
 1845	būtumėte	to be	[¹ˈbuːtʊmʲeːtʲɛ]
 1846	kūnus	body	[¹ˈkuːnʊs]
-1847	šokis	dance	
+1847	šokis	dance	/ˈʃoːkɪs/
 1848	pacientas	patient	[pɐt͡sʲɪ²ˈjɛnˑtɐs]
 1849	senus	old	/sʲɛˈnʊs/
 1850	žadėjai	to promise	[ʒɐ¹ˈdʲeːjɛɪ]
@@ -1854,7 +1854,7 @@ rank	word	english	ipa
 1853	skaityk	to read	[skɐɪ¹ˈtʲiːk]
 1854	perka	to buy	[²ˈpʲɛrˑkɐ]
 1855	pasveikinti	to greet	[pɐ¹ˈsʲʋʲæˑɪkʲɪnʲtʲɪ]
-1856	kilti	to rise	
+1856	kilti	to rise	/ˈkɪltɪ/
 1857	kiaušinių	egg	[kʲɛʊˈʃʲɪnʲu̟ː]
 1858	nuosavybė	property	[nuɔsɐ¹ˈʋʲiːbʲeː]
 1859	rodyti	show, display	[¹ˈroːdʲiːtʲɪ]
@@ -1873,17 +1873,17 @@ rank	word	english	ipa
 1872	užpakalis	backside	[ˈʊʃpɐkɐlʲɪs]
 1873	truputis	a little bit, crumb	/trʊˈpʊ.tʲɪs/
 1874	švelnus	soft; smooth	[ʃʲʋʲɛlˈnʊs]
-1875	antros	non-pronominal feminine genitive singular positive degree…	
+1875	antros	non-pronominal feminine genitive singular positive degree…	/ɐnˈtroːs/
 1876	rezultatus	result; outcome	[rʲɛzʊltɐˈtʊs]
 1877	saulę	sun	/ˈsɑulæː/
 1878	norėsiu	to want	[noː¹ˈrʲeːsʲʊ̟]
 1879	pastebėjai	to notice, to observe	[pɐsʲtʲɛ¹ˈbʲeːjɛɪ]
 1880	bilietas	ticket	[ˈbʲɪlʲiɛtɐs]
 1881	įdomaus	interesting	[iːdoː²ˈmɒʊˑs]
-1882	netekti	to lose	
+1882	netekti	to lose	/nɛˈtɛktɪ/
 1883	verslininkas	businessman, entrepreneur	[²ˈʋʲɛrʲˑsʲlʲɪnʲɪŋkɐs]
 1884	norėjome	to want	[noː¹ˈrʲeːjo̟ːmʲɛ]
-1885	gerbti	to honor, respect	
+1885	gerbti	to honor, respect	/ɡɛrbtɪ/
 1886	parko	park	[¹ˈpɑˑrkoː]
 1887	lauks	to wait; to expect, to anticipate	[²ˈlɒʊˑks]
 1888	medžius	tree	[mʲɛˈd͡ʒʲʊ̟s]
@@ -1896,15 +1896,15 @@ rank	word	english	ipa
 1895	varžybos	competition, contest; sports	[ʋɐrʲ¹ˈʒʲiːboːs]
 1896	kūnai	body	[¹ˈkuːnɐɪ]
 1897	nuotaika	mood, humor, temper	[¹ˈnuɔtɐɪkɐ]
-1898	kolega	colleague	
+1898	kolega	colleague	/koːlɛˈɡɐ/
 1899	spėti	to be on time; to make it in time	/ˈsʲpʲêː.tʲɪ/
 1900	trukdyti	to hinder, impede, delay, disturb, pester inconvenience	[trʊɡ¹ˈdʲiːtʲɪ]
 1901	baltųjų	white	[bɐl²ˈtuːju̟ː]
-1902	katastrofa	catastrophe, disaster	
+1902	katastrofa	catastrophe, disaster	/kɐtɐstroːˈfɐ/
 1903	lenktynės	race	[lʲɛŋk²ˈtʲiːnʲeːs]
 1904	skrisk	to fly	[ˈsʲkrʲɪsk]
 1905	kariuomenė	army, host, troops	[kɐ¹ˈrʲu̟ɔmʲɛnʲeː]
-1906	žinos	to know	
+1906	žinos	to know	/ʒɪˈnoːs/
 1907	sakykite	to say	[sɐ¹ˈkʲiːkʲɪtʲɛ]
 1908	penkiasdešimt	fifty	[²ˈpʲɛŋʲˑkʲɛzʲdʲɛʃʲɪmt]
 1909	atsitikti	to happen, occur	/ɐtʲsʲɪˈtʲɪktʲɪ/
@@ -1913,15 +1913,15 @@ rank	word	english	ipa
 1912	pavasario	spring	[pɐ²ˈʋɑːsɐrʲo̟ː]
 1913	paduoti	to give, to bring; to hand	[pɐˈdûɔtʲɪ]
 1914	širdimi	instrumental singular of širdi̇̀s	[ʃʲɪrʲdʲɪˈmʲɪ]
-1915	liūdnas	sad, downhearted, sorrowful	
+1915	liūdnas	sad, downhearted, sorrowful	/ˈlʲuːdnɐs/
 1916	demonas	demon	[ˈdʲɛmɔnɐs]
 1917	žadėjo	to promise	[ʒɐ¹ˈdʲeːjo̟ː]
 1918	mokyti	to teach	[¹ˈmoːkʲiːtʲɪ]
 1919	pritariu	to approve, to assent	[ˈpʲrʲɪtɐrʲʊ̟]
-1920	lipti	to stick, adhere to	
+1920	lipti	to stick, adhere to	/ˈlɪptɪ/
 1921	medžioti	to hunt	[mʲɛ¹ˈd͡ʒʲo̟ːtʲɪ]
 1922	meta	to throw	[²ˈmʲæːtɐ]
-1923	milijonas	million	
+1923	milijonas	million	/mɪlɪˈjoːnɐs/
 1924	ateini	to come, to arrive	[ɐtʲɛɪˈnʲɪ]
 1925	brolių	brother	[¹ˈbroːlʲu̟ː]
 1926	ausų	genitive plural of ausi̇̀s	[ɒʊ²ˈsuː]
@@ -1940,7 +1940,7 @@ rank	word	english	ipa
 1939	pastebėjo	to notice, to observe	[pɐsʲtʲɛ¹ˈbʲeːjo̟ː]
 1940	baltieji	white	[bɐlʲ¹ˈtʲiɛjɪ]
 1941	rajonas	district, raion	[rɐˈjɔ̟nɐs]
-1942	dujos	gas	
+1942	dujos	gas	/ˈdʊjoːs/
 1943	kultūros	culture	[kʊl²ˈtuːroːs]
 1944	sapne	dream	[sɐpˈnʲɛ]
 1945	autorius	author	[¹ˈɑˑʊtɔrʲʊ̟s]
@@ -1955,7 +1955,7 @@ rank	word	english	ipa
 1954	tragedija	tragedy	[trɐˈɡʲɛdʲɪjɛ]
 1955	katės	cat	[kɐˈtʲeːs]
 1956	kaimynas	neighbor	[kɐɪ¹ˈmʲiːnɐs]
-1957	gautų	to get, to obtain, to gain	
+1957	gautų	to get, to obtain, to gain	/ˈɡɐʊtuː/
 1958	žolę	grass	[²ˈʒoːlʲæː]
 1959	paveikslas	image	[pɐ¹ˈʋʲæˑɪkslɐs]
 1960	voras	spider	[ˈʋɔːɾɐs]
@@ -1980,7 +1980,7 @@ rank	word	english	ipa
 1979	gatves	street	[ɡɐˈtʲʋʲɛs]
 1980	fu	clipping of fui	[ˈfʊ]
 1981	kerštas	revenge, vengeance	[²ˈkʲɛrˑʃtɐs]
-1982	išlipti	exit a vehicle	
+1982	išlipti	exit a vehicle	/ɪˈʃlɪptɪ/
 1983	teka	to flow	[²ˈtʲæːkɐ]
 1984	mėnulį	moon	[mʲeːˈnʊlʲiː]
 1985	kopija	copy, duplicate	[ˈkɔpʲɪjɛ]
@@ -2016,7 +2016,7 @@ rank	word	english	ipa
 2015	upė	river	[ˈʊpʲeː]
 2016	kelnės	pants, trousers	[¹ˈkʲæˑlʲnʲeːs]
 2017	savižudybė	suicide	[sɐʋʲɪʒʊ¹ˈdʲiːbʲeː]
-2018	užtikrinti	to ensure, assure, guarantee	
+2018	užtikrinti	to ensure, assure, guarantee	/ʊʒˈtɪkrɪntɪ/
 2019	senais	old	[sʲɛ²ˈnɐɪˑs]
 2020	veikla	activity	/vʲɛɪˈkɫɐ/
 2021	miestelis	town	[mʲiɛ²ˈsʲtʲæːlʲɪs]
@@ -2041,7 +2041,7 @@ rank	word	english	ipa
 2040	bučiuoju	to kiss	[bʊ¹ˈt͡ʃʲu̟ɔjʊ̟]
 2041	pica	pizza	[pʲɪˈt͡sɐ]
 2042	liūtas	lion	[ˈlʲuːtɐs]
-2043	nebūti	to be	
+2043	nebūti	to be	/nɛˈbuːtɪ/
 2044	teroristas	terrorist	[tʲɛrɔˈrʲɪstɐs]
 2045	matant	present adverbial padalyvis participle of matyti	[²ˈmɑːtɐnt]
 2046	šikna	ass, arse, butt	[ʃʲɪkˈnɐ]
@@ -2051,7 +2051,7 @@ rank	word	english	ipa
 2050	anūkas	grandson	[ɐ²ˈnuːkɐs]
 2051	karui	dative singular of kãras	[²ˈkɑːrʊɪ]
 2052	savas	their, own	[²ˈsɑːʋɐs]
-2053	patirtis	experience	
+2053	patirtis	experience	/pɐtɪrˈtɪs/
 2054	bučinys	kiss	[bʊt͡ʃʲɪ²ˈnʲiːs]
 2055	karalystė	kingdom	[kɐrɐ²ˈlʲiːsʲtʲeː]
 2056	tvarką	order, orderliness; method	[ˈtʋɐɾkaː]
@@ -2075,11 +2075,11 @@ rank	word	english	ipa
 2074	tvarkos	order, orderliness; method	[tʋɐr²ˈkoːs]
 2075	torto	torte, cake	[¹ˈtɔrtoː]
 2076	tarnas	servant	[²ˈtɐrˑnɐs]
-2077	tomo	genitive singular of Tòmas	
+2077	tomo	genitive singular of Tòmas	/ˈtoːmoː/
 2078	lyderis	leader	[¹ˈlʲiːdʲɛrʲɪs]
 2079	prašymas	letter requesting something, petition	[²ˈprɑːʃʲiːmɐs]
 2080	namu	house	[nɐˈmʊ]
-2081	gėrimas	beverage, drink	
+2081	gėrimas	beverage, drink	/ˈɡeːrɪmɐs/
 2082	dėžė	box	[d̪ʲeːˈʑěː]
 2083	brolius	brother	[¹ˈbroːlʲʊ̟s]
 2084	vasara	summer	[²ˈʋɑːsɐrɐ]
@@ -2087,7 +2087,7 @@ rank	word	english	ipa
 2086	skaitei	to read	[skɐɪ²ˈtʲɛɪˑ]
 2087	medžiai	tree	[²ˈmʲæːd͡ʒʲɛɪ]
 2088	įėjimas	inlet, entryway	[iː.eːˈjɪmɐs]
-2089	juodoji	black	
+2089	juodoji	black	/juəˈdoːjɪ/
 2090	einate	to go	[²ˈɛɪˑnɐtʲɛ]
 2091	keliaus	to travel	[kʲɛ²ˈlʲɛʊˑs]
 2092	atia	alternative form of ate	
@@ -2111,7 +2111,7 @@ rank	word	english	ipa
 2110	sritis	region	[sʲrʲɪˈtʲɪs]
 2111	šiemet	this year	[²ˈʃʲiɛmʲɛt]
 2112	pažeidimas	verbal noun of pažeisti; violation, breach, infringement	[pɐʒʲɛɪˈdʲɪmɐs]
-2113	technika	technology	
+2113	technika	technology	/ˈtɛxnɪkɐ/
 2114	uostas	harbor, port	[¹ˈuɔstɐs]
 2115	mylėsiu	to love	[mʲiː¹ˈlʲeːsʲʊ̟]
 2116	uodega	tail	
@@ -2156,7 +2156,7 @@ rank	word	english	ipa
 2155	atidavė	third-person singular/plural past of atidúoti	[ɐˈtʲɪdɐʋʲeː]
 2156	žadi	to promise	[ʒɐˈdʲɪ]
 2157	picos	nominative/vocative plural	[ˈpʲɪt͡soːs]
-2158	konkrečiai	concretely	
+2158	konkrečiai	concretely	/koːnkrɛˈt͡ʃʲɐɪ/
 2159	moterimis	instrumental plural of móteris and mótė	[¹ˈmoːtʲɛrʲɪmʲɪs]
 2160	laikomas	present passive participle of laikýti	[²ˈlɐɪˑkoːmɐs]
 2161	pardaviau	to sell	[²ˈpɐrˑdɐʋʲɛʊ]
@@ -2180,11 +2180,11 @@ rank	word	english	ipa
 2179	kanalas	canal; channel	[kɐ²ˈnɑːlɐs]
 2180	sniegas	snow	[²ˈsʲnʲiɛɡɐs]
 2181	eitum	to go	[²ˈɛɪˑtʊm]
-2182	mirtų	to die	
+2182	mirtų	to die	/mɪrtuː/
 2183	filmuoti	to film	[fʲɪl¹ˈmuɔtʲɪ]
 2184	skrendu	to fly	[sʲkrʲɛnˈdʊ]
 2185	organizacija	organization	[ɔrɡɐnʲɪ²ˈzɑːt͡sʲɪjɛ]
-2186	kristi	to fall	
+2186	kristi	to fall	/ˈkrɪstɪ/
 2187	liudininkas	witness	[ˈlʲʊ̟dʲɪnʲɪŋkɐs]
 2188	gynyba	defense	[ɡʲiː¹ˈnʲiːbɐ]
 2189	mirtinas	participle of necessity of mirti	[²ˈmʲɪrʲˑtʲɪnɐs]
@@ -2212,44 +2212,44 @@ rank	word	english	ipa
 2211	žinojote	to know	[ʒʲɪ¹ˈnoːjo̟ːtʲɛ]
 2212	trokšti	to be thirsty, to thirst	/ˈtɾôːkʃʲtʲɪ/
 2213	žadėjau	to promise	[ʒɐ¹ˈdʲeːjɛʊ]
-2214	juose	they	
+2214	juose	they	/juəˈsɛ/
 2215	žiema	winter	[ʒiɛˈmɐ]
 2216	liežuvis	tongue	[lʲiɛˈʒʊʋʲɪs]
 2217	narkotikais	narcotic	[nɐrˈkɔtʲɪkɐɪs]
 2218	gyvūnas	animal	[ɡʲiː²ˈʋuːnɐs]
 2219	šonas	side, flank	[¹ˈʃoːnɐs]
 2220	stebėsiu	to observe	[sʲtʲɛ¹ˈbʲeːsʲʊ̟]
-2221	aplinka	environment	
+2221	aplinka	environment	/ɐplɪnˈkɐ/
 2222	tampi	to become, get; to turn into	[tɐmʲˈpʲɪ]
 2223	gelbėtojas	rescuer	[¹ˈɡʲæˑlʲbʲeːtoːjɛs]
 2224	nuodai	poison	[nuɔ²ˈdɐɪˑ]
 2225	stengtis	to strive, try	[¹ˈsʲtʲæˑŋktʲɪs]
-2226	pana	unmarried woman, girl	
+2226	pana	unmarried woman, girl	/pɐˈnɐ/
 2227	mušti	to beat, strike, hit	/ˈmʊʃ.tʲɪ/
 2228	tatuiruotę	tattoo	[tɐtʊɪ²ˈruɔtʲæː]
 2229	slėpti	to hide	[ˈsʲlʲeːpʲtʲɪ]
 2230	valgei	to eat	[¹ˈʋɑˑlʲɡʲɛɪ]
 2231	valdytojas	manager, governor	[ʋɐlʲ¹ˈdʲiːtoːjɛs]
-2232	įtariu	to suspect	
+2232	įtariu	to suspect	/iːtɐˈrʲʊ/
 2233	vištos	hen, chicken	[ˈʋʲɪʃtoːs]
 2234	muša	to beat, strike, hit	[ˈmʊʃɐ]
-2235	inžinierius	engineer	
+2235	inžinierius	engineer	/ɪnʒɪˈniərʲʊs/
 2236	gyvatės	snake; serpent	[ɡʲiː²ˈʋɑːtʲeːs]
-2237	suprastų	to perceive, to get it; to understand	
+2237	suprastų	to perceive, to get it; to understand	/sʊˈprɐstuː/
 2238	atsiminti	to remember	[ɐt͡sʲɪ²ˈmʲɪnʲˑtʲɪ]
 2239	minus	minus	[ˈmʲɪnʊs]
 2240	žiūrint	present adverbial padalyvis participle of žiūrėti	[²ˈʒʲu̟ːrʲɪnt]
 2241	lavoną	corpse, cadaver	[lɐ¹ˈʋoːnɑː]
-2242	procedūra	procedure	
+2242	procedūra	procedure	/proːt͡sɛduːˈrɐ/
 2243	supistas	fucking	
 2244	žalias	green	[²ˈʒɑːlʲɛs]
 2245	senoji	old	[sʲɛ¹ˈnoːjɪ]
 2246	laikus	accusative plural of lai̇̃kas	[lɐɪˈkʊs]
 2247	nekęsti	to hate	/nʲɛˈkʲæːsʲtʲɪ/
 2248	profesionalas	professional	[prɔfʲɛsʲɪjɔ̟²ˈnɑːlɐs]
-2249	grafas	count	
+2249	grafas	count	/ɡrɐˈfɐs/
 2250	keturiasdešimt	forty	[²ˈkʲæːtʊrʲɛzʲdʲɛʃʲɪmt]
-2251	valgiau	to eat	
+2251	valgiau	to eat	/ˈvaːlɡʲɐʊ/
 2252	siekti	to reach, try to touch	[ˈsʲîəkʲt̪ɪ]
 2253	akla	blind	[ɐˈklɐ]
 2254	kontrolė	inspection, checking, control	[kɔnˈtrɔlʲeː]
@@ -2271,7 +2271,7 @@ rank	word	english	ipa
 2270	europą	accusative singular of Europà	[ɛʊˈrɔpɑː]
 2271	prietaisas	device, instrument	[¹ˈpʲrʲiɛtɐɪsɐs]
 2272	išduoti	to give, to hand	[ɪʃˈdûɔtʲɪ]
-2273	kalbas	language	
+2273	kalbas	language	/kɐlˈbɐs/
 2274	ištarti	to pronounce, to articulate	[ɪʃˈtɐɾtʲɪ]
 2275	parduoda	to sell	[pɐr¹ˈduɔdɐ]
 2276	rimti	to calm down	/ˈrʲɪmʲ.tʲɪ/
@@ -2302,7 +2302,7 @@ rank	word	english	ipa
 2301	seserimi	instrumental singular of sesuõ	[sʲɛsʲɛrʲɪˈmʲɪ]
 2302	draudimas	ban, prohibition	[drɒʊˈdʲɪmɐs]
 2303	bėgo	to run	[¹ˈbʲeːɡoː]
-2304	ašaros	tear	
+2304	ašaros	tear	/ˈaːʃɐroːs/
 2305	galėjote	to be able to; can, may	[ɡɐ¹ˈlʲeːjo̟ːtʲɛ]
 2306	privatus	private	[pʲrʲɪʋɐˈtʊs]
 2307	prisiimti	to take upon oneself	
@@ -2312,28 +2312,28 @@ rank	word	english	ipa
 2311	atstovas	representative	[ɐt²ˈstoːʋɐs]
 2312	suvalgė	to eat up; to consume	[sʊ¹ˈʋɑˑlʲɡʲeː]
 2313	kviesti	to invite	[²ˈkʋʲiɛsʲtʲɪ]
-2314	roberto	genitive singular of Ròbertas	
+2314	roberto	genitive singular of Ròbertas	/ˈroːbɛrtoː/
 2315	esantis	to be	[²ˈæːsɐnʲtʲɪs]
 2316	laukei	to wait; to expect, to anticipate	[¹ˈlɑˑʊkʲɛɪ]
-2317	ateitų	to come, to arrive	
+2317	ateitų	to come, to arrive	/ɐˈtɛɪtuː/
 2318	laiškai	nominative/vocative plural of láiškas	[lɐɪ²ˈʃkɐɪˑ]
 2319	romanas	novel	[roː²ˈmɑːnɐs]
 2320	skubus	urgent	[skʊˈbʊs]
 2321	valdymas	governance, rule	[²ˈʋɐlʲˑdʲiːmɐs]
-2322	spauda	printing	
+2322	spauda	printing	/spɐʊˈdɐ/
 2323	pardavėjas	seller, salesman; vendor	[pɐrdɐ¹ˈʋʲeːjɛs]
 2324	kampas	corner	[²ˈkɐmˑpɐs]
 2325	vampyras	vampire	[ʋɐmʲ²ˈpʲiːrɐs]
 2326	picą	accusative singular of picà	[ˈpʲɪt͡sɑː]
 2327	skirtumą	difference	[¹ˈsʲkʲɪrtʊmɑː]
-2328	banginis	whale	
+2328	banginis	whale	/bɐnˈɡɪnɪs/
 2329	prancūziškai	in French	[prɐn²ˈt͡suːzʲɪʃkɐɪ]
 2330	šnekėti	to speak	[ʃʲnʲɛ¹ˈkʲeːtʲɪ]
-2331	klanas	puddle	
-2332	trenkti	to slam, beat, strike	
+2331	klanas	puddle	/ˈklaːnɐs/
+2332	trenkti	to slam, beat, strike	/trɛnktɪ/
 2333	laukas	field	[²ˈlɒʊˑkɐs]
 2334	lėlė	doll	[lʲeː²ˈlʲeː]
-2335	teatras	theater	
+2335	teatras	theater	/tɛˈaːtrɐs/
 2336	mirus	past adverbial padalyvis participle of mirti	[ˈmʲɪrʊs]
 2337	neteisingas	wrong	[nʲɛtʲɛɪ¹ˈsʲɪŋɡɐs]
 2338	reputacija	reputation	[rʲɛpʊ²ˈtɑːt͡sʲɪjɛ]
@@ -2364,17 +2364,17 @@ rank	word	english	ipa
 2363	pienas	milk	[¹ˈpʲiɛnɐs]
 2364	mirsite	to die	[²ˈmʲɪrʲˑsʲɪtʲɛ]
 2365	ėjai	to go	[eː²ˈjɛɪˑ]
-2366	ratai	ecstasy	
+2366	ratai	ecstasy	/ˈraːtɐɪ/
 2367	kinas	cinema	[ˈkʲɪnɐs]
 2368	automobiliu	car, automobile	[ɒʊtɔmɔbʲɪˈlʲʊ̟]
 2369	žiūrite	to look at; to look into, observe; to watch	[²ˈʒʲu̟ːrʲɪtʲɛ]
-2370	atrado	to find, to discover	
+2370	atrado	to find, to discover	/ɐˈtraːdoː/
 2371	gėrė	drink	[¹ˈɡʲeːrʲeː]
-2372	kovas	March	
+2372	kovas	March	/ˈkoːvɐs/
 2373	šunie	vocative singular of šuõ	[ʃʊ²ˈnʲiɛ]
 2374	gėriau	drink	[¹ˈɡʲeːrʲɛʊ]
 2375	patarimų	suggestion, advice	[pɐtɐˈrʲɪmuː]
-2376	skola	debt	
+2376	skola	debt	/skoːˈlɐ/
 2377	are	locative singular of ãras	[ɐˈrʲɛ]
 2378	padavėja	waitress	[pɐdɐ¹ˈʋʲeːjɛ]
 2379	iliuzija	illusion	[ɪˈlʲʊ̟zʲɪjɛ]
@@ -2388,7 +2388,7 @@ rank	word	english	ipa
 2387	futbolas	football, soccer, association football	[ˈfʊdbɔlɐs]
 2388	nesėkmė	failure, misfortune	[nʲɛsʲeː²ˈkmʲeː]
 2389	iškeliavo	to set out, to leave	[ɪʃʲkʲɛ²ˈlʲæːʋoː]
-2390	patiekalas	course, dish	
+2390	patiekalas	course, dish	/ˈpaːtiəkɐlɐs/
 2391	pyragas	pie; pirog	[pʲiː²ˈrɑːɡɐs]
 2392	puslapių	page	[ˈpʊslɐpʲu̟ː]
 2393	metodas	method	[mʲɛˈtɔdɐs]
@@ -2397,7 +2397,7 @@ rank	word	english	ipa
 2396	zodiako	zodiac	[zɔdʲɪ²ˈjæːkoː]
 2397	aktorė	actor	[²ˈɑːktɔrʲeː]
 2398	gavęs	to get, to obtain, to gain	[²ˈɡɑːʋʲæːs]
-2399	rugpjūčio	August	
+2399	rugpjūčio	August	/rʊɡˈpjuːt͡ʃʲoː/
 2400	rožė	rose	[²ˈroːʒʲeː]
 2401	pimpis	penis; dick, cock, prick	[²ˈpʲɪmʲˑpʲɪs]
 2402	oligarchas	oligarch	[oːlʲɪ¹ˈɡɑˑrxɐs]
@@ -2412,7 +2412,7 @@ rank	word	english	ipa
 2411	ledai	ice cream	[lʲɛ²ˈdɐɪˑ]
 2412	fėja	fairy	[¹ˈfʲeːjɛ]
 2413	patrauklus	attractive	[pɐtrɒʊˈklʊs]
-2414	jiedu	they, the two of them	
+2414	jiedu	they, the two of them	/ˈjiədʊ/
 2415	stiklą	glass	[ˈsʲtʲɪklɑː]
 2416	galintis	to be able to; can, may	[²ˈɡɑːlʲɪnʲtʲɪs]
 2417	balsuoti	to vote	[bɐl¹ˈsuɔtʲɪ]
@@ -2421,13 +2421,13 @@ rank	word	english	ipa
 2420	anos	that, yon	[ɐ²ˈnoːs]
 2421	asmeninį	personal	[ɐsʲmʲɛˈnʲɪnʲiː]
 2422	mudviem	we, the two of us	[ˈmʊdʲʋʲiɛm]
-2423	randu	find, discover	
+2423	randu	find, discover	/rɐnˈdʊ/
 2424	išraiška	facial expression	[ˈɪʃrɐɪʃkɐ]
 2425	nekentė	to hate	[ˈnʲɛkʲɛnʲtʲeː]
 2426	sukti	turn	/sʊk.tʲɪ/
 2427	galėjęs	to be able to; can, may	[ɡɐ¹ˈlʲeːjæːs]
 2428	lipa	third-person present of li̇̀pti	[ˈlʲɪpɐ]
-2429	romą	accusative singular of Ròmas /Rõmas	
+2429	romą	accusative singular of Ròmas /Rõmas	/ˈroːmaː/
 2430	pasauliu	world	[pɐ¹ˈsɑˑʊlʲʊ̟]
 2431	pilvas	belly, stomach	[²ˈpʲɪlˑʋɐs]
 2432	penktadienis	Friday	[pʲɛŋk²ˈtɑːdʲiɛnʲɪs]
@@ -2451,7 +2451,7 @@ rank	word	english	ipa
 2450	gautum	to get, to obtain, to gain	[¹ˈɡɑˑʊtʊm]
 2451	gauname	to get, to obtain, to gain	[¹ˈɡɑˑʊnɐmʲɛ]
 2452	rusas	Russian	[ˈrʊsɐs]
-2453	smogti	to strongly hit or strike	
+2453	smogti	to strongly hit or strike	/ˈsmoːɡtɪ/
 2454	senojo	old	[²ˈsʲæːnoːjo̟ː]
 2455	sąžinė	conscience	[¹ˈsɑːʒʲɪnʲeː]
 2456	anas	that, yon	[ɐˈnɐs]
@@ -2466,20 +2466,20 @@ rank	word	english	ipa
 2465	įspūdingas	impressive; striking	[iːspuː¹ˈdʲɪŋɡɐs]
 2466	gitara	guitar	[ɡʲɪtɐˈrɐ]
 2467	duotas	to give	[¹ˈduɔtɐs]
-2468	jose	they	
+2468	jose	they	/joːˈsɛ/
 2469	sultys	juice	[¹ˈsʊlʲtʲiːs]
 2470	saugios	safe, secure	[sɐʊˈɡʲoːs]
 2471	revoliucija	revolution	[rʲɛʋɔˈlʲʊ̟t͡sʲɪjɛ]
 2472	paieška	search	[pɐjiɛˈʃkɐ]
 2473	vaisius	fruit	[²ˈʋɐɪˑsʲʊ̟s]
-2474	dviračiu	bicycle	
+2474	dviračiu	bicycle	/ˈdvɪrɐt͡ʃʲuː/
 2475	atsakau	to reply, to respond, to answer	[ɐtsɐ²ˈkɒʊˑ]
 2476	rinkti	to gather, to collect	[ˈrʲɪŋk.tʲɪ]
 2477	virėjas	a cook, chef	[ʋʲɪ¹ˈrʲeːjɛs]
 2478	vartoti	to use	[ʋɐr¹ˈtoːtʲɪ]
 2479	kalbėkite	to speak	[kɐlʲ¹ˈbʲeːkʲɪtʲɛ]
 2480	apkaltinti	accuse	[ɐp¹ˈkɑˑlʲtʲɪnʲtʲɪ]
-2481	prasti	to get accustomed, to get used to	
+2481	prasti	to get accustomed, to get used to	/ˈprɐstɪ/
 2482	senąjį	old	[²ˈsʲæːnɑːjiː]
 2483	atidarė	to open	[ɐtʲɪ²ˈdɑːrʲeː]
 2484	klounas	clown	
@@ -2499,20 +2499,20 @@ rank	word	english	ipa
 2498	panika	panic	[²ˈpɑːnʲɪkɐ]
 2499	tylėti	to silence	[tʲiː¹ˈlʲeːtʲɪ]
 2500	įdomiau	interesting	[iːdoː²ˈmʲɛʊˑ]
-2501	atverti	to open	
+2501	atverti	to open	/ɐtˈvæːrtɪ/
 2502	armėnas	Armenian	[ɐrʲ¹ˈmʲeːnɐs]
 2503	aikštelė	field, pad, site	[ɐɪk²ˈʃʲtʲæːlʲeː]
 2504	žiūrėdamas	adverbial pusdalyvis participle of žiūrėti	[ʒʲu̟ː¹ˈrʲeːdɐmɐs]
 2505	vokiškai	in German	[¹ˈʋoːkʲɪʃkɐɪ]
 2506	muziejus	museum	[mʊˈzʲiɛjʊ̟s]
 2507	punktas	point	[¹ˈpʊŋktɐs]
-2508	rinka	marketplace	
+2508	rinka	marketplace	/rɪnˈkɐ/
 2509	kame	who	[kɐˈmʲɛ]
 2510	būdami	adverbial pusdalyvis participle of būti	[buːdɐˈmʲɪ]
 2511	seifas	safe, strongbox	[²ˈsʲɛɪˑfɐs]
 2512	imperija	empire	[ɪmʲˈpʲɛrʲɪjɛ]
-2513	saulei	sun	
-2514	ministre	minister	
+2513	saulei	sun	/ˈsɐʊlɛɪ/
+2514	ministre	minister	/mɪˈnɪstreː/
 2515	sapnus	dream	[sɐˈpnʊs]
 2516	nuotykis	adventure	[¹ˈnuɔtʲiːkʲɪs]
 2517	šoku	jump, leap	[ˈʃoːkʊ]
@@ -2530,10 +2530,10 @@ rank	word	english	ipa
 2529	sėdėsi	to sit	[sʲeː¹ˈdʲeːsʲɪ]
 2530	daiktais	thing	[dɐɪk²ˈtɐɪˑs]
 2531	zodiakas	zodiac	[zɔdʲɪ²ˈjæːkɐs]
-2532	pirštas	finger, toe	
+2532	pirštas	finger, toe	/pɪrʃtɐs/
 2533	matyčiau	to see	[mɐ¹ˈtʲiːt͡ʃʲɛʊ]
 2534	sekmadienis	Sunday	[sʲɛ²ˈkmɑːdʲiɛnʲɪs]
-2535	pasas	passport	
+2535	pasas	passport	/ˈpaːsɐs/
 2536	nežinoti	to know	[nʲɛʒʲɪ¹ˈnoːtʲɪ]
 2537	suktis	to have sex, to fawn	[ˈsʊktʲɪs]
 2538	šypseną	smile	[²ˈʃʲiːpʲsʲɛnɑː]
@@ -2545,7 +2545,7 @@ rank	word	english	ipa
 2544	laboratorija	laboratory	[lɐbɔrɐˈtɔrʲɪjɛ]
 2545	pavaduotojas	substitute, deputy	[pɐʋɐ¹ˈduɔtoːjɛs]
 2546	automobiliai	car, automobile	[ɒʊtɔmɔˈbʲɪlʲɛɪ]
-2547	mergos	genitive singular	
+2547	mergos	genitive singular	/mɛrɡoːs/
 2548	balsu	voice	[bɐlˈsʊ]
 2549	pavasarį	spring	[pɐ²ˈʋɑːsɐrʲiː]
 2550	kačių	cat	[kɐ²ˈt͡ʃʲu̟ː]
@@ -2566,7 +2566,7 @@ rank	word	english	ipa
 2565	strėlė	arrow	[sʲtʲrʲeː²ˈlʲeː]
 2566	žada	to promise	[²ˈʒɑːdɐ]
 2567	lėkti	to fly	/ˈlʲeːktʲɪ/
-2568	europa	vocative of Europà	
+2568	europa	vocative of Europà	/ɛʊˈroːpɐ/
 2569	augo	to grow	[¹ˈɑˑʊɡoː]
 2570	pastebės	to notice, to observe	[pɐsʲtʲɛ²ˈbʲeːs]
 2571	senu	old	[sʲɛˈnʊ]
@@ -2575,7 +2575,7 @@ rank	word	english	ipa
 2574	pastebėtas	to notice, to observe	[pɐsʲtʲɛ¹ˈbʲeːtɐs]
 2575	lesbietė	lesbian	[lʲɛ²ˈzʲbʲiɛtʲeː]
 2576	rėkti	cry out, yell, scream	/rʲeːk.tʲɪ/
-2577	rastų	find, discover	
+2577	rastų	find, discover	/ˈrɐstuː/
 2578	bendras	common; general	[²ˈbʲɛnˑdrɐs]
 2579	matytas	to see	[mɐ¹ˈtʲiːtɐs]
 2580	judame	to move	
@@ -2583,11 +2583,11 @@ rank	word	english	ipa
 2582	valyti	to clean	[ʋɐ¹ˈlʲiːtʲɪ]
 2583	gėlė	flower	[ɡʲeːˈlʲeː]
 2584	pardavei	to sell	[²ˈpɐrˑdɐʋʲɛɪ]
-2585	smurtas	violence	
+2585	smurtas	violence	/ˈsmʊrtɐs/
 2586	būtinas	participle of necessity of būti	[¹ˈbuːtʲɪnɐs]
 2587	apkabinti	to hug	[ɐpkɐ¹ˈbʲɪnʲtʲɪ]
 2588	ausies	genitive singular of ausi̇̀s	[ɒʊ²ˈsʲiɛs]
-2589	laiptai	stairs	
+2589	laiptai	stairs	/ˈlɐɪptɐɪ/
 2590	duona	bread	[¹ˈduɔnɐ]
 2591	upe	river	[ʊˈpʲɛ]
 2592	mėnulyje	moon	[mʲeːˈnʊlʲiːjɛ]
@@ -2597,12 +2597,12 @@ rank	word	english	ipa
 2596	kompiuteryje	computer	[kɔmʲˈpʲʊ̟tʲɛrʲiːjɛ]
 2597	sakysi	to say	[sɐ¹ˈkʲiːsʲɪ]
 2598	valgysi	to eat	[¹ˈʋɑˑlʲɡʲiːsʲɪ]
-2599	žinosi	to know	
+2599	žinosi	to know	/ʒɪˈnoːsɪ/
 2600	karinis	military, related to war	[kɐˈrʲɪnʲɪs]
 2601	kunigaikštis	duke	[kʊnʲɪ¹ˈɡɑˑɪkʃʲtʲɪs]
 2602	ištekėti	to marry	[ɪʃʲtʲɛ¹ˈkʲeːtʲɪ]
 2603	keliaujame	to travel	[kʲɛ¹ˈlʲæˑʊjɛmʲɛ]
-2604	paslauga	favor, service	
+2604	paslauga	favor, service	/pɐslɐʊˈɡɐ/
 2605	baigs	to finish	[²ˈbɐɪˑks]
 2606	debesis	cloud	[dɛbɛˈsɪs]
 2607	narius	accusative plural of narỹs	[nɐˈrʲʊ̟s]
@@ -2610,20 +2610,20 @@ rank	word	english	ipa
 2609	siūlė	seam; hem	[sʲuːˈlʲeː]
 2610	sakęs	to say	[²ˈsɑːkʲæːs]
 2611	seku	to observe	[sʲɛˈkʊ]
-2612	kaltina	to accuse, to charge; to prosecute, to indict	
+2612	kaltina	to accuse, to charge; to prosecute, to indict	/ˈkaːltɪnɐ/
 2613	gražiau	beautifully	[ɡrɐ²ˈʒʲɛʊˑ]
 2614	gersi	drink	[¹ˈɡʲæˑrʲsʲɪ]
 2615	paukščius	accusative plural of paũkštis	[pɒʊkˈʃʲt͡ʃʲʊ̟s]
 2616	kompiuterių	computer	[kɔmʲˈpʲʊ̟tʲɛrʲu̟ː]
-2617	judviejų	you, the two of you	
+2617	judviejų	you, the two of you	/ˈjʊdviəjuː/
 2618	savanaudis	a selfish person, egoist	[sɐʋɐ²ˈnɒʊˑdʲɪs]
 2619	išdavystė	treason	[ɪʒdɐ²ˈʋʲiːsʲtʲeː]
 2620	atsakysi	to reply, to respond, to answer	[ɐtsɐ¹ˈkʲiːsʲɪ]
 2621	svetimas	other people's	[²ˈsʲʋʲæːtʲɪmɐs]
-2622	subjektas	subject, entity	
+2622	subjektas	subject, entity	/sʊˈbjɛktɐs/
 2623	piratai	nominative/vocative plural of pirãtas	[pʲɪ²ˈrɑːtɐɪ]
 2624	suvalgysiu	to eat up; to consume	[sʊ¹ˈʋɑˑlʲɡʲiːsʲʊ̟]
-2625	aušros	dawn, daybreak	
+2625	aušros	dawn, daybreak	/ˈɐʊʃroːs/
 2626	vaistas	medicine, medication	[ˈʋaːjstɐs]
 2627	kepurė	cap	[kʲɛˈpʊrʲeː]
 2628	žiūrės	to look at; to look into, observe; to watch	[ʒʲu̟ː²ˈrʲeːs]
@@ -2640,7 +2640,7 @@ rank	word	english	ipa
 2639	skaitė	to read	[²ˈskɐɪˑtʲeː]
 2640	kryptis	direction	[krʲiːpʲˈtʲɪs]
 2641	melodija	melody	[mʲɛˈlɔdʲɪjɛ]
-2642	vežti	to lead, convey, carry, transport	
+2642	vežti	to lead, convey, carry, transport	/ˈvɛʒtɪ/
 2643	dainuoji	to sing	[dɐɪ¹ˈnuɔjɪ]
 2644	gyvate	instrumental singular of gyvãtė	[ɡʲiːʋɐˈtʲɛ]
 2645	baterija	battery	[bɐˈtʲɛrʲɪjɛ]
@@ -2651,7 +2651,7 @@ rank	word	english	ipa
 2650	sėdėsiu	to sit	[sʲeː¹ˈdʲeːsʲʊ̟]
 2651	bankai	bank	[¹ˈbɑˑŋkɐɪ]
 2652	palikimas	an act of leaving	[pɐlʲɪˈkʲɪmɐs]
-2653	miršti	to die	
+2653	miršti	to die	/ˈmɪrʃtɪ/
 2654	gyvačių	snake; serpent	[ɡʲiː²ˈʋɑːt͡ʃʲu̟ː]
 2655	broliais	brother	[¹ˈbroːlʲɛɪs]
 2656	vagystė	theft	[ʋɐ²ˈɡʲiːsʲtʲeː]
@@ -2710,7 +2710,7 @@ rank	word	english	ipa
 2709	viskis	whiskey	[ˈʋʲɪsʲkʲɪs]
 2710	druska	salt	/drʊˈskɐ/
 2711	šėtonas	devil	[ʃʲeː²ˈtoːnɐs]
-2712	spyna	lock	
+2712	spyna	lock	/spiːˈnɐ/
 2713	krūtis	breast	[kruːˈtʲɪs]
 2714	tarti	to pronounce; to articulate; to enunciate; to say	[ˈtɐrˈtʲɪ]
 2715	apgavai	to cheat; to fool	[ɐbɡɐ²ˈʋɐɪˑ]
@@ -2730,19 +2730,19 @@ rank	word	english	ipa
 2729	ceremonija	ceremony	[t͡sʲɛrʲɛˈmɔnʲɪjɛ]
 2730	spinta	cabinet, wardrobe	[¹ˈsʲpʲɪntɐ]
 2731	tvirtovė	fortress	[tʲʋʲɪr¹ˈtoːʋʲeː]
-2732	barzda	beard	
+2732	barzda	beard	/bɐrzˈdɐ/
 2733	sumuštinis	sandwich	[sʊmʊˈʃʲtʲɪnʲɪs]
 2734	gąsdinti	to scare, to frighten	[²ˈɡɑːzʲdʲɪnʲtʲɪ]
-2735	tiksi	to fit	
+2735	tiksi	to fit	/ˈtɪksɪ/
 2736	skrybėlė	hat	[sʲkrʲiːbʲeː²ˈlʲeː]
-2737	subingalvis	An asshole, jerk	
+2737	subingalvis	An asshole, jerk	/sʊbɪnɡɐlvɪs/
 2738	smulkmenų	detail	[¹ˈsmʊlʲkmʲɛnuː]
 2739	praktika	practice	[²ˈprɑːktʲɪkɐ]
 2740	baltoji	white	[bɐl¹ˈtoːjɪ]
 2741	lavonai	corpse, cadaver	[lɐ¹ˈʋoːnɐɪ]
 2742	strategija	strategy	[strɐˈtʲɛɡʲɪjɛ]
 2743	košės	porridge as a meal	[ˈkoːʃʲeːs]
-2744	di	initialism of dirbtinis intelektas	
+2744	di	initialism of dirbtinis intelektas	/dɪ/
 2745	kepti	to bake	[ˈkʲɛpʲtʲɪ]
 2746	kalbėjote	to speak	[kɐlʲ¹ˈbʲeːjo̟ːtʲɛ]
 2747	traukti	to pull	[ˈtɾaˑʊ̯kʲtʲɪ]
@@ -2752,11 +2752,11 @@ rank	word	english	ipa
 2751	greitosios	quick	[ɡɾɛjˈtoːsʲos]
 2752	sniegą	snow	[²ˈsʲnʲiɛɡɑː]
 2753	produktas	product	[prɔˈdʊktɐs]
-2754	kaukė	mask	
+2754	kaukė	mask	/ˈkɐʊkeː/
 2755	rūta	rue	[ruːˈt̪ɐ]
 2756	mažieji	little, small	[mɐ¹ˈʒʲiɛjɪ]
 2757	abejoti	to doubt, to question	[ɐbʲɛ¹ˈjo̟ːtʲɪ]
-2758	užsičiaupti	to shut up	
+2758	užsičiaupti	to shut up	/ʊʒsɪˈt͡ʃʲɐʊptɪ/
 2759	dėžutė	box	[dʲeːˈʒʊtʲeː]
 2760	kūrėjas	creator	[kuː¹ˈrʲeːjɛs]
 2761	sutrukdžiau	to prevent, to hinder, to impede	[sʊtrʊɡ²ˈd͡ʒʲɛʊˑ]
@@ -2764,16 +2764,16 @@ rank	word	english	ipa
 2763	atidaryta	open	[ɐtʲɪdɐ¹ˈrʲiːtɐ]
 2764	alga	pay, salary, wage	[ɐɫ̪ˈɡɐ]
 2765	bėgte	to run	[bʲeːkˈtʲɛ]
-2766	lenta	board	
+2766	lenta	board	/lɛnˈtɐ/
 2767	atsakykite	to reply, to respond, to answer	[ɐtsɐ¹ˈkʲiːkʲɪtʲɛ]
 2768	bakai	nominative plural of Bakas	
 2769	š	shit	
 2770	džiaugsmas	joy	[²ˈd͡ʒʲɛʊˑksmɐs]
 2771	gaunate	to get, to obtain, to gain	[¹ˈɡɑˑʊnɐtʲɛ]
-2772	maldos	genitive singular of maldà	
+2772	maldos	genitive singular of maldà	/mɐlˈdoːs/
 2773	laikotarpis	period of time	[lɐɪ¹ˈkoːtɐrʲpʲɪs]
 2774	vergai	nominative/vocative plural of vérgas	[ʋʲɛr²ˈɡɐɪˑ]
-2775	vedu	we two	
+2775	vedu	we two	/ˈvɛdʊ/
 2776	partijos	political party	[¹ˈpɑˑrʲtʲɪjo̟ːs]
 2777	šeštadienis	Saturday	[ʃʲɛ²ˈʃtɑːdʲiɛnʲɪs]
 2778	padažas	sauce, dipping sauce	[²ˈpɑːdɐʒɐs]
@@ -2809,7 +2809,7 @@ rank	word	english	ipa
 2808	duosime	to give	[¹ˈduɔsʲɪmʲɛ]
 2809	depresija	depression	[dʲɛˈpʲrʲɛsʲɪjɛ]
 2810	minkštas	soft	[¹ˈmʲɪŋkʃtɐs]
-2811	prancūzija	vocative of Prancūzijà	
+2811	prancūzija	vocative of Prancūzijà	/prɐnt͡suːˈzɪjɐ/
 2812	atrasti	to find, to discover	[ɐtˈrɐsʲtʲɪ]
 2813	aptikti	to detect	[ɐpʲˈtʲɪktʲɪ]
 2814	studentė	college / university student	[stʊ²ˈdʲɛnʲˑtʲeː]
@@ -2827,17 +2827,17 @@ rank	word	english	ipa
 2826	popiežius	pope	[¹ˈpoːpʲiɛʒʲʊ̟s]
 2827	valgysiu	to eat	[¹ˈʋɑˑlʲɡʲiːsʲʊ̟]
 2828	atsakys	to reply, to respond, to answer	[ɐtsɐ²ˈkʲiːs]
-2829	spausti	to press	
-2830	nafta	petroleum, oil	
+2829	spausti	to press	/ˈspɐʊstɪ/
+2830	nafta	petroleum, oil	/nɐfˈtɐ/
 2831	lavonus	corpse, cadaver	[lɐ¹ˈʋoːnʊs]
 2832	lazdos	stick	[lɐzˈdoːs]
 2833	vidutinis	medium, middle, mediocre	[ʋʲɪdʊˈtʲɪnʲɪs]
 2834	kapas	grave	/ˈkǎː.pɐs/
 2835	iššūkis	challenge	[ˈɪʃuːkʲɪs]
-2836	žengti	to step	
+2836	žengti	to step	/ʒɛnɡtɪ/
 2837	ypatingasis	special, especial, particular, peculiar	[iːpɐˈtʲɪnɡɐsʲɪs]
 2838	alkoholikas	alcoholic	[ɐlkɔˈɣɔlʲɪkɐs]
-2839	pasakai	to say, to tell	
+2839	pasakai	to say, to tell	/ˈpaːsɐkɐɪ/
 2840	patinas	male	[²ˈpɑːtʲɪnɐs]
 2841	augti	to grow	[ˈäˑʊ̯kʲtʲɪ]
 2842	eitų	to go	[²ˈɛɪˑtuː]
@@ -2849,7 +2849,7 @@ rank	word	english	ipa
 2848	mirčiau	to die	[²ˈmʲɪrʲˑt͡ʃʲɛʊ]
 2849	tatuiruotė	tattoo	[tɐtʊɪ²ˈruɔtʲeː]
 2850	siuntinys	a sent package; a shipment; a parcel	[sʲʊ̟nʲtʲɪ²ˈnʲiːs]
-2851	žala	damage, harm	
+2851	žala	damage, harm	/ʒɐˈlɐ/
 2852	mažąjį	little, small	[²ˈmɑːʒɑːjiː]
 2853	skrendi	to fly	[sʲkrʲɛnʲˈdʲɪ]
 2854	seks	to observe	[ˈsʲɛks]
@@ -2863,7 +2863,7 @@ rank	word	english	ipa
 2862	naktinis	nightly	[nɐkˈtʲɪnʲɪs]
 2863	kvietimas	invitation	[kʋʲiɛˈtʲɪmɐs]
 2864	patarėjas	advisor	[pɐtɐ¹ˈrʲeːjɛs]
-2865	judviem	you, the two of you	
+2865	judviem	you, the two of you	/ˈjʊdviəm/
 2866	kolonija	colony	[kɔˈlɔnʲɪjɛ]
 2867	dviratis	two-wheeled	[dʲʋʲɪˈrɑːtʲɪs]
 2868	grandinė	chain	[ɡrɐnʲˈdʲɪnʲeː]
@@ -2876,7 +2876,7 @@ rank	word	english	ipa
 2875	lapė	fox	[²ˈlɑːpʲeː]
 2876	paukščio	genitive singular of paũkštis	[²ˈpɒʊˑkʃʲt͡ʃʲo̟ː]
 2877	žiniasklaida	mass media	[ʒʲɪ²ˈnʲæːsklɐɪdɐ]
-2878	varpas	bell	
+2878	varpas	bell	/vɐrpɐs/
 2879	bendrauja	to associate	[bʲɛn¹ˈdrɑˑʊjɛ]
 2880	juokauti	to talk while telling funny things, to speak with a laugh,…	[ju̟ɔ¹ˈkɑˑʊtʲɪ]
 2881	skrynia	chest, ark, coffer	/s̪ʲkʲr̺ʲiːˈn̪ʲɛ/
@@ -2886,7 +2886,7 @@ rank	word	english	ipa
 2885	uždarys	to close, to shut	[ʊʒdɐ²ˈrʲiːs]
 2886	vištiena	chicken meat	[ʋʲɪ¹ˈʃʲtʲiɛnɐ]
 2887	srovė	current, flow	[sroː²ˈʋʲeː]
-2888	pėstininkai	infantry	
+2888	pėstininkai	infantry	/ˈpeːstɪnɪnkɐɪ/
 2889	deivė	goddess	[²ˈdʲɛɪˑʋʲeː]
 2890	dažai	paint, dye	/dɐˈʐɐɪ/
 2891	viršūnė	summit	[ʋʲɪr¹ˈʃuːnʲeː]
@@ -2912,8 +2912,8 @@ rank	word	english	ipa
 2911	renginys	event, spectacle	[rʲɛŋʲɡʲɪ²ˈnʲiːs]
 2912	meška	bear	[mʲɛʃˈkɐ]
 2913	mirtum	to die	[²ˈmʲɪrˑtʊm]
-2914	atmosfera	atmosphere	
-2915	italijos	genitive of Italija	
+2914	atmosfera	atmosphere	/ɐtmoːsfɛˈrɐ/
+2915	italijos	genitive of Italija	/ɪˈtaːlɪjoːs/
 2916	bėgs	to run	[²ˈbʲeːks]
 2917	vartoji	to use	[ʋɐr¹ˈtoːjɪ]
 2918	teigti	to affirm	[ˈtʲɛɪ̯ˑkʲtʲɪ]
@@ -2925,12 +2925,12 @@ rank	word	english	ipa
 2924	sektorius	sector	[ˈsʲɛktɔrʲʊ̟s]
 2925	įgyvendinti	to accomplish, realize, fulfill	[iːɡʲiː¹ˈʋʲæˑnʲdʲɪnʲtʲɪ]
 2926	veidrodis	mirror	[¹ˈʋʲæˑɪdroːdʲɪs]
-2927	šviežias	fresh	
+2927	šviežias	fresh	/ˈʃviəʒʲɐs/
 2928	skris	to fly	[ˈsʲkrʲɪs]
 2929	pirkėjas	buyer, purchaser, customer	[pʲɪrʲ¹ˈkʲeːjɛs]
 2930	vartoja	to use	[ʋɐr¹ˈtoːjɛ]
 2931	lagaminas	suitcase; portmanteau	[lɐɡɐˈmʲɪnɐs]
-2932	ambasada	embassy	
+2932	ambasada	embassy	/ɐmbɐsɐˈdɐ/
 2933	sutrukdyti	to prevent, to hinder, to impede	[sʊtrʊɡ¹ˈdʲiːtʲɪ]
 2934	baltosios	white	[bɐlˈtoːsʲos]
 2935	kiaušinį	egg	[kʲɛʊˈʃʲɪnʲiː]
@@ -2956,13 +2956,13 @@ rank	word	english	ipa
 2955	terapija	therapy	[tʲɛ²ˈrɑːpʲɪjɛ]
 2956	doleris	dollar	[¹ˈdoːlʲɛrʲɪs]
 2957	mažais	little, small	[mɐ²ˈʒɐɪˑs]
-2958	romai	vocative singular of Ròmas /Rõmas	
-2959	graikijos	genitive of Graikija	
+2958	romai	vocative singular of Ròmas /Rõmas	/ˈroːmɐɪ/
+2959	graikijos	genitive of Graikija	/ˈɡrɐɪkɪjoːs/
 2960	sėkmingas	successful	[sʲeː¹ˈkmʲɪŋɡɐs]
-2961	gamykla	factory, plant	
+2961	gamykla	factory, plant	/ɡɐmiːˈklɐ/
 2962	dainuoju	to sing	[dɐɪ¹ˈnuɔjʊ̟]
 2963	apsakyti	to recount	[ɐpsɐ¹ˈkʲiːtʲɪ]
-2964	jaunimas	youth, young people	
+2964	jaunimas	youth, young people	/jɐʊˈnɪmɐs/
 2965	informuoti	to inform	[ɪnfɔr¹ˈmuɔtʲɪ]
 2966	kasnakt	every night; nightly	[kɐ²ˈsnɑːkt]
 2967	slėpk	to hide	[²ˈsʲlʲeːpk]
@@ -2982,14 +2982,14 @@ rank	word	english	ipa
 2981	universitetas	university	[ʊnʲɪʋʲɛrʲsʲɪˈtʲɛtɐs]
 2982	ramybė	tranquility; calm	[rɐ¹ˈmʲiːbʲeː]
 2983	kuklus	modest	[kʊˈklʊs]
-2984	atranka	A selection process of people for competition or employment	
+2984	atranka	A selection process of people for competition or employment	/ɐtrɐnˈkɐ/
 2985	judvi	you, the two of you	
 2986	būkime	to be	[¹ˈbuːkʲɪmʲɛ]
 2987	prekyba	trade, commerce	[pʲrʲɛ¹ˈkʲiːbɐ]
 2988	paskaita	lecture	[pɐskɐɪ̯ˑˈt̪ɐ]
 2989	gydymas	to heal, treat	[¹ˈɡʲiːdʲiːmɐs]
 2990	skylių	hole; opening	[sʲkʲiː²ˈlʲu̟ː]
-2991	amerikai	dative singular of Amerika	
+2991	amerikai	dative singular of Amerika	/ɐˈmɛrɪkɐɪ/
 2992	vidinis	internal, interior, inner	[ʋʲɪˈdʲɪnʲɪs]
 2993	akimi	eye	[ɐkʲɪˈmʲɪ]
 2994	ūsai	moustache	[²ˈuːsɐɪ]
@@ -3032,10 +3032,10 @@ rank	word	english	ipa
 3031	vedėjas	leader, guide	[ʋʲɛ¹ˈdʲeːjɛs]
 3032	švelniau	soft; smooth	[ʃʲʋʲɛlʲ²ˈnʲɛʊˑ]
 3033	metalas	metal	[mʲɛ²ˈtɑːlɐs]
-3034	guma	gum	
+3034	guma	gum	/ɡʊˈmɐ/
 3035	visaip	in every way	[ʋʲɪ²ˈsɐɪˑp]
-3036	romo	genitive singular of Ròmas /Rõmas	
-3037	įtaria	to suspect	
+3036	romo	genitive singular of Ròmas /Rõmas	/ˈroːmoː/
+3037	įtaria	to suspect	/ˈiːtɐrʲɐ/
 3038	vargo	hardship	[²ˈʋɐrˑɡoː]
 3039	antradienis	Tuesday	[ɐn²ˈtrɑːdʲiɛnʲɪs]
 3040	pusseserė	female cousin	[ˈpʊsʲɛsʲɛrʲeː]
@@ -3045,7 +3045,7 @@ rank	word	english	ipa
 3044	senam	old	[sʲɛˈnaːm]
 3045	internetas	internet	[ɪnʲtʲɛrʲˈnʲɛtɐs]
 3046	ypatingų	special, especial, particular, peculiar	[iːpɐ¹ˈtʲɪŋɡuː]
-3047	uola	rock	
+3047	uola	rock	/uəˈlɐ/
 3048	kepenis	accusative plural of kẽpenys	[²ˈkʲæːpʲɛnʲɪs]
 3049	meto	genitive singular of mẽtas	[²ˈmʲæːtoː]
 3050	ekonomika	economy	[ɛkɔˈnɔmʲɪkɐ]
@@ -3053,8 +3053,8 @@ rank	word	english	ipa
 3052	padorus	decent; decorous	[pɐdoːˈrʊs]
 3053	paramą	support	[²ˈpɑːrɐmɑː]
 3054	smagus	pleasant	[smɐˈɡʊs]
-3055	floridos	genitive of Flòrida	
-3056	patalpa	room	
+3055	floridos	genitive of Flòrida	/ˈfloːrɪdoːs/
+3056	patalpa	room	/pɐtɐlˈpɐ/
 3057	kantrybė	patience	[kɐnʲ¹ˈtʲrʲiːbʲeː]
 3058	parduodu	to sell	[pɐr¹ˈduɔdʊ]
 3059	dėmė	stain	[dʲeː²ˈmʲeː]
@@ -3065,12 +3065,12 @@ rank	word	english	ipa
 3064	furgonas	van	[fʊrˈɡɔnɐs]
 3065	skystis	liquid, fluid	[²ˈsʲkʲiːsʲtʲɪs]
 3066	agresyvus	aggressive	[ɐɡrʲɛsʲiːˈʋʊs]
-3067	laukus	past adverbial padalyvis participle of laukti	
+3067	laukus	past adverbial padalyvis participle of laukti	/ˈlɐʊkʊs/
 3068	rūkas	fog, mist	[²ˈruːkɐs]
 3069	širdys	nominative/vocative plural of širdi̇̀s	[¹ˈʃʲɪrʲdʲiːs]
 3070	domino	to interest; to concern	/ˈdǒːmʲɪnɔː/
-3071	koncertas	concert	
-3072	pupa	bean, legume	
+3071	koncertas	concert	/koːnˈt͡sɛrtɐs/
+3072	pupa	bean, legume	/pʊˈpɐ/
 3073	einant	present adverbial padalyvis participle of eiti	[²ˈɛɪˑnɐnt]
 3074	lauksi	to wait; to expect, to anticipate	[¹ˈlɑˑʊksʲɪ]
 3075	bendruomenė	community	[bʲɛn¹ˈdruɔmʲɛnʲeː]
@@ -3080,7 +3080,7 @@ rank	word	english	ipa
 3079	gersiu	drink	[¹ˈɡʲæˑrʲsʲʊ̟]
 3080	šalmas	helmet	
 3081	senka	to observe	[²ˈsʲɛŋˑkɐ]
-3082	pasaulinis	worldwide, global	
+3082	pasaulinis	worldwide, global	/pɐˈsɐʊlɪnɪs/
 3083	smulkmenas	detail	[¹ˈsmʊlʲkmʲɛnɐs]
 3084	įrankis	tool	[¹ˈiːrɐŋʲkʲɪs]
 3085	virvė	rope, cord, string	[²ˈʋʲɪrʲˑʋʲeː]
@@ -3121,7 +3121,7 @@ rank	word	english	ipa
 3120	vengti	to avoid, beware	[ˈʋʲæ̂ˑŋʲk.tʲɪ]
 3121	varnas	crow	/ˈvɐɾnɐs/
 3122	posėdis	meeting, session	[¹ˈpoːsʲeːdʲɪs]
-3123	juodu	they, the two of them	
+3123	juodu	they, the two of them	/ˈjuədʊ/
 3124	įkalbėti	to persuade, to encourage, to talk someone into	[iːkɐlʲ¹ˈbʲeːtʲɪ]
 3125	papildomas	additional	[pɐ¹ˈpʲɪldoːmɐs]
 3126	dramblys	elephant	[drɐmʲ²ˈbʲlʲiːs]
@@ -3135,11 +3135,11 @@ rank	word	english	ipa
 3134	diržas	belt	[²ˈdʲɪrˑʒɐs]
 3135	žinotumėte	to know	[ʒʲɪ¹ˈnoːtʊmʲeːtʲɛ]
 3136	menininkas	artist	[²ˈmʲæːnʲɪnʲɪŋkɐs]
-3137	atmesti	to throw closer	
+3137	atmesti	to throw closer	/ɐtˈmɛstɪ/
 3138	kovotoja	feminine of kovótojas	[koː¹ˈʋoːtoːjɛ]
 3139	samurajus	samurai	[sɐmʊrɐˈjʊ̟s]
 3140	šokėjas	dancer	[ʃoː¹ˈkʲeːjɛs]
-3141	kančia	anguish, suffering	
+3141	kančia	anguish, suffering	/kɐnˈt͡ʃʲɐ/
 3142	darbuotoja	worker, employee	[dɐr¹ˈbuɔtoːjɛ]
 3143	bruk	to shove, thrust	[ˈbrʊk]
 3144	įspūdis	impression	[¹ˈiːspuːdʲɪs]
@@ -3169,10 +3169,10 @@ rank	word	english	ipa
 3168	naktų	alternate genitive plural of naktis	[nɐk²ˈtuː]
 3169	taisyti	to mend	[tɐɪ¹ˈsʲiːtʲɪ]
 3170	avarinis	wrecked, in a state of disrepair	[ɐ²ˈʋɑːrʲɪnʲɪs]
-3171	atlyginimas	payment, compensation	
+3171	atlyginimas	payment, compensation	/ɐˈtliːɡɪnɪmɐs/
 3172	tiko	to fit	[ˈtʲɪkoː]
 3173	būsimas	to be	[¹ˈbuːsʲɪmɐs]
-3174	girti	to praise	
+3174	girti	to praise	/ˈɡɪrtɪ/
 3175	nemokamas	free of charge	[nʲɛ¹ˈmoːkɐmɐs]
 3176	vilkai	wolf	[ʋʲɪl²ˈkɐɪˑ]
 3177	suvalgei	to eat up; to consume	[sʊ¹ˈʋɑˑlʲɡʲɛɪ]
@@ -3188,12 +3188,12 @@ rank	word	english	ipa
 3187	mokyklų	school	[moː²ˈkʲiːkluː]
 3188	seki	to observe	/s̪ʲɛˈkʲɪ/
 3189	tirti	to investigate, to explore, to research	[ˈt̪ʲɪr̺.t̪ʲɪ]
-3190	išlipo	third-person past of išli̇̀pti	
+3190	išlipo	third-person past of išli̇̀pti	/ɪˈʃlɪpoː/
 3191	karve	instrumental/vocative singular of kárvė	[¹ˈkɑˑrʲʋʲɛ]
 3192	astronomas	astronomer	[ɐstrɔˈnɔmɐs]
 3193	perki	to buy	
 3194	puodas	pot, saucepan	[¹ˈpuɔdɐs]
-3195	moneta	coin	
+3195	moneta	coin	/moːnɛˈtɐ/
 3196	buvus	past adverbial padalyvis participle of būti	[ˈbʊʋʊs]
 3197	malda	prayer	[mɐlˈdɐ]
 3198	gili	deep	[ɡʲɪˈlʲɪ]
@@ -3204,7 +3204,7 @@ rank	word	english	ipa
 3203	vaikystė	childhood, youth	[ʋɐɪ²ˈkʲiːsʲtʲeː]
 3204	rūsys	cellar, basement	[ruː²ˈsʲiːs]
 3205	ėjome	to go	[²ˈeːjo̟ːmʲɛ]
-3206	teisti	to judge, to jury	
+3206	teisti	to judge, to jury	/ˈtɛɪstɪ/
 3207	karu	instrumental singular of kãras	[kɐˈrʊ]
 3208	tiltu	bridge	[¹ˈtʲɪltʊ]
 3209	rytai	morning	[rʲiːˈt̪ɐɪ̯ˑ]
@@ -3225,7 +3225,7 @@ rank	word	english	ipa
 3224	pelėda	owl	[pʲɛ¹ˈlʲeːdɐ]
 3225	tyliu	to silence	[tʲiːˈlʲʊ̟]
 3226	turnyras	tournament	[tʊrʲ²ˈnʲiːrɐs]
-3227	šlapias	wet	
+3227	šlapias	wet	/ˈʃlaːpʲɐs/
 3228	protokolas	minutes, record, transcript	[prɔtɔˈkɔlɐs]
 3229	kalbėdamas	adverbial pusdalyvis participle of kalbėti	[kɐlʲ¹ˈbʲeːdɐmɐs]
 3230	vadovė	leader, ruler	[ʋɐ²ˈdoːʋʲeː]
@@ -3235,7 +3235,7 @@ rank	word	english	ipa
 3234	vartojo	to use	[ʋɐr¹ˈtoːjo̟ː]
 3235	tampu	to become, get; to turn into	[tɐmˈpʊ]
 3236	sakydama	adverbial pusdalyvis participle of sakyti	[sɐ¹ˈkʲiːdɐmɐ]
-3237	karstas	coffin	
+3237	karstas	coffin	/kɐrstɐs/
 3238	tvarkingai	neatly, tidily; immaculately	[tʋɐrʲ¹ˈkʲɪŋɡɐɪ]
 3239	skrendame	to fly	[²ˈsʲkrʲɛnˑdɐmʲɛ]
 3240	šunimi	instrumental singular of šuõ	[ʃʊnʲɪˈmʲɪ]
@@ -3255,7 +3255,7 @@ rank	word	english	ipa
 3254	septyniolika	seventeen	[sʲɛpʲtʲiː¹ˈnʲo̟ːlʲɪkɐ]
 3255	senieji	old	[sʲɛ¹ˈnʲiɛjɪ]
 3256	valdyba	directorate, board, governing body	[ʋɐlʲ¹ˈdʲiːbɐ]
-3257	padanga	tyre, tire	
+3257	padanga	tyre, tire	/pɐdɐnˈɡɐ/
 3258	gražinti	to beautify	[²ˈɡrɑːʒʲɪnʲtʲɪ]
 3259	eilutė	line	[ɛɪˈlʊtʲeː]
 3260	vokietis	German; a man from Germany	[¹ˈʋoːkʲiɛtʲɪs]
@@ -3266,7 +3266,7 @@ rank	word	english	ipa
 3265	darydamas	adverbial pusdalyvis participle of daryti	[dɐ¹ˈrʲiːdɐmɐs]
 3266	duoną	bread	[¹ˈduɔnɑː]
 3267	atomas	atom	[ɐˈtɔmɐs]
-3268	versti	to fell	
+3268	versti	to fell	/vɛrstɪ/
 3269	mažiausia	little, small	[mɐ¹ˈʒʲæˑʊsʲɛ]
 3270	puslapius	page	[ˈpʊslɐpʲʊ̟s]
 3271	jautiena	beef	[ˈjæˑʊtʲiɛnɐ]
@@ -3297,7 +3297,7 @@ rank	word	english	ipa
 3296	rankinis	hand, manual	[²ˈrɐŋʲˑkʲɪnʲɪs]
 3297	tarnai	servant	[tɐr²ˈnɐɪˑ]
 3298	svetainė	parlor/parlour, guest room, salon	[sʲʋʲɛ²ˈtɐɪˑnʲeː]
-3299	labdara	charity, philanthropy, beneficence	
+3299	labdara	charity, philanthropy, beneficence	/lɐbdɐˈrɐ/
 3300	fizinis	physical	[ˈfʲɪzʲɪnʲɪs]
 3301	baikime	to finish	[²ˈbɐɪˑkʲɪmʲɛ]
 3302	išsigimėlis	degenerate, freak, abnormal	[ɪsʲɪˈɡʲɪmʲeːlʲɪs]
@@ -3305,7 +3305,7 @@ rank	word	english	ipa
 3304	parduodi	to sell	[pɐr¹ˈduɔdʲɪ]
 3305	karų	genitive plural of kãras	[kɐ²ˈruː]
 3306	žvakės	candle	[²ˈʒʋɑːkʲeːs]
-3307	šilčiau	to warm up	
+3307	šilčiau	to warm up	/ˈʃɪlt͡ʃʲɐʊ/
 3308	mažesnė	little, small	[mɐˈʒʲɛsʲnʲeː]
 3309	plaučiai	lungs	[²ˈplɒʊˑt͡ʃʲɛɪ]
 3310	ežere	lake	[ɛʒʲɛˈɾʲɛ]
@@ -3322,7 +3322,7 @@ rank	word	english	ipa
 3321	kokybė	quality	[koː¹ˈkʲiːbʲeː]
 3322	žymus	significant, notable, substantial	[ʒʲiːˈmʊs]
 3323	vienuolis	monk	[ʋʲiɛ²ˈnuɔlʲɪs]
-3324	atidaro	to open	
+3324	atidaro	to open	/ɐtɪˈdaːroː/
 3325	mylintis	to love	[¹ˈmʲiːlʲɪnʲtʲɪs]
 3326	tekti	to be granted	[ˈt̪ʲɛkʲt̪ʲɪ]
 3327	šokau	jump, leap	[¹ˈʃoːkɒʊ]
@@ -3346,12 +3346,12 @@ rank	word	english	ipa
 3345	bruožas	streak	[¹ˈbruɔʒɐs]
 3346	šaknis	root	[ʃɐˈknʲɪs]
 3347	buvusio	former, past, ex-	[ˈbʊʋʊsʲo̟ː]
-3348	judėjo	to move	
+3348	judėjo	to move	/jʊˈdeːjoː/
 3349	statula	statue	
-3350	raidė	letter	
+3350	raidė	letter	/ˈrɐɪdeː/
 3351	architektas	architect	[ɐrʲxʲɪˈtʲɛktɐs]
 3352	erelio	eagle	[ɛ²ˈrʲæːlʲo̟ː]
-3353	kilimas	rising up	
+3353	kilimas	rising up	/kɪˈlɪmɐs/
 3354	cukrus	sugar	[ˈt͡sʊkrʊs]
 3355	žais	to play	[²ˈʒɐɪˑs]
 3356	kopėčios	ladder	[¹ˈkoːpʲeːt͡ʃʲo̟ːs]
@@ -3370,7 +3370,7 @@ rank	word	english	ipa
 3369	paplūdimys	beach	[pɐpluːdʲɪ²ˈmʲiːs]
 3370	nukeliauti	to travel to	[nʊkʲɛ¹ˈlʲæˑʊtʲɪ]
 3371	asmeniniai	personal	[ɐsʲmʲɛˈnʲɪnʲɛj]
-3372	uždaro	to close, to shut	
+3372	uždaro	to close, to shut	/ˈʊʒdɐroː/
 3373	dangumi	sky	[dɐŋɡʊˈmʲɪ]
 3374	bendravimas	to associate	[bʲɛn²ˈdrɑːʋʲɪmɐs]
 3375	francis	francium	[¹ˈfrɑˑnʲt͡sʲɪs]
@@ -3396,7 +3396,7 @@ rank	word	english	ipa
 3395	sėklą	seed	[¹ˈsʲeːklɑː]
 3396	amerikietė	American	[ɐmʲɛrʲɪ²ˈkʲiɛtʲeː]
 3397	pardavėja	seller, salesman; vendor	[pɐrdɐ¹ˈʋʲeːjɛ]
-3398	jonai	nominative plural of jònas	
+3398	jonai	nominative plural of jònas	/ˈjoːnɐɪ/
 3399	aušra	dawn, daybreak	[ɒʊˈʃrɐ]
 3400	benamis	homeless	[bʲɛ²ˈnɑːmʲɪs]
 3401	politikas	politician	[pɔˈlʲɪtʲɪkɐs]
@@ -3412,7 +3412,7 @@ rank	word	english	ipa
 3411	transportas	transport	[trɐn¹ˈspɔrtɐs]
 3412	treniruoti	to train	[tʲrʲɛnʲɪ¹ˈruɔtʲɪ]
 3413	plunksna	feather	[¹ˈplʊŋksnɐ]
-3414	egipto	genitive singular of Egi̇̀ptas	
+3414	egipto	genitive singular of Egi̇̀ptas	/ɛˈɡɪptoː/
 3415	skrisime	to fly	[ˈsʲkrʲɪsʲɪmʲɛ]
 3416	radęs	find, discover	[²ˈrɑːdʲæːs]
 3417	namui	house	[²ˈnɑːmʊɪ]
@@ -3438,7 +3438,7 @@ rank	word	english	ipa
 3437	akcija	action	[²ˈɑːkt͡sʲɪjɛ]
 3438	mažojo	little, small	[²ˈmɑːʒoːjo̟ː]
 3439	puslapiai	page	[ˈpʊslɐpʲɛɪ]
-3440	metinės	anniversary	
+3440	metinės	anniversary	/ˈmæːtɪneːs/
 3441	kate	cat	[kɐˈtʲɛ]
 3442	patarė	to advise, to counsel	[ˈpɐtɐrʲeː]
 3443	bučiuoti	to kiss	[bʊ¹ˈt͡ʃʲu̟ɔtʲɪ]
@@ -3467,11 +3467,11 @@ rank	word	english	ipa
 3466	padalinys	subunit, sub-subunit	[pɐdɐlʲɪ²ˈnʲiːs]
 3467	šiaurė	north	[¹ˈʃʲæˑʊrʲeː]
 3468	čiulpia	to suck	[²ˈt͡ʃʲʊ̟lʲˑpʲɛ]
-3469	jūreivis	sailor, seaman	
+3469	jūreivis	sailor, seaman	/juːˈrɛɪvɪs/
 3470	dalinys	unit, subunit	[dɐlʲɪ²ˈnʲiːs]
 3471	tarptautinis	international	[tɐrptɒʊˈtʲɪnʲɪs]
 3472	žmogžudys	murderer, homicide	[ʒmoːɡʒʊ²ˈdʲiːs]
-3473	judesys	movement	
+3473	judesys	movement	/jʊdɛˈsiːs/
 3474	laipsnis	degree	[¹ˈlɑˑɪpʲsʲnʲɪs]
 3475	angelo	angel	[¹ˈɑˑŋʲɡʲɛloː]
 3476	sąmokslas	conspiracy, plot	[¹ˈsɑːmoːkslɐs]
@@ -3496,8 +3496,8 @@ rank	word	english	ipa
 3495	skystas	thin	[¹ˈsʲkʲiːstɐs]
 3496	pritaria	to approve, to assent	[ˈpʲrʲɪtɐrʲɛ]
 3497	ketvirtadienis	Thursday	[kʲɛtʲʋʲɪr²ˈtɑːdʲiɛnʲɛɪ]
-3498	laiptinės	singular genitive of láiptinė	
-3499	italijoje	locative of Italija	
+3498	laiptinės	singular genitive of láiptinė	/ˈlɐɪptɪneːs/
+3499	italijoje	locative of Italija	/ɪˈtaːlɪjoːjɛ/
 3500	atsakai	to reply, to respond, to answer	[ɐtsɐ²ˈkɐɪˑ]
 3501	senosios	old	[sʲɛˈnoːsʲos]
 3502	zombis	zombie	[¹ˈzɔmʲbʲɪs]
@@ -3515,7 +3515,7 @@ rank	word	english	ipa
 3514	neįmanomas	impossible	[nʲɛ.iː²ˈmɑːnoːmɐs]
 3515	meiles	love	[¹ˈmʲæˑɪlʲɛs]
 3516	čiulpti	to suck	[ˈtʲʃʲʊlʲpʲtʲɪ]
-3517	dykuma	desert	
+3517	dykuma	desert	/diːkʊˈmɐ/
 3518	maršrutas	route, itinerary	[mɐrˈʃrʊtɐs]
 3519	dailus	refined, elegant, smooth	[dɐɪˈlʊs]
 3520	sakytum	to say	[sɐ¹ˈkʲiːtʊm]
@@ -3551,7 +3551,7 @@ rank	word	english	ipa
 3550	aptarnavimas	service	[ɐptɐr²ˈnɑːʋʲɪmɐs]
 3551	dalyviai	participant	[dɐ²ˈlʲiːʋʲɛɪ]
 3552	gerklė	throat	[ɡʲɛrʲ²ˈklʲeː]
-3553	makas	purse, wallet	
+3553	makas	purse, wallet	/ˈmaːkɐs/
 3554	saulėje	sun	/ˈsɑuleːjɛ/
 3555	ėsti	to eat	/¹ˈeːsʲtʲɪ/
 3556	lieti	to pour; let flow, shed	[ˈlʲɪ̂ət̪ʲɪ]
@@ -3583,23 +3583,23 @@ rank	word	english	ipa
 3582	mokslinis	scientific	[ˈmoːksʲlʲɪnʲɪs]
 3583	mirčių	death	[mʲɪrʲ²ˈt͡ʃʲu̟ː]
 3584	kalbėjęs	to speak	[kɐlʲ¹ˈbʲeːjæːs]
-3585	vyriški	masculine, virile; male	
+3585	vyriški	masculine, virile; male	/ˈviːrɪʃkɪ/
 3586	turinys	content	[tʊrʲɪ²ˈnʲiːs]
 3587	skandalas	scandal	[skɐn²ˈdɑːlɐs]
 3588	būdavau	to be	[¹ˈbuːdɐʋɒʊ]
 3589	giminaitis	a male relative	[ɡʲɪmʲɪ¹ˈnɑˑɪtʲɪs]
 3590	ūkis	farm	[¹ˈuːkʲɪs]
 3591	specialistė	specialist	[sʲpʲɛt͡sʲɪjɛˈlʲɪsʲtʲeː]
-3592	deguonį	oxygen	
+3592	deguonį	oxygen	/dɛˈɡuəniː/
 3593	unikalus	unique	[ʊnʲɪkɐˈlʊs]
 3594	jachta	yacht	
 3595	chanas	khan	[²ˈxɑːnɐs]
 3596	dukras	accusative plural of dukrà	[dʊˈkrɐs]
 3597	narvas	cage	[²ˈnɐrˑʋɐs]
 3598	darbininkas	worker	[dɐrʲbʲɪ²ˈnʲɪŋˑkɐs]
-3599	žymė	a visible impression or sign; a blemish, scratch, or stain,…	
+3599	žymė	a visible impression or sign; a blemish, scratch, or stain,…	/ʒiːˈmeː/
 3600	teksto	genitive singular of tèkstas	[ˈtʲɛkstoː]
-3601	ožka	female goat	
+3601	ožka	female goat	/oːʒˈkɐ/
 3602	slėpė	to hide	[²ˈsʲlʲeːpʲeː]
 3603	sergantis	ill, sick	[²ˈsʲɛrˑɡɐnʲtʲɪs]
 3604	ragas	horn	[ˈrä̌ːɡɐs̪]
@@ -3616,12 +3616,12 @@ rank	word	english	ipa
 3615	vienaip	in one way	[ʋʲiɛ²ˈnɐɪˑp]
 3616	padugnės	lees, dregs, sediment	/ˈpɑːduɡnʲeːs/
 3617	aptarėme	to discuss	[ˈɐptɐrʲeːmʲɛ]
-3618	ilgis	length	
+3618	ilgis	length	/ɪlɡɪs/
 3619	rezultato	result; outcome	[rʲɛzʊl²ˈtɑːtoː]
 3620	kaukolė	skull	[¹ˈkɑˑʊkoːlʲeː]
 3621	pajamos	income	[²ˈpɑːjɛmoːs]
 3622	blogiausiu	bad, wrong	[bloː¹ˈɡʲæˑʊsʲʊ̟]
-3623	kišti	to push, thrust, shove	
+3623	kišti	to push, thrust, shove	/ˈkɪʃtɪ/
 3624	atakuoti	to attack	[ɐtɐ¹ˈkuɔtʲɪ]
 3625	priežiūra	supervision, care	[¹ˈpʲrʲiɛʒʲu̟ːrɐ]
 3626	šešiasdešimt	sixty	[²ˈʃʲæːʃʲɛzʲdʲɛʃʲɪmt]
@@ -3637,7 +3637,7 @@ rank	word	english	ipa
 3636	ateinant	present adverbial padalyvis participle of ateiti	[ɐ²ˈtʲɛɪˑnɐnt]
 3637	žmogiška	human	[²ˈʒmoːɡʲɪʃkɐ]
 3638	kablys	hook	[kɐ²ˈbʲlʲiːs]
-3639	jungiklis	switch	
+3639	jungiklis	switch	/jʊnˈɡɪklɪs/
 3640	ūkininkas	farmer	[¹ˈuːkʲɪnʲɪŋkɐs]
 3641	neturėti	to have	[nʲɛtʊ¹ˈrʲeːtʲɪ]
 3642	saugioje	safe, secure	[sɒʊɡʲo̟ːˈjɛ]
@@ -3646,7 +3646,7 @@ rank	word	english	ipa
 3645	laužas	pile of sticks	[¹ˈlɑˑʊʒɐs]
 3646	seniausias	old	[sʲɛ¹ˈnʲæˑʊsʲɛs]
 3647	centrinis	central	[t͡sʲɛnʲˈtʲrʲɪnʲɪs]
-3648	jonas	ion	
+3648	jonas	ion	/ˈjoːnɐs/
 3649	fotografija	photography	[fɔtɔ²ˈɡrɑːfʲɪjɛ]
 3650	analizė	analysis	[ɐ²ˈnɑːlʲɪzʲeː]
 3651	atradimas	verbal noun of atràsti; discovery	[ɐtrɐˈdʲɪmɐs]
@@ -3668,7 +3668,7 @@ rank	word	english	ipa
 3667	akims	eye	[ɐ¹ˈkʲɪms]
 3668	dokumentas	document	[dɔkʊ²ˈmʲɛnˑtɐs]
 3669	garantija	guarantee, assurance	[ɡɐ¹ˈrɑˑnʲtʲɪjɛ]
-3670	graikiją	accusative of Graikija	
+3670	graikiją	accusative of Graikija	/ˈɡrɐɪkɪjaː/
 3671	profesiją	profession	[prɔˈfʲɛsʲɪjæː]
 3672	palaukime	to wait a bit; to hang on	
 3673	motinų	genitive plural of mótina	[¹ˈmoːtʲɪnuː]
@@ -3676,7 +3676,7 @@ rank	word	english	ipa
 3675	rudas	brown	[ˈrʊdɐs]
 3676	indas	tableware, dish, vessel	/ˈɪnˑ.dɐs/
 3677	naktyje	night	[nɐktʲiːˈjɛ]
-3678	italiją	accusative of Italija	
+3678	italiją	accusative of Italija	/ɪˈtaːlɪjaː/
 3679	keliuose	locative plural of kẽlis	[²ˈkʲæːlʲu̟ɔsʲɛ]
 3680	blogasis	bad, wrong	[bloːˈɡɐsʲɪs]
 3681	evoliucija	evolution	[ɛʋɔˈlʲʊ̟t͡sʲɪjɛ]
@@ -3692,7 +3692,7 @@ rank	word	english	ipa
 3691	adata	needle	[²ˈɑːdɐtɐ]
 3692	šunytis	diminutive of šuõ; puppy, little dog	[ʃʊ¹ˈnʲiːtʲɪs]
 3693	kerštą	revenge, vengeance	[²ˈkʲɛrˑʃtɑː]
-3694	jungiu	to connect	
+3694	jungiu	to connect	/ˈjʊnɡʲʊ/
 3695	paraidžiui	word for word, verbatim	/pɐɾɐɪˈd͡ʒʲʊɪ̌/
 3696	centru	instrumental singular of ceñtras	[t͡sʲɛnˈtrʊ]
 3697	dušas	shower	[ˈdʊʃɐs]
@@ -3705,11 +3705,11 @@ rank	word	english	ipa
 3704	festivalis	festival	[fʲɛsʲtʲɪ²ˈʋɑːlʲɪs]
 3705	miestu	instrumental singular of miẽstas	[mʲiɛˈstʊ]
 3706	pilnatis	full moon	[ˈpʲɪlnɐtʲɪs]
-3707	sniege	snow	
+3707	sniege	snow	/sniəˈɡɛ/
 3708	vaisto	medicine, medication	[ˈʋaːjsto]
 3709	paštininkas	postman, mailman	[²ˈpɑːʃʲtʲɪnʲɪŋkɐs]
 3710	orkestras	orchestra	[ɔrʲˈkʲɛstrɐs]
-3711	išversti	to pull down	
+3711	išversti	to pull down	/ɪʃvɛrstɪ/
 3712	dovanoti	to bestow, give	[doːʋɐ¹ˈnoːtʲɪ]
 3713	nervingas	irritable, easily angered	[nʲɛrʲ¹ˈʋʲɪŋɡɐs]
 3714	krautuvė	shop, store	[ˈkrɑˑʊtʊʋʲeː]
@@ -3719,7 +3719,7 @@ rank	word	english	ipa
 3718	nuodingas	virulent	[nuɔ¹ˈdʲɪŋɡɐs]
 3719	akli	blind	[ɐˈklʲɪ]
 3720	kultūrą	culture	[kʊl²ˈtuːrɑː]
-3721	paranoja	paranoia	
+3721	paranoja	paranoia	/pɐrɐnoːˈjɐ/
 3722	varyti	to expel or urge by force, to turn out	[ʋɐ¹ˈrʲiːtʲɪ]
 3723	bučiavai	to kiss	[bʊt͡ʃʲɛ²ˈʋɐɪˑ]
 3724	širdyse	locative plural of širdi̇̀s	[ʃʲɪrʲdʲiːˈsʲɛ]
@@ -3761,15 +3761,15 @@ rank	word	english	ipa
 3760	bagažas	baggage, luggage	[bɐ²ˈɡɑːʒɐs]
 3761	kalbėtų	to speak	[kɐlʲ¹ˈbʲeːtuː]
 3762	išprotėti	to go crazy, to go mad	[ɪʃproː¹ˈtʲeːtʲɪ]
-3763	aprašymą	description	
+3763	aprašymą	description	/ɐˈpraːʃiːmaː/
 3764	atradau	to find, to discover	[ɐtrɐ²ˈdɒʊˑ]
 3765	asmeniniu	personal	[ɐsʲmʲɛnʲɪˈnʲʊ]
 3766	tinginys	a lazy person, lazybones	[tʲɪŋʲɡʲɪ²ˈnʲiːs]
 3767	gulbės	swan	[²ˈɡʊlʲˑbʲeːs]
-3768	citrina	lemon	
+3768	citrina	lemon	/t͡sɪtrɪˈnɐ/
 3769	pasaulius	world	[pɐ¹ˈsɑˑʊlʲʊ̟s]
 3770	lavonu	corpse, cadaver	[lɐ¹ˈʋoːnʊ]
-3771	irano	genitive of Irãnas	
+3771	irano	genitive of Irãnas	/ɪˈraːnoː/
 3772	užvakar	the day before yesterday	[ˈʊʒʋɐkɐr]
 3773	pavydus	envious, jealous	[pɐʋʲiːˈdʊs]
 3774	tylėjai	to silence	[tʲiː¹ˈlʲeːjɛɪ]
@@ -3785,8 +3785,8 @@ rank	word	english	ipa
 3784	stebėsime	to observe	[sʲtʲɛ¹ˈbʲeːsʲɪmʲɛ]
 3785	bučiavo	to kiss	[bʊ²ˈt͡ʃʲæːʋoː]
 3786	sakydavau	to say	[sɐ¹ˈkʲiːdɐʋɒʊ]
-3787	taure	locative singular of taũras	
-3788	airijos	genitive of Airija	
+3787	taure	locative singular of taũras	/tɐʊˈrɛ/
+3788	airijos	genitive of Airija	/ˈɐɪrɪjoːs/
 3789	tenori	to want	[tʲɛ¹ˈnoːrʲɪ]
 3790	tebūna	to be	[tʲɛ²ˈbuːnɐ]
 3791	armėniškai	in Armenian	[ɐrʲ¹ˈmʲeːnʲɪʃkɐɪ]
@@ -3835,7 +3835,7 @@ rank	word	english	ipa
 3834	poilsis	rest	[¹ˈpoː.ɪlʲsʲɪs]
 3835	mažajam	little, small	[mɐˈʒaːjɛm]
 3836	mikrofonas	microphone	[mʲɪkrɔˈfɔnɐs]
-3837	veja	lawn	
+3837	veja	lawn	/vɛˈjɐ/
 3838	išbūti	to stay, to remain	[ɪʒ¹ˈbuːtʲɪ]
 3839	šoksi	jump, leap	[¹ˈʃoːksʲɪ]
 3840	fabrikas	factory	[²ˈfɑːbʲrʲɪkɐs]
@@ -3852,7 +3852,7 @@ rank	word	english	ipa
 3851	drovus	shy, timid, self-conscious	[droːˈʋʊs]
 3852	judinti	to move	[ˈjʊ̟dʲɪnʲtʲɪ]
 3853	vienuolė	nun	[ʋʲiɛ²ˈnuɔlʲeː]
-3854	kopti	to take honey out of a beehive	
+3854	kopti	to take honey out of a beehive	/ˈkoːptɪ/
 3855	marse	locative singular of Marsas ”	[¹ˈmɑˑrʲsʲɛ]
 3856	spalis	October	[²ˈspɑːlʲɪs]
 3857	šilko	silk	[²ˈʃʲɪlˑkoː]
@@ -3892,7 +3892,7 @@ rank	word	english	ipa
 3891	pusbrolį	male cousin	[ˈpʊzbroːlʲiː]
 3892	įspūdingo	impressive; striking	[iːspuː¹ˈdʲɪŋɡoː]
 3893	kurmis	mole	[¹ˈkʊrʲmʲɪs]
-3894	jungia	to connect	
+3894	jungia	to connect	/ˈjʊnɡʲɐ/
 3895	turintys	nominative/vocative masculine plural of turintis	[ˈtʊrʲɪnʲtʲiːs]
 3896	ginčas	dispute, quarrel	[²ˈɡʲɪnˑt͡ʃɐs]
 3897	įmanomas	feasible, possible	[iː²ˈmɑːnoːmɐs]
@@ -3929,11 +3929,11 @@ rank	word	english	ipa
 3928	išsiskyręs	divorced	[ɪsʲɪ¹ˈsʲkʲiːrʲæːs]
 3929	formas	accusative plural of fòrma	[¹ˈfɔrmɐs]
 3930	airių	Irishman	[²ˈɐɪˑrʲu̟ː]
-3931	saules	sun	
+3931	saules	sun	/ˈsɐʊleːs/
 3932	ateisite	to come, to arrive	[ɐ²ˈtʲɛɪˑsʲɪtʲɛ]
 3933	dinozauras	dinosaur	[dʲɪnɔ¹ˈzɑˑʊrɐs]
 3934	abejoja	to doubt, to question	[ɐbʲɛ¹ˈjo̟ːjɛ]
-3935	darąs	to make	
+3935	darąs	to make	/ˈdaːraːs/
 3936	lubos	ceiling	[ˈlʊboːs]
 3937	ponis	pony	[ˈpɔnʲɪs]
 3938	dezertyras	deserter	[dʲɛzʲɛrʲ²ˈtʲiːrɐs]
@@ -3965,8 +3965,8 @@ rank	word	english	ipa
 3964	teisininkė	jurist, legal scholar	[¹ˈtʲæˑɪsʲɪnʲɪŋʲkʲeː]
 3965	kategorija	category	[kɐtʲɛˈɡɔrʲɪjɛ]
 3966	gilus	deep	[ɡʲɪˈlʊs]
-3967	smulkus	fine, detailed	
-3968	statinė	barrel	
+3967	smulkus	fine, detailed	/ˈsmʊlkʊs/
+3968	statinė	barrel	/stɐˈtɪneː/
 3969	bendrauji	to associate	[bʲɛn¹ˈdrɑˑʊjɪ]
 3970	gražiausios	beautiful	[ɡrɐ¹ˈʒʲæˑʊsʲo̟ːs]
 3971	kalbomis	language	[kɐlboːˈmʲɪs]
@@ -4009,7 +4009,7 @@ rank	word	english	ipa
 4008	stebimas	to observe	[²ˈsʲtʲæːbʲɪmɐs]
 4009	sukilimas	rebellion, revolt, uprising	[sʊkʲɪˈlʲɪmɐs]
 4010	turėkite	to have	[tʊ¹ˈrʲeːkʲɪtʲɛ]
-4011	lauktų	to wait; to expect, to anticipate	
+4011	lauktų	to wait; to expect, to anticipate	/ˈlɐʊktuː/
 4012	vorą	spider	[ˈʋora]
 4013	ištarė	to pronounce, to articulate	[ˈɪʃtɐrʲeː]
 4014	sėdėčiau	to sit	[sʲeː¹ˈdʲeːt͡ʃʲɛʊ]
@@ -4044,7 +4044,7 @@ rank	word	english	ipa
 4043	berti	to strew, to scatter	[ˈbʲæːɾʲtʲɪ]
 4044	spermos	sperm, semen	[ˈsʲpʲɛɾmos]
 4045	vyriška	masculine, virile; male	[¹ˈʋʲiːrʲɪʃkɐ]
-4046	duobė	hole, hollow, cavity	
+4046	duobė	hole, hollow, cavity	/duəˈbeː/
 4047	gražiais	beautiful	[ɡrɐ²ˈʒʲɛɪˑs]
 4048	dėmesingas	attentive	[dʲeːmʲɛ¹ˈsʲɪŋɡɐs]
 4049	kapinės	cemetery	
@@ -4055,7 +4055,7 @@ rank	word	english	ipa
 4054	mamutas	mammoth	[mɐˈmʊtɐs]
 4055	suvenyras	souvenir	[sʊʋʲɛ²ˈnʲiːrɐs]
 4056	vilkolakis	werewolf	[ʋʲɪl¹ˈkoːlɐkʲɪs]
-4057	jono	genitive singular of jònas	
+4057	jono	genitive singular of jònas	/ˈjoːnoː/
 4058	kilmė	origin	[kʲɪlʲ²ˈmʲeː]
 4059	laikinas	temporary	[²ˈlɐɪˑkʲɪnɐs]
 4060	aliejus	oil	/ɐˈlʲɪəjʊs/
@@ -4073,13 +4073,13 @@ rank	word	english	ipa
 4072	chemija	chemistry	[ˈxʲɛmʲɪjɛ]
 4073	nutarei	to decide, to resolve	[ˈnʊtɐrʲɛɪ]
 4074	užsimerkti	to close one's eyes	[ʊʒʲsʲɪˈmʲæːrʲkʲtʲɪ]
-4075	metą	accusative singular of mẽtas	
+4075	metą	accusative singular of mẽtas	/ˈmæːtaː/
 4076	dėmę	stain	[²ˈdʲeːmʲæː]
 4077	ietis	spear	[¹ˈjiɛtʲɪs]
 4078	senajame	old	[sʲɛ²ˈnɑːjɛmʲɛ]
 4079	stebėjai	to observe	[sʲtʲɛ¹ˈbʲeːjɛɪ]
 4080	mylinti	nominative/vocative feminine singular of mylintis	[¹ˈmʲiːlʲɪnʲtʲɪ]
-4081	literatūra	literature	
+4081	literatūra	literature	/lɪtɛrɐtuːˈrɐ/
 4082	spenelius	nipple	[sʲpʲɛnʲɛˈlʲʊ̟s]
 4083	žuvimi	fish	[ʒʊʋʲɪˈmʲɪ]
 4084	grok	to play music	[¹ˈɡroːk]
@@ -4096,7 +4096,7 @@ rank	word	english	ipa
 4095	tekstas	text	[ˈtʲɛkstɐs]
 4096	tikti	to fit	[ˈtʲɪktʲɪ]
 4097	nėštumas	pregnancy	[nʲeːˈʃtʊmɐs]
-4098	soda	soda	
+4098	soda	soda	/soːˈdɐ/
 4099	terorizmas	terrorism	[tʲɛrɔˈrʲɪzmɐs]
 4100	vežimas	cart, wagon, carriage	[ʋʲɛˈʒʲɪmɐs]
 4101	sakydavai	to say	[sɐ¹ˈkʲiːdɐʋɐɪ]
@@ -4123,12 +4123,12 @@ rank	word	english	ipa
 4122	kapai	grave	/kɐˈpɐɪ̌/
 4123	liemenė	waistcoat	[lʲiɛ²ˈmʲæːnʲeː]
 4124	flotilė	fleet	[flɔˈtʲɪlʲeː]
-4125	rūgštis	acid	
+4125	rūgštis	acid	/ruːɡʃˈtɪs/
 4126	gaudavo	to get, to obtain, to gain	[¹ˈɡɑˑʊdɐʋoː]
 4127	avys	nominative/vocative plural of avi̇̀s	[²ˈɑːʋʲiːs]
 4128	kosmosas	outer space	[ˈkɔsmɔsɐs]
 4129	ciklas	cycle	[ˈt͡sʲɪklɐs]
-4130	vaga	furrow, groove, channel	
+4130	vaga	furrow, groove, channel	/vɐˈɡɐ/
 4131	lipo	third-person past of li̇̀pti	[ˈlʲɪpoː]
 4132	atiduoda	third-person singular/plural present of atidúoti	[ɐtʲɪ¹ˈduɔdɐ]
 4133	liemenėlė	brassiere, bra	[lʲiɛmʲɛ²ˈnʲeːlʲeː]
@@ -4149,7 +4149,7 @@ rank	word	english	ipa
 4148	kaimietis	countryman, villager	[kɐɪ²ˈmʲiɛtʲɪs]
 4149	vorų	spider	[ʋoː²ˈruː]
 4150	gaisrininkas	fireman, firefighter	[²ˈɡɐɪˑsʲrʲɪnʲɪŋkɐs]
-4151	jumyse	you	
+4151	jumyse	you	/jʊmiːˈsɛ/
 4152	patvirtinimas	to confirm	[pɐ¹ˈtʲʋʲɪrʲtʲɪnʲɪmɐs]
 4153	mylia	mile, international mile	[mʲiːˈlʲɛ]
 4154	seniausiai	old	[sʲɛ¹ˈnʲæˑʊsʲɛɪ]
@@ -4157,7 +4157,7 @@ rank	word	english	ipa
 4156	slapyvardis	pseudonym	[slɐ¹ˈpʲiːʋɐrʲdʲɪs]
 4157	apvalus	round	[ɐpʋɐˈlʊs]
 4158	ryškus	very bright	[rʲiːˈʃkʊs]
-4159	pastaba	note	
+4159	pastaba	note	/pɐstɐˈbɐ/
 4160	šokame	jump, leap	[¹ˈʃoːkɐmʲɛ]
 4161	leidinys	publication	[lʲɛɪdʲɪ²ˈnʲiːs]
 4162	bendravo	to associate	[bʲɛn²ˈdrɑːʋoː]
@@ -4174,7 +4174,7 @@ rank	word	english	ipa
 4173	žiūrėjote	to look at; to look into, observe; to watch	[ʒʲu̟ː¹ˈrʲeːjo̟ːtʲɛ]
 4174	šoksime	jump, leap	[¹ˈʃoːksʲɪmʲɛ]
 4175	ernis	wolverine	[²ˈɛrʲˑnʲɪs]
-4176	jubiliejus	anniversary	
+4176	jubiliejus	anniversary	/jʊbɪˈliəjʊs/
 4177	upių	river	[ˈʊpʲu̟ː]
 4178	prekiauti	to trade	[pʲrʲɛ¹ˈkʲæˑʊtʲɪ]
 4179	charakteris	character	[xɐ²ˈrɑːktʲɛrʲɪs]
@@ -4217,7 +4217,7 @@ rank	word	english	ipa
 4216	valgys	to eat	[¹ˈʋɑˑlʲɡʲiːs]
 4217	bamba	navel, bellybutton	[ˈbambɐ]
 4218	blogiausio	bad, wrong	[bloː¹ˈɡʲæˑʊsʲo̟ː]
-4219	kakta	forehead, brow	
+4219	kakta	forehead, brow	/kɐkˈtɐ/
 4220	lapės	fox	[²ˈlɑːpʲeːs]
 4221	degti	to burn	/ˈdʲɛk.tʲɪ/
 4222	šiknaskylė	asshole	
@@ -4230,9 +4230,9 @@ rank	word	english	ipa
 4229	upelio	rivulet, streamlet; brook	[ʊ²ˈpʲæːlʲo̟ː]
 4230	mėginti	to try; to attempt	[mʲeː¹ˈɡʲɪnʲtʲɪ]
 4231	seserie	vocative singular of sesuõ	[sʲɛsʲɛ²ˈrʲiɛ]
-4232	egipte	locative/vocative singular of Egi̇̀ptas	
+4232	egipte	locative/vocative singular of Egi̇̀ptas	/ɛˈɡɪptɛ/
 4233	menu	art	[mʲɛˈnʊ]
-4234	petro	genitive singular of Pẽtras	
+4234	petro	genitive singular of Pẽtras	/ˈpæːtroː/
 4235	sportu	instrumental singular of spòrtas	[¹ˈspɔrtʊ]
 4236	paukščiu	instrumental singular of paũkštis	[pɒʊkˈʃʲt͡ʃʲʊ̟]
 4237	šulinys	well	[ʃʊlʲɪ²ˈnʲiːs]
@@ -4243,7 +4243,7 @@ rank	word	english	ipa
 4242	uždariau	to close, to shut	[ʊʒdɐ²ˈrʲɛʊˑ]
 4243	blogesni	bad, wrong	[bloːɡʲɛˈsʲnʲɪ]
 4244	derlius	good harvest, abundance	/ˈdʲɛ̌r.lʲʊs/
-4245	mėgti	to like	
+4245	mėgti	to like	/ˈmeːɡtɪ/
 4246	voverės	squirrel	[ʋoːʋʲɛ²ˈrʲeːs]
 4247	sėdite	to sit	[¹ˈsʲeːdʲɪtʲɛ]
 4248	sviestas	butter	[ˈs̪ʲvʲɪ̂əs̪t̪ɐs̪]
@@ -4261,9 +4261,9 @@ rank	word	english	ipa
 4260	blogais	instrumental masculine plural of blõgas	[bɫoˈɡɐjs]
 4261	nerimas	anxiety	[²ˈnʲæːrʲɪmɐs]
 4262	pusseserę	female cousin	[ˈpʊsʲɛsʲɛrʲæː]
-4263	patiekti	to serve, to supply, to provide	
-4264	anties	genitive singular of ántis	
-4265	vemti	to vomit	
+4263	patiekti	to serve, to supply, to provide	/pɐˈtiəktɪ/
+4264	anties	genitive singular of ántis	/ˈaːntiəs/
+4265	vemti	to vomit	/ˈvæːmtɪ/
 4266	gers	drink	[²ˈɡʲɛrˑs]
 4267	valgant	present adverbial padalyvis participle of valgyti	[¹ˈʋɑˑlɡɐnt]
 4268	marihuana	marijuana	[mɐrʲɪɣʊɐˈnɐ]
@@ -4283,7 +4283,7 @@ rank	word	english	ipa
 4282	paslaptingoji	mysterious	[pɐslɐpˈtʲɪnɡojɪ]
 4283	šakas	a branch	[ʃɐˈkɐs]
 4284	archyvus	archive	[ɐrʲxʲiːˈʋʊs]
-4285	velso	genitive of Velsas	
+4285	velso	genitive of Velsas	/ˈvɛlsoː/
 4286	artilerija	artillery	[ɐrʲtʲɪˈlʲɛrʲɪjɛ]
 4287	tariau	to pronounce; to articulate; to enunciate; to say	[tɐ²ˈrʲɛʊˑ]
 4288	palaidinė	blouse	[pɐlɐɪˈdʲɪnʲeː]
@@ -4292,7 +4292,7 @@ rank	word	english	ipa
 4291	mokinė	pupil	[moːkʲɪ²ˈnʲeː]
 4292	finalas	final round	[fʲɪ²ˈnɑːlɐs]
 4293	armėniška	Armenian	[ɐrʲ¹ˈmʲeːnʲɪʃkɐ]
-4294	nuteisti	to sentence	
+4294	nuteisti	to sentence	/nʊˈtɛɪstɪ/
 4295	kumpiu	ham	[kʊmʲˈpʲʊ̟]
 4296	atskiras	isolated, solitary	[²ˈɑːtʲsʲkʲɪrɐs]
 4297	monetas	coin	[mɔnʲɛˈtɐs]
@@ -4300,7 +4300,7 @@ rank	word	english	ipa
 4299	gulbė	swan	[²ˈɡʊlʲˑbʲeː]
 4300	kamštis	stopper	[²ˈkɐmʲˑʃʲtʲɪs]
 4301	ypatingu	special, especial, particular, peculiar	[iːpɐ¹ˈtʲɪŋɡʊ]
-4302	tuštuma	wasteland	
+4302	tuštuma	wasteland	/tʊʃtʊˈmɐ/
 4303	įvykiais	event, occurrence, happening	[¹ˈiːʋʲiːkʲɛɪs]
 4304	sodinti	to plant, to set	[soː¹ˈdʲɪnʲtʲɪ]
 4305	sakėme	to say	[²ˈsɑːkʲeːmʲɛ]
@@ -4308,7 +4308,7 @@ rank	word	english	ipa
 4307	varlę	frog	[²ˈʋɐrʲˑlʲæː]
 4308	žvirblis	sparrow	[¹ˈʒʲʋʲɪrʲbʲlʲɪs]
 4309	mumyse	we	[mʊmʲiːˈsʲɛ]
-4310	koplyčia	chapel	
+4310	koplyčia	chapel	/koːpliːˈt͡ʃʲɐ/
 4311	buvusius	former, past, ex-	[ˈbʊʋʊsʲʊ̟s]
 4312	gilu	deep	[ɡʲɪˈlʊ]
 4313	stebėsi	to observe	[sʲtʲɛ¹ˈbʲeːsʲɪ]
@@ -4316,10 +4316,10 @@ rank	word	english	ipa
 4315	snaigė	snowflake	[²ˈsnɐɪˑɡʲeː]
 4316	prognozė	forecast, prognosis, prediction	[prɔˈɡnɔzʲeː]
 4317	siūti	to sew	[ˈsʲuːtʲɪ]
-4318	laukėte	to wait; to expect, to anticipate	
+4318	laukėte	to wait; to expect, to anticipate	/ˈlɐʊkeːtɛ/
 4319	neramus	uneasy, restless, worried	[nʲɛrɐˈmʊs]
 4320	plaunu	to wash, to rinse; to bathe; to scrub	[¹ˈplɑˑʊnʊ]
-4321	jaudinti	to excite, arouse, allure	
+4321	jaudinti	to excite, arouse, allure	/ˈjɐʊdɪntɪ/
 4322	masturbuotis	to masturbate	[mɐstʊr¹ˈbuɔtʲɪs]
 4323	gilią	deep	[ˈɡʲɪlʲæː]
 4324	krūtinėje	chest	[kruːˈtʲɪnʲeːjɛ]
@@ -4331,7 +4331,7 @@ rank	word	english	ipa
 4330	perlo	genitive singular of per̃las	[²ˈpʲɛrˑloː]
 4331	pardavėjai	seller, salesman; vendor	[pɐrdɐ¹ˈʋʲeːjɛɪ]
 4332	įtarti	to suspect	[iˈtɐɾtʲɪ]
-4333	dronus	accusative plural of drònas	
+4333	dronus	accusative plural of drònas	/droːˈnʊs/
 4334	dešimtas	tenth	[dʲɛ²ˈʃʲɪmˑtɐs]
 4335	rašytoja	writer	[rɐ¹ˈʃʲiːtoːjɛ]
 4336	svajotojas	daydreamer	[sʋɐ¹ˈjo̟ːtoːjɛs]
@@ -4342,11 +4342,11 @@ rank	word	english	ipa
 4341	pingvinus	penguin	[pʲɪŋɡʋʲɪˈnʊs]
 4342	šaka	a branch	[ʃɐˈkɐ]
 4343	vilkais	wolf	[ʋʲɪl²ˈkɐɪˑs]
-4344	savanoriškai	voluntarily	
+4344	savanoriškai	voluntarily	/sɐvɐˈnoːrɪʃkɐɪ/
 4345	seilės	to salivate	
 4346	klientė	client	[klʲɪ²ˈjɛnʲˑtʲeː]
 4347	mobilus	mobile	[mɔbʲɪˈlʊs]
-4348	dešimtmetis	decade; ten years	
+4348	dešimtmetis	decade; ten years	/dɛʃɪmtmɛtɪs/
 4349	sapnuoti	to dream	[sɐ¹ˈpnuɔtʲɪ]
 4350	vertybė	valuable, precious thing	[ʋʲɛrʲ¹ˈtʲiːbʲeː]
 4351	kilmę	origin	[²ˈkʲɪlʲˑmʲæː]
@@ -4366,17 +4366,17 @@ rank	word	english	ipa
 4365	slibinas	dragon	[ˈsʲlʲɪbʲɪnɐs]
 4366	mįslę	enigma	[²ˈmʲiːsʲlʲæː]
 4367	gilų	deep	[ˈɡʲɪluː]
-4368	premjera	premiere	
+4368	premjera	premiere	/prɛmjɛˈrɐ/
 4369	graikas	Greek	[²ˈɡrɐɪˑkɐs]
 4370	tvarkinga	neat, orderly, ordered	[tʋɐrʲ¹ˈkʲɪŋɡɐ]
 4371	šakų	a branch	[ʃɐ²ˈkuː]
 4372	valgykite	to eat	[¹ˈʋɑˑlʲɡʲiːkʲɪtʲɛ]
 4373	sutrukdė	to prevent, to hinder, to impede	[sʊˈtrʊɡdʲeː]
 4374	apskaičiuoti	to calculate, compute	[ɐpskɐɪ¹ˈt͡ʃʲu̟ɔtʲɪ]
-4375	savininkė	owner	
-4376	airijoje	locative of Airija	
+4375	savininkė	owner	/sɐvɪnɪnkeː/
+4376	airijoje	locative of Airija	/ˈɐɪrɪjoːjɛ/
 4377	slėpei	to hide	[sʲlʲeː²ˈpʲɛɪˑ]
-4378	tiesus	straight	
+4378	tiesus	straight	/tiəˈsʊs/
 4379	pensija	pension	[²ˈpʲɛnʲˑsʲɪjɛ]
 4380	vaivorykštė	rainbow	[ʋɐɪ¹ˈʋoːrʲiːkʃʲtʲeː]
 4381	laukimas	wait	[lɒʊˈkʲɪmɐs]
@@ -4396,12 +4396,12 @@ rank	word	english	ipa
 4395	vasarai	summer	[²ˈʋɑːsɐrɐɪ]
 4396	ekranas	screen	[ɛ²ˈkrɑːnɐs]
 4397	skaičiavimas	to count	[skɐɪ²ˈt͡ʃʲæːʋʲɪmɐs]
-4398	sėdime	to sit	
+4398	sėdime	to sit	/ˈseːdɪmɛ/
 4399	atkalbėti	to dissuade, to talk someone out of, to discourage	[ɐtkɐlʲ¹ˈbʲeːtʲɪ]
 4400	algoritmas	algorithm	[ɐlɡɔˈrʲɪtmɐs]
 4401	prilipo	third-person past of prili̇̀pti	[pʲrʲɪˈlʲɪpoː]
 4402	sąjungininkas	ally	[¹ˈsɑːjʊ̟ŋʲɡʲɪnʲɪŋkɐs]
-4403	bausti	to punish	
+4403	bausti	to punish	/ˈbɐʊstɪ/
 4404	avies	genitive singular of avi̇̀s	[ɐ²ˈʋʲiɛs]
 4405	gražiuoju	beautiful	[ɡrɐ¹ˈʒʲu̟ɔjʊ̟]
 4406	dangui	sky	[²ˈdɐŋˑɡʊɪ]
@@ -4412,7 +4412,7 @@ rank	word	english	ipa
 4411	caras	tsar	[²ˈt͡sɑːrɐs]
 4412	nervinti	to bug, annoy	/ˈnʲɛrʋʲɪnʲtʲɪ/
 4413	asteroidas	asteroid	[ɐsʲtʲɛ¹ˈrɔɪdɐs]
-4414	procentas	percent, percentage	
+4414	procentas	percent, percentage	/ˈproːt͡sɛntɐs/
 4415	anie	that, yon	[ɐ²ˈnʲiɛ]
 4416	sulaukėme	to wait for or until	[sʊ¹ˈlɑˑʊkʲeːmʲɛ]
 4417	plaukas	hair	[¹ˈplɑˑʊkɐs]
@@ -4424,7 +4424,7 @@ rank	word	english	ipa
 4423	sėklų	seed	[¹ˈsʲeːkluː]
 4424	šlapintis	to urinate	[²ˈʃlɑːpʲɪnʲtʲɪs]
 4425	abėcėlę	alphabet	[ɐbʲeː²ˈt͡sʲeːlʲæː]
-4426	gruzijos	genitive of Gruzija	
+4426	gruzijos	genitive of Gruzija	/ˈɡrʊzɪjoːs/
 4427	konstitucija	constitution	[kɔnʲsʲtʲɪˈtʊt͡sʲɪjɛ]
 4428	mažomis	little, small	[mɐʒoːˈmʲɪs]
 4429	motinas	accusative plural of mótina	[¹ˈmoːtʲɪnɐs]
@@ -4450,11 +4450,11 @@ rank	word	english	ipa
 4449	drebėti	to quiver	[dʲrʲɛ¹ˈbʲeːtʲɪ]
 4450	kreivas	crooked, curved	/ˈkrʲɛɪˈvɐs/
 4451	pusvalandis	half-hour	[ˈpʊsʋɐlɐnʲdʲɪs]
-4452	blaivas	whitish, blue, sober	
+4452	blaivas	whitish, blue, sober	/ˈblɐɪvɐs/
 4453	sėklas	seed	[¹ˈsʲeːklɐs]
 4454	aptarkime	to discuss	[ɐp²ˈtɐrʲˑkʲɪmʲɛ]
 4455	bernas	lad	[¹ˈbʲæˑrnɐs]
-4456	įtariau	to suspect	
+4456	įtariau	to suspect	/iːtɐˈrʲɐʊ/
 4457	esančios	genitive feminine singular	[²ˈæːsɐnʲt͡ʃʲo̟ːs]
 4458	susiūti	to sew together, to stitch up	[sʊˈsʲuːtʲɪ]
 4459	žodynas	vocabulary	[ʒoː¹ˈdʲiːnɐs]
@@ -4463,7 +4463,7 @@ rank	word	english	ipa
 4462	bybis	dick, cock	[ˈbʲiːbʲɪs̪]
 4463	kramtyti	to chew	[krɐmʲ¹ˈtʲiːtʲɪ]
 4464	metras	metre	[ˈmʲɛtrɐs]
-4465	šika	to shit	
+4465	šika	to shit	/ˈʃɪkɐ/
 4466	pianinas	piano	[pʲɪjɛˈnʲɪnɐs]
 4467	dėmes	stain	[dʲeːˈmʲɛs]
 4468	dizainas	design	[dʲɪ¹ˈzɑˑɪnɐs]
@@ -4471,11 +4471,11 @@ rank	word	english	ipa
 4470	audrų	storm	[ˈâ̤ˑʊ.d̪r̺uː]
 4471	saulėlydis	sunset	[sɒʊ¹ˈlʲeːlʲiːdʲɪs]
 4472	prieglobstis	asylum	[¹ˈpʲrʲiɛɡloːpʲsʲtʲɪs]
-4473	bala	swamp, mire, morass	
+4473	bala	swamp, mire, morass	/bɐˈlɐ/
 4474	pagalvė	pillow	[pɐ¹ˈɡɑˑlʲʋʲeː]
 4475	rusiška	Russian	[ˈrʊsʲɪʃkɐ]
 4476	kalavijas	sword	[kɐlɐˈʋʲɪjɛs]
-4477	arabijos	genitive of Arabija	
+4477	arabijos	genitive of Arabija	/ɐˈraːbɪjoːs/
 4478	politinis	political	[pɔˈlʲɪtʲɪnʲɪs]
 4479	užsienietis	foreigner	[ʊsʲiɛ²ˈnʲiɛtʲɪs]
 4480	laukdama	adverbial pusdalyvis participle of laukti	[lɒʊɡdɐˈmɐ]
@@ -4488,12 +4488,12 @@ rank	word	english	ipa
 4487	laižyti	to lick	[lɐɪ¹ˈʒʲiːtʲɪ]
 4488	asmeniniam	personal	[ɐsʲmʲɛˈnʲɪnʲɛm]
 4489	iškeliauja	to set out, to leave	[ɪʃʲkʲɛ¹ˈlʲæˑʊjɛ]
-4490	vata	cotton wool	
+4490	vata	cotton wool	/ˈvaːtaː/
 4491	konkuruoti	to compete, contend, rival	[kɔŋkʊ¹ˈruɔtʲɪ]
 4492	ketvirtis	quarter	
 4493	abejojau	to doubt, to question	[ɐbʲɛ¹ˈjo̟ːjɛʊ]
 4494	kalėti	to sit in prison, to be imprisoned	[kɐ¹ˈlʲeːtʲɪ]
-4495	sraigė	snail	
+4495	sraigė	snail	/ˈsrɐɪɡeː/
 4496	ašara	tear	[²ˈɑːʃɐrɐ]
 4497	sostas	seat	[¹ˈsoːstɐs]
 4498	erekcijos	erection	[ɛˈrʲɛkt͡sʲɪjo̟ːs]
@@ -4529,7 +4529,7 @@ rank	word	english	ipa
 4528	budelis	executioner	[ˈbʊdʲɛlʲɪs]
 4529	pingvinas	penguin	[pʲɪŋˈɡʋʲɪnɐs]
 4530	atidavęs	to give back, to return	[ɐtʲɪ²ˈdɑːʋʲæːs]
-4531	provincija	province	
+4531	provincija	province	/proːˈvɪnt͡sɪjɐ/
 4532	prieštarauti	contradict	[pʲrʲiɛʃtɐ¹ˈrɑˑʊtʲɪ]
 4533	dainuodavo	to sing	[dɐɪ¹ˈnuɔdɐʋoː]
 4534	biologija	biology	[ˌbʲɪjɔ̟ˈlɔɡʲɪjɛ]
@@ -4543,20 +4543,20 @@ rank	word	english	ipa
 4542	nekęs	to hate	[nʲɛ²ˈkʲæːs]
 4543	sulauks	to wait for or until	[sʊ²ˈlɒʊˑks]
 4544	gėrėme	drink	[¹ˈɡʲeːrʲeːmʲɛ]
-4545	šalti	to be/feel cold; to be under cold conditions	
+4545	šalti	to be/feel cold; to be under cold conditions	/ˈʃaːltɪ/
 4546	feniksas	phoenix	[ˈfʲɛnʲɪksɐs]
 4547	likutis	the remaining amount	[lʲɪˈkʊtʲɪs]
 4548	genda	third-person singular/plural present of gèsti	[²ˈɡʲɛnˑdɐ]
 4549	seniausių	old	[sʲɛ¹ˈnʲæˑʊsʲu̟ː]
 4550	orgazmas	orgasm	[ɔr²ˈɡɑːzmɐs]
 4551	archyvas	archive	[ɐrʲ²ˈxʲiːʋɐs]
-4552	tinku	to fit	
+4552	tinku	to fit	/tɪnˈkʊ/
 4553	tėvynė	fatherland	[tʲeː²ˈʋʲiːnʲeː]
 4554	žaistų	to play	[ˈʒɐjstu]
 4555	būdavai	to be	[¹ˈbuːdɐʋɐɪ]
 4556	banku	bank	[¹ˈbɑˑŋkʊ]
 4557	fejerverkas	firework	
-4558	daikte	thing	
+4558	daikte	thing	/dɐɪkˈtɛ/
 4559	pelėdos	owl	[pʲɛ¹ˈlʲeːdoːs]
 4560	išparduoti	to sell off, to sell out	[ɪʃpɐr¹ˈduɔtʲɪ]
 4561	elektrinis	electric	[ɛlʲɛkˈtʲrʲɪnʲɪs]
@@ -4571,7 +4571,7 @@ rank	word	english	ipa
 4570	dažnas	frequent	/ˈdǎː.ʒnɐs/
 4571	matysime	to see	[mɐ¹ˈtʲiːsʲɪmʲɛ]
 4572	sename	old	[sʲɛnɐˈmʲɛ]
-4573	globa	tutelage	
+4573	globa	tutelage	/ɡloːˈbɐ/
 4574	grietinėlė	cream, sweet cream	[ɡrʲiɛtʲɪ²ˈnʲeːlʲeː]
 4575	sėklidžių	testicle	[sʲeːˈklʲɪd͡ʒʲu̟ː]
 4576	svirtis	lever	[¹ˈsʲʋʲɪrʲtʲɪs]
@@ -4606,13 +4606,13 @@ rank	word	english	ipa
 4605	dažyti	to paint; to color; to dye	[dɐ¹ˈʒʲiːtʲɪ]
 4606	užsimerkiu	to close one's eyes	[ʊʒʲsʲɪˈmæɾʲkʲʊ]
 4607	dieviška	divine, supernal; godly, godlike	[²ˈdʲiɛʋʲɪʃkɐ]
-4608	trasa	route, way	
+4608	trasa	route, way	/trɐˈsɐ/
 4609	atsakyčiau	to reply, to respond, to answer	[ɐtsɐ¹ˈkʲiːt͡ʃʲɛʊ]
 4610	asmenines	personal	[ɐsʲmʲɛnʲɪˈnʲɛs]
 4611	lipni	nominative feminine singular	[lʲɪˈpʲnʲɪ]
 4612	galėti	to be able to; can, may	[ɡɐ¹ˈlʲeːtʲɪ]
 4613	dieviškas	divine, supernal; godly, godlike	[²ˈdʲiɛʋʲɪʃkɐs]
-4614	įtari	to suspect	
+4614	įtari	to suspect	/iːtɐˈrɪ/
 4615	spintelė	cupboard	[sʲpʲɪnʲ²ˈtʲæːlʲeː]
 4616	medūza	jellyfish	[mʲɛduːˈzɐ]
 4617	lėkštė	plate, dish	[lʲeːk²ˈʃʲtʲeː]
@@ -4636,8 +4636,8 @@ rank	word	english	ipa
 4635	tvarkai	order, orderliness; method	[²ˈtʋɐrˑkɐɪ]
 4636	organas	organ	[¹ˈɔrɡɐnɐs]
 4637	žmoguje	human	[ʒmoːɡʊˈjɛ]
-4638	antį	duck	
-4639	pavėjui	with the wind	
+4638	antį	duck	/ˈaːntiː/
+4639	pavėjui	with the wind	/pɐˈveːjʊɪ/
 4640	sutariame	to arrange	[ˈsʊtɐrʲɛmʲɛ]
 4641	atidarei	to open	[ɐtʲɪdɐ²ˈrʲɛɪˑ]
 4642	trukmė	duration	[trʊ²ˈkmʲeː]
@@ -4659,7 +4659,7 @@ rank	word	english	ipa
 4658	konkretus	concrete	[kɔŋkrʲɛˈtʊs]
 4659	keliausite	to travel	[kʲɛ¹ˈlʲæˑʊsʲɪtʲɛ]
 4660	durims	dative plural of dùrys	[ˈdʊrʲɪms]
-4661	rože	vocative singular of rõžė	
+4661	rože	vocative singular of rõžė	/ˈroːʒɛ/
 4662	taria	to pronounce; to articulate; to enunciate; to say	[²ˈtɑːrʲɛ]
 4663	žolių	grass	[ʒoː²ˈlʲu̟ː]
 4664	sėdintį	accusative masculine singular of sėdintis	[¹ˈsʲeːdʲɪnʲtʲiː]
@@ -4669,17 +4669,17 @@ rank	word	english	ipa
 4668	vagonas	railroad car	[ʋɐˈɡɔnɐs]
 4669	patylėsiu	to be quiet; to be able to be quiet	[pɐtʲiː¹ˈlʲeːsʲʊ̟]
 4670	skaitote	to read	[²ˈskɐɪˑtoːtʲɛ]
-4671	tinki	to fit	
-4672	patiksi	to appeal, like	
+4671	tinki	to fit	/tɪnˈkɪ/
+4672	patiksi	to appeal, like	/pɐˈtɪksɪ/
 4673	originalas	original	[ɔrʲɪɡʲɪ²ˈnɑːlɐs]
 4674	gersite	drink	[¹ˈɡʲæˑrʲsʲɪtʲɛ]
 4675	vikrus	agile, nimble, dextrous	[ʋʲɪˈkrʊs]
 4676	senojoje	old	[sʲɛ²ˈnoːjo̟ːjɛ]
 4677	eidami	adverbial pusdalyvis participle of eiti	[ɛɪdɐˈmʲɪ]
 4678	plonas	thin, slender, fine	[¹ˈploːnɐs]
-4679	darius	past adverbial padalyvis participle of daryti	
-4680	čiuožti	to slide	
-4681	sirgti	to be ill, to suffer from	
+4679	darius	past adverbial padalyvis participle of daryti	/ˈdaːrʲʊs/
+4680	čiuožti	to slide	/ˈt͡ʃʲuəʒtɪ/
+4681	sirgti	to be ill, to suffer from	/sɪrɡtɪ/
 4682	abejingas	indifferent	[ɐbʲɛ¹ˈjɪŋɡɐs]
 4683	itališkas	Italian	[ɪ²ˈtɑːlʲɪʃkɐs]
 4684	viešas	public	[²ˈʋʲiɛʃɐs]
@@ -4701,7 +4701,7 @@ rank	word	english	ipa
 4700	kėlinys	period	[kʲeːlʲɪ²ˈnʲiːs]
 4701	venkite	to avoid, beware	[¹ˈʋʲæˑŋʲkʲɪtʲɛ]
 4702	oranžinė	orange	[ɔ¹ˈrɑˑnʲʒʲɪnʲeː]
-4703	premjeras	premier, prime minister	
+4703	premjeras	premier, prime minister	/prɛˈmjɛrɐs/
 4704	kiniškai	in Chinese	[ˈkʲɪnʲɪʃkɐɪ]
 4705	kęsti	to feel discomfort; to suffer	/ˈkʲæːsʲtʲɪ/
 4706	patarimu	suggestion, advice	[pɐtɐrʲɪˈmʊ]
@@ -4714,7 +4714,7 @@ rank	word	english	ipa
 4713	įtarimas	suspicion	[iːtɐˈrʲɪmɐs]
 4714	indeksas	index	[²ˈɪnʲˑdʲɛksɐs]
 4715	moteriškų	feminine; female	[¹ˈmoːtʲɛrʲɪʃkuː]
-4716	vilhelmo	genitive singular of Vi̇̀lhelmas	
+4716	vilhelmo	genitive singular of Vi̇̀lhelmas	/ˈvɪlɣɛlmoː/
 4717	šlaunis	hip, thigh	[ʃlɒʊˈnʲɪs]
 4718	sprogmuo	explosive device	[sproː²ˈɡmuɔ]
 4719	švelnaus	soft; smooth	[ʃʲʋʲɛl²ˈnɒʊˑs]
@@ -4741,7 +4741,7 @@ rank	word	english	ipa
 4740	skirtumų	difference	[¹ˈsʲkʲɪrtʊmuː]
 4741	žvaigždei	dative singular of žvaigždė̃	[²ˈʒʋɐɪˑɡʒʲdʲɛɪ]
 4742	rišti	to tie, to bind	[ˈrʲɪʃʲtʲɪ]
-4743	kelintas	which	
+4743	kelintas	which	/kɛlɪntɐs/
 4744	smalsus	curious, inquisitive	[smɐlˈsʊs]
 4745	budėti	to be awake	[bʊ¹ˈdʲeːtʲɪ]
 4746	suprastumėte	to perceive, to get it; to understand	[sʊˈprɐstʊmʲeːtʲɛ]
@@ -4754,13 +4754,13 @@ rank	word	english	ipa
 4753	vore	spider	[ˈʋorɛ]
 4754	formoje	locative singular of fòrma	[¹ˈfɔrmoːjɛ]
 4755	plauni	to wash, to rinse; to bathe; to scrub	[¹ˈplɑˑʊnʲɪ]
-4756	pelkės	swamp, marsh, bog	
+4756	pelkės	swamp, marsh, bog	/ˈpæːlkeːs/
 4757	atsakomybe	instrumental/vocative singular of atsakomybė	[ɐtsɐkoː¹ˈmʲiːbʲɛ]
 4758	bulvė	potato	[¹ˈbʊlʲʋʲeː]
-4759	junginys	compound	
+4759	junginys	compound	/jʊnɡɪˈniːs/
 4760	apokalipsės	apocalypse	[ɐpɔkɐˈlʲɪpʲsʲeːs]
 4761	kirvis	axe	[²ˈkʲɪrʲˑʋʲɪs]
-4762	jojo	to ride horseback	
+4762	jojo	to ride horseback	/ˈjoːjoː/
 4763	vergu	instrumental singular of vérgas	[ˈvʲæ̂ːr̺.ɡʊ]
 4764	ėjęs	to go	[²ˈeːjæːs]
 4765	būtas	to be	[¹ˈbuːtɐs]
@@ -4770,13 +4770,13 @@ rank	word	english	ipa
 4769	tabakas	tobacco	[tɐ²ˈbɑːkɐs]
 4770	alyva	olive tree	/ɐlʲiːˈʋɐ/
 4771	esančią	accusative feminine singular of esąs	[²ˈæːsɐnʲt͡ʃʲæː]
-4772	graikijoje	locative of Graikija	
+4772	graikijoje	locative of Graikija	/ˈɡrɐɪkɪjoːjɛ/
 4773	pusseserės	female cousin	[ˈpʊsʲɛsʲɛrʲeːs]
 4774	skirtumus	difference	[¹ˈsʲkʲɪrtʊmʊs]
 4775	priedas	addition, bonus, supplement	[²ˈpʲrʲiɛdɐs]
 4776	senatvė	old age	[sʲɛ²ˈnɑːtʲʋʲeː]
 4777	teikti	to give, render	[²ˈtʲɛɪˑktʲɪ]
-4778	tatuiruote	tattoo	
+4778	tatuiruote	tattoo	/tɐtʊɪˈruəteː/
 4779	sėdėdavo	to sit	[sʲeː¹ˈdʲeːdɐʋoː]
 4780	atidaryčiau	to open	[ɐtʲɪdɐ¹ˈrʲiːt͡ʃʲɛʊ]
 4781	mažojoje	little, small	[mɐ²ˈʒoːjo̟ːjɛ]
@@ -4800,7 +4800,7 @@ rank	word	english	ipa
 4799	dėmių	stain	[dʲeː²ˈmʲu̟ː]
 4800	stabdys	brake	[stɐbʲ²ˈdʲiːs]
 4801	pūsti	to blow	[ˈpǔːsʲtʲɪ]
-4802	sprogti	to explode, to blow up, to shatter	
+4802	sprogti	to explode, to blow up, to shatter	/ˈsproːɡtɪ/
 4803	dugnas	bottom	[ˈdʊɡnɐs]
 4804	savybė	characteristic, attribute, trait, quality, feature	[sɐ¹ˈʋʲiːbʲeː]
 4805	darykime	to make	[dɐ¹ˈrʲiːkʲɪmʲɛ]
@@ -4818,7 +4818,7 @@ rank	word	english	ipa
 4817	ypatingoji	special, especial, particular, peculiar	[iːpɐˈtʲɪnɡojɪ]
 4818	rezidencija	residency	[rʲɛzʲɪ²ˈdʲɛnʲˑt͡sʲɪjɛ]
 4819	pardavėjo	seller, salesman; vendor	[pɐrdɐ¹ˈʋʲeːjo̟ː]
-4820	kupė	coupe; train compartment	
+4820	kupė	coupe; train compartment	/kʊˈpeː/
 4821	nuodinga	virulent	[nuɔ¹ˈdʲɪŋɡɐ]
 4822	vegetaras	vegetarian	[ʋʲɛɡʲɛ²ˈtɑːrɐs]
 4823	prietaras	superstition	[¹ˈpʲrʲiɛtɐrɐs]
@@ -4828,7 +4828,7 @@ rank	word	english	ipa
 4827	penketas	five	[²ˈpʲɛŋʲˑkʲɛtɐs]
 4828	pirštinė	glove	[²ˈpʲɪrʲˑʃʲtʲɪnʲeː]
 4829	siūlų	thread	[¹ˈsʲu̟ːluː]
-4830	somalio	genitive of Somãlis	
+4830	somalio	genitive of Somãlis	/soːˈmaːlʲoː/
 4831	lazdas	stick	[lɐˈzdɐs]
 4832	sulaukus	past adverbial padalyvis participle of sulaukti	[sʊ¹ˈlɑˑʊkʊs]
 4833	šokite	jump, leap	[¹ˈʃoːkʲɪtʲɛ]
@@ -4836,7 +4836,7 @@ rank	word	english	ipa
 4835	istorikas	historian	[ɪˈstɔrʲɪkɐs]
 4836	lankas	bow	/ɫàŋ́kas/
 4837	priekaba	trailer	[¹ˈpʲrʲiɛkɐbɐ]
-4838	šiltų	to warm up	
+4838	šiltų	to warm up	/ˈʃɪltuː/
 4839	karuose	locative plural of kãras	[kɐruɔˈsʲɛ]
 4840	dukterys	nominative/vocative plural of duktė̃	[ˈdʊktʲɛrʲiːs]
 4841	spenelių	nipple	[sʲpʲɛ²ˈnʲæːlʲu̟ː]
@@ -4853,9 +4853,9 @@ rank	word	english	ipa
 4852	kalbanti	nominative/vocative feminine singular of kalbąs	[²ˈkɐlˑbɐnʲtʲɪ]
 4853	ilgalaikis	long-lasting, long-term	[ɪlɡɐ²ˈlɐɪˑkʲɪs]
 4854	moteriška	feminine; female	[¹ˈmoːtʲɛrʲɪʃkɐ]
-4855	įtarus	past adverbial padalyvis participle of įtarti	
+4855	įtarus	past adverbial padalyvis participle of įtarti	/ˈiːtɐrʊs/
 4856	chalatas	khalat	[xɐ²ˈlɑːtɐs]
-4857	išorinis	external, outer	
+4857	išorinis	external, outer	/ɪʃoːˈrɪnɪs/
 4858	vištas	hen, chicken	[ʋʲɪˈʃtɐs]
 4859	skęsti	to drown	/ˈsʲkʲæ̌ːsʲtʲɪ/
 4860	įvedė	third-person singular/plural past of įvèsti	[²ˈiːʋʲɛdʲeː]
@@ -4864,7 +4864,7 @@ rank	word	english	ipa
 4863	laukdami	adverbial pusdalyvis participle of laukti	[lɒʊɡdɐˈmʲɪ]
 4864	šokčiau	jump, leap	[¹ˈʃoːkt͡ʃʲɛʊ]
 4865	regionas	region	[rʲɛɡʲɪˈjɔ̟nɐs]
-4866	plane	plan	
+4866	plane	plan	/ˈplaːnɛ/
 4867	prakaituoti	to sweat	[prɐkɐɪ¹ˈtuɔtʲɪ]
 4868	perkūnas	sound of thunder	[pʲɛr¹ˈkuːnɐs]
 4869	kepėjas	baker	[kʲɛ¹ˈpʲeːjɛs]
@@ -4891,7 +4891,7 @@ rank	word	english	ipa
 4890	kruštis	to fuck, to have sexual intercourse	[ˈkrʊʃʲtʲɪs]
 4891	senoje	old	[sʲɛnoːˈjɛ]
 4892	skaitydavo	to read	[skɐɪ¹ˈtʲiːdɐʋoː]
-4893	serveris	server	
+4893	serveris	server	/ˈsɛrvɛrɪs/
 4894	mirtys	death	[²ˈmʲɪrʲˑtʲiːs]
 4895	visagalio	genitive singular of visagãlis	[ʋʲɪsɐ²ˈɡɑːlʲo̟ː]
 4896	leidžiamas	permissible	[¹ˈlʲæˑɪd͡ʒʲɛmɐs]
@@ -4918,7 +4918,7 @@ rank	word	english	ipa
 4917	katedra	cathedral	[²ˈkɑːtʲɛdrɐ]
 4918	entuziazmas	enthusiasm	[ɛntʊzʲɪ²ˈjæːzmɐs]
 4919	mylėjote	to love	[mʲiː¹ˈlʲeːjo̟ːtʲɛ]
-4920	antys	duck	
+4920	antys	duck	/ˈaːntiːs/
 4921	mokyklose	school	[moː²ˈkʲiːkloːsʲɛ]
 4922	lietui	rain	[¹ˈlʲiɛtʊɪ]
 4923	korupcija	corruption	[kɔˈrʊpʲt͡sʲɪjɛ]
@@ -4952,7 +4952,7 @@ rank	word	english	ipa
 4951	parduodate	to sell	[pɐr¹ˈduɔdɐtʲɛ]
 4952	apolono	genitive singular of Apolònas	[ɐpɔˈlɔnoː]
 4953	eidama	adverbial pusdalyvis participle of eiti	[ɛɪdɐˈmɐ]
-4954	svainis	brother-in-law	
+4954	svainis	brother-in-law	/ˈsvɐɪnɪs/
 4955	baigus	past adverbial padalyvis participle of baigti	[²ˈbɐɪˑɡʊs]
 4956	lesbietės	lesbian	[lʲɛ²ˈzʲbʲiɛtʲeːs]
 4957	spagečiai	spaghetti	[spɐˈɡʲɛt͡ʃʲɛɪ]
@@ -4963,22 +4963,22 @@ rank	word	english	ipa
 4962	dukrų	genitive plural of dukrà	[ˈdʊkruː]
 4963	duokime	to give	[¹ˈduɔkʲɪmʲɛ]
 4964	vienetas	one	[¹ˈʋʲiɛnʲɛtɐs]
-4965	tašku	dot	
+4965	tašku	dot	/tɐʃˈkuː/
 4966	krokodilai	crocodile	[krɔkɔˈdʲɪlɐɪ]
 4967	liūdėti	to be sad	[lʲu̟ː¹ˈdʲeːtʲɪ]
 4968	blogiausių	bad, wrong	[bloː¹ˈɡʲæˑʊsʲu̟ː]
-4969	mene	art	
-4970	trukti	to last, continue	
+4969	mene	art	/mɛˈnɛ/
+4970	trukti	to last, continue	/ˈtrʊktɪ/
 4971	mažajai	little, small	[²ˈmɑːʒɐjɛɪ]
-4972	parduotų	to sell	
+4972	parduotų	to sell	/pɐrˈduətuː/
 4973	tvarkingas	neat, orderly, ordered	[tʋɐrʲ¹ˈkʲɪŋɡɐs]
 4974	bučiuoji	to kiss	[bʊ¹ˈt͡ʃʲu̟ɔjɪ]
-4975	statines	barrel	
+4975	statines	barrel	/stɐˈtɪneːs/
 4976	paminklas	monument	[pɐ²ˈmʲɪŋˑklɐs]
 4977	žvakutes	suppository	[ʒʋɐkʊˈtʲɛs]
 4978	turėdama	adverbial pusdalyvis participle of turėti	[tʊ¹ˈrʲeːdɐmɐ]
 4979	nekenčiate	to hate	[nʲɛ²ˈkʲɛnʲˑt͡ʃʲɛtʲɛ]
-4980	renki	to gather, to collect	
+4980	renki	to gather, to collect	/rɛnˈkɪ/
 4981	rodyklė	indicator, needle, hand, arrow	[roː²ˈdʲiːklʲeː]
 4982	greitajai	quick	[²ˈɡrʲɛɪˑtɐjɛɪ]
 4983	dieviškai	divinely	[²ˈdʲiɛʋʲɪʃkɐɪ]
@@ -5002,7 +5002,7 @@ rank	word	english	ipa
 5001	atidarytum	to open	[ɐtʲɪdɐ¹ˈrʲiːtʊm]
 5002	jūras	sea	[¹ˈju̟ːrɐs]
 5003	vykdytojas	executor, operator, principal	[¹ˈʋʲiːɡdʲiːtoːjɛs]
-5004	jungas	yoke	
+5004	jungas	yoke	/ˈjʊnɡɐs/
 5005	plaukikas	red-necked phalarope	[plɒʊˈkʲɪkɐs]
 5006	asociacija	association	[ɐsɔt͡sʲɪ²ˈjæːt͡sʲɪjɛ]
 5007	mažiems	little, small	[mɐ¹ˈʒʲiɛms]
@@ -5014,8 +5014,8 @@ rank	word	english	ipa
 5013	liepa	July	[¹ˈlʲiɛpɐ]
 5014	atras	to find, to discover	
 5015	įtarimo	suspicion	[iːtɐˈrʲɪmoː]
-5016	žibintas	lantern	
-5017	pele	instrumental singular of pelė̃	
+5016	žibintas	lantern	/ʒɪbɪntɐs/
+5017	pele	instrumental singular of pelė̃	/pɛˈlɛ/
 5018	duosite	to give	[¹ˈduɔsʲɪtʲɛ]
 5019	sporte	locative/vocative singular of spòrtas	[¹ˈspɔrʲtʲɛ]
 5020	renkame	to gather, to collect	[²ˈrʲɛŋˑkɐmʲɛ]
@@ -5026,14 +5026,14 @@ rank	word	english	ipa
 5025	žodyne	vocabulary	[ʒoː¹ˈdʲiːnʲɛ]
 5026	siūlą	thread	[ˈsʲuːlaː]
 5027	delfinas	dolphin	[dʲɛlʲˈfʲɪnɐs]
-5028	kengūra	kangaroo	
+5028	kengūra	kangaroo	/kɛnɡuːˈrɐ/
 5029	smakras	chin	[²ˈsmɑːkrɐs]
 5030	senesnė	old	[sʲɛˈnʲɛsʲnʲeː]
 5031	mugė	fair	[ˈmʊɡʲeː]
 5032	archyvą	archive	[ɐrʲ²ˈxʲiːʋɑː]
 5033	sėklides	testicle	[sʲeːklʲɪˈdʲɛs]
 5034	anapilin	illative case for "Anapilis"; meaning "into Anapilis"; used…	[ɐ²ˈnɑːpʲɪlʲɪn]
-5035	papuošalas	adornment, ornament	
+5035	papuošalas	adornment, ornament	/ˈpaːpuəʃɐlɐs/
 5036	švelnų	soft; smooth	[²ˈʃʲʋʲɛlˑnuː]
 5037	maišyti	to mix, to blend	[mɐɪ¹ˈʃʲiːtʲɪ]
 5038	atominis	atomic	[ɐˈtɔmʲɪnʲɪs]
@@ -5084,7 +5084,7 @@ rank	word	english	ipa
 5083	esančiais	instrumental masculine plural of esąs	[²ˈæːsɐnʲt͡ʃʲɛɪs]
 5084	šiukšlynas	scrapheap	[ʃʲʊ̟k¹ˈʃʲlʲiːnɐs]
 5085	angelais	angel	[ɐŋʲɡʲɛ²ˈlɐɪˑs]
-5086	pekino	genitive of Peki̇̀nas	
+5086	pekino	genitive of Peki̇̀nas	/pɛˈkɪnoː/
 5087	užtemimas	eclipse	[ʊʃʲtʲɛˈmʲɪmɐs]
 5088	nary	vocative singular of narỹs	[nɐ²ˈrʲiː]
 5089	strateginis	strategic	[strɐˈtʲɛɡʲɪnʲɪs]
@@ -5115,12 +5115,12 @@ rank	word	english	ipa
 5114	tautas	accusative plural of tautà	[tɒʊˈtɐs]
 5115	tvarkingi	neat, orderly, ordered	[tʋɐrʲ¹ˈkʲɪŋʲɡʲɪ]
 5116	genocidas	genocide	[ɡʲɛnɔˈt͡sʲɪdɐs]
-5117	perspektyva	perspective	
+5117	perspektyva	perspective	/pɛrspɛktiːˈvɐ/
 5118	parduosime	to sell	[pɐr¹ˈduɔsʲɪmʲɛ]
 5119	aktorę	accusative singular of aktorė	[²ˈɑːktɔrʲæː]
 5120	mūras	masonry, wall	[¹ˈmuːrɐs]
 5121	regėti	to see, to view	[rʲɛ¹ˈɡʲeːtʲɪ]
-5122	leonardo	genitive singular of Leonárdas	
+5122	leonardo	genitive singular of Leonárdas	/lɛoːˈnaːrdoː/
 5123	dingimas	disappearance	[dʲɪŋʲˈɡʲɪmɐs]
 5124	įsakyti	to order, to command	[iːsɐ¹ˈkʲiːtʲɪ]
 5125	žvakučių	suppository	[ʒʋɐˈkʊt͡ʃʲu̟ː]
@@ -5137,7 +5137,7 @@ rank	word	english	ipa
 5136	galintys	nominative/vocative masculine plural of galintis	[²ˈɡɑːlʲɪnʲtʲiːs]
 5137	gautumėte	to get, to obtain, to gain	[¹ˈɡɑˑʊtʊmʲeːtʲɛ]
 5138	archyvai	archive	[ɐrʲ²ˈxʲiːʋɐɪ]
-5139	krauti	to heap; to pile	
+5139	krauti	to heap; to pile	/ˈkrɐʊtɪ/
 5140	kibiras	bucket	
 5141	vėsus	cool	/vʲeːˈsʊs/
 5142	centas	cent	[²ˈt͡sʲɛnˑtɐs]
@@ -5150,28 +5150,28 @@ rank	word	english	ipa
 5149	orgazmo	orgasm	[ɔr²ˈɡɑːzmoː]
 5150	kalbantį	accusative masculine singular of kalbąs	[²ˈkɐlˑbɐnʲtʲiː]
 5151	kosulys	cough	[koːsʊ²ˈlʲiːs]
-5152	kabelis	cable	
+5152	kabelis	cable	/kɐˈbæːlɪs/
 5153	mažiausio	little, small	[mɐ¹ˈʒʲæˑʊsʲo̟ː]
 5154	dainuotų	to sing	[dɐɪ¹ˈnuɔtuː]
 5155	vokiečiais	German; a man from Germany	[¹ˈʋoːkʲiɛt͡ʃʲɛɪs]
 5156	motoras	motor	[mɔˈtɔrɐs]
 5157	futbolu	instrumental of fùtbolas	[ˈfʊdbɔlʊ]
 5158	siūlei	seam; hem	[ˈsʲuːlʲɛj]
-5159	patraukliai	attractively	
+5159	patraukliai	attractively	/pɐˈtrɐʊklʲɐɪ/
 5160	bendraujame	to associate	[bʲɛn¹ˈdrɑˑʊjɛmʲɛ]
 5161	brendis	brandy	[²ˈbʲrʲɛnʲˑdʲɪs]
 5162	ašarą	tear	[²ˈɑːʃɐrɑː]
-5163	lieknas	swampland, marshland	
+5163	lieknas	swampland, marshland	/ˈliəknɐs/
 5164	upelį	rivulet, streamlet; brook	[ʊ²ˈpʲæːlʲiː]
 5165	tylėsi	to silence	[tʲiː¹ˈlʲeːsʲɪ]
 5166	paslaptingai	mysteriously	[pɐslɐpʲ¹ˈtʲɪŋɡɐɪ]
-5167	tingus	lazy	
+5167	tingus	lazy	/tɪnˈɡʊs/
 5168	mylėtum	to love	[mʲiː¹ˈlʲeːtʊm]
 5169	laikantis	present active participle of laikýti	[²ˈlɐɪˑkɐnʲtʲɪs]
 5170	daiktams	thing	[dɐɪk¹ˈtɑˑms]
 5171	nenorėti	to want	[nʲɛnoː¹ˈrʲeːtʲɪ]
 5172	žvakę	candle	[²ˈʒʋɑːkʲæː]
-5173	parduočiau	to sell	
+5173	parduočiau	to sell	/pɐrˈduət͡ʃʲɐʊ/
 5174	kvitas	receipt	[ˈkʋʲɪtɐs]
 5175	norėdavau	to want	[noː¹ˈrʲeːdɐʋɒʊ]
 5176	kankinimas	torture	[kɐŋʲˈkʲɪnʲɪmɐs]
@@ -5184,7 +5184,7 @@ rank	word	english	ipa
 5183	radiatorius	radiator	[rɐdʲɪ²ˈjæːtɔrʲʊ̟s]
 5184	klaustukas	question mark, ?	[klɒʊˈstʊkɐs]
 5185	priprask	to get used to	[pʲrʲɪˈprɐsk]
-5186	velse	locative of Velsas	
+5186	velse	locative of Velsas	/ˈvɛlsɛ/
 5187	blogiausios	bad, wrong	[bloː¹ˈɡʲæˑʊsʲo̟ːs]
 5188	šizofrenija	schizophrenia	[ʃʲɪzoːˈfʲrʲɛnʲɪjɛ]
 5189	piešė	to draw	[²ˈpʲiɛʃʲeː]
@@ -5204,16 +5204,16 @@ rank	word	english	ipa
 5203	kilometras	kilometre	[kʲɪlɔˈmʲɛtrɐs]
 5204	saugesni	safe, secure	[sɒʊɡʲɛˈsʲnʲɪ]
 5205	iliuziją	illusion	[ɪˈlʲʊ̟zʲɪjæː]
-5206	arabijoje	locative of Arabija	
+5206	arabijoje	locative of Arabija	/ɐˈraːbɪjoːjɛ/
 5207	vartojai	to use	[ʋɐr¹ˈtoːjɛɪ]
 5208	psichologija	psychology	[pʲsʲɪxɔˈlɔɡʲɪjɛ]
-5209	gulti	lie, lie down	
+5209	gulti	lie, lie down	/ɡʊltɪ/
 5210	valgote	to eat	[¹ˈʋɑˑlɡoːtʲɛ]
 5211	nugalėsi	to overcome, to surmount; to defeat	[nʊɡɐ¹ˈlʲeːsʲɪ]
 5212	nuosmukis	decadence	[¹ˈnuɔsmʊkʲɪs]
 5213	senųjų	old	[sʲɛ²ˈnuːju̟ː]
 5214	fotografai	photographer	[fɔtɔ²ˈɡrɑːfɐɪ]
-5215	aprašymas	description	
+5215	aprašymas	description	/ɐˈpraːʃiːmɐs/
 5216	cigaras	cigar	[t͡sʲɪ²ˈɡɑːrɐs]
 5217	limpa	third-person present of li̇̀pti	[²ˈlʲɪmˑpɐ]
 5218	naudotas	used, secondhand	[nɒʊ¹ˈdoːtɐs]
@@ -5249,7 +5249,7 @@ rank	word	english	ipa
 5248	pelėdą	owl	[pʲɛ¹ˈlʲeːdɑː]
 5249	lazanija	lasagna	[lɐ²ˈzɑːnʲɪjɛ]
 5250	gražiausi	beautiful	[ɡrɐ¹ˈʒʲæˑʊsʲɪ]
-5251	rinkai	to gather, to collect	
+5251	rinkai	to gather, to collect	/rɪnˈkɐɪ/
 5252	pripranti	to get used to	[pʲrʲɪprɐnʲˈtʲɪ]
 5253	stebėtinai	to observe	[sʲtʲɛ¹ˈbʲeːtʲɪnɐɪ]
 5254	beda	to stick, drive, dig	[²ˈbʲæːdɐ]
@@ -5267,12 +5267,12 @@ rank	word	english	ipa
 5266	reikėti	to need	[rʲɛɪ¹ˈkʲeːtʲɪ]
 5267	prancūziško	French	[prɐn²ˈt͡suːzʲɪʃkoː]
 5268	šoktum	jump, leap	[¹ˈʃoːktʊm]
-5269	tiekti	to supply, to bring	
+5269	tiekti	to supply, to bring	/ˈtiəktɪ/
 5270	agurkas	cucumber	[ɐ²ˈɡʊrˑkɐs]
 5271	buldogas	bulldog	[bʊlˈdɔɡɐs]
 5272	patiktum	to appeal, like	[pɐˈtʲɪktʊm]
 5273	pusbrolių	male cousin	[ˈpʊzbroːlʲu̟ː]
-5274	pilti	to pour	
+5274	pilti	to pour	/ˈpɪltɪ/
 5275	sieros	genitive singular of sierà	[sʲiɛ²ˈroːs]
 5276	gerte	drink	[ɡʲɛrʲˈtʲɛ]
 5277	cilindras	cylinder	[t͡sʲɪ¹ˈlʲɪndrɐs]
@@ -5302,7 +5302,7 @@ rank	word	english	ipa
 5301	galvijas	cattle	[ɡɐlʲˈʋʲɪjɛs]
 5302	etiketė	label, tag	[ɛtʲɪˈkʲɛtʲeː]
 5303	čiulpiu	to suck	[t͡ʃʲʊ̟lʲˈpʲʊ̟]
-5304	pagalbinis	auxiliary	
+5304	pagalbinis	auxiliary	/pɐɡɐlˈbɪnɪs/
 5305	šaką	a branch	[²ˈʃɑːkɑː]
 5306	krokodilas	crocodile	[krɔkɔˈdʲɪlɐs]
 5307	svajonėse	dream; daydream	[sʋɐ²ˈjo̟ːnʲeːsʲɛ]
@@ -5310,12 +5310,12 @@ rank	word	english	ipa
 5309	laukiantis	to wait; to expect, to anticipate	[¹ˈlɑˑʊkʲɛnʲtʲɪs]
 5310	patinkate	to appeal, like	[pɐ²ˈtʲɪŋˑkɐtʲɛ]
 5311	skaitysi	to read	[skɐɪ¹ˈtʲiːsʲɪ]
-5312	valai	hair of the horse's tail	
+5312	valai	hair of the horse's tail	/vɐˈlɐɪ/
 5313	gedėti	to mourn	[ɡʲɛ¹ˈdʲeːtʲɪ]
 5314	vyšnios	cherry tree	[²ˈʋʲiːʃʲnʲo̟ːs]
 5315	rekomendacija	recommendation	[rʲɛkɔmʲɛn²ˈdɑːt͡sʲɪjɛ]
 5316	bandelė	bun, bread roll	[bɐnʲ²ˈdʲæːlʲeː]
-5317	kijevo	genitive singular of Ki̇̀jevas	
+5317	kijevo	genitive singular of Ki̇̀jevas	/ˈkɪjɛvoː/
 5318	rankoms	hand; arm	[²ˈrɐŋˑkoːms]
 5319	arija	aria	[²ˈɑːrʲɪjɛ]
 5320	pastebimas	to notice, to observe	[ˈpɐsʲtʲɛbʲɪmɐs]
@@ -5331,31 +5331,31 @@ rank	word	english	ipa
 5330	krušti	to smash, to crash	[ˈkɾʊʃtɪ]
 5331	sapnavo	to dream	[sɐ²ˈpnɑːʋoː]
 5332	procesorius	processor	[prɔˈt͡sʲɛsɔrʲʊ̟s]
-5333	ievai	dative singular of Ievà	
+5333	ievai	dative singular of Ievà	/ˈiəvɐɪ/
 5334	sutarė	to arrange	[ˈsʊtɐrʲeː]
 5335	siūlės	seam; hem	[sʲuːˈlʲeːs]
 5336	puta	foam	
 5337	dukterimi	instrumental singular of duktė̃	[dʊktʲɛrʲɪˈmʲɪ]
 5338	sraigtas	screw	[ˈs̪rä̂ˑɪ̯kt̪ɐs̪]
-5339	siauras	narrow, tight	
+5339	siauras	narrow, tight	/ˈsʲɐʊrɐs/
 5340	platina	platinum	
 5341	jaguaras	jaguar	[jɛɡʊ.ˈɑːrɐs]
 5342	dėstyti	to teach	[¹ˈdʲeːsʲtʲiːtʲɪ]
 5343	mėnesis	month	[ˈmʲêːnʲɛsɪs]
 5344	krokodilų	crocodile	[krɔkɔˈdʲɪluː]
 5345	peles	accusative plural of pelė̃	[pʲɛˈlʲɛs]
-5346	paskęsti	to sink	
+5346	paskęsti	to sink	/pɐsˈkæːstɪ/
 5347	vaizdingai	picturesquely	[ʋɐɪ¹ˈzʲdʲɪŋɡɐɪ]
 5348	būdingas	characteristic, typical	[buː¹ˈdʲɪŋɡɐs]
 5349	teiginys	statement, lecture, presentation	[tʲɛɪɡʲɪ²ˈnʲiːs]
 5350	vokietė	German; a woman from Germany	[¹ˈʋoːkʲiɛtʲeː]
 5351	matydavo	to see	[mɐ¹ˈtʲiːdɐʋoː]
-5352	atidarai	to open	
+5352	atidarai	to open	/ɐtɪdɐˈrɐɪ/
 5353	emocija	emotion	[ɛˈmɔt͡sʲɪjɛ]
 5354	pritari	to approve, to assent	[ˈpʲrʲɪtɐrʲɪ]
 5355	buvusiam	former, past, ex-	[ˈbʊʋʊsʲɛm]
 5356	vergo	genitive singular of vérgas	[ˈvʲæ̂ːr̺.ɡɔ]
-5357	žvengia	to neigh	
+5357	žvengia	to neigh	/ˈʒvæːnɡʲɐ/
 5358	gysla	vein	[¹ˈɡʲiːslɐ]
 5359	galvijai	cattle	[ɡɐlʲˈʋʲɪjɛɪ]
 5360	šalikas	scarf	[²ˈʃɑːlʲɪkɐs]
@@ -5377,11 +5377,11 @@ rank	word	english	ipa
 5376	pelkė	swamp, marsh, bog	[¹ˈpʲæˑlʲkʲeː]
 5377	abejinga	indifferent	[ɐbʲɛ¹ˈjɪŋɡɐ]
 5378	lytis	sex	[lʲiːˈtʲɪs]
-5379	sfera	sphere	
+5379	sfera	sphere	/ˈsfɛrɐ/
 5380	odinis	of the skin	[oːˈdʲɪnʲɪs]
 5381	judate	to move	
 5382	kompiuteriais	computer	[kɔmʲˈpʲʊ̟tʲɛrʲɛɪs]
-5383	vaišės	treating, eats and drinks, feast	
+5383	vaišės	treating, eats and drinks, feast	/ˈvɐɪʃeːs/
 5384	davus	past adverbial padalyvis participle of duoti	[²ˈdɑːʋʊs]
 5385	senti	to grow old	/ˈsʲæ̂ːnʲtʲɪ/
 5386	pusbroliui	male cousin	[ˈpʊzbroːlʲʊ̟ɪ]
@@ -5416,12 +5416,12 @@ rank	word	english	ipa
 5415	blogiausią	bad, wrong	[bloː¹ˈɡʲæˑʊsʲæː]
 5416	internetinis	internet, online	[ɪnʲtʲɛrʲˈnʲɛtʲɪnʲɪs]
 5417	diplomatija	diplomacy	[dʲɪplɔ²ˈmɑːtʲɪjɛ]
-5418	patiksiu	to appeal, like	
+5418	patiksiu	to appeal, like	/pɐˈtɪksʲʊ/
 5419	traktorius	tractor	[²ˈtrɑːktɔrʲʊ̟s]
 5420	pieštukus	pencil	[pʲiɛʃtʊˈkʊs]
 5421	hipnozė	hypnosis	[ɣʲɪˈpnɔzʲeː]
 5422	deimantu	diamond	[²ˈdʲɛɪˑmɐntʊ]
-5423	išdaiga	trick, prank, escapade	
+5423	išdaiga	trick, prank, escapade	/ɪʃˈdɐɪɡɐ/
 5424	baigiant	present adverbial padalyvis participle of baigti	[²ˈbɐɪˑɡʲɛnt]
 5425	buvusiai	former, past, ex-	[ˈbʊʋʊsʲɛɪ]
 5426	ereliu	eagle	[ɛrʲɛˈlʲʊ̟]
@@ -5442,7 +5442,7 @@ rank	word	english	ipa
 5441	pakuotė	pack, packaging	[pɐ²ˈkuɔtʲeː]
 5442	uodas	mosquito	[¹ˈuɔdɐs]
 5443	gęsta	third-person singular/plural present of gèsti	[²ˈɡʲæːstɐ]
-5444	turte	locative singular of tur̃tas	
+5444	turte	locative singular of tur̃tas	/tʊrˈtɛ/
 5445	keliaujantis	to travel	[kʲɛ¹ˈlʲæˑʊjɛnʲtʲɪs]
 5446	registruoti	to register	[rʲɛɡʲɪ¹ˈstruɔtʲɪ]
 5447	užtarti	to intercede	[ʊʒˈtɐɾtʲɪ]
@@ -5451,8 +5451,8 @@ rank	word	english	ipa
 5450	baltuoju	white	[bɐl¹ˈtuɔjʊ̟]
 5451	blogiausiam	bad, wrong	[bloː¹ˈɡʲæˑʊsʲɛm]
 5452	gražiausių	beautiful	[ɡrɐ¹ˈʒʲæˑʊsʲu̟ː]
-5453	išlipa	third-person present of išli̇̀pti	
-5454	armėnijos	genitive of Armėnija	
+5453	išlipa	third-person present of išli̇̀pti	/ˈɪʃlɪpɐ/
+5454	armėnijos	genitive of Armėnija	/ɐrˈmeːnɪjoːs/
 5455	rusiškas	Russian	[ˈrʊsʲɪʃkɐs]
 5456	žmogiško	human	[²ˈʒmoːɡʲɪʃkoː]
 5457	laimėtoja	winner, recipient	[lɐɪ¹ˈmʲeːtoːjɛ]
@@ -5462,7 +5462,7 @@ rank	word	english	ipa
 5461	kokosas	coconut	[ˈkɔkɔsɐs]
 5462	šokantis	jump, leap	[¹ˈʃoːkɐnʲtʲɪs]
 5463	abėcėlės	alphabet	[ɐbʲeː²ˈt͡sʲeːlʲeːs]
-5464	vaistinė	pharmacy, apothecary, chemist	
+5464	vaistinė	pharmacy, apothecary, chemist	/ˈvɐɪstɪneː/
 5465	vakarinė	feminine singular of vakari̇̀nis	[ʋɐkɐˈrʲɪnʲeː]
 5466	mėlynes	blueberry	[mʲeːlʲiːˈnʲɛs]
 5467	kriauklė	shell; incrustation	/kʲrʲɛʊˈkʲlʲěː/
@@ -5489,7 +5489,7 @@ rank	word	english	ipa
 5488	semestras	semester	[sʲɛˈmʲɛstrɐs]
 5489	lesbiečių	lesbian	[lʲɛ²ˈzʲbʲiɛt͡ʃʲu̟ː]
 5490	žiebtuvėlis	lighter, cigarette lighter	[ʒʲiɛptʊ²ˈʋʲeːlʲɪs]
-5491	jonų	genitive plural of jònas	
+5491	jonų	genitive plural of jònas	/ˈjoːnuː/
 5492	skrendate	to fly	[²ˈsʲkrʲɛnˑdɐtʲɛ]
 5493	šachmatai	chess	[ʃɐ²ˈxmɑːtɐɪ]
 5494	giliausią	deep	[ɡʲɪ¹ˈlʲæˑʊsʲæː]
@@ -5497,8 +5497,8 @@ rank	word	english	ipa
 5496	investuotojas	investor	[ɪnʲʋʲɛ¹ˈstuɔtoːjɛs]
 5497	atidarytų	to open	[ɐtʲɪdɐ¹ˈrʲiːtuː]
 5498	kulkšnis	ankle	[kʊlʲkˈʃʲnʲɪs]
-5499	laiptinė	a separated part of a building with a staircase, connecting…	
-5500	atletas	athlete	
+5499	laiptinė	a separated part of a building with a staircase, connecting…	/ˈlɐɪptɪneː/
+5500	atletas	athlete	/ɐˈtlɛtɐs/
 5501	veiksmingas	effective, efficacious	[ʋʲɛɪk¹ˈsʲmʲɪŋɡɐs]
 5502	gėle	flower	[ɡʲeːˈlʲɛ]
 5503	težino	to know	[tʲɛˈʒʲɪnoː]
@@ -5514,7 +5514,7 @@ rank	word	english	ipa
 5513	mažesnę	little, small	[mɐˈʒʲɛsʲnʲæː]
 5514	kalbėdavo	to speak	[kɐlʲ¹ˈbʲeːdɐʋoː]
 5515	prokuratūra	procuratorate	[prɔkʊrɐtuːˈrɐ]
-5516	svaigti	to be giddy	
+5516	svaigti	to be giddy	/ˈsvɐɪɡtɪ/
 5517	omaro	genitive singular of omãras	[oː²ˈmɑːroː]
 5518	balkonas	balcony	[bɐlˈkɔnɐs]
 5519	vakaru	instrumental singular of vãkaras	[²ˈʋɑːkɐrʊ]
@@ -5524,28 +5524,28 @@ rank	word	english	ipa
 5523	skysčiu	liquid, fluid	[sʲkʲiːˈʃʲt͡ʃʲʊ̟]
 5524	vartosi	to use	
 5525	barjeras	hurdle	[bɐrʲˈjɛrɐs]
-5526	aštuonkojis	octopus	
+5526	aštuonkojis	octopus	/ɐʃtuənˈkoːjɪs/
 5527	dusyk	twice	[ˈdʊsʲiːk]
 5528	terorizmu	instrumental singular of terori̇̀zmas	[tʲɛrɔrʲɪˈzmʊ]
 5529	švelnesnis	soft; smooth	[ʃʲʋʲɛlʲˈnʲɛsʲnʲɪs]
 5530	mažinti	to decrease, reduce, lessen	[²ˈmɑːʒʲɪnʲtʲɪ]
 5531	pieštuku	pencil	[pʲiɛʃtʊˈkʊ]
-5532	skaitmeninis	digital	
+5532	skaitmeninis	digital	/skɐɪtmɛˈnɪnɪs/
 5533	pederastas	pederast	[pʲɛdʲɛ²ˈrɑːstɐs]
 5534	bėgate	to run	[¹ˈbʲeːɡɐtʲɛ]
 5535	tylėjau	to silence	[tʲiː¹ˈlʲeːjɛʊ]
 5536	violetinis	purple, violet	[ʋʲɪjɔ̟ˈlʲɛtʲɪnʲɪs]
 5537	pieštukų	pencil	[pʲiɛˈʃtʊkuː]
-5538	šviesti	to shine, emit light	
+5538	šviesti	to shine, emit light	/ˈʃviəstɪ/
 5539	samueli	vocative singular of Samuèlis	[sɐmʊ.ˈɛlʲɪ]
 5540	algoritmai	algorithm	[ɐlɡɔˈrʲɪtmɐɪ]
-5541	komercinis	commercial	
+5541	komercinis	commercial	/koːˈmɛrt͡sɪnɪs/
 5542	skaitykite	to read	[skɐɪ¹ˈtʲiːkʲɪtʲɛ]
 5543	nugalėjęs	to overcome, to surmount; to defeat	[nʊɡɐ¹ˈlʲeːjæːs]
 5544	blizgantis	to shine, glitter, sparkle	[ˈbʲlʲɪzɡɐnʲtʲɪs]
 5545	tona	ton	
 5546	pritariate	to approve, to assent	[ˈpʲrʲɪtɐrʲɛtʲɛ]
-5547	techninis	technical	
+5547	techninis	technical	/ˈtɛxnɪnɪs/
 5548	mažuosius	little, small	[mɐ¹ˈʒuɔsʲʊ̟s]
 5549	kraujais	blood	[krɒʊ²ˈjɛɪˑs]
 5550	pritarė	to approve, to assent	[ˈpʲrʲɪtɐrʲeː]
@@ -5555,7 +5555,7 @@ rank	word	english	ipa
 5554	mazgas	knot	[²ˈmɑːzɡɐs]
 5555	gimnazija	high school	[ɡʲɪm²ˈnɑːzʲɪjɛ]
 5556	šuneliai	plural nominative of šunẽlis	[ʃʊ²ˈnʲæːlʲɛɪ]
-5557	smerkti	to condemn	
+5557	smerkti	to condemn	/smɛrktɪ/
 5558	tenkinti	to please	[¹ˈtʲæˑŋʲkʲɪnʲtʲɪ]
 5559	tari	to pronounce; to articulate; to enunciate; to say	[tɐˈrʲɪ]
 5560	laukiant	present adverbial padalyvis participle of laukti	[¹ˈlɑˑʊkʲɛnt]
@@ -5592,7 +5592,7 @@ rank	word	english	ipa
 5591	senomis	old	[sʲɛnoːˈmʲɪs]
 5592	upelis	rivulet, streamlet; brook	[ʊ²ˈpʲæːlʲɪs]
 5593	patikčiau	to appeal, like	[pɐˈtʲɪkt͡ʃʲɛʊ]
-5594	architektūra	architecture	
+5594	architektūra	architecture	/ɐrxɪtɛktuːˈrɐ/
 5595	antri	non-pronominal masculine nominative plural positive degree	[ɐnʲˈtʲrʲɪ]
 5596	pritarimas	approval	[pʲrʲɪtɐˈrʲɪmɐs]
 5597	žemyno	continent	[ʒʲɛ¹ˈmʲiːnoː]
@@ -5622,10 +5622,10 @@ rank	word	english	ipa
 5621	ąsotis	jug; pitcher	[ɑː²ˈsoːtʲɪs]
 5622	kriterijus	criterion	[krʲɪˈtʲɛrʲɪjʊ̟s]
 5623	imantis	to take	[ˈɪmɐnʲtʲɪs]
-5624	uždarai	to close, to shut	
+5624	uždarai	to close, to shut	/ˈʊʒdɐrɐɪ/
 5625	ypatingiems	special, especial, particular, peculiar	[iːpɐ¹ˈtʲɪŋʲɡʲiɛms]
 5626	kompiuteriui	computer	[kɔmʲˈpʲʊ̟tʲɛrʲʊ̟ɪ]
-5627	kijeve	locative/vocative singular of Ki̇̀jevas	
+5627	kijeve	locative/vocative singular of Ki̇̀jevas	/ˈkɪjɛvɛ/
 5628	metui	dative singular of mẽtas	[²ˈmʲæːtʊɪ]
 5629	pasakant	present adverbial padalyvis participle of pasakyti	[pɐ²ˈsɑːkɐnt]
 5630	žiūrėkime	to look at; to look into, observe; to watch	[ʒʲu̟ː¹ˈrʲeːkʲɪmʲɛ]
@@ -5645,14 +5645,14 @@ rank	word	english	ipa
 5644	blizgesys	brightness	[bʲlʲɪzʲɡʲɛ²ˈsʲiːs]
 5645	archyvų	archive	[ɐrʲ²ˈxʲiːʋuː]
 5646	akie	eye	[ɐ²ˈkʲiɛ]
-5647	madride	locative singular of Madri̇̀das	
+5647	madride	locative singular of Madri̇̀das	/mɐdrɪˈdɛ/
 5648	ispanai	Spanish, Spaniard	[ɪ²ˈspɑːnɐɪ]
 5649	sėdėdama	adverbial pusdalyvis participle of sėdėti	[sʲeː¹ˈdʲeːdɐmɐ]
 5650	uostus	harbor, port	[ˈuɔstʊs]
-5651	barus	bar	
+5651	barus	bar	/bɐˈrʊs/
 5652	sėklidės	testicle	[sʲeːˈklʲɪdʲeːs]
 5653	užsibūti	to linger, to stay too long; to overstay one's welcome	
-5654	rumunijos	genitive of Rumunija	
+5654	rumunijos	genitive of Rumunija	/rʊˈmʊnɪjoːs/
 5655	žaltys	grass snake	[ʒɐlʲ²ˈtʲiːs]
 5656	simfonija	symphony	[sʲɪmˈfɔnʲɪjɛ]
 5657	širdimis	instrumental plural of širdi̇̀s	[ʃʲɪrʲdʲɪˈmʲɪs]
@@ -5700,7 +5700,7 @@ rank	word	english	ipa
 5699	gete	ghetto	[ɡʲɛˈtʲɛ]
 5700	manysi	to deem	[mɐ¹ˈnʲiːsʲɪ]
 5701	bendrausiu	to associate	[bʲɛn¹ˈdrɑˑʊsʲʊ̟]
-5702	jūrininkas	seaman, sailor, mariner	
+5702	jūrininkas	seaman, sailor, mariner	/ˈjuːrɪnɪnkɐs/
 5703	švedas	Swede	[ˈʃʲʋʲɛdɐs]
 5704	liūtė	lioness	[²ˈlʲu̟ːtʲeː]
 5705	esančiam	dative masculine singular of esąs	[²ˈæːsɐnʲt͡ʃʲɛm]
@@ -5721,7 +5721,7 @@ rank	word	english	ipa
 5720	giedoti	to sing	[ɡʲiɛ¹ˈdoːtʲɪ]
 5721	šokančią	accusative feminine singular of šokantis	[¹ˈʃoːkɐnʲt͡ʃʲæː]
 5722	moteriški	feminine; female	[¹ˈmoːtʲɛrʲɪʃʲkʲɪ]
-5723	dainius	poet, bard, songwriter	
+5723	dainius	poet, bard, songwriter	/ˈdɐɪnʲʊs/
 5724	gitaristas	guitarist	[ɡʲɪtɐˈrʲɪstɐs]
 5725	pastebėsi	to notice, to observe	[pɐsʲtʲɛ¹ˈbʲeːsʲɪ]
 5726	abejojo	to doubt, to question	[ɐbʲɛ¹ˈjo̟ːjo̟ː]
@@ -5752,13 +5752,13 @@ rank	word	english	ipa
 5751	baigsite	to finish	[²ˈbɐɪˑksʲɪtʲɛ]
 5752	buvusiuoju	former, past, ex-	[ˈbʊʋʊsʲu̟ɔjʊ̟]
 5753	reklamuoti	advertise	[rʲɛklɐ¹ˈmuɔtʲɪ]
-5754	argentinos	genitive singular of Argentinà	
+5754	argentinos	genitive singular of Argentinà	/ɐrɡɛnˈtɪnoːs/
 5755	nugalėtų	to overcome, to surmount; to defeat	[nʊɡɐ¹ˈlʲeːtuː]
 5756	rankraštis	manuscript	[²ˈrɐŋˑkrɐʃʲtʲɪs]
 5757	sukaktuvės	anniversary	[sʊkɐkˈtʊʋʲeːs]
 5758	žodyje	word	[²ˈʒoːdʲiːjɛ]
 5759	duodate	to give	[¹ˈduɔdɐtʲɛ]
-5760	centrai	nominative/vocative plural of ceñtras	
+5760	centrai	nominative/vocative plural of ceñtras	/t͡sɛntrɐɪ/
 5761	kultūroje	culture	[kʊl²ˈtuːroːjɛ]
 5762	kupranugaris	camel	[kʊprɐnʊ²ˈɡɑːrʲɪs]
 5763	amsterdamo	genitive singular of Amsterdamas	[¹ˈɑˑmʲsʲtʲɛrdɐmoː]
@@ -5809,14 +5809,14 @@ rank	word	english	ipa
 5808	kaladė	deck of cards	[kɐ²ˈlɑːdʲeː]
 5809	ypatingomis	special, especial, particular, peculiar	[iːpɐ¹ˈtʲɪŋɡoːmʲɪs]
 5810	sekse	locative singular of sèksas	[sɛkˈsɛ]
-5811	putė	vulva; cunt, pussy	
+5811	putė	vulva; cunt, pussy	/ˈpuːtɛ/
 5812	sutarsime	to arrange	[sʊ²ˈtɐrʲˑsʲɪmʲɛ]
 5813	gerčiau	drink	[¹ˈɡʲæˑrʲt͡ʃʲɛʊ]
 5814	orkaitė	oven	[¹ˈoːrkɐɪtʲeː]
 5815	gerdami	adverbial pusdalyvis participle of gerti	[ɡʲɛrdɐˈmʲɪ]
 5816	olandas	a Dutchman	[ɔ¹ˈlɑˑndɐs]
 5817	apsišaukėlis	impostor	[ɐpʲsʲɪ²ˈʃɒʊˑkʲeːlʲɪs]
-5818	stereotipas	stereotype	
+5818	stereotipas	stereotype	/stɛrɛoːˈtɪpɐs/
 5819	uždarome	to close, to shut	
 5820	vidurinis	middle	[ʋʲɪdʊˈrʲɪnʲɪs]
 5821	trumpalaikis	ephemeral, short-term	[trʊmpɐ²ˈlɐɪˑkʲɪs]
@@ -5834,15 +5834,15 @@ rank	word	english	ipa
 5833	šokęs	jump, leap	[¹ˈʃoːkʲæːs]
 5834	darydavai	to make	[dɐ¹ˈrʲiːdɐʋɐɪ]
 5835	perdaryti	to redo, to remake	[¹ˈpʲæˑrdɐrʲiːtʲɪ]
-5836	kreditas	credit	
+5836	kreditas	credit	/ˈkrɛdɪtɐs/
 5837	rūkalius	smoker	[ɾuːˈkɑːlʲʊ̟s]
 5838	naršyti	to ransack, rummage	[nɐrʲ¹ˈʃʲiːtʲɪ]
 5839	skeletas	skeleton	[sʲkʲɛˈlʲɛtɐs]
-5840	ugniagesys	fireman, firefighter	
+5840	ugniagesys	fireman, firefighter	/ʊɡnʲɐɡɛˈsiːs/
 5841	klausytojas	listener	[klɒʊ¹ˈsʲiːtoːjɛs]
 5842	giesmininkas	singer	[ɡʲiɛsʲmʲɪ²ˈnʲɪŋˑkɐs]
 5843	pasakytas	to say, to tell	[pɐsɐ¹ˈkʲiːtɐs]
-5844	čekijos	genitive of Čekija	
+5844	čekijos	genitive of Čekija	/ˈt͡ʃɛkɪjoːs/
 5845	mirdavo	to die	[²ˈmʲɪrˑdɐʋoː]
 5846	baronienė	baroness	[bɐroː¹ˈnʲiɛnʲeː]
 5847	giminaitė	a female relative	[ɡʲɪmʲɪ¹ˈnɑˑɪtʲeː]
@@ -5860,12 +5860,12 @@ rank	word	english	ipa
 5859	slidus	slippery	[sʲlʲɪˈdʊs]
 5860	treti	non-pronominal nominative/vocative plural masculine of…	[tʲrʲɛˈtʲɪ]
 5861	įdomesnė	interesting	[iːdoːˈmʲɛsʲnʲeː]
-5862	hiena	hyena	
+5862	hiena	hyena	/ɣiəˈnɐ/
 5863	rugsėjis	September	[rʊk¹ˈsʲeːjɪs]
 5864	simone	locative/vocative singular of Si̇̀monas	[ˈsʲɪmɔnʲɛ]
 5865	vyriškus	masculine, virile; male	[¹ˈʋʲiːrʲɪʃkʊs]
 5866	bėkime	to run	[¹ˈbʲeːkʲɪmʲɛ]
-5867	apimtis	scope	
+5867	apimtis	scope	/ɐpɪmˈtɪs/
 5868	armėnė	Armenian	[ɐrʲ¹ˈmʲeːnʲeː]
 5869	slaugyti	to help, provide assistance	[slɒʊ¹ˈɡʲiːtʲɪ]
 5870	vasaris	February	[ʋɐ²ˈsɑːrʲɪs]
@@ -5880,7 +5880,7 @@ rank	word	english	ipa
 5879	pirate	locative singular of pirãtas	[pʲɪrɐˈt̪ʲɛ]
 5880	vokiškų	German	[¹ˈʋoːkʲɪʃkuː]
 5881	darydavome	to make	[dɐ¹ˈrʲiːdɐʋoːmʲɛ]
-5882	nekęstų	to hate	
+5882	nekęstų	to hate	/nɛˈkæːstuː/
 5883	ištarei	to pronounce, to articulate	[ˈɪʃtɐrʲɛɪ]
 5884	mažesnį	little, small	[mɐˈʒʲɛsʲnʲiː]
 5885	apgautas	to cheat; to fool	[ɐb¹ˈɡɑˑʊtɐs]
@@ -5896,11 +5896,11 @@ rank	word	english	ipa
 5895	pačiomis	oneself: himself, herself, myself, yourself	[pɐt͡ʃʲo̟ːˈmʲɪs]
 5896	duodame	to give	[¹ˈduɔdɐmʲɛ]
 5897	galinčios	genitive feminine singular	[²ˈɡɑːlʲɪnʲt͡ʃʲo̟ːs]
-5898	mėlyne	blueberry	
+5898	mėlyne	blueberry	/meːˈliːneː/
 5899	sultonas	sultan	[sʊl²ˈtoːnɐs]
 5900	uogienė	jam, preserve, conserve, varenye	[uɔ²ˈɡʲiɛnʲeː]
 5901	tasai	that	[tɐ²ˈsɐɪˑ]
-5902	bulgarijos	genitive of Bulgarija	
+5902	bulgarijos	genitive of Bulgarija	/bʊlˈɡaːrɪjoːs/
 5903	infliacija	inflation	[ɪnʲ²ˈfʲlʲæːt͡sʲɪjɛ]
 5904	žodyną	vocabulary	[ʒoː¹ˈdʲiːnɑː]
 5905	mylinčią	accusative feminine singular of mylintis	[¹ˈmʲiːlʲɪnʲt͡ʃʲæː]
@@ -5923,21 +5923,21 @@ rank	word	english	ipa
 5922	ūko	nebula	[²ˈuːkoː]
 5923	imtynės	wrestling	[ɪmʲ²ˈtʲiːnʲeːs]
 5924	teisinis	legal, relating to law	[¹ˈtʲæˑɪsʲɪnʲɪs]
-5925	japonas	Japanese	
+5925	japonas	Japanese	/jɐˈpoːnɐs/
 5926	keitimas	change	[kʲɛɪˈtʲɪmɐs]
 5927	ugnikalnio	volcano	[ʊˈɡnʲɪkɐlʲnʲo̟ː]
 5928	ėjus	past adverbial padalyvis participle of eiti	[²ˈeːjʊ̟s]
 5929	kanadietis	Canadian	[kɐnɐ²ˈdʲiɛtʲɪs]
 5930	dyzelis	diesel engine, diesel motor	[¹ˈdʲiːzʲɛlʲɪs]
 5931	tariu	to pronounce; to articulate; to enunciate; to say	[tɐˈrʲʊ̟]
-5932	dominikai	dative singular of Dominikà	
-5933	patrauklios	attractive	
+5932	dominikai	dative singular of Dominikà	/doːmɪˈnɪkɐɪ/
+5933	patrauklios	attractive	/pɐˈtrɐʊklʲoːs/
 5934	dukromis	instrumental plural of dukrà	[ˈdʊkroːmʲɪs]
 5935	švelnių	soft; smooth	[ʃʲʋʲɛlʲ²ˈnʲu̟ː]
 5936	įdomesnių	interesting	[iːdoːmʲɛ²ˈsʲnʲu̟ː]
 5937	sakantį	accusative masculine singular of sakantis	[²ˈsɑːkɐnʲtʲiː]
 5938	kaltink	to accuse, to charge; to prosecute, to indict	[¹ˈkɑˑlʲtʲɪŋk]
 5939	mėnuliu	moon	[mʲeːnʊˈlʲʊ̟]
-5940	fidži	vocative of Fi̇̀džis	
+5940	fidži	vocative of Fi̇̀džis	/ˈfɪd͡ʒɪ/
 5941	svajonėms	dream; daydream	[sʋɐ²ˈjo̟ːnʲeːms]
 5942	gražiam	beautiful	[ɡrɐ¹ˈʒʲɑˑm]

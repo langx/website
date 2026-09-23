@@ -54,8 +54,18 @@ details.
 - **Danish** — the [NST Pronunciation Lexicon for Danish](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-26/)
   (Nordisk Språkteknologi, kept by the National Library of Norway), CC0.
   `scripts/wordlists/ipa-nst-danish.ts` converts its SAMPA to IPA.
-- **Icelandic, and a few words in Hungarian, Ukrainian, Macedonian, Polish
-  and Tagalog** — the word lists of [goruut](https://github.com/neurlang/goruut),
+- **Icelandic** — the [Icelandic Pronunciation Dictionary for Language
+  Technology](https://github.com/grammatek/iceprondict) by Anna Björk
+  Nikulásdóttir, Bjarki Ármannsson, Bryndís Bergþórsdóttir and Eiríkur
+  Rögnvaldsson (Grammatek ehf., Language Technology Programme for Icelandic),
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Standard
+  pronunciation; the stress mark on the first syllable is added.
+- **Arabic, Hebrew, Persian, Hindi, Urdu, Bengali, Malayalam, Bulgarian,
+  Lithuanian, Russian and Mandarin** — for words Wiktionary gives no IPA, its
+  own romanisation or stress-marked spelling of the word, read by the rules in
+  `scripts/wordlists/ipa-translit.ts`. Same source and licence as the meanings.
+- **A few words in Icelandic, Hungarian, Ukrainian, Macedonian, Polish,
+  Bulgarian and Tagalog** — the word lists of [goruut](https://github.com/neurlang/goruut),
   used only in languages where they agree with Wiktionary as often as any
   other source must. MIT licence:
 
