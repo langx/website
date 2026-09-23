@@ -4,6 +4,7 @@
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { LANGUAGE_PAIRS } from '$lib/data/language-pairs';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
+	import { PAIR_DEPTH } from '$lib/utils/overlap';
 
 	const nf = new Intl.NumberFormat('en-US');
 	const byCode = new Map(WORD_LISTS.map((l) => [l.code, l]));
@@ -35,6 +36,9 @@
 							<ScriptDisc nativeName={b.nativeName} code={b.code} size={30} />
 						</span>
 						<span class="names">{a.name} and {b.name}</span>
+						<span class="share" aria-hidden="true"
+							><span style="width: {Math.max((p.count / PAIR_DEPTH) * 100, 1)}%" /></span
+						>
 						<span class="n tabular">{nf.format(p.count)} words</span>
 					</a>
 				</li>
@@ -51,6 +55,8 @@
 </div>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	.rows {
 		border-top: 1px solid var(--color--border);
 
@@ -83,8 +89,33 @@
 		font-weight: 800;
 	}
 
-	.n {
+	// Each row's share of the 2,000 words compared, on one scale down the
+	// list, so the sorted rows read as the bar chart they are: three pairs
+	// that are nearly one language, then a long tail of neighbours.
+	.share {
+		flex: 0 0 auto;
+		width: 10rem;
+		height: 6px;
 		margin-left: auto;
+		border-radius: var(--radius-pill);
+		background: var(--color--muted);
+		overflow: hidden;
+
+		span {
+			display: block;
+			height: 100%;
+			border-radius: inherit;
+			background: var(--color--text-shade);
+		}
+
+		@include for-phone-only {
+			width: 3.5rem;
+		}
+	}
+
+	.n {
+		flex: 0 0 5.5rem;
+		text-align: right;
 		color: var(--color--text-quiet);
 		font-size: 0.8125rem;
 	}

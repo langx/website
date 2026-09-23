@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
-	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
 	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import PairOverlap from '$lib/components/molecules/PairOverlap.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import type { LanguagePair } from '$lib/data/language-pairs';
@@ -82,15 +82,7 @@
 		the same meaning in both. If you have one of the two, this is the part you do not have to learn."
 	/>
 
-	<div class="pair-head">
-		<span class="side"
-			><ScriptDisc nativeName={a.nativeName} code={a.code} size={44} /><span>{a.name}</span></span
-		>
-		<span class="amp" aria-hidden="true">+</span>
-		<span class="side"
-			><ScriptDisc nativeName={b.nativeName} code={b.code} size={44} /><span>{b.name}</span></span
-		>
-	</div>
+	<PairOverlap {a} {b} count={total} />
 
 	<p class="caveat">
 		A shared word is not proof of a shared root. Two languages can land on the same spelling by
@@ -184,27 +176,6 @@
 		border: 0;
 	}
 
-	.pair-head {
-		display: flex;
-		align-items: center;
-		gap: var(--space-md);
-		padding-bottom: var(--space-md);
-
-		.side {
-			display: inline-flex;
-			align-items: center;
-			gap: var(--space-2xs);
-			font-family: var(--font--title);
-			font-weight: 800;
-			font-size: 1.125rem;
-		}
-
-		.amp {
-			color: var(--color--text-quiet);
-			font-size: 1.125rem;
-		}
-	}
-
 	.caveat {
 		color: var(--color--text-shade);
 		max-width: 64ch;
@@ -230,7 +201,7 @@
 			font-size: 0.6875rem;
 			text-transform: uppercase;
 			letter-spacing: 0.04em;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			font-weight: 700;
 		}
 
@@ -260,7 +231,7 @@
 			font-size: 0.75rem;
 			font-weight: 600;
 			text-transform: uppercase;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 		}
 
 		.gloss {
@@ -270,7 +241,7 @@
 		.r {
 			width: 6.5rem;
 			text-align: right;
-			color: var(--color--text-tertiary);
+			color: var(--color--text-quiet);
 			font-size: 0.8125rem;
 		}
 
