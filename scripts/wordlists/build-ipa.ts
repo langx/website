@@ -9,19 +9,21 @@
  * It writes a fourth column, `ipa`, into static/data/most-common-words/*.tsv
  * and updates the byte counts in src/lib/data/most-common-words.ts.
  *
- * Three sources, in this order:
+ * Four sources, in this order:
  *
  *   - Wiktionary, through kaikki.org — a transcription a person wrote, with the
  *     stress where it belongs. The same dumps build.ts reads for meanings, but
  *     the gzipped per-language files: a tenth of the size, and the only part of
  *     them this needs is `sounds`.
- *   - For Norwegian, NB Uttale, the National Library of Norway's
- *     pronunciation dictionary (ipa-nb-uttale.ts).
+ *   - For Norwegian and Danish, the pronunciation dictionaries linguists made
+ *     for the National Library of Norway: NB Uttale (ipa-nb-uttale.ts) and
+ *     NST's Danish lexicon (ipa-nst-danish.ts).
  *   - eSpeak NG, or for six languages rules of our own (ipa-turkish.ts,
  *     ipa-rules.ts), for the words Wiktionary has no transcription for —
  *     mostly inflected forms ("hablamos"), which Wiktionary files under their
  *     lemma. Rules are good where the spelling is regular, and eSpeak's
  *     dictionaries cover the common irregulars of a frequency list.
+ *   - goruut's word lists (ipa-goruut.ts), for what is left.
  *
  * Some languages get no eSpeak fallback at all: it has no voice for Galician or
  * Tagalog, and it cannot read unvowelled Arabic or Hebrew or tell which of a
@@ -39,6 +41,8 @@ import path from 'node:path';
 import { WORDLIST_LANGUAGES, type WordlistLanguage } from './languages.ts';
 import { turkishIpa } from './ipa-turkish.ts';
 import { nbUttale } from './ipa-nb-uttale.ts';
+import { nstDanish } from './ipa-nst-danish.ts';
+import { goruut } from './ipa-goruut.ts';
 import { albanianIpa, estonianIpa, galicianIpa, georgianIpa, malayIpa } from './ipa-rules.ts';
 
 const ROOT = path.resolve(import.meta.dirname, '../..');
@@ -71,8 +75,21 @@ interface Accent {
 	 * A pronunciation dictionary to fill the gaps before rules or eSpeak are
 	 * asked, given the words wanted and the cache directory.
 	 */
+	/**
+	 * Differences of notation only, for comparing this language's sources:
+	 * applied to both sides of the agreement test, never to what is shown.
+	 */
+	same?: [RegExp, string][];
 	lexicon?: {
 		name: string;
+		/**
+		 * A lexicon linguists wrote, used whatever its agreement: the test
+		 * then measures Wiktionary as much as it. Danish is the case — much of
+		 * Wiktionary's Danish is spelling, "hage" /haːɡə/ for [ˈhaːə], and NST
+		 * agrees on 54%; of the disagreements read by hand on 23 September 2026,
+		 * NST was right or the word a homograph ("kvarter") in every one.
+		 */
+		trusted?: boolean;
 		read: (words: Set<string>, cache: string) => Promise<Map<string, string>>;
 	};
 }
@@ -89,7 +106,23 @@ const ACCENTS: Record<string, Accent> = {
 	cs: { espeak: 'cs' },
 	// Stød sits after the vowel; eSpeak writes it before, and a transcription
 	// without it is one plenty of dictionaries print.
-	da: { espeak: 'da', fix: [[/ʔ/g, '']] },
+	// Wiktionary writes much Danish close to its spelling — "bakke" /bakə/,
+	// "tur" /tuːr/ — where NST writes what is said, [ˈbɑɡə] and [ˈtuɐ̯ˀ]: a stop
+	// after a vowel is unaspirated, and an "r" after one is a vowel. Those
+	// count as the same when the two are compared.
+	da: {
+		espeak: 'da',
+		fix: [[/ʔ/g, '']],
+		lexicon: { name: 'NST', read: nstDanish, trusted: true },
+		same: [
+			[/(?<=[aeiouyæøœəɒʌ])p/g, 'b'],
+			[/(?<=[aeiouyæøœəɒʌ])t/g, 'd'],
+			[/(?<=[aeiouyæøœəɒʌ])k/g, 'g'],
+			[/(?<=[aeiouyæøœəɒ])r/g, 'a'],
+			[/ʌ/g, 'o'],
+			[/ɣ/g, '']
+		]
+	},
 	// "-er" as a vowel: eSpeak writes it "ɜ", Wiktionary and Duden "ɐ".
 	de: { espeak: 'de', prefer: ['Standard'], fix: [[/ɜ/g, 'ɐ']] },
 	el: { espeak: 'el' },
@@ -124,7 +157,7 @@ const ACCENTS: Record<string, Accent> = {
 	no: {
 		espeak: 'nb',
 		prefer: ['Urban-East-Norwegian'],
-		lexicon: { name: 'NB Uttale', read: nbUttale }
+		lexicon: { name: 'NB Uttale', read: nbUttale, trusted: true }
 	},
 	pl: { espeak: 'pl' },
 	// eSpeak's Brazilian notation, rewritten into Wiktionary's: "y" for an
@@ -396,19 +429,6 @@ function skeleton(ipa: string, stress = true): string {
 	);
 }
 
-function distance(a: string, b: string): number {
-	const x = [...a];
-	const y = [...b];
-	let prev = Array.from({ length: y.length + 1 }, (_, i) => i);
-	for (let i = 1; i <= x.length; i++) {
-		const cur = [i];
-		for (let j = 1; j <= y.length; j++)
-			cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (x[i - 1] === y[j - 1] ? 0 : 1));
-		prev = cur;
-	}
-	return prev[y.length];
-}
-
 /** How many sample words eSpeak is checked against. */
 const SAMPLE = 1000;
 /**
@@ -422,6 +442,66 @@ const SAMPLE = 1000;
  * Malay 67%, where eSpeak managed at most 58%.
  */
 const TRUST = 0.6;
+
+/**
+ * goruut's name for each language's word list (ipa-goruut.ts). Hebrew is
+ * `hebrew3`, the list keyed by unvowelled spelling as the word lists are.
+ */
+const GORUUT: Record<string, string> = {
+	af: 'afrikaans',
+	ar: 'arabic',
+	bg: 'bulgarian',
+	bn: 'bengali',
+	bs: 'bosnian',
+	ca: 'catalan',
+	cs: 'czech',
+	da: 'danish',
+	de: 'german',
+	el: 'greek',
+	en: 'english',
+	eo: 'esperanto',
+	es: 'spanish',
+	et: 'estonian',
+	eu: 'basque',
+	fa: 'farsi',
+	fi: 'finnish',
+	fr: 'french',
+	gl: 'galician',
+	he: 'hebrew3',
+	hi: 'hindi',
+	hr: 'croatian',
+	hu: 'hungarian',
+	hy: 'armenian',
+	id: 'indonesian',
+	is: 'icelandic',
+	it: 'italian',
+	ka: 'georgian',
+	ko: 'korean',
+	lt: 'lithuanian',
+	lv: 'latvian',
+	mk: 'macedonian',
+	ml: 'malayalam',
+	ms: 'malay',
+	nl: 'dutch',
+	no: 'norwegian',
+	pl: 'polish',
+	pt: 'portuguese',
+	ro: 'romanian',
+	ru: 'russian',
+	sk: 'slovak',
+	sl: 'slovenian',
+	sq: 'albanian',
+	sr: 'serbian',
+	sv: 'swedish',
+	ta: 'tamil',
+	te: 'telugu',
+	tl: 'tagalog',
+	tr: 'turkish',
+	uk: 'ukrainian',
+	ur: 'urdu',
+	vi: 'vietnamese',
+	zh: 'chinese'
+};
 
 /** The entries of a dictionary for these words, as a reader would return them. */
 function pick(dict: Map<string, string>, words: string[]) {
@@ -450,10 +530,16 @@ function readerFor(accent: Accent) {
  * the same spelling rules, so agreement here is the best estimate of accuracy
  * there.
  */
-function agreement(read: (words: string[]) => Map<string, string>, wiki: Map<string, string>) {
+function agreement(
+	read: (words: string[]) => Map<string, string>,
+	wiki: Map<string, string>,
+	same: [RegExp, string][] = []
+) {
+	const skel = (ipa: string, stress: boolean) =>
+		same.reduce((s, [from, to]) => s.replace(from, to), skeleton(ipa, stress));
 	const sample = [...wiki].filter((_, i) => i % Math.max(1, Math.floor(wiki.size / SAMPLE)) === 0);
 	const guesses = read(sample.map(([w]) => w));
-	let same = 0;
+	let agreed = 0;
 	for (const [w, ipa] of sample) {
 		const guess = guesses.get(w);
 		// A word of one syllable has nowhere else to put the stress, and
@@ -463,16 +549,14 @@ function agreement(read: (words: string[]) => Map<string, string>, wiki: Map<str
 		// the Albanian and Georgian rules leave stress out, and the page shows
 		// what they say, not what they do not.
 		const marked = ipa.includes('ˈ') && syllabic > 1 && Boolean(guess?.includes('ˈ'));
-		if (guess && distance(skeleton(guess, marked), skeleton(ipa, marked)) === 0) same++;
+		if (guess && skel(guess, marked) === skel(ipa, marked)) agreed++;
 		// IPA_DEBUG=1 prints every disagreement, for tuning a language's notation.
 		else if (process.env.IPA_DEBUG)
 			console.log(
-				`MISS\t${w}\t${ipa}\t${guess}\t${skeleton(ipa, marked)}\t${
-					guess ? skeleton(guess, marked) : ''
-				}`
+				`MISS\t${w}\t${ipa}\t${guess}\t${skel(ipa, marked)}\t${guess ? skel(guess, marked) : ''}`
 			);
 	}
-	return sample.length ? same / sample.length : 0;
+	return sample.length ? agreed / sample.length : 0;
 }
 
 async function buildLanguage(lang: WordlistLanguage, slug: string) {
@@ -489,11 +573,12 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 	const lexicon = accent?.lexicon
 		? await accent.lexicon.read(words, path.join(ROOT, '.cache/wordlists'))
 		: new Map<string, string>();
-	const lexAgrees = lexicon.size ? agreement((ws) => pick(lexicon, ws), wiki) : 0;
-	const fromLex = new Map([...lexicon].filter(([w]) => !wiki.has(w) && lexAgrees >= TRUST));
+	const lexAgrees = lexicon.size ? agreement((ws) => pick(lexicon, ws), wiki, accent?.same) : 0;
+	const lexOk = lexAgrees >= TRUST || Boolean(accent?.lexicon?.trusted);
+	const fromLex = new Map([...lexicon].filter(([w]) => !wiki.has(w) && lexOk));
 
 	const read = accent ? readerFor(accent) : null;
-	const agrees = read ? agreement(read, wiki) : 0;
+	const agrees = read ? agreement(read, wiki, accent?.same) : 0;
 	const by = accent?.rules ? 'rules' : 'eSpeak';
 	// A clitic cut off by the tokeniser ("'t", "c'") is not a word eSpeak can
 	// read: it spells the letter.
@@ -502,16 +587,34 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 	);
 	const machine = read && agrees >= TRUST ? read(missing) : new Map<string, string>();
 
+	// Last, goruut's word lists, for whatever is still empty — and only where
+	// the list agrees with Wiktionary as well as any other source must.
+	const left = new Set(missing.filter((w) => !machine.has(w)));
+	let last = new Map<string, string>();
+	let lastAgrees = 0;
+	if (left.size && GORUUT[lang.code]) {
+		try {
+			const raw = await goruut(GORUUT[lang.code], words, path.join(ROOT, '.cache/wordlists'));
+			const list = new Map([...raw].map(([w, ipa]) => [w, `/${cleanEspeak(ipa)}/`]));
+			lastAgrees = agreement((ws) => pick(list, ws), wiki, accent?.same);
+			if (lastAgrees >= TRUST) last = new Map([...list].filter(([w]) => left.has(w)));
+		} catch {
+			// no list for this language
+		}
+	}
+
 	let fromWiki = 0;
 	let fromDict = 0;
 	let fromMachine = 0;
+	let fromLast = 0;
 	const out = ['rank\tword\tenglish\tipa'];
 	for (const [rank, word, english] of rows) {
 		const key = word.toLowerCase();
-		const ipa = wiki.get(key) ?? fromLex.get(key) ?? machine.get(key) ?? '';
+		const ipa = wiki.get(key) ?? fromLex.get(key) ?? machine.get(key) ?? last.get(key) ?? '';
 		if (wiki.has(key)) fromWiki++;
 		else if (fromLex.has(key)) fromDict++;
-		else if (ipa) fromMachine++;
+		else if (machine.has(key)) fromMachine++;
+		else if (ipa) fromLast++;
 		out.push(`${rank}\t${word}\t${english ?? ''}\t${ipa}`);
 	}
 	await writeFile(file, out.join('\n') + '\n');
@@ -521,9 +624,12 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 			(accent?.lexicon
 				? `${pct(fromDict)}% ${accent.lexicon.name} (agrees on ${Math.round(lexAgrees * 100)}%), `
 				: '') +
-			`${pct(fromMachine)}% ${by}, ` +
-			`${pct(rows.length - fromWiki - fromDict - fromMachine)}% none` +
-			(read ? ` (${by} agrees on ${Math.round(agrees * 100)}%)` : '')
+			`${pct(fromMachine)}% ${by}` +
+			(read ? ` (agrees on ${Math.round(agrees * 100)}%), ` : ', ') +
+			(lastAgrees
+				? `${pct(fromLast)}% goruut (agrees on ${Math.round(lastAgrees * 100)}%), `
+				: '') +
+			`${rows.length - fromWiki - fromDict - fromMachine - fromLast} words without`
 	);
 	return (await stat(file)).size;
 }
