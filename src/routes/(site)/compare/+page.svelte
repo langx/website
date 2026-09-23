@@ -87,6 +87,16 @@
 		partial: { mark: 'part', text: 'Trial or limited' },
 		no: { mark: 'no', text: 'No' }
 	} as const;
+	/**
+	 * Ads, with the mark on the reader's side: a check is good news, so no
+	 * ads gets the check and ads get the cross. Sources are in competitors.ts.
+	 */
+	const ADS = {
+		none: { mark: 'yes', text: 'None' },
+		'free-plan': { mark: 'part', text: 'Free plan only' },
+		yes: { mark: 'no', text: 'Yes' },
+		unknown: { mark: '', text: '—' }
+	} as const;
 	const KIND_LABEL = Object.fromEntries(KINDS.map((k) => [k.kind, k.title]));
 
 	$: ld = {
@@ -203,6 +213,7 @@
 							<th scope="col">Kind</th>
 							<th scope="col">Talk with real people</th>
 							<th scope="col">Free plan</th>
+							<th scope="col">Ads</th>
 							<th scope="col">Open source</th>
 							<th scope="col">Best for</th>
 						</tr>
@@ -226,6 +237,7 @@
 							<td>Language exchange</td>
 							<td><span class="cell yes">Yes</span></td>
 							<td><span class="cell yes">Yes</span></td>
+							<td><span class="cell yes">None</span></td>
 							<td><span class="cell yes">Yes (BSD-3)</span></td>
 							<td>Practice that teaches, without ads</td>
 						</tr>
@@ -248,6 +260,7 @@
 								<td>{KIND_LABEL[c.kind]}</td>
 								<td><span class="cell {PEOPLE[c.people].mark}">{PEOPLE[c.people].text}</span></td>
 								<td><span class="cell {FREE[c.freePlan].mark}">{FREE[c.freePlan].text}</span></td>
+								<td><span class="cell {ADS[c.ads].mark}">{ADS[c.ads].text}</span></td>
 								<td
 									><span class="cell {c.openSource ? 'yes' : 'no'}"
 										>{c.openSource ? 'Yes' : 'No'}</span
