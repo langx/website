@@ -67,7 +67,7 @@ export const WORD_LISTS: WordListMeta[] = [
 	{ code: 'tl', slug: 'tagalog', name: "Tagalog", nativeName: "Wikang Tagalog", count: 3068, bytes: 140131, glossCoverage: 100 },
 	{ code: 'ta', slug: 'tamil', name: "Tamil", nativeName: "தமிழ்", count: 2201, bytes: 131425, glossCoverage: 100 },
 	{ code: 'te', slug: 'telugu', name: "Telugu", nativeName: "తెలుగు", count: 1994, bytes: 102710, glossCoverage: 100 },
-	{ code: 'tr', slug: 'turkish', name: "Turkish", nativeName: "Türkçe", count: 10000, bytes: 373780, glossCoverage: 100 },
+	{ code: 'tr', slug: 'turkish', name: "Turkish", nativeName: "Türkçe", count: 10000, bytes: 437173, glossCoverage: 100 },
 	{ code: 'uk', slug: 'ukrainian', name: "Ukrainian", nativeName: "Українська", count: 10000, bytes: 674076, glossCoverage: 100 },
 	{ code: 'ur', slug: 'urdu', name: "Urdu", nativeName: "اردو", count: 2568, bytes: 117406, glossCoverage: 100 },
 	{ code: 'vi', slug: 'vietnamese', name: "Vietnamese", nativeName: "Tiếng Việt", count: 4921, bytes: 222416, glossCoverage: 100 }
