@@ -34,8 +34,15 @@ export type Competitor = {
 	 * whose "Contains ads" label is the developer's own declaration, and for
 	 * `free-plan` against the paid plan's page (Tandem's blog, HelloTalk's VIP
 	 * FAQ, Duolingo's blog, Conversation Exchange's membership page, Busuu's
-	 * premium plans, Memrise's Play description). Slowly and Lingbe are said
-	 * to drop ads on their paid plans only by third parties, so they stay `yes`.
+	 * premium plans, Memrise's Play description).
+	 *
+	 * Slowly and Lingbe stay `yes`. Slowly's own help centre confirms its ads
+	 * (Google AdMob and Unity Ads, including optional rewarded ads for coins:
+	 * help.slowly.app, "How can I report an inappropriate advertisement?") and
+	 * lists Slowly Plus as more friends, more Open Letters and bonus coins —
+	 * nowhere as ad-free. Lingbe's store listings show "Contains ads" and a
+	 * "Lingbe Pro" purchase, but neither they nor lingbe.com say Pro removes
+	 * ads; only third-party reviews do. Checked 23 September 2026.
 	 */
 	ads: 'none' | 'free-plan' | 'yes' | 'unknown';
 };

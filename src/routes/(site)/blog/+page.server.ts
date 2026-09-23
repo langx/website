@@ -6,7 +6,7 @@ export async function load() {
 		// keywords, author and three related posts in full, and serialised for
 		// sixty posts that was 145 KB of a 244 KB page.
 		posts: filteredPosts.map(
-			({ slug, title, date, excerpt, coverImage, thumbnail, readingTime, tags }) => ({
+			({ slug, title, date, excerpt, coverImage, thumbnail, readingTime, tags, apps }) => ({
 				slug,
 				title,
 				date,
@@ -14,7 +14,8 @@ export async function load() {
 				coverImage,
 				thumbnail,
 				readingTime,
-				tags
+				tags,
+				apps
 			})
 		)
 	};

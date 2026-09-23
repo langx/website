@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
+	import PostThumb from '$lib/components/blog/PostThumb.svelte';
 
 	/** A row in a list of posts — the app's own list grammar, not a card. */
 	export let title: string;
@@ -12,12 +13,25 @@
 	export let tags: string[] | undefined;
 	export let readingTime: string | undefined = undefined;
 	export let showImage = true;
+	/** The apps the post is about, for a comparison's icons (see PostThumb). */
+	export let apps: string[] | undefined = undefined;
+
+	/**
+	 * A photograph the post was written with is shown as it is. Everything else
+	 * — the drawn thumbnails, which were one glyph on a tint, and posts with no
+	 * image at all — gets a tile drawn from what the post is about.
+	 */
+	$: photo = coverImage && !thumbnail ? coverImage : undefined;
 </script>
 
 <a class="post" href="/{slug}" data-sveltekit-preload-data>
-	{#if showImage && (thumbnail || coverImage)}
+	{#if showImage}
 		<span class="thumb">
-			<img src={thumbnail ?? coverImage} alt="" loading="lazy" decoding="async" />
+			{#if photo}
+				<img src={photo} alt="" loading="lazy" decoding="async" />
+			{:else}
+				<PostThumb {title} {slug} {tags} {apps} />
+			{/if}
 		</span>
 	{/if}
 	<span class="body">
