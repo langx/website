@@ -1,53 +1,19 @@
 <script lang="ts">
 	import { reveal } from '$lib/utils/reveal';
 
-	// Real reviews, quoted as written, from the public Google Play listing
-	// (tech.newchapter.languageXchange). App Store ratings for the app exist
-	// (5.0 from 11 ratings on 2 Sep 2026) but no written App Store reviews are
-	// published in Apple's public feed, so the quotes are all Google Play.
-	const reviews = [
-		{
-			name: 'Amanda Hernandez',
-			store: 'Google Play',
-			body: 'Great app!! If you are wanting to have real conversations with someone that speaks the language you are trying to learn, this app is what you need!'
-		},
-		{
-			name: 'Erica Harris',
-			store: 'Google Play',
-			body: 'The admin team are awesome. This app has so much potential and they are working on it everyday to improve the experience.'
-		},
-		{
-			name: 'Burak',
-			store: 'Google Play',
-			body: "As an English teacher, I came across it by chance with the idea that my students could get extra practice. I'm already looking forward to it. I definitely recommend it!"
-		},
-		{
-			name: 'Aaron Ros',
-			store: 'Google Play',
-			body: "I must say this app look gorgeous. It's simple and straightforward but on the other hand has it's style and I personally have enjoyed signing up and completing my profile."
-		},
-		{
-			name: 'Dasha Durneva',
-			store: 'Google Play',
-			body: 'Simple yet user-friendly design encourages to chat with language learners like myself. Highly recommend this app!!!'
-		},
-		{
-			name: 'Martín Didoli',
-			store: 'Google Play',
-			body: 'The application is open source and the team behind it is really cool. Try it and meet cool people.'
-		}
-	];
+	// The words are in `data/reviews.ts`, where /compare reads them too.
+	import { reviews, ratingsLine } from '$lib/data/reviews';
 </script>
 
 <section id="reviews" class="reviews">
 	<header class="head" data-reveal use:reveal>
 		<span class="eyebrow">Reviews</span>
 		<h2>What people say</h2>
-		<p>Rated 5.0 on the App Store and 4.4 on Google Play.</p>
+		<p>{ratingsLine}</p>
 	</header>
 
 	<ul class="grid" role="list" data-reveal-children use:reveal={{ children: true, stagger: 0.08 }}>
-		{#each reviews as review}
+		{#each reviews.slice(0, 6) as review}
 			<li class="review">
 				<div class="stars" role="img" aria-label="5 out of 5 stars">
 					{#each [1, 2, 3, 4, 5] as star (star)}

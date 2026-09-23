@@ -3,12 +3,15 @@
 	import Mark from '$lib/components/globe/Mark.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { reveal } from '$lib/utils/reveal';
+
+	/** The one line above the buttons; a page with its own last word passes it. */
+	export let title = 'Practice a language with LangX';
 </script>
 
 <!-- The mark turning in three dimensions, one line, and the same two buttons as the top of the page. -->
 <section class="final" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
 	<Mark size={96} />
-	<h2>Practice a language with LangX</h2>
+	<h2>{title}</h2>
 	<div class="buttons" use:ownsPrimary>
 		<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
 		<Button href="https://get.langx.io" variant="secondary" size="lg" block
