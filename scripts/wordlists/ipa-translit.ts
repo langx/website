@@ -948,6 +948,20 @@ function zhSplit(run: string): string[] | null {
  * "shūfu" /ʂu⁵⁵ fu/. Tones as Wiktionary writes them, 55, 35, 214 and 51; a
  * neutral tone has no number. Tone sandhi is not applied.
  */
+/** The tone-marked syllables of a pinyin spelling, or null if it will not split. */
+export function pinyinSyllables(py: string): string[] | null {
+	const out: string[] = [];
+	for (const part of py
+		.toLowerCase()
+		.split(/[\s'’-]+/)
+		.filter(Boolean)) {
+		const syls = zhSplit(part.normalize('NFC'));
+		if (!syls) return null;
+		out.push(...syls);
+	}
+	return out;
+}
+
 export function chineseIpa({ romans }: Spelled): string | null {
 	const py = romans?.find((r) => /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüa-z]/.test(r));
 	if (!py) return null;
