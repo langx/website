@@ -59,7 +59,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.features {
 		padding: var(--space-3xl) 0 0;

@@ -431,7 +431,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	// Copy on the left, the phone on the right, as in the homepage hero: the
 	// eyebrow, the title, one line, the ask, and the fine print. Below tablet

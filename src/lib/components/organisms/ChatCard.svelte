@@ -86,7 +86,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.wrap {
 		max-width: 840px;

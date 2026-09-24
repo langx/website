@@ -1,4 +1,4 @@
-@import '$lib/scss/_mixins.scss';
+@use './mixins' as *;
 
 // Every value below is a token from the v3 mobile design handoff
 // (`LangX Mobile v3.dc.html` and its Dark twin). The site and the app are

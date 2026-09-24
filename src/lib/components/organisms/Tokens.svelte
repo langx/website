@@ -187,7 +187,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.tokens {
 		display: grid;

@@ -121,7 +121,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/mixins' as *;
 
 	.screen {
 		display: flex;

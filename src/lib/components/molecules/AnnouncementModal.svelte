@@ -36,7 +36,7 @@
 {/if}
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	// The app's blue callout ("Turn on notifications"), pinned to the bottom.
 	// Enters from below on the sheet curve and never comes back once closed.

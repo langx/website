@@ -191,7 +191,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.game {
 		border-top: 1px solid var(--color--border);

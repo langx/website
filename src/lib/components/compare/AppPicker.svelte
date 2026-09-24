@@ -172,7 +172,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.pick {
 		padding: var(--space-2xl) 0 0;
@@ -367,10 +367,6 @@
 		transform: translateX(calc(50% + 8px));
 		z-index: 1;
 		display: inline-flex;
-
-		@include for-phone-only {
-			grid-column: 1;
-		}
 		align-items: center;
 		justify-content: center;
 		width: 40px;
@@ -380,6 +376,10 @@
 		font-family: var(--font--title);
 		font-weight: 800;
 		color: var(--color--text-shade);
+
+		@include for-phone-only {
+			grid-column: 1;
+		}
 	}
 
 	.rows {
