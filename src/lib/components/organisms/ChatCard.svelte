@@ -95,7 +95,7 @@
 		// above it or they read as sitting on the line.
 		padding: 110px 0 var(--space-3xl);
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
 		gap: 24px;
 		align-items: start;
 

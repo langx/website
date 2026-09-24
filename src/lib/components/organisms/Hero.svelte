@@ -49,7 +49,7 @@
 		padding: var(--space-xl) 0 var(--space-2xl);
 
 		@include for-tablet-portrait-down {
-			grid-template-columns: 1fr;
+			grid-template-columns: minmax(0, 1fr);
 			min-height: 0;
 			gap: var(--space-2xl);
 			padding: var(--space-lg) 0 var(--space-xl);

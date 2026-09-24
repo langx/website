@@ -57,7 +57,11 @@
 		line-height: 1.2;
 		text-decoration: none;
 		cursor: pointer;
-		white-space: nowrap;
+		// A label stays on one line while it fits; on a screen narrower than
+		// the label it wraps, balanced, inside the pill rather than past it.
+		max-width: 100%;
+		text-align: center;
+		text-wrap: balance;
 		user-select: none;
 		transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease,
 			color var(--dur-fast) ease, border-color var(--dur-fast) ease,
@@ -87,18 +91,18 @@
 
 	.sm {
 		min-height: 40px;
-		padding: 0 20px;
+		padding: 6px 20px;
 		font-size: 0.8125rem;
 		border-radius: var(--radius-md);
 	}
 	.md {
 		min-height: 48px;
-		padding: 0 24px;
+		padding: 8px 24px;
 		font-size: 0.875rem;
 	}
 	.lg {
 		min-height: 56px;
-		padding: 0 32px;
+		padding: 10px 32px;
 		font-size: 0.9375rem;
 	}
 

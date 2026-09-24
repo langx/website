@@ -342,7 +342,7 @@ Inside the phone replicas type is set in px at the app's own sizes (16px body, 3
 
 ## Layout
 
-One centred container, max 1080px, with 15px gutters on phones (0 at 320px), 20px from 768px, 30px from 901px. Breakpoints: 320 (iPhone SE), 767/768 (phone / tablet portrait), 900/901 (tablet landscape), 1200/1201 (desktop). The header is sticky at 64px, and `scroll-padding-top` is the header plus 16px.
+One centred container, max 1080px, with 15px gutters on phones (320px included), 20px from 768px, 30px from 901px. Breakpoints: 320 (iPhone SE), 767/768 (phone / tablet portrait), 900/901 (tablet landscape), 1200/1201 (desktop). The header is sticky at 64px, and `scroll-padding-top` is the header plus 16px.
 
 The homepage is a sequence of full-width rows: Hero, LanguageMarquee, Story (four chapters), Anywhere, Testimonials, FAQ, FinalCta, then the Footer with the newsletter row. Sections are separated by a hairline `border-top` or by its own vertical padding (`--space-3xl`, 104px; 72px on phones).
 
@@ -378,6 +378,7 @@ Confident and tactile: a heavy Nunito label in a pill that shrinks under the fin
 
 - **Shape:** full pill (999px), 1px transparent border, `gap: 8px` for a leading icon.
 - **Sizes:** sm 40px / 0 16px / 0.875rem; md 48px / 0 22px / 0.9375rem; lg 54px / 0 28px / 1rem. `block` stretches to the parent's width.
+- **Long labels:** a button is never wider than its parent. A label stays on one line while it fits and otherwise wraps, balanced and centred, inside the pill ("Find someone who speaks Portuguese" on a 320px phone), never past it.
 - **Primary:** yellow fill, `#201900` text; hover darkens to `yellow-commit-pressed`. One per viewport.
 - **Secondary:** ground fill, ink text, hairline border; hover `muted-fill`. The companion under every yellow and the three store/browser pills in Anywhere.
 - **Dark:** ink fill, inverse text; hover `ink-shade`. The header CTA (sm) while the page's yellow is visible, and the send button in the chat replica.
