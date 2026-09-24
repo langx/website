@@ -2,7 +2,7 @@
 slug: is-hellotalk-safe
 title: 'Is HelloTalk Safe? Privacy, Scams and How to Stay Safe (2026)'
 date: 2026-09-23T04:54:00.000Z
-excerpt: 'Is HelloTalk safe? A balanced 2026 look at its report tools, age rules, the scams HelloTalk itself warns about, what its privacy policy says, and practical tips.'
+excerpt: 'Is HelloTalk safe? A balanced 2026 look at its report tools, age rules, the scams HelloTalk itself warns about, what its privacy policy says, plus safety tips.'
 coverImage: /images/posts/is-hellotalk-safe.png
 thumbnail: /images/posts/is-hellotalk-safe-thumb.png
 author:

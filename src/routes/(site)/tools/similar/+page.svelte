@@ -1,20 +1,49 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { LANGUAGE_PAIRS } from '$lib/data/language-pairs';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 	import { PAIR_DEPTH } from '$lib/utils/overlap';
 
 	const nf = new Intl.NumberFormat('en-US');
 	const byCode = new Map(WORD_LISTS.map((l) => [l.code, l]));
+	// The same pairs the list below shows: one missing a word list is skipped.
+	const pairs = LANGUAGE_PAIRS.filter((p) => byCode.has(p.a) && byCode.has(p.b));
+
+	const ld = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+					{ '@type': 'ListItem', position: 2, name: 'Similar languages' }
+				]
+			},
+			{
+				'@type': 'ItemList',
+				name: `${pairs.length} pairs of languages that share words`,
+				numberOfItems: pairs.length,
+				itemListElement: pairs.map((p, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: `${byCode.get(p.a)?.name} and ${byCode.get(p.b)?.name}`,
+					url: `${siteBaseUrl}/tools/similar/${p.slug}`
+				}))
+			}
+		]
+	};
 </script>
 
 <Seo
-	title="Languages that overlap"
+	title="Similar languages: {LANGUAGE_PAIRS.length} pairs that share words"
 	path="/tools/similar"
 	description="{LANGUAGE_PAIRS.length} pairs of languages that share words outright — written the same, meaning the same, inside the two thousand each uses most. Free to browse."
 />
+<JsonLd data={ld} />
 
 <div class="container">
 	<PageHeader

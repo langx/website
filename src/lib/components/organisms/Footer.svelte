@@ -123,7 +123,7 @@
 	<div class="container groups">
 		{#each groups as group}
 			<div class="group">
-				<h3>{group.title}</h3>
+				<h2>{group.title}</h2>
 				<ul role="list">
 					{#each group.links as link}
 						<li>
@@ -193,10 +193,15 @@
 	}
 
 	.group {
-		h3 {
+		// An h2, not the h3 it was: on a page with no h2 of its own (the legal
+		// pages, most tool hubs) an h3 here skipped a level straight after the
+		// h1. The two lines below undo what the base h2 adds over an h3.
+		h2 {
 			margin: 0 0 6px;
 			font-size: 0.8125rem;
 			font-weight: 800;
+			line-height: 1.25;
+			letter-spacing: normal;
 			color: var(--color--text);
 		}
 

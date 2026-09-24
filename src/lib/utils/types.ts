@@ -22,6 +22,11 @@ export type BlogPost = {
 	hidden: boolean;
 	slug: string;
 	title: string;
+	/**
+	 * A shorter title for the results page, when `title` runs past the sixty
+	 * characters one shows. The heading, the lists and the drawn card keep `title`.
+	 */
+	seoTitle?: string;
 	author: {
 		name: string;
 		url: string;
@@ -37,6 +42,8 @@ export type BlogPost = {
 	/** Apps from `COMPETITORS` the post is about, title first; drives the art above it. */
 	apps?: string[];
 	coverImage: string | undefined;
+	/** WebP copies of a photo cover, from scripts/covers.mjs: full size, and a square for lists. */
+	coverWebp?: { full: string; square: string };
 	/** Square image for post lists, drawn by scripts/og/posts.mjs. */
 	thumbnail?: string;
 };

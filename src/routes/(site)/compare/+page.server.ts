@@ -37,11 +37,12 @@ export async function load() {
 	});
 	return {
 		posts: posts.map(
-			({ slug, title, excerpt, coverImage, thumbnail, readingTime, tags, apps }) => ({
+			({ slug, title, excerpt, coverImage, coverWebp, thumbnail, readingTime, tags, apps }) => ({
 				slug,
 				title,
 				excerpt,
 				coverImage,
+				coverWebp,
 				thumbnail,
 				readingTime,
 				tags,

@@ -133,7 +133,7 @@
 </script>
 
 <Seo
-	title="Free language tools"
+	title="Free language learning tools: word lists, quizzes and games"
 	path="/tools"
 	description="Free tools for language learners from LangX. No account, no sign-up — {nf.format(
 		totalWords

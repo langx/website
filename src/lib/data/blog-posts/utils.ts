@@ -5,6 +5,8 @@ import Prism from 'prismjs';
 // Referenced so the import above is not tree-shaken away.
 void Prism;
 import 'prism-svelte';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import type { Component } from 'svelte';
 import { render as renderToHtml } from 'svelte/server';
 import readingTime from 'reading-time';
@@ -29,6 +31,7 @@ export const importPosts = (render = false) => {
 		if (post) {
 			posts.push({
 				...post.metadata,
+				coverWebp: coverWebp(post.metadata),
 				// Svelte 5 components have no render() of their own; this is its
 				// replacement. The comments are hydration markers, of no use in a feed.
 				html: render ? renderToHtml(post.default).body.replace(/<!--[\s\S]*?-->/g, '') : undefined
@@ -37,6 +40,23 @@ export const importPosts = (render = false) => {
 	}
 
 	return posts;
+};
+
+/**
+ * The WebP copies `scripts/covers.mjs` makes of a photo cover, if both are
+ * there. Looked for rather than assumed: a picture's WebP source that is
+ * missing is a broken image, not a fall back to the original. Paths are from
+ * the project root, where the build and the dev server both run.
+ */
+const coverWebp = ({ coverImage, thumbnail }: BlogPost) => {
+	if (!coverImage || thumbnail) return undefined;
+	const base = coverImage.replace(/\.(png|jpe?g)$/i, '');
+	if (base === coverImage) return undefined;
+	const full = `${base}.webp`;
+	const square = `${base}-square.webp`;
+	return existsSync(join('static', full)) && existsSync(join('static', square))
+		? { full, square }
+		: undefined;
 };
 
 /**

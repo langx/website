@@ -8,7 +8,7 @@
 </script>
 
 <SiteShell
-	title="LangX plans"
+	title="Plans and pricing: Free, Fluent and Polyglot"
 	path="/plans"
 	description="What Fluent and Polyglot add, what stays free, and why corrections are unlimited on every plan."
 >

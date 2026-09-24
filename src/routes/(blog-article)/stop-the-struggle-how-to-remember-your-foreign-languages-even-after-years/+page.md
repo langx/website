@@ -22,7 +22,7 @@ tags:
   import AppDemo from "$lib/components/blog/AppDemo.svelte";
 </script>
 
-*Welcome back to **lol LangX**, the column for language learners. Check out our past posts [here](https://langx.io/blog). 🌟🗣️*
+*Welcome back to **lol LangX**, the column for language learners. Check out [our past posts on the LangX blog](/blog). 🌟🗣️*
 
 Hey language lovers! This week, we're tackling a common enemy: forgetting those hard-earned language skills. See if you can relate to this:
 

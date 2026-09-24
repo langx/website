@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/atoms/Seo.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
@@ -10,6 +11,7 @@
 	import QuizTrack from '$lib/components/atoms/QuizTrack.svelte';
 	import QuizMark from '$lib/components/atoms/QuizMark.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 
 	const ROUNDS = 10;
@@ -108,9 +110,19 @@
 </script>
 
 <Seo
-	title="Which language is this?"
+	title="Guess the language: a daily quiz in {WORD_LISTS.length} languages"
 	path="/tools/guess-the-language"
 	description="Ten words, {WORD_LISTS.length} languages, four guesses each. Every word belongs to exactly one of the lists, so there are no trick questions. New ten every day."
+/>
+<JsonLd
+	data={{
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+			{ '@type': 'ListItem', position: 2, name: 'Guess the language' }
+		]
+	}}
 />
 
 <div class="container">

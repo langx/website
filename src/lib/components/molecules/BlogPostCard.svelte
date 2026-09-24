@@ -7,6 +7,8 @@
 		/** A row in a list of posts — the app's own list grammar, not a card. */
 		title: string;
 		coverImage?: string | undefined;
+		/** The cover's WebP copies; the tile takes the small square. */
+		coverWebp?: { full: string; square: string } | undefined;
 		/** A square made for lists; the cover is cropped to fit where there is none. */
 		thumbnail?: string | undefined;
 		excerpt: string;
@@ -21,6 +23,7 @@
 	let {
 		title,
 		coverImage = undefined,
+		coverWebp = undefined,
 		thumbnail = undefined,
 		excerpt,
 		slug,
@@ -42,7 +45,10 @@
 	{#if showImage}
 		<span class="thumb">
 			{#if photo}
-				<img src={photo} alt="" loading="lazy" decoding="async" />
+				<picture>
+					{#if coverWebp}<source srcset={coverWebp.square} type="image/webp" />{/if}
+					<img src={photo} alt="" loading="lazy" decoding="async" />
+				</picture>
 			{:else}
 				<PostThumb {title} {slug} {tags} {apps} />
 			{/if}
