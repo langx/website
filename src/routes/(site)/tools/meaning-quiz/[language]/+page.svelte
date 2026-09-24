@@ -5,6 +5,8 @@
 	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import QuizTrack from '$lib/components/atoms/QuizTrack.svelte';
+	import QuizMark from '$lib/components/atoms/QuizMark.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import type { WordListMeta } from '$lib/data/most-common-words';
@@ -85,6 +87,9 @@
 	$: answered = picked.filter((p) => p !== null).length;
 	$: score = rounds.filter((r, i) => picked[i] === r.answer).length;
 	$: finished = rounds.length > 0 && answered === rounds.length;
+	$: steps = rounds.map((r, i) =>
+		picked[i] === null ? (i === at ? 'now' : null) : picked[i] === r.answer ? 'right' : 'wrong'
+	) as ('right' | 'wrong' | 'now' | null)[];
 
 	async function copyResult() {
 		const grid = rounds.map((r, i) => (picked[i] === r.answer ? '🟩' : '🟥')).join('');
@@ -148,13 +153,12 @@
 	{#if finished}
 		<section class="result">
 			<p class="big tabular">{score}<span>/{rounds.length}</span></p>
-			<p class="grid">
-				{#each rounds as r, i}{picked[i] === r.answer ? '🟩' : '🟥'}{/each}
-			</p>
+			<QuizTrack large steps={rounds.map((r, i) => (picked[i] === r.answer ? 'right' : 'wrong'))} />
 
 			<ul class="review" role="list">
 				{#each rounds as r, i}
 					<li class:wrong={picked[i] !== r.answer}>
+						<QuizMark right={picked[i] === r.answer} />
 						<span class="w"
 							><span lang={meta.code}>{r.word}</span>
 							<SpeakButton
@@ -188,6 +192,7 @@
 	{:else if rounds.length}
 		{@const r = rounds[at]}
 		<p class="progress">Word {at + 1} of {rounds.length}</p>
+		<QuizTrack {steps} />
 		<!-- Hearing the word gives nothing away: the question is what it means. -->
 		<p class="word">
 			<span lang={meta.code}>{r.word}</span>
@@ -211,6 +216,12 @@
 				</li>
 			{/each}
 		</ul>
+
+		<p class="verdict" aria-live="polite">
+			{#if picked[at] !== null}
+				{picked[at] === r.answer ? 'Right.' : `Not quite — it means “${r.answer}”.`}
+			{/if}
+		</p>
 
 		{#if picked[at] !== null}
 			<div class="nextwrap">
@@ -284,15 +295,40 @@
 				cursor: default;
 			}
 
+			// The answer is the one filled shape, and each state has a mark as
+			// well as a colour: green and red alone are one colour to a lot of
+			// people. The same tokens and marks as /tools/guess-the-language.
+			&.right,
+			&.wrong {
+				display: flex;
+				align-items: center;
+				gap: var(--space-2xs);
+
+				&::after {
+					margin-left: auto;
+					font-size: 1rem;
+					line-height: 1;
+				}
+			}
+
 			&.right {
-				border-color: var(--color--callout-accent--success, #009f70);
-				color: var(--color--callout-accent--success, #009f70);
+				border-color: var(--color--success);
+				background: var(--color--success-tint);
+				color: var(--color--success);
 				font-weight: 600;
+
+				&::after {
+					content: '✓';
+				}
 			}
 
 			&.wrong {
-				border-color: var(--color--callout-accent--error, #e5484d);
-				color: var(--color--callout-accent--error, #e5484d);
+				border-color: var(--color--error);
+				color: var(--color--error);
+
+				&::after {
+					content: '✕';
+				}
 			}
 
 			@media (hover: hover) and (pointer: fine) {
@@ -303,10 +339,16 @@
 		}
 	}
 
+	.verdict {
+		// Holds its line before the answer, so choosing does not push the page.
+		min-height: 1.5em;
+		margin: calc(var(--space-2xl) * -1 + var(--space-sm)) 0 0;
+		font-family: var(--font--title);
+		font-weight: 800;
+	}
+
 	.nextwrap {
-		// The grid above already carries the space; this only adds the gap
-		// between the answers and the button.
-		margin-top: calc(var(--space-2xl) * -1 + var(--space-md));
+		margin-top: var(--space-sm);
 		padding-bottom: var(--space-2xl);
 	}
 
@@ -344,18 +386,12 @@
 		}
 	}
 
-	.grid {
-		font-size: 1.375rem;
-		letter-spacing: 2px;
-		margin: var(--space-2xs) 0 var(--space-lg);
-	}
-
 	.review {
 		border-top: 1px solid var(--color--border);
 
 		li {
 			display: flex;
-			align-items: baseline;
+			align-items: center;
 			flex-wrap: wrap;
 			gap: var(--space-2xs) var(--space-sm);
 			padding: 12px 0;
@@ -365,6 +401,7 @@
 		.w {
 			font-family: var(--font--title);
 			font-weight: 800;
+			font-size: 1.125rem;
 			min-width: 8rem;
 		}
 
