@@ -74,7 +74,7 @@
 {#if failed}
 	<Logo variant="mark" height={Math.round(size * 0.55)} href={undefined} />
 {:else}
-	<div class="mark" style="--size:{size}px" aria-hidden="true" bind:this={container} />
+	<div class="mark" style="--size:{size}px" aria-hidden="true" bind:this={container}></div>
 {/if}
 
 <style lang="scss">

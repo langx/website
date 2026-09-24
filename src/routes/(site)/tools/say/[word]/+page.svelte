@@ -365,7 +365,7 @@
 							play={say(r.audio)}
 						/>{/if}<Ipa ipa={r.ipa} block /></span
 				>
-				{#if adds(r.gloss, entry.word)}<span class="gloss">{r.gloss}</span>{:else}<span />{/if}
+				{#if adds(r.gloss, entry.word)}<span class="gloss">{r.gloss}</span>{:else}<span></span>{/if}
 				<span class="rank tabular">#{nf.format(r.rank)}</span>
 			</li>
 		{/each}

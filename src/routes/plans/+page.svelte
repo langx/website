@@ -178,7 +178,7 @@
 		</header>
 		<ul class="legend" role="list">
 			{#each plans as plan, i}
-				<li class={TONES[i]}><span class="swatch" aria-hidden="true" />{plan.name}</li>
+				<li class={TONES[i]}><span class="swatch" aria-hidden="true"></span>{plan.name}</li>
 			{/each}
 		</ul>
 		<ul class="rows" role="list">
@@ -191,8 +191,7 @@
 								<span class="track"
 									><span
 										class="bar"
-										style="width:{share(v, maxOf(row))}%;--d:{r * 90 + i * 60}ms"
-									/></span
+										style="width:{share(v, maxOf(row))}%;--d:{r * 90 + i * 60}ms"></span></span
 								>
 								<span class="val tabular">{label(row, i)}</span>
 							</span>
@@ -549,6 +548,13 @@
 		padding: 16px 0;
 		border-bottom: 1px solid var(--color--border);
 		margin: 0;
+
+		// This list is closed at both ends, so the last row keeps its hairline.
+		// The global .rows rule drops it, and under Svelte 5 a plain scoped
+		// selector no longer outweighs that rule.
+		.rows > &:last-child {
+			border-bottom: 1px solid var(--color--border);
+		}
 
 		@include for-phone-only {
 			grid-template-columns: minmax(0, 1fr);

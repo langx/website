@@ -15,7 +15,7 @@
 	aria-label={label ?? `Level ${level} of ${max}`}
 >
 	{#each Array.from({ length: max }, (_, i) => i) as i}
-		<span class="bar" class:on={i < level} style="height:{heights[i]}px" />
+		<span class="bar" class:on={i < level} style="height:{heights[i]}px"></span>
 	{/each}
 </span>
 

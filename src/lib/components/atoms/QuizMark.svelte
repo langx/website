@@ -6,7 +6,7 @@
 	export let right: boolean;
 </script>
 
-<span class="mark" class:right role="img" aria-label={right ? 'Right' : 'Wrong'} />
+<span class="mark" class:right role="img" aria-label={right ? 'Right' : 'Wrong'}></span>
 
 <style lang="scss">
 	.mark {

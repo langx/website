@@ -19,7 +19,7 @@
 		{#if statusBar}
 			<div class="status" aria-hidden="true">
 				<span>{time}</span>
-				<span class="glyphs"><span class="signal" /><span class="battery" /></span>
+				<span class="glyphs"><span class="signal"></span><span class="battery"></span></span>
 			</div>
 		{/if}
 		<div class="screen">

@@ -24,7 +24,7 @@
 	aria-label={large ? `${right} right, ${wrong} wrong` : undefined}
 >
 	{#each steps as step}
-		<li class:right={step === 'right'} class:wrong={step === 'wrong'} class:now={step === 'now'} />
+		<li class:right={step === 'right'} class:wrong={step === 'wrong'} class:now={step === 'now'}></li>
 	{/each}
 </ol>
 

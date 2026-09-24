@@ -37,7 +37,7 @@
 						</span>
 						<span class="names">{a.name} and {b.name}</span>
 						<span class="share" aria-hidden="true"
-							><span style="width: {Math.max((p.count / PAIR_DEPTH) * 100, 1)}%" /></span
+							><span style="width: {Math.max((p.count / PAIR_DEPTH) * 100, 1)}%"></span></span
 						>
 						<span class="n tabular">{nf.format(p.count)} words</span>
 					</a>

@@ -21,9 +21,9 @@ module.exports = {
 	overrides: [
 		{
 			// These pages build a JSON-LD block from their own data and inject it
-			// with {@html}. The usual inline disable comment cannot be used:
-			// mdsvex runs markdown over .svelte files here, and an HTML comment
-			// in <svelte:head> makes it wrap the tag in a <p>.
+			// with {@html}. Listed here because an inline disable comment could
+			// not be used while mdsvex also ran over .svelte files (it wrapped an
+			// HTML comment in <svelte:head> in a <p>); it no longer does.
 			// Matched with wildcards because the directory is literally named
 			// "[language]", and brackets are a character class in a glob.
 			files: [
