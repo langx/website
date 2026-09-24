@@ -95,7 +95,7 @@
 		{
 			id: 105,
 			title: 'Who makes LangX, and can I trust it?',
-			content: `LangX is made by New Chapter Technology LLC and published under the BSD-3 licence: the app and its API are <a href="https://github.com/langx/langx" target="_blank" rel="noopener noreferrer">on GitHub</a> for anyone to read, check or run. There are no ads and nothing is sold. You must be 18 or older to use it.`
+			content: `LangX is made by New Chapter Technology LLC and published under the BSD-3 licence: the app and its API are <a href="https://github.com/langx/langx" target="_blank" rel="noopener noreferrer">on GitHub</a> for anyone to read, check or run. There are no ads and nothing is sold. You must be 16 or older to use it.`
 		},
 		{
 			id: 106,

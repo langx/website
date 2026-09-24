@@ -74,8 +74,9 @@ published line.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and
   earn", "payout".
 - Badges are not in v2's first release. Voice and photo messages are shipped.
-- Minimum age 18. v1 users must sign up again; balances carry over ÷100 plus a
-  250-token welcome-back bonus.
+- Minimum age 16 (18 until langx/langx#1109; the Terms and Privacy Policy say
+  16). v1 users must sign up again; balances carry over ÷100 plus a 250-token
+  welcome-back bonus.
 - The app lists 182 languages (`languages.ts`).
 
 ## Brand Commitments
