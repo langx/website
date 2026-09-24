@@ -1,17 +1,17 @@
 rank	word	english	ipa
-1	you	The people spoken, or written to, as an object	/jɪ/
+1	you	The people spoken, or written to, as an object	/ju/
 2	i	The speaker or writer, referred to as the grammatical…	[aj]
-3	the	because it has already been mentioned, is to be completely…	/ðə/
+3	the	because it has already been mentioned, is to be completely…	/ði/
 4	to	A particle used for marking the following verb as an…	/ˈtuː/
-5	a	An unspecified example of; the indefinite article	/ə/
+5	a	An unspecified example of; the indefinite article	/eɪ̯/
 6	's	Contraction of us, found in the formula let's which is used…	/ɪz/
-7	it	The third-person singular neuter personal pronoun used to…	/ət/
+7	it	The third-person singular neuter personal pronoun used to…	/ɪt/
 8	and	Used simply to connect two noun phrases, adjectives or…	/ˈænd/
-9	that	Introducing a clause that is the object of a verb,…	/ðət/
+9	that	Introducing a clause that is the object of a verb,…	/ðæt/
 10	't	Contraction of that	
 11	of	Since, from	/ʌv/
-12	is	To tend to do, often do; marks the habitual aspect	/ˈɪz/
-13	in	Contained by; inside	/ən/
+12	is	To tend to do, often do; marks the habitual aspect	/ɪz/
+13	in	Contained by; inside	/ɪn/
 14	what	Which, especially which of an open-ended set of…	/wɑt/
 15	we	Excluding the person being addressed	/wi/
 16	me	As the object of a verb	/mi/
@@ -20,11 +20,11 @@ rank	word	english	ipa
 19	for	Because	/fɔɹ/
 20	my	Belonging to me	/maɪ/
 21	on	To an operating state	/ɑn/
-22	have	To possess, own	/ˈ(h)əv/
-23	your	Belonging to you; of you; related to you	/jɚ/
+22	have	To possess, own	/ˈhæv/
+23	your	Belonging to you; of you; related to you	/jʊɹ/
 24	do	The cardinal number occurring after el and before do one in…	/doʊ/
-25	was	To tend to do, often do; marks the habitual aspect	/wəz/
-26	'm	Am, used especially in I'm	/əm/
+25	was	To tend to do, often do; marks the habitual aspect	/wɒz/
+26	'm	Am, used especially in I'm	/m̩/
 27	no	Not any	/noʊ/
 28	not	Negates the meaning of the modified verb	/nɑt/
 29	be	To tend to do, often do; marks the habitual aspect	/ˈbiː/
@@ -38,11 +38,11 @@ rank	word	english	ipa
 37	all	Every individual or anything of the given class, with no…	/ɔl/
 38	so	As a result; for that reason; therefore; because of this;…	/soʊ/
 39	just	Only, simply, merely	/d͡ʒʌst/
-40	there	In or at a place or location that is perceived to be away…	/ðə(ɹ)/
+40	there	In or at a place or location that is perceived to be away…	/ðɛə(ɹ)/
 41	here	In, on, or at this place; compare there	/ˈhɪɚ̯/
 42	they	A group of entities previously mentioned	/ˈðeɪ̯/
 43	like	As, the way	/laɪ̯k/
-44	'll	Will, shall	/əl/
+44	'll	Will, shall	[l̩]
 45	get	To obtain; to acquire	/ɡɛt/
 46	she	The female person or animal previously mentioned or implied	/ʃi/
 47	go	To move through space	/ɡoʊ/
@@ -53,11 +53,11 @@ rank	word	english	ipa
 52	up	Away from the surface of the Earth or other planet; in…	/ʌp/
 53	at	In, near, or in the general vicinity of	/æt/
 54	him	With dative effect or as an indirect object	/ˈhɪm/
-55	now	At the present time	/nuː/
+55	now	At the present time	/naʊ/
 56	oh	Expression of surprise	/oʊ/
 57	one	The number represented by the Arabic numeral 1; the…	/wʌn/
 58	come	Used to indicate a point in time at or after which a stated…	/kʌm/
-59	well	Accurately, competently, satisfactorily	/ˈwɛʊ̯/
+59	well	Accurately, competently, satisfactorily	/ˈwɛl/
 60	her	Belonging to her	/ˈhɝ/
 61	how	To what degree or extent	/haʊ/
 62	yeah	Yes	/jɛ(ə)/
@@ -66,15 +66,15 @@ rank	word	english	ipa
 65	got	To obtain; to acquire	/ɡɑt/
 66	want	To wish for or desire; to feel a need or desire for; to…	/wɑnt/
 67	think	To ponder, to go over in one's mind	/ˈθɪŋk/
-68	as	To such an extent or degree; to the same extent or degree	/əz/
+68	as	To such an extent or degree; to the same extent or degree	/æz/
 69	see	To perceive or detect someone or something with the eyes,…	/si/
 70	did	A syntactic marker in a question whose main verb is not…	/dɪd/
-71	good	Well; satisfactorily or thoroughly	/ɡɵd/
+71	good	Well; satisfactorily or thoroughly	/ɡʊd/
 72	who	What person or people; which person or people; asks for the…	/hu/
 73	why	Introducing a complete question	/waɪ̯/
 74	from	Originating at	/ˈfɹʌm/
 75	let	To allow to, not to prevent	/lɛt/
-76	his	Belonging to him	/ɪz/
+76	his	Belonging to him	/hɪz/
 77	yes	Answer to a question presuming one answer when all answers…	/jɛs/
 78	when	At what time? At which time? Upon which occasion or…	/ˈwɛn/
 79	going	To move through space	/ˈɡoʊ.ɪŋ/
@@ -83,11 +83,11 @@ rank	word	english	ipa
 82	okay	Alternative spelling of OK	/ˌəʊˈkeɪ/
 83	back	To or in a previous condition or place	/bæk/
 84	look	As an intransitive verb, often with “at”	/lʊk/
-85	us	Me and at least one other person, excluding the person…	/əs/
-86	would	Used to, did repeatedly, habitually; indicates an action…	/wəd/
+85	us	Me and at least one other person, excluding the person…	/ʌs/
+86	would	Used to, did repeatedly, habitually; indicates an action…	/(w)ʊ(l)d/
 87	them	Used as the direct object of a verb	/ˈðɛm/
 88	where	In, at or to what place	/wɛː/
-89	were	To tend to do, often do; marks the habitual aspect	/wə(ɹ)/
+89	were	To tend to do, often do; marks the habitual aspect	/wɜː/
 90	take	To get into one's hands, possession, or control, with or…	/ˈteɪ̯k/
 91	then	At that time	/ðɛn/
 92	had	To possess, own	/hæd/
@@ -101,7 +101,7 @@ rank	word	english	ipa
 100	some	A certain number	/sʌm/
 101	say	For example; let us assume	/seɪ/
 102	hey	An exclamation to get attention	/heɪ/
-103	could	To know how to	/kəd/
+103	could	To know how to	/kʊd/
 104	'd	Contraction of had, as an auxiliary verb	/d/
 105	by	Near or next to	/baɪ/
 106	need	A requirement for something; something needed	/nid/
@@ -121,13 +121,13 @@ rank	word	english	ipa
 120	little	Not much	/ˈlɪ.tl̩/
 121	please	Used to make a polite request	/pliz/
 122	love	A deep caring for the existence of another	/ˈlʌv/
-123	should	Used before a verb to indicate the simple future tense in…	/ʃəd/
+123	should	Used before a verb to indicate the simple future tense in…	/ʃʊd/
 124	mean	To intend, to plan; to have as one's intention	/min/
 125	said	Mentioned earlier; aforesaid	/sɛd/
 126	sorry	Regretful or apologetic for one's actions	/ˈsɑɹi/
 127	give	To transfer one's possession or holding of to	/ˈɡɪv/
 128	off	In a direction away from the speaker or other reference…	/ɔf/
-129	am	To tend to do, often do; marks the habitual aspect	/əm/
+129	am	To tend to do, often do; marks the habitual aspect	/æm/
 130	thank	To express appreciation or gratitude toward	/ˈθaŋk/
 131	any	To even the slightest extent, at all	/ɛni/
 132	two	A numerical value equal to 2; this many dots	/tu/
@@ -138,7 +138,7 @@ rank	word	english	ipa
 137	thing	That which is considered to exist as a separate entity,…	/θɪŋ/
 138	these	The here	/ðiz/
 139	help	Action given to provide assistance; aid	/hɛlp/
-140	first	Before anything else; firstly	/fɚst/
+140	first	Before anything else; firstly	/fɜːst/
 141	into	To or towards the inside of	/ˈɪn.tu/
 142	anything	Any object, act, state, event, or fact whatsoever; a thing…	/ˈɛn.i.θɪŋ/
 143	still	Without motion	/ˈstɪl/
@@ -149,11 +149,11 @@ rank	word	english	ipa
 148	day	The time when the Sun is above the horizon and it lights…	/deɪ̯/
 149	god	A deity or supreme being; a supernatural, typically…	/ɡɑd/
 150	work	Labour, occupation, job	/wɝk/
-151	their	Belonging to, from, of, or relating to, them	/ðɚ/
+151	their	Belonging to, from, of, or relating to, them	/ðɛɚ/
 152	uh	Pronunciation spelling of a	/ʌː/
 153	again	Another time: indicating a repeat of an action	/əˈɡɛn/
 154	maybe	Perhaps, possibly	/ˈmeɪ.bi/
-155	must	To do as a requirement; indicates that the sentence subject…	/məst/
+155	must	To do as a requirement; indicates that the sentence subject…	/mʌst/
 156	before	Earlier than	/bɪˈfoɹ/
 157	other	Not the one or ones previously referred to	/ˈʌðɚ/
 158	wait	To delay movement or action until some event or time; to…	/weɪt/
@@ -167,7 +167,7 @@ rank	word	english	ipa
 166	thought	To ponder, to go over in one's mind	/θɔt/
 167	home	To one's place of residence or one's customary or official…	/hoʊm/
 168	night	The time when the Sun is below the horizon when the sky is…	/ˈnaɪ̯t/
-169	put	To physically place	/pɵt/
+169	put	To physically place	/pʊt/
 170	great	Very well	/ˈɡɹeɪt/
 171	those	The indicated or understood from context, especially if…	/ðoʊz/
 172	last	The immediately before the present	/læst/
@@ -247,10 +247,10 @@ rank	word	english	ipa
 246	looking	As an intransitive verb, often with “at”	/ˈlʊkɪŋ/
 247	son	One's male offspring	/sʌn/
 248	try	To attempt; to endeavour. Followed by infinitive	/tɹɑj/
-249	woman	An adult female human	/ˈwɵmən/
+249	woman	An adult female human	/ˈwʊmən/
 250	went	To move through space	/wɛnt/
 251	hi	A friendly, informal, casual greeting said upon someone's…	/haɪ/
-252	dead	Exactly	/diːd/
+252	dead	Exactly	/dɛd/
 253	many	before a countable noun: A large, indefinite number of	/ˈmɛni/
 254	mind	The capability for rational thought	/maɪnd/
 255	friend	A person, typically someone other than a family member,…	/fɹɛnd/
@@ -262,7 +262,7 @@ rank	word	english	ipa
 261	boy	A male child	/bɔɪ/
 262	together	At the same time, in the same place; in close association…	/tʊˈɡɛðɚ/
 263	yourself	Your own self	/jəˈsɛlf/
-264	job	A task	/dʒɒb/
+264	job	A task	/dʒɑb/
 265	saw	To perceive or detect someone or something with the eyes,…	/sɔː/
 266	family	A group of people who are closely related to one another;…	/ˈfæm(ɪ)li/
 267	real	Really; very	/ˈɹi.əl/
@@ -288,7 +288,7 @@ rank	word	english	ipa
 287	idea	An abstract archetype of a given thing, compared to which…	/aɪ̯ˈdi.ə/
 288	knew	To perceive the truth or factuality of; to be certain of;…	/ˈn(j)u/
 289	hold	To grasp or grip	/hoʊld/
-290	happy	Having a feeling arising from a consciousness of well-being…	/ˈhapɪj/
+290	happy	Having a feeling arising from a consciousness of well-being…	/ˈhæpi/
 291	door	A portal of entry into a building, room, or vehicle,…	/doɹ/
 292	such	Like this, that, these, those; used to make a comparison…	/sʌt͡ʃ/
 293	fuck	Used as an intensifier for the words "yes" and "no"	/ˈfʌk/
@@ -296,7 +296,7 @@ rank	word	english	ipa
 295	also	In addition; besides; as well; further; too	/ˈɑl.soʊ/
 296	pretty	Somewhat, fairly, quite; sometimes also very	/ˈpɹɪt.i/
 297	bit	To cut into something by clamping the teeth	/ˈbɪt/
-298	took	To get into one's hands, possession, or control, with or…	/tɵk/
+298	took	To get into one's hands, possession, or control, with or…	/tʊk/
 299	haven	A safe place	/ˈheɪvən/
 300	yet	In negative or interrogative use, often with an expectation…	/jɛt/
 301	men	An adult male human	/mɛn/
@@ -329,7 +329,7 @@ rank	word	english	ipa
 328	play	To act in a manner such that one has fun; to engage in…	/pleɪ̯/
 329	looks	The action of looking; an attempt to see	/lʊks/
 330	fucking	Really, very; having intensive force, often applying to the…	/ˈfʌkɪŋ/
-331	problem	A difficulty that has to be resolved or dealt with	/-bəm/
+331	problem	A difficulty that has to be resolved or dealt with	/ˈpɹɑbləm/
 332	few	An indefinite, but usually small, number of	/fjuː/
 333	friends	A person, typically someone other than a family member,…	/fɹɛn(d)z/
 334	gotta	Synonym of have got to, have to	/ˈɡɑtə/
@@ -377,7 +377,7 @@ rank	word	english	ipa
 376	stuff	Miscellaneous items or objects; personal effects	/stʌf/
 377	exactly	Without approximation; precisely	/ɪɡˈzæk(t).li/
 378	under	Beneath; below; at or to the bottom of, or the area covered…	/ˈʌndɚ/
-379	death	The cessation of life and all associated processes; the end…	/diːθ/
+379	death	The cessation of life and all associated processes; the end…	/dɛθ/
 380	minute	A unit of time which is one sixtieth of an hour	[maɪ̯ˈn(j)u̟(ː)t]
 381	pay	To give money or other compensation to in exchange for…	/peɪ/
 382	crazy	Very, extremely	/ˈkɹeɪ.zi/
@@ -450,7 +450,7 @@ rank	word	english	ipa
 449	game	A playful activity that may be unstructured; an amusement…	[ɡeɪ̯m]
 450	nobody	Not any person; the logical negation of somebody	/ˈnoʊ.bə.di/
 451	mr	Clipping of MRI	/ˈmɪstɚ/
-452	children	A person who has not yet reached adulthood, whether…	/ˈtʃɪl.ɹən/
+452	children	A person who has not yet reached adulthood, whether…	/ˈt͡ʃɪldɹən/
 453	side	A bounding straight edge of a two-dimensional shape	/ˈsaɪ̯d/
 454	stand	To support oneself on the feet in an erect position	/ˈstænd/
 455	read	To look at and interpret letters or other information that…	/ɹid/
@@ -487,12 +487,12 @@ rank	word	english	ipa
 486	office	A ceremonial duty or service, particularly	/ˈɑ-/
 487	question	A worded or expressed sentence, phrase, or only a word on…	/ˈkwɛs.tʃən/
 488	brought	To transport toward somebody/somewhere	/bɹɔːt/
-489	yours	That or those belonging to you; the possessive…	/jɚz/
+489	yours	That or those belonging to you; the possessive…	/jɔɹz/
 490	welcome	Whose arrival is a cause of joy; received with gladness;…	/ˈwɛl.kəm/
 491	high	In or to an elevated position	/haɪ/
 492	wow	An indication of excitement, surprise, astonishment, or…	/waʊ/
 493	couple	Two or a few, a small number of	/ˈkʌp.əl/
-494	half	In two equal parts or to an equal degree	/ˈhɛə̯f/
+494	half	In two equal parts or to an equal degree	/ˈhæf/
 495	died	To stop living; to become dead; to undergo death	/daɪd/
 496	cool	Of a mildly low temperature	/kul/
 497	free	Without needing to pay	/fɹi/
@@ -525,7 +525,7 @@ rank	word	english	ipa
 524	hate	An object of hatred	/heɪt/
 525	food	Any solid substance that can be consumed by living…	[fu̟(ː)d]
 526	outside	To or in the outdoors or outside; to or in an area that is…	/aʊtˈsaɪd/
-527	light	Carrying little	[ləjt]
+527	light	Carrying little	[ɫɐɪt]
 528	l	Clipping of lol	/æl/
 529	needs	A requirement for something; something needed	/nidz/
 530	dog	The species Canis familiaris, domesticated for thousands of…	/dɒɡ/
@@ -535,11 +535,11 @@ rank	word	english	ipa
 534	em	A unit of measurement equal to the height of the type in use	/ˈɛm/
 535	fact	Something actual as opposed to invented	/fækt/
 536	lord	One possessing similar mastery over others; any feudal…	/loɹd/
-537	captain	A chief or leader	/ˈkæp.tɪn/
+537	captain	A chief or leader	/ˈkæp.tən/
 538	six	A numerical value equal to 6; the number following five and…	/sɪks/
 539	hot	Hotly; at a high temperature	/hɑt/
 540	funny	In a manner seen as being typical of a homosexual, or…	/ˈfʌni/
-541	black	Absorbing all light and reflecting none; dark and hueless	/ˈblæk/
+541	black	Absorbing all light and reflecting none; dark and hueless	/blæk/
 542	alive	Having life; living; not dead	/əˈlaɪv/
 543	pick	A tool used for digging; a pickaxe	/pɪk/
 544	feeling	To become aware of through the skin; to use the sense of…	/ˈfi.lɪŋ/
@@ -560,7 +560,7 @@ rank	word	english	ipa
 559	taken	To get into one's hands, possession, or control, with or…	/ˈteɪ.kn̩/
 560	safe	Not in danger; out of harm's reach	/ˈseɪ̯f/
 561	ma	mother, mama	/mɑː/
-562	book	A collection of sheets of paper bound together to hinge at…	/bɵk/
+562	book	A collection of sheets of paper bound together to hinge at…	/bʊk/
 563	sent	To make something go from one place to another	/sɛnt/
 564	white	Bright and colourless; reflecting equal quantities of all…	/ˈwaɪt/
 565	hour	A unit of time of one twenty-fourth of a day	/aʊɚ/
@@ -610,9 +610,9 @@ rank	word	english	ipa
 609	air	The substance constituting Earth's atmosphere: a gaseous…	/ˈɛɚ/
 610	ten	The number occurring after nine and before eleven,…	/tɛn/
 611	daddy	Also used as a term of address: a father; one's father	/ˈdædi/
-612	finally	At the end or conclusion; ultimately	/ˈfaɪnəli/
+612	finally	At the end or conclusion; ultimately	/ˈfaɪ.nə.li/
 613	chuckles	A quiet laugh	/ˈtʃʌkəlz/
-614	fast	In a firm or secure manner, securely; in such a way as not…	/ˈfæst/
+614	fast	In a firm or secure manner, securely; in such a way as not…	/fæst/
 615	cold	At a low temperature	/kɔːld/
 616	seem	To appear; to look outwardly; to be perceived as	/ˈsɪjm/
 617	laughing	An expression of mirth particular to the human species; the…	/ˈlɑːfɪŋ/
@@ -710,7 +710,7 @@ rank	word	english	ipa
 709	amazing	Causing wonder and amazement; very surprising	/əˈmeɪ.zɪŋ/
 710	ones	The digit or figure 1	/wʌnz/
 711	works	To do a specific task by employing physical or mental powers	/wɝks/
-712	act	Clipping of actually	/ˈækt/
+712	act	Clipping of actually	/ækt/
 713	needed	To have an absolute requirement for	/ˈni.dɪd/
 714	weird	Having an unusually strange character or behaviour	/ˈwiɚd/
 715	law	The body of binding rules and regulations, customs, and…	/lɔ/
@@ -719,7 +719,7 @@ rank	word	english	ipa
 718	goodbye	Farewell; a formula used to another person or persons when…	/ɡʊdˈbaɪ/
 719	missing	To fail to hit, catch, grasp, etc	/ˈmɪsɪŋ/
 720	choice	An option; a decision; an opportunity to choose or select…	/tʃɔɪs/
-721	happening	To occur or take place	/ˈhæpənɪŋ/
+721	happening	To occur or take place	/ˈhæpɪnɪŋ/
 722	chief	The leader or head of a tribe, organisation, business unit,…	/t͡ʃiːf/
 723	wedding	A marriage ceremony; a ritual officially celebrating the…	/ˈwɛdɪŋ/
 724	strange	Not normal; odd, unusual, surprising, out of the ordinary,…	/stɹeɪnd͡ʒ/
@@ -730,7 +730,7 @@ rank	word	english	ipa
 729	decided	To resolve; to choose, determine, or settle	/dɪˈsaɪ̯.dɪd/
 730	ya	Used to form a confirmation-seeking tag question, expecting…	/ˈjɑː/
 731	pass	To move or be moved from one place to another	[pʰæs]
-732	tired	In need of some rest or sleep	[ˈtɑjəd]
+732	tired	In need of some rest or sleep	[ˈtaɪ̯ɚd]
 733	class	A group, collection, category or set sharing…	/klæs/
 734	officer	One who has a position of authority in a hierarchical…	/ˈɔ.fɪ.sɚ/
 735	kept	To continue in; to not intermit or fall from; to uphold or…	/ˈkɛpt/
@@ -781,14 +781,14 @@ rank	word	english	ipa
 780	clothes	Items of clothing; apparel	/kloʊ(ð)z/
 781	hotel	An establishment that provides accommodation and other…	/həʊˈtɛl/
 782	christmas	Sprigs of holly and other evergreen plants used as…	/ˈkɹɪsməs/
-783	attack	An attempt to cause damage, injury to, or death of an…	/ɐˈtæk/
+783	attack	An attempt to cause damage, injury to, or death of an…	/əˈtæk/
 784	round	Circular or cylindrical; having a circular cross-section in…	/ˈɹaʊ̯nd/
 785	expect	To predict or believe that something will happen	/ɪkˈspɛkt/
 786	sing	To produce musical or harmonious sounds with one’s voice	/ˈsɪŋ/
 787	terrible	Dreadful; causing terror, alarm and fear; awesome	/ˈtɛɹəbəl/
 788	george	radiotelephony clear-code word for the letter G	/dʒɔːdʒ/
 789	bag	A soft container made out of cloth, paper, thin plastic,…	/bæɡ/
-790	history	The aggregate of past events, both unrecorded and recorded	/ˈhɪst͡ʃ(ə)ɹɪj/
+790	history	The aggregate of past events, both unrecorded and recorded	/ˈhɪs.tə.ɹi/
 791	blue	Of a blue hue	/blu/
 792	near	At or towards a position close in space or time	/nɪɹ/
 793	broke	To separate into two or more pieces, to fracture or crack,…	/ˈbɹoʊ̯k/
@@ -903,14 +903,14 @@ rank	word	english	ipa
 902	stopped	To cease moving	/stɑpt/
 903	hide	To put in a place where it will be out of sight or harder…	/haɪd/
 904	whether	Introduces a simple indirect question	/ˈwɛðə(ɹ)/
-905	bank	An institution where one can place and borrow money and…	/ˈbeɪ̯ŋk/
-906	trip	A journey; an excursion or jaunt	/ˈtɹɪp/
+905	bank	An institution where one can place and borrow money and…	/ˈbæŋk/
+906	trip	A journey; an excursion or jaunt	/tɹɪp/
 907	relax	To make something loose	/ɹɪˈlæks/
 908	public	Able to be known or seen by everyone; happening without…	/ˈpʌb.lɪk/
 909	list	A strip of fabric, especially from the edge of a piece of…	/lɪst/
 910	afternoon	The part of the day from noon or lunchtime until sunset,…	/ˌæf.tɚˈnun/
 911	brain	The control center of the central nervous system of an…	/ˈbɹeɪ̯n/
-912	fix	To attach; to affix; to hold in place or at a particular…	/ˈfɪks/
+912	fix	To attach; to affix; to hold in place or at a particular…	/fɪks/
 913	bastard	A mongrel	/ˈbæs.tɚd/
 914	proud	Feeling honoured; feeling happy or satisfied about an event…	/ˈpɹaʊ̯d/
 915	tea	The tea plant; a variety of this plant	/ti/
@@ -962,7 +962,7 @@ rank	word	english	ipa
 961	calls	A cry or shout	/kɔlz/
 962	y	A figure or mark in the shape of the letter Y	/waɪ/
 963	spent	To pay out	/spɛnt/
-964	third	The ordinal form of the cardinal number three; Coming after…	/θɚd/
+964	third	The ordinal form of the cardinal number three; Coming after…	/θeːd/
 965	english	Of or pertaining to England	/ˈɪŋ.ɡlɪʃ/
 966	visit	To habitually go to to comfort them	/ˈvɪzɪt/
 967	mama	Synonym of mother	/ˈmɑmə/
@@ -976,7 +976,7 @@ rank	word	english	ipa
 975	private	Belonging or pertaining to an individual person, group of…	[ˈpʰɹaɪ̯vɪt]
 976	wall	A rampart of earth, stones etc. built up for defensive…	/woːl/
 977	seat	Something to be sat upon	/siːt/
-978	position	A place or location	/pəˈzɪʃən/
+978	position	A place or location	/pəˈzɪʃ.ən/
 979	lieutenant	In the US Army, Air Force and Marines, holding the rank…	/l(j)uˈtɛn.ənt/
 980	realize	To become aware of, understand, or appreciate	/ˈɹi(.ə)ˌlaɪz/
 981	lt	A designation for a trim level within a model of trucks; it…	/ˌɛlˈtiː/
@@ -1062,7 +1062,7 @@ rank	word	english	ipa
 1061	putting	To physically place	[ˈpʰʊɾɪŋ]
 1062	bear	A large, generally omnivorous mammal of the family Ursidae;…	/bɛɚ/
 1063	board	A relatively long, wide and thin piece of any material,…	/bɔɹd/
-1064	grab	To grip suddenly; to seize; to clutch	/ˈɡɹɛəb/
+1064	grab	To grip suddenly; to seize; to clutch	/ˈɡɹæb/
 1065	beer	An alcoholic drink fermented from starch material, commonly…	/ˈbɪɚ/
 1066	stuck	To cut a piece of wood to be the stick member of a…	/stʌk/
 1067	magic	The application of rituals or actions, especially those…	/ˈmæd͡ʒɪk/
@@ -1386,7 +1386,7 @@ rank	word	english	ipa
 1385	rose	To move upwards	/ɹoʊz/
 1386	knowing	Given my knowledge about someone or something	/ˈnoʊɪŋ/
 1387	clearly	In a clear manner	/ˈklɪɚli/
-1388	hat	A covering for the head, often in the approximate form of a…	/hæ̞ʔ/
+1388	hat	A covering for the head, often in the approximate form of a…	/hæt/
 1389	agreed	To be in harmony about an opinion, statement, or action; to…	/əˈɡɹid/
 1390	johnny	A jack	/ˈd͡ʒɑn.i/
 1391	corner	The point where two converging lines meet; an angle, either…	/ˈkɔɹnɚ/
@@ -1527,7 +1527,7 @@ rank	word	english	ipa
 1526	paying	To give money or other compensation to in exchange for…	/ˈpeɪ.ɪŋ/
 1527	character	A being involved in the action of a story; a persona	/ˈkæ.ɹɪk.tə/
 1528	teeth	Unpleasant oral sex	/ˈtiθ/
-1529	criminal	Against the law; forbidden by law	/ˈkɹɪm.ə.nəl/
+1529	criminal	Against the law; forbidden by law	/ˈkɹɪm.ɪ.nəl/
 1530	chinese	Of, from, or related to China, particularly now the…	/ˌt͡ʃaɪˈniz/
 1531	truly	In accordance with the facts; truthfully, accurately	/ˈtɹuːli/
 1532	honestly	In an honest manner	/ˈɒn.ɪst.li/
@@ -1550,7 +1550,7 @@ rank	word	english	ipa
 1549	perfectly	With perfection	/ˈpɝ.fɪk(t).li/
 1550	forgotten	To lose remembrance of	/fɚˈɡɑ.tn̩/
 1551	remain	That which is left; relic; remainder	/ɹɪˈmeɪn/
-1552	original	Relating to the origin or beginning; preceding all others	/ɚˈɹɪdʒɪnəl/
+1552	original	Relating to the origin or beginning; preceding all others	/əˈɹɪd͡ʒ.ɪ.nəl/
 1553	papa	Dad, daddy, father; a familiar or old-fashioned term of…	/ˈpɑːpə/
 1554	onto	Arriving upon or on top of	/ˈɑn.tu/
 1555	concerned	To relate or belong to; to have reference to or connection…	/kənˈsɝnd/
@@ -1634,7 +1634,7 @@ rank	word	english	ipa
 1633	birth	The process of childbearing; the beginning of life; the…	/bɜɹθ/
 1634	created	To bring into existence	/kɹiˈeɪ̯t.ɪd/
 1635	realized	To become aware of, understand, or appreciate	/ˈɹi.(ə.)laɪzd/
-1636	british	The residents or inhabitants of Great Britain	/ˈbɹɪtɪʃ/
+1636	british	The residents or inhabitants of Great Britain	[ˈbɹɪɾɪʃ]
 1637	noise	Various sounds, usually unwanted or unpleasant	/ˈnoɪ̯z/
 1638	nuts	The testicles	/nʌts/
 1639	students	A person who studies or learns about a particular subject	/ˈstudn̩ts/
@@ -1778,7 +1778,7 @@ rank	word	english	ipa
 1777	pete	Acronym of polyethylene terephthalate	/ˈpiːt/
 1778	ed	edition	/ɛd/
 1779	success	The achievement of one's aim or goal	/səkˈsɛs/
-1780	wet	Made up of liquid or moisture, usually water	/ˈwɛt/
+1780	wet	Made up of liquid or moisture, usually water	/wɛt/
 1781	nah	No	[næː]
 1782	amount	The total, aggregate or sum of material	/əˈmaʊnt/
 1783	members	One who belongs to a group	/ˈmɛm.bɚz/
@@ -1962,7 +1962,7 @@ rank	word	english	ipa
 1961	rachel	Synonym of Rachel sandwich	/ˈɹeɪ.tʃəl/
 1962	giant	A mythical human or humanoid of very great size	/ˈd͡ʒaɪ.ənt/
 1963	insurance	A means of indemnity against a future occurrence of an…	/ɪnˈʃʊɹ.əns/
-1964	woods	The substance making up the central part of the trunk and…	/wɵdz/
+1964	woods	The substance making up the central part of the trunk and…	/wʊdz/
 1965	n	Contraction of and, chiefly used in set phrases	/ɛn/
 1966	scare	A minor fright	/skɛɚ/
 1967	pleased	To make happy or satisfy; to give pleasure to	/pliːzd/
@@ -1993,7 +1993,7 @@ rank	word	english	ipa
 1992	led	To cover, fill, or affect with lead	/ˈlɛd/
 1993	guests	A recipient of hospitality, especially someone staying by…	/ɡɛsts/
 1994	celebrate	To extol or honour in a solemn manner	/ˈsɛl.ə.bɹeɪt/
-1995	map	A visual representation of an area, whether real or…	/ˈmæp/
+1995	map	A visual representation of an area, whether real or…	/mæp/
 1996	horn	A hard growth of keratin that protrudes from the top of the…	/hɔɹn/
 1997	eventually	In the end; at some later time, especially after a long…	/ɪˈvɛn.t͡ʃu.ə.li/
 1998	pity	A feeling of sympathy at the misfortune or suffering of…	/ˈpɪt.i/
@@ -2074,7 +2074,7 @@ rank	word	english	ipa
 2073	shots	The result of launching a projectile or bullet	/ʃɑts/
 2074	lucy	The drug LSD	/ˈlusi/
 2075	dealing	To distribute among a number of recipients, to give out as…	/ˈdiːlɪŋ/
-2076	trap	A machine or other device designed to catch animals, either…	/tɹæp/
+2076	trap	A machine or other device designed to catch animals, either…	[t̠ɹ̠̊˔æp]
 2077	charges	The amount of money levied for a service	/ˈt͡ʃɑɹd͡ʒɪz/
 2078	phil	Clipping of Philippine	/fɪl/
 2079	bang	Right, directly	/ˈbæŋ/
@@ -2094,7 +2094,7 @@ rank	word	english	ipa
 2093	courage	The quality of being confident, not afraid or easily…	/ˈkʌɹ.ɪd͡ʒ/
 2094	hunt	To find or search for an animal in the wild with the…	/hʌnt/
 2095	indian	Of or relating to India or its people; or of the East Indies	/ˈɪn.di.ən/
-2096	rat	Any of the numerous members of several rodent families that…	/ɹat/
+2096	rat	Any of the numerous members of several rodent families that…	/ɹæt/
 2097	terms	That which limits the extent of anything; limit, extremity,…	/tɝmz/
 2098	italian	Pertaining to Italy	/ɪˈtæl.jən/
 2099	emma	M in RAF phonetic alphabet	/ˈɛmə/
@@ -2108,7 +2108,7 @@ rank	word	english	ipa
 2107	crack	To form cracks	/kɹæk/
 2108	threat	An expression of intent to injure or punish another	/θɹɛt/
 2109	jenny	A device for spinning thread from fiber onto multiple…	/ˈd͡ʒɛni/
-2110	physical	Pertaining to the world as understood through the senses…	/ˈfɪzɪkəl/
+2110	physical	Pertaining to the world as understood through the senses…	/ˈfɪz.ɪ.kəl/
 2111	nation	A historically constituted, stable community of people,…	/ˈneɪʃən/
 2112	source	The person, place, or thing from which something comes or…	/sɔɹs/
 2113	chose	A thing; personal property	/t͡ʃoʊz/
@@ -2119,7 +2119,7 @@ rank	word	english	ipa
 2118	stood	To support oneself on the feet in an erect position	/stʊd/
 2119	kicked	To strike or hit with the foot or other extremity of the leg	/kɪkt/
 2120	disgusting	Causing disgust; repulsive; distasteful	/dɪsˈɡʌstɪŋ/
-2121	palace	Official residence of a head of state or other dignitary,…	/ˈpælɪs/
+2121	palace	Official residence of a head of state or other dignitary,…	/ˈpæləs/
 2122	below	Lower in spatial position than	/bɪˈloʊ/
 2123	shopping	To visit stores or shops to browse or explore merchandise,…	/ˈʃɑpɪŋ/
 2124	neighborhood	The residential area near one's home	/ˈneɪbɚˌhʊd/
@@ -2136,8 +2136,8 @@ rank	word	english	ipa
 2135	dawn	To begin to brighten with daylight	/dɔːn/
 2136	effect	The result or outcome of a cause	/ɪˈfɛkt/
 2137	spell	Words or a formula supposed to have magical powers	/spɛl/
-2138	freak	An act of sexual intercourse	/fɹiːk/
-2139	wood	The substance making up the central part of the trunk and…	/wɵd/
+2138	freak	An act of sexual intercourse	/fɹik/
+2139	wood	The substance making up the central part of the trunk and…	/wʊd/
 2140	screwed	To connect or assemble pieces using a screw	/ˈskɹuːd/
 2141	enemies	Someone who is hostile to, feels hatred towards, opposes…	/ˈɛn.ə.miz/
 2142	gary	Synonym of Gary Glitter	/ˈɡæɹ.ɪ/
@@ -2157,7 +2157,7 @@ rank	word	english	ipa
 2156	whore	Synonym of prostitute: a person who offers sexual services…	/hɔɚ/
 2157	piano	Softly, as a dynamic in a piece of music	/piˈænoʊ/
 2158	license	A legal document giving official permission to do…	/ˈlaɪ.səns/
-2159	cooking	To prepare food for eating, typically by heating it,…	/ˈkɵkɪŋ/
+2159	cooking	To prepare food for eating, typically by heating it,…	/ˈkʊkɪŋ/
 2160	honour	British, Canadian, Commonwealth, and Ireland standard…	/ˈɑnəɹ/
 2161	concern	That which affects one’s welfare or happiness. A matter of…	/kənˈsɝn/
 2162	moves	The act of moving; a movement	/muːvz/
@@ -2170,7 +2170,7 @@ rank	word	english	ipa
 2169	mirror	A smooth surface, usually made of glass with reflective…	/ˈmiɹɚ/
 2170	studio	An artist’s or photographer’s workshop or the room in which…	/ˈstudi.oʊ/
 2171	media	The middle layer of the wall of a blood vessel or lymph…	/ˈmi.di.ə/
-2172	taxi	A vehicle that may be hired for single journeys by members…	/ˈtaksɪj/
+2172	taxi	A vehicle that may be hired for single journeys by members…	/ˈtæksi/
 2173	dies	To stop living; to become dead; to undergo death	/daɪz/
 2174	iron	A common, inexpensive metal, silvery grey when untarnished,…	/ˈaɪ.ɚn/
 2175	hearts	A muscular organ that pumps blood through the body,…	/hɑɹts/
@@ -2190,7 +2190,7 @@ rank	word	english	ipa
 2189	joking	To do or say something for amusement rather than seriously	/ˈd͡ʒoʊkɪŋ/
 2190	christian	A believer in Christianity	/ˈkɹɪʃt͡ʃən/
 2191	bleeding	used as an intensifier: Extremely	/ˈbliːdɪŋ/
-2192	hook	A rod bent into a curved shape, typically with one end free…	/hɵk/
+2192	hook	A rod bent into a curved shape, typically with one end free…	/hʊk/
 2193	beating	To hit; to strike	/ˈbiːtɪŋ/
 2194	protection	The process of keeping safe	/pɹəˈtɛkʃn̩/
 2195	treatment	The process or manner of treating someone or something	/ˈtɹiːtmənt/
@@ -2269,7 +2269,7 @@ rank	word	english	ipa
 2268	refuse	Discarded, rejected	/ɹɪˈfjuz/
 2269	solve	To find an answer or solution to a problem or question; to…	/sɒlv/
 2270	theme	A subject, now especially of a talk or an artistic piece; a…	/θiːm/
-2271	loving	An intensifier, often applying more to the whole utterance…	/ˈlʌvɪŋ/
+2271	loving	An intensifier, often applying more to the whole utterance…	/ˈlʌv.ɪŋ/
 2272	properly	In a proper manner, appropriately, suitably; correctly,…	/ˈpɹɑpɚli/
 2273	dragon	In European mythologies, a gigantic beast, typically…	/ˈdɹæɡən/
 2274	mostly	Mainly or chiefly; for the most part; usually, generally,…	/ˈmoʊstli/
@@ -2379,11 +2379,11 @@ rank	word	english	ipa
 2378	rare	Very uncommon; scarce	/ɹɛɚ/
 2379	helen	Any of various papilionid butterflies of the genus Papilio	/ˈhɛlən/
 2380	grade	A rating	[ɡɹeɪd]
-2381	juice	A liquid made from plant, especially fruit	/d͡ʒʉws/
+2381	juice	A liquid made from plant, especially fruit	/d͡ʒus/
 2382	wide	Extensively	/waɪd/
 2383	tower	A tall, narrow structure significantly taller than it is…	/ˈtaʊɚ/
 2384	solution	A homogeneous mixture, which may be liquid, gas or solid,…	/səˈl(j)uːʃən/
-2385	schedule	A procedural plan, usually but not necessarily tabular in…	/ˈʃɛd͡ʒuːl/
+2385	schedule	A procedural plan, usually but not necessarily tabular in…	/ˈskɛd͡ʒ.ʊl/
 2386	explosion	A violent release of energy; an act or instance of exploding	/ɛkˈsploʊ.ʒən/
 2387	wheel	A circular device capable of rotating on its axis,…	/ˈwiːl/
 2388	cigarette	A small cigar consisting of tobacco or another substance,…	/ˈsɪɡəɹɛt/
@@ -2487,7 +2487,7 @@ rank	word	english	ipa
 2486	chain	A series of interconnected rings or links usually made of…	/ˈt͡ʃeɪn/
 2487	bull	Specifically, one that is uncastrated	/bʊl/
 2488	gasping	The act by which one gasps	/ˈɡæspɪŋ/
-2489	fully	In a full manner; without lack or defect; completely,…	/ˈfɵlɪj/
+2489	fully	In a full manner; without lack or defect; completely,…	/ˈfʊli/
 2490	robin	A European robin, Erithacus rubecula	/ˈɹɑ.bɪn/
 2491	collect	With payment due from the recipient	/ˈkɑlɪkt/
 2492	gorgeous	Sumptuously dressed	/ˈɡoɹd͡ʒəs/
@@ -2516,7 +2516,7 @@ rank	word	english	ipa
 2515	thunder	The loud rumbling, cracking, or crashing sound caused by…	/ˈθʌndɚ/
 2516	object	A thing that has physical existence but is not alive	/əbˈd͡ʒɛkt/
 2517	loser	A person who loses; one who fails to win or thrive	/luzɚ/
-2518	pen	An enclosure used to contain domesticated animals,…	/pɪn/
+2518	pen	An enclosure used to contain domesticated animals,…	/pɛn/
 2519	sobbing	Act of one who sobs; a crying or weeping	/ˈsɑbɪŋ/
 2520	politics	A methodology and activities associated with the…	/ˈpɒl.ɪ.tɪks/
 2521	despite	In spite of, notwithstanding	/dɪˈspaɪt/
@@ -2529,8 +2529,8 @@ rank	word	english	ipa
 2528	witnesses	Attestation of a fact or event; testimony	/ˈwɪt.nə.sɪz/
 2529	earn	To gain through applied effort or work	/ɝn/
 2530	trash	Useless physical things to be discarded; rubbish; refuse	/tɹæʃ/
-2531	valley	An elongated depression cast between hills or mountains,…	/ˈvalɪj/
-2532	fashion	A current trend, favored for frivolous rather than…	/ˈfæʃən/
+2531	valley	An elongated depression cast between hills or mountains,…	/ˈvæli/
+2532	fashion	A current trend, favored for frivolous rather than…	/ˈfæʃ.ən/
 2533	episode	A discrete but connected event, situation, or period within…	/ˈɛp.ə.soʊd/
 2534	prize	That which is taken from another; something captured; a…	/ˈpɹaɪ̯z/
 2535	previously	At an earlier time; already	/ˈpɹivi.əsli/
@@ -2569,7 +2569,7 @@ rank	word	english	ipa
 2568	studying	To review materials already learned in order to make sure…	/ˈstʌdiːɪŋ/
 2569	barry	A field divided transversely into several equal parts, and…	/ˈbɑɹ.i/
 2570	agency	The capacity, condition, or state of acting or of exerting…	/ˈeɪ.d͡ʒən.si/
-2571	apple	The fruit of the tree Malus domestica, chiefly with a…	/ˈæp.əl/
+2571	apple	The fruit of the tree Malus domestica, chiefly with a…	/ˈæpəl/
 2572	border	The line or frontier area separating political or…	/ˈbɔɹ.dɚ/
 2573	rope	Thick strings, yarn, monofilaments, metal wires, or strands…	/ɹoʊp/
 2574	duck	To quickly lower, often in order to prevent it from being…	/dʌk/
@@ -2682,7 +2682,7 @@ rank	word	english	ipa
 2681	guitar	A stringed musical instrument, of European origin, usually…	/ɡɪˈtɑɹ/
 2682	committee	A body of one or more persons convened for the…	/kəˈmɪt.i/
 2683	dozen	A set of twelve	/ˈdʌzən/
-2684	delivery	The act of conveying something	/ˈdᵻlɪvɚɹi/
+2684	delivery	The act of conveying something	/dɪˈlɪv.(ə.)ɹi/
 2685	advance	To help the progress of; to further	/ədˈvæns/
 2686	quietly	Producing little or no noise	/ˈkwaɪ.ɪt.li/
 2687	stan	An extremely obsessive fan of a person, group, character,…	/stæn/
@@ -2809,7 +2809,7 @@ rank	word	english	ipa
 2808	boots	Used as an intensifier: very, to a great degree;…	/buts/
 2809	possibility	The quality of being possible	/ˌpɑ.səˈbɪl.ə.ti/
 2810	albert	Synonym of Albert chain	/ˈæl.bɚt/
-2811	civil	Having to do with people and government office as opposed…	/ˈsɪvəl/
+2811	civil	Having to do with people and government office as opposed…	/ˈsɪv.əl/
 2812	june	To rush	/ˈdʒuːn/
 2813	germans	A native or inhabitant of Germany; a person of German…	/ˈd͡ʒɝmənz/
 2814	baseball	A sport common in North America, the Caribbean, and East…	/ˈbeɪs.bɔl/
@@ -2948,7 +2948,7 @@ rank	word	english	ipa
 2947	skull	The main bones of the head considered as a unit; including…	/ˈskʌl/
 2948	frankie	Synonym of Frankenstein	/ˈfɹæŋ.ki/
 2949	shown	To display, convey or exhibit; to have something available…	/ʃoʊn/
-2950	bat	Any flying mammal of the order Chiroptera, usually small…	/ˈbæt/
+2950	bat	Any flying mammal of the order Chiroptera, usually small…	/bæt/
 2951	survived	Of a person, to continue to live; to remain alive	/sɚˈvaɪvd/
 2952	print	Of, relating to, or writing for printed publications	/pɹɪnt/
 2953	champion	An ongoing winner in a game or contest	/ˈt͡ʃæm.pi.ən/
@@ -2969,7 +2969,7 @@ rank	word	english	ipa
 2968	lewis	A cramp iron inserted into a cavity in order to lift heavy…	/ˈluːɪs/
 2969	betrayed	Suffering from betrayal	/bɪˈtɹeɪd/
 2970	servant	One who is hired to perform regular household or other…	/ˈsɝvənt/
-2971	cap	A close-fitting hat, either brimless or peaked	/ˈkæp/
+2971	cap	A close-fitting hat, either brimless or peaked	/kæp/
 2972	tyler	Archaic form of tiler	/ˈtaɪlɚ/
 2973	bible	A comprehensive manual that describes something, or a…	/ˈbaɪbəl/
 2974	practically	In practice; in effect or in actuality, though possibly not…	/ˈpɹæk.tɪ.k(ə.)li/
@@ -2988,12 +2988,12 @@ rank	word	english	ipa
 2987	heck	Hell	/hɛk/
 2988	deck	Any raised flat surface that can be walked on: a balcony; a…	/ˈdɛk/
 2989	fans	A hand-held device consisting of concertinaed material, or…	/fænz/
-2990	script	A writing; a written document	/ˈskɹɪpt/
+2990	script	A writing; a written document	/skɹɪpt/
 2991	brand	A mark or scar made by burning with a hot iron, especially…	/ˈbɹænd/
 2992	degree	A completed curriculum of study in tertiary education	/dɪˈɡɹiː/
 2993	painful	Causing pain or distress, either physical or mental	/ˈpeɪn.fl̩/
 2994	coughing	A cough; the act of coughing	/ˈkɔfɪŋ/
-2995	religion	Belief in a spiritual or metaphysical reality, accompanied…	/ˈɹᵻlɪdʒən/
+2995	religion	Belief in a spiritual or metaphysical reality, accompanied…	/ɹɪˈlɪd͡ʒ.ən/
 2996	cats	A mammal of the family Felidae	/kæts/
 2997	influence	The power to affect, control or manipulate something or…	/ˈɪn.flu.əns/
 2998	fuel	Substance consumed to provide energy through combustion, or…	[ˈfjuwəɫ]
@@ -3046,7 +3046,7 @@ rank	word	english	ipa
 3045	inform	To communicate knowledge to	/ɪnˈfɔɹm/
 3046	gentle	Tender and amiable; of a considerate or kindly disposition	/ˈd͡ʒɛn.tl̩/
 3047	status	A person’s condition, position or standing relative to that…	/ˈsteɪt.əs/
-3048	purse	A small bag for carrying money	/pɚs/
+3048	purse	A small bag for carrying money	/pəːs/
 3049	prints	Books and other material created by printing presses,…	/pɹɪnts/
 3050	players	One who plays any game or sport	/ˈpleɪɚz/
 3051	charged	To assign a duty or responsibility to; to order	/t͡ʃɑɹd͡ʒd/
@@ -3064,7 +3064,7 @@ rank	word	english	ipa
 3063	response	An answer or reply, or something in the nature of an answer…	/ɹɪˈspɑns/
 3064	cancel	To cross out something with lines etc	/ˈkæn.sl̩/
 3065	argument	A fact or statement used to support a proposition; a reason	/ˈɑɹɡjʊmənt/
-3066	principal	Primary; most important; first level in importance	/ˈpɹɪnsɪpəl/
+3066	principal	Primary; most important; first level in importance	/ˈpɹɪn.sɪ.pəl/
 3067	turkey	A wild turkey of Meleagris gallopavo	/ˈtɝki/
 3068	lucas	Synonym of George Lucas	/ˈluːkəs/
 3069	clinic	A medical facility, such as a hospital, especially one for…	/ˈklɪn.ɪk/
@@ -3086,7 +3086,7 @@ rank	word	english	ipa
 3085	mistress	Someone who has control over something or someone	/ˈmɪs.tɹɪs/
 3086	teams	A set of draught animals, such as two horses in front of a…	/tiːmz/
 3087	product	Anything that is produced; a result	/ˈpɹɑ.dəkt/
-3088	beef	The meat from cattle or other bovines; especially, that…	/bɪjf/
+3088	beef	The meat from cattle or other bovines; especially, that…	/bif/
 3089	whispers	The act of speaking in a quiet voice, especially without…	/ˈwɪspɚz/
 3090	religious	Concerning religion	/ɹɪˈlɪd͡ʒəs/
 3091	presents	The current moment or period of time	/ˈpɹɛzənts/
@@ -3158,7 +3158,7 @@ rank	word	english	ipa
 3157	aim	The pointing of a weapon, as a gun, a dart, or an arrow, or…	/eɪm/
 3158	nancy	An effeminate man, especially a homosexual	/ˈnænsi/
 3159	affairs	Something which is done or is to be done; business of any…	/əˈfɛɹz/
-3160	thick	In a thick manner	/ˈθɪk/
+3160	thick	In a thick manner	/θɪk/
 3161	sport	Any activity that uses physical exertion or skills…	/spoɹt/
 3162	basic	Necessary, essential for life or some process	/ˈbeɪsɪk/
 3163	electric	Of, relating to, produced by, operated with, or utilising…	/ɪˈlɛktɹɪk/
@@ -3433,7 +3433,7 @@ rank	word	english	ipa
 3432	clown	A slapstick performance artist often associated with a…	/ˈklaʊ̯n/
 3433	snap	A quick breaking or cracking sound or the action of…	/snæp/
 3434	messing	To make soiled by defecating	/ˈmɛsɪŋ/
-3435	hood	A head covering placed on falcons to inhibit their vision	[hʊ̈d]
+3435	hood	A head covering placed on falcons to inhibit their vision	/hʊd/
 3436	twelve	The cardinal number occurring after eleven and before…	/twɛlv/
 3437	interests	The price paid for obtaining, or price received for…	/ˈɪn.t(ə.)ɹɪsts/
 3438	cheated	Having been tricked or deceived	[ˈt͡ʃiɾɨd]
@@ -3485,7 +3485,7 @@ rank	word	english	ipa
 3484	ripped	To divide or separate the parts of, by cutting or tearing;…	/ɹɪpt/
 3485	attacks	An attempt to cause damage, injury to, or death of an…	/əˈtæks/
 3486	stretch	To lengthen by pulling	/stɹɛt͡ʃ/
-3487	bush	Towards the direction of the outback	/ˈbɵʃ/
+3487	bush	Towards the direction of the outback	/ˈbʊʃ/
 3488	dates	The fruit of the date palm, Phoenix dactylifera, somewhat…	/deɪts/
 3489	unable	Not able; lacking a certain ability	/ʌnˈeɪbl̩/
 3490	gates	A doorlike structure outside a house	/ɡeɪts/
@@ -3551,7 +3551,7 @@ rank	word	english	ipa
 3550	testify	To make a declaration, or give evidence, under oath	/ˈtɛstɪfaɪ/
 3551	studied	To review materials already learned in order to make sure…	/ˈstʌd.id/
 3552	walker	The agent noun of to walk: a person who walks or a thing…	/ˈwɔkɚ/
-3553	pin	A needle without an eye made of drawn-out steel wire with…	/ˈpɪn/
+3553	pin	A needle without an eye made of drawn-out steel wire with…	/pɪn/
 3554	imagined	To form a mental image of something; to envision or create…	/ɪˈmæd͡ʒɪnd/
 3555	drill	To create by removing material with a drill	/dɹɪl/
 3556	investigating	To inquire into or study in order to ascertain facts or…	/ɪnˈvɛstᵻˌɡeɪɾɪŋ/
@@ -3714,7 +3714,7 @@ rank	word	english	ipa
 3713	gloves	An item of clothing, covering all or part of the hand and…	/ɡlʌvz/
 3714	tracking	To observe the state of a person or object over time	/ˈtɹækɪŋ/
 3715	zoe	Bare or universal life	/ˈzoʊi/
-3716	u	A thing in the shape of the letter U	/ə/
+3716	u	A thing in the shape of the letter U	/ʌ/
 3717	bend	To cause to change its shape into a curve, by physical…	/bɛnd/
 3718	review	A second or subsequent reading of a text or artifact in an…	/ɹɪˈvjuː/
 3719	connect	To join: to attach, or to be intended to attach or capable…	/kəˈnɛkt/
@@ -3723,7 +3723,7 @@ rank	word	english	ipa
 3722	beard	Facial hair on the chin, cheeks, jaw and neck	/bɪɹd/
 3723	admiral	The commander of a naval squadron or fleet, regardless of…	/ˈædməɹəl/
 3724	diana	A Diana monkey	/daɪˈænə/
-3725	salary	A fixed amount of money paid to a worker, usually…	/ˈsaləɹɪj/
+3725	salary	A fixed amount of money paid to a worker, usually…	/ˈsæləɹi/
 3726	areas	A measure of the extent of a surface; it is measured in…	/ˈɛɹiəz/
 3727	disturb	to confuse a quiet, constant state or a calm, continuous…	/dɪˈstɝb/
 3728	pro	In favor of	/pɹoʊ/
@@ -3789,7 +3789,7 @@ rank	word	english	ipa
 3788	blonde	A kind of 2,000-watt lamp	/blɑnd/
 3789	catching	To capture or snare	/ˈkæt͡ʃɪŋ/
 3790	exposed	Open, unconcealed and/or unprotected	/ɪkˈspoʊzd/
-3791	canada	A country bordering a larger country that shares many…	/kəˈnɑːdə/
+3791	canada	A country bordering a larger country that shares many…	/ˈkænədə/
 3792	dont	Misspelling of don't	/ˈdoʊnt/
 3793	han	Sorrowful resentment, as a part of the Korean cultural…	/hæn/
 3794	comedy	a light, amusing play with a happy ending	/ˈkɑmədi/
@@ -3837,7 +3837,7 @@ rank	word	english	ipa
 3836	tooth	A hard, calcareous structure present in the mouth of many…	/tuθ/
 3837	depressed	Unhappy; despondent	/dɪˈpɹɛst/
 3838	potatoes	The edible starchy tuber of the plant species Solanum…	/pəˈteɪ.toʊz/
-3839	wicked	Evil or mischievous by nature; morally reprehensible	/ˈwɪkɪd/
+3839	wicked	Evil or mischievous by nature; morally reprehensible	/ˈwɪk.ɪd/
 3840	resources	Something that one uses to achieve an objective, e.g. raw…	/ˈɹi.sɔɹsɪz/
 3841	native	Belonging to one by birth or ancestry	/ˈneɪtɪv/
 3842	centuries	A period of one hundred consecutive years; often…	/ˈsɛn.t͡ʃə.ɹiz/
@@ -3900,8 +3900,8 @@ rank	word	english	ipa
 3899	statue	A three-dimensional work of art, usually representing a…	/ˈstæt͡ʃu/
 3900	fridge	A refrigerator	/fɹɪd͡ʒ/
 3901	brick	A hardened rectangular block of mud, clay etc., used for…	/ˈbɹɪk/
-3902	abandon	To give up or relinquish control of, to surrender or to…	/ɐˈbændən/
-3903	lap	The loose part of a coat; the lower part of a garment that…	/ˈlæp/
+3902	abandon	To give up or relinquish control of, to surrender or to…	/əˈbæn.dən/
+3903	lap	The loose part of a coat; the lower part of a garment that…	/læp/
 3904	wars	Organized, large-scale, armed conflict between countries or…	/wɔɹz/
 3905	recommend	To bestow commendation on; to represent favorably; to…	/ˌɹɛkəˈmɛnd/
 3906	brush	An implement consisting of multiple more or less flexible…	/bɹʌʃ/
@@ -3977,7 +3977,7 @@ rank	word	english	ipa
 3976	leak	A crack, crevice, fissure, or hole which admits water or…	/liːk/
 3977	item	likewise	/ˈaɪ.təm/
 3978	catholic	Universal; all-encompassing	/ˈkæ.θ(ə.)lɪk/
-3979	sighing	Accompanied by or uttered with a sigh	/ˈsʌɪ̯.ɪŋ/
+3979	sighing	Accompanied by or uttered with a sigh	/ˈsaɪ̯.ɪŋ/
 3980	retired	Secluded from society; private, quiet	/ɹɪˈtaɪəɹd/
 3981	kings	A male monarch; a man who heads a monarchy; in an absolute…	/kɪŋz/
 3982	inner	Being or occurring inside, situated farther in, located or…	/ˈɪnə/
@@ -3989,7 +3989,7 @@ rank	word	english	ipa
 3988	necessarily	Inevitably; of necessity	/ˌnɛs.əˈsɛɹ.ə.li/
 3989	provided	Only if	/pɹəˈvaɪdɪd/
 3990	meters	A device that measures things	/ˈmiːɾɚz/
-3991	booked	To reserve for future use	/bɵkt/
+3991	booked	To reserve for future use	/bʊkt/
 3992	returns	The act of returning	/ɹɪˈtɝnz/
 3993	gloria	A lightweight fabric used for umbrellas and dresses	/ˈɡlɔːɹiə/
 3994	fires	A chemical reaction involving the bonding of oxygen with…	/ˈfaɪ̯ɚz/
@@ -4027,7 +4027,7 @@ rank	word	english	ipa
 4026	slaves	A person who is held in servitude as the property of…	/sleɪvz/
 4027	marine	Belonging to or characteristic of the sea; existing or…	/məˈɹiːn/
 4028	illness	An instance of a disease or poor health	/ˈɪl.nəs/
-4029	sack	A bag; especially a large bag of strong, coarse material…	/ˈsæk/
+4029	sack	A bag; especially a large bag of strong, coarse material…	/sæk/
 4030	bid	twice a day, two times per day	/bɪd/
 4031	require	To demand, to insist upon; to call for authoritatively	/ɹɪˈkwaɪɹ/
 4032	largest	Of considerable or relatively great size or extent	/ˈlɑɹd͡ʒɪst/
@@ -4214,7 +4214,7 @@ rank	word	english	ipa
 4213	complaining	The act by which someone complains; a complaint	/kəmˈpleɪn.ɪŋ/
 4214	senses	Any of the manners by which living beings perceive the…	/ˈsɛnsɪz/
 4215	investment	The act of investing, or state of being invested	/ɪnˈvɛstmənt/
-4216	absurd	Contrary to reason or propriety; obviously and flatly…	/əbˈsɚd/
+4216	absurd	Contrary to reason or propriety; obviously and flatly…	/æbˈsɚd/
 4217	potato	The edible starchy tuber of the plant species Solanum…	/pəˈteɪ.toʊ/
 4218	understands	To know the meaning of; to parse or have parsed correctly;…	/ˌʌndɚsˈtændz/
 4219	grows	To become larger, to increase in magnitude	/ɡɹoʊz/
@@ -4240,7 +4240,7 @@ rank	word	english	ipa
 4239	assuming	To authenticate by means of belief; to surmise; to suppose…	/əˈsjuːmɪŋ/
 4240	nails	The four round-topped pedestals outside the Corn Exchange…	/neɪlz/
 4241	dana	The virtue of generosity or giving, a form of alms, in…	/ˈdeɪnə/
-4242	conspiracy	An agreement or arrangement between multiple parties to do…	/kənsˈpɪɹəsi/
+4242	conspiracy	An agreement or arrangement between multiple parties to do…	/kənˈspɪɹəsi/
 4243	thanksgiving	The expression of gratitude	/ˌθeɪ̯ŋksˈɡɪv.ɪŋ/
 4244	guardian	Someone who guards, watches over, or protects	/ˈɡɑɹ.di.ən/
 4245	rumors	A statement or claim of questionable accuracy, from no…	/ˈɹumɚz/
@@ -4291,7 +4291,7 @@ rank	word	english	ipa
 4290	lungs	A biological organ of vertebrates that controls breathing…	/lʌŋz/
 4291	register	A formal recording of names, events, transactions, etc	/ˈɹɛd͡ʒ.ɪ.stɚ/
 4292	shadows	A dark image projected onto a surface where light is…	/ˈʃædoʊz/
-4293	specifically	In a specific manner, applying to or naming a particular…	/spəˈsɪfɪkli/
+4293	specifically	In a specific manner, applying to or naming a particular…	/spɪˈsɪf.ɪ.kli/
 4294	sarge	Clipping of sergeant	/sɑɹd͡ʒ/
 4295	ideal	Pertaining to ideas, or to a given idea	/aɪˈdi(ə)l/
 4296	turtle	Any land, aquatic, or semi-aquatic reptile of the order…	/ˈtɝtl̩/
@@ -4306,7 +4306,7 @@ rank	word	english	ipa
 4305	immediate	Happening right away, instantly, with no delay	/ɪˈmi.di.ɪt/
 4306	belonged	To have its proper place	/bɪˈlɔŋd/
 4307	identified	To establish the identity of someone or something	/aɪˈdɛn.tɪ.faɪd/
-4308	di	A meaningless syllable used when singing a tune or…	/ˈdi/
+4308	di	A meaningless syllable used when singing a tune or…	/di/
 4309	hunger	A need or compelling desire for food	/ˈhʌŋɡɚ/
 4310	closest	At little distance; near in space or time	/ˈkloʊ.sɪst/
 4311	combination	The act of combining, the state of being combined or the…	/ˌkɑmbɪˈneɪʃən/
@@ -4341,7 +4341,7 @@ rank	word	english	ipa
 4340	announce	To give public notice of, especially for the first time; to…	/əˈnaʊn(t)s/
 4341	borrowed	To receive from somebody temporarily, expecting to return it	/ˈbɔɹoʊd/
 4342	parked	To bring to a halt or store in a specified place	/ˈpɑːɹkt/
-4343	galaxy	Any of the collections of many millions or billions of…	/ˈɡælɐksi/
+4343	galaxy	Any of the collections of many millions or billions of…	/ˈɡæl.ək.si/
 4344	voted	To cast a vote; to assert a formalized choice in an election	/ˈvoʊɾᵻd/
 4345	muffled	Stifled or covered up; diminished by interference	/ˈmʌfl̩d/
 4346	jewelry	US standard spelling of jewellery	/ˈdʒuːəlɹi/
@@ -4365,7 +4365,7 @@ rank	word	english	ipa
 4364	wreck	Something or someone that has been ruined	/ˈɹɛk/
 4365	approve	To officially sanction; to ratify; to confirm; to set as…	/əˈpɹuːv/
 4366	produced	To bring forth, to yield, make, manufacture, or otherwise…	/pɹəˈdust/
-4367	physically	In a physical manner	/ˈfɪzɪkli/
+4367	physically	In a physical manner	/ˈfɪz.ɪ.kli/
 4368	stations	A regular stopping place for ground transportation	/ˈsteɪ.ʃənz/
 4369	eli	A student at Yale University	/ˈilaɪ/
 4370	spiritual	Of or pertaining to the spirit or the soul	/ˈspɪɹɪt͡ʃuəl/
@@ -4462,7 +4462,7 @@ rank	word	english	ipa
 4461	terrorists	A person, group, or organization that uses violent action,…	/ˈtɛɹɚɪsts/
 4462	elsewhere	Synonym of somewhere else: in, at, or to some other place	/ˈɛlsˌʍɛɹ/
 4463	lamp	A device that generates light, heat, or other…	/ˈlæ̝mp/
-4464	practical	Relating to, or based on, practice or action rather than…	/ˈpɹæktɪkəl/
+4464	practical	Relating to, or based on, practice or action rather than…	/ˈpɹæk.tɪ.kəl/
 4465	marked	To put a mark on; to make recognizable by a mark; to label…	/ˈmɑɹ.kɪd/
 4466	adorable	Befitting of being adored; cute or loveable	/əˈdoɹ.əˌbəl/
 4467	rubber	Pliable material derived from the sap of the rubber tree; a…	/ˈɹʌbɚ/
@@ -4499,7 +4499,7 @@ rank	word	english	ipa
 4498	si	A syllable used in solfège to represent the seventh note of…	/siː/
 4499	anonymous	Lacking a name; not named, for example an animal not…	/əˈnɑ.nə.məs/
 4500	inn	Any establishment where travellers can procure lodging,…	/ɪn/
-4501	planted	To place in soil or other substrate in order that it may…	/ˈplɑːntɪd/
+4501	planted	To place in soil or other substrate in order that it may…	/ˈplæntɪd/
 4502	oldest	Of an object, concept, relationship, etc., having existed…	/ˈoʊldəst/
 4503	breast	Either of the two organs on the front of a female human's…	/bɹɛst/
 4504	sixth	The ordinal form of the number six	/sɪksθ/
@@ -4650,7 +4650,7 @@ rank	word	english	ipa
 4649	requested	To ask for	/ɹɪˈkwɛstɪd/
 4650	cruise	A sea or lake voyage, especially one taken for pleasure	/kɹuz/
 4651	primary	First or earliest in a group or series	/ˈpɹaɪˌmɛɹ.i/
-4652	rhythm	The variation of strong and weak elements of sounds,…	/ˈɹɪðəm/
+4652	rhythm	The variation of strong and weak elements of sounds,…	/ˈɹɪð.əm/
 4653	drum	A percussive musical instrument spanned with a thin…	/ˈdɹʌm/
 4654	models	A person who serves as a human template for artwork or…	/ˈmɑ.dl̩z/
 4655	motorcycle	An open-seated motor vehicle with handlebars instead of a…	/ˈmoʊtɚˌsaɪkəl/
@@ -4684,7 +4684,7 @@ rank	word	english	ipa
 4683	grip	To take hold, particularly with the hand	/ˈɡɹɪp/
 4684	relations	The manner in which two things may be associated	/ɹɪˈleɪʃənz/
 4685	rumor	A statement or claim of questionable accuracy, from no…	/ˈɹumɚ/
-4686	skirt	A separate article of clothing, usually worn by women and…	/skɚt/
+4686	skirt	A separate article of clothing, usually worn by women and…	/skɜːt/
 4687	frog	Any of a class of small tailless amphibians of the order…	/fɹɒɡ/
 4688	claimed	To demand ownership of	/kleɪmd/
 4689	perfume	A pleasant smell; the scent, odor, or odoriferous particles…	/ˈpɝfjuːm/
@@ -4699,7 +4699,7 @@ rank	word	english	ipa
 4698	activities	The state or quality of being active; activeness	/ækˈtɪv.ɪ.tiz/
 4699	boarding	To step or climb onto or otherwise enter a ship, aircraft,…	/ˈbɔː.dɪŋ/
 4700	fist	A hand with the fingers clenched or curled inward	/fɪst/
-4701	stuffed	To fill by packing or crowding something into; to cram with…	/ˈstʌft/
+4701	stuffed	To fill by packing or crowding something into; to cram with…	/stʌft/
 4702	improve	To make better; to increase the value or productivity	/ɪmˈpɹuːv/
 4703	creation	Something created such as an invention or artwork	/ˈkɹiˈeɪʃən/
 4704	connie	The Lockheed Constellation airliner	/ˈkɒ.ni/
@@ -4760,7 +4760,7 @@ rank	word	english	ipa
 4759	importance	The quality or condition of being important or worthy of…	/ɪmˈpoɹtəns/
 4760	spots	A round or irregular patch on the surface of a thing having…	/spɑts/
 4761	francs	Any of several units of currency	/ˈfɹæŋks/
-4762	sweep	To clean by means of a stroking motion of a broom or brush	/ˈswiːp/
+4762	sweep	To clean by means of a stroking motion of a broom or brush	/swip/
 4763	destroying	To damage beyond use or repair; to damage to the point that…	/dɪˈstɹɔɪ(j)ɪŋ/
 4764	communist	Of, relating to, supporting, or advocating communism	/ˈkɑ.mjə.nɪst/
 4765	blackmail	The extortion of money or favors by threats of public…	/ˈblækˌmeɪl/
@@ -4814,7 +4814,7 @@ rank	word	english	ipa
 4813	depend	To be contingent or conditioned; to have something as a…	/dɪˈpɛnd/
 4814	institute	An organization founded to promote a cause	/ˈɪnstɪtjuːt/
 4815	miranda	A Miranda warning	/mɪˈɹændə/
-4816	principle	A fundamental assumption, fundamental law or guiding belief	/ˈpɹɪnsɪpəl/
+4816	principle	A fundamental assumption, fundamental law or guiding belief	/ˈpɹɪn.sɪ.pəl/
 4817	fixing	To attach; to affix; to hold in place or at a particular…	/ˈfɪksɪŋ/
 4818	therapist	Someone who provides therapy, usually professionally	/ˈθɛɹəpɪst/
 4819	compete	To be in battle or in a rivalry with another for the same…	/kəmˈpiːt/
@@ -5010,7 +5010,7 @@ rank	word	english	ipa
 5009	entitled	Having a title	/ɪnˈtaɪtl̩d/
 5010	porter	A person who carries luggage and related objects; one who…	/ˈpɔɹtɚ/
 5011	wrist	The complex joint between forearm bones, carpus, and…	/ɹɪst/
-5012	originally	As it was in the beginning; at first	/ɚˈɹɪdʒɪnəli/
+5012	originally	As it was in the beginning; at first	/əˈɹɪd͡ʒ.ɪ.nə.li/
 5013	coins	A piece of currency, usually metallic and in the shape of a…	/kɔɪnz/
 5014	drain	A conduit allowing liquid to flow out of an otherwise…	/dɹeɪn/
 5015	physics	The branch of science concerned with the study of the…	/ˈfɪz.ɪks/
@@ -5145,7 +5145,7 @@ rank	word	english	ipa
 5144	dizzy	Experiencing a sensation of whirling and of being giddy,…	/ˈdɪzi/
 5145	methods	A process by which a task is completed; a way of doing…	/ˈmɛθədz/
 5146	reference	A measurement one can compare to	/ˈɹɛf.(ə.)ɹəns/
-5147	bully	A person who is intentionally physically or emotionally…	/ˈbɵlɪj/
+5147	bully	A person who is intentionally physically or emotionally…	/ˈbʊli/
 5148	lydia	A kind of Ancient Greek vase of Lydian origin: a small…	/ˈlɪdiə/
 5149	collapse	To break apart and fall down suddenly; to cave in	/kəˈlæps/
 5150	ana	Of each; an equal quantity	/ˈæ.nə/
@@ -5204,7 +5204,7 @@ rank	word	english	ipa
 5203	ransom	Money paid for the freeing of a hostage	/ˈɹæn.səm/
 5204	chang	A traditional harp of central and southwest Asia	/ˈtʃæŋ/
 5205	bore	To endeavour to depress the price of, or prices in	/boɹ/
-5206	muslim	An adherent of Islam	/ˈmɐz.ləm/
+5206	muslim	An adherent of Islam	/ˈmʊz.lɪm/
 5207	loads	Lots, much, plenty, a great deal	/loʊdz/
 5208	waitress	A female attendant who serves customers in a restaurant,…	/ˈweɪ.tɹɪs/
 5209	nurses	Anyone performing this role, regardless of training or…	/ˈnɜːsᵻz/
@@ -5220,7 +5220,7 @@ rank	word	english	ipa
 5219	gin	If	/d͡ʒɪn/
 5220	austin	Augustinian	/ˈɔstɪn/
 5221	toe	Each of the five digits on the end of the human foot	/toʊ/
-5222	sympathy	A feeling of pity or sorrow for the suffering or distress…	/ˈsɪmpəθi/
+5222	sympathy	A feeling of pity or sorrow for the suffering or distress…	/ˈsɪm.pə.θi/
 5223	intel	Intelligence	/ˈɪnt.ɛl/
 5224	growth	An increase in size, number, value, or strength	/ɡɹoʊθ/
 5225	psychiatrist	A medical doctor specializing in psychiatry	/ˌsaɪˈkaɪ.ə.tɹɪst/
@@ -5297,8 +5297,8 @@ rank	word	english	ipa
 5296	dialogue	A conversation or other form of discourse between two or…	/ˈdaɪəˌlɑɡ/
 5297	cal	Clipping of calorie	/kæl/
 5298	tremendous	Awe-inspiring; terrific	/tɹɪˈmɛndəs/
-5299	pervert	A person whose sexual habits are not considered acceptable	/ˈpɚ.vɚt/
-5300	establish	To make stable or firm; to confirm	/ɪsˈtæblɪʃ/
+5299	pervert	A person whose sexual habits are not considered acceptable	/ˈpəː.vəːt/
+5300	establish	To make stable or firm; to confirm	/ɪˈstæb.lɪʃ/
 5301	dearest	High in price; expensive	/ˈdɪɹɪst/
 5302	intimate	Closely acquainted; familiar	/ˈɪn.tɪ.mət/
 5303	eager	Desirous; keen to do or obtain something	/ˈiɡɚ/
@@ -5348,7 +5348,7 @@ rank	word	english	ipa
 5347	announced	Having been preceded by an announcement; declared	/ɐˈnaʊnst/
 5348	buddha	Any other person considered similarly enlightened	/ˈbudə/
 5349	fries	Ellipsis of french fries	/fɹaɪz/
-5350	capacity	The ability to hold, receive, or absorb	/kəˈpasɪtɪj/
+5350	capacity	The ability to hold, receive, or absorb	/kəˈpæsɪti/
 5351	opponent	One who opposes another; one who works or takes a position…	/əˈpəʊ.nənt/
 5352	chains	A series of interconnected rings or links usually made of…	/t͡ʃeɪnz/
 5353	minus	Made less or reduced by	/ˈmaɪ.nəs/
@@ -5409,7 +5409,7 @@ rank	word	english	ipa
 5408	championship	A competition to determine a champion, especially the final…	/ˈtʃæm.pi.ən.ʃɪp/
 5409	household	All the persons who live in a given house or other home; a…	/ˈhaʊshoʊld/
 5410	float	To be supported by a fluid of greater density	/floʊt/
-5411	chad	A very handsome, genetically gifted and sexually active man…	/ˈtʃæd/
+5411	chad	A very handsome, genetically gifted and sexually active man…	/t͡ʃæd/
 5412	ballet	A classical form of dance	/bæˈleɪ/
 5413	cracking	Very, usually associated with praise	/ˈkɹækɪŋ/
 5414	raj	Reign; rule	/ɹɑd͡ʒ/
@@ -5418,7 +5418,7 @@ rank	word	english	ipa
 5417	curiosity	Inquisitiveness; the tendency to ask and learn about things…	/ˌkjʊɹ.iˈɑ.sə.ti/
 5418	vicious	Violent, destructive and cruel	/ˈvɪʃəs/
 5419	officials	An office holder, a person holding an official position in…	/əˈfɪʃəlz/
-5420	glove	An item of clothing, covering all or part of the hand and…	/ɡləv/
+5420	glove	An item of clothing, covering all or part of the hand and…	/ɡlʌv/
 5421	nearest	Closest to	/ˈnɪɹɪst/
 5422	manny	A male nanny	/ˈmæni/
 5423	begged	To request the help of someone, often in the form of money	/bɛɡd/
@@ -5521,7 +5521,7 @@ rank	word	english	ipa
 5520	bean	Any plant of several genera of the taxonomic family…	/ˈbi(ː)n/
 5521	melt	To change from a solid state to a liquid state, usually by…	/mɛlt/
 5522	racist	A person who believes in or supports racism; a person who…	/ˈɹeɪ.sɪst/
-5523	bam	Representing a loud noise or heavy impact	/ˈbæm/
+5523	bam	Representing a loud noise or heavy impact	/bæm/
 5524	ankle	The skeletal joint which connects the foot with the leg;…	/ˈæŋ.kəl/
 5525	occupied	Reserved; engaged	/ˈɒkjʊpaɪd/
 5526	nicer	Pleasant, satisfactory, complimentary	/ˈnaɪsɚ/
@@ -5582,13 +5582,13 @@ rank	word	english	ipa
 5581	reliable	Suitable or fit to be relied on; worthy of dependence,…	/ɹɪˈlaɪəbl̩/
 5582	breach	A gap or opening made by breaking or battering, as in a…	/ˈbɹit͡ʃ/
 5583	sophisticated	Of a person: having obtained worldly experience, and…	/səˈfɪstᵻˌkeɪɾᵻd/
-5584	echo	A reflected sound that is heard again by its initial…	/ˈɛk.əʊ/
+5584	echo	A reflected sound that is heard again by its initial…	/ˈɛk.oʊ/
 5585	indicate	To point out; to discover; to direct to a knowledge of; to…	/ˈɪndɪˌkeɪt/
 5586	swamp	An area of wet, spongy land, often with trees, generally a…	/ˈswɑmp/
 5587	vehicles	A conveyance: a spacious device for carrying or…	/ˈvi.ə.kl̩z/
 5588	manual	Synonym of handbook	/ˈmæn.j(u)əl/
 5589	elegant	Characterised by or exhibiting elegance; having grace,…	/ˈɛləɡənt/
-5590	compound	An enclosure within which workers, prisoners, or soldiers…	/ˈkɒmpaʊnd/
+5590	compound	An enclosure within which workers, prisoners, or soldiers…	/kəmˈpaʊnd/
 5591	serves	To be a formal servant for; to worship in an official…	/sɝvz/
 5592	scares	A minor fright	/ˈskɛɹz/
 5593	rattling	Lively, quick	/ˈɹæɾəlɪŋ/
@@ -5718,7 +5718,7 @@ rank	word	english	ipa
 5717	organs	The larger part of an organism, composed of tissues that…	/ˈɔɹ.ɡənz/
 5718	nigel	Synonym of dweeb	/ˈnaɪd͡ʒəl/
 5719	theo	The amount of a gambler's theoretical losses based on…	/ˈθiːoʊ/
-5720	einstein	An extremely clever or intelligent person	/ˈaɪnstaɪn/
+5720	einstein	An extremely clever or intelligent person	/ˈaɪnˌstaɪn/
 5721	suitable	Having sufficient or the required properties for a certain…	[ˈsju.tə.bɫ̩]
 5722	inaudible	Unable to be heard or not loud enough to be heard	/ɪˈnɔːdᵻbəl/
 5723	son-in-law	The husband of one's child	/ˈsʌnɪnˌlɔː/
@@ -5746,7 +5746,7 @@ rank	word	english	ipa
 5745	divided	separated or split into pieces	/ˈdᵻvaɪdᵻd/
 5746	linked	Connected, either with links, or as if with links	/lɪŋkt/
 5747	laboratory	A room, building or institution equipped for scientific…	/ˈlæb(ə)ɹəˌtɔɹi/
-5748	crab	Any crustacean of the infraorder Brachyura, having five…	/ˈkɹæb/
+5748	crab	Any crustacean of the infraorder Brachyura, having five…	/kɹæb/
 5749	pulls	An act of pulling	/pʊlz/
 5750	landlord	A person that leases real property; a lessor	/ˈlæn(d).lɔɹd/
 5751	reggie	Being regular marijuana, as opposed to good-quality…	/ˈɹɛdʒi/
@@ -5793,8 +5793,8 @@ rank	word	english	ipa
 5792	toxic	Having a chemical nature that is harmful to health or…	/ˈtɒk.sɪk/
 5793	broadway	The highest straight in poker, ace-king-queen-jack-ten	/ˈbɹɔːdweɪ/
 5794	sakes	Cause, interest or account	/seɪks/
-5795	pudding	Any of various dishes, sweet or savoury, prepared by…	/ˈpɵdɪŋ/
-5796	rally	A public gathering or mass meeting that is not mainly a…	/ˈɹalɪj/
+5795	pudding	Any of various dishes, sweet or savoury, prepared by…	/ˈpʊdɪŋ/
+5796	rally	A public gathering or mass meeting that is not mainly a…	/ˈɹæli/
 5797	needing	To have an absolute requirement for	/ˈniːdɪŋ/
 5798	bloom	A blossom; the flower of a plant; an expanded bud	/blum/
 5799	corporation	A body corporate, created by law or under authority of law,…	/ˌkɔɹ.pəˈɹeɪ.ʃən/
@@ -5864,7 +5864,7 @@ rank	word	english	ipa
 5863	biological	Of or relating to biology	/ˌbaɪ.əˈlɑ.d͡ʒɪ.kəl/
 5864	sincere	Genuine, honest, and free from pretense or deceit; heartfelt	/sɪnˈsɪɹ/
 5865	weigh	To determine the weight of an object	/weɪ/
-5866	pad	A flattened mass of anything soft, to sit or lie on	/ˌpi.eɪˈdi/
+5866	pad	A flattened mass of anything soft, to sit or lie on	/pæd/
 5867	swiss	Of, from, or pertaining to Switzerland or the Swiss people	/swɪs/
 5868	cue	An action or event that is a signal for somebody to do…	/kju/
 5869	witches	A person who uses magical or similar supernatural powers to…	/ˈwɪtʃᵻz/
@@ -5894,7 +5894,7 @@ rank	word	english	ipa
 5893	reaches	The act of stretching or extending; extension	/ˈɹiːt͡ʃɪz/
 5894	heights	A neighborhood or other development built on a hill or…	/haɪts/
 5895	possibilities	The quality of being possible	/ˌpɑ.səˈbɪl.ə.tiz/
-5896	wax	Beeswax	/waks/
+5896	wax	Beeswax	/wæks/
 5897	travels	The act of traveling; passage from place to place	/ˈtɹævəlz/
 5898	confidential	Kept, or meant to be kept, secret within a certain circle…	/ˌkɑn.fɪˈdɛn.ʃəl/
 5899	pursuit	The act of pursuing	/pɝˈsut/
@@ -5910,7 +5910,7 @@ rank	word	english	ipa
 5909	springs	An act of springing: a leap, a jump	/spɹɪŋz/
 5910	kicks	A hit or strike with the leg, foot or knee	/kɪks/
 5911	integrity	Steadfast adherence to a strict moral or ethical code	/ɪnˈtɛɡɹəti/
-5912	dash	Any of the following symbols: ‒, –, —, or ―	/ˈdɛəʃ/
+5912	dash	Any of the following symbols: ‒, –, —, or ―	/ˈdæʃ/
 5913	senate	In some bicameral legislative systems, the upper house or…	/ˈsɛnət/
 5914	mentally	In a mental manner; an idea thought out in one's mind, as…	/ˈmɛntəli/
 5915	flee	To run away; to escape	/ˈfliː/
@@ -5958,7 +5958,7 @@ rank	word	english	ipa
 5957	billions	a thousand million: 1 followed by nine zeros, 10⁹	/ˈbɪljənz/
 5958	alec	An anchovy or herring, especially pickled or dried	/ˈælɪk/
 5959	gained	To acquire possession of	/ɡeɪnd/
-5960	classical	Of or relating to the first class or rank, especially in…	/ˈklæsɪkəl/
+5960	classical	Of or relating to the first class or rank, especially in…	/ˈklæs.ɪ.k(ə)l/
 5961	noodles	Redstone circuitry	/ˈnuːd(ə)lz/
 5962	consistent	Of a regularly occurring, dependable nature	/kənˈsɪs.tənt/
 5963	clip	To grip tightly	/klɪp/
@@ -6029,13 +6029,13 @@ rank	word	english	ipa
 6028	thread	A cord formed by spinning or twisting together textile…	/ˈθɹɛd/
 6029	'it	Pronunciation spelling of hit, in the senses "punch",…	
 6030	priests	A religious clergyman who is trained to perform services or…	/ˈpɹiːsts/
-6031	gap	An opening in anything, made by breaking or parting	/ˈɡæp/
+6031	gap	An opening in anything, made by breaking or parting	/ɡæp/
 6032	whining	To utter a high-pitched cry	/ˈwaɪnɪŋ/
 6033	scarf	A long, often knitted, garment worn around the neck	/skɑɹf/
 6034	institution	A long-established organization or type of organization,…	/ˌɪn.stɪˈtu.ʃən/
 6035	immortal	Not susceptible to death; living forever; never dying	/ɪˈmɔɹtəl/
 6036	marsh	An area of low, wet land, often with tall grass or…	/mɑɹʃ/
-6037	chapel	A place of worship, smaller than or subordinate to a church	/ˈtʃæpəl/
+6037	chapel	A place of worship, smaller than or subordinate to a church	/ˈt͡ʃæp.əl/
 6038	desperately	In a desperate manner; without regard to danger or safety;…	/ˈdɛs.p(ə.)ɹət.li/
 6039	accidents	An unexpected event with negative consequences occurring…	/ˈæksɪdənts/
 6040	alcoholic	A person who is addicted to alcohol	/ˌæl.kəˈhɔ.lɪk/
@@ -6140,7 +6140,7 @@ rank	word	english	ipa
 6139	civilians	Synonym of civvies	/sɪˈvɪl.jənz/
 6140	lobster	A crustacean of the Nephropidae family, dark green or…	/ˈlɑb.stɚ/
 6141	housing	To keep within a structure or container	/ˈhaʊzɪŋ/
-6142	canal	An artificial waterway or artificially improved river used…	/kəˈnɛl/
+6142	canal	An artificial waterway or artificially improved river used…	/kəˈnæl/
 6143	robots	An intelligent mechanical being designed to look like a…	/ˈɹoʊbɑːts/
 6144	shade	Darkness where light, particularly sunlight, is blocked	/ʃeɪd/
 6145	ambitious	Having or showing ambition; wanting a lot of power, honor,…	/æmˈbɪʃ.əs/
@@ -6149,7 +6149,7 @@ rank	word	english	ipa
 6148	guidance	The act or process of guiding	/ˈɡaɪdəns/
 6149	hence	In the future from now	/ˈhɛns/
 6150	inevitable	Impossible to avoid or prevent	/ɪˈnɛvɪtəbəl/
-6151	tick	A tiny woodland arachnid of the suborder Ixodida	/ˈtɪk/
+6151	tick	A tiny woodland arachnid of the suborder Ixodida	/tɪk/
 6152	rival	A competitor with the same goal as another, or striving to…	/ˈɹaɪvəl/
 6153	refuses	To decline	/ˈɹᵻfjuːzᵻz/
 6154	fiancé	A man who is engaged to be married; the man to whom one is…	/fiˈɑnseɪ/
@@ -6316,7 +6316,7 @@ rank	word	english	ipa
 6315	congressman	A male member of congress	/ˈkɑːŋɡɹəsmən/
 6316	canyon	A valley, especially a long, narrow, steep valley, cut in…	/ˈkænjən/
 6317	casual	Happening by chance	/ˈkæʒ(u)əl/
-6318	rack	A series of one or more shelves, stacked one above the other	/ˈɹæk/
+6318	rack	A series of one or more shelves, stacked one above the other	/ɹæk/
 6319	expectations	The act or state of expecting or looking forward to an…	/ɛkspɛkˈteɪʃənz/
 6320	flowing	The action of the verb to flow	/ˈfloʊ.ɪŋ/
 6321	adjust	To modify	/əˈd͡ʒʌst/
@@ -6421,7 +6421,7 @@ rank	word	english	ipa
 6420	dvd	Initialism of digital video/versatile disc; an optical disc…	/ˌdi vi ˈdi/
 6421	selected	That have been selected or chosen	/sɪˈlɛktɪd/
 6422	lightly	In a light manner	/ˈlaɪtli/
-6423	'em	Them	/əm/
+6423	'em	Them	[m̩]
 6424	dealers	One who deals in goods, especially automobiles; a middleman	/ˈdiːlɚz/
 6425	layer	A single thickness of some material covering a surface	/ˈleɪ̯ɚ/
 6426	gown	A loose, flowing upper garment	/ˈɡaʊ̯n/
@@ -6504,7 +6504,7 @@ rank	word	english	ipa
 6503	hairy	Having a lot of body hair	/ˈhɛɹ.i/
 6504	happiest	Having a feeling arising from a consciousness of well-being…	/ˈhæp.i.ɪst/
 6505	entertain	To amuse; to engage the attention of agreeably	/ˌɛntɚˈteɪn/
-6506	ambush	The act of concealing oneself and lying in wait to attack…	/ˈæmbʊʃ/
+6506	ambush	The act of concealing oneself and lying in wait to attack…	/ˈæm.bʊʃ/
 6507	recommended	That one recommends	/ˌɹɛkəˈmɛndɪd/
 6508	childish	Immature in thought or behaviour	/ˈt͡ʃaɪldɪʃ/
 6509	meter	A device that measures things	[ˈmiɾɚ]
@@ -6524,7 +6524,7 @@ rank	word	english	ipa
 6523	lined	To place into a line; to form into a line; to align	/laɪnd/
 6524	amazed	Astonished or confounded with fear, surprise, or wonder;…	/əˈmeɪzd/
 6525	lure	Something that tempts or attracts, especially one with a…	/lɵː/
-6526	lyrics	The words to a song	/ˈlɪɹɪks/
+6526	lyrics	The words to a song	/ˈlɪɹ.ɪks/
 6527	pod	A seed case for legumes; a seedpod	/ˈpɑd/
 6528	fran	Initialism of friend, relative, acquaintance or neighbor	/ˈfɹæn/
 6529	universal	Of or pertaining to the universe	/ˌjunəˈvɜɹs(ə)l/
@@ -6784,7 +6784,7 @@ rank	word	english	ipa
 6783	shaft	The long, narrow, central body of a spear, arrow, or javelin	/ˈʃæft/
 6784	definition	A statement of the meaning of a word, word group, sign, or…	/ˌdɛf.ɪˈnɪʃ.ən/
 6785	gardens	An outdoor area containing one or more types of plants,…	/ˈɡɑɹdn̩z/
-6786	chandler	A person who makes or sells candles	/ˈt͡ʃændlɚ/
+6786	chandler	A person who makes or sells candles	/ˈt͡ʃændləɹ/
 6787	ne	Not	/nə/
 6788	notify	To give notice	/ˈnoʊtɪfaɪ/
 6789	brady	Bradycardia	/ˈbɹeɪdi/
@@ -6829,7 +6829,7 @@ rank	word	english	ipa
 6828	appreciated	To be grateful or thankful for	/ɐˈpɹiːʃɪˌeɪɾᵻd/
 6829	condemned	Having received a curse to be doomed to suffer eternally	/kənˈdɛmd/
 6830	muttering	Something that is muttered	/ˈmʌɾɚɹɪŋ/
-6831	shook	To cause to move rapidly in opposite directions…	/ʃɵk/
+6831	shook	To cause to move rapidly in opposite directions…	/ʃʊk/
 6832	naval	Of or relating to a navy	/ˈneɪvəl/
 6833	egyptian	Of, from, or pertaining to Egypt, the Egyptian people or…	/əˈd͡ʒɪpʃən/
 6834	expand	To change from a smaller form or size to a larger one; to…	/ɪkˈspænd/
@@ -6849,7 +6849,7 @@ rank	word	english	ipa
 6848	democratic	Pertaining to democracy; constructed upon or in line with…	/ˌdɛməˈkɹætɪk/
 6849	nerd	A person who is intellectual but generally introverted	/nɝd/
 6850	dancers	A person who dances, usually as a hobby, an occupation, or…	/ˈdænsɚz/
-6851	crook	A bend; turn; curve; curvature; a flexure	/kɹɵk/
+6851	crook	A bend; turn; curve; curvature; a flexure	/kɹʊk/
 6852	mack	Ellipsis of Mack truck	/mæk/
 6853	grasp	To grip; to take hold, particularly with the hand	/ɡɹæsp/
 6854	translate	To change spoken words or written text from one language to…	/tɹænzˈleɪt/
@@ -6885,7 +6885,7 @@ rank	word	english	ipa
 6884	jewel	A precious or semi-precious stone; gem, gemstone	/d͡ʒul/
 6885	bollocks	The testicles	/ˈbɒ.ləks/
 6886	shells	Alternative name for conchiglie, a type of pasta	/ʃɛlz/
-6887	swept	Cleared of mines	/ˈswɛpt/
+6887	swept	Cleared of mines	/swɛpt/
 6888	recognition	The act of recognizing or the condition of being recognized	/ˌɹɛkəɡˈnɪʃ(ə)n/
 6889	shovel	A hand tool with a handle, used for moving portions of…	/ˈʃʌv.əl/
 6890	artistic	Having or revealing creative skill	/ɑɹˈtɪs.tɪk/
@@ -7158,7 +7158,7 @@ rank	word	english	ipa
 7157	shutting	To remove or block an opening, gap or passage through	/ˈʃʌtɪŋ/
 7158	tiffany	Ellipsis of Tiffany glass	/ˈtɪfəni/
 7159	mentor	A wise and trusted counselor or teacher	/ˈmɛn.toɹ/
-7160	branches	The woody part of a tree arising from the trunk and usually…	/ˈbɹɑːntʃɪz/
+7160	branches	The woody part of a tree arising from the trunk and usually…	/ˈbɹænt͡ʃɪz/
 7161	enthusiasm	An intensity of feeling; an excited interest or eagerness	/ɪnˈθuziæzəm/
 7162	arena	An enclosed area, often outdoor, for the presentation of…	/əˈɹiːnə/
 7163	listens	An instance of listening	/ˈlɪsənz/
@@ -7308,7 +7308,7 @@ rank	word	english	ipa
 7307	weep	To cry; to shed tears, especially when accompanied with…	/ˈwiːp/
 7308	clive	To climb; ascend	/ˈklaɪv/
 7309	mourning	The act of expressing or feeling sorrow or regret;…	/ˈmoɹnɪŋ/
-7310	crooked	Not straight; having one or more bends or angles	/kɹʊkɪd/
+7310	crooked	Not straight; having one or more bends or angles	/kɹʊkt/
 7311	trainer	A person who trains another; a coach	/ˈtɹeɪnɚ/
 7312	janitor	Someone who looks after the maintenance and cleaning of a…	/ˈd͡ʒænɪtɚ/
 7313	gradually	In a gradual manner; making slow progress; slowly	/ˈɡɹæd͡ʒuəli/
@@ -7320,7 +7320,7 @@ rank	word	english	ipa
 7319	cho	Pronunciation spelling of your, especially when preceded by…	/t͡ʃoʊ/
 7320	reminder	Someone or something that reminds	/ɹɪˈmaɪndəɹ/
 7321	culprit	The person or thing at fault for a problem or crime	/ˈkʌlpɹɪt/
-7322	innit	Used as a replacement for any other negative tag question,…	/ˈɪ(n).nɪt/
+7322	innit	Used as a replacement for any other negative tag question,…	/ˈɪn.ɪt/
 7323	magistrate	A judicial officer with limited authority to administer and…	/ˈmæd͡ʒ.ɪˌstɹeɪt/
 7324	jasmine	Any of several plants, of the genus Jasminum, mostly native…	/ˈd͡ʒæzmɪn/
 7325	womb	In female mammals, the organ in which the young are…	/wuːm/
@@ -7382,7 +7382,7 @@ rank	word	english	ipa
 7381	exile	The state of being banished from one's home or country	/ˈɛɡˌzaɪl/
 7382	aspirin	an analgesic drug, acetylsalicylic acid	/ˈæs.pɹɪn/
 7383	authentic	Of the same origin as claimed; genuine	/ɔˈθɛn.tɪk/
-7384	summit	The highest point of a hill, mountain, or similar…	/ˈsʌmɪt/
+7384	summit	The highest point of a hill, mountain, or similar…	/ˈsʌmət/
 7385	beck	A stream or small river	/ˈbɛk/
 7386	addiction	A state that is characterized by compulsive drug use or…	/əˈdɪkˌʃən/
 7387	lent	A period of the ecclesiastical year preceding Easter,…	/lɛnt/
@@ -7512,7 +7512,7 @@ rank	word	english	ipa
 7511	brent	Alternative form of brant	/ˈbɹɛnt/
 7512	gardener	One who gardens; one who grows plants or cultivates a garden	/ˈɡɑɹd.n̩.ɚ/
 7513	barracks	A group of buildings used by military personnel as housing	/ˈbæɹəks/
-7514	flirt	A sudden jerk; a quick throw or cast; a darting motion	/flɚt/
+7514	flirt	A sudden jerk; a quick throw or cast; a darting motion	/flɜːt/
 7515	cooks	A person who prepares food	/kʊks/
 7516	distorted	Unnatural in shape or size; abnormal	/dɪsˈtɔɹtɪd/
 7517	carved	Of an object, made by carving	/kɑɹvd/
@@ -7526,12 +7526,12 @@ rank	word	english	ipa
 7525	screamed	To cry out with a shrill voice; to utter a sudden, sharp…	/ˈskɹiːmd/
 7526	raja	Alternative spelling of rajah	/ˈɹɑː.d͡ʒə/
 7527	disappearing	To vanish	/ˌdɪsɐˈpɪɹɪŋ/
-7528	establishment	The act or process of establishing; a ratifying or…	/ɪsˈtæblɪʃmənt/
+7528	establishment	The act or process of establishing; a ratifying or…	/ɪˈstæb.lɪʃ.mənt/
 7529	whales	Any large cetacean, usually with the exclusion of dolphins…	/weɪlz/
 7530	lump	Something that protrudes, sticks out, or sticks together; a…	/lʌmp/
 7531	dwarf	Any member of a race of beings from folklore, usually…	/dwɔɹf/
 7532	environmental	Pertaining to the environment	/ənˌvaɪ.ɚnˈmɛn.təl/
-7533	mam	Mum, mom; diminutive of mother	/mæm/
+7533	mam	Mum, mom; diminutive of mother	/ˈmæm/
 7534	pint	20 fluid ounces, approximately 568 millilitres	/paɪnt/
 7535	loading	To put a load on or in	/ˈloʊ.dɪŋ/
 7536	diplomatic	Concerning the relationships between the governments of…	/ˌdɪpləˈmætɪk/
@@ -7563,7 +7563,7 @@ rank	word	english	ipa
 7562	feeds	Food given to non-human animals	/ˈfiːdz/
 7563	je	Initialism of journal entry	/ˈdʒiː/
 7564	vegetarian	A person who does not eat animal flesh, or, in some cases,…	/vɛ.d͡ʒɪˈtɛ.ɹi.ən/
-7565	teasing	The act of harassing someone playfully or maliciously,…	/ˈtiːzɪŋ/
+7565	teasing	The act of harassing someone playfully or maliciously,…	/ˈtiz.ɪŋ/
 7566	surprisingly	In a way that causes surprise because it is unexpected, or…	/səˈpɹaɪzɪŋli/
 7567	shrine	A holy or sacred place dedicated to a specific deity,…	/ʃɹaɪ̯n/
 7568	automatically	In an automatic manner	/ˌɔː.təˈmæt.ɪ.k(ə.)li/
@@ -7626,7 +7626,7 @@ rank	word	english	ipa
 7625	macgyver	Someone capable of improvising an ingenious solution from…	/məˈɡaɪvɚ/
 7626	blades	The part of a knife, sword, razor, or other tool with which…	/bleɪdz/
 7627	wo	A falconer's call to a hawk	/wo/
-7628	debris	Rubble, wreckage, scattered remains of something destroyed	/ˈdɛbɹi/
+7628	debris	Rubble, wreckage, scattered remains of something destroyed	/dəˈbɹiː/
 7629	luca	Alternative letter-case form of LUCA	/ˈluːkə/
 7630	cement	A powdered substance produced by firing calcium carbonate…	/səˈmɛnt/
 7631	hamlet	A small settlement or a group of houses, often defined as a…	/ˈhæm.lət/
@@ -7918,12 +7918,12 @@ rank	word	english	ipa
 7917	burgers	A hamburger	/ˈbɜːɡɚz/
 7918	knots	A looping of a piece of string or of any other long,…	/nɑts/
 7919	broom	A domestic utensil with fibers bound together at the end of…	/bɹum/
-7920	briefing	A concise summary of a current situation	/ˈbɹiːfɪŋ/
+7920	briefing	A concise summary of a current situation	/ˈbɹi.fɪŋ/
 7921	curve	A bend, such as in a road	/kɚv/
 7922	informant	One who relays confidential information to someone,…	/ɪnˈfɔɹmənt/
 7923	applauding	applause	/ɐˈplɔːdɪŋ/
 7924	whites	The color of snow or milk; the color of light containing…	/(h)waɪts/
-7925	app	An application, especially a small one designed for a…	[æʔp̚]
+7925	app	An application, especially a small one designed for a…	/æp/
 7926	andrews	plural of Andrew	/ˈændɹuːz/
 7927	blog	A website that allows users to reflect, share opinions, and…	/blɒɡ/
 7928	ox	An adult castrated male of cattle, especially when used as…	/ɑks/
@@ -7933,7 +7933,7 @@ rank	word	english	ipa
 7932	poles	Originally, a stick; now specifically, a long and slender…	/poʊlz/
 7933	sixty	The cardinal number occurring after fifty-nine and before…	/ˈsɪksti/
 7934	fantasies	That which comes from one's imagination or the act of…	/ˈfæntəsiz/
-7935	heritage	An inheritance; property that may be inherited	/ˈhɛɹ.ɪ.tɪd͡ʒ/
+7935	heritage	An inheritance; property that may be inherited	/ˈhɛɹ.ə.tɪd͡ʒ/
 7936	motherfucking	To an extreme degree	/ˈmʌðə(ɹ)ˌfʌkɪŋ/
 7937	fisherman	Any person who attempts to catch fish	/ˈfɪʃ.ɚ.mən/
 7938	armstrong	Ellipsis of Armstrong gun	/ˈɑɹmˌstɹɔŋ/
@@ -7998,7 +7998,7 @@ rank	word	english	ipa
 7997	accounting	To estimate, consider	/əˈkaʊn.tɪŋ/
 7998	jj	A term for a marijuana cigarette	/ˌdʒeɪdˈʒeɪ/
 7999	expertise	Great skill or knowledge in a particular field or hobby	/ˌɛkspɚˈtis/
-8000	strap	A long, narrow, pliable strip of leather, cloth, or the like	/ˈstɹæp/
+8000	strap	A long, narrow, pliable strip of leather, cloth, or the like	/stɹæp/
 8001	butts	The buttocks or anus	/bʌts/
 8002	approaches	An act of drawing near in place or time; an advancing or…	/əˈpɹoʊt͡ʃiz/
 8003	flags	A piece of cloth, often decorated with an emblem, used as a…	/flæɡz/
@@ -8107,7 +8107,7 @@ rank	word	english	ipa
 8106	finale	The grand end of something, especially of a show or piece…	/fəˈnɑli
 8107	tarzan	A strong wild man; any man showing attributes of Tarzan, as…	/ˈtɑɹzæn/
 8108	storms	Any disturbed state of the atmosphere causing destructive…	/stɔɹmz/
-8109	sniff	To make a short, audible inhalation, through the nose, as…	/ˈsnɪf/
+8109	sniff	To make a short, audible inhalation, through the nose, as…	/snɪf/
 8110	slick	Slippery or smooth due to a covering of liquid; often used…	/slɪk/
 8111	unarmed	Defenceless and lacking weapons	/ˌʌnˈɑɹmd/
 8112	violated	Having been broken or ignored, especially in a flagrant…	/ˈvaɪəˌleɪtɪd/
@@ -8214,7 +8214,7 @@ rank	word	english	ipa
 8213	longing	To take a long position in	/ˈlɔːŋɪŋ/
 8214	cigars	A cylinder of tobacco rolled and wrapped with an outer…	/sɪˈɡɑɹz/
 8215	manipulate	To move, arrange or operate something using the hands	/məˈnɪp.jə.leɪt/
-8216	liberal	Generous; permitting liberty; willing to give unsparingly	/ˈlɪbɚɹəl/
+8216	liberal	Generous; permitting liberty; willing to give unsparingly	/ˈlɪb.(ə.)ɹəl/
 8217	investors	A person who invests money in order to make a profit	/ɪnˈvɛstɚz/
 8218	bun	A small bread roll that is sweetened or spiced	/bʌn/
 8219	sly	Slyly	/slaɪ/
@@ -8351,7 +8351,7 @@ rank	word	english	ipa
 8350	vega	An open tract of ground; a plain, especially one which is…	/ˈveɪɡə/
 8351	newest	Recently made, or created	/ˈn(j)uɪst/
 8352	valve	A device that controls the flow of a gas or fluid through a…	/ˈvælv/
-8353	geek	A person who is intensely interested in a particular field…	/ˈɡiːk/
+8353	geek	A person who is intensely interested in a particular field…	/ɡik/
 8354	fucks	An act of sexual intercourse	/fʌks/
 8355	gangsters	A member of a criminal or street gang	/ˈɡæŋstɚz/
 8356	pies	A type of pastry that consists of an outer crust and a…	/paɪz/
@@ -8525,7 +8525,7 @@ rank	word	english	ipa
 8524	churches	A Christian house of worship; a building where Christian…	/ˈt͡ʃɝt͡ʃɪz/
 8525	pins	A needle without an eye made of drawn-out steel wire with…	/pɪnz/
 8526	shaving	A thin, shaved off slice of wood, metal, or other material	/ˈʃeɪvɪŋ/
-8527	legit	Legitimately; within the law	/lədˈʒɪt/
+8527	legit	Legitimately; within the law	/lɪˈd͡ʒɪt/
 8528	yoo	Eye dialect spelling of you	/juː/
 8529	targeted	To aim something, especially a weapon, at	/ˈtɑːɹɡɪɾᵻd/
 8530	simpler	Uncomplicated; lacking complexity; taken by itself, with…	/ˈsɪm.pəl.ɚ/
@@ -8648,7 +8648,7 @@ rank	word	english	ipa
 8647	ar	An AR-15 personal semi-automatic rifle, M-16 assault rifle,…	/ˈɑɹ/
 8648	ups	The direction opposed to the pull of gravity	/ʌps/
 8649	shameful	Causing or meriting shame or disgrace; disgraceful	/ˈʃeɪmfəl/
-8650	abbey	The office or dominion of an abbot or abbess	/ˈabɪj/
+8650	abbey	The office or dominion of an abbot or abbess	/ˈæbi/
 8651	strategic	Of or pertaining to strategy	/stɹəˈti.dʒɪk/
 8652	wrists	The complex joint between forearm bones, carpus, and…	/ˈɹɪsts/
 8653	payroll	A list of employees who receive salary or wages, together…	/ˈpeɪˌɹoʊl/
@@ -8810,7 +8810,7 @@ rank	word	english	ipa
 8809	chu	The sound of a kiss	/tʃuː/
 8810	abu	A common part of Arabic-derived names, meaning "father of"…	/ˈæbuː/
 8811	kramer	To suddenly enter or go through somewhere unexpectedly and…	/ˈkɹeɪmɚ/
-8812	magnet	A piece of material that attracts some metals by magnetism	/mæɡnɛʈ/
+8812	magnet	A piece of material that attracts some metals by magnetism	/ˈmæɡ.nɪt/
 8813	psychotic	Of, related to, or suffering from psychosis	/ˌsaɪˈkɒtɪk/
 8814	vaccine	A substance given to stimulate a body's production of…	/vækˈsin/
 8815	motivated	Enthusiastic, especially about striving toward a goal	/ˈmoʊɾᵻˌveɪɾᵻd/
@@ -8904,7 +8904,7 @@ rank	word	english	ipa
 8903	nova	Any sudden brightening of a previously inconspicuous star	/ˈnoʊ.və/
 8904	manning	To supply with staff or crew	/ˈmænɪŋ/
 8905	membership	The state of being a member of a group or organization	/ˈmɛmbɚˌʃɪp/
-8906	chalk	A soft, white, powdery limestone	/t͡ʃɔːk/
+8906	chalk	A soft, white, powdery limestone	/t͡ʃɔk/
 8907	liable	Bound or obliged in law or equity; responsible; answerable	/ˈlaɪ̯əbəl/
 8908	manuscript	Handwritten, or by extension manually typewritten, as…	/ˈmæn.jəˌskɹɪpt/
 8909	organised	Non-Oxford British standard spelling of organize	/ˈɔːɹɡɐˌnaɪzd/
@@ -9042,7 +9042,7 @@ rank	word	english	ipa
 9041	illegally	In a manner contrary to law	/ɪˈliːɡəli/
 9042	rattle	To create a rattling sound by shaking or striking	/ˈɹæ.təl/
 9043	trim	In good order; properly managed or maintained	/ˈtɹɪm/
-9044	noodle	A string or flat strip of pasta or other dough, usually…	[ˈnuː.dl̩]
+9044	noodle	A string or flat strip of pasta or other dough, usually…	/ˈnu.dəl/
 9045	antibiotics	Any substance that can destroy or inhibit the growth of…	/ˌæntɪbaɪˈɑːɾɪks/
 9046	mattered	To be important	/ˈmæɾɚd/
 9047	declaration	An emphatic or formal act of saying, telling or asserting…	/ˌdɛk.ləˈɹeɪ.ʃən/
@@ -9057,7 +9057,7 @@ rank	word	english	ipa
 9056	pneumonia	Inflammation of the lungs caused by viruses, bacteria or…	/nuˈmoʊniə/
 9057	manly	In a way befitting a man	/ˈmænli/
 9058	medicines	A substance which specifically promotes healing when…	/ˈmɛdəsənz/
-9059	slowing	To make run, move, etc. less quickly; to reduce the speed of	/ˈslaː.ɪn/
+9059	slowing	To make run, move, etc. less quickly; to reduce the speed of	/ˈsloʊɪŋ/
 9060	groan	A low, mournful sound uttered in pain or grief	/ˈɡɹoʊ̯n/
 9061	dungeon	An underground prison or vault, typically built underneath…	/ˈdʌn.d͡ʒən/
 9062	chaps	Protective leather leggings attached at the waist	/t͡ʃæps/
@@ -9201,7 +9201,7 @@ rank	word	english	ipa
 9200	separately	In a separate manner; not together; apart	/ˈsɛp.ɹət.li/
 9201	reg	A regular	/ɹɛd͡ʒ/
 9202	'n	Contraction of than	/n/
-9203	legion	Numerous; vast; very great in number	/ˈliːdʒən/
+9203	legion	Numerous; vast; very great in number	/ˈli.d͡ʒən/
 9204	tsk	To make such sound of disapproval	/tɪsk/
 9205	arabs	A member of the Semitic ethnic group native to the Arabian…	/ˈɛɹ.əbz/
 9206	accompanied	Having accompaniment; being part of a group of at least two	/əˈkʌmpəniːd/
@@ -9234,7 +9234,7 @@ rank	word	english	ipa
 9233	occurs	To happen or take place	/əˈkɝz/
 9234	rituals	A rite; a repeated set of actions, especially in religious…	/ˈɹɪtʃuːəlz/
 9235	disguised	Wearing a disguise; dressed in strange or unusual clothes,…	/dɪsˈɡaɪzd/
-9236	precision	The state of being precise or exact; especially, both exact…	/pɹɪˈsɪʒən/
+9236	precision	The state of being precise or exact; especially, both exact…	/pɹɪˈsɪʒ.ən/
 9237	cube	A regular polyhedron having six identical square faces	/kjub/
 9238	revelation	The act of revealing or disclosing	/ˌɹɛv.əˈleɪ.ʃən/
 9239	titanic	Of or relating to the Titans, a race of gods in Greek…	/taɪˈtænɪk/
@@ -9582,7 +9582,7 @@ rank	word	english	ipa
 9581	influenced	Subject to an effect caused by a person or thing outside of…	/ˈɪn.flu.ənst/
 9582	heist	A robbery or burglary, especially from an institution such…	/haɪst/
 9583	cynical	Of or relating to the belief that human actions are…	/ˈsɪnɪkəl/
-9584	input	The act or process of putting in; infusion	/ˈɪnpɵt/
+9584	input	The act or process of putting in; infusion	/ˈɪnpʊt/
 9585	recite	To repeat aloud, often before an audience	/ɹɪˈsaɪt/
 9586	cary	Obsolete spelling of carry	/ˈkɛɹi/
 9587	eagles	Any of several large carnivorous and carrion-eating birds…	/ˈiːɡəlz/
@@ -9613,7 +9613,7 @@ rank	word	english	ipa
 9612	sleeves	The part of a garment that covers the arm	/sliːvz/
 9613	vacant	Not occupied; empty	/ˈveɪkənt/
 9614	infantry	Soldiers who fight on foot, as opposed to cavalry and other…	/ˈɪnfəntɹi/
-9615	booking	To reserve for future use	/ˈbɵkɪŋ/
+9615	booking	To reserve for future use	/ˈbʊkɪŋ/
 9616	oranges	An evergreen tree of the genus Citrus such as Citrus…	/ˈɔɹ(ɪ)nd͡ʒɪz/
 9617	breakup	The act of breaking up; disintegration or division	/ˈbɹeɪk.ʌp/
 9618	purity	The state or degree of being pure	/ˈpjʊɹɪti/
@@ -9628,7 +9628,7 @@ rank	word	english	ipa
 9627	ramp	An inclined surface that connects two levels; an incline	/ɹæmp/
 9628	boulevard	A broad, well-paved and landscaped thoroughfare	/ˈbʊ.lə.vɑɹd/
 9629	intriguing	Causing a desire to know more; mysterious	/ɪnˈtɹiːɡɪŋ/
-9630	rook	A European bird, Corvus frugilegus, of the crow family	/ɹɵk/
+9630	rook	A European bird, Corvus frugilegus, of the crow family	/ɹʊk/
 9631	papi	Abbreviation of Performance Application Programming…	/ˈpæpi/
 9632	atm	Any source of a large amount of money	/ˌeɪˌtiːˈɛm/
 9633	acquire	To get	/əˈkwaɪɚ/
@@ -9648,7 +9648,7 @@ rank	word	english	ipa
 9647	restraining	The act by which someone or something is restrained	/ˈɹᵻstɹeɪnɪŋ/
 9648	cod	A sea fish of the family Gadidae which are sold as "cod",…	/kɑd/
 9649	clarity	The state or measure of being clear, either in appearance,…	/ˈklæɹ.ɪ.ti/
-9650	daft	Foolish, silly, stupid	/dɑːft/
+9650	daft	Foolish, silly, stupid	/dæft/
 9651	islamic	Of, pertaining to, originating in, characteristic of, or…	/ɪsˈlɑːmɪk/
 9652	calculated	Arrived at or determined by mathematical calculation;…	/ˈkælkjʊleɪtɪd/
 9653	lakes	A large, landlocked stretch of water or similar liquid	/leɪks/
@@ -9667,7 +9667,7 @@ rank	word	english	ipa
 9666	critic	A person who appraises the works of others	/ˈkɹɪt.ɪk/
 9667	greasy	Having a slippery surface; having a surface covered with…	/ˈɡɹi.zi/
 9668	supports	Something which supports	/səˈpɔːɹts/
-9669	anatomy	The science that deals with the form and structure of…	/əˈnatəmɪj/
+9669	anatomy	The science that deals with the form and structure of…	/əˈnætəmi/
 9670	agreeing	To be in harmony about an opinion, statement, or action; to…	/ɐˈɡɹiːɪŋ/
 9671	straightforward	In a straightforward manner; straightforwards;…	/ˌstɹeɪtˈfɔː(ɹ)wə(ɹ)d/
 9672	prejudice	An adverse judgment or opinion formed beforehand or without…	/ˈpɹɛd͡ʒədɪs/
@@ -9675,7 +9675,7 @@ rank	word	english	ipa
 9674	flare	A sudden bright light	/flɛɚ̯/
 9675	milky	Resembling milk in color, consistency, smell, etc.;…	/ˈmɪlki/
 9676	premiere	The first showing of a film, play or other form of…	/pɹəˈmɪɚ/
-9677	glamorous	Having glamour; stylish, attractive	/ˈɡlæmɚɹəs/
+9677	glamorous	Having glamour; stylish, attractive	/ˈɡlæ.mə.ɹəs/
 9678	cinnamon	A small evergreen tree native to Sri Lanka and southern…	/ˈsɪəmən/
 9679	referee	An umpire or judge; an official who makes sure the rules…	/ˌɹɛf.əˈɹi/
 9680	threshold	The lowermost part of a doorway that one crosses to enter;…	/ˈθɹɛʃ.hoʊld/
@@ -9775,7 +9775,7 @@ rank	word	english	ipa
 9774	paste	One of flour, fat, or similar ingredients used in making…	/ˈpɑsteɪ/
 9775	wits	Senses	/wɪts/
 9776	fiery	Of or relating to fire	/ˈfaɪəɹi/
-9777	typically	In a typical or common manner	/ˈtɪpɪkli/
+9777	typically	In a typical or common manner	/ˈtɪp.ɪ.kli/
 9778	eclipse	An alignment of astronomical objects whereby one object…	/ɪˈklɪps/
 9779	produces	To bring forth, to yield, make, manufacture, or otherwise…	/pɹəˈdusɪz/
 9780	oysters	Any of certain marine bivalve mollusks, especially those of…	/ˈɔɪ.stɚz/
@@ -9792,7 +9792,7 @@ rank	word	english	ipa
 9791	mozart	By analogy with Wolfgang Amadeus Mozart, a musical virtuoso	/ˈmoʊtsɑɹt/
 9792	dent	A shallow deformation in the surface of an object, produced…	/dɛnt/
 9793	charmed	Under a magic spell; bewitched	/t͡ʃɑɹmd/
-9794	spiral	A curve that is the locus of a point that rotates about a…	/ˈspaɪɚɹəl/
+9794	spiral	A curve that is the locus of a point that rotates about a…	/ˈspaɪɹəl/
 9795	scans	Of written things, a careful reading	/ˈskænz/
 9796	hmmm	Elongated form of hmm	/hm̩ː/
 9797	ka	The aspect of a person’s soul or being that sustains their…	/kɑː/
@@ -9851,7 +9851,7 @@ rank	word	english	ipa
 9850	illinois	A member of the above-mentioned tribe	/ˌɪləˈnɔɪ/
 9851	helicopters	An aircraft that is borne along by one or more sets of long…	/ˈhɛlɪˌkɑːptɚz/
 9852	coco	Coconut palm	/ˈkoʊ.koʊ/
-9853	crisp	Having a consistency which is hard yet brittle, and in a…	/ˈkɹɪsp/
+9853	crisp	Having a consistency which is hard yet brittle, and in a…	/kɹɪsp/
 9854	outrage	An excessively violent or vicious attack; an atrocity	/ˈaʊt.ɹeɪd͡ʒ/
 9855	flexible	Capable of being flexed or bent without breaking; able to…	/ˈflɛk.sɪ.bəl/
 9856	goo	Any semi-solid or liquid substance; especially one that is…	/ɡuː/
@@ -9962,7 +9962,7 @@ rank	word	english	ipa
 9961	planting	To place in soil or other substrate in order that it may…	/ˈplæntɪŋ/
 9962	drones	A male hymenopteran, whose sole primary function is to mate…	/dɹoʊnz/
 9963	justified	Having a justification	/ˈd͡ʒʌstɪfaɪd/
-9964	stuffing	To fill by packing or crowding something into; to cram with…	/ˈstʊfɪŋ/
+9964	stuffing	To fill by packing or crowding something into; to cram with…	/ˈstʌfɪŋ/
 9965	norwegian	A person of a North Germanic ethnic group native to…	/nɔɹˈwi.d͡ʒn̩/
 9966	dork	A quirky, silly or stupid, socially inept person, or one…	/doɹk/
 9967	stalling	The act of a person or thing that stalls	/ˈstɔːlɪŋ/

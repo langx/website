@@ -64,6 +64,7 @@ import {
 	lithuanianIpa,
 	malayalamIpa,
 	persianIpa,
+	pinyinSyllables,
 	russianIpa
 } from './ipa-translit.ts';
 import {
@@ -88,6 +89,14 @@ interface Accent {
 	 * one the page's audio speaks, where there is audio.
 	 */
 	prefer?: string[];
+	/**
+	 * Stress always falls on the first syllable: mark it where a source does
+	 * not, and drop a goruut reading whose syllables do not match the spelling
+	 * — with every word stressed on its first, a lost syllable is a wrong word.
+	 */
+	firstStress?: boolean;
+	/** Prefer a word's strong (citation) form to its weak one: English "it" /ɪt/. */
+	strong?: boolean;
 	/** A transcription must carry one of these tags to count at all. */
 	require?: string[];
 	/**
@@ -168,7 +177,7 @@ const ACCENTS: Record<string, Accent> = {
 	// "-er" as a vowel: eSpeak writes it "ɜ", Wiktionary and Duden "ɐ".
 	de: { espeak: 'de', prefer: ['Standard'], fix: [[/ɜ/g, 'ɐ']] },
 	el: { espeak: 'el' },
-	en: { espeak: 'en-us', prefer: ['General-American', 'US'] },
+	en: { espeak: 'en-us', prefer: ['General-American', 'US'], strong: true },
 	eo: { espeak: 'eo' },
 	es: { espeak: 'es-419', prefer: ['Latin-America'] },
 	// eSpeak writes Estonian "õ" as "ɵ" and doubles long vowels; the rules in
@@ -192,6 +201,7 @@ const ACCENTS: Record<string, Accent> = {
 	id: { espeak: 'id' },
 	is: {
 		espeak: 'is',
+		firstStress: true,
 		lexicon: { name: 'Icelandic Pronunciation Dictionary', read: iceprondict, trusted: true }
 	},
 	it: { espeak: 'it' },
@@ -271,13 +281,21 @@ const ACCENTS: Record<string, Accent> = {
 
 /**
  * A tag containing any of these marks a pronunciation nobody speaks today, or
- * only some region does: Tiberian Hebrew, Classical Persian, Western Armenian,
- * Parisian French "de" as /dø/. Such a transcription is not used at all, even
- * when it is the only one — English "to" has none but the Indian English
- * particle's /t̪oː/, and a learner is better served by eSpeak's /tə/.
+ * a dialect's: Tiberian Hebrew, Classical Persian, English "said" as /seɪd/.
+ * Such a transcription is not used at all, even when it is the only one.
  */
 const DATED =
-	/Classical|Tiberian|Biblical|Ecclesiastical|Medieval|Early|Middle|Old|obsolete|archaic|dated|Western-Armenian|Cantonese|Hokkien|Hakka|Wu|Min|Taiwan|India|Pakistan|Nigeria|Singapore|Philippines|Scotland|Scottish|Ireland|Irish|Wales|Welsh|Northern-England|Geordie|Louisiana|Quebec|Paris|Belgium|Switzerland|Africa|Australia|New-Zealand|Jamaica|Caribbean|Hong-Kong|dialect/;
+	/Classical|Tiberian|Biblical|Ecclesiastical|Medieval|Early|Middle|Old|obsolete|archaic|dated|Western-Armenian|Cantonese|Hokkien|Hakka|Wu|Min|dialect/;
+
+/**
+ * A region whose accent is not the one the page shows. A transcription tagged
+ * with one is not used — English "to" has none but the Indian English
+ * particle's /t̪oː/, and eSpeak's /tə/ serves a learner better — unless it is
+ * tagged with the page's accent too: /ɪt/ is General American, Received
+ * Pronunciation and Australian at once.
+ */
+const REGIONAL =
+	/Taiwan|India|Pakistan|Nigeria|Singapore|Philippines|Scotland|Scottish|Ireland|Irish|Wales|Welsh|Northern-England|Northumbria|Geordie|Louisiana|Quebec|Paris|Belgium|Switzerland|Africa|Australia|New-Zealand|Jamaica|Caribbean|Hong-Kong/;
 
 function kaikkiUrl(lang: WordlistLanguage) {
 	const dir = encodeURIComponent(lang.wiktionary);
@@ -304,11 +322,24 @@ async function dumpFor(lang: WordlistLanguage) {
 
 type Sound = { ipa?: string; tags?: string[]; raw_tags?: string[] };
 
+/**
+ * A weak form: no vowel but a reduced one, or a single short vowel left at the
+ * end of the word ("you" /jɪ/, "to" /tə/).
+ */
+function reduced(ipa: string): boolean {
+	const v = ipa.replace(/[/[\]ˈˌ()]/g, '').match(/[aeiouyɑɒæɛɔʊʌɪəɘɚᵻɜɝ]+ː?/g) ?? [];
+	if (!v.length) return false;
+	if (v.every((x) => /^[əɘɚᵻ]$/.test(x))) return true;
+	return v.length === 1 && /^[ɪʊə]$/.test(v[0]) && /[ɪʊə][/\]]?$/.test(ipa);
+}
+
 function scoreSound(s: Sound, accent: Accent): number | null {
 	if (!s.ipa) return null;
 	const tags = [...(s.tags ?? []), ...(s.raw_tags ?? [])].map((t) => t.replace(/ /g, '-'));
 	if (accent.require && !tags.some((t) => accent.require?.includes(t))) return null;
-	if (tags.some((t) => DATED.test(t) && !accent.require?.includes(t))) return null;
+	const ours = (t: string) => accent.prefer?.includes(t) || accent.require?.includes(t);
+	if (tags.some((t) => DATED.test(t) && !ours(t))) return null;
+	if (tags.some((t) => REGIONAL.test(t)) && !tags.some(ours)) return null;
 	// The sound a letter stands for, or its name: Spanish "y" is /ʝ/ as a
 	// letter and /i/ as the word "and".
 	if (tags.includes('phoneme') || tags.includes('letter')) return null;
@@ -321,6 +352,11 @@ function scoreSound(s: Sound, accent: Accent): number | null {
 	// A phonemic /transcription/ is what a learner reads; a [phonetic] one is
 	// a second choice, taken only when it is all there is.
 	if (s.ipa.trim().startsWith('/')) score += 2;
+	// English lists a function word's weak form first — "in" /ən/, "that"
+	// /ðət/ — and sometimes only the British one is strong: "you" is /jə/ in
+	// General American and /juː/ in Received Pronunciation. A word shown on
+	// its own is said in its citation form, and that outweighs the accent.
+	if (accent.strong && reduced(s.ipa)) score -= 11;
 	return score;
 }
 
@@ -534,6 +570,33 @@ const GORUUT: Record<string, string> = {
 };
 
 /**
+ * A Chinese character read more than one way is read the way the list uses it
+ * most: 還 is huán "to return" and hái "still", and the list's commonest words
+ * with it — 還是, 還有 — say hái. Each multi-character word in the list votes,
+ * weighted by how common it is, for the reading its pinyin gives each of its
+ * characters; a single character's candidates are then tried in that order.
+ */
+function preferCommonReadings(spelled: Map<string, Spelled[]>, rows: string[][]) {
+	const votes = new Map<string, number>();
+	for (const [rank, word] of rows) {
+		const chars = [...word];
+		if (chars.length < 2) continue;
+		const py = spelled.get(word)?.[0]?.romans?.at(-1);
+		const syls = py ? pinyinSyllables(py) : null;
+		if (!syls || syls.length !== chars.length) continue;
+		chars.forEach((c, i) => {
+			const key = `${c}|${syls[i]}`;
+			votes.set(key, (votes.get(key) ?? 0) + 1 / Number(rank));
+		});
+	}
+	for (const [word, candidates] of spelled) {
+		if ([...word].length !== 1 || candidates.length < 2) continue;
+		const weight = (c: Spelled) => votes.get(`${word}|${c.romans?.at(-1)}`) ?? 0;
+		candidates.sort((a, b) => weight(b) - weight(a));
+	}
+}
+
+/**
  * A word as the fewest pieces that each have a transcription, joined: the
  * longest words a source knows, not a character at a time where it can help.
  */
@@ -552,6 +615,26 @@ function composeFrom(chars: string[], piece: (p: string) => string | undefined) 
 	return parts && parts.length > 1
 		? `/${parts.map((p) => p.replace(/^[/[]|[/\]]$/g, '')).join(' ')}/`
 		: null;
+}
+
+const IPA_VOWELS = /[aeiouyɑɐɒæɛəɜɞɘɵøœɶɪʏʊʌɔɤɯɨʉɚɝ][\p{M}ːˑ]*/gu;
+
+/** Syllable nuclei in a transcription: runs of vowels, a diphthong as one. */
+function vowelGroups(ipa: string): number {
+	return ipa.replace(IPA_VOWELS, 'V').replace(/V+/g, 'V').replace(/[^V]/g, '').length;
+}
+
+/**
+ * Whether a transcription has as many vowels as the word's spelling — a check
+ * on goruut's lists, which now and then drop a syllable: Icelandic "skenkja"
+ * came out /skrmkja/. Only used where every vowel letter is a syllable, which
+ * Icelandic spelling is and Hungarian ("gy", "ny") is not.
+ */
+function sameSyllables(word: string, ipa: string): boolean {
+	const bare = word.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+	if (/[^\p{Script=Latin}\p{Script=Cyrillic}\p{Script=Greek}'’-]/u.test(bare)) return true;
+	const spelled = (bare.match(/[aeiouyæøœåаеёиоуыэюяαεηιουω]+/g) ?? []).length;
+	return spelled === vowelGroups(ipa);
 }
 
 /** The entries of a dictionary for these words, as a reader would return them. */
@@ -662,6 +745,7 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 		const glosses = new Map<string, string>([...[...parts].map((p) => [p, ''] as const)]);
 		for (const r of rows) glosses.set(r[1].toLowerCase(), r[2] ?? '');
 		const spelled = await spelledFor(await dumpFor(lang), glosses);
+		if (accent.compose) preferCommonReadings(spelled, rows);
 		const convert = accent.spelled;
 		const all = new Map(
 			[...spelled].flatMap(([w, candidates]) => {
@@ -712,7 +796,14 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 	if (left.size && GORUUT[lang.code]) {
 		try {
 			const raw = await goruut(GORUUT[lang.code], words, path.join(ROOT, '.cache/wordlists'));
-			const list = new Map([...raw].map(([w, ipa]) => [w, `/${cleanEspeak(ipa)}/`]));
+			const list = new Map(
+				[...raw].flatMap(([w, raw]) => {
+					let ipa = cleanEspeak(raw);
+					if (accent?.firstStress && !sameSyllables(w, ipa)) return [];
+					if (accent?.firstStress && !ipa.includes('ˈ') && vowelGroups(ipa) > 1) ipa = `ˈ${ipa}`;
+					return [[w, `/${ipa}/`] as const];
+				})
+			);
 			lastAgrees = agreement((ws) => pick(list, ws), wiki, accent?.same);
 			if (lastAgrees >= TRUST) last = new Map([...list].filter(([w]) => left.has(w)));
 		} catch {

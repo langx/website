@@ -1,6 +1,6 @@
 rank	word	english	ipa
 1	知道	to know; to be aware of	/ʈ͡ʂɻ̩⁵⁵ tɑʊ̯⁵¹/
-2	不是	to not be	/pu⁵¹ ʂɻ̩¹/
+2	不是	to not be	/pu⁵¹⁻³⁵ ʂɻ̩⁵¹/
 3	可以	can; may	/kʰɤ²¹⁴⁻³⁵ i²¹⁴⁻²¹⁽⁴⁾/
 4	就是	even if	/t͡ɕi̯oʊ̯⁵¹⁻⁵³ ʂɻ̩⁵¹/
 5	如果	if	/ɻu³⁵ ku̯ɔ²¹⁴⁻²¹⁽⁴⁾/
@@ -26,14 +26,14 @@ rank	word	english	ipa
 25	希望	hope; wish	/ɕi⁵⁵ wɑŋ⁵¹/
 26	朋友	friend	/pʰɤŋ³⁵ joʊ̯³/
 27	今天	today	/t͡ɕin⁵⁵ tʰi̯ɛn⁵⁵/
-28	事情	matter; affair; something; business; thing; stuff	/ʂɻ̩⁵¹ t͡ɕʰiŋ³⁵/
+28	事情	matter; affair; something; business; thing; stuff	/ʂɻ̩⁵¹ t͡ɕʰiŋ¹/
 29	一直	straight; straight ahead	/i⁵⁵⁻⁵¹ ʈ͡ʂɻ̩³⁵/
 30	所有	all	/su̯ɔ²¹⁴⁻³⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
-31	什麼	what	/ʂɤ³⁵ mə³/
+31	什麼	what	/ʂən³⁵ mə³/
 32	不想	to not think	/pu⁵¹ ɕi̯ɑŋ²¹⁴⁻²¹⁽⁴⁾/
 33	那些	those	/nä⁵¹ ɕi̯ɛ⁵⁵/
-34	明白	to understand; to know	/miŋ²⁴ pei/
-35	爸爸	dad; papa	/pa²¹ pa²¹⁻⁵⁵/
+34	明白	to understand; to know	/miŋ³⁵ b̥aɪ̯³/
+35	爸爸	dad; papa	/pä⁵¹ b̥ä¹/
 36	一切	all; every; everything; anything	/i⁵⁵⁻³⁵ t͡ɕʰi̯ɛ⁵¹/
 37	相信	to believe; to trust; to have faith	/ɕi̯ɑŋ⁵⁵ ɕin⁵¹/
 38	想要	would like; want; wish to have	/ɕi̯ɑŋ²¹⁴⁻²¹ jɑʊ̯⁵¹/
@@ -43,7 +43,7 @@ rank	word	english	ipa
 42	非常	extremely; very; highly	/feɪ̯⁵⁵ ʈ͡ʂʰɑŋ³⁵/
 43	大家	everyone; everybody; all of us	/tä⁵¹ t͡ɕi̯ä⁵⁵/
 44	有人	to have someone there; to be occupied; to be manned	/joʊ̯²¹⁴⁻²¹ ɻən³⁵/
-45	意思	meaning; significance	/i⁵¹ sɹ̩⁵⁵/
+45	意思	meaning; significance	/i⁵¹ sɹ̩¹/
 46	一些	slightly; a little; somewhat	/i⁵⁵⁻⁵¹ ɕi̯ɛ⁵⁵/
 47	女人	woman; adult female	/ny²¹⁴⁻²¹ ɻən³⁵/
 48	只有	only; merely; just	/ʈ͡ʂɻ̩²¹⁴⁻³⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -59,7 +59,7 @@ rank	word	english	ipa
 58	喂	hello?; yes?	/weɪ̯³⁵/
 59	可是	however; but	/kʰɤ²¹⁴⁻²¹ ʂɻ̩⁵¹/
 60	不用	not necessary; don't; no need to	/pu⁵¹⁻³⁵ jʊŋ⁵¹/
-61	名字	name	/miŋ²⁴ t͡sɹ̩⁵¹/
+61	名字	name	/miŋ³⁵ d͡z̥ɹ̩³/
 62	世界	extremely; super	/ʂɻ̩⁵¹⁻⁵³ t͡ɕi̯ɛ⁵¹/
 63	肯定	surely; definitely; must be	/kʰən²¹⁴⁻²¹ tiŋ⁵¹/
 64	最好	had better; it would be best; one would be well-advised to	/t͡su̯eɪ̯⁵¹ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -108,18 +108,18 @@ rank	word	english	ipa
 107	不管	no matter; regardless of; whether	/pu⁵¹ ku̯än²¹⁴⁻²¹⁽⁴⁾/
 108	混蛋	bastard; motherfucker; asshole; son of a bitch	/xu̯ən³⁵ tän⁵¹/
 109	唯一	only; sole; unique	/weɪ̯³⁵ i⁵⁵⁻⁵¹/
-110	漂亮	pretty; beautiful; handsome	/pʰiɔː⁴⁴ liɑŋ²⁴/
+110	漂亮	pretty; beautiful; handsome	/pʰi̯ɑʊ̯⁵¹ li̯ɑŋ¹/
 111	這樣	this way; such	/ʈ͡ʂɤ⁵¹⁻⁵³ jɑŋ⁵¹/
 112	真正	truly; really; genuinely	/ʈ͡ʂən⁵⁵ ʈ͡ʂɤŋ⁵¹/
 113	甚至	even; even if; go so far as to; to the extent that	/ʂən⁵¹⁻⁵³ ʈ͡ʂɻ̩⁵¹/
 114	不好	bad; not good; poor	/pu⁵¹ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-115	喔	Particle conveying realization or surprise	/wɔ⁵⁵/
+115	喔	Particle conveying realization or surprise	/wɔ⁵¹/
 116	夫人	lady; madam; Mrs	/fu⁵⁵ ɻən³⁵/
 117	就要	about to; on the point of; going to; soon; at hand; around…	/t͡ɕi̯oʊ̯⁵¹⁻⁵³ jɑʊ̯⁵¹/
 118	打算	to plan; to intend	/tä²¹⁴⁻²¹ su̯än⁵¹/
-119	故事	story; tale; narrative; plot	/ku⁵¹⁻⁵³ ʂɻ̩⁵¹/
+119	故事	story; tale; narrative; plot	/ku⁵¹ ʂɻ̩¹/
 120	害怕	to be afraid; to be scared; to be frightened	/xaɪ̯⁵¹⁻⁵³ pʰä⁵¹/
-121	衣服	clothing; clothes; laundry	/i⁵⁵ fu²¹/
+121	衣服	clothing; clothes; laundry	/i⁵⁵ fu²/
 122	不了	not just; not only	/pu⁵¹ li̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 123	注意	to pay attention to; to take note of; to require attention;…	/ʈ͡ʂu⁵¹⁻⁵³ i⁵¹/
 124	接受	to accept; to receive; to take	/t͡ɕi̯ɛ⁵⁵ ʂoʊ̯⁵¹/
@@ -194,7 +194,7 @@ rank	word	english	ipa
 193	早上	early morning	/t͡sɑʊ̯²¹⁴ ʂɑŋ⁴/
 194	這麼	this; so; such	/ʈ͡ʂɤ⁵¹ mə¹/
 195	昨晚	last night	/t͡su̯ɔ³⁵ wän²¹⁴⁻²¹⁽⁴⁾/
-196	哥哥	elder brother; big brother	/kə²⁴ kə²⁴/
+196	哥哥	elder brother; big brother	/kɤ⁵⁵ g̊ə²/
 197	秘密	secret	/mi⁵¹⁻⁵³ mi⁵¹/
 198	休息	to rest; to take a break	/ɕi̯oʊ̯⁵⁵ ɕi²/
 199	其中	in; among; therein	/t͡ɕʰi³⁵ ʈ͡ʂʊŋ⁵⁵/
@@ -204,7 +204,7 @@ rank	word	english	ipa
 203	小孩	child; kid	/ɕi̯ɑʊ̯²¹⁴⁻²¹ xaɪ̯³⁵/
 204	停止	to stop; to suspend; to close	/tʰiŋ³⁵ ʈ͡ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
 205	因此	because of this; thus; consequently	/in⁵⁵ t͡sʰɹ̩²¹⁴⁻²¹⁽⁴⁾/
-206	告訴	to tell; to inform	/kau²¹³ su²¹³/
+206	告訴	to tell; to inform	/kɑʊ̯⁵¹ su¹/
 207	糟糕	terrible; awful; horrible	/t͡sɑʊ̯⁵⁵ kɑʊ̯⁵⁵/
 208	武器	weapon; arms	/u²¹⁴⁻²¹ t͡ɕʰi⁵¹/
 209	小子	I; me	/ɕi̯ɑʊ̯²¹⁴ d͡z̥ɹ̩⁴/
@@ -233,7 +233,7 @@ rank	word	english	ipa
 232	力量	strength	/li⁵¹⁻⁵³ li̯ɑŋ⁵¹/
 233	男孩	boy	/nän³⁵ xaɪ̯³⁵/
 234	博士	doctorate; Ph.D	/pu̯ɔ³⁵ ʂɻ̩⁵¹/
-235	姐姐	elder sister; big sister	/t͡ɕiɛ⁵³ t͡ɕiɛ⁵³⁻²¹/
+235	姐姐	elder sister; big sister	/t͡ɕi̯ɛ²¹⁴ d͡ʑ̥i̯ɛ⁴/
 236	放下	to lay down; to put down	/fɑŋ⁵¹⁻⁵³ ɕi̯ä⁵¹/
 237	昨天	yesterday	/t͡su̯ɔ³⁵ tʰi̯ɛn⁵⁵/
 238	還有	besides; furthermore; and	/xaɪ̯³⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -259,7 +259,7 @@ rank	word	english	ipa
 258	安排	to arrange; to plan; to make arrangements	/ˀän⁵⁵ pʰaɪ̯³⁵/
 259	表演	to perform; to act; to play	/pi̯ɑʊ̯²¹⁴⁻³⁵ jɛn²¹⁴⁻²¹⁽⁴⁾/
 260	除非	unless	/ʈ͡ʂʰu³⁵ feɪ̯⁵⁵/
-261	屁股	buttocks; bottom; butt; hindquarters	/pʰi²¹³ ku⁵³/
+261	屁股	buttocks; bottom; butt; hindquarters	/pʰi⁵¹ g̊u¹/
 262	這些	these	/ʈ͡ʂɤ⁵¹ ɕi̯ɛ⁵⁵/
 263	老兄	brother; old chap	/lɑʊ̯²¹⁴⁻²¹ ɕi̯ʊŋ⁵⁵/
 264	支持	to support; to back	/ʈ͡ʂɻ̩⁵⁵ ʈ͡ʂʰɻ̩³⁵/
@@ -268,7 +268,7 @@ rank	word	english	ipa
 267	叔叔	paternal uncle	/ʂu⁵⁵ ʂu²/
 268	還是	still	/xaɪ̯³⁵ ʂɻ̩⁵¹/
 269	食物	food	/ʂɻ̩³⁵ u⁵¹/
-270	妹妹	younger sister	/mei²¹³ mei²¹³⁻⁵⁵/
+270	妹妹	younger sister	/meɪ̯⁵¹ meɪ̯¹/
 271	再次	once more; once again; one more time	/t͡saɪ̯⁵¹⁻⁵³ t͡sʰɹ̩⁵¹/
 272	案子	long table; counter	/ˀän⁵¹ d͡z̥ɹ̩¹/
 273	下面	underside; below; beneath; under	/ɕi̯ä⁵¹⁻⁵³ mi̯ɛn⁵¹/
@@ -279,7 +279,7 @@ rank	word	english	ipa
 278	面前	in front of one's face; in front	/mi̯ɛn⁵¹ t͡ɕʰi̯ɛn³⁵/
 279	日子	date; day	/ɻ̩⁵¹ d͡z̥ɹ̩¹/
 280	那麼	so; that	/nä⁵¹ mə¹/
-281	舒服	comfortable; relaxed and happy; providing ease and…	/ʂu⁵⁵ fu/
+281	舒服	comfortable; relaxed and happy; providing ease and…	/ʂu⁵⁵ fu²/
 282	再也	any more	/t͡saɪ̯⁵¹ jɛ²¹⁴⁻²¹⁽⁴⁾/
 283	早就	long since; long ago; already at an earlier time; for a…	/t͡sɑʊ̯²¹⁴⁻²¹ t͡ɕi̯oʊ̯⁵¹/
 284	逼	euphemistic form of 屄	/pi⁵⁵/
@@ -301,7 +301,7 @@ rank	word	english	ipa
 300	東西	from east to west	/tʊŋ⁵⁵ ɕi⁵⁵/
 301	而是	but; rather	/ˀɤɻ³⁵ ʂɻ̩⁵¹/
 302	住手	to stop; to give up	/ʈ͡ʂu⁵¹ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
-303	弟弟	younger brother	/ti⁵¹ ti/
+303	弟弟	younger brother	/ti⁵¹ d̥i¹/
 304	道歉	to apologize	/tɑʊ̯⁵¹⁻⁵³ t͡ɕʰi̯ɛn⁵¹/
 305	人家	others; everybody else	/ɻən³⁵ t͡ɕi̯ä⁵⁵/
 306	想象	to imagine; to picture; to envision	/ɕi̯ɑŋ²¹⁴ ɕi̯ɑŋ⁵¹/
@@ -380,7 +380,7 @@ rank	word	english	ipa
 379	文件	document; file	/wən³⁵ t͡ɕi̯ɛn⁵¹/
 380	慢慢	slowly; leisurely	/män⁵¹⁻⁵³ män⁵¹/
 381	前面	in front; ahead; front	/t͡ɕʰi̯ɛn³⁵ mi̯ɛn⁵¹/
-382	奶奶	paternal grandmother; nanna; gramma; granny	/nai⁵³ nai⁵³⁻²¹/
+382	奶奶	paternal grandmother; nanna; gramma; granny	/naɪ̯²¹⁴ naɪ̯⁴/
 383	答案	answer; solution	/tä³⁵ ˀän⁵¹/
 384	可不	you're absolutely right!; right!; exactly!; isn't that so?	/kʰɤ²¹⁴⁻²¹ pu⁵¹/
 385	一遍	once, one time	/i⁵⁵⁻³⁵ pi̯ɛn⁵¹/
@@ -424,7 +424,7 @@ rank	word	english	ipa
 423	出生	to be born	/ʈ͡ʂʰu⁵⁵ ʂɤŋ⁵⁵/
 424	酒店	hotel; inn	/t͡ɕi̯oʊ̯²¹⁴⁻²¹ ti̯ɛn⁵¹/
 425	上班	to be on duty; to go to work; to begin one's work day; to…	/ʂɑŋ⁵¹ pän⁵⁵/
-426	覺得	to think; to believe; to be of the opinion that	/t͡ɕy̯ɛ³⁵ tɤ³⁵/
+426	覺得	to think; to believe; to be of the opinion that	/t͡ɕy̯ɛ³⁵ d̥ə³/
 427	造成	to bring about; to cause; to lead to	/t͡sɑʊ̯⁵¹ ʈ͡ʂʰɤŋ³⁵/
 428	男朋友	boyfriend	/nän³⁵ pʰɤŋ³⁵ joʊ̯³/
 429	想起	to remember; to recall; to think of	/ɕi̯ɑŋ²¹⁴⁻³⁵ t͡ɕʰi²¹⁴⁻²¹⁽⁴⁾/
@@ -433,7 +433,7 @@ rank	word	english	ipa
 432	起來	to rise up; to get up	/t͡ɕʰi²¹⁴⁻²¹ laɪ̯³⁵/
 433	做好	to finish; to complete	/t͡su̯ɔ⁵¹ xɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 434	拯救	to save; to rescue	/ʈ͡ʂɤŋ²¹⁴⁻²¹ t͡ɕi̯oʊ̯⁵¹/
-435	媽媽	mum; mama	/ma⁵⁵ ma⁵⁵/
+435	媽媽	mum; mama	/mä⁵⁵ mä²/
 436	一句	a line of verse	/i⁵⁵⁻³⁵ t͡ɕy⁵¹/
 437	方面	aspect; side; hand; facet; respect	/fɑŋ⁵⁵ mi̯ɛn⁵¹/
 438	晚餐	supper; dinner	/wän²¹⁴⁻²¹ t͡sʰän⁵⁵/
@@ -444,7 +444,7 @@ rank	word	english	ipa
 443	自然	naturally; in a natural manner	/t͡sɹ̩⁵¹ ɻän³⁵/
 444	一把	a bunch of; a bundle of	/i⁵⁵⁻⁵¹ pä²¹⁴⁻²¹⁽⁴⁾/
 445	一步	one step; a single step	/i⁵⁵⁻³⁵ pu⁵¹/
-446	逮捕	to arrest; to apprehend	/taɪ̯⁵¹ pu²¹⁴/
+446	逮捕	to arrest; to apprehend	/taɪ̯⁵¹ pu²¹⁴⁻²¹⁽⁴⁾/
 447	主人	master; owner	/ʈ͡ʂu²¹⁴⁻²¹ ɻən³⁵/
 448	可惜	regrettable; too bad; a pity; a shame	/kʰɤ²¹⁴⁻²¹ ɕi⁵⁵/
 449	算是	finally; at long last	/su̯än⁵¹⁻⁵³ ʂɻ̩⁵¹/
@@ -631,7 +631,7 @@ rank	word	english	ipa
 630	依然	as it was before; still	/i⁵⁵ ɻän³⁵/
 631	做事	to do things; to handle matters	/t͡su̯ɔ⁵¹⁻⁵³ ʂɻ̩⁵¹/
 632	接到	to receive	/t͡ɕi̯ɛ⁵⁵ tɑʊ̯⁵¹/
-633	認識	to know; to be acquainted with	/ʐən⁵¹ ʂɻ̩/
+633	認識	to know; to be acquainted with	/ɻən⁵¹ ʂɻ̩¹/
 634	要死	to a great degree	/jɑʊ̯⁵¹ sɹ̩²¹⁴⁻²¹⁽⁴⁾/
 635	折磨	to torture; to torment; to submit to an ordeal; to persecute	/ʈ͡ʂɤ³⁵ mu̯ɔ³⁵/
 636	明星	celebrity; star	/miŋ³⁵ ɕiŋ⁵⁵/
@@ -660,7 +660,7 @@ rank	word	english	ipa
 659	印象	impression	/in⁵¹⁻⁵³ ɕi̯ɑŋ⁵¹/
 660	天空	sky; heavens; firmament	/tʰi̯ɛn⁵⁵ kʰʊŋ⁵⁵/
 661	游泳	to swim	/joʊ̯³⁵ jʊŋ²¹⁴⁻²¹⁽⁴⁾/
-662	拜拜	to worship a deity; to prostrate oneself at a place of…	/paɪ̯⁵¹⁻⁵³ paɪ̯⁵¹/
+662	拜拜	to worship a deity; to prostrate oneself at a place of…	/paɪ̯⁵¹ b̥aɪ̯¹/
 663	大部分	the majority; most; the greater part; the bulk	/tä⁵¹⁻⁵³ pu⁵¹⁻⁵³ fən⁵¹/
 664	阿姨	maternal aunt	/ˀä⁵⁵ i³⁵/
 665	而言	to be regarding; to be in terms of; to be speaking of; to…	/ˀɤɻ³⁵ jɛn³⁵/
@@ -711,7 +711,7 @@ rank	word	english	ipa
 710	警探	police detective	/t͡ɕiŋ²¹⁴⁻²¹ tʰän⁵¹/
 711	洗澡	to take a shower or bath; to wash oneself; to bathe	/ɕi²¹⁴⁻³⁵ t͡sɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 712	黑色	the color black	/xeɪ̯⁵⁵ sɤ⁵¹/
-713	便宜	cheap; inexpensive	/pʰiɛn²¹ nʲi²¹³/
+713	便宜	cheap; inexpensive	/pʰi̯ɛn³⁵ i³/
 714	行李	belongings one carries for travelling; luggage; baggage	/ɕiŋ³⁵ li²¹⁴⁻²¹⁽⁴⁾/
 715	一人	by one person; alone	/i⁵⁵⁻⁵¹ ɻən³⁵/
 716	浪漫	indulgent; unrestrained; at will; wanton	/lɑŋ⁵¹⁻⁵³ män⁵¹/
@@ -733,7 +733,7 @@ rank	word	english	ipa
 732	不久	soon; before long; not long	/pu⁵¹ t͡ɕi̯oʊ̯²¹⁴⁻²¹⁽⁴⁾/
 733	熟悉	to know well; to know clearly	/ʂu³⁵ ɕi⁵⁵/
 734	正如	to be just like; to be just as	/ʈ͡ʂɤŋ⁵¹ ɻu³⁵/
-735	咯	this	/lu̯ɔ⁵¹/
+735	咯	this	/kʰä²¹⁴/
 736	掌握	to be in control of; to take charge of; to hold	/ʈ͡ʂɑŋ²¹⁴⁻²¹ wɔ⁵¹/
 737	在意	to care; to mind; to be bothered; to pay attention	/t͡saɪ̯⁵¹⁻⁵³ i⁵¹/
 738	管理	to manage; to administer; to supervise; to regulate; to…	/ku̯än²¹⁴⁻³⁵ li²¹⁴⁻²¹⁽⁴⁾/
@@ -780,7 +780,7 @@ rank	word	english	ipa
 779	記得	to remember; to recall from memory	/t͡ɕi⁵¹ d̥ə¹/
 780	收集	to collect; to gather	/ʂoʊ̯⁵⁵ t͡ɕi³⁵/
 781	每年	every year; yearly	/meɪ̯²¹⁴⁻²¹ ni̯ɛn³⁵/
-782	王八蛋	son-of-a-bitch; bastard	/u̯ɑŋ³⁵ pa tan⁵¹/
+782	王八蛋	son-of-a-bitch; bastard	/wɑŋ³⁵ b̥ä³ tän⁵¹/
 783	法官大人	Used in replies to posts about attractive women	/fä²¹⁴⁻²¹ ku̯än⁵⁵ tä⁵¹ ɻən³⁵/
 784	鞋子	shoe; footwear	/ɕi̯ɛ³⁵ d͡z̥ɹ̩³/
 785	事物	thing; object; matter	/ʂɻ̩⁵¹⁻⁵³ u⁵¹/
@@ -857,7 +857,7 @@ rank	word	english	ipa
 856	他媽	synonym of 他媽的 /他妈的	/tʰä⁵⁵ mä⁵⁵/
 857	工具	tool; instrument; implement	/kʊŋ⁵⁵ t͡ɕy⁵¹/
 858	手臂	arm	/ʂoʊ̯²¹⁴⁻²¹ pi⁵¹/
-859	結束	to end; to conclude; to terminate; to finish; to bring to…	/t͡ɕi̯ɛ³⁵ su⁵¹/
+859	結束	to end; to conclude; to terminate; to finish; to bring to…	/t͡ɕi̯ɛ³⁵ ʂu⁵¹/
 860	真心	truly; really	/ʈ͡ʂən⁵⁵ ɕin⁵⁵/
 861	害死	to harm to death; to harass someone to death	/xaɪ̯⁵¹ sɹ̩²¹⁴⁻²¹⁽⁴⁾/
 862	多次	repeatedly; several	/tu̯ɔ⁵⁵ t͡sʰɹ̩⁵¹/
@@ -892,7 +892,7 @@ rank	word	english	ipa
 891	姐妹	elder sister and younger sister; sisters	/t͡ɕi̯ɛ²¹⁴⁻²¹ meɪ̯⁵¹/
 892	取得	to gain; to obtain	/t͡ɕʰy²¹⁴⁻²¹ tɤ³⁵/
 893	女子	woman; female	/ny²¹⁴⁻³⁵ t͡sɹ̩²¹⁴⁻²¹⁽⁴⁾/
-894	玻璃	glass	/po⁵⁵ ni²¹/
+894	玻璃	glass	/pu̯ɔ⁵⁵ li²/
 895	眼前	before one's eyes	/jɛn²¹⁴⁻²¹ t͡ɕʰi̯ɛn³⁵/
 896	機會	opportunity; chance	/t͡ɕi⁵⁵ xu̯eɪ̯⁵¹/
 897	猴子	monkey	/xoʊ̯³⁵ d͡z̥ɹ̩³/
@@ -905,7 +905,7 @@ rank	word	english	ipa
 904	過去	past	/ku̯ɔ⁵¹⁻⁵³ t͡ɕʰy⁵¹/
 905	第三	thirdly	/ti⁵¹ sän⁵⁵/
 906	走出	to walk out; to go out; to come out; to walk out	/t͡soʊ̯²¹⁴⁻²¹ ʈ͡ʂʰu⁵⁵/
-907	地下室	basement; cellar	/ti⁵¹⁻⁵³ ɕi̯ä⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+907	地下室	basement; cellar	/ti⁵¹⁻⁵³ ɕi̯ä⁵¹⁻⁵³ ʂɻ̩⁵¹/
 908	最新	the newest; the latest; the most recent; up-to-date	/t͡su̯eɪ̯⁵¹ ɕin⁵⁵/
 909	大麻	hemp	/tä⁵¹ mä³⁵/
 910	手段	procedure; method; means	/ʂoʊ̯²¹⁴⁻²¹ tu̯än⁵¹/
@@ -941,7 +941,7 @@ rank	word	english	ipa
 940	保佑	to bless and protect; to be safeguarded	/pɑʊ̯²¹⁴⁻²¹ joʊ̯⁵¹/
 941	性命	life; survival	/ɕiŋ⁵¹⁻⁵³ miŋ⁵¹/
 942	成熟	to ripen; to ripe	/ʈ͡ʂʰɤŋ³⁵ ʂu³⁵/
-943	浴室	bathroom	/y⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+943	浴室	bathroom	/y⁵¹⁻⁵³ ʂɻ̩⁵¹/
 944	陷阱	trap	/ɕi̯ɛn⁵¹ t͡ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
 945	一本	having the same origin	/i⁵⁵⁻⁵¹ pən²¹⁴⁻²¹⁽⁴⁾/
 946	具有	to have; to possess	/t͡ɕy⁵¹ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -951,7 +951,7 @@ rank	word	english	ipa
 950	白天	daytime; day	/paɪ̯³⁵ tʰi̯ɛn⁵⁵/
 951	下雨	to rain	/ɕi̯ä⁵¹ y²¹⁴⁻²¹⁽⁴⁾/
 952	可笑	funny; hilarious	/kʰɤ²¹⁴⁻²¹ ɕi̯ɑʊ̯⁵¹/
-953	還	have or have not; do or do not; will or will not	/xu̯an³⁵/
+953	還	have or have not; do or do not; will or will not	/xaɪ̯³⁵/
 954	今日	today	/t͡ɕin⁵⁵ ɻ̩⁵¹/
 955	中央	centre; middle	/ʈ͡ʂʊŋ⁵⁵ jɑŋ⁵⁵/
 956	袋子	bag; pouch; sack	/taɪ̯⁵¹ d͡z̥ɹ̩¹/
@@ -1061,7 +1061,7 @@ rank	word	english	ipa
 1060	午夜	midnight	/u²¹⁴⁻²¹ jɛ⁵¹/
 1061	一眼	a glance; a look; a glimpse	/i⁵⁵⁻⁵¹ jɛn²¹⁴⁻²¹⁽⁴⁾/
 1062	胳膊	arm	/kɤ⁵⁵ b̥u̯ɔ²/
-1063	癌症	cancer	/ŋai²¹ t͡sən²¹³/
+1063	癌症	cancer	/ˀaɪ̯³⁵ ʈ͡ʂɤŋ⁵¹/
 1064	保存	to preserve; to conserve; to keep	/pɑʊ̯²¹⁴⁻²¹ t͡sʰu̯ən³⁵/
 1065	它們	they; them	/tʰä⁵⁵ mən²/
 1066	老子	I; me	/lɑʊ̯²¹⁴ d͡z̥ɹ̩⁴/
@@ -1071,7 +1071,7 @@ rank	word	english	ipa
 1070	同伴	companion; mate; comrade; partner	/tʰʊŋ³⁵ pän⁵¹/
 1071	要不然	otherwise; or else	/jɑʊ̯⁵¹⁻⁵³ pu⁵¹ ɻän³⁵/
 1072	打倒	to beat down; to knock down	/tä²¹⁴⁻³⁵ tɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-1073	合同	contract; agreement	/xɤ³⁵ tʰʊŋ³/
+1073	合同	contract; agreement	/xɤ³⁵ tʰʊŋ³⁵/
 1074	遭到	to suffer; to be subjected to; to be met with	/t͡sɑʊ̯⁵⁵ tɑʊ̯⁵¹/
 1075	改變	to change	/kaɪ̯²¹⁴⁻²¹ pi̯ɛn⁵¹/
 1076	隔壁	next door	/kɤ³⁵ pi⁵¹/
@@ -1247,7 +1247,7 @@ rank	word	english	ipa
 1246	足以	sufficient to; enough to	/t͡su³⁵ i²¹⁴⁻²¹⁽⁴⁾/
 1247	老師	teacher	/lɑʊ̯²¹⁴⁻²¹ ʂɻ̩⁵⁵/
 1248	進行	to proceed with; to carry out; to conduct; to be in progress	/t͡ɕin⁵¹ ɕiŋ³⁵/
-1249	嘴巴	mouth	/t͡suei⁵³ pa⁵⁵/
+1249	嘴巴	mouth	/t͡su̯eɪ̯²¹⁴ b̥ä⁴/
 1250	扔掉	to throw away	/ɻɤŋ⁵⁵ ti̯ɑʊ̯⁵¹/
 1251	影子	shadow	/iŋ²¹⁴ d͡z̥ɹ̩⁴/
 1252	死刑	death penalty; capital punishment	/sɹ̩²¹⁴⁻²¹ ɕiŋ³⁵/
@@ -1308,7 +1308,7 @@ rank	word	english	ipa
 1307	計劃	to plan	/t͡ɕi⁵¹⁻⁵³ xu̯ä⁵¹/
 1308	剛剛	just; just now; a moment ago	/kɑŋ⁵⁵ kɑŋ⁵⁵/
 1309	一小	since childhood; as a child; from when one was very young	/i⁵⁵⁻⁵¹ ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-1310	看著	to catch sight of; to see	/kʰan⁵¹ ʈ͡ʂu̯ɔ³⁵/
+1310	看著	to catch sight of; to see	/kʰan⁵¹ ʈ͡ʂu⁵¹/
 1311	假期	holiday; vacation	/t͡ɕi̯ä⁵¹ t͡ɕʰi⁵⁵/
 1312	播放	to broadcast; to transmit	/pu̯ɔ⁵⁵ fɑŋ⁵¹/
 1313	接吻	to kiss	/t͡ɕi̯ɛ⁵⁵ wən²¹⁴⁻²¹⁽⁴⁾/
@@ -1451,7 +1451,7 @@ rank	word	english	ipa
 1450	高手	expert; ace; master	/kɑʊ̯⁵⁵ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 1451	通過	via; by; by means of; through	/tʰʊŋ⁵⁵ ku̯ɔ⁵¹/
 1452	指令	to instruct; to direct; to order	/ʈ͡ʂɻ̩²¹⁴⁻²¹ liŋ⁵¹/
-1453	胡子	someone from Dongbei	/xu³⁵ t͡sɹ̩²¹⁴/
+1453	胡子	someone from Dongbei	/xu³⁵ t͡sɹ̩/
 1454	相遇	to meet; to come across	/ɕi̯ɑŋ⁵⁵ y⁵¹/
 1455	吵醒	to wake somebody up with a noise	/ʈ͡ʂʰɑʊ̯²¹⁴⁻³⁵ ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
 1456	追捕	to pursue and capture; to hunt down	/ʈ͡ʂu̯eɪ̯⁵⁵ pu²¹⁴⁻²¹⁽⁴⁾/
@@ -1514,7 +1514,7 @@ rank	word	english	ipa
 1513	精神病	mental disorder; mental illness	/t͡ɕiŋ⁵⁵ ʂən³⁵ piŋ⁵¹/
 1514	首席	head of the table; top seat	/ʂoʊ̯²¹⁴⁻²¹ ɕi³⁵/
 1515	高潮	high tide; high water	/kɑʊ̯⁵⁵ ʈ͡ʂʰɑʊ̯³⁵/
-1516	棺材	coffin	/kuan⁵⁵ t͡sʰai²¹/
+1516	棺材	coffin	/ku̯än⁵⁵ t͡sʰaɪ̯²/
 1517	留意	to look out for; to keep an eye out for; to pay attention…	/li̯oʊ̯³⁵ i⁵¹/
 1518	出路	way out	/ʈ͡ʂʰu⁵⁵ lu⁵¹/
 1519	玉米	corn; maize	/y⁵¹ mi²¹⁴⁻²¹⁽⁴⁾/
@@ -1534,7 +1534,7 @@ rank	word	english	ipa
 1533	卡住	to become stuck; to jam; to become blocked; to seize up	/t͡ɕʰi̯ä²¹⁴⁻²¹ ʈ͡ʂu⁵¹/
 1534	涉及	to relate to; involve; to touch upon	/ʂɤ⁵¹ t͡ɕi³⁵/
 1535	一行	a group travelling or working together; a party	/i⁵⁵⁻⁵¹ ɕiŋ³⁵/
-1536	工作室	studio; workshop; atelier	/kʊŋ⁵⁵ t͡su̯ɔ⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+1536	工作室	studio; workshop; atelier	/kʊŋ⁵⁵ t͡su̯ɔ⁵¹⁻⁵³ ʂɻ̩⁵¹/
 1537	影像	portrait; painting	/iŋ²¹⁴⁻²¹ ɕi̯ɑŋ⁵¹/
 1538	字母	letter	/t͡sɹ̩⁵¹ mu²¹⁴⁻²¹⁽⁴⁾/
 1539	二十	twenty; 20	/ˀɤɻ⁵¹ ʂɻ̩³⁵/
@@ -1670,7 +1670,7 @@ rank	word	english	ipa
 1669	模型	model; mockup	/mu̯ɔ³⁵ ɕiŋ³⁵/
 1670	定位	to orient; to orientate; to direct	/tiŋ⁵¹⁻⁵³ weɪ̯⁵¹/
 1671	不足	insufficient; inadequate; lacking	/pu⁵¹ t͡su³⁵/
-1672	主角	leading or main role; lead	/ʈ͡ʂu²¹⁴⁻²¹ t͡ɕy̯ɛɻ³⁵/
+1672	主角	leading or main role; lead	/ʈ͡ʂu²¹⁴⁻²¹ t͡ɕy̯ɛ³⁵/
 1673	接管	to take over; to assume control of	/t͡ɕi̯ɛ⁵⁵ ku̯än²¹⁴⁻²¹⁽⁴⁾/
 1674	自已	to stop oneself; to control oneself	/t͡sɹ̩⁵¹ i²¹⁴⁻²¹⁽⁴⁾/
 1675	保管	certainly; surely	/pɑʊ̯²¹⁴⁻³⁵ ku̯än²¹⁴⁻²¹⁽⁴⁾/
@@ -1803,7 +1803,7 @@ rank	word	english	ipa
 1802	總是	always; invariably	/t͡sʊŋ²¹⁴⁻²¹ ʂɻ̩⁵¹/
 1803	料到	to foresee; to expect; to anticipate	/li̯ɑʊ̯⁵¹⁻⁵³ tɑʊ̯⁵¹/
 1804	表哥	cousin	/pi̯ɑʊ̯²¹⁴⁻²¹ kɤ⁵⁵/
-1805	多大	how big; how large	/tu̯ɔ³⁵ tä⁵¹/
+1805	多大	how big; how large	/tu̯ɔ⁵⁵ tä⁵¹/
 1806	甩掉	to throw away; to cast off; to shake off; to fling off	/ʂu̯aɪ̯²¹⁴⁻²¹ ti̯ɑʊ̯⁵¹/
 1807	降低	to reduce; to lower; to cut down; to drop	/t͡ɕi̯ɑŋ⁵¹ ti⁵⁵/
 1808	提示	to point out; to draw attention to; to prompt; to remind	/tʰi³⁵ ʂɻ̩⁵¹/
@@ -1813,7 +1813,7 @@ rank	word	english	ipa
 1812	出院	to leave hospital; to be discharged from hospital	/ʈ͡ʂʰu⁵⁵ ɥɛn⁵¹/
 1813	名人	well-known person; celebrity; figure	/miŋ³⁵ ɻən³⁵/
 1814	碰巧	by chance; by coincidence; it so happened that	/pʰɤŋ⁵¹ t͡ɕʰi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-1815	指甲	fingernail	/ʈ͡ʂɻ̩⁵⁵ d͡ʑ̥i̯ä²/
+1815	指甲	fingernail	/ʈ͡ʂɻ̩²¹⁴ d͡ʑ̥i̯ä⁴/
 1816	成年人	adult; grown-up	/ʈ͡ʂʰɤŋ³⁵ ni̯ɛn³⁵ ɻən³⁵/
 1817	放棄	to give up; to renounce; to abandon	/fɑŋ⁵¹⁻⁵³ t͡ɕʰi⁵¹/
 1818	早期	early period; early phase	/t͡sɑʊ̯²¹⁴⁻²¹ t͡ɕʰi⁵⁵/
@@ -1852,7 +1852,7 @@ rank	word	english	ipa
 1851	女郎	young woman; girl; lady	/ny²¹⁴⁻²¹ lɑŋ³⁵/
 1852	打球	to play a ball game	/tä²¹⁴⁻²¹ t͡ɕʰi̯oʊ̯³⁵/
 1853	拉屎	to crap; to shit; to defecate	/lä⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
-1854	教室	classroom	/t͡ɕi̯ɑʊ̯⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+1854	教室	classroom	/t͡ɕi̯ɑʊ̯⁵¹⁻⁵³ ʂɻ̩⁵¹/
 1855	做人	to behave properly; to conduct oneself; to behave with…	/t͡su̯ɔ⁵¹ ɻən³⁵/
 1856	海豚	dolphin	/xaɪ̯²¹⁴⁻²¹ tʰu̯ən³⁵/
 1857	因素	factor; element	/in⁵⁵ su⁵¹/
@@ -1916,7 +1916,7 @@ rank	word	english	ipa
 1915	首都	capital; capital city	/ʂoʊ̯²¹⁴⁻²¹ tu⁵⁵/
 1916	航行	to sail or fly; to navigate; to cruise	/xɑŋ³⁵ ɕiŋ³⁵/
 1917	手法	technique; trick; skill; means; gimmick; device	/ʂoʊ̯²¹⁴⁻³⁵ fä²¹⁴⁻²¹⁽⁴⁾/
-1918	現場	scene	/ɕi̯ɛn⁵¹ ʈ͡ʂʰɑŋ³⁵/
+1918	現場	scene	/ɕi̯ɛn⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 1919	簡直	simply; really; utterly; at all	/t͡ɕi̯ɛn²¹⁴⁻²¹ ʈ͡ʂɻ̩³⁵/
 1920	旅途	journey; trip	/ly²¹⁴⁻²¹ tʰu³⁵/
 1921	銀行	bank	/in³⁵ xɑŋ³⁵/
@@ -1935,7 +1935,7 @@ rank	word	english	ipa
 1934	美人	beautiful woman; beauty; lovely lady	/meɪ̯²¹⁴⁻²¹ ɻən³⁵/
 1935	慈善	benevolent; charitable; philanthropic	/t͡sʰɹ̩³⁵ ʂän⁵¹/
 1936	棘手	thorny	/t͡ɕi³⁵ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
-1937	片子	film; movie	/pʰi̯ɛn⁵¹ d͡z̥ɹ̩¹/
+1937	片子	film; movie	/pʰi̯ɛn⁵⁵ d͡z̥ɹ̩²/
 1938	好日子	auspicious day	/xɑʊ̯²¹⁴⁻²¹ ɻ̩⁵¹ d͡z̥ɹ̩¹/
 1939	接通	to get a connection; to connect; to put through; to get…	/t͡ɕi̯ɛ⁵⁵ tʰʊŋ⁵⁵/
 1940	河流	river	/xɤ³⁵ li̯oʊ̯³⁵/
@@ -1952,7 +1952,7 @@ rank	word	english	ipa
 1951	清洗	to cleanse; to clean; to wash	/t͡ɕʰiŋ⁵⁵ ɕi²¹⁴⁻²¹⁽⁴⁾/
 1952	休想	to not imagine that it's possible	/ɕi̯oʊ̯⁵⁵ ɕi̯ɑŋ²¹⁴⁻²¹⁽⁴⁾/
 1953	憎恨	to hate; to detest; to be hostile to	/t͡sɤŋ⁵⁵ xən⁵¹/
-1954	狐狸	fox	/fu²¹ ni⁵³/
+1954	狐狸	fox	/xu³⁵ li³/
 1955	星系	galaxy; stellar system	/ɕiŋ⁵⁵ ɕi⁵¹/
 1956	世人	ordinary person; average person; common people	/ʂɻ̩⁵¹ ɻən³⁵/
 1957	器官	organ	/t͡ɕʰi⁵¹ ku̯än⁵⁵/
@@ -1981,7 +1981,7 @@ rank	word	english	ipa
 1980	平等	equal	/pʰiŋ³⁵ tɤŋ²¹⁴⁻²¹⁽⁴⁾/
 1981	草莓	strawberry	/t͡sʰɑʊ̯²¹⁴⁻²¹ meɪ̯³⁵/
 1982	一股	a clump of; a bunch of	/i⁵⁵⁻⁵¹ ku²¹⁴⁻²¹⁽⁴⁾/
-1983	暖和	warm	/nu̯än²¹⁴⁻²¹ xu̯ɔ³⁵/
+1983	暖和	warm	/nu̯än²¹⁴ xu̯ɔ⁴/
 1984	記住	to remember; to bear in mind; to memorize	/t͡ɕi⁵¹⁻⁵³ ʈ͡ʂu⁵¹/
 1985	勒索	to blackmail; to extort	/lɤ⁵¹ su̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 1986	好大	to like to do grandiose things	/xɑʊ̯⁵¹⁻⁵³ tä⁵¹/
@@ -2073,7 +2073,7 @@ rank	word	english	ipa
 2072	海水	seawater; ocean water	/xaɪ̯²¹⁴⁻³⁵ ʂu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 2073	有限	limited; finite	/joʊ̯²¹⁴⁻²¹ ɕi̯ɛn⁵¹/
 2074	警戒	to be vigilant; to be alert; to watch out	/t͡ɕiŋ²¹⁴⁻²¹ t͡ɕi̯ɛ⁵¹/
-2075	喇叭	horn; trumpet	/lä²¹⁴⁻²¹ pä⁵⁵/
+2075	喇叭	horn; trumpet	/lä²¹⁴ b̥ä⁴/
 2076	碰面	to meet; to get together	/pʰɤŋ⁵¹⁻⁵³ mi̯ɛn⁵¹/
 2077	秋天	autumn; fall	/t͡ɕʰi̯oʊ̯⁵⁵ tʰi̯ɛn⁵⁵/
 2078	滑雪	to ski	/xu̯ä³⁵ ɕy̯ɛ²¹⁴⁻²¹⁽⁴⁾/
@@ -2122,7 +2122,7 @@ rank	word	english	ipa
 2121	套房	suite	/tʰɑʊ̯⁵¹ fɑŋ³⁵/
 2122	老太太	old lady; respectable madam	/lɑʊ̯²¹⁴⁻²¹ tʰaɪ̯⁵¹ tʰaɪ̯¹/
 2123	嚴重	serious; critical; severe	/jɛn³⁵ ʈ͡ʂʊŋ⁵¹/
-2124	擁有	to possess; to own; to acquire	/i̯ʊŋ⁵⁵ i²¹⁴ u/
+2124	擁有	to possess; to own; to acquire	/jʊŋ⁵⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 2125	救人	to rescue someone; to save one's life	/t͡ɕi̯oʊ̯⁵¹ ɻən³⁵/
 2126	海外	overseas; abroad	/xaɪ̯²¹⁴⁻²¹ waɪ̯⁵¹/
 2127	系列	series	/ɕi⁵¹⁻⁵³ li̯ɛ⁵¹/
@@ -2168,16 +2168,16 @@ rank	word	english	ipa
 2167	哪個	which; which one	/nä²¹⁴ g̊ə⁴/
 2168	用心	diligently; attentively; carefully	/jʊŋ⁵¹ ɕin⁵⁵/
 2169	分配	to distribute; to hand out; to issue; to dispense; to…	/fən⁵⁵ pʰeɪ̯⁵¹/
-2170	玩弄	to play with; to juggle with	/wɑɻ³⁵ nʊŋ⁵¹/
+2170	玩弄	to play with; to juggle with	/wän³⁵ nʊŋ⁵¹/
 2171	天真	naive; innocent; artless	/tʰi̯ɛn⁵⁵ ʈ͡ʂən⁵⁵/
 2172	多多	much; a lot; lots and lots; a great deal	/tu̯ɔ⁵⁵ tu̯ɔ⁵⁵/
 2173	派出	to dispatch; to send	/pʰaɪ̯⁵¹ ʈ͡ʂʰu⁵⁵/
 2174	治療	to provide medical treatment; to treat	/ʈ͡ʂɻ̩⁵¹ li̯ɑʊ̯³⁵/
 2175	修道院	convent; monastery	/ɕi̯oʊ̯⁵⁵ tɑʊ̯⁵¹⁻⁵³ ɥɛn⁵¹/
-2176	老人家	venerable old person; elderly man or woman	/lɑʊ̯²¹⁴⁻²¹ ɻən³⁵ d͡ʑ̥i̯ä³/
+2176	老人家	venerable old person; elderly man or woman	/lɑʊ̯²¹⁴ ɻən⁴ d͡ʑ̥i̯ä¹/
 2177	屁眼	anus; butthole; asshole	/pʰi⁵¹ jɛn²¹⁴⁻²¹⁽⁴⁾/
 2178	救世主	saviour	/t͡ɕi̯oʊ̯⁵¹⁻⁵³ ʂɻ̩⁵¹ ʈ͡ʂu²¹⁴⁻²¹⁽⁴⁾/
-2179	密室	hidden room; secret chamber	/mi⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+2179	密室	hidden room; secret chamber	/mi⁵¹⁻⁵³ ʂɻ̩⁵¹/
 2180	一票	a sum of money	/i⁵⁵⁻³⁵ pʰi̯ɑʊ̯⁵¹/
 2181	信徒	believer; follower	/ɕin⁵¹ tʰu³⁵/
 2182	放假	to have time off; to go on holidays	/fɑŋ⁵¹⁻⁵³ t͡ɕi̯ä⁵¹/
@@ -2260,9 +2260,9 @@ rank	word	english	ipa
 2259	致敬	to salute; to pay tribute to; to show respect; to pay…	/ʈ͡ʂɻ̩⁵¹⁻⁵³ t͡ɕiŋ⁵¹/
 2260	甜美	deliciously sweet	/tʰi̯ɛn³⁵ meɪ̯²¹⁴⁻²¹⁽⁴⁾/
 2261	往往	usually; generally; often; tend to	/wɑŋ²¹⁴⁻³⁵ wɑŋ²¹⁴⁻²¹⁽⁴⁾/
-2262	蘑菇	mushroom	/mu̯ɔ³⁵ ku⁵⁵/
+2262	蘑菇	mushroom	/mu̯ɔ³⁵ g̊u³/
 2263	組織	to organize; to arrange	/t͡su²¹⁴⁻²¹ ʈ͡ʂɻ̩⁵⁵/
-2264	客氣	to be polite; to behave in a courteous manner	/kʰɤ⁵¹ t͡ɕʰi/
+2264	客氣	to be polite; to behave in a courteous manner	/kʰɤ⁵¹ t͡ɕʰi¹/
 2265	放大	to magnify; to enlarge	/fɑŋ⁵¹⁻⁵³ tä⁵¹/
 2266	保障	to assure; to ensure; to provide guarantee	/pɑʊ̯²¹⁴⁻²¹ ʈ͡ʂɑŋ⁵¹/
 2267	上空	the sky above	/ʂɑŋ⁵¹ kʰʊŋ⁵⁵/
@@ -2300,7 +2300,7 @@ rank	word	english	ipa
 2299	真主	preordained emperor	/ʈ͡ʂən⁵⁵ ʈ͡ʂu²¹⁴⁻²¹⁽⁴⁾/
 2300	一代	generation	/i⁵⁵⁻³⁵ taɪ̯⁵¹/
 2301	共事	to work together	/kʊŋ⁵¹⁻⁵³ ʂɻ̩⁵¹/
-2302	脂肪	fat; grease	/ʈ͡ʂɻ̩²¹⁴⁻²¹ fɑŋ³⁵/
+2302	脂肪	fat; grease	/ʈ͡ʂɻ̩⁵⁵ fɑŋ³⁵/
 2303	提及	to mention; to raise; to refer to	/tʰi³⁵ t͡ɕi³⁵/
 2304	手機	mobile phone; cell phone; mobile; cell	/ʂoʊ̯²¹⁴⁻²¹ t͡ɕi⁵⁵/
 2305	加班	to work overtime; to work late	/t͡ɕi̯ä⁵⁵ pän⁵⁵/
@@ -2331,7 +2331,7 @@ rank	word	english	ipa
 2330	星期二	Tuesday	/ɕiŋ⁵⁵ t͡ɕʰi⁵⁵ ˀɤɻ⁵¹/
 2331	高速	high-speed	/kɑʊ̯⁵⁵ su⁵¹/
 2332	乘坐	to ride	/ʈ͡ʂʰɤŋ³⁵ t͡su̯ɔ⁵¹/
-2333	姑姑	father's sister; paternal aunt	/ku⁵⁵ ku/
+2333	姑姑	father's sister; paternal aunt	/ku⁵⁵ g̊u²/
 2334	色彩	color	/sɤ⁵¹ t͡sʰaɪ̯²¹⁴⁻²¹⁽⁴⁾/
 2335	最小	smallest; youngest; least; minimum; minimal	/t͡su̯eɪ̯⁵¹ ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 2336	下山	to go down a mountain; to descend	/ɕi̯ä⁵¹ ʂän⁵⁵/
@@ -2442,7 +2442,7 @@ rank	word	english	ipa
 2441	上衣	upper garment; top	/ʂɑŋ⁵¹ i⁵⁵/
 2442	老友	old friend; old pal	/lɑʊ̯²¹⁴⁻³⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 2443	圈套	snare; trap	/t͡ɕʰy̯ɛn⁵⁵ tʰɑʊ̯⁵¹/
-2444	官司	lawsuit	/ku̯än⁵⁵ sɹ̩⁵⁵/
+2444	官司	lawsuit	/ku̯än⁵⁵ sɹ̩²/
 2445	巨星	giant star	/t͡ɕy⁵¹ ɕiŋ⁵⁵/
 2446	拖延	to delay; to put off; to procrastinate; to adjourn; to…	/tʰu̯ɔ⁵⁵ jɛn³⁵/
 2447	好意	good intention; kindness	/xɑʊ̯²¹⁴⁻²¹ i⁵¹/
@@ -2533,8 +2533,8 @@ rank	word	english	ipa
 2532	特效	special efficacy; high effectiveness	/tʰɤ⁵¹⁻⁵³ ɕi̯ɑʊ̯⁵¹/
 2533	流言	rumors; gossip	/li̯oʊ̯³⁵ jɛn³⁵/
 2534	梯子	ladder	/tʰi⁵⁵ d͡z̥ɹ̩²/
-2535	鑰匙	key	/jɑʊ̯⁵¹ ʈ͡ʂʰɻ̩³⁵/
-2536	忠告	advice; recommendation; counsel	/ʈ͡ʂʊŋ⁵⁵ ku⁵¹/
+2535	鑰匙	key	/jɑʊ̯⁵¹ ʂɻ̩¹/
+2536	忠告	advice; recommendation; counsel	/ʈ͡ʂʊŋ⁵⁵ kɑʊ̯⁵¹/
 2537	半天	half a day	/pän⁵¹ tʰi̯ɛn⁵⁵/
 2538	前行	to move forward	/t͡ɕʰi̯ɛn³⁵ ɕiŋ³⁵/
 2539	麻醉	to anesthetize	/mä³⁵ t͡su̯eɪ̯⁵¹/
@@ -2598,10 +2598,10 @@ rank	word	english	ipa
 2597	乞丐	beggar	/t͡ɕʰi²¹⁴⁻²¹ kaɪ̯⁵¹/
 2598	踏上	to step on	/tʰä⁵¹⁻⁵³ ʂɑŋ⁵¹/
 2599	大火	large fire; inferno; conflagration	/tä⁵¹ xu̯ɔ²¹⁴⁻²¹⁽⁴⁾/
-2600	多麼	how; what; so; such	/tu̯ɔ³⁵ mə³/
+2600	多麼	how; what; so; such	/tu̯ɔ⁵⁵ mə²/
 2601	布丁	Pudding, mainly in the sense of crème caramel	/pu⁵¹ tiŋ⁵⁵/
 2602	國王	king	/ku̯ɔ³⁵ wɑŋ³⁵/
-2603	爺爺	paternal grandfather	/iɛ²¹ iɛ²¹⁻⁵⁵/
+2603	爺爺	paternal grandfather	/jɛ³⁵ jɛ³/
 2604	管子	tube; pipe	/ku̯än²¹⁴ d͡z̥ɹ̩⁴/
 2605	此人	this person	/t͡sʰɹ̩²¹⁴⁻²¹ ɻən³⁵/
 2606	前科	previous convictions; priors; criminal record	/t͡ɕʰi̯ɛn³⁵ kʰɤ⁵⁵/
@@ -2617,7 +2617,7 @@ rank	word	english	ipa
 2616	獲得	to obtain; to acquire; to get; to win; to achieve; to…	/xu̯ɔ⁵¹ tɤ³⁵/
 2617	用餐	to have a meal; to dine	/jʊŋ⁵¹ t͡sʰän⁵⁵/
 2618	否定	to negate; to deny	/foʊ̯²¹⁴⁻²¹ tiŋ⁵¹/
-2619	皇室	royal family; imperial household	/xu̯ɑŋ³⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+2619	皇室	royal family; imperial household	/xu̯ɑŋ³⁵ ʂɻ̩⁵¹/
 2620	南瓜	pumpkin; winter squash	/nän³⁵ ku̯ä⁵⁵/
 2621	經常	often; regularly; frequently	/t͡ɕiŋ⁵⁵ ʈ͡ʂʰɑŋ³⁵/
 2622	破裂	to burst; to rupture; to break	/pʰu̯ɔ⁵¹⁻⁵³ li̯ɛ⁵¹/
@@ -2639,7 +2639,7 @@ rank	word	english	ipa
 2638	淑女	virtuous and beautiful woman; lady	/ʂu⁵⁵ ny²¹⁴⁻²¹⁽⁴⁾/
 2639	情景	scene; sight; time; circumstance	/t͡ɕʰiŋ³⁵ t͡ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
 2640	原理	principle; tenet	/ɥɛn³⁵ li²¹⁴⁻²¹⁽⁴⁾/
-2641	棉花	cotton	/miɛn²¹ xua⁵⁵/
+2641	棉花	cotton	/mi̯ɛn³⁵ xu̯ä⁵⁵/
 2642	身高	height	/ʂən⁵⁵ kɑʊ̯⁵⁵/
 2643	日出	sunrise	/ɻ̩⁵¹ ʈ͡ʂʰu⁵⁵/
 2644	巫婆	witch; sorceress	/u⁵⁵ pʰu̯ɔ³⁵/
@@ -2776,7 +2776,7 @@ rank	word	english	ipa
 2775	難以	difficult to; hard to	/nän³⁵ i²¹⁴⁻²¹⁽⁴⁾/
 2776	演員	actor; performer	/jɛn²¹⁴⁻²¹ ɥɛn³⁵/
 2777	幾天	several days; a few days	/t͡ɕi²¹⁴⁻²¹ tʰi̯ɛn⁵⁵/
-2778	伯伯	paternal uncle	/paɪ̯²¹⁴ b̥aɪ̯⁴/
+2778	伯伯	paternal uncle	/pu̯ɔ³⁵ b̥u̯ɔ³/
 2779	美分	United States cent	/meɪ̯²¹⁴⁻²¹ fən⁵⁵/
 2780	瑜伽	yoga	/y³⁵ t͡ɕi̯ä⁵⁵/
 2781	火花	spark	/xu̯ɔ²¹⁴⁻²¹ xu̯ä⁵⁵/
@@ -2816,7 +2816,7 @@ rank	word	english	ipa
 2815	堵住	to block up	/tu²¹⁴⁻²¹ ʈ͡ʂu⁵¹/
 2816	高大	tall; tall and big	/kɑʊ̯⁵⁵ tä⁵¹/
 2817	公事	official business	/kʊŋ⁵⁵ ʂɻ̩⁵¹/
-2818	熟人	acquaintance	/fu²⁴ ɻẽ²⁴/
+2818	熟人	acquaintance	/ʂu³⁵ ɻən³⁵/
 2819	派遣	to send; to dispatch; to deploy	/pʰaɪ̯⁵¹ t͡ɕʰi̯ɛn²¹⁴⁻²¹⁽⁴⁾/
 2820	四月	April	/sɹ̩⁵¹⁻⁵³ ɥɛ⁵¹/
 2821	核武器	nuclear weapon; atomic weapon	/xɤ³⁵ u²¹⁴⁻²¹ t͡ɕʰi⁵¹/
@@ -2840,7 +2840,7 @@ rank	word	english	ipa
 2839	私奔	to elope	/sɹ̩⁵⁵ pən⁵⁵/
 2840	造型	to model; to mould	/t͡sɑʊ̯⁵¹ ɕiŋ³⁵/
 2841	公牛	bull; ox	/kʊŋ⁵⁵ ni̯oʊ̯³⁵/
-2842	伺候	to serve; to wait on	/sɹ̩⁵¹⁻⁵³ xoʊ̯⁵¹/
+2842	伺候	to serve; to wait on	/t͡sʰɹ̩⁵¹ xoʊ̯¹/
 2843	徘徊	to pace back and forth; to walk to and fro; to wander	/pʰaɪ̯³⁵ xu̯aɪ̯³⁵/
 2844	意識	consciousness; awareness; the mind; mentality; sense	/i⁵¹ ʂɻ̩³⁵/
 2845	上士	staff sergeant; chief petty officer; first sergeant	/ʂɑŋ⁵¹⁻⁵³ ʂɻ̩⁵¹/
@@ -2879,7 +2879,7 @@ rank	word	english	ipa
 2878	動物	animal; creature	/tʊŋ⁵¹⁻⁵³ u⁵¹/
 2879	江湖	rivers and lakes	/t͡ɕi̯ɑŋ⁵⁵ xu³⁵/
 2880	現實	reality	/ɕi̯ɛn⁵¹ ʂɻ̩³⁵/
-2881	豆腐	tofu; bean curd	/təu²¹³ fu⁵³/
+2881	豆腐	tofu; bean curd	/toʊ̯⁵¹ fu¹/
 2882	刻薄	mean; unkind	/kʰɤ⁵¹ pu̯ɔ³⁵/
 2883	不及	to not do something in time; to be too late	/pu⁵¹ t͡ɕi³⁵/
 2884	草地	lawn; grass	/t͡sʰɑʊ̯²¹⁴⁻²¹ ti⁵¹/
@@ -3004,11 +3004,11 @@ rank	word	english	ipa
 3003	從來	from the past until the present; all along; ever; never	/t͡sʰʊŋ³⁵ laɪ̯³⁵/
 3004	更改	to alter; to change	/kɤŋ⁵⁵ kaɪ̯²¹⁴⁻²¹⁽⁴⁾/
 3005	成分	ingredient; element; component	/ʈ͡ʂʰɤŋ³⁵ fən⁵¹/
-3006	法國	alternative form of 發覺 /发觉	/fa²⁴ kuei⁵¹/
+3006	法國	alternative form of 發覺 /发觉	/fä²¹⁴⁻²¹ ku̯ɔ³⁵/
 3007	猛烈	fierce; strong; blistering; furious	/mɤŋ²¹⁴⁻²¹ li̯ɛ⁵¹/
 3008	改成	to change into; to convert	/kaɪ̯²¹⁴⁻²¹ ʈ͡ʂʰɤŋ³⁵/
 3009	注入	to pour into; to empty into; to inject	/ʈ͡ʂu⁵¹⁻⁵³ ɻu⁵¹/
-3010	更衣室	changing room; dressing room	/kɤŋ⁵⁵ i⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+3010	更衣室	changing room; dressing room	/kɤŋ⁵⁵ i⁵⁵ ʂɻ̩⁵¹/
 3011	放出	to release; to emit; to let out	/fɑŋ⁵¹ ʈ͡ʂʰu⁵⁵/
 3012	解剖	to dissect	/t͡ɕi̯ɛ²¹⁴⁻²¹ pʰoʊ̯⁵⁵/
 3013	董事	director; board member	/tʊŋ²¹⁴⁻²¹ ʂɻ̩⁵¹/
@@ -3130,7 +3130,7 @@ rank	word	english	ipa
 3129	刑警	short for 刑事警察	/ɕiŋ³⁵ t͡ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
 3130	提案	proposal; motion	/tʰi³⁵ ˀän⁵¹/
 3131	拉丁	to press-gang	/lä⁵⁵ tiŋ⁵⁵/
-3132	姊妹	elder sister and younger sister; sisters	/t͡sɹ̩⁵³ mei²¹³/
+3132	姊妹	elder sister and younger sister; sisters	/t͡sɹ̩²¹⁴⁻²¹ meɪ̯⁵¹/
 3133	法子	method; way	/fä³⁵ d͡z̥ɹ̩³/
 3134	不來	to not come	/pu⁵¹ laɪ̯³⁵/
 3135	刷牙	to brush one's teeth; to clean one's teeth	/ʂu̯ä⁵⁵ jä³⁵/
@@ -3167,7 +3167,7 @@ rank	word	english	ipa
 3166	毛骨悚然	absolutely terrified	/mɑʊ̯³⁵ ku²¹⁴⁻³⁵ sʊŋ²¹⁴⁻²¹ ɻän³⁵/
 3167	流星	meteor; shooting star	/li̯oʊ̯³⁵ ɕiŋ⁵⁵/
 3168	女主人	hostess; woman of the house	/ny²¹⁴⁻³⁵ ʈ͡ʂu²¹⁴⁻²¹ ɻən³⁵/
-3169	琴子	key on a musical keyboard	/t͡ɕʰin³⁵ t͡sɹ̩²¹⁴/
+3169	琴子	key on a musical keyboard	/t͡ɕʰin³⁵ t͡sɹ̩/
 3170	嗓音	voice	/sɑŋ²¹⁴⁻²¹ in⁵⁵/
 3171	去掉	to remove; to get rid of; to do away with	/t͡ɕʰy⁵¹⁻⁵³ ti̯ɑʊ̯⁵¹/
 3172	阿拉伯人	person of Arab origin; Arab	/ˀä⁵⁵ lä⁵⁵ pu̯ɔ³⁵ ɻən³⁵/
@@ -3205,7 +3205,7 @@ rank	word	english	ipa
 3204	不必要	unnecessary; needless	/pu⁵¹⁻³⁵ pi⁵¹⁻⁵³ jɑʊ̯⁵¹/
 3205	百分之百	one hundred percent; out and out; absolute	/paɪ̯²¹⁴⁻²¹ fən⁵⁵ ʈ͡ʂɻ̩⁵⁵ paɪ̯²¹⁴⁻²¹⁽⁴⁾/
 3206	毒蛇	venomous snake, viper	/tu³⁵ ʂɤ³⁵/
-3207	腦袋	head	/nɑʊ̯²¹⁴ d̥eɪ̯⁴/
+3207	腦袋	head	/nɑʊ̯²¹⁴ d̥aɪ̯⁴/
 3208	示威	to show power; to show one's might; to show one's state of…	/ʂɻ̩⁵¹ weɪ̯⁵⁵/
 3209	人員	staff; personnel; employee; worker; officer	/ɻən³⁵ ɥɛn³⁵/
 3210	小船	small boat	/ɕi̯ɑʊ̯²¹⁴⁻²¹ ʈ͡ʂʰu̯än³⁵/
@@ -3348,7 +3348,7 @@ rank	word	english	ipa
 3347	弱智	mentally retarded; intellectually disabled	/ɻu̯ɔ⁵¹⁻⁵³ ʈ͡ʂɻ̩⁵¹/
 3348	挽回	to save; to recover; to reverse	/wän²¹⁴⁻²¹ xu̯eɪ̯³⁵/
 3349	假扮	to disguise oneself as	/t͡ɕi̯ä²¹⁴⁻²¹ pän⁵¹/
-3350	流子	funnel; hopper	/li̯oʊ̯³⁵ t͡sɹ̩²¹⁴/
+3350	流子	funnel; hopper	/li̯oʊ̯³⁵ t͡sɹ̩/
 3351	延伸	to extend; to spread; to stretch	/jɛn³⁵ ʂən⁵⁵/
 3352	路障	roadblock	/lu⁵¹⁻⁵³ ʈ͡ʂɑŋ⁵¹/
 3353	薄荷	mint or mint-like plant	/pu̯ɔ⁵¹ xɤ³⁵/
@@ -3466,9 +3466,9 @@ rank	word	english	ipa
 3465	散布	to spread; to scatter; to disseminate	/sän⁵¹⁻⁵³ pu⁵¹/
 3466	下跌	to drop; to plunge	/ɕi̯ä⁵¹ ti̯ɛ⁵⁵/
 3467	九月	September	/t͡ɕi̯oʊ̯²¹⁴⁻²¹ ɥɛ⁵¹/
-3468	嚷嚷	to yell; to be noisy	/ʐɑŋ⁵⁵ ʐɑŋ/
+3468	嚷嚷	to yell; to be noisy	/ɻɑŋ⁵⁵ ɻɑŋ²/
 3469	曲棍球	hockey	/t͡ɕʰy⁵⁵ ku̯ən⁵¹ t͡ɕʰi̯oʊ̯³⁵/
-3470	王室	royal family	/wɑŋ³⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+3470	王室	royal family	/wɑŋ³⁵ ʂɻ̩⁵¹/
 3471	神仙	immortals; supernatural entity; celestial being;…	/ʂən³⁵ ɕi̯ɛn⁵⁵/
 3472	仔細	careful; attentive; meticulous	/t͡sɹ̩²¹⁴⁻²¹ ɕi⁵¹/
 3473	缺席	to be absent	/t͡ɕʰy̯ɛ⁵⁵ ɕi³⁵/
@@ -3538,9 +3538,9 @@ rank	word	english	ipa
 3537	十月	October	/ʂɻ̩³⁵ ɥɛ⁵¹/
 3538	行家	expert; connoisseur; cognoscente	/xɑŋ³⁵ t͡ɕi̯ä⁵⁵/
 3539	娘娘	lady	/ni̯ɑŋ³⁵ ni̯ɑŋ³/
-3540	精液	semen	/t͡ɕin⁵⁵ iɛ²¹³/
+3540	精液	semen	/t͡ɕiŋ⁵⁵ jɛ⁵¹/
 3541	消毒	to disinfect; to sterilise	/ɕi̯ɑʊ̯⁵⁵ tu³⁵/
-3542	困難	hard; difficult; challenging	/kʰu̯ən⁵¹ nan/
+3542	困難	hard; difficult; challenging	/kʰu̯ən⁵¹ nän¹/
 3543	面罩	face guard; visor; mask	/mi̯ɛn⁵¹⁻⁵³ ʈ͡ʂɑʊ̯⁵¹/
 3544	橘子	mandarin orange	/t͡ɕy³⁵ d͡z̥ɹ̩³/
 3545	上市	to go on the market	/ʂɑŋ⁵¹⁻⁵³ ʂɻ̩⁵¹/
@@ -3624,7 +3624,7 @@ rank	word	english	ipa
 3623	登山	to climb a mountain	/tɤŋ⁵⁵ ʂän⁵⁵/
 3624	顏色	color	/jɛn³⁵ sɤ⁵¹/
 3625	劫匪	bandit; robber	/t͡ɕi̯ɛ³⁵ feɪ̯²¹⁴⁻²¹⁽⁴⁾/
-3626	比較	comparatively; relatively; fairly; quite	/pi²¹⁴⁻³⁵ t͡ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
+3626	比較	comparatively; relatively; fairly; quite	/pi²¹⁴⁻²¹ t͡ɕi̯ɑʊ̯⁵¹/
 3627	全心全意	wholeheartedly; without reservation	/t͡ɕʰy̯ɛn³⁵ ɕin⁵⁵ t͡ɕʰy̯ɛn³⁵ i⁵¹/
 3628	餐廳	cafeteria; canteen; dining hall; dining room	/t͡sʰän⁵⁵ tʰiŋ⁵⁵/
 3629	不良	bad; harmful; unhealthy; adverse	/pu⁵¹ li̯ɑŋ³⁵/
@@ -3691,7 +3691,7 @@ rank	word	english	ipa
 3690	身心	body and mind; mental and physical qualities	/ʂən⁵⁵ ɕin⁵⁵/
 3691	密封	to seal up	/mi⁵¹ fɤŋ⁵⁵/
 3692	何時	when; what time	/xɤ³⁵ ʂɻ̩³⁵/
-3693	懲罰	to punish; to penalise	/ʈ͡ʂʰɤŋ²¹⁴⁻²¹ fä³⁵/
+3693	懲罰	to punish; to penalise	/ʈ͡ʂʰɤŋ³⁵ fä³⁵/
 3694	救助	to render assistance; to help; to rescue; to save; to aid;…	/t͡ɕi̯oʊ̯⁵¹⁻⁵³ ʈ͡ʂu⁵¹/
 3695	耳光	slap on the face; box on the ears	/ˀɤɻ²¹⁴⁻²¹ ku̯ɑŋ⁵⁵/
 3696	一方面	on one side; on the one hand; on the other hand	/i⁵⁵⁻⁵¹ fɑŋ⁵⁵ mi̯ɛn⁵¹/
@@ -3734,7 +3734,7 @@ rank	word	english	ipa
 3733	保險	to assure; to guarantee	/pɑʊ̯²¹⁴⁻³⁵ ɕi̯ɛn²¹⁴⁻²¹⁽⁴⁾/
 3734	做主	alternative form of 作主	/t͡su̯ɔ⁵¹ ʈ͡ʂu²¹⁴⁻²¹⁽⁴⁾/
 3735	逝去	to pass away; to die	/ʂɻ̩⁵¹⁻⁵³ t͡ɕʰy⁵¹/
-3736	普遍	common; widespread; universal; pervasive; general;…	/pʰu²¹⁴ pi̯ɛn⁵¹/
+3736	普遍	common; widespread; universal; pervasive; general;…	/pʰu²¹⁴⁻²¹ pi̯ɛn⁵¹/
 3737	變化	to change; to vary	/pi̯ɛn⁵¹⁻⁵³ xu̯ä⁵¹/
 3738	心目	mind; view; mindset	/ɕin⁵⁵ mu⁵¹/
 3739	看透	to understand thoroughly; to gain insight into; to see…	/kʰän⁵¹⁻⁵³ tʰoʊ̯⁵¹/
@@ -3845,14 +3845,14 @@ rank	word	english	ipa
 3844	合身	being a good fit; well-fitting	/xɤ³⁵ ʂən⁵⁵/
 3845	一月	January	/i⁵⁵ ɥɛ⁵¹/
 3846	不合理	unreasonable; irrational	/pu⁵¹ xɤ³⁵ li²¹⁴⁻²¹⁽⁴⁾/
-3847	骰子	die	/ʂaɪ̯²¹⁴ d͡z̥ɹ̩⁴/
+3847	骰子	die	/tʰoʊ̯³⁵ d͡z̥ɹ̩³/
 3848	宣言	declaration; manifesto	/ɕy̯ɛn⁵⁵ jɛn³⁵/
 3849	生育	to give birth; to procreate; to have children	/ʂɤŋ⁵⁵ y⁵¹/
 3850	扮成	to act as; to pose as; to play the part of; to disguise…	/pän⁵¹ ʈ͡ʂʰɤŋ³⁵/
 3851	叉子	fork	/ʈ͡ʂʰä⁵⁵ d͡z̥ɹ̩²/
 3852	奴隸	slave	/nu³⁵ li⁵¹/
 3853	君主	monarch; sovereign; king; ruler	/t͡ɕyn⁵⁵ ʈ͡ʂu²¹⁴⁻²¹⁽⁴⁾/
-3854	油炸	to deep-fry	/i³⁵ u ʈ͡ʂa³⁵/
+3854	油炸	to deep-fry	/joʊ̯³⁵ ʈ͡ʂä³⁵/
 3855	科學	science	/kʰɤ⁵⁵ ɕy̯ɛ³⁵/
 3856	作主	to take responsibility and make decisions	/t͡su̯ɔ⁵¹ ʈ͡ʂu²¹⁴⁻²¹⁽⁴⁾/
 3857	天父	Son of Heaven; emperor	/tʰi̯ɛn⁵⁵ fu⁵¹/
@@ -3888,7 +3888,7 @@ rank	word	english	ipa
 3887	棋子	board game piece	/t͡ɕʰi³⁵ t͡sɹ̩²¹⁴⁻²¹⁽⁴⁾/
 3888	看病	to see a patient; to treat an illness	/kʰän⁵¹⁻⁵³ piŋ⁵¹/
 3889	輪	warrant	/lu̯ən³⁵/
-3890	散播	to spread; to disseminate	/san⁵¹ pu̯ɔ⁵⁵/
+3890	散播	to spread; to disseminate	/sän⁵¹ pu̯ɔ⁵⁵/
 3891	合唱	to sing in a chorus	/xɤ³⁵ ʈ͡ʂʰɑŋ⁵¹/
 3892	毛利	Maori	/mɑʊ̯³⁵ li⁵¹/
 3893	巧妙	ingenious; clever	/t͡ɕʰi̯ɑʊ̯²¹⁴⁻²¹ mi̯ɑʊ̯⁵¹/
@@ -3956,7 +3956,7 @@ rank	word	english	ipa
 3955	多半	probably; most likely	/tu̯ɔ⁵⁵ pän⁵¹/
 3956	捉迷藏	to play hide-and-seek	/ʈ͡ʂu̯ɔ⁵⁵ mi³⁵ t͡sʰɑŋ³⁵/
 3957	酒杯	alcohol drinkware	/t͡ɕi̯oʊ̯²¹⁴⁻²¹ peɪ̯⁵⁵/
-3958	窗戶	window	/ʈ͡ʂʰuɑŋ²⁴ xu⁵¹/
+3958	窗戶	window	/ʈ͡ʂʰu̯ɑŋ⁵⁵ xu²/
 3959	摩擦	to rub; to chafe; to press together	/mu̯ɔ³⁵ t͡sʰä⁵⁵/
 3960	雪花	snowflake	/ɕy̯ɛ²¹⁴⁻²¹ xu̯ä⁵⁵/
 3961	叫喊	to shout; to yell	/t͡ɕi̯ɑʊ̯⁵¹ xän²¹⁴⁻²¹⁽⁴⁾/
@@ -4044,11 +4044,11 @@ rank	word	english	ipa
 4043	藉由	relying on, through	/t͡ɕi̯ɛ⁵¹ joʊ̯³⁵/
 4044	射程	firing range; range of a firearm	/ʂɤ⁵¹ ʈ͡ʂʰɤŋ³⁵/
 4045	褐色	brown	/xɤ⁵¹⁻⁵³ sɤ⁵¹/
-4046	邂逅	to run into somebody by chance; to encounter coincidentally	/ɕi̯ɛ⁵¹⁻⁵³ koʊ̯⁵¹/
+4046	邂逅	to run into somebody by chance; to encounter coincidentally	/ɕi̯ɛ⁵¹⁻⁵³ xoʊ̯⁵¹/
 4047	大阪	great hill; great mountain; great slope	/tä⁵¹ pän²¹⁴⁻²¹⁽⁴⁾/
 4048	流感	flu; influenza	/li̯oʊ̯³⁵ kän²¹⁴⁻²¹⁽⁴⁾/
 4049	美德	virtue; noble attribute	/meɪ̯²¹⁴⁻²¹ tɤ³⁵/
-4050	佣金	commission; brokerage	/jʊŋ⁵⁵ t͡ɕin⁵⁵/
+4050	佣金	commission; brokerage	/jʊŋ⁵¹ t͡ɕin⁵⁵/
 4051	掀起	to lift	/ɕi̯ɛn⁵⁵ t͡ɕʰi²¹⁴⁻²¹⁽⁴⁾/
 4052	揭示	to make public; to announce	/t͡ɕi̯ɛ⁵⁵ ʂɻ̩⁵¹/
 4053	查找	to look for; to seek; to search	/ʈ͡ʂʰä³⁵ ʈ͡ʂɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -4109,7 +4109,7 @@ rank	word	english	ipa
 4108	黑猩猩	chimpanzee	/xeɪ̯⁵⁵ ɕiŋ⁵⁵ ɕiŋ²/
 4109	世紀	century	/ʂɻ̩⁵¹⁻⁵³ t͡ɕi⁵¹/
 4110	磨蹭	to rub softly; to stroke gently	/mu̯ɔ³⁵ t͡sʰɤŋ⁵¹/
-4111	機場	airport; airfield	/t͡ɕi⁵⁵ ʈ͡ʂʰɑŋ³⁵/
+4111	機場	airport; airfield	/t͡ɕi⁵⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 4112	倒塌	to collapse; to fall	/tɑʊ̯²¹⁴⁻²¹ tʰä⁵⁵/
 4113	盡量	to reach the limit	/t͡ɕin⁵¹⁻⁵³ li̯ɑŋ⁵¹/
 4114	談論	to discuss; to talk about	/tʰän³⁵ lu̯ən⁵¹/
@@ -4130,7 +4130,7 @@ rank	word	english	ipa
 4129	可口	delicious; delectable; tasty; scrumptious; yummy	/kʰɤ²¹⁴⁻³⁵ kʰoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 4130	贏得	to gain; to win	/iŋ³⁵ tɤ³⁵/
 4131	短期	short period of time; short term	/tu̯än²¹⁴⁻²¹ t͡ɕʰi⁵⁵/
-4132	委屈	having the feeling of being wronged or treated unjustly;…	/uei⁵³ t͡ɕʰy/
+4132	委屈	having the feeling of being wronged or treated unjustly;…	/weɪ̯²¹⁴ t͡ɕʰy⁴/
 4133	牌照	number plate; license plate	/pʰaɪ̯³⁵ ʈ͡ʂɑʊ̯⁵¹/
 4134	指教	to give advice; to comment on something	/ʈ͡ʂɻ̩²¹⁴⁻²¹ t͡ɕi̯ɑʊ̯⁵¹/
 4135	拳王	boxing champion	/t͡ɕʰy̯ɛn³⁵ wɑŋ³⁵/
@@ -4154,7 +4154,7 @@ rank	word	english	ipa
 4153	熊熊	raging; flaming	/ɕi̯ʊŋ³⁵ ɕi̯ʊŋ³⁵/
 4154	憤怒	indignant; angry	/fən⁵¹⁻⁵³ nu⁵¹/
 4155	包袱	cloth wrapper	/pɑʊ̯⁵⁵ fu²/
-4156	步伐	step; pace	/pu⁵¹ fa³⁵/
+4156	步伐	step; pace	/pu⁵¹ fä³⁵/
 4157	放火	to set on fire, specifically to commit arson	/fɑŋ⁵¹ xu̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 4158	肺部	lung	/feɪ̯⁵¹⁻⁵³ pu⁵¹/
 4159	羊肉	mutton; lamb; goat meat	/jɑŋ³⁵ ɻoʊ̯⁵¹/
@@ -4169,7 +4169,7 @@ rank	word	english	ipa
 4168	摧毀	to destroy; to wreck	/t͡sʰu̯eɪ̯⁵⁵ xu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 4169	畸形	physically deformed; malformed	/t͡ɕi⁵⁵ ɕiŋ³⁵/
 4170	特技	stunt	/tʰɤ⁵¹⁻⁵³ t͡ɕi⁵¹/
-4171	農場	farm	/nʊŋ³⁵ ʈ͡ʂʰɑŋ³⁵/
+4171	農場	farm	/nʊŋ³⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 4172	廚房	kitchen	/ʈ͡ʂʰu³⁵ fɑŋ³⁵/
 4173	同感	same feeling; similar impression; common feeling	/tʰʊŋ³⁵ kän²¹⁴⁻²¹⁽⁴⁾/
 4174	十字路口	cross-shaped intersection; street crossing	/ʂɻ̩³⁵ t͡sɹ̩⁵¹⁻⁵³ lu⁵¹ kʰoʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -4196,7 +4196,7 @@ rank	word	english	ipa
 4195	何在	where; at what location	/xɤ³⁵ t͡saɪ̯⁵¹/
 4196	店主	shop owner; shop keeper	/ti̯ɛn⁵¹ ʈ͡ʂu²¹⁴⁻²¹⁽⁴⁾/
 4197	琥珀	amber	/xu²¹⁴⁻²¹ pʰu̯ɔ⁵¹/
-4198	脊椎	spine; backbone	/t͡ɕi³⁵ ʈ͡ʂu̯eɪ̯⁵⁵/
+4198	脊椎	spine; backbone	/t͡ɕi²¹⁴⁻²¹ ʈ͡ʂu̯eɪ̯⁵⁵/
 4199	喋喋不休	to chatter or jabber on and on	/ti̯ɛ³⁵ ti̯ɛ³⁵ pu⁵¹ ɕi̯oʊ̯⁵⁵/
 4200	拉夫	to press-gang; to press or force people into service	/lä⁵⁵ fu⁵⁵/
 4201	划船	to row	/xu̯ä³⁵ ʈ͡ʂʰu̯än³⁵/
@@ -4296,7 +4296,7 @@ rank	word	english	ipa
 4295	動手	to get started; to set about a task; to get to work	/tʊŋ⁵¹ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 4296	墨水	prepared ink	/mu̯ɔ⁵¹ ʂu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 4297	勇氣	courage; nerve; valour	/jʊŋ²¹⁴⁻²¹ t͡ɕʰi⁵¹/
-4298	王八	tortoise; turtle	/u̯ɑŋ³⁵ pa/
+4298	王八	tortoise; turtle	/wɑŋ³⁵ b̥ä³/
 4299	冰毒	methamphetamine; ice	/piŋ⁵⁵ tu³⁵/
 4300	逼迫	to force; to compel	/pi⁵⁵ pʰu̯ɔ⁵¹/
 4301	起舞	to begin dancing	/t͡ɕʰi²¹⁴⁻³⁵ u²¹⁴⁻²¹⁽⁴⁾/
@@ -4334,7 +4334,7 @@ rank	word	english	ipa
 4333	大堂	hall; lobby	/tä⁵¹ tʰɑŋ³⁵/
 4334	同僚	colleague; coworker	/tʰʊŋ³⁵ li̯ɑʊ̯³⁵/
 4335	事業	career; occupation	/ʂɻ̩⁵¹⁻⁵³ jɛ⁵¹/
-4336	提防	to take precautions against; to watch out for	/ti⁵⁵ fɑŋ/
+4336	提防	to take precautions against; to watch out for	/ti⁵⁵ fɑŋ²/
 4337	冰球	ice hockey	/piŋ⁵⁵ t͡ɕʰi̯oʊ̯³⁵/
 4338	啟動	to start; to boot; to switch on	/t͡ɕʰi²¹⁴⁻²¹ tʊŋ⁵¹/
 4339	會議	meeting; conference	/xu̯eɪ̯⁵¹⁻⁵³ i⁵¹/
@@ -4353,7 +4353,7 @@ rank	word	english	ipa
 4352	美國人	US American person; US American people; Usonian	/meɪ̯²¹⁴⁻²¹ ku̯ɔ³⁵ ɻən³⁵/
 4353	排序	to sort; to sequence	/pʰaɪ̯³⁵ ɕy⁵¹/
 4354	崛起	to rise abruptly; to spring up	/t͡ɕy̯ɛ³⁵ t͡ɕʰi²¹⁴⁻²¹⁽⁴⁾/
-4355	卓越	excellent; superior; outstanding; remarkable	/ʈ͡ʂu̯ɔ⁵⁵ ɥɛ⁵¹/
+4355	卓越	excellent; superior; outstanding; remarkable	/ʈ͡ʂu̯ɔ³⁵ ɥɛ⁵¹/
 4356	證人	witness	/ʈ͡ʂɤŋ⁵¹ ɻən³⁵/
 4357	堅強	staunch; strong; firm; solid	/t͡ɕi̯ɛn⁵⁵ t͡ɕʰi̯ɑŋ³⁵/
 4358	好似	to be like; to be as if	/xɑʊ̯²¹⁴⁻²¹ sɹ̩⁵¹/
@@ -4364,7 +4364,7 @@ rank	word	english	ipa
 4363	旗子	banner; flag	/t͡ɕʰi³⁵ d͡z̥ɹ̩³/
 4364	股市	short for 股票市場／股票市场	/ku²¹⁴⁻²¹ ʂɻ̩⁵¹/
 4365	假定	to assume; to suppose; to presume	/t͡ɕi̯ä²¹⁴⁻²¹ tiŋ⁵¹/
-4366	寶寶	a cute-sounding first-person pronoun usually used by…	/pɑʊ̯²¹⁴⁻³⁵ pɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
+4366	寶寶	a cute-sounding first-person pronoun usually used by…	/pɑʊ̯²¹⁴ b̥ɑʊ̯⁴/
 4367	帆船	sailboat; junk	/fän⁵⁵ ʈ͡ʂʰu̯än³⁵/
 4368	危及	to endanger; to jeopardise; to put in danger or jeopardy	/weɪ̯⁵⁵ t͡ɕi³⁵/
 4369	精神科	psychiatric department	/t͡ɕiŋ⁵⁵ ʂən³⁵ kʰɤ⁵⁵/
@@ -4377,7 +4377,7 @@ rank	word	english	ipa
 4376	大蒜	garlic	/tä⁵¹⁻⁵³ su̯än⁵¹/
 4377	理事	member of a council; director	/li²¹⁴⁻²¹ ʂɻ̩⁵¹/
 4378	流程	short for 工藝流程／工艺流程; procedure; workflow”	/li̯oʊ̯³⁵ ʈ͡ʂʰɤŋ³⁵/
-4379	實驗室	laboratory; lab	/ʂɻ̩³⁵ jɛn⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+4379	實驗室	laboratory; lab	/ʂɻ̩³⁵ jɛn⁵¹⁻⁵³ ʂɻ̩⁵¹/
 4380	隨著	along with; following; in the wake of	/su̯eɪ̯³⁵ ɖ͡ʐ̥ə³/
 4381	滾開	to boil	/ku̯ən²¹⁴⁻²¹ kʰaɪ̯⁵⁵/
 4382	奴才	slave; servant; flunkey	/nu³⁵ t͡sʰaɪ̯³⁵/
@@ -4437,7 +4437,7 @@ rank	word	english	ipa
 4436	螺旋	helix; spiral	/lu̯ɔ³⁵ ɕy̯ɛn³⁵/
 4437	珊瑚礁	coral reef	/ʂän⁵⁵ xu³⁵ t͡ɕi̯ɑʊ̯⁵⁵/
 4438	再婚	to remarry	/t͡saɪ̯⁵¹ xu̯ən⁵⁵/
-4439	入室	to enter someone's house or room	/ɻu⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+4439	入室	to enter someone's house or room	/ɻu⁵¹⁻⁵³ ʂɻ̩⁵¹/
 4440	款式	style; design; pattern	/kʰu̯än²¹⁴⁻²¹ ʂɻ̩⁵¹/
 4441	安危	safety and danger	/ˀän⁵⁵ weɪ̯⁵⁵/
 4442	一如	exactly like; exactly the same as	/i⁵⁵⁻⁵¹ ɻu³⁵/
@@ -4568,7 +4568,7 @@ rank	word	english	ipa
 4567	拍拖	to date somebody; to go on a date with somebody	/pʰaɪ̯⁵⁵ tʰu̯ɔ⁵⁵/
 4568	詛咒	to curse; to imprecate; to swear; to wish someone evil	/t͡su²¹⁴⁻²¹ ʈ͡ʂoʊ̯⁵¹/
 4569	座椅	seat; seating	/t͡su̯ɔ⁵¹ i²¹⁴⁻²¹⁽⁴⁾/
-4570	市場	market; bazaar; marketplace	/ʂɻ̩⁵¹ ʈ͡ʂʰɑŋ³⁵/
+4570	市場	market; bazaar; marketplace	/ʂɻ̩⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 4571	下滑	to slide down; to slip; to decline	/ɕi̯ä⁵¹ xu̯ä³⁵/
 4572	擦屁股	to wipe the bottom	/t͡sʰä⁵⁵ pʰi⁵¹ ku²¹⁴⁻²¹⁽⁴⁾/
 4573	消沉	depressed; downcast; dejected	/ɕi̯ɑʊ̯⁵⁵ ʈ͡ʂʰən³⁵/
@@ -4611,7 +4611,7 @@ rank	word	english	ipa
 4610	不僅	not only	/pu⁵¹ t͡ɕin²¹⁴⁻²¹⁽⁴⁾/
 4611	色情片	pornographic film; sex film	/sɤ⁵¹ t͡ɕʰiŋ³⁵ pʰi̯ɛn⁵¹/
 4612	打探	to try and find out; to look into; to pry into	/tä²¹⁴⁻²¹ tʰän⁵¹/
-4613	拖累	to encumber; to be a burden on	/tʰu̯ɔ⁵⁵ leɪ̯²¹⁴/
+4613	拖累	to encumber; to be a burden on	/tʰu̯ɔ⁵⁵ leɪ̯²¹⁴⁻²¹⁽⁴⁾/
 4614	力士	strong man; man of great strength	/li⁵¹⁻⁵³ ʂɻ̩⁵¹/
 4615	特有	to be peculiar to; to be specific to; to be characteristic…	/tʰɤ⁵¹ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 4616	餐具	tableware; dishes	/t͡sʰän⁵⁵ t͡ɕy⁵¹/
@@ -4679,7 +4679,7 @@ rank	word	english	ipa
 4678	算法	operation	/su̯än⁵¹ fä²¹⁴⁻²¹⁽⁴⁾/
 4679	日語	Japanese language	/ɻ̩⁵¹ y²¹⁴⁻²¹⁽⁴⁾/
 4680	促使	to induce; to promote; to urge; to impel; to bring about;…	/t͡sʰu⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
-4681	哮喘	asthma	/ɕi̯ɑʊ̯⁵¹ ʈ͡ʂʰu̯an²¹⁴/
+4681	哮喘	asthma	/ɕi̯ɑʊ̯⁵¹ ʈ͡ʂʰu̯än²¹⁴⁻²¹⁽⁴⁾/
 4682	捕食	to hunt for food	/pu²¹⁴⁻²¹ ʂɻ̩³⁵/
 4683	狂人	maniac; lunatic	/kʰu̯ɑŋ³⁵ ɻən³⁵/
 4684	渠道	ditch; trench; canal; channel	/t͡ɕʰy³⁵ tɑʊ̯⁵¹/
@@ -4912,7 +4912,7 @@ rank	word	english	ipa
 4911	柔和	soft; gentle	/ɻoʊ̯³⁵ xɤ³⁵/
 4912	僅僅	merely; only; just	/t͡ɕin²¹⁴⁻³⁵ t͡ɕin²¹⁴⁻²¹⁽⁴⁾/
 4913	禮拜	service; prayer; salat	/li²¹⁴⁻²¹ paɪ̯⁵¹/
-4914	工夫	time and effort taken to perform a task; work	/kuŋ²⁴ fu²⁴/
+4914	工夫	time and effort taken to perform a task; work	/kʊŋ⁵⁵ fu²/
 4915	眼珠	eyeball	/jɛn²¹⁴⁻²¹ ʈ͡ʂu⁵⁵/
 4916	真空	vacuum	/ʈ͡ʂən⁵⁵ kʰʊŋ⁵⁵/
 4917	納粹	Nazi	/nä⁵¹⁻⁵³ t͡sʰu̯eɪ̯⁵¹/
@@ -5054,7 +5054,7 @@ rank	word	english	ipa
 5053	謊言	lie; falsehood; untruth	/xu̯ɑŋ²¹⁴⁻²¹ jɛn³⁵/
 5054	直面	to face; to confront	/ʈ͡ʂɻ̩³⁵ mi̯ɛn⁵¹/
 5055	瓦特	to bust; to stop working	/wä²¹⁴⁻²¹ tʰɤ⁵¹/
-5056	毒液	poisonous liquid; venom	/tu³⁵ i̯ɛ⁵¹/
+5056	毒液	poisonous liquid; venom	/tu³⁵ jɛ⁵¹/
 5057	中立	to be neutral	/ʈ͡ʂʊŋ⁵⁵ li⁵¹/
 5058	日益	day by day; increasingly; more and more	/ɻ̩⁵¹⁻⁵³ i⁵¹/
 5059	渺茫	vague; indistinct; remote	/mi̯ɑʊ̯²¹⁴⁻²¹ mɑŋ³⁵/
@@ -5230,7 +5230,7 @@ rank	word	english	ipa
 5229	受害	to suffer damage	/ʂoʊ̯⁵¹⁻⁵³ xaɪ̯⁵¹/
 5230	搞鬼	to play tricks; to be up to some mischief	/kɑʊ̯²¹⁴⁻³⁵ ku̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 5231	嬉皮	hippie; hippy	/ɕi⁵⁵ pʰi³⁵/
-5232	毛茸茸	downy; fuzzy	/mɑʊ̯³⁵ ɻʊŋ⁵⁵ ɻʊŋ⁵⁵/
+5232	毛茸茸	downy; fuzzy	/mɑʊ̯³⁵ ɻʊŋ³⁵ ɻʊŋ³⁵/
 5233	關門	to close the door	/ku̯än⁵⁵ mən³⁵/
 5234	強姦	to rape	/t͡ɕʰi̯ɑŋ³⁵ t͡ɕi̯ɛn⁵⁵/
 5235	大亨	VIP; big shot; tycoon, bigwig	/tä⁵¹ xɤŋ⁵⁵/
@@ -5395,7 +5395,7 @@ rank	word	english	ipa
 5394	晉級	to be promoted; to rise in rank or level	/t͡ɕin⁵¹ t͡ɕi³⁵/
 5395	迷幻	illusory; hallucinatory; psychedelic	/mi³⁵ xu̯än⁵¹/
 5396	本市	this city; our city	/pən²¹⁴⁻²¹ ʂɻ̩⁵¹/
-5397	脾氣	temperament; attitude; disposition	/pʰi³⁵ t͡ɕʰi/
+5397	脾氣	temperament; attitude; disposition	/pʰi³⁵ t͡ɕʰi³/
 5398	話題	topic; subject; theme; conversation	/xu̯ä⁵¹ tʰi³⁵/
 5399	機構	mechanism	/t͡ɕi⁵⁵ koʊ̯⁵¹/
 5400	雪地	ground covered in snow; snowfield	/ɕy̯ɛ²¹⁴⁻²¹ ti⁵¹/
@@ -5405,7 +5405,7 @@ rank	word	english	ipa
 5404	範圍	scope; extent; range; coverage; limits	/fän⁵¹ weɪ̯³⁵/
 5405	署名	to sign one's name	/ʂu²¹⁴⁻²¹ miŋ³⁵/
 5406	大肆	without restraint; wantonly; shamelessly	/tä⁵¹⁻⁵³ sɹ̩⁵¹/
-5407	起居室	living room; sitting room	/t͡ɕʰi²¹⁴⁻²¹ t͡ɕy⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+5407	起居室	living room; sitting room	/t͡ɕʰi²¹⁴⁻²¹ t͡ɕy⁵⁵ ʂɻ̩⁵¹/
 5408	報仇	to revenge; to avenge	/pɑʊ̯⁵¹ ʈ͡ʂʰoʊ̯³⁵/
 5409	上游	upper reaches; upstream portion of a river	/ʂɑŋ⁵¹ joʊ̯³⁵/
 5410	不論	no matter; regardless of; whether	/pu⁵¹⁻³⁵ lu̯ən⁵¹/
@@ -5413,7 +5413,7 @@ rank	word	english	ipa
 5412	波普	pop; popular	/pu̯ɔ⁵⁵ pʰu²¹⁴⁻²¹⁽⁴⁾/
 5413	唐人街	Chinatown	/tʰɑŋ³⁵ ɻən³⁵ t͡ɕi̯ɛ⁵⁵/
 5414	下葬	to bury; to inter	/ɕi̯ä⁵¹⁻⁵³ t͡sɑŋ⁵¹/
-5415	私底下	privately; secretly; behind one's back	/sɹ̩⁵⁵ ti²¹⁴ ɕi̯a⁵¹/
+5415	私底下	privately; secretly; behind one's back	/sɹ̩⁵⁵ ti²¹⁴⁻²¹ ɕi̯ä⁵¹/
 5416	大白天	broad daylight	/tä⁵¹ paɪ̯³⁵ tʰi̯ɛn⁵⁵/
 5417	法定	legal; statutory; law-based	/fä²¹⁴⁻²¹ tiŋ⁵¹/
 5418	校友	alumnus	/ɕi̯ɑʊ̯⁵¹ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -5505,7 +5505,7 @@ rank	word	english	ipa
 5504	病症	disease; illness	/piŋ⁵¹⁻⁵³ ʈ͡ʂɤŋ⁵¹/
 5505	沉思	to ponder; to contemplate	/ʈ͡ʂʰən³⁵ sɹ̩⁵⁵/
 5506	空前	unprecedented; as never before	/kʰʊŋ⁵⁵ t͡ɕʰi̯ɛn³⁵/
-5507	相公	male prostitute	/ɕi̯ɑŋ⁵¹ kʊŋ/
+5507	相公	male prostitute	/ɕi̯ɑŋ⁵¹ g̊ʊŋ¹/
 5508	精密	precise; accurate; exact	/t͡ɕiŋ⁵⁵ mi⁵¹/
 5509	泰迪熊	teddy bear	/tʰaɪ̯⁵¹ ti³⁵ ɕi̯ʊŋ³⁵/
 5510	小吃	simple dish	/ɕi̯ɑʊ̯²¹⁴⁻²¹ ʈ͡ʂʰɻ̩⁵⁵/
@@ -5524,14 +5524,14 @@ rank	word	english	ipa
 5523	平安夜	quiet and uneventful night	/pʰiŋ³⁵ ˀän⁵⁵ jɛ⁵¹/
 5524	痞子	ruffian; hooligan; thug; riffraff	/pʰi²¹⁴ d͡z̥ɹ̩⁴/
 5525	中期	middle period	/ʈ͡ʂʊŋ⁵⁵ t͡ɕʰi⁵⁵/
-5526	在場	to be present; to be on the scene	/t͡saɪ̯⁵¹ ʈ͡ʂʰɑŋ³⁵/
+5526	在場	to be present; to be on the scene	/t͡saɪ̯⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 5527	年幼	young	/ni̯ɛn³⁵ joʊ̯⁵¹/
 5528	當作	to treat as; to regard as; to take for; to think of as; to…	/tɑŋ⁵¹⁻⁵³ t͡su̯ɔ⁵¹/
 5529	指紋	loops and whorls on a finger	/ʈ͡ʂɻ̩²¹⁴⁻²¹ wən³⁵/
 5530	大牢	jail; prison; dungeon	/tä⁵¹ lɑʊ̯³⁵/
 5531	恐怖片	horror movie	/kʰʊŋ²¹⁴⁻²¹ pu⁵¹⁻⁵³ pʰi̯ɛn⁵¹/
 5532	祭祀	to offer sacrifices; to honor; to worship	/t͡ɕi⁵¹⁻⁵³ sɹ̩⁵¹/
-5533	戰場	battlefield; battleground	/ʈ͡ʂän⁵¹ ʈ͡ʂʰɑŋ³⁵/
+5533	戰場	battlefield; battleground	/ʈ͡ʂän⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 5534	踏入	to step into; to set foot in	/tʰä⁵¹⁻⁵³ ɻu⁵¹/
 5535	破例	to make an exception; to be excepted	/pʰu̯ɔ⁵¹⁻⁵³ li⁵¹/
 5536	施加	to exert; to bring to bear on	/ʂɻ̩⁵⁵ t͡ɕi̯ä⁵⁵/
@@ -5591,7 +5591,7 @@ rank	word	english	ipa
 5590	維持	to maintain; to keep; to preserve; to uphold	/weɪ̯³⁵ ʈ͡ʂʰɻ̩³⁵/
 5591	相配	matching; well-matched	/ɕi̯ɑŋ⁵⁵ pʰeɪ̯⁵¹/
 5592	重型	heavy-duty; heavy; severe	/ʈ͡ʂʊŋ⁵¹ ɕiŋ³⁵/
-5593	下載	to download	/ɕi̯ä⁵¹ t͡saɪ̯²¹⁴⁻²¹⁽⁴⁾/
+5593	下載	to download	/ɕi̯ä⁵¹⁻⁵³ t͡saɪ̯⁵¹/
 5594	支柱	pillar; prop	/ʈ͡ʂɻ̩⁵⁵ ʈ͡ʂu⁵¹/
 5595	新來	recently; lately	/ɕin⁵⁵ laɪ̯³⁵/
 5596	前世	previous era	/t͡ɕʰi̯ɛn³⁵ ʂɻ̩⁵¹/
@@ -5854,7 +5854,7 @@ rank	word	english	ipa
 5853	莫名	to be impossible to describe	/mu̯ɔ⁵¹ miŋ³⁵/
 5854	所料	what one anticipates; expectation	/su̯ɔ²¹⁴⁻²¹ li̯ɑʊ̯⁵¹/
 5855	素食	vegetarian foods	/su⁵¹ ʂɻ̩³⁵/
-5856	擁抱	to embrace; to hug	/i̯ʊŋ⁵⁵ pɑʊ̯⁵¹/
+5856	擁抱	to embrace; to hug	/jʊŋ⁵⁵ pɑʊ̯⁵¹/
 5857	湖泊	lake	/xu³⁵ pʰu̯ɔ⁵⁵/
 5858	地堡	bunker; blockhouse; pillbox; underground haven	/ti⁵¹ pɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 5859	投靠	to rely on help from somebody; to seek refuge with somebody	/tʰoʊ̯³⁵ kʰɑʊ̯⁵¹/
@@ -5882,12 +5882,12 @@ rank	word	english	ipa
 5881	短片	short film; short	/tu̯än²¹⁴⁻²¹ pʰi̯ɛn⁵¹/
 5882	吉他手	guitarist	/t͡ɕi³⁵ tʰä⁵⁵ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 5883	真香	Used other than figuratively or idiomatically: see 真, 香	/ʈ͡ʂən⁵⁵ ɕi̯ɑŋ⁵⁵/
-5884	言行	words and deeds	/jɛn³⁵ ɕiŋ⁵¹/
+5884	言行	words and deeds	/jɛn³⁵ ɕiŋ³⁵/
 5885	斯人	this person	/sɹ̩⁵⁵ ɻən³⁵/
 5886	信教	to practice a faith; to be religious; to profess a religion	/ɕin⁵¹⁻⁵³ t͡ɕi̯ɑʊ̯⁵¹/
 5887	怎知	who would have thought; little did one know; how was one to…	/t͡sən²¹⁴⁻²¹ ʈ͡ʂɻ̩⁵⁵/
 5888	世子	royal highness; crown prince	/ʂɻ̩⁵¹ t͡sɹ̩²¹⁴⁻²¹⁽⁴⁾/
-5889	主播	anchor; presenter; broadcaster; host	/ʈ͡ʂu²¹⁴ pu̯ɔ⁵⁵/
+5889	主播	anchor; presenter; broadcaster; host	/ʈ͡ʂu²¹⁴⁻²¹ pu̯ɔ⁵⁵/
 5890	思索	to think deeply; to ponder	/sɹ̩⁵⁵ su̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 5891	流入	to flow into; to drain into	/li̯oʊ̯³⁵ ɻu⁵¹/
 5892	認得	to recognize	/ɻən⁵¹ d̥ə¹/
@@ -5895,13 +5895,13 @@ rank	word	english	ipa
 5894	解開	to untie; to undo	/t͡ɕi̯ɛ²¹⁴⁻²¹ kʰaɪ̯⁵⁵/
 5895	回報	to report back; to return with a report	/xu̯eɪ̯³⁵ pɑʊ̯⁵¹/
 5896	高級	high-grade; high-level; high-class; advanced; senior	/kɑʊ̯⁵⁵ t͡ɕi³⁵/
-5897	開著	to turn on	/kʰaɪ̯⁵⁵ ʈ͡ʂu̯ɔ³⁵/
+5897	開著	to turn on	/kʰaɪ̯⁵⁵ ʈ͡ʂu⁵¹/
 5898	羊群	flock of sheep	/jɑŋ³⁵ t͡ɕʰyn³⁵/
 5899	咱倆	us two; you and me	/t͡sän³⁵ li̯ä²¹⁴⁻²¹⁽⁴⁾/
 5900	急切	eager; impatient; in a hurry	/t͡ɕi³⁵ t͡ɕʰi̯ɛ⁵¹/
 5901	弄醒	to wake somebody up	/nʊŋ⁵¹ ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
 5902	約定	to agree on; to appoint; to arrange	/ɥɛ⁵⁵ tiŋ⁵¹/
-5903	土著	aborigine; aboriginal; original inhabitant	/tʰu²¹⁴⁻²¹ ʈ͡ʂuɻʷ⁵¹/
+5903	土著	aborigine; aboriginal; original inhabitant	/tʰu²¹⁴⁻²¹ ʈ͡ʂu⁵¹/
 5904	密度	thickness	/mi⁵¹⁻⁵³ tu⁵¹/
 5905	路途	road; path; way	/lu⁵¹ tʰu³⁵/
 5906	深信不疑	to firmly believe without any doubt	/ʂən⁵⁵ ɕin⁵¹⁻⁵³ pu⁵¹ i³⁵/
@@ -5946,11 +5946,11 @@ rank	word	english	ipa
 5945	上樓	to go upstairs	/ʂɑŋ⁵¹ loʊ̯³⁵/
 5946	區別	to distinguish; to differentiate	/t͡ɕʰy⁵⁵ pi̯ɛ³⁵/
 5947	悲劇	tragedy	/peɪ̯⁵⁵ t͡ɕy⁵¹/
-5948	街坊	neighbour; neighbourhood	/t͡ɕi̯ɛ⁵⁵ fɑŋ/
+5948	街坊	neighbour; neighbourhood	/t͡ɕi̯ɛ⁵⁵ fɑŋ²/
 5949	消散	to dissipate; to vanish	/ɕi̯ɑʊ̯⁵⁵ sän⁵¹/
 5950	逐步	gradually; little by little; step by step; progressively	/ʈ͡ʂu³⁵ pu⁵¹/
 5951	有染	to be involved; to have an illicit affair	/joʊ̯²¹⁴⁻³⁵ ɻän²¹⁴⁻²¹⁽⁴⁾/
-5952	廣場	square; plaza	/ku̯ɑŋ²¹⁴⁻²¹ ʈ͡ʂʰɑŋ³⁵/
+5952	廣場	square; plaza	/ku̯ɑŋ²¹⁴⁻³⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 5953	超凡	to be out of the ordinary; to be extraordinary	/ʈ͡ʂʰɑʊ̯⁵⁵ fän³⁵/
 5954	丁丁	the sound of clanking or clanging	/ʈ͡ʂɤŋ⁵⁵ ʈ͡ʂɤŋ⁵⁵/
 5955	此前	before this	/t͡sʰɹ̩²¹⁴⁻²¹ t͡ɕʰi̯ɛn³⁵/
@@ -6112,7 +6112,7 @@ rank	word	english	ipa
 6111	火葬	to cremate; to incinerate	/xu̯ɔ²¹⁴⁻²¹ t͡sɑŋ⁵¹/
 6112	膀胱	urinary bladder	/pʰɑŋ³⁵ ku̯ɑŋ⁵⁵/
 6113	奢望	to have excessive expectations; to have extravagant hopes	/ʂɤ⁵⁵ wɑŋ⁵¹/
-6114	血淋淋	dripping with blood; bloody	/ɕi̯ɛ²¹⁴⁻²¹ lin⁵⁵ lin⁵⁵/
+6114	血淋淋	dripping with blood; bloody	/ɕi̯ɛ²¹⁴⁻²¹ lin³⁵ lin³⁵/
 6115	出乎	to come from; to originate from; to stem from	/ʈ͡ʂʰu⁵⁵ xu⁵⁵/
 6116	上限	upper limit; maximum	/ʂɑŋ⁵¹⁻⁵³ ɕi̯ɛn⁵¹/
 6117	背影	view of someone's back; figure seen from behind	/peɪ̯⁵¹ iŋ²¹⁴⁻²¹⁽⁴⁾/
@@ -6236,7 +6236,7 @@ rank	word	english	ipa
 6235	殘忍	cruel; ruthless; merciless; heartless	/t͡sʰän³⁵ ɻən²¹⁴⁻²¹⁽⁴⁾/
 6236	小牛	calf	/ɕi̯ɑʊ̯²¹⁴⁻²¹ ni̯oʊ̯³⁵/
 6237	塑料袋	plastic bag	/su⁵¹⁻⁵³ li̯ɑʊ̯⁵¹⁻⁵³ taɪ̯⁵¹/
-6238	角色扮演	role-playing	/t͡ɕy̯ɛ³⁵ sɤ⁵¹ pan⁵¹ i̯ɛn²¹⁴/
+6238	角色扮演	role-playing	/t͡ɕy̯ɛ³⁵ sɤ⁵¹⁻⁵³ pän⁵¹ jɛn²¹⁴⁻²¹⁽⁴⁾/
 6239	不常	not often; seldom; rarely	/pu⁵¹ ʈ͡ʂʰɑŋ³⁵/
 6240	土豆泥	mashed potato	/tʰu²¹⁴⁻²¹ toʊ̯⁵¹ ni³⁵/
 6241	上述	aforementioned; above-mentioned	/ʂɑŋ⁵¹⁻⁵³ ʂu⁵¹/
@@ -6264,7 +6264,7 @@ rank	word	english	ipa
 6263	有待	to be not yet done; to be waiting or pending	/joʊ̯²¹⁴⁻²¹ taɪ̯⁵¹/
 6264	焦躁	fretful; impatient	/t͡ɕi̯ɑʊ̯⁵⁵ t͡sɑʊ̯⁵¹/
 6265	治理	to administer; to govern; to manage	/ʈ͡ʂɻ̩⁵¹ li²¹⁴⁻²¹⁽⁴⁾/
-6266	賭場	casino; gambling house	/tu²¹⁴⁻²¹ ʈ͡ʂʰɑŋ³⁵/
+6266	賭場	casino; gambling house	/tu²¹⁴⁻³⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 6267	半路	halfway; midway; on the way	/pän⁵¹⁻⁵³ lu⁵¹/
 6268	防空	to take precautions in defence of an air attack from the…	/fɑŋ³⁵ kʰʊŋ⁵⁵/
 6269	肆意	wantonly; recklessly; wilfully	/sɹ̩⁵¹⁻⁵³ i⁵¹/
@@ -6276,11 +6276,11 @@ rank	word	english	ipa
 6275	多得	luckily; it is fortunate that; thanks to	/tu̯ɔ⁵⁵ tɤ³⁵/
 6276	大豆	soybean	/tä⁵¹⁻⁵³ toʊ̯⁵¹/
 6277	標準	standard; criterion	/pi̯ɑʊ̯⁵⁵ ʈ͡ʂu̯ən²¹⁴⁻²¹⁽⁴⁾/
-6278	雪子	graupel; granular snow	/ɕy̯ɛ²¹⁴ t͡sɹ̩²¹⁴/
+6278	雪子	graupel; granular snow	/ɕy̯ɛ²¹⁴ t͡sɹ̩/
 6279	鬼怪	ghosts; monsters	/ku̯eɪ̯²¹⁴⁻²¹ ku̯aɪ̯⁵¹/
 6280	全天	all day	/t͡ɕʰy̯ɛn³⁵ tʰi̯ɛn⁵⁵/
 6281	埋藏	to bury	/maɪ̯³⁵ t͡sʰɑŋ³⁵/
-6282	強迫	to coerce; to force; to compel	/t͡ɕʰi̯ɑŋ³⁵ pʰu̯ɔ⁵¹/
+6282	強迫	to coerce; to force; to compel	/t͡ɕʰi̯ɑŋ²¹⁴⁻²¹ pʰu̯ɔ⁵¹/
 6283	黑奴	black slave	/xeɪ̯⁵⁵ nu³⁵/
 6284	傻乎乎	simple-minded; silly; foolish	/ʂä²¹⁴⁻²¹ xu⁵⁵ xu⁵⁵/
 6285	高效	highly efficient; highly effective	/kɑʊ̯⁵⁵ ɕi̯ɑʊ̯⁵¹/
@@ -6370,7 +6370,7 @@ rank	word	english	ipa
 6369	心地	frame of mind; mental state; person's mind, character,…	/ɕin⁵⁵ ti⁵¹/
 6370	何物	what	/xɤ³⁵ u⁵¹/
 6371	立下	to set up; to establish	/li⁵¹⁻⁵³ ɕi̯ä⁵¹/
-6372	臥室	bedroom	/wɔ⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+6372	臥室	bedroom	/wɔ⁵¹⁻⁵³ ʂɻ̩⁵¹/
 6373	教母	godmother	/t͡ɕi̯ɑʊ̯⁵¹ mu²¹⁴⁻²¹⁽⁴⁾/
 6374	往返	to go there and back; to travel to and fro	/wɑŋ²¹⁴⁻³⁵ fän²¹⁴⁻²¹⁽⁴⁾/
 6375	穿戴	apparel; dress; clothing	/ʈ͡ʂʰu̯än⁵⁵ taɪ̯⁵¹/
@@ -6381,7 +6381,7 @@ rank	word	english	ipa
 6380	各方	each side; each party	/kɤ⁵¹ fɑŋ⁵⁵/
 6381	保有	to hold; to possess; to have; to own	/pɑʊ̯²¹⁴⁻³⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 6382	肛交	to have anal sex	/kɑŋ⁵⁵ t͡ɕi̯ɑʊ̯⁵⁵/
-6383	鬼故事	ghost story	/ku̯eɪ̯²¹⁴ ku⁵¹ ʂɻ̩/
+6383	鬼故事	ghost story	/ku̯eɪ̯²¹⁴⁻²¹ ku⁵¹ ʂɻ̩¹/
 6384	吐露	to show; to reveal; to manifest; to tell	/tʰu²¹⁴⁻²¹ lu⁵¹/
 6385	以至	even; even if; go so far as to; to the extent that	/i²¹⁴⁻²¹ ʈ͡ʂɻ̩⁵¹/
 6386	原定	to be originally decided or scheduled; to be initially…	/ɥɛn³⁵ tiŋ⁵¹/
@@ -6477,7 +6477,7 @@ rank	word	english	ipa
 6476	換個	to swap positions	/xu̯än⁵¹⁻⁵³ kɤ⁵¹/
 6477	通訊	news report; story; coverage; press	/tʰʊŋ⁵⁵ ɕyn⁵¹/
 6478	花粉	pollen	/xu̯ä⁵⁵ fən²¹⁴⁻²¹⁽⁴⁾/
-6479	水吧	counter or section at a restaurant or cafeteria where…	/ʂu̯eɪ̯²¹⁴ pa/
+6479	水吧	counter or section at a restaurant or cafeteria where…	/ʂu̯eɪ̯²¹⁴ pa⁵⁵/
 6480	配有	to be equipped with	/pʰeɪ̯⁵¹ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 6481	白葡萄酒	white wine	/paɪ̯³⁵ pʰu³⁵ tʰɑʊ̯³⁵ t͡ɕi̯oʊ̯²¹⁴⁻²¹⁽⁴⁾/
 6482	回程	return trip; the journey back	/xu̯eɪ̯³⁵ ʈ͡ʂʰɤŋ³⁵/
@@ -6535,7 +6535,7 @@ rank	word	english	ipa
 6534	胸脯	chest; breast	/ɕi̯ʊŋ⁵⁵ pʰu³⁵/
 6535	茶水	hot tea	/ʈ͡ʂʰä³⁵ ʂu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 6536	谷底	rock bottom	/ku²¹⁴⁻³⁵ ti²¹⁴⁻²¹⁽⁴⁾/
-6537	咖哩	curry	/kʰa⁵⁵ li²¹⁴/
+6537	咖哩	curry	/kʰä⁵⁵ li²¹⁴⁻²¹⁽⁴⁾/
 6538	劇本	play; drama	/t͡ɕy⁵¹ pən²¹⁴⁻²¹⁽⁴⁾/
 6539	強壯	strong; sturdy	/t͡ɕʰi̯ɑŋ³⁵ ʈ͡ʂu̯ɑŋ⁵¹/
 6540	登月	to land on the moon	/tɤŋ⁵⁵ ɥɛ⁵¹/
@@ -6561,7 +6561,7 @@ rank	word	english	ipa
 6560	可恨	abominable; detestable; hateful	/kʰɤ²¹⁴⁻²¹ xən⁵¹/
 6561	夫君	husband	/fu⁵⁵ t͡ɕyn⁵⁵/
 6562	少爺	young master	/ʂɑʊ̯⁵¹ jɛ³⁵/
-6563	怪癖	curious habit; peculiarity	/ku̯aɪ̯⁵¹ pʰi²¹⁴/
+6563	怪癖	curious habit; peculiarity	/ku̯aɪ̯⁵¹ pʰi²¹⁴⁻²¹⁽⁴⁾/
 6564	大丈夫	real man; man of character	/tä⁵¹⁻⁵³ ʈ͡ʂɑŋ⁵¹ fu¹/
 6565	受洗	to receive baptism; to be baptized	/ʂoʊ̯⁵¹ ɕi²¹⁴⁻²¹⁽⁴⁾/
 6566	敬仰	to hold in high esteem; to revere; to venerate	/t͡ɕiŋ⁵¹ jɑŋ²¹⁴⁻²¹⁽⁴⁾/
@@ -6630,7 +6630,7 @@ rank	word	english	ipa
 6629	拓展	to expand; to develop	/tʰu̯ɔ⁵¹ ʈ͡ʂän²¹⁴⁻²¹⁽⁴⁾/
 6630	一席之地	small space; niche	/i⁵⁵⁻⁵¹ ɕi³⁵ ʈ͡ʂɻ̩⁵⁵ ti⁵¹/
 6631	石碑	stone tablet; stele	/ʂɻ̩³⁵ peɪ̯⁵⁵/
-6632	豁出去	to go ahead at any price; to take the risk	/xu̯ɔ⁵⁵ ʈ͡ʂʰu⁵⁵ t͡ɕʰy²/
+6632	豁出去	to go ahead at any price; to take the risk	/xu̯ɔ⁵⁵ ʈ͡ʂʰu² t͡ɕʰy¹/
 6633	考古	archaeology	/kʰɑʊ̯²¹⁴⁻³⁵ ku²¹⁴⁻²¹⁽⁴⁾/
 6634	減少	to reduce; to decrease; to cut; to minimise	/t͡ɕi̯ɛn²¹⁴⁻³⁵ ʂɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
 6635	脫掉	to take off	/tʰu̯ɔ⁵⁵ ti̯ɑʊ̯⁵¹/
@@ -6648,14 +6648,14 @@ rank	word	english	ipa
 6647	痴狂	stupid and crazy; idiotic	/ʈ͡ʂʰɻ̩⁵⁵ kʰu̯ɑŋ³⁵/
 6648	精神分裂症	schizophrenia	/t͡ɕiŋ⁵⁵ ʂən³⁵ fən⁵⁵ li̯ɛ⁵¹⁻⁵³ ʈ͡ʂɤŋ⁵¹/
 6649	證實	to confirm; to verify; to corroborate; to bear out	/ʈ͡ʂɤŋ⁵¹ ʂɻ̩³⁵/
-6650	室外	outside; outdoors	/ʂɻ̩²¹⁴⁻²¹ waɪ̯⁵¹/
+6650	室外	outside; outdoors	/ʂɻ̩⁵¹⁻⁵³ waɪ̯⁵¹/
 6651	迷宮	maze; labyrinth; dungeon	/mi³⁵ kʊŋ⁵⁵/
 6652	靠岸	to approach the shore	/kʰɑʊ̯⁵¹⁻⁵³ ˀän⁵¹/
 6653	侵害	to infringe on; to encroach on; to violate	/t͡ɕʰin⁵⁵ xaɪ̯⁵¹/
 6654	熔化	to melt	/ɻʊŋ³⁵ xu̯ä⁵¹/
 6655	宜家	conducive to family harmony	/i³⁵ t͡ɕi̯ä⁵⁵/
 6656	夜校	night school	/jɛ⁵¹⁻⁵³ ɕi̯ɑʊ̯⁵¹/
-6657	三思	to think carefully; to think twice; to contemplate	/sän⁵¹ sɹ̩⁵⁵/
+6657	三思	to think carefully; to think twice; to contemplate	/sän⁵⁵ sɹ̩⁵⁵/
 6658	平手	draw; tie	/pʰiŋ³⁵ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 6659	發瘋	to go crazy; to go mad; to lose one's mind; to go nuts; to…	/fä⁵⁵ fɤŋ⁵⁵/
 6660	菜刀	chef's knife; kitchen knife; vegetable cleaver	/t͡sʰaɪ̯⁵¹ tɑʊ̯⁵⁵/
@@ -6696,11 +6696,11 @@ rank	word	english	ipa
 6695	留宿	to put up a guest for the night	/li̯oʊ̯³⁵ su⁵¹/
 6696	直通	to go directly to	/ʈ͡ʂɻ̩³⁵ tʰʊŋ⁵⁵/
 6697	寺院	Buddhist temple	/sɹ̩⁵¹⁻⁵³ ɥɛn⁵¹/
-6698	肺癌	lung cancer	/feɪ̯⁵¹ aɪ̯³⁵/
+6698	肺癌	lung cancer	/feɪ̯⁵¹ ˀaɪ̯³⁵/
 6699	光束	ray of light; light beam	/ku̯ɑŋ⁵⁵ ʂu⁵¹/
 6700	水位	water level	/ʂu̯eɪ̯²¹⁴⁻²¹ weɪ̯⁵¹/
 6701	流量	flow rate; flow volume	/li̯oʊ̯³⁵ li̯ɑŋ⁵¹/
-6702	法語	French language	/fa²⁴ y⁵¹/
+6702	法語	French language	/fä²¹⁴⁻³⁵ y²¹⁴⁻²¹⁽⁴⁾/
 6703	薄荷糖	peppermint candy; peppermint drop; breath mint	/pu̯ɔ⁵¹ xɤ³⁵ tʰɑŋ³⁵/
 6704	過世	to die; to pass away	/ku̯ɔ⁵¹⁻⁵³ ʂɻ̩⁵¹/
 6705	得利	to benefit; to profit	/tɤ³⁵ li⁵¹/
@@ -6746,7 +6746,7 @@ rank	word	english	ipa
 6745	蠢貨	blockhead; idiot; dunce; moron; fool	/ʈ͡ʂʰu̯ən²¹⁴⁻²¹ xu̯ɔ⁵¹/
 6746	拉肚子	to have diarrhea	/lä⁵⁵ tu⁵¹ d͡z̥ɹ̩¹/
 6747	格格不入	inharmonious; incompatible	/kɤ³⁵ kɤ³⁵ pu⁵¹⁻³⁵ ɻu⁵¹/
-6748	耳熟	familiar to the ear; familiar-sounding	/ɑɻ²¹⁴ ʂu³⁵/
+6748	耳熟	familiar to the ear; familiar-sounding	/ˀɤɻ²¹⁴⁻²¹ ʂu³⁵/
 6749	反覆	again and again; repeatedly; time and time again	/fän²¹⁴⁻²¹ fu⁵¹/
 6750	油田	oil field	/joʊ̯³⁵ tʰi̯ɛn³⁵/
 6751	誇張	to exaggerate; to overstate	/kʰu̯ä⁵⁵ ʈ͡ʂɑŋ⁵⁵/
@@ -6907,7 +6907,7 @@ rank	word	english	ipa
 6906	栽培	to cultivate; to grow	/t͡saɪ̯⁵⁵ pʰeɪ̯³⁵/
 6907	拘禁	to take into custody; to detain	/t͡ɕy⁵⁵ t͡ɕin⁵¹/
 6908	四方	the four directions	/sɹ̩⁵¹ fɑŋ⁵⁵/
-6909	場所	place; venue; arena	/ʈ͡ʂʰɑŋ²¹⁴⁻³⁵ su̯ɔɻ²¹⁴⁻²¹⁽⁴⁾/
+6909	場所	place; venue; arena	/ʈ͡ʂʰɑŋ²¹⁴⁻³⁵ su̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 6910	先行	before; previously	/ɕi̯ɛn⁵⁵ ɕiŋ³⁵/
 6911	夢想	dream; hope; wish	/mɤŋ⁵¹ ɕi̯ɑŋ²¹⁴⁻²¹⁽⁴⁾/
 6912	翻天	to turn the world upside down	/fän⁵⁵ tʰi̯ɛn⁵⁵/
@@ -6952,7 +6952,7 @@ rank	word	english	ipa
 6951	床位	berth; bunk; bed	/ʈ͡ʂʰu̯ɑŋ³⁵ weɪ̯⁵¹/
 6952	核能	nuclear energy	/xɤ³⁵ nɤŋ³⁵/
 6953	知己	intimate friend; close friend	/ʈ͡ʂɻ̩⁵⁵ t͡ɕi²¹⁴⁻²¹⁽⁴⁾/
-6954	比方	supposing that; if; say	/pi⁵¹ fɑŋ²⁴/
+6954	比方	supposing that; if; say	/pi²¹⁴ fɑŋ⁴/
 6955	醒悟	to wake up to reality; to come to realize	/ɕiŋ²¹⁴⁻²¹ u⁵¹/
 6956	抗議	to protest	/kʰɑŋ⁵¹⁻⁵³ i⁵¹/
 6957	大狗	police officer, especially an inspector	/ta⁵¹ koʊ̯²¹⁴/
@@ -6974,7 +6974,7 @@ rank	word	english	ipa
 6973	成品	finished product	/ʈ͡ʂʰɤŋ³⁵ pʰin²¹⁴⁻²¹⁽⁴⁾/
 6974	炒蛋	scrambled eggs	/ʈ͡ʂʰɑʊ̯²¹⁴⁻²¹ tän⁵¹/
 6975	大清早	early morning	/tä⁵¹ t͡ɕʰiŋ⁵⁵ t͡sɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-6976	立場	position; viewpoint; stance; standpoint; attitude	/li⁵¹ ʈ͡ʂʰɑŋ³⁵/
+6976	立場	position; viewpoint; stance; standpoint; attitude	/li⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 6977	障礙	obstacle; barrier; hurdle; obstruction	/ʈ͡ʂɑŋ⁵¹⁻⁵³ ˀaɪ̯⁵¹/
 6978	急躁	irritable; irascible; bad-tempered	/t͡ɕi³⁵ t͡sɑʊ̯⁵¹/
 6979	無情	to be merciless; to be ruthless; to be heartless	/u³⁵ t͡ɕʰiŋ³⁵/
@@ -6982,7 +6982,7 @@ rank	word	english	ipa
 6981	蟒蛇	python; boa	/mɑŋ²¹⁴⁻²¹ ʂɤ³⁵/
 6982	排球	volleyball	/pʰaɪ̯³⁵ t͡ɕʰi̯oʊ̯³⁵/
 6983	一言	one sentence; something to say; brief remark	/i⁵⁵⁻⁵¹ jɛn³⁵/
-6984	指甲油	nail polish	/ʈ͡ʂɻ̩⁵⁵ d͡ʑ̥i̯ä² joʊ̯³⁵/
+6984	指甲油	nail polish	/ʈ͡ʂɻ̩²¹⁴ d͡ʑ̥i̯ä⁴ joʊ̯³⁵/
 6985	補償	to compensate; to recompense; to make up for	/pu²¹⁴⁻²¹ ʈ͡ʂʰɑŋ³⁵/
 6986	外快	extra income; extra money earned on the side; fringe…	/waɪ̯⁵¹⁻⁵³ kʰu̯aɪ̯⁵¹/
 6987	小巴	minibus	/ɕi̯ɑʊ̯²¹⁴⁻²¹ pä⁵⁵/
@@ -7010,7 +7010,7 @@ rank	word	english	ipa
 7009	妨礙	to hinder; to obstruct; to interfere	/fɑŋ³⁵ ˀaɪ̯⁵¹/
 7010	冰封	to freeze over	/piŋ⁵⁵ fɤŋ⁵⁵/
 7011	毫不留情	to show no mercy; ruthless; relentless	/xɑʊ̯³⁵ pu⁵¹ li̯oʊ̯³⁵ t͡ɕʰiŋ³⁵/
-7012	煮熟	to cook thoroughly	/ʈ͡ʂu²¹⁴ ʂu³⁵/
+7012	煮熟	to cook thoroughly	/ʈ͡ʂu²¹⁴⁻²¹ ʂu³⁵/
 7013	芳香	fragrant; aromatic; perfumed; sweet-smelling	/fɑŋ⁵⁵ ɕi̯ɑŋ⁵⁵/
 7014	二姐	second eldest sister	/ˀɤɻ⁵¹ t͡ɕi̯ɛ²¹⁴⁻²¹⁽⁴⁾/
 7015	亮相	to strike a pose onstage	/li̯ɑŋ⁵¹⁻⁵³ ɕi̯ɑŋ⁵¹/
@@ -7033,7 +7033,7 @@ rank	word	english	ipa
 7032	合拍	to be on beat; to be in time with; to be in rhythm with	/xɤ³⁵ pʰaɪ̯⁵⁵/
 7033	四射	to radiate in all directions	/sɹ̩⁵¹⁻⁵³ ʂɤ⁵¹/
 7034	避孕	to prevent conception; to avoid pregnancy; to practice…	/pi⁵¹⁻⁵³ yn⁵¹/
-7035	油脂	grease; fat; oil	/joʊ̯³⁵ ʈ͡ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+7035	油脂	grease; fat; oil	/joʊ̯³⁵ ʈ͡ʂɻ̩⁵⁵/
 7036	成婚	to get married	/ʈ͡ʂʰɤŋ³⁵ xu̯ən⁵⁵/
 7037	芙蓉	lotus	/fu³⁵ ɻʊŋ³⁵/
 7038	眺望	to look off into the distance from a high place	/tʰi̯ɑʊ̯⁵¹⁻⁵³ wɑŋ⁵¹/
@@ -7050,7 +7050,7 @@ rank	word	english	ipa
 7049	不由	can't help but; unable to restrain oneself from	/pu⁵¹ joʊ̯³⁵/
 7050	公眾	general public; public	/kʊŋ⁵⁵ ʈ͡ʂʊŋ⁵¹/
 7051	抽身	to leave; to escape; to get away	/ʈ͡ʂʰoʊ̯⁵⁵ ʂən⁵⁵/
-7052	尿液	urine	/ni̯ɑʊ̯⁵¹ i̯ɛ⁵¹/
+7052	尿液	urine	/ni̯ɑʊ̯⁵¹⁻⁵³ jɛ⁵¹/
 7053	陡峭	steep; precipitous	/toʊ̯²¹⁴⁻²¹ t͡ɕʰi̯ɑʊ̯⁵¹/
 7054	混合物	mixture	/xu̯ən⁵¹ xɤ³⁵ u⁵¹/
 7055	火箭筒	rocket launcher	/xu̯ɔ²¹⁴⁻²¹ t͡ɕi̯ɛn⁵¹ tʰʊŋ²¹⁴⁻²¹⁽⁴⁾/
@@ -7063,7 +7063,7 @@ rank	word	english	ipa
 7062	生菜	romaine lettuce; cos lettuce	/ʂɤŋ⁵⁵ t͡sʰaɪ̯⁵¹/
 7063	午休	to take a break after noon	/u²¹⁴⁻²¹ ɕi̯oʊ̯⁵⁵/
 7064	示意	to signal; to indicate; to motion	/ʂɻ̩⁵¹⁻⁵³ i⁵¹/
-7065	碼頭	pier; wharf; dock; quay	/mä²¹⁴⁻²¹ tʰoʊ̯³⁵/
+7065	碼頭	pier; wharf; dock; quay	/mä²¹⁴ tʰoʊ̯⁴/
 7066	上上下下	everybody; all; the whole	/ʂɑŋ⁵¹⁻⁵³ ʂɑŋ⁵¹⁻⁵³ ɕi̯ä⁵¹⁻⁵³ ɕi̯ä⁵¹/
 7067	地皮	ground	/ti⁵¹ pʰi³⁵/
 7068	加速器	accelerator	/t͡ɕi̯ä⁵⁵ su⁵¹⁻⁵³ t͡ɕʰi⁵¹/
@@ -7095,7 +7095,7 @@ rank	word	english	ipa
 7094	撕破	to rip; to tear	/sɹ̩⁵⁵ pʰu̯ɔ⁵¹/
 7095	本分	one's part, role or duty	/pən²¹⁴⁻²¹ fən⁵¹/
 7096	名流	distinguished personage; big name; prominent figure	/miŋ³⁵ li̯oʊ̯³⁵/
-7097	唾液	saliva	/tʰo²¹³ iɛ⁵³/
+7097	唾液	saliva	/tʰu̯ɔ⁵¹⁻⁵³ jɛ⁵¹/
 7098	西岸	west coast; west bank; west shore	/ɕi⁵⁵ ˀän⁵¹/
 7099	率先	to take the lead; to show initiative; to be the first; to…	/ʂu̯aɪ̯⁵¹ ɕi̯ɛn⁵⁵/
 7100	取而代之	to take the place of; to substitute for; to replace	/t͡ɕʰy²¹⁴⁻²¹ ˀɤɻ³⁵ taɪ̯⁵¹ ʈ͡ʂɻ̩⁵⁵/
@@ -7135,7 +7135,7 @@ rank	word	english	ipa
 7134	梳洗	to freshen up; to make oneself presentable	/ʂu⁵⁵ ɕi²¹⁴⁻²¹⁽⁴⁾/
 7135	免遭	to be spared from	/mi̯ɛn²¹⁴⁻²¹ t͡sɑʊ̯⁵⁵/
 7136	奇才	rare talent	/t͡ɕʰi³⁵ t͡sʰaɪ̯³⁵/
-7137	下場	to leave the stage; to exit the playing field, court, etc	/ɕi̯ä⁵¹ ʈ͡ʂʰɑŋ³⁵/
+7137	下場	to leave the stage; to exit the playing field, court, etc	/ɕi̯ä⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 7138	投放	to release	/tʰoʊ̯³⁵ fɑŋ⁵¹/
 7139	外行	non-expert; lay; amateur	/waɪ̯⁵¹ xɑŋ³⁵/
 7140	翻新	to renovate; to refashion	/fän⁵⁵ ɕin⁵⁵/
@@ -7172,7 +7172,7 @@ rank	word	english	ipa
 7171	半小時	half-hour	/pän⁵¹ ɕi̯ɑʊ̯²¹⁴⁻²¹ ʂɻ̩³⁵/
 7172	街舞	street dance	/t͡ɕi̯ɛ⁵⁵ u²¹⁴⁻²¹⁽⁴⁾/
 7173	殿堂	palace; hall	/ti̯ɛn⁵¹ tʰɑŋ³⁵/
-7174	友誼	friendship	/i²¹⁴ u i⁵¹/
+7174	友誼	friendship	/joʊ̯²¹⁴⁻²¹ i⁵¹/
 7175	肥婆	fat woman; fatty	/feɪ̯³⁵ pʰu̯ɔ³⁵/
 7176	印地安	American Indian; Native American	/in⁵¹⁻⁵³ ti⁵¹ ˀän⁵⁵/
 7177	抗衡	to contend with; to rival	/kʰɑŋ⁵¹ xɤŋ³⁵/
@@ -7195,7 +7195,7 @@ rank	word	english	ipa
 7194	君王	king; emperor; monarch; sovereign; His Majesty	/t͡ɕyn⁵⁵ wɑŋ³⁵/
 7195	肉丸	meatball	/ɻoʊ̯⁵¹ wän³⁵/
 7196	苦力	labor; hard work	/kʰu²¹⁴⁻²¹ li⁵¹/
-7197	廣播	to broadcast; to air; to page	/kuaŋ⁵³ po²¹³/
+7197	廣播	to broadcast; to air; to page	/ku̯ɑŋ²¹⁴⁻²¹ pu̯ɔ⁵⁵/
 7198	捂住	to cover up	/u²¹⁴⁻²¹ ʈ͡ʂu⁵¹/
 7199	切磋	to cut and polish	/t͡ɕʰi̯ɛ⁵⁵ t͡sʰu̯ɔ⁵⁵/
 7200	坦然	calm; undisturbed; unperturbed; at ease	/tʰän²¹⁴⁻²¹ ɻän³⁵/
@@ -7208,7 +7208,7 @@ rank	word	english	ipa
 7207	官邸	official residence	/ku̯än⁵⁵ ti²¹⁴⁻²¹⁽⁴⁾/
 7208	艾滋	AIDS	/ˀaɪ̯⁵¹ t͡sɹ̩⁵⁵/
 7209	賠償	to compensate; to pay for	/pʰeɪ̯³⁵ ʈ͡ʂʰɑŋ³⁵/
-7210	核桃	walnut	/xɤ²⁴ tʰau/
+7210	核桃	walnut	/xɤ³⁵ tʰɑʊ̯³/
 7211	掙扎	to struggle; to strive	/ʈ͡ʂɤŋ⁵⁵ ʈ͡ʂä³⁵/
 7212	吉祥	lucky; auspicious; propitious	/t͡ɕi³⁵ ɕi̯ɑŋ³⁵/
 7213	攝影機	movie camera; camcorder	/ʂɤ⁵¹ iŋ²¹⁴⁻²¹ t͡ɕi⁵⁵/
@@ -7271,7 +7271,7 @@ rank	word	english	ipa
 7270	局限	to limit; to confine	/t͡ɕy³⁵ ɕi̯ɛn⁵¹/
 7271	親吻	to kiss	/t͡ɕʰin⁵⁵ wən²¹⁴⁻²¹⁽⁴⁾/
 7272	開放	to be open	/kʰaɪ̯⁵⁵ fɑŋ⁵¹/
-7273	上場	to go on stage; to appear in a show or photograph; to enter…	/ʂɑŋ⁵¹ ʈ͡ʂʰɑŋ³⁵/
+7273	上場	to go on stage; to appear in a show or photograph; to enter…	/ʂɑŋ⁵¹ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 7274	棚子	shed; shack	/pʰɤŋ³⁵ d͡z̥ɹ̩³/
 7275	二代	short for 第二代	/ˀɤɻ⁵¹⁻⁵³ taɪ̯⁵¹/
 7276	浸泡	to soak; to steep	/t͡ɕin⁵¹⁻⁵³ pʰɑʊ̯⁵¹/
@@ -7368,7 +7368,7 @@ rank	word	english	ipa
 7367	叫法	name; designation	/t͡ɕi̯ɑʊ̯⁵¹ fä²¹⁴⁻²¹⁽⁴⁾/
 7368	評價	to evaluate; to assess; to estimate	/pʰiŋ³⁵ t͡ɕi̯ä⁵¹/
 7369	夜夜	every night; nightly; night after night	/jɛ⁵¹⁻⁵³ jɛ⁵¹/
-7370	癖好	special interest; urge; hobby; craving; pursuit	/pʰi²¹⁴ xɑʊ̯⁵¹/
+7370	癖好	special interest; urge; hobby; craving; pursuit	/pʰi²¹⁴⁻²¹ xɑʊ̯⁵¹/
 7371	主治	to primarily treat; to be used to primarily treat	/ʈ͡ʂu²¹⁴⁻²¹ ʈ͡ʂɻ̩⁵¹/
 7372	整形	to undergo or perform plastic surgery	/ʈ͡ʂɤŋ²¹⁴⁻²¹ ɕiŋ³⁵/
 7373	未免	a bit too; rather too; really	/weɪ̯⁵¹ mi̯ɛn²¹⁴⁻²¹⁽⁴⁾/
@@ -7391,7 +7391,7 @@ rank	word	english	ipa
 7390	阻塞	to obstruct; to block up; to clog; to jam	/t͡su²¹⁴⁻²¹ sɤ⁵¹/
 7391	喃喃	describes the act of speaking softly or murmuring	/nän³⁵ nän³⁵/
 7392	自願	to volunteer; to do voluntarily	/t͡sɹ̩⁵¹⁻⁵³ ɥɛn⁵¹/
-7393	俄國人	Russian person; Russian people	/ɤ³⁵ ku̯ɔ³⁵ ʐən³⁵/
+7393	俄國人	Russian person; Russian people	/ˀɤ³⁵ ku̯ɔ³⁵ ɻən³⁵/
 7394	嘀咕	to speak quietly	/ti³⁵ g̊u³/
 7395	緊緊	closely; firmly; tightly	/t͡ɕin²¹⁴⁻³⁵ t͡ɕin²¹⁴⁻²¹⁽⁴⁾/
 7396	整日	the whole day; all day long; all the time	/ʈ͡ʂɤŋ²¹⁴⁻²¹ ɻ̩⁵¹/
@@ -7425,7 +7425,7 @@ rank	word	english	ipa
 7424	收音	radio reception	/ʂoʊ̯⁵⁵ in⁵⁵/
 7425	老歌	oldie; classic	/lɑʊ̯²¹⁴⁻²¹ kɤ⁵⁵/
 7426	慈善家	philanthropist	/t͡sʰɹ̩³⁵ ʂän⁵¹ t͡ɕi̯ä⁵⁵/
-7427	演播室	broadcasting studio	/i̯ɛn²¹⁴ pu̯ɔ⁵⁵ ʂɻ̩⁵¹/
+7427	演播室	broadcasting studio	/jɛn²¹⁴⁻²¹ pu̯ɔ⁵⁵ ʂɻ̩⁵¹/
 7428	有神	bright and piercing; sparkling	/joʊ̯²¹⁴⁻²¹ ʂən³⁵/
 7429	達成	to reach; to attain	/tä³⁵ ʈ͡ʂʰɤŋ³⁵/
 7430	正像	to be just like; to be just as	/ʈ͡ʂɤŋ⁵¹⁻⁵³ ɕi̯ɑŋ⁵¹/
@@ -7434,7 +7434,7 @@ rank	word	english	ipa
 7433	雨天	wet weather; rainy weather	/y²¹⁴⁻²¹ tʰi̯ɛn⁵⁵/
 7434	心上	on one's heart	/ɕin⁵⁵ ʂɑŋ⁵¹/
 7435	侍女	young female servant; maid; maidservant	/ʂɻ̩⁵¹ ny²¹⁴⁻²¹⁽⁴⁾/
-7436	停車場	car park; parking lot	/tʰiŋ³⁵ ʈ͡ʂʰɤ⁵⁵ ʈ͡ʂʰɑŋ³⁵/
+7436	停車場	car park; parking lot	/tʰiŋ³⁵ ʈ͡ʂʰɤ⁵⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 7437	冰水	ice water	/piŋ⁵⁵ ʂu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 7438	相逢	to meet by chance; to bump into each other; to run into…	/ɕi̯ɑŋ⁵⁵ fɤŋ³⁵/
 7439	猶豫	to hesitate; to be irresolute; to be indecisive; to pause	/joʊ̯³⁵ y⁵¹/
@@ -7533,7 +7533,7 @@ rank	word	english	ipa
 7532	體內	inside the body; in the body; in vivo	/tʰi²¹⁴⁻²¹ neɪ̯⁵¹/
 7533	丟掉	to lose; to misplace	/ti̯oʊ̯⁵⁵ ti̯ɑʊ̯⁵¹/
 7534	作秀	to put on a show	/t͡su̯ɔ⁵¹⁻⁵³ ɕi̯oʊ̯⁵¹/
-7535	概括	to summarize; to sum up; to generalize; to outline; to…	/kaɪ̯⁵¹ kʰu̯ɔ⁵¹/
+7535	概括	to summarize; to sum up; to generalize; to outline; to…	/kaɪ̯⁵¹⁻⁵³ kʰu̯ɔ⁵¹/
 7536	頭兒	leader; boss; person in charge	/tʰɤʊ̯ɻʷ³⁵/
 7537	西裝	Western-style clothing	/ɕi⁵⁵ ʈ͡ʂu̯ɑŋ⁵⁵/
 7538	太空站	space station	/tʰaɪ̯⁵¹ kʰʊŋ⁵⁵ ʈ͡ʂän⁵¹/
@@ -7570,7 +7570,7 @@ rank	word	english	ipa
 7569	看得懂	to understand	/kʰän⁵¹ d̥ə¹ tʊŋ²¹⁴⁻²¹⁽⁴⁾/
 7570	孤兒	orphan	/ku⁵⁵ ˀɤɻ³⁵/
 7571	談判	negotiation; talks	/tʰän³⁵ pʰän⁵¹/
-7572	手術室	operating theatre; operating room	/ʂoʊ̯²¹⁴⁻²¹ ʂu⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+7572	手術室	operating theatre; operating room	/ʂoʊ̯²¹⁴⁻²¹ ʂu⁵¹⁻⁵³ ʂɻ̩⁵¹/
 7573	暫停	to pause; to suspend	/t͡sän⁵¹ tʰiŋ³⁵/
 7574	警督	inspector	/t͡ɕiŋ²¹⁴⁻²¹ tu⁵⁵/
 7575	血色	blood colour; deep red	/ɕy̯ɛ⁵¹⁻⁵³ sɤ⁵¹/
@@ -7625,7 +7625,7 @@ rank	word	english	ipa
 7624	臉色	complexion; colour of the face	/li̯ɛn²¹⁴⁻²¹ sɤ⁵¹/
 7625	合群	able to get on well with others; able to fit in; sociable	/xɤ³⁵ t͡ɕʰyn³⁵/
 7626	得力	to benefit from someone's assistance	/tɤ³⁵ li⁵¹/
-7627	插播	to intercut	/ʈ͡ʂʰa⁵⁵ pu̯ɔ⁵⁵/
+7627	插播	to intercut	/ʈ͡ʂʰä⁵⁵ pu̯ɔ⁵⁵/
 7628	耳目	ears and eyes	/ˀɤɻ²¹⁴⁻²¹ mu⁵¹/
 7629	湖面	lake surface	/xu³⁵ mi̯ɛn⁵¹/
 7630	不菲	expensive; dear; not cheap	/pu⁵¹ feɪ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -7665,7 +7665,7 @@ rank	word	english	ipa
 7664	張開	to open; to spread; to extend	/ʈ͡ʂɑŋ⁵⁵ kʰaɪ̯⁵⁵/
 7665	皮箱	leather suitcase	/pʰi³⁵ ɕi̯ɑŋ⁵⁵/
 7666	陪葬	to be buried together with	/pʰeɪ̯³⁵ t͡sɑŋ⁵¹/
-7667	潛艇	submarine	/t͡ɕʰi̯ɛn³⁵ tʰiŋ²¹⁴/
+7667	潛艇	submarine	/t͡ɕʰi̯ɛn³⁵ tʰiŋ²¹⁴⁻²¹⁽⁴⁾/
 7668	船舶	boats and ships	/ʈ͡ʂʰu̯än³⁵ pu̯ɔ³⁵/
 7669	工作量	amount or volume of work; workload	/kʊŋ⁵⁵ t͡su̯ɔ⁵¹⁻⁵³ li̯ɑŋ⁵¹/
 7670	城中	within the city	/ʈ͡ʂʰɤŋ³⁵ ʈ͡ʂʊŋ⁵⁵/
@@ -7690,7 +7690,7 @@ rank	word	english	ipa
 7689	戒毒所	addiction treatment centre; drug rehabilitation centre	/t͡ɕi̯ɛ⁵¹ tu³⁵ su̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 7690	停泊	to berth; to anchor; to moor	/tʰiŋ³⁵ pu̯ɔ³⁵/
 7691	痛打	to beat severely; to give a sound thrashing	/tʰʊŋ⁵¹ tä²¹⁴⁻²¹⁽⁴⁾/
-7692	拉扯	to drag; to pull; to tug	/la⁵⁵ ʈ͡ʂʰɤ/
+7692	拉扯	to drag; to pull; to tug	/lä⁵⁵ ʈ͡ʂʰə²/
 7693	下坡	to go down a hill; to go downhill; to go down a slope or…	/ɕi̯ä⁵¹ pʰu̯ɔ⁵⁵/
 7694	旺盛	flourishing; prosperous	/wɑŋ⁵¹⁻⁵³ ʂɤŋ⁵¹/
 7695	浴衣	bathrobe	/y⁵¹ i⁵⁵/
@@ -7714,7 +7714,7 @@ rank	word	english	ipa
 7713	毀掉	to destroy; to cause to perish	/xu̯eɪ̯²¹⁴⁻²¹ ti̯ɑʊ̯⁵¹/
 7714	漫畫	comics; caricature; cartoon; manga; manhwa; manhua	/män⁵¹⁻⁵³ xu̯ä⁵¹/
 7715	表兄弟	father's sister's son	/pi̯ɑʊ̯²¹⁴⁻²¹ ɕi̯ʊŋ⁵⁵ ti⁵¹/
-7716	聊天室	chat room	/li̯ɑʊ̯³⁵ tʰi̯ɛn⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+7716	聊天室	chat room	/li̯ɑʊ̯³⁵ tʰi̯ɛn⁵⁵ ʂɻ̩⁵¹/
 7717	直白	frank; open; blunt	/ʈ͡ʂɻ̩³⁵ paɪ̯³⁵/
 7718	坎坷	bumpy	/kʰän²¹⁴⁻³⁵ kʰɤ²¹⁴⁻²¹⁽⁴⁾/
 7719	迄今	hitherto; thus far; up till now; so far	/t͡ɕʰi⁵¹ t͡ɕin⁵⁵/
@@ -7813,7 +7813,7 @@ rank	word	english	ipa
 7812	狗熊	Asian black bear	/koʊ̯²¹⁴⁻²¹ ɕi̯ʊŋ³⁵/
 7813	基石	foundation stone; cornerstone	/t͡ɕi⁵⁵ ʂɻ̩³⁵/
 7814	刷新	to repaint; to renovate; to refurbish	/ʂu̯ä⁵⁵ ɕin⁵⁵/
-7815	衰仔	bad kid; bad child	/ʂu̯aɪ̯⁵⁵ t͡sɹ̩²¹⁴/
+7815	衰仔	bad kid; bad child	/ʂu̯aɪ̯⁵⁵ t͡saɪ̯²¹⁴/
 7816	病史	medical history; medical record	/piŋ⁵¹ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
 7817	疹子	rash	/ʈ͡ʂən²¹⁴ d͡z̥ɹ̩⁴/
 7818	先進	advanced	/ɕi̯ɛn⁵⁵ t͡ɕin⁵¹/
@@ -7845,7 +7845,7 @@ rank	word	english	ipa
 7844	官網	official website	/ku̯än⁵⁵ wɑŋ²¹⁴⁻²¹⁽⁴⁾/
 7845	投身	to throw oneself into	/tʰoʊ̯³⁵ ʂən⁵⁵/
 7846	梨子	pear	/li³⁵ d͡z̥ɹ̩³/
-7847	創傷	trauma; physical injury	/ʈ͡ʂʰu̯ɑŋ⁵¹ ʂɑŋ⁵⁵/
+7847	創傷	trauma; physical injury	/ʈ͡ʂʰu̯ɑŋ⁵⁵ ʂɑŋ⁵⁵/
 7848	少管所	short for 少年犯管教所	/ʂɑʊ̯⁵¹ ku̯än²¹⁴⁻³⁵ su̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 7849	初始	beginning; outset; start	/ʈ͡ʂʰu⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
 7850	所有者	owner; proprietor; possessor	/su̯ɔ²¹⁴⁻³⁵ joʊ̯²¹⁴⁻³⁵ ʈ͡ʂɤ²¹⁴⁻²¹⁽⁴⁾/
@@ -7886,7 +7886,7 @@ rank	word	english	ipa
 7885	無人	devoid of people	/u³⁵ ɻən³⁵/
 7886	小霸王	a young conqueror who is fierce but is in possession of not…	/ɕi̯ɑʊ̯²¹⁴⁻²¹ pä⁵¹ wɑŋ³⁵/
 7887	帆布	canvas; sailcloth	/fän⁵⁵ pu⁵¹/
-7888	全場	everyone present; the house; entire audience	/t͡ɕʰy̯ɛn³⁵ ʈ͡ʂʰɑŋ³⁵/
+7888	全場	everyone present; the house; entire audience	/t͡ɕʰy̯ɛn³⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 7889	上西天	to go to Western Paradise	/ʂɑŋ⁵¹ ɕi⁵⁵ tʰi̯ɛn⁵⁵/
 7890	掏空	to hollow out; to empty out	/tʰɑʊ̯⁵⁵ kʰʊŋ⁵⁵/
 7891	沒空	to be unavailable; to be busy; to be not free	/meɪ̯³⁵ kʰʊŋ⁵¹/
@@ -7936,7 +7936,7 @@ rank	word	english	ipa
 7935	桶子	pail; bucket; tub	/tʰʊŋ²¹⁴ d͡z̥ɹ̩⁴/
 7936	火山口	volcanic crater	/xu̯ɔ²¹⁴⁻²¹ ʂän⁵⁵ kʰoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 7937	哨子	whistle	/ʂɑʊ̯⁵¹ d͡z̥ɹ̩¹/
-7938	三更半夜	in the middle of the night; late at night	/sän⁵⁵ t͡ɕiŋ⁵⁵ pän⁵¹⁻⁵³ jɛ⁵¹/
+7938	三更半夜	in the middle of the night; late at night	/sän⁵⁵ kɤŋ⁵⁵ pän⁵¹⁻⁵³ jɛ⁵¹/
 7939	二十三	twenty-three; 23	/ˀɤɻ⁵¹ ʂɻ̩³⁵ sän⁵⁵/
 7940	定性	to determine the nature	/tiŋ⁵¹⁻⁵³ ɕiŋ⁵¹/
 7941	燈光	lamplight; electric light	/tɤŋ⁵⁵ ku̯ɑŋ⁵⁵/
@@ -7946,7 +7946,7 @@ rank	word	english	ipa
 7945	情侶	sweetheart; lover; lovebird; life partner	/t͡ɕʰiŋ³⁵ ly²¹⁴⁻²¹⁽⁴⁾/
 7946	女校	girls' school	/ny²¹⁴⁻²¹ ɕi̯ɑʊ̯⁵¹/
 7947	致富	to get rich; become rich; to make a fortune	/ʈ͡ʂɻ̩⁵¹⁻⁵³ fu⁵¹/
-7948	模樣	usually used after a numeral-classifier compound to express…	/mu³⁵ i̯ɑŋ⁵¹/
+7948	模樣	usually used after a numeral-classifier compound to express…	/mu³⁵ jɑŋ⁵¹/
 7949	糯米	glutinous rice; sticky rice	/nu̯ɔ⁵¹ mi²¹⁴⁻²¹⁽⁴⁾/
 7950	麻利	swift; agile; efficient; quick-witted	/mä³⁵ li⁵¹/
 7951	依舊	as always; as before; since olden times	/i⁵⁵ t͡ɕi̯oʊ̯⁵¹/
@@ -8019,7 +8019,7 @@ rank	word	english	ipa
 8018	打屁股	to flog the buttocks; to spank; to smack	/tä²¹⁴⁻²¹ pʰi⁵¹ ku²¹⁴⁻²¹⁽⁴⁾/
 8019	招致	to seek; to recruit; to scout for	/ʈ͡ʂɑʊ̯⁵⁵ ʈ͡ʂɻ̩⁵¹/
 8020	懷念	to miss; to think of; to yearn for; to reminisce	/xu̯aɪ̯³⁵ ni̯ɛn⁵¹/
-8021	出場	to come on stage; to appear on the scene	/ʈ͡ʂʰu⁵⁵ ʈ͡ʂʰɑŋ³⁵/
+8021	出場	to come on stage; to appear on the scene	/ʈ͡ʂʰu⁵⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 8022	狠毒	vicious; malicious; venomous	/xən²¹⁴⁻²¹ tu³⁵/
 8023	革命者	revolutionary	/kɤ³⁵ miŋ⁵¹ ʈ͡ʂɤ²¹⁴⁻²¹⁽⁴⁾/
 8024	三哥	third eldest brother	/sän⁵⁵ kɤ⁵⁵/
@@ -8100,7 +8100,7 @@ rank	word	english	ipa
 8099	在校	at school or university; on campus; occurring or present at…	/t͡saɪ̯⁵¹⁻⁵³ ɕi̯ɑʊ̯⁵¹/
 8100	寒酸	shabby and miserable	/xän³⁵ su̯än⁵⁵/
 8101	伴侶	companion; mate	/pän⁵¹ ly²¹⁴⁻²¹⁽⁴⁾/
-8102	囚室	prison cell; jail cell	/t͡ɕʰi̯oʊ̯³⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+8102	囚室	prison cell; jail cell	/t͡ɕʰi̯oʊ̯³⁵ ʂɻ̩⁵¹/
 8103	無線	wireless	/u³⁵ ɕi̯ɛn⁵¹/
 8104	酒醉	drunkenness; inebriation	/t͡ɕi̯oʊ̯²¹⁴⁻²¹ t͡su̯eɪ̯⁵¹/
 8105	妻女	wives and daughters	/t͡ɕʰi⁵⁵ ny²¹⁴⁻²¹⁽⁴⁾/
@@ -8167,14 +8167,14 @@ rank	word	english	ipa
 8166	動力	motive power	/tʊŋ⁵¹⁻⁵³ li⁵¹/
 8167	平方	square; second power	/pʰiŋ³⁵ fɑŋ⁵⁵/
 8168	無處	nowhere	/u³⁵ ʈ͡ʂʰu⁵¹/
-8169	酩酊大醉	heavily intoxicated; blind drunk	/miŋ²¹⁴ tiŋ²¹⁴ ta⁵¹ t͡su̯eɪ̯⁵¹/
+8169	酩酊大醉	heavily intoxicated; blind drunk	/miŋ²¹⁴⁻³⁵ tiŋ²¹⁴⁻²¹ tä⁵¹⁻⁵³ t͡su̯eɪ̯⁵¹/
 8170	抽取	to extract; to draw	/ʈ͡ʂʰoʊ̯⁵⁵ t͡ɕʰy²¹⁴⁻²¹⁽⁴⁾/
 8171	人妖	man-made disaster	/ɻən³⁵ jɑʊ̯⁵⁵/
 8172	血跡	bloodstain	/ɕy̯ɛ⁵¹⁻⁵³ t͡ɕi⁵¹/
 8173	高爾夫	golf	/kɑʊ̯⁵⁵ ˀɤɻ²¹⁴⁻²¹ fu⁵⁵/
 8174	大二	second year of university	/tä⁵¹⁻⁵³ ˀɤɻ⁵¹/
 8175	情色	one's look or facial expression	/t͡ɕʰiŋ³⁵ sɤ⁵¹/
-8176	大廈	large building; skyscraper; edifice; plaza	/ta⁵¹ ʂa⁵¹/
+8176	大廈	large building; skyscraper; edifice; plaza	/tä⁵¹⁻⁵³ ʂä⁵¹/
 8177	開發	to exploit	/kʰaɪ̯⁵⁵ fä⁵⁵/
 8178	高低	anyhow; no matter what; in any case	/kɑʊ̯⁵⁵ ti⁵⁵/
 8179	毫無疑問	undoubtedly; without a doubt; certainly	/xɑʊ̯³⁵ u³⁵ i³⁵ wən⁵¹/
@@ -8187,7 +8187,7 @@ rank	word	english	ipa
 8186	遙遠	faraway; distant; remote	/jɑʊ̯³⁵ ɥɛn²¹⁴⁻²¹⁽⁴⁾/
 8187	少數	few; small number; minority	/ʂɑʊ̯²¹⁴⁻²¹ ʂu⁵¹/
 8188	公安局	public security bureau; PSB	/kʊŋ⁵⁵ ˀän⁵⁵ t͡ɕy³⁵/
-8189	刻苦	industriously; assiduously; diligently; hard	/kʰɛ²¹ kʰu⁵³/
+8189	刻苦	industriously; assiduously; diligently; hard	/kʰɤ⁵¹ kʰu²¹⁴⁻²¹⁽⁴⁾/
 8190	冰雹	hail	/piŋ⁵⁵ pɑʊ̯³⁵/
 8191	發火	to catch fire	/fä⁵⁵ xu̯ɔ²¹⁴⁻²¹⁽⁴⁾/
 8192	烘烤	to bake; to toast	/xʊŋ⁵⁵ kʰɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -8215,7 +8215,7 @@ rank	word	english	ipa
 8214	愚笨	dull-witted; stupid; clumsy; foolish	/y³⁵ pən⁵¹/
 8215	守衛	to guard; to protect	/ʂoʊ̯²¹⁴⁻²¹ weɪ̯⁵¹/
 8216	滾蛋	to go away; to scram; to beat it	/ku̯ən²¹⁴⁻²¹ tän⁵¹/
-8217	模子	mould; cast; die; matrix	/mu³⁵ t͡sɹ̩/
+8217	模子	mould; cast; die; matrix	/mu³⁵ d͡z̥ɹ̩³/
 8218	奶粉	milk powder; powdered milk; dried milk	/naɪ̯²¹⁴⁻³⁵ fən²¹⁴⁻²¹⁽⁴⁾/
 8219	安分	knowing one's place; not going beyond one's bounds; content…	/ˀän⁵⁵ fən⁵¹/
 8220	魂魄	hun and po	/xu̯ən³⁵ pʰu̯ɔ⁵¹/
@@ -8253,7 +8253,7 @@ rank	word	english	ipa
 8252	至尊	most revered and respected	/ʈ͡ʂɻ̩⁵¹ t͡su̯ən⁵⁵/
 8253	恐嚇	to threaten; to intimidate	/kʰʊŋ²¹⁴⁻²¹ xɤ⁵¹/
 8254	少來	always; all along; hitherto	/ʂɑʊ̯²¹⁴⁻²¹ laɪ̯³⁵/
-8255	模板	model; template; pattern	/mu³⁵ pan²¹⁴/
+8255	模板	model; template; pattern	/mu³⁵ pän²¹⁴⁻²¹⁽⁴⁾/
 8256	失誤	error; mistake	/ʂɻ̩⁵⁵ u⁵¹/
 8257	吃苦	to endure hardship; to suffer	/ʈ͡ʂʰɻ̩⁵⁵ kʰu²¹⁴⁻²¹⁽⁴⁾/
 8258	套子	sheath; case; cover	/tʰɑʊ̯⁵¹ d͡z̥ɹ̩¹/
@@ -8326,7 +8326,7 @@ rank	word	english	ipa
 8325	沉寂	quiet; still	/ʈ͡ʂʰən³⁵ t͡ɕi⁵¹/
 8326	毒物	poisonous substance; toxic agent; toxin	/tu³⁵ u⁵¹/
 8327	登陸	to disembark; to land; to go ashore	/tɤŋ⁵⁵ lu⁵¹/
-8328	雪白	snow-white; very white	/ɕy̯ɛ²¹⁴ paɪ̯³⁵/
+8328	雪白	snow-white; very white	/ɕy̯ɛ²¹⁴⁻²¹ paɪ̯³⁵/
 8329	四起	to spring up from every direction	/sɹ̩⁵¹ t͡ɕʰi²¹⁴⁻²¹⁽⁴⁾/
 8330	異常	exceptionally; extremely; particularly; exceedingly	/i⁵¹ ʈ͡ʂʰɑŋ³⁵/
 8331	杆子	pole; staff; rod	/kän⁵⁵ d͡z̥ɹ̩²/
@@ -8442,7 +8442,7 @@ rank	word	english	ipa
 8441	逃離	to run away; to escape; to flee	/tʰɑʊ̯³⁵ li³⁵/
 8442	把門	to guard a door or gate	/pä²¹⁴⁻²¹ mən³⁵/
 8443	放生	to free captive animals	/fɑŋ⁵¹ ʂɤŋ⁵⁵/
-8444	溶液	chemical solution	/ʐʊŋ³⁵ i̯ɛ⁵¹/
+8444	溶液	chemical solution	/ɻʊŋ³⁵ jɛ⁵¹/
 8445	放牧	to take livestock out to feed on grass; to graze; to put…	/fɑŋ⁵¹⁻⁵³ mu⁵¹/
 8446	鼓起	to bulge; to swell	/ku²¹⁴⁻³⁵ t͡ɕʰi²¹⁴⁻²¹⁽⁴⁾/
 8447	死角	gap in coverage; gap in protection or defenses; neglected…	/sɹ̩²¹⁴⁻³⁵ t͡ɕi̯ɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
@@ -8491,7 +8491,7 @@ rank	word	english	ipa
 8490	矜持	solemn; grave	/t͡ɕin⁵⁵ ʈ͡ʂʰɻ̩³⁵/
 8491	可人	likeable, agreeable or virtuous person	/kʰɤ²¹⁴⁻²¹ ɻən³⁵/
 8492	階級	class	/t͡ɕi̯ɛ⁵⁵ t͡ɕi³⁵/
-8493	差勁	no good; bad; poor; disappointing	/ʈ͡ʂʰä⁵¹⁻⁵³ t͡ɕiə̯ɻ⁵¹/
+8493	差勁	no good; bad; poor; disappointing	/ʈ͡ʂʰä⁵¹⁻⁵³ t͡ɕin⁵¹/
 8494	基友	gay friend	/t͡ɕi⁵⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 8495	上工	to start work; to go to work	/ʂɑŋ⁵¹ kʊŋ⁵⁵/
 8496	指名	to mention by name; to name; to nominate; to designate	/ʈ͡ʂɻ̩²¹⁴⁻²¹ miŋ³⁵/
@@ -8523,7 +8523,7 @@ rank	word	english	ipa
 8522	瞎掰	to say whatever comes to mind; to talk nonsense	/ɕi̯ä⁵⁵ paɪ̯⁵⁵/
 8523	教廷	Vatican; Holy See	/t͡ɕi̯ɑʊ̯⁵¹ tʰiŋ³⁵/
 8524	女方	the female's side; wife or bride's side	/ny²¹⁴⁻²¹ fɑŋ⁵⁵/
-8525	法國人	French person; French people	/fa²¹⁴ ku̯ɔ³⁵ ʐən³⁵/
+8525	法國人	French person; French people	/fä²¹⁴⁻²¹ ku̯ɔ³⁵ ɻən³⁵/
 8526	警衛	to guard against	/t͡ɕiŋ²¹⁴⁻²¹ weɪ̯⁵¹/
 8527	分行	branch	/fən⁵⁵ xɑŋ³⁵/
 8528	二重唱	vocal duet; vocal duo	/ˀɤɻ⁵¹ ʈ͡ʂʰʊŋ³⁵ ʈ͡ʂʰɑŋ⁵¹/
@@ -8646,7 +8646,7 @@ rank	word	english	ipa
 8645	固有	characteristic of; innate; intrinsic; inherent	/ku⁵¹ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
 8646	伊拉	they	/i⁵⁵ la⁵⁵/
 8647	海草	seagrass	/xaɪ̯²¹⁴⁻³⁵ t͡sʰɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-8648	伐木	to fell timber	/fa³⁵ mu⁵¹/
+8648	伐木	to fell timber	/fä³⁵ mu⁵¹/
 8649	大牛	remarkable person	/tä⁵¹ ni̯oʊ̯³⁵/
 8650	性虐待	sexual abuse	/ɕiŋ⁵¹⁻⁵³ ny̯ɛ⁵¹⁻⁵³ taɪ̯⁵¹/
 8651	精神疾病	mental illness; mental disorder; psychiatric condition	/t͡ɕiŋ⁵⁵ ʂən³⁵ t͡ɕi³⁵ piŋ⁵¹/
@@ -8703,7 +8703,7 @@ rank	word	english	ipa
 8702	洗心革面	to reform oneself; to turn over a new leaf	/ɕi²¹⁴⁻²¹ ɕin⁵⁵ kɤ³⁵ mi̯ɛn⁵¹/
 8703	神智	mind; intellect	/ʂən³⁵ ʈ͡ʂɻ̩⁵¹/
 8704	只待	to only wish for; to only hope for	/ʈ͡ʂɻ̩²¹⁴⁻²¹ taɪ̯⁵¹/
-8705	傳播	to propagate; to disseminate; to spread; to transmit	/ʈ͡ʂʰu̯an³⁵ pu̯ɔ⁵⁵/
+8705	傳播	to propagate; to disseminate; to spread; to transmit	/ʈ͡ʂʰu̯än³⁵ pu̯ɔ⁵⁵/
 8706	狐猴	lemur	/xu³⁵ xoʊ̯³⁵/
 8707	花束	bunch of flowers; bouquet	/xu̯ä⁵⁵ ʂu⁵¹/
 8708	開頭	to start; to begin	/kʰaɪ̯⁵⁵ tʰoʊ̯³⁵/
@@ -8729,7 +8729,7 @@ rank	word	english	ipa
 8728	不人道	inhuman, inhumane	/pu⁵¹ ɻən³⁵ tɑʊ̯⁵¹/
 8729	不息	to not stop; to be ceaseless	/pu⁵¹ ɕi⁵⁵/
 8730	新款	new style; new model; latest fashion	/ɕin⁵⁵ kʰu̯än²¹⁴⁻²¹⁽⁴⁾/
-8731	配角	supporting, secondary or minor role in a play, film, etc	/pʰeɪ̯⁵¹ t͡ɕy̯ɛɻ³⁵/
+8731	配角	supporting, secondary or minor role in a play, film, etc	/pʰeɪ̯⁵¹ t͡ɕy̯ɛ³⁵/
 8732	赤字	deficit	/ʈ͡ʂʰɻ̩⁵¹⁻⁵³ t͡sɹ̩⁵¹/
 8733	流星雨	meteor shower	/li̯oʊ̯³⁵ ɕiŋ⁵⁵ y²¹⁴⁻²¹⁽⁴⁾/
 8734	宴會	banquet; dinner party; feast	/jɛn⁵¹⁻⁵³ xu̯eɪ̯⁵¹/
@@ -8763,7 +8763,7 @@ rank	word	english	ipa
 8762	前年	the year before last; two years ago	/t͡ɕʰi̯ɛn³⁵ ni̯ɛn³⁵/
 8763	年糕	nian gao	/ni̯ɛn³⁵ kɑʊ̯⁵⁵/
 8764	最壞	worst	/t͡su̯eɪ̯⁵¹⁻⁵³ xu̯aɪ̯⁵¹/
-8765	開場	to begin a performance	/kʰaɪ̯⁵⁵ ʈ͡ʂʰɑŋ³⁵/
+8765	開場	to begin a performance	/kʰaɪ̯⁵⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 8766	若非	were it not for; if not for	/ɻu̯ɔ⁵¹ feɪ̯⁵⁵/
 8767	磁性	magnetism	/t͡sʰɹ̩³⁵ ɕiŋ⁵¹/
 8768	家常	daily trivial affairs within a family	/t͡ɕi̯ä⁵⁵ ʈ͡ʂʰɑŋ³⁵/
@@ -8843,7 +8843,7 @@ rank	word	english	ipa
 8842	留情	to show mercy; to relent; to be lenient	/li̯oʊ̯³⁵ t͡ɕʰiŋ³⁵/
 8843	休息日	day off	/ɕi̯oʊ̯⁵⁵ ɕi² ɻ̩⁵¹/
 8844	認錯	to admit a mistake; to acknowledge an error	/ɻən⁵¹⁻⁵³ t͡sʰu̯ɔ⁵¹/
-8845	正經	solemn; stately; serious	/ʈ͡ʂɤŋ⁵¹ t͡ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
+8845	正經	solemn; stately; serious	/ʈ͡ʂɤŋ⁵¹ t͡ɕiŋ⁵⁵/
 8846	硬幣	coin	/iŋ⁵¹⁻⁵³ pi⁵¹/
 8847	矗立	to stand tall and upright; to tower	/ʈ͡ʂʰu⁵¹⁻⁵³ li⁵¹/
 8848	媽呀	Mamma mia; a mild expression of surprise	/mä⁵⁵ jä²/
@@ -8860,7 +8860,7 @@ rank	word	english	ipa
 8859	榛子	hazelnut	/ʈ͡ʂən⁵⁵ d͡z̥ɹ̩²/
 8860	不滿	to be dissatisfied; to be resentful	/pu⁵¹ män²¹⁴⁻²¹⁽⁴⁾/
 8861	百萬	million	/paɪ̯²¹⁴⁻²¹ wän⁵¹/
-8862	家室	family; household	/t͡ɕi̯ä⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+8862	家室	family; household	/t͡ɕi̯ä⁵⁵ ʂɻ̩⁵¹/
 8863	省略	to omit; to leave out	/ʂɤŋ²¹⁴⁻²¹ ly̯ɛ⁵¹/
 8864	靠山	near the mountain	/kʰɑʊ̯⁵¹ ʂän⁵⁵/
 8865	卡巴	kebab	/kʰä²¹⁴⁻²¹ pä⁵⁵/
@@ -8888,7 +8888,7 @@ rank	word	english	ipa
 8887	一己	oneself; one	/i⁵⁵⁻⁵¹ t͡ɕi²¹⁴⁻²¹⁽⁴⁾/
 8888	哀嚎	to cry piteously; to wail	/ˀaɪ̯⁵⁵ xɑʊ̯³⁵/
 8889	研究院	research institute	/jɛn³⁵ t͡ɕi̯oʊ̯⁵⁵ ɥɛn⁵¹/
-8890	場景	scene; scenario; setting	/ʈ͡ʂʰɑŋ³⁵ t͡ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
+8890	場景	scene; scenario; setting	/ʈ͡ʂʰɑŋ²¹⁴⁻³⁵ t͡ɕiŋ²¹⁴⁻²¹⁽⁴⁾/
 8891	牛郎	male prostitute; host	/ni̯oʊ̯³⁵ lɑŋ³⁵/
 8892	滴水	to drip	/ti⁵⁵ ʂu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 8893	鼻血	nosebleed	/pi³⁵ ɕy̯ɛ⁵¹/
@@ -8900,7 +8900,7 @@ rank	word	english	ipa
 8899	有血有肉	true to life; vivid	/joʊ̯²¹⁴⁻²¹ ɕy̯ɛ⁵¹ joʊ̯²¹⁴⁻²¹ ɻoʊ̯⁵¹/
 8900	無知	to be ignorant	/u³⁵ ʈ͡ʂɻ̩⁵⁵/
 8901	傳達	to convey; to pass on; to communicate	/ʈ͡ʂʰu̯än³⁵ tä³⁵/
-8902	腋下	armpit; underarm	/i̯ɛ⁵¹ ɕi̯a⁵¹/
+8902	腋下	armpit; underarm	/jɛ⁵¹⁻⁵³ ɕi̯ä⁵¹/
 8903	重振	to revitalize; to restore	/ʈ͡ʂʰʊŋ³⁵ ʈ͡ʂən⁵¹/
 8904	鬼神	ghosts and spirits; supernatural beings	/ku̯eɪ̯²¹⁴⁻²¹ ʂən³⁵/
 8905	對待	to treat; to approach; to handle	/tu̯eɪ̯⁵¹⁻⁵³ taɪ̯⁵¹/
@@ -8965,7 +8965,7 @@ rank	word	english	ipa
 8964	天平	balance; scales	/tʰi̯ɛn⁵⁵ pʰiŋ³⁵/
 8965	自大狂	megalomania; egomania; delusion of grandeur	/t͡sɹ̩⁵¹⁻⁵³ tä⁵¹ kʰu̯ɑŋ³⁵/
 8966	私有	to be privately owned; to be private	/sɹ̩⁵⁵ joʊ̯²¹⁴⁻²¹⁽⁴⁾/
-8967	播放器	player	/pu̯ɔ⁵⁵ fɑŋ⁵¹ t͡ɕʰi⁵¹/
+8967	播放器	player	/pu̯ɔ⁵⁵ fɑŋ⁵¹⁻⁵³ t͡ɕʰi⁵¹/
 8968	私家	private; not open to public	/sɹ̩⁵⁵ t͡ɕi̯ä⁵⁵/
 8969	公海	high seas; international waters	/kʊŋ⁵⁵ xaɪ̯²¹⁴⁻²¹⁽⁴⁾/
 8970	線路	circuit; line	/ɕi̯ɛn⁵¹⁻⁵³ lu⁵¹/
@@ -9005,7 +9005,7 @@ rank	word	english	ipa
 9004	行善	to do good deeds	/ɕiŋ³⁵ ʂän⁵¹/
 9005	呼喚	to call; to shout to; to try to wake up	/xu⁵⁵ xu̯än⁵¹/
 9006	狩獵	to hunt	/ʂoʊ̯⁵¹⁻⁵³ li̯ɛ⁵¹/
-9007	球場	field; ground; court; pitch; ballpark	/t͡ɕʰi̯ɤʊ̯ɻʷ³⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
+9007	球場	field; ground; court; pitch; ballpark	/t͡ɕʰi̯oʊ̯³⁵ ʈ͡ʂʰɑŋ²¹⁴⁻²¹⁽⁴⁾/
 9008	引退	to retire from office	/in²¹⁴⁻²¹ tʰu̯eɪ̯⁵¹/
 9009	憲法	constitution	/ɕi̯ɛn⁵¹ fä²¹⁴⁻²¹⁽⁴⁾/
 9010	雪上加霜	to make a bad situation worse; to add insult to injury; to…	/ɕy̯ɛ²¹⁴⁻²¹ ʂɑŋ⁵¹ t͡ɕi̯ä⁵⁵ ʂu̯ɑŋ⁵⁵/
@@ -9107,7 +9107,7 @@ rank	word	english	ipa
 9106	純潔	pure; honest; innocent; simple	/ʈ͡ʂʰu̯ən³⁵ t͡ɕi̯ɛ³⁵/
 9107	宏大	grand; vast; magnificent; ambitious	/xʊŋ³⁵ tä⁵¹/
 9108	挪用	to embezzle; to misappropriate	/nu̯ɔ³⁵ jʊŋ⁵¹/
-9109	場合	occasion; situation; setting; place	/ʈ͡ʂʰɑŋ³⁵ xɤ³⁵/
+9109	場合	occasion; situation; setting; place	/ʈ͡ʂʰɑŋ²¹⁴⁻²¹ xɤ³⁵/
 9110	特派	to specially appoint someone	/tʰɤ⁵¹⁻⁵³ pʰaɪ̯⁵¹/
 9111	老妹	younger sister	/lɑʊ̯²¹⁴⁻²¹ meɪ̯⁵¹/
 9112	防腐	having preservative properties; tending to preserve;…	/fɑŋ³⁵ fu²¹⁴⁻²¹⁽⁴⁾/
@@ -9150,7 +9150,7 @@ rank	word	english	ipa
 9149	心力	mental effort	/ɕin⁵⁵ li⁵¹/
 9150	起飛	to take off; to depart	/t͡ɕʰi²¹⁴⁻²¹ feɪ̯⁵⁵/
 9151	唾沫	saliva; spittle	/tʰu̯ɔ⁵¹ mu̯ɔ¹/
-9152	七仔	7-Eleven	/t͡ɕʰi⁵⁵ t͡sɹ̩²¹⁴/
+9152	七仔	7-Eleven	/t͡ɕʰi⁵⁵ t͡saɪ̯²¹⁴/
 9153	出生日期	date of birth; birthdate; birthday	/ʈ͡ʂʰu⁵⁵ ʂɤŋ⁵⁵ ɻ̩⁵¹ t͡ɕʰi⁵⁵/
 9154	肌肉男	muscleman	/t͡ɕi⁵⁵ ɻoʊ̯⁵¹ nän³⁵/
 9155	拖拉	to pull; to drag	/tʰu̯ɔ⁵⁵ lä⁵⁵/
@@ -9217,7 +9217,7 @@ rank	word	english	ipa
 9216	網球	tennis	/wɑŋ²¹⁴⁻²¹ t͡ɕʰi̯oʊ̯³⁵/
 9217	項鏈	necklace	/ɕi̯ɑŋ⁵¹⁻⁵³ li̯ɛn⁵¹/
 9218	拜倒	to prostrate oneself; to grovel to	/paɪ̯⁵¹ tɑʊ̯²¹⁴⁻²¹⁽⁴⁾/
-9219	千禧年	a year at the turn of the millennium, especially the year…	/t͡ɕʰi̯ɛn⁵⁵ ɕin²¹⁴ i̯ɛn³⁵/
+9219	千禧年	a year at the turn of the millennium, especially the year…	/t͡ɕʰi̯ɛn⁵⁵ ɕi²¹⁴⁻²¹ ni̯ɛn³⁵/
 9220	落日	setting sun	/lu̯ɔ⁵¹⁻⁵³ ɻ̩⁵¹/
 9221	替死鬼	scapegoat	/tʰi⁵¹ sɹ̩²¹⁴⁻³⁵ ku̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 9222	義務	compulsory; mandatory	/i⁵¹⁻⁵³ u⁵¹/
@@ -9244,7 +9244,7 @@ rank	word	english	ipa
 9243	怯懦	timid; cowardly; overcautious	/t͡ɕʰi̯ɛ⁵¹⁻⁵³ nu̯ɔ⁵¹/
 9244	安全帽	safety helmet; hard hat; head protection	/ˀän⁵⁵ t͡ɕʰy̯ɛn³⁵ mɑʊ̯⁵¹/
 9245	黑豹	black panther	/xeɪ̯⁵⁵ pɑʊ̯⁵¹/
-9246	修指甲	to manicure; to trim fingernails	/ɕi̯oʊ̯⁵⁵ ʈ͡ʂɻ̩⁵⁵ d͡ʑ̥i̯ä²/
+9246	修指甲	to manicure; to trim fingernails	/ɕi̯oʊ̯⁵⁵ ʈ͡ʂɻ̩²¹⁴ d͡ʑ̥i̯ä⁴/
 9247	高射炮	anti-aircraft artillery; triple A	/kɑʊ̯⁵⁵ ʂɤ⁵¹⁻⁵³ pʰɑʊ̯⁵¹/
 9248	珍貴	precious; cherished; valuable; rare; treasured	/ʈ͡ʂən⁵⁵ ku̯eɪ̯⁵¹/
 9249	記起	to recall; to recollect	/t͡ɕi⁵¹ t͡ɕʰi²¹⁴⁻²¹⁽⁴⁾/
@@ -9349,7 +9349,7 @@ rank	word	english	ipa
 9348	活該	to serve someone right; to have gotten what's coming to one	/xu̯ɔ³⁵ kaɪ̯⁵⁵/
 9349	特首	chief executive	/tʰɤ⁵¹ ʂoʊ̯²¹⁴⁻²¹⁽⁴⁾/
 9350	直立	to stand straight; to stand erect; to stand upright	/ʈ͡ʂɻ̩³⁵ li⁵¹/
-9351	乳液	lotion; emollient	/ʐu²¹⁴ i̯ɛ⁵¹/
+9351	乳液	lotion; emollient	/ɻu²¹⁴⁻²¹ jɛ⁵¹/
 9352	淘金	to pan for gold	/tʰɑʊ̯³⁵ t͡ɕin⁵⁵/
 9353	享福	to enjoy a happy life; to live comfortably; to enjoy…	/ɕi̯ɑŋ²¹⁴⁻²¹ fu³⁵/
 9354	糖果店	sweet shop; candy store	/tʰɑŋ³⁵ ku̯ɔ²¹⁴⁻²¹ ti̯ɛn⁵¹/
@@ -9405,7 +9405,7 @@ rank	word	english	ipa
 9404	人工智慧	artificial intelligence	/ɻən³⁵ kʊŋ⁵⁵ ʈ͡ʂɻ̩⁵¹⁻⁵³ xu̯eɪ̯⁵¹/
 9405	面膜	facial mask; masque	/mi̯ɛn⁵¹ mu̯ɔ³⁵/
 9406	戰勝	to defeat; to vanquish; to overcome; to prevail; to…	/ʈ͡ʂän⁵¹⁻⁵³ ʂɤŋ⁵¹/
-9407	著要	alternative form of 著愛 /着爱	/ʈ͡ʂu̯ɔ³⁵ i̯ɑʊ̯⁵⁵/
+9407	著要	alternative form of 著愛 /着爱	/ʈ͡ʂu⁵¹ i̯ɑʊ̯⁵¹/
 9408	香甜	fragrant and sweet	/ɕi̯ɑŋ⁵⁵ tʰi̯ɛn³⁵/
 9409	黑影	dark shadow; shadow	/xeɪ̯⁵⁵ iŋ²¹⁴⁻²¹⁽⁴⁾/
 9410	水道	canal; ditch	/ʂu̯eɪ̯²¹⁴⁻²¹ tɑʊ̯⁵¹/
@@ -9424,7 +9424,7 @@ rank	word	english	ipa
 9423	沙嘴	spit, sandspit	/ʂä⁵⁵ t͡su̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
 9424	掉包	alternative form of 調包 /调包	/ti̯ɑʊ̯⁵¹ pɑʊ̯⁵⁵/
 9425	見證	to bear witness; to witness	/t͡ɕi̯ɛn⁵¹⁻⁵³ ʈ͡ʂɤŋ⁵¹/
-9426	乳腺癌	breast cancer	/ʐu²¹⁴ ɕi̯ɛn⁵¹ aɪ̯³⁵/
+9426	乳腺癌	breast cancer	/ɻu²¹⁴⁻²¹ ɕi̯ɛn⁵¹ ˀaɪ̯³⁵/
 9427	當真	truly; indeed	/tɑŋ⁵¹ ʈ͡ʂən⁵⁵/
 9428	生事	to make trouble; to create a disturbance	/ʂɤŋ⁵⁵ ʂɻ̩⁵¹/
 9429	招生	to recruit students; to admit students	/ʈ͡ʂɑʊ̯⁵⁵ ʂɤŋ⁵⁵/
@@ -9466,7 +9466,7 @@ rank	word	english	ipa
 9465	意願	wish; desire; volition; aspiration	/i⁵¹⁻⁵³ ɥɛn⁵¹/
 9466	租客	tenant; leaseholder; occupant	/t͡su⁵⁵ kʰɤ⁵¹/
 9467	唆使	to instigate; to abet; to incite	/su̯ɔ⁵⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
-9468	盥洗室	washroom; bathroom; lavatory; toilet	/ku̯än⁵¹ ɕi²¹⁴⁻³⁵ ʂɻ̩²¹⁴⁻²¹⁽⁴⁾/
+9468	盥洗室	washroom; bathroom; lavatory; toilet	/ku̯än⁵¹ ɕi²¹⁴⁻²¹ ʂɻ̩⁵¹/
 9469	世間	this world; the human world; the world of mortals	/ʂɻ̩⁵¹ t͡ɕi̯ɛn⁵⁵/
 9470	施以	to give; to render	/ʂɻ̩⁵⁵ i²¹⁴⁻²¹⁽⁴⁾/
 9471	肇事者	culprit	/ʈ͡ʂɑʊ̯⁵¹⁻⁵³ ʂɻ̩⁵¹ ʈ͡ʂɤ²¹⁴⁻²¹⁽⁴⁾/
@@ -9495,7 +9495,7 @@ rank	word	english	ipa
 9494	名校	famous school	/miŋ³⁵ ɕi̯ɑʊ̯⁵¹/
 9495	下肚	to enter the stomach; to be gulped down	/ɕi̯ä⁵¹⁻⁵³ tu⁵¹/
 9496	跛子	lame person; cripple	/pu̯ɔ²¹⁴ d͡z̥ɹ̩⁴/
-9497	半夜三更	late at night; depths of night; midnight hours	/pän⁵¹⁻⁵³ jɛ⁵¹ sän⁵⁵ t͡ɕiŋ⁵⁵/
+9497	半夜三更	late at night; depths of night; midnight hours	/pän⁵¹⁻⁵³ jɛ⁵¹ sän⁵⁵ kɤŋ⁵⁵/
 9498	木炭	charcoal	/mu⁵¹⁻⁵³ tʰän⁵¹/
 9499	渾身	completely	/xu̯ən³⁵ ʂən⁵⁵/
 9500	入迷	to be fascinated by; to be obsessed with; to be enchanted by	/ɻu⁵¹ mi³⁵/
@@ -9556,7 +9556,7 @@ rank	word	english	ipa
 9555	氏族	clan	/ʂɻ̩⁵¹ t͡su³⁵/
 9556	一絲	a tiny bit	/i⁵⁵⁻⁵¹ sɹ̩⁵⁵/
 9557	懺悔	to make confession	/ʈ͡ʂʰän⁵¹ xu̯eɪ̯²¹⁴⁻²¹⁽⁴⁾/
-9558	場面	scene	/ʈ͡ʂʰɑŋ³⁵ mi̯ɛn⁵¹/
+9558	場面	scene	/ʈ͡ʂʰɑŋ²¹⁴⁻²¹ mi̯ɛn⁵¹/
 9559	防毒面具	gas mask	/fɑŋ³⁵ tu³⁵ mi̯ɛn⁵¹⁻⁵³ t͡ɕy⁵¹/
 9560	雨滴	raindrop	/y²¹⁴⁻²¹ ti⁵⁵/
 9561	施洗	to baptize	/ʂɻ̩⁵⁵ ɕi²¹⁴⁻²¹⁽⁴⁾/
@@ -9598,7 +9598,7 @@ rank	word	english	ipa
 9597	裝飾	to decorate	/ʈ͡ʂu̯ɑŋ⁵⁵ ʂɻ̩⁵¹/
 9598	不育	to be infertile; to be sterile	/pu⁵¹⁻³⁵ y⁵¹/
 9599	急件	urgent document or dispatch	/t͡ɕi³⁵ t͡ɕi̯ɛn⁵¹/
-9600	熱鬧	bustling; lively; filled with activity	/ʐən⁵¹ ɑʊ̯/
+9600	熱鬧	bustling; lively; filled with activity	/ɻɤ⁵¹ nɑʊ̯¹/
 9601	晨曦	first rays of morning sun	/ʈ͡ʂʰən³⁵ ɕi⁵⁵/
 9602	麻麻	not so good; just so-so	/mä³⁵ mä³⁵/
 9603	令郎	your son	/liŋ⁵¹ lɑŋ³⁵/
@@ -9774,7 +9774,7 @@ rank	word	english	ipa
 9773	大一	first year of university	/tä⁵¹⁻⁵³ i⁵⁵⁻⁵¹/
 9774	影集	photograph album	/iŋ²¹⁴⁻²¹ t͡ɕi³⁵/
 9775	硬化	to harden; to become hard	/iŋ⁵¹⁻⁵³ xu̯ä⁵¹/
-9776	作坊	workshop; atelier	/t͡su̯ɔ⁵⁵ fɑŋ/
+9776	作坊	workshop; atelier	/t͡su̯ɔ⁵⁵ fɑŋ²/
 9777	設施	facility; installation; structure	/ʂɤ⁵¹ ʂɻ̩⁵⁵/
 9778	撬棍	crowbar	/t͡ɕʰi̯ɑʊ̯⁵¹⁻⁵³ ku̯ən⁵¹/
 9779	原名	original name; former name	/ɥɛn³⁵ miŋ³⁵/
