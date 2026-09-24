@@ -1,8 +1,12 @@
 <script lang="ts">
 	/** A plan or a process as a numbered path, for how-tos and day-by-day plans. */
 	type Step = { title: string; text?: string; label?: string };
-	export let steps: Step[];
-	export let title = '';
+	interface Props {
+		steps: Step[];
+		title?: string;
+	}
+
+	let { steps, title = '' }: Props = $props();
 </script>
 
 <figure class="steps">

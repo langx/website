@@ -2,6 +2,11 @@
 	import { onMount } from 'svelte';
 	import { initAnalytics } from '$lib/analytics';
 	import '$lib/scss/global.scss';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 
 	/**
 	 * Analytics starts here rather than in `+layout.ts`, which is where
@@ -20,4 +25,4 @@
 	onMount(initAnalytics);
 </script>
 
-<slot />
+{@render children?.()}

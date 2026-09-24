@@ -6,17 +6,22 @@
 	 * a table. Keep it to the few rows a reader compares at a glance (≤ 10).
 	 */
 	type Row = { label: string; value: number; note?: string; highlight?: boolean };
-	export let title: string;
-	export let data: Row[];
-	/** Printed after each value: "hours", "%", "words". */
-	export let unit = '';
-	/** Where the numbers come from. Shown under the chart; say it plainly. */
-	export let source = '';
-	/** Fix the scale when several charts should share one; defaults to the largest value. */
-	export let max: number | undefined = undefined;
+
+	interface Props {
+		title: string;
+		data: Row[];
+		/** Printed after each value: "hours", "%", "words". */
+		unit?: string;
+		/** Where the numbers come from. Shown under the chart; say it plainly. */
+		source?: string;
+		/** Fix the scale when several charts should share one; defaults to the largest value. */
+		max?: number | undefined;
+	}
+
+	let { title, data, unit = '', source = '', max = undefined }: Props = $props();
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: top = max ?? Math.max(...data.map((d) => d.value));
+	let top = $derived(max ?? Math.max(...data.map((d) => d.value)));
 	const fmt = (v: number) => `${nf.format(v)}${unit ? (unit === '%' ? '%' : ` ${unit}`) : ''}`;
 </script>
 

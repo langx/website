@@ -5,8 +5,8 @@
 	const next: Record<string, string> = { auto: 'light', light: 'dark', dark: 'auto' };
 	const labels: Record<string, string> = { auto: 'system', light: 'light', dark: 'dark' };
 
-	$: current = $theme ?? 'auto';
-	$: label = `Theme: ${labels[current]}. Switch to ${labels[next[current]]}`;
+	let current = $derived($theme ?? 'auto');
+	let label = $derived(`Theme: ${labels[current]}. Switch to ${labels[next[current]]}`);
 </script>
 
 <noscript>
@@ -23,7 +23,7 @@
 	title={label}
 	aria-label={label}
 	data-theme={current}
-	on:click={() => theme.set(next[current])}
+	onclick={() => theme.set(next[current])}
 >
 	<svg
 		viewBox="0 0 24 24"
@@ -60,7 +60,9 @@
 		background: var(--color--surface);
 		color: var(--color--text);
 		cursor: pointer;
-		transition: background-color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
+		transition:
+			background-color var(--dur-fast) ease,
+			transform var(--dur-press) var(--ease-out);
 
 		&:active {
 			transform: scale(0.95);
@@ -82,7 +84,9 @@
 	.sun,
 	.moon {
 		transform-origin: 12px 12px;
-		transition: opacity var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
+		transition:
+			opacity var(--dur-fast) ease,
+			transform var(--dur-fast) var(--ease-out);
 	}
 
 	.moon {
@@ -132,7 +136,9 @@
 		justify-content: center;
 		opacity: 0;
 		transform: scale(0.8);
-		transition: opacity var(--dur-fast) ease, transform var(--dur-fast) var(--ease-out);
+		transition:
+			opacity var(--dur-fast) ease,
+			transform var(--dur-fast) var(--ease-out);
 	}
 
 	[data-theme='auto'] .auto {

@@ -19,11 +19,11 @@
 	type Round = { word: string; rank: number; ipa: string; answer: string; options: string[] };
 
 	let pool: [string, string, number, string?][] = [];
-	let rounds: Round[] = [];
-	let at = 0;
-	let picked: (string | null)[] = [];
-	let loaded = false;
-	let copied = '';
+	let rounds: Round[] = $state([]);
+	let at = $state(0);
+	let picked: (string | null)[] = $state([]);
+	let loaded = $state(false);
+	let copied = $state('');
 
 	/** UTC, so the same ten words are everyone's puzzle for the day. */
 	const today = new Date().toISOString().slice(0, 10);
@@ -84,12 +84,14 @@
 		if (at < rounds.length - 1) at++;
 	}
 
-	$: answered = picked.filter((p) => p !== null).length;
-	$: score = rounds.filter((r, i) => picked[i] === r.answer).length;
-	$: finished = rounds.length > 0 && answered === rounds.length;
-	$: steps = rounds.map((r, i) =>
-		picked[i] === null ? (i === at ? 'now' : null) : picked[i] === r.answer ? 'right' : 'wrong'
-	) as ('right' | 'wrong' | 'now' | null)[];
+	let answered = $derived(picked.filter((p) => p !== null).length);
+	let score = $derived(rounds.filter((r, i) => picked[i] === r.answer).length);
+	let finished = $derived(rounds.length > 0 && answered === rounds.length);
+	let steps = $derived(
+		rounds.map((r, i) =>
+			picked[i] === null ? (i === at ? 'now' : null) : picked[i] === r.answer ? 'right' : 'wrong'
+		) as ('right' | 'wrong' | 'now' | null)[]
+	);
 
 	async function copyResult() {
 		const grid = rounds.map((r, i) => (picked[i] === r.answer ? '🟩' : '🟥')).join('');
@@ -159,7 +161,7 @@
 			</ul>
 
 			<div class="after">
-				<button type="button" class="share" on:click={copyResult}>
+				<button type="button" class="share" onclick={copyResult}>
 					<svg viewBox="0 0 24 24" aria-hidden="true">
 						<path d="M12 15V4" /><path d="m8 8 4-4 4 4" />
 						<path d="M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5" />
@@ -200,7 +202,7 @@
 							class:right={picked[at] !== null && code === r.answer}
 							class:wrong={picked[at] === code && code !== r.answer}
 							disabled={picked[at] !== null}
-							on:click={() => choose(code)}
+							onclick={() => choose(code)}
 						>
 							<ScriptDisc nativeName={l.nativeName} code={l.code} size={30} />
 							{l.name}
@@ -218,7 +220,7 @@
 
 		{#if picked[at] !== null}
 			<div class="nextwrap">
-				<button type="button" class="next" on:click={next}>
+				<button type="button" class="next" onclick={next}>
 					{at === rounds.length - 1 ? 'See the result' : 'Next word'}
 				</button>
 			</div>
@@ -295,7 +297,9 @@
 			font-size: 1rem;
 			text-align: left;
 			cursor: pointer;
-			transition: border-color var(--dur-fast) ease, background-color var(--dur-fast) ease;
+			transition:
+				border-color var(--dur-fast) ease,
+				background-color var(--dur-fast) ease;
 
 			&:disabled {
 				cursor: default;

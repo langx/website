@@ -3,14 +3,19 @@
 	import { reveal } from '$lib/utils/reveal';
 	import { faqObjects, type FaqObject } from '$lib/data/faq';
 
-	/** The homepage questions unless a page brings its own; ids must be unique on the page. */
-	export let items: FaqObject[] = faqObjects;
-	export let eyebrow = 'FAQ';
-	export let title = 'Questions';
+	interface Props {
+		/** The homepage questions unless a page brings its own; ids must be unique on the page. */
+		items?: FaqObject[];
+		eyebrow?: string;
+		title?: string;
+	}
+
+	let { items = faqObjects, eyebrow = 'FAQ', title = 'Questions' }: Props = $props();
 
 	// The first answer is open on arrival, so the list reads as answers, not a
 	// row of closed doors.
-	let openId: number | null = items[0]?.id ?? null;
+	// svelte-ignore state_referenced_locally
+	let openId: number | null = $state(items[0]?.id ?? null);
 
 	const toggle = (id: number) => (openId = openId === id ? null : id);
 </script>
@@ -30,7 +35,7 @@
 						id="faq-button-{item.id}"
 						aria-expanded={openId === item.id}
 						aria-controls="faq-panel-{item.id}"
-						on:click={() => toggle(item.id)}
+						onclick={() => toggle(item.id)}
 					>
 						<span class="title">{item.title}</span>
 						<span class="chevron" aria-hidden="true"><UiIcon name="chevron-down" size={20} /></span>
@@ -128,7 +133,9 @@
 		flex: 0 0 auto;
 		color: var(--color--text-tertiary);
 		display: inline-flex;
-		transition: transform var(--dur-fast) var(--ease-out), color var(--dur-fast) ease;
+		transition:
+			transform var(--dur-fast) var(--ease-out),
+			color var(--dur-fast) ease;
 	}
 
 	.open .chevron {

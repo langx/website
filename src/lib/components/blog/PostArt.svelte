@@ -20,24 +20,30 @@
 	import { appIcon } from '$lib/data/app-icons';
 	import type { BlogPost, PostScript } from '$lib/utils/types';
 
-	export let post: BlogPost;
-	/** The script an alphabet guide teaches, from the layout's server load. */
-	export let script: PostScript | undefined = undefined;
+	interface Props {
+		post: BlogPost;
+		/** The script an alphabet guide teaches, from the layout's server load. */
+		script?: PostScript | undefined;
+	}
+
+	let { post, script = undefined }: Props = $props();
 
 	/** The blog index's own grouping: these are notes from the team. */
 	const TEAM = ['LangX v2', 'Announcement', 'Transparency', 'Cloud Storage', 'Reddit'];
 
-	$: tags = post.tags ?? [];
-	$: apps = post.apps ?? [];
-	$: kind = script
-		? 'alphabet'
-		: tags.some((t) => TEAM.includes(t))
-		? 'team'
-		: tags.includes('Comparison') && apps.length
-		? 'versus'
-		: tags.includes('Vocabulary')
-		? 'languages'
-		: 'chat';
+	let tags = $derived(post.tags ?? []);
+	let apps = $derived(post.apps ?? []);
+	let kind = $derived(
+		script
+			? 'alphabet'
+			: tags.some((t) => TEAM.includes(t))
+				? 'team'
+				: tags.includes('Comparison') && apps.length
+					? 'versus'
+					: tags.includes('Vocabulary')
+						? 'languages'
+						: 'chat'
+	);
 
 	/**
 	 * Who faces whom, from the title first:
@@ -46,12 +52,14 @@
 	 * - otherwise a roundup — LangX and the apps the body keeps returning to,
 	 *   six at most, which is what a phone fits in two rows.
 	 */
-	$: sides = (() => {
-		const titled = apps.filter((a) => post.title.includes(a));
-		if (titled.length === 1) return ['LangX', titled[0]];
-		if (titled.length === 2 && !post.title.includes('LangX')) return titled;
-		return ['LangX', ...apps].slice(0, 6);
-	})();
+	let sides = $derived(
+		(() => {
+			const titled = apps.filter((a) => post.title.includes(a));
+			if (titled.length === 1) return ['LangX', titled[0]];
+			if (titled.length === 2 && !post.title.includes('LangX')) return titled;
+			return ['LangX', ...apps].slice(0, 6);
+		})()
+	);
 
 	const initials = (name: string) =>
 		name

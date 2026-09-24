@@ -5,7 +5,7 @@
 	// people who dismissed the previous one.
 	const STORAGE_KEY = 'announcement-dismissed-v2-launch';
 
-	let show = false;
+	let show = $state(false);
 
 	onMount(() => {
 		if (localStorage.getItem(STORAGE_KEY) !== 'true') {
@@ -28,8 +28,8 @@
 				that changes in v2.
 			</p>
 			<div class="actions">
-				<a href="/welcome-back" on:click={dismiss}>Read what changed</a>
-				<button type="button" on:click={dismiss} aria-label="Dismiss">Close</button>
+				<a href="/welcome-back" onclick={dismiss}>Read what changed</a>
+				<button type="button" onclick={dismiss} aria-label="Dismiss">Close</button>
 			</div>
 		</div>
 	</div>

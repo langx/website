@@ -20,20 +20,24 @@
 		ipaB: string;
 	};
 
-	export let data: {
-		pair: LanguagePair;
-		a: WordListMeta;
-		b: WordListMeta;
-		rows: Row[];
-		total: number;
-		shown: number;
-		others: LanguagePair[];
-	};
-	$: ({ pair, a, b, rows, total, shown, others } = data);
+	interface Props {
+		data: {
+			pair: LanguagePair;
+			a: WordListMeta;
+			b: WordListMeta;
+			rows: Row[];
+			total: number;
+			shown: number;
+			others: LanguagePair[];
+		};
+	}
+
+	let { data }: Props = $props();
+	let { pair, a, b, rows, total, shown, others } = $derived(data);
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: path = `/tools/similar/${pair.slug}`;
-	$: title = `${a.name} and ${b.name}: ${nf.format(total)} words that are the same`;
+	let path = $derived(`/tools/similar/${pair.slug}`);
+	let title = $derived(`${a.name} and ${b.name}: ${nf.format(total)} words that are the same`);
 
 	const ld = JSON.stringify({
 		'@context': 'https://schema.org',

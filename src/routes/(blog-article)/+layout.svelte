@@ -13,15 +13,20 @@
 	import PostArt from '$lib/components/blog/PostArt.svelte';
 	import PostToc from '$lib/components/blog/PostToc.svelte';
 
-	export let data: { post: BlogPost; script?: PostScript };
-	$: ({ post, script } = data);
+	interface Props {
+		data: { post: BlogPost; script?: PostScript };
+		children?: import('svelte').Snippet;
+	}
+
+	let { data, children }: Props = $props();
+	let { post, script } = $derived(data);
 
 	// Rebuilt from scratch per post: appending to the previous value carried
 	// one post's keywords into the next on client-side navigation.
-	$: metaKeywords = [...new Set([...(post?.keywords ?? []), ...(post?.tags ?? []), ...keywords])];
+	let metaKeywords = $derived([...new Set([...(post?.keywords ?? []), ...(post?.tags ?? []), ...keywords])]);
 
-	$: url = post ? `${siteBaseUrl}/${post.slug}` : siteBaseUrl;
-	$: ld = post
+	let url = $derived(post ? `${siteBaseUrl}/${post.slug}` : siteBaseUrl);
+	let ld = $derived(post
 		? {
 				'@context': 'https://schema.org',
 				'@graph': [
@@ -53,7 +58,7 @@
 					}
 				]
 		  }
-		: {};
+		: {});
 </script>
 
 {#if post}
@@ -132,7 +137,7 @@
 				</aside>
 			{/if}
 			<div class="content">
-				<slot />
+				{@render children?.()}
 			</div>
 		</div>
 	</article>

@@ -1,14 +1,18 @@
 <script lang="ts">
-	/**
-	 * A word's pronunciation in the International Phonetic Alphabet, brackets
-	 * and all, as `scripts/wordlists/build-ipa.ts` writes it: /ˈkasa/ is
-	 * phonemic, [ˈka.sa] phonetic. Renders nothing for a word without one.
-	 */
-	export let ipa: string | null | undefined;
-	/** On its own line under the word, rather than beside it. */
-	export let block = false;
-	/** Beside a word set as a heading, where the usual size would read as a footnote. */
-	export let large = false;
+	interface Props {
+		/**
+		 * A word's pronunciation in the International Phonetic Alphabet, brackets
+		 * and all, as `scripts/wordlists/build-ipa.ts` writes it: /ˈkasa/ is
+		 * phonemic, [ˈka.sa] phonetic. Renders nothing for a word without one.
+		 */
+		ipa: string | null | undefined;
+		/** On its own line under the word, rather than beside it. */
+		block?: boolean;
+		/** Beside a word set as a heading, where the usual size would read as a footnote. */
+		large?: boolean;
+	}
+
+	let { ipa, block = false, large = false }: Props = $props();
 </script>
 
 {#if ipa}

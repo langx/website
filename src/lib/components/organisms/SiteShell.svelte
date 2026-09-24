@@ -5,16 +5,28 @@
 	import AnnouncementModal from '$lib/components/molecules/AnnouncementModal.svelte';
 	import { description as defaultDescription } from '$lib/data/meta';
 
-	export let title: string | null = null;
-	export let description: string = defaultDescription;
-	export let path = '';
-	export let announce = false;
-	/**
-	 * Set false where each page supplies its own <Seo>. Two <Seo> instances
-	 * emit two canonicals, and the layout's — pointing at the homepage — was
-	 * winning on /blog.
-	 */
-	export let seo = true;
+	interface Props {
+		title?: string | null;
+		description?: string;
+		path?: string;
+		announce?: boolean;
+		/**
+		 * Set false where each page supplies its own <Seo>. Two <Seo> instances
+		 * emit two canonicals, and the layout's — pointing at the homepage — was
+		 * winning on /blog.
+		 */
+		seo?: boolean;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		title = null,
+		description = defaultDescription,
+		path = '',
+		announce = false,
+		seo = true,
+		children
+	}: Props = $props();
 </script>
 
 {#if seo}
@@ -24,7 +36,7 @@
 <Header />
 
 <main id="main">
-	<slot />
+	{@render children?.()}
 </main>
 
 <Footer />

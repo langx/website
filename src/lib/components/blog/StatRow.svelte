@@ -4,7 +4,11 @@
 	 * a section; every one needs its source in the surrounding text.
 	 */
 	type Stat = { value: string; label: string };
-	export let stats: Stat[];
+	interface Props {
+		stats: Stat[];
+	}
+
+	let { stats }: Props = $props();
 </script>
 
 <div class="stats" role="list">

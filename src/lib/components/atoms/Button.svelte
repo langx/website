@@ -1,41 +1,62 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
 	import { HttpRegex } from '$lib/utils/regex';
 
-	/**
-	 * `primary` is the yellow committing action — one per screen.
-	 * `secondary` is the outlined block, `dark` the ink one (the send button),
-	 * `ghost` a blue text action with no chrome.
-	 */
-	export let variant: 'primary' | 'secondary' | 'dark' | 'ghost' = 'primary';
-	export let size: 'sm' | 'md' | 'lg' = 'md';
-	export let href: string | undefined = undefined;
-	export let block = false;
-	export let type: 'button' | 'submit' = 'button';
-	export let disabled = false;
+	interface Props {
+		/**
+		 * `primary` is the yellow committing action — one per screen.
+		 * `secondary` is the outlined block, `dark` the ink one (the send button),
+		 * `ghost` a blue text action with no chrome.
+		 */
+		variant?: 'primary' | 'secondary' | 'dark' | 'ghost';
+		size?: 'sm' | 'md' | 'lg';
+		href?: string;
+		block?: boolean;
+		type?: 'button' | 'submit';
+		disabled?: boolean;
+		/** Default to a new tab, without the opener, for an external href. */
+		target?: string;
+		rel?: string;
+		icon?: Snippet;
+		children?: Snippet;
+		// Anything else (onclick, aria-*, data-*) goes on the element.
+		[key: string]: unknown;
+	}
 
-	const isExternalLink = !!href && HttpRegex.test(href);
-	export let target: string | undefined = isExternalLink ? '_blank' : undefined;
-	export let rel: string | undefined = isExternalLink ? 'noopener noreferrer' : undefined;
+	let {
+		variant = 'primary',
+		size = 'md',
+		href,
+		block = false,
+		type = 'button',
+		disabled = false,
+		target,
+		rel,
+		icon,
+		children,
+		...rest
+	}: Props = $props();
+
+	const isExternalLink = $derived(!!href && HttpRegex.test(href));
 </script>
 
 {#if href}
 	<a
 		{href}
-		{target}
-		{rel}
+		target={target ?? (isExternalLink ? '_blank' : undefined)}
+		rel={rel ?? (isExternalLink ? 'noopener noreferrer' : undefined)}
 		class="btn {variant} {size}"
 		class:block
 		data-sveltekit-preload-data
-		on:click
-		{...$$restProps}
+		{...rest}
 	>
-		{#if $$slots.icon}<span class="icon"><slot name="icon" /></span>{/if}
-		<slot />
+		{#if icon}<span class="icon">{@render icon?.()}</span>{/if}
+		{@render children?.()}
 	</a>
 {:else}
-	<button {type} {disabled} class="btn {variant} {size}" class:block on:click {...$$restProps}>
-		{#if $$slots.icon}<span class="icon"><slot name="icon" /></span>{/if}
-		<slot />
+	<button {type} {disabled} class="btn {variant} {size}" class:block {...rest}>
+		{#if icon}<span class="icon">{@render icon?.()}</span>{/if}
+		{@render children?.()}
 	</button>
 {/if}
 
@@ -63,8 +84,11 @@
 		text-align: center;
 		text-wrap: balance;
 		user-select: none;
-		transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease,
-			color var(--dur-fast) ease, border-color var(--dur-fast) ease,
+		transition:
+			transform var(--dur-press) var(--ease-out),
+			background-color var(--dur-fast) ease,
+			color var(--dur-fast) ease,
+			border-color var(--dur-fast) ease,
 			box-shadow var(--dur-press) var(--ease-out);
 
 		// The press is the feedback: the interface heard you.

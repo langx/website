@@ -1,17 +1,29 @@
 <script lang="ts">
-	/**
-	 * The device from the design: 390 wide, 36px corners, a hairline edge and a
-	 * status bar. Screens inside are real HTML in the app's own sizes, so a
-	 * screen here looks like the screen in the app. Parents scale the whole
-	 * device with `--phone-zoom`.
-	 */
-	export let label: string;
-	/** `fixed` is the device height (844); `auto` hugs the content. */
-	export let height: 'fixed' | 'auto' = 'fixed';
-	export let statusBar = true;
-	export let time = '9:41';
-	/** Every screen is a demonstration; the caption says so where a visitor can read it. */
-	export let caption = 'Example screen. Names and numbers are demonstration data.';
+	interface Props {
+		/**
+		 * The device from the design: 390 wide, 36px corners, a hairline edge and a
+		 * status bar. Screens inside are real HTML in the app's own sizes, so a
+		 * screen here looks like the screen in the app. Parents scale the whole
+		 * device with `--phone-zoom`.
+		 */
+		label: string;
+		/** `fixed` is the device height (844); `auto` hugs the content. */
+		height?: 'fixed' | 'auto';
+		statusBar?: boolean;
+		time?: string;
+		/** Every screen is a demonstration; the caption says so where a visitor can read it. */
+		caption?: string;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		label,
+		height = 'fixed',
+		statusBar = true,
+		time = '9:41',
+		caption = 'Example screen. Names and numbers are demonstration data.',
+		children
+	}: Props = $props();
 </script>
 
 <figure class="device">
@@ -23,7 +35,7 @@
 			</div>
 		{/if}
 		<div class="screen">
-			<slot />
+			{@render children?.()}
 		</div>
 	</div>
 	{#if caption}

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { untrack } from 'svelte';
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import SpeakButton from '$lib/components/atoms/SpeakButton.svelte';
@@ -13,13 +14,17 @@
 
 	type Entry = { rank: number; word: string; english: string; ipa: string };
 
-	export let data: {
-		meta: WordListMeta;
-		pool: Entry[];
-		rounds: number;
-		options: number;
-	};
-	$: ({ meta, pool, rounds: ROUNDS, options: OPTIONS } = data);
+	interface Props {
+		data: {
+			meta: WordListMeta;
+			pool: Entry[];
+			rounds: number;
+			options: number;
+		};
+	}
+
+	let { data }: Props = $props();
+	let { meta, pool, rounds: ROUNDS, options: OPTIONS } = $derived(data);
 
 	const today = new Date().toISOString().slice(0, 10);
 
@@ -34,41 +39,47 @@
 
 	type Round = { word: string; rank: number; ipa: string; answer: string; options: string[] };
 
-	$: rounds = (() => {
-		const rand = rng(Math.floor(Date.parse(today) / 86_400_000) + meta.code.charCodeAt(0) * 7919);
-		const out: Round[] = [];
-		const used = new Set<number>();
-		let guard = 0;
-		while (out.length < ROUNDS && guard++ < 5000) {
-			const i = Math.floor(rand() * pool.length);
-			if (used.has(i)) continue;
-			used.add(i);
-			const entry = pool[i];
-			const options = [entry.english];
-			while (options.length < OPTIONS) {
-				const other = pool[Math.floor(rand() * pool.length)].english;
-				if (!options.includes(other)) options.push(other);
+	let rounds = $derived(
+		(() => {
+			const rand = rng(Math.floor(Date.parse(today) / 86_400_000) + meta.code.charCodeAt(0) * 7919);
+			const out: Round[] = [];
+			const used = new Set<number>();
+			let guard = 0;
+			while (out.length < ROUNDS && guard++ < 5000) {
+				const i = Math.floor(rand() * pool.length);
+				if (used.has(i)) continue;
+				used.add(i);
+				const entry = pool[i];
+				const options = [entry.english];
+				while (options.length < OPTIONS) {
+					const other = pool[Math.floor(rand() * pool.length)].english;
+					if (!options.includes(other)) options.push(other);
+				}
+				for (let k = options.length - 1; k > 0; k--) {
+					const j = Math.floor(rand() * (k + 1));
+					[options[k], options[j]] = [options[j], options[k]];
+				}
+				out.push({
+					word: entry.word,
+					rank: entry.rank,
+					ipa: entry.ipa,
+					answer: entry.english,
+					options
+				});
 			}
-			for (let k = options.length - 1; k > 0; k--) {
-				const j = Math.floor(rand() * (k + 1));
-				[options[k], options[j]] = [options[j], options[k]];
-			}
-			out.push({
-				word: entry.word,
-				rank: entry.rank,
-				ipa: entry.ipa,
-				answer: entry.english,
-				options
-			});
-		}
-		return out;
-	})();
+			return out;
+		})()
+	);
 
-	let at = 0;
-	let picked: (string | null)[] = [];
-	let copied = '';
+	let at = $state(0);
+	// One answer slot per round from the first render, the server's included,
+	// and a fresh set whenever the rounds change length.
+	let picked: (string | null)[] = $state(untrack(() => Array(rounds.length).fill(null)));
+	let copied = $state('');
 
-	$: if (rounds.length && picked.length !== rounds.length) picked = Array(rounds.length).fill(null);
+	$effect.pre(() => {
+		if (rounds.length && picked.length !== rounds.length) picked = Array(rounds.length).fill(null);
+	});
 
 	function choose(option: string) {
 		if (picked[at] !== null) return;
@@ -84,12 +95,14 @@
 		picked = Array(rounds.length).fill(null);
 	}
 
-	$: answered = picked.filter((p) => p !== null).length;
-	$: score = rounds.filter((r, i) => picked[i] === r.answer).length;
-	$: finished = rounds.length > 0 && answered === rounds.length;
-	$: steps = rounds.map((r, i) =>
-		picked[i] === null ? (i === at ? 'now' : null) : picked[i] === r.answer ? 'right' : 'wrong'
-	) as ('right' | 'wrong' | 'now' | null)[];
+	let answered = $derived(picked.filter((p) => p !== null).length);
+	let score = $derived(rounds.filter((r, i) => picked[i] === r.answer).length);
+	let finished = $derived(rounds.length > 0 && answered === rounds.length);
+	let steps = $derived(
+		rounds.map((r, i) =>
+			picked[i] === null ? (i === at ? 'now' : null) : picked[i] === r.answer ? 'right' : 'wrong'
+		) as ('right' | 'wrong' | 'now' | null)[]
+	);
 
 	async function copyResult() {
 		const grid = rounds.map((r, i) => (picked[i] === r.answer ? '🟩' : '🟥')).join('');
@@ -104,32 +117,34 @@
 		setTimeout(() => (copied = ''), 2500);
 	}
 
-	$: ld = JSON.stringify({
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
-					{
-						'@type': 'ListItem',
-						position: 2,
-						name: 'Meaning quiz',
-						item: `${siteBaseUrl}/tools/meaning-quiz`
-					},
-					{ '@type': 'ListItem', position: 3, name: meta.name }
-				]
-			}
-		]
-	});
+	let ld = $derived(
+		JSON.stringify({
+			'@context': 'https://schema.org',
+			'@graph': [
+				{
+					'@type': 'BreadcrumbList',
+					itemListElement: [
+						{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+						{
+							'@type': 'ListItem',
+							position: 2,
+							name: 'Meaning quiz',
+							item: `${siteBaseUrl}/tools/meaning-quiz`
+						},
+						{ '@type': 'ListItem', position: 3, name: meta.name }
+					]
+				}
+			]
+		})
+	);
 
 	// The angle bracket is written as an escape and never appears literally in
 	// this file: Svelte's parser scans the raw source, comments included, and
 	// treats a script tag written out in full as a real tag.
 	const LT = '\u003c';
-	$: ldScript = `${LT}script type="application/ld+json">${ld
-		.split(LT)
-		.join('\\u003c')}${LT}/script>`;
+	let ldScript = $derived(
+		`${LT}script type="application/ld+json">${ld.split(LT).join('\\u003c')}${LT}/script>`
+	);
 </script>
 
 <Seo
@@ -176,14 +191,14 @@
 			</ul>
 
 			<div class="after">
-				<button type="button" class="share" on:click={copyResult}>
+				<button type="button" class="share" onclick={copyResult}>
 					<svg viewBox="0 0 24 24" aria-hidden="true">
 						<path d="M12 15V4" /><path d="m8 8 4-4 4 4" />
 						<path d="M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5" />
 					</svg>
 					Copy result
 				</button>
-				<button type="button" class="again" on:click={again}>Try again</button>
+				<button type="button" class="again" onclick={again}>Try again</button>
 				<a class="see" href="/tools/most-common-words/{meta.slug}">See the whole list</a>
 			</div>
 			{#if copied}<p class="copied" aria-live="polite">{copied}</p>{/if}
@@ -209,7 +224,7 @@
 						class:right={picked[at] !== null && option === r.answer}
 						class:wrong={picked[at] === option && option !== r.answer}
 						disabled={picked[at] !== null}
-						on:click={() => choose(option)}
+						onclick={() => choose(option)}
 					>
 						{option}
 					</button>
@@ -225,7 +240,7 @@
 
 		{#if picked[at] !== null}
 			<div class="nextwrap">
-				<button type="button" class="next" on:click={next}>
+				<button type="button" class="next" onclick={next}>
 					{at === rounds.length - 1 ? 'See the result' : 'Next word'}
 				</button>
 			</div>
@@ -289,7 +304,9 @@
 			font-size: 1rem;
 			text-align: left;
 			cursor: pointer;
-			transition: border-color var(--dur-fast) ease, color var(--dur-fast) ease;
+			transition:
+				border-color var(--dur-fast) ease,
+				color var(--dur-fast) ease;
 
 			&:disabled {
 				cursor: default;

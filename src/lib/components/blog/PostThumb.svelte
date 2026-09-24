@@ -19,49 +19,59 @@
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 	import { signatureLetter } from '$lib/data/alphabet-guides';
 
-	export let title: string;
-	export let slug: string;
-	export let tags: string[] | undefined = undefined;
-	/** The apps the post is about, title first (see appsIn in blog-posts/utils). */
-	export let apps: string[] | undefined = undefined;
+	interface Props {
+		title: string;
+		slug: string;
+		tags?: string[] | undefined;
+		/** The apps the post is about, title first (see appsIn in blog-posts/utils). */
+		apps?: string[] | undefined;
+	}
+
+	let { title, slug, tags = undefined, apps = undefined }: Props = $props();
 
 	const TEAM = ['LangX v2', 'Announcement', 'Transparency', 'Cloud Storage', 'Reddit'];
 
 	/** A stable number per post, so the same post always draws the same way. */
 	const seed = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
 
-	$: named = COMPETITORS.map((c) => c.name).filter((n) => title.includes(n));
+	let named = $derived(COMPETITORS.map((c) => c.name).filter((n) => title.includes(n)));
 	// The slug first ("korean-alphabet-guide"), the title only as a fallback.
-	$: alphabet = /alphabet/i.test(slug)
-		? WORD_LISTS.find((l) => slug.startsWith(`${l.slug}-`)) ??
-		  WORD_LISTS.find((l) => title.includes(l.name))
-		: undefined;
+	let alphabet = $derived(
+		/alphabet/i.test(slug)
+			? (WORD_LISTS.find((l) => slug.startsWith(`${l.slug}-`)) ??
+					WORD_LISTS.find((l) => title.includes(l.name)))
+			: undefined
+	);
 
-	$: kind = tags?.some((t) => TEAM.includes(t))
-		? 'team'
-		: // "Is Tandem Safe?" is about Tandem whatever it is tagged.
-		named.length || (tags?.includes('Comparison') && apps?.length)
-		? 'versus'
-		: alphabet
-		? 'alphabet'
-		: tags?.includes('Vocabulary')
-		? 'scripts'
-		: 'people';
+	let kind = $derived(
+		tags?.some((t) => TEAM.includes(t))
+			? 'team'
+			: // "Is Tandem Safe?" is about Tandem whatever it is tagged.
+				named.length || (tags?.includes('Comparison') && apps?.length)
+				? 'versus'
+				: alphabet
+					? 'alphabet'
+					: tags?.includes('Vocabulary')
+						? 'scripts'
+						: 'people'
+	);
 
 	/**
 	 * Who is on the tile. One app named: LangX and it. Two named without LangX
 	 * ("Tandem vs HelloTalk"): those two. A roundup: LangX and the three the
 	 * post comes back to most. Only apps with an icon make it on.
 	 */
-	$: icons = (() => {
-		const pick = (list: string[]) =>
-			list.map((n) => appIcon(n)).filter((src): src is string => Boolean(src));
-		if (named.length === 1) return pick(['LangX', named[0]]);
-		if (named.length === 2 && !title.includes('LangX')) return pick(named);
-		return pick(['LangX', ...(apps ?? named)]).slice(0, 4);
-	})();
+	let icons = $derived(
+		(() => {
+			const pick = (list: string[]) =>
+				list.map((n) => appIcon(n)).filter((src): src is string => Boolean(src));
+			if (named.length === 1) return pick(['LangX', named[0]]);
+			if (named.length === 2 && !title.includes('LangX')) return pick(named);
+			return pick(['LangX', ...(apps ?? named)]).slice(0, 4);
+		})()
+	);
 
-	$: letter = alphabet ? signatureLetter(alphabet.code, alphabet.nativeName) : '';
+	let letter = $derived(alphabet ? signatureLetter(alphabet.code, alphabet.nativeName) : '');
 
 	/** Letters from eight scripts; each vocabulary post shows four of them. */
 	const SCRIPTS = [
@@ -74,11 +84,14 @@
 		{ ch: '中', lang: 'zh' },
 		{ ch: 'ა', lang: 'ka' }
 	];
-	$: scripts = [0, 1, 2, 3].map((i) => SCRIPTS[(seed(slug) + i * 3) % SCRIPTS.length]);
+	let scripts = $derived([0, 1, 2, 3].map((i) => SCRIPTS[(seed(slug) + i * 3) % SCRIPTS.length]));
 
 	/** The people from the app's demo screens (static/images/people). */
 	const PEOPLE = ['lucia', 'daniel', 'kenji', 'maria', 'sofia', 'mateo', 'ana', 'javier'];
-	$: pair = [PEOPLE[seed(slug) % PEOPLE.length], PEOPLE[(seed(slug) + 3) % PEOPLE.length]];
+	let pair = $derived([
+		PEOPLE[seed(slug) % PEOPLE.length],
+		PEOPLE[(seed(slug) + 3) % PEOPLE.length]
+	]);
 </script>
 
 <span class="art {kind}" aria-hidden="true">

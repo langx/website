@@ -9,20 +9,24 @@
 	import { alphabetGuide } from '$lib/data/alphabet-guides';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	export let data: {
-		lang: WordListMeta;
-		alphabet: Alphabet;
-		cousins: WordListMeta[];
-		others: { alphabet: Alphabet; lang: WordListMeta }[];
-	};
-	$: ({ lang, alphabet, cousins, others } = data);
+	interface Props {
+		data: {
+			lang: WordListMeta;
+			alphabet: Alphabet;
+			cousins: WordListMeta[];
+			others: { alphabet: Alphabet; lang: WordListMeta }[];
+		};
+	}
+
+	let { data }: Props = $props();
+	let { lang, alphabet, cousins, others } = $derived(data);
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: path = `/tools/alphabet/${lang.slug}`;
-	$: count = alphabet.groups.reduce((n, g) => n + g.letters.length, 0);
-	$: title = `The ${lang.name} alphabet`;
+	let path = $derived(`/tools/alphabet/${lang.slug}`);
+	let count = $derived(alphabet.groups.reduce((n, g) => n + g.letters.length, 0));
+	let title = $derived(`The ${lang.name} alphabet`);
 
-	$: guide = alphabetGuide(lang.slug);
+	let guide = $derived(alphabetGuide(lang.slug));
 
 	const KIND: Record<string, string> = {
 		alphabet: 'An alphabet: vowels and consonants are letters of equal standing.',
@@ -32,32 +36,34 @@
 		featural: "A featural script: a letter's shape shows how the sound is made."
 	};
 
-	$: ld = JSON.stringify({
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
-					{
-						'@type': 'ListItem',
-						position: 2,
-						name: 'Alphabets',
-						item: `${siteBaseUrl}/tools/alphabet`
-					},
-					{ '@type': 'ListItem', position: 3, name: title }
-				]
-			}
-		]
-	});
+	let ld = $derived(
+		JSON.stringify({
+			'@context': 'https://schema.org',
+			'@graph': [
+				{
+					'@type': 'BreadcrumbList',
+					itemListElement: [
+						{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+						{
+							'@type': 'ListItem',
+							position: 2,
+							name: 'Alphabets',
+							item: `${siteBaseUrl}/tools/alphabet`
+						},
+						{ '@type': 'ListItem', position: 3, name: title }
+					]
+				}
+			]
+		})
+	);
 
 	// The angle bracket is written as an escape and never appears literally in
 	// this file: Svelte's parser scans the raw source, comments included, and
 	// treats a script tag written out in full as a real tag.
 	const LT = '\u003c';
-	$: ldScript = `${LT}script type="application/ld+json">${ld
-		.split(LT)
-		.join('\\u003c')}${LT}/script>`;
+	let ldScript = $derived(
+		`${LT}script type="application/ld+json">${ld.split(LT).join('\\u003c')}${LT}/script>`
+	);
 </script>
 
 <Seo
@@ -123,8 +129,8 @@
 					cousins.length - 2
 						? ', '
 						: i === cousins.length - 2
-						? ' and '
-						: ''}{/each}. The letters mostly carry over; a handful do not.
+							? ' and '
+							: ''}{/each}. The letters mostly carry over; a handful do not.
 			</p>
 		{/if}
 	</section>

@@ -7,11 +7,16 @@
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 
 	type Tile = { language: string; word: string; code?: string };
-	export let words: Tile[];
-	/** The English word the tiles translate, for the caption and the screen reader. */
-	export let english = '';
-	/** Link to the full list, e.g. /tools/say/freedom. */
-	export let href = '';
+
+	interface Props {
+		words: Tile[];
+		/** The English word the tiles translate, for the caption and the screen reader. */
+		english?: string;
+		/** Link to the full list, e.g. /tools/say/freedom. */
+		href?: string;
+	}
+
+	let { words, english = '', href = '' }: Props = $props();
 
 	const rtl = new Set(['ar', 'he', 'fa', 'ur']);
 </script>

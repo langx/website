@@ -1,7 +1,11 @@
 <script lang="ts">
-	export let src: string;
-	export let alt: string;
-	export let fullBleed: boolean | undefined = undefined;
+	interface Props {
+		src: string;
+		alt: string;
+		fullBleed?: boolean | undefined;
+	}
+
+	let { src, alt, fullBleed = undefined }: Props = $props();
 </script>
 
 <img {src} {alt} loading="lazy" decoding="async" class:full-bleed={fullBleed} />

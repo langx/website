@@ -1,10 +1,14 @@
 <script lang="ts">
-	/**
-	 * The answer before the article: three to five lines a reader can stop at.
-	 * Sits right under the opening paragraph.
-	 */
-	export let items: string[];
-	export let title = 'In short';
+	interface Props {
+		/**
+		 * The answer before the article: three to five lines a reader can stop at.
+		 * Sits right under the opening paragraph.
+		 */
+		items: string[];
+		title?: string;
+	}
+
+	let { items, title = 'In short' }: Props = $props();
 </script>
 
 <aside class="takeaways" aria-label={title}>

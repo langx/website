@@ -1,22 +1,28 @@
 <script lang="ts">
 	import { LANGUAGE_FLAGS } from '$lib/data/language-flags';
 
-	/**
-	 * A language's flag in a disc, falling back to its own first character —
-	 * 中 for Chinese, ا for Arabic — where no single country is the answer.
-	 *
-	 * The disc is what makes the fallback work in both directions. Windows ships
-	 * no flag glyphs at all, so a flag emoji renders there as the two regional
-	 * indicator letters; inside a circle "TR" reads as a country code rather
-	 * than as broken type, which is why the flag is never set loose on the page.
-	 */
-	export let nativeName: string;
-	export let code: string | undefined = undefined;
-	export let size = 40;
+	interface Props {
+		/**
+		 * A language's flag in a disc, falling back to its own first character —
+		 * 中 for Chinese, ا for Arabic — where no single country is the answer.
+		 *
+		 * The disc is what makes the fallback work in both directions. Windows ships
+		 * no flag glyphs at all, so a flag emoji renders there as the two regional
+		 * indicator letters; inside a circle "TR" reads as a country code rather
+		 * than as broken type, which is why the flag is never set loose on the page.
+		 */
+		nativeName: string;
+		code?: string | undefined;
+		size?: number;
+	}
 
-	$: flag = code ? LANGUAGE_FLAGS[code] : undefined;
+	let { nativeName, code = undefined, size = 40 }: Props = $props();
+
+	let flag = $derived(code ? LANGUAGE_FLAGS[code] : undefined);
 	/** Skip anything that is not a letter, so "Ολα" discs on Ο, not the mark. */
-	$: glyph = ([...nativeName].find((c) => /\p{L}/u.test(c)) ?? nativeName[0] ?? '?').toUpperCase();
+	let glyph = $derived(
+		([...nativeName].find((c) => /\p{L}/u.test(c)) ?? nativeName[0] ?? '?').toUpperCase()
+	);
 </script>
 
 <span class="disc" class:flag={!!flag} style="--size:{size}px" aria-hidden="true">

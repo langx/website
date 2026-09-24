@@ -1,8 +1,12 @@
 <script lang="ts">
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 
-	export let active: 'discover' | 'chats' | 'feed' | 'me' = 'discover';
-	export let unread = 0;
+	interface Props {
+		active?: 'discover' | 'chats' | 'feed' | 'me';
+		unread?: number;
+	}
+
+	let { active = 'discover', unread = 0 }: Props = $props();
 
 	// The app's four tabs, in the app's order. `chat` is the message glyph and
 	// `person` the user one; the unread count rides the icon, not the tab.

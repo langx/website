@@ -12,31 +12,37 @@
 
 	type Row = { rank: number; word: string; english: string; ipa: string };
 
-	export let data: {
-		meta: WordListMeta;
-		rows: Row[];
-		rendered: number;
-		others: { slug: string; name: string; count: number }[];
-	};
+	interface Props {
+		data: {
+			meta: WordListMeta;
+			rows: Row[];
+			rendered: number;
+			others: { slug: string; name: string; count: number }[];
+		};
+	}
 
-	$: ({ meta, rows, rendered, others } = data);
+	let { data }: Props = $props();
+
+	let { meta, rows, rendered, others } = $derived(data);
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: path = `/tools/most-common-words/${meta.slug}`;
-	$: fileUrl = `/data/most-common-words/${meta.slug}.tsv`;
-	$: title = `${nf.format(meta.count)} most common ${meta.name} words`;
+	let path = $derived(`/tools/most-common-words/${meta.slug}`);
+	let fileUrl = $derived(`/data/most-common-words/${meta.slug}.tsv`);
+	let title = $derived(`${nf.format(meta.count)} most common ${meta.name} words`);
 
 	/** Tiers are filters on this page, not separate URLs — see the plan. */
-	$: tiers = [100, 200, 500, 1000, 5000, 10000].filter((n) => n < meta.count).concat(meta.count);
+	let tiers = $derived(
+		[100, 200, 500, 1000, 5000, 10000].filter((n) => n < meta.count).concat(meta.count)
+	);
 
 	/**
 	 * Example sentences live in their own file and are fetched the first time
 	 * somebody opens a row. Most visitors read the list and never ask, and a
 	 * sentence under every row would make the table unreadable anyway.
 	 */
-	let examples: Map<number, { sentence: string; english: string }> | null = null;
-	let loadingEx = false;
-	let open: number | null = null;
+	let examples: Map<number, { sentence: string; english: string }> | null = $state(null);
+	let loadingEx = $state(false);
+	let open: number | null = $state(null);
 
 	async function toggleExample(rank: number) {
 		open = open === rank ? null : rank;
@@ -62,24 +68,27 @@
 		}
 	}
 
-	let all: Row[] = [];
-	let loading = false;
-	let loaded = false;
-	let query = '';
+	let all: Row[] = $state([]);
+	let loading = $state(false);
+	let loaded = $state(false);
+	let query = $state('');
 	// Starts at everything the server rendered, so the indexable HTML and the
 	// first paint are the same thousand rows.
-	let limit = data.rendered;
+	// svelte-ignore state_referenced_locally
+	let limit = $state(data.rendered);
 
-	$: source = loaded ? all : rows;
-	$: needle = query.trim().toLowerCase();
-	$: filtered = needle
-		? source.filter(
-				(r) => r.word.toLowerCase().includes(needle) || r.english.toLowerCase().includes(needle)
-		  )
-		: source;
-	$: visible = filtered.slice(0, limit);
+	let source = $derived(loaded ? all : rows);
+	let needle = $derived(query.trim().toLowerCase());
+	let filtered = $derived(
+		needle
+			? source.filter(
+					(r) => r.word.toLowerCase().includes(needle) || r.english.toLowerCase().includes(needle)
+				)
+			: source
+	);
+	let visible = $derived(filtered.slice(0, limit));
 	/** Everything past the prerendered block needs the rest of the file. */
-	$: needsMore = !loaded && (limit > rendered || needle.length > 0);
+	let needsMore = $derived(!loaded && (limit > rendered || needle.length > 0));
 
 	async function loadAll() {
 		if (loaded || loading) return;
@@ -109,7 +118,7 @@
 	 * that is already here, and this way the tier the reader picked is the tier
 	 * they get.
 	 */
-	let downloading = false;
+	let downloading = $state(false);
 
 	function csvCell(value: string) {
 		// A meaning like "of, from" has to be quoted or the column splits.
@@ -223,9 +232,11 @@
 	// the JSON too, so a gloss containing a closing tag cannot break out; with
 	// that done the string is our own data and nothing else.
 	const LT = '\u003c';
-	$: ldScript = `${LT}script type="application/ld+json">${ld(meta, rows)
-		.split(LT)
-		.join('\\u003c')}${LT}/script>`;
+	let ldScript = $derived(
+		`${LT}script type="application/ld+json">${ld(meta, rows)
+			.split(LT)
+			.join('\\u003c')}${LT}/script>`
+	);
 </script>
 
 <Seo
@@ -256,7 +267,7 @@
 					type="button"
 					class="chip"
 					class:on={limit === n && !needle}
-					on:click={() => jump(n)}
+					onclick={() => jump(n)}
 				>
 					Top {nf.format(n)}
 				</button>
@@ -267,7 +278,7 @@
 			<input
 				type="search"
 				bind:value={query}
-				on:input={loadAll}
+				oninput={loadAll}
 				placeholder="Search this list"
 				autocomplete="off"
 			/>
@@ -313,7 +324,7 @@
 								type="button"
 								class="ex-toggle"
 								aria-expanded={open === row.rank}
-								on:click={() => toggleExample(row.rank)}
+								onclick={() => toggleExample(row.rank)}
 							>
 								{open === row.rank ? 'Hide example' : 'Example'}
 							</button>
@@ -355,7 +366,7 @@
 
 	{#if limit < filtered.length}
 		<div class="more">
-			<button type="button" class="show-more" on:click={() => (limit += 700)} disabled={loading}>
+			<button type="button" class="show-more" onclick={() => (limit += 700)} disabled={loading}>
 				{loading ? 'Loading…' : 'Show more words'}
 			</button>
 			<p class="count">
@@ -375,13 +386,13 @@
 			{#each tiers as n}
 				<div class="dl-row">
 					<span class="dl-n">Top {nf.format(n)}</span>
-					<button type="button" on:click={() => download('csv', n)} disabled={downloading}>
+					<button type="button" onclick={() => download('csv', n)} disabled={downloading}>
 						CSV
 					</button>
-					<button type="button" on:click={() => download('anki', n)} disabled={downloading}>
+					<button type="button" onclick={() => download('anki', n)} disabled={downloading}>
 						Anki
 					</button>
-					<button type="button" on:click={() => download('txt', n)} disabled={downloading}>
+					<button type="button" onclick={() => download('txt', n)} disabled={downloading}>
 						Text
 					</button>
 				</div>
@@ -483,7 +494,9 @@
 		padding: 7px 14px;
 		font-size: 0.8125rem;
 		cursor: pointer;
-		transition: color var(--dur-fast) ease, border-color var(--dur-fast) ease,
+		transition:
+			color var(--dur-fast) ease,
+			border-color var(--dur-fast) ease,
 			transform var(--dur-press) var(--ease-out);
 
 		// The slice being shown. Selected is blue (DESIGN.md: if it is tapped,
@@ -734,7 +747,9 @@
 		font-size: 0.8125rem;
 		font-weight: 600;
 		cursor: pointer;
-		transition: background-color var(--dur-fast) ease, border-color var(--dur-fast) ease,
+		transition:
+			background-color var(--dur-fast) ease,
+			border-color var(--dur-fast) ease,
 			transform var(--dur-press) var(--ease-out);
 
 		&:active {

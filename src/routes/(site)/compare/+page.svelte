@@ -25,11 +25,15 @@
 	import type { FaqObject } from '$lib/data/faq';
 	import type { BlogPost } from '$lib/utils/types';
 
-	export let data: { posts: BlogPost[] };
-	$: ({ posts } = data);
+	interface Props {
+		data: { posts: BlogPost[] };
+	}
+
+	let { data }: Props = $props();
+	let { posts } = $derived(data);
 	// Roundups answer "which app?"; one-to-ones answer "this app or LangX?".
-	$: oneToOne = posts.filter((p) => p.slug.startsWith('open-source-alternative-to-'));
-	$: roundups = posts.filter((p) => !p.slug.startsWith('open-source-alternative-to-'));
+	let oneToOne = $derived(posts.filter((p) => p.slug.startsWith('open-source-alternative-to-')));
+	let roundups = $derived(posts.filter((p) => !p.slug.startsWith('open-source-alternative-to-')));
 
 	const title = 'LangX vs Tandem, HelloTalk, Duolingo and Other Language Apps';
 	const description =
@@ -102,7 +106,7 @@
 
 	const stripTags = (html: string) => html.replace(/<[^>]+>/g, '');
 
-	$: ld = {
+	let ld = $derived({
 		'@context': 'https://schema.org',
 		'@graph': [
 			{
@@ -132,7 +136,7 @@
 				}))
 			}
 		]
-	};
+	});
 </script>
 
 <Seo
@@ -160,12 +164,13 @@
 			<span class="eyebrow">Compare</span>
 			<h1>LangX vs Tandem, HelloTalk, Duolingo and {others} other language apps</h1>
 			<p class="lede">
-				The open source language exchange app, next to every app people compare it with —
-				including where they are the better choice. Real people, unlimited corrections, free
-				packs to learn from, and no ads.
+				The open source language exchange app, next to every app people compare it with — including
+				where they are the better choice. Real people, unlimited corrections, free packs to learn
+				from, and no ads.
 			</p>
 			<div class="buttons" use:ownsPrimary>
-				<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
+				<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button
+				>
 				<Button href="#pick" variant="secondary" size="lg" block>Compare the apps</Button>
 			</div>
 			<p class="fine">Free plan, no ads. iPhone, Android and the browser.</p>
@@ -196,9 +201,9 @@
 			<h2>the difference is a person.</h2>
 			<p>
 				Courses drill you and AI tutors answer you. LangX matches you with someone who speaks the
-				language you are learning and is learning yours, so every chat teaches both of you — and
-				any message can be corrected, without limit. Before anyone replies, Echo gives you free
-				packs of phrases to review.
+				language you are learning and is learning yours, so every chat teaches both of you — and any
+				message can be corrected, without limit. Before anyone replies, Echo gives you free packs of
+				phrases to review.
 			</p>
 			<ul class="promise" role="list">
 				<li>
@@ -210,12 +215,14 @@
 					>
 				</li>
 				<li>
-					<UiIcon name="check" size={22} strokeWidth={3} /><span>Free Echo packs to learn from</span>
+					<UiIcon name="check" size={22} strokeWidth={3} /><span>Free Echo packs to learn from</span
+					>
 				</li>
 				<li><UiIcon name="check" size={22} strokeWidth={3} /><span>No ads. Open source.</span></li>
 			</ul>
 			<div class="buttons" use:ownsPrimary>
-				<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
+				<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button
+				>
 				<Button href="/plans" variant="secondary" size="lg" block>See the plans</Button>
 			</div>
 		</div>
@@ -624,7 +631,9 @@
 		.text,
 		.device {
 			opacity: 0;
-			transition: opacity 500ms var(--ease-out), transform 600ms var(--ease-out);
+			transition:
+				opacity 500ms var(--ease-out),
+				transform 600ms var(--ease-out);
 		}
 
 		.text {
@@ -758,7 +767,7 @@
 			}
 
 			// The icon sits in the pill's rounded end. A class rather than
-			// a:has(.icon): Svelte 5 leaves that selector out of the CSS.
+			// a:has(:global(.icon)): Svelte 5 leaves that selector out of the CSS.
 			a.with-icon,
 			&.us {
 				padding-left: 4px;

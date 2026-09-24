@@ -12,19 +12,23 @@
 	import { overlapDistance, sharePercent, PAIR_DEPTH } from '$lib/utils/overlap';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	export let a: WordListMeta;
-	export let b: WordListMeta;
-	export let count: number;
+	interface Props {
+		a: WordListMeta;
+		b: WordListMeta;
+		count: number;
+	}
+
+	let { a, b, count }: Props = $props();
 
 	const nf = new Intl.NumberFormat('en-US');
 	const R = 64;
 	const W = 300;
 	const H = 2 * R + 4;
 
-	$: d = overlapDistance(count / PAIR_DEPTH) * R;
-	$: ax = W / 2 - d / 2;
-	$: bx = W / 2 + d / 2;
-	$: clip = `overlap-${a.code}-${b.code}`;
+	let d = $derived(overlapDistance(count / PAIR_DEPTH) * R);
+	let ax = $derived(W / 2 - d / 2);
+	let bx = $derived(W / 2 + d / 2);
+	let clip = $derived(`overlap-${a.code}-${b.code}`);
 </script>
 
 <figure class="overlap">

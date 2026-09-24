@@ -13,23 +13,27 @@
 	type Word = { rank: number; word: string; english: string; ipa: string };
 	type Band = { from: number; to: number; words: Word[] };
 
-	export let data: { meta: WordListMeta; bands: Band[] };
-	$: ({ meta, bands } = data);
+	interface Props {
+		data: { meta: WordListMeta; bands: Band[] };
+	}
+
+	let { data }: Props = $props();
+	let { meta, bands } = $derived(data);
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: path = `/tools/vocabulary-test/${meta.slug}`;
-	$: total = bands.reduce((n, b) => n + b.words.length, 0);
+	let path = $derived(`/tools/vocabulary-test/${meta.slug}`);
+	let total = $derived(bands.reduce((n, b) => n + b.words.length, 0));
 
-	let known: Record<number, boolean> = {};
-	let done = false;
-	let shared = '';
+	let known: Record<number, boolean> = $state({});
+	let done = $state(false);
+	let shared = $state('');
 
 	/**
 	 * The forty words in a fixed order. Everything shareable is derived from it:
 	 * the test is deterministic, so a bitmask over this list is the whole result
 	 * and fits in a short URL.
 	 */
-	$: asked = bands.flatMap((b) => b.words);
+	let asked = $derived(bands.flatMap((b) => b.words));
 
 	function encode(): string {
 		let bits = 0n;
@@ -81,8 +85,8 @@
 		setTimeout(() => (shared = ''), 3000);
 	}
 
-	$: picked = Object.values(known).filter(Boolean).length;
-	$: answered = Object.keys(known).length;
+	let picked = $derived(Object.values(known).filter(Boolean).length);
+	let answered = $derived(Object.keys(known).length);
 
 	/**
 	 * Each band stands for the slice of the list it was drawn from, so knowing
@@ -90,16 +94,18 @@
 	 * roughly three fifths of that slice is known. Summing the bands estimates
 	 * the whole list. It is an estimate from forty words and the page says so.
 	 */
-	$: estimate = Math.round(
-		bands.reduce((sum, b) => {
-			const asked = b.words.length;
-			if (!asked) return sum;
-			const hit = b.words.filter((w) => known[w.rank]).length;
-			return sum + (hit / asked) * (b.to - b.from + 1);
-		}, 0)
+	let estimate = $derived(
+		Math.round(
+			bands.reduce((sum, b) => {
+				const asked = b.words.length;
+				if (!asked) return sum;
+				const hit = b.words.filter((w) => known[w.rank]).length;
+				return sum + (hit / asked) * (b.to - b.from + 1);
+			}, 0)
+		)
 	);
 
-	$: percent = meta.count ? Math.round((estimate / meta.count) * 100) : 0;
+	let percent = $derived(meta.count ? Math.round((estimate / meta.count) * 100) : 0);
 
 	function toggle(rank: number) {
 		known = { ...known, [rank]: !known[rank] };
@@ -169,7 +175,7 @@
 									type="checkbox"
 									id="known-{w.rank}"
 									checked={!!known[w.rank]}
-									on:change={() => toggle(w.rank)}
+									onchange={() => toggle(w.rank)}
 								/>
 								<span class="word" lang={meta.code}>{w.word}</span>
 								<Ipa ipa={w.ipa} />
@@ -190,7 +196,7 @@
 		<VoiceCredit codes={[meta.code]} />
 
 		<div class="finish" use:ownsPrimary>
-			<Button on:click={finish} variant="primary" size="lg">See the estimate</Button>
+			<Button onclick={finish} variant="primary" size="lg">See the estimate</Button>
 			<p class="fine">Nothing is sent anywhere. The answers stay in this browser tab.</p>
 		</div>
 	{:else}
@@ -213,13 +219,13 @@
 			</div>
 
 			<p class="caveat">
-				This is an estimate from {total} words, not a measure of your level. It says how much of one
-				frequency list you recognised — nothing about grammar, listening, or whether you can hold a conversation.
+				This is an estimate from {total} words, not a measure of your level. It says how much of one frequency
+				list you recognised — nothing about grammar, listening, or whether you can hold a conversation.
 				The only way to find that out is to have one.
 			</p>
 
 			<div class="after">
-				<button type="button" class="share" on:click={share}>
+				<button type="button" class="share" onclick={share}>
 					<svg viewBox="0 0 24 24" aria-hidden="true">
 						<path d="M12 15V4" />
 						<path d="m8 8 4-4 4 4" />
@@ -227,7 +233,7 @@
 					</svg>
 					Copy link to this result
 				</button>
-				<button type="button" class="again" on:click={reset}>Take it again</button>
+				<button type="button" class="again" onclick={reset}>Take it again</button>
 				<a class="see" href="/tools/most-common-words/{meta.slug}">See the whole {meta.name} list</a
 				>
 			</div>

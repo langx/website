@@ -6,10 +6,16 @@
 	import { organization, siteBaseUrl } from '$lib/data/meta';
 	import type { BlogPost } from '$lib/utils/types';
 
-	export let data: {
-		posts: BlogPost[];
-	};
+	interface Props {
+		data: {
+			posts: BlogPost[];
+		};
+	}
 
+	let { data }: Props = $props();
+
+	// The blog index has one set of posts; it is read once.
+	// svelte-ignore state_referenced_locally
 	let { posts } = data;
 
 	/**

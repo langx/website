@@ -31,13 +31,13 @@
 	];
 
 	// — Search ————————————————————————————————————————————————————————
-	let query = '';
-	let searching = false;
-	let ran = false;
+	let query = $state('');
+	let searching = $state(false);
+	let ran = $state(false);
 	type Group =
 		| { kind: 'english'; key: string; exact: boolean; rows: EnglishHit[] }
 		| { kind: 'word'; key: string; exact: boolean; rows: WordHit[] };
-	let groups: Group[] = [];
+	let groups: Group[] = $state([]);
 	let timer: ReturnType<typeof setTimeout>;
 	let seq = 0;
 
@@ -83,14 +83,14 @@
 		onInput();
 	}
 
-	$: nothing = ran && !searching && !groups.length;
+	let nothing = $derived(ran && !searching && !groups.length);
 
 	/**
 	 * The row links straight at the raw .tsv so it works without JavaScript, but
 	 * a tab-separated file opens as one column in most things people own. With
 	 * JavaScript we intercept and hand over a CSV instead.
 	 */
-	let building = '';
+	let building = $state('');
 
 	function csvCell(value: string) {
 		return /[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
@@ -237,7 +237,7 @@
 			<input
 				type="search"
 				bind:value={query}
-				on:input={onInput}
+				oninput={onInput}
 				placeholder="water, agua, ev…"
 				aria-label="Search every language"
 				autocomplete="off"
@@ -248,7 +248,7 @@
 		<p class="examples">
 			<span>Try</span>
 			{#each EXAMPLES as e}
-				<button type="button" class="chip" on:click={() => example(e)}>{e}</button>
+				<button type="button" class="chip" onclick={() => example(e)}>{e}</button>
 			{/each}
 		</p>
 
@@ -338,7 +338,7 @@
 						download
 						aria-label="Download the {l.name} list, {nf.format(l.count)} words"
 						aria-busy={building === l.slug}
-						on:click={(e) => downloadCsv(e, l)}
+						onclick={(e) => downloadCsv(e, l)}
 					>
 						<svg viewBox="0 0 24 24" aria-hidden="true">
 							<path d="M12 4v11" />
@@ -514,7 +514,9 @@
 			color: var(--color--text);
 			font-family: var(--font--default);
 			font-size: 1rem;
-			transition: background-color var(--dur-fast) ease, border-color var(--dur-fast) ease;
+			transition:
+				background-color var(--dur-fast) ease,
+				border-color var(--dur-fast) ease;
 
 			&::placeholder {
 				color: var(--color--text-quiet);
@@ -551,7 +553,9 @@
 		font-family: var(--font--default);
 		font-size: 0.8125rem;
 		cursor: pointer;
-		transition: color var(--dur-fast) ease, border-color var(--dur-fast) ease,
+		transition:
+			color var(--dur-fast) ease,
+			border-color var(--dur-fast) ease,
 			transform var(--dur-press) var(--ease-out);
 
 		&:active {
@@ -755,7 +759,9 @@
 			color: var(--color--accent);
 			font-size: 0.8125rem;
 			font-weight: 600;
-			transition: background-color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
+			transition:
+				background-color var(--dur-fast) ease,
+				transform var(--dur-press) var(--ease-out);
 
 			svg {
 				width: 17px;

@@ -20,22 +20,34 @@
 	import UiIcon from './UiIcon.svelte';
 	import { hasAudio, mayHaveAudio, playWord, type AudioStore } from '$lib/utils/wordAudio';
 
-	export let label: string;
-	export let code: string | undefined = undefined;
-	export let rank: number | undefined | null = undefined;
-	export let play: (() => Promise<void>) | undefined = undefined;
-	/** `x` for a list's example sentence at that rank rather than the word. */
-	export let store: AudioStore = 'w';
-	export let size = 32;
+	interface Props {
+		label: string;
+		code?: string | undefined;
+		rank?: number | undefined | null;
+		play?: (() => Promise<void>) | undefined;
+		/** `x` for a list's example sentence at that rank rather than the word. */
+		store?: AudioStore;
+		size?: number;
+		children?: import('svelte').Snippet;
+	}
+
+	let {
+		label,
+		code = undefined,
+		rank = undefined,
+		play = undefined,
+		store = 'w',
+		size = 32,
+		children
+	}: Props = $props();
 
 	/** null while the index is on its way; the button holds its space meanwhile. */
-	let available: boolean | null = play ? true : null;
-	let playing = false;
+	// The starting value only: a row given another word re-checks below.
+	// svelte-ignore state_referenced_locally
+	let available: boolean | null = $state(play ? true : null);
+	let playing = $state(false);
 	let presses = 0;
-	let mounted = false;
-
-	$: possible = !!play || (!!code && mayHaveAudio(code, rank, store));
-	$: if (mounted && !play && code && rank) check(code, rank, store);
+	let mounted = $state(false);
 
 	async function check(c: string, r: number, s: AudioStore) {
 		available = null;
@@ -60,6 +72,10 @@
 			if (mine === presses) playing = false;
 		}
 	}
+	let possible = $derived(!!play || (!!code && mayHaveAudio(code, rank, store)));
+	$effect(() => {
+		if (mounted && !play && code && rank) check(code, rank, store);
+	});
 </script>
 
 {#if possible && available !== false}
@@ -68,14 +84,18 @@
 		class="speak"
 		class:on={playing}
 		class:pending={available === null}
-		class:tagged={$$slots.default}
+		class:tagged={children}
 		style="--speak-size: {size}px"
 		aria-label={label}
 		title={label}
 		tabindex={available === null ? -1 : undefined}
 		aria-hidden={available === null ? 'true' : undefined}
-		on:click={press}
-		><UiIcon name="volume" size={Math.round(size * 0.56)} strokeWidth={2.25} /><slot /></button
+		onclick={press}
+		><UiIcon
+			name="volume"
+			size={Math.round(size * 0.56)}
+			strokeWidth={2.25}
+		/>{@render children?.()}</button
 	>
 {/if}
 
@@ -98,7 +118,10 @@
 		color: var(--color--accent);
 		vertical-align: middle;
 		cursor: pointer;
-		transition: background-color 200ms ease, transform 160ms ease-out, opacity 200ms ease;
+		transition:
+			background-color 200ms ease,
+			transform 160ms ease-out,
+			opacity 200ms ease;
 
 		@media (hover: hover) and (pointer: fine) {
 			&:hover {

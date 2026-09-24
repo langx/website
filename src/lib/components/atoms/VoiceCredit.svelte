@@ -9,14 +9,20 @@
 	import { VOICE_CREDITS } from '$lib/data/voices';
 	import { isVoiced } from '$lib/utils/wordAudio';
 
-	export let codes: string[];
+	interface Props {
+		codes: string[];
+	}
+
+	let { codes }: Props = $props();
 
 	const names = new Map(WORD_LISTS.map((l) => [l.code, l.name]));
-	$: voiced = codes.filter(isVoiced);
-	$: credits = [...new Set(voiced)]
-		.filter((c) => VOICE_CREDITS[c])
-		.sort()
-		.map((c) => ({ language: names.get(c) ?? c, ...VOICE_CREDITS[c] }));
+	let voiced = $derived(codes.filter(isVoiced));
+	let credits = $derived(
+		[...new Set(voiced)]
+			.filter((c) => VOICE_CREDITS[c])
+			.sort()
+			.map((c) => ({ language: names.get(c) ?? c, ...VOICE_CREDITS[c] }))
+	);
 </script>
 
 {#if voiced.length}
@@ -30,8 +36,8 @@
 				>, {c.licence}){i === credits.length - 1
 					? '.'
 					: i === credits.length - 2
-					? ' and '
-					: ', '}{/each}
+						? ' and '
+						: ', '}{/each}
 		{/if}
 	</p>
 {/if}

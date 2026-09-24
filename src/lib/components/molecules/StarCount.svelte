@@ -5,7 +5,7 @@
 	// The v2 product lives in `langx/langx`.
 	const repo = 'langx/langx';
 
-	let starCount = -1;
+	let starCount = $state(-1);
 
 	onMount(async () => {
 		try {
@@ -47,7 +47,9 @@
 		font-size: 0.875rem;
 		font-weight: 600;
 		text-decoration: none;
-		transition: background-color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
+		transition:
+			background-color var(--dur-fast) ease,
+			transform var(--dur-press) var(--ease-out);
 
 		&:active {
 			transform: scale(0.97);

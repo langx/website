@@ -26,7 +26,9 @@
 		<Button href={links.android} variant="secondary" size="lg">Google Play</Button>
 		<Button href={links.web} variant="secondary" size="lg">
 			Open in browser
-			<UiIcon slot="icon" name="globe" size={18} />
+			{#snippet icon()}
+				<UiIcon name="globe" size={18} />
+			{/snippet}
 		</Button>
 	</div>
 </section>

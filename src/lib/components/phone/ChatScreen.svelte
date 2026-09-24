@@ -4,18 +4,22 @@
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import { inview } from '$lib/utils/inview';
 
-	/**
-	 * `app/(app)/chat/[id]` from the design handoff, with the mechanism played
-	 * once: two messages land, Lucía types, and a correction card arrives. The
-	 * end state is what the server renders, so the page never depends on the
-	 * choreography.
-	 */
-	export let animate = true;
-	/** Replay the choreography every few seconds, like a looping demo. */
-	export let loop = false;
+	interface Props {
+		/**
+		 * `app/(app)/chat/[id]` from the design handoff, with the mechanism played
+		 * once: two messages land, Lucía types, and a correction card arrives. The
+		 * end state is what the server renders, so the page never depends on the
+		 * choreography.
+		 */
+		animate?: boolean;
+		/** Replay the choreography every few seconds, like a looping demo. */
+		loop?: boolean;
+	}
+
+	let { animate = true, loop = false }: Props = $props();
 
 	// 0 nothing · 1 first message · 2 reply · 3 typing · 4 correction
-	let stage = 4;
+	let stage = $state(4);
 	let played = false;
 	let timers: ReturnType<typeof setTimeout>[] = [];
 
@@ -45,7 +49,7 @@
 	onDestroy(() => timers.forEach(clearTimeout));
 </script>
 
-<div class="chat" use:inview={{ threshold: 0.4 }} on:enter={play}>
+<div class="chat" use:inview={{ threshold: 0.4 }} onenter={play}>
 	<header class="top">
 		<span class="back"><UiIcon name="back" size={22} /></span>
 		<Avatar src="/images/people/lucia.webp" initials="LM" size={40} name="Lucía M." online />
@@ -333,7 +337,9 @@
 	.typing {
 		opacity: 0;
 		transform: translateY(8px);
-		transition: opacity var(--dur-enter) var(--ease-out), transform var(--dur-enter) var(--ease-out);
+		transition:
+			opacity var(--dur-enter) var(--ease-out),
+			transform var(--dur-enter) var(--ease-out);
 
 		&.in {
 			opacity: 1;

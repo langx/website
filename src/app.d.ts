@@ -12,7 +12,7 @@ declare global {
 	namespace svelteHTML {
 		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		interface HTMLAttributes<T> {
-			'on:enter'?: (event: CustomEvent) => void;
+			onenter?: (event: CustomEvent) => void;
 		}
 	}
 }

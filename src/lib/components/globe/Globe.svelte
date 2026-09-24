@@ -12,15 +12,20 @@
 	import { loadGsap } from '$lib/utils/reveal';
 	import type { GlobeColors, GlobeHandle } from './scene';
 
-	export let label: string;
-	/** Turn and tip the globe as it scrolls through the viewport. */
-	export let scroll = false;
+	interface Props {
+		label: string;
+		/** Turn and tip the globe as it scrolls through the viewport. */
+		scroll?: boolean;
+	}
 
-	let container: HTMLDivElement;
-	let failed = false;
+	let { label, scroll = false }: Props = $props();
+
+	// Set by bind:this before onMount, where every use of it is.
+	let container: HTMLDivElement | undefined = $state();
+	let failed = $state(false);
 
 	function readColors(): GlobeColors {
-		const style = getComputedStyle(container);
+		const style = getComputedStyle(container!);
 		const token = (name: string) => style.getPropertyValue(`--color--${name}`).trim();
 		return {
 			surface: token('muted'),
@@ -39,7 +44,7 @@
 		import('./scene').then(({ createGlobe }) => {
 			if (cancelled) return;
 			try {
-				handle = createGlobe(container, { colors: readColors(), animate: !reduced });
+				handle = createGlobe(container!, { colors: readColors(), animate: !reduced });
 			} catch {
 				failed = true;
 				return;
@@ -60,7 +65,7 @@
 				visible = entry.isIntersecting;
 				sync();
 			});
-			inView.observe(container);
+			inView.observe(container!);
 			document.addEventListener('visibilitychange', sync);
 
 			cleanups.push(() => {

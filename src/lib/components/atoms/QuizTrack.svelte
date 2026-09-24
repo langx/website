@@ -1,19 +1,23 @@
 <script lang="ts">
-	/**
-	 * The rounds of a daily game as a row of steps: green for right, red for
-	 * wrong, ink for the round on screen, the muted fill for those to come.
-	 * Small under "Word 3 of 10" while playing; `large`, with a tick or a
-	 * cross in each square, as the result — the site's own drawing of the
-	 * grid people share, which the copied text keeps as emoji.
-	 *
-	 * While playing, the text above it says the same thing, so the small
-	 * track is hidden from screen readers; the large one is labelled.
-	 */
-	export let steps: ('right' | 'wrong' | 'now' | null)[];
-	export let large = false;
+	interface Props {
+		/**
+		 * The rounds of a daily game as a row of steps: green for right, red for
+		 * wrong, ink for the round on screen, the muted fill for those to come.
+		 * Small under "Word 3 of 10" while playing; `large`, with a tick or a
+		 * cross in each square, as the result — the site's own drawing of the
+		 * grid people share, which the copied text keeps as emoji.
+		 *
+		 * While playing, the text above it says the same thing, so the small
+		 * track is hidden from screen readers; the large one is labelled.
+		 */
+		steps: ('right' | 'wrong' | 'now' | null)[];
+		large?: boolean;
+	}
 
-	$: right = steps.filter((s) => s === 'right').length;
-	$: wrong = steps.filter((s) => s === 'wrong').length;
+	let { steps, large = false }: Props = $props();
+
+	let right = $derived(steps.filter((s) => s === 'right').length);
+	let wrong = $derived(steps.filter((s) => s === 'wrong').length);
 </script>
 
 <ol
@@ -24,7 +28,11 @@
 	aria-label={large ? `${right} right, ${wrong} wrong` : undefined}
 >
 	{#each steps as step}
-		<li class:right={step === 'right'} class:wrong={step === 'wrong'} class:now={step === 'now'}></li>
+		<li
+			class:right={step === 'right'}
+			class:wrong={step === 'wrong'}
+			class:now={step === 'now'}
+		></li>
 	{/each}
 </ol>
 

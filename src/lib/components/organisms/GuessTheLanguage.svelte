@@ -34,18 +34,18 @@
 		{ word: 'אני', answer: 'he', options: ['he', 'ar', 'hy', 'ru'] }
 	];
 
-	let rounds: Round[] = FALLBACK;
+	let rounds: Round[] = $state.raw(FALLBACK);
 	let pool: [string, string, number][] = [];
 
-	let at = 0;
-	let picked: string | null = null;
-	let right = 0;
-	let done = false;
+	let at = $state(0);
+	let picked: string | null = $state(null);
+	let right = $state(0);
+	let done = $state(false);
 
-	$: round = rounds[at];
-	$: correct = picked === round.answer;
+	let round = $derived(rounds[at]);
+	let correct = $derived(picked === round.answer);
 
-	const pickOne = <T>(list: T[]): T => list[Math.floor(Math.random() * list.length)];
+	const pickOne = <T,>(list: T[]): T => list[Math.floor(Math.random() * list.length)];
 
 	/** Four rounds, each a different language, the answer somewhere in the four. */
 	function deal(): Round[] {
@@ -127,7 +127,7 @@
 				<Button href="/tools/guess-the-language" variant="secondary" size="md">
 					Play the daily game
 				</Button>
-				<button class="again" type="button" on:click={again}>
+				<button class="again" type="button" onclick={again}>
 					<UiIcon name="refresh" size={18} />
 					Play four more
 				</button>
@@ -160,7 +160,7 @@
 							class:right={picked && code === round.answer}
 							class:wrong={picked === code && code !== round.answer}
 							disabled={!!picked}
-							on:click={() => pick(code)}
+							onclick={() => pick(code)}
 						>
 							{NAME.get(code)}
 						</button>
@@ -175,7 +175,7 @@
 			</p>
 
 			{#if picked}
-				<button class="next" type="button" on:click={next}>
+				<button class="next" type="button" onclick={next}>
 					{at === rounds.length - 1 ? 'See how you did' : 'Next word'}
 					<UiIcon name="arrow-right" size={18} />
 				</button>
@@ -282,8 +282,11 @@
 		font-size: 1rem;
 		font-weight: 800;
 		cursor: pointer;
-		transition: background-color 200ms var(--ease-out), border-color 200ms var(--ease-out),
-			color 200ms var(--ease-out), transform 160ms var(--ease-out);
+		transition:
+			background-color 200ms var(--ease-out),
+			border-color 200ms var(--ease-out),
+			color 200ms var(--ease-out),
+			transform 160ms var(--ease-out);
 
 		@media (hover: hover) and (pointer: fine) {
 			&:hover:not(:disabled) {
@@ -335,7 +338,9 @@
 		font-size: 0.9375rem;
 		font-weight: 800;
 		cursor: pointer;
-		transition: background-color 200ms var(--ease-out), transform 160ms var(--ease-out);
+		transition:
+			background-color 200ms var(--ease-out),
+			transform 160ms var(--ease-out);
 
 		@media (hover: hover) and (pointer: fine) {
 			&:hover {

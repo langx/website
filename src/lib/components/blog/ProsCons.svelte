@@ -1,8 +1,12 @@
 <script lang="ts">
-	/** What an app does well and where it falls short, as two short lists. */
-	export let name = '';
-	export let pros: string[];
-	export let cons: string[];
+	interface Props {
+		/** What an app does well and where it falls short, as two short lists. */
+		name?: string;
+		pros: string[];
+		cons: string[];
+	}
+
+	let { name = '', pros, cons }: Props = $props();
 </script>
 
 <div class="pc">
