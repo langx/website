@@ -50,6 +50,7 @@
 		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@types/cookie": "^0.5.1",
 		"@types/dateformat": "^5.0.1",
+		"@types/node": "^20.19.43",
 		"@types/prismjs": "^1.26.2",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
