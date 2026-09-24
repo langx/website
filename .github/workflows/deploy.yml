@@ -45,7 +45,6 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/${{ github.event.repository.name }}'
           # A repository *variable*, not a secret, and deliberately so: Vite
           # inlines this into the bundle every visitor downloads, so calling it
           # a secret would only be theatre. A PostHog project API key can write
