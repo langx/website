@@ -12,7 +12,7 @@ export function entries() {
 export function load({ params }) {
 	const lang = WORD_LISTS.find((l) => l.slug === params.language);
 	const alphabet = ALPHABETS.find((a) => a.code === lang?.code);
-	if (!lang || !alphabet) throw error(404, 'No alphabet page for that language');
+	if (!lang || !alphabet) error(404, 'No alphabet page for that language');
 
 	/** Other languages using the same script — the letters mostly carry over. */
 	const cousins = ALPHABETS.filter((a) => a.script === alphabet.script && a.code !== alphabet.code)

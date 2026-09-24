@@ -9,7 +9,7 @@ export function entries() {
 export function load({ params }) {
 	const game = WORD_GAME_LANGUAGES.find((l) => l.slug === params.language);
 	const meta = WORD_LISTS.find((l) => l.slug === params.language);
-	if (!game || !meta) throw error(404, 'No word game for that language');
+	if (!game || !meta) error(404, 'No word game for that language');
 
 	const others = WORD_GAME_LANGUAGES.filter((l) => l.slug !== game.slug);
 	return { game, meta, others };

@@ -37,7 +37,7 @@ export function entries() {
 
 export async function load({ params }) {
 	const entry = SAY_WORDS.find((w) => w.slug === params.word);
-	if (!entry) throw error(404, 'No page for that word');
+	if (!entry) error(404, 'No page for that word');
 
 	const byCode = new Map(WORD_LISTS.map((l) => [l.code, l]));
 	// Where each language's word sits in this page's audio file, for the
