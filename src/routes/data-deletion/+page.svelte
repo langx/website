@@ -1,6 +1,6 @@
 <script lang="ts">
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
-	import DataDeletion from '$lib/components/organisms/DataDeletion.svelte';
+	import DataDeletion from '$lib/components/organisms/DataDeletion.md';
 </script>
 
 <div class="container">

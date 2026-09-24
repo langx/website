@@ -22,7 +22,7 @@
 <div class="screen">
 	<div class="head">
 		<span class="close"><UiIcon name="close" size={22} /></span>
-		<span class="spacer" />
+		<span class="spacer"></span>
 		<span class="restore">Restore purchases</span>
 	</div>
 

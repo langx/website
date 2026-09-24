@@ -32,7 +32,7 @@
 				<span class="label">{d.label}</span>
 				<span class="track">
 					<span class="lane"
-						><span class="bar" style="width: {Math.max((d.value / top) * 100, 1.5)}%" /></span
+						><span class="bar" style="width: {Math.max((d.value / top) * 100, 1.5)}%"></span></span
 					>
 					<span class="value">{fmt(d.value)}</span>
 				</span>

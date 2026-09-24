@@ -95,7 +95,7 @@
 	});
 </script>
 
-<div class="globe" class:failed role="img" aria-label={label} bind:this={container} />
+<div class="globe" class:failed role="img" aria-label={label} bind:this={container}></div>
 
 <style lang="scss">
 	.globe {

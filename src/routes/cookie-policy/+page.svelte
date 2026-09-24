@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CookiePolicy from '$lib/components/organisms/CookiePolicy.svelte';
+	import CookiePolicy from '$lib/components/organisms/CookiePolicy.md';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 </script>
 

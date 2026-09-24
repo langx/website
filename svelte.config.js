@@ -33,13 +33,12 @@ const config = {
 		// for more information about preprocessors
 		vitePreprocess(),
 		mdsvex({
-			// '.svelte' belongs here as well as '.md': the legal pages
-			// (TermsAndConditions.svelte and friends) are written as markdown
-			// inside a component and rely on mdsvex to render it. The cost is
-			// that markdown rules apply to every component, so stray top-level
-			// markup can get wrapped in a <p> — keep HTML comments out of
-			// <svelte:head>.
-			extensions: extensions,
+			// Markdown files only. It used to run over every .svelte file as
+			// well, for the legal pages written as markdown inside a component;
+			// those are .md files now (TermsAndConditions.md and friends). Under
+			// Svelte 5 it also rewrote SvelteKit's own generated root.svelte into
+			// markup that no longer compiles.
+			extensions: ['.md'],
 			rehypePlugins: [
 				rehypeExternalLinks, // Adds 'target' and 'rel' to external links
 				rehypeTables, // Scroll wrapper and yes/no marks; see the file

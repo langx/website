@@ -373,6 +373,13 @@
 		border-bottom: 1px solid var(--color--border);
 		align-items: start;
 
+		// This list is closed at both ends, so the last row keeps its hairline.
+		// The global .rows rule drops it, and under Svelte 5 a plain scoped
+		// selector no longer outweighs that rule.
+		.rows > &:last-child {
+			border-bottom: 1px solid var(--color--border);
+		}
+
 		@include for-phone-only {
 			grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 		}

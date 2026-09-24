@@ -206,7 +206,7 @@
 					{@const hit = b.words.filter((w) => known[w.rank]).length}
 					<div class="band-out">
 						<span class="range tabular">{nf.format(b.from)}–{nf.format(b.to)}</span>
-						<span class="bar" style="--fill:{(hit / b.words.length) * 100}%"><i /></span>
+						<span class="bar" style="--fill:{(hit / b.words.length) * 100}%"><i></i></span>
 						<span class="score tabular">{hit}/{b.words.length}</span>
 					</div>
 				{/each}

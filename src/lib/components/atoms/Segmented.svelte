@@ -15,7 +15,7 @@
 	role={interactive ? 'tablist' : undefined}
 	aria-label={interactive ? label : undefined}
 >
-	<span class="thumb" aria-hidden="true" />
+	<span class="thumb" aria-hidden="true"></span>
 	{#each options as option, i}
 		{#if interactive}
 			<button

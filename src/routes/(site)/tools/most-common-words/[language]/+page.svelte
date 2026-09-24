@@ -322,7 +322,7 @@
 				</tr>
 				{#if open === row.rank}
 					<tr class="ex-row">
-						<td />
+						<td></td>
 						<td colspan="2">
 							{#if loadingEx}
 								<span class="ex-quiet">Loading…</span>

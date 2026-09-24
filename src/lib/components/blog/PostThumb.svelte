@@ -101,7 +101,7 @@
 			{#each pair as who}
 				<img src="/images/people/{who}.webp" alt="" width="40" height="40" loading="lazy" />
 			{/each}
-			<span class="bubble" />
+			<span class="bubble"></span>
 		</span>
 	{/if}
 </span>

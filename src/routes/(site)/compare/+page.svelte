@@ -245,7 +245,7 @@
 							</li>{/if}
 						{#each byKind(k.kind) as c}
 							<li>
-								<a href="/{c.slug}"
+								<a href="/{c.slug}" class:with-icon={!!appIcon(c.name)}
 									>{#if appIcon(c.name)}<img
 											class="icon"
 											src={appIcon(c.name)}
@@ -757,8 +757,9 @@
 				color: var(--color--surface);
 			}
 
-			// The icon sits in the pill's rounded end.
-			a:has(.icon),
+			// The icon sits in the pill's rounded end. A class rather than
+			// a:has(.icon): Svelte 5 leaves that selector out of the CSS.
+			a.with-icon,
 			&.us {
 				padding-left: 4px;
 			}

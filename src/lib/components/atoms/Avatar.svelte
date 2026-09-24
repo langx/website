@@ -35,7 +35,7 @@
 	{:else}
 		<span class="disc">{initials}</span>
 	{/if}
-	{#if online}<span class="online" />{/if}
+	{#if online}<span class="online"></span>{/if}
 </span>
 
 <style lang="scss">

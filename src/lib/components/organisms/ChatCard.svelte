@@ -70,7 +70,7 @@
 				>
 			</span>
 			<span class="wave" aria-hidden="true">
-				{#each bars as h}<i style="height:{h}px" />{/each}
+				{#each bars as h}<i style="height:{h}px"></i>{/each}
 			</span>
 			<span class="length">0:07</span>
 		</div>

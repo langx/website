@@ -1,6 +1,6 @@
 <script lang="ts">
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
-	import TermsAndConditions from '$lib/components/organisms/TermsAndConditions.svelte';
+	import TermsAndConditions from '$lib/components/organisms/TermsAndConditions.md';
 </script>
 
 <div class="container">

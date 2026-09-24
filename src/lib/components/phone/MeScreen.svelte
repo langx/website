@@ -71,21 +71,19 @@
 							<span
 								class="bar corr"
 								style="--h:{corrections[i] * 7}%;--d:{i * 45}ms"
-								class:zero={corrections[i] === 0}
-							/>
+								class:zero={corrections[i] === 0}></span>
 							<span
 								class="bar msg"
 								style="--h:{messages[i] * 5}%;--d:{i * 45}ms"
-								class:zero={messages[i] === 0}
-							/>
+								class:zero={messages[i] === 0}></span>
 						</div>
 						<span class="day-letter" class:peak={i === peak}>{d}</span>
 					</div>
 				{/each}
 			</div>
 			<div class="legend">
-				<span><span class="swatch msg" />Messages</span>
-				<span><span class="swatch corr" />Corrections</span>
+				<span><span class="swatch msg"></span>Messages</span>
+				<span><span class="swatch corr"></span>Corrections</span>
 			</div>
 		</div>
 

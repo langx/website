@@ -153,6 +153,13 @@
 		padding: 18px 0;
 		border-bottom: 1px solid var(--color--border);
 
+		// This list is closed at both ends, so the last row keeps its hairline.
+		// The global .rows rule drops it, and under Svelte 5 a plain scoped
+		// selector no longer outweighs that rule.
+		.rows > &:last-child {
+			border-bottom: 1px solid var(--color--border);
+		}
+
 		@include for-tablet-portrait-down {
 			grid-template-columns: minmax(0, 1fr) auto;
 

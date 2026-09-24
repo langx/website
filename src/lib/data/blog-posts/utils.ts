@@ -5,11 +5,15 @@ import Prism from 'prismjs';
 // Referenced so the import above is not tree-shaken away.
 void Prism;
 import 'prism-svelte';
+import type { Component } from 'svelte';
+import { render as renderToHtml } from 'svelte/server';
 import readingTime from 'reading-time';
 import striptags from 'striptags';
 import type { BlogPost } from '$lib/utils/types';
 import { COMPETITORS } from '$lib/data/competitors';
 
+// Only ever called from server code (+server.ts, +page.server.ts), which is
+// what lets it import svelte/server.
 export const importPosts = (render = false) => {
 	const blogImports = import.meta.glob('$routes/*/*/*.md', { eager: true });
 	const innerImports = import.meta.glob('$routes/*/*/*/*.md', { eager: true });
@@ -20,18 +24,27 @@ export const importPosts = (render = false) => {
 	for (const path in imports) {
 		const post = imports[path] as {
 			metadata: BlogPost;
-			default: { render?: () => { html: string } };
+			default: Component;
 		};
 		if (post) {
 			posts.push({
 				...post.metadata,
-				html: render && post.default.render ? post.default.render()?.html : undefined
+				// Svelte 5 components have no render() of their own; this is its
+				// replacement. The comments are hydration markers, of no use in a feed.
+				html: render ? renderToHtml(post.default).body.replace(/<!--[\s\S]*?-->/g, '') : undefined
 			});
 		}
 	}
 
 	return posts;
 };
+
+/**
+ * A post's text with each tag turned into a space. Svelte 5 renders less
+ * whitespace between tags than Svelte 4 did, and stripping tags outright would
+ * glue the words either side of one together.
+ */
+const words = (html: string) => striptags(html, [], ' ');
 
 export const filterPosts = (posts: BlogPost[]) => {
 	return posts
@@ -44,7 +57,7 @@ export const filterPosts = (posts: BlogPost[]) => {
 				: 0
 		)
 		.map((post) => {
-			const readingTimeResult = post.html ? readingTime(striptags(post.html) || '') : undefined;
+			const readingTimeResult = post.html ? readingTime(words(post.html)) : undefined;
 			const relatedPosts = getRelatedPosts(posts, post);
 
 			return {
@@ -82,7 +95,7 @@ const headingsOf = (html: string) =>
  * back to. A name mentioned once in passing is not what the post is about.
  */
 const appsIn = (title: string, html: string) => {
-	const text = striptags(html);
+	const text = words(html);
 	const count = (name: string) =>
 		text.match(new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'g'))?.length ??
 		0;
@@ -111,7 +124,7 @@ const getRelatedPosts = (posts: BlogPost[], post: BlogPost) => {
 
 	return relatedPosts.slice(0, 3).map((p) => ({
 		...p,
-		readingTime: p.html ? readingTime(striptags(p.html) || '').text : ''
+		readingTime: p.html ? readingTime(words(p.html)).text : ''
 	}));
 };
 

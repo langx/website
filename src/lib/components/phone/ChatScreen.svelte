@@ -79,7 +79,7 @@
 		</div>
 
 		<div class="typing" class:in={stage === 3} aria-label="Lucía is typing">
-			<span /><span /><span />
+			<span></span><span></span><span></span>
 		</div>
 
 		<div class="correction" class:in={stage >= 4}>
