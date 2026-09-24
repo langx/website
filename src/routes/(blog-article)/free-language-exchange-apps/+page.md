@@ -1,6 +1,7 @@
 ---
 slug: free-language-exchange-apps
 title: 'The Best Free Language Exchange Apps (2026): What You Really Get Free'
+seoTitle: 'Best Free Language Exchange Apps (2026): What You Get Free'
 date: 2026-09-23T05:30:00.000Z
 excerpt: 'Which language exchange apps are really free in 2026? What each free tier includes, its daily limits, which ones show ads, and which need no subscription.'
 coverImage: /images/posts/free-language-exchange-apps.png

@@ -1,8 +1,10 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
 	import { ALPHABETS } from '$lib/data/alphabets';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 	import { alphabetGuide } from '$lib/data/alphabet-guides';
 
@@ -16,13 +18,38 @@
 		.map((r) => ({ name: r.lang?.name ?? '', href: alphabetGuide(r.lang?.slug) }))
 		.filter((g) => g.href)
 		.sort((a, b) => a.name.localeCompare(b.name));
+
+	const ld = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+					{ '@type': 'ListItem', position: 2, name: 'Alphabets' }
+				]
+			},
+			{
+				'@type': 'ItemList',
+				name: `Alphabet charts for ${rows.length} languages`,
+				numberOfItems: rows.length,
+				itemListElement: rows.map((r, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: `${r.lang?.name} alphabet`,
+					url: `${siteBaseUrl}/tools/alphabet/${r.lang?.slug}`
+				}))
+			}
+		]
+	};
 </script>
 
 <Seo
-	title="Alphabets"
+	title="Alphabet charts: every letter and how it sounds"
 	path="/tools/alphabet"
 	description="Every letter of {ALPHABETS.length} writing systems — Greek, Cyrillic, Arabic, Hangul, Devanagari and more — with names and sounds. Free, no account."
 />
+<JsonLd data={ld} />
 
 <div class="container">
 	<PageHeader

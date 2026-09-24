@@ -63,7 +63,7 @@
 
 {#if post}
 	<Seo
-		title={post.title}
+		title={post.seoTitle ?? post.title}
 		description={post.excerpt}
 		path="/{post.slug}"
 		type="article"
@@ -123,7 +123,7 @@
 		-->
 		{#if post && post.coverImage && !post.thumbnail}
 			<div class="cover-image">
-				<Image src={post.coverImage} alt={post.title} />
+				<Image src={post.coverImage} webp={post.coverWebp?.full} alt={post.title} />
 			</div>
 		{:else if post}
 			<div class="art">

@@ -351,6 +351,7 @@
 					<BlogPostCard
 						title={post.title}
 						coverImage={post.coverImage}
+						coverWebp={post.coverWebp}
 						thumbnail={post.thumbnail}
 						excerpt={post.excerpt}
 						readingTime={post.readingTime}
@@ -371,6 +372,7 @@
 					<BlogPostCard
 						title={post.title}
 						coverImage={post.coverImage}
+						coverWebp={post.coverWebp}
 						thumbnail={post.thumbnail}
 						excerpt={post.excerpt}
 						readingTime={post.readingTime}

@@ -1,7 +1,9 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 
 	const nf = new Intl.NumberFormat('en-US');
@@ -9,13 +11,38 @@
 	const popular = POPULAR.map((c) => WORD_LISTS.find((l) => l.code === c)).filter(
 		Boolean
 	) as typeof WORD_LISTS;
+
+	const ld = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+					{ '@type': 'ListItem', position: 2, name: 'Vocabulary tests' }
+				]
+			},
+			{
+				'@type': 'ItemList',
+				name: `Vocabulary tests in ${WORD_LISTS.length} languages`,
+				numberOfItems: WORD_LISTS.length,
+				itemListElement: WORD_LISTS.map((l, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: `${l.name} vocabulary test`,
+					url: `${siteBaseUrl}/tools/vocabulary-test/${l.slug}`
+				}))
+			}
+		]
+	};
 </script>
 
 <Seo
-	title="Vocabulary tests"
+	title="Vocabulary test: how many words do you know?"
 	path="/tools/vocabulary-test"
 	description="Find out roughly how many words you know, in any of {WORD_LISTS.length} languages. Forty-two words, two minutes, no account."
 />
+<JsonLd data={ld} />
 
 <div class="container">
 	<PageHeader

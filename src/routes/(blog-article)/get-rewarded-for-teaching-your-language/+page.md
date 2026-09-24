@@ -1,8 +1,9 @@
 ---
 slug: get-rewarded-for-teaching-your-language
 title: 'Get rewarded for teaching your language: how LangX scores a conversation'
+seoTitle: 'Get rewarded for teaching your language: how it works'
 date: 2026-09-23T09:00:00.000Z
-excerpt: In a language exchange the valuable thing is helping somebody else, so that is what LangX pays for. A correction is worth ten messages, and here is every other number behind it.
+excerpt: In a language exchange the valuable thing is helping someone else, so that is what LangX pays for. A correction is worth ten messages; here is the rest.
 coverImage: /images/posts/get-rewarded-for-teaching-your-language.png
 author:
   name: xuelink

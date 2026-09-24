@@ -195,7 +195,7 @@
 	path="/tools/most-common-words"
 	description="Free frequency-ranked word lists for {WORD_LISTS.length} languages — {nf.format(
 		totalWords
-	)} words, every one with its meaning in English. Search across every language at once, or download any list."
+	)} words, every one with its meaning in English. Search every language at once, or download any list."
 />
 
 <svelte:head>

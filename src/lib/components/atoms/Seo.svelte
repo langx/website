@@ -38,8 +38,13 @@
 	}: Props = $props();
 
 	// A long title already fills a results line; the suffix would only push
-	// the words that matter past the cut.
-	let pageTitle = $derived(title ? (title.length > 56 ? title : `${title} | LangX`) : defaultTitle);
+	// the words that matter past the cut. It goes on only when the whole fits
+	// the sixty characters a results line shows: at 56, as it was, a title of
+	// 53 to 56 came out at 61 to 64, and that was more than a hundred pages.
+	const SUFFIX = ' | LangX';
+	let pageTitle = $derived(
+		title ? (title.length + SUFFIX.length > 60 ? title : `${title}${SUFFIX}`) : defaultTitle
+	);
 	let canonical = $derived(`${siteBaseUrl}${path}`);
 	let cardImage = $derived(ogImage ?? image);
 	let cardAlt = $derived(ogImage ? (ogImageAlt ?? pageTitle) : imageAlt);

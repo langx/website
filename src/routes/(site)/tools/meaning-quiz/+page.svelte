@@ -1,15 +1,42 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
+	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
+
+	const ld = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+					{ '@type': 'ListItem', position: 2, name: 'Meaning quiz' }
+				]
+			},
+			{
+				'@type': 'ItemList',
+				name: `Vocabulary quizzes in ${WORD_LISTS.length} languages`,
+				numberOfItems: WORD_LISTS.length,
+				itemListElement: WORD_LISTS.map((l, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: `${l.name} vocabulary quiz`,
+					url: `${siteBaseUrl}/tools/meaning-quiz/${l.slug}`
+				}))
+			}
+		]
+	};
 </script>
 
 <Seo
-	title="Meaning quiz"
+	title="Vocabulary quiz: ten words a day in {WORD_LISTS.length} languages"
 	path="/tools/meaning-quiz"
 	description="Ten words a day in {WORD_LISTS.length} languages, four meanings each, all from the first fifteen hundred words each language uses most. Free, no account."
 />
+<JsonLd data={ld} />
 
 <div class="container">
 	<PageHeader

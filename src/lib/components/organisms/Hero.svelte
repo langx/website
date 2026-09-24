@@ -23,7 +23,7 @@
 		data-reveal-children
 		use:reveal={{ children: true, onLoad: true, stagger: 0.12 }}
 	>
-		<h1>The friendly way to practise a language with real people</h1>
+		<h1>The friendly language exchange app: practise with real people</h1>
 		<div class="buttons" use:ownsPrimary>
 			<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
 			<Button href="https://get.langx.io" variant="secondary" size="lg" block>
