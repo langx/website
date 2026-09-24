@@ -7,6 +7,8 @@
 	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import QuizTrack from '$lib/components/atoms/QuizTrack.svelte';
+	import QuizMark from '$lib/components/atoms/QuizMark.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 
@@ -85,6 +87,9 @@
 	$: answered = picked.filter((p) => p !== null).length;
 	$: score = rounds.filter((r, i) => picked[i] === r.answer).length;
 	$: finished = rounds.length > 0 && answered === rounds.length;
+	$: steps = rounds.map((r, i) =>
+		picked[i] === null ? (i === at ? 'now' : null) : picked[i] === r.answer ? 'right' : 'wrong'
+	) as ('right' | 'wrong' | 'now' | null)[];
 
 	async function copyResult() {
 		const grid = rounds.map((r, i) => (picked[i] === r.answer ? '🟩' : '🟥')).join('');
@@ -121,17 +126,13 @@
 			<p class="big tabular">{score}<span>/{rounds.length}</span></p>
 			<!-- The grid people share, drawn in the site's own colours; the copied
 			     text keeps the emoji, which is what a chat window can show. -->
-			<ol class="track large" aria-label="{score} right, {rounds.length - score} wrong">
-				{#each rounds as r, i}
-					<li class:right={picked[i] === r.answer} class:wrong={picked[i] !== r.answer} />
-				{/each}
-			</ol>
+			<QuizTrack large steps={rounds.map((r, i) => (picked[i] === r.answer ? 'right' : 'wrong'))} />
 
 			<ul class="review" role="list">
 				{#each rounds as r, i}
 					{@const right = byCode.get(r.answer)}
 					<li class:wrong={picked[i] !== r.answer}>
-						<span class="mark" role="img" aria-label={picked[i] === r.answer ? 'Right' : 'Wrong'} />
+						<QuizMark right={picked[i] === r.answer} />
 						<span class="w"
 							><span lang={r.answer}>{r.word}</span>
 							<SpeakButton
@@ -174,15 +175,7 @@
 		{@const r = rounds[at]}
 		<p class="progress">Word {at + 1} of {rounds.length}</p>
 		<!-- The day so far, drawn: the text above carries it for screen readers. -->
-		<ol class="track" aria-hidden="true">
-			{#each rounds as round, i}
-				<li
-					class:right={picked[i] !== null && picked[i] === round.answer}
-					class:wrong={picked[i] !== null && picked[i] !== round.answer}
-					class:now={i === at && picked[i] === null}
-				/>
-			{/each}
-		</ol>
+		<QuizTrack {steps} />
 		<!-- Only once answered: the voice would say which language it is. -->
 		<p class="word">
 			<span lang={r.answer}>{r.word}</span>
@@ -360,66 +353,6 @@
 		padding-bottom: var(--space-2xl);
 	}
 
-	// Ten steps: green for right, red for wrong, ink for the word on screen,
-	// the muted fill for those still to come.
-	.track {
-		display: flex;
-		gap: 4px;
-		margin: var(--space-2xs) 0 0;
-		padding: 0;
-		list-style: none;
-
-		li {
-			flex: 0 0 auto;
-			width: 20px;
-			height: 6px;
-			border-radius: var(--radius-pill);
-			background: var(--color--muted);
-			transition: background-color var(--dur-fast) ease;
-
-			&.now {
-				background: var(--color--text);
-			}
-
-			&.right {
-				background: var(--color--success);
-			}
-
-			&.wrong {
-				background: var(--color--error);
-			}
-		}
-
-		&.large {
-			gap: 6px;
-			margin: var(--space-sm) 0 var(--space-lg);
-
-			// Ten 28px squares are 334px with their gaps, wider than a 320px
-			// phone's column; there they shrink together and stay square.
-			li {
-				flex: 0 1 28px;
-				min-width: 0;
-				width: auto;
-				height: auto;
-				aspect-ratio: 1;
-				border-radius: 8px;
-				display: grid;
-				place-items: center;
-				color: var(--color--page-background);
-				font-size: 0.875rem;
-				font-weight: 800;
-
-				&.right::before {
-					content: '✓';
-				}
-
-				&.wrong::before {
-					content: '✕';
-				}
-			}
-		}
-	}
-
 	.next {
 		height: 48px;
 		padding: 0 22px;
@@ -458,34 +391,6 @@
 			gap: var(--space-2xs) var(--space-sm);
 			padding: 12px 0;
 			border-bottom: 1px solid var(--color--border);
-		}
-
-		// A tick or a cross in a disc, as in the tables in the posts, so the
-		// review reads without the colours too.
-		.mark {
-			flex: 0 0 auto;
-			display: inline-grid;
-			place-items: center;
-			width: 22px;
-			height: 22px;
-			border-radius: var(--radius-pill);
-			background: var(--color--success-tint);
-			color: var(--color--success);
-			font-size: 0.75rem;
-			font-weight: 800;
-
-			&::before {
-				content: '✓';
-			}
-		}
-
-		.wrong .mark {
-			background: var(--color--muted);
-			color: var(--color--error);
-
-			&::before {
-				content: '✕';
-			}
 		}
 
 		.w {
