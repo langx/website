@@ -14,6 +14,16 @@ const extensions = ['.svelte', '.md'];
 const config = {
 	kit: {
 		adapter: adapter(),
+		// Root-absolute URLs for build artifacts (/_app/...) and for
+		// %sveltekit.assets% in app.html, instead of Kit 2's default of paths
+		// relative to the page. Cloudflare Pages answers a missing URL at any
+		// depth with 404.html, and there a relative ./_app/... resolves under
+		// the missing URL's directory, to another 404: the not-found page lost
+		// its styles and its scripts. The site is always served from the
+		// domain root, branch previews included, so nothing needs relative ones.
+		paths: {
+			relative: false
+		},
 		prerender: {
 			handleHttpError: 'warn'
 		}
