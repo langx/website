@@ -597,8 +597,11 @@
 	}
 
 	// The bars grow from the left once the rows are looked at — only where
-	// script runs; without it they are simply there.
-	:global(html:not(.no-js)) .limits:not(:global(.is-in)) .bar {
+	// script runs; without it they are simply there. Svelte 4 cannot scope a
+	// class inside :not(), and left `:not(:global(.is-in))` in the output as
+	// is, which no browser parses; so the section's state is matched
+	// globally and only the bar keeps its scoped class.
+	:global(html:not(.no-js) .limits:not(.is-in)) .bar {
 		transform: scaleX(0);
 	}
 
@@ -615,7 +618,7 @@
 			transition: none;
 		}
 
-		:global(html:not(.no-js)) .limits:not(:global(.is-in)) .bar {
+		:global(html:not(.no-js) .limits:not(.is-in)) .bar {
 			transform: none;
 		}
 	}
