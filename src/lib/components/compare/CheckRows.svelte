@@ -104,7 +104,7 @@
 </figure>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.check {
 		margin: 0;

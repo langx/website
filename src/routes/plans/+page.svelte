@@ -209,7 +209,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	// Copy on the left, the app's own plans screen on the right; on a phone
 	// the copy leads and the device follows.

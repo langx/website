@@ -60,7 +60,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.block {
 		padding: var(--space-xl) 0 0;

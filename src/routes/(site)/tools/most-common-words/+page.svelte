@@ -375,7 +375,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.lede-block {
 		padding: var(--space-2xl) 0 var(--space-lg);

@@ -152,12 +152,15 @@
 <Footer />
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/mixins' as *;
 
 	#article-content {
 		--main-column-width: 68ch;
 		position: relative;
 		padding: var(--space-xl) 15px var(--space-2xl);
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-lg);
 
 		@include for-tablet-portrait-up {
 			padding-right: 20px;
@@ -168,10 +171,6 @@
 			padding-right: 30px;
 			padding-left: 30px;
 		}
-
-		display: flex;
-		flex-direction: column;
-		gap: var(--space-lg);
 
 		.header {
 			display: flex;

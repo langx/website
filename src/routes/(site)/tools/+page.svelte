@@ -207,7 +207,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.hero {
 		padding: var(--space-2xl) 0 var(--space-lg);

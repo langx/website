@@ -33,7 +33,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	// Stacked and left-aligned, not a full-width row: the rules below sit in a
 	// 1.2fr column, so a button pushed to the container's right edge lands over

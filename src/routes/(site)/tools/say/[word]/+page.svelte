@@ -452,7 +452,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints' as *;
 
 	.note {
 		color: var(--color--text-shade);
@@ -497,14 +497,14 @@
 		flex-wrap: wrap;
 		align-items: center;
 		gap: 0 6px;
+		font-family: var(--font--title);
+		font-weight: 800;
+		overflow-wrap: anywhere;
 
 		// The pronunciation takes a line of its own under the word.
 		:global(.ipa) {
 			flex-basis: 100%;
 		}
-		font-family: var(--font--title);
-		font-weight: 800;
-		overflow-wrap: anywhere;
 	}
 
 	// The word in six writing systems, big enough to see the shapes: three
