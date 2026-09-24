@@ -26,7 +26,7 @@ export function entries() {
 
 export async function load({ params }) {
 	const meta = WORD_LISTS.find((l) => l.slug === params.language);
-	if (!meta) throw error(404, 'No word list for that language');
+	if (!meta) error(404, 'No word list for that language');
 
 	const file = path.join(process.cwd(), 'static/data/most-common-words', `${meta.slug}.tsv`);
 	const rows = (await readFile(file, 'utf8'))

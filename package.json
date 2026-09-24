@@ -45,8 +45,9 @@
 	},
 	"devDependencies": {
 		"@neoconfetti/svelte": "^1.0.0",
-		"@sveltejs/adapter-static": "^2.0.3",
-		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.70.3",
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@types/cookie": "^0.5.1",
 		"@types/dateformat": "^5.0.1",
 		"@types/prismjs": "^1.26.2",
@@ -67,12 +68,12 @@
 		"sass": "^1.69.4",
 		"striptags": "^3.2.0",
 		"svelte": "^4.0.5",
-		"svelte-check": "^3.4.3",
+		"svelte-check": "^3.8.6",
 		"svelte-sitemap": "^2.6.0",
 		"tslib": "^2.4.1",
-		"typescript": "^5.0.0",
-		"vite": "^4.5.3",
-		"vitest": "^0.32.2"
+		"typescript": "^5.9.3",
+		"vite": "^5.4.21",
+		"vitest": "^3.2.7"
 	},
 	"type": "module",
 	"dependencies": {

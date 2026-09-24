@@ -15,7 +15,7 @@ export function entries() {
 
 export async function load({ params }) {
 	const meta = WORD_LISTS.find((l) => l.slug === params.language);
-	if (!meta) throw error(404, 'No quiz for that language');
+	if (!meta) error(404, 'No quiz for that language');
 
 	const rows = (
 		await readFile(
@@ -42,7 +42,7 @@ export async function load({ params }) {
 		return true;
 	});
 
-	if (usable.length < ROUNDS * OPTIONS) throw error(404, 'Not enough usable words for a quiz');
+	if (usable.length < ROUNDS * OPTIONS) error(404, 'Not enough usable words for a quiz');
 
 	return { meta, pool: usable, rounds: ROUNDS, options: OPTIONS };
 }

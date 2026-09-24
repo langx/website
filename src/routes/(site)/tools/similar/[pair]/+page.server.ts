@@ -14,11 +14,11 @@ export function entries() {
 
 export async function load({ params }) {
 	const pair = LANGUAGE_PAIRS.find((p) => p.slug === params.pair);
-	if (!pair) throw error(404, 'No page for that pair');
+	if (!pair) error(404, 'No page for that pair');
 
 	const a = WORD_LISTS.find((l) => l.code === pair.a);
 	const b = WORD_LISTS.find((l) => l.code === pair.b);
-	if (!a || !b) throw error(404, 'Unknown language in that pair');
+	if (!a || !b) error(404, 'Unknown language in that pair');
 
 	const rows = (
 		await readFile(
