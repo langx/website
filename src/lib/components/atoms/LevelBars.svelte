@@ -1,9 +1,13 @@
 <script lang="ts">
-	/** CEFR-style level as bars: `level` of `max` filled. */
-	export let level: number;
-	export let max = 4;
-	export let tone: 'accent' | 'muted' | 'inverse' = 'accent';
-	export let label: string | undefined = undefined;
+	interface Props {
+		/** CEFR-style level as bars: `level` of `max` filled. */
+		level: number;
+		max?: number;
+		tone?: 'accent' | 'muted' | 'inverse';
+		label?: string | undefined;
+	}
+
+	let { level, max = 4, tone = 'accent', label = undefined }: Props = $props();
 
 	const heights = [6, 8, 10, 12, 14];
 </script>

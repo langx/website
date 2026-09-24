@@ -14,7 +14,7 @@
 	 * PRODUCT.md and `$lib/analytics`.
 	 */
 	const repo = 'langx/langx';
-	let stars = -1;
+	let stars = $state(-1);
 
 	onMount(async () => {
 		try {

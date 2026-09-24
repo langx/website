@@ -3,25 +3,39 @@
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import PostThumb from '$lib/components/blog/PostThumb.svelte';
 
-	/** A row in a list of posts — the app's own list grammar, not a card. */
-	export let title: string;
-	export let coverImage: string | undefined = undefined;
-	/** A square made for lists; the cover is cropped to fit where there is none. */
-	export let thumbnail: string | undefined = undefined;
-	export let excerpt: string;
-	export let slug: string;
-	export let tags: string[] | undefined;
-	export let readingTime: string | undefined = undefined;
-	export let showImage = true;
-	/** The apps the post is about, for a comparison's icons (see PostThumb). */
-	export let apps: string[] | undefined = undefined;
+	interface Props {
+		/** A row in a list of posts — the app's own list grammar, not a card. */
+		title: string;
+		coverImage?: string | undefined;
+		/** A square made for lists; the cover is cropped to fit where there is none. */
+		thumbnail?: string | undefined;
+		excerpt: string;
+		slug: string;
+		tags: string[] | undefined;
+		readingTime?: string | undefined;
+		showImage?: boolean;
+		/** The apps the post is about, for a comparison's icons (see PostThumb). */
+		apps?: string[] | undefined;
+	}
+
+	let {
+		title,
+		coverImage = undefined,
+		thumbnail = undefined,
+		excerpt,
+		slug,
+		tags,
+		readingTime = undefined,
+		showImage = true,
+		apps = undefined
+	}: Props = $props();
 
 	/**
 	 * A photograph the post was written with is shown as it is. Everything else
 	 * — the drawn thumbnails, which were one glyph on a tint, and posts with no
 	 * image at all — gets a tile drawn from what the post is about.
 	 */
-	$: photo = coverImage && !thumbnail ? coverImage : undefined;
+	let photo = $derived(coverImage && !thumbnail ? coverImage : undefined);
 </script>
 
 <a class="post" href="/{slug}" data-sveltekit-preload-data>
@@ -134,6 +148,8 @@
 		flex: 0 0 auto;
 		color: var(--color--text-quiet);
 		margin-top: 2px;
-		transition: transform var(--dur-fast) var(--ease-out), color var(--dur-fast) ease;
+		transition:
+			transform var(--dur-fast) var(--ease-out),
+			color var(--dur-fast) ease;
 	}
 </style>

@@ -1,16 +1,21 @@
 <script lang="ts">
-	/**
-	 * A chip. `outline` is the PRO / label chip from the app, `solid` the
-	 * selected filter chip, `accent` the language chip. `color` is kept for the
-	 * data files that still pass it and only tints the accent tone.
-	 */
-	export let tone: 'outline' | 'solid' | 'accent' = 'outline';
-	export let color: 'primary' | 'secondary' | 'pro' | 'pro-plus' | undefined = undefined;
-	export let uppercase = false;
+	interface Props {
+		/**
+		 * A chip. `outline` is the PRO / label chip from the app, `solid` the
+		 * selected filter chip, `accent` the language chip. `color` is kept for the
+		 * data files that still pass it and only tints the accent tone.
+		 */
+		tone?: 'outline' | 'solid' | 'accent';
+		color?: 'primary' | 'secondary' | 'pro' | 'pro-plus' | undefined;
+		uppercase?: boolean;
+		children?: import('svelte').Snippet;
+	}
+
+	let { tone = 'outline', color = undefined, uppercase = false, children }: Props = $props();
 </script>
 
 <span class="tag {tone} {color ?? ''}" class:uppercase>
-	<slot />
+	{@render children?.()}
 </span>
 
 <style lang="scss">

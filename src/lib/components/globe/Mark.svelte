@@ -8,14 +8,19 @@
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import type { MarkColors, MarkHandle } from './mark';
 
-	/** Width and height of the mark, in px. */
-	export let size = 96;
+	interface Props {
+		/** Width and height of the mark, in px. */
+		size?: number;
+	}
 
-	let container: HTMLDivElement;
-	let failed = false;
+	let { size = 96 }: Props = $props();
+
+	// Set by bind:this before onMount, where every use of it is.
+	let container: HTMLDivElement | undefined = $state();
+	let failed = $state(false);
 
 	function readColors(): MarkColors {
-		const style = getComputedStyle(container);
+		const style = getComputedStyle(container!);
 		const token = (name: string) => style.getPropertyValue(`--color--${name}`).trim();
 		return { ink: token('text'), yellow: token('primary') };
 	}
@@ -28,7 +33,7 @@
 		import('./mark').then(({ createMark }) => {
 			if (cancelled) return;
 			try {
-				handle = createMark(container, {
+				handle = createMark(container!, {
 					colors: readColors(),
 					animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches
 				});
@@ -52,7 +57,7 @@
 				visible = entry.isIntersecting;
 				sync();
 			});
-			inView.observe(container);
+			inView.observe(container!);
 			document.addEventListener('visibilitychange', sync);
 
 			cleanups.push(() => {

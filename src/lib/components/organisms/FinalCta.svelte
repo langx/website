@@ -4,8 +4,12 @@
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { reveal } from '$lib/utils/reveal';
 
-	/** The one line above the buttons; a page with its own last word passes it. */
-	export let title = 'Practice a language with LangX';
+	interface Props {
+		/** The one line above the buttons; a page with its own last word passes it. */
+		title?: string;
+	}
+
+	let { title = 'Practice a language with LangX' }: Props = $props();
 </script>
 
 <!-- The mark turning in three dimensions, one line, and the same two buttons as the top of the page. -->

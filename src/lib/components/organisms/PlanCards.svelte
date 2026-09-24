@@ -2,12 +2,16 @@
 	import { plans, planNotes } from '$lib/data/plans';
 	import { reveal } from '$lib/utils/reveal';
 
-	/**
-	 * `detailed` is the plans page: the notes under each point are shown, and
-	 * the section title is left to the page header above. That page ships no
-	 * JS (csr = dev), so nothing on it may start hidden for a reveal.
-	 */
-	export let detailed = false;
+	interface Props {
+		/**
+		 * `detailed` is the plans page: the notes under each point are shown, and
+		 * the section title is left to the page header above. That page ships no
+		 * JS (csr = dev), so nothing on it may start hidden for a reveal.
+		 */
+		detailed?: boolean;
+	}
+
+	let { detailed = false }: Props = $props();
 </script>
 
 <!-- Three cards from plans.ts, so a limit that changes there changes here. -->

@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import Header from '$lib/components/organisms/Header.svelte';
 	import Footer from '$lib/components/organisms/Footer.svelte';
 	import NotFound from '$lib/components/organisms/NotFound.svelte';
 </script>
 
 <svelte:head>
-	<title>{$page.status === 404 ? 'Page not found' : 'Something went wrong'} | LangX</title>
+	<title>{page.status === 404 ? 'Page not found' : 'Something went wrong'} | LangX</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
@@ -14,7 +14,7 @@
 
 <main>
 	<div class="container">
-		<NotFound status={$page.status} />
+		<NotFound status={page.status} />
 	</div>
 </main>
 

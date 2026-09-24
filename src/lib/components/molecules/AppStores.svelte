@@ -2,14 +2,18 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 
-	/**
-	 * The one committing action plus the two stores. `primary` decides whether
-	 * this instance owns the screen's yellow; a second instance on the same
-	 * page passes `false`.
-	 */
-	export let primary = true;
-	export let size: 'md' | 'lg' = 'lg';
-	export let align: 'start' | 'center' = 'start';
+	interface Props {
+		/**
+		 * The one committing action plus the two stores. `primary` decides whether
+		 * this instance owns the screen's yellow; a second instance on the same
+		 * page passes `false`.
+		 */
+		primary?: boolean;
+		size?: 'md' | 'lg';
+		align?: 'start' | 'center';
+	}
+
+	let { primary = true, size = 'lg', align = 'start' }: Props = $props();
 
 	export const links = {
 		web: 'https://get.langx.io',
@@ -21,7 +25,9 @@
 <div class="stores {align}">
 	<Button href={links.web} variant={primary ? 'primary' : 'dark'} {size}>
 		Start for free
-		<UiIcon slot="icon" name="arrow-right" size={18} />
+		{#snippet icon()}
+			<UiIcon name="arrow-right" size={18} />
+		{/snippet}
 	</Button>
 	<div class="apps">
 		<a href={links.ios} target="_blank" rel="noopener noreferrer">
@@ -72,7 +78,9 @@
 			font-size: 0.9375rem;
 			font-weight: 700;
 			color: var(--color--text);
-			transition: background-color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
+			transition:
+				background-color var(--dur-fast) ease,
+				transform var(--dur-press) var(--ease-out);
 
 			&:active {
 				transform: scale(0.97);

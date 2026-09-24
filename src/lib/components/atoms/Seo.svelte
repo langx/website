@@ -10,26 +10,39 @@
 		siteBaseUrl
 	} from '$lib/data/meta';
 
-	/** Page title. Suffixed with the brand unless it is long, and never on the homepage. */
-	export let title: string | null = null;
-	export let description: string = defaultDescription;
-	/** Path, not a full URL — e.g. `/plans`. */
-	export let path: string = '';
-	/** Kept out of the index, for pages like the 404 that must not rank. */
-	export let noindex = false;
-	export let keywords: string[] = defaultKeywords;
-	/** `article` on posts; everything else is a `website`. */
-	export let type: 'website' | 'article' = 'website';
-	/** Absolute URL of a page-specific social card; the site card otherwise. */
-	export let ogImage: string | null = null;
-	export let ogImageAlt: string | null = null;
+	interface Props {
+		/** Page title. Suffixed with the brand unless it is long, and never on the homepage. */
+		title?: string | null;
+		description?: string;
+		/** Path, not a full URL — e.g. `/plans`. */
+		path?: string;
+		/** Kept out of the index, for pages like the 404 that must not rank. */
+		noindex?: boolean;
+		keywords?: string[];
+		/** `article` on posts; everything else is a `website`. */
+		type?: 'website' | 'article';
+		/** Absolute URL of a page-specific social card; the site card otherwise. */
+		ogImage?: string | null;
+		ogImageAlt?: string | null;
+	}
+
+	let {
+		title = null,
+		description = defaultDescription,
+		path = '',
+		noindex = false,
+		keywords = defaultKeywords,
+		type = 'website',
+		ogImage = null,
+		ogImageAlt = null
+	}: Props = $props();
 
 	// A long title already fills a results line; the suffix would only push
 	// the words that matter past the cut.
-	$: pageTitle = title ? (title.length > 56 ? title : `${title} | LangX`) : defaultTitle;
-	$: canonical = `${siteBaseUrl}${path}`;
-	$: cardImage = ogImage ?? image;
-	$: cardAlt = ogImage ? ogImageAlt ?? pageTitle : imageAlt;
+	let pageTitle = $derived(title ? (title.length > 56 ? title : `${title} | LangX`) : defaultTitle);
+	let canonical = $derived(`${siteBaseUrl}${path}`);
+	let cardImage = $derived(ogImage ?? image);
+	let cardAlt = $derived(ogImage ? (ogImageAlt ?? pageTitle) : imageAlt);
 </script>
 
 <svelte:head>

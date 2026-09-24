@@ -1,7 +1,12 @@
 <script lang="ts">
-	export let filename: string;
-	export let lang: string;
-	export let fullBleed: boolean | undefined = undefined;
+	interface Props {
+		filename: string;
+		lang: string;
+		fullBleed?: boolean | undefined;
+		children?: import('svelte').Snippet;
+	}
+
+	let { filename, lang, fullBleed = undefined, children }: Props = $props();
 </script>
 
 <div class="code-block" class:full-bleed={fullBleed}>
@@ -11,7 +16,7 @@
 	{#if lang}
 		<div class="lang">{lang}</div>
 	{/if}
-	<slot />
+	{@render children?.()}
 </div>
 
 <style lang="scss">

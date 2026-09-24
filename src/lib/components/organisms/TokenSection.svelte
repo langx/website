@@ -38,7 +38,9 @@
 		<div class="buttons">
 			<Button href="https://token.langx.io" variant="secondary" size="lg">
 				Open token.langx.io
-				<UiIcon slot="icon" name="external" size={18} />
+				{#snippet icon()}
+					<UiIcon name="external" size={18} />
+				{/snippet}
 			</Button>
 			<Button href="/tokens" variant="ghost" size="lg">Every rule</Button>
 		</div>
@@ -153,7 +155,9 @@
 	.text,
 	.device {
 		opacity: 0;
-		transition: opacity 500ms var(--ease-out), transform 600ms var(--ease-out);
+		transition:
+			opacity 500ms var(--ease-out),
+			transform 600ms var(--ease-out);
 	}
 
 	.text {

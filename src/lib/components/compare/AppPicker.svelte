@@ -20,9 +20,11 @@
 	 * true as the table further down and never has a claim of its own.
 	 */
 	const apps = COMPETITORS;
-	let selected: Competitor = apps[0];
-	let hydrated = false;
-	let reduce = false;
+	// Raw, not deep state: the chips compare each app to this one by identity,
+	// and deep state would hand back a proxy that equals none of them.
+	let selected: Competitor = $state.raw(apps[0]);
+	let hydrated = $state(false);
+	let reduce = $state(false);
 
 	const key = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
 
@@ -37,7 +39,7 @@
 		}
 	});
 
-	$: icon = appIcon(selected.name);
+	let icon = $derived(appIcon(selected.name));
 </script>
 
 <section id="pick" class="pick" aria-labelledby="pick-title">
@@ -57,17 +59,31 @@
 						class:on={c === selected}
 						class:bare={!appIcon(c.name)}
 						aria-pressed={c === selected}
-						on:click={() => (selected = c)}
+						onclick={() => (selected = c)}
 					>
 						{#if appIcon(c.name)}
-							<img class="icon" src={appIcon(c.name)} alt="" width="26" height="26" loading="lazy" />
+							<img
+								class="icon"
+								src={appIcon(c.name)}
+								alt=""
+								width="26"
+								height="26"
+								loading="lazy"
+							/>
 						{/if}
 						{c.name}
 					</button>
 				{:else}
 					<a class="chip" class:on={c === selected} class:bare={!appIcon(c.name)} href="/{c.slug}">
 						{#if appIcon(c.name)}
-							<img class="icon" src={appIcon(c.name)} alt="" width="26" height="26" loading="lazy" />
+							<img
+								class="icon"
+								src={appIcon(c.name)}
+								alt=""
+								width="26"
+								height="26"
+								loading="lazy"
+							/>
 						{/if}
 						{c.name}
 					</a>
@@ -128,7 +144,10 @@
 						<span class="k" role="rowheader">Open source</span>
 						<span class="v" role="cell"><Cell {...LANGX.openSource} /></span>
 						<span class="v" role="cell">
-							<Cell mark={selected.openSource ? 'yes' : 'no'} text={selected.openSource ? 'Yes' : 'No'} />
+							<Cell
+								mark={selected.openSource ? 'yes' : 'no'}
+								text={selected.openSource ? 'Yes' : 'No'}
+							/>
 						</span>
 					</div>
 					<div class="row" role="row">
@@ -215,8 +234,11 @@
 		line-height: 1;
 		cursor: pointer;
 		text-decoration: none;
-		transition: background-color var(--dur-fast) ease, border-color var(--dur-fast) ease,
-			color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
+		transition:
+			background-color var(--dur-fast) ease,
+			border-color var(--dur-fast) ease,
+			color var(--dur-fast) ease,
+			transform var(--dur-press) var(--ease-out);
 
 		&.bare {
 			padding-left: 14px;

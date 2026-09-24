@@ -11,10 +11,14 @@
 	import FeedScreen from '$lib/components/phone/FeedScreen.svelte';
 	import MeScreen from '$lib/components/phone/MeScreen.svelte';
 
-	export let screen: 'chat' | 'discover' | 'feed' | 'me' = 'chat';
-	/** One or two sentences beside the phone saying what it shows. */
-	export let text = '';
-	export let title = '';
+	interface Props {
+		screen?: 'chat' | 'discover' | 'feed' | 'me';
+		/** One or two sentences beside the phone saying what it shows. */
+		text?: string;
+		title?: string;
+	}
+
+	let { screen = 'chat', text = '', title = '' }: Props = $props();
 
 	const LABELS = {
 		chat: 'A LangX chat: messages arrive, then a correction',

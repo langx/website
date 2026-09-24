@@ -2,7 +2,11 @@
 	import type { BlogPost } from '$lib/utils/types';
 	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
 
-	export let posts: BlogPost[];
+	interface Props {
+		posts: BlogPost[];
+	}
+
+	let { posts }: Props = $props();
 </script>
 
 <section id="related-posts" class="related">

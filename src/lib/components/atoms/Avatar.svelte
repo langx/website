@@ -1,18 +1,29 @@
 <script lang="ts">
-	/**
-	 * A profile picture on a disc. With `src` it is a photo; without one it
-	 * falls back to initials on a solid fill, the way the app does when
-	 * somebody has not added a picture yet.
-	 */
-	export let initials: string;
-	export let src: string | undefined = undefined;
-	export let size = 40;
-	export let tone: 'accent' | 'success' | 'ink' | 'pro' = 'accent';
-	export let online = false;
-	export let name: string | undefined = undefined;
+	interface Props {
+		/**
+		 * A profile picture on a disc. With `src` it is a photo; without one it
+		 * falls back to initials on a solid fill, the way the app does when
+		 * somebody has not added a picture yet.
+		 */
+		initials: string;
+		src?: string | undefined;
+		size?: number;
+		tone?: 'accent' | 'success' | 'ink' | 'pro';
+		online?: boolean;
+		name?: string | undefined;
+	}
 
-	$: fontSize = Math.round(size * 0.34);
-	$: dot = Math.max(10, Math.round(size * 0.21));
+	let {
+		initials,
+		src = undefined,
+		size = 40,
+		tone = 'accent',
+		online = false,
+		name = undefined
+	}: Props = $props();
+
+	let fontSize = $derived(Math.round(size * 0.34));
+	let dot = $derived(Math.max(10, Math.round(size * 0.21)));
 </script>
 
 <span

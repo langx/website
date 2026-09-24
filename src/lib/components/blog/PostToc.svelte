@@ -7,9 +7,13 @@
 	 */
 	import { onMount } from 'svelte';
 
-	export let headings: { id: string; text: string }[] = [];
+	interface Props {
+		headings?: { id: string; text: string }[];
+	}
 
-	let active = '';
+	let { headings = [] }: Props = $props();
+
+	let active = $state('');
 
 	onMount(() => {
 		const targets = headings
@@ -90,7 +94,9 @@
 		line-height: 1.4;
 		color: var(--color--text-shade);
 		text-decoration: none;
-		transition: color 200ms ease-out, border-color 200ms ease-out;
+		transition:
+			color 200ms ease-out,
+			border-color 200ms ease-out;
 
 		// Blue means where you are, the same as the active tab in the app.
 		&.active {

@@ -23,7 +23,9 @@
 		</p>
 		<Button href="https://token.langx.io" variant="secondary" size="lg">
 			Open token.langx.io
-			<UiIcon slot="icon" name="external" size={18} />
+			{#snippet icon()}
+				<UiIcon name="external" size={18} />
+			{/snippet}
 		</Button>
 	</div>
 

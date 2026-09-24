@@ -11,8 +11,12 @@
 	import type { WordGameLanguage } from '$lib/data/word-game';
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
-	export let data: { game: WordGameLanguage; meta: WordListMeta; others: WordGameLanguage[] };
-	$: ({ game, meta, others } = data);
+	interface Props {
+		data: { game: WordGameLanguage; meta: WordListMeta; others: WordGameLanguage[] };
+	}
+
+	let { data }: Props = $props();
+	let { game, meta, others } = $derived(data);
 
 	const LENGTH = 5;
 	const TRIES = 6;
@@ -22,24 +26,24 @@
 
 	let answers: string[] = [];
 	let guessable = new Set<string>();
-	let letters: string[] = [];
-	let answer = '';
+	let letters: string[] = $state([]);
+	let answer = $state('');
 	/** Its rank in the list, for the reading played once the game is over. */
-	let answerRank: number | undefined;
+	let answerRank: number | undefined = $state();
 	/** And its pronunciation, shown with the reveal. */
-	let answerIpa = '';
-	let loaded = false;
+	let answerIpa = $state('');
+	let loaded = $state(false);
 
-	let rows: string[] = [];
-	let current = '';
-	let done: 'won' | 'lost' | null = null;
-	let shake = false;
-	let message = '';
-	let copied = '';
+	let rows: string[] = $state([]);
+	let current = $state('');
+	let done: 'won' | 'lost' | null = $state(null);
+	let shake = $state(false);
+	let message = $state('');
+	let copied = $state('');
 
 	/** UTC so everyone gets the same puzzle on the same day. */
 	const today = new Date().toISOString().slice(0, 10);
-	$: storeKey = `wordgame:${game.slug}:${today}`;
+	let storeKey = $derived(`wordgame:${game.slug}:${today}`);
 
 	onMount(async () => {
 		try {
@@ -102,19 +106,21 @@
 		return out;
 	}
 
-	$: marks = rows.map(mark);
+	let marks = $derived(rows.map(mark));
 
 	/** Best state seen for each letter, for colouring the keyboard. */
-	$: keyState = (() => {
-		const state: Record<string, 'hit' | 'near' | 'miss'> = {};
-		rows.forEach((row, r) => {
-			[...row].forEach((c, i) => {
-				const m = marks[r][i];
-				if (m === 'hit' || (m === 'near' && state[c] !== 'hit') || !state[c]) state[c] = m;
+	let keyState = $derived(
+		(() => {
+			const state: Record<string, 'hit' | 'near' | 'miss'> = {};
+			rows.forEach((row, r) => {
+				[...row].forEach((c, i) => {
+					const m = marks[r][i];
+					if (m === 'hit' || (m === 'near' && state[c] !== 'hit') || !state[c]) state[c] = m;
+				});
 			});
-		});
-		return state;
-	})();
+			return state;
+		})()
+	);
 
 	function press(letter: string) {
 		if (done || !loaded) return;
@@ -170,35 +176,37 @@
 		setTimeout(() => (copied = ''), 2500);
 	}
 
-	$: ld = JSON.stringify({
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
-					{
-						'@type': 'ListItem',
-						position: 2,
-						name: 'Word game',
-						item: `${siteBaseUrl}/tools/word-game`
-					},
-					{ '@type': 'ListItem', position: 3, name: meta.name }
-				]
-			}
-		]
-	});
+	let ld = $derived(
+		JSON.stringify({
+			'@context': 'https://schema.org',
+			'@graph': [
+				{
+					'@type': 'BreadcrumbList',
+					itemListElement: [
+						{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+						{
+							'@type': 'ListItem',
+							position: 2,
+							name: 'Word game',
+							item: `${siteBaseUrl}/tools/word-game`
+						},
+						{ '@type': 'ListItem', position: 3, name: meta.name }
+					]
+				}
+			]
+		})
+	);
 
 	// The angle bracket is written as an escape and never appears literally in
 	// this file: Svelte's parser scans the raw source, comments included, and
 	// treats a script tag written out in full as a real tag.
 	const LT = '\u003c';
-	$: ldScript = `${LT}script type="application/ld+json">${ld
-		.split(LT)
-		.join('\\u003c')}${LT}/script>`;
+	let ldScript = $derived(
+		`${LT}script type="application/ld+json">${ld.split(LT).join('\\u003c')}${LT}/script>`
+	);
 </script>
 
-<svelte:window on:keydown={onKey} />
+<svelte:window onkeydown={onKey} />
 
 <Seo
 	title="{meta.name} word game: a daily five-letter puzzle"
@@ -229,8 +237,8 @@
 					{@const letter = rows[r]
 						? [...rows[r]][i]
 						: r === rows.length
-						? [...current][i] ?? ''
-						: ''}
+							? ([...current][i] ?? '')
+							: ''}
 					<span class="cell {rows[r] ? marks[r][i] : ''}" class:filled={!!letter} lang={meta.code}>
 						{letter}
 					</span>
@@ -259,7 +267,7 @@
 				<Ipa ipa={answerIpa} />
 			</p>
 			<div class="after">
-				<button type="button" class="share" on:click={copyResult}>
+				<button type="button" class="share" onclick={copyResult}>
 					<svg viewBox="0 0 24 24" aria-hidden="true">
 						<path d="M12 15V4" /><path d="m8 8 4-4 4 4" />
 						<path d="M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5" />
@@ -279,13 +287,13 @@
 					type="button"
 					class="key {keyState[l] ?? ''}"
 					lang={meta.code}
-					on:click={() => press(l)}
+					onclick={() => press(l)}
 				>
 					{l}
 				</button>
 			{/each}
-			<button type="button" class="key wide" on:click={back}>⌫</button>
-			<button type="button" class="key wide enter" on:click={submit}>Enter</button>
+			<button type="button" class="key wide" onclick={back}>⌫</button>
+			<button type="button" class="key wide enter" onclick={submit}>Enter</button>
 		</div>
 	{/if}
 
@@ -344,7 +352,9 @@
 		font-size: 1.75rem;
 		line-height: 1;
 		text-transform: uppercase;
-		transition: border-color var(--dur-fast) ease, background-color var(--dur-fast) ease;
+		transition:
+			border-color var(--dur-fast) ease,
+			background-color var(--dur-fast) ease;
 
 		&.filled {
 			border-color: var(--color--text-quiet);
@@ -429,7 +439,9 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		cursor: pointer;
-		transition: background-color var(--dur-fast) ease, transform var(--dur-press) var(--ease-out);
+		transition:
+			background-color var(--dur-fast) ease,
+			transform var(--dur-press) var(--ease-out);
 
 		&:active {
 			transform: scale(0.94);

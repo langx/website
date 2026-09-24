@@ -1,8 +1,12 @@
 <script lang="ts">
-	/** The small blue word above the title, the way the homepage sections open. */
-	export let eyebrow: string | undefined = undefined;
-	export let title: string;
-	export let lede: string | undefined = undefined;
+	interface Props {
+		/** The small blue word above the title, the way the homepage sections open. */
+		eyebrow?: string | undefined;
+		title: string;
+		lede?: string | undefined;
+	}
+
+	let { eyebrow = undefined, title, lede = undefined }: Props = $props();
 </script>
 
 <header class="page-header">

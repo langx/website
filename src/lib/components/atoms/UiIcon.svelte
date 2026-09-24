@@ -1,4 +1,4 @@
-<script lang="ts" context="module">
+<script lang="ts" module>
 	// One stroke, one weight, round caps — the app's own icon grammar.
 	const PATHS: Record<string, string> = {
 		// The lens is centred at 11,11: at 11,18 it hung 1px past the 24 box and
@@ -38,7 +38,7 @@
 		pin: 'M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21ZM14 10.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z',
 		award: 'M17 8.5a5 5 0 1 1-10 0 5 5 0 0 1 10 0ZM9 12.5 8 21l4-2 4 2-1-8.5',
 		gift: 'M4 11h16v9H4zM4 7h16v4H4zM12 7v13M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0',
-		// The app's streak mark. A flame reads as "hot", the bolt as "a day kept".
+
 		zap: 'M13 2 3 14h9l-1 8 10-12h-9Z',
 		sliders: 'M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6',
 		play: 'M5 3l14 9-14 9Z',
@@ -50,10 +50,15 @@
 </script>
 
 <script lang="ts">
-	export let name: keyof typeof PATHS | string;
-	export let size = 22;
-	export let strokeWidth = 2.5;
-	export let label: string | undefined = undefined;
+	interface Props {
+		// The app's streak mark. A flame reads as "hot", the bolt as "a day kept".
+		name: keyof typeof PATHS | string;
+		size?: number;
+		strokeWidth?: number;
+		label?: string | undefined;
+	}
+
+	let { name, size = 22, strokeWidth = 2.5, label = undefined }: Props = $props();
 </script>
 
 <svg

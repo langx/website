@@ -26,37 +26,46 @@
 	};
 	type Credit = { language: string; name: string; url: string; licence: string };
 
-	export let data: { entry: SayWord; rows: Row[]; nearby: SayWord[]; credits: Credit[] };
-	$: ({ entry, rows, nearby, credits } = data);
-	$: voiced = rows.filter((r) => r.audio).length;
+	interface Props {
+		data: { entry: SayWord; rows: Row[]; nearby: SayWord[]; credits: Credit[] };
+	}
+
+	let { data }: Props = $props();
+	let { entry, rows, nearby, credits } = $derived(data);
+	let voiced = $derived(rows.filter((r) => r.audio).length);
 
 	/**
 	 * One audio file per page, fetched on the first press. Moving to the next
 	 * word reuses this component, so the player is swapped when the slug is —
 	 * and whatever the last page was saying stops with it.
 	 */
+	// Plain variables: nothing on the page renders from them.
+	// svelte-ignore state_referenced_locally
 	let sprite = audioSprite(`/audio/say/${data.entry.slug}.mp3`);
+	// svelte-ignore state_referenced_locally
 	let spriteFor = data.entry.slug;
-	$: if (entry.slug !== spriteFor) {
-		sprite.stop();
-		sprite = audioSprite(`/audio/say/${entry.slug}.mp3`);
-		spriteFor = entry.slug;
-	}
+	$effect(() => {
+		if (entry.slug !== spriteFor) {
+			sprite.stop();
+			sprite = audioSprite(`/audio/say/${entry.slug}.mp3`);
+			spriteFor = entry.slug;
+		}
+	});
 	onDestroy(() => sprite.stop());
 
 	const say = (span: [number, number]) => () => sprite.play(span[0], span[1]);
 
 	const nf = new Intl.NumberFormat('en-US');
-	$: title = `How to say “${entry.word}” in ${entry.count} different languages`;
-	$: path = `/tools/say/${entry.slug}`;
+	let title = $derived(`How to say “${entry.word}” in ${entry.count} different languages`);
+	let path = $derived(`/tools/say/${entry.slug}`);
 
 	/**
 	 * The results-page title follows how people actually search — "princess in
 	 * different languages", "soul in other languages" — which is not how the
 	 * page's own heading reads.
 	 */
-	$: cap = entry.word.charAt(0).toUpperCase() + entry.word.slice(1);
-	$: seoTitle = `${cap} in Different Languages: ${entry.count} Translations`;
+	let cap = $derived(entry.word.charAt(0).toUpperCase() + entry.word.slice(1));
+	let seoTitle = $derived(`${cap} in Different Languages: ${entry.count} Translations`);
 
 	/**
 	 * The languages most searchers are after, in the order they are asked
@@ -105,9 +114,11 @@
 		if (senses[0] === target) return true;
 		return senses.includes(target) && senses[0].split(/\s+/).length >= 3;
 	};
-	$: featured = FEATURED.map((name) =>
-		rows.find((r) => r.name === name && primarily(r.gloss, entry.word))
-	).filter((r): r is Row => Boolean(r));
+	let featured = $derived(
+		FEATURED.map((name) =>
+			rows.find((r) => r.name === name && primarily(r.gloss, entry.word))
+		).filter((r): r is Row => Boolean(r))
+	);
 	/**
 	 * The words people search for most, linked from every page in the set.
 	 * Taken from Search Console (June–September 2026): the pages with the most
@@ -135,26 +146,28 @@
 		'dark',
 		'energy'
 	];
-	$: popular = POPULAR.filter((w) => w !== entry.slug);
+	let popular = $derived(POPULAR.filter((w) => w !== entry.slug));
 
-	$: description = [3, 2, 1, 0]
-		.map((n) => {
-			const sample = featured
-				.slice(0, n)
-				.map((r) => `${r.name} ${r.word}`)
-				.join(', ');
-			return `How do you say “${entry.word}” in other languages? ${
-				sample ? `${sample} — and ` : ''
-			}${entry.count} languages in all, each a word people really use. Free list.`;
-		})
-		// Longest that still fits a results page: long words and long
-		// translations drop an example rather than get cut mid-word.
-		.find((d, i, all) => d.length <= 160 || i === all.length - 1) as string;
+	let description = $derived(
+		[3, 2, 1, 0]
+			.map((n) => {
+				const sample = featured
+					.slice(0, n)
+					.map((r) => `${r.name} ${r.word}`)
+					.join(', ');
+				return `How do you say “${entry.word}” in other languages? ${
+					sample ? `${sample} — and ` : ''
+				}${entry.count} languages in all, each a word people really use. Free list.`;
+			})
+			// Longest that still fits a results page: long words and long
+			// translations drop an example rather than get cut mid-word.
+			.find((d, i, all) => d.length <= 160 || i === all.length - 1) as string
+	);
 
 	/** Where the word is commonest tells you something the table alone does not. */
-	$: commonest = rows
-		.filter((r) => primarily(r.gloss, entry.word))
-		.sort((a, b) => a.rank - b.rank)[0];
+	let commonest = $derived(
+		rows.filter((r) => primarily(r.gloss, entry.word)).sort((a, b) => a.rank - b.rank)[0]
+	);
 
 	/**
 	 * The writing system a word is in, from its first letter. Only the ones the
@@ -206,18 +219,20 @@
 		'Persian',
 		'Urdu'
 	];
-	$: showcase = (() => {
-		const picked: Row[] = [];
-		const used = new Set<string>();
-		for (const name of SHOWCASE) {
-			const r = rows.find((x) => x.name === name && primarily(x.gloss, entry.word));
-			if (!r || used.has(scriptOf(r.word))) continue;
-			used.add(scriptOf(r.word));
-			picked.push(r);
-			if (picked.length === 6) break;
-		}
-		return picked.length >= 3 ? picked : [];
-	})();
+	let showcase = $derived(
+		(() => {
+			const picked: Row[] = [];
+			const used = new Set<string>();
+			for (const name of SHOWCASE) {
+				const r = rows.find((x) => x.name === name && primarily(x.gloss, entry.word));
+				if (!r || used.has(scriptOf(r.word))) continue;
+				used.add(scriptOf(r.word));
+				picked.push(r);
+				if (picked.length === 6) break;
+			}
+			return picked.length >= 3 ? picked : [];
+		})()
+	);
 	const RTL = new Set(['ar', 'he', 'fa', 'ur']);
 
 	/**
@@ -231,12 +246,14 @@
 	 * a word too long for half a screen at the smallest size, and — so no row
 	 * is left with a hole — the first short tile when the short ones are odd.
 	 */
-	$: phoneWide = (() => {
-		const long = showcase.map((r) => letters(r) >= (WIDE_SCRIPT.has(r.code) ? 9 : 11));
-		const shortCount = long.filter((l) => !l).length;
-		const firstShort = long.indexOf(false);
-		return long.map((l, i) => l || (shortCount % 2 === 1 && i === firstShort));
-	})();
+	let phoneWide = $derived(
+		(() => {
+			const long = showcase.map((r) => letters(r) >= (WIDE_SCRIPT.has(r.code) ? 9 : 11));
+			const shortCount = long.filter((l) => !l).length;
+			const firstShort = long.indexOf(false);
+			return long.map((l, i) => l || (shortCount % 2 === 1 && i === firstShort));
+		})()
+	);
 
 	/**
 	 * Most rows gloss to the very word the page is about, which is a column of
@@ -246,43 +263,45 @@
 	const adds = (gloss: string, word: string) =>
 		gloss.toLowerCase().replace(/[.,;:\s]+$/, '') !== word.toLowerCase();
 
-	$: ld = JSON.stringify({
-		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'BreadcrumbList',
-				itemListElement: [
-					{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
-					{
+	let ld = $derived(
+		JSON.stringify({
+			'@context': 'https://schema.org',
+			'@graph': [
+				{
+					'@type': 'BreadcrumbList',
+					itemListElement: [
+						{ '@type': 'ListItem', position: 1, name: 'Tools', item: `${siteBaseUrl}/tools` },
+						{
+							'@type': 'ListItem',
+							position: 2,
+							name: 'Say it in any language',
+							item: `${siteBaseUrl}/tools/say`
+						},
+						{ '@type': 'ListItem', position: 3, name: entry.word }
+					]
+				},
+				{
+					'@type': 'ItemList',
+					name: title,
+					numberOfItems: rows.length,
+					itemListElement: rows.map((r, i) => ({
 						'@type': 'ListItem',
-						position: 2,
-						name: 'Say it in any language',
-						item: `${siteBaseUrl}/tools/say`
-					},
-					{ '@type': 'ListItem', position: 3, name: entry.word }
-				]
-			},
-			{
-				'@type': 'ItemList',
-				name: title,
-				numberOfItems: rows.length,
-				itemListElement: rows.map((r, i) => ({
-					'@type': 'ListItem',
-					position: i + 1,
-					name: r.word,
-					description: `${r.word} — ${r.name} for “${entry.word}”`
-				}))
-			}
-		]
-	});
+						position: i + 1,
+						name: r.word,
+						description: `${r.word} — ${r.name} for “${entry.word}”`
+					}))
+				}
+			]
+		})
+	);
 
 	// The angle bracket is written as an escape and never appears literally in
 	// this file: Svelte's parser scans the raw source, comments included, and
 	// treats a script tag written out in full as a real tag.
 	const LT = '\u003c';
-	$: ldScript = `${LT}script type="application/ld+json">${ld
-		.split(LT)
-		.join('\\u003c')}${LT}/script>`;
+	let ldScript = $derived(
+		`${LT}script type="application/ld+json">${ld.split(LT).join('\\u003c')}${LT}/script>`
+	);
 </script>
 
 <Seo title={seoTitle} {path} {description} />
@@ -340,10 +359,10 @@
 			is the {nf.format(commonest.rank)}{commonest.rank % 10 === 1 && commonest.rank % 100 !== 11
 				? 'st'
 				: commonest.rank % 10 === 2 && commonest.rank % 100 !== 12
-				? 'nd'
-				: commonest.rank % 10 === 3 && commonest.rank % 100 !== 13
-				? 'rd'
-				: 'th'} most used word.
+					? 'nd'
+					: commonest.rank % 10 === 3 && commonest.rank % 100 !== 13
+						? 'rd'
+						: 'th'} most used word.
 		</p>
 	{/if}
 
@@ -383,8 +402,8 @@
 					>, {c.licence}){i === credits.length - 1
 						? '.'
 						: i === credits.length - 2
-						? ' and '
-						: ', '}{/each}
+							? ' and '
+							: ', '}{/each}
 			{/if}
 		</p>
 	{/if}

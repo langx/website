@@ -5,9 +5,13 @@
 	 * detail. `a` is drawn first. Keep points short and true of both.
 	 */
 	type Side = { name: string; tagline?: string; points: string[]; bestFor?: string };
-	export let a: Side;
-	export let b: Side;
-	export let title = '';
+	interface Props {
+		a: Side;
+		b: Side;
+		title?: string;
+	}
+
+	let { a, b, title = '' }: Props = $props();
 </script>
 
 <figure class="versus">

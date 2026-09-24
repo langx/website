@@ -6,13 +6,18 @@
 	 */
 	import type { Mark } from '$lib/data/compare';
 
-	export let mark: Mark = '';
-	export let text: string;
+	interface Props {
+		mark?: Mark;
+		text: string;
+	}
+
+	let { mark = '', text }: Props = $props();
 </script>
 
 <span class="cell {mark}">
 	{#if mark}
-		<span class="mark" aria-hidden="true">{mark === 'yes' ? '✓' : mark === 'part' ? '~' : '✕'}</span>
+		<span class="mark" aria-hidden="true">{mark === 'yes' ? '✓' : mark === 'part' ? '~' : '✕'}</span
+		>
 	{/if}
 	{text}
 </span>

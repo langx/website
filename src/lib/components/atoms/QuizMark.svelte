@@ -1,9 +1,13 @@
 <script lang="ts">
-	/**
-	 * A tick or a cross in a disc at the start of a review row, as in the
-	 * tables in the posts, so a game's review reads without its colours.
-	 */
-	export let right: boolean;
+	interface Props {
+		/**
+		 * A tick or a cross in a disc at the start of a review row, as in the
+		 * tables in the posts, so a game's review reads without its colours.
+		 */
+		right: boolean;
+	}
+
+	let { right }: Props = $props();
 </script>
 
 <span class="mark" class:right role="img" aria-label={right ? 'Right' : 'Wrong'}></span>

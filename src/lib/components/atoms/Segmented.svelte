@@ -1,12 +1,16 @@
 <script lang="ts">
-	/**
-	 * The app's segmented control: a muted pill with a white thumb that slides
-	 * under the active option. `interactive` makes it a real control.
-	 */
-	export let options: string[];
-	export let active = 0;
-	export let interactive = false;
-	export let label = 'Options';
+	interface Props {
+		/**
+		 * The app's segmented control: a muted pill with a white thumb that slides
+		 * under the active option. `interactive` makes it a real control.
+		 */
+		options: string[];
+		active?: number;
+		interactive?: boolean;
+		label?: string;
+	}
+
+	let { options, active = $bindable(0), interactive = false, label = 'Options' }: Props = $props();
 </script>
 
 <div
@@ -24,7 +28,7 @@
 				aria-selected={i === active}
 				class="opt"
 				class:on={i === active}
-				on:click={() => (active = i)}>{option}</button
+				onclick={() => (active = i)}>{option}</button
 			>
 		{:else}
 			<span class="opt" class:on={i === active}>{option}</span>

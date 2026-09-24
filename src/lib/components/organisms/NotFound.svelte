@@ -1,10 +1,14 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
 
-	/** The HTTP status; anything but 404 is "something went wrong". */
-	export let status = 404;
+	interface Props {
+		/** The HTTP status; anything but 404 is "something went wrong". */
+		status?: number;
+	}
 
-	$: missing = status === 404;
+	let { status = 404 }: Props = $props();
+
+	let missing = $derived(status === 404);
 </script>
 
 <div class="missing">

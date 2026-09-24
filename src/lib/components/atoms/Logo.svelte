@@ -1,11 +1,15 @@
 <script lang="ts">
-	/** Height of the mark in px; the wordmark scales with it. */
-	export let height = 22;
-	export let href: string | undefined = '/';
-	/** `mark` renders only the two hooks, for tight spaces. */
-	export let variant: 'full' | 'mark' = 'full';
+	interface Props {
+		/** Height of the mark in px; the wordmark scales with it. */
+		height?: number;
+		href?: string | undefined;
+		/** `mark` renders only the two hooks, for tight spaces. */
+		variant?: 'full' | 'mark';
+	}
 
-	$: markWidth = (height * 14.6) / 21.544;
+	let { height = 22, href = '/', variant = 'full' }: Props = $props();
+
+	let markWidth = $derived((height * 14.6) / 21.544);
 </script>
 
 <!--
