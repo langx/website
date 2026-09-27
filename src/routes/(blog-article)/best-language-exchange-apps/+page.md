@@ -217,7 +217,7 @@ Compare it in detail: [LangX vs InterPals](/open-source-alternative-to-interpals
 Start from how you want to practice, not from the feature list.
 
 - **You want the most people and the fastest replies:** HelloTalk. For popular pairs like English and Spanish, Japanese or Korean, a big community is the single biggest advantage an app can have.
-- **You want one steady partner:** Tandem or LangX. Both are built around one-to-one conversations rather than feeds.
+- **You want one steady partner:** Tandem or LangX. Both are built around one-to-one conversations; LangX's Feed of everyday posts sits beside the chats, not at the center.
 - **You want to speak out loud, today:** Lingbe for instant calls, or Tandem and HelloTalk for scheduled calls with someone you already chat with.
 - **You are a beginner who freezes in conversation:** start with Busuu's corrected exercises, or text chat with voice messages in LangX, HelloTalk or Tandem, where you have time to think.
 - **You want to pay nothing at all:** Speaky, Conversation Exchange and InterPals need no subscription. LangX's free plan has no ads and never limits replies or corrections, but it does cap new conversations at 5 a day.

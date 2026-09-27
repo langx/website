@@ -57,7 +57,7 @@ By that test, Duolingo is a social app for motivation but not for conversation, 
 | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Exchange, social feed, voice rooms | Calls, Voicerooms, Live | Yes, in chat and on Moments | Yes, with ads and daily caps | No |
 | Tandem | One-to-one exchange, audio rooms | Calls, Language Parties | Yes, in chat | Yes, with ads and daily caps | No |
-| LangX | Two-way exchange, correction Feed | No (voice messages) | Yes, unlimited on every plan | Yes, no ads, 5 new chats a day | Yes (BSD-3) |
+| LangX | Two-way exchange, a Feed of everyday posts | No (voice messages) | Yes, unlimited on every plan | Yes, no ads, 5 new chats a day | Yes (BSD-3) |
 | Speaky | Open exchange, community map | Not confirmed | Partners can correct messages | Yes | No |
 | Busuu | Community corrections on a course | No | Yes, on exercises | Yes, limited | No |
 | Slowly | Pen pals (delayed letters) | No | No tool | Yes | No |
@@ -101,7 +101,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 
 ## 3. LangX: a social language app built around corrections
 
-[LangX](https://get.langx.io) is our app. It matches in **both directions**: you only see people who speak the language you are learning and are learning one you speak, so every conversation is useful to both of you. Hold any message to correct it, or post a sentence to the Feed for the community to correct or ask for help with pronunciation. Corrections and replies are **unlimited on every plan**.
+[LangX](https://get.langx.io) is our app. It matches in **both directions**: you only see people who speak the language you are learning and are learning one you speak, so every conversation is useful to both of you. Hold any message to correct it. In the Feed people share a photo, a video or a few sentences from their day, and a post can ask the community for a correction or for a recording of how it is said. Corrections and replies are **unlimited on every plan**.
 
 - **Why it is social:** every "lesson" is a person. Around the chat there is translation, voice, photo and video messages, read-aloud, daily streaks, leaderboards (week, month, year and all time) and the [LangX Token](/tokens), an in-app point you earn by talking and correcting. It is not money and cannot be bought or sold.
 - **Good for:** learners who want feedback at the center of the conversation, no ads, and code they can read: the app is [open source under BSD-3](https://github.com/langx/langx).
@@ -111,8 +111,8 @@ If you came here from Duolingo, we wrote a separate page on LangX as [the social
 
 <AppDemo
   screen="feed"
-  title="The Feed: sentences waiting for a correction"
-  text="Post a sentence to the LangX Feed and the community corrects it, or ask for help with pronunciation. In chat, hold any message to correct it."
+  title="The Feed: everyday posts, some asking for help"
+  text="Share a moment from your day in the LangX Feed. Ask for a correction or a recording when you want one, and the community answers. In chat, hold any message to correct it."
 />
 
 ## 4. Speaky: open, free exchange

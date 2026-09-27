@@ -49,7 +49,7 @@ Everything about InterPals below comes from its own site, its FAQ and its app st
 | Corrections | Hold any message to correct it; unlimited on every plan | No dedicated correction tool listed |
 | Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Built-in message translation (per its Google Play listing) |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Text messages with photos and GIFs; no calls advertised |
-| Social features | A Feed for posting a sentence to be corrected or asking for pronunciation help | Groups, a community feed, photo albums, comments |
+| Social features | A Feed for photos, videos and sentences from your day; a post can ask for a correction or a recording | Groups, a community feed, photo albums, comments |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: profile, search and messaging are free, with a daily limit on new contacts |
 | Paid plan | Yes: Fluent and Polyglot | No paid plan mentioned in its FAQ |
 | No ads | Yes | No (funded by advertising) |
@@ -162,7 +162,7 @@ InterPals is free too, and its FAQ mentions no subscription. So the choice comes
 
 - want pen pals and friends first, with language practice as one part of it
 - enjoy long, slower messages and years-long correspondences
-- want groups, photo albums and a community feed
+- want interest groups and photo albums
 - are traveling and want to meet locals or other travelers
 - want no subscription at all and do not mind ads
 

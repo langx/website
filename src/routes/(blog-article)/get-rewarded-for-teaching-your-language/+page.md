@@ -66,7 +66,7 @@ for, so there is no point at which doing more of it stops counting.
 <AppDemo
   screen="feed"
   title="Where the ten-token answers are"
-  text="The Feed collects sentences and pronunciation requests from people learning your language. Correcting one, or answering with a recording, is worth ten messages."
+  text="People learning your language post to the Feed, and some posts ask for a correction or a recording. Answering one of those is worth ten messages."
 />
 
 ## The caps are there so grinding does not win

@@ -77,7 +77,7 @@ You only see people who speak the language you are learning *and* are learning a
 
 ### Corrections on any message, unlimited
 
-Hold any message in a chat to correct it, and the fix appears right in the conversation. You can also post a sentence to the Feed and let the community correct it. Corrections are **unlimited on every plan**, Free included, and so are replies to anyone who writes to you. This is the part that teaches, so it is never rationed.
+Hold any message in a chat to correct it, and the fix appears right in the conversation. You can also share a moment from your day in the Feed and ask the community to correct it. Corrections are **unlimited on every plan**, Free included, and so are replies to anyone who writes to you. This is the part that teaches, so it is never rationed.
 
 <AppDemo
   screen="chat"
@@ -113,7 +113,7 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 | What it is | Course app with game-like lessons | Social language app (language exchange) |
 | Who you practice with | The app; an AI character (Lily) on paid plans | Real people: native speakers learning your language |
 | Chat with other learners | No direct messaging | Yes, one-to-one chats |
-| Social features | Friends, Friend Streaks, Friends Quests, leagues, nudges, high-fives | Two-way matching, chats, a Feed for corrections and pronunciation help |
+| Social features | Friends, Friend Streaks, Friends Quests, leagues, nudges, high-fives | Two-way matching, chats, a Feed of everyday posts that can ask for a correction or a recording |
 | Feedback | Automatic, against model answers | Corrections from native speakers, unlimited on every plan |
 | Speaking | Speaking exercises; AI Video Call and Roleplay on paid plans | Voice notes, read-aloud; no live calls |
 | Streaks and games | Streaks, XP, leagues, gems | Streaks, tokens, weekly/monthly/yearly/all-time leaderboards |

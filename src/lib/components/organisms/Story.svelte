@@ -32,12 +32,12 @@
 		<div class="text">
 			<h2>correct each other.</h2>
 			<p>
-				Hold any message to fix it. Post a sentence and the community helps. Correcting is free and
-				unlimited for everyone.
+				Hold any message to fix it. Share a moment from your day, and ask for a correction when you
+				want one. Correcting is free and unlimited for everyone.
 			</p>
 		</div>
 		<div class="device">
-			<PhoneFrame label="Feed: sentences waiting for a correction">
+			<PhoneFrame label="Feed: everyday posts, some asking for a correction or a recording">
 				<FeedScreen />
 			</PhoneFrame>
 		</div>
