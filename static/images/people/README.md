@@ -9,11 +9,11 @@ photos it can show; swap them freely, keep the file names.
 
 | File          | Used as                            |
 | ------------- | ---------------------------------- |
-| `lucia.webp`  | Lucía M. (Discover, Chat)          |
+| `lucia.webp`  | Lucía M. (Discover, Chat, Feed)    |
 | `javier.webp` | Javier R. (Discover)               |
 | `ana.webp`    | Ana C. (Discover, Feed)            |
 | `mateo.webp`  | Mateo P. (Discover, Feed)          |
-| `daniel.webp` | Daniel K. (Feed)                   |
+| `daniel.webp` | Daniel (Discover)                  |
 | `sofia.webp`  | Sofia R. (Me, the example account) |
 | `maria.webp`  | María (ChatCard)                   |
 | `kenji.webp`  | Kenji (ChatCard)                   |
