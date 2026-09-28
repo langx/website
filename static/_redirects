@@ -22,3 +22,8 @@
 # was published everywhere, so it lands on the new one rather than a 404.
 /pro   /plans  301
 /pro/  /plans  301
+
+# /terms is the short link people actually type or paste; the real page is
+# /terms-conditions.
+/terms   /terms-conditions  301
+/terms/  /terms-conditions  301
