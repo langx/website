@@ -55,6 +55,10 @@ export const plans: Plan[] = [
 				label: '10 Echo cards read aloud a day',
 				note: 'A synthetic voice for a card nobody has recorded yet. A pack’s readings are already there and cost nothing.'
 			},
+			{
+				label: '10 voice notes written out as text a day',
+				note: 'Show text under a voice note, written out on our own machines. Once one of you has asked, the other reads it for nothing.'
+			},
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
 			{ label: '5 photos on your profile' }
@@ -79,6 +83,7 @@ export const plans: Plan[] = [
 			},
 			{ label: '100 chat messages read aloud a day' },
 			{ label: '50 Echo cards read aloud a day' },
+			{ label: '50 voice notes written out as text a day' },
 			{ label: '2 languages you are learning, 2 you speak natively' },
 			{ label: '10 photos on your profile' },
 			{ label: 'Filters: gender and city' },
@@ -109,6 +114,7 @@ export const plans: Plan[] = [
 			{ label: '1000 translations a day' },
 			{ label: '250 chat messages read aloud a day' },
 			{ label: '100 Echo cards read aloud a day' },
+			{ label: '150 voice notes written out as text a day' },
 			{ label: '5 languages you are learning, 5 you speak natively' },
 			{
 				label: 'Nearby',
@@ -154,6 +160,7 @@ export const limits: LimitRow[] = [
 	{ label: 'Translations a day', values: [20, 300, 1000] },
 	{ label: 'Chat messages read aloud a day', values: [15, 100, 250] },
 	{ label: 'Echo cards read aloud a day', values: [10, 50, 100] },
+	{ label: 'Voice notes written out as text a day', values: [10, 50, 150] },
 	{ label: 'Languages, learning + native', values: [2, 4, 10], shown: ['1 + 1', '2 + 2', '5 + 5'] }
 ];
 
