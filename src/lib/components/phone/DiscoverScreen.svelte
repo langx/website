@@ -13,8 +13,9 @@
 	 */
 
 	/**
-	 * The paying members above the list, Polyglot first — `BoostedProfiles` in
-	 * the app. Four faces the list below does not use, so one screen never
+	 * The Pro members above the list — `BoostedProfiles` in the app. No plan
+	 * chip: the ring already marks the card, and the age sits by the name.
+	 * Four faces the list below does not use, so one screen never
 	 * shows the same person twice; `sofia` is the example account on `me` and
 	 * stays out for the same reason.
 	 *
@@ -29,7 +30,7 @@
 			tone: 'accent',
 			name: 'María',
 			pair: 'Spanish → English',
-			tier: 'POLYGLOT',
+			age: 24,
 			online: true
 		},
 		{
@@ -38,7 +39,7 @@
 			tone: 'success',
 			name: 'Daniel',
 			pair: 'German → English',
-			tier: 'POLYGLOT',
+			age: 29,
 			online: false
 		},
 		{
@@ -47,7 +48,7 @@
 			tone: 'ink',
 			name: 'Kenji',
 			pair: 'Japanese → English',
-			tier: 'FLUENT',
+			age: 31,
 			online: true
 		},
 		{
@@ -56,7 +57,7 @@
 			tone: 'accent',
 			name: 'Sofia',
 			pair: 'Portuguese → English',
-			tier: 'POLYGLOT',
+			age: 27,
 			online: false
 		}
 	] as const;
@@ -159,10 +160,9 @@
 						/>
 					</span>
 					<span class="boost-text">
-						<span class="boost-name">{b.name}</span>
+						<span class="boost-name">{b.name}, {b.age}</span>
 						<span class="boost-pair">{b.pair}</span>
 					</span>
-					<span class="boost-plan">{b.tier}</span>
 				</div>
 			{/each}
 		</div>
@@ -366,19 +366,6 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-	}
-
-	// A brand mark rather than a translated string — the same word in every
-	// locale, as on `me`.
-	.boost-plan {
-		padding: 4px 10px;
-		border-radius: var(--radius-pill);
-		background: var(--color--accent-tint);
-		color: var(--color--pro);
-		font-size: 10px;
-		font-weight: 700;
-		letter-spacing: 0.06em;
-		white-space: nowrap;
 	}
 
 	.list {

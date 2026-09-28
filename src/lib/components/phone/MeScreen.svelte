@@ -23,7 +23,7 @@
 			<Avatar src="/images/people/sofia.webp" initials="SR" size={80} name="Sofia R." />
 			<div class="who">
 				<div class="name">Sofia R.</div>
-				<div class="meta">@sofia · POLYGLOT</div>
+				<div class="meta">@sofia · PRO</div>
 			</div>
 			<span class="icon-btn"><UiIcon name="scan" size={22} /></span>
 			<span class="icon-btn"><UiIcon name="gear" size={22} /></span>

@@ -3,17 +3,18 @@
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 
 	/**
-	 * `app/(app)/paywall` from the design handoff, on the Fluent tab. The
+	 * `app/(app)/paywall` from the design handoff, with its one plan, Pro. The
 	 * benefits are the real ones from `$lib/data/plans.ts`. Where the app puts
 	 * a price, this replica puts nothing: /plans says prices are shown in the
 	 * app, and a number here would contradict the page it sits on.
 	 */
 	const features = [
 		{ text: 'Unlimited new conversations', soon: false },
-		{ text: '300 translations a day', soon: false },
+		{ text: '1000 translations a day', soon: false },
+		{ text: 'Who viewed you, incognito, Nearby', soon: false },
 		{ text: 'Gender and city filters', soon: false },
 		{ text: 'Boosted profile', soon: false },
-		{ text: '2 languages you are learning, 2 you speak natively', soon: false },
+		{ text: '5 languages you are learning, 5 you speak natively', soon: false },
 		{ text: 'Everything in Free', soon: false },
 		{ text: 'LangX Copilot in the correction sheet', soon: true }
 	];
@@ -32,7 +33,6 @@
 			Corrections and replies stay unlimited on every plan. Paying removes the other limits.
 		</p>
 
-		<Segmented options={['Fluent', 'Polyglot']} active={0} />
 		<Segmented options={['Yearly', 'Monthly']} active={0} />
 
 		<ul class="features" role="list">
@@ -46,13 +46,13 @@
 		</ul>
 
 		<p class="fine">
-			Prices are set per region and shown in the app. Cancel any time in your store account. Tokens
+			One week free, then billed monthly or yearly; yearly is 3 months free. Prices are set per region and shown in the app. Cancel any time in your store account. Tokens
 			never unlock a plan.
 		</p>
 	</div>
 
 	<div class="foot">
-		<span class="cta">Start Fluent</span>
+		<span class="cta">Start your free week</span>
 	</div>
 </div>
 
@@ -132,7 +132,7 @@
 		}
 	}
 
-	// Blue for Fluent; Polyglot tints its ticks violet in the app.
+	// Blue ticks, as in the app's plan rows.
 	.tick {
 		color: var(--color--accent);
 		display: flex;
