@@ -1,11 +1,10 @@
 /**
  * Mirror of `PLAN_LIMITS` in `langx/packages/shared/src/limits.ts`.
  *
- * Written as three lists rather than a grid on purpose. A comparison table
- * makes a reader check eleven rows across three columns to answer the only
+ * Written as two lists rather than a grid on purpose. A comparison table
+ * makes a reader check every row across both columns to answer the only
  * question they have — what do I get if I pay — and most of those rows say the
- * same thing three times, because Polyglot is a superset of Fluent and both
- * inherit everything free already has.
+ * same thing twice, because Pro inherits everything free already has.
  *
  * So each list holds only what is *new* at that plan. When a limit changes in
  * langx, this file is the only place here that has to change.
@@ -22,8 +21,8 @@ export type PlanPoint = {
 export type Plan = {
 	name: string;
 	tagline: string;
-	/** `pro` and `pro-plus` tint the card the way the app tints the tier. */
-	tone?: 'pro' | 'pro-plus';
+	/** `pro` tints the card the way the app tints the paid tier. */
+	tone?: 'pro';
 	points: PlanPoint[];
 	/**
 	 * The four or five lines the card on /plans shows: the pitch, not the
@@ -40,8 +39,8 @@ export const plans: Plan[] = [
 		points: [
 			{ label: 'Unlimited text messages' },
 			{
-				label: '50 messages a day with a photo, video or voice note',
-				note: 'A ceiling on abuse, not a paywall — a normal conversation never reaches it.'
+				label: '500 messages a day with a photo, video or voice note',
+				note: 'The same fair-use ceiling on every plan — a ceiling on abuse, not a paywall. A normal conversation never reaches it.'
 			},
 			{ label: 'Unlimited replies to anyone who writes to you' },
 			{ label: 'Unlimited corrections' },
@@ -61,7 +60,7 @@ export const plans: Plan[] = [
 			},
 			{ label: '1 language you are learning, 1 you speak natively' },
 			{ label: 'Filters: country, age and level' },
-			{ label: '5 photos on your profile' }
+			{ label: '10 photos on your profile' }
 		],
 		highlights: [
 			{ label: 'Unlimited replies and corrections' },
@@ -72,57 +71,33 @@ export const plans: Plan[] = [
 		]
 	},
 	{
-		name: 'Fluent',
+		name: 'Pro',
 		tagline: 'Everything in Free, without the limits.',
 		tone: 'pro',
 		points: [
 			{ label: 'Unlimited new conversations' },
 			{
-				label: '300 translations a day',
+				label: '1000 translations a day',
 				note: 'Far more than a conversation uses. Translation is the one feature with a real per-request cost, so it has a number rather than a promise.'
 			},
-			{ label: '300 chat messages read aloud a day' },
-			{ label: '200 Echo cards read aloud a day' },
-			{ label: '150 voice notes written out as text a day' },
-			{ label: '2 languages you are learning, 2 you speak natively' },
-			{ label: '10 photos on your profile' },
-			{ label: 'Filters: gender and city' },
-			{
-				label: 'Boosted profile',
-				note: 'A Boosted strip above the Discover list, shown to everyone whose languages match yours. On by default; switch it off in Settings.'
-			}
-		],
-		highlights: [
-			{ label: 'Unlimited new conversations' },
-			{ label: '300 translations a day' },
-			{ label: '2 languages you learn, 2 you speak' },
-			{ label: 'Gender and city filters' },
-			{ label: 'Boosted profile' }
-		]
-	},
-	{
-		name: 'Polyglot',
-		tagline: 'Everything in Fluent, and what it cannot do.',
-		tone: 'pro-plus',
-		points: [
-			{ label: 'See who viewed your profile' },
-			{ label: 'Incognito browsing' },
-			{
-				label: 'Write in your language, send in theirs',
-				note: 'Reading a translation is free on every plan. This is the other direction — your own message goes with a translation under it.'
-			},
-			{ label: '1000 translations a day' },
 			{ label: '1000 chat messages read aloud a day' },
 			{ label: '500 Echo cards read aloud a day' },
 			{ label: '400 voice notes written out as text a day' },
 			{ label: '5 languages you are learning, 5 you speak natively' },
+			{ label: 'Filters: gender and city' },
 			{
 				label: 'Nearby',
 				note: 'Sorts discovery by distance, if you turn location sharing on.'
 			},
 			{
-				label: 'Boosted to the front',
-				note: 'Polyglot profiles lead the Boosted strip, ahead of Fluent.'
+				label: 'Boosted profile',
+				note: 'A Boosted strip above the Discover list, shown to everyone whose languages match yours. On by default; switch it off in Settings.'
+			},
+			{ label: 'See who viewed your profile' },
+			{ label: 'Incognito browsing' },
+			{
+				label: 'Write in your language, send in theirs',
+				note: 'Reading a translation is free on every plan. This is the other direction — your own message goes with a translation under it.'
 			},
 			{
 				label: 'Export your saved phrases',
@@ -135,6 +110,7 @@ export const plans: Plan[] = [
 			}
 		],
 		highlights: [
+			{ label: 'Unlimited new conversations' },
 			{ label: '1000 translations a day' },
 			{ label: '5 languages you learn, 5 you speak' },
 			{ label: 'Who viewed you, incognito, Nearby' },
@@ -146,27 +122,27 @@ export const plans: Plan[] = [
 
 /**
  * The metered things, one row each, for the bars on /plans: the same numbers
- * as the lists above, in the order Free, Fluent, Polyglot. `null` is
+ * as the lists above, in the order Free, Pro. `null` is
  * unlimited; `shown` is the label when the number alone would mislead.
  */
 export type LimitRow = {
 	label: string;
-	values: [number | null, number | null, number | null];
-	shown?: [string, string, string];
+	values: [free: number | null, pro: number | null];
+	shown?: [free: string, pro: string];
 };
 
 export const limits: LimitRow[] = [
-	{ label: 'New conversations a day', values: [5, null, null] },
-	{ label: 'Translations a day', values: [20, 300, 1000] },
-	{ label: 'Chat messages read aloud a day', values: [100, 300, 1000] },
-	{ label: 'Echo cards read aloud a day', values: [50, 200, 500] },
-	{ label: 'Voice notes written out as text a day', values: [50, 150, 400] },
-	{ label: 'Languages, learning + native', values: [2, 4, 10], shown: ['1 + 1', '2 + 2', '5 + 5'] }
+	{ label: 'New conversations a day', values: [5, null] },
+	{ label: 'Translations a day', values: [20, 1000] },
+	{ label: 'Chat messages read aloud a day', values: [100, 1000] },
+	{ label: 'Echo cards read aloud a day', values: [50, 500] },
+	{ label: 'Voice notes written out as text a day', values: [50, 400] },
+	{ label: 'Languages, learning + native', values: [2, 10], shown: ['1 + 1', '5 + 5'] }
 ];
 
 /** The three lines worth keeping under the plans. Everything else was noise. */
 export const planNotes = [
 	'The free plan’s daily caps run over a rolling 24 hours, not a calendar day.',
-	'Fluent and Polyglot are monthly or yearly, with a free trial. Prices are set per region and shown in the app.',
+	'Pro is monthly or yearly, with a one-week free trial; yearly works out to 3 months free. Prices are set per region and shown in the app.',
 	'Tokens cannot buy a paid plan, and never will.'
 ];

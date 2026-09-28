@@ -8,9 +8,9 @@
 </script>
 
 <SiteShell
-	title="Plans and pricing: Free, Fluent and Polyglot"
+	title="Plans and pricing: Free and Pro"
 	path="/plans"
-	description="What Fluent and Polyglot add, what stays free, and why corrections are unlimited on every plan."
+	description="What Pro adds, what stays free, and why corrections are unlimited on every plan."
 >
 	{@render children?.()}
 </SiteShell>

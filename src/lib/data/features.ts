@@ -3,7 +3,7 @@ import type { Feature } from '$lib/utils/types';
 // Every claim here has to be true of the shipping app. The numbers come from
 // `langx/packages/shared/src/limits.ts` (PLAN_LIMITS) — when a limit changes
 // there, this file is the second place to change. Name the plan that actually
-// unlocks a paid feature: Fluent (`pro`) or Polyglot (`pro_plus`).
+// unlocks a paid feature: Pro (`pro`), the one paid plan.
 //
 // Matching, corrections and streaks are demonstrated with live screens higher
 // up the homepage, so they are not repeated here. Keep each line short and
@@ -28,28 +28,26 @@ export default [
 	{
 		name: 'Filters',
 		description:
-			'Find people by country, age and level for free. Fluent adds gender and city, Polyglot adds people near you.',
+			'Find people by country, age and level for free. Pro adds gender, city and people near you.',
 		image: 'images/features/7.png',
 		tags: [
-			{ label: 'Gender, city: Fluent', color: 'pro' },
-			{ label: 'Nearby: Polyglot', color: 'pro-plus' }
+			{ label: 'Gender, city, Nearby: Pro', color: 'pro' }
 		]
 	},
 	{
 		name: 'Boosted profiles',
 		description:
-			'Paid profiles appear in a strip above the Discover list, to people whose languages match theirs. Polyglot leads it.',
+			'Paid profiles appear in a strip above the Discover list, to people whose languages match theirs.',
 		image: 'images/features/7.png',
 		tags: [
-			{ label: 'Fluent', color: 'pro' },
-			{ label: 'First: Polyglot', color: 'pro-plus' }
+			{ label: 'Pro', color: 'pro' }
 		]
 	},
 	{
 		name: 'See who viewed your profile',
-		description: 'Curious who has been looking? Polyglot shows you.',
+		description: 'Curious who has been looking? Pro shows you.',
 		image: 'images/features/5.png',
-		tags: [{ label: 'Polyglot', color: 'pro-plus' }]
+		tags: [{ label: 'Pro', color: 'pro' }]
 	},
 	{
 		name: 'Your data stays yours',
@@ -72,10 +70,10 @@ export default [
 	},
 	{
 		name: 'LangX Copilot',
-		description: 'Private AI feedback on your own messages. Coming later, for Polyglot.',
+		description: 'Private AI feedback on your own messages. Coming later, for Pro.',
 		image: 'images/features/1.png',
 		tags: [
-			{ label: 'Polyglot', color: 'pro-plus' },
+			{ label: 'Pro', color: 'pro' },
 			{ label: 'Coming soon', color: 'secondary' }
 		]
 	}
