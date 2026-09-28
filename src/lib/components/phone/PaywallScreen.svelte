@@ -46,8 +46,9 @@
 		</ul>
 
 		<p class="fine">
-			One week free, then billed monthly or yearly; yearly is 3 months free. Prices are set per region and shown in the app. Cancel any time in your store account. Tokens
-			never unlock a plan.
+			One week free, then billed monthly or yearly; yearly is 3 months free. Prices are set per
+			region and shown in the app. Cancel any time in your store account. Tokens never unlock a
+			plan.
 		</p>
 	</div>
 

@@ -30,18 +30,14 @@ export default [
 		description:
 			'Find people by country, age and level for free. Pro adds gender, city and people near you.',
 		image: 'images/features/7.png',
-		tags: [
-			{ label: 'Gender, city, Nearby: Pro', color: 'pro' }
-		]
+		tags: [{ label: 'Gender, city, Nearby: Pro', color: 'pro' }]
 	},
 	{
 		name: 'Boosted profiles',
 		description:
 			'Paid profiles appear in a strip above the Discover list, to people whose languages match theirs.',
 		image: 'images/features/7.png',
-		tags: [
-			{ label: 'Pro', color: 'pro' }
-		]
+		tags: [{ label: 'Pro', color: 'pro' }]
 	},
 	{
 		name: 'See who viewed your profile',
