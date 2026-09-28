@@ -23,8 +23,7 @@ file in `langx` it copies:
 | `src/lib/data/features.ts` | `packages/shared/src/limits.ts` — which plan unlocks each feature            |
 | `src/lib/data/token.ts`    | `packages/shared/src/token.ts` (`TOKEN_RULES`), `cosmetics.ts` (`COSMETICS`) |
 
-There are three plans — free, Pro and Pro+ — and Pro+ is Pro plus LangX Copilot
-and Nearby. Anything here that describes a paid feature has to name the plan
+There are two plans — Free and Pro. Pro is the one paid plan. Anything here that describes a paid feature has to name the plan
 that actually unlocks it.
 
 When a limit or a token rule changes in `langx`, change it in the matching file

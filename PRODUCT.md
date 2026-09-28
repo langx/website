@@ -62,13 +62,17 @@ published line.
 
 ## Capabilities and Constraints
 
-- Three plans: Free, Fluent (`pro`), Polyglot (`pro_plus`). Prices are set per
-  region and shown in the app; the site does not print prices.
+- Two plans: Free and Pro (`pro`). Pro replaced Fluent and Polyglot in
+  September 2026. Prices are set per region and shown in the app; the site
+  does not print prices. Pro is monthly or yearly, each with a one-week free
+  trial; yearly works out to 3 months free.
 - Free: 5 new conversations and 20 translations per rolling 24 h; replies and
   corrections unlimited; 1 learning + 1 native language; country/age/level
-  filters. Fluent: unlimited new conversations, 300 translations, gender/city
-  filters, 2+2 languages. Polyglot: who viewed you, incognito, Nearby, 1000
-  translations, 5+5 languages, LangX Copilot (not yet shipped).
+  filters. Every plan: 500 photo/video/voice messages a day (fair use), 10
+  profile photos. Pro: unlimited new conversations, 1000 translations,
+  gender/city filters, Nearby, Boosted, who viewed you, incognito, send in
+  their language, phrase export, 5+5 languages, LangX Copilot (not yet
+  shipped).
 - LangX Token is an in-app point: cannot be bought, sold, traded, staked,
   withdrawn, transferred, is not on a blockchain, cannot unlock a paid plan.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and
