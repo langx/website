@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 13, Sep 2026*
+	*Effective Date: 28, Sep 2026*
 
 	1. Introduction
 
@@ -170,11 +170,12 @@
 
 		When you delete your account it is removed from discovery and search immediately and every session is ended; someone who already has a conversation with you can still open your profile, marked as deleted. The data is permanently removed 30 days later; signing back in within those 30 days cancels the deletion. Your photos, videos and voice messages are removed from storage as well as from the database, so nothing stays reachable by URL.
 
-		Three exceptions are worth stating plainly:
+		Four exceptions are worth stating plainly:
 
 		- **The token ledger survives as an audit record**, with your identity replaced by a random value that is stored nowhere else. The totals still reconcile and the rows no longer identify anyone. Your leaderboard entries are deleted outright.
 		- **Messages you sent are not deleted from the other person's conversation.** Their content is removed and they are marked as belonging to a deleted account. Deleting them outright would rewrite a conversation someone else is also a party to.
-		- **Your email address is kept**, and it is the only thing that is. When your account is removed we move the address onto a list that holds nothing else: no name, no profile, no identifier that links it back to the account, which is deleted in full. We keep it so that we can tell you about LangX in the future, and we only send promotional email to an address whose owner turned promotional email on while their account existed. Write to [hi@langx.io](mailto:hi@langx.io) at any time — before or after deleting your account — and we will remove your address from that list too.
+		- **Your email address is kept.** When your account is removed we move the address onto a list that holds nothing else: no name, no profile, no identifier that links it back to the account, which is deleted in full. We keep it so that we can tell you about LangX in the future, and we only send promotional email to an address whose owner turned promotional email on while their account existed. Write to [hi@langx.io](mailto:hi@langx.io) at any time — before or after deleting your account — and we will remove your address from that list too.
+		- **If you told us why you were leaving, that answer is kept** — the reason you picked and any note you wrote, with your plan and roughly how long you had the account, and nothing that links it to you: no user id, name, handle or email. Until the deletion completes it stays with your account, and signing back in discards it.
 
 		Records of who viewed a profile are deleted automatically after 90 days, whether or not you delete your account.
 
