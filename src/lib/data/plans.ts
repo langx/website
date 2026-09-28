@@ -48,15 +48,15 @@ export const plans: Plan[] = [
 			{ label: '5 new conversations a day' },
 			{ label: '20 translations a day' },
 			{
-				label: '15 chat messages read aloud a day',
+				label: '100 chat messages read aloud a day',
 				note: 'Hold any message to hear it said, in a voice that runs on our own machines rather than somebody’s meter.'
 			},
 			{
-				label: '10 Echo cards read aloud a day',
+				label: '50 Echo cards read aloud a day',
 				note: 'A synthetic voice for a card nobody has recorded yet. A pack’s readings are already there and cost nothing.'
 			},
 			{
-				label: '10 voice notes written out as text a day',
+				label: '50 voice notes written out as text a day',
 				note: 'Show text under a voice note, written out on our own machines. Once one of you has asked, the other reads it for nothing.'
 			},
 			{ label: '1 language you are learning, 1 you speak natively' },
@@ -81,9 +81,9 @@ export const plans: Plan[] = [
 				label: '300 translations a day',
 				note: 'Far more than a conversation uses. Translation is the one feature with a real per-request cost, so it has a number rather than a promise.'
 			},
-			{ label: '100 chat messages read aloud a day' },
-			{ label: '50 Echo cards read aloud a day' },
-			{ label: '50 voice notes written out as text a day' },
+			{ label: '300 chat messages read aloud a day' },
+			{ label: '200 Echo cards read aloud a day' },
+			{ label: '150 voice notes written out as text a day' },
 			{ label: '2 languages you are learning, 2 you speak natively' },
 			{ label: '10 photos on your profile' },
 			{ label: 'Filters: gender and city' },
@@ -112,9 +112,9 @@ export const plans: Plan[] = [
 				note: 'Reading a translation is free on every plan. This is the other direction — your own message goes with a translation under it.'
 			},
 			{ label: '1000 translations a day' },
-			{ label: '250 chat messages read aloud a day' },
-			{ label: '100 Echo cards read aloud a day' },
-			{ label: '150 voice notes written out as text a day' },
+			{ label: '1000 chat messages read aloud a day' },
+			{ label: '500 Echo cards read aloud a day' },
+			{ label: '400 voice notes written out as text a day' },
 			{ label: '5 languages you are learning, 5 you speak natively' },
 			{
 				label: 'Nearby',
@@ -158,9 +158,9 @@ export type LimitRow = {
 export const limits: LimitRow[] = [
 	{ label: 'New conversations a day', values: [5, null, null] },
 	{ label: 'Translations a day', values: [20, 300, 1000] },
-	{ label: 'Chat messages read aloud a day', values: [15, 100, 250] },
-	{ label: 'Echo cards read aloud a day', values: [10, 50, 100] },
-	{ label: 'Voice notes written out as text a day', values: [10, 50, 150] },
+	{ label: 'Chat messages read aloud a day', values: [100, 300, 1000] },
+	{ label: 'Echo cards read aloud a day', values: [50, 200, 500] },
+	{ label: 'Voice notes written out as text a day', values: [50, 150, 400] },
 	{ label: 'Languages, learning + native', values: [2, 4, 10], shown: ['1 + 1', '2 + 2', '5 + 5'] }
 ];
 
