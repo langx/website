@@ -96,11 +96,11 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 | Who you talk to | Native speakers who are learning your language | The app; an AI character on the Max plan |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Not applicable; friends and leaderboards, no one-to-one chat |
 | Corrections | Hold any message to correct it; unlimited on every plan | Automatic feedback on each exercise |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Translation exercises are part of lessons |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Translation exercises are part of lessons |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Speaking exercises; AI Video Call and Roleplay on Max |
 | Streaks and games | Daily streaks, leaderboards, the LangX Token | Streaks, leagues, gems and much more |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: every language course, with ads and limits on how much you can do in a row |
-| Paid plan | Yes: Fluent and Polyglot | Yes: Super and Max |
+| Paid plan | Yes: Pro | Yes: Super and Max |
 | No ads | Yes | No (Super removes them) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -177,7 +177,7 @@ For a structured course, closed-source apps like Busuu and Babbel are the realis
 
 ## Is LangX a free Duolingo alternative?
 
-For conversation, yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app.
+For conversation, yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Pro adds unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app.
 
 Duolingo's free version is generous too. The difference is not price; it is what you get: lessons on Duolingo, people on LangX.
 

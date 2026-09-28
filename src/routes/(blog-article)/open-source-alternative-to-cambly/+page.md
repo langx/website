@@ -61,11 +61,11 @@ So a "Cambly alternative" can mean two things:
 | Who you practice with | Native speakers who are learning your language | Native English-speaking tutors |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You pick a tutor who is online now or book one in advance |
 | Corrections | Hold any message to correct it; unlimited on every plan | The tutor corrects you live; some plans add lesson feedback |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not a chat feature |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a chat feature |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live one-to-one video lessons, plus small group lessons |
 | Lesson recordings | Not applicable | Recordings and transcripts on some plans |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free plan; you can sign up and browse before subscribing |
-| Paid plan | Yes: Fluent and Polyglot | Yes: subscription plans by minutes and days per week |
+| Paid plan | Yes: Pro | Yes: subscription plans by minutes and days per week |
 | No ads | Yes | Yes |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -165,7 +165,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free Cambly alternative?
 
-For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
+For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Pro adds unlimited new conversations, more translations and more languages; see the [plans page](/plans). Prices are set per region and shown in the app. What you do not get on any plan is a tutor.
 
 <Steps
   title="A simple routine that works"

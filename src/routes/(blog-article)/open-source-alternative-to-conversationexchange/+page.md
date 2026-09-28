@@ -76,11 +76,11 @@ This page is a fair LangX vs Conversation Exchange comparison, written in Septem
 | What it is | Language exchange app with chat built in | Website for finding language partners |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You search profiles by language, location and exchange type |
 | Corrections | Correct any message in the chat, unlimited on every plan | No correction tool; partners correct each other however they like |
-| Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | None built in |
+| Translation | Built into the chat (Free 20 a day, Pro 1000) | None built in |
 | Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Its own text chat (ChitChat); calls happen in Skype, WhatsApp and similar |
-| In-person meetups | Not the focus; Polyglot adds Nearby sorting | Core feature, with city-level search |
+| In-person meetups | Not the focus; Pro adds Nearby sorting | Core feature, with city-level search |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: the site is free to use, with ads and some messaging limits |
-| Paid plan | Yes (Fluent, Polyglot) | Yes (memberships that remove ads and messaging limits) |
+| Paid plan | Yes (Pro) | Yes (memberships that remove ads and messaging limits) |
 | No ads | Yes | No (membership removes them) |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | Website (mobile-friendly); no official app |
@@ -190,11 +190,11 @@ LangX is an open source alternative to Conversation Exchange: the app and API ar
 
 ### Is there a free Conversation Exchange alternative with an app?
 
-Yes. LangX has a free plan with unlimited replies and unlimited corrections, plus 5 new conversations and 20 translations per rolling 24 hours. Paid plans (Fluent and Polyglot) remove the conversation limit and add more translations and filters.
+Yes. LangX has a free plan with unlimited replies and unlimited corrections, plus 5 new conversations and 20 translations per rolling 24 hours. Pro, the paid plan, removes the conversation limit and add more translations and filters.
 
 ### LangX vs Conversation Exchange: which is better for meeting in person?
 
-Conversation Exchange. Its search is built around finding partners in your city for face-to-face meetups. LangX focuses on in-app chat; Polyglot's Nearby sorting helps, but it is not a meetup tool.
+Conversation Exchange. Its search is built around finding partners in your city for face-to-face meetups. LangX focuses on in-app chat; Pro's Nearby sorting helps, but it is not a meetup tool.
 
 ### Is Conversation Exchange still active in 2026?
 

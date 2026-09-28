@@ -58,7 +58,7 @@ Details about Speaky come from its official store listings at the time of writin
       "Two-way matching",
       "Hold any message to correct it; unlimited on every plan",
       "Translation built into the chat",
-      "No ads; Free plan plus Fluent and Polyglot",
+      "No ads; Free plan plus Pro",
       "Open source, BSD-3, self-hostable"
     ],
     bestFor: "no ads and unlimited corrections on a free plan"
@@ -81,10 +81,10 @@ Details about Speaky come from its official store listings at the time of writin
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Search the community and message partners directly; map of partners nearby or worldwide |
 | Corrections | Hold any message to correct it, or ask for one on a Feed post; unlimited on every plan | Partners can correct each other's messages |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not confirmed |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not confirmed |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to use |
-| Paid plan | Yes: Fluent and Polyglot | None listed in the stores |
+| Paid plan | Yes: Pro | None listed in the stores |
 | No ads | Yes | No |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -154,7 +154,7 @@ Daily streaks, leaderboards and the [LangX Token](/tokens) reward showing up and
 
 ## Is LangX a free Speaky alternative?
 
-Partly. LangX has a real free plan: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. But it also has two paid plans, Fluent and Polyglot, that remove or raise those limits and add extra filters and features. Speaky, as far as its store listings show, has no paid plan at all. If "completely free" matters most to you, Speaky has the edge; if you want no ads and unlimited corrections on a free plan, LangX does.
+Partly. LangX has a real free plan: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. But it also has a paid plan, Pro, that removes or raises those limits and add extra filters and features. Speaky, as far as its store listings show, has no paid plan at all. If "completely free" matters most to you, Speaky has the edge; if you want no ads and unlimited corrections on a free plan, LangX does.
 
 ## LangX vs Speaky: who should pick which?
 

@@ -57,7 +57,7 @@ These are the apps we would recommend today to someone planning their 2027 pract
 | One steady partner | Tandem or LangX | Built for one-to-one exchange | Tandem's AI Toolkit; LangX's growing community |
 | Speak live, right now | Lingbe | One tap to a native-speaker call | Whether updates resume |
 | Start free, no subscription | Speaky | No subscription listed on the App Store | Its AI practice partners and map |
-| No ads, open code | LangX | BSD-3, no ads, unlimited corrections | Copilot, planned for Polyglot |
+| No ads, open code | LangX | BSD-3, no ads, unlimited corrections | Copilot, planned for Pro |
 | Meet in person | Conversation Exchange | Local partner search | Little change expected |
 | Paid guidance | italki or Preply | Professional tutors | AI features around lessons |
 
@@ -134,7 +134,7 @@ When you are ready to start, our guides on [what a language exchange is](/what-i
 
 ## What LangX has said about what is coming
 
-The one thing LangX has announced publicly for the future is **LangX Copilot**, private AI feedback inside the chat, which is planned for the Polyglot plan and is coming later. It is not shipped yet, and we are not giving it a date here.
+The one thing LangX has announced publicly for the future is **LangX Copilot**, private AI feedback inside the chat, which is planned for the Pro plan and is coming later. It is not shipped yet, and we are not giving it a date here.
 
 Everything else on LangX today is already in the app: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/plans), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
 
@@ -164,7 +164,7 @@ We do not expect it to. AI is excellent for rehearsal and instant explanations, 
 
 ### Is LangX adding AI features?
 
-LangX Copilot, private AI feedback in the chat, is planned for the Polyglot plan and is coming later. It has not shipped yet, and there is no public date.
+LangX Copilot, private AI feedback in the chat, is planned for the Pro plan and is coming later. It has not shipped yet, and there is no public date.
 
 ### Is there a free language exchange app with no ads for 2027?
 

@@ -87,7 +87,7 @@ If you asked a language forum in 2025 which exchange app to download, the most c
 
 ### LangX v1: small, free and open source
 
-In 2025, LangX was the v1 app: free with no in-app purchases, no ads, open source, and a much smaller community than the apps above. It also carried a token that its old litepaper described as something tradable. v2, launched in late August 2026, rebuilt the app from scratch, added two-way matching and unlimited corrections on every plan, introduced paid Fluent and Polyglot plans, and turned the token into a plain in-app point. We explain all of that, including the promises v2 does not keep, in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
+In 2025, LangX was the v1 app: free with no in-app purchases, no ads, open source, and a much smaller community than the apps above. It also carried a token that its old litepaper described as something tradable. v2, launched in late August 2026, rebuilt the app from scratch, added two-way matching and unlimited corrections on every plan, introduced paid Fluent and Polyglot plans (merged into one plan, Pro, in September 2026), and turned the token into a plain in-app point. We explain all of that, including the promises v2 does not keep, in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
 
 ## What changed in the language app market during 2025
 

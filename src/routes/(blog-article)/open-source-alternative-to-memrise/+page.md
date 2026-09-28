@@ -70,11 +70,11 @@ So today Memrise is best described as an **official-course app built on native-s
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | AI (MemBot, Podchats); no human conversation partners |
 | Corrections | A human partner can correct any message; unlimited on every plan | AI feedback on your conversations and exercises |
 | Native speakers | Real people in real chats | Short videos of native speakers saying words and phrases |
-| Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Part of the lessons, not a chat tool |
+| Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Speaking and pronunciation practice with AI; no human calls |
 | Languages | 182 listed in the app | Official courses in around 35 languages for English speakers, plus many more in community courses |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limits; many videos and AI features need a subscription |
-| Paid plan | Yes (Fluent, Polyglot) | Yes (Memrise Pro) |
+| Paid plan | Yes (Pro) | Yes (Memrise Pro) |
 | No ads | Yes | No (Pro removes them) |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -172,7 +172,7 @@ LangX shows no ads and uses no advertising identifiers. It does run product anal
 
 - **A much smaller library.** Echo has eighteen phrase packs and the cards you make yourself; there is no course of Memrise's size and no native-speaker videos.
 - **No community course library,** so it is not a replacement for Memrise's user-made courses.
-- **No AI chat today.** LangX Copilot, private AI feedback, is planned for Polyglot but not shipped.
+- **No AI chat today.** LangX Copilot, private AI feedback, is planned for Pro but not shipped.
 - **No live calls,** only voice messages, and a smaller community means fewer partners for some language pairs.
 
 ## Is LangX a free Memrise alternative?

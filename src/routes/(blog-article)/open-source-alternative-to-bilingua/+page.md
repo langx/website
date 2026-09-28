@@ -92,11 +92,11 @@ If you still have an old copy of Bilingua installed, do not rely on it. An app w
 | Status | Active, iOS, Android and web | No longer in the app stores; website parked |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Matched partners by shared interests and personality |
 | Corrections | Correct any message in the chat, unlimited on every plan | Its chat assistant, Shiro, could suggest corrections |
-| Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Suggested translations through Shiro |
+| Translation | Built into the chat (Free 20 a day, Pro 1000) | Suggested translations through Shiro |
 | Conversation help | Read-aloud, voice and photo messages | Topic suggestions, games and quizzes |
 | Voice and calls | Voice, photo and video messages; no live calls | Text-first chat |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Was free to use |
-| Paid plan | Yes (Fluent, Polyglot) | Not relevant today |
+| Paid plan | Yes (Pro) | Not relevant today |
 | No ads | Yes | Not relevant today |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | Formerly iOS, Android, web |
@@ -149,7 +149,7 @@ Instead of an assistant suggesting fixes, on LangX your partner holds any messag
 
 ### Translation inside the chat
 
-If you leaned on Shiro's translations, LangX has translation built into the chat, so you can check a word without leaving the conversation. The Free plan includes 20 translations per rolling 24 hours; Fluent has 300 and Polyglot 1,000.
+If you leaned on Shiro's translations, LangX has translation built into the chat, so you can check a word without leaving the conversation. The Free plan includes 20 translations per rolling 24 hours; Pro has 1,000.
 
 ### Voice messages and read-aloud
 
@@ -166,7 +166,7 @@ This is the biggest lesson from Bilingua. When a closed app shuts down, it is go
 ### Honest limits
 
 - **No live calls** on LangX, only voice messages.
-- **No conversation bot.** LangX Copilot, private AI feedback on your own messages, is coming later for Polyglot, but it is not available yet.
+- **No conversation bot.** LangX Copilot, private AI feedback on your own messages, is coming later for Pro, but it is not available yet.
 - **A smaller community** than the biggest exchange apps, so some language pairs have fewer people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours. Replies and corrections are never capped. The [plans page](/plans) has the details.
 
@@ -213,7 +213,7 @@ Yes. LangX has a free plan with unlimited replies and corrections, 5 new convers
 
 ### LangX vs Bilingua: does LangX have a chatbot like Shiro?
 
-No. LangX focuses on corrections and translation inside real conversations. LangX Copilot, private AI feedback, is planned for the Polyglot plan but is not available yet.
+No. LangX focuses on corrections and translation inside real conversations. LangX Copilot, private AI feedback, is planned for the Pro plan but is not available yet.
 
 ### What are the best apps like Bilingua for voice practice?
 
