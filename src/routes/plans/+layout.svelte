@@ -10,7 +10,7 @@
 <SiteShell
 	title="Plans and pricing: Free and Pro"
 	path="/plans"
-	description="What Pro adds, what stays free, and why corrections are unlimited on every plan."
+	description="What Pro adds, what stays free, and how to get Pro free: invite friends, keep a streak or use a gift code."
 >
 	{@render children?.()}
 </SiteShell>

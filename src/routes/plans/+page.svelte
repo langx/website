@@ -10,7 +10,7 @@
 	import { reveal } from '$lib/utils/reveal';
 	import { inview } from '$lib/utils/inview';
 	import { siteBaseUrl } from '$lib/data/meta';
-	import { plans, planNotes, limits } from '$lib/data/plans';
+	import { plans, planNotes, limits, freeProWays, freeProNote } from '$lib/data/plans';
 	import { echo } from '$lib/data/echo';
 	import type { FaqObject } from '$lib/data/faq';
 
@@ -65,6 +65,26 @@
 			id: 206,
 			title: 'Can I cancel?',
 			content: `Yes, any time, from the store account you bought it with. Corrections and replies stay unlimited whether you pay or not.`
+		},
+		{
+			id: 207,
+			title: 'Can I get Pro by inviting friends?',
+			content: `Yes. Share your invite link from the app. Every 3 friends who join with it and send their first message or correction give you 1 month of Pro, up to 3 months in a calendar year. Each invite also earns you <a href="/tokens">tokens</a>.`
+		},
+		{
+			id: 208,
+			title: 'Do I get anything for a long streak?',
+			content: `Yes. A 100-day streak gives you 1 month of Pro, and a 365-day streak gives you 3 months. Each happens once, so a year-long streak adds up to 4 months. If your streak is already past 100 or 365 days, you get it the next time you practise.`
+		},
+		{
+			id: 209,
+			title: 'How do I use a gift code?',
+			content: `Open the plans screen in the app and tap "Have a gift code?" under the button. Type the code — capitals don't matter — and Pro starts right away, for as many months as the code gives. Each code works once per person, and a code can run out or expire.`
+		},
+		{
+			id: 210,
+			title: 'Will free Pro charge me when it ends?',
+			content: `No. Pro from an invite, a streak, a gift code or a gift from us never renews and never charges you. The app tells you a week before it ends, and again the day before. If you want to keep Pro after that, you can subscribe from the plans screen.`
 		}
 	];
 
@@ -201,6 +221,24 @@
 			{/each}
 		</ul>
 		<p class="notes">{planNotes.join(' ')}</p>
+	</section>
+
+	<section class="free-pro" aria-labelledby="free-pro-title">
+		<header class="head">
+			<span class="eyebrow">Or don't pay</span>
+			<h2 id="free-pro-title">Ways to get Pro free</h2>
+			<p>Help LangX grow, or just keep showing up.</p>
+		</header>
+		<ul class="ways" role="list" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
+			{#each freeProWays as way}
+				<li>
+					<span class="way-icon" aria-hidden="true"><UiIcon name={way.icon} size={22} /></span>
+					<h3>{way.title}</h3>
+					<p>{way.body}</p>
+				</li>
+			{/each}
+		</ul>
+		<p class="notes">{freeProNote}</p>
 	</section>
 
 	<FAQ items={faq} eyebrow="Questions" title="Before you pay" />
@@ -609,6 +647,65 @@
 		font-size: 0.8125rem;
 		line-height: 1.5;
 		color: var(--color--text-quiet);
+	}
+
+	// Three ways to Pro without paying, between hairlines like the figures
+	// at the top: the page is about the plans, so this stays quieter than
+	// the cards.
+	.free-pro {
+		border-top: 1px solid var(--color--border);
+		margin-top: var(--space-2xl);
+		padding: var(--space-2xl) 0 0;
+
+		@include for-phone-only {
+			margin-top: var(--space-xl);
+			padding-top: var(--space-xl);
+		}
+	}
+
+	.ways {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 24px;
+		margin: var(--space-lg) 0 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+			margin: 0;
+			padding: 24px;
+			border: 1px solid var(--color--border);
+			border-radius: var(--radius-xl);
+			background: var(--color--surface);
+		}
+
+		.way-icon {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 40px;
+			height: 40px;
+			border-radius: var(--radius-md);
+			background: var(--color--accent-tint);
+			color: var(--color--accent-shade);
+			margin-bottom: 4px;
+		}
+
+		h3 {
+			margin: 0;
+			font-weight: 900;
+			font-size: 1.125rem;
+		}
+
+		p {
+			margin: 0;
+			font-size: 0.9375rem;
+			line-height: 1.5;
+			color: var(--color--text-shade);
+		}
 	}
 
 	@media (prefers-reduced-motion: reduce) {

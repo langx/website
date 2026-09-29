@@ -50,7 +50,11 @@ const body = () =>
 		'## The app',
 		'',
 		link('Home', '/', 'what LangX is, how matching and corrections work, and the FAQ'),
-		link('Plans', '/plans', 'what Free and Pro each include'),
+		link(
+			'Plans',
+			'/plans',
+			'what Free and Pro each include, and the ways to get Pro free: invites, streaks and gift codes'
+		),
 		link(
 			'Tokens',
 			'/tokens',

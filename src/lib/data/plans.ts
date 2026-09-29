@@ -144,5 +144,34 @@ export const limits: LimitRow[] = [
 export const planNotes = [
 	'The free plan’s daily caps run over a rolling 24 hours, not a calendar day.',
 	'Pro is monthly or yearly, with a one-week free trial; yearly works out to 3 months free. Prices are set per region and shown in the app.',
-	'Tokens cannot buy a paid plan, and never will.'
+	'Tokens cannot buy a paid plan, and never will. A streak freeze bought with tokens can keep a streak going toward a streak reward, but tokens never buy Pro directly.'
 ];
+
+/**
+ * Ways to get Pro without paying. Mirrors the reward and gift rules in
+ * `langx/packages/shared` — the invite and streak milestones, and gift codes
+ * redeemed from the app's plans screen. Rewarded or gifted Pro never renews
+ * and never charges anyone; the Terms (§5) carry the same rules in full.
+ */
+export type FreeProWay = { icon: string; title: string; body: string };
+
+export const freeProWays: FreeProWay[] = [
+	{
+		icon: 'person',
+		title: 'Invite friends',
+		body: 'Every 3 friends who join with your link and start talking give you 1 month of Pro. Up to 3 months a year.'
+	},
+	{
+		icon: 'award',
+		title: 'Keep a streak',
+		body: 'Reach a 100-day streak for 1 month of Pro, and 365 days for 3 more. Each one once.'
+	},
+	{
+		icon: 'gift',
+		title: 'Use a gift code',
+		body: 'Got a code? Tap “Have a gift code?” on the plans screen in the app and Pro is yours for as long as the code says.'
+	}
+];
+
+export const freeProNote =
+	'Now and then we gift Pro as a thank-you, too. Pro you get for free never renews itself and never charges you — the app lets you know before it ends.';

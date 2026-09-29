@@ -40,6 +40,15 @@
 
 		Subscriptions are billed through Apple's App Store, Google Play, or our web payment provider, depending on where you subscribe. They renew automatically at the end of each period unless cancelled at least 24 hours before it ends. You cancel and request refunds through the same store you purchased from, under that store's terms; we cannot cancel or refund a store subscription on your behalf.
 
+		Pro can also be obtained without payment, for a fixed number of months:
+
+		- Invitations: each time three people you invited join the App with your invitation link and send their first message or correction, you receive one month of Pro, up to three months per calendar year.
+		- Streaks: reaching a 100-day streak gives one month of Pro and reaching a 365-day streak gives three months. Each milestone is rewarded once per account, including for a streak that had already passed it when the reward was introduced.
+		- Gifts: we may gift Pro to an account for a period we choose.
+		- Gift codes: a code entered on the App's plans screen gives the number of months of Pro stated for that code. A code can be redeemed once per person, may be limited in the total number of times it can be used and in how long it is valid, and may be deactivated by us at any time before it is redeemed. Codes are not case-sensitive, have no cash value and cannot be exchanged for money. Repeated attempts to guess codes may be blocked.
+
+		Pro received in any of these ways is free of charge, does not renew automatically and ends on the date shown in the App; we tell you before it ends. Periods received this way are added one after another rather than overlapping. They cannot be given to an account that already holds lifetime Pro, and they do not pause or replace a paid subscription: if you also subscribe, the subscription is billed as usual, and the free period keeps Pro until its own end date if the subscription ends first. We may withhold a reward where the invitations behind it came from fake accounts, self-invitation or other abuse.
+
 		The limits and the contents of each plan may change. If a change removes something you are already paying for, it takes effect for you at your next renewal rather than immediately.
 
 	6. LangX Token
@@ -52,6 +61,8 @@
 		- It cannot be withdrawn or redeemed for money or any other thing of value.
 		- It is not recorded on a blockchain.
 		- It cannot be used to obtain Pro or any part of it.
+
+		A streak freeze bought with tokens keeps a streak going, and a kept streak counts toward the streak rewards in section 5; tokens never buy Pro directly.
 
 		Token balances held in version 1 of LangX are credited to your version 2 account divided by 100, rounded down. A balance below 100 therefore converts to nothing. Any earlier description of LangX Token as a tradable or on-chain asset, including the litepaper, does not describe the product and is not being built.
 

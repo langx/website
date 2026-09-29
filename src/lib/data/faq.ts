@@ -16,6 +16,11 @@ export const faqObjects: FaqObject[] = [
 		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/plans">Pro</a> removes those limits and adds a few extras, with a one-week free trial.`
 	},
 	{
+		id: 11,
+		title: 'Can I get Pro without paying?',
+		content: `Yes, three ways. Invite friends: every 3 who join with your link and start talking give you a month of Pro, up to 3 months a year. Keep a streak: 100 days gives you a month, 365 days gives you 3. Or type a gift code on the plans screen in the app. Free Pro never renews and never charges you. <a href="/plans">More on the plans page</a>.`
+	},
+	{
 		id: 2,
 		title: 'Where can I use it?',
 		content: `On <a href="https://apps.apple.com/app/languagexchange/id6474187141" target="_blank" rel="noopener noreferrer">iPhone</a>, <a href="https://play.google.com/store/apps/details?id=tech.newchapter.languageXchange" target="_blank" rel="noopener noreferrer">Android</a> and in your <a href="https://app.langx.io" target="_blank" rel="noopener noreferrer">browser</a>. It's the same app everywhere.`
