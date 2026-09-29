@@ -47,7 +47,7 @@
 			</div>
 			<div class="stat">
 				<span class="n green">1,204</span>
-				<span class="l">Corrections ›</span>
+				<span class="l">Feed ›</span>
 			</div>
 			<div class="stat">
 				<span class="n">5</span>

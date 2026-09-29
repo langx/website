@@ -24,7 +24,7 @@
 		chat: 'A LangX chat: messages arrive, then a correction',
 		discover: 'Discover: people who speak the language you learn and learn yours',
 		feed: 'Feed: everyday posts, some asking for a correction or a recording',
-		me: 'Profile: streak, corrections and this week’s activity'
+		me: 'Profile: streak, feed and this week’s activity'
 	};
 </script>
 
