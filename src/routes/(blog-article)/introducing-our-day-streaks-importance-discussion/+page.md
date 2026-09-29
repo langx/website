@@ -50,7 +50,7 @@ For some, like the creator of the post, maintaining a daily streak has been inst
 <AppDemo
   screen="me"
   title="Your streak, on your profile"
-  text="The streak sits on your LangX profile, next to your feed and this week's activity, so you can see the chain you are building."
+  text="The streak sits on your LangX profile, next to your corrections and this week's activity, so you can see the chain you are building."
 />
 
 > <a href="https://www.reddit.com/r/languagelearning/comments/1b7xn31/comment/ktlgxse/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">Deer-Eve</a> raised an interesting point, questioning the effectiveness of short daily sessions: "So basically you're saying 15 minutes a day over a consecutive daily period is enough to reach an acceptable level?"
