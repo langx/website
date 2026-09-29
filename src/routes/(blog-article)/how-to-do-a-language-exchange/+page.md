@@ -110,12 +110,11 @@ Translation is a crutch, and crutches are fine when you need one. The problem is
 - **Do not** write your whole message in your own language and paste the translation. You learn nothing, and your partner corrects the translator, not you.
 - **Try first, then check.** Write your best attempt, then translate only the parts you were unsure about.
 
-LangX has translation built into the chat for exactly those moments: 20 translations a day on the free plan, 300 on Fluent and 1000 on Polyglot. Twenty is plenty if you use it the way this rule suggests.
+LangX has translation built into the chat for exactly those moments: 20 translations a day on the free plan, 1000 on Pro. Twenty is plenty if you use it the way this rule suggests.
 
 <StatRow stats={[
   { value: "20 a day", label: "translations on the LangX Free plan" },
-  { value: "300 a day", label: "translations on Fluent" },
-  { value: "1,000 a day", label: "translations on Polyglot" },
+  { value: "1,000 a day", label: "translations on Pro" },
   { value: "Unlimited", label: "corrections, on every plan" }
 ]} />
 

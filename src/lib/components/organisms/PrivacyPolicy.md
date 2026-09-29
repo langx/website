@@ -37,14 +37,14 @@
 		- **Push notification token** — only if you grant notification permission.
 		- **Profile views** — who viewed your profile. Not recorded at all when the viewer is browsing incognito, and deleted automatically after 90 days.
 		- **Blocks and reports** — only if you block or report someone.
-		- **Purchase state** — whether you have an active Fluent or Polyglot subscription, which store it came from, and when it renews or expires. Only if you subscribe.
+		- **Purchase state** — whether you have an active Pro subscription, which store it came from, and when it renews or expires. Only if you subscribe.
 		- **Approximate location** — only if you switch it on. Section 3 describes it in full, because it is new in version 2 and it is the part worth reading carefully.
 
 		2.3 Technical information
 
 		Our servers necessarily see your IP address in order to answer a request, apply rate limits and refuse abuse. We do not build a profile from it and it is not stored as part of your account.
 
-		One thing is derived from it: **your country**, as a two-letter code, when you create your profile. It is shown on your profile and used by the Pro country filter, which is only worth having if the country is not something anyone can simply type. The address itself is not kept — only the country it resolved to. If it is wrong, granting location permission in the app replaces it with the country your device reports; nothing else can change it.
+		One thing is derived from it: **your country**, as a two-letter code, when you create your profile. It is shown on your profile and used by the country filter, which is on every plan and is only worth having if the country is not something anyone can simply type. The address itself is not kept — only the country it resolved to. If it is wrong, granting location permission in the app replaces it with the country your device reports; nothing else can change it.
 
 		2.4 Usage analytics
 
@@ -66,7 +66,7 @@
 
 	3. Approximate Location, and Only If You Ask For It
 
-		Polyglot includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
+		Pro includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
 
 		- **It is off until you turn it on.** Nothing writes your location at sign-up, during onboarding, or in the background. The only two places that ask for it are the switch in Settings and the Nearby tab itself, and both run your device's own permission prompt first.
 		- **When-in-use only.** The app declares no background location permission on either platform, so it cannot read your position while you are not using it.

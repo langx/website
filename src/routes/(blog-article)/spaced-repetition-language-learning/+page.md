@@ -232,7 +232,7 @@ A conversation partner also feeds your deck. In LangX, you are matched with
 people who speak the language you are learning and are learning yours. When your
 partner corrects one of your messages (you hold a message to correct it, and
 corrections are unlimited on every plan), you get a ready-made correction card:
-what you wrote, and what a native speaker would say. On the Polyglot
+what you wrote, and what a native speaker would say. On the Pro
 [plan](/plans), you can export a conversation's saved phrases to a file that opens
 in Anki.
 

@@ -87,7 +87,7 @@ Hold any message in a chat to correct it, and the fix appears right in the conve
 
 ### Translation, voice notes and read-aloud
 
-Stuck on a word? Translate it inside the chat (20 translations a day on Free, 300 on Fluent, 1000 on Polyglot). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. There are no live calls on LangX; conversations happen through text, voice, photo and video messages, which also means you have time to think before you answer.
+Stuck on a word? Translate it inside the chat (20 translations a day on Free, 1000 on Pro). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. There are no live calls on LangX; conversations happen through text, voice, photo and video messages, which also means you have time to think before you answer.
 
 ### Streaks, tokens and leaderboards
 
@@ -159,7 +159,7 @@ If you want to compare LangX with the other apps where you practice with real pe
 
 ## Is LangX free like Duolingo?
 
-Yes. The Free plan is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app. Tokens cannot buy a paid plan.
+Yes. The Free plan is a real plan, not a trial: unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Pro adds unlimited new conversations, more translations, more languages and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app. Tokens cannot buy a paid plan.
 
 A note on privacy, since social apps involve other people's messages as well as yours: LangX has no ads and no advertising identifiers. It does use product analytics (PostHog, on its EU cloud), including a masked screen recording on iOS and Android that replaces every word and image with a grey block on your device. It is on by default and switches off in Settings → Privacy → Share usage data.
 
@@ -179,7 +179,7 @@ LangX is built to be like Duolingo but social: streaks, tokens and leaderboards,
 
 ### Is LangX free like Duolingo?
 
-Yes. LangX Free has no ads and includes unlimited replies and corrections, 5 new conversations a day and 20 translations a day. Paid plans (Fluent and Polyglot) raise the limits.
+Yes. LangX Free has no ads and includes unlimited replies and corrections, 5 new conversations a day and 20 translations a day. Pro, the paid plan, raises the limits.
 
 ### Should I quit Duolingo for LangX?
 

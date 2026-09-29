@@ -80,10 +80,10 @@ Everything about Tandem below reflects its app store listings and its own site a
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Browse the community with filters (language, age, level and more) |
 | Corrections | Hold any message to correct it; unlimited on every plan | Inline corrections in chat; Pro adds AI correction explanations |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Built in; limited on free, unlimited with Tandem Pro |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built in; limited on free, unlimited with Tandem Pro |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, audio and video calls, group audio Parties |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with daily limits |
-| Paid plan | Yes: Fluent and Polyglot | Yes: Tandem Pro |
+| Paid plan | Yes: Pro | Yes: Tandem Pro |
 | No ads | Yes | No (Pro removes them) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -152,7 +152,7 @@ Daily streaks, weekly to all-time leaderboards and the [LangX Token](/tokens) re
 
 ## Is LangX a free Tandem alternative?
 
-Yes, with honest caveats. LangX has a real free plan: unlimited text messages, unlimited replies to anyone who writes to you, unlimited corrections, 5 new conversations a day and 20 translations a day. Two paid plans, Fluent and Polyglot, add unlimited new conversations, more translations, extra filters, more languages on your profile, and things like "who viewed you" and incognito. Prices are set per region and shown in the app.
+Yes, with honest caveats. LangX has a real free plan: unlimited text messages, unlimited replies to anyone who writes to you, unlimited corrections, 5 new conversations a day and 20 translations a day. Pro, the paid plan, adds unlimited new conversations, more translations, extra filters, more languages on your profile, and things like "who viewed you" and incognito. Prices are set per region and shown in the app.
 
 So LangX is a free Tandem alternative in the sense that the free plan is usable on its own, not a trial. Tandem also has a free version, so "free" alone is not a reason to switch.
 
@@ -196,7 +196,7 @@ LangX is an open source alternative to Tandem: the app and its API are public un
 
 ### Is LangX free like Tandem?
 
-Both have a free version and paid plans. LangX's Free plan includes unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot remove or raise those limits.
+Both have a free version and paid plans. LangX's Free plan includes unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Pro removes or raise those limits.
 
 ### LangX vs Tandem: which has more users?
 

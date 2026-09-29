@@ -135,10 +135,10 @@ Our app, so judge this entry accordingly. LangX's free plan is a real plan rathe
 - **Unlimited** text messages, **unlimited replies** and **unlimited corrections**.
 - **5 new conversations** you start per day.
 - **20 translations** a day inside the chat.
-- 100 messages read aloud a day, and 50 messages a day with a photo, video or voice note.
+- 100 messages read aloud a day, and 500 messages a day with a photo, video or voice note, the same on every plan.
 - One language you are learning and one you speak; filters by country, age and level.
 
-The honest limits: 5 new chats a day is fewer than Tandem's 10, there are **no live voice or video calls** on any plan (practice is text plus voice, photo and video messages), and the community is much smaller than HelloTalk's or Tandem's. **Fluent** and **Polyglot** lift the new-conversation cap, raise translations to 300 and 1,000 a day, and add languages and filters; the [plans page](/plans) lists everything.
+The honest limits: 5 new chats a day is fewer than Tandem's 10, there are **no live voice or video calls** on any plan (practice is text plus voice, photo and video messages), and the community is much smaller than HelloTalk's or Tandem's. **Pro** lifts the new-conversation cap, raises translations to 1,000 a day, and adds languages and filters; the [plans page](/plans) lists everything.
 
 <AppDemo
   screen="chat"
@@ -199,6 +199,6 @@ Yes, with limits: 10 new conversations and 3 translations a day, up to an hour a
 
 ### Is LangX free?
 
-Yes. The free plan has no ads and unlimited text, replies and corrections. It limits new conversations you start to 5 and translations to 20 per rolling 24 hours. Paid plans, Fluent and Polyglot, raise those limits; you can [get the app here](https://get.langx.io).
+Yes. The free plan has no ads and unlimited text, replies and corrections. It limits new conversations you start to 5 and translations to 20 per rolling 24 hours. Pro, the paid plan, raises those limits; you can [get the app here](https://get.langx.io).
 
 More comparisons: see every head-to-head on our [comparison hub](/compare), or go back to the full list of the [best language exchange apps](/best-language-exchange-apps).

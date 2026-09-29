@@ -51,7 +51,7 @@ We make LangX, a language exchange app, so its limits are listed as plainly as e
 | Duolingo | Course | Free, with ads | Every course, including B2 content in nine popular courses | No ads, no Energy limit (Super); AI Video Call and Roleplay (Max) |
 | Anki | Flashcards | Free and open source | Desktop, Android (AnkiDroid) and AnkiWeb sync | Nothing to unlock; the iPhone app is paid |
 | Language Transfer | Audio course | Free, donation-funded | All courses, no ads, no sign-up | Nothing; donations are optional |
-| LangX | Language exchange | Free plan, no ads | Unlimited messages, replies and corrections; 5 new chats and 20 translations a day; Echo phrase packs in six languages | More new chats, translations, languages and filters (Fluent, Polyglot) |
+| LangX | Language exchange | Free plan, no ads | Unlimited messages, replies and corrections; 5 new chats and 20 translations a day; Echo phrase packs in six languages | More new chats, translations, languages and filters (Pro) |
 | HelloTalk | Language exchange | Free, with ads | Chat, calls, Moments, Voicerooms | No ads, no daily caps on translation and AI tools (VIP) |
 | Tandem | Language exchange | Free, with ads | Chat, calls, corrections; 10 new chats and 3 translations a day | No ads, 30 chats, unlimited translation, AI tools (Pro) |
 | Busuu | Course plus community | Limited, with ads | Lessons with a short ad before each | No ads, full course, unlimited community corrections |

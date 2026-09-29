@@ -67,11 +67,11 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Dialogue-based lessons with grammar tips and vocabulary review |
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | Babbel Speak AI scenarios; no human conversation partners for individual learners |
 | Corrections | A human partner can correct any message; unlimited on every plan | Automatic feedback on exercises and speech |
-| Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Part of the lessons, not a chat tool |
+| Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Speech recognition in lessons and Babbel Speak; live classes only via Babbel for Business |
 | Languages | 182 listed in the app | 14 |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | The first lesson of each course is free to try; full access needs a subscription |
-| Paid plan | Yes (Fluent, Polyglot) | Yes (subscription) |
+| Paid plan | Yes (Pro) | Yes (subscription) |
 | No ads | Yes | Yes |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -159,7 +159,7 @@ Babbel teaches 14 languages. LangX lists 182, so if your target language is not 
 
 ### Open source and a free plan that stays free
 
-The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Babbel is closed source. LangX Free is a real plan, not a sample: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See the [plans page](/plans) for what Fluent and Polyglot add.
+The LangX app and API are public on [GitHub](https://github.com/langx/langx) under the BSD-3 license and can be self-hosted. Babbel is closed source. LangX Free is a real plan, not a sample: unlimited text messages, unlimited replies and corrections, 5 new conversations and 20 translations per rolling 24 hours. See the [plans page](/plans) for what Pro adds.
 
 ### No ads
 
@@ -168,7 +168,7 @@ LangX has no ads and no advertising identifiers. It does use product analytics (
 ### What LangX does not do
 
 - **No grammar explanations or course path.** Echo's free phrase packs are something to review, not a course; if you are starting from zero, begin with one.
-- **No AI conversation practice today.** LangX Copilot, private AI feedback, is planned for Polyglot but not shipped.
+- **No AI conversation practice today.** LangX Copilot, private AI feedback, is planned for Pro but not shipped.
 - **No live calls or classes,** only voice messages.
 - **A smaller community,** so some language pairs have fewer people online.
 

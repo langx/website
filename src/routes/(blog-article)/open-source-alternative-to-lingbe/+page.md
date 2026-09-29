@@ -82,11 +82,11 @@ Its idea is simple. You press the call button and Lingbe connects you with someo
 | Core format | Text chat with voice, photo and video messages | Instant live voice calls |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Press a button to be connected to an available speaker |
 | Corrections | Correct any message in the chat, unlimited on every plan | Ratings on grammar, pronunciation and fluency after each call |
-| Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Not a core feature |
+| Translation | Built into the chat (Free 20 a day, Pro 1000) | Not a core feature |
 | Voice and calls | Voice messages and read-aloud; no live calls | Live voice calls; chat unlocks when you both like each other |
 | How practice is paid for | Free plan with daily limits on new conversations | Credits (lingos) earned by helping others or bought |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: free starter minutes, then earn lingos by helping |
-| Paid plan | Yes (Fluent, Polyglot) | Yes (Pro subscription and lingo packs) |
+| Paid plan | Yes (Pro) | Yes (Pro subscription and lingo packs) |
 | No ads | Yes | No |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android |
@@ -141,7 +141,7 @@ Lingbe's ratings tell you how you did overall. On LangX, your partner holds the 
 
 ### No credits to manage
 
-On LangX, conversations are not metered by the minute. The free plan limits how many *new* conversations you start (5 per rolling 24 hours) and how many translations you use (20), but replies and corrections are unlimited, so an ongoing exchange never runs out. Paid plans (Fluent and Polyglot) lift the new-conversation limit and add more translations and filters. See the [plans page](/plans).
+On LangX, conversations are not metered by the minute. The free plan limits how many *new* conversations you start (5 per rolling 24 hours) and how many translations you use (20), but replies and corrections are unlimited, so an ongoing exchange never runs out. Pro, the paid plan, lifts the new-conversation limit and add more translations and filters. See the [plans page](/plans).
 
 ### Lower pressure for beginners and introverts
 

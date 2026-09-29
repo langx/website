@@ -89,10 +89,10 @@ So a Busuu alternative can mean two things:
 | Matching | Two-way: people who speak what you learn and learn what you speak | Exercises are routed to fluent speakers, or sent to friends |
 | Corrections | Correct any message in an ongoing conversation, unlimited on every plan | Community Corrections on course exercises; free members can send a limited number, Premium is unlimited |
 | Conversation | Ongoing one-to-one chats | Short exchanges around a correction |
-| Translation | Built into the chat (Free 20 a day, Fluent 300, Polyglot 1000) | Part of the lessons, not a chat tool |
+| Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
 | Voice | Voice, photo and video messages, read-aloud; no live calls | Spoken exercises that others can correct |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limited features |
-| Paid plan | Yes (Fluent, Polyglot) | Yes (Premium) |
+| Paid plan | Yes (Pro) | Yes (Premium) |
 | No ads | Yes | No (Premium removes them) |
 | Open source | Yes, BSD-3 on GitHub | No |
 | Platforms | iOS, Android, web | iOS, Android, web |

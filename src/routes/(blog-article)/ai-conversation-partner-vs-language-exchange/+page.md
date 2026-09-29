@@ -150,7 +150,7 @@ This loop gives you the volume of AI and the reality check of a human. It also m
 
 ## What about AI inside language exchange apps?
 
-The line is blurring. Some exchange apps add AI translation or correction tools, and some AI apps add community features. On LangX, corrections come from people today, and translation is built into the chat. An AI feedback feature, LangX Copilot, is planned for the Polyglot plan but has not shipped yet, and we will say so plainly until it does. For a broader look at exchange apps, see the [best language exchange apps](/best-language-exchange-apps).
+The line is blurring. Some exchange apps add AI translation or correction tools, and some AI apps add community features. On LangX, corrections come from people today, and translation is built into the chat. An AI feedback feature, LangX Copilot, is planned for the Pro plan but has not shipped yet, and we will say so plainly until it does. For a broader look at exchange apps, see the [best language exchange apps](/best-language-exchange-apps).
 
 ## FAQ
 

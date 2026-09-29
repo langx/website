@@ -58,7 +58,7 @@ We write LangX, so we have an obvious interest here. That is exactly why this li
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Largest community, social feed | Yes, with ads and daily caps | VIP | Yes | Voicerooms, Live | iOS, Android, web | No |
 | Tandem | Focused one-to-one exchange | Yes, with ads and daily caps | Pro | Yes | Language Parties | iOS, Android, web | No |
-| LangX | Two-way matching, unlimited corrections, no ads | Yes, 5 new chats a day | Fluent, Polyglot | No (voice messages) | No | iOS, Android, web | Yes (BSD-3) |
+| LangX | Two-way matching, unlimited corrections, no ads | Yes, 5 new chats a day | Pro | No (voice messages) | No | iOS, Android, web | Yes (BSD-3) |
 | Speaky | Starting free, fast | Yes | No subscription required | Text-first | No | iOS, Android, web | No |
 | Lingbe | Instant voice calls | Yes, limited minutes | Pro and credits | Yes, one tap | No | iOS, Android | No |
 | ConversationExchange | In-person meetups, pen pals | Yes, with ads | Optional no-ads membership | Via your own tools | No | Web | No |
@@ -123,10 +123,10 @@ Compare it in detail: [LangX vs Tandem](/open-source-alternative-to-tandem). Tor
 This is our app, so read this entry with that in mind. [LangX](https://get.langx.io) matches in **both directions**: you only see people who speak what you are learning *and* are learning what you speak, so every conversation has something in it for both sides.
 
 - **Best for:** learners who want corrections at the center of the conversation, no ads, and an app whose code they can read.
-- **Free vs paid:** the Free plan is a real plan, not a trial. Replies and corrections are **unlimited on every plan**, and you get 5 new conversations and 20 in-chat translations per rolling 24 hours. **Fluent** and **Polyglot** add unlimited new conversations, more translations (300 and 1,000 a day), more languages and extra filters. Details are on the [plans page](/plans).
+- **Free vs paid:** the Free plan is a real plan, not a trial. Replies and corrections are **unlimited on every plan**, and you get 5 new conversations and 20 in-chat translations per rolling 24 hours. **Pro** adds unlimited new conversations, more translations (1,000 a day), more languages and extra filters. Details are on the [plans page](/plans).
 - **Platforms:** iOS, Android and the web at app.langx.io.
 - **Standout features:** hold any message to correct it, translation inside the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point you earn by talking and teaching (not money, and it cannot be bought or sold). The whole app is [open source under BSD-3](https://github.com/langx/langx) and can be self-hosted. No ads.
-- **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. There are **no live voice or video calls** and no group audio rooms yet; practice happens through text and voice messages. AI feedback (LangX Copilot) is planned for Polyglot but not shipped.
+- **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. There are **no live voice or video calls** and no group audio rooms yet; practice happens through text and voice messages. AI feedback (LangX Copilot) is planned for Pro but not shipped.
 
 <AppDemo
   screen="chat"
@@ -222,7 +222,7 @@ Start from how you want to practice, not from the feature list.
 - **You are a beginner who freezes in conversation:** start with Busuu's corrected exercises, or text chat with voice messages in LangX, HelloTalk or Tandem, where you have time to think.
 - **You want to pay nothing at all:** Speaky, Conversation Exchange and InterPals need no subscription. LangX's free plan has no ads and never limits replies or corrections, but it does cap new conversations at 5 a day.
 - **You care about privacy and code you can check:** LangX is the only open-source app on this list.
-- **You want someone to meet in person:** Conversation Exchange's local search, or the location filters in Tandem Pro, HelloTalk VIP, Speaky's map and LangX Polyglot's Nearby.
+- **You want someone to meet in person:** Conversation Exchange's local search, or the location filters in Tandem Pro, HelloTalk VIP, Speaky's map and LangX Pro's Nearby.
 
 Many learners use two apps: a big one to find people, and a quieter one for the partners they actually stick with. Once you have picked, our guides on [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) and [how to run a language exchange session](/how-to-do-a-language-exchange) will help you turn a first message into a habit. If you run out of things to say, keep a list of [conversation topics](/language-exchange-conversation-topics) handy.
 

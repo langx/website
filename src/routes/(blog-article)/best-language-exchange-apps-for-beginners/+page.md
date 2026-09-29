@@ -91,12 +91,12 @@ The catch: on the free tier each of those tools has a **daily cap**, and there a
 Our app. [LangX](https://get.langx.io) matches in both directions, so every person you see speaks the language you are learning *and* is learning yours. There are no live calls on any plan, which for a nervous beginner is a feature: nobody can ring you. You practice with text, and with voice, photo and video messages when you are ready.
 
 - Your partner can **hold any message to correct it**, and corrections are **unlimited on every plan**, including Free.
-- **Translation in the chat**: 20 a day on Free, 300 on Fluent, 1,000 on Polyglot.
+- **Translation in the chat**: 20 a day on Free, 1,000 on Pro.
 - **Read-aloud**: hold a message to hear it spoken (15 a day on Free).
 - **Filters by country, age and level** on Free, so you can find partners at a level that suits you.
 - **No ads** on any plan.
 
-The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI feedback, LangX Copilot, is planned for Polyglot but not shipped. Plans are on the [plans page](/plans).
+The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI feedback, LangX Copilot, is planned for Pro but not shipped. Plans are on the [plans page](/plans).
 
 <AppDemo
   screen="chat"

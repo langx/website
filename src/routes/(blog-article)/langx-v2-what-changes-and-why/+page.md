@@ -64,6 +64,9 @@ v1 said LangX was free with no in-app purchases. v2 introduces two paid
 subscriptions, **Fluent** and **Polyglot**, and three things that used to be
 free are part of them:
 
+_Since September 2026 the two are one plan, **Pro**, with everything Polyglot had._
+
+
 - Filtering discovery by gender and city — country, age and level stay free
 - Seeing **who** viewed your profile — the count stays free
 - Browsing without leaving a trace

@@ -32,7 +32,7 @@
 		},
 		{
 			title: 'LangX Copilot',
-			body: 'Private AI feedback on your own messages. Later, for Polyglot.',
+			body: 'Private AI feedback on your own messages. Later, for Pro.',
 			pending: true
 		}
 	];

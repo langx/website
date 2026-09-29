@@ -15,8 +15,8 @@
 	import type { FaqObject } from '$lib/data/faq';
 
 	/** One stroke icon per plan, in the plan's own tone. */
-	const ICONS: Record<string, string> = { Free: 'chat', Fluent: 'zap', Polyglot: 'globe' };
-	const TONES = ['free', 'fluent', 'polyglot'];
+	const ICONS: Record<string, string> = { Free: 'chat', Pro: 'zap' };
+	const TONES = ['free', 'pro'];
 
 	/** What every plan keeps, said once above the cards. */
 	const always = [
@@ -43,18 +43,18 @@
 		},
 		{
 			id: 202,
-			title: 'What does Fluent add?',
-			content: `Everything in Free without the limits: unlimited new conversations, 300 translations a day, two languages you are learning and two you speak, gender and city filters, and a boosted profile above the Discover list.`
+			title: 'What does Pro add?',
+			content: `Everything in Free without the limits: unlimited new conversations, 1,000 translations a day, five languages you are learning and five you speak, gender and city filters, Nearby, a boosted profile above the Discover list, see who viewed your profile, browse incognito, write in your language and send in theirs, and export your saved phrases. LangX Copilot, private AI feedback, is coming later.`
 		},
 		{
 			id: 203,
-			title: 'What does Polyglot add?',
-			content: `Everything in Fluent, and what it cannot do: see who viewed your profile, browse incognito, sort by distance with Nearby, 1,000 translations a day, five languages each way, write in your language and send in theirs, and export your saved phrases. LangX Copilot, private AI feedback, is coming later.`
+			title: 'What stays the same on both plans?',
+			content: `Replies and corrections are unlimited, Echo's packs are free, there are no ads, and everyone gets the same fair-use ceiling of 500 photo, video and voice messages a day and 10 photos on their profile.`
 		},
 		{
 			id: 204,
 			title: 'How much do the plans cost?',
-			content: `Prices are set per region and shown in the app, monthly or yearly, with a free trial. This site does not print them because they differ from country to country.`
+			content: `Prices are set per region and shown in the app. Pro is monthly or yearly, both with a one-week free trial, and yearly works out to 3 months free. This site does not print prices because they differ from country to country.`
 		},
 		{
 			id: 205,
@@ -95,7 +95,7 @@
 <JsonLd data={ld} />
 
 <!--
-	The ask, then the three plans as pitches rather than records, then the
+	The ask, then the two plans as pitches rather than records, then the
 	limits as bars, then the questions. The app's own paywall plays beside the
 	title; the long lists with their notes live in plans.ts and the FAQ.
 -->
@@ -109,7 +109,7 @@
 			<span class="eyebrow">Plans</span>
 			<h1>Free is a real plan. Paying lifts the limits.</h1>
 			<p class="lede">
-				Replying and correcting are unlimited on every plan. Fluent and Polyglot lift the other
+				Replying and correcting are unlimited on every plan. Pro lifts the other
 				limits — prices are set per region and shown in the app.
 			</p>
 			<div class="buttons" use:ownsPrimary>
@@ -118,11 +118,11 @@
 					I already have an account
 				</Button>
 			</div>
-			<p class="fine">Monthly or yearly, with a free trial, bought inside the app.</p>
+			<p class="fine">Monthly or yearly, with a one-week free trial, bought inside the app. Yearly is 3 months free.</p>
 		</div>
 		<div class="device" data-reveal use:reveal={{ onLoad: true, x: 40, y: 0, delay: 0.35 }}>
 			<PhoneFrame
-				label="The plans screen in the app: Fluent's benefits, yearly or monthly"
+				label="The plans screen in the app: Pro's benefits, yearly or monthly"
 				height="auto"
 			>
 				<PaywallScreen />
@@ -142,9 +142,9 @@
 
 	<section class="plans" aria-labelledby="plans-title">
 		<header class="head">
-			<span class="eyebrow">Three plans</span>
+			<span class="eyebrow">Two plans</span>
 			<h2 id="plans-title">Each one lists only what is new</h2>
-			<p>Polyglot has everything in Fluent, and Fluent has everything in Free.</p>
+			<p>Pro has everything in Free, without the limits.</p>
 		</header>
 		<div class="cards" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
 			{#each plans as plan, i}
@@ -386,21 +386,16 @@
 	}
 
 	// The card's edge and voice follow the plan: hairline for Free, blue for
-	// Fluent, ink for Polyglot — the homepage's cards, five lines each.
+	// Pro — the homepage's cards, five lines each.
 	.free {
 		--edge: var(--color--border);
 		--tone: var(--color--text);
 		--fill: var(--color--muted);
 	}
-	.fluent {
+	.pro {
 		--edge: var(--color--accent);
 		--tone: var(--color--accent-shade);
 		--fill: var(--color--accent-tint);
-	}
-	.polyglot {
-		--edge: var(--color--text);
-		--tone: var(--color--text);
-		--fill: var(--color--muted);
 	}
 
 	.card {
@@ -521,16 +516,13 @@
 		background: var(--bar);
 	}
 
-	// One colour per plan on the bars: the free plan in the quiet grey, Fluent
-	// in blue, Polyglot in ink — the same three as the card edges above.
+	// One colour per plan on the bars: the free plan in the quiet grey, Pro
+	// in blue — the same two as the card edges above.
 	.free {
 		--bar: var(--color--text-tertiary);
 	}
-	.fluent {
+	.pro {
 		--bar: var(--color--accent);
-	}
-	.polyglot {
-		--bar: var(--color--text);
 	}
 
 	.rows {

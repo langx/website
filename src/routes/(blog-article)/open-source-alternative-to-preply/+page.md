@@ -61,9 +61,9 @@ So a "Preply alternative" can mean two things:
 | Who you practice with | Native speakers who are learning your language | Tutors you choose |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You choose a tutor by language, price, reviews, specialty and schedule |
 | Corrections | Hold any message to correct it; unlimited on every plan | Your tutor corrects you in lessons |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not a chat feature |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a chat feature |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live video lessons in Preply's online classroom |
-| How you pay | Free plan, optional Fluent and Polyglot plans | A trial lesson, then a subscription with one tutor, billed every 28 days |
+| How you pay | Free plan, an optional Pro plan | A trial lesson, then a subscription with one tutor, billed every 28 days |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free lessons; browsing tutors is free |
 | No ads | Yes | Yes |
 | Open source | Yes, BSD-3, self-hostable | No |
@@ -162,7 +162,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free Preply alternative?
 
-For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app. No plan includes a tutor.
+For practice, yes; for lessons, no. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Pro adds unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app. No plan includes a tutor.
 
 <Steps
   title="Get more from each paid lesson"

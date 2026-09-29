@@ -16,7 +16,7 @@ The site is SvelteKit + mdsvex, static, deployed from `main` to langx.io.
 ### Read first (mandatory)
 
 - `PRODUCT.md` — the product facts and the rules. (Where it disagrees with the privacy policy — it still says there is no session recording — `src/lib/components/organisms/PrivacyPolicy.svelte` is the newer source: the app records a masked wireframe on iOS/Android, off in Settings → Privacy → Share usage data.) Every claim about LangX must be true per this file.
-- `src/lib/data/plans.ts`, `features.ts`, `token.ts` — exact plan names/limits. Plans are Free, Fluent, Polyglot. The site never prints prices.
+- `src/lib/data/plans.ts`, `features.ts`, `token.ts` — exact plan names/limits. Plans are Free and Pro (Fluent and Polyglot no longer exist; "Polyglot Club" and "fluent" as a word are unaffected). The site never prints prices.
 - One existing post for voice: src/routes/(blog-article)/langx-v2-what-changes-and-why/+page.md
 
 ### Hard rules on truthfulness

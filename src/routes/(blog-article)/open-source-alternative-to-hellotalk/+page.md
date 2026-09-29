@@ -73,11 +73,11 @@ Everything about HelloTalk below comes from its app store listings and its own s
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Partner recommendations by native language, target language, level, goals and interests |
 | Corrections | Hold any message to correct it; unlimited on every plan | Correction tools in chat and on Moments posts; AI correction in chat with a daily cap on free |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Built in, plus transliteration; daily cap on free, unlimited with VIP |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built in, plus transliteration; daily cap on free, unlimited with VIP |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, voice and video calls, Voicerooms, livestreams |
 | Social features | A Feed for photos, videos and sentences from your day; a post can ask for a correction or a recording | Moments (a global feed of posts others can correct), Voicerooms, livestreams |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: most core features, with daily caps on some tools |
-| Paid plan | Yes: Fluent and Polyglot | Yes: VIP |
+| Paid plan | Yes: Pro | Yes: VIP |
 | No ads | Yes | No (VIP removes them) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, Mac, web (web.hellotalk.com) |
@@ -148,7 +148,7 @@ Instead of livestreams and rooms, LangX keeps you coming back with daily streaks
 
 ## Is LangX a free HelloTalk alternative?
 
-Yes, if "free" means a usable free plan rather than a trial. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile, extra filters, and features like "who viewed you" and incognito. Prices are set per region and shown in the app.
+Yes, if "free" means a usable free plan rather than a trial. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day. Pro adds unlimited new conversations, more translations, more languages on your profile, extra filters, and features like "who viewed you" and incognito. Prices are set per region and shown in the app.
 
 HelloTalk also has a generous free tier, so this is not a reason to switch by itself. The real differences are open source, two-way matching, no ads, and focus.
 

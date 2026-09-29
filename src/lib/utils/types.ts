@@ -3,10 +3,9 @@ export type NoUndefinedField<T> = { [P in keyof T]-?: NoUndefinedField<NonNullab
 export type TagType = {
 	label: string;
 	/**
-	 * `pro` and `pro-plus` mark a paid feature and use the app's own purples.
-	 * Tag the plan that actually unlocks it — Polyglot is the wider one.
+	 * `pro` marks a paid feature and uses the app's own purple.
 	 */
-	color?: 'primary' | 'secondary' | 'pro' | 'pro-plus';
+	color?: 'primary' | 'secondary' | 'pro';
 };
 
 export type Feature = {

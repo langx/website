@@ -14,7 +14,7 @@
 	let { detailed = false }: Props = $props();
 </script>
 
-<!-- Three cards from plans.ts, so a limit that changes there changes here. -->
+<!-- The cards from plans.ts, so a limit that changes there changes here. -->
 <section id="plans" class="plans" class:detailed>
 	{#if !detailed}
 		<header class="head" data-reveal use:reveal>
@@ -107,10 +107,6 @@
 	.pro {
 		--edge: var(--color--accent);
 		--tone: var(--color--accent-shade);
-	}
-	.pro-plus {
-		--edge: var(--color--text);
-		--tone: var(--color--text);
 	}
 
 	.card {

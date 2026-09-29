@@ -70,7 +70,7 @@
 		{
 			id: 101,
 			title: 'Is LangX really free?',
-			content: `Yes, and not as a trial. Replying to anyone and correcting anyone are unlimited for everyone. The free plan gives you 5 new conversations and 20 translations a day, with no ads. <a href="/plans">Fluent and Polyglot</a> lift those limits; prices are set per region and shown in the app.`
+			content: `Yes, and not as a trial. Replying to anyone and correcting anyone are unlimited for everyone. The free plan gives you 5 new conversations and 20 translations a day, with no ads. <a href="/plans">Pro</a> lifts those limits; prices are set per region and shown in the app.`
 		},
 		{
 			id: 102,
@@ -90,7 +90,7 @@
 		{
 			id: 104,
 			title: 'How is a language exchange different from an AI tutor?',
-			content: `An AI tutor answers you. A partner on LangX is learning your language too, so the conversation is worth something to both of you, and a correction comes from someone who speaks the language every day. LangX Copilot, private AI feedback on your own messages, is coming later for Polyglot.`
+			content: `An AI tutor answers you. A partner on LangX is learning your language too, so the conversation is worth something to both of you, and a correction comes from someone who speaks the language every day. LangX Copilot, private AI feedback on your own messages, is coming later for Pro.`
 		},
 		{
 			id: 105,

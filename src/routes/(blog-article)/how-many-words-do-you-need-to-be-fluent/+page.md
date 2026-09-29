@@ -251,7 +251,7 @@ both of you get something out of every chat. You can correct any message, and
 corrections are unlimited on every plan; translation sits inside the chat for
 the moment a word is missing; and voice messages let you say the words, not
 just type them. The free plan lets you start 5 new conversations a day, with
-unlimited replies. On the Polyglot plan you can export a conversation's saved
+unlimited replies. On the Pro plan you can export a conversation's saved
 phrases to a file that opens in Anki, which closes the loop between the words
 you meet in conversation and the ones you review.
 

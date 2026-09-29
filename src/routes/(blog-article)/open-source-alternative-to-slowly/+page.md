@@ -49,11 +49,11 @@ Everything about Slowly below comes from its app store listings, its own site an
 | Pace | Minutes, as fast as you both reply | From about half an hour to a few days per letter |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Auto-match by interests, or browse by topics, region and languages with a proficiency level |
 | Corrections | Hold any message to correct it; unlimited on every plan | No correction tools; it is not a learning app |
-| Translation | Built into the chat; 20 a day on Free, 300 on Fluent, 1000 on Polyglot | Not a listed feature; you look words up yourself |
+| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a listed feature; you look words up yourself |
 | Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Written letters, plus audio notes and photos when both sides agree; no calls |
 | Identity | Profile with your languages, usually with photos | Nickname and avatar, no real names or photos required |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: unlimited letters, with a quota on friends |
-| Paid plan | Yes: Fluent and Polyglot | Yes: Slowly Plus, plus Slowly Coins for stamps |
+| Paid plan | Yes: Pro | Yes: Slowly Plus, plus Slowly Coins for stamps |
 | No ads | Yes | No (some are optional, watched for coins) |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
@@ -148,7 +148,7 @@ Seeing a mistake corrected while you still remember writing it helps it stick. A
 
 ### Translation and read-aloud inside the chat
 
-LangX has translation built into the chat (20 a day on Free, 300 on Fluent, 1000 on Polyglot) and can read any message aloud so you hear how it sounds. With letters you look words up yourself, which some learners actually prefer for reading practice.
+LangX has translation built into the chat (20 a day on Free, 1000 on Pro) and can read any message aloud so you hear how it sounds. With letters you look words up yourself, which some learners actually prefer for reading practice.
 
 ### No ads
 
@@ -156,7 +156,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ## Is LangX a free Slowly alternative?
 
-Yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Fluent and Polyglot add unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app.
+Yes. LangX Free includes unlimited text messages, unlimited replies and corrections, 5 new conversations a day and 20 translations a day, with no ads. Pro adds unlimited new conversations, more translations, more languages on your profile and extra filters; see the [plans page](/plans). Prices are set per region and shown in the app.
 
 Slowly is free too, so price is not a reason to switch. The real reasons are speed, corrections, two-way matching and open source.
 
