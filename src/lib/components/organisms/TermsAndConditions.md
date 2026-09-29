@@ -62,6 +62,8 @@
 		- It is not recorded on a blockchain.
 		- It cannot be used to obtain Pro or any part of it.
 
+		A streak freeze bought with tokens keeps a streak going, and a kept streak counts toward the streak rewards in section 5; tokens never buy Pro directly.
+
 		Token balances held in version 1 of LangX are credited to your version 2 account divided by 100, rounded down. A balance below 100 therefore converts to nothing. Any earlier description of LangX Token as a tradable or on-chain asset, including the litepaper, does not describe the product and is not being built.
 
 		We may adjust how tokens are earned, capped and priced. Tokens have no cash value, so no adjustment gives rise to a claim for compensation.

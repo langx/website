@@ -144,7 +144,7 @@ export const limits: LimitRow[] = [
 export const planNotes = [
 	'The free plan’s daily caps run over a rolling 24 hours, not a calendar day.',
 	'Pro is monthly or yearly, with a one-week free trial; yearly works out to 3 months free. Prices are set per region and shown in the app.',
-	'Tokens cannot buy a paid plan, and never will.'
+	'Tokens cannot buy a paid plan, and never will. A streak freeze bought with tokens can keep a streak going toward a streak reward, but tokens never buy Pro directly.'
 ];
 
 /**
