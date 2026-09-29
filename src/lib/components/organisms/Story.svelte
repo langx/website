@@ -52,7 +52,7 @@
 			</p>
 		</div>
 		<div class="device">
-			<PhoneFrame label="Your profile: streak, feed and this week's activity">
+			<PhoneFrame label="Your profile: streak, corrections and this week's activity">
 				<MeScreen />
 			</PhoneFrame>
 		</div>

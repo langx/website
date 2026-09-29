@@ -8,7 +8,7 @@
 	/**
 	 * `app/(app)/(tabs)/me` from the design handoff: who you are, the pair you
 	 * are here for, four numbers that each open a screen, and the week as two
-	 * stacked bars a day — blue for messages, green for the feed (posts and corrections).
+	 * stacked bars a day — blue for messages, green for corrections.
 	 */
 	const days = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
 	const messages = [6, 9, 4, 12, 7, 0, 3];
@@ -47,7 +47,7 @@
 			</div>
 			<div class="stat">
 				<span class="n green">1,204</span>
-				<span class="l">Feed ›</span>
+				<span class="l">Corrections ›</span>
 			</div>
 			<div class="stat">
 				<span class="n">5</span>
@@ -63,7 +63,7 @@
 			<div
 				class="chart"
 				role="img"
-				aria-label="Messages and feed per day this week, peaking on Thursday"
+				aria-label="Messages and corrections per day this week, peaking on Thursday"
 			>
 				{#each days as d, i}
 					<div class="day">
@@ -83,7 +83,7 @@
 			</div>
 			<div class="legend">
 				<span><span class="swatch msg"></span>Messages</span>
-				<span><span class="swatch corr"></span>Feed</span>
+				<span><span class="swatch corr"></span>Corrections</span>
 			</div>
 		</div>
 
