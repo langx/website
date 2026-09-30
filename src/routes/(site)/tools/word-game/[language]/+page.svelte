@@ -6,6 +6,7 @@
 	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import PracticeGuideLink from '$lib/components/atoms/PracticeGuideLink.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import type { WordGameLanguage } from '$lib/data/word-game';
@@ -314,6 +315,7 @@
 		<div use:ownsPrimary>
 			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
+		<PracticeGuideLink slug={meta.slug} name={meta.name} />
 	</section>
 </div>
 
