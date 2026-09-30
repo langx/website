@@ -1,0 +1,15 @@
+# Cloudflare Pages response headers. They apply to files only: the /relay/
+# Function sets its own.
+
+# The Markdown twins of the pages (scripts/markdown.mjs), which an agent asking
+# for `Accept: text/markdown` is given in place of the HTML. Pages already
+# sends them as text/markdown; charset=utf-8.
+#
+# Vary, because the agent asked for /blog and got Markdown that a browser
+# asking for /blog must not be handed from a cache along the way. And the
+# content signal Cloudflare sends with its own Markdown for Agents
+# (contentsignals.org): search engines, AI answers and model training may all
+# use what is here, which is what robots.txt already allows.
+/*.md
+  Vary: Accept
+  Content-Signal: ai-train=yes, search=yes, ai-input=yes

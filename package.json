@@ -40,7 +40,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"postbuild": "svelte-sitemap --domain https://langx.io/ --ignore 404.html"
+		"postbuild": "svelte-sitemap --domain https://langx.io/ --ignore 404.html && node scripts/markdown.mjs"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
@@ -56,6 +56,10 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.46.1",
+		"hast-util-from-html": "^2.0.3",
+		"hast-util-to-mdast": "^10.1.2",
+		"mdast-util-gfm": "^3.1.0",
+		"mdast-util-to-markdown": "^2.1.3",
 		"mdsvex": "^0.12.8",
 		"prettier": "^3.9.9",
 		"prettier-plugin-svelte": "^4.1.1",
