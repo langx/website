@@ -6,7 +6,6 @@ date: 2024-06-16T13:45:00Z
 excerpt: '10 tips for learning a new language quickly: immersion, speaking early, high-frequency words, spaced repetition, grammar in context and consistency.'
 author:
   name: Triangukum
-  url: https://github.com/triangukum
 tags:
   - Tips
   - Learning
