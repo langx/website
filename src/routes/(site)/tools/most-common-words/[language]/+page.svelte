@@ -5,6 +5,7 @@
 	import Ipa from '$lib/components/atoms/Ipa.svelte';
 	import VoiceCredit from '$lib/components/atoms/VoiceCredit.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import PracticeGuideLink from '$lib/components/atoms/PracticeGuideLink.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { intro } from '$lib/data/most-common-words-intros';
@@ -436,6 +437,7 @@
 				Find someone who speaks {meta.name}
 			</Button>
 		</div>
+		<PracticeGuideLink slug={meta.slug} name={meta.name} />
 	</section>
 
 	<nav class="others" aria-label="Other languages">

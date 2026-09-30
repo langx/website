@@ -62,10 +62,17 @@
 	/**
 	 * The results-page title follows how people actually search — "princess in
 	 * different languages", "soul in other languages" — which is not how the
-	 * page's own heading reads.
+	 * page's own heading reads. The pages ranking beside ours sell listening
+	 * ("Translate, Listen, and Learn"), and our pages have voices too (at least
+	 * eleven each, September 2026), so the title says so wherever it still fits
+	 * a results line.
 	 */
 	let cap = $derived(entry.word.charAt(0).toUpperCase() + entry.word.slice(1));
-	let seoTitle = $derived(`${cap} in Different Languages: ${entry.count} Translations`);
+	let seoTitle = $derived(
+		(voiced ? [' With Audio', ' + Audio', ''] : [''])
+			.map((tail) => `${cap} in Different Languages: ${entry.count} Translations${tail}`)
+			.find((t, i, all) => t.length <= 60 || i === all.length - 1) as string
+	);
 
 	/**
 	 * The languages most searchers are after, in the order they are asked
@@ -127,6 +134,12 @@
 	 * here on a guess and drew almost no searches. "mine" draws plenty but mixes
 	 * "my own" with "a mine", so it is not one to show off. The weekly report
 	 * (scripts/gsc/rankings.mjs) says when this list wants redoing.
+	 *
+	 * The last eight joined after the week to 25 September 2026: the say pages
+	 * with the most impressions that week, at an average 6.7 to 9.5, that were
+	 * not on the list yet. The first sixteen stay — their
+	 * positions held while their impressions fell back from launch week, and
+	 * taking a thousand links away from them would be a change of its own.
 	 */
 	const POPULAR = [
 		'princess',
@@ -144,7 +157,15 @@
 		'sea',
 		'nature',
 		'dark',
-		'energy'
+		'energy',
+		'boss',
+		'red',
+		'alone',
+		'black',
+		'sit',
+		'fate',
+		'end',
+		'spring'
 	];
 	let popular = $derived(POPULAR.filter((w) => w !== entry.slug));
 
@@ -157,7 +178,9 @@
 					.join(', ');
 				return `How do you say “${entry.word}” in other languages? ${
 					sample ? `${sample} — and ` : ''
-				}${entry.count} languages in all, each a word people really use. Free list.`;
+				}${entry.count} languages in all, ${
+					voiced ? `${voiced} read aloud, ` : ''
+				}each a word people really use.`;
 			})
 			// Longest that still fits a results page: long words and long
 			// translations drop an example rather than get cut mid-word.

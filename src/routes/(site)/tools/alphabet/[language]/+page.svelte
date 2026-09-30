@@ -3,6 +3,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
 	import PageHeader from '$lib/components/organisms/PageHeader.svelte';
+	import PracticeGuideLink from '$lib/components/atoms/PracticeGuideLink.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import type { Alphabet } from '$lib/data/alphabets';
@@ -155,6 +156,7 @@
 		<div use:ownsPrimary>
 			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
 		</div>
+		<PracticeGuideLink slug={lang.slug} name={lang.name} />
 	</section>
 </div>
 
