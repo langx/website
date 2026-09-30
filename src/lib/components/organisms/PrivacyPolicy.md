@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 28, Sep 2026*
+	*Effective Date: 30, Sep 2026*
 
 	1. Introduction
 
@@ -37,6 +37,7 @@
 		- **Push notification token** — only if you grant notification permission.
 		- **Profile views** — who viewed your profile. Not recorded at all when the viewer is browsing incognito, and deleted automatically after 90 days.
 		- **Blocks and reports** — only if you block or report someone.
+		- **Profile reviews** — short reviews you write about someone you have talked with, and ones written about you. Section 2.5 describes them.
 		- **Purchase state** — whether you have an active Pro subscription, which store it came from, and when it renews or expires. Only if you subscribe.
 		- **Approximate location** — only if you switch it on. Section 3 describes it in full, because it is new in version 2 and it is the part worth reading carefully.
 
@@ -63,6 +64,15 @@
 		**The website is a second, smaller answer.** Until September 2026 the line here said langx.io had no analytics at all; it now has some, and this paragraph went in with the change rather than after it. langx.io and token.langx.io send page views, a click on a link that leaves for the app, and a completed newsletter sign-up to the same PostHog, on the same European cloud — in cookieless mode, which writes no cookie and no browser storage whatsoever and counts a visitor with a hash PostHog derives from a daily salt it then discards. There is no account to attach it to and no attempt to make one: no person record is created, nothing is identified, and a visitor today cannot be recognised as the same one tomorrow. That is a deliberate limit and not an oversight. From langx.io those requests go to langx.io itself and are forwarded to PostHog from there, rather than being made to PostHog directly by your browser — which changes who your browser connects to and nothing about what is sent; the [cookie policy](/cookie-policy) describes the forwarding in section 3.4.
 
 		**Cloudflare measures the same two sites**, separately and more thinly, because it serves them: the page, the referring link, your country, and which browser, operating system and device type asked. It is switched on in Cloudflare's dashboard rather than by anything in our code, and it writes nothing to your browser either. The [cookie policy](/cookie-policy) describes both in section 3.3.
+
+		2.5 Profile reviews
+
+		After two people have talked enough in a chat, each can leave a short written review on the other's profile. A review is text only, up to 500 characters.
+
+		- **Who sees it.** Reviews are shown inside the app to people who are signed in, together with the reviewer's name, username and profile photo. They are not shown on your public web profile page.
+		- **You decide what stays on your profile.** You can hide any review written about you, at any time, and show it again later. If you wrote a review, you can edit it or delete it.
+		- **Reports and blocks.** Reviews can be reported, and our moderators can remove them. Blocking someone hides the reviews between the two of you.
+		- **Deletion and export.** When an account is deleted, the reviews it wrote and the reviews written about it are deleted too. Reviews you wrote and reviews you received are included in your data export.
 
 	3. Approximate Location, and Only If You Ask For It
 
