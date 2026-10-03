@@ -10,6 +10,24 @@
 # content signal Cloudflare sends with its own Markdown for Agents
 # (contentsignals.org): search engines, AI answers and model training may all
 # use what is here, which is what robots.txt already allows.
+#
+# And a canonical Link header, because /blog.md is a URL anyone can fetch and
+# link: a crawler that finds one should credit the page, not list the twin
+# beside it. The home page's twin is /index.md, whose page is /, so it swaps
+# the header for its own.
 /*.md
   Vary: Accept
   Content-Signal: ai-train=yes, search=yes, ai-input=yes
+  Link: <https://langx.io/:splat>; rel="canonical"
+
+/index.md
+  ! Link
+  Link: <https://langx.io/>; rel="canonical"
+
+# Markdown that is not a twin — the word lists' ATTRIBUTION.md, the READMEs
+# beside the photos — has no page to point at.
+/data/*
+  ! Link
+
+/images/*
+  ! Link
