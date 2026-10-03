@@ -164,6 +164,7 @@
 		// A real space comes before the badge, so the label and the badge read
 		// as two words. The space is about 4px; this makes up the 6px gap.
 		margin-left: 2px;
+		white-space: nowrap;
 	}
 
 	.notes {
