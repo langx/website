@@ -82,7 +82,7 @@
 
 		Deleting your account does not cancel a subscription bought through a store. Cancel it with Apple, Google or our web payment provider, whichever you bought it from, or it continues to renew.
 
-		When a report about your account is reviewed by a person, we may suspend it. A suspension is either for a stated period or permanent. You are shown which in the App, with the end date when there is one and the reason it was reported for. Some conduct does not get a temporary suspension: the cases listed as having no second chance in our [community guidelines](https://github.com/langx/langx/blob/main/docs/community-guidelines.md) lead straight to a permanent one.
+		When a report about your account is reviewed by a person, we may suspend it. A suspension is either for a stated period or permanent. You are shown which in the App, with the end date when there is one and the reason it was reported for. Some conduct does not get a temporary suspension: the cases listed as having no second chance in our [community guidelines](/community-guidelines) lead straight to a permanent one.
 
 		While a suspension is in force you cannot use the App. Your profile is removed from discovery, from search and from its shared link, though someone who already has a conversation with you can still open it, marked as suspended. Your existing conversations and posts stay where they are. Your tokens and streak are kept, and nothing is earned while the suspension lasts.
 

@@ -58,6 +58,9 @@ published line.
 - Plan limits, token rules and cosmetics are **mirrored by hand** from
   `langx/packages/shared` into `src/lib/data/*.ts`; every number on the site
   must come from those files.
+- The community guidelines page is a word-for-word copy of
+  `langx/docs/community-guidelines.md`, kept by hand in
+  `src/lib/components/organisms/CommunityGuidelines.md`.
 - The newsletter form posts to the frozen v1 API (`api.langx.io/api/mail`).
 
 ## Capabilities and Constraints
