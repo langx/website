@@ -23,7 +23,21 @@ export interface WordlistLanguage {
 	freq: string;
 	wiktionary: string;
 	script: string;
+	/**
+	 * Show each word the way Wiktionary spells it rather than as the frequency
+	 * list has it. OpenSubtitles is lowercased throughout, which only matters
+	 * where the case is part of the spelling: every German noun is written
+	 * with a capital, and "freiheit" is not a German word. See `spellingOf` in
+	 * `build.ts`.
+	 */
+	restoreCase: boolean;
 }
+
+/**
+ * Languages whose nouns are capitalised wherever they stand. Luxembourgish
+ * would belong here too, but has no list.
+ */
+const RESTORE_CASE = new Set(['de']);
 
 /**
  * ISO 639-3, because Tatoeba names its exports that way and ISO 639-1 does not
@@ -152,5 +166,6 @@ export const WORDLIST_LANGUAGES: WordlistLanguage[] = [
 	freq,
 	wiktionary,
 	script,
+	restoreCase: RESTORE_CASE.has(code),
 	iso3: ISO3[code]
 }));

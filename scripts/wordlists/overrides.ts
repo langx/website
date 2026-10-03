@@ -11,8 +11,8 @@
  * and both are common.
  *
  * So this is the human pass, recorded once rather than redone by hand on every
- * rebuild. Keyed `<language code>:<word>`, lowercased, as the word appears in
- * the list.
+ * rebuild. Keyed `<language code>:<word>`, the word lowercased even where the
+ * list capitalises it.
  *
  * Only add an entry you are confident about. A language missing from here has
  * simply not been reviewed yet, which is the honest state for most of the
@@ -49,6 +49,37 @@ export const GLOSS_OVERRIDES: Record<string, string> = {
 	'de:der': 'the',
 	'de:es': 'it',
 	'de:sie': 'she; they; you',
+	// These also decide the spelling (`spellingOf` in build.ts). The scorer
+	// had taken a rare noun reading for each — "Haben", credit; "Warten", a
+	// lookout post; "Fangen", the game of tag — mostly through the noun's
+	// gerund sense, which points back at the verb spelled the same; or, for
+	// "zeit" and "tag", a preposition and an imperative over the nouns
+	// everyone means.
+	'de:haben': 'to have',
+	'de:wollen': 'to want; to wish; to desire; to demand',
+	'de:zeit': 'time',
+	'de:tag': 'day',
+	'de:danke': 'thanks, thank you',
+	'de:warten': 'to wait',
+	'de:würden': 'would',
+	'de:erste': 'first',
+	'de:alte': 'old',
+	'de:kleinen': 'small, little, wee',
+	'de:kleiner': 'small, little, wee',
+	'de:gutes': 'good',
+	'de:hm': 'hmm',
+	'de:glauben': 'to believe',
+	'de:lieben': 'to love',
+	'de:verschwinden': 'to disappear, to vanish, to move out of view',
+	'de:rufen': 'to call',
+	'de:fangen': 'to catch',
+	'de:schreiben': 'to write',
+	'de:kämpfen': 'to fight, to struggle',
+	'de:ansehen': 'to look at',
+	'de:aussehen': 'to look, seem',
+	'de:beweisen': 'to prove',
+	'de:folgen': 'to follow',
+	'de:schätze': 'to estimate; to guess; to suppose; to assume',
 
 	// Polish
 	'pl:to': 'this, it',

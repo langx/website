@@ -12,7 +12,8 @@
 	import type { WordListMeta } from '$lib/data/most-common-words';
 
 	type Row = {
-		word: string;
+		wordA: string;
+		wordB: string;
 		rankA: number;
 		rankB: number;
 		english: string;
@@ -34,6 +35,7 @@
 
 	let { data }: Props = $props();
 	let { pair, a, b, rows, total, shown, others } = $derived(data);
+	let capitals = $derived(rows.some((r) => r.wordA !== r.wordB));
 
 	const nf = new Intl.NumberFormat('en-US');
 	let path = $derived(`/tools/similar/${pair.slug}`);
@@ -90,8 +92,13 @@
 
 	<p class="caveat">
 		A shared word is not proof of a shared root. Two languages can land on the same spelling by
-		borrowing from a third — that is all <em>tren</em> and <em>bomba</em> are — and a word that looks
-		the same can still be said quite differently. What this list is good for is the head start.
+		borrowing from a third — that is all <em>tren</em> and <em>bomba</em> are — and a word that
+		looks the same can still be said quite differently. What this list is good for is the head
+		start.
+		{#if capitals}
+			The capital letters are the one difference in spelling allowed here: German writes every noun
+			with one.
+		{/if}
 	</p>
 
 	<table class="words">
@@ -108,13 +115,23 @@
 			{#each rows as r}
 				<tr>
 					<!-- Same spelling, two languages: one speaker for each, because how
-					     differently they say it is half of what this page is about. -->
+					     differently they say it is half of what this page is about. German
+					     capitalises its nouns, so "nacht" and "Nacht" show both spellings. -->
 					<td class="word"
-						><span class="spelled">{r.word}</span><span class="speakers"
-							><SpeakButton code={a.code} rank={r.rankA} label="Hear {r.word} in {a.name}" size={26}
-								>{a.code}</SpeakButton
-							><SpeakButton code={b.code} rank={r.rankB} label="Hear {r.word} in {b.name}" size={26}
-								>{b.code}</SpeakButton
+						><span class="spelled"
+							>{#if r.wordA === r.wordB}{r.wordA}{:else}<span lang={a.code}>{r.wordA}</span> /
+								<span lang={b.code}>{r.wordB}</span>{/if}</span
+						><span class="speakers"
+							><SpeakButton
+								code={a.code}
+								rank={r.rankA}
+								label="Hear {r.wordA} in {a.name}"
+								size={26}>{a.code}</SpeakButton
+							><SpeakButton
+								code={b.code}
+								rank={r.rankB}
+								label="Hear {r.wordB} in {b.name}"
+								size={26}>{b.code}</SpeakButton
 							></span
 						>{#if r.ipaA && r.ipaA === r.ipaB}<span class="ipas"><Ipa ipa={r.ipaA} /></span
 							>{:else if r.ipaA || r.ipaB}<span class="ipas"

@@ -6,6 +6,7 @@
  *
  *   node scripts/wordlists/build.ts            # every language
  *   node scripts/wordlists/build.ts es fr      # just these
+ *   node scripts/wordlists/build.ts --respell  # spelling and overrides only; see respellLanguage
  *
  * Node 24 runs this file directly; it strips the types and needs no tsx.
  *
@@ -86,6 +87,33 @@ interface Entry {
 	gloss: string;
 	pos: string;
 	formOf?: string;
+}
+
+/** The meaning a row shows: an inflected form borrows its lemma's. */
+function meaningOf(e: Entry, lemmas: Map<string, string>): string {
+	if (!e.formOf) return e.gloss;
+	return lemmas.get(`${e.formOf}|${e.pos}`) ?? lemmas.get(e.formOf) ?? e.gloss;
+}
+
+/**
+ * Each spelling Wiktionary has for a lowercased word, with every meaning a row
+ * could show for it: German "essen" is "to eat", "Essen" is "meal" and "eating".
+ */
+type Spellings = [spelling: string, meanings: string[]][];
+
+/**
+ * How a row should spell its word. The frequency list is lowercased, so the
+ * spelling has to come from the dictionary, and where it has more than one the
+ * row's meaning decides: "essen" glossed "to eat" stays as it is, glossed
+ * "meal" it is "Essen". A meaning both spellings share — "Sagen" is the gerund
+ * of "sagen", and so also "to say" — or one neither has, like a hand-written
+ * override, leaves the word as the list had it.
+ */
+function spellingOf(word: string, gloss: string, spellings: Spellings | undefined): string {
+	if (!spellings?.length) return word;
+	if (spellings.length === 1) return spellings[0][0];
+	const match = spellings.filter(([, meanings]) => meanings.includes(gloss));
+	return match.length === 1 ? match[0][0] : word;
 }
 
 function freqUrl(lang: WordlistLanguage, variant: '50k' | 'full') {
@@ -236,6 +264,8 @@ async function loadDictionary(
 	// Keyed by `word|pos`: German "sein" is both the verb "to be" and the
 	// determiner "his", and "ist" must reach the verb.
 	const lemmas = new Map<string, { gloss: string; score: number }>();
+	// Keyed by the lowercased word, then by the spelling the entry has.
+	const spellings = new Map<string, Map<string, Entry[]>>();
 
 	const res = await fetchOk(wiktionaryUrl(lang));
 	const rl = createInterface({
@@ -288,6 +318,10 @@ async function loadDictionary(
 			}
 
 			if (wanted && (USABLE_POS.has(pos) || formOf)) {
+				if (!spellings.has(key)) spellings.set(key, new Map());
+				const bySpelling = spellings.get(key)!;
+				if (!bySpelling.has(word)) bySpelling.set(word, []);
+				bySpelling.get(word)!.push({ gloss, pos, formOf: formOf?.toLowerCase() });
 				// A form-of sense is slightly weaker: it only tells us where to look.
 				const effective = formOf ? score - 2 : score;
 				const prev = entries.get(key);
@@ -297,7 +331,7 @@ async function loadDictionary(
 			}
 		}
 	}
-	return { entries, lemmas };
+	return { entries, lemmas, spellings };
 }
 
 /** Cached so that re-running the filter does not re-download a gigabyte. */
@@ -309,21 +343,39 @@ async function dictionaryFor(
 	const cache = path.join(CACHE_DIR, `${lang.code}.json`);
 	try {
 		const raw = JSON.parse(await readFile(cache, 'utf8'));
-		if (raw.version === 6) {
+		if (raw.version === 7) {
 			return {
 				entries: new Map<string, Entry>(raw.entries),
 				lemmas: new Map<string, string>(raw.lemmas),
+				spellings: new Map<string, Spellings>(raw.spellings),
 				cached: true
 			};
 		}
 	} catch {
 		// no usable cache; fall through and download
 	}
-	const { entries: scored, lemmas: scoredLemmas } = await loadDictionary(lang, candidates, ranks);
+	const {
+		entries: scored,
+		lemmas: scoredLemmas,
+		spellings: senses
+	} = await loadDictionary(lang, candidates, ranks);
 	const entries = new Map<string, Entry>(
 		[...scored].map(([k, v]) => [k, { gloss: v.gloss, pos: v.pos, formOf: v.formOf }])
 	);
 	const lemmas = new Map<string, string>([...scoredLemmas].map(([k, v]) => [k, v.gloss]));
+	// Resolved now, while every lemma is still in hand. Only words Wiktionary
+	// spells some other way than lowercase are worth keeping.
+	const spellings = new Map<string, Spellings>();
+	for (const [key, bySpelling] of senses) {
+		if ([...bySpelling.keys()].every((s) => s === key)) continue;
+		spellings.set(
+			key,
+			[...bySpelling].map(([spelling, es]) => [
+				spelling,
+				[...new Set(es.map((e) => meaningOf(e, lemmas)))]
+			])
+		);
+	}
 	await mkdir(CACHE_DIR, { recursive: true });
 	// Only lemmas a candidate actually points at are worth keeping on disk.
 	const needed = new Set<string>();
@@ -332,12 +384,20 @@ async function dictionaryFor(
 		const base = w.split('|')[0];
 		return needed.has(base) || entries.has(base);
 	});
-	await writeFile(cache, JSON.stringify({ version: 6, entries: [...entries], lemmas: slimLemmas }));
-	return { entries, lemmas, cached: false };
+	await writeFile(
+		cache,
+		JSON.stringify({
+			version: 7,
+			entries: [...entries],
+			lemmas: slimLemmas,
+			spellings: [...spellings]
+		})
+	);
+	return { entries, lemmas, spellings, cached: false };
 }
 
-/** Build one language's list. Returns the manifest row, or null if too thin. */
-async function buildLanguage(lang: WordlistLanguage) {
+/** The frequency list after the shape filters, and the dictionary it needs. */
+async function shapedWithDictionary(lang: WordlistLanguage) {
 	const scriptRe = new RegExp(`^[\\p{Script=${lang.script}}\\p{Mn}'’ʼ-]+$`, 'u');
 
 	const freqs = await loadFrequencies(lang);
@@ -356,7 +416,12 @@ async function buildLanguage(lang: WordlistLanguage) {
 		const k = w.toLowerCase();
 		if (!ranks.has(k)) ranks.set(k, i);
 	});
-	const { entries, lemmas, cached } = await dictionaryFor(lang, candidates, ranks);
+	return { shaped, ...(await dictionaryFor(lang, candidates, ranks)) };
+}
+
+/** Build one language's list. Returns the manifest row, or null if too thin. */
+async function buildLanguage(lang: WordlistLanguage) {
+	const { shaped, entries, lemmas, spellings, cached } = await shapedWithDictionary(lang);
 
 	const rows: { word: string; gloss: string }[] = [];
 	const seenWord = new Set<string>();
@@ -369,13 +434,12 @@ async function buildLanguage(lang: WordlistLanguage) {
 		// language: an English import, a character name, or corpus noise.
 		if (!entry) continue;
 		seenWord.add(key);
-		let gloss = entry.gloss;
-		if (entry.formOf) {
-			gloss = lemmas.get(`${entry.formOf}|${entry.pos}`) ?? lemmas.get(entry.formOf) ?? entry.gloss;
-		}
 		// The hand-checked table wins over whatever the scorer chose.
-		gloss = GLOSS_OVERRIDES[`${lang.code}:${key}`] ?? gloss;
-		rows.push({ word, gloss });
+		const gloss = GLOSS_OVERRIDES[`${lang.code}:${key}`] ?? meaningOf(entry, lemmas);
+		rows.push({
+			word: lang.restoreCase ? spellingOf(word, gloss, spellings.get(key)) : word,
+			gloss
+		});
 	}
 
 	if (rows.length < FLOOR) {
@@ -407,7 +471,38 @@ async function buildLanguage(lang: WordlistLanguage) {
 	};
 }
 
-const only = process.argv.slice(2);
+/**
+ * Re-spells the words of a list already built and re-applies the hand-checked
+ * meanings in overrides.ts, and touches nothing else: not which words it has,
+ * their ranks, the other meanings or the pronunciations. A fresh build would
+ * also take in every edit to Wiktionary since the last one, and a word that
+ * moves rank breaks everything keyed by rank — the word audio and the example
+ * sentences.
+ */
+async function respellLanguage(lang: WordlistLanguage) {
+	const { spellings, cached } = await shapedWithDictionary(lang);
+	const file = path.join(OUT_DIR, `${lang.slug}.tsv`);
+	const [head, ...lines] = (await readFile(file, 'utf8')).split('\n').filter(Boolean);
+	let changed = 0;
+	const out = lines.map((line) => {
+		const cols = line.split('\t');
+		const key = cols[1].toLowerCase();
+		cols[2] = GLOSS_OVERRIDES[`${lang.code}:${key}`] ?? cols[2];
+		const word = spellingOf(key, cols[2], spellings.get(key));
+		if (word !== cols[1]) changed++;
+		cols[1] = word;
+		return cols.join('\t');
+	});
+	await writeFile(file, [head, ...out].join('\n') + '\n');
+	console.log(
+		`  ${lang.code} ${lang.name}: ${changed} of ${lines.length} words re-spelled` +
+			(cached ? ' (cached dict)' : '')
+	);
+}
+
+const args = process.argv.slice(2);
+const respell = args.includes('--respell');
+const only = args.filter((a) => !a.startsWith('--'));
 const targets = only.length
 	? WORDLIST_LANGUAGES.filter((l) => only.includes(l.code))
 	: WORDLIST_LANGUAGES;
@@ -415,6 +510,11 @@ const targets = only.length
 if (!targets.length) {
 	console.error(`No language matched ${only.join(', ')}`);
 	process.exit(1);
+}
+
+if (respell) {
+	for (const lang of targets.filter((l) => l.restoreCase)) await respellLanguage(lang);
+	process.exit(0);
 }
 
 console.log(`Building ${targets.length} language(s)…`);

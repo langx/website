@@ -295,7 +295,7 @@ const DATED =
  * Pronunciation and Australian at once.
  */
 const REGIONAL =
-	/Taiwan|India|Pakistan|Nigeria|Singapore|Philippines|Scotland|Scottish|Ireland|Irish|Wales|Welsh|Northern-England|Northumbria|Geordie|Louisiana|Quebec|Paris|Belgium|Switzerland|Africa|Australia|New-Zealand|Jamaica|Caribbean|Hong-Kong/;
+	/Taiwan|India|Pakistan|Nigeria|Singapore|Philippines|Scotland|Scottish|Ireland|Irish|Wales|Welsh|Northern-England|Northumbria|Geordie|Louisiana|Quebec|Paris|Belgium|Switzerland|Austria|Southern-Germany|Africa|Australia|New-Zealand|Jamaica|Caribbean|Hong-Kong/;
 
 function kaikkiUrl(lang: WordlistLanguage) {
 	const dir = encodeURIComponent(lang.wiktionary);
@@ -357,6 +357,9 @@ function scoreSound(s: Sound, accent: Accent): number | null {
 	// General American and /juː/ in Received Pronunciation. A word shown on
 	// its own is said in its citation form, and that outweighs the accent.
 	if (accent.strong && reduced(s.ipa)) score -= 11;
+	// Nor is it said colloquially: German "Vertrag" is /fɛɐ̯ˈtʁaːk/, and
+	// /fərˈtrax/ only in a north German mouth, however many regions say so.
+	if (tags.includes('colloquial')) score -= 12;
 	return score;
 }
 
@@ -377,8 +380,15 @@ function tidyIpa(raw: string): string | null {
  */
 const LETTER_POS = new Set(['character', 'letter', 'symbol', 'name']);
 
-/** The best Wiktionary transcription for each word we need. */
-async function fromWiktionary(lang: WordlistLanguage, words: Set<string>) {
+/**
+ * The best Wiktionary transcription for each word we need. `words` are
+ * lowercased; `listed` has the spelling the list shows, where that is not.
+ */
+async function fromWiktionary(
+	lang: WordlistLanguage,
+	words: Set<string>,
+	listed: Map<string, string>
+) {
 	const accent = ACCENTS[lang.code];
 	const best = new Map<string, { ipa: string; score: number }>();
 	const file = await dumpFor(lang);
@@ -409,8 +419,8 @@ async function fromWiktionary(lang: WordlistLanguage, words: Set<string>) {
 			const ipa = tidyIpa(s.ipa as string);
 			if (!ipa) continue;
 			// "us" is not "US"; the spelling the list has wins over a capitalised
-			// entry for another word.
-			if (rec.word === head && head === key) score += 5;
+			// entry for another word. German "Weg" is /veːk/ and "weg" /vɛk/.
+			if (head === (listed.get(key) ?? key)) score += 5;
 			const prev = best.get(key);
 			if (!prev || score > prev.score) best.set(key, { ipa, score });
 		}
@@ -716,7 +726,8 @@ async function buildLanguage(lang: WordlistLanguage, slug: string) {
 		}
 	const found = await fromWiktionary(
 		lang,
-		new Set([...words, ...parts, ...[...variantsOf.values()].flat()])
+		new Set([...words, ...parts, ...[...variantsOf.values()].flat()]),
+		new Map(rows.map((r) => [r[1].toLowerCase(), r[1]]))
 	);
 	const wiki = new Map<string, string>();
 	for (const w of words) {

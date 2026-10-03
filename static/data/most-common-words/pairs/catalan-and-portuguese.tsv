@@ -1,82 +1,82 @@
-word	rank_a	rank_b	english
-sempre	125	122	always
-matar	220	339	to kill
-rei	228	588	king
-hora	244	257	hour
-amor	253	269	love
-problema	269	224	problem
-guerra	276	398	war
-pensar	284	210	to think
-contra	292	314	against
-pensava	299	766	to think
-penso	341	489	to think
-servir	417	1699	to serve
-forma	423	261	form; shape
-pensa	481	530	to think
-qual	514	179	which
-arma	543	358	weapon
-escola	573	413	school
-explicar	635	980	to explain
-morta	647	794	dead
-comprar	652	656	to buy
-enviar	667	1401	to send
-especial	672	583	special
-hospital	673	595	hospital
-calma	706	425	calm
-sistema	707	659	system
-prometo	719	988	to promise
-boca	720	651	mouth
-resposta	731	779	answer, response
-professor	743	847	teacher
-oficial	749	1179	official
-idiota	756	479	idiotic
-pena	758	485	punishment
-mestre	790	1110	master
-esta	823	77	this
-amiga	832	665	friend
-baixa	846	1557	low
-música	870	614	music
-pobre	888	1109	poor
-costa	892	1881	coast
-corre	919	1327	to run
-hotel	924	825	hotel
-planeta	931	1002	planet
-zona	932	1129	zone
-caixa	963	822	box
-esperança	964	1071	hope
-mata	978	1852	to kill
-escapar	980	1612	to escape
-base	1065	905	basis
-tio	1067	732	uncle
-coronel	1135	996	colonel
-descobrir	1148	513	to discover
-visita	1153	1357	to visit
-pedra	1157	1479	stone
-bomba	1179	1050	bomb
-líder	1188	1442	leader
-imaginar	1205	1415	to imagine
-principal	1229	1210	main; principal
-mentir	1259	926	to lie
-tia	1266	1229	aunt
-princesa	1289	1642	princess
-oferta	1293	1679	offer
-política	1335	1675	politics
-correu	1404	1245	to run
-notícia	1445	1531	news
-teoria	1449	1682	theory
-droga	1455	1044	drug
-imagino	1506	1864	to imagine
-braços	1517	1554	arm
-nacional	1519	1602	national
-calor	1624	1643	heat
-vídeo	1635	1311	video
-militar	1644	1706	military
-cantar	1671	1359	to sing
-ossos	1683	1989	bone
-descansar	1729	1576	to rest
-controlar	1748	1513	to control
-presa	1784	1577	prisoner
-vens	1886	1309	to come
-mapa	1894	1820	map
-internet	1952	1822	internet
-sexual	1978	1906	sexual
+word_a	word_b	rank_a	rank_b	english
+sempre	sempre	125	122	always
+matar	matar	220	339	to kill
+rei	rei	228	588	king
+hora	hora	244	257	hour
+amor	amor	253	269	love
+problema	problema	269	224	problem
+guerra	guerra	276	398	war
+pensar	pensar	284	210	to think
+contra	contra	292	314	against
+pensava	pensava	299	766	to think
+penso	penso	341	489	to think
+servir	servir	417	1699	to serve
+forma	forma	423	261	form; shape
+pensa	pensa	481	530	to think
+qual	qual	514	179	which
+arma	arma	543	358	weapon
+escola	escola	573	413	school
+explicar	explicar	635	980	to explain
+morta	morta	647	794	dead
+comprar	comprar	652	656	to buy
+enviar	enviar	667	1401	to send
+especial	especial	672	583	special
+hospital	hospital	673	595	hospital
+calma	calma	706	425	calm
+sistema	sistema	707	659	system
+prometo	prometo	719	988	to promise
+boca	boca	720	651	mouth
+resposta	resposta	731	779	answer, response
+professor	professor	743	847	teacher
+oficial	oficial	749	1179	official
+idiota	idiota	756	479	idiotic
+pena	pena	758	485	punishment
+mestre	mestre	790	1110	master
+esta	esta	823	77	this
+amiga	amiga	832	665	friend
+baixa	baixa	846	1557	low
+música	música	870	614	music
+pobre	pobre	888	1109	poor
+costa	costa	892	1881	coast
+corre	corre	919	1327	to run
+hotel	hotel	924	825	hotel
+planeta	planeta	931	1002	planet
+zona	zona	932	1129	zone
+caixa	caixa	963	822	box
+esperança	esperança	964	1071	hope
+mata	mata	978	1852	to kill
+escapar	escapar	980	1612	to escape
+base	base	1065	905	basis
+tio	tio	1067	732	uncle
+coronel	coronel	1135	996	colonel
+descobrir	descobrir	1148	513	to discover
+visita	visita	1153	1357	to visit
+pedra	pedra	1157	1479	stone
+bomba	bomba	1179	1050	bomb
+líder	líder	1188	1442	leader
+imaginar	imaginar	1205	1415	to imagine
+principal	principal	1229	1210	main; principal
+mentir	mentir	1259	926	to lie
+tia	tia	1266	1229	aunt
+princesa	princesa	1289	1642	princess
+oferta	oferta	1293	1679	offer
+política	política	1335	1675	politics
+correu	correu	1404	1245	to run
+notícia	notícia	1445	1531	news
+teoria	teoria	1449	1682	theory
+droga	droga	1455	1044	drug
+imagino	imagino	1506	1864	to imagine
+braços	braços	1517	1554	arm
+nacional	nacional	1519	1602	national
+calor	calor	1624	1643	heat
+vídeo	vídeo	1635	1311	video
+militar	militar	1644	1706	military
+cantar	cantar	1671	1359	to sing
+ossos	ossos	1683	1989	bone
+descansar	descansar	1729	1576	to rest
+controlar	controlar	1748	1513	to control
+presa	presa	1784	1577	prisoner
+vens	vens	1886	1309	to come
+mapa	mapa	1894	1820	map
+internet	internet	1952	1822	internet
+sexual	sexual	1978	1906	sexual

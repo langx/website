@@ -57,6 +57,8 @@ const wordGame: { code: string; slug: string; name: string; answers: number }[] 
 /** word -> the languages it appears in, for the language quiz. */
 const seenIn = new Map<string, Set<string>>();
 const rankOf = new Map<string, number>();
+/** The word as its list spells it: German "Frau", not "frau". */
+const shownAs = new Map<string, string>();
 /** `code|word` -> IPA, for the language quiz's answer reveal. */
 const ipaOf = new Map<string, string>();
 
@@ -74,7 +76,10 @@ for (const lang of langs) {
 		if (!seenIn.has(key)) seenIn.set(key, new Set());
 		seenIn.get(key)?.add(lang.code);
 		const prev = rankOf.get(key);
-		if (prev === undefined || Number(rank) < prev) rankOf.set(key, Number(rank));
+		if (prev === undefined || Number(rank) < prev) {
+			rankOf.set(key, Number(rank));
+			shownAs.set(key, word);
+		}
 	}
 
 	if (!ALPHABETIC.has(scriptOf[lang.code])) continue;
@@ -119,7 +124,7 @@ for (const [word, codes] of seenIn) {
 	const rank = rankOf.get(word) as number;
 	if (rank > 1500) continue;
 	const code = [...codes][0];
-	unique.push([word, code, rank, ipaOf.get(`${code}|${word}`) ?? '']);
+	unique.push([shownAs.get(word) ?? word, code, rank, ipaOf.get(`${code}|${word}`) ?? '']);
 }
 unique.sort((a, b) => a[2] - b[2]);
 await writeFile(path.join(OUT, 'languages.json'), JSON.stringify(unique.slice(0, 4000)));
