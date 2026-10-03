@@ -52,6 +52,29 @@ const link = (title: string, path: string, note?: string) =>
 
 const comparison = (tags: string[] | undefined) => tags?.includes('Comparison') ?? false;
 
+const nameOf = (code: string) => WORD_LISTS.find((l) => l.code === code)?.name ?? code;
+
+/**
+ * One line per language: its word list, then every other tool page that
+ * language has. The pages exist per language, so an agent asked about
+ * Spanish can go straight to Spanish.
+ */
+const languageLines = () =>
+	WORD_LISTS.map((l) => {
+		const tools = [
+			`[vocabulary test](${url(`/tools/vocabulary-test/${l.slug}`)})`,
+			`[vocabulary quiz](${url(`/tools/meaning-quiz/${l.slug}`)})`
+		];
+		if (WORD_GAME_LANGUAGES.some((g) => g.slug === l.slug)) {
+			tools.push(`[word game](${url(`/tools/word-game/${l.slug}`)})`);
+		}
+		if (ALPHABETS.some((a) => a.code === l.code)) {
+			tools.push(`[alphabet](${url(`/tools/alphabet/${l.slug}`)})`);
+		}
+		const words = `${nf.format(l.count)} most common words with English meanings`;
+		return `- [${l.name}](${url(`/tools/most-common-words/${l.slug}`)}): ${words}; ${tools.join(', ')}`;
+	});
+
 const body = () =>
 	[
 		'# LangX',
@@ -129,6 +152,20 @@ const body = () =>
 		link('Similar languages', '/tools/similar', `${LANGUAGE_PAIRS.length} pairs that share words`),
 		link('Guess the language', '/tools/guess-the-language', 'a daily ten-word quiz'),
 		'',
+		'## Languages',
+		'',
+		...languageLines(),
+		'',
+		'## Similar languages',
+		'',
+		...LANGUAGE_PAIRS.map((p) =>
+			link(
+				`${nameOf(p.a)} and ${nameOf(p.b)}`,
+				`/tools/similar/${p.slug}`,
+				`${nf.format(p.count)} words written and meant the same`
+			)
+		),
+		'',
 		'## Optional',
 		'',
 		link('Source code', 'https://github.com/langx'),
@@ -138,5 +175,8 @@ const body = () =>
 		link('Community guidelines', '/community-guidelines'),
 		link('Cookie policy', '/cookie-policy'),
 		link('Data deletion', '/data-deletion', 'how to delete an account and everything in it'),
+		...SAY_WORDS.map((w) =>
+			link(`“${w.word}” in different languages`, `/tools/say/${w.slug}`, `${w.count} languages`)
+		),
 		''
 	].join('\n');
