@@ -1,5 +1,9 @@
 # Cloudflare Pages redirects. Kept here because the site is adapter-static:
 # there is no server to run a SvelteKit redirect on.
+#
+# The build adds a copy of each plain rule for the page's Markdown twin
+# (/pro.md to /plans), for agents that ask for Markdown; see
+# scripts/markdown.mjs.
 
 # The Plausible post was deleted when insight.langx.io was retired. The URL was
 # published and linked from outside, so it lands on the blog index instead of a

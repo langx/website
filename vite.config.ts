@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}']
+		include: ['src/**/*.{test,spec}.{js,ts}', 'scripts/**/*.test.mjs']
 	},
 	resolve: {
 		alias: {
