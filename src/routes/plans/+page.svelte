@@ -179,8 +179,8 @@
 									><UiIcon name="check" size={16} strokeWidth={3} /></span
 								>
 								<span
-									>{point.label}{#if point.pending}
-										<span class="soon">Coming soon</span>{/if}</span
+									>{point.label}{#if point.pending}{' '}<span class="soon">Coming soon</span
+										>{/if}</span
 								>
 							</li>
 						{/each}
@@ -513,7 +513,9 @@
 		border: 1px solid var(--color--border);
 		border-radius: var(--radius-pill);
 		padding: 2px 8px;
-		margin-left: 6px;
+		// A real space comes before the badge, so the label and the badge read
+		// as two words. The space is about 4px; this makes up the 6px gap.
+		margin-left: 2px;
 		white-space: nowrap;
 	}
 
