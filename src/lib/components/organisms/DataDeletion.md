@@ -24,7 +24,7 @@
 
 	3. Downloading your data first
 
-		Settings also offers **Download my data**, which returns a single file containing everything the app holds about you: your profile, the conversations you are part of, the messages you sent, your token ledger, subscriptions, blocks, the profiles you viewed and your registered devices. It does not include the other person's messages, because those are their words and not your data. Downloading before deletion is worth it — after the 30 days there is nothing left to export.
+		Under **Settings** → **Account** you will also find **Download my data**, which returns a single file containing everything the app holds about you: your profile, the conversations you are part of, the messages you sent, your token ledger, subscriptions, blocks, the profiles you viewed and your registered devices. It does not include the other person's messages, because those are their words and not your data. Downloading before deletion is worth it — after the 30 days there is nothing left to export.
 
 	4. Deleting some data without deleting your account
 
