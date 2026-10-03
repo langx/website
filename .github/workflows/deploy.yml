@@ -4,9 +4,26 @@ on:
   push:
     branches: 'main'
 
+# Two concurrency groups, one per job, and not one for the whole workflow.
+# Without any, two pushes in quick succession race: on 3 Oct 2026 the run for
+# c88fc2a (37090917529) finished its deploy at 02:51:10, two minutes after the
+# run for the newer main head d3f08dd (37090932845) had finished its own, and
+# production served the older build until the newer run was re-run by hand.
+#
+# The build is the part that may be thrown away: a newer push cancels an older
+# build still in progress, and with it that run's deploy, which never starts.
+# The publish must never be cut off halfway — between `pages deploy` and the
+# purge, say — so its group queues instead of cancelling. GitHub keeps at most
+# one deploy running and one waiting there, and a newer waiting deploy replaces
+# an older one, so whichever deploy goes out last is from the newest commit.
+# A workflow-level group with cancel-in-progress would cancel the deploy job
+# too, mid-publish.
 jobs:
   build_site:
     runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-build
+      cancel-in-progress: true
     permissions:
       contents: read
       deployments: write
@@ -76,6 +93,9 @@ jobs:
   deploy:
     needs: build_site
     runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
     permissions:
       contents: read
       deployments: write
