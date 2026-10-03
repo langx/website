@@ -1,37 +1,37 @@
-word	rank_a	rank_b	english
-na	5	7	on
-i	6	224	and
-ty	32	28	you
-teraz	44	37	now
-tam	51	34	there
-on	59	88	he, it
-domu	98	338	house
-je	112	3	to be
-chce	129	161	to want
-jeden	192	120	one
-roku	348	417	year
-dom	353	270	house
-noc	394	163	night, nighttime
-jedno	421	221	one
-matka	453	260	mother
-jedna	463	223	one
-syn	606	316	son
-syna	624	413	son
-brat	657	321	brother
-rok	691	292	year
-robota	695	1520	work
-brata	823	490	brother
-jednej	904	478	one
-synu	925	960	son
-osoba	1055	552	person
-osoby	1085	1239	person
-list	1140	568	letter
-dna	1194	654	gout
-oko	1278	838	eye
-psa	1317	678	dog
-program	1336	733	program
-okno	1646	817	window
-dobrej	1703	1220	good
-banku	1770	1775	bank
-jazda	1885	1525	ride
-dokumenty	1992	1305	document
+word_a	word_b	rank_a	rank_b	english
+na	na	5	7	on
+i	i	6	224	and
+ty	ty	32	28	you
+teraz	teraz	44	37	now
+tam	tam	51	34	there
+on	on	59	88	he, it
+domu	domu	98	338	house
+je	je	112	3	to be
+chce	chce	129	161	to want
+jeden	jeden	192	120	one
+roku	roku	348	417	year
+dom	dom	353	270	house
+noc	noc	394	163	night, nighttime
+jedno	jedno	421	221	one
+matka	matka	453	260	mother
+jedna	jedna	463	223	one
+syn	syn	606	316	son
+syna	syna	624	413	son
+brat	brat	657	321	brother
+rok	rok	691	292	year
+robota	robota	695	1520	work
+brata	brata	823	490	brother
+jednej	jednej	904	478	one
+synu	synu	925	960	son
+osoba	osoba	1055	552	person
+osoby	osoby	1085	1239	person
+list	list	1140	568	letter
+dna	dna	1194	654	gout
+oko	oko	1278	838	eye
+psa	psa	1317	678	dog
+program	program	1336	733	program
+okno	okno	1646	817	window
+dobrej	dobrej	1703	1220	good
+banku	banku	1770	1775	bank
+jazda	jazda	1885	1525	ride
+dokumenty	dokumenty	1992	1305	document

@@ -1,42 +1,42 @@
-word	rank_a	rank_b	english
-e	1	7	and
-quando	53	56	when
-ora	55	960	now
-ok	62	271	OK
-tua	90	92	your
-sempre	118	122	always
-tempo	130	102	time
-penso	184	489	to think
-vai	203	42	to go
-momento	215	282	moment
-nome	257	201	name
-problema	259	224	problem
-ah	279	515	ah!
-importante	410	372	important
-sangue	436	381	blood
-pensa	473	530	to think
-corpo	486	392	body
-mente	573	814	to lie
-morta	580	794	dead
-presidente	629	463	president
-durante	648	299	during
-futuro	752	692	future
-nave	827	762	ship
-sala	977	514	room
-duro	1107	1318	hard
-presente	1248	833	present
-bomba	1287	1050	bomb
-energia	1295	838	energy
-destino	1392	1015	destiny, fate
-arte	1415	1356	art
-nove	1418	1278	nine
-verde	1581	1561	green
-peso	1591	1767	weight
-ultimamente	1610	1901	lately, recently, of late
-vento	1709	1748	wind
-ponte	1750	1565	bridge
-pensava	1766	766	to think
-teoria	1792	1682	theory
-cancro	1862	1887	cancer
-universo	1927	1809	universe
-mostra	1938	1798	to show
+word_a	word_b	rank_a	rank_b	english
+e	e	1	7	and
+quando	quando	53	56	when
+ora	ora	55	960	now
+ok	ok	62	271	OK
+tua	tua	90	92	your
+sempre	sempre	118	122	always
+tempo	tempo	130	102	time
+penso	penso	184	489	to think
+vai	vai	203	42	to go
+momento	momento	215	282	moment
+nome	nome	257	201	name
+problema	problema	259	224	problem
+ah	ah	279	515	ah!
+importante	importante	410	372	important
+sangue	sangue	436	381	blood
+pensa	pensa	473	530	to think
+corpo	corpo	486	392	body
+mente	mente	573	814	to lie
+morta	morta	580	794	dead
+presidente	presidente	629	463	president
+durante	durante	648	299	during
+futuro	futuro	752	692	future
+nave	nave	827	762	ship
+sala	sala	977	514	room
+duro	duro	1107	1318	hard
+presente	presente	1248	833	present
+bomba	bomba	1287	1050	bomb
+energia	energia	1295	838	energy
+destino	destino	1392	1015	destiny, fate
+arte	arte	1415	1356	art
+nove	nove	1418	1278	nine
+verde	verde	1581	1561	green
+peso	peso	1591	1767	weight
+ultimamente	ultimamente	1610	1901	lately, recently, of late
+vento	vento	1709	1748	wind
+ponte	ponte	1750	1565	bridge
+pensava	pensava	1766	766	to think
+teoria	teoria	1792	1682	theory
+cancro	cancro	1862	1887	cancer
+universo	universo	1927	1809	universe
+mostra	mostra	1938	1798	to show

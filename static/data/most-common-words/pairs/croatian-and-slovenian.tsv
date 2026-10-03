@@ -1,163 +1,163 @@
-word	rank_a	rank_b	english
-ne	3	2	not
-mi	13	16	we
-kako	28	30	how
-biti	39	84	to be, to exist
-on	49	92	he
-hvala	58	50	praise
-vam	65	72	you
-ona	82	135	she
-vi	87	109	you
-koliko	115	139	how much, how many
-ono	128	1524	it
-oni	130	246	they
-dan	145	94	day
-dva	165	136	two
-stvar	169	162	thing
-svoj	191	205	one's own
-ime	195	116	name
-tri	198	149	three
-evo	201	847	look, see, behold
-drugi	237	187	second
-prvi	240	200	first
-znati	245	1595	to know
-vaš	258	192	your, yours
-oprostite	294	142	sorry!
-naš	295	228	our, ours
-njegov	334	207	his
-minuta	337	1426	minute
-tip	345	223	type
-sto	347	461	hundred
-dati	354	346	to give
-prijatelj	361	178	friend
-pet	368	216	five
-ostati	371	311	to stay, remain
-sin	402	199	son
-jutro	410	236	morning
-bar	424	666	at least
-ha	426	489	expresses laughter
-oči	463	179	eye
-brat	495	225	brother
-policija	504	280	police
-smrt	525	251	death
-šest	542	292	six
-čuti	564	928	to hear
-dajte	570	266	to give
-sestra	590	270	sister
-isti	609	390	same
-zadnji	610	297	back, rear, hind
-deset	611	308	ten
-tih	627	1476	quiet, silent
-večer	632	274	evening
-odgovor	658	367	answer
-pokazati	660	537	to show, demonstrate
-njen	707	267	her, hers
-igrati	720	423	to play
-oče	746	102	father
-kralj	776	330	king
-glas	778	379	voice
-sir	786	509	cheese
-misliti	811	565	to think
-usta	812	462	mouth
-poslati	817	711	to send
-ključ	824	400	key
-soba	831	437	room
-čast	834	435	honour
-kapetan	837	854	captain
-njihov	865	480	their, theirs
-seks	871	440	sex
-slika	884	529	picture, image
-nad	893	240	over, above
-pivo	906	417	beer
-korak	925	466	step
-voda	934	445	water
-boriti	950	610	to fight, struggle
-glava	954	553	head
-zabava	959	402	fun, amusement
-knjiga	971	543	book
-zrak	1004	433	air
-mir	1008	416	peace
-dar	1033	823	gift
-jezik	1051	481	tongue
-čaj	1081	514	tea
-zlato	1086	541	gold
-vlada	1093	510	government
-ples	1098	449	dance
-devet	1101	519	nine
-nos	1109	521	nose
-nož	1119	507	knife
-hrana	1140	504	food
-zid	1193	689	wall
-velik	1203	281	big, large
-ulice	1209	618	street
-let	1222	118	flight
-dama	1227	602	lady
-ostala	1232	323	to stay, remain
-bivši	1256	660	former
-vojska	1260	545	army
-piti	1267	724	to drink
-vlak	1269	534	train
-zločin	1287	609	crime
-pete	1288	582	heel
-govor	1291	631	speech
-luke	1305	774	harbor; harbour
-kraljica	1324	499	queen
-vino	1343	584	wine
-meso	1349	599	meat
-če	1390	21	if
-reči	1407	174	to say
-tišina	1418	636	silence
-ček	1419	829	cheque
-vrat	1437	359	neck
-taksi	1443	632	taxi
-kamen	1453	598	stone
-borba	1456	1399	fight
-general	1457	413	general
-pozornost	1481	592	attention
-član	1498	658	member
-bomba	1511	653	bomb
-pisati	1522	815	to write
-lagati	1530	889	to lie
-razlika	1531	704	difference
-država	1534	639	country
-dve	1544	160	two
-sistem	1571	374	system
-ulica	1579	859	street
-plesati	1587	873	to dance
-duša	1602	741	soul
-konj	1607	687	horse
-nebo	1643	675	sky
-most	1651	679	bridge
-prst	1655	747	finger
-profesor	1657	493	professor
-sredi	1662	414	Wednesday
-riba	1663	867	fish
-napisati	1666	952	to write
-ptica	1667	1144	bird
-planet	1717	571	planet
-rezultat	1725	842	result
-pasti	1747	913	to fall
-otok	1758	656	island
-mlad	1769	673	young
-papir	1800	792	paper
-polje	1801	813	field
-sok	1811	821	juice
-dnevnik	1817	775	diary
-led	1823	734	ice
-znanje	1826	841	knowledge
-datum	1830	920	date
-drag	1841	1421	dear
-videti	1846	113	to see
-ukrasti	1852	985	to steal
-teorija	1858	916	theory
-želja	1861	746	wish, desire
-kava	1874	824	coffee
-sladoled	1875	783	ice cream
-mačka	1885	657	cat
-uživati	1895	1323	to enjoy
-princ	1950	652	prince
-bolnica	1958	1582	hospital
-požar	1962	876	fire
-trener	1975	630	coach
-noga	1986	863	leg
-učitelj	1996	626	teacher
+word_a	word_b	rank_a	rank_b	english
+ne	ne	3	2	not
+mi	mi	13	16	we
+kako	kako	28	30	how
+biti	biti	39	84	to be, to exist
+on	on	49	92	he
+hvala	hvala	58	50	praise
+vam	vam	65	72	you
+ona	ona	82	135	she
+vi	vi	87	109	you
+koliko	koliko	115	139	how much, how many
+ono	ono	128	1524	it
+oni	oni	130	246	they
+dan	dan	145	94	day
+dva	dva	165	136	two
+stvar	stvar	169	162	thing
+svoj	svoj	191	205	one's own
+ime	ime	195	116	name
+tri	tri	198	149	three
+evo	evo	201	847	look, see, behold
+drugi	drugi	237	187	second
+prvi	prvi	240	200	first
+znati	znati	245	1595	to know
+vaš	vaš	258	192	your, yours
+oprostite	oprostite	294	142	sorry!
+naš	naš	295	228	our, ours
+njegov	njegov	334	207	his
+minuta	minuta	337	1426	minute
+tip	tip	345	223	type
+sto	sto	347	461	hundred
+dati	dati	354	346	to give
+prijatelj	prijatelj	361	178	friend
+pet	pet	368	216	five
+ostati	ostati	371	311	to stay, remain
+sin	sin	402	199	son
+jutro	jutro	410	236	morning
+bar	bar	424	666	at least
+ha	ha	426	489	expresses laughter
+oči	oči	463	179	eye
+brat	brat	495	225	brother
+policija	policija	504	280	police
+smrt	smrt	525	251	death
+šest	šest	542	292	six
+čuti	čuti	564	928	to hear
+dajte	dajte	570	266	to give
+sestra	sestra	590	270	sister
+isti	isti	609	390	same
+zadnji	zadnji	610	297	back, rear, hind
+deset	deset	611	308	ten
+tih	tih	627	1476	quiet, silent
+večer	večer	632	274	evening
+odgovor	odgovor	658	367	answer
+pokazati	pokazati	660	537	to show, demonstrate
+njen	njen	707	267	her, hers
+igrati	igrati	720	423	to play
+oče	oče	746	102	father
+kralj	kralj	776	330	king
+glas	glas	778	379	voice
+sir	sir	786	509	cheese
+misliti	misliti	811	565	to think
+usta	usta	812	462	mouth
+poslati	poslati	817	711	to send
+ključ	ključ	824	400	key
+soba	soba	831	437	room
+čast	čast	834	435	honour
+kapetan	kapetan	837	854	captain
+njihov	njihov	865	480	their, theirs
+seks	seks	871	440	sex
+slika	slika	884	529	picture, image
+nad	nad	893	240	over, above
+pivo	pivo	906	417	beer
+korak	korak	925	466	step
+voda	voda	934	445	water
+boriti	boriti	950	610	to fight, struggle
+glava	glava	954	553	head
+zabava	zabava	959	402	fun, amusement
+knjiga	knjiga	971	543	book
+zrak	zrak	1004	433	air
+mir	mir	1008	416	peace
+dar	dar	1033	823	gift
+jezik	jezik	1051	481	tongue
+čaj	čaj	1081	514	tea
+zlato	zlato	1086	541	gold
+vlada	vlada	1093	510	government
+ples	ples	1098	449	dance
+devet	devet	1101	519	nine
+nos	nos	1109	521	nose
+nož	nož	1119	507	knife
+hrana	hrana	1140	504	food
+zid	zid	1193	689	wall
+velik	velik	1203	281	big, large
+ulice	ulice	1209	618	street
+let	let	1222	118	flight
+dama	dama	1227	602	lady
+ostala	ostala	1232	323	to stay, remain
+bivši	bivši	1256	660	former
+vojska	vojska	1260	545	army
+piti	piti	1267	724	to drink
+vlak	vlak	1269	534	train
+zločin	zločin	1287	609	crime
+pete	pete	1288	582	heel
+govor	govor	1291	631	speech
+luke	luke	1305	774	harbor; harbour
+kraljica	kraljica	1324	499	queen
+vino	vino	1343	584	wine
+meso	meso	1349	599	meat
+če	če	1390	21	if
+reči	reči	1407	174	to say
+tišina	tišina	1418	636	silence
+ček	ček	1419	829	cheque
+vrat	vrat	1437	359	neck
+taksi	taksi	1443	632	taxi
+kamen	kamen	1453	598	stone
+borba	borba	1456	1399	fight
+general	general	1457	413	general
+pozornost	pozornost	1481	592	attention
+član	član	1498	658	member
+bomba	bomba	1511	653	bomb
+pisati	pisati	1522	815	to write
+lagati	lagati	1530	889	to lie
+razlika	razlika	1531	704	difference
+država	država	1534	639	country
+dve	dve	1544	160	two
+sistem	sistem	1571	374	system
+ulica	ulica	1579	859	street
+plesati	plesati	1587	873	to dance
+duša	duša	1602	741	soul
+konj	konj	1607	687	horse
+nebo	nebo	1643	675	sky
+most	most	1651	679	bridge
+prst	prst	1655	747	finger
+profesor	profesor	1657	493	professor
+sredi	sredi	1662	414	Wednesday
+riba	riba	1663	867	fish
+napisati	napisati	1666	952	to write
+ptica	ptica	1667	1144	bird
+planet	planet	1717	571	planet
+rezultat	rezultat	1725	842	result
+pasti	pasti	1747	913	to fall
+otok	otok	1758	656	island
+mlad	mlad	1769	673	young
+papir	papir	1800	792	paper
+polje	polje	1801	813	field
+sok	sok	1811	821	juice
+dnevnik	dnevnik	1817	775	diary
+led	led	1823	734	ice
+znanje	znanje	1826	841	knowledge
+datum	datum	1830	920	date
+drag	drag	1841	1421	dear
+videti	videti	1846	113	to see
+ukrasti	ukrasti	1852	985	to steal
+teorija	teorija	1858	916	theory
+želja	želja	1861	746	wish, desire
+kava	kava	1874	824	coffee
+sladoled	sladoled	1875	783	ice cream
+mačka	mačka	1885	657	cat
+uživati	uživati	1895	1323	to enjoy
+princ	princ	1950	652	prince
+bolnica	bolnica	1958	1582	hospital
+požar	požar	1962	876	fire
+trener	trener	1975	630	coach
+noga	noga	1986	863	leg
+učitelj	učitelj	1996	626	teacher

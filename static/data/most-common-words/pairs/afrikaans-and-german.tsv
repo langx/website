@@ -1,32 +1,32 @@
-word	rank_a	rank_b	english
-die	1	7	the
-weg	95	128	away
-o	111	849	O
-geld	180	190	money
-dinge	235	385	thing
-familie	249	299	family
-brief	268	1053	letter
-a	282	890	A
-idee	302	426	idea
-dame	338	1021	lady
-ding	342	578	thing
-tante	345	1128	aunt
-minute	369	1037	minute
-vier	392	509	four
-bier	471	987	beer
-arm	513	1004	poor
-probleme	521	692	problem
-tee	580	1265	tea
-glas	697	1337	glass
-bus	725	1534	bus
-boot	854	1121	boat
-engel	864	1568	angel
-risiko	927	1672	risk
-kamera	948	1324	camera
-bad	979	1740	bath
-radio	987	1843	radio
-strand	1379	1813	beach
-restaurant	1496	1725	restaurant
-knie	1586	1890	knee
-eier	1645	1454	egg
-energie	1699	1512	energy
+word_a	word_b	rank_a	rank_b	english
+die	die	1	7	the
+weg	weg	95	128	away
+o	o	111	849	O
+geld	Geld	180	190	money
+dinge	Dinge	235	385	thing
+familie	Familie	249	299	family
+brief	Brief	268	1053	letter
+a	A	282	890	A
+idee	Idee	302	426	idea
+dame	Dame	338	1021	lady
+ding	Ding	342	578	thing
+tante	Tante	345	1128	aunt
+minute	Minute	369	1037	minute
+vier	vier	392	509	four
+bier	Bier	471	987	beer
+arm	arm	513	1004	poor
+probleme	Probleme	521	692	problem
+tee	Tee	580	1265	tea
+glas	Glas	697	1337	glass
+bus	Bus	725	1534	bus
+boot	Boot	854	1121	boat
+engel	Engel	864	1568	angel
+risiko	Risiko	927	1672	risk
+kamera	Kamera	948	1324	camera
+bad	Bad	979	1740	bath
+radio	Radio	987	1843	radio
+strand	Strand	1379	1813	beach
+restaurant	Restaurant	1496	1725	restaurant
+knie	Knie	1586	1890	knee
+eier	Eier	1645	1454	egg
+energie	Energie	1699	1512	energy

@@ -5,7 +5,8 @@
  *   node scripts/wordlists/build-pairs.ts
  *
  * The measure is deliberately strict: a word counts only if it is spelled
- * identically in both languages AND both lists give it the same English
+ * identically in both languages, but for the capital German gives every noun,
+ * AND both lists give it the same English
  * meaning. Spelling alone is a trap — Turkish and Spanish share fifty spellings
  * in their first two thousand words (ve, mi, de, o) and none of them mean the
  * same thing. Requiring the meaning to match too takes that pair from a
@@ -32,16 +33,19 @@ const langs = [...manifest.matchAll(/code: '([^']+)', slug: '([^']+)', name: "([
 	(m) => ({ code: m[1], slug: m[2], name: m[3] })
 );
 
-const lists = new Map<string, Map<string, { rank: number; gloss: string }>>();
+/** Keyed by the lowercased word; `word` keeps the list's own spelling. */
+type Listed = { word: string; rank: number; gloss: string };
+
+const lists = new Map<string, Map<string, Listed>>();
 for (const l of langs) {
-	const map = new Map<string, { rank: number; gloss: string }>();
+	const map = new Map<string, Listed>();
 	for (const line of (await readFile(path.join(DATA, `${l.slug}.tsv`), 'utf8'))
 		.split('\n')
 		.slice(1)) {
 		if (!line) continue;
 		const [rank, word, gloss] = line.split('\t');
 		if (Number(rank) > DEPTH) break;
-		map.set(word.toLowerCase(), { rank: Number(rank), gloss });
+		map.set(word.toLowerCase(), { word, rank: Number(rank), gloss });
 	}
 	lists.set(l.code, map);
 }
@@ -51,19 +55,21 @@ const rows: { a: string; b: string; slug: string; count: number }[] = [];
 
 for (let i = 0; i < langs.length; i++) {
 	for (let j = i + 1; j < langs.length; j++) {
-		const A = lists.get(langs[i].code) as Map<string, { rank: number; gloss: string }>;
-		const B = lists.get(langs[j].code) as Map<string, { rank: number; gloss: string }>;
+		const A = lists.get(langs[i].code) as Map<string, Listed>;
+		const B = lists.get(langs[j].code) as Map<string, Listed>;
 		const shared: string[] = [];
 		for (const [word, a] of A) {
 			const b = B.get(word);
 			if (!b || b.gloss !== a.gloss) continue;
-			shared.push(`${word}\t${a.rank}\t${b.rank}\t${a.gloss}`);
+			// Both spellings: Dutch "nacht" is German "Nacht", the same word
+			// with the capital German gives every noun.
+			shared.push(`${a.word}\t${b.word}\t${a.rank}\t${b.rank}\t${a.gloss}`);
 		}
 		if (shared.length < MIN_SHARED) continue;
 		const slug = `${langs[i].slug}-and-${langs[j].slug}`;
 		await writeFile(
 			path.join(OUT, `${slug}.tsv`),
-			`word\trank_a\trank_b\tenglish\n${shared.join('\n')}\n`
+			`word_a\tword_b\trank_a\trank_b\tenglish\n${shared.join('\n')}\n`
 		);
 		rows.push({ a: langs[i].code, b: langs[j].code, slug, count: shared.length });
 	}

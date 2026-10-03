@@ -1,29 +1,29 @@
-word	rank_a	rank_b	english
-i	6	5	and
-tu	28	100	here
-oni	213	134	they
-problem	293	246	problem
-minut	362	826	minute
-telefon	451	584	telephone
-jedna	463	254	one
-one	638	329	they; nonvirile third-person plural pronoun, used for all…
-brat	657	477	brother
-daleko	684	523	far
-zna	739	186	to know
-drugi	822	242	second
-brata	823	658	brother
-oboje	912	594	both
-seks	1016	777	sex
-osoba	1055	487	person
-sekund	1150	1535	second
-stara	1238	754	old
-program	1336	1140	program
-jaja	1417	927	egg
-znak	1458	772	sign
-grupa	1559	1173	group
-stare	1585	1144	old
-kontakt	1606	1305	contact
-auto	1760	342	car, automobile
-usta	1888	767	mouth
-milion	1898	1253	million
-auta	1915	1018	car, automobile
+word_a	word_b	rank_a	rank_b	english
+i	i	6	5	and
+tu	tu	28	100	here
+oni	oni	213	134	they
+problem	problem	293	246	problem
+minut	minut	362	826	minute
+telefon	telefon	451	584	telephone
+jedna	jedna	463	254	one
+one	one	638	329	they; nonvirile third-person plural pronoun, used for all…
+brat	brat	657	477	brother
+daleko	daleko	684	523	far
+zna	zna	739	186	to know
+drugi	drugi	822	242	second
+brata	brata	823	658	brother
+oboje	oboje	912	594	both
+seks	seks	1016	777	sex
+osoba	osoba	1055	487	person
+sekund	sekund	1150	1535	second
+stara	stara	1238	754	old
+program	program	1336	1140	program
+jaja	jaja	1417	927	egg
+znak	znak	1458	772	sign
+grupa	grupa	1559	1173	group
+stare	stare	1585	1144	old
+kontakt	kontakt	1606	1305	contact
+auto	auto	1760	342	car, automobile
+usta	usta	1888	767	mouth
+milion	milion	1898	1253	million
+auta	auta	1915	1018	car, automobile

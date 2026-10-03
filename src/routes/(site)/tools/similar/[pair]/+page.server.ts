@@ -30,8 +30,8 @@ export async function load({ params }) {
 		.slice(1)
 		.filter(Boolean)
 		.map((line) => {
-			const [word, rankA, rankB, english] = line.split('\t');
-			return { word, rankA: Number(rankA), rankB: Number(rankB), english };
+			const [wordA, wordB, rankA, rankB, english] = line.split('\t');
+			return { wordA, wordB, rankA: Number(rankA), rankB: Number(rankB), english };
 		})
 		// Commonest in the first language first: that is the order they are met in.
 		.sort((x, y) => x.rankA - y.rankA);
@@ -45,8 +45,8 @@ export async function load({ params }) {
 	const [ipaA, ipaB] = await Promise.all([ipaMap(a.slug), ipaMap(b.slug)]);
 	const listed = rows.slice(0, SHOWN).map((r) => ({
 		...r,
-		ipaA: ipaA.get(r.word.toLowerCase()) ?? '',
-		ipaB: ipaB.get(r.word.toLowerCase()) ?? ''
+		ipaA: ipaA.get(r.wordA.toLowerCase()) ?? '',
+		ipaB: ipaB.get(r.wordB.toLowerCase()) ?? ''
 	}));
 
 	return { pair, a, b, rows: listed, total: rows.length, shown: SHOWN, others };
