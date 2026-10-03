@@ -120,10 +120,13 @@ required to stay under the same terms with the same credit.
    language. Having a dictionary entry does.
 4. Attach the best English gloss for each word, resolving inflected forms back
    to their lemma.
-5. Keep the top 10,000 that survive.
-6. Add each word's pronunciation (`build-ipa.ts`, run after `build.ts`).
+5. In German, give each word Wiktionary's spelling. The frequency lists are
+   lowercased, and every German noun is written with a capital; where a word
+   has both spellings ("essen", "Essen") the gloss decides which it is.
+6. Keep the top 10,000 that survive.
+7. Add each word's pronunciation (`build-ipa.ts`, run after `build.ts`).
 
-Step 5 is a ceiling, not a promise: several languages have fewer, and the pages
+Step 6 is a ceiling, not a promise: several languages have fewer, and the pages
 say the real number rather than claiming ten thousand.
 
 ## Refreshing them
@@ -132,3 +135,9 @@ Re-run `node scripts/wordlists/build.ts` from `website/`, then
 `build-ipa.ts`, `build-index.ts`, `build-pairs.ts` and `build-games.ts`. Both sources are
 updated periodically upstream; **check the licence at the version you actually
 download** before committing a refresh, and update the dates above.
+
+`build.ts --respell` re-applies only the spelling and the hand-checked meanings
+in `overrides.ts` to the lists already here, leaving every rank where it is: the
+word audio and the example sentences are keyed by rank, and a full rebuild
+moves ranks whenever Wiktionary has gained or lost an entry. Run
+`build-index.ts`, `build-pairs.ts`, `build-games.ts` and `build-say.ts` after it.

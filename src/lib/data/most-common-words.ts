@@ -39,7 +39,7 @@ export const WORD_LISTS: WordListMeta[] = [
 	{ code: 'fr', slug: 'french', name: "French", nativeName: "français", count: 10000, bytes: 402879, glossCoverage: 100 },
 	{ code: 'gl', slug: 'galician', name: "Galician", nativeName: "Galego", count: 10000, bytes: 395522, glossCoverage: 100 },
 	{ code: 'ka', slug: 'georgian', name: "Georgian", nativeName: "ქართული", count: 1550, bytes: 88873, glossCoverage: 100 },
-	{ code: 'de', slug: 'german', name: "German", nativeName: "Deutsch", count: 10000, bytes: 476446, glossCoverage: 100 },
+	{ code: 'de', slug: 'german', name: "German", nativeName: "Deutsch", count: 10000, bytes: 476416, glossCoverage: 100 },
 	{ code: 'el', slug: 'greek', name: "Greek", nativeName: "Ελληνικά", count: 10000, bytes: 530214, glossCoverage: 100 },
 	{ code: 'he', slug: 'hebrew', name: "Hebrew", nativeName: "עברית", count: 6856, bytes: 334517, glossCoverage: 100 },
 	{ code: 'hi', slug: 'hindi', name: "Hindi", nativeName: "हिन्दी", count: 8906, bytes: 522369, glossCoverage: 100 },
