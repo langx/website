@@ -7,6 +7,7 @@
 	1. Deleting your account
 
 		- Open LangX and go to **Settings**.
+		- Tap **Account**.
 		- Choose **Delete my account**.
 		- Confirm. Your account is removed from discovery and search immediately and every session is signed out. Someone who already has a conversation with you can still open your profile until the data is removed, where it is marked as a deleted account.
 
