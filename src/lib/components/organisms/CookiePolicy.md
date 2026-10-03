@@ -48,7 +48,7 @@
 
 	6. GDPR
 
-		We follow the General Data Protection Regulation for everyone, not only for users in the EU. Under it you can request access to your data, correct it, or have it deleted — the first and the last are available directly in the app's settings rather than by writing to us. What we store, share and delete is described in our [privacy policy](/privacy-policy).
+		We follow the General Data Protection Regulation for everyone, not only for users in the EU. Under it you can request access to your data, correct it, or have it deleted — the first and the last are available directly in the app under **Settings → Account** rather than by writing to us. What we store, share and delete is described in our [privacy policy](/privacy-policy).
 
 	7. Changes to This Cookie Policy
 

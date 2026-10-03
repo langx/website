@@ -146,7 +146,7 @@
 
 		10.1 Access and export
 
-		You can download everything we hold about you from the app's settings, as a single file.
+		You can download everything we hold about you as a single file from **Settings → Account → Download my data**.
 
 		10.2 Correction
 
@@ -154,7 +154,7 @@
 
 		10.3 Deletion
 
-		You can delete your account from within the app. See section 11.
+		You can delete your account from within the app, under **Settings → Account → Delete my account**. See section 11.
 
 		10.4 Location
 
