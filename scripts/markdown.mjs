@@ -51,6 +51,12 @@
 // the rule would send an agent's /pro to a /pro.md that 404s. Each plain
 // redirect in _redirects gets a copy for its .md: /pro.md goes to /plans, and
 // the agent asks /plans for Markdown in turn.
+//
+// And llms-full.txt: the twins of every page at the top level of the site
+// (the app pages, the guides and comparisons, the legal pages, the blog and
+// tools indexes) in one file, for an agent that would rather read the site
+// than crawl it. /llms.txt points to it. The tool pages, a thousand of them,
+// stay out; their indexes say where they are.
 import { appendFileSync, existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { availableParallelism } from 'node:os';
 import { join, relative, sep } from 'node:path';
@@ -136,6 +142,23 @@ if (!isMainThread) {
 	const sum = (/** @type {'written' | 'htmlBytes' | 'markdownBytes'} */ key) =>
 		totals.reduce((total, t) => total + t[key], 0);
 
+	// The home page first, then the rest in path order.
+	const full = files
+		.filter((file) => !file.includes(sep) && file !== '404.html')
+		.map((file) => file.replace(/\.html$/, '.md'))
+		.sort((x, y) => (x === 'index.md' ? -1 : y === 'index.md' ? 1 : x.localeCompare(y)))
+		.map((file) => readFileSync(join(BUILD, file), 'utf8'));
+	writeFileSync(
+		join(BUILD, 'llms-full.txt'),
+		[
+			'# LangX, in full',
+			'',
+			`> Every page at the top level of ${SITE}, as Markdown, one after another; each starts with its title, description and URL. The index is ${SITE}/llms.txt.`,
+			'',
+			...full
+		].join('\n')
+	);
+
 	const redirectsFile = join(BUILD, '_redirects');
 	const redirects = existsSync(redirectsFile) ? readFileSync(redirectsFile, 'utf8') : '';
 	const MARK = '# Added by scripts/markdown.mjs';
@@ -163,7 +186,7 @@ if (!isMainThread) {
 	const mb = (/** @type {number} */ bytes) => `${(bytes / 1e6).toFixed(1)} MB`;
 	console.log(
 		`Markdown: ${sum('written')} pages, ${mb(sum('htmlBytes'))} of HTML as ` +
-			`${mb(sum('markdownBytes'))}, ${twins.length} redirects, ` +
+			`${mb(sum('markdownBytes'))}, ${full.length} in llms-full.txt, ${twins.length} redirects, ` +
 			`in ${((performance.now() - started) / 1000).toFixed(1)}s`
 	);
 }

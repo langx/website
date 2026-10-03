@@ -25,17 +25,30 @@ export async function GET() {
 
 const nf = new Intl.NumberFormat('en-US');
 
+/**
+ * A page on this site, as the URL of its Markdown twin: /plans is also
+ * /plans.md, and / is /index.md (scripts/markdown.mjs writes them). The
+ * llms.txt proposal asks for exactly that, and an agent reading this file
+ * wants the Markdown anyway. Files (/rss.xml) and other sites stay as they are.
+ */
+const url = (path: string) => {
+	if (!path.startsWith('/')) return path;
+	const [page, fragment] = path.split('#');
+	const twin = page === '/' ? '/index.md' : /\.[a-z]+$/.test(page) ? page : `${page}.md`;
+	return `${siteBaseUrl}${twin}${fragment ? `#${fragment}` : ''}`;
+};
+
 /** An FAQ answer is HTML; here it becomes plain text with markdown links. */
 const plain = (html: string) =>
 	html
-		.replace(/<a [^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/g, (_, href: string, text: string) => {
-			const url = href.startsWith('/') ? `${siteBaseUrl}${href}` : href;
-			return `[${text}](${url})`;
-		})
+		.replace(
+			/<a [^>]*href="([^"]+)"[^>]*>(.*?)<\/a>/g,
+			(_, href: string, text: string) => `[${text}](${url(href)})`
+		)
 		.replace(/<[^>]+>/g, '');
 
 const link = (title: string, path: string, note?: string) =>
-	`- [${title}](${path.startsWith('http') ? path : `${siteBaseUrl}${path}`})${note ? `: ${note}` : ''}`;
+	`- [${title}](${url(path)})${note ? `: ${note}` : ''}`;
 
 const comparison = (tags: string[] | undefined) => tags?.includes('Comparison') ?? false;
 
@@ -46,6 +59,8 @@ const body = () =>
 		'> LangX is a free, open source language exchange app. It matches you with people who speak the language you are learning and are learning yours, and gives the conversation the tools that make it teach: corrections on any message, translation inside the chat, voice and photo messages and a daily streak. No ads. On iOS, Android and the web.',
 		'',
 		'Matching runs in both directions, so every conversation helps both people. Replies and corrections are unlimited on every plan, including the free one. The app and its API are open source (BSD-3) and can be self-hosted. LangX is made by New Chapter Technology LLC; contact hi@langx.io.',
+		'',
+		`Every page on langx.io is also Markdown: the links below go to it, any page URL with .md added gives it, and so does asking any page for \`Accept: text/markdown\`. The whole site's writing in one file, the app pages, guides and comparisons, is [llms-full.txt](${siteBaseUrl}/llms-full.txt).`,
 		'',
 		'## The app',
 		'',
@@ -62,6 +77,7 @@ const body = () =>
 		),
 		link('Compare', '/compare', 'LangX next to Tandem, HelloTalk, Duolingo and other apps'),
 		link('Welcome back', '/welcome-back', 'what changed for people who used LangX v1'),
+		link('Blog', '/blog', 'every guide and comparison, by topic'),
 		link('iPhone app', appStoreUrl),
 		link('Android app', playStoreUrl),
 		link('Web app', 'https://app.langx.io'),
@@ -83,6 +99,7 @@ const body = () =>
 		'',
 		'## Free tools',
 		'',
+		link('All tools', '/tools', 'word lists, quizzes and games; no account needed'),
 		link(
 			'Most common words',
 			'/tools/most-common-words',
@@ -119,5 +136,7 @@ const body = () =>
 		link('Privacy policy', '/privacy-policy'),
 		link('Terms and conditions', '/terms-conditions'),
 		link('Community guidelines', '/community-guidelines'),
+		link('Cookie policy', '/cookie-policy'),
+		link('Data deletion', '/data-deletion', 'how to delete an account and everything in it'),
 		''
 	].join('\n');
