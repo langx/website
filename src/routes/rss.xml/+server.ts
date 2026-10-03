@@ -54,7 +54,7 @@ const xml = (posts: BlogPost[]) => `
           <dc:creator><![CDATA[${post.author.name}]]></dc:creator>
           <author>
             <name><![CDATA[${post.author.name}]]></name>
-            <link><![CDATA[${post.author.url}]]></link>
+            ${post.author.url ? `<link><![CDATA[${post.author.url}]]></link>` : ''}
           </author>
           <link>${siteBaseUrl}/${post.slug}</link>
           <pubDate>${dateformat(post.date, 'ddd, dd mmm yyyy HH:MM:ss o')}</pubDate>

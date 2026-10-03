@@ -6,7 +6,6 @@ date: 2024-06-19T20:16:22Z
 excerpt: 'Learning a language as an introvert: courses, apps, films, books, podcasts and writing you can do at home, and a low-pressure way into speaking.'
 author:
   name: Triangukum
-  url: https://github.com/triangukum
 tags:
   - Tips and Tricks
   - Learning

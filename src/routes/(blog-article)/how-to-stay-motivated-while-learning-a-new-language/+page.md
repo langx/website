@@ -6,7 +6,6 @@ date: 2024-06-17T10:16:22Z
 excerpt: 'Seven ways to stay motivated while learning a new language: clear goals, a study buddy, games, small wins, immersion, consistency and remembering why.'
 author:
   name: Triangukum
-  url: https://github.com/triangukum
 tags:
   - Motivation
   - Language

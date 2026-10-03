@@ -28,7 +28,8 @@ export type BlogPost = {
 	seoTitle?: string;
 	author: {
 		name: string;
-		url: string;
+		// Optional: an author whose profile has since disappeared keeps the byline without a dead link.
+		url?: string;
 	};
 	date: string;
 	updated: string;

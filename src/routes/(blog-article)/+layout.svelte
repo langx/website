@@ -97,7 +97,11 @@
 					<span>{dateformat(post.date, 'UTC:dd mmmm yyyy')}</span>
 					{#if post.author}
 						<span>·</span>
-						<a href={post.author.url} target="_blank" rel="noopener noreferrer">@{post.author.name}</a>
+						{#if post.author.url}
+							<a href={post.author.url} target="_blank" rel="noopener noreferrer">@{post.author.name}</a>
+						{:else}
+							<span>@{post.author.name}</span>
+						{/if}
 					{/if}
 					{#if post.readingTime}
 						<span>·</span>
