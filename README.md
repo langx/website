@@ -31,6 +31,11 @@ here. Nothing checks this automatically, so a claim on the site can drift into
 being false without anything failing — which is exactly what this section exists
 to prevent.
 
+The [community guidelines](https://langx.io/community-guidelines) are a
+hand-kept, word-for-word copy too: `src/lib/components/organisms/CommunityGuidelines.md`
+copies `docs/community-guidelines.md` in `langx`, which owns the text. When that
+file changes, make the same change here.
+
 The product claims on this site are also constrained by
 `langx/docs/legal/promise-change.md` and `langx/docs/token-messaging-brief.md`.
 Before adding a feature claim, check it is one the shipping app actually meets.

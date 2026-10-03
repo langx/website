@@ -118,5 +118,6 @@ const body = () =>
 		link('Blog feed', '/rss.xml'),
 		link('Privacy policy', '/privacy-policy'),
 		link('Terms and conditions', '/terms-conditions'),
+		link('Community guidelines', '/community-guidelines'),
 		''
 	].join('\n');

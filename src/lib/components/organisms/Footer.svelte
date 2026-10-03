@@ -95,6 +95,7 @@
 			links: [
 				{ label: 'Terms', href: '/terms-conditions' },
 				{ label: 'Privacy', href: '/privacy-policy' },
+				{ label: 'Community guidelines', href: '/community-guidelines' },
 				{ label: 'Cookies', href: '/cookie-policy' },
 				{ label: 'Data deletion', href: '/data-deletion' },
 				{ label: 'hi@langx.io', href: 'mailto:hi@langx.io' }
