@@ -81,6 +81,11 @@ published line.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and
   earn", "payout".
 - Badges are not in v2's first release. Voice and photo messages are shipped.
+- Voice and video calls: live in the web app since 5 October 2026, not yet in
+  the iPhone and Android apps (say "on the web now, coming to the phone apps").
+  You can call someone once they have sent you 5 messages; free on every plan;
+  Settings → Privacy → Allow calls turns them off both ways. Calls are relayed
+  (no IP shared) and never recorded. They earn no tokens and no streak day.
 - Minimum age 16 (18 until langx/langx#1109; the Terms and Privacy Policy say
   16). v1 users must sign up again; balances carry over ÷100 plus a 250-token
   welcome-back bonus.

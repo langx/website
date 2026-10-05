@@ -62,7 +62,7 @@ So a "Speak alternative" can mean two things:
 | Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Expert-built course with tutor lessons, drills, roleplays and vocab builders |
 | Corrections | A human partner can correct any message; unlimited on every plan | Instant AI feedback on pronunciation and phrasing |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
-| Voice and calls | Voice, photo and video messages, read-aloud; no live calls | You speak out loud to the AI throughout; no human calls |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | You speak out loud to the AI throughout; no human calls |
 | Languages | 182 listed in the app | Spanish, French, Korean, Japanese, Italian and Chinese for English speakers, plus English for learners worldwide |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with a free trial; ongoing use needs a subscription |
 | Paid plan | Yes (Pro) | Yes (Premium, Premium Plus) |
@@ -80,7 +80,7 @@ So a "Speak alternative" can mean two things:
       "Native speakers matched two ways",
       "A human partner can correct any message, unlimited on every plan",
       "182 languages listed in the app",
-      "Voice, photo and video messages; no live calls",
+      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "Free plan, no ads, open source (BSD-3)"
     ],
     bestFor: "real conversations once you know the basics"
@@ -162,7 +162,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 - **No AI tutor today.** LangX Copilot, private AI feedback while you practice, is planned for Pro but has not shipped yet.
 - **No spoken lessons or drills.** Echo's free phrase packs are read aloud and reviewed on a schedule, but if you cannot yet form a sentence, LangX will not teach you how.
-- **No live calls,** only voice messages.
+- **Calls on the web only,** for now: voice and video calls work in the web app and are coming to the iPhone and Android apps.
 - **Humans are not instant.** Your partner has a life and a time zone, and a smaller community means fewer people for some language pairs.
 
 ## Is LangX a free Speak alternative?
@@ -220,7 +220,7 @@ LangX's Free plan has no time limit and no ads, and includes unlimited replies a
 
 ### LangX vs Speak: which is better for speaking?
 
-Speak is better for guided, high-volume speaking drills with instant AI feedback, especially for beginners. LangX is better for real conversations with native speakers once you know the basics. Neither has live calls with humans; LangX uses voice messages.
+Speak is better for guided, high-volume speaking drills with instant AI feedback, especially for beginners. LangX is better for real conversations with native speakers once you know the basics. Speak has no calls with humans; LangX has voice messages, and voice and video calls in its web app (coming to the iPhone and Android apps).
 
 ### Are there apps like Speak with real people instead of AI?
 

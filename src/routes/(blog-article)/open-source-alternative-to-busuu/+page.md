@@ -90,7 +90,7 @@ So a Busuu alternative can mean two things:
 | Corrections | Correct any message in an ongoing conversation, unlimited on every plan | Community Corrections on course exercises; free members can send a limited number, Premium is unlimited |
 | Conversation | Ongoing one-to-one chats | Short exchanges around a correction |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
-| Voice | Voice, photo and video messages, read-aloud; no live calls | Spoken exercises that others can correct |
+| Voice | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Spoken exercises that others can correct |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limited features |
 | Paid plan | Yes (Pro) | Yes (Premium) |
 | No ads | Yes | No (Premium removes them) |
@@ -158,7 +158,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 ### What LangX does not do
 
 - **No grammar explanations and no curriculum.** Echo's free phrase packs give you something to review, but if you need to be taught the basics, a course does that better.
-- **No live calls,** only voice messages.
+- **Calls on the web only,** for now: voice and video calls work in the web app and are coming to the iPhone and Android apps.
 - **A smaller community,** so some language pairs have fewer people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours (replies and corrections are never capped). The [plans page](/plans) has details.
 
@@ -205,7 +205,7 @@ For the community side, yes. LangX's free plan includes unlimited replies and un
 
 ### LangX vs Busuu: which is better for speaking practice?
 
-For ongoing, real conversations, LangX, because it is built around one-to-one chats with voice messages. For guided speaking exercises within a course, Busuu. Neither has live calls built in.
+For ongoing, real conversations, LangX, because it is built around one-to-one chats with voice messages. For guided speaking exercises within a course, Busuu. LangX also has voice and video calls in its web app (coming to the iPhone and Android apps); Busuu has none.
 
 ### Can I use Busuu and LangX together?
 

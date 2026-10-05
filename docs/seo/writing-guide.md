@@ -133,7 +133,7 @@ Existing: `Callout` (`$lib/components/molecules/Callout.svelte`).
 
 ### Hard rules
 
-- NO invented numbers, features or quotes. Every value in a chart or stat must already be in the post (or in PRODUCT.md / src/lib/data/plans.ts for LangX facts). LangX facts: corrections by HOLDING a message (never "tap"), unlimited on every plan; Free = 5 new conversations/day, 20 translations/day; no live calls (voice, photo and video messages); no ads; open source BSD-3; iOS, Android, web; Copilot not shipped.
+- NO invented numbers, features or quotes. Every value in a chart or stat must already be in the post (or in PRODUCT.md / src/lib/data/plans.ts for LangX facts). LangX facts: corrections by HOLDING a message (never "tap"), unlimited on every plan; Free = 5 new conversations/day, 20 translations/day; voice, photo and video messages, plus voice and video calls in the web app only (since 5 October 2026; coming to the iPhone and Android apps, never claim them for the phone apps), unlocked once the other person has sent you 5 messages, free on every plan; no ads; open source BSD-3; iOS, Android, web; Copilot not shipped.
 - AppDemo screens are demonstration replicas of v2. Never use images from static/images/features (v1).
 - Syntax (mdsvex): add imports to the post's existing `<script>` block (create one after the front matter if none: `<script>` … `</script>`). Component props are JS: use double-quoted strings; escape any double quote inside with \"; apostrophes are fine inside double quotes. A component tag must contain NO blank lines. Put a blank line before and after each component. Don't use curly braces in plain markdown text.
 - Leave front matter as it is when adding visuals to an existing post.

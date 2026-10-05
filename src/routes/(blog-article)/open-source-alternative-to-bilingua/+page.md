@@ -37,7 +37,7 @@ This page explains what happened to Bilingua, what it did well, and how LangX vs
 <KeyTakeaways items={[
   "Bilingua is effectively closed: removed from Google Play in 2023, App Store listing gone, domain parked.",
   "Former users liked its personality matching, the Shiro conversation helper and light learning games.",
-  "LangX matches two ways and has unlimited corrections from real people, but no chatbot and no live calls.",
+  "LangX matches two ways and has unlimited corrections from real people, but no chatbot, and its calls are on the web only for now.",
   "LangX is open source (BSD-3), so its code cannot disappear with a company."
 ]} />
 
@@ -94,7 +94,7 @@ If you still have an old copy of Bilingua installed, do not rely on it. An app w
 | Corrections | Correct any message in the chat, unlimited on every plan | Its chat assistant, Shiro, could suggest corrections |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | Suggested translations through Shiro |
 | Conversation help | Read-aloud, voice and photo messages | Topic suggestions, games and quizzes |
-| Voice and calls | Voice, photo and video messages; no live calls | Text-first chat |
+| Voice and calls | Voice, photo and video messages; voice and video calls on the web (phone apps soon) | Text-first chat |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Was free to use |
 | Paid plan | Yes (Pro) | Not relevant today |
 | No ads | Yes | Not relevant today |
@@ -165,7 +165,7 @@ This is the biggest lesson from Bilingua. When a closed app shuts down, it is go
 
 ### Honest limits
 
-- **No live calls** on LangX, only voice messages.
+- **Calls on the web only** for now on LangX; they are coming to the iPhone and Android apps.
 - **No conversation bot.** LangX Copilot, private AI feedback on your own messages, is coming later for Pro, but it is not available yet.
 - **A smaller community** than the biggest exchange apps, so some language pairs have fewer people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours. Replies and corrections are never capped. The [plans page](/plans) has the details.
@@ -217,6 +217,6 @@ No. LangX focuses on corrections and translation inside real conversations. Lang
 
 ### What are the best apps like Bilingua for voice practice?
 
-For live calls, Lingbe and Tandem. For voice messages you can send and replay at your own pace, LangX and HelloTalk.
+For live calls from your phone, Lingbe and Tandem; LangX has voice and video calls in its web app for now. For voice messages you can send and replay at your own pace, LangX and HelloTalk.
 
 More comparisons: [all LangX comparisons](/compare), [LangX vs Tandem](/open-source-alternative-to-tandem), [LangX vs HelloTalk](/open-source-alternative-to-hellotalk), [LangX vs Lingbe](/open-source-alternative-to-lingbe), [LangX vs Conversation Exchange](/open-source-alternative-to-conversationexchange), and [the best language exchange apps](/best-language-exchange-apps).

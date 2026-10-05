@@ -68,7 +68,7 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | Babbel Speak AI scenarios; no human conversation partners for individual learners |
 | Corrections | A human partner can correct any message; unlimited on every plan | Automatic feedback on exercises and speech |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
-| Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Speech recognition in lessons and Babbel Speak; live classes only via Babbel for Business |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Speech recognition in lessons and Babbel Speak; live classes only via Babbel for Business |
 | Languages | 182 listed in the app | 14 |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | The first lesson of each course is free to try; full access needs a subscription |
 | Paid plan | Yes (Pro) | Yes (subscription) |
@@ -86,7 +86,7 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
       "Native speakers matched two ways",
       "A human partner can correct any message, unlimited on every plan",
       "182 languages listed in the app",
-      "Voice, photo and video messages; no live calls",
+      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "Free plan, no ads, open source (BSD-3)"
     ],
     bestFor: "real conversations once you know the basics"
@@ -169,7 +169,7 @@ LangX has no ads and no advertising identifiers. It does use product analytics (
 
 - **No grammar explanations or course path.** Echo's free phrase packs are something to review, not a course; if you are starting from zero, begin with one.
 - **No AI conversation practice today.** LangX Copilot, private AI feedback, is planned for Pro but not shipped.
-- **No live calls or classes,** only voice messages.
+- **No classes,** and calls with partners are on the web only for now (coming to the iPhone and Android apps).
 - **A smaller community,** so some language pairs have fewer people online.
 
 ## Is LangX a free Babbel alternative?

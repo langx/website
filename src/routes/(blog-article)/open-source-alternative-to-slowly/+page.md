@@ -50,7 +50,7 @@ Everything about Slowly below comes from its app store listings, its own site an
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Auto-match by interests, or browse by topics, region and languages with a proficiency level |
 | Corrections | Hold any message to correct it; unlimited on every plan | No correction tools; it is not a learning app |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a listed feature; you look words up yourself |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Written letters, plus audio notes and photos when both sides agree; no calls |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Written letters, plus audio notes and photos when both sides agree; no calls |
 | Identity | Profile with your languages, usually with photos | Nickname and avatar, no real names or photos required |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: unlimited letters, with a quota on friends |
 | Paid plan | Yes: Pro | Yes: Slowly Plus, plus Slowly Coins for stamps |

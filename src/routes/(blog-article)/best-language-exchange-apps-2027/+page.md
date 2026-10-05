@@ -93,11 +93,11 @@ Babbel stopped taking individual learners for **Babbel Live** after June 30, 202
 
 In September 2025 Apple announced Live Translation for AirPods, translating face-to-face conversations, and extended it to the EU that November. Instant translation raises a fair question: why learn at all? The answer is the same one it has always been. Translation gets you through a transaction; it does not make you part of a conversation, a friendship or a family dinner.
 
-On the practice side, voice is where apps differ most. Lingbe is built on live calls, HelloTalk has Voicerooms, and Tandem has calls and Language Parties. LangX has voice, photo and video messages and read-aloud, but **no live calls** today, so if live speaking is your main goal for 2027, one of those apps is the better fit.
+On the practice side, voice is where apps differ most. Lingbe is built on live calls, HelloTalk has Voicerooms, and Tandem has calls and Language Parties. LangX has voice, photo and video messages and read-aloud, and since October 2026 voice and video calls in its web app; they are coming to the iPhone and Android apps. If calling from your phone is your main goal, one of those apps is the better fit until then.
 
 <AppDemo
   screen="chat"
-  title="Voice messages, not live calls"
+  title="Voice messages, and calls on the web"
   text="LangX practice happens in the chat: text, voice, photo and video messages, with read-aloud. Your partner holds any message to correct it."
 />
 
@@ -141,7 +141,7 @@ Everything else on LangX today is already in the app: two-way matching, correcti
 <ProsCons
   name="LangX heading into 2027"
   pros={["No ads and no advertising identifiers", "Open source under BSD-3", "Corrections unlimited on every plan", "Two-way matching for one-to-one exchange"]}
-  cons={["No live calls or group audio today", "LangX Copilot is planned but not shipped", "Uses PostHog analytics (you can turn it off)", "A smaller, still-growing community"]}
+  cons={["Calls on the web only so far; no group audio", "LangX Copilot is planned but not shipped", "Uses PostHog analytics (you can turn it off)", "A smaller, still-growing community"]}
 />
 
 ## How we will update this page

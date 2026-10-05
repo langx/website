@@ -245,7 +245,7 @@ A chart gives you the shapes. The throat letters, and the vowels everyday text d
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear your ayn and qaf, not only your spelling."
 />
 
-Write in Arabic script from the start, and your partner can correct your spelling as well as your grammar. Replies are unlimited, and translation is built into the chat (20 a day on the free plan, which includes 5 new conversations a day). LangX has voice and photo messages rather than live calls. If you want live calls or paid tutors instead, our roundup of the [best apps to practice Arabic with native speakers](/best-apps-to-practice-arabic-with-native-speakers) compares the options. To start, [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
+Write in Arabic script from the start, and your partner can correct your spelling as well as your grammar. Replies are unlimited, and translation is built into the chat (20 a day on the free plan, which includes 5 new conversations a day). LangX has voice and photo messages, and voice and video calls in the web app (coming to the iPhone and Android apps). If you want paid tutors or other apps with calls, our roundup of the [best apps to practice Arabic with native speakers](/best-apps-to-practice-arabic-with-native-speakers) compares the options. To start, [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 ## FAQ
 

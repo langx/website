@@ -62,7 +62,7 @@ We make LangX, so weigh our entry accordingly. Facts about other apps were check
 | --- | --- | --- | --- | --- |
 | HelloTalk | Language exchange | Large Chinese-speaking community, transliteration | Yes, with ads and caps | Calls, Voicerooms |
 | Tandem | Language exchange | A steady one-to-one partner | Yes, with ads and caps | Calls, Language Parties |
-| LangX | Language exchange | Corrections on every message, read-aloud, no ads | Yes, 5 new chats a day | No (voice messages) |
+| LangX | Language exchange | Corrections on every message, read-aloud, no ads | Yes, 5 new chats a day | Yes, voice and video calls on the web (phone apps soon) |
 | italki / Preply | Tutor marketplaces | Paid Mandarin teachers, HSK prep | Browsing is free; lessons paid | Video lessons |
 | Speak / Praktika | AI speaking apps | Tone and speaking drills before real conversations | Trial or limited free | Speaking to AI |
 | HelloChinese | Course app (not exchange) | Beginner course with speech recognition | Yes, with a paid tier | No |
@@ -121,7 +121,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Chinese as the language you are learning and you see Chinese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, so a wrong character or a missing measure word can be fixed right where you wrote it. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful when you cannot yet sound out the characters.
 
 - **Best for:** careful written practice with corrections, and no ads.
-- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Chinese partners can take longer. There are **no live calls**, only text, voice, photo and video messages; voice messages are how you practice tones. Free allows 5 new conversations a day, with unlimited replies. See [plans](/plans).
+- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Chinese partners can take longer. Calls are **web only** for now: voice and video calls work in the browser and are coming to the iPhone and Android apps. Voice messages are a good way to practice tones. Free allows 5 new conversations a day, with unlimited replies. See [plans](/plans).
 
 <AppDemo
   screen="chat"
@@ -209,7 +209,7 @@ Learn simplified if you are aiming at mainland China or Singapore, and tradition
 
 ### Can I practice Chinese speaking for free?
 
-Yes. HelloTalk and Tandem include free calls with exchange partners. LangX supports voice messages but not live calls. Tutors on italki and Preply are paid.
+Yes. HelloTalk and Tandem include free calls with exchange partners. LangX has voice messages, and free voice and video calls in its web app (coming to the iPhone and Android apps). Tutors on italki and Preply are paid.
 
 ### How do I practice Chinese tones with a partner?
 

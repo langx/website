@@ -248,7 +248,7 @@ A chart gives you the shapes. The sounds, above all the built-in vowel that come
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear how you say a word, not only how you spell it."
 />
 
-LangX has voice and photo messages rather than live calls. The free plan includes 5 new conversations a day and unlimited replies; [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
+LangX has voice and photo messages, and voice and video calls in the web app (coming to the iPhone and Android apps). The free plan includes 5 new conversations a day and unlimited replies; [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 More alphabet guides: [Hindi](/hindi-alphabet-guide), [Malayalam](/malayalam-alphabet-guide), [Russian](/russian-alphabet-guide), [Bulgarian](/bulgarian-alphabet-guide), [Greek](/greek-alphabet-guide) and [Korean](/korean-alphabet-guide).
 

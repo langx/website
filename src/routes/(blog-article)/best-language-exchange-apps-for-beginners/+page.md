@@ -65,7 +65,7 @@ Look for help **inside the chat**: translation, transliteration (romanization) f
 | --- | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Yes, daily cap on free | Yes, daily cap on free | Yes, daily cap on free | Yes, plus AI correction (capped) | AI correction only | Moments posts, text chat |
 | Tandem | 3 a day free, unlimited on Pro | Not listed | Transcription on Pro | Yes | AI toolkit on Pro | Reviewed community, text chat |
-| LangX | 20 a day free, 300 or 1,000 on paid plans | No | No | Yes, unlimited on every plan | Not yet (Copilot planned) | Text-first; no live calls at all |
+| LangX | 20 a day free, 300 or 1,000 on paid plans | No | No | Yes, unlimited on every plan | Not yet (Copilot planned) | Text-first; nobody can call you until they have sent you 5 messages |
 | Busuu | Course app | Course app | Not listed | Community corrects your exercises | Course lessons | Exercises, not chat |
 | Speaky | Not listed | Not listed | Not listed | Not listed | AI practice partners | Free text chat |
 | Speak / Praktika | Not an exchange | Not an exchange | Speech recognition | AI feedback | Yes, that is the product | Speaking to AI only |
@@ -88,7 +88,7 @@ The catch: on the free tier each of those tools has a **daily cap**, and there a
 
 ### LangX: text-first, with corrections that never run out
 
-Our app. [LangX](https://get.langx.io) matches in both directions, so every person you see speaks the language you are learning *and* is learning yours. There are no live calls on any plan, which for a nervous beginner is a feature: nobody can ring you. You practice with text, and with voice, photo and video messages when you are ready.
+Our app. [LangX](https://get.langx.io) matches in both directions, so every person you see speaks the language you are learning *and* is learning yours. Nobody can call you until they have sent you 5 messages, and you can switch calls off in Settings → Privacy, which for a nervous beginner is a feature. You practice with text, and with voice, photo and video messages when you are ready; voice and video calls work in the web app and are coming to the iPhone and Android apps.
 
 - Your partner can **hold any message to correct it**, and corrections are **unlimited on every plan**, including Free.
 - **Translation in the chat**: 20 a day on Free, 1,000 on Pro.
@@ -100,8 +100,8 @@ The honest limits: the community is much smaller than HelloTalk's or Tandem's, F
 
 <AppDemo
   screen="chat"
-  title="Nobody can ring you"
-  text="LangX has no live calls, so you answer when you are ready. Your partner holds any message to correct it, and corrections are unlimited on every plan."
+  title="Nobody rings you out of the blue"
+  text="Calls open only after 5 messages from your partner, and you can switch them off, so you answer when you are ready. Your partner holds any message to correct it, and corrections are unlimited on every plan."
 />
 
 ### Busuu: a course first, native speakers second

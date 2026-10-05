@@ -108,7 +108,7 @@ Two older sites are still active and worth a look if the options above do not ha
 - **Two-way matching.** You only see people who speak the language you are learning *and* are learning one you speak, so every conversation is a real exchange.
 - **Corrections on any message.** Hold a message to correct it; the fix appears right in the chat. Corrections are unlimited on every plan.
 - **Translation in the chat**, for the word you cannot guess: 20 a day on Free, 1,000 on Pro ([plans](/plans)).
-- **Voice and photo messages** for pronunciation and everyday life. There are no live calls.
+- **Voice and photo messages** for pronunciation and everyday life, and voice and video calls in the web app (coming to the iPhone and Android apps).
 - **No ads**, and the code is open source (BSD-3) on [GitHub](https://github.com/langx/langx).
 
 The free plan lets you start 5 new conversations a day, with unlimited replies. The honest trade-off: LangX has a much smaller community than InterPals or Slowly, and it will not give you the slow, anticipatory joy of a letter arriving. Many learners use both: a Slowly or InterPals pen pal for long letters, and a chat partner for daily practice. If you would rather talk out loud, [language exchange Discord servers](/language-exchange-discord-servers) and [local language exchange meetups](/language-exchange-meetups) are the next step up.

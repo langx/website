@@ -79,7 +79,7 @@ const body = () =>
 	[
 		'# LangX',
 		'',
-		'> LangX is a free, open source language exchange app. It matches you with people who speak the language you are learning and are learning yours, and gives the conversation the tools that make it teach: corrections on any message, translation inside the chat, voice and photo messages and a daily streak. No ads. On iOS, Android and the web.',
+		'> LangX is a free, open source language exchange app. It matches you with people who speak the language you are learning and are learning yours, and gives the conversation the tools that make it teach: corrections on any message, translation inside the chat, voice and photo messages, voice and video calls (in the web app for now) and a daily streak. No ads. On iOS, Android and the web.',
 		'',
 		'Matching runs in both directions, so every conversation helps both people. Replies and corrections are unlimited on every plan, including the free one. The app and its API are open source (BSD-3) and can be self-hosted. LangX is made by New Chapter Technology LLC; contact hi@langx.io.',
 		'',

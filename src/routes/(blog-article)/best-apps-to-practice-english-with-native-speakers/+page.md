@@ -59,7 +59,7 @@ English is one of the most studied languages in the world, so the question is le
 | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Language exchange | Big community, social feed, group voice rooms | Yes, with ads and daily caps | Calls, Voicerooms | iOS, Android, web |
 | Tandem | Language exchange | Steady one-to-one partners | Yes, with ads and daily caps | Calls, Language Parties | iOS, Android, web |
-| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | No (voice messages) | iOS, Android, web |
+| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | Yes, voice and video calls on the web (phone apps soon) | iOS, Android, web |
 | Cambly | Tutoring (English only) | Native English tutor at short notice | No | Video lessons | iOS, Android, web |
 | Preply | Tutor marketplace | A regular teacher and a schedule | Browsing only; paid trial | Video lessons | iOS, Android, web |
 | italki | Tutor marketplace | Choosing from many teachers | Free community; lessons paid | Video lessons | iOS, Android, web |
@@ -121,7 +121,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem).
 This is our app. [LangX](https://get.langx.io) matches in both directions: if you are learning English and speak, say, Portuguese, you only see English speakers who are learning Portuguese. That helps with the most common problem English learners hit on bigger apps: native speakers swamped with requests.
 
 - **Best for:** writing practice with corrections at the center. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**. Translation is built into the chat (20 a day on Free), and there are voice and photo messages and read-aloud for listening.
-- **Keep in mind:** the community is much smaller than HelloTalk's or Tandem's. There are **no live calls**; speaking practice happens through voice messages. The Free plan allows 5 new conversations a day, with unlimited replies. There are no ads on any plan; see [plans](/plans) for the rest.
+- **Keep in mind:** the community is much smaller than HelloTalk's or Tandem's. Calls are **web only** for now: voice and video calls work in the browser and are coming to the iPhone and Android apps. The Free plan allows 5 new conversations a day, with unlimited replies. There are no ads on any plan; see [plans](/plans) for the rest.
 
 <AppDemo
   screen="chat"
@@ -194,7 +194,7 @@ HelloTalk for the biggest community, Tandem for calmer one-to-one partners, and 
 
 ### Can I practice English speaking with native speakers for free?
 
-Yes. HelloTalk and Tandem both have free voice calls with partners, and HelloTalk's Voicerooms are free group audio. LangX supports voice messages but not live calls. Tutor services like Cambly and Preply are paid.
+Yes. HelloTalk and Tandem both have free voice calls with partners, and HelloTalk's Voicerooms are free group audio. LangX has voice messages, and free voice and video calls in its web app (coming to the iPhone and Android apps). Tutor services like Cambly and Preply are paid.
 
 ### Is Cambly or Preply better for English?
 

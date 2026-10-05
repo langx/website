@@ -60,7 +60,7 @@ We make LangX, so read our entry with that in mind. Everything about other apps 
 | --- | --- | --- | --- | --- |
 | HelloTalk | Language exchange | Large Asia-based community, transliteration tools | Yes, with ads and caps | Calls, Voicerooms |
 | Tandem | Language exchange | Steady one-to-one partners | Yes, with ads and caps | Calls, Language Parties |
-| LangX | Language exchange | Corrections on every message, read-aloud, no ads | Yes, 5 new chats a day | No (voice messages) |
+| LangX | Language exchange | Corrections on every message, read-aloud, no ads | Yes, 5 new chats a day | Yes, voice and video calls on the web (phone apps soon) |
 | HiNative | Q&A with native speakers | Quick questions on nuance and naturalness | Yes, with a paid tier | No |
 | italki | Tutor marketplace | Paid Japanese teachers and conversation tutors | Free community; lessons paid | Video lessons |
 | Speak / Praktika | AI speaking apps | Speaking drills before real conversations | Trial or limited free | Speaking to AI |
@@ -118,7 +118,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or see [Tandem v
 Our app. [LangX](https://get.langx.io) matches in both directions: you see Japanese speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters in a language where so many mistakes are about register rather than grammar. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear any message spoken, useful when you cannot yet sound out the kanji.
 
 - **Best for:** careful written practice with corrections, and no ads.
-- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Japanese partners can take longer. There are **no live calls**, only text, voice and photo messages. Free allows 5 new conversations a day, with unlimited replies. On the Pro plan you can export a conversation's saved phrases as a file that opens in Anki. See [plans](/plans).
+- **Keep in mind:** the community is much smaller than HelloTalk's, so finding Japanese partners can take longer. Calls are **web only** for now: voice and video calls work in the browser and are coming to the iPhone and Android apps. Free allows 5 new conversations a day, with unlimited replies. On the Pro plan you can export a conversation's saved phrases as a file that opens in Anki. See [plans](/plans).
 
 <AppDemo
   screen="chat"
@@ -211,7 +211,7 @@ Start with polite desu/masu forms. Switch to casual speech when your partner sug
 
 ### Can I practice Japanese speaking for free?
 
-Yes. HelloTalk and Tandem include free calls with exchange partners. LangX supports voice messages but not live calls. Tutors on italki are paid.
+Yes. HelloTalk and Tandem include free calls with exchange partners. LangX has voice messages, and free voice and video calls in its web app (coming to the iPhone and Android apps). Tutors on italki are paid.
 
 ### Do I need to read Japanese before using an exchange app?
 

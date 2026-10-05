@@ -48,7 +48,7 @@ Everything about InterPals below comes from its own site, its FAQ and its app st
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Search by country, city, age and the languages someone speaks or is learning |
 | Corrections | Hold any message to correct it; unlimited on every plan | No dedicated correction tool listed |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built-in message translation (per its Google Play listing) |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Text messages with photos and GIFs; no calls advertised |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Text messages with photos and GIFs; no calls advertised |
 | Social features | A Feed for photos, videos and sentences from your day; a post can ask for a correction or a recording | Groups, a community feed, photo albums, comments |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: profile, search and messaging are free, with a daily limit on new contacts |
 | Paid plan | Yes: Pro | No paid plan mentioned in its FAQ |

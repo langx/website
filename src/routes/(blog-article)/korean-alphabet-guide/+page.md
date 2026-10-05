@@ -228,7 +228,7 @@ A fair warning: the script is the quick part. The US Foreign Service Institute p
 
 ## Practice reading and speaking with native speakers
 
-A chart teaches you the shapes, and a person teaches you the sounds. On LangX, Korean is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Korean and are learning a language you speak. They can hold any of your messages to correct it, corrections are unlimited on every plan, and you can send voice messages so they hear how you say 달, 탈 and 딸, not only how you spell them. LangX has voice messages rather than live calls. The free plan includes 5 new conversations a day and unlimited replies.
+A chart teaches you the shapes, and a person teaches you the sounds. On LangX, Korean is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Korean and are learning a language you speak. They can hold any of your messages to correct it, corrections are unlimited on every plan, and you can send voice messages so they hear how you say 달, 탈 and 딸, not only how you spell them. LangX also has voice and video calls in the web app, coming to the iPhone and Android apps. The free plan includes 5 new conversations a day and unlimited replies.
 
 <AppDemo screen="chat" title="Write it, send it, get it corrected" text="Type a sentence in Hangul, and your partner can hold the message to correct it. Voice messages let them check your pronunciation too." />
 

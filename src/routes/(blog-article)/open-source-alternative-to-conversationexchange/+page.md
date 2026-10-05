@@ -36,7 +36,7 @@ This page is a fair LangX vs Conversation Exchange comparison, written in Septem
   "Conversation Exchange is a long-running website for finding partners, strongest for meeting in person.",
   "LangX is an app where the chat happens, with two-way matching, corrections and translation built in.",
   "LangX is open source (BSD-3) and has no ads on any plan.",
-  "LangX has no live calls and a smaller community; Conversation Exchange hands you off to Skype, WhatsApp or a café."
+  "LangX has calls only on the web for now and a smaller community; Conversation Exchange hands you off to Skype, WhatsApp or a café."
 ]} />
 
 ## LangX vs Conversation Exchange at a glance
@@ -77,7 +77,7 @@ This page is a fair LangX vs Conversation Exchange comparison, written in Septem
 | Matching | Two-way: people who speak what you learn and learn what you speak | You search profiles by language, location and exchange type |
 | Corrections | Correct any message in the chat, unlimited on every plan | No correction tool; partners correct each other however they like |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | None built in |
-| Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Its own text chat (ChitChat); calls happen in Skype, WhatsApp and similar |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Its own text chat (ChitChat); calls happen in Skype, WhatsApp and similar |
 | In-person meetups | Not the focus; Pro adds Nearby sorting | Core feature, with city-level search |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: the site is free to use, with ads and some messaging limits |
 | Paid plan | Yes (Pro) | Yes (memberships that remove ads and messaging limits) |
@@ -149,7 +149,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 
 Be clear-eyed about it:
 
-- **No live calls.** LangX has voice messages, not voice or video calls. If you want live conversation, you can still meet a partner on LangX and move to a call elsewhere, just as you would with Conversation Exchange.
+- **Calls are web only for now.** Voice and video calls work in the LangX web app and are coming to the iPhone and Android apps. Until then, on a phone you can take the call from a browser, or move to another app as you would with Conversation Exchange.
 - **Not built for in-person meetups.** Conversation Exchange's city search is better for that.
 - **A smaller community.** Conversation Exchange has had two decades to grow. LangX is newer, so in some language pairs you will find fewer people.
 - **The free plan has limits.** You can start 5 new conversations and use 20 translations per rolling 24 hours. Replies and corrections are never limited. See the [plans page](/plans) for details.
@@ -202,6 +202,6 @@ Yes. At the time of writing (September 2026) the site is online, free to use, an
 
 ### Does LangX have video calls like the partners you find on Conversation Exchange?
 
-No. LangX has voice, photo and video messages and read-aloud, but no live calls. Many people use LangX to find and practice with a partner, then call on another app when they are ready.
+Yes, in the web app. You can make voice and video calls in the browser with someone once they have sent you 5 messages, free on every plan, and calls are coming to the iPhone and Android apps.
 
 More comparisons: [all LangX comparisons](/compare), [LangX vs Tandem](/open-source-alternative-to-tandem), [LangX vs HelloTalk](/open-source-alternative-to-hellotalk), [LangX vs Speaky](/open-source-alternative-to-speaky), [LangX vs Bilingua](/open-source-alternative-to-bilingua), and [the best language exchange apps](/best-language-exchange-apps).

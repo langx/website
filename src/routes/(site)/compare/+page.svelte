@@ -75,7 +75,7 @@
 		{
 			id: 102,
 			title: 'Is LangX better than Tandem or HelloTalk?',
-			content: `It depends on what you want. Tandem and HelloTalk have far larger communities, live calls and group rooms. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source. For the biggest pool of partners they are the better choice; for a focused exchange whose code you can read, LangX is. The full write-ups: <a href="/open-source-alternative-to-tandem">LangX vs Tandem</a> and <a href="/open-source-alternative-to-hellotalk">LangX vs HelloTalk</a>.`
+			content: `It depends on what you want. Tandem and HelloTalk have far larger communities, group rooms, and calls in their phone apps; LangX's calls are on the web for now. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source. For the biggest pool of partners they are the better choice; for a focused exchange whose code you can read, LangX is. The full write-ups: <a href="/open-source-alternative-to-tandem">LangX vs Tandem</a> and <a href="/open-source-alternative-to-hellotalk">LangX vs HelloTalk</a>.`
 		},
 		{
 			id: 103,

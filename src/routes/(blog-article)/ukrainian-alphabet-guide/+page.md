@@ -227,7 +227,7 @@ The alphabet gets you reading. Hearing the difference between и and і, or gett
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear your г and your stress."
 />
 
-Write in Ukrainian Cyrillic from your first message, apostrophes included, and let your partner hold a message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan, which also includes 5 new conversations a day). LangX has voice and photo messages rather than live calls, so you can record a word until you are happy with it. To start, [get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
+Write in Ukrainian Cyrillic from your first message, apostrophes included, and let your partner hold a message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan, which also includes 5 new conversations a day). Voice messages let you record a word until you are happy with it, and voice and video calls work in the web app (coming to the iPhone and Android apps). To start, [get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
 
 ## FAQ
 

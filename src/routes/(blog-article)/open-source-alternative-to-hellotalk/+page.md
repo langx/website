@@ -50,7 +50,7 @@ Everything about HelloTalk below comes from its app store listings and its own s
       "Two-way matching",
       "Hold any message to correct it; unlimited on every plan",
       "A Feed for everyday posts that can ask for a correction or a recording",
-      "No live calls; voice, photo and video messages",
+      "Voice, photo and video messages; calls on the web (phone apps soon)",
       "No ads; open source, BSD-3"
     ],
     bestFor: "one-to-one exchange with a partner who fits both ways"
@@ -74,7 +74,7 @@ Everything about HelloTalk below comes from its app store listings and its own s
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Partner recommendations by native language, target language, level, goals and interests |
 | Corrections | Hold any message to correct it; unlimited on every plan | Correction tools in chat and on Moments posts; AI correction in chat with a daily cap on free |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built in, plus transliteration; daily cap on free, unlimited with VIP |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, voice and video calls, Voicerooms, livestreams |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Voice messages, voice and video calls, Voicerooms, livestreams |
 | Social features | A Feed for photos, videos and sentences from your day; a post can ask for a correction or a recording | Moments (a global feed of posts others can correct), Voicerooms, livestreams |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: most core features, with daily caps on some tools |
 | Paid plan | Yes: Pro | Yes: VIP |
@@ -197,7 +197,7 @@ LangX's Free plan has no ads and includes unlimited replies and corrections, 5 n
 
 ### Does LangX have something like HelloTalk Moments or Voicerooms?
 
-Partly. LangX has a Feed, much like Moments: you share photos, videos or sentences from your day, and a post can ask others for a correction or a recording of how it is said. It has no Voicerooms, livestreams or live calls; conversations are one-to-one, with voice, photo and video messages.
+Partly. LangX has a Feed, much like Moments: you share photos, videos or sentences from your day, and a post can ask others for a correction or a recording of how it is said. It has no Voicerooms or livestreams; conversations are one-to-one, with voice, photo and video messages, and voice and video calls in the web app (coming to the iPhone and Android apps).
 
 ### What are other apps like HelloTalk?
 

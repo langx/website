@@ -209,7 +209,7 @@ The alphabet gets you reading. Stress, soft consonants and ы come from hearing 
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear your stress, not only your spelling."
 />
 
-Write in Cyrillic from the start, even short messages, and your partner can hold any message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan). LangX has voice and photo messages rather than live calls, so you can record a word until you are happy with it. The free plan includes 5 new conversations a day. If you want live calls or paid lessons instead, our roundup of the [best apps to practice Russian with native speakers](/best-apps-to-practice-russian-with-native-speakers) compares the options. To start, [get the app](https://get.langx.io) and read [how to do a language exchange](/how-to-do-a-language-exchange).
+Write in Cyrillic from the start, even short messages, and your partner can hold any message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan). Voice messages let you record a word until you are happy with it, and voice and video calls work in the web app (coming to the iPhone and Android apps). The free plan includes 5 new conversations a day. If you want paid lessons or other apps with calls, our roundup of the [best apps to practice Russian with native speakers](/best-apps-to-practice-russian-with-native-speakers) compares the options. To start, [get the app](https://get.langx.io) and read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 ## FAQ
 

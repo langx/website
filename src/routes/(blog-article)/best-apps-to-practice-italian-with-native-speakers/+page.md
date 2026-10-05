@@ -62,7 +62,7 @@ We make LangX, so weigh our entry accordingly. Facts about other apps were check
 | --- | --- | --- | --- | --- |
 | HelloTalk | Language exchange | Many partners fast, posts corrected by natives | Yes, with ads and caps | Calls, Voicerooms |
 | Tandem | Language exchange | A steady one-to-one partner | Yes, with ads and caps | Calls, Language Parties |
-| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | No (voice messages) |
+| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | Yes, voice and video calls on the web (phone apps soon) |
 | Conversation Exchange | Partner-finding website | Meeting Italian speakers in person | Yes, with ads | In person or your own call app |
 | italki / Preply | Tutor marketplaces | A paid tutor, from Rome to Ticino | Browsing is free; lessons paid | Video lessons |
 | Speak / Praktika | AI speaking apps | Rehearsing before real conversations | Trial or limited free | Speaking to AI |
@@ -120,7 +120,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set Italian as the language you are learning and you see Italian speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, so every missing accent and wrong ending can be fixed, not just the first few. Translation is inside the chat (20 a day on Free).
 
 - **Best for:** careful written practice where fixing mistakes is the point, with no ads.
-- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
+- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and calls are **web only** for now: voice and video calls work in the browser and are coming to the iPhone and Android apps. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"
@@ -208,7 +208,7 @@ HelloTalk has the largest community and Tandem is strong for a steady one-to-one
 
 ### Can I practice Italian speaking for free?
 
-Yes. HelloTalk and Tandem include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX supports voice messages but not live calls.
+Yes. HelloTalk and Tandem include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX has voice messages, and free voice and video calls in its web app (coming to the iPhone and Android apps).
 
 ### Should I use tu or Lei with a language exchange partner?
 
