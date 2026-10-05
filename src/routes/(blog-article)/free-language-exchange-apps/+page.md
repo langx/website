@@ -62,7 +62,7 @@ A fourth group is **free to try**: you start with an allowance of minutes or exe
 | Conversation Exchange | Free, optional membership | No | Search, pen-pal and local meetup requests, ChitChat | Messaging limits; the membership removes them and the ads |
 | HelloTalk | Freemium with ads | No | Chat, calls, Moments, Voicerooms, livestreams | Daily caps on translation, transliteration, voice-to-text, AI correction and new partners |
 | Tandem | Freemium with ads | No | Chat, corrections, voice messages, calls | 10 new conversations and 3 translations a day; Language Parties up to 60 minutes a day |
-| LangX | Freemium, no ads | Yes | Unlimited text, replies and corrections | 5 new conversations and 20 translations per rolling 24 hours; no live calls on any plan |
+| LangX | Freemium, no ads | Yes | Unlimited text, replies and corrections | 5 new conversations and 20 translations per rolling 24 hours; voice and video calls free on every plan, on the web for now |
 | Slowly | Free, optional subscription | No | Unlimited letters to your pen pals | A quota on friends; letters take hours to arrive by design |
 | Lingbe | Free to try | No | Starter minutes of live calls | Keep going by earning credit (helping others), or pay |
 | Busuu | Free to try | No | Some lessons and Community corrections | A limited number of exercises sent for correction |
@@ -138,7 +138,7 @@ Our app, so judge this entry accordingly. LangX's free plan is a real plan rathe
 - 100 messages read aloud a day, and 500 messages a day with a photo, video or voice note, the same on every plan.
 - One language you are learning and one you speak; filters by country, age and level.
 
-The honest limits: 5 new chats a day is fewer than Tandem's 10, there are **no live voice or video calls** on any plan (practice is text plus voice, photo and video messages), and the community is much smaller than HelloTalk's or Tandem's. **Pro** lifts the new-conversation cap, raises translations to 1,000 a day, and adds languages and filters; the [plans page](/plans) lists everything.
+The honest limits: 5 new chats a day is fewer than Tandem's 10, voice and video calls are **web only** for now (free on every plan, and coming to the iPhone and Android apps), and the community is much smaller than HelloTalk's or Tandem's. **Pro** lifts the new-conversation cap, raises translations to 1,000 a day, and adds languages and filters; the [plans page](/plans) lists everything.
 
 <AppDemo
   screen="chat"

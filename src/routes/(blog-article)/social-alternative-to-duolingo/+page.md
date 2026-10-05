@@ -87,7 +87,7 @@ Hold any message in a chat to correct it, and the fix appears right in the conve
 
 ### Translation, voice notes and read-aloud
 
-Stuck on a word? Translate it inside the chat (20 translations a day on Free, 1000 on Pro). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. There are no live calls on LangX; conversations happen through text, voice, photo and video messages, which also means you have time to think before you answer.
+Stuck on a word? Translate it inside the chat (20 translations a day on Free, 1000 on Pro). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. Most of the practice happens in messages, which gives you time to think before you answer, and when you want to talk, voice and video calls work in the web app (they are coming to the iPhone and Android apps).
 
 ### Streaks, tokens and leaderboards
 
@@ -105,7 +105,7 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 
 <VersusCard
   a={{ name: "Duolingo", tagline: "Course app with game-like lessons", points: ["You practice with the app, and an AI character on paid plans", "Friends, Friend Streaks, Friends Quests and leagues", "Structured lessons in every course", "No direct messaging between learners"], bestFor: "starting from zero and building the habit" }}
-  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "Echo: free phrase packs to review", "No lesson path and no live calls"], bestFor: "using what you learned with a real person" }}
+  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "Echo: free phrase packs to review", "No lesson path; calls on the web only for now"], bestFor: "using what you learned with a real person" }}
 />
 
 | | Duolingo | LangX |
@@ -115,7 +115,7 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 | Chat with other learners | No direct messaging | Yes, one-to-one chats |
 | Social features | Friends, Friend Streaks, Friends Quests, leagues, nudges, high-fives | Two-way matching, chats, a Feed of everyday posts that can ask for a correction or a recording |
 | Feedback | Automatic, against model answers | Corrections from native speakers, unlimited on every plan |
-| Speaking | Speaking exercises; AI Video Call and Roleplay on paid plans | Voice notes, read-aloud; no live calls |
+| Speaking | Speaking exercises; AI Video Call and Roleplay on paid plans | Voice notes, read-aloud; voice and video calls on the web (phone apps soon) |
 | Streaks and games | Streaks, XP, leagues, gems | Streaks, tokens, weekly/monthly/yearly/all-time leaderboards |
 | Structured lessons | Yes | No lesson path; Echo has free phrase packs to review |
 | Free plan | Yes, every course | Yes: unlimited replies and corrections, 5 new conversations a day, 20 translations a day |

@@ -58,7 +58,7 @@ We write LangX, so we have an obvious interest here. That is exactly why this li
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Largest community, social feed | Yes, with ads and daily caps | VIP | Yes | Voicerooms, Live | iOS, Android, web | No |
 | Tandem | Focused one-to-one exchange | Yes, with ads and daily caps | Pro | Yes | Language Parties | iOS, Android, web | No |
-| LangX | Two-way matching, unlimited corrections, no ads | Yes, 5 new chats a day | Pro | No (voice messages) | No | iOS, Android, web | Yes (BSD-3) |
+| LangX | Two-way matching, unlimited corrections, no ads | Yes, 5 new chats a day | Pro | Yes, voice and video calls on the web (phone apps soon) | No | iOS, Android, web | Yes (BSD-3) |
 | Speaky | Starting free, fast | Yes | No subscription required | Text-first | No | iOS, Android, web | No |
 | Lingbe | Instant voice calls | Yes, limited minutes | Pro and credits | Yes, one tap | No | iOS, Android | No |
 | ConversationExchange | In-person meetups, pen pals | Yes, with ads | Optional no-ads membership | Via your own tools | No | Web | No |
@@ -126,7 +126,7 @@ This is our app, so read this entry with that in mind. [LangX](https://get.langx
 - **Free vs paid:** the Free plan is a real plan, not a trial. Replies and corrections are **unlimited on every plan**, and you get 5 new conversations and 20 in-chat translations per rolling 24 hours. **Pro** adds unlimited new conversations, more translations (1,000 a day), more languages and extra filters. Details are on the [plans page](/plans).
 - **Platforms:** iOS, Android and the web at app.langx.io.
 - **Standout features:** hold any message to correct it, translation inside the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point you earn by talking and teaching (not money, and it cannot be bought or sold). The whole app is [open source under BSD-3](https://github.com/langx/langx) and can be self-hosted. No ads.
-- **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. There are **no live voice or video calls** and no group audio rooms yet; practice happens through text and voice messages. AI feedback (LangX Copilot) is planned for Pro but not shipped.
+- **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. Voice and video calls are **web only** for now (coming to the iPhone and Android apps), and there are no group audio rooms. AI feedback (LangX Copilot) is planned for Pro but not shipped.
 
 <AppDemo
   screen="chat"

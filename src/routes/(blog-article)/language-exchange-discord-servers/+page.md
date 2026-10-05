@@ -151,12 +151,12 @@ A common pattern: meet people in a Discord voice channel, then keep practicing w
 
 LangX, our own language exchange app, has a community Discord server at [discord.langx.io](https://discord.langx.io). Be clear on what it is: it is the **project's community server**, where users give feedback, report bugs, follow updates and where contributors to the open source code talk. It is not a matching service and not a language exchange server like the ones above.
 
-To practice in LangX itself, [get the app](https://get.langx.io) on iOS, Android or the web. It matches you in both directions, lets you correct any message by holding it, with corrections unlimited on every plan, and supports voice and photo messages. It has no live calls, so for group voice practice, Discord is the better tool. More on the app is on the [LangX home page](/).
+To practice in LangX itself, [get the app](https://get.langx.io) on iOS, Android or the web. It matches you in both directions, lets you correct any message by holding it, with corrections unlimited on every plan, and supports voice and photo messages. It has one-to-one voice and video calls in the web app (coming to the iPhone and Android apps) but no group voice, so for group voice practice, Discord is the better tool. More on the app is on the [LangX home page](/).
 
 <AppDemo
   screen="chat"
   title="Practice happens in the app, not on Discord"
-  text="In LangX you are matched one-to-one and can correct any message by holding it. Voice and photo messages are built in; live calls are not."
+  text="In LangX you are matched one-to-one and can correct any message by holding it. Voice and photo messages are built in, and one-to-one calls work in the web app."
 />
 
 ## FAQ

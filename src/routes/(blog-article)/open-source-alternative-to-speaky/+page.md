@@ -82,7 +82,7 @@ Details about Speaky come from its official store listings at the time of writin
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Search the community and message partners directly; map of partners nearby or worldwide |
 | Corrections | Hold any message to correct it, or ask for one on a Feed post; unlimited on every plan | Partners can correct each other's messages |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not confirmed |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to use |
 | Paid plan | Yes: Pro | None listed in the stores |
 | No ads | Yes | No |

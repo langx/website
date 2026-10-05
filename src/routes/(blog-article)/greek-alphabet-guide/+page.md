@@ -209,7 +209,7 @@ Keep the [Greek alphabet chart](/tools/alphabet/greek) open while you learn the 
 
 ## Practice reading and speaking with native speakers
 
-The chart gives you the letters; a Greek speaker gives you the sounds, the stress and the rhythm. On LangX, Greek is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Greek and are learning a language you speak. They can hold any of your messages to correct it, corrections are unlimited on every plan, and you can send voice messages so they hear where you put the stress. LangX has voice messages rather than live calls. The free plan includes 5 new conversations a day and unlimited replies.
+The chart gives you the letters; a Greek speaker gives you the sounds, the stress and the rhythm. On LangX, Greek is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Greek and are learning a language you speak. They can hold any of your messages to correct it, corrections are unlimited on every plan, and you can send voice messages so they hear where you put the stress. LangX also has voice and video calls in the web app, coming to the iPhone and Android apps. The free plan includes 5 new conversations a day and unlimited replies.
 
 <AppDemo screen="chat" title="Write in Greek, get corrected" text="Send a message in Greek letters, and your partner can hold it to correct a spelling or a missing tonos. Voice messages let them check your pronunciation too." />
 

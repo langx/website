@@ -209,7 +209,7 @@ If you're also curious about related scripts, compare [the Tamil alphabet](/tool
 
 ## Practice reading and speaking with native speakers
 
-A chart gives you the shapes. Pronunciation, especially the letter pairs and ഴ, comes from hearing a person and being corrected. On LangX, Malayalam is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Malayalam and are learning a language you speak. They can hold any of your messages to correct it, corrections are unlimited on every plan, and you can send voice messages so they hear how you say a word, not only how you spell it. LangX has voice messages rather than live calls. The free plan includes 5 new conversations a day and unlimited replies; [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
+A chart gives you the shapes. Pronunciation, especially the letter pairs and ഴ, comes from hearing a person and being corrected. On LangX, Malayalam is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Malayalam and are learning a language you speak. They can hold any of your messages to correct it, corrections are unlimited on every plan, and you can send voice messages so they hear how you say a word, not only how you spell it. LangX also has voice and video calls in the web app, coming to the iPhone and Android apps. The free plan includes 5 new conversations a day and unlimited replies; [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 ## FAQ
 

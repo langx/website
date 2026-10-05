@@ -2,7 +2,7 @@
 	import { reveal } from '$lib/utils/reveal';
 	import { echo } from '$lib/data/echo';
 
-	// Seven more things, one line each. Every claim has to be true of the
+	// Eight more things, one line each. Every claim has to be true of the
 	// shipping app; the paid one names its plan, and Echo's numbers come from
 	// echo.ts.
 	const tiles = [
@@ -23,6 +23,10 @@
 			body: 'Practise pronunciation with voice notes; show what you mean with photos.'
 		},
 		{
+			title: 'Voice and video calls',
+			body: 'Call a partner from the chat once they have sent you 5 messages. On the web now; coming to the iPhone and Android apps.'
+		},
+		{
 			title: 'Streaks and tokens',
 			body: 'A daily streak keeps you honest. Tokens you earn by chatting and correcting.'
 		},
@@ -39,7 +43,7 @@
 </script>
 
 <!--
-	What the chapters above do not stop to show: seven more things, one line
+	What the chapters above do not stop to show: eight more things, one line
 	each, in the app's list grammar.
 -->
 <section id="features" class="features">

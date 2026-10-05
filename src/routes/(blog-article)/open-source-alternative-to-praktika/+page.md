@@ -62,7 +62,7 @@ So when people search for a "Praktika alternative", they usually want one of two
 | Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Learning paths with 1,000+ lessons, including exam prep |
 | Corrections | A human partner can correct any message; unlimited on every plan | Real-time AI feedback on pronunciation, grammar and word choice, with adjustable strictness |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | Tutors can explain in your native language |
-| Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Spoken, face-to-face-style conversation with an avatar; no human calls |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Spoken, face-to-face-style conversation with an avatar; no human calls |
 | Languages | 182 listed in the app | Nine: English, Spanish, French, German, Italian, Portuguese (European and Brazilian), Japanese and Korean |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with limited practice and a free trial; full access needs a subscription |
 | Paid plan | Yes (Pro) | Yes (Premium subscription) |
@@ -163,7 +163,7 @@ LangX shows no ads and uses no advertising identifiers. It does use product anal
 
 - **No AI tutor today.** LangX Copilot, private AI feedback while you practice, is planned for Pro but not shipped.
 - **No learning paths or exam prep.** Echo's free phrase packs are something to review, not a course.
-- **No live calls,** only voice messages.
+- **Calls on the web only,** for now: voice and video calls work in the web app and are coming to the iPhone and Android apps.
 - **People are not always online,** and a smaller community means fewer partners for some language pairs.
 
 ## Is LangX a free Praktika alternative?

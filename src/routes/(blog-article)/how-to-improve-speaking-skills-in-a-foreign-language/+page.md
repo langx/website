@@ -145,9 +145,9 @@ voice note of their own, you get native listening practice at the same time. Whe
 up, hold it to hear it read aloud, or use the built-in translation.
 
 <Callout type="info">
-LangX does not have live voice or video calls. It is built around messages:
-text, voice and photos. If you want scheduled live conversation, pair it with a
-tutor or an in-person meetup.
+LangX is built around messages: text, voice and photos. Voice and video calls
+work in the web app and are coming to the iPhone and Android apps. If you want
+lessons with a teacher, pair it with a tutor or an in-person meetup.
 </Callout>
 
 ## 5. Have real conversations

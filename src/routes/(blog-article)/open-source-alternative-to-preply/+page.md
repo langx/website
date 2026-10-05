@@ -35,7 +35,7 @@ If you want a free, open source alternative to Preply for conversation practice,
 <KeyTakeaways items={[
   "Preply is a marketplace for paid one-to-one lessons: a trial, then a subscription with one tutor.",
   "LangX is a free language exchange app with native speakers who learn your language and unlimited corrections.",
-  "LangX has no tutors and no live calls, so it does not replace lessons.",
+  "LangX has no tutors, so it does not replace lessons.",
   "The strong setup: a tutor once or twice a week, a LangX partner every day."
 ]} />
 
@@ -62,7 +62,7 @@ So a "Preply alternative" can mean two things:
 | Matching | Two-way: people who speak what you learn and learn what you speak | You choose a tutor by language, price, reviews, specialty and schedule |
 | Corrections | Hold any message to correct it; unlimited on every plan | Your tutor corrects you in lessons |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a chat feature |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live video lessons in Preply's online classroom |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Live video lessons in Preply's online classroom |
 | How you pay | Free plan, an optional Pro plan | A trial lesson, then a subscription with one tutor, billed every 28 days |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free lessons; browsing tutors is free |
 | No ads | Yes | Yes |
@@ -81,7 +81,7 @@ So a "Preply alternative" can mean two things:
       "182 languages listed in the app",
       "Two-way matching with native speakers",
       "Hold any message to correct it, unlimited on every plan",
-      "Voice, photo and video messages; no live calls",
+      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "Free plan, no ads, open source (BSD-3)"
     ],
     bestFor: "free daily practice between lessons"
@@ -154,7 +154,7 @@ On LangX you hold any message to correct it, and corrections are unlimited on ev
 
 ### Not live, and not a teacher
 
-LangX has no live calls; conversations are text, voice, photo and video messages. And a partner is not a trained teacher: they know what sounds natural but may not be able to explain why. If you need structured lessons, grammar explained or exam preparation, keep your tutor.
+LangX's voice and video calls are in the web app only for now (coming to the iPhone and Android apps). And a partner is not a trained teacher: they know what sounds natural but may not be able to explain why. If you need structured lessons, grammar explained or exam preparation, keep your tutor.
 
 ### No ads
 
@@ -218,7 +218,7 @@ No. Preply gives you a tutor who plans and runs lessons; LangX gives you a peer 
 
 ### Does LangX have live video lessons like Preply?
 
-No. LangX has voice, photo and video messages and read-aloud, but no live calls and no teachers.
+No. LangX has no teachers. It has voice and video calls between partners in its web app (coming to the iPhone and Android apps), plus voice, photo and video messages and read-aloud.
 
 ### What are other apps like Preply?
 

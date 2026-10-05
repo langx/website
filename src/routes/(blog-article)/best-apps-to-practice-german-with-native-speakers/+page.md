@@ -66,7 +66,7 @@ If you are moving to Vienna or Zurich, filter partners by country early. Otherwi
 | --- | --- | --- | --- | --- |
 | Tandem | Language exchange | A steady one-to-one partner | Yes, with ads and caps | Calls, Language Parties |
 | HelloTalk | Language exchange | Many partners fast, posts corrected by natives | Yes, with ads and caps | Calls, Voicerooms |
-| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | No (voice messages) |
+| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | Yes, voice and video calls on the web (phone apps soon) |
 | Conversation Exchange | Partner-finding website | Meeting German speakers in person | Yes, with ads | In person or your own call app |
 | italki / Preply | Tutor marketplaces | A paid tutor from Germany, Austria or Switzerland | Browsing is free; lessons paid | Video lessons |
 | Praktika | AI speaking app | Rehearsing before real conversations | Limited free | Speaking to AI |
@@ -124,7 +124,7 @@ Compare: [LangX vs HelloTalk](/open-source-alternative-to-hellotalk).
 Our app. [LangX](https://get.langx.io) matches in both directions: set German as the language you are learning and you see German speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which matters when a single German sentence can carry three case mistakes. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken.
 
 - **Best for:** careful written practice where fixing mistakes is the point, with no ads.
-- **Keep in mind:** the community is far smaller than Tandem's or HelloTalk's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
+- **Keep in mind:** the community is far smaller than Tandem's or HelloTalk's, and calls are **web only** for now: voice and video calls work in the browser and are coming to the iPhone and Android apps. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"
@@ -213,7 +213,7 @@ Tandem is a strong pick for a steady one-to-one partner, and HelloTalk has the l
 
 ### Can I practice German speaking for free?
 
-Yes. Tandem and HelloTalk include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX supports voice messages but not live calls. DW Learn German is a free course, though not a way to talk to people.
+Yes. Tandem and HelloTalk include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX has voice messages, and free voice and video calls in its web app (coming to the iPhone and Android apps). DW Learn German is a free course, though not a way to talk to people.
 
 ### Should I use du or Sie with a language exchange partner?
 

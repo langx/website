@@ -97,7 +97,7 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 | Matching | Two-way: people who speak what you learn and learn what you speak | Not applicable; friends and leaderboards, no one-to-one chat |
 | Corrections | Hold any message to correct it; unlimited on every plan | Automatic feedback on each exercise |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Translation exercises are part of lessons |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Speaking exercises; AI Video Call and Roleplay on Max |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Speaking exercises; AI Video Call and Roleplay on Max |
 | Streaks and games | Daily streaks, leaderboards, the LangX Token | Streaks, leagues, gems and much more |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: every language course, with ads and limits on how much you can do in a row |
 | Paid plan | Yes: Pro | Yes: Super and Max |
@@ -164,7 +164,7 @@ LangX shows no ads and uses no advertising identifiers. It does have product ana
 
 ### What LangX does not do
 
-LangX does not teach you a language from zero. There is no lesson path, no grammar course and no placement test; Echo's free phrase packs give you something to review from day one, but they will not explain the grammar. It works best once you can write simple sentences, which is roughly where Duolingo gets you. And there are no live calls; conversations are text, voice, photo and video messages.
+LangX does not teach you a language from zero. There is no lesson path, no grammar course and no placement test; Echo's free phrase packs give you something to review from day one, but they will not explain the grammar. It works best once you can write simple sentences, which is roughly where Duolingo gets you. And calls are web only for now: voice and video calls work in the browser and are coming to the iPhone and Android apps.
 
 ## Is there an open source Duolingo alternative for lessons?
 

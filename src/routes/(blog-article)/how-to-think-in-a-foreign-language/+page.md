@@ -196,7 +196,7 @@ A text or voice conversation works well for this because it fits the gaps of
 your day. On [LangX](/), you are matched with people who speak the language
 you're learning and are learning yours. You can send voice and photo messages,
 hold any message to correct it (unlimited on every plan), and hold a message to
-hear it read aloud. It's message-based, with no live calls, which suits
+hear it read aloud. It's mostly messages (calls are web only for now), which suits
 learners who want to think before they answer. Our guides on [how to find a
 language exchange partner](/how-to-find-a-language-exchange-partner) and [how
 to do a language exchange](/how-to-do-a-language-exchange) help you get started.

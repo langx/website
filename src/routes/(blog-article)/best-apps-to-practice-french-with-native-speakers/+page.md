@@ -66,7 +66,7 @@ If you are moving to Montreal or working with a Belgian team, filter partners by
 | --- | --- | --- | --- | --- |
 | HelloTalk | Language exchange | Many partners fast, posts corrected by several natives | Yes, with ads and caps | Calls, Voicerooms |
 | Tandem | Language exchange | A steady one-to-one partner, filtered by country | Yes, with ads and caps | Calls, Language Parties |
-| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | No (voice messages) |
+| LangX | Language exchange | Corrections on every message, no ads | Yes, 5 new chats a day | Yes, voice and video calls on the web (phone apps soon) |
 | Conversation Exchange | Partner-finding website | Meeting French speakers in person | Yes, with ads | In person or your own call app |
 | italki / Preply | Tutor marketplaces | A paid tutor from France, Quebec or elsewhere | Browsing is free; lessons paid | Video lessons |
 | Speak / Praktika | AI speaking apps | Rehearsing before real conversations | Trial or limited free | Speaking to AI |
@@ -126,7 +126,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 Our app. [LangX](https://get.langx.io) matches in both directions: set French as the language you are learning and you see French speakers who are learning a language you speak. Your partner can hold any message to correct it, and corrections are **unlimited on every plan**, which helps in a language where one sentence can hide a gender, an agreement and an accent mistake at once. Translation is inside the chat (20 a day on Free), and read-aloud lets you hear a message spoken, useful when the spelling gives little away.
 
 - **Best for:** written practice where fixing mistakes is the point, with no ads.
-- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and there are **no live calls**, only text, voice, photo and video messages. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
+- **Keep in mind:** the community is far smaller than HelloTalk's or Tandem's, and calls are **web only** for now: voice and video calls work in the browser and are coming to the iPhone and Android apps. Free allows 5 new conversations a day; replies are unlimited. See [plans](/plans).
 
 <AppDemo
   screen="chat"
@@ -221,6 +221,6 @@ Tu is normal between exchange partners of similar age. Use vous with someone muc
 
 ### Can I practice French speaking for free?
 
-Yes. HelloTalk and Tandem include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX supports voice messages but not live calls. Tutors on italki and Preply are paid.
+Yes. HelloTalk and Tandem include free calls with partners, and Conversation Exchange helps you meet someone in person. LangX has voice messages, and free voice and video calls in its web app (coming to the iPhone and Android apps). Tutors on italki and Preply are paid.
 
 More guides in this series: practicing [English](/best-apps-to-practice-english-with-native-speakers), [Spanish](/best-apps-to-practice-spanish-with-native-speakers), [German](/best-apps-to-practice-german-with-native-speakers), [Italian](/best-apps-to-practice-italian-with-native-speakers), [Portuguese](/best-apps-to-practice-portuguese-with-native-speakers), [Russian](/best-apps-to-practice-russian-with-native-speakers), [Arabic](/best-apps-to-practice-arabic-with-native-speakers), [Turkish](/best-apps-to-practice-turkish-with-native-speakers), [Chinese](/best-apps-to-practice-chinese-with-native-speakers), [Japanese](/best-apps-to-practice-japanese-with-native-speakers) and [Korean](/best-apps-to-practice-korean-with-native-speakers) with native speakers, or see [the best language exchange apps](/best-language-exchange-apps) overall.

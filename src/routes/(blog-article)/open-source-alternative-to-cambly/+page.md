@@ -62,7 +62,7 @@ So a "Cambly alternative" can mean two things:
 | Matching | Two-way: people who speak what you learn and learn what you speak | You pick a tutor who is online now or book one in advance |
 | Corrections | Hold any message to correct it; unlimited on every plan | The tutor corrects you live; some plans add lesson feedback |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a chat feature |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Live one-to-one video lessons, plus small group lessons |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Live one-to-one video lessons, plus small group lessons |
 | Lesson recordings | Not applicable | Recordings and transcripts on some plans |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free plan; you can sign up and browse before subscribing |
 | Paid plan | Yes: Pro | Yes: subscription plans by minutes and days per week |
@@ -82,7 +82,7 @@ So a "Cambly alternative" can mean two things:
       "182 languages listed in the app",
       "Native speakers who are learning your language",
       "Hold any message to correct it, unlimited on every plan",
-      "Voice, photo and video messages; no live calls",
+      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "Free plan, no ads, open source (BSD-3)"
     ],
     bestFor: "free daily practice between lessons"
@@ -157,7 +157,7 @@ On LangX you hold any message to correct it, and corrections are unlimited on ev
 
 ### Not live, and not a teacher
 
-LangX has no live calls. Conversations are text, voice, photo and video messages. And a partner is not a trained teacher: they can tell you what sounds natural, but they may not be able to explain why. If you need grammar explained or want live speaking under pressure, keep your tutor.
+LangX's voice and video calls are in the web app only for now (coming to the iPhone and Android apps), and a partner is not a trained teacher: they can tell you what sounds natural, but they may not be able to explain why. If you need grammar explained or want live speaking under pressure, keep your tutor.
 
 ### No ads
 
@@ -222,7 +222,7 @@ No. Cambly gives you live lessons with a tutor who focuses on you; LangX gives y
 
 ### Does LangX have video calls like Cambly?
 
-No. LangX has voice, photo and video messages and read-aloud, but no live calls. If live video is what you need, Cambly, Preply, italki or Tandem are better fits.
+Not like Cambly's lessons. In the LangX web app you can make free voice and video calls with a partner once they have sent you 5 messages, and calls are coming to the iPhone and Android apps. A partner is a fellow learner, not a tutor, so if live lessons are what you need, Cambly, Preply or italki are better fits.
 
 ### What are other apps like Cambly?
 

@@ -238,8 +238,9 @@ This is where an app like [LangX](/) fits. It matches you with people who speak
 the language you are learning and are learning yours, so the exchange works in
 both directions. You can hold any message to correct it, and corrections are
 unlimited on every plan, including Free. You can send voice and photo messages,
-and translation is built into the chat. LangX does not do live calls, so if you
-want real-time conversation you will need to add a tutor or a meetup.
+and translation is built into the chat. Voice and video calls work in its web app
+(they are coming to the iPhone and Android apps); for more real-time
+conversation, add a tutor or a meetup.
 
 ### Measure progress so you notice it
 

@@ -59,7 +59,7 @@ What it no longer has is a dedicated **language partner search**. italki used to
       "Practice with learners who are native speakers of your target language",
       "Two-way matching",
       "Correct any message in the chat, unlimited on every plan",
-      "Voice, photo and video messages; no live calls",
+      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "No ads; open source, BSD-3"
     ],
     bestFor: "daily practice without paying per session"
@@ -87,7 +87,7 @@ What it no longer has is a dedicated **language partner search**. italki used to
 | Matching | Two-way: people who speak what you learn and learn what you speak | You choose a teacher by language, price, availability and reviews; no partner search |
 | Corrections | Correct any message in the chat, unlimited on every plan | Teachers correct you in lessons; community members correct posted writing |
 | Translation | Built into the chat (Free 20 a day, Pro 1000) | Not a chat feature |
-| Voice and calls | Voice, photo and video messages, read-aloud; no live calls | Live video lessons |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Live video lessons |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Community is free; lessons are paid |
 | Paid plan | Yes (Pro) | Pay per lesson; optional italki Plus subscription |
 | No ads | Yes | Yes |
@@ -154,7 +154,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 ### What LangX will not do for you
 
 - **It is not a teacher.** Your partner is a native speaker, not a trained instructor. They can tell you what sounds natural, but not always why.
-- **No live calls,** only voice messages. italki's lessons are live video.
+- **Calls on the web only,** for now (coming to the iPhone and Android apps), and with a partner, not a teacher. italki's lessons are live video with a tutor.
 - **No curriculum or lesson plans.**
 - **A smaller community,** so rare languages may have few people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours; replies and corrections are never capped. See the [plans page](/plans).
@@ -211,6 +211,6 @@ Many beginners progress fastest with some guided lessons, which italki provides.
 
 ### Are there apps like italki with free video calls?
 
-Tandem and HelloTalk offer free calls with exchange partners, and Lingbe connects you to live voice calls. LangX has voice messages but no live calls.
+Tandem and HelloTalk offer free calls with exchange partners, and Lingbe connects you to live voice calls. LangX has free voice and video calls in its web app, coming to the iPhone and Android apps.
 
 More comparisons: [all LangX comparisons](/compare), [LangX vs Busuu](/open-source-alternative-to-busuu), [LangX vs Tandem](/open-source-alternative-to-tandem), [LangX vs HelloTalk](/open-source-alternative-to-hellotalk), [LangX vs Lingbe](/open-source-alternative-to-lingbe), and [the best language exchange apps](/best-language-exchange-apps).

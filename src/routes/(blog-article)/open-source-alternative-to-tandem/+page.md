@@ -56,7 +56,7 @@ Everything about Tandem below reflects its app store listings and its own site a
     points: [
       "Two-way matching",
       "Hold any message to correct it; unlimited on every plan",
-      "Voice, photo and video messages; no live calls",
+      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "No ads",
       "Open source, BSD-3, self-hostable"
     ],
@@ -81,7 +81,7 @@ Everything about Tandem below reflects its app store listings and its own site a
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Browse the community with filters (language, age, level and more) |
 | Corrections | Hold any message to correct it; unlimited on every plan | Inline corrections in chat; Pro adds AI correction explanations |
 | Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built in; limited on free, unlimited with Tandem Pro |
-| Voice and calls | Voice, photo and video messages; read-aloud; no live calls | Voice messages, audio and video calls, group audio Parties |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Voice messages, audio and video calls, group audio Parties |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with daily limits |
 | Paid plan | Yes: Pro | Yes: Tandem Pro |
 | No ads | Yes | No (Pro removes them) |
@@ -96,7 +96,7 @@ Everything about Tandem below reflects its app store listings and its own site a
 It would be odd to write about a Tandem alternative without saying plainly why so many people use Tandem. It has earned its place.
 
 - **A big, active community.** Tandem describes "millions of members", and Google Play lists more than ten million downloads. More people means more partners for less common language pairs and more people online at any hour. LangX's community is much smaller today.
-- **Live conversation.** You can move from text to an audio or video call inside the app. LangX has voice notes, not calls, so if live speaking with a partner is your main goal, Tandem covers it natively.
+- **Live conversation.** You can move from text to an audio or video call inside the app, on your phone. LangX has voice and video calls too, but only in its web app for now; they are coming to the iPhone and Android apps. If calling from your phone is your main goal today, Tandem covers it.
 - **Group practice.** Language Parties are live audio rooms where you can listen in or take the floor, and Language Clubs are topic-based groups for posts and discussion. LangX has no live group rooms.
 - **Wide language coverage.** Tandem lists more than 300 languages, including 12 sign languages such as American Sign Language.
 - **A reviewed community.** New Tandem profiles go through an application review before they can use the app. It can mean a short wait, but many users like the extra filter.
@@ -160,7 +160,7 @@ So LangX is a free Tandem alternative in the sense that the free plan is usable 
 
 **Pick Tandem if you:**
 
-- want audio or video calls and group Parties inside the app
+- want audio or video calls in a phone app today, and group Parties
 - learn a less common language and need the biggest possible pool of partners
 - like a community where new profiles are reviewed before they join
 
@@ -192,7 +192,7 @@ Because LangX is open source, you can help shape it. Code, design, translations 
 
 ### What is the best open source alternative to Tandem?
 
-LangX is an open source alternative to Tandem: the app and its API are public under the BSD-3 license and can be self-hosted. It focuses on two-way matching and unlimited corrections rather than calls and group rooms.
+LangX is an open source alternative to Tandem: the app and its API are public under the BSD-3 license and can be self-hosted. It focuses on two-way matching and unlimited corrections rather than group rooms; voice and video calls are in its web app, with the phone apps to follow.
 
 ### Is LangX free like Tandem?
 
@@ -204,7 +204,7 @@ Tandem, by a wide margin. It has been around longer and has a much larger commun
 
 ### Does LangX have video calls like Tandem?
 
-No. LangX has voice, photo and video messages and can read messages aloud, but it does not have live audio or video calls. Tandem does.
+Yes, in the web app for now. You can make voice and video calls in the browser with a partner once they have sent you 5 messages, and calls are coming to the iPhone and Android apps. Tandem has calls in its phone apps today.
 
 ### Are there other apps like Tandem?
 

@@ -57,7 +57,7 @@ By that test, Duolingo is a social app for motivation but not for conversation, 
 | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Exchange, social feed, voice rooms | Calls, Voicerooms, Live | Yes, in chat and on Moments | Yes, with ads and daily caps | No |
 | Tandem | One-to-one exchange, audio rooms | Calls, Language Parties | Yes, in chat | Yes, with ads and daily caps | No |
-| LangX | Two-way exchange, a Feed of everyday posts | No (voice messages) | Yes, unlimited on every plan | Yes, no ads, 5 new chats a day | Yes (BSD-3) |
+| LangX | Two-way exchange, a Feed of everyday posts | Yes, voice and video calls on the web (phone apps soon) | Yes, unlimited on every plan | Yes, no ads, 5 new chats a day | Yes (BSD-3) |
 | Speaky | Open exchange, community map | Not confirmed | Partners can correct messages | Yes | No |
 | Busuu | Community corrections on a course | No | Yes, on exercises | Yes, limited | No |
 | Slowly | Pen pals (delayed letters) | No | No tool | Yes | No |
@@ -105,7 +105,7 @@ Compare: [LangX vs Tandem](/open-source-alternative-to-tandem), or read [Tandem 
 
 - **Why it is social:** every "lesson" is a person. Around the chat there is translation, voice, photo and video messages, read-aloud, daily streaks, leaderboards (week, month, year and all time) and the [LangX Token](/tokens), an in-app point you earn by talking and correcting. It is not money and cannot be bought or sold.
 - **Good for:** learners who want feedback at the center of the conversation, no ads, and code they can read: the app is [open source under BSD-3](https://github.com/langx/langx).
-- **Watch out for:** the community is much smaller than HelloTalk's or Tandem's, so rarer language pairs can take longer. There are no live calls or group voice rooms; practice is by text and voice messages. Free lets you start 5 new conversations and use 20 translations a day; [Pro](/plans) raises those.
+- **Watch out for:** the community is much smaller than HelloTalk's or Tandem's, so rarer language pairs can take longer. There are no group voice rooms, and voice and video calls are web only for now (coming to the iPhone and Android apps). Free lets you start 5 new conversations and use 20 translations a day; [Pro](/plans) raises those.
 
 If you came here from Duolingo, we wrote a separate page on LangX as [the social alternative to Duolingo](/social-alternative-to-duolingo).
 
