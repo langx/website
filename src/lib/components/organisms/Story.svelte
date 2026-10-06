@@ -5,10 +5,24 @@
 	import FeedScreen from '$lib/components/phone/FeedScreen.svelte';
 	import MeScreen from '$lib/components/phone/MeScreen.svelte';
 	import { inview } from '$lib/utils/inview';
+
+	/**
+	 * The recap's pages, as the app's server draws them for sharing: one card
+	 * per slide of "Your Month", then the summary. Rendered from the real card
+	 * code for the example account, so they are what a person actually posts.
+	 */
+	const recap = [
+		{ file: 'intro', alt: 'September, my month on LangX' },
+		{ file: 'messages', alt: '412 messages sent' },
+		{ file: 'corrections', alt: '37 sentences corrected' },
+		{ file: 'echo', alt: '156 Echo cards reviewed' },
+		{ file: 'streak', alt: 'A 12-day streak, with the month as a calendar' },
+		{ file: 'summary', alt: 'The month in four numbers' }
+	];
 </script>
 
 <!--
-	Four short chapters, one idea each, the phone on alternating sides. Each
+	Five short chapters, one idea each, the phone on alternating sides. Each
 	chapter plays once when it scrolls into view: the text rises, the phone
 	slides in from its own side, and the screen inside does its one thing.
 -->
@@ -78,6 +92,32 @@
 					<UiIcon name="check" size={22} strokeWidth={3} /><span>Translate right in the chat</span>
 				</li>
 				<li><UiIcon name="check" size={22} strokeWidth={3} /><span>No ads, nothing sold</span></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="chapter" use:inview={{ threshold: 0.3 }}>
+		<div class="text">
+			<h2>share your month.</h2>
+			<p>
+				Every month ends with a recap of what you did. Post any page of it to your story, or all of
+				them.
+			</p>
+		</div>
+		<div class="device">
+			<ul class="deck" role="list" style="--count: {recap.length}">
+				{#each recap as card, i}
+					<li style="--i: {i}">
+						<img
+							src="/images/recap/{card.file}.webp"
+							alt={card.alt}
+							width="540"
+							height="960"
+							loading="lazy"
+							decoding="async"
+						/>
+					</li>
+				{/each}
 			</ul>
 		</div>
 	</section>
@@ -160,6 +200,53 @@
 		}
 	}
 
+	// The recap's cards, fanned like a hand of them. They arrive stacked and
+	// spread when the chapter comes into view; a card under the pointer lifts.
+	.deck {
+		--card-w: 176px;
+		--step: 72px;
+		position: relative;
+		// The tilt carries the outer cards past their boxes; the margin keeps
+		// them off the edge of a phone.
+		width: calc(var(--card-w) + (var(--count) - 1) * var(--step));
+		margin-inline: 12px;
+		height: calc(var(--card-w) * 16 / 9 + 40px);
+
+		@include for-phone-only {
+			--card-w: 104px;
+			--step: 40px;
+		}
+
+		li {
+			position: absolute;
+			top: 20px;
+			left: calc(var(--i) * var(--step));
+			width: var(--card-w);
+			z-index: var(--i);
+			transform: rotate(calc((var(--i) - (var(--count) - 1) / 2) * 4deg));
+			transition: transform 400ms var(--ease-out);
+
+			&:hover {
+				z-index: 10;
+				transform: translateY(-16px) rotate(0deg);
+			}
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-radius: 10px;
+			box-shadow: 0 10px 30px rgba(23, 25, 28, 0.18);
+		}
+	}
+
+	// Stacked in the middle until the chapter is in view, then dealt out.
+	:global(.chapter:not(.is-in)) .deck li {
+		transform: translateX(calc((var(--count) - 1) / 2 * var(--step) - var(--i) * var(--step)))
+			rotate(0deg);
+	}
+
 	.device {
 		--phone-zoom: 0.72;
 		display: flex;
@@ -180,7 +267,9 @@
 	.text,
 	.device {
 		opacity: 0;
-		transition: opacity 500ms var(--ease-out), transform 600ms var(--ease-out);
+		transition:
+			opacity 500ms var(--ease-out),
+			transform 600ms var(--ease-out);
 	}
 
 	.text {
@@ -207,6 +296,12 @@
 		.device {
 			opacity: 1;
 			transform: none;
+			transition: none;
+		}
+
+		.deck li,
+		:global(.chapter:not(.is-in)) .deck li {
+			transform: rotate(calc((var(--i) - (var(--count) - 1) / 2) * 4deg));
 			transition: none;
 		}
 	}
