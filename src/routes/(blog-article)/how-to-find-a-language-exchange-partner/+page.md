@@ -176,7 +176,7 @@ Correct their messages carefully, explain things when they ask, and be patient. 
 
 ### Always leave a question open
 
-Ending your message with a question gives your partner an easy reason to reply. If you run out of ideas, pull from our [100 conversation topics by level](/language-exchange-conversation-topics).
+Ending your message with a question gives your partner an easy reason to reply. If you run out of ideas, pull from our [200 conversation topics by level](/language-exchange-conversation-topics).
 
 ### Mix up the format
 
