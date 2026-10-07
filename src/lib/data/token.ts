@@ -82,16 +82,18 @@ export const tokenIsNot = [
 
 /**
  * The referral programme; mirrors `TOKEN_RULES.referral` and `signupBonus`.
- * Nothing is paid for signing up — an invite pays once the invitee writes to
- * somebody — and the plan bonus goes to the inviter, never to whoever paid.
+ * Nothing is paid for signing up — an invite pays once the invitee has had a
+ * two-way conversation with someone other than the inviter — and the plan
+ * bonus goes to the inviter, never to whoever paid. `maxActivationsPerMonth`
+ * is the monthly limit per inviter.
  */
 export const tokenInvites = [
-	{ when: 'They write their first message or correction', amount: '1,000' },
+	{ when: 'They have a real conversation with someone other than you', amount: '1,000' },
 	{ when: 'They ever start a paid plan', amount: '4,000' }
 ];
 
 export const tokenInviteNote =
-	'At most 5,000 per person you invite. They earn 750 at the same moment, so with the 250 every new account starts with they begin on 1,000. Nothing is paid for signing up alone, and the person who pays for a plan gets no tokens for paying.';
+	'At most 5,000 per person you invite. They earn 750 at the same moment, so with the 250 every new account starts with they begin on 1,000. Nothing is paid for signing up alone, and the person who pays for a plan gets no tokens for paying. Invites pay you for up to 10 people a month.';
 
 /** v1 balances are credited to earned tokens divided by this. */
 export const legacyTokenDivisor = 100;
