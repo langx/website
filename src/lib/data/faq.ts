@@ -18,7 +18,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 11,
 		title: 'Can I get Pro without paying?',
-		content: `Yes, three ways. Invite friends: every 3 who join with your link and start talking give you a month of Pro, up to 3 months a year. Keep a streak: 100 days gives you a month, 365 days gives you 3. Or type a gift code on the plans screen in the app. Free Pro never renews and never charges you. <a href="/plans">More on the plans page</a>.`
+		content: `Yes, three ways. Invite friends: every 3 who join with your link and start talking give you a month of Pro, up to 3 months a year. Keep a streak: 7 days gives you a week, 100 days a month, 365 days 3 months. Or type a gift code on the plans screen in the app. Free Pro never renews and never charges you. <a href="/plans">More on the plans page</a>.`
 	},
 	{
 		id: 2,
