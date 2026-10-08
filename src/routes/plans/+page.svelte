@@ -74,7 +74,7 @@
 		{
 			id: 208,
 			title: 'Do I get anything for a long streak?',
-			content: `Yes. A 100-day streak gives you 1 month of Pro, and a 365-day streak gives you 3 months. Each happens once, so a year-long streak adds up to 4 months. If your streak is already past 100 or 365 days, you get it the next time you practise.`
+			content: `Yes. A 7-day streak gives you 1 week of Pro, a 100-day streak gives you 1 month, and a 365-day streak gives you 3 months. Each happens once, so a year-long streak adds up to 4 months and a week. If your streak is already past 7, 100 or 365 days, you get it the next time you practise.`
 		},
 		{
 			id: 209,

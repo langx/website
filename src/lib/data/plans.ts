@@ -164,7 +164,7 @@ export const freeProWays: FreeProWay[] = [
 	{
 		icon: 'award',
 		title: 'Keep a streak',
-		body: 'Reach a 100-day streak for 1 month of Pro, and 365 days for 3 more. Each one once.'
+		body: 'Reach a 7-day streak for 1 week of Pro, 100 days for 1 month, and 365 days for 3 more. Each one once.'
 	},
 	{
 		icon: 'gift',
