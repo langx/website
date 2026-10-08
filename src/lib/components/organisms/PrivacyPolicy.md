@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 30, Sep 2026*
+	*Effective Date: 7, Oct 2026*
 
 	1. Introduction
 
@@ -36,7 +36,7 @@
 		- **Your token ledger** — every token you have earned or spent, and what for.
 		- **Push notification token** — only if you grant notification permission.
 		- **Profile views** — who viewed your profile. Not recorded at all when the viewer is browsing incognito, and deleted automatically after 90 days.
-		- **Blocks and reports** — only if you block or report someone.
+		- **Blocks and reports** — only if you block or report someone. When a report is reviewed, the reviewer also sees the last ten messages between the person who reported and the person reported, from both sides, up to the moment of the report. They are read from the conversation itself rather than copied into the report, so nothing said after the report is shown, and a message deleted since then shows only as deleted.
 		- **Profile reviews** — short reviews you write about someone you have talked with, and ones written about you. Section 2.5 describes them.
 		- **Purchase state** — whether you have an active Pro subscription, which store it came from, and when it renews or expires. Only if you subscribe.
 		- **Approximate location** — only if you switch it on. Section 3 describes it in full, because it is new in version 2 and it is the part worth reading carefully.
