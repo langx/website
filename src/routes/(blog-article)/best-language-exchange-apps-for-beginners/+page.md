@@ -65,7 +65,7 @@ Look for help **inside the chat**: translation, transliteration (romanization) f
 | --- | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Yes, daily cap on free | Yes, daily cap on free | Yes, daily cap on free | Yes, plus AI correction (capped) | AI correction only | Moments posts, text chat |
 | Tandem | 3 a day free, unlimited on Pro | Not listed | Transcription on Pro | Yes | AI toolkit on Pro | Reviewed community, text chat |
-| LangX | 20 a day free, 300 or 1,000 on paid plans | No | No | Yes, unlimited on every plan | Not yet (Copilot planned) | Text-first; nobody can call you until they have sent you 5 messages |
+| LangX | 20 a day free, unlimited on Pro | No | No | Yes, unlimited on every plan | Not yet (Copilot planned) | Text-first; nobody can call you until they have sent you 5 messages |
 | Busuu | Course app | Course app | Not listed | Community corrects your exercises | Course lessons | Exercises, not chat |
 | Speaky | Not listed | Not listed | Not listed | Not listed | AI practice partners | Free text chat |
 | Speak / Praktika | Not an exchange | Not an exchange | Speech recognition | AI feedback | Yes, that is the product | Speaking to AI only |

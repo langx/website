@@ -76,7 +76,7 @@ This page is a fair LangX vs Conversation Exchange comparison, written in Septem
 | What it is | Language exchange app with chat built in | Website for finding language partners |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You search profiles by language, location and exchange type |
 | Corrections | Correct any message in the chat, unlimited on every plan | No correction tool; partners correct each other however they like |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | None built in |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | None built in |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Its own text chat (ChitChat); calls happen in Skype, WhatsApp and similar |
 | In-person meetups | Not the focus; Pro adds Nearby sorting | Core feature, with city-level search |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: the site is free to use, with ads and some messaging limits |

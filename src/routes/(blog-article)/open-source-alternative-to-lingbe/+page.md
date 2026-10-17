@@ -82,7 +82,7 @@ Its idea is simple. You press the call button and Lingbe connects you with someo
 | Core format | Text chat with voice, photo and video messages | Instant live voice calls |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Press a button to be connected to an available speaker |
 | Corrections | Correct any message in the chat, unlimited on every plan | Ratings on grammar, pronunciation and fluency after each call |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Not a core feature |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Not a core feature |
 | Voice and calls | Voice messages and read-aloud; voice and video calls on the web (phone apps soon) | Live voice calls; chat unlocks when you both like each other |
 | How practice is paid for | Free plan with daily limits on new conversations | Credits (lingos) earned by helping others or bought |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: free starter minutes, then earn lingos by helping |

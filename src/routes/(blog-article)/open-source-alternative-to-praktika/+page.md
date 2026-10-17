@@ -61,7 +61,7 @@ So when people search for a "Praktika alternative", they usually want one of two
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | AI avatars with different personalities and accents |
 | Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Learning paths with 1,000+ lessons, including exam prep |
 | Corrections | A human partner can correct any message; unlimited on every plan | Real-time AI feedback on pronunciation, grammar and word choice, with adjustable strictness |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Tutors can explain in your native language |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Tutors can explain in your native language |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Spoken, face-to-face-style conversation with an avatar; no human calls |
 | Languages | 182 listed in the app | Nine: English, Spanish, French, German, Italian, Portuguese (European and Brazilian), Japanese and Korean |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with limited practice and a free trial; full access needs a subscription |

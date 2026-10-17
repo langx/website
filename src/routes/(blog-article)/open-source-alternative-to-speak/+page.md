@@ -61,7 +61,7 @@ So a "Speak alternative" can mean two things:
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | The Speak Tutor AI, in lessons, roleplays and free talk |
 | Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Expert-built course with tutor lessons, drills, roleplays and vocab builders |
 | Corrections | A human partner can correct any message; unlimited on every plan | Instant AI feedback on pronunciation and phrasing |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | You speak out loud to the AI throughout; no human calls |
 | Languages | 182 listed in the app | Spanish, French, Korean, Japanese, Italian and Chinese for English speakers, plus English for learners worldwide |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with a free trial; ongoing use needs a subscription |

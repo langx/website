@@ -67,7 +67,7 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | Lessons | No lesson path; Echo has 18 free phrase packs in six languages, read aloud | Dialogue-based lessons with grammar tips and vocabulary review |
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | Babbel Speak AI scenarios; no human conversation partners for individual learners |
 | Corrections | A human partner can correct any message; unlimited on every plan | Automatic feedback on exercises and speech |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Speech recognition in lessons and Babbel Speak; live classes only via Babbel for Business |
 | Languages | 182 listed in the app | 14 |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | The first lesson of each course is free to try; full access needs a subscription |
