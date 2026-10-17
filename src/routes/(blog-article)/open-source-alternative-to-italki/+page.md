@@ -86,7 +86,7 @@ What it no longer has is a dedicated **language partner search**. italki used to
 | Who you practice with | Other learners who are native speakers of your target language | Professional teachers and community tutors (paid); community members (free) |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You choose a teacher by language, price, availability and reviews; no partner search |
 | Corrections | Correct any message in the chat, unlimited on every plan | Teachers correct you in lessons; community members correct posted writing |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Not a chat feature |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Not a chat feature |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Live video lessons |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Community is free; lessons are paid |
 | Paid plan | Yes (Pro) | Pay per lesson; optional italki Plus subscription |

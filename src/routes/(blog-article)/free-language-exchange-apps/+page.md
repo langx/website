@@ -138,7 +138,7 @@ Our app, so judge this entry accordingly. LangX's free plan is a real plan rathe
 - 100 messages read aloud a day, and 500 messages a day with a photo, video or voice note, the same on every plan.
 - One language you are learning and one you speak; filters by country, age and level.
 
-The honest limits: 5 new chats a day is fewer than Tandem's 10, voice and video calls are **web only** for now (free on every plan, and coming to the iPhone and Android apps), and the community is much smaller than HelloTalk's or Tandem's. **Pro** lifts the new-conversation cap, raises translations to 1,000 a day, and adds languages and filters; the [plans page](/plans) lists everything.
+The honest limits: 5 new chats a day is fewer than Tandem's 10, voice and video calls are **web only** for now (free on every plan, and coming to the iPhone and Android apps), and the community is much smaller than HelloTalk's or Tandem's. **Pro** lifts the new-conversation cap, makes translations unlimited, and adds languages and filters; the [plans page](/plans) lists everything.
 
 <AppDemo
   screen="chat"

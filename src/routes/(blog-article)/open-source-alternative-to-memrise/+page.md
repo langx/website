@@ -70,7 +70,7 @@ So today Memrise is best described as an **official-course app built on native-s
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | AI (MemBot, Podchats); no human conversation partners |
 | Corrections | A human partner can correct any message; unlimited on every plan | AI feedback on your conversations and exercises |
 | Native speakers | Real people in real chats | Short videos of native speakers saying words and phrases |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Part of the lessons, not a chat tool |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Speaking and pronunciation practice with AI; no human calls |
 | Languages | 182 listed in the app | Official courses in around 35 languages for English speakers, plus many more in community courses |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limits; many videos and AI features need a subscription |

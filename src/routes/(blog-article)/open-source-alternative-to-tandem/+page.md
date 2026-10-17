@@ -80,7 +80,7 @@ Everything about Tandem below reflects its app store listings and its own site a
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Browse the community with filters (language, age, level and more) |
 | Corrections | Hold any message to correct it; unlimited on every plan | Inline corrections in chat; Pro adds AI correction explanations |
-| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built in; limited on free, unlimited with Tandem Pro |
+| Translation | Built into the chat; 20 a day on Free, unlimited on Pro | Built in; limited on free, unlimited with Tandem Pro |
 | Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Voice messages, audio and video calls, group audio Parties |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with daily limits |
 | Paid plan | Yes: Pro | Yes: Tandem Pro |

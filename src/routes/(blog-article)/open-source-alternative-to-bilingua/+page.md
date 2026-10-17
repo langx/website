@@ -92,7 +92,7 @@ If you still have an old copy of Bilingua installed, do not rely on it. An app w
 | Status | Active, iOS, Android and web | No longer in the app stores; website parked |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Matched partners by shared interests and personality |
 | Corrections | Correct any message in the chat, unlimited on every plan | Its chat assistant, Shiro, could suggest corrections |
-| Translation | Built into the chat (Free 20 a day, Pro 1000) | Suggested translations through Shiro |
+| Translation | Built into the chat (Free 20 a day, Pro unlimited) | Suggested translations through Shiro |
 | Conversation help | Read-aloud, voice and photo messages | Topic suggestions, games and quizzes |
 | Voice and calls | Voice, photo and video messages; voice and video calls on the web (phone apps soon) | Text-first chat |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Was free to use |

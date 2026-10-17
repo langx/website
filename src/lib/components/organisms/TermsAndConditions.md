@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 8, Oct 2026*
+	*Effective Date: 17, Oct 2026*
 
 	1. Acceptance of Terms
 
@@ -34,9 +34,11 @@
 
 		Every plan, paid or free, shares the same fair-use ceiling of 500 photo, video and voice messages sent per rolling 24 hours, and up to 10 photos on a profile.
 
+		Pro has unlimited machine translations, subject to a fair-use limit of 1,000 machine translations per rolling 24 hours, which exists to prevent automated abuse. A translation we already hold for the same text does not count towards it. If you reach the limit, the App shows a notice saying so, and the limit resets within 24 hours.
+
 		These are counted over a **rolling 24 hours** from each individual use, not per calendar day and not reset at midnight.
 
-		Pro is the one paid subscription. It lifts the limit on new conversations, raises the machine-translation allowance to 1,000 per rolling 24 hours, lets you learn up to five languages at once, and adds discovery filters, the identity of people who viewed your profile, incognito browsing, and the Nearby sort, which orders people by approximate distance; Nearby only works if you switch location sharing on, it shows other users a rounded distance rather than a position, and our [privacy policy](/privacy-policy) describes exactly what is stored. Pro is offered monthly and yearly, each with a one-week free trial for people who have not had one before, at prices that vary by region and are shown to you before you purchase. Unless you cancel before the trial ends, the subscription starts and is billed when it does. Pro replaced the earlier Fluent and Polyglot plans on 28 September 2026; anyone subscribed to either now has Pro.
+		Pro is the one paid subscription. It lifts the limit on new conversations, makes machine translations unlimited subject to the fair-use limit above, lets you learn up to five languages at once, and adds discovery filters, the identity of people who viewed your profile, incognito browsing, and the Nearby sort, which orders people by approximate distance; Nearby only works if you switch location sharing on, it shows other users a rounded distance rather than a position, and our [privacy policy](/privacy-policy) describes exactly what is stored. Pro is offered monthly and yearly, each with a one-week free trial for people who have not had one before, at prices that vary by region and are shown to you before you purchase. Unless you cancel before the trial ends, the subscription starts and is billed when it does. Pro replaced the earlier Fluent and Polyglot plans on 28 September 2026; anyone subscribed to either now has Pro.
 
 		Subscriptions are billed through Apple's App Store, Google Play, or our web payment provider, depending on where you subscribe. They renew automatically at the end of each period unless cancelled at least 24 hours before it ends. You cancel and request refunds through the same store you purchased from, under that store's terms; we cannot cancel or refund a store subscription on your behalf.
 

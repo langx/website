@@ -77,8 +77,8 @@ export const plans: Plan[] = [
 		points: [
 			{ label: 'Unlimited new conversations' },
 			{
-				label: '1000 translations a day',
-				note: 'Far more than a conversation uses. Translation is the one feature with a real per-request cost, so it has a number rather than a promise.'
+				label: 'Unlimited translations',
+				note: 'Translation has a real per-request cost, so a fair-use ceiling — the same on every plan, and named in the Terms — stops automated use. Nobody translating by hand meets it.'
 			},
 			{ label: '1000 chat messages read aloud a day' },
 			{ label: '500 Echo cards read aloud a day' },
@@ -111,7 +111,7 @@ export const plans: Plan[] = [
 		],
 		highlights: [
 			{ label: 'Unlimited new conversations' },
-			{ label: '1000 translations a day' },
+			{ label: 'Unlimited translations' },
 			{ label: '5 languages you learn, 5 you speak' },
 			{ label: 'Who viewed you, incognito, Nearby' },
 			{ label: 'Write in your language, send in theirs' },
@@ -133,7 +133,7 @@ export type LimitRow = {
 
 export const limits: LimitRow[] = [
 	{ label: 'New conversations a day', values: [5, null] },
-	{ label: 'Translations a day', values: [20, 1000] },
+	{ label: 'Translations a day', values: [20, null] },
 	{ label: 'Chat messages read aloud a day', values: [100, 1000] },
 	{ label: 'Echo cards read aloud a day', values: [50, 500] },
 	{ label: 'Voice notes written out as text a day', values: [50, 400] },

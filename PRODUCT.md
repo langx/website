@@ -72,10 +72,10 @@ published line.
 - Free: 5 new conversations and 20 translations per rolling 24 h; replies and
   corrections unlimited; 1 learning + 1 native language; country/age/level
   filters. Every plan: 500 photo/video/voice messages a day (fair use), 10
-  profile photos. Pro: unlimited new conversations, 1000 translations,
-  gender/city filters, Nearby, Boosted, who viewed you, incognito, send in
-  their language, phrase export, 5+5 languages, LangX Copilot (not yet
-  shipped).
+  profile photos. Pro: unlimited new conversations, unlimited translations
+  (fair use), gender/city filters, Nearby, Boosted, who viewed you, incognito,
+  send in their language, phrase export, 5+5 languages, LangX Copilot (not
+  yet shipped).
 - LangX Token is an in-app point: cannot be bought, sold, traded, staked,
   withdrawn, transferred, is not on a blockchain, cannot unlock a paid plan.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and
