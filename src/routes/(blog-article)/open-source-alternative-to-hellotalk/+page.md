@@ -73,7 +73,7 @@ Everything about HelloTalk below comes from its app store listings and its own s
 | --- | --- | --- |
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Partner recommendations by native language, target language, level, goals and interests |
 | Corrections | Hold any message to correct it; unlimited on every plan | Correction tools in chat and on Moments posts; AI correction in chat with a daily cap on free |
-| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Built in, plus transliteration; daily cap on free, unlimited with VIP |
+| Translation | Built into the chat; 20 a day on Free, unlimited on Pro | Built in, plus transliteration; daily cap on free, unlimited with VIP |
 | Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Voice messages, voice and video calls, Voicerooms, livestreams |
 | Social features | A Feed for photos, videos and sentences from your day; a post can ask for a correction or a recording | Moments (a global feed of posts others can correct), Voicerooms, livestreams |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: most core features, with daily caps on some tools |

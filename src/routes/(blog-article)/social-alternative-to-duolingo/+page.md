@@ -87,7 +87,7 @@ Hold any message in a chat to correct it, and the fix appears right in the conve
 
 ### Translation, voice notes and read-aloud
 
-Stuck on a word? Translate it inside the chat (20 translations a day on Free, 1000 on Pro). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. Most of the practice happens in messages, which gives you time to think before you answer, and when you want to talk, voice and video calls work in the web app (they are coming to the iPhone and Android apps).
+Stuck on a word? Translate it inside the chat (20 translations a day on Free, unlimited on Pro). Send voice notes to practice pronunciation, photos and short videos to show what you mean, and hold a message to hear it read aloud. Most of the practice happens in messages, which gives you time to think before you answer, and when you want to talk, voice and video calls work in the web app (they are coming to the iPhone and Android apps).
 
 ### Streaks, tokens and leaderboards
 

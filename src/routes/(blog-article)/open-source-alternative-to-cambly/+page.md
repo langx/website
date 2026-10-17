@@ -61,7 +61,7 @@ So a "Cambly alternative" can mean two things:
 | Who you practice with | Native speakers who are learning your language | Native English-speaking tutors |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You pick a tutor who is online now or book one in advance |
 | Corrections | Hold any message to correct it; unlimited on every plan | The tutor corrects you live; some plans add lesson feedback |
-| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a chat feature |
+| Translation | Built into the chat; 20 a day on Free, unlimited on Pro | Not a chat feature |
 | Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Live one-to-one video lessons, plus small group lessons |
 | Lesson recordings | Not applicable | Recordings and transcripts on some plans |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free plan; you can sign up and browse before subscribing |

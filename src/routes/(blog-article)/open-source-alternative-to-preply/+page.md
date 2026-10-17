@@ -61,7 +61,7 @@ So a "Preply alternative" can mean two things:
 | Who you practice with | Native speakers who are learning your language | Tutors you choose |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You choose a tutor by language, price, reviews, specialty and schedule |
 | Corrections | Hold any message to correct it; unlimited on every plan | Your tutor corrects you in lessons |
-| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Not a chat feature |
+| Translation | Built into the chat; 20 a day on Free, unlimited on Pro | Not a chat feature |
 | Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Live video lessons in Preply's online classroom |
 | How you pay | Free plan, an optional Pro plan | A trial lesson, then a subscription with one tutor, billed every 28 days |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | No free lessons; browsing tutors is free |

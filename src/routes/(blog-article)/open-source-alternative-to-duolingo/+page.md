@@ -96,7 +96,7 @@ So when people search for a Duolingo alternative, they usually mean one of two t
 | Who you talk to | Native speakers who are learning your language | The app; an AI character on the Max plan |
 | Matching | Two-way: people who speak what you learn and learn what you speak | Not applicable; friends and leaderboards, no one-to-one chat |
 | Corrections | Hold any message to correct it; unlimited on every plan | Automatic feedback on each exercise |
-| Translation | Built into the chat; 20 a day on Free, 1000 on Pro | Translation exercises are part of lessons |
+| Translation | Built into the chat; 20 a day on Free, unlimited on Pro | Translation exercises are part of lessons |
 | Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Speaking exercises; AI Video Call and Roleplay on Max |
 | Streaks and games | Daily streaks, leaderboards, the LangX Token | Streaks, leagues, gems and much more |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: every language course, with ads and limits on how much you can do in a row |
