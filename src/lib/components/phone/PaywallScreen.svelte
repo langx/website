@@ -10,7 +10,7 @@
 	 */
 	const features = [
 		{ text: 'Unlimited new conversations', soon: false },
-		{ text: '1000 translations a day', soon: false },
+		{ text: 'Unlimited translations', soon: false },
 		{ text: 'Who viewed you, incognito, Nearby', soon: false },
 		{ text: 'Gender and city filters', soon: false },
 		{ text: 'Boosted profile', soon: false },
