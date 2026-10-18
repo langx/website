@@ -44,7 +44,7 @@
 
 		Pro can also be obtained without payment, for a fixed period:
 
-		- Invitations: each time three people you invited join the App with your invitation link and have a conversation in the App with someone other than you, in which both sides write, you receive one month of Pro, up to three months per calendar year. Only the first ten invitations that qualify in a calendar month count towards this.
+		- Invitations: each time a person you invited joins the App with your invitation link and has a conversation in the App with someone other than you, in which both sides write, that person receives one week of Pro and so do you, up to twelve weeks per calendar year for you. Only the first ten invitations that qualify in a calendar month earn you a week; past them, the person you invited still receives theirs. Pro already received under the earlier rule of one month for every three invitations is kept.
 		- Streaks: reaching a 7-day streak gives one week of Pro, a 100-day streak gives one month and a 365-day streak gives three months. Each milestone is rewarded once per account, including for a streak that had already passed it when the reward was introduced.
 		- Gifts: we may gift Pro to an account for a period we choose.
 		- Gift codes: a code entered on the App's plans screen gives the number of months of Pro stated for that code. A code can be redeemed once per person, may be limited in the total number of times it can be used and in how long it is valid, and may be deactivated by us at any time before it is redeemed. Codes are not case-sensitive, have no cash value and cannot be exchanged for money. Repeated attempts to guess codes may be blocked.

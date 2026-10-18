@@ -159,7 +159,7 @@ export const freeProWays: FreeProWay[] = [
 	{
 		icon: 'person',
 		title: 'Invite friends',
-		body: 'Every 3 friends who join with your link and start talking give you 1 month of Pro. Up to 3 months a year.'
+		body: 'Each friend who joins with your link and starts talking gets 1 week of Pro, and so do you. Up to 12 weeks a year for you.'
 	},
 	{
 		icon: 'award',

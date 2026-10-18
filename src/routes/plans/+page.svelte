@@ -69,7 +69,7 @@
 		{
 			id: 207,
 			title: 'Can I get Pro by inviting friends?',
-			content: `Yes. Share your invite link from the app. Every 3 friends who join with it and have a real conversation with someone other than you give you 1 month of Pro, up to 3 months in a calendar year. Each invite also earns you <a href="/tokens">tokens</a>.`
+			content: `Yes. Share your invite link from the app. Each friend who joins with it and has a real conversation with someone other than you gets 1 week of Pro, and so do you, up to 12 weeks in a calendar year for you. Each invite also earns you <a href="/tokens">tokens</a>.`
 		},
 		{
 			id: 208,
