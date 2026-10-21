@@ -35,9 +35,14 @@ export function heroOwnsPrimary(path: string): boolean {
  */
 const onScreen = new Set<HTMLElement>();
 
-function sync() {
+/**
+ * `settle` is true when an observer has actually reported. A section
+ * unmounting on navigation is not a report, so it leaves ctaSettled alone;
+ * the header resets it before each navigation.
+ */
+function sync(settle = true) {
 	primaryCtaInView.set(onScreen.size > 0);
-	ctaSettled.set(true);
+	if (settle) ctaSettled.set(true);
 }
 
 export function ownsPrimary(node: HTMLElement): { destroy(): void } {
@@ -47,7 +52,7 @@ export function ownsPrimary(node: HTMLElement): { destroy(): void } {
 		return {
 			destroy() {
 				onScreen.delete(node);
-				sync();
+				sync(false);
 			}
 		};
 	}
@@ -71,7 +76,7 @@ export function ownsPrimary(node: HTMLElement): { destroy(): void } {
 		destroy() {
 			observer.disconnect();
 			onScreen.delete(node);
-			sync();
+			sync(false);
 		}
 	};
 }

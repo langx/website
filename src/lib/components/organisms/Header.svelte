@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { page } from '$app/state';
+	import { beforeNavigate } from '$app/navigation';
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
@@ -39,6 +40,9 @@
 	// value from stores/cta.ts takes over.
 	const inkAtFirst = $derived(heroOwnsPrimary(page.url.pathname));
 	const ink = $derived($ctaSettled ? $primaryCtaInView : inkAtFirst);
+	// A new page starts from its own first-paint colour again, so going back
+	// to / does not flash yellow before the hero's observer reports.
+	beforeNavigate(() => ctaSettled.set(false));
 	onMount(() => {
 		const update = () => (atTop = window.scrollY < 8);
 		update();

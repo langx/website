@@ -128,4 +128,14 @@ describe.skipIf(!built)('build output', () => {
 		expect(header).toMatch(/class="btn ink/);
 		expect(header).not.toMatch(/class="btn primary/);
 	});
+
+	// On the no-JS pages whose hero has no yellow, the header owns it, so
+	// nothing else on the page may be yellow: no script could step either back.
+	it.each(['tokens', 'welcome-back'])('has one yellow, the header’s, on /%s', (page) => {
+		const html = readFileSync(join(BUILD, `${page}.html`), 'utf8');
+		const body = html.slice(html.indexOf('<body'));
+		const header = body.slice(body.indexOf('<header'), body.indexOf('</header>'));
+		expect(header).toMatch(/class="btn primary/);
+		expect(body.match(/class="btn primary/g)).toHaveLength(1);
+	});
 });
