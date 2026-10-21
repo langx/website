@@ -23,6 +23,7 @@
 			links: [
 				{ label: 'Blog', href: '/blog' },
 				{ label: 'Tools', href: '/tools' },
+				{ label: 'Questions', href: '/faq' },
 				{ label: 'Guess the language', href: '/tools/guess-the-language' },
 				{ label: 'Word lists', href: '/tools/most-common-words' },
 				{ label: 'Say it in any language', href: '/tools/say' },

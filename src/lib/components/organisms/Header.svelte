@@ -21,7 +21,7 @@
 	// Search brings most visitors to the blog, the tools and the plans, so
 	// those are here; everything else is in the footer.
 	const links = [
-		{ href: '/#features', label: 'Features' },
+		{ href: '/#echo', label: 'Echo' },
 		{ href: '/plans', label: 'Plans' },
 		{ href: '/tools', label: 'Tools' },
 		{ href: '/blog', label: 'Blog' }
