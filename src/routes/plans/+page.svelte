@@ -73,12 +73,12 @@
 		{
 			id: 207,
 			title: 'Can I get Pro by inviting friends?',
-			content: `Yes. Share your invite link from the app. Every 3 friends who join with it and have a real conversation with someone other than you give you 1 month of Pro, up to 3 months in a calendar year. Each invite also earns you <a href="/tokens">tokens</a>.`
+			content: `Yes. Share your invite link from the app. Every 3 friends who join with it and have a real conversation with someone other than you give you 1 month of Pro, up to 3 months in a calendar year. If you already pay for Pro, there's nothing to add, so this reward is skipped. Each invite also earns you <a href="/tokens">tokens</a>.`
 		},
 		{
 			id: 208,
 			title: 'Do I get anything for a long streak?',
-			content: `Yes. A 7-day streak gives you 1 week of Pro, a 100-day streak gives you 1 month, and a 365-day streak gives you 3 months. Each happens once, so a year-long streak adds up to 4 months and a week. If your streak is already past 7, 100 or 365 days, you get it the next time you practise.`
+			content: `Yes. A 7-day streak gives you 1 week of Pro, a 100-day streak gives you 1 month, and a 365-day streak gives you 3 months. Each happens once, so a year-long streak adds up to 4 months and a week. If your streak is already past 7, 100 or 365 days, you get it the next time you practise. If you already pay for Pro, there's nothing to add, so the reward is skipped.`
 		},
 		{
 			id: 209,
