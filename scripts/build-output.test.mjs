@@ -75,7 +75,8 @@ const NO_JS_PAGES = [
 	'terms-conditions',
 	'data-deletion',
 	'welcome-back',
-	'tokens'
+	'tokens',
+	'download'
 ];
 
 describe.skipIf(!built)('build output', () => {

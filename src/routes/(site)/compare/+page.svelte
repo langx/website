@@ -7,9 +7,9 @@
 	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
 	import FAQ from '$lib/components/organisms/FAQ.svelte';
 	import FinalCta from '$lib/components/organisms/FinalCta.svelte';
-	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
-	import ChatScreen from '$lib/components/phone/ChatScreen.svelte';
-	import DiscoverScreen from '$lib/components/phone/DiscoverScreen.svelte';
+	import Phone from '$lib/components/phone/Phone.svelte';
+	import ThreadScreen from '$lib/components/phone/ThreadScreen.svelte';
+	import PeopleScreen from '$lib/components/phone/PeopleScreen.svelte';
 	import AppPicker from '$lib/components/compare/AppPicker.svelte';
 	import CheckRows from '$lib/components/compare/CheckRows.svelte';
 	import Cell from '$lib/components/compare/Cell.svelte';
@@ -49,7 +49,7 @@
 	const figures = [
 		{ icon: 'check', value: 'Unlimited', label: 'corrections and replies, on every plan' },
 		{ icon: 'chat', value: '5', label: 'new conversations a day, free' },
-		{ icon: 'globe', value: '182', label: 'languages in the app' },
+		{ icon: 'globe', value: '183', label: 'languages in the app' },
 		{
 			icon: 'feed',
 			value: String(echo.packs),
@@ -75,7 +75,7 @@
 		{
 			id: 102,
 			title: 'Is LangX better than Tandem or HelloTalk?',
-			content: `It depends on what you want. Tandem and HelloTalk have far larger communities, group rooms, and calls in their phone apps; LangX's calls are on the web for now. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source. For the biggest pool of partners they are the better choice; for a focused exchange whose code you can read, LangX is. The full write-ups: <a href="/open-source-alternative-to-tandem">LangX vs Tandem</a> and <a href="/open-source-alternative-to-hellotalk">LangX vs HelloTalk</a>.`
+			content: `It depends on what you want. Tandem and HelloTalk have far larger communities, group rooms, and calls in their phone apps; LangX's calls are on iPhone and the web for now. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source. For the biggest pool of partners they are the better choice; for a focused exchange whose code you can read, LangX is. The full write-ups: <a href="/open-source-alternative-to-tandem">LangX vs Tandem</a> and <a href="/open-source-alternative-to-hellotalk">LangX vs HelloTalk</a>.`
 		},
 		{
 			id: 103,
@@ -155,13 +155,13 @@
 	questions, with the same ask at the end.
 -->
 <div class="container">
-	<section class="hero">
+	<section class="hero bleed" data-hue="mint">
 		<div
 			class="copy"
 			data-reveal-children
 			use:reveal={{ children: true, onLoad: true, stagger: 0.1, y: 16 }}
 		>
-			<span class="eyebrow">Compare</span>
+			<span class="chip">Compare</span>
 			<h1>LangX vs Tandem, HelloTalk, Duolingo and {others} other language apps</h1>
 			<p class="lede">
 				The open source language exchange app, next to every app people compare it with — including
@@ -176,9 +176,28 @@
 			<p class="fine">Free plan, no ads. iPhone, Android and the browser.</p>
 		</div>
 		<div class="device" data-reveal use:reveal={{ onLoad: true, x: 40, y: 0, delay: 0.35 }}>
-			<PhoneFrame label="A LangX chat: two messages arrive, then a correction">
-				<ChatScreen loop />
-			</PhoneFrame>
+			<Phone
+				label="LangX app: a chat between Sofia and George. George corrects Sofia’s English: I went to the beach, not at the beach."
+				height={560}
+			>
+				<ThreadScreen
+					partner="george"
+					hue="lilac"
+					build="loop"
+					items={[
+						{ t: 'day', text: 'Today' },
+						{ t: 'them', text: 'Hey Sofia! What did you do on Saturday?', lang: 'en' },
+						{ t: 'me', text: 'On Saturday I went at the beach with my cousins.', lang: 'en' },
+						{
+							t: 'fix',
+							by: 'George',
+							parts: ['I went ', { del: 'at' }, ' ', { ins: 'to' }, ' the beach.'],
+							lang: 'en'
+						},
+						{ t: 'them', text: 'Nice! I went to the market.', lang: 'en' }
+					]}
+				/>
+			</Phone>
 		</div>
 	</section>
 
@@ -196,7 +215,7 @@
 
 	<CheckRows />
 
-	<section class="chapter" use:inview={{ threshold: 0.3 }}>
+	<section class="chapter bleed" data-hue="tangerine" use:inview={{ threshold: 0.3 }}>
 		<div class="text">
 			<h2>the difference is a person.</h2>
 			<p>
@@ -227,9 +246,12 @@
 			</div>
 		</div>
 		<div class="device">
-			<PhoneFrame label="Discover: people who speak the language you learn and are learning yours">
-				<DiscoverScreen />
-			</PhoneFrame>
+			<Phone
+				label="LangX app: English speakers who are learning Spanish, for someone who speaks Spanish"
+				height={600}
+			>
+				<PeopleScreen />
+			</Phone>
 		</div>
 	</section>
 
@@ -439,6 +461,30 @@
 	// eyebrow, the title, one line, the ask, and the fine print. Below tablet
 	// landscape the phone steps aside so the picker comes up sooner — the
 	// chapter further down still shows the app on a phone.
+	// A full-width colour block from inside the page's column.
+	.bleed {
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+	}
+	// Written after each block's own padding so the side padding wins.
+	.hero.bleed,
+	.chapter.bleed {
+		padding-inline: max(16px, calc((100vw - var(--container-max)) / 2));
+	}
+
+	.chip {
+		display: inline-flex;
+		align-items: center;
+		min-height: 28px;
+		padding: 0 12px;
+		border-radius: 999px;
+		background: var(--color--ink);
+		color: var(--block);
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 0.875rem;
+	}
+
 	.hero {
 		display: grid;
 		grid-template-columns: minmax(0, 1fr);
@@ -475,6 +521,7 @@
 			font-size: 1.0625rem;
 			line-height: 1.65;
 			max-width: 52ch;
+			color: inherit;
 		}
 	}
 
@@ -492,12 +539,11 @@
 		max-width: 34ch;
 		font-size: 0.9375rem;
 		line-height: 1.5;
-		color: var(--color--text-shade);
+		font-weight: 600;
 	}
 
 	.device {
 		display: none;
-		--phone-zoom: 0.66;
 
 		@include for-tablet-landscape-up {
 			display: flex;
@@ -599,29 +645,22 @@
 				font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
 				line-height: 1.05;
 				letter-spacing: -0.02em;
-				color: var(--color--accent);
+				color: inherit;
 			}
 
 			p {
 				margin: 0;
 				font-size: 1.125rem;
 				line-height: 1.6;
-				color: var(--color--text-shade);
 			}
 		}
 
 		.device {
 			display: flex;
 			justify-content: center;
-			--phone-zoom: 0.72;
 
 			@include for-tablet-portrait-down {
 				justify-content: flex-start;
-				--phone-zoom: 0.7;
-			}
-
-			@include for-phone-only {
-				--phone-zoom: 0.66;
 			}
 		}
 
@@ -662,7 +701,7 @@
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		border-top: 1px solid var(--color--border);
+		border-top: 1px solid rgba(20, 22, 27, 0.2);
 
 		li {
 			display: flex;
@@ -670,14 +709,14 @@
 			gap: 14px;
 			margin: 0;
 			padding: 14px 4px;
-			border-bottom: 1px solid var(--color--border);
+			border-bottom: 1px solid rgba(20, 22, 27, 0.2);
 			font-family: var(--font--title);
 			font-size: 1.125rem;
 			font-weight: 800;
-			color: var(--color--text);
+			color: inherit;
 
 			:global(svg) {
-				color: var(--color--success);
+				color: inherit;
 			}
 		}
 	}

@@ -45,6 +45,11 @@ export const faqObjects: FaqObject[] = [
 		content: `You only see people who speak the language you're learning and are learning the language you speak. That way every conversation is useful for both of you, not a favour one person does for the other.`
 	},
 	{
+		id: 15,
+		title: 'Is this a dating app?',
+		content: `No. Not a dating app. Just people who want to practise. You can block or report anyone from the chat.`
+	},
+	{
 		id: 13,
 		slug: 'echo',
 		title: 'What is Echo?',

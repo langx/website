@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { legacyTokenDivisor, welcomeBackBonus } from '$lib/data/token';
 	import AppStores from '$lib/components/molecules/AppStores.svelte';
-	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
-	import WelcomeBackScreen from '$lib/components/phone/WelcomeBackScreen.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 </script>
 
@@ -97,8 +95,8 @@
 				something tradable and eventually listed. <strong
 					>The name stays. The trading does not.</strong
 				>
-				In v2 it is an in-app point: earned by practising and teaching, spent on a streak freeze and
-				cosmetics, and nothing else. The on-chain design in the old litepaper is not being built.
+				In v2 it is an in-app point: earned by practising and teaching, spent on a streak freeze and cosmetics,
+				and nothing else. The on-chain design in the old litepaper is not being built.
 			</p>
 		</article>
 
@@ -114,21 +112,6 @@
 			<AppStores primary size="lg" />
 		</div>
 	</div>
-
-	<!--
-		The app's own welcome-back screen, beside the prose that explains it. It
-		animates nothing and hides nothing, so it survives this page shipping no
-		JavaScript.
-	-->
-	<div class="aside">
-		<div class="sticky">
-			<PhoneFrame
-				label="The welcome-back screen: your handle, your conversations, your tokens and your streak"
-			>
-				<WelcomeBackScreen />
-			</PhoneFrame>
-		</div>
-	</div>
 </section>
 
 <style lang="scss">
@@ -136,7 +119,8 @@
 
 	.welcome {
 		display: grid;
-		grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+		grid-template-columns: minmax(0, 1fr);
+		max-width: 760px;
 		gap: var(--space-2xl);
 		align-items: start;
 		padding-bottom: var(--space-2xl);
@@ -209,22 +193,5 @@
 
 	.cta {
 		padding: var(--space-md) 0 0;
-	}
-
-	.aside {
-		display: flex;
-		justify-content: center;
-	}
-
-	.sticky {
-		--phone-zoom: 0.72;
-		position: sticky;
-		top: calc(var(--header-height) + 24px);
-		display: flex;
-		justify-content: center;
-
-		@include for-tablet-portrait-down {
-			position: static;
-		}
 	}
 </style>

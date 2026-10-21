@@ -9,7 +9,7 @@
 		{
 			title: 'App',
 			links: [
-				{ label: 'Download', href: 'https://get.langx.io' },
+				{ label: 'Download', href: '/download' },
 				{ label: 'Use it in your browser', href: 'https://app.langx.io' },
 				{ label: 'Plans', href: '/plans' },
 				{ label: 'Tokens', href: '/tokens' },

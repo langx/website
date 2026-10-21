@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Button from '$lib/components/atoms/Button.svelte';
+	import Tag from '$lib/components/atoms/Tag.svelte';
 
 	interface Props {
 		/** The HTTP status; anything but 404 is "something went wrong". */
@@ -11,57 +12,79 @@
 	let missing = $derived(status === 404);
 </script>
 
-<div class="missing">
-	<div class="copy">
-		<span class="eyebrow">{status}</span>
-		<h1>{missing ? 'Nothing here, sorry.' : 'Something went wrong.'}</h1>
-		<p class="lede">
-			{missing
-				? 'The page moved or never existed. The homepage has everything that does.'
-				: 'Reload the page, or start again from the homepage.'}
-		</p>
-		<Button href="/" variant="secondary">Back to the start</Button>
-	</div>
-	{#if missing}
-		<!-- The one chat that fits a missing page: a question, a slip, a correction. -->
-		<div class="chat" aria-hidden="true">
-			<span class="bubble theirs">¿Dónde está la página?</span>
-			<span class="bubble mine">No sé, aquí no esta 🤷</span>
-			<span class="note"><s>esta</s> <strong>está</strong> ✓</span>
+<!-- One mint block, full width from inside the page's column. -->
+<div class="missing" data-hue="mint">
+	<div class="inner">
+		<div class="copy">
+			<Tag tone="ink">{status}</Tag>
+			<h1 class="display-hero">{missing ? 'this page went quiet.' : 'something went wrong.'}</h1>
+			<p class="lede">
+				{missing
+					? 'It moved, or it never existed. Everything that does is one click away.'
+					: 'Reload the page, or start again from the homepage.'}
+			</p>
+			<div class="ask">
+				<Button href="/" variant="ink" size="lg">Back to the start</Button>
+				{#if missing}<Button href="/blog" variant="outline" size="lg">Read the blog</Button>{/if}
+			</div>
 		</div>
-	{/if}
+		{#if missing}
+			<!-- The one chat that fits a missing page: a question, a slip, a correction. -->
+			<div class="chat" aria-hidden="true">
+				<span class="bubble theirs" lang="es">¿Dónde está la página?</span>
+				<span class="bubble mine" lang="es">No sé, aquí no esta 🤷</span>
+				<span class="fix" lang="es"><s>esta</s> <strong>está</strong></span>
+			</div>
+		{/if}
+	</div>
 </div>
 
 <style lang="scss">
 	.missing {
-		min-height: 60vh;
-		display: flex;
-		flex-wrap: wrap;
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+	}
+
+	.inner {
+		display: grid;
+		gap: 40px;
 		align-items: center;
-		justify-content: space-between;
-		gap: 48px;
-		padding: var(--space-2xl) 0;
+		max-width: calc(var(--container-max) + 32px);
+		margin-inline: auto;
+		padding: 40px 16px 56px;
+
+		@media (min-width: 900px) {
+			grid-template-columns: 1fr 340px;
+			gap: 64px;
+			min-height: 60vh;
+			max-width: calc(var(--container-max) + 64px);
+			padding: 72px 32px 104px;
+		}
 	}
 
 	.copy {
-		flex: 1 1 320px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		gap: 20px;
+	}
+
+	.lede {
+		margin: 0;
+		max-width: 460px;
+		color: inherit;
+		font-size: 1.1875rem;
+		line-height: 1.47;
+		font-weight: 500;
+	}
+
+	.ask {
+		display: flex;
+		flex-wrap: wrap;
 		gap: 12px;
-
-		h1 {
-			margin: 0;
-			max-width: 16ch;
-		}
-
-		.lede {
-			margin: 0 0 12px;
-		}
 	}
 
 	.chat {
-		flex: 0 1 340px;
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
@@ -69,39 +92,30 @@
 
 	.bubble {
 		max-width: 85%;
-		padding: 10px 14px;
-		border-radius: var(--radius-lg);
-		font-size: 0.9375rem;
-		line-height: 1.45;
+		padding: 10px 16px;
+		font-size: 1.0625rem;
+		line-height: 1.35;
 	}
 
 	.theirs {
 		align-self: flex-start;
-		background: var(--color--muted);
-		border-bottom-left-radius: 4px;
+		border-radius: 22px 22px 22px 8px;
+		background: #ffffff;
+		color: var(--color--ink);
 	}
 
 	.mine {
 		align-self: flex-end;
-		background: var(--color--accent);
-		color: var(--color--accent-contrast);
-		border-bottom-right-radius: 4px;
+		border-radius: 22px 22px 8px 22px;
+		background: var(--color--ink);
+		color: var(--color--on-ink);
 	}
 
-	.note {
+	.fix {
 		align-self: flex-end;
-		border: 2px solid var(--color--success);
-		background: var(--color--success-tint);
-		border-radius: var(--radius-lg);
-		padding: 8px 14px;
-		font-size: 0.875rem;
-
-		s {
-			color: var(--color--text-tertiary);
-		}
-
-		strong {
-			color: var(--color--success);
-		}
+		padding: 6px 14px;
+		border-radius: 999px;
+		box-shadow: inset 0 0 0 2px currentColor;
+		font-weight: 700;
 	}
 </style>
