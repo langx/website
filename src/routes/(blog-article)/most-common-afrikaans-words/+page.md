@@ -234,7 +234,7 @@ The list and the test are here: [the 2,915 most common Afrikaans words](/tools/m
 
 ## Practice with a native Afrikaans speaker
 
-Word lists get you recognition. Speaking takes another person. On LangX, Afrikaans is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Afrikaans and are learning a language you speak, so the exchange is useful for both of you.
+Word lists get you recognition. Speaking takes another person. On LangX, Afrikaans is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Afrikaans and are learning a language you speak, so the exchange is useful for both of you.
 
 <AppDemo
   screen="chat"

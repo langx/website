@@ -222,7 +222,7 @@ The chart with every letter is at [/tools/alphabet/hindi](/tools/alphabet/hindi)
 
 ## Practice reading and speaking with native speakers
 
-A chart gives you the shapes. The sounds, above all the puff of air, the curled-back letters and the silent *a*, come from hearing a person and being corrected. On LangX, Hindi is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Hindi and are learning a language you speak.
+A chart gives you the shapes. The sounds, above all the puff of air, the curled-back letters and the silent *a*, come from hearing a person and being corrected. On LangX, Hindi is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Hindi and are learning a language you speak.
 
 <AppDemo
   screen="chat"

@@ -237,7 +237,7 @@ The chart is at [/tools/alphabet/arabic](/tools/alphabet/arabic). After the lett
 
 ## Practice reading and writing with native speakers
 
-A chart gives you the shapes. The throat letters, and the vowels everyday text doesn't show, come from hearing a person and being corrected. On LangX, Arabic is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Arabic and are learning a language you speak.
+A chart gives you the shapes. The throat letters, and the vowels everyday text doesn't show, come from hearing a person and being corrected. On LangX, Arabic is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Arabic and are learning a language you speak.
 
 <AppDemo
   screen="chat"
