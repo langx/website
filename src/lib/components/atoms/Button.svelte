@@ -4,11 +4,14 @@
 
 	interface Props {
 		/**
-		 * `primary` is the yellow committing action — one per screen.
-		 * `secondary` is the outlined block, `dark` the ink one (the send button),
-		 * `ghost` a blue text action with no chrome.
+		 * `primary` is the yellow committing action — one per viewport.
+		 * `ink` (and its older names `secondary` and `dark`) is the ink pill
+		 * that sits beside it. `arrow` is an ink pill with a trailing arrow, for
+		 * "read more" links out of a chapter. `light` is a white pill for the
+		 * blue block. `outline` is a 2px ring in the text colour, `ghost` a link
+		 * with no chrome.
 		 */
-		variant?: 'primary' | 'secondary' | 'dark' | 'ghost';
+		variant?: 'primary' | 'ink' | 'arrow' | 'light' | 'outline' | 'secondary' | 'dark' | 'ghost';
 		size?: 'sm' | 'md' | 'lg';
 		href?: string;
 		block?: boolean;
@@ -38,44 +41,61 @@
 	}: Props = $props();
 
 	const isExternalLink = $derived(!!href && HttpRegex.test(href));
+	// The two older names draw the ink pill.
+	const look = $derived(variant === 'secondary' || variant === 'dark' ? 'ink' : variant);
 </script>
+
+{#snippet arrow()}
+	<svg
+		class="arrow-glyph"
+		aria-hidden="true"
+		width="18"
+		height="18"
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		stroke-width="2.5"
+		stroke-linecap="round"
+		stroke-linejoin="round"><path d="M5 12h14" /><path d="M13 6l6 6-6 6" /></svg
+	>
+{/snippet}
 
 {#if href}
 	<a
 		{href}
 		target={target ?? (isExternalLink ? '_blank' : undefined)}
 		rel={rel ?? (isExternalLink ? 'noopener noreferrer' : undefined)}
-		class="btn {variant} {size}"
+		class="btn {look} {size}"
 		class:block
 		data-sveltekit-preload-data
 		{...rest}
 	>
 		{#if icon}<span class="icon">{@render icon?.()}</span>{/if}
 		{@render children?.()}
+		{#if look === 'arrow'}{@render arrow()}{/if}
 	</a>
 {:else}
-	<button {type} {disabled} class="btn {variant} {size}" class:block {...rest}>
+	<button {type} {disabled} class="btn {look} {size}" class:block {...rest}>
 		{#if icon}<span class="icon">{@render icon?.()}</span>{/if}
 		{@render children?.()}
+		{#if look === 'arrow'}{@render arrow()}{/if}
 	</button>
 {/if}
 
 <style lang="scss">
-	// Set the way the app's buttons are: small caps in Nunito, a soft square
-	// corner, and a hard edge underneath that the button presses down into.
+	// The v3 pill: Nunito 900 in sentence case, fully round, flat. No ledge
+	// and no shadow; the press is a quick scale.
 	.btn {
 		appearance: none;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		gap: 8px;
-		border: 1px solid transparent;
-		border-radius: var(--radius-lg);
+		gap: 10px;
+		border: 0;
+		border-radius: var(--radius-pill);
 		font-family: var(--font--title);
-		font-weight: 800;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		line-height: 1.2;
+		font-weight: 900;
+		line-height: 1.15;
 		text-decoration: none;
 		cursor: pointer;
 		// A label stays on one line while it fits; on a screen narrower than
@@ -84,14 +104,12 @@
 		text-align: center;
 		text-wrap: balance;
 		user-select: none;
+		-webkit-tap-highlight-color: transparent;
 		transition:
-			transform var(--dur-press) var(--ease-out),
+			transform 120ms var(--ease-out),
 			background-color var(--dur-fast) ease,
-			color var(--dur-fast) ease,
-			border-color var(--dur-fast) ease,
-			box-shadow var(--dur-press) var(--ease-out);
+			color var(--dur-fast) ease;
 
-		// The press is the feedback: the interface heard you.
 		&:active {
 			transform: scale(0.97);
 		}
@@ -114,75 +132,74 @@
 	}
 
 	.sm {
-		min-height: 40px;
-		padding: 6px 20px;
-		font-size: 0.8125rem;
-		border-radius: var(--radius-md);
+		min-height: 44px;
+		padding: 6px 18px;
+		font-size: 1rem;
 	}
 	.md {
 		min-height: 48px;
-		padding: 8px 24px;
-		font-size: 0.875rem;
+		padding: 8px 22px;
+		font-size: 1.0625rem;
 	}
 	.lg {
 		min-height: 56px;
-		padding: 10px 32px;
-		font-size: 0.9375rem;
-	}
-
-	// `--edge` is the colour of the edge the button stands on; pressing sinks
-	// the button onto it.
-	.primary,
-	.secondary {
-		--lift: 4px;
-		box-shadow: 0 var(--lift) 0 var(--edge);
-
-		&:active {
-			transform: translateY(var(--lift));
-			box-shadow: none;
-		}
-	}
-	.sm.primary,
-	.sm.secondary {
-		--lift: 3px;
+		padding: 10px 28px;
+		font-size: 1.1875rem;
 	}
 
 	.primary {
-		--edge: var(--color--primary-shade);
 		background: var(--color--primary);
 		color: var(--color--on-primary);
 	}
-	.secondary {
-		--edge: var(--color--border);
-		background: var(--color--surface);
-		color: var(--color--accent);
-		border: 2px solid var(--color--border);
+
+	// Ink on a colour block in both schemes; on the plain ground it is the
+	// text colour, so in dark mode it turns light instead of vanishing.
+	.ink,
+	.arrow {
+		background: var(--ink-fill, var(--color--text));
+		color: var(--ink-label, var(--color--page-background));
 	}
-	.dark {
-		background: var(--color--text);
-		color: var(--color--text-inverse);
+
+	.light {
+		background: #ffffff;
+		color: var(--color--blue);
 	}
+
+	.outline {
+		background: transparent;
+		color: inherit;
+		box-shadow: inset 0 0 0 2px currentColor;
+	}
+
 	.ghost {
 		background: transparent;
 		color: var(--color--accent);
 		padding-inline: 10px;
-		min-height: 40px;
-		text-transform: none;
-		letter-spacing: 0;
+	}
+
+	.arrow-glyph {
+		flex: 0 0 auto;
+		transition: transform var(--dur-fast) var(--ease-out);
 	}
 
 	@media (hover: hover) and (pointer: fine) {
 		.primary:hover {
-			background: color-mix(in srgb, var(--color--primary), white 12%);
+			background: var(--color--primary-shade);
 			color: var(--color--on-primary);
 		}
-		.secondary:hover {
-			background: var(--color--muted);
-			color: var(--color--accent);
+		.ink:hover,
+		.arrow:hover {
+			color: var(--ink-label, var(--color--page-background));
 		}
-		.dark:hover {
-			background: var(--color--text-shade);
-			color: var(--color--text-inverse);
+		.arrow:hover .arrow-glyph {
+			transform: translateX(3px);
+		}
+		.light:hover {
+			color: var(--color--blue);
+			background: #e9efff;
+		}
+		.outline:hover {
+			color: inherit;
 		}
 		.ghost:hover {
 			background: var(--color--accent-tint);
@@ -191,9 +208,11 @@
 	}
 
 	@media (prefers-reduced-motion: reduce) {
-		.btn:active,
-		.primary:active,
-		.secondary:active {
+		.btn,
+		.arrow-glyph {
+			transition: none;
+		}
+		.btn:active {
 			transform: none;
 		}
 	}
