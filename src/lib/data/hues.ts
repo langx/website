@@ -27,3 +27,18 @@ export function hueFor(path: string): Hue | undefined {
 	if (path === '/') return 'lilac';
 	return BY_PREFIX.find(([p]) => path === p || path.startsWith(`${p}/`))?.[1];
 }
+
+/** A post's colour, from its tags: the first tag that has one wins. */
+const BY_TAG: Record<string, Hue> = {
+	Comparison: 'aqua',
+	Vocabulary: 'lime',
+	'Language Exchange': 'tangerine',
+	Guide: 'sky',
+	'Open Source': 'mint',
+	'Language Learning': 'lilac'
+};
+
+export function hueForTags(tags: string[] | undefined): Hue {
+	for (const t of tags ?? []) if (BY_TAG[t]) return BY_TAG[t];
+	return 'sky';
+}

@@ -3,13 +3,13 @@
 	 * The square beside a post in a list, drawn from what the post is. It
 	 * replaces the drawn thumbnails, which were one glyph on a tint — "vs" for
 	 * every comparison, "Aa" for every word list — and so told the rows apart
-	 * by colour only. The same rules as the art above a post (PostArt):
+	 * by colour only:
 	 *
 	 * - a comparison: the apps' own icons, LangX first
 	 * - an alphabet guide: a letter of that script
 	 * - a vocabulary post: four scripts
 	 * - a note from the team: the LangX icon
-	 * - anything else: two of the people from the app's demo screens
+	 * - anything else: two of the demo people, with the app's v3 faces
 	 *
 	 * Decoration beside a title that already says it all, so hidden from
 	 * screen readers.
@@ -18,6 +18,8 @@
 	import { COMPETITORS } from '$lib/data/competitors';
 	import { WORD_LISTS } from '$lib/data/most-common-words';
 	import { signatureLetter } from '$lib/data/alphabet-guides';
+	import Face from '$lib/components/phone/Face.svelte';
+	import type { PersonId } from '$lib/components/phone/people';
 
 	interface Props {
 		title: string;
@@ -86,8 +88,17 @@
 	];
 	let scripts = $derived([0, 1, 2, 3].map((i) => SCRIPTS[(seed(slug) + i * 3) % SCRIPTS.length]));
 
-	/** The people from the app's demo screens (static/images/people). */
-	const PEOPLE = ['lucia', 'daniel', 'kenji', 'maria', 'sofia', 'mateo', 'ana', 'javier'];
+	/** The people from the app's demo screens, with the app's v3 faces. */
+	const PEOPLE: PersonId[] = [
+		'george',
+		'sofia',
+		'yuki',
+		'katya',
+		'marina',
+		'anna',
+		'elif',
+		'mateo'
+	];
 	let pair = $derived([
 		PEOPLE[seed(slug) % PEOPLE.length],
 		PEOPLE[(seed(slug) + 3) % PEOPLE.length]
@@ -112,7 +123,7 @@
 	{:else}
 		<span class="pair">
 			{#each pair as who}
-				<img src="/images/people/{who}.webp" alt="" width="40" height="40" loading="lazy" />
+				<span class="face"><Face {who} size={40} /></span>
 			{/each}
 			<span class="bubble"></span>
 		</span>
@@ -129,7 +140,7 @@
 		width: 100%;
 		height: 100%;
 		container-type: size;
-		background: var(--color--muted);
+		background: var(--thumb-bg, var(--color--muted));
 		user-select: none;
 	}
 
@@ -221,12 +232,10 @@
 		width: 76cqw;
 		height: 64cqw;
 
-		img {
+		.face {
 			position: absolute;
 			width: 44cqw;
 			height: 44cqw;
-			border-radius: var(--radius-pill);
-			box-shadow: 0 0 0 2cqw var(--color--muted);
 
 			&:first-child {
 				left: 0;
@@ -236,6 +245,13 @@
 			&:nth-child(2) {
 				right: 0;
 				bottom: 0;
+			}
+
+			// The face fills its slot whatever size the tile is.
+			:global(.face),
+			:global(img) {
+				width: 100%;
+				height: 100%;
 			}
 		}
 	}
@@ -247,6 +263,6 @@
 		width: 26cqw;
 		height: 18cqw;
 		border-radius: 9cqw 9cqw 9cqw 2cqw;
-		background: var(--color--accent-tint);
+		background: var(--color--blue);
 	}
 </style>
