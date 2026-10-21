@@ -133,6 +133,12 @@ p {
 	outline-color: var(--color--on-blue);
 }
 
+// Headings on a colour block take the block's ink in both schemes; the
+// default heading colour is the page's text, which is light in dark mode.
+[data-hue] :where(h1, h2, h3, h4, h5) {
+	color: inherit;
+}
+
 // A plain link on a colour block is ink, underlined: blue on a hue fails.
 [data-hue] a:not([class]) {
 	color: inherit;
