@@ -36,7 +36,7 @@ This page compares the two fairly, as of September 2026. We make LangX, and we w
   "Lingbe connects you to a live voice call with a native speaker at the press of a button.",
   "LangX is chat-first: two-way matching, corrections on any message, translation and voice messages.",
   "Lingbe runs on credits (lingos); on LangX replies and corrections are unlimited on every plan.",
-  "LangX is open source (BSD-3) with no ads; its calls are on the web only for now, and only with someone who has written to you."
+  "LangX is open source (BSD-3) with no ads; its calls are on the on iPhone and the web for now, and only with someone who has written to you."
 ]} />
 
 ## What is Lingbe?
@@ -56,7 +56,7 @@ Its idea is simple. You press the call button and Lingbe connects you with someo
       "Two-way matching; you choose whom to message",
       "Correct any message in the chat, unlimited on every plan",
       "Translation built into the chat",
-      "Voice and video calls on the web (phone apps soon)",
+      "Voice and video calls on iPhone and the web (Android soon)",
       "No ads; open source, BSD-3; iOS, Android and web"
     ],
     bestFor: "written and recorded practice at your own pace"
@@ -83,7 +83,7 @@ Its idea is simple. You press the call button and Lingbe connects you with someo
 | Matching | Two-way: people who speak what you learn and learn what you speak | Press a button to be connected to an available speaker |
 | Corrections | Correct any message in the chat, unlimited on every plan | Ratings on grammar, pronunciation and fluency after each call |
 | Translation | Built into the chat (Free 20 a day, Pro unlimited) | Not a core feature |
-| Voice and calls | Voice messages and read-aloud; voice and video calls on the web (phone apps soon) | Live voice calls; chat unlocks when you both like each other |
+| Voice and calls | Voice messages and read-aloud; voice and video calls on iPhone and the web (Android soon) | Live voice calls; chat unlocks when you both like each other |
 | How practice is paid for | Free plan with daily limits on new conversations | Credits (lingos) earned by helping others or bought |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes: free starter minutes, then earn lingos by helping |
 | Paid plan | Yes (Pro) | Yes (Pro subscription and lingo packs) |
@@ -193,7 +193,7 @@ Yes. At the time of writing (September 2026) Lingbe is on Google Play and the Ap
 
 ### LangX vs Lingbe: does LangX have voice calls?
 
-Yes, on the web for now. In the LangX web app you can make voice and video calls with someone once they have sent you 5 messages, and calls are coming to the iPhone and Android apps. There is no button that connects you to a stranger, so if instant calls are what you want, Lingbe is a better fit.
+Yes, on the web for now. On iPhone and the web you can make voice and video calls with someone once they have sent you 5 messages, and calls are coming to Android. There is no button that connects you to a stranger, so if instant calls are what you want, Lingbe is a better fit.
 
 ### Is there a free Lingbe alternative without credits?
 

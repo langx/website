@@ -28,7 +28,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 12,
 		title: 'Can I call my partner?',
-		content: `Yes, in the <a href="https://app.langx.io" target="_blank" rel="noopener noreferrer">web app</a>: use the call button at the top of a chat for a voice or video call. You can call someone once they have sent you 5 messages, calls are free on every plan, and nothing is recorded. Calls are coming to the iPhone and Android apps. Rather not be called? Turn off Allow calls in Settings → Privacy.`
+		content: `Yes, on iPhone and in the <a href="https://app.langx.io" target="_blank" rel="noopener noreferrer">web app</a>: use the call button at the top of a chat for a voice or video call. You can call someone once they have sent you 5 messages, calls are free on every plan, and nothing is recorded. Calls are coming to Android. Rather not be called? Turn off Allow calls in Settings → Privacy.`
 	},
 	{
 		id: 3,
@@ -43,7 +43,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 10,
 		title: 'How does LangX compare with Tandem and HelloTalk?',
-		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities, and their calls work in the phone apps, where LangX's are on the web for now. <a href="/compare">Every comparison, side by side</a>.`
+		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities, and their calls work in the phone apps, where LangX's are on iPhone and the web for now. <a href="/compare">Every comparison, side by side</a>.`
 	},
 	{
 		id: 4,

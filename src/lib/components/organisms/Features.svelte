@@ -24,7 +24,7 @@
 		},
 		{
 			title: 'Voice and video calls',
-			body: 'Call a partner from the chat once they have sent you 5 messages. On the web now; coming to the iPhone and Android apps.'
+			body: 'Call a partner from the chat once they have sent you 5 messages. On the web now; coming to Android.'
 		},
 		{
 			title: 'Streaks and tokens',

@@ -88,7 +88,7 @@ The catch: on the free tier each of those tools has a **daily cap**, and there a
 
 ### LangX: text-first, with corrections that never run out
 
-Our app. [LangX](https://get.langx.io) matches in both directions, so every person you see speaks the language you are learning *and* is learning yours. Nobody can call you until they have sent you 5 messages, and you can switch calls off in Settings → Privacy, which for a nervous beginner is a feature. You practice with text, and with voice, photo and video messages when you are ready; voice and video calls work in the web app and are coming to the iPhone and Android apps.
+Our app. [LangX](https://get.langx.io) matches in both directions, so every person you see speaks the language you are learning *and* is learning yours. Nobody can call you until they have sent you 5 messages, and you can switch calls off in Settings → Privacy, which for a nervous beginner is a feature. You practice with text, and with voice, photo and video messages when you are ready; voice and video calls work on iPhone and the web, and are coming to Android.
 
 - Your partner can **hold any message to correct it**, and corrections are **unlimited on every plan**, including Free.
 - **Translation in the chat**: 20 a day on Free, unlimited on Pro.

@@ -81,8 +81,9 @@ published line.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and
   earn", "payout".
 - Badges are not in v2's first release. Voice and photo messages are shipped.
-- Voice and video calls: live in the web app since 5 October 2026, not yet in
-  the iPhone and Android apps (say "on the web now, coming to the phone apps").
+- Voice and video calls: live in the web app since 5 October 2026 and in the
+  iPhone app since 2.9; not yet on Android (say "on iPhone and the web;
+  Android soon").
   You can call someone once they have sent you 5 messages; free on every plan;
   Settings → Privacy → Allow calls turns them off both ways. Calls are relayed
   (no IP shared) and never recorded. They earn no tokens and no streak day.

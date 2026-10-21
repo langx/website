@@ -226,7 +226,7 @@ you speak. You can correct any message by holding it, and corrections are
 unlimited on every plan. Translation sits inside the chat (20 translations a day
 on the free plan), so you can check a word without leaving the conversation, and
 you can hold a message to hear it read aloud. It is mostly text, voice and photo
-messages (calls are web only for now), which suits the low-pressure output described
+messages (calls are on iPhone and the web for now), which suits the low-pressure output described
 above. See [what a language exchange is](/what-is-a-language-exchange) and [how
 to do one well](/how-to-do-a-language-exchange) if you are new to it.
 
