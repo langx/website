@@ -1,29 +1,32 @@
 <script lang="ts">
 	import Header from '$lib/components/organisms/Header.svelte';
 	import Footer from '$lib/components/organisms/Footer.svelte';
-	import Tag from '$lib/components/atoms/Tag.svelte';
 	import dateformat from 'dateformat';
 
 	import Seo from '$lib/components/atoms/Seo.svelte';
 	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
 	import { image, keywords, organization, siteBaseUrl } from '$lib/data/meta';
-	import type { BlogPost, PostScript } from '$lib/utils/types';
+	import type { BlogPost } from '$lib/utils/types';
 	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
-	import PostArt from '$lib/components/blog/PostArt.svelte';
+	import { hueForTags } from '$lib/data/hues';
+	import FinalCta from '$lib/components/organisms/FinalCta.svelte';
 	import PostToc from '$lib/components/blog/PostToc.svelte';
 
 	interface Props {
-		data: { post: BlogPost; script?: PostScript };
+		data: { post: BlogPost };
 		children?: import('svelte').Snippet;
 	}
 
 	let { data, children }: Props = $props();
-	let { post, script } = $derived(data);
+	let { post } = $derived(data);
 
 	// Rebuilt from scratch per post: appending to the previous value carried
 	// one post's keywords into the next on client-side navigation.
 	let metaKeywords = $derived([...new Set([...(post?.keywords ?? []), ...(post?.tags ?? []), ...keywords])]);
+
+	// The post wears its tag's colour: the header at the top and the block under it.
+	let hue = $derived(hueForTags(post?.tags));
 
 	let url = $derived(post ? `${siteBaseUrl}/${post.slug}` : siteBaseUrl);
 	let ld = $derived(post
@@ -84,54 +87,58 @@
 	{/if}
 </svelte:head>
 
-<Header />
+<Header {hue} />
 
 <main>
 	<article id="article-content">
-		<div class="header">
+		<div class="header" data-hue={hue}>
 			{#if post}
-				<a class="back" href="/blog">← All posts</a>
-				<h1>{post.title}</h1>
-
-				<div class="meta">
-					<span>{dateformat(post.date, 'UTC:dd mmmm yyyy')}</span>
-					{#if post.author}
-						<span>·</span>
-						{#if post.author.url}
-							<a href={post.author.url} target="_blank" rel="noopener noreferrer">@{post.author.name}</a>
-						{:else}
-							<span>@{post.author.name}</span>
+				<div class="header-inner">
+					<nav class="crumbs" aria-label="Breadcrumb">
+						<a href="/blog">Blog</a>
+						{#if post.tags?.length}<span aria-hidden="true">›</span><span>{post.tags[0]}</span>{/if}
+					</nav>
+					<h1>{post.title}</h1>
+					{#if post.excerpt}<p class="excerpt">{post.excerpt}</p>{/if}
+					<div class="meta">
+						<span>{dateformat(post.date, 'UTC:dd mmmm yyyy')}</span>
+						{#if post.author}
+							<span>·</span>
+							{#if post.author.url}
+								<a href={post.author.url} target="_blank" rel="noopener noreferrer"
+									>@{post.author.name}</a
+								>
+							{:else}
+								<span>@{post.author.name}</span>
+							{/if}
 						{/if}
-					{/if}
-					{#if post.readingTime}
-						<span>·</span>
-						<span>{post.readingTime}</span>
-					{/if}
-					{#if post.updated}
-						<span>·</span>
-						<span>Updated {dateformat(post.updated, 'UTC:dd mmmm yyyy')}</span>
+						{#if post.readingTime}
+							<span>·</span>
+							<span>{post.readingTime}</span>
+						{/if}
+						{#if post.updated}
+							<span>·</span>
+							<span>Updated {dateformat(post.updated, 'UTC:dd mmmm yyyy')}</span>
+						{/if}
+					</div>
+					{#if post.tags?.length}
+						<div class="tags">
+							{#each post.tags as tag}
+								<span class="chip">{tag}</span>
+							{/each}
+						</div>
 					{/if}
 				</div>
-				{#if post.tags?.length}
-					<div class="tags">
-						{#each post.tags as tag}
-							<Tag>{tag}</Tag>
-						{/each}
-					</div>
-				{/if}
 			{/if}
 		</div>
 		<!--
-			A drawn card (a post with a thumbnail) is the title set in type for
-			social previews; above the article it would only repeat the heading.
+			A photograph the post was written with stays above the text. Drawn
+			cards are for social previews and lists; the colour block above is
+			the post's cover here.
 		-->
 		{#if post && post.coverImage && !post.thumbnail}
 			<div class="cover-image">
 				<Image src={post.coverImage} webp={post.coverWebp?.full} alt={post.title} />
-			</div>
-		{:else if post}
-			<div class="art">
-				<PostArt {post} {script} />
 			</div>
 		{/if}
 		<div class="body">
@@ -151,6 +158,8 @@
 			<RelatedPosts posts={post.relatedPosts} />
 		</div>
 	{/if}
+
+	<FinalCta bleed />
 </main>
 
 <Footer />
@@ -161,7 +170,7 @@
 	#article-content {
 		--main-column-width: 68ch;
 		position: relative;
-		padding: var(--space-xl) 15px var(--space-2xl);
+		padding: 0 15px var(--space-2xl);
 		display: flex;
 		flex-direction: column;
 		gap: var(--space-lg);
@@ -176,22 +185,52 @@
 			padding-left: 30px;
 		}
 
+		// The tag's colour, full width; the text sits in the reading column.
 		.header {
+			width: 100vw;
+			margin-left: calc(50% - 50vw);
+		}
+
+		.header-inner {
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
-			gap: var(--space-sm);
-			width: min(var(--main-column-width), 100%);
+			gap: 14px;
+			width: min(calc(var(--main-column-width) + 32px), 100%);
 			margin: 0 auto;
+			padding: 32px 16px 40px;
+
+			@media (min-width: 900px) {
+				padding: 56px 16px 64px;
+			}
 
 			h1 {
-				font-size: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+				margin: 0;
+				color: inherit;
+				font-weight: 900;
+				font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem);
+				line-height: 1.05;
+				letter-spacing: -0.02em;
 			}
 		}
 
-		.back {
+		.crumbs {
+			display: flex;
+			gap: 8px;
 			font-size: 0.875rem;
-			font-weight: 700;
+			font-weight: 800;
+
+			a {
+				color: inherit;
+				text-decoration: underline;
+			}
+		}
+
+		.excerpt {
+			margin: 0;
+			font-size: 1.125rem;
+			line-height: 1.5;
+			font-weight: 500;
 		}
 
 		.meta {
@@ -199,7 +238,23 @@
 			flex-wrap: wrap;
 			gap: 8px;
 			font-size: 0.875rem;
-			color: var(--color--text-shade);
+			font-weight: 700;
+
+			a {
+				color: inherit;
+				text-decoration: underline;
+			}
+		}
+
+		.chip {
+			display: inline-flex;
+			align-items: center;
+			min-height: 28px;
+			padding: 0 12px;
+			border-radius: 999px;
+			box-shadow: inset 0 0 0 2px currentColor;
+			font-size: 0.8125rem;
+			font-weight: 800;
 		}
 
 		.tags {
@@ -221,11 +276,6 @@
 		:global(.cover-image img) {
 			max-height: 420px;
 			object-fit: cover;
-		}
-
-		.art {
-			width: min(var(--main-column-width), 100%);
-			margin: 0 auto;
 		}
 
 		.body {

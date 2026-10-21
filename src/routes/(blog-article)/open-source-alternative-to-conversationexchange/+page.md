@@ -36,7 +36,7 @@ This page is a fair LangX vs Conversation Exchange comparison, written in Septem
   "Conversation Exchange is a long-running website for finding partners, strongest for meeting in person.",
   "LangX is an app where the chat happens, with two-way matching, corrections and translation built in.",
   "LangX is open source (BSD-3) and has no ads on any plan.",
-  "LangX has calls only on the web for now and a smaller community; Conversation Exchange hands you off to Skype, WhatsApp or a café."
+  "LangX has calls only on iPhone and the web for now and a smaller community; Conversation Exchange hands you off to Skype, WhatsApp or a café."
 ]} />
 
 ## LangX vs Conversation Exchange at a glance

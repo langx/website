@@ -9,7 +9,7 @@
 		{
 			title: 'App',
 			links: [
-				{ label: 'Download', href: 'https://get.langx.io' },
+				{ label: 'Download', href: '/download' },
 				{ label: 'Use it in your browser', href: 'https://app.langx.io' },
 				{ label: 'Plans', href: '/plans' },
 				{ label: 'Tokens', href: '/tokens' },
@@ -23,6 +23,7 @@
 			links: [
 				{ label: 'Blog', href: '/blog' },
 				{ label: 'Tools', href: '/tools' },
+				{ label: 'Questions', href: '/faq' },
 				{ label: 'Guess the language', href: '/tools/guess-the-language' },
 				{ label: 'Word lists', href: '/tools/most-common-words' },
 				{ label: 'Say it in any language', href: '/tools/say' },

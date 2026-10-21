@@ -80,19 +80,20 @@
 <div class="container">
 	<PageHeader
 		eyebrow="Blog"
-		title="Blog"
-		lede="Guides to language exchange, honest app comparisons, and notes on how LangX is built."
+		title="notes for learners."
+		lede="Guides to practising with real people, words in dozens of languages, and honest app comparisons."
 	/>
 	<nav class="jump" aria-label="Sections">
 		{#each ordered as g}
 			<a href="#{g.id}">{g.title}</a>
 		{/each}
+		<a class="rss" href="/rss.xml">RSS</a>
 	</nav>
 
 	{#each ordered as g}
 		<section id={g.id} class="section">
 			<h2>{g.title}</h2>
-			<ul class="rows posts" role="list">
+			<ul class="posts" role="list">
 				{#each g.posts as post}
 					<li>
 						<BlogPostCard
@@ -117,26 +118,53 @@
 	.jump {
 		display: flex;
 		flex-wrap: wrap;
-		gap: var(--space-2xs) var(--space-md);
-		margin-bottom: var(--space-lg);
-		font-weight: 700;
+		gap: 8px;
+		margin-bottom: 40px;
+
+		a {
+			display: flex;
+			align-items: center;
+			min-height: 40px;
+			padding: 0 16px;
+			border-radius: 999px;
+			background: var(--color--muted);
+			color: var(--color--text);
+			font-weight: 800;
+			font-size: 0.875rem;
+
+			&:hover {
+				color: var(--color--text);
+				background: var(--color--border);
+			}
+		}
+
+		.rss {
+			background: transparent;
+			box-shadow: inset 0 0 0 2px var(--color--border);
+		}
 	}
 
 	.section {
-		padding-bottom: var(--space-xl);
-		scroll-margin-top: 80px;
+		padding-bottom: 56px;
+		scroll-margin-top: calc(var(--header-height) + 16px);
 
 		h2 {
-			font-family: var(--font--title);
-			font-weight: 800;
-			font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
-			letter-spacing: -0.015em;
-			margin-bottom: var(--space-sm);
+			margin: 0 0 20px;
+			font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem);
+			line-height: 1.1;
 		}
 	}
 
 	.posts {
-		border-top: 1px solid var(--color--border);
-		max-width: 76ch;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 32px 16px;
+
+		@media (min-width: 640px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media (min-width: 1000px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
 	}
 </style>

@@ -1,41 +1,45 @@
 <script lang="ts">
 	import JsonLd from '$lib/components/atoms/JsonLd.svelte';
+	import Block from '$lib/components/atoms/Block.svelte';
+	import Tag from '$lib/components/atoms/Tag.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
-	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import FAQ from '$lib/components/organisms/FAQ.svelte';
 	import FinalCta from '$lib/components/organisms/FinalCta.svelte';
-	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
-	import PaywallScreen from '$lib/components/phone/PaywallScreen.svelte';
+	import Chapter from '$lib/components/home/Chapter.svelte';
+	import Phone from '$lib/components/phone/Phone.svelte';
+	import TodayScreen from '$lib/components/phone/TodayScreen.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
-	import { reveal } from '$lib/utils/reveal';
-	import { inview } from '$lib/utils/inview';
+	import { rise } from '$lib/utils/rise';
 	import { siteBaseUrl } from '$lib/data/meta';
-	import { plans, planNotes, limits, freeProWays, freeProNote } from '$lib/data/plans';
-	import { echo } from '$lib/data/echo';
+	import { compareRows, freeCard, proCard } from '$lib/data/plans';
+	import { PRO_PRICE } from '$lib/data/prices';
 	import type { FaqObject } from '$lib/data/faq';
 
-	/** One stroke icon per plan, in the plan's own tone. */
-	const ICONS: Record<string, string> = { Free: 'chat', Pro: 'zap' };
-	const TONES = ['free', 'pro'];
+	const P = PRO_PRICE;
 
-	/** What every plan keeps, said once above the cards. */
-	const always = [
-		{ icon: 'check', value: 'Unlimited', label: 'replies and corrections' },
-		{ icon: 'feed', value: 'Free', label: `Echo packs, in ${echo.languages.length} languages` },
-		{ icon: 'globe', value: '183', label: 'languages in the app' },
-		{ icon: 'close', value: '0', label: 'ads, on any plan' }
+	/** Three things people want settled before they pay. */
+	const facts = [
+		{
+			title: 'Cancel anytime.',
+			body: 'In the App Store, Google Play or your account on the web. Pro runs to the end of the period you paid for.'
+		},
+		{
+			title: 'Prices in your currency.',
+			body: 'Prices here are in US dollars. Your store shows its own price before you pay.'
+		},
+		{
+			title: 'Free stays useful.',
+			body: 'Replies and corrections are free on every plan, and no plan shows ads.'
+		}
 	];
-
-	const nf = new Intl.NumberFormat('en-US');
-	/** A bar's share of its row: unlimited fills it, and nothing vanishes. */
-	const share = (v: number | null, max: number) => (v === null ? 100 : Math.max((v / max) * 100, 5));
-	const label = (row: (typeof limits)[number], i: number) =>
-		row.shown ? row.shown[i] : row.values[i] === null ? 'Unlimited' : nf.format(row.values[i] ?? 0);
-	const maxOf = (row: (typeof limits)[number]) =>
-		Math.max(...row.values.map((v) => (v === null ? 0 : v)));
 
 	/** The questions people ask before they pay, answered from plans.ts and PRODUCT.md. */
 	const faq: FaqObject[] = [
+		{
+			id: 211,
+			title: 'What happens when my free week ends?',
+			content: `Your plan starts and you are charged for the period you chose. Cancel before the week is over and you are not charged. Your chats and Echo cards stay either way. The free week comes with the yearly plan, for people who have not had Pro before.`
+		},
 		{
 			id: 201,
 			title: 'Do I have to pay to learn on LangX?',
@@ -47,24 +51,24 @@
 			content: `Everything in Free without the limits: unlimited new conversations, unlimited translations, five languages you are learning and five you speak, gender and city filters, Nearby, a boosted profile above the Discover list, see who viewed your profile, browse incognito, write in your language and send in theirs, and export your saved phrases. LangX Copilot, private AI feedback, is coming later.`
 		},
 		{
-			id: 203,
-			title: 'What stays the same on both plans?',
-			content: `Replies and corrections are unlimited, Echo's packs are free, there are no ads, and everyone gets the same fair-use ceiling of 500 photo, video and voice messages a day and 10 photos on their profile.`
+			id: 204,
+			title: 'How much does Pro cost?',
+			content: `In the US, ${P.monthly} a month or ${P.yearly} a year (${P.yearlyPerMonth} a month, ${P.yearlySaving}). The yearly plan starts with a free week for people who have not had Pro before; monthly starts straight away. Prices are set per region, so your store shows its own price, in your currency, before you pay.`
 		},
 		{
-			id: 204,
-			title: 'How much do the plans cost?',
-			content: `Prices are set per region and shown in the app. Pro is monthly or yearly, both with a one-week free trial, and yearly works out to 3 months free. This site does not print prices because they differ from country to country.`
+			id: 212,
+			title: 'Can I switch between monthly and yearly?',
+			content: `Yes, from wherever you subscribed: the App Store, Google Play or your account on the web.`
+		},
+		{
+			id: 213,
+			title: 'Does Pro work on my phone and on the web?',
+			content: `Yes. Pro belongs to your LangX account, so it works on iPhone, Android and the web, wherever you bought it.`
 		},
 		{
 			id: 205,
-			title: 'Can tokens buy a plan?',
-			content: `No, and they never will. <a href="/tokens">LangX Token</a> is an in-app point you earn by chatting and correcting; it buys frames, titles and sticker packs, not subscriptions.`
-		},
-		{
-			id: 206,
-			title: 'Can I cancel?',
-			content: `Yes, any time, from the store account you bought it with. Corrections and replies stay unlimited whether you pay or not.`
+			title: 'What are tokens, and can they pay for Pro?',
+			content: `<a href="/tokens">Tokens</a> are in-app points you earn by chatting and correcting. They buy streak freezes and cosmetics, never a plan, and they never will.`
 		},
 		{
 			id: 207,
@@ -85,6 +89,11 @@
 			id: 210,
 			title: 'Will free Pro charge me when it ends?',
 			content: `No. Pro from an invite, a streak, a gift code or a gift from us never renews and never charges you. The app tells you a week before it ends, and again the day before. If you want to keep Pro after that, you can subscribe from the plans screen.`
+		},
+		{
+			id: 206,
+			title: 'How do I cancel?',
+			content: `Any time, from where you subscribed: the App Store, Google Play or your account on the web. Pro runs to the end of the period you paid for, and replies and corrections stay unlimited whether you pay or not.`
 		}
 	];
 
@@ -114,609 +123,461 @@
 
 <JsonLd data={ld} />
 
+{#snippet tick()}
+	<svg
+		aria-hidden="true"
+		width="16"
+		height="16"
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		stroke-width="3"
+		stroke-linecap="round"
+		stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg
+	>
+{/snippet}
+
 <!--
-	The ask, then the two plans as pitches rather than records, then the
-	limits as bars, then the questions. The app's own paywall plays beside the
-	title; the long lists with their notes live in plans.ts and the FAQ.
+	Words only on the sky block, so both prices are in the first viewport;
+	then the two cards, what Pro changes, the streak week, three straight
+	answers, the questions and the closing call.
 -->
-<div class="container">
-	<section class="hero">
-		<div
-			class="copy"
-			data-reveal-children
-			use:reveal={{ children: true, onLoad: true, stagger: 0.1, y: 16 }}
-		>
-			<span class="eyebrow">Plans</span>
-			<h1>Free is a real plan. Paying lifts the limits.</h1>
-			<p class="lede">
-				Replying and correcting are unlimited on every plan. Pro lifts the other
-				limits — prices are set per region and shown in the app.
+<Block hue="sky" pad="hero" labelledby="plans-title">
+	<div class="hero">
+		<Tag tone="ink">Plans</Tag>
+		<h1 id="plans-title" class="display-hero">free to start. pro for more.</h1>
+		<p>
+			Talking, replying and correcting are free for everyone. Pro takes away the daily limits on new
+			chats and translations.
+		</p>
+	</div>
+</Block>
+
+<div class="column">
+	<section class="cards" aria-label="The two plans" use:rise>
+		<article class="card free" data-rise>
+			<h2>Free</h2>
+			<p class="tagline">A real plan, not a trial.</p>
+			<ul role="list">
+				{#each freeCard as line}
+					<li><span class="tick">{@render tick()}</span>{line}</li>
+				{/each}
+			</ul>
+		</article>
+
+		<article class="card pro" data-hue="blue" data-rise>
+			<h2>Pro</h2>
+			<p class="tagline">Everything in Free, without the daily limits.</p>
+			<div class="options">
+				<div class="option on">
+					<span class="o-head"
+						><span class="o-name">Yearly</span><span class="o-price"
+							><strong>{P.yearly}</strong> / year</span
+						></span
+					>
+					<span class="o-tags"
+						><span class="badge">{P.yearlyPerMonth} a month</span><span class="badge save"
+							>{P.yearlySaving}</span
+						></span
+					>
+				</div>
+				<div class="option">
+					<span class="o-head"
+						><span class="o-name">Monthly</span><span class="o-price"
+							><strong>{P.monthly}</strong> / month</span
+						></span
+					>
+					<span class="o-sub">Pay as you go.</span>
+				</div>
+			</div>
+			<ul role="list">
+				{#each proCard as line}
+					<li><span class="tick">{@render tick()}</span>{line}</li>
+				{/each}
+			</ul>
+			<div class="ask" use:ownsPrimary>
+				<Button href="https://get.langx.io" size="lg" block>Start my free week</Button>
+			</div>
+			<p class="fine">{P.yearlyTrial}, then {P.yearly} a year. Cancel anytime.</p>
+			<p class="fine small">
+				The free week comes with the yearly plan, for people who have not had Pro before. In the
+				app, you pay through the App Store or Google Play. Prices are in US dollars; your store
+				shows yours.
 			</p>
-			<div class="buttons" use:ownsPrimary>
-				<Button href="https://get.langx.io" variant="primary" size="lg" block>Start for free</Button>
-				<Button href="https://get.langx.io" variant="secondary" size="lg" block>
-					I already have an account
-				</Button>
-			</div>
-			<p class="fine">Monthly or yearly, with a one-week free trial, bought inside the app. Yearly is 3 months free.</p>
-		</div>
-		<div class="device" data-reveal use:reveal={{ onLoad: true, x: 40, y: 0, delay: 0.35 }}>
-			<PhoneFrame
-				label="The plans screen in the app: Pro's benefits, yearly or monthly"
-				height="auto"
-			>
-				<PaywallScreen />
-			</PhoneFrame>
-		</div>
+		</article>
 	</section>
 
-	<dl class="always">
-		{#each always as f}
-			<div>
-				<span class="fig-icon" aria-hidden="true"><UiIcon name={f.icon} size={20} /></span>
-				<dt class="tabular">{f.value}</dt>
-				<dd>{f.label}</dd>
-			</div>
-		{/each}
-	</dl>
-
-	<section class="plans" aria-labelledby="plans-title">
-		<header class="head">
-			<span class="eyebrow">Two plans</span>
-			<h2 id="plans-title">Each one lists only what is new</h2>
-			<p>Pro has everything in Free, without the limits.</p>
-		</header>
-		<div class="cards" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
-			{#each plans as plan, i}
-				<article class="card {TONES[i]}">
-					<span class="plan-icon" aria-hidden="true"><UiIcon name={ICONS[plan.name]} size={24} /></span>
-					<h3>{plan.name}</h3>
-					<p class="tagline">{plan.tagline}</p>
-					<ul role="list">
-						{#each plan.highlights as point}
-							<li>
-								<span class="tick" aria-hidden="true"
-									><UiIcon name="check" size={16} strokeWidth={3} /></span
-								>
-								<span
-									>{point.label}{#if point.pending}{' '}<span class="soon">Coming soon</span
-										>{/if}</span
-								>
-							</li>
+	<section class="compare" aria-labelledby="compare-title" use:rise>
+		<div class="c-head" data-rise>
+			<h2 id="compare-title" class="display-section">what pro changes.</h2>
+			<p>The first four rows are the same on both plans. That is on purpose.</p>
+		</div>
+		<table data-rise>
+			<caption class="sr-only">Free and Pro, per day unless it says otherwise</caption>
+			<thead>
+				<tr>
+					<th scope="col"><span class="per">Per day, unless it says otherwise</span></th>
+					<th scope="col">Free</th>
+					<th scope="col" class="pro-col">Pro</th>
+				</tr>
+			</thead>
+			<tbody>
+				{#each compareRows as row}
+					<tr>
+						<th scope="row">{row.label}</th>
+						{#each [row.free, row.pro] as cell, i}
+							<td class:pro-col={i === 1}>
+								{#if cell === true}
+									<span class="yes" aria-label="Included">{@render tick()}</span>
+								{:else if cell === false}
+									<span class="no" aria-label="Not included">–</span>
+								{:else}
+									{cell}
+								{/if}
+							</td>
 						{/each}
-					</ul>
-				</article>
-			{/each}
-		</div>
+					</tr>
+				{/each}
+			</tbody>
+		</table>
 	</section>
-
-	<section class="limits" aria-labelledby="limits-title" use:inview={{ threshold: 0.25 }}>
-		<header class="head">
-			<span class="eyebrow">The numbers</span>
-			<h2 id="limits-title">The limits, side by side</h2>
-			<p>A rolling 24 hours, not a calendar day. Only translation has a real per-request cost.</p>
-		</header>
-		<ul class="legend" role="list">
-			{#each plans as plan, i}
-				<li class={TONES[i]}><span class="swatch" aria-hidden="true"></span>{plan.name}</li>
-			{/each}
-		</ul>
-		<ul class="rows" role="list">
-			{#each limits as row, r}
-				<li class="lrow">
-					<span class="what">{row.label}</span>
-					<div class="lanes" role="img" aria-label="{row.label}: {plans.map((p, i) => `${p.name} ${label(row, i)}`).join(', ')}">
-						{#each row.values as v, i}
-							<span class="lane {TONES[i]}">
-								<span class="track"
-									><span
-										class="bar"
-										style="width:{share(v, maxOf(row))}%;--d:{r * 90 + i * 60}ms"></span></span
-								>
-								<span class="val tabular">{label(row, i)}</span>
-							</span>
-						{/each}
-					</div>
-				</li>
-			{/each}
-		</ul>
-		<p class="notes">{planNotes.join(' ')}</p>
-	</section>
-
-	<section class="free-pro" aria-labelledby="free-pro-title">
-		<header class="head">
-			<span class="eyebrow">Or don't pay</span>
-			<h2 id="free-pro-title">Ways to get Pro free</h2>
-			<p>Help LangX grow, or just keep showing up.</p>
-		</header>
-		<ul class="ways" role="list" data-reveal-children use:reveal={{ children: true, stagger: 0.1 }}>
-			{#each freeProWays as way}
-				<li>
-					<span class="way-icon" aria-hidden="true"><UiIcon name={way.icon} size={22} /></span>
-					<h3>{way.title}</h3>
-					<p>{way.body}</p>
-				</li>
-			{/each}
-		</ul>
-		<p class="notes">{freeProNote}</p>
-	</section>
-
-	<FAQ items={faq} eyebrow="Questions" title="Before you pay" />
-
-	<FinalCta title="Start free. Go further when you want to." />
 </div>
 
+<Chapter
+	id="streak-week"
+	hue="tangerine"
+	tag="Streaks"
+	title="practise a week, get a week."
+	phoneSide="left"
+	link={{ href: '/faq#streaks', label: 'How streaks work' }}
+>
+	<p>
+		Talk on LangX seven days in a row and you get a week of Pro, once. No card, nothing to cancel.
+	</p>
+	{#snippet phone()}
+		<Phone
+			label="LangX app: a seven-day streak, and the week of Pro it earned"
+			height={560}
+			cut="phone"
+			cutHeight={440}
+		>
+			<TodayScreen
+				streak={7}
+				hue="tangerine"
+				todayDone
+				reward={{
+					title: 'A week of Pro is on',
+					body: 'Your streak earned it. Pro runs for seven days, then you go back to Free.',
+					action: 'Find someone new'
+				}}
+				rows={[{ who: 'marina', text: 'Estoy muy cansada hoy.' }]}
+			/>
+		</Phone>
+	{/snippet}
+</Chapter>
+
+<div class="column">
+	<ul class="facts" role="list" use:rise>
+		{#each facts as f}
+			<li data-rise>
+				<h3>{f.title}</h3>
+				<p>{f.body}</p>
+			</li>
+		{/each}
+	</ul>
+
+	<FAQ items={faq} title="questions." id="faq" />
+</div>
+
+<FinalCta bleed />
+
 <style lang="scss">
-	@use '$lib/scss/breakpoints' as *;
-
-	// Copy on the left, the app's own plans screen on the right; on a phone
-	// the copy leads and the device follows.
 	.hero {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr);
-		align-items: center;
-		gap: var(--space-xl);
-		padding: var(--space-2xl) 0 var(--space-xl);
-
-		@include for-tablet-landscape-up {
-			grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-			min-height: min(calc(100dvh - 64px), 820px);
-		}
-
-		@include for-phone-only {
-			padding: var(--space-xl) 0 var(--space-lg);
-		}
-	}
-
-	.copy {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		gap: var(--space-sm);
-
-		h1 {
-			margin: 0;
-			max-width: 18ch;
-			font-size: clamp(1.9rem, 1.3rem + 2.2vw, 2.75rem);
-			line-height: 1.15;
-			letter-spacing: -0.02em;
-		}
-
-		.lede {
-			margin: 0;
-			font-size: 1.0625rem;
-			line-height: 1.65;
-			max-width: 48ch;
-		}
-	}
-
-	.buttons {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		width: 100%;
-		max-width: 330px;
-		margin-top: var(--space-2xs);
-	}
-
-	.fine {
-		margin: 0;
-		max-width: 34ch;
-		font-size: 0.9375rem;
-		line-height: 1.5;
-		color: var(--color--text-shade);
-	}
-
-	.device {
-		display: flex;
-		justify-content: center;
-		--phone-zoom: 0.66;
-
-		@include for-tablet-portrait-down {
-			justify-content: flex-start;
-			--phone-zoom: 0.7;
-		}
-
-		@include for-phone-only {
-			--phone-zoom: 0.66;
-		}
-	}
-
-	// Hairlines and figures: what every plan keeps, between two lines.
-	.always {
-		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		border-top: 1px solid var(--color--border);
-		border-bottom: 1px solid var(--color--border);
-		margin: 0;
-
-		> div {
-			display: flex;
-			flex-direction: column;
-			gap: 4px;
-			padding: var(--space-md) var(--space-md) var(--space-md) 0;
-
-			+ div {
-				border-left: 1px solid var(--color--border);
-				padding-left: var(--space-md);
-			}
-		}
-
-		.fig-icon {
-			display: inline-flex;
-			color: var(--color--text-quiet);
-			margin-bottom: 4px;
-		}
-
-		dt {
-			font-family: var(--font--title);
-			font-weight: 800;
-			font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2.125rem);
-			line-height: 1.1;
-			letter-spacing: -0.02em;
-		}
-
-		dd {
-			margin: 0;
-			font-size: 0.8125rem;
-			line-height: 1.4;
-			color: var(--color--text-quiet);
-			max-width: 22ch;
-		}
-
-		@include for-tablet-portrait-down {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-
-			> div {
-				padding: var(--space-sm) var(--space-sm) var(--space-sm) 0;
-
-				+ div {
-					border-left: 0;
-					padding-left: 0;
-				}
-
-				&:nth-child(even) {
-					border-left: 1px solid var(--color--border);
-					padding-left: var(--space-sm);
-				}
-
-				&:nth-child(n + 3) {
-					border-top: 1px solid var(--color--border);
-				}
-			}
-		}
-	}
-
-	.head {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
-		max-width: 60ch;
-
-		h2 {
-			margin: 0;
-			font-weight: 900;
-			font-size: clamp(1.625rem, 3vw, 2.125rem);
-			line-height: 1.15;
-		}
+		gap: 20px;
 
 		p {
 			margin: 0;
-			font-size: 1.0625rem;
-			line-height: 1.6;
-			color: var(--color--text-shade);
+			max-width: 560px;
+			font-size: 1.1875rem;
+			line-height: 1.47;
+			font-weight: 500;
 		}
 	}
 
-	.plans {
-		padding: var(--space-2xl) 0 0;
+	.column {
+		display: flex;
+		flex-direction: column;
+		gap: 64px;
+		max-width: calc(var(--container-max) + 32px);
+		margin-inline: auto;
+		padding: 40px 16px 64px;
 
-		@include for-phone-only {
-			padding-top: var(--space-xl);
+		@media (min-width: 768px) {
+			max-width: calc(var(--container-max) + 64px);
+			padding: 72px 32px 96px;
+			gap: 96px;
+		}
+
+		> :global(.faq) {
+			padding-top: 0;
 		}
 	}
 
 	.cards {
-		margin-top: var(--space-lg);
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-		gap: 24px;
+		gap: 12px;
+		align-items: start;
+
+		@media (min-width: 900px) {
+			grid-template-columns: 1fr 1fr;
+			gap: 16px;
+		}
 	}
 
-	// The card's edge and voice follow the plan: hairline for Free, blue for
-	// Pro — the homepage's cards, five lines each.
-	.free {
-		--edge: var(--color--border);
-		--tone: var(--color--text);
-		--fill: var(--color--muted);
-	}
+	// On a phone Pro comes first: it is what people open /plans for.
 	.pro {
-		--edge: var(--color--accent);
-		--tone: var(--color--accent-shade);
-		--fill: var(--color--accent-tint);
+		@media (max-width: 899px) {
+			order: -1;
+		}
 	}
 
 	.card {
-		border: 2px solid var(--edge);
-		border-radius: var(--radius-xl);
-		padding: 28px;
-		background: var(--color--surface);
 		display: flex;
 		flex-direction: column;
-		gap: 8px;
+		gap: 14px;
+		padding: 28px;
+		border-radius: 32px;
 
-		.plan-icon {
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			width: 44px;
-			height: 44px;
-			border-radius: var(--radius-md);
-			background: var(--fill);
-			color: var(--tone);
-			margin-bottom: 8px;
-		}
-
-		h3 {
+		h2 {
 			margin: 0;
-			font-weight: 900;
-			font-size: 1.375rem;
-			color: var(--tone);
-		}
-
-		.tagline {
-			margin: 0 0 8px;
-			font-size: 0.9375rem;
-			line-height: 1.5;
-			color: var(--color--text-shade);
+			color: inherit;
+			font-size: 2.25rem;
+			line-height: 1.1;
 		}
 
 		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			border-top: 1px solid var(--color--border);
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			margin: 4px 0;
 		}
 
 		li {
 			display: flex;
 			align-items: flex-start;
 			gap: 10px;
-			margin: 0;
-			padding: 11px 0;
-			border-bottom: 1px solid var(--color--border);
-			font-size: 0.9375rem;
-			line-height: 1.5;
-		}
-
-		// Blue checks, as in the plan rows; green is kept for corrections.
-		.tick {
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			width: 20px;
-			height: 20px;
-			margin-top: 2px;
-			border-radius: 50%;
-			background: var(--color--accent-tint);
-			color: var(--color--accent);
-			flex: 0 0 auto;
+			font-weight: 600;
 		}
 	}
 
-	.soon {
-		font-size: 0.6875rem;
-		font-weight: 700;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		color: var(--color--text-shade);
-		border: 1px solid var(--color--border);
-		border-radius: var(--radius-pill);
-		padding: 2px 8px;
-		// A real space comes before the badge, so the label and the badge read
-		// as two words. The space is about 4px; this makes up the 6px gap.
-		margin-left: 2px;
-		white-space: nowrap;
-	}
-
-	.limits {
-		border-top: 1px solid var(--color--border);
-		margin-top: var(--space-2xl);
-		padding: var(--space-2xl) 0 0;
-
-		@include for-phone-only {
-			margin-top: var(--space-xl);
-			padding-top: var(--space-xl);
-		}
-	}
-
-	.legend {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 8px 20px;
-		margin: var(--space-md) 0 0;
-		padding: 0;
-		list-style: none;
-		font-size: 0.875rem;
-		font-weight: 600;
-		color: var(--color--text-shade);
-
-		li {
-			display: inline-flex;
-			align-items: center;
-			gap: 8px;
-			margin: 0;
-		}
-	}
-
-	.swatch {
-		width: 12px;
-		height: 12px;
-		border-radius: 4px;
-		background: var(--bar);
-	}
-
-	// One colour per plan on the bars: the free plan in the quiet grey, Pro
-	// in blue — the same two as the card edges above.
 	.free {
-		--bar: var(--color--text-tertiary);
-	}
-	.pro {
-		--bar: var(--color--accent);
-	}
+		background: var(--color--muted);
 
-	.rows {
-		margin: var(--space-sm) 0 0;
-		padding: 0;
-		list-style: none;
-		border-top: 1px solid var(--color--border);
-	}
-
-	.lrow {
-		display: grid;
-		grid-template-columns: minmax(11rem, 15rem) minmax(0, 1fr);
-		gap: 8px 24px;
-		align-items: center;
-		padding: 16px 0;
-		border-bottom: 1px solid var(--color--border);
-		margin: 0;
-
-		// This list is closed at both ends, so the last row keeps its hairline.
-		// The global .rows rule drops it, and under Svelte 5 a plain scoped
-		// selector no longer outweighs that rule.
-		.rows > &:last-child {
-			border-bottom: 1px solid var(--color--border);
+		.tagline {
+			color: var(--color--text-shade);
 		}
 
-		@include for-phone-only {
-			grid-template-columns: minmax(0, 1fr);
+		.tick {
+			color: var(--color--success);
 		}
 	}
 
-	.what {
-		font-family: var(--font--title);
-		font-weight: 800;
-		font-size: 1rem;
-		line-height: 1.3;
+	.tagline {
+		margin: -6px 0 0;
+		font-weight: 600;
 	}
 
-	.lanes {
+	.tick {
+		display: inline-flex;
+		margin-top: 3px;
+		flex: 0 0 auto;
+	}
+
+	.options {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.option {
 		display: flex;
 		flex-direction: column;
 		gap: 6px;
+		padding: 14px 16px;
+		border-radius: 20px;
+		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6);
+
+		&.on {
+			background: #ffffff;
+			color: var(--color--ink);
+			box-shadow: none;
+		}
 	}
 
-	.lane {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) 5.5rem;
-		align-items: center;
-		gap: 10px;
+	.o-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 12px;
 	}
 
-	.track {
-		display: block;
-		min-width: 0;
+	.o-name {
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.125rem;
 	}
 
-	.bar {
-		display: block;
-		height: 12px;
-		border-radius: 0 4px 4px 0;
-		background: var(--bar);
-		transform-origin: left;
-		transition: transform 600ms var(--ease-out) var(--d);
+	.o-price strong {
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.375rem;
 	}
 
-	.val {
-		font-size: 0.875rem;
-		font-weight: 700;
-		color: var(--color--text);
-		white-space: nowrap;
+	.o-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
 	}
 
-	// The bars grow from the left once the rows are looked at — only where
-	// script runs; without it they are simply there. Svelte 4 cannot scope a
-	// class inside :not(), and left `:not(:global(.is-in))` in the output as
-	// is, which no browser parses; so the section's state is matched
-	// globally and only the bar keeps its scoped class.
-	:global(html:not(.no-js) .limits:not(.is-in)) .bar {
-		transform: scaleX(0);
-	}
-
-	.notes {
-		margin: 20px 0 0;
-		max-width: 70ch;
+	.badge {
+		padding: 3px 10px;
+		border-radius: 999px;
+		background: #e3ebfe;
+		color: #1f3fa8;
 		font-size: 0.8125rem;
-		line-height: 1.5;
-		color: var(--color--text-quiet);
+		font-weight: 800;
 	}
 
-	// Three ways to Pro without paying, between hairlines like the figures
-	// at the top: the page is about the plans, so this stays quieter than
-	// the cards.
-	.free-pro {
-		border-top: 1px solid var(--color--border);
-		margin-top: var(--space-2xl);
-		padding: var(--space-2xl) 0 0;
+	.save {
+		background: #e2f6ee;
+		color: #0b7a3e;
+	}
 
-		@include for-phone-only {
-			margin-top: var(--space-xl);
-			padding-top: var(--space-xl);
+	.o-sub {
+		font-size: 0.875rem;
+		font-weight: 600;
+	}
+
+	.ask {
+		margin-top: 4px;
+	}
+
+	.fine {
+		margin: 0;
+		font-weight: 700;
+		font-size: 0.9375rem;
+
+		&.small {
+			font-weight: 500;
+			font-size: 0.8125rem;
+			line-height: 1.45;
 		}
 	}
 
-	.ways {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	.compare {
+		display: flex;
+		flex-direction: column;
 		gap: 24px;
-		margin: var(--space-lg) 0 0;
-		padding: 0;
-		list-style: none;
+	}
 
-		li {
-			display: flex;
-			flex-direction: column;
-			gap: 8px;
-			margin: 0;
-			padding: 24px;
-			border: 1px solid var(--color--border);
-			border-radius: var(--radius-xl);
-			background: var(--color--surface);
-		}
-
-		.way-icon {
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			width: 40px;
-			height: 40px;
-			border-radius: var(--radius-md);
-			background: var(--color--accent-tint);
-			color: var(--color--accent-shade);
-			margin-bottom: 4px;
-		}
-
-		h3 {
-			margin: 0;
-			font-weight: 900;
-			font-size: 1.125rem;
-		}
+	.c-head {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
 
 		p {
 			margin: 0;
-			font-size: 0.9375rem;
-			line-height: 1.5;
 			color: var(--color--text-shade);
 		}
 	}
 
-	@media (prefers-reduced-motion: reduce) {
-		.bar {
-			transition: none;
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 1rem;
+	}
+
+	th,
+	td {
+		padding: 14px 8px;
+		border-bottom: 1px solid var(--color--border);
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	thead th {
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.125rem;
+	}
+
+	.per {
+		font-family: var(--font--default);
+		font-weight: 500;
+		font-size: 0.875rem;
+		color: var(--color--text-shade);
+	}
+
+	tbody th {
+		font-weight: 700;
+	}
+
+	td {
+		width: 26%;
+		font-weight: 600;
+
+		@media (min-width: 900px) {
+			width: 22%;
+		}
+	}
+
+	.pro-col {
+		font-weight: 900;
+		color: var(--color--accent);
+	}
+
+	.yes {
+		display: inline-flex;
+		width: 26px;
+		height: 26px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		background: var(--color--blue);
+		color: var(--color--on-blue);
+	}
+
+	.no {
+		color: var(--color--text-shade);
+	}
+
+	.facts {
+		display: grid;
+		gap: 12px;
+
+		@media (min-width: 900px) {
+			grid-template-columns: repeat(3, 1fr);
 		}
 
-		:global(html:not(.no-js) .limits:not(.is-in)) .bar {
-			transform: none;
+		li {
+			padding: 22px;
+			border-radius: 24px;
+			background: var(--color--muted);
+		}
+
+		h3 {
+			margin: 0 0 8px;
+			font-weight: 900;
+			font-size: 1.25rem;
+		}
+
+		p {
+			margin: 0;
+			color: var(--color--text-shade);
+			font-size: 0.9375rem;
 		}
 	}
 </style>

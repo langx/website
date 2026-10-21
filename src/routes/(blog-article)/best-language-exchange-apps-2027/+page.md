@@ -97,7 +97,7 @@ On the practice side, voice is where apps differ most. Lingbe is built on live c
 
 <AppDemo
   screen="chat"
-  title="Voice messages, and calls on the web"
+  title="Voice messages, and calls on iPhone and the web"
   text="LangX practice happens in the chat: text, voice, photo and video messages, with read-aloud. Your partner holds any message to correct it."
 />
 

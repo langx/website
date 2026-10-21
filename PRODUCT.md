@@ -66,9 +66,11 @@ published line.
 ## Capabilities and Constraints
 
 - Two plans: Free and Pro (`pro`). Pro replaced Fluent and Polyglot in
-  September 2026. Prices are set per region and shown in the app; the site
-  does not print prices. Pro is monthly or yearly, each with a one-week free
-  trial; yearly works out to 3 months free.
+  September 2026. Prices are set per region and shown in the app; /plans
+  prints the US prices from `src/lib/data/prices.ts` ($9.99 a month, $83.99 a
+  year) and says the store shows the local one. Pro is monthly or yearly;
+  only yearly starts with a free week (for someone who has not had Pro), and
+  it works out to 3 months free.
 - Free: 5 new conversations and 20 translations per rolling 24 h; replies and
   corrections unlimited; 1 learning + 1 native language; country/age/level
   filters. Every plan: 500 photo/video/voice messages a day (fair use), 10
@@ -95,11 +97,13 @@ published line.
 ## Brand Commitments
 
 - Name: LangX. Wordmark and interlocking-hook mark (`src/lib/images/logo.svg`).
-- The v3 mobile design handoff (Claude Design, 30 Aug 2026) is **binding** for
-  the site's visual language: Nunito 800 display, platform body stack, white
-  ground, yellow `#ffc409` reserved for the one committing action per screen,
-  blue `#3b6cf6` for everything interactive, corrections green, Copilot blue,
-  hairline dividers, pill controls.
+- The site follows the app's v3 design (see DESIGN.md): colour blocks in six
+  partner hues with ink `#14161b` on them in both schemes, Nunito 900
+  lower-case headings ending in a full stop, platform body stack, yellow
+  `#ffc409` for the one committing action per viewport, blue `#3b6cf6` for
+  the closing block and links, corrections green, pill controls, no shadows.
+  The site may ship before app 3.0, so copy and phones show nothing that only
+  3.0 has (no 3.0 tab names, partner streaks or automatic Echo cards).
 - Dark theme via `[data-theme='dark']` and `auto`.
 
 ## Evidence on Hand

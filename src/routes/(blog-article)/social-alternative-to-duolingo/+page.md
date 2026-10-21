@@ -105,7 +105,7 @@ The difference from Duolingo is what earns the points. On LangX you climb by tal
 
 <VersusCard
   a={{ name: "Duolingo", tagline: "Course app with game-like lessons", points: ["You practice with the app, and an AI character on paid plans", "Friends, Friend Streaks, Friends Quests and leagues", "Structured lessons in every course", "No direct messaging between learners"], bestFor: "starting from zero and building the habit" }}
-  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "Echo: free phrase packs to review", "No lesson path; calls on the on iPhone and the web for now"], bestFor: "using what you learned with a real person" }}
+  b={{ name: "LangX", tagline: "Social language app (language exchange)", points: ["You practice with native speakers learning your language", "Corrections from people, unlimited on every plan", "Streaks, tokens and leaderboards", "Echo: free phrase packs to review", "No lesson path; calls on iPhone and the web for now"], bestFor: "using what you learned with a real person" }}
 />
 
 | | Duolingo | LangX |

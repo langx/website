@@ -98,6 +98,11 @@ const body = () =>
 			'/tokens',
 			'in-app points earned by helping others; not money, never bought or sold'
 		),
+		link(
+			'Questions',
+			'/faq',
+			'every question about LangX, answered: plans, calls, Echo, streaks, safety'
+		),
 		link('Compare', '/compare', 'LangX next to Tandem, HelloTalk, Duolingo and other apps'),
 		link('Welcome back', '/welcome-back', 'what changed for people who used LangX v1'),
 		link('Blog', '/blog', 'every guide and comparison, by topic'),

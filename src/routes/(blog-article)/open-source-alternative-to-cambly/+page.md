@@ -157,7 +157,7 @@ On LangX you hold any message to correct it, and corrections are unlimited on ev
 
 ### Not live, and not a teacher
 
-LangX's voice and video calls are on iPhone and the on iPhone and the web for now (coming to Android), and a partner is not a trained teacher: they can tell you what sounds natural, but they may not be able to explain why. If you need grammar explained or want live speaking under pressure, keep your tutor.
+LangX's voice and video calls are on iPhone and the web for now (coming to Android), and a partner is not a trained teacher: they can tell you what sounds natural, but they may not be able to explain why. If you need grammar explained or want live speaking under pressure, keep your tutor.
 
 ### No ads
 

@@ -12,8 +12,6 @@
 		welcomeBackBonus
 	} from '$lib/data/token';
 	import AppStores from '$lib/components/molecules/AppStores.svelte';
-	import PhoneFrame from '$lib/components/phone/PhoneFrame.svelte';
-	import WalletScreen from '$lib/components/phone/WalletScreen.svelte';
 	import { ownsPrimary } from '$lib/stores/cta';
 
 	const money = new Intl.NumberFormat('en-GB');
@@ -169,21 +167,6 @@
 			<AppStores primary size="lg" />
 		</div>
 	</div>
-
-	<!--
-		The wallet as the app draws it, beside the rules it enforces. It animates
-		nothing and hides nothing, so it survives this page shipping no JavaScript.
-	-->
-	<div class="aside">
-		<div class="sticky">
-			<PhoneFrame
-				label="The wallet screen: a balance, the hourly gift, and what tokens can be spent on"
-				height="auto"
-			>
-				<WalletScreen />
-			</PhoneFrame>
-		</div>
-	</div>
 </section>
 
 <style lang="scss">
@@ -191,7 +174,8 @@
 
 	.tokens {
 		display: grid;
-		grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+		grid-template-columns: minmax(0, 1fr);
+		max-width: 760px;
 		gap: var(--space-2xl);
 		align-items: start;
 		padding-bottom: var(--space-2xl);
@@ -332,22 +316,5 @@
 
 	.cta {
 		padding: var(--space-md) 0 0;
-	}
-
-	.aside {
-		display: flex;
-		justify-content: center;
-	}
-
-	.sticky {
-		--phone-zoom: 0.72;
-		position: sticky;
-		top: calc(var(--header-height) + 24px);
-		display: flex;
-		justify-content: center;
-
-		@include for-tablet-portrait-down {
-			position: static;
-		}
 	}
 </style>

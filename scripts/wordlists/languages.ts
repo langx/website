@@ -3,7 +3,7 @@
  *
  * `code`, `name` and `nativeName` are copied from
  * `langx/packages/shared/src/languages.ts`, the same way
- * `src/lib/data/languages.ts` copies the homepage strip. Nothing checks that
+ * the homepage strip used to. Nothing checks that
  * they still agree, so re-copy them if that file changes.
  *
  * `freq` is the directory name in hermitdave/FrequencyWords, which is not

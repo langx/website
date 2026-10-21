@@ -37,7 +37,7 @@ This page explains what happened to Bilingua, what it did well, and how LangX vs
 <KeyTakeaways items={[
   "Bilingua is effectively closed: removed from Google Play in 2023, App Store listing gone, domain parked.",
   "Former users liked its personality matching, the Shiro conversation helper and light learning games.",
-  "LangX matches two ways and has unlimited corrections from real people, but no chatbot, and its calls are on the on iPhone and the web for now.",
+  "LangX matches two ways and has unlimited corrections from real people, but no chatbot, and its calls are on iPhone and the web for now.",
   "LangX is open source (BSD-3), so its code cannot disappear with a company."
 ]} />
 

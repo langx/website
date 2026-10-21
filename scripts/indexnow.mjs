@@ -38,6 +38,8 @@ function changedPages(from, to) {
 		const page = f.match(/^src\/routes\/\(site\)\/([a-z-]+)\/\+page\.(svelte|server\.ts)$/);
 		if (page) urls.add(`${SITE}/${page[1]}`);
 		if (f === 'src/routes/(site)/+page.svelte' || f === 'src/lib/data/faq.ts') urls.add(`${SITE}/`);
+		// /faq shows every question in faq.ts, so a changed answer changes it too.
+		if (f === 'src/lib/data/faq.ts') urls.add(`${SITE}/faq`);
 	}
 	return [...urls];
 }

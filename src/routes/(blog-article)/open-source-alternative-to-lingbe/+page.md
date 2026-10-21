@@ -36,7 +36,7 @@ This page compares the two fairly, as of September 2026. We make LangX, and we w
   "Lingbe connects you to a live voice call with a native speaker at the press of a button.",
   "LangX is chat-first: two-way matching, corrections on any message, translation and voice messages.",
   "Lingbe runs on credits (lingos); on LangX replies and corrections are unlimited on every plan.",
-  "LangX is open source (BSD-3) with no ads; its calls are on the on iPhone and the web for now, and only with someone who has written to you."
+  "LangX is open source (BSD-3) with no ads; its calls are on iPhone and the web for now, and only with someone who has written to you."
 ]} />
 
 ## What is Lingbe?
@@ -153,7 +153,7 @@ LangX's app and API are open source under BSD-3 on [GitHub](https://github.com/l
 
 ### Where LangX is weaker
 
-- **No instant calls with strangers.** LangX has voice and video calls, but only on the web for now, and only with someone who has already sent you 5 messages. If talking live right away is your main goal, LangX alone will not give it to you.
+- **No instant calls with strangers.** LangX has voice and video calls, but only on iPhone and the web for now, and only with someone who has already sent you 5 messages. If talking live right away is your main goal, LangX alone will not give it to you.
 - **Slower pace.** Messages can wait hours for a reply; a Lingbe call is immediate.
 - **A smaller community,** so some language pairs have fewer people online.
 
@@ -193,7 +193,7 @@ Yes. At the time of writing (September 2026) Lingbe is on Google Play and the Ap
 
 ### LangX vs Lingbe: does LangX have voice calls?
 
-Yes, on the web for now. On iPhone and the web you can make voice and video calls with someone once they have sent you 5 messages, and calls are coming to Android. There is no button that connects you to a stranger, so if instant calls are what you want, Lingbe is a better fit.
+Yes, on iPhone and the web for now. On iPhone and the web you can make voice and video calls with someone once they have sent you 5 messages, and calls are coming to Android. There is no button that connects you to a stranger, so if instant calls are what you want, Lingbe is a better fit.
 
 ### Is there a free Lingbe alternative without credits?
 

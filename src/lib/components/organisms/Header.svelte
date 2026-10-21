@@ -5,6 +5,7 @@
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import { primaryCtaInView } from '$lib/stores/cta';
+	import { hueFor } from '$lib/data/hues';
 
 	type Hue = 'tangerine' | 'lime' | 'mint' | 'aqua' | 'sky' | 'lilac';
 
@@ -16,12 +17,12 @@
 	let { hue: hueProp }: Props = $props();
 	// A page under a shared layout names its first block's colour in its load
 	// data (`hue`), since it cannot pass a prop up to the layout.
-	const hue = $derived(hueProp ?? (page.data?.hue as Hue | undefined));
+	const hue = $derived(hueProp ?? (page.data?.hue as Hue | undefined) ?? hueFor(page.url.pathname));
 
 	// Search brings most visitors to the blog, the tools and the plans, so
 	// those are here; everything else is in the footer.
 	const links = [
-		{ href: '/#features', label: 'Features' },
+		{ href: '/#echo', label: 'Echo' },
 		{ href: '/plans', label: 'Plans' },
 		{ href: '/tools', label: 'Tools' },
 		{ href: '/blog', label: 'Blog' }
@@ -75,7 +76,7 @@
 			<span class="toggle-wide"><ThemeToggle /></span>
 			<Button
 				href="https://get.langx.io"
-				variant={$primaryCtaInView ? 'ink' : 'primary'}
+				variant={$primaryCtaInView || page.data?.headerCta === 'ink' ? 'ink' : 'primary'}
 				size="sm"
 				icon={download}>Get the app</Button
 			>
