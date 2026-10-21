@@ -13,6 +13,10 @@
 		more?: { href: string; label: string };
 		/** The section's id; the homepage's is the `#faq` the old links point at. */
 		id?: string;
+		/** `split` puts the heading beside the list; `stack` above it, for a narrow column. */
+		layout?: 'split' | 'stack';
+		/** Open the first answer on arrival; a page with several lists opens only its first. */
+		openFirst?: boolean;
 	}
 
 	let {
@@ -20,13 +24,15 @@
 		eyebrow = '',
 		title = 'questions.',
 		more,
-		id = 'faq'
+		id = 'faq',
+		layout = 'split',
+		openFirst = true
 	}: Props = $props();
 
 	// The first answer is open on arrival, so the list reads as answers, not a
 	// row of closed doors.
 	// svelte-ignore state_referenced_locally
-	let openId: number | null = $state(items[0]?.id ?? null);
+	let openId: number | null = $state(openFirst ? (items[0]?.id ?? null) : null);
 
 	const toggle = (id: number) => (openId = openId === id ? null : id);
 
@@ -39,7 +45,7 @@
 </script>
 
 <!-- The heading on the left, the questions on the right; one column on a phone. -->
-<section {id} class="faq" aria-labelledby="{id}-title" use:rise>
+<section {id} class="faq {layout}" aria-labelledby="{id}-title" use:rise>
 	<header class="head" data-rise>
 		{#if eyebrow}<span class="eyebrow">{eyebrow}</span>{/if}
 		<h2 id="{id}-title" class="display-section">{title}</h2>
@@ -85,10 +91,12 @@
 		gap: 24px;
 		padding-top: 72px;
 
-		@media (min-width: 900px) {
-			grid-template-columns: 1fr 1.65fr;
-			gap: 48px;
-			align-items: start;
+		&.split {
+			@media (min-width: 900px) {
+				grid-template-columns: 1fr 1.65fr;
+				gap: 48px;
+				align-items: start;
+			}
 		}
 	}
 
@@ -100,6 +108,12 @@
 		h2 {
 			color: inherit;
 		}
+	}
+
+	// Stacked lists sit under a page's own title, so their headings step down.
+	.stack .head h2 {
+		font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem);
+		line-height: 1.1;
 	}
 
 	.accordion {

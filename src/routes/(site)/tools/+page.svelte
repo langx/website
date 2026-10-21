@@ -1,8 +1,9 @@
 <script lang="ts">
 	import Seo from '$lib/components/atoms/Seo.svelte';
+	import Block from '$lib/components/atoms/Block.svelte';
+	import Tag from '$lib/components/atoms/Tag.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
-	import ScriptDisc from '$lib/components/atoms/ScriptDisc.svelte';
-	import { ownsPrimary } from '$lib/stores/cta';
+	import FinalCta from '$lib/components/organisms/FinalCta.svelte';
 	import { siteBaseUrl } from '$lib/data/meta';
 	import { WORD_LISTS, totalWords } from '$lib/data/most-common-words';
 	import { SAY_WORDS } from '$lib/data/say-words';
@@ -12,36 +13,11 @@
 
 	const nf = new Intl.NumberFormat('en-US');
 
-	/** Every script we carry, one language each, in the order they read best. */
-	const STRIP = [
-		'zh',
-		'ar',
-		'ru',
-		'ko',
-		'el',
-		'he',
-		'hi',
-		'ka',
-		'hy',
-		'ta',
-		'bn',
-		'te',
-		'ml',
-		'th',
-		'es',
-		'tr',
-		'vi',
-		'pl',
-		'is',
-		'fi'
-	];
-	const strip = STRIP.map((c) => WORD_LISTS.find((l) => l.code === c)).filter(
-		Boolean
-	) as typeof WORD_LISTS;
-
 	const tools = [
 		{
 			href: '/tools/most-common-words',
+			glyph: 'the',
+			hue: 'lilac',
 			title: `The most common words in ${WORD_LISTS.length} languages`,
 			what: `${nf.format(
 				totalWords
@@ -51,6 +27,8 @@
 		},
 		{
 			href: '/tools/say',
+			glyph: 'hi',
+			hue: 'mint',
 			title: `Say it in ${WORD_LISTS.length} languages`,
 			what: `${nf.format(
 				SAY_WORDS.length
@@ -60,6 +38,8 @@
 		},
 		{
 			href: '/tools/word-game',
+			glyph: 'Aa',
+			hue: 'lime',
 			title: 'Five letters, once a day',
 			what: `Guess the day's word in six tries, in any of ${WORD_GAME_LANGUAGES.length} languages. Every answer is a word that language really uses, and the result copies as a grid you can paste anywhere.`,
 			figure: '6',
@@ -67,6 +47,8 @@
 		},
 		{
 			href: '/tools/guess-the-language',
+			glyph: '?',
+			hue: 'aqua',
 			title: 'Which language is this?',
 			what: `Ten words a day, four guesses each. Every word appears in exactly one of the ${WORD_LISTS.length} lists, so there are no trick questions.`,
 			figure: '10',
@@ -74,6 +56,8 @@
 		},
 		{
 			href: '/tools/meaning-quiz',
+			glyph: 'ok',
+			hue: 'sky',
 			title: 'Do you know what these words mean?',
 			what: 'Ten words a day with four meanings each, drawn from the first fifteen hundred words a language uses most. Shareable score.',
 			figure: '10',
@@ -81,6 +65,8 @@
 		},
 		{
 			href: '/tools/alphabet',
+			glyph: 'Бб',
+			hue: 'aqua',
 			title: 'Alphabets',
 			what: `Every letter of ${ALPHABETS.length} writing systems — Greek, Cyrillic, Arabic, Hangul, Devanagari and the rest — with what each is called and roughly how it sounds.`,
 			figure: `${ALPHABETS.length}`,
@@ -88,6 +74,8 @@
 		},
 		{
 			href: '/tools/similar',
+			glyph: 'es·pt',
+			hue: 'lime',
 			title: 'Languages that overlap',
 			what: `${LANGUAGE_PAIRS.length} pairs where words are written the same and mean the same — Czech and Slovak share 256 of their commonest two thousand. If you have one of a pair, this is the part you do not have to learn.`,
 			figure: `${LANGUAGE_PAIRS.length}`,
@@ -95,6 +83,8 @@
 		},
 		{
 			href: '/tools/vocabulary-test/spanish',
+			glyph: '#',
+			hue: 'tangerine',
 			title: 'How many words do you know?',
 			what: 'Forty words spread from the commonest to the rarest, in any of the 53 languages. Mark the ones you know and see roughly how much of the language that covers.',
 			figure: '40',
@@ -144,45 +134,47 @@
 	{@html ldScript}
 </svelte:head>
 
-<div class="container">
-	<header class="hero">
-		<span class="eyebrow">Free · no account · yours to download</span>
-		<h1>Tools for the part<br />nobody sells you.</h1>
-		<p class="lede">
-			The vocabulary, the frequency, the raw lists — the unglamorous half of learning a language,
-			free and open. Everything here works without signing up, and everything here can be taken with
-			you.
-		</p>
-	</header>
-</div>
-
-<!-- Full-bleed: every script we carry, running edge to edge. -->
-<div class="strip" aria-hidden="true">
-	<div class="track">
-		{#each [...strip, ...strip] as l}
-			<ScriptDisc nativeName={l.nativeName} code={l.code} size={52} />
-		{/each}
+<!-- Lime, words on the left and a taste of the daily game on the right. -->
+<Block hue="lime" pad="hero" labelledby="tools-title">
+	<div class="hero">
+		<div class="copy">
+			<Tag tone="ink">Tools</Tag>
+			<h1 id="tools-title" class="display-hero">free tools for curious learners.</h1>
+			<p>
+				Word lists, quizzes and a daily word game, in {WORD_LISTS.length} languages. No account, no sign-up,
+				nothing to install.
+			</p>
+		</div>
+		<a class="teaser" href="/tools/word-game" aria-label="Play today’s word game">
+			<span class="t-head"
+				><span>Five letters, once a day</span><span class="lang">Spanish</span></span
+			>
+			<span class="grid" aria-hidden="true" lang="es">
+				{#each [['C', 'A', 'S', 'A', 'S'], ['P', 'A', 'L', 'M', 'A'], ['P', 'L', 'A', 'Y', 'A']] as row, r}
+					{#each row as letter, i}
+						<span
+							class="cell"
+							class:hit={r === 2 || (r === 1 && i !== 3)}
+							class:near={r === 0 && (i === 1 || i === 3)}>{letter}</span
+						>
+					{/each}
+				{/each}
+			</span>
+			<span class="t-note">An example round. A new word comes every day.</span>
+			<span class="t-cta">Play today’s word →</span>
+		</a>
 	</div>
-</div>
+</Block>
 
-<div class="container">
+<div class="column">
+	<h2 class="display-section">pick one and play.</h2>
 	<ul class="tools" role="list">
 		{#each tools as t}
 			<li>
 				<a href={t.href}>
-					<span class="figure">
-						<span class="n tabular">{t.figure}</span>
-						<span class="unit">{t.label}</span>
-					</span>
-					<span class="body">
-						<span class="head">
-							<h2>{t.title}</h2>
-							<span class="go" aria-hidden="true">
-								<svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
-							</span>
-						</span>
-						<span class="what">{t.what}</span>
-					</span>
+					<span class="glyph" data-hue={t.hue} aria-hidden="true">{t.glyph}</span>
+					<span class="name">{t.title}</span>
+					<span class="what">{t.what}</span>
 				</a>
 			</li>
 		{/each}
@@ -193,241 +185,195 @@
 		<a href="https://discord.langx.io" target="_blank" rel="noopener noreferrer">Discord</a> is where
 		we hear about it first.
 	</p>
-
-	<section class="cta">
-		<h2 class="cta-h">Learning is easier with someone on the other end.</h2>
-		<p>
-			The tools are free and stay free. The app is where you put them to use — with a person who
-			speaks what you are learning, and is learning what you speak.
-		</p>
-		<div use:ownsPrimary>
-			<Button href="https://get.langx.io" variant="primary" size="lg">Start for free</Button>
-		</div>
-	</section>
 </div>
 
+<FinalCta bleed title="practise with real people." />
+
 <style lang="scss">
-	@use '$lib/scss/breakpoints' as *;
-
 	.hero {
-		padding: var(--space-2xl) 0 var(--space-lg);
+		display: grid;
+		gap: 28px;
 
-		@include for-tablet-portrait-down {
-			padding-top: var(--space-xl);
+		@media (min-width: 900px) {
+			grid-template-columns: 1fr 380px;
+			gap: 64px;
+			align-items: center;
 		}
 	}
 
-	h1 {
-		max-width: 20ch;
-		margin-top: 12px;
-	}
-
-	.lede {
-		font-size: 1.125rem;
-		line-height: 1.55;
-		color: var(--color--text-shade);
-		max-width: 56ch;
-		margin-top: var(--space-sm);
-	}
-
-	// The one attention-grabbing object on the page, and it is the product's own
-	// material rather than decoration: every writing system we carry, bleeding to
-	// the viewport edges between two hairlines — the same device the homepage
-	// marquee uses.
-	.strip {
-		margin: var(--space-md) calc(50% - 50vw) var(--space-xl);
-		width: 100vw;
-		overflow: hidden;
-		border-top: 1px solid var(--color--border);
-		border-bottom: 1px solid var(--color--border);
-		padding: var(--space-sm) 0;
-		position: relative;
-
-		// Ground-coloured fades at each edge, the way the homepage marquee does
-		// it — rather than a mask, which would need a colour of its own.
-		&::before,
-		&::after {
-			content: '';
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			width: 10%;
-			z-index: 1;
-			pointer-events: none;
-		}
-
-		&::before {
-			left: 0;
-			background: linear-gradient(90deg, var(--color--page-background), transparent);
-		}
-
-		&::after {
-			right: 0;
-			background: linear-gradient(270deg, var(--color--page-background), transparent);
-		}
-	}
-
-	.track {
+	.copy {
 		display: flex;
-		gap: var(--space-2xs);
-		width: max-content;
-		animation: slide 60s linear infinite;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+
+		p {
+			margin: 0;
+			max-width: 520px;
+			font-size: 1.1875rem;
+			line-height: 1.47;
+			font-weight: 500;
+		}
 	}
 
-	@keyframes slide {
-		from {
-			transform: translateX(0);
-		}
-		to {
-			// The list is rendered twice, so half a turn is a seamless loop.
-			transform: translateX(-50%);
+	.teaser {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		padding: 20px;
+		border-radius: 28px;
+		background: var(--color--page-background);
+		color: var(--color--text);
+		text-decoration: none;
+
+		&:hover {
+			color: var(--color--text);
 		}
 	}
 
-	@media (prefers-reduced-motion: reduce) {
-		.strip {
-			overflow-x: auto;
-			mask-image: none;
+	.t-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.0625rem;
+	}
+
+	.lang {
+		padding: 2px 10px;
+		border-radius: 999px;
+		background: var(--color--muted);
+		font-size: 0.8125rem;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 6px;
+	}
+
+	.cell {
+		aspect-ratio: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 12px;
+		background: var(--color--muted);
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.25rem;
+
+		&.near {
+			background: var(--color--sky);
+			color: var(--color--ink);
 		}
-		.track {
-			animation: none;
+		&.hit {
+			background: var(--color--mint);
+			color: var(--color--ink);
+		}
+	}
+
+	.t-note {
+		font-size: 0.8125rem;
+		color: var(--color--text-shade);
+	}
+
+	.t-cta {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 48px;
+		border-radius: 999px;
+		background: var(--color--text);
+		color: var(--color--page-background);
+		font-family: var(--font--title);
+		font-weight: 900;
+	}
+
+	.column {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		max-width: calc(var(--container-max) + 32px);
+		margin-inline: auto;
+		padding: 48px 16px 64px;
+
+		@media (min-width: 768px) {
+			max-width: calc(var(--container-max) + 64px);
+			padding: 88px 32px 96px;
 		}
 	}
 
 	.tools {
-		border-top: 1px solid var(--color--border);
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 12px;
 
-		li {
-			border-bottom: 1px solid var(--color--border);
+		@media (min-width: 600px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media (min-width: 1000px) {
+			grid-template-columns: repeat(4, 1fr);
 		}
 
 		a {
-			display: grid;
-			grid-template-columns: 12rem 1fr;
-			gap: var(--space-lg);
-			padding: var(--space-lg) 0;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			padding: 18px;
+			border-radius: 24px;
+			background: var(--color--muted);
 			color: var(--color--text);
-		}
+			text-decoration: none;
+			transition: transform 120ms var(--ease-out);
 
-		@include for-tablet-portrait-down {
-			a {
-				grid-template-columns: 1fr;
-				gap: var(--space-2xs);
-				padding: var(--space-md) 0;
+			&:hover {
+				color: var(--color--text);
+			}
+			&:active {
+				transform: scale(0.98);
 			}
 		}
 	}
 
-	.figure {
+	.glyph {
+		align-self: flex-start;
+		min-width: 44px;
+		height: 44px;
+		padding: 0 8px;
 		display: flex;
-		flex-direction: column;
-
-		.n {
-			font-family: var(--font--title);
-			font-weight: 800;
-			font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.375rem);
-			line-height: 1.05;
-			letter-spacing: -0.02em;
-		}
-
-		.unit {
-			font-size: 0.8125rem;
-			color: var(--color--text-quiet);
-			margin-top: 2px;
-		}
-
-		@include for-tablet-portrait-down {
-			flex-direction: row;
-			align-items: baseline;
-			gap: var(--space-2xs);
-
-			.unit {
-				margin-top: 0;
-			}
-		}
+		align-items: center;
+		justify-content: center;
+		border-radius: 14px;
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.0625rem;
 	}
 
-	.body {
-		display: block;
-		min-width: 0;
-	}
-
-	.head {
-		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
-		gap: var(--space-sm);
-
-		h2 {
-			font-family: var(--font--title);
-			font-weight: 800;
-			font-size: clamp(1.375rem, 1.1rem + 1.1vw, 1.875rem);
-			letter-spacing: -0.015em;
-			max-width: 24ch;
-		}
-	}
-
-	.go {
-		flex: 0 0 auto;
-		color: var(--color--accent);
-
-		svg {
-			width: 22px;
-			height: 22px;
-			fill: none;
-			stroke: currentColor;
-			stroke-width: 2.5;
-			stroke-linecap: round;
-			stroke-linejoin: round;
-			transition: transform var(--dur-fast) var(--ease-out);
-		}
-	}
-
-	@media (hover: hover) and (pointer: fine) {
-		.tools a:hover .go svg {
-			transform: translateX(3px);
-		}
+	.name {
+		margin-top: 6px;
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 1.125rem;
+		line-height: 1.25;
 	}
 
 	.what {
-		display: block;
+		font-size: 0.875rem;
+		line-height: 1.5;
 		color: var(--color--text-shade);
-		max-width: 64ch;
-		margin-top: var(--space-2xs);
 	}
 
 	.note {
-		margin-top: var(--space-md);
-		color: var(--color--text-quiet);
-		max-width: 60ch;
-		font-size: 0.9375rem;
-
-		a {
-			color: var(--color--accent);
-		}
+		margin: 8px 0 0;
+		color: var(--color--text-shade);
 	}
 
-	.cta {
-		margin-top: var(--space-2xl);
-		border-top: 1px solid var(--color--border);
-		padding: var(--space-2xl) 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-
-		.cta-h {
-			font-family: var(--font--title);
-			font-weight: 800;
-			font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.375rem);
-			letter-spacing: -0.015em;
-			max-width: 20ch;
-		}
-
-		p {
-			color: var(--color--text-shade);
-			max-width: 52ch;
-			margin: var(--space-2xs) 0 var(--space-md);
+	@media (prefers-reduced-motion: reduce) {
+		.tools a {
+			transition: none;
 		}
 	}
 </style>
