@@ -54,7 +54,7 @@ export const tokenSinks = [
 		name: 'Sticker packs',
 		price: '1,000 – 1,500 tokens',
 		description:
-			'Four packs of twelve stickers to send in a chat: Starter and Practice at 1,000, and Pixel and Paper Talk, both drawn entirely for LangX, at 1,500. No pack is a rung above another, so any one can be bought first. Only Paper Talk carries words — ¡Hola!, Merci, Çay?, Fixed it — on purpose; the others have none, because the app is read in eight languages.'
+			'Ten packs of twelve stickers to send in a chat, every one drawn for LangX: Starter and Practice at 1,000, and Pixel, Paper Talk, Margin Notes, Polyglot, Study Desk, Night Owl, Qalam and Shared Table at 1,500. No pack is a rung above another, so any one can be bought first.'
 	}
 ];
 
