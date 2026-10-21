@@ -10,6 +10,25 @@ import { writable } from 'svelte/store';
 export const primaryCtaInView = writable(false);
 
 /**
+ * Whether `primaryCtaInView` has heard from an observer yet. Until it has,
+ * the header keeps the colour the server drew, so a page whose hero owns the
+ * yellow never flashes a second yellow between hydration and the first
+ * intersection report.
+ */
+export const ctaSettled = writable(false);
+
+/**
+ * Pages whose first screen carries the page's own yellow, on every width.
+ * The header is drawn ink on them from the server, which also covers the
+ * pages that ship no script (/download), where nothing would swap it.
+ */
+const HERO_OWNS_PRIMARY = new Set(['/', '/compare', '/download']);
+
+export function heroOwnsPrimary(path: string): boolean {
+	return HERO_OWNS_PRIMARY.has(path);
+}
+
+/**
  * The registered actions that are currently on screen. A page can carry more
  * than one — the homepage asks in the hero and again at the end — so the
  * header follows how many are visible, not whichever observer fired last.
@@ -18,6 +37,7 @@ const onScreen = new Set<HTMLElement>();
 
 function sync() {
 	primaryCtaInView.set(onScreen.size > 0);
+	ctaSettled.set(true);
 }
 
 export function ownsPrimary(node: HTMLElement): { destroy(): void } {
