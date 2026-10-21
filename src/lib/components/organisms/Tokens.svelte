@@ -12,7 +12,6 @@
 		welcomeBackBonus
 	} from '$lib/data/token';
 	import AppStores from '$lib/components/molecules/AppStores.svelte';
-	import { ownsPrimary } from '$lib/stores/cta';
 
 	const money = new Intl.NumberFormat('en-GB');
 </script>
@@ -163,8 +162,13 @@
 			</p>
 		</article>
 
-		<div class="cta" use:ownsPrimary>
-			<AppStores primary size="lg" />
+		<!--
+			Ink, not yellow: this page ships no script, so the sticky header could
+			not step back while this button is in view. The header keeps the one
+			yellow.
+		-->
+		<div class="cta">
+			<AppStores primary={false} size="lg" />
 		</div>
 	</div>
 </section>

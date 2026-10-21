@@ -5,7 +5,5 @@ import { dev } from '$app/environment';
 // test checks).
 export const csr = dev;
 
-// The page's own yellow is in its first block on every screen, and with no
-// script the header cannot step back to ink when it comes into view, so it
-// starts as ink here (Header.svelte reads this).
-export const load = () => ({ headerCta: 'ink' as const });
+// Its own yellow is in the first block, so the header starts ink: /download
+// is in HERO_OWNS_PRIMARY (stores/cta.ts).

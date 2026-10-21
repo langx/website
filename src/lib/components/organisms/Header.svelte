@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { page } from '$app/state';
+	import { beforeNavigate } from '$app/navigation';
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import { primaryCtaInView } from '$lib/stores/cta';
+	import { ctaSettled, heroOwnsPrimary, primaryCtaInView } from '$lib/stores/cta';
 	import { hueFor } from '$lib/data/hues';
 
 	type Hue = 'tangerine' | 'lime' | 'mint' | 'aqua' | 'sky' | 'lilac';
@@ -33,6 +34,15 @@
 	// of another colour. Without script it stays in the hue, which is right
 	// for the top of the page and harmless further down.
 	let atTop = $state(true);
+
+	// The button's colour as the server draws it: ink where the hero owns the
+	// yellow, yellow elsewhere. Once an observer has reported, the live
+	// value from stores/cta.ts takes over.
+	const inkAtFirst = $derived(heroOwnsPrimary(page.url.pathname));
+	const ink = $derived($ctaSettled ? $primaryCtaInView : inkAtFirst);
+	// A new page starts from its own first-paint colour again, so going back
+	// to / does not flash yellow before the hero's observer reports.
+	beforeNavigate(() => ctaSettled.set(false));
 	onMount(() => {
 		const update = () => (atTop = window.scrollY < 8);
 		update();
@@ -76,7 +86,7 @@
 			<span class="toggle-wide"><ThemeToggle /></span>
 			<Button
 				href="https://get.langx.io"
-				variant={$primaryCtaInView || page.data?.headerCta === 'ink' ? 'ink' : 'primary'}
+				variant={ink ? 'ink' : 'primary'}
 				size="sm"
 				icon={download}>Get the app</Button
 			>
