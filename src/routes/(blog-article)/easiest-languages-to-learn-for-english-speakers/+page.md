@@ -291,7 +291,7 @@ That last point is where [LangX](/) comes in. It matches you with people who
 speak the language you are learning and are learning yours, so the conversation
 is useful to both of you. You can correct any message, with corrections
 unlimited on every plan, and translate inside the chat when you get stuck.
-The app lists 182 languages. If you have
+The app lists 183 languages. If you have
 never done a language exchange, start with
 [what a language exchange is](/what-is-a-language-exchange), and see our
 [top tips for learning a new language quickly](/top-10-tips-for-learning-a-new-language-quickly).
@@ -299,7 +299,7 @@ never done a language exchange, start with
 <AppDemo
   screen="discover"
   title="Partners for the language you picked"
-  text="LangX shows you people who speak the language you are learning and are learning yours. The app lists 182 languages."
+  text="LangX shows you people who speak the language you are learning and are learning yours. The app lists 183 languages."
 />
 
 ## FAQ

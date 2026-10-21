@@ -219,7 +219,7 @@ Learning another script too? There are guides for [Russian](/russian-alphabet-gu
 
 ## Practice reading and speaking with native speakers
 
-The alphabet gets you reading. Hearing the difference between и and і, or getting г right, takes a person who will tell you when you are off. On LangX, Ukrainian is one of the 182 languages you can choose, and matching runs both ways: you see people who speak Ukrainian and are learning a language you speak.
+The alphabet gets you reading. Hearing the difference between и and і, or getting г right, takes a person who will tell you when you are off. On LangX, Ukrainian is one of the 183 languages you can choose, and matching runs both ways: you see people who speak Ukrainian and are learning a language you speak.
 
 <AppDemo
   screen="chat"
