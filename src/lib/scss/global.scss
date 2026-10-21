@@ -72,3 +72,23 @@ html:not(.no-js) [data-reveal-children] > * {
 		opacity: 1;
 	}
 }
+
+// The chapter rise (utils/rise.ts). Only the script adds `rise-wait`.
+[data-rise] {
+	transition:
+		opacity 400ms ease,
+		transform 400ms var(--ease-out);
+}
+.rise-wait {
+	opacity: 0;
+	transform: translateY(12px);
+}
+@media (prefers-reduced-motion: reduce) {
+	[data-rise] {
+		transition: none;
+	}
+	.rise-wait {
+		opacity: 1;
+		transform: none;
+	}
+}
