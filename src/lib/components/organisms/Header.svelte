@@ -20,14 +20,20 @@
 	// data (`hue`), since it cannot pass a prop up to the layout.
 	const hue = $derived(hueProp ?? (page.data?.hue as Hue | undefined) ?? hueFor(page.url.pathname));
 
-	// Search brings most visitors to the blog, the tools and the plans, so
-	// those are here; everything else is in the footer.
+	// Search brings most visitors to the plans, the comparisons, the tools and
+	// the blog, so those are here; everything else is in the footer.
 	const links = [
 		{ href: '/#echo', label: 'Echo' },
 		{ href: '/plans', label: 'Plans' },
+		{ href: '/compare', label: 'Compare' },
 		{ href: '/tools', label: 'Tools' },
 		{ href: '/blog', label: 'Blog' }
 	];
+
+	// The section you are in, marked in both the bar and the phone menu. Echo
+	// is a place on the homepage, not a page, so it is never current.
+	const isCurrent = (href: string) =>
+		!href.includes('#') && (page.url.pathname === href || page.url.pathname.startsWith(`${href}/`));
 
 	// At the top the header is part of the first block. Once the page moves
 	// it goes back to the plain ground, so it never paints a hue over a block
@@ -78,7 +84,8 @@
 
 		<nav class="links" aria-label="Primary">
 			{#each links as link}
-				<a href={link.href}>{link.label}</a>
+				<a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a
+				>
 			{/each}
 		</nav>
 
@@ -105,9 +112,10 @@
 				</summary>
 				<nav class="panel" aria-label="Menu">
 					{#each links as link}
-						<a href={link.href}>{link.label}</a>
+						<a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}
+							>{link.label}</a
+						>
 					{/each}
-					<a href="/compare">Compare apps</a>
 					<a href="https://app.langx.io">Use it in your browser</a>
 					<span class="panel-toggle"><ThemeToggle /></span>
 				</nav>
@@ -157,7 +165,8 @@
 
 	.links {
 		display: none;
-		gap: 28px;
+		align-items: center;
+		gap: 4px;
 		flex: 1;
 
 		@media (min-width: 900px) {
@@ -168,6 +177,8 @@
 			display: flex;
 			align-items: center;
 			min-height: 44px;
+			padding: 0 14px;
+			border-radius: var(--radius-pill);
 			color: inherit;
 			font-family: var(--font--title);
 			font-weight: 800;
@@ -177,6 +188,19 @@
 				color: inherit;
 				text-decoration: underline;
 				text-decoration-thickness: 2px;
+			}
+		}
+
+		// The section you are in: an ink pill, its letters in the header's
+		// colour (the block's hue at the top, the ground once scrolled).
+		a[aria-current='page'] {
+			background: var(--ink-fill, var(--color--text));
+			color: var(--block, var(--color--page-background));
+			font-weight: 900;
+
+			&:hover {
+				color: var(--block, var(--color--page-background));
+				text-decoration: none;
 			}
 		}
 	}
@@ -245,6 +269,10 @@
 			&:hover {
 				color: inherit;
 				background: rgba(255, 255, 255, 0.08);
+			}
+
+			&[aria-current='page'] {
+				background: rgba(255, 255, 255, 0.16);
 			}
 		}
 	}
