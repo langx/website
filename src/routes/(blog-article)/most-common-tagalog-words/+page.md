@@ -184,7 +184,7 @@ Start with [the 3,068 most common Tagalog words](/tools/most-common-words/tagalo
 
 ## Practice Tagalog with a native speaker
 
-Particles are hard to learn from a table, because whether *naman* or *pala* fits depends on the moment. That is exactly what a conversation partner teaches. On LangX, Tagalog is one of the 182 languages you can choose, and matching runs both ways: you see people who speak Tagalog and are learning a language you speak.
+Particles are hard to learn from a table, because whether *naman* or *pala* fits depends on the moment. That is exactly what a conversation partner teaches. On LangX, Tagalog is one of the 183 languages you can choose, and matching runs both ways: you see people who speak Tagalog and are learning a language you speak.
 
 <AppDemo
   screen="chat"

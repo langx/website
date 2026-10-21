@@ -89,7 +89,7 @@ published line.
 - Minimum age 16 (18 until langx/langx#1109; the Terms and Privacy Policy say
   16). v1 users must sign up again; balances carry over ÷100 plus a 250-token
   welcome-back bonus.
-- The app lists 182 languages (`languages.ts`).
+- The app lists 183 languages (`languages.ts`).
 
 ## Brand Commitments
 
