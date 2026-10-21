@@ -74,7 +74,7 @@ export const tokenGift = {
 export const tokenIsNot = [
 	'It cannot be bought — there is no way to purchase tokens, with money or anything else.',
 	'It cannot be sold, traded or staked. There is no exchange, no market, no marketplace, and none is planned.',
-	'It cannot be sent to another user.',
+	'It cannot be sent to another user. A sticker pack you give someone is bought with your tokens and moves none: their balance does not change.',
 	'It cannot be withdrawn. It does not leave the app.',
 	'It is not on a blockchain. There is no chain, no contract, no wallet address.',
 	'It cannot unlock a paid plan. Those are subscriptions; tokens buy none of them.'
