@@ -16,6 +16,8 @@
 		 * winning on /blog.
 		 */
 		seo?: boolean;
+		/** The colour of the page's first block, for the header to wear at the top. */
+		hue?: 'tangerine' | 'lime' | 'mint' | 'aqua' | 'sky' | 'lilac';
 		children?: import('svelte').Snippet;
 	}
 
@@ -25,6 +27,7 @@
 		path = '',
 		announce = false,
 		seo = true,
+		hue,
 		children
 	}: Props = $props();
 </script>
@@ -33,7 +36,7 @@
 	<Seo {title} {description} {path} />
 {/if}
 
-<Header />
+<Header {hue} />
 
 <main id="main">
 	{@render children?.()}

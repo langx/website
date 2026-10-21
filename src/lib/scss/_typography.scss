@@ -63,9 +63,38 @@ h5 {
 	color: var(--color--text);
 }
 
-// Page titles carry the heaviest weight, as the homepage's do.
-h1 {
+// Page and section titles carry the heaviest weight, as the app's do.
+h1,
+h2 {
 	font-weight: 900;
+}
+
+// The display scale (Nunito 900, lower-case sentences ending in a full stop
+// on the marketing pages). Sizes live in _variables.scss and step down on a
+// phone. Text on a colour block inherits ink from the block.
+.display-hero,
+.display-chapter,
+.display-section {
+	margin: 0;
+	font-family: var(--font--title);
+	font-weight: 900;
+	color: inherit;
+	text-wrap: balance;
+}
+.display-hero {
+	font-size: var(--display-hero);
+	line-height: var(--display-hero-lh);
+	letter-spacing: -0.025em;
+}
+.display-chapter {
+	font-size: var(--display-chapter);
+	line-height: var(--display-chapter-lh);
+	letter-spacing: -0.0225em;
+}
+.display-section {
+	font-size: var(--display-section);
+	line-height: var(--display-section-lh);
+	letter-spacing: -0.022em;
 }
 
 // The small blue word above a section title: what the section is about.
@@ -93,11 +122,26 @@ p {
 }
 // #endregion
 
-// Keyboard focus is themed, never the browser default.
+// Keyboard focus is themed, never the browser default: 3px of blue, 3px
+// clear of the control. On the blue block itself the ring turns white.
 :focus-visible {
-	outline: 2px solid var(--color--accent);
-	outline-offset: 2px;
+	outline: 3px solid var(--color--blue);
+	outline-offset: 3px;
 	border-radius: var(--radius-sm);
+}
+[data-hue='blue'] :focus-visible {
+	outline-color: var(--color--on-blue);
+}
+
+// A plain link on a colour block is ink, underlined: blue on a hue fails.
+[data-hue] a:not([class]) {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+
+	&:hover {
+		color: inherit;
+	}
 }
 :focus:not(:focus-visible) {
 	outline: none;
