@@ -69,7 +69,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 10,
 		title: 'How does LangX compare with Tandem and HelloTalk?',
-		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities, and their calls work in the phone apps, where LangX's are on the web for now. <a href="/compare">Every comparison, side by side</a>.`
+		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities, and their calls work in the phone apps, where LangX's are on iPhone and the web for now. <a href="/compare">Every comparison, side by side</a>.`
 	},
 	{
 		id: 4,

@@ -242,7 +242,7 @@ LangX matches you only with people who speak the language you are learning and
 are learning yours, so helping you with a recording is a fair trade: you do the
 same for them. The free plan lets you start 5 new conversations a day, with
 unlimited replies and corrections. LangX has voice and photo messages, and
-voice and video calls in the web app (coming to the iPhone and Android apps);
+voice and video calls on iPhone and the web (Android soon);
 a tutor or a meetup adds more live speaking on top.
 
 ## A sample week of shadowing
