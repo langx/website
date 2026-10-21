@@ -88,7 +88,7 @@ Details about Speaky come from its official store listings at the time of writin
 | No ads | Yes | No |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
-| Languages | 182 listed in the app | 170+ listed |
+| Languages | 183 listed in the app | 170+ listed |
 | Community size | Small and growing | Larger; 5M+ downloads on Google Play |
 
 *Table: LangX vs Speaky, feature by feature (September 2026).*
@@ -200,7 +200,7 @@ LangX has a free plan with no ads, unlimited replies and corrections, 5 new conv
 
 ### LangX vs Speaky: which has more languages?
 
-They are close. LangX lists 182 languages in the app and Speaky lists more than 170. Speaky's larger community means more active partners in many of them.
+They are close. LangX lists 183 languages in the app and Speaky lists more than 170. Speaky's larger community means more active partners in many of them.
 
 ### What are other apps like Speaky?
 

@@ -218,7 +218,7 @@ Learning another script too? There are guides for [Arabic](/arabic-alphabet-guid
 
 ## Practice reading and speaking with native speakers
 
-The alphabet gets you reading, but the unwritten vowels are learned word by word, and the fastest way is to hear real people use them. On LangX, Persian is one of the 182 languages you can choose, and matching runs both ways: you see people who speak Persian and are learning a language you speak.
+The alphabet gets you reading, but the unwritten vowels are learned word by word, and the fastest way is to hear real people use them. On LangX, Persian is one of the 183 languages you can choose, and matching runs both ways: you see people who speak Persian and are learning a language you speak.
 
 <AppDemo
   screen="chat"

@@ -191,7 +191,7 @@ The chart is at [/tools/alphabet/hebrew](/tools/alphabet/hebrew). After the lett
 
 ## Practice reading and writing with native speakers
 
-A chart gives you the letters, but unpointed Hebrew is learned word by word, from people who already know how each word sounds. On LangX, Hebrew is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Hebrew and are learning a language you speak.
+A chart gives you the letters, but unpointed Hebrew is learned word by word, from people who already know how each word sounds. On LangX, Hebrew is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Hebrew and are learning a language you speak.
 
 <AppDemo
   screen="chat"
