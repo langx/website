@@ -15,5 +15,6 @@ export const PRO_PRICE = {
 	yearlyPerMonth: '$6.99',
 	/** What yearly saves against twelve monthly payments, rounded down. */
 	yearlySaving: '3 months free',
-	trial: '1 week free'
+	/** Only the yearly plan has a free week, and only for someone who has not had Pro. */
+	yearlyTrial: '1 week free'
 } as const;

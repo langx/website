@@ -76,7 +76,7 @@
 			<span class="toggle-wide"><ThemeToggle /></span>
 			<Button
 				href="https://get.langx.io"
-				variant={$primaryCtaInView ? 'ink' : 'primary'}
+				variant={$primaryCtaInView || page.data?.headerCta === 'ink' ? 'ink' : 'primary'}
 				size="sm"
 				icon={download}>Get the app</Button
 			>
