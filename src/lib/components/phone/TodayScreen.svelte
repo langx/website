@@ -15,12 +15,18 @@
 		/** The streak card's colour. */
 		hue?: Hue;
 		rows?: Row[];
+		/** Whether today already counts (every dot filled). */
+		todayDone?: boolean;
+		/** A blue card under the streak, for a reward it earned. */
+		reward?: { title: string; body: string; action?: string };
 	}
 
 	let {
 		greeting = 'Good evening, Sofia',
 		streak = 12,
 		hue = 'tangerine',
+		todayDone = false,
+		reward,
 		rows = [
 			{ who: 'george', text: 'Your past tense is getting really good', unread: 2 },
 			{ who: 'marina', text: 'Estoy muy cansada hoy.' },
@@ -52,8 +58,8 @@
 		<span class="week">
 			{#each days as d, i}
 				<span class="day">
-					<span class="dot" class:today={i === 6}>
-						{#if i < 6}<svg
+					<span class="dot" class:today={i === 6 && !todayDone}>
+						{#if i < 6 || todayDone}<svg
 								aria-hidden="true"
 								width="12"
 								height="12"
@@ -69,8 +75,16 @@
 				</span>
 			{/each}
 		</span>
-		<span class="hint">Write to someone today to keep it going.</span>
+		{#if !todayDone}<span class="hint">Write to someone today to keep it going.</span>{/if}
 	</div>
+
+	{#if reward}
+		<div class="reward">
+			<span class="r-title">{reward.title}</span>
+			<span class="r-body">{reward.body}</span>
+			{#if reward.action}<span class="r-action">{reward.action}</span>{/if}
+		</div>
+	{/if}
 
 	<span class="label">Chats</span>
 	{#each rows as row}
@@ -158,6 +172,44 @@
 		font-size: 13px;
 		line-height: 18px;
 		font-weight: 600;
+	}
+
+	.reward {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 6px;
+		padding: 14px;
+		border-radius: 24px;
+		background: var(--color--blue);
+		color: var(--color--on-blue);
+	}
+
+	.r-title {
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.r-body {
+		font-size: 13px;
+		line-height: 18px;
+		font-weight: 600;
+	}
+
+	.r-action {
+		margin-top: 4px;
+		height: 36px;
+		display: flex;
+		align-items: center;
+		padding: 0 14px;
+		border-radius: 999px;
+		background: #ffffff;
+		color: var(--color--blue);
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 13px;
 	}
 
 	.label {
