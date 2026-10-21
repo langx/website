@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 17, Oct 2026*
+	*Effective Date: 21, Oct 2026*
 
 	1. Acceptance of Terms
 
@@ -64,6 +64,8 @@
 		- It is not recorded on a blockchain.
 		- It cannot be used to obtain Pro or any part of it.
 
+		Spending your own tokens on a gift for another user (section 7) does not transfer tokens: the other user's balance does not change.
+
 		A streak freeze bought with tokens keeps a streak going, and a kept streak counts toward the streak rewards in section 5; tokens never buy Pro directly.
 
 		Token balances held in version 1 of LangX are credited to your version 2 account divided by 100, rounded down. A balance below 100 therefore converts to nothing. Any earlier description of LangX Token as a tradable or on-chain asset, including the litepaper, does not describe the product and is not being built.
@@ -72,7 +74,9 @@
 
 	7. Virtual Items
 
-		Tokens may be spent on virtual items: a streak freeze, and cosmetic profile frames and titles. Virtual items are licensed to you for use within the App, are not transferable, have no cash value, and are not refundable. Unspent tokens and any virtual items you hold are forfeited when your account is deleted.
+		Tokens may be spent on virtual items: a streak freeze, a missed-day repair, and cosmetic items — profile frames, titles and sticker packs. Virtual items are licensed to you for use within the App, have no cash value, and are not refundable. Except as described in the next paragraph, they are not transferable. Unspent tokens and any virtual items you hold are forfeited when your account is deleted.
+
+		**Gifts.** Where the App offers it, you may spend your own tokens on a sticker pack for someone you have a conversation with, within the limits the App sets. A gifted item belongs to the person who received it; it cannot be passed on, returned, exchanged or refunded, and the tokens spent on it are not returned. Gifting may be limited, paused or withdrawn at any time, and is not available to or from users under 18.
 
 	8. Account Deletion and Termination
 
