@@ -38,7 +38,7 @@
 		{
 			id: 211,
 			title: 'What happens when my free week ends?',
-			content: `Your plan starts and you are charged for the period you chose. Cancel before the week is over and you are not charged. Your chats and Echo cards stay either way. The free week is for people who have not had Pro before.`
+			content: `Your plan starts and you are charged for the period you chose. Cancel before the week is over and you are not charged. Your chats and Echo cards stay either way. The free week comes with the yearly plan, for people who have not had Pro before.`
 		},
 		{
 			id: 201,
@@ -53,7 +53,7 @@
 		{
 			id: 204,
 			title: 'How much does Pro cost?',
-			content: `In the US, ${P.monthly} a month or ${P.yearly} a year (${P.yearlyPerMonth} a month, ${P.yearlySaving}), both with a one-week free trial for people who have not had Pro before. Prices are set per region, so your store shows its own price, in your currency, before you pay.`
+			content: `In the US, ${P.monthly} a month or ${P.yearly} a year (${P.yearlyPerMonth} a month, ${P.yearlySaving}). The yearly plan starts with a free week for people who have not had Pro before; monthly starts straight away. Prices are set per region, so your store shows its own price, in your currency, before you pay.`
 		},
 		{
 			id: 212,
@@ -198,10 +198,11 @@
 			<div class="ask" use:ownsPrimary>
 				<Button href="https://get.langx.io" size="lg" block>Start my free week</Button>
 			</div>
-			<p class="fine">{P.trial}, then {P.yearly} a year. Cancel anytime.</p>
+			<p class="fine">{P.yearlyTrial}, then {P.yearly} a year. Cancel anytime.</p>
 			<p class="fine small">
-				The free week is for people who have not had Pro before. In the app, you pay through the App
-				Store or Google Play. Prices are in US dollars; your store shows yours.
+				The free week comes with the yearly plan, for people who have not had Pro before. In the
+				app, you pay through the App Store or Google Play. Prices are in US dollars; your store
+				shows yours.
 			</p>
 		</article>
 	</section>

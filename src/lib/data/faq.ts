@@ -20,8 +20,8 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 1,
 		title: 'Is LangX free?',
-		short: `Yes. Replying to messages and correcting people are unlimited for everyone. <a href="/plans">Pro</a> removes the daily limits on new chats and translations, with a one-week free trial.`,
-		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/plans">Pro</a> removes those limits and adds a few extras, with a one-week free trial.`
+		short: `Yes. Replying to messages and correcting people are unlimited for everyone. <a href="/plans">Pro</a> removes the daily limits on new chats and translations, and the yearly plan starts with a free week.`,
+		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/plans">Pro</a> removes those limits and adds a few extras, and the yearly plan starts with a free week.`
 	},
 	{
 		id: 11,
