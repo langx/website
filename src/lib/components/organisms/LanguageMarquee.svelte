@@ -8,14 +8,14 @@
 
 <section
 	class="strip"
-	aria-label="Some of the 182 languages on LangX"
+	aria-label="Some of the 183 languages on LangX"
 	use:inview={{ once: false, threshold: 0 }}
 >
 	<div class="track">
 		<span>{line}&nbsp;</span>
 		<span aria-hidden="true">{line}&nbsp;</span>
 	</div>
-	<p class="count">182 languages in the app</p>
+	<p class="count">183 languages in the app</p>
 </section>
 
 <style lang="scss">

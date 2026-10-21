@@ -209,7 +209,7 @@ Learning more than one script? We have the same kind of guide for [Russian](/rus
 
 ## Practice reading and speaking with native speakers
 
-A chart teaches you the shapes, but the sound of ъ, where the stress falls and how fast people really speak comes from hearing a person and being corrected. On LangX, Bulgarian is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Bulgarian and are learning a language you speak.
+A chart teaches you the shapes, but the sound of ъ, where the stress falls and how fast people really speak comes from hearing a person and being corrected. On LangX, Bulgarian is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Bulgarian and are learning a language you speak.
 
 <AppDemo
   screen="chat"

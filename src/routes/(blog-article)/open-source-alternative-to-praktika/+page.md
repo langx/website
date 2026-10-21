@@ -34,7 +34,7 @@ If you are looking for an open source alternative to Praktika that lets you prac
 <KeyTakeaways items={[
   "Praktika is an AI tutor app: animated avatars, learning paths and instant, adjustable feedback.",
   "LangX is a language exchange with real native speakers and unlimited human corrections.",
-  "Praktika covers nine languages; LangX lists 182, has a free plan with no time limit and is open source.",
+  "Praktika covers nine languages; LangX lists 183, has a free plan with no time limit and is open source.",
   "Use Praktika to rehearse, then have the same conversation for real on LangX."
 ]} />
 
@@ -63,7 +63,7 @@ So when people search for a "Praktika alternative", they usually want one of two
 | Corrections | A human partner can correct any message; unlimited on every plan | Real-time AI feedback on pronunciation, grammar and word choice, with adjustable strictness |
 | Translation | Built into the chat (Free 20 a day, Pro unlimited) | Tutors can explain in your native language |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Spoken, face-to-face-style conversation with an avatar; no human calls |
-| Languages | 182 listed in the app | Nine: English, Spanish, French, German, Italian, Portuguese (European and Brazilian), Japanese and Korean |
+| Languages | 183 listed in the app | Nine: English, Spanish, French, German, Italian, Portuguese (European and Brazilian), Japanese and Korean |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with limited practice and a free trial; full access needs a subscription |
 | Paid plan | Yes (Pro) | Yes (Premium subscription) |
 | No ads | Yes | Yes |
@@ -79,7 +79,7 @@ So when people search for a "Praktika alternative", they usually want one of two
     points: [
       "Native speakers matched two ways",
       "A human partner can correct any message, unlimited on every plan",
-      "182 languages listed in the app",
+      "183 languages listed in the app",
       "iOS, Android and web",
       "Free plan, no ads, open source (BSD-3)"
     ],
@@ -149,7 +149,7 @@ On LangX your partner holds any message to correct it, and corrections are unlim
 
 ### Far more languages
 
-Praktika covers nine languages. LangX lists 182, so if you are learning, say, Turkish, Hindi or Tagalog, a language exchange is often the practical way to get speaking practice.
+Praktika covers nine languages. LangX lists 183, so if you are learning, say, Turkish, Hindi or Tagalog, a language exchange is often the practical way to get speaking practice.
 
 ### Open source and a free plan with no time limit
 

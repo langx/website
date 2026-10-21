@@ -57,7 +57,7 @@ So a "Cambly alternative" can mean two things:
 | | LangX | Cambly |
 | --- | --- | --- |
 | What it is | Free language exchange app | Paid online English tutoring |
-| Languages | 182 languages listed in the app | English only |
+| Languages | 183 languages listed in the app | English only |
 | Who you practice with | Native speakers who are learning your language | Native English-speaking tutors |
 | Matching | Two-way: people who speak what you learn and learn what you speak | You pick a tutor who is online now or book one in advance |
 | Corrections | Hold any message to correct it; unlimited on every plan | The tutor corrects you live; some plans add lesson feedback |
@@ -79,7 +79,7 @@ So a "Cambly alternative" can mean two things:
     name: "LangX",
     tagline: "Free language exchange app",
     points: [
-      "182 languages listed in the app",
+      "183 languages listed in the app",
       "Native speakers who are learning your language",
       "Hold any message to correct it, unlimited on every plan",
       "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
