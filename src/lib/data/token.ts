@@ -48,13 +48,13 @@ export const tokenSinks = [
 		name: 'Frames and titles',
 		price: '1,000 – 100,000 tokens',
 		description:
-			'Cosmetic only: ten avatar frames from Slate to Aurora, and ten titles from Beginner to Legend.'
+			'Cosmetic only: sixteen avatar frames from Papel Picado to Aurora Glass, and ten titles from Beginner to Legend.'
 	},
 	{
 		name: 'Sticker packs',
 		price: '1,000 – 1,500 tokens',
 		description:
-			'Three packs of twelve stickers to send in a chat: Starter and Practice at 1,000, and Pixel, drawn entirely for LangX, at 1,500. No pack is a rung above another, so any one can be bought first — and none of them carry lettering, because the app is read in eight languages.'
+			'Four packs of twelve stickers to send in a chat: Starter and Practice at 1,000, and Pixel and Paper Talk, both drawn entirely for LangX, at 1,500. No pack is a rung above another, so any one can be bought first. Only Paper Talk carries words — ¡Hola!, Merci, Çay?, Fixed it — on purpose; the others have none, because the app is read in eight languages.'
 	}
 ];
 
