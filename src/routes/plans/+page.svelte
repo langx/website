@@ -22,7 +22,7 @@
 	const always = [
 		{ icon: 'check', value: 'Unlimited', label: 'replies and corrections' },
 		{ icon: 'feed', value: 'Free', label: `Echo packs, in ${echo.languages.length} languages` },
-		{ icon: 'globe', value: '182', label: 'languages in the app' },
+		{ icon: 'globe', value: '183', label: 'languages in the app' },
 		{ icon: 'close', value: '0', label: 'ads, on any plan' }
 	];
 

@@ -111,7 +111,7 @@ A **language exchange** is the old-fashioned alternative: two people who each sp
 
 **Culture and friendship.** Many people who stick with a language for years can point to one person they talked to regularly. That is hard to get from an app that forgets you.
 
-**Many more languages.** AI tutors focus on a handful of big languages. A language exchange works for any pair where people exist; LangX lists 182 languages in the app.
+**Many more languages.** AI tutors focus on a handful of big languages. A language exchange works for any pair where people exist; LangX lists 183 languages in the app.
 
 ## Where a language exchange falls short
 

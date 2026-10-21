@@ -49,7 +49,7 @@
 	const figures = [
 		{ icon: 'check', value: 'Unlimited', label: 'corrections and replies, on every plan' },
 		{ icon: 'chat', value: '5', label: 'new conversations a day, free' },
-		{ icon: 'globe', value: '182', label: 'languages in the app' },
+		{ icon: 'globe', value: '183', label: 'languages in the app' },
 		{
 			icon: 'feed',
 			value: String(echo.packs),

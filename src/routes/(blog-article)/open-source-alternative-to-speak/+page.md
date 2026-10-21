@@ -63,7 +63,7 @@ So a "Speak alternative" can mean two things:
 | Corrections | A human partner can correct any message; unlimited on every plan | Instant AI feedback on pronunciation and phrasing |
 | Translation | Built into the chat (Free 20 a day, Pro unlimited) | Part of the lessons, not a chat tool |
 | Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | You speak out loud to the AI throughout; no human calls |
-| Languages | 182 listed in the app | Spanish, French, Korean, Japanese, Italian and Chinese for English speakers, plus English for learners worldwide |
+| Languages | 183 listed in the app | Spanish, French, Korean, Japanese, Italian and Chinese for English speakers, plus English for learners worldwide |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to download with a free trial; ongoing use needs a subscription |
 | Paid plan | Yes (Pro) | Yes (Premium, Premium Plus) |
 | No ads | Yes | Yes |
@@ -79,7 +79,7 @@ So a "Speak alternative" can mean two things:
     points: [
       "Native speakers matched two ways",
       "A human partner can correct any message, unlimited on every plan",
-      "182 languages listed in the app",
+      "183 languages listed in the app",
       "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
       "Free plan, no ads, open source (BSD-3)"
     ],
@@ -148,7 +148,7 @@ On LangX your partner holds any message to correct it, and corrections are unlim
 
 ### Many more languages
 
-Speak focuses on a handful of major languages. LangX lists 182 languages, so if you are learning something outside Speak's list, a language exchange may be your main option for speaking practice.
+Speak focuses on a handful of major languages. LangX lists 183 languages, so if you are learning something outside Speak's list, a language exchange may be your main option for speaking practice.
 
 ### Open source, and a real free plan
 

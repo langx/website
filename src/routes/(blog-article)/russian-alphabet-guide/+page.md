@@ -201,7 +201,7 @@ Learning another script too? We have the same kind of guide for [Bulgarian](/bul
 
 ## Practice reading and speaking with native speakers
 
-The alphabet gets you reading. Stress, soft consonants and ы come from hearing a person and being corrected. On LangX, Russian is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Russian and are learning a language you speak.
+The alphabet gets you reading. Stress, soft consonants and ы come from hearing a person and being corrected. On LangX, Russian is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Russian and are learning a language you speak.
 
 <AppDemo
   screen="chat"
