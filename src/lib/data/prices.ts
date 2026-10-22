@@ -1,9 +1,9 @@
 /**
  * Pro's price in US dollars, the one place the site writes it. The stores
  * set a price per region (since 21 October 2026: $9.99 a month, $79.99 a
- * year — the yearly ends in 9.99, so its per-month figure does not end in .99
- * any more), and the app shows the local one before anyone pays, so the site
- * says these are US prices.
+ * year, every price ending .99; the yearly is no longer chosen to divide into
+ * a .99 month, so its per-month figure is $6.66), and the app shows the local
+ * one before anyone pays, so the site says these are US prices.
  *
  * When the prices change in the stores, change them here: /plans and its
  * FAQ read this file, and nothing else on the site prints a price.
