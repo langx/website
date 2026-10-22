@@ -1,11 +1,12 @@
 <script lang="ts">
 	interface Props {
 		/**
-		 * A chip. `outline` is the PRO / label chip from the app, `solid` the
-		 * selected filter chip, `accent` the language chip. `color` is kept for the
-		 * data files that still pass it and only tints the accent tone.
+		 * A chip. `ink` is the v3 chapter tag: an ink pill whose letters take the
+		 * block's colour. `outline` is the PRO / label chip from the app, `solid`
+		 * the selected filter chip, `accent` the language chip. `color` is kept for
+		 * the data files that still pass it and only tints the accent tone.
 		 */
-		tone?: 'outline' | 'solid' | 'accent';
+		tone?: 'ink' | 'outline' | 'solid' | 'accent';
 		color?: 'primary' | 'secondary' | 'pro' | 'pro-plus' | undefined;
 		uppercase?: boolean;
 		children?: import('svelte').Snippet;
@@ -37,6 +38,17 @@
 		letter-spacing: 0.04em;
 		font-size: 0.6875rem;
 		padding: 3px 8px;
+	}
+
+	// On a colour block the letters are the block's hue; off one, the page's.
+	.ink {
+		min-height: 28px;
+		padding: 0 12px;
+		background: var(--ink-fill, var(--color--text));
+		color: var(--block, var(--color--page-background));
+		font-family: var(--font--title);
+		font-weight: 900;
+		font-size: 0.875rem;
 	}
 
 	.outline {

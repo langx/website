@@ -209,7 +209,7 @@ Learning more than one script? We have the same kind of guide for [Russian](/rus
 
 ## Practice reading and speaking with native speakers
 
-A chart teaches you the shapes, but the sound of ъ, where the stress falls and how fast people really speak comes from hearing a person and being corrected. On LangX, Bulgarian is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Bulgarian and are learning a language you speak.
+A chart teaches you the shapes, but the sound of ъ, where the stress falls and how fast people really speak comes from hearing a person and being corrected. On LangX, Bulgarian is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Bulgarian and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -217,7 +217,7 @@ A chart teaches you the shapes, but the sound of ъ, where the stress falls and 
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear how you say a word, not only how you spell it."
 />
 
-Write a few sentences in Cyrillic, and your partner can hold any message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan). Voice messages suit a beginner: you can record a word as many times as you like before you send it. Voice and video calls work in the web app and are coming to the iPhone and Android apps. The free plan includes 5 new conversations a day. Keep in mind that the community is smaller than the biggest apps', so for a less widely learned language like Bulgarian it can take a little patience to find the right partner. [Get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
+Write a few sentences in Cyrillic, and your partner can hold any message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan). Voice messages suit a beginner: you can record a word as many times as you like before you send it. Voice and video calls work on iPhone and the web, and are coming to Android. The free plan includes 5 new conversations a day. Keep in mind that the community is smaller than the biggest apps', so for a less widely learned language like Bulgarian it can take a little patience to find the right partner. [Get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
 
 ## FAQ
 

@@ -146,7 +146,7 @@ up, hold it to hear it read aloud, or use the built-in translation.
 
 <Callout type="info">
 LangX is built around messages: text, voice and photos. Voice and video calls
-work in the web app and are coming to the iPhone and Android apps. If you want
+work on iPhone and the web, and are coming to Android. If you want
 lessons with a teacher, pair it with a tutor or an in-person meetup.
 </Callout>
 

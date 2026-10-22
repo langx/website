@@ -201,7 +201,7 @@ Learning another script too? We have the same kind of guide for [Bulgarian](/bul
 
 ## Practice reading and speaking with native speakers
 
-The alphabet gets you reading. Stress, soft consonants and ы come from hearing a person and being corrected. On LangX, Russian is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Russian and are learning a language you speak.
+The alphabet gets you reading. Stress, soft consonants and ы come from hearing a person and being corrected. On LangX, Russian is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Russian and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -209,7 +209,7 @@ The alphabet gets you reading. Stress, soft consonants and ы come from hearing 
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear your stress, not only your spelling."
 />
 
-Write in Cyrillic from the start, even short messages, and your partner can hold any message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan). Voice messages let you record a word until you are happy with it, and voice and video calls work in the web app (coming to the iPhone and Android apps). The free plan includes 5 new conversations a day. If you want paid lessons or other apps with calls, our roundup of the [best apps to practice Russian with native speakers](/best-apps-to-practice-russian-with-native-speakers) compares the options. To start, [get the app](https://get.langx.io) and read [how to do a language exchange](/how-to-do-a-language-exchange).
+Write in Cyrillic from the start, even short messages, and your partner can hold any message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan). Voice messages let you record a word until you are happy with it, and voice and video calls work on iPhone and the web (Android soon). The free plan includes 5 new conversations a day. If you want paid lessons or other apps with calls, our roundup of the [best apps to practice Russian with native speakers](/best-apps-to-practice-russian-with-native-speakers) compares the options. To start, [get the app](https://get.langx.io) and read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 ## FAQ
 

@@ -27,8 +27,8 @@
 >
 	<svg
 		viewBox="0 0 24 24"
-		width="20"
-		height="20"
+		width="22"
+		height="22"
 		aria-hidden="true"
 		fill="none"
 		stroke="currentColor"
@@ -48,21 +48,24 @@
 </button>
 
 <style lang="scss">
+	// A ring in the colour of whatever it sits on: ink on a block, the text
+	// colour on the plain ground.
 	.theme-toggle {
 		position: relative;
-		width: 40px;
-		height: 40px;
+		width: 48px;
+		height: 48px;
+		flex: 0 0 auto;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid var(--color--border);
+		border: 2px solid currentColor;
 		border-radius: var(--radius-pill);
-		background: var(--color--surface);
-		color: var(--color--text);
+		background: transparent;
+		color: inherit;
 		cursor: pointer;
 		transition:
 			background-color var(--dur-fast) ease,
-			transform var(--dur-press) var(--ease-out);
+			transform 120ms var(--ease-out);
 
 		&:active {
 			transform: scale(0.95);
@@ -70,7 +73,7 @@
 
 		@media (hover: hover) and (pointer: fine) {
 			&:hover {
-				background: var(--color--muted);
+				background: color-mix(in srgb, currentColor 10%, transparent);
 			}
 		}
 	}
@@ -126,8 +129,8 @@
 		width: 15px;
 		height: 15px;
 		border-radius: var(--radius-pill);
-		background: var(--color--accent);
-		color: #fefefe;
+		background: var(--color--blue);
+		color: var(--color--on-blue);
 		font-size: 9px;
 		font-weight: 800;
 		font-family: var(--font--title);

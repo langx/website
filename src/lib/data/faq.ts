@@ -6,6 +6,13 @@ export interface FaqObject {
 	id: number;
 	title: string;
 	content: string;
+	/** An anchor for the question on /faq, for links like /faq#calls. */
+	slug?: string;
+	/**
+	 * The homepage's answer, where the full one carries numbers. The homepage
+	 * names no prices, limits or token counts; /faq and /plans keep them.
+	 */
+	short?: string;
 }
 
 // Answers are static strings written here, not user input.
@@ -13,7 +20,8 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 1,
 		title: 'Is LangX free?',
-		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/plans">Pro</a> removes those limits and adds a few extras, with a one-week free trial.`
+		short: `Yes. Replying to messages and correcting people are unlimited for everyone. <a href="/plans">Pro</a> removes the daily limits on new chats and translations, and the yearly plan starts with a free week.`,
+		content: `Yes. Replying to messages and correcting people are unlimited for everyone. On the free plan you can start 5 new chats and use 20 translations a day. <a href="/plans">Pro</a> removes those limits and adds a few extras, and the yearly plan starts with a free week.`
 	},
 	{
 		id: 11,
@@ -27,13 +35,31 @@ export const faqObjects: FaqObject[] = [
 	},
 	{
 		id: 12,
+		slug: 'calls',
 		title: 'Can I call my partner?',
-		content: `Yes, in the <a href="https://app.langx.io" target="_blank" rel="noopener noreferrer">web app</a>: use the call button at the top of a chat for a voice or video call. You can call someone once they have sent you 5 messages, calls are free on every plan, and nothing is recorded. Calls are coming to the iPhone and Android apps. Rather not be called? Turn off Allow calls in Settings → Privacy.`
+		content: `Yes, on iPhone and in the <a href="https://app.langx.io" target="_blank" rel="noopener noreferrer">web app</a>: use the call button at the top of a chat for a voice or video call. You can call someone once they have sent you 5 messages, calls are free on every plan, and nothing is recorded. Calls are coming to the Android app. Rather not be called? Turn off Allow calls in Settings → Privacy.`
 	},
 	{
 		id: 3,
 		title: 'How does matching work?',
 		content: `You only see people who speak the language you're learning and are learning the language you speak. That way every conversation is useful for both of you, not a favour one person does for the other.`
+	},
+	{
+		id: 15,
+		title: 'Is this a dating app?',
+		content: `No. Not a dating app. Just people who want to practise. You can block or report anyone from the chat.`
+	},
+	{
+		id: 13,
+		slug: 'echo',
+		title: 'What is Echo?',
+		content: `Echo is where you keep the sentences you want to remember. Hold any message in a chat and choose Add to Echo. It comes back tomorrow, then in three days, then in a week. Remember it and the next wait is longer; forget it and it comes back sooner. There are ready-made packs of words too, for the language you are learning.`
+	},
+	{
+		id: 14,
+		slug: 'streaks',
+		title: 'How do streaks work?',
+		content: `One message a day keeps your streak alive. Miss a day and a streak freeze, bought with the <a href="/tokens">tokens</a> you earn by talking and teaching, covers it. Keep going and the streak earns you Pro: a week at 7 days, a month at 100 and 3 months at 365.`
 	},
 	{
 		id: 9,
@@ -43,7 +69,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 10,
 		title: 'How does LangX compare with Tandem and HelloTalk?',
-		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities, and their calls work in the phone apps, where LangX's are on the web for now. <a href="/compare">Every comparison, side by side</a>.`
+		content: `All three connect you with native speakers. LangX matches in both directions, keeps corrections unlimited on every plan, shows no ads and is open source; Tandem and HelloTalk have far bigger communities, and their calls work in the phone apps, where LangX's are on iPhone and the web for now. <a href="/compare">Every comparison, side by side</a>.`
 	},
 	{
 		id: 4,
@@ -53,7 +79,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 5,
 		title: 'What is LangX Copilot?',
-		content: `Private AI feedback on your own messages while you chat with a real person. Only you see it. It isn't in the app yet; it's coming later, for <a href="/plans">Pro</a>.`
+		content: `Private AI help while you chat with a real person: it can check a sentence before you send it, help you say something in the language you are learning, and explain a message. Only you see it, and nothing reaches the other person unless you send it yourself. It is in <a href="/plans">Pro</a> as a beta, rolling out gradually, so it may not be on for your account yet.`
 	},
 	{
 		id: 6,

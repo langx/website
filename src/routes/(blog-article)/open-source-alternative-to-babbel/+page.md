@@ -34,7 +34,7 @@ If you want an open source alternative to Babbel for speaking with real people, 
 <KeyTakeaways items={[
   "Babbel is a structured course app for 14 languages, with dialogue-based lessons, grammar and review.",
   "Babbel Live was discontinued for individual learners in 2025.",
-  "LangX is a free, open source language exchange: native speakers, unlimited human corrections, 182 languages.",
+  "LangX is a free, open source language exchange: native speakers, unlimited human corrections, 183 languages.",
   "Best together: learn a structure in Babbel, use it the same day on LangX."
 ]} />
 
@@ -68,8 +68,8 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
 | Who you talk to | Native speakers matched two ways: they speak what you learn and learn what you speak | Babbel Speak AI scenarios; no human conversation partners for individual learners |
 | Corrections | A human partner can correct any message; unlimited on every plan | Automatic feedback on exercises and speech |
 | Translation | Built into the chat (Free 20 a day, Pro unlimited) | Part of the lessons, not a chat tool |
-| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Speech recognition in lessons and Babbel Speak; live classes only via Babbel for Business |
-| Languages | 182 listed in the app | 14 |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on iPhone and the web (Android soon) | Speech recognition in lessons and Babbel Speak; live classes only via Babbel for Business |
+| Languages | 183 listed in the app | 14 |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | The first lesson of each course is free to try; full access needs a subscription |
 | Paid plan | Yes (Pro) | Yes (subscription) |
 | No ads | Yes | Yes |
@@ -85,8 +85,8 @@ If you came here looking for a Babbel Live alternative, you have two routes: a p
     points: [
       "Native speakers matched two ways",
       "A human partner can correct any message, unlimited on every plan",
-      "182 languages listed in the app",
-      "Voice, photo and video messages; voice and video calls on the web (phone apps soon)",
+      "183 languages listed in the app",
+      "Voice, photo and video messages; voice and video calls on iPhone and the web (Android soon)",
       "Free plan, no ads, open source (BSD-3)"
     ],
     bestFor: "real conversations once you know the basics"
@@ -155,7 +155,7 @@ On LangX, your partner holds any message to correct it, and corrections are unli
 
 ### Many more languages
 
-Babbel teaches 14 languages. LangX lists 182, so if your target language is not in Babbel's catalog, a language exchange may be your main way to practice at all.
+Babbel teaches 14 languages. LangX lists 183, so if your target language is not in Babbel's catalog, a language exchange may be your main way to practice at all.
 
 ### Open source and a free plan that stays free
 
@@ -168,8 +168,8 @@ LangX has no ads and no advertising identifiers. It does use product analytics (
 ### What LangX does not do
 
 - **No grammar explanations or course path.** Echo's free phrase packs are something to review, not a course; if you are starting from zero, begin with one.
-- **No AI conversation practice today.** LangX Copilot, private AI feedback, is planned for Pro but not shipped.
-- **No classes,** and calls with partners are on the web only for now (coming to the iPhone and Android apps).
+- **No AI conversation partner.** LangX Copilot (in Pro as a beta, rolling out gradually) helps with your own messages; it does not talk with you.
+- **No classes,** and calls with partners are on iPhone and the web for now (coming to Android).
 - **A smaller community,** so some language pairs have fewer people online.
 
 ## Is LangX a free Babbel alternative?

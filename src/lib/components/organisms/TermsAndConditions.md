@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 17, Oct 2026*
+	*Effective Date: 21, Oct 2026*
 
 	1. Acceptance of Terms
 
@@ -49,7 +49,7 @@
 		- Gifts: we may gift Pro to an account for a period we choose.
 		- Gift codes: a code entered on the App's plans screen gives the number of months of Pro stated for that code. A code can be redeemed once per person, may be limited in the total number of times it can be used and in how long it is valid, and may be deactivated by us at any time before it is redeemed. Codes are not case-sensitive, have no cash value and cannot be exchanged for money. Repeated attempts to guess codes may be blocked.
 
-		Pro received in any of these ways is free of charge, does not renew automatically and ends on the date shown in the App; we tell you before it ends. Periods received this way are added one after another rather than overlapping. They cannot be given to an account that already holds lifetime Pro, and they do not pause or replace a paid subscription: if you also subscribe, the subscription is billed as usual, and the free period keeps Pro until its own end date if the subscription ends first. We may withhold a reward where the invitations behind it came from fake accounts, self-invitation or other abuse.
+		Pro received in any of these ways is free of charge, does not renew automatically and ends on the date shown in the App; we tell you before it ends. Periods received this way are added one after another rather than overlapping. They cannot be given to an account that already holds lifetime Pro. A streak or invitation reward is also not given to an account whose paid subscription runs past the reward's end date, because it would add nothing; that milestone or those invitations still count as rewarded. Pro received in these ways does not pause or replace a paid subscription: if you also subscribe, the subscription is billed as usual, and the free period keeps Pro until its own end date if the subscription ends first. We may withhold a reward where the invitations behind it came from fake accounts, self-invitation or other abuse.
 
 		The limits and the contents of each plan may change. If a change removes something you are already paying for, it takes effect for you at your next renewal rather than immediately.
 
@@ -64,6 +64,8 @@
 		- It is not recorded on a blockchain.
 		- It cannot be used to obtain Pro or any part of it.
 
+		Spending your own tokens on a gift for someone you have a conversation with (section 7) does not transfer tokens: their balance does not change.
+
 		A streak freeze bought with tokens keeps a streak going, and a kept streak counts toward the streak rewards in section 5; tokens never buy Pro directly.
 
 		Token balances held in version 1 of LangX are credited to your version 2 account divided by 100, rounded down. A balance below 100 therefore converts to nothing. Any earlier description of LangX Token as a tradable or on-chain asset, including the litepaper, does not describe the product and is not being built.
@@ -72,7 +74,9 @@
 
 	7. Virtual Items
 
-		Tokens may be spent on virtual items: a streak freeze, and cosmetic profile frames and titles. Virtual items are licensed to you for use within the App, are not transferable, have no cash value, and are not refundable. Unspent tokens and any virtual items you hold are forfeited when your account is deleted.
+		Tokens may be spent on virtual items: a streak freeze, a missed-day repair, and cosmetic items — profile frames, titles and sticker packs. Virtual items are licensed to you for use within the App, have no cash value, and are not refundable. Except as described in the next paragraph, they are not transferable. Unspent tokens and any virtual items you hold are forfeited when your account is deleted.
+
+		**Gifts between users.** Where the App offers it, you may spend your own tokens on a sticker pack for someone you have a conversation with, within the limits the App sets. A gifted item belongs to the person who received it; it cannot be passed on, returned, exchanged or refunded, and the tokens spent on it are not returned. Gifting may be limited, paused or withdrawn at any time, and is not available to or from users under 18.
 
 	8. Account Deletion and Termination
 

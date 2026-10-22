@@ -18,6 +18,7 @@ export const tokenEarning = [
 export const tokenCaps = [
 	'Up to 200 tokens a day from messages.',
 	'At most 60 of those from any one person, so it takes four partners to reach the ceiling and talking to one all day is not a strategy.',
+	'Corrections have no overall daily cap, only a per-person one: up to 10 corrections a day of any one partner’s sentences pay, in chat and on posts together.',
 	'Echo pays for five reviews a day — 25 tokens at most.',
 	'A shared daily pool of 5,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it — 250 tokens.'
 ];
@@ -48,13 +49,13 @@ export const tokenSinks = [
 		name: 'Frames and titles',
 		price: '1,000 – 100,000 tokens',
 		description:
-			'Cosmetic only: ten avatar frames from Slate to Aurora, and ten titles from Beginner to Legend.'
+			'Cosmetic only: sixteen avatar frames from Papel Picado to Aurora Glass, and ten titles from Beginner to Legend.'
 	},
 	{
 		name: 'Sticker packs',
 		price: '1,000 – 1,500 tokens',
 		description:
-			'Three packs of twelve stickers to send in a chat: Starter and Practice at 1,000, and Pixel, drawn entirely for LangX, at 1,500. No pack is a rung above another, so any one can be bought first — and none of them carry lettering, because the app is read in eight languages.'
+			'Ten packs of twelve stickers to send in a chat, every one drawn for LangX: Starter and Practice at 1,000, and Pixel, Paper Talk, Margin Notes, Polyglot, Study Desk, Night Owl, Qalam and Shared Table at 1,500. No pack is a rung above another, so any one can be bought first.'
 	}
 ];
 
@@ -74,7 +75,7 @@ export const tokenGift = {
 export const tokenIsNot = [
 	'It cannot be bought — there is no way to purchase tokens, with money or anything else.',
 	'It cannot be sold, traded or staked. There is no exchange, no market, no marketplace, and none is planned.',
-	'It cannot be sent to another user.',
+	'It cannot be sent to another user. A sticker pack you give someone is bought with your tokens and moves none: their balance does not change.',
 	'It cannot be withdrawn. It does not leave the app.',
 	'It is not on a blockchain. There is no chain, no contract, no wallet address.',
 	'It cannot unlock a paid plan. Those are subscriptions; tokens buy none of them.'

@@ -111,7 +111,7 @@ A **language exchange** is the old-fashioned alternative: two people who each sp
 
 **Culture and friendship.** Many people who stick with a language for years can point to one person they talked to regularly. That is hard to get from an app that forgets you.
 
-**Many more languages.** AI tutors focus on a handful of big languages. A language exchange works for any pair where people exist; LangX lists 182 languages in the app.
+**Many more languages.** AI tutors focus on a handful of big languages. A language exchange works for any pair where people exist; LangX lists 183 languages in the app.
 
 ## Where a language exchange falls short
 
@@ -150,7 +150,7 @@ This loop gives you the volume of AI and the reality check of a human. It also m
 
 ## What about AI inside language exchange apps?
 
-The line is blurring. Some exchange apps add AI translation or correction tools, and some AI apps add community features. On LangX, corrections come from people today, and translation is built into the chat. An AI feedback feature, LangX Copilot, is planned for the Pro plan but has not shipped yet, and we will say so plainly until it does. For a broader look at exchange apps, see the [best language exchange apps](/best-language-exchange-apps).
+The line is blurring. Some exchange apps add AI translation or correction tools, and some AI apps add community features. On LangX, corrections come from people today, and translation is built into the chat. An AI helper, LangX Copilot, is in the Pro plan as a beta, rolling out gradually, so it may not be on for every account yet. For a broader look at exchange apps, see the [best language exchange apps](/best-language-exchange-apps).
 
 ## FAQ
 

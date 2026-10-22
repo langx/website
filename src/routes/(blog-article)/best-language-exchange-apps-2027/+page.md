@@ -57,7 +57,7 @@ These are the apps we would recommend today to someone planning their 2027 pract
 | One steady partner | Tandem or LangX | Built for one-to-one exchange | Tandem's AI Toolkit; LangX's growing community |
 | Speak live, right now | Lingbe | One tap to a native-speaker call | Whether updates resume |
 | Start free, no subscription | Speaky | No subscription listed on the App Store | Its AI practice partners and map |
-| No ads, open code | LangX | BSD-3, no ads, unlimited corrections | Copilot, planned for Pro |
+| No ads, open code | LangX | BSD-3, no ads, unlimited corrections | Copilot on Pro (beta, rolling out) |
 | Meet in person | Conversation Exchange | Local partner search | Little change expected |
 | Paid guidance | italki or Preply | Professional tutors | AI features around lessons |
 
@@ -93,11 +93,11 @@ Babbel stopped taking individual learners for **Babbel Live** after June 30, 202
 
 In September 2025 Apple announced Live Translation for AirPods, translating face-to-face conversations, and extended it to the EU that November. Instant translation raises a fair question: why learn at all? The answer is the same one it has always been. Translation gets you through a transaction; it does not make you part of a conversation, a friendship or a family dinner.
 
-On the practice side, voice is where apps differ most. Lingbe is built on live calls, HelloTalk has Voicerooms, and Tandem has calls and Language Parties. LangX has voice, photo and video messages and read-aloud, and since October 2026 voice and video calls in its web app; they are coming to the iPhone and Android apps. If calling from your phone is your main goal, one of those apps is the better fit until then.
+On the practice side, voice is where apps differ most. Lingbe is built on live calls, HelloTalk has Voicerooms, and Tandem has calls and Language Parties. LangX has voice, photo and video messages and read-aloud, and since October 2026 voice and video calls on iPhone and the web; they are coming to Android. If calling from your phone is your main goal, one of those apps is the better fit until then.
 
 <AppDemo
   screen="chat"
-  title="Voice messages, and calls on the web"
+  title="Voice messages, and calls on iPhone and the web"
   text="LangX practice happens in the chat: text, voice, photo and video messages, with read-aloud. Your partner holds any message to correct it."
 />
 
@@ -132,16 +132,16 @@ Before you commit to an app for the year, run through this list:
 
 When you are ready to start, our guides on [what a language exchange is](/what-is-a-language-exchange) and [how to run a language exchange session](/how-to-do-a-language-exchange) will help you get more out of each conversation.
 
-## What LangX has said about what is coming
+## What is new in LangX
 
-The one thing LangX has announced publicly for the future is **LangX Copilot**, private AI feedback inside the chat, which is planned for the Pro plan and is coming later. It is not shipped yet, and we are not giving it a date here.
+**LangX Copilot**, private AI help inside the chat, is in Pro as a beta, rolling out gradually, so it may not be on for every account yet.
 
-Everything else on LangX today is already in the app: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/plans), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
+Everything else listed here is available to everyone today: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/plans), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
 
 <ProsCons
   name="LangX heading into 2027"
   pros={["No ads and no advertising identifiers", "Open source under BSD-3", "Corrections unlimited on every plan", "Two-way matching for one-to-one exchange"]}
-  cons={["Calls on the web only so far; no group audio", "LangX Copilot is planned but not shipped", "Uses PostHog analytics (you can turn it off)", "A smaller, still-growing community"]}
+  cons={["Calls on iPhone and the web so far; no group audio", "LangX Copilot is in Pro as a beta, rolling out gradually", "Uses PostHog analytics (you can turn it off)", "A smaller, still-growing community"]}
 />
 
 ## How we will update this page
@@ -164,7 +164,7 @@ We do not expect it to. AI is excellent for rehearsal and instant explanations, 
 
 ### Is LangX adding AI features?
 
-LangX Copilot, private AI feedback in the chat, is planned for the Pro plan and is coming later. It has not shipped yet, and there is no public date.
+LangX Copilot, private AI help in the chat, is in the Pro plan as a beta, rolling out gradually, so it may not be on for every account yet.
 
 ### Is there a free language exchange app with no ads for 2027?
 

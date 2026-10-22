@@ -71,8 +71,8 @@ So today Memrise is best described as an **official-course app built on native-s
 | Corrections | A human partner can correct any message; unlimited on every plan | AI feedback on your conversations and exercises |
 | Native speakers | Real people in real chats | Short videos of native speakers saying words and phrases |
 | Translation | Built into the chat (Free 20 a day, Pro unlimited) | Part of the lessons, not a chat tool |
-| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on the web (phone apps soon) | Speaking and pronunciation practice with AI; no human calls |
-| Languages | 182 listed in the app | Official courses in around 35 languages for English speakers, plus many more in community courses |
+| Voice and calls | Voice, photo and video messages, read-aloud; voice and video calls on iPhone and the web (Android soon) | Speaking and pronunciation practice with AI; no human calls |
+| Languages | 183 listed in the app | Official courses in around 35 languages for English speakers, plus many more in community courses |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Yes, with limits; many videos and AI features need a subscription |
 | Paid plan | Yes (Pro) | Yes (Memrise Pro) |
 | No ads | Yes | No (Pro removes them) |
@@ -89,7 +89,7 @@ So today Memrise is best described as an **official-course app built on native-s
       "Native speakers matched two ways",
       "A human partner can correct any message, unlimited on every plan",
       "Translation built into the chat",
-      "182 languages listed in the app",
+      "183 languages listed in the app",
       "No ads; open source (BSD-3)"
     ],
     bestFor: "using your vocabulary with real people"
@@ -172,8 +172,8 @@ LangX shows no ads and uses no advertising identifiers. It does run product anal
 
 - **A much smaller library.** Echo has eighteen phrase packs and the cards you make yourself; there is no course of Memrise's size and no native-speaker videos.
 - **No community course library,** so it is not a replacement for Memrise's user-made courses.
-- **No AI chat today.** LangX Copilot, private AI feedback, is planned for Pro but not shipped.
-- **Calls on the web only** for now (coming to the iPhone and Android apps), and a smaller community means fewer partners for some language pairs.
+- **No AI chatbot.** LangX Copilot (in Pro as a beta, rolling out gradually) helps with your own messages; it does not talk with you.
+- **Calls on iPhone and the web** for now (coming to Android), and a smaller community means fewer partners for some language pairs.
 
 ## Is LangX a free Memrise alternative?
 

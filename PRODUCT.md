@@ -66,39 +66,45 @@ published line.
 ## Capabilities and Constraints
 
 - Two plans: Free and Pro (`pro`). Pro replaced Fluent and Polyglot in
-  September 2026. Prices are set per region and shown in the app; the site
-  does not print prices. Pro is monthly or yearly, each with a one-week free
-  trial; yearly works out to 3 months free.
+  September 2026. Prices are set per region and shown in the app; /plans
+  prints the US prices from `src/lib/data/prices.ts` ($9.99 a month, $79.99 a
+  year) and says the store shows the local one. Pro is monthly or yearly;
+  only yearly starts with a free week (for someone who has not had Pro), and
+  it works out to 3 months free.
 - Free: 5 new conversations and 20 translations per rolling 24 h; replies and
   corrections unlimited; 1 learning + 1 native language; country/age/level
   filters. Every plan: 500 photo/video/voice messages a day (fair use), 10
   profile photos. Pro: unlimited new conversations, unlimited translations
   (fair use), gender/city filters, Nearby, Boosted, who viewed you, incognito,
-  send in their language, phrase export, 5+5 languages, LangX Copilot (not
-  yet shipped).
+  send in their language, phrase export, 5+5 languages, LangX Copilot (beta,
+  rolling out: on only for some accounts so far, never promise it to every
+  Pro buyer).
 - LangX Token is an in-app point: cannot be bought, sold, traded, staked,
   withdrawn, transferred, is not on a blockchain, cannot unlock a paid plan.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and
   earn", "payout".
 - Badges are not in v2's first release. Voice and photo messages are shipped.
-- Voice and video calls: live in the web app since 5 October 2026, not yet in
-  the iPhone and Android apps (say "on the web now, coming to the phone apps").
+- Voice and video calls: live in the web app since 5 October 2026 and in the
+  iPhone app since 2.9; not yet on Android (say "on iPhone and the web;
+  Android soon").
   You can call someone once they have sent you 5 messages; free on every plan;
   Settings → Privacy → Allow calls turns them off both ways. Calls are relayed
   (no IP shared) and never recorded. They earn no tokens and no streak day.
 - Minimum age 16 (18 until langx/langx#1109; the Terms and Privacy Policy say
   16). v1 users must sign up again; balances carry over ÷100 plus a 250-token
   welcome-back bonus.
-- The app lists 182 languages (`languages.ts`).
+- The app lists 183 languages (`languages.ts`).
 
 ## Brand Commitments
 
 - Name: LangX. Wordmark and interlocking-hook mark (`src/lib/images/logo.svg`).
-- The v3 mobile design handoff (Claude Design, 30 Aug 2026) is **binding** for
-  the site's visual language: Nunito 800 display, platform body stack, white
-  ground, yellow `#ffc409` reserved for the one committing action per screen,
-  blue `#3b6cf6` for everything interactive, corrections green, Copilot blue,
-  hairline dividers, pill controls.
+- The site follows the app's v3 design (see DESIGN.md): colour blocks in six
+  partner hues with ink `#14161b` on them in both schemes, Nunito 900
+  lower-case headings ending in a full stop, platform body stack, yellow
+  `#ffc409` for the one committing action per viewport, blue `#3b6cf6` for
+  the closing block and links, corrections green, pill controls, no shadows.
+  The site may ship before app 3.0, so copy and phones show nothing that only
+  3.0 has (no 3.0 tab names, partner streaks or automatic Echo cards).
 - Dark theme via `[data-theme='dark']` and `auto`.
 
 ## Evidence on Hand

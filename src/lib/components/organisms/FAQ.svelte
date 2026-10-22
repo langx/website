@@ -1,6 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
-	import { reveal } from '$lib/utils/reveal';
+	import { rise } from '$lib/utils/rise';
 	import { faqObjects, type FaqObject } from '$lib/data/faq';
 
 	interface Props {
@@ -8,27 +9,51 @@
 		items?: FaqObject[];
 		eyebrow?: string;
 		title?: string;
+		/** A link under the list, to the page with every question. */
+		more?: { href: string; label: string };
+		/** The section's id; the homepage's is the `#faq` the old links point at. */
+		id?: string;
+		/** `split` puts the heading beside the list; `stack` above it, for a narrow column. */
+		layout?: 'split' | 'stack';
+		/** Open the first answer on arrival; a page with several lists opens only its first. */
+		openFirst?: boolean;
 	}
 
-	let { items = faqObjects, eyebrow = 'FAQ', title = 'Questions' }: Props = $props();
+	let {
+		items = faqObjects,
+		eyebrow = '',
+		title = 'questions.',
+		more,
+		id = 'faq',
+		layout = 'split',
+		openFirst = true
+	}: Props = $props();
 
 	// The first answer is open on arrival, so the list reads as answers, not a
 	// row of closed doors.
 	// svelte-ignore state_referenced_locally
-	let openId: number | null = $state(items[0]?.id ?? null);
+	let openId: number | null = $state(openFirst ? (items[0]?.id ?? null) : null);
 
 	const toggle = (id: number) => (openId = openId === id ? null : id);
+
+	// Arriving on /faq#echo opens the Echo answer, not the first one.
+	onMount(() => {
+		const slug = location.hash.slice(1);
+		const hit = slug && items.find((q) => q.slug === slug);
+		if (hit) openId = hit.id;
+	});
 </script>
 
-<section id="faq" class="faq">
-	<header class="head" data-reveal use:reveal>
-		<span class="eyebrow">{eyebrow}</span>
-		<h2>{title}</h2>
+<!-- The heading on the left, the questions on the right; one column on a phone. -->
+<section {id} class="faq {layout}" aria-labelledby="{id}-title" use:rise>
+	<header class="head" data-rise>
+		{#if eyebrow}<span class="eyebrow">{eyebrow}</span>{/if}
+		<h2 id="{id}-title" class="display-section">{title}</h2>
 	</header>
 
-	<div class="accordion" data-reveal use:reveal>
+	<div class="accordion" data-rise>
 		{#each items as item (item.id)}
-			<div class="item" class:open={openId === item.id}>
+			<div class="item" id={item.slug} class:open={openId === item.id}>
 				<h3>
 					<button
 						type="button"
@@ -54,45 +79,53 @@
 				</div>
 			</div>
 		{/each}
+		{#if more}<a class="more" href={more.href}>{more.label}</a>{/if}
 	</div>
 </section>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints' as *;
-
+	// The space above is the section's own, for the pages that stack it
+	// under other content; the homepage and /faq set it to 0.
 	.faq {
-		padding: 110px 0 0;
+		display: grid;
+		gap: 24px;
+		padding-top: 72px;
 
-		@include for-phone-only {
-			padding-top: 72px;
+		&.split {
+			@media (min-width: 900px) {
+				grid-template-columns: 1fr 1.65fr;
+				gap: 48px;
+				align-items: start;
+			}
 		}
 	}
 
-	// Centred, unlike the sections above it: the list is narrower than the
-	// page, and a left-aligned title over a centred list looked adrift.
 	.head {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		gap: 12px;
-		text-align: center;
+		gap: 10px;
 
 		h2 {
-			margin: 0;
-			font-weight: 900;
-			font-size: clamp(1.625rem, 3vw, 2.125rem);
-			line-height: 1.15;
+			color: inherit;
 		}
 	}
 
+	// Stacked lists sit under a page's own title, so their headings step down.
+	.stack .head h2 {
+		font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem);
+		line-height: 1.1;
+	}
+
 	.accordion {
-		margin: 32px auto 0;
-		border-top: 1px solid var(--color--border);
-		max-width: 760px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
 	}
 
 	.item {
-		border-bottom: 1px solid var(--color--border);
+		border-radius: 20px;
+		background: var(--color--muted);
+		scroll-margin-top: calc(var(--header-height) + 16px);
 	}
 
 	h3 {
@@ -106,41 +139,33 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 20px;
+		gap: 16px;
 		width: 100%;
-		padding: 20px 0;
+		min-height: 56px;
+		padding: 14px 18px;
 		background: none;
 		border: 0;
+		border-radius: 20px;
 		text-align: left;
 		cursor: pointer;
 		color: var(--color--text);
 		font-family: var(--font--title);
-		border-radius: var(--radius-sm);
-
-		&:hover .title {
-			color: var(--color--accent);
-		}
 	}
 
 	.title {
 		font-size: 1.0625rem;
-		font-weight: 800;
-		line-height: 1.4;
-		transition: color var(--dur-fast) ease;
+		font-weight: 900;
+		line-height: 1.35;
 	}
 
 	.chevron {
 		flex: 0 0 auto;
-		color: var(--color--text-tertiary);
 		display: inline-flex;
-		transition:
-			transform var(--dur-fast) var(--ease-out),
-			color var(--dur-fast) ease;
+		transition: transform var(--dur-fast) var(--ease-out);
 	}
 
 	.open .chevron {
 		transform: rotate(180deg);
-		color: var(--color--accent);
 	}
 
 	// Height animates through grid rows, so the panel can be any length and
@@ -161,13 +186,19 @@
 	}
 
 	.content {
-		padding: 0 0 22px;
+		padding: 0 18px 18px;
 		max-width: 64ch;
-		font-size: 1rem;
-		line-height: 1.65;
+		font-size: 0.9375rem;
+		line-height: 1.6;
 		color: var(--color--text-shade);
 		opacity: 0;
 		transition: opacity var(--dur-fast) ease;
+
+		:global(a) {
+			color: var(--color--accent);
+			font-weight: 700;
+			text-decoration: underline;
+		}
 
 		:global(strong) {
 			color: var(--color--text);
@@ -186,6 +217,14 @@
 	.open .content {
 		opacity: 1;
 		transition-delay: 60ms;
+	}
+
+	.more {
+		align-self: flex-start;
+		margin-top: 8px;
+		font-weight: 800;
+		color: var(--color--accent);
+		text-decoration: underline;
 	}
 
 	@media (prefers-reduced-motion: reduce) {

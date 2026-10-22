@@ -219,7 +219,7 @@ Learning another script too? There are guides for [Russian](/russian-alphabet-gu
 
 ## Practice reading and speaking with native speakers
 
-The alphabet gets you reading. Hearing the difference between и and і, or getting г right, takes a person who will tell you when you are off. On LangX, Ukrainian is one of the 182 languages you can choose, and matching runs both ways: you see people who speak Ukrainian and are learning a language you speak.
+The alphabet gets you reading. Hearing the difference between и and і, or getting г right, takes a person who will tell you when you are off. On LangX, Ukrainian is one of the 183 languages you can choose, and matching runs both ways: you see people who speak Ukrainian and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -227,7 +227,7 @@ The alphabet gets you reading. Hearing the difference between и and і, or gett
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear your г and your stress."
 />
 
-Write in Ukrainian Cyrillic from your first message, apostrophes included, and let your partner hold a message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan, which also includes 5 new conversations a day). Voice messages let you record a word until you are happy with it, and voice and video calls work in the web app (coming to the iPhone and Android apps). To start, [get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
+Write in Ukrainian Cyrillic from your first message, apostrophes included, and let your partner hold a message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan, which also includes 5 new conversations a day). Voice messages let you record a word until you are happy with it, and voice and video calls work on iPhone and the web (Android soon). To start, [get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
 
 ## FAQ
 

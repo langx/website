@@ -82,13 +82,13 @@ Details about Speaky come from its official store listings at the time of writin
 | Matching | Two-way: you only see people who speak what you learn and learn what you speak | Search the community and message partners directly; map of partners nearby or worldwide |
 | Corrections | Hold any message to correct it, or ask for one on a Feed post; unlimited on every plan | Partners can correct each other's messages |
 | Translation | Built into the chat; 20 a day on Free, unlimited on Pro | Not confirmed |
-| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on the web (phone apps soon) | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
+| Voice and calls | Voice, photo and video messages; read-aloud; voice and video calls on iPhone and the web (Android soon) | Chat with partners; AI practice partners with voices; built-in live calls not confirmed |
 | Free plan | Yes: unlimited replies and corrections, 5 new conversations a day | Free to use |
 | Paid plan | Yes: Pro | None listed in the stores |
 | No ads | Yes | No |
 | Open source | Yes, BSD-3, self-hostable | No |
 | Platforms | iOS, Android, web | iOS, Android, web |
-| Languages | 182 listed in the app | 170+ listed |
+| Languages | 183 listed in the app | 170+ listed |
 | Community size | Small and growing | Larger; 5M+ downloads on Google Play |
 
 *Table: LangX vs Speaky, feature by feature (September 2026).*
@@ -200,7 +200,7 @@ LangX has a free plan with no ads, unlimited replies and corrections, 5 new conv
 
 ### LangX vs Speaky: which has more languages?
 
-They are close. LangX lists 182 languages in the app and Speaky lists more than 170. Speaky's larger community means more active partners in many of them.
+They are close. LangX lists 183 languages in the app and Speaky lists more than 170. Speaky's larger community means more active partners in many of them.
 
 ### What are other apps like Speaky?
 

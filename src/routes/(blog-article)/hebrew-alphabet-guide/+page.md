@@ -191,7 +191,7 @@ The chart is at [/tools/alphabet/hebrew](/tools/alphabet/hebrew). After the lett
 
 ## Practice reading and writing with native speakers
 
-A chart gives you the letters, but unpointed Hebrew is learned word by word, from people who already know how each word sounds. On LangX, Hebrew is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Hebrew and are learning a language you speak.
+A chart gives you the letters, but unpointed Hebrew is learned word by word, from people who already know how each word sounds. On LangX, Hebrew is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Hebrew and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -199,7 +199,7 @@ A chart gives you the letters, but unpointed Hebrew is learned word by word, fro
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear your vowels, which the spelling doesn't show."
 />
 
-Write in Hebrew letters from the start, and your partner can correct your spelling, including the letters that sound alike. Replies are unlimited, and translation is built into the chat (20 a day on the free plan, which includes 5 new conversations a day). LangX has voice and photo messages, and voice and video calls in the web app (coming to the iPhone and Android apps). To compare it with other apps, see our list of the [best language exchange apps](/best-language-exchange-apps). To start, [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
+Write in Hebrew letters from the start, and your partner can correct your spelling, including the letters that sound alike. Replies are unlimited, and translation is built into the chat (20 a day on the free plan, which includes 5 new conversations a day). LangX has voice and photo messages, and voice and video calls on iPhone and the web (Android soon). To compare it with other apps, see our list of the [best language exchange apps](/best-language-exchange-apps). To start, [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 ## FAQ
 

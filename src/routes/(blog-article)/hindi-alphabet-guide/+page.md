@@ -222,7 +222,7 @@ The chart with every letter is at [/tools/alphabet/hindi](/tools/alphabet/hindi)
 
 ## Practice reading and speaking with native speakers
 
-A chart gives you the shapes. The sounds, above all the puff of air, the curled-back letters and the silent *a*, come from hearing a person and being corrected. On LangX, Hindi is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Hindi and are learning a language you speak.
+A chart gives you the shapes. The sounds, above all the puff of air, the curled-back letters and the silent *a*, come from hearing a person and being corrected. On LangX, Hindi is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Hindi and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -230,7 +230,7 @@ A chart gives you the shapes. The sounds, above all the puff of air, the curled-
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear how you say a word, not only how you spell it."
 />
 
-LangX has voice and photo messages, and voice and video calls in the web app (coming to the iPhone and Android apps). The free plan includes 5 new conversations a day and unlimited replies; [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
+LangX has voice and photo messages, and voice and video calls on iPhone and the web (Android soon). The free plan includes 5 new conversations a day and unlimited replies; [get the app](https://get.langx.io) or read [how to do a language exchange](/how-to-do-a-language-exchange).
 
 More alphabet guides: [Bengali](/bengali-alphabet-guide), [Malayalam](/malayalam-alphabet-guide), [Russian](/russian-alphabet-guide), [Bulgarian](/bulgarian-alphabet-guide), [Greek](/greek-alphabet-guide) and [Korean](/korean-alphabet-guide).
 

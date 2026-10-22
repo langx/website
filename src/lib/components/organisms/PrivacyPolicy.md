@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 7, Oct 2026*
+	*Effective Date: 22, Oct 2026*
 
 	1. Introduction
 
@@ -74,6 +74,26 @@
 		- **Reports and blocks.** Reviews can be reported, and our moderators can remove them. Blocking someone hides the reviews between the two of you.
 		- **Deletion and export.** When an account is deleted, the reviews it wrote and the reviews written about it are deleted too. Reviews you wrote and reviews you received are included in your data export.
 
+		2.6 LangX Copilot, the AI helper
+
+		Copilot is an AI helper inside a chat. It can check a sentence before you send it, help you say something in the language you are learning, explain a message or a correction, and suggest replies. It is in **beta**: it is switched on only for accounts we have added to a list while we try it, so most people do not see it yet, and its answers can be wrong. Every answer is labelled **Copilot · Beta**, and nothing it writes reaches the other person unless you send it yourself.
+
+		Its answers are written by an AI model run by **Anthropic**, which processes what Copilot sends on our behalf as our service provider. Nothing is sent until you have agreed to the sheet the app shows the first time you use Copilot, and after that only when you tap a Copilot button. What each help sends is this, and only this:
+
+		- **Check my sentence** — the sentence you are about to send, your languages and levels, and the language the app is set to.
+		- **Say it** — what you wrote in your own language, the language you want it in, your level in that language, and the language the app is set to.
+		- **Explain** — the one message you picked, plus your level and the language the app is set to. That is either a message the other person sent you, or a correction: the original sentence, the corrected one and the corrector's note. Each is cut to 500 characters, and the note to 200.
+		- **Reply ideas** — up to the last six text messages and corrections in that chat (for a correction, the corrected sentence), from both of you, each cut to 200 characters and marked only as yours or theirs, plus your languages and levels.
+
+		Explain and Reply ideas therefore send words the other person wrote, in the same way that translating their message sends it to our translation provider. Your name, username, email address, user id and age are never sent, unless they appear in the text itself. Neither are photos, videos, voice messages, view-once messages, or messages that were deleted or that you hid — with one exception: a correction carries a copy of the sentence it corrected, as the chat itself shows it, so explaining a correction sends that sentence even if its original message was deleted since. The request carries no identifier of yours.
+
+		- **What Anthropic does with it.** Anthropic uses it to write the answer. Under its [commercial terms](https://www.anthropic.com/legal/commercial-terms) it may not train its models on it. Under its [published retention policy](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data), it deletes what it receives and what it writes within 30 days, unless it must keep them longer to enforce its usage policy or because the law requires it.
+		- **What we keep.** We keep each answer for 7 days, so that the same question asked again is not paid for twice. It is stored under a one-way hash of the question and is linked to no account, so it records the answer and not who asked. The answer can repeat the words it was about: a checked sentence comes back corrected. After 7 days it is deleted automatically. For the daily limit, your account records the time of each new Copilot answer; only the last 24 hours count, and older times are dropped the next time you use it. If you reach the limit, the time you did is noted too, and counts for 3 days. Nothing about what you asked is recorded there. Our server logs record which help was asked, how it ended and how long it took, never the text. As with any request, they see your IP address (section 2.3). When Copilot fails to answer, the error goes to Sentry with your user id (section 6).
+		- **Consent, and who can use it.** Your profile records when you agreed and which version of the sheet you agreed to, and, if we added you to the list, when. Our operators can see which accounts are on the list. The consent is tied to the words on the sheet: if we change what is sent or who receives it, everyone is asked again. Taking an account off the list removes its consent too, so being added again means being asked again.
+		- **Your consent can be withdrawn.** **Settings → Privacy → Copilot** turns Copilot off. From your next request nothing more of yours is sent, and Copilot asks again before it is used. That row is shown to the people Copilot is shown to; if it is not shown to you and you want your consent removed, write to [hi@langx.io](mailto:hi@langx.io).
+		- **Reporting an answer.** Every answer has **Report**. A report sends the answer and which help wrote it to the LangX team. For Check my sentence and Say it, you can also choose to send what you wrote; that is off unless you switch it on. Nothing else from your chat is sent. A report goes to us only, not to Anthropic and not to any public tracker. It is kept with your user id, is included in **Download my data**, and is deleted when your account is deleted.
+		- **Age.** Copilot has no age rule of its own. It is open to anyone LangX lets in, which means 16 and over (section 12).
+
 	3. Approximate Location, and Only If You Ask For It
 
 		Pro includes a "Nearby" sort that orders people by roughly how far away they are. It is the only feature that uses location anywhere in LangX, and this is exactly what it does.
@@ -100,6 +120,7 @@
 		- To create and manage your LangX account
 		- To match you with people whose languages fit yours in both directions
 		- To deliver your conversations, corrections and translations
+		- To answer your Copilot requests, if you have switched Copilot on — see section 2.6
 		- To calculate your streak, tokens and leaderboard position
 		- To keep the service safe: handling reports, blocks and abuse
 		- To notify you about activity, if you have granted permission
@@ -111,6 +132,7 @@
 
 		- **Resend**, our email provider — your email address and the contents of the mail, to send verification and password-reset messages.
 		- **Google Cloud Translation** — the text you asked to translate, and nothing identifying you.
+		- **Anthropic**, which runs the AI model behind Copilot — only if you have agreed to Copilot, and only the text described in section 2.6, with your languages and levels, and nothing identifying you unless it is in that text. It writes the answer for us and may not train its models on it.
 		- **RevenueCat** — your LangX user id and your purchase events, so we know whether your subscription is active. Payment itself is taken by Apple, Google or Stripe, and none of them send us your card details.
 		- **Expo's push service**, and through it Apple's and Google's push infrastructure — your push token and the text of the notification. A new-message notification includes the beginning of the message, because that is what makes it useful; if you would rather it did not, turn notifications off.
 		- **Cloudflare R2 or Backblaze B2**, our object storage — your photos, videos and voice messages, to host them.
@@ -174,6 +196,10 @@
 
 		If you have already deleted your account, write to [hi@langx.io](mailto:hi@langx.io) and we will remove your address from the list described in section 11.
 
+		10.7 Copilot
+
+		**Settings → Privacy → Copilot** turns Copilot off and withdraws your consent. Nothing more of yours is sent to Anthropic, and Copilot asks again the next time you use it. If Copilot is not shown to you, write to [hi@langx.io](mailto:hi@langx.io) to have a consent removed. Section 2.6 describes what it sends.
+
 	11. Data Retention and Deletion
 
 		We retain your information for as long as your account exists, and as required by applicable laws.
@@ -187,7 +213,7 @@
 		- **Your email address is kept.** When your account is removed we move the address onto a list that holds nothing else: no name, no profile, no identifier that links it back to the account, which is deleted in full. We keep it so that we can tell you about LangX in the future, and we only send promotional email to an address whose owner turned promotional email on while their account existed. Write to [hi@langx.io](mailto:hi@langx.io) at any time — before or after deleting your account — and we will remove your address from that list too.
 		- **If you told us why you were leaving, that answer is kept** — the reason you picked and any note you wrote, with your plan and roughly how long you had the account, and nothing that links it to you: no user id, name, handle or email. Until the deletion completes it stays with your account, and signing back in discards it.
 
-		Records of who viewed a profile are deleted automatically after 90 days, whether or not you delete your account.
+		Records of who viewed a profile are deleted automatically after 90 days, whether or not you delete your account. Copilot's answers are deleted automatically after 7 days, and are linked to no account to begin with (section 2.6).
 
 		If your account is suspended, we keep a record of the suspension — when it was applied, how long for, and the reason it was reported under — for as long as the suspension applies, along with the text of any appeal you send us. Both are removed with the rest of your account when it is deleted.
 

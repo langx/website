@@ -39,3 +39,8 @@ jobs:
       - name: build
         run: |
           npm run build
+
+      # The build-output guards read build/: indexed URLs, the feed, one
+      # canonical per page, nothing hidden on the pages that ship no JS.
+      - name: test
+        run: npx vitest run

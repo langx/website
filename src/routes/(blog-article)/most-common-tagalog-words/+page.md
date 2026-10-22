@@ -184,7 +184,7 @@ Start with [the 3,068 most common Tagalog words](/tools/most-common-words/tagalo
 
 ## Practice Tagalog with a native speaker
 
-Particles are hard to learn from a table, because whether *naman* or *pala* fits depends on the moment. That is exactly what a conversation partner teaches. On LangX, Tagalog is one of the 182 languages you can choose, and matching runs both ways: you see people who speak Tagalog and are learning a language you speak.
+Particles are hard to learn from a table, because whether *naman* or *pala* fits depends on the moment. That is exactly what a conversation partner teaches. On LangX, Tagalog is one of the 183 languages you can choose, and matching runs both ways: you see people who speak Tagalog and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -192,7 +192,7 @@ Particles are hard to learn from a table, because whether *naman* or *pala* fits
   text="Write a few lines in Tagalog. Your partner holds the message to correct it, right in the chat, so you see exactly where po or ba belonged."
 />
 
-Corrections are unlimited on every plan, including Free. The free plan lets you start 5 new conversations a day and use 20 in-chat translations a day, and replies are unlimited. Voice and photo messages are built in, voice and video calls work in the web app (the iPhone and Android apps get them later), and there are no ads. If you're not sure what to talk about, try these [language exchange conversation topics](/language-exchange-conversation-topics), then [get the app](https://get.langx.io).
+Corrections are unlimited on every plan, including Free. The free plan lets you start 5 new conversations a day and use 20 in-chat translations a day, and replies are unlimited. Voice and photo messages are built in, voice and video calls work on iPhone and the web (Android gets them later), and there are no ads. If you're not sure what to talk about, try these [language exchange conversation topics](/language-exchange-conversation-topics), then [get the app](https://get.langx.io).
 
 ## FAQ
 

@@ -234,7 +234,7 @@ The list and the test are here: [the 2,915 most common Afrikaans words](/tools/m
 
 ## Practice with a native Afrikaans speaker
 
-Word lists get you recognition. Speaking takes another person. On LangX, Afrikaans is one of the 182 languages you can pick, and matching runs both ways: you see people who speak Afrikaans and are learning a language you speak, so the exchange is useful for both of you.
+Word lists get you recognition. Speaking takes another person. On LangX, Afrikaans is one of the 183 languages you can pick, and matching runs both ways: you see people who speak Afrikaans and are learning a language you speak, so the exchange is useful for both of you.
 
 <AppDemo
   screen="chat"
@@ -242,7 +242,7 @@ Word lists get you recognition. Speaking takes another person. On LangX, Afrikaa
   text="Write a sentence with this week's words. Your partner holds your message to correct it, right in the conversation, and translation is built in for the words you don't know yet."
 />
 
-Corrections are unlimited on every plan, including Free. The free plan starts 5 new conversations a day and gives you 20 in-chat translations a day; replies are unlimited. You can also send voice messages, which matters for Afrikaans: the spelling looks friendly, and the pronunciation is where you'll want feedback. Voice and video calls work in the web app too, and are coming to the iPhone and Android apps. [Get the app](https://get.langx.io), or read [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) first.
+Corrections are unlimited on every plan, including Free. The free plan starts 5 new conversations a day and gives you 20 in-chat translations a day; replies are unlimited. You can also send voice messages, which matters for Afrikaans: the spelling looks friendly, and the pronunciation is where you'll want feedback. Voice and video calls work on iPhone and the web too, and are coming to Android. [Get the app](https://get.langx.io), or read [how to find a language exchange partner](/how-to-find-a-language-exchange-partner) first.
 
 ## FAQ
 

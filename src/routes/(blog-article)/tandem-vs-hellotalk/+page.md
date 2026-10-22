@@ -195,7 +195,7 @@ Whichever you pick, the app matters less than the habit. Two short conversations
 
 ## Or try an open-source alternative
 
-If you like the idea of Tandem or HelloTalk but want something different underneath, **[LangX](https://get.langx.io)** is our open-source language exchange app (BSD-3). Matching runs both ways, corrections and replies are unlimited on every plan including Free, and there are no ads. It is honest to say what it lacks next to these two: a **far smaller community**, **no group audio rooms**, and calls that are **web only** for now (they are coming to the iPhone and Android apps).
+If you like the idea of Tandem or HelloTalk but want something different underneath, **[LangX](https://get.langx.io)** is our open-source language exchange app (BSD-3). Matching runs both ways, corrections and replies are unlimited on every plan including Free, and there are no ads. It is honest to say what it lacks next to these two: a **far smaller community**, **no group audio rooms**, and calls that are on **iPhone and the web** for now (coming to Android).
 
 <AppDemo
   screen="chat"

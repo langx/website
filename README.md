@@ -46,6 +46,7 @@ Before adding a feature claim, check it is one the shipping app actually meets.
 - [Getting started](#getting-started)
 - [Building](#building)
 - [Contributing](#contributing)
+- [Screenshots](#screenshots)
 - [Versioning](#versioning)
 - [Stats](#stats)
 - [License](#license)
@@ -92,6 +93,106 @@ npm run format
 ```
 
 We'll review your changes and merge them if they meet our guidelines. Thank you for helping to make LangX even better!
+
+## Screenshots
+
+What langx.io looks like, kept here so the redesigns can be compared side by side.
+Each shot follows your GitHub theme; the [`docs/screenshots`](docs/screenshots) folders have both the light
+and the dark version of every one.
+
+### Before the v3 redesign (October 2026)
+
+Captured from the live site on 20 October 2026, at 1440×900 on desktop and
+390×844 on a phone, signed out.
+
+<table>
+<tr><th>Page</th><th>Desktop</th><th>Phone</th></tr>
+<tr>
+<td><a href="https://langx.io">Home</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/home-desktop-dark.webp"><img src="docs/screenshots/before-v3/home-desktop-light.webp" width="520" alt="langx.io Home on desktop before the v3 redesign — the homepage hero: headline, sign-up buttons and an example chat with a correction"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/home-mobile-dark.webp"><img src="docs/screenshots/before-v3/home-mobile-light.webp" width="160" alt="langx.io Home on a phone before the v3 redesign — the homepage hero: headline, sign-up buttons and an example chat with a correction"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/plans">Plans</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/plans-desktop-dark.webp"><img src="docs/screenshots/before-v3/plans-desktop-light.webp" width="520" alt="langx.io Plans on desktop before the v3 redesign — the plans page: Free and Pro, with the in-app paywall"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/plans-mobile-dark.webp"><img src="docs/screenshots/before-v3/plans-mobile-light.webp" width="160" alt="langx.io Plans on a phone before the v3 redesign — the plans page: Free and Pro, with the in-app paywall"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/blog">Blog</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/blog-desktop-dark.webp"><img src="docs/screenshots/before-v3/blog-desktop-light.webp" width="520" alt="langx.io Blog on desktop before the v3 redesign — the blog index: topic links and app comparison articles"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/blog-mobile-dark.webp"><img src="docs/screenshots/before-v3/blog-mobile-light.webp" width="160" alt="langx.io Blog on a phone before the v3 redesign — the blog index: topic links and app comparison articles"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/tools">Tools</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/tools-desktop-dark.webp"><img src="docs/screenshots/before-v3/tools-desktop-light.webp" width="520" alt="langx.io Tools on desktop before the v3 redesign — the free language tools page: word lists and a strip of language flags"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/tools-mobile-dark.webp"><img src="docs/screenshots/before-v3/tools-mobile-light.webp" width="160" alt="langx.io Tools on a phone before the v3 redesign — the free language tools page: word lists and a strip of language flags"></picture></td>
+</tr>
+</table>
+
+<details>
+<summary>The whole homepage, top to bottom</summary>
+
+Desktop (<a href="docs/screenshots/before-v3/home-desktop-light-full.webp">light</a> · <a href="docs/screenshots/before-v3/home-desktop-dark-full.webp">dark</a>):
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/home-desktop-dark-full.webp"><img src="docs/screenshots/before-v3/home-desktop-light-full.webp" width="720" alt="The whole langx.io homepage on desktop before the v3 redesign, from the hero through features, plans, reviews, FAQ and footer"></picture>
+
+Phone (<a href="docs/screenshots/before-v3/home-mobile-light-full.webp">light</a> · <a href="docs/screenshots/before-v3/home-mobile-dark-full.webp">dark</a>):
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/before-v3/home-mobile-dark-full.webp"><img src="docs/screenshots/before-v3/home-mobile-light-full.webp" width="240" alt="The whole langx.io homepage on a phone before the v3 redesign, from the hero through features, plans, reviews, FAQ and footer"></picture>
+
+</details>
+
+### After the v3 redesign (October 2026)
+
+Captured from the live site on 21 October 2026, the same way as the shots
+above. The redesign added two pages, FAQ and Download.
+
+<table>
+<tr><th>Page</th><th>Desktop</th><th>Phone</th></tr>
+<tr>
+<td><a href="https://langx.io">Home</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/home-desktop-dark.webp"><img src="docs/screenshots/after-v3/home-desktop-light.webp" width="520" alt="langx.io Home on desktop after the v3 redesign — the homepage hero: &quot;talk to people who speak it&quot;, get-the-app buttons and an example chat with a correction"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/home-mobile-dark.webp"><img src="docs/screenshots/after-v3/home-mobile-light.webp" width="160" alt="langx.io Home on a phone after the v3 redesign — the homepage hero: &quot;talk to people who speak it&quot;, get-the-app buttons and an example chat with a correction"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/plans">Plans</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/plans-desktop-dark.webp"><img src="docs/screenshots/after-v3/plans-desktop-light.webp" width="520" alt="langx.io Plans on desktop after the v3 redesign — the plans page: Free and Pro cards with yearly and monthly prices"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/plans-mobile-dark.webp"><img src="docs/screenshots/after-v3/plans-mobile-light.webp" width="160" alt="langx.io Plans on a phone after the v3 redesign — the plans page: Free and Pro cards with yearly and monthly prices"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/blog">Blog</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/blog-desktop-dark.webp"><img src="docs/screenshots/after-v3/blog-desktop-light.webp" width="520" alt="langx.io Blog on desktop after the v3 redesign — the blog index: topic chips and app comparison cards"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/blog-mobile-dark.webp"><img src="docs/screenshots/after-v3/blog-mobile-light.webp" width="160" alt="langx.io Blog on a phone after the v3 redesign — the blog index: topic chips and app comparison cards"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/tools">Tools</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/tools-desktop-dark.webp"><img src="docs/screenshots/after-v3/tools-desktop-light.webp" width="520" alt="langx.io Tools on desktop after the v3 redesign — the free tools page: headline and an example round of the daily five-letter word game"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/tools-mobile-dark.webp"><img src="docs/screenshots/after-v3/tools-mobile-light.webp" width="160" alt="langx.io Tools on a phone after the v3 redesign — the free tools page: headline and an example round of the daily five-letter word game"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/faq">FAQ</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/faq-desktop-dark.webp"><img src="docs/screenshots/after-v3/faq-desktop-light.webp" width="520" alt="langx.io FAQ on desktop after the v3 redesign — the questions page: section list and expandable answers"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/faq-mobile-dark.webp"><img src="docs/screenshots/after-v3/faq-mobile-light.webp" width="160" alt="langx.io FAQ on a phone after the v3 redesign — the questions page: section list and expandable answers"></picture></td>
+</tr>
+<tr>
+<td><a href="https://langx.io/download">Download</a></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/download-desktop-dark.webp"><img src="docs/screenshots/after-v3/download-desktop-light.webp" width="520" alt="langx.io Download on desktop after the v3 redesign — the download page: browser, App Store and Google Play buttons beside an example home screen"></picture></td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/download-mobile-dark.webp"><img src="docs/screenshots/after-v3/download-mobile-light.webp" width="160" alt="langx.io Download on a phone after the v3 redesign — the download page: browser, App Store and Google Play buttons beside an example home screen"></picture></td>
+</tr>
+</table>
+
+<details>
+<summary>The whole homepage, top to bottom</summary>
+
+Desktop (<a href="docs/screenshots/after-v3/home-desktop-light-full.webp">light</a> · <a href="docs/screenshots/after-v3/home-desktop-dark-full.webp">dark</a>):
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/home-desktop-dark-full.webp"><img src="docs/screenshots/after-v3/home-desktop-light-full.webp" width="720" alt="The whole langx.io homepage on desktop after the v3 redesign, from the hero through matching, corrections, Echo, streaks, calls, reviews, plans, questions and footer"></picture>
+
+Phone (<a href="docs/screenshots/after-v3/home-mobile-light-full.webp">light</a> · <a href="docs/screenshots/after-v3/home-mobile-dark-full.webp">dark</a>):
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/after-v3/home-mobile-dark-full.webp"><img src="docs/screenshots/after-v3/home-mobile-light-full.webp" width="240" alt="The whole langx.io homepage on a phone after the v3 redesign, from the hero through matching, corrections, Echo, streaks, calls, reviews, plans, questions and footer"></picture>
+
+</details>
 
 ## Versioning
 

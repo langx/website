@@ -218,7 +218,7 @@ Learning another script too? There are guides for [Arabic](/arabic-alphabet-guid
 
 ## Practice reading and speaking with native speakers
 
-The alphabet gets you reading, but the unwritten vowels are learned word by word, and the fastest way is to hear real people use them. On LangX, Persian is one of the 182 languages you can choose, and matching runs both ways: you see people who speak Persian and are learning a language you speak.
+The alphabet gets you reading, but the unwritten vowels are learned word by word, and the fastest way is to hear real people use them. On LangX, Persian is one of the 183 languages you can choose, and matching runs both ways: you see people who speak Persian and are learning a language you speak.
 
 <AppDemo
   screen="chat"
@@ -226,7 +226,7 @@ The alphabet gets you reading, but the unwritten vowels are learned word by word
   text="Your partner holds any message to correct it, and corrections are unlimited on every plan. Voice messages let them hear the vowels the script leaves out."
 />
 
-Write in the Persian script from your first message, even a <span lang="fa" dir="rtl">سلام</span>, and let your partner hold a message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan, which also includes 5 new conversations a day). Voice messages let you record a word until you are happy with it, and voice and video calls work in the web app (coming to the iPhone and Android apps). To start, [get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
+Write in the Persian script from your first message, even a <span lang="fa" dir="rtl">سلام</span>, and let your partner hold a message to correct it. Corrections and replies are unlimited on every plan, and translation is built into the chat (20 a day on the free plan, which also includes 5 new conversations a day). Voice messages let you record a word until you are happy with it, and voice and video calls work on iPhone and the web (Android soon). To start, [get the app](https://get.langx.io), and read [how to do a language exchange](/how-to-do-a-language-exchange) before your first chat.
 
 ## FAQ
 

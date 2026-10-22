@@ -1,12 +1,12 @@
 :root {
-	// Fonts. Nunito 800 is the display voice, matching the v3 mobile design
-	// (which replaced Comfortaa). Body and mono stay on the platform stacks —
+	// Fonts. Nunito 900 is the display voice, matching the v3 app design.
+	// Body and mono stay on the platform stacks —
 	// no extra download, and text set at 15–17px stays legible.
-	--font--default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-		sans-serif;
+	--font--default:
+		-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 	--font--title: 'Nunito', var(--font--default);
-	--font--mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono',
-		monospace;
+	--font--mono:
+		ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
 
 	// Spacing scale, shared with the app.
 	--space-3xs: 4px;
@@ -39,14 +39,38 @@
 	--dur-enter: 320ms;
 	--dur-sheet: 360ms;
 
-	// Elevation. Only three shadows exist: a card, a sheet, and a toggle knob.
-	--shadow-card: 0 4px 10px rgba(0, 0, 0, 0.06);
-	--shadow-phone: 0 24px 60px -20px rgba(23, 25, 28, 0.25), 0 4px 10px rgba(0, 0, 0, 0.06);
-	--shadow-sheet: 0 -8px 38px rgba(0, 0, 0, 0.14);
-	--shadow-knob: 0 1px 3px rgba(0, 0, 0, 0.2);
-	--shadow-segment: 0 1px 3px rgba(0, 0, 0, 0.08);
+	// No shadows in v3: depth comes from colour blocks, not elevation. The
+	// names stay so older markup that still reads them gets nothing drawn.
+	--shadow-card: none;
+	--shadow-phone: none;
+	--shadow-sheet: none;
+	--shadow-knob: none;
+	--shadow-segment: none;
+	--image-shadow: none;
+
+	// Display scale: Nunito 900. Desktop / phone. The hero and the closing
+	// call take the largest, a chapter the middle, a plain section the third.
+	--display-hero: 96px;
+	--display-hero-lh: 92px;
+	--display-chapter: 80px;
+	--display-chapter-lh: 80px;
+	--display-section: 64px;
+	--display-section-lh: 66px;
+
+	@media (max-width: 899px) {
+		--display-hero: 50px;
+		--display-hero-lh: 50px;
+		--display-chapter: 44px;
+		--display-chapter-lh: 45px;
+		--display-section: 38px;
+		--display-section-lh: 40px;
+	}
 
 	// Layout
 	--container-max: 1080px;
-	--header-height: 64px;
+	--header-height: 80px;
+
+	@media (max-width: 899px) {
+		--header-height: 64px;
+	}
 }

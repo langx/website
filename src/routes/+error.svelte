@@ -10,7 +10,7 @@
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
-<Header />
+<Header hue="mint" />
 
 <main>
 	<div class="container">
