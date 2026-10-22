@@ -79,7 +79,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 5,
 		title: 'What is LangX Copilot?',
-		content: `Private AI feedback on your own messages while you chat with a real person. Only you see it. It isn't in the app yet; it's coming later, for <a href="/plans">Pro</a>.`
+		content: `Private AI help while you chat with a real person: it can check a sentence before you send it, help you say something in the language you are learning, and explain a message. Only you see it, and nothing is sent unless you send it yourself. It is in <a href="/plans">Pro</a> as a beta, rolling out gradually, so it may not be on for your account yet.`
 	},
 	{
 		id: 6,

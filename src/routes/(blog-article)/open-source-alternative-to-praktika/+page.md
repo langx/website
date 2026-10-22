@@ -161,7 +161,7 @@ LangX shows no ads and uses no advertising identifiers. It does use product anal
 
 ### What LangX does not do
 
-- **No AI tutor today.** LangX Copilot, private AI feedback while you practice, is planned for Pro but not shipped.
+- **No AI tutor today.** LangX Copilot, private AI help while you practice, is in Pro as a beta, rolling out gradually, but it is not a tutor.
 - **No learning paths or exam prep.** Echo's free phrase packs are something to review, not a course.
 - **Calls on iPhone and the web,** for now: voice and video calls work in the iPhone app and the web app, and are coming to Android.
 - **People are not always online,** and a smaller community means fewer partners for some language pairs.

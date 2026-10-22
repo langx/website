@@ -48,7 +48,7 @@
 		{
 			id: 202,
 			title: 'What does Pro add?',
-			content: `Everything in Free without the limits: unlimited new conversations, unlimited translations, five languages you are learning and five you speak, gender and city filters, Nearby, a boosted profile above the Discover list, see who viewed your profile, browse incognito, write in your language and send in theirs, and export your saved phrases. LangX Copilot, private AI feedback, is coming later.`
+			content: `Everything in Free without the limits: unlimited new conversations, unlimited translations, five languages you are learning and five you speak, gender and city filters, Nearby, a boosted profile above the Discover list, see who viewed your profile, browse incognito, write in your language and send in theirs, and export your saved phrases. LangX Copilot, private AI help in the chat, is in Pro as a beta, rolling out gradually, so it may not be on for your account yet.`
 		},
 		{
 			id: 204,

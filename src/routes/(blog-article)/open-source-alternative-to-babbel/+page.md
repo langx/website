@@ -168,7 +168,7 @@ LangX has no ads and no advertising identifiers. It does use product analytics (
 ### What LangX does not do
 
 - **No grammar explanations or course path.** Echo's free phrase packs are something to review, not a course; if you are starting from zero, begin with one.
-- **No AI conversation practice today.** LangX Copilot, private AI feedback, is planned for Pro but not shipped.
+- **No AI conversation practice today.** LangX Copilot, private AI help with your own messages, is in Pro as a beta, rolling out gradually, but it is not a conversation partner.
 - **No classes,** and calls with partners are on iPhone and the web for now (coming to Android).
 - **A smaller community,** so some language pairs have fewer people online.
 

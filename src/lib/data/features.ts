@@ -66,11 +66,11 @@ export default [
 	},
 	{
 		name: 'LangX Copilot',
-		description: 'Private AI feedback on your own messages. Coming later, for Pro.',
+		description: 'Private AI help with your messages, in Pro. In beta and rolling out gradually.',
 		image: 'images/features/1.png',
 		tags: [
 			{ label: 'Pro', color: 'pro' },
-			{ label: 'Coming soon', color: 'secondary' }
+			{ label: 'Beta, rolling out', color: 'secondary' }
 		]
 	}
 ] as Feature[];

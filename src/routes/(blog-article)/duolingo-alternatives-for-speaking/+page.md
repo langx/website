@@ -139,7 +139,7 @@ Pro, raises those and adds filters, as listed on the
 [plans page](/plans). LangX is younger and its community is smaller than Tandem's
 or HelloTalk's, and conversations happen in chat, with text, voice notes and
 photos, rather than in scheduled video lessons. LangX Copilot, private AI
-feedback, is not shipped yet.
+help, is in Pro as a beta, rolling out gradually.
 
 <AppDemo
   screen="chat"

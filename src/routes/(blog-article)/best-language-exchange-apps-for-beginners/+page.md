@@ -65,7 +65,7 @@ Look for help **inside the chat**: translation, transliteration (romanization) f
 | --- | --- | --- | --- | --- | --- | --- |
 | HelloTalk | Yes, daily cap on free | Yes, daily cap on free | Yes, daily cap on free | Yes, plus AI correction (capped) | AI correction only | Moments posts, text chat |
 | Tandem | 3 a day free, unlimited on Pro | Not listed | Transcription on Pro | Yes | AI toolkit on Pro | Reviewed community, text chat |
-| LangX | 20 a day free, unlimited on Pro | No | No | Yes, unlimited on every plan | Not yet (Copilot planned) | Text-first; nobody can call you until they have sent you 5 messages |
+| LangX | 20 a day free, unlimited on Pro | No | No | Yes, unlimited on every plan | Copilot on Pro (beta, rolling out) | Text-first; nobody can call you until they have sent you 5 messages |
 | Busuu | Course app | Course app | Not listed | Community corrects your exercises | Course lessons | Exercises, not chat |
 | Speaky | Not listed | Not listed | Not listed | Not listed | AI practice partners | Free text chat |
 | Speak / Praktika | Not an exchange | Not an exchange | Speech recognition | AI feedback | Yes, that is the product | Speaking to AI only |
@@ -96,7 +96,7 @@ Our app. [LangX](https://get.langx.io) matches in both directions, so every pers
 - **Filters by country, age and level** on Free, so you can find partners at a level that suits you.
 - **No ads** on any plan.
 
-The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI feedback, LangX Copilot, is planned for Pro but not shipped. Plans are on the [plans page](/plans).
+The honest limits: the community is much smaller than HelloTalk's or Tandem's, Free allows **5 new conversations a day** (replies are unlimited), and there is no romanization or voice-to-text. AI help, LangX Copilot, is in Pro as a beta, rolling out gradually. Plans are on the [plans page](/plans).
 
 <AppDemo
   screen="chat"
