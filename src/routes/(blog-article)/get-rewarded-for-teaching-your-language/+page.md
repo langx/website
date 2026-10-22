@@ -3,6 +3,7 @@ slug: get-rewarded-for-teaching-your-language
 title: 'Get rewarded for teaching your language: how LangX scores a conversation'
 seoTitle: 'Get rewarded for teaching your language: how it works'
 date: 2026-09-23T09:00:00.000Z
+updated: 2026-10-21T20:00:00.000Z
 excerpt: In a language exchange the valuable thing is helping someone else, so that is what LangX pays for. A correction is worth ten messages; here is the rest.
 coverImage: /images/posts/get-rewarded-for-teaching-your-language.png
 author:
@@ -38,7 +39,7 @@ them with yours.
 <KeyTakeaways items={[
   "LangX Tokens are an in-app point for talking in the language you learn and, above all, for helping others with yours.",
   "A message earns 1 token; correcting someone's sentence or answering a pronunciation request earns 10.",
-  "Corrections have no daily cap, only up to 10 a day from any one person. Messages pay up to 200 a day, at most 60 from any one person.",
+  "Corrections have no overall daily cap, only a per-person one: up to 10 corrections a day of any one partner's sentences pay. Messages pay up to 200 a day, at most 60 from any one person.",
   "Tokens buy a streak freeze, a filled-in day and cosmetics, never a paid feature.",
   "They are not a cryptocurrency: they cannot be bought, sold, traded or withdrawn."
 ]} />

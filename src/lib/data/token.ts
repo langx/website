@@ -18,7 +18,7 @@ export const tokenEarning = [
 export const tokenCaps = [
 	'Up to 200 tokens a day from messages.',
 	'At most 60 of those from any one person, so it takes four partners to reach the ceiling and talking to one all day is not a strategy.',
-	'Corrections have no daily cap, only a per-person one: up to 10 a day pay for any one partner’s sentences, in chat and on posts together.',
+	'Corrections have no overall daily cap, only a per-person one: up to 10 corrections a day of any one partner’s sentences pay, in chat and on posts together.',
 	'Echo pays for five reviews a day — 25 tokens at most.',
 	'A shared daily pool of 5,000 tokens is split between that day’s active users, in proportion to how active they were. No one can take more than 5% of it — 250 tokens.'
 ];
