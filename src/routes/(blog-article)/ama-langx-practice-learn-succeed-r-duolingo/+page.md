@@ -31,7 +31,9 @@ tags:
 > Several things it says are no longer true. LangX v2 has a Free plan and two
 > paid plans, Fluent and Polyglot. LangX Token is now an in-app point: it
 > cannot be bought, sold, traded or withdrawn. LangX Copilot is planned for
-> Polyglot and is not in the app yet. There are still no ads.
+> Polyglot and is not in the app yet. There are still no ads. (Update, 21
+> October 2026: Fluent and Polyglot are now one plan, Pro, and LangX Copilot is
+> in it as a beta, rolling out gradually.)
 > [What changed in v2, and why](/langx-v2-what-changes-and-why).
 
 At LangX, we’re excited to bring you a revolutionary language learning experience. As a completely free, open-source, and ad-free platform, LangX is designed to enhance your language learning journey through advanced features and a community-driven approach. In this blog post, we’ll share highlights from our recent AMA session on r/duolingo, where we introduced LangX to the community.
