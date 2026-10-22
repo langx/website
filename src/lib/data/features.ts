@@ -66,7 +66,7 @@ export default [
 	},
 	{
 		name: 'LangX Copilot',
-		description: 'Private AI help with your messages, in Pro. In beta and rolling out gradually.',
+		description: 'Private AI help with your messages while you chat.',
 		image: 'images/features/1.png',
 		tags: [
 			{ label: 'Pro', color: 'pro' },

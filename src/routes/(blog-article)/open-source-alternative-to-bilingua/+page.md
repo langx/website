@@ -166,7 +166,7 @@ This is the biggest lesson from Bilingua. When a closed app shuts down, it is go
 ### Honest limits
 
 - **Calls on iPhone and the web** for now on LangX; they are coming to Android.
-- **No conversation bot.** LangX Copilot, private AI help with your own messages, is in Pro as a beta, rolling out gradually, but it is not a bot to talk to.
+- **No conversation bot.** LangX Copilot (in Pro as a beta, rolling out gradually) helps with your own messages; it does not talk with you.
 - **A smaller community** than the biggest exchange apps, so some language pairs have fewer people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours. Replies and corrections are never capped. The [plans page](/plans) has the details.
 
