@@ -67,7 +67,7 @@ published line.
 
 - Two plans: Free and Pro (`pro`). Pro replaced Fluent and Polyglot in
   September 2026. Prices are set per region and shown in the app; /plans
-  prints the US prices from `src/lib/data/prices.ts` ($9.99 a month, $83.99 a
+  prints the US prices from `src/lib/data/prices.ts` ($9.99 a month, $79.99 a
   year) and says the store shows the local one. Pro is monthly or yearly;
   only yearly starts with a free week (for someone who has not had Pro), and
   it works out to 3 months free.
