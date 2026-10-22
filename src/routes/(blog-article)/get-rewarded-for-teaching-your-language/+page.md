@@ -38,7 +38,7 @@ them with yours.
 <KeyTakeaways items={[
   "LangX Tokens are an in-app point for talking in the language you learn and, above all, for helping others with yours.",
   "A message earns 1 token; correcting someone's sentence or answering a pronunciation request earns 10.",
-  "Corrections have no daily cap. Messages pay up to 200 a day, at most 60 from any one person.",
+  "Corrections have no daily cap, only up to 10 a day from any one person. Messages pay up to 200 a day, at most 60 from any one person.",
   "Tokens buy a streak freeze, a filled-in day and cosmetics, never a paid feature.",
   "They are not a cryptocurrency: they cannot be bought, sold, traded or withdrawn."
 ]} />
@@ -61,7 +61,10 @@ the same as a written correction, because it is the same act in a different
 medium.
 
 Corrections have **no daily cap**. Teaching is the behaviour the app exists
-for, so there is no point at which doing more of it stops counting.
+for, so teaching more people never stops counting. The one limit is per
+person: up to **10 corrections a day** of any one partner's sentences pay.
+Past that you can keep correcting them; it just does not pay again until the
+next day.
 
 <AppDemo
   screen="feed"
