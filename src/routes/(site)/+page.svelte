@@ -84,7 +84,8 @@
 <!--
 	Colour blocks, one idea each: the hero thread, hello in eleven languages,
 	then five chapters with the phone that makes each point (People,
-	Corrections, Echo, Streaks, Calls), and only then reviews, plans, questions
+	Corrections, Echo, Streaks, Calls), with Venus, the streak cat, after
+	Streaks, and only then reviews, plans, questions
 	and the closing call. No prices or token numbers here: those are on /plans,
 	/faq and /tokens.
 -->
@@ -211,6 +212,36 @@
 </Chapter>
 
 <Chapter
+	id="venus"
+	hue="lilac"
+	tag="Venus"
+	title="meet venus, our cat."
+	phoneSide="left"
+	link={{ href: '/venus', label: 'Meet Venus' }}
+>
+	<p>
+		A tiny cat with huge ears and even bigger confidence. She is sure she runs the place. Then a
+		moth flies past.
+	</p>
+	<p>
+		<strong>Funny, lovable, and the joke is always on her.</strong> Send her to your partner: her
+		stickers are free in every chat, on
+		<a href="https://t.me/addstickers/venus_langx">Telegram</a> and on
+		<a href="https://giphy.com/langx/venus-stickers">GIPHY</a>.
+	</p>
+	{#snippet phone()}
+		<img
+			class="venus"
+			src="/images/venus/venus-hi.webp"
+			alt="Venus, the LangX cat, waving hello: a cartoon cat with huge pink ears."
+			width="480"
+			height="480"
+			loading="lazy"
+		/>
+	{/snippet}
+</Chapter>
+
+<Chapter
 	id="calls"
 	hue="mint"
 	tag="Calls"
@@ -261,6 +292,20 @@
 
 	.plain > :global(.faq) {
 		padding-top: 0;
+	}
+
+	// Venus stands in for the phone: the same 320px column, and on a phone
+	// some room under her before the next block.
+	.venus {
+		display: block;
+		width: 100%;
+		max-width: 320px;
+		height: auto;
+		padding-bottom: 32px;
+
+		@media (min-width: 900px) {
+			padding-bottom: 0;
+		}
 	}
 
 	.pill-note {

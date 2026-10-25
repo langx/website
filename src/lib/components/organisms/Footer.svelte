@@ -14,6 +14,7 @@
 				{ label: 'Plans', href: '/plans' },
 				{ label: 'Tokens', href: '/tokens' },
 				{ label: 'Compare apps', href: '/compare' },
+				{ label: 'Meet Venus', href: '/venus' },
 				{ label: 'Coming from v1?', href: '/welcome-back' },
 				{ label: 'LangX Token', href: 'https://token.langx.io' },
 				{ label: 'LangX Copilot', href: 'https://copilot.langx.io' }

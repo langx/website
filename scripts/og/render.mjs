@@ -1,4 +1,5 @@
-// Cuts `static/images/site-preview.png` from `site-preview.html`.
+// Cuts `static/images/site-preview.png` from `site-preview.html`, or another
+// page's card from its own template (`node scripts/og/render.mjs venus`).
 //
 // Headless Chrome is the whole toolchain — no image library, nothing to keep
 // installed beyond a browser — and it rasterises the card at 1:1, which reads
@@ -6,6 +7,7 @@
 // template:
 //
 //   node scripts/og/render.mjs
+//   node scripts/og/render.mjs venus
 //
 // CHROME=/path/to/binary overrides the lookup below.
 import { execFileSync } from 'node:child_process';
@@ -15,8 +17,19 @@ import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
-const template = join(here, 'site-preview.html');
-const out = resolve(here, '../../static/images/site-preview.png');
+
+// Each card: its template here, and where the PNG goes under static/.
+const CARDS = {
+	'site-preview': 'images/site-preview.png',
+	venus: 'images/venus/og.png'
+};
+const card = process.argv[2] ?? 'site-preview';
+if (!CARDS[card]) {
+	console.error(`No card "${card}". Known: ${Object.keys(CARDS).join(', ')}.`);
+	process.exit(1);
+}
+const template = join(here, `${card}.html`);
+const out = resolve(here, '../../static', CARDS[card]);
 
 // The 1.91:1 every scraper crops to. `src/lib/data/meta.ts` declares the same
 // numbers to the scrapers, so the two move together.
