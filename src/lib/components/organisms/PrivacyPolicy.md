@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 22, Oct 2026*
+	*Effective Date: 25, Oct 2026*
 
 	1. Introduction
 
@@ -76,7 +76,7 @@
 
 		2.6 LangX Copilot, the AI helper
 
-		Copilot is an AI helper inside a chat. It can check a sentence before you send it, help you say something in the language you are learning, explain a message or a correction, and suggest replies. It is in **beta**: it is switched on only for accounts we have added to a list while we try it, so most people do not see it yet, and its answers can be wrong. Every answer is labelled **Copilot · Beta**, and nothing it writes reaches the other person unless you send it yourself.
+		Copilot is an AI helper inside a chat. It can check a sentence before you send it, help you say something in the language you are learning, explain a message or a correction, and suggest replies. It is in **beta**: its answers can be wrong, and we may switch it off for everyone at any time. Every answer is labelled **Copilot · Beta**, and nothing it writes reaches the other person unless you send it yourself.
 
 		Its answers are written by an AI model run by **Anthropic**, which processes what Copilot sends on our behalf as our service provider. Nothing is sent until you have agreed to the sheet the app shows the first time you use Copilot, and after that only when you tap a Copilot button. What each help sends is this, and only this:
 
@@ -89,7 +89,7 @@
 
 		- **What Anthropic does with it.** Anthropic uses it to write the answer. Under its [commercial terms](https://www.anthropic.com/legal/commercial-terms) it may not train its models on it. Under its [published retention policy](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data), it deletes what it receives and what it writes within 30 days, unless it must keep them longer to enforce its usage policy or because the law requires it.
 		- **What we keep.** We keep each answer for 7 days, so that the same question asked again is not paid for twice. It is stored under a one-way hash of the question and is linked to no account, so it records the answer and not who asked. The answer can repeat the words it was about: a checked sentence comes back corrected. After 7 days it is deleted automatically. For the daily limit, your account records the time of each new Copilot answer; only the last 24 hours count, and older times are dropped the next time you use it. If you reach the limit, the time you did is noted too, and counts for 3 days. Nothing about what you asked is recorded there. Our server logs record which help was asked, how it ended and how long it took, never the text. As with any request, they see your IP address (section 2.3). When Copilot fails to answer, the error goes to Sentry with your user id (section 6).
-		- **Consent, and who can use it.** Your profile records when you agreed and which version of the sheet you agreed to, and, if we added you to the list, when. Our operators can see which accounts are on the list. The consent is tied to the words on the sheet: if we change what is sent or who receives it, everyone is asked again. Taking an account off the list removes its consent too, so being added again means being asked again.
+		- **Consent, and who can use it.** Your profile records when you agreed and which version of the sheet you agreed to. The consent is tied to the words on the sheet: if we change what is sent or who receives it, everyone is asked again.
 		- **Your consent can be withdrawn.** **Settings → Privacy → Copilot** turns Copilot off. From your next request nothing more of yours is sent, and Copilot asks again before it is used. That row is shown to the people Copilot is shown to; if it is not shown to you and you want your consent removed, write to [hi@langx.io](mailto:hi@langx.io).
 		- **Reporting an answer.** Every answer has **Report**. A report sends the answer and which help wrote it to the LangX team. For Check my sentence and Say it, you can also choose to send what you wrote; that is off unless you switch it on. Nothing else from your chat is sent. A report goes to us only, not to Anthropic and not to any public tracker. It is kept with your user id, is included in **Download my data**, and is deleted when your account is deleted.
 		- **Age.** Copilot has no age rule of its own. It is open to anyone LangX lets in, which means 16 and over (section 12).
