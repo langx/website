@@ -14,8 +14,8 @@
 	// Where the stickers are public today. WhatsApp adds packs only from an
 	// app, so it waits for the LangX app's own export; Signal waits for someone
 	// to upload the pack from Signal Desktop, and is left out until then.
-	const TELEGRAM = 'https://t.me/addstickers/venus_langx_by_langxio_bot';
-	const GIPHY = 'https://giphy.com/langx';
+	const TELEGRAM = 'https://t.me/addstickers/venus_langx';
+	const GIPHY = 'https://giphy.com/langx/venus-stickers';
 	const ZIP = `${IMG}/venus-langx-stickers.zip`;
 
 	const traits = [
@@ -336,9 +336,10 @@
 		<Tag tone="ink">Coming soon</Tag>
 		<h2 id="speak-title" class="display-chapter">she speaks your language.</h2>
 		<p class="lede">
-			Venus speaks all eight of the app’s languages: {#each languages as l, i}{#if i},
-				{/if}<bdi>{l}</bdi>{/each}. Coming soon to LangX: a short video from her for every day of
-			your streak, with a new line each day.
+			Venus speaks all eight of the app’s languages: {#each languages as l, i}{i ? ', ' : ''}<bdi
+					>{l}</bdi
+				>{/each}. Coming soon to LangX: a short video from her for every day of your streak, with a
+			new line each day.
 		</p>
 		<p class="lede">Here are a few she has already recorded. Turn the sound on.</p>
 		<ul class="clips" role="list">
@@ -498,8 +499,10 @@
 		}
 	}
 
+	// Ink on a hue, like the rest of the block; the muted one is on the ground.
 	.lede {
 		margin: 0;
+		color: inherit;
 		max-width: 620px;
 		font-size: 1.0625rem;
 		line-height: 1.5;

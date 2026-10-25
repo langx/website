@@ -224,8 +224,10 @@
 		moth flies past.
 	</p>
 	<p>
-		<strong>Funny, lovable, and the joke is always on her.</strong> Send her to your partner: her stickers
-		are free in every chat.
+		<strong>Funny, lovable, and the joke is always on her.</strong> Send her to your partner: her
+		stickers are free in every chat, on
+		<a href="https://t.me/addstickers/venus_langx">Telegram</a> and on
+		<a href="https://giphy.com/langx/venus-stickers">GIPHY</a>.
 	</p>
 	{#snippet phone()}
 		<img
