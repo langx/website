@@ -15,6 +15,7 @@ const BY_PREFIX: [prefix: string, hue: Hue][] = [
 	['/welcome-back', 'lilac'],
 	['/tokens', 'tangerine'],
 	['/compare', 'mint'],
+	['/venus', 'lilac'],
 	['/404', 'mint'],
 	['/privacy-policy', 'sky'],
 	['/terms-conditions', 'sky'],

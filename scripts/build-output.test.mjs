@@ -76,7 +76,8 @@ const NO_JS_PAGES = [
 	'data-deletion',
 	'welcome-back',
 	'tokens',
-	'download'
+	'download',
+	'venus'
 ];
 
 describe.skipIf(!built)('build output', () => {
@@ -131,7 +132,7 @@ describe.skipIf(!built)('build output', () => {
 
 	// On the no-JS pages whose hero has no yellow, the header owns it, so
 	// nothing else on the page may be yellow: no script could step either back.
-	it.each(['tokens', 'welcome-back'])('has one yellow, the header’s, on /%s', (page) => {
+	it.each(['tokens', 'welcome-back', 'venus'])('has one yellow, the header’s, on /%s', (page) => {
 		const html = readFileSync(join(BUILD, `${page}.html`), 'utf8');
 		const body = html.slice(html.indexOf('<body'));
 		const header = body.slice(body.indexOf('<header'), body.indexOf('</header>'));
