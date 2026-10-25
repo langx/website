@@ -15,7 +15,8 @@
 				{ label: 'Tokens', href: '/tokens' },
 				{ label: 'Compare apps', href: '/compare' },
 				{ label: 'Coming from v1?', href: '/welcome-back' },
-				{ label: 'LangX Token', href: 'https://token.langx.io' }
+				{ label: 'LangX Token', href: 'https://token.langx.io' },
+				{ label: 'LangX Copilot', href: 'https://copilot.langx.io' }
 			]
 		},
 		{
