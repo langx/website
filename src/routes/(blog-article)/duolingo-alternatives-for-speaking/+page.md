@@ -138,8 +138,8 @@ The honest limits: the free plan lets you start 5 new conversations a day
 Pro, raises those and adds filters, as listed on the
 [plans page](/plans). LangX is younger and its community is smaller than Tandem's
 or HelloTalk's, and conversations happen in chat, with text, voice notes and
-photos, rather than in scheduled video lessons. LangX Copilot, private AI
-help, is in Pro as a beta, rolling out gradually.
+photos, rather than in scheduled video lessons. LangX Copilot, an AI
+helper in the chat, is a beta on Free and Pro.
 
 <AppDemo
   screen="chat"

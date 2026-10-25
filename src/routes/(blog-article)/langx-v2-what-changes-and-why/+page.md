@@ -159,5 +159,6 @@ Everything about coming back is on the [welcome back page](/welcome-back).
 Badges are not in v2's first release and are planned to return. LangX Copilot,
 the private in-chat feedback feature, is a later release too. We would rather
 list the gaps than let the site advertise something the app does not do — which,
-for what it is worth, is the same reason this post exists. (Update, 21 October
-2026: LangX Copilot is now in Pro as a beta, rolling out gradually.)
+for what it is worth, is the same reason this post exists. (Update, 25 October
+2026: LangX Copilot is now in the app as a beta, on Free and Pro;
+[copilot.langx.io](https://copilot.langx.io) describes it.)

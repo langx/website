@@ -99,6 +99,11 @@ const body = () =>
 			'in-app points earned by helping others; not money, never bought or sold'
 		),
 		link(
+			'LangX Copilot',
+			'https://copilot.langx.io',
+			'the AI helper inside a chat with a person: four helps, a beta on Free and Pro'
+		),
+		link(
 			'Questions',
 			'/faq',
 			'every question about LangX, answered: plans, calls, Echo, streaks, safety'
