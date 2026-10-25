@@ -4,6 +4,7 @@
 	import { beforeNavigate } from '$app/navigation';
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
+	import UiIcon from '$lib/components/atoms/UiIcon.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import { ctaSettled, heroOwnsPrimary, primaryCtaInView } from '$lib/stores/cta';
 	import { hueFor } from '$lib/data/hues';
@@ -21,13 +22,17 @@
 	const hue = $derived(hueProp ?? (page.data?.hue as Hue | undefined) ?? hueFor(page.url.pathname));
 
 	// Search brings most visitors to the plans, the comparisons, the tools and
-	// the blog, so those are here; everything else is in the footer.
+	// the blog, so those are here; everything else is in the footer. The last
+	// two are the sister sites, which each link back here: they open in a new
+	// tab and carry the arrow, so nobody mistakes them for a page of this one.
 	const links = [
 		{ href: '/#echo', label: 'Echo' },
 		{ href: '/plans', label: 'Plans' },
 		{ href: '/compare', label: 'Compare' },
 		{ href: '/tools', label: 'Tools' },
-		{ href: '/blog', label: 'Blog' }
+		{ href: '/blog', label: 'Blog' },
+		{ href: 'https://token.langx.io', label: 'Token', external: true },
+		{ href: 'https://copilot.langx.io', label: 'Copilot', external: true }
 	];
 
 	// The section you are in, marked in both the bar and the phone menu. Echo
@@ -57,6 +62,16 @@
 	});
 </script>
 
+{#snippet navLink(link: (typeof links)[number])}
+	{#if link.external}
+		<a href={link.href} target="_blank" rel="noopener noreferrer"
+			>{link.label}<UiIcon name="external" size={15} /></a
+		>
+	{:else}
+		<a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a>
+	{/if}
+{/snippet}
+
 {#snippet download()}
 	<svg
 		aria-hidden="true"
@@ -73,7 +88,7 @@
 {/snippet}
 
 <!--
-	Logo, four links, the theme switch and one button. Sticks to the top. The
+	Logo, the links, the theme switch and one button. Sticks to the top. The
 	button is ink while the page's own yellow is on screen and takes the yellow
 	the moment it scrolls away, so a viewport never carries two (stores/cta.ts).
 	On a phone the links fold into a menu that opens without script.
@@ -84,8 +99,7 @@
 
 		<nav class="links" aria-label="Primary">
 			{#each links as link}
-				<a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a
-				>
+				{@render navLink(link)}
 			{/each}
 		</nav>
 
@@ -112,9 +126,7 @@
 				</summary>
 				<nav class="panel" aria-label="Menu">
 					{#each links as link}
-						<a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}
-							>{link.label}</a
-						>
+						{@render navLink(link)}
 					{/each}
 					<a href="https://app.langx.io">Use it in your browser</a>
 					<span class="panel-toggle"><ThemeToggle /></span>
@@ -169,13 +181,18 @@
 		gap: 4px;
 		flex: 1;
 
-		@media (min-width: 900px) {
+		// The logo, seven links, the switch and the button measure 1079px with
+		// the gutters, so the bar takes over from the menu at 1100. At 900, once
+		// the sister sites joined, it ran past the edge and squeezed the button
+		// onto three lines.
+		@media (min-width: 1100px) {
 			display: flex;
 		}
 
 		a {
 			display: flex;
 			align-items: center;
+			gap: 4px;
 			min-height: 44px;
 			padding: 0 14px;
 			border-radius: var(--radius-pill);
@@ -207,6 +224,7 @@
 
 	.tools {
 		display: flex;
+		flex: 0 0 auto;
 		align-items: center;
 		gap: 12px;
 		margin-left: auto;
@@ -215,7 +233,7 @@
 	.toggle-wide {
 		display: none;
 
-		@media (min-width: 900px) {
+		@media (min-width: 1100px) {
 			display: contents;
 		}
 	}
@@ -223,7 +241,7 @@
 	.menu {
 		position: relative;
 
-		@media (min-width: 900px) {
+		@media (min-width: 1100px) {
 			display: none;
 		}
 
@@ -258,6 +276,7 @@
 		a {
 			display: flex;
 			align-items: center;
+			gap: 6px;
 			min-height: 48px;
 			padding: 0 14px;
 			border-radius: 16px;
