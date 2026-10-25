@@ -8,8 +8,8 @@
 /**
  * The table on /plans: what Pro changes and what it leaves alone. The first
  * rows are the same on both plans on purpose. `true` draws a tick, `false`
- * a dash. Copilot follows the server (`copilotPer24h`), which gives both
- * plans an allowance, not the paywall's dash; its numbers stay off the site.
+ * a dash. Copilot is drawn as the app's paywall draws it: part of Pro,
+ * marked "Beta" rather than ticked, and never with a value on Free.
  */
 export type CompareRow = { label: string; free: string | boolean; pro: string | boolean };
 
@@ -23,7 +23,7 @@ export const compareRows: CompareRow[] = [
 	{ label: 'Languages you learn', free: '1', pro: 'Up to 5' },
 	{ label: 'Gender and city filters', free: false, pro: true },
 	{ label: 'See who viewed your profile', free: false, pro: true },
-	{ label: 'Copilot · Beta', free: 'Daily allowance', pro: 'Larger allowance' }
+	{ label: 'LangX Copilot', free: false, pro: 'Beta' }
 ];
 
 /** The card lists on /plans. */

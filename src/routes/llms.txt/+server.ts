@@ -101,7 +101,7 @@ const body = () =>
 		link(
 			'LangX Copilot',
 			'https://copilot.langx.io',
-			'the AI helper inside a chat with a person: four helps, a beta on Free and Pro'
+			'the AI helper inside a chat with a person: four helps, part of Pro as a beta'
 		),
 		link(
 			'Questions',
