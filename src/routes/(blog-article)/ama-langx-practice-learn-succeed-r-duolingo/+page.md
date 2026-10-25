@@ -33,7 +33,7 @@ tags:
 > cannot be bought, sold, traded or withdrawn. LangX Copilot is planned for
 > Polyglot and is not in the app yet. There are still no ads. (Update, 25
 > October 2026: Fluent and Polyglot are now one plan, Pro, and LangX Copilot is
-> in the app as a beta, on Free and Pro. It is not the v1 feedback described
+> part of Pro as a beta. It is not the v1 feedback described
 > below: it is an AI helper you ask, with a tap, to check a sentence, help you
 > say something in the language you are learning, explain a message or suggest
 > replies. [copilot.langx.io](https://copilot.langx.io) describes it.)

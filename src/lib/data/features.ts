@@ -66,8 +66,11 @@ export default [
 	},
 	{
 		name: 'LangX Copilot',
-		description: 'An AI helper in the chat, on Free and Pro, that waits for your tap.',
+		description: 'An AI helper in the chat that waits for your tap.',
 		image: 'images/features/1.png',
-		tags: [{ label: 'Beta', color: 'secondary' }]
+		tags: [
+			{ label: 'Pro', color: 'pro' },
+			{ label: 'Beta', color: 'secondary' }
+		]
 	}
 ] as Feature[];
