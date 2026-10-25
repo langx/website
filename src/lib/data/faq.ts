@@ -79,7 +79,7 @@ export const faqObjects: FaqObject[] = [
 	{
 		id: 5,
 		title: 'What is LangX Copilot?',
-		content: `Private AI help while you chat with a real person: it can check a sentence before you send it, help you say something in the language you are learning, and explain a message. Only you see it, and nothing reaches the other person unless you send it yourself. It is in <a href="/plans">Pro</a> as a beta, rolling out gradually, so it may not be on for your account yet.`
+		content: `An AI helper inside a chat with a real person, in the app now as a beta on Free and <a href="/plans">Pro</a>. It has four helps, and each waits for your tap: Check my sentence, Say it in Spanish (or whichever language you are learning), Explain and Reply ideas. The person you are talking to sees none of its answers, and nothing is sent unless you send it yourself. When you ask, the text goes to Anthropic, the company that runs the AI model; for Explain and Reply ideas that includes the other person's words, and a consent sheet tells you so before the first answer. You can turn Copilot off in Settings and report any answer. Every plan has a daily allowance, Pro's is larger, and the app shows how many answers you have left. The longer write-up is at <a href="https://copilot.langx.io" target="_blank" rel="noopener noreferrer">copilot.langx.io</a>.`
 	},
 	{
 		id: 6,

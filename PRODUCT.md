@@ -76,9 +76,21 @@ published line.
   filters. Every plan: 500 photo/video/voice messages a day (fair use), 10
   profile photos. Pro: unlimited new conversations, unlimited translations
   (fair use), gender/city filters, Nearby, Boosted, who viewed you, incognito,
-  send in their language, phrase export, 5+5 languages, LangX Copilot (beta,
-  rolling out: on only for some accounts so far, never promise it to every
-  Pro buyer).
+  send in their language, phrase export, 5+5 languages, a larger Copilot
+  allowance.
+- LangX Copilot: an AI helper inside a chat with a real person, in the app
+  (3.0) as a beta on Free and Pro, for every account with a verified email.
+  Its answers carry the label "Copilot · Beta". Four helps, named as the app
+  names them: Check my sentence, Say it in {language}, Explain, Reply ideas.
+  Every plan has a daily allowance, Pro's is larger, and the app shows what is
+  left; never print the numbers, never say "unlimited". The person you talk
+  to sees none of its answers and nothing is sent unless you send it. Anthropic
+  runs the model (name Anthropic, not a model); Explain and Reply ideas send
+  the other person's words, after a consent sheet; it turns off in Settings
+  and answers can be reported. Never "private", "only you see it", "rolling
+  out" or "may not be on for your account". Echo, Translate and people's
+  corrections are not Copilot. The full story is on copilot.langx.io and in
+  privacy policy §2.6.
 - LangX Token is an in-app point: cannot be bought, sold, traded, staked,
   withdrawn, transferred, is not on a blockchain, cannot unlock a paid plan.
   Never use "staking", "trading", "marketplace", "wallet address", "refer and

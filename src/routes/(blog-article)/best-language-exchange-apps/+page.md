@@ -126,7 +126,7 @@ This is our app, so read this entry with that in mind. [LangX](https://get.langx
 - **Free vs paid:** the Free plan is a real plan, not a trial. Replies and corrections are **unlimited on every plan**, and you get 5 new conversations and 20 in-chat translations per rolling 24 hours. **Pro** adds unlimited new conversations, unlimited translations, more languages and extra filters. Details are on the [plans page](/plans).
 - **Platforms:** iOS, Android and the web at app.langx.io.
 - **Standout features:** hold any message to correct it, translation inside the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point you earn by talking and teaching (not money, and it cannot be bought or sold). The whole app is [open source under BSD-3](https://github.com/langx/langx) and can be self-hosted. No ads.
-- **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. Voice and video calls are on **iPhone and the web** for now (coming to Android), and there are no group audio rooms. AI help (LangX Copilot) is in Pro as a beta, rolling out gradually.
+- **Drawbacks:** the community is **far smaller** than HelloTalk's or Tandem's, so for less common language pairs you may wait longer for a match. Voice and video calls are on **iPhone and the web** for now (coming to Android), and there are no group audio rooms. LangX Copilot, the AI helper in the chat, is still a beta.
 
 <AppDemo
   screen="chat"

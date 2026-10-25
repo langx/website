@@ -172,7 +172,7 @@ LangX shows no ads and uses no advertising identifiers. It does run product anal
 
 - **A much smaller library.** Echo has eighteen phrase packs and the cards you make yourself; there is no course of Memrise's size and no native-speaker videos.
 - **No community course library,** so it is not a replacement for Memrise's user-made courses.
-- **No AI chatbot.** LangX Copilot (in Pro as a beta, rolling out gradually) helps with your own messages; it does not talk with you.
+- **No AI chatbot.** LangX Copilot (a beta, on Free and Pro) helps you write and understand messages in a chat with a person; it does not talk with you.
 - **Calls on iPhone and the web** for now (coming to Android), and a smaller community means fewer partners for some language pairs.
 
 ## Is LangX a free Memrise alternative?

@@ -90,7 +90,7 @@
 		{
 			id: 104,
 			title: 'How is a language exchange different from an AI tutor?',
-			content: `An AI tutor answers you. A partner on LangX is learning your language too, so the conversation is worth something to both of you, and a correction comes from someone who speaks the language every day. LangX Copilot, private AI help with your own messages, is in Pro as a beta, rolling out gradually.`
+			content: `An AI tutor answers you. A partner on LangX is learning your language too, so the conversation is worth something to both of you, and a correction comes from someone who speaks the language every day. LangX Copilot, an AI helper in the chat, is a beta on Free and Pro: it helps you write and understand messages in a chat with a person, and it does not talk with you.`
 		},
 		{
 			id: 105,

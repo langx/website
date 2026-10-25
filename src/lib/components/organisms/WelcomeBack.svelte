@@ -103,7 +103,7 @@
 			<h2>What is missing in the first release</h2>
 			<p>
 				Badges are not in v2's first release and are planned to return in a later one. LangX Copilot
-				came later: it is in Pro now as a beta, rolling out gradually. We would rather list the gap
+				came later: it is in the app now as a beta, on Free and Pro. We would rather list the gap
 				than let you find it yourself.
 			</p>
 		</article>
