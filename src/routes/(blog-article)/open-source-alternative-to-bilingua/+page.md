@@ -166,7 +166,7 @@ This is the biggest lesson from Bilingua. When a closed app shuts down, it is go
 ### Honest limits
 
 - **Calls on iPhone and the web** for now on LangX; they are coming to Android.
-- **No conversation bot.** LangX Copilot (part of Pro, in beta) helps you write and understand messages in a chat with a person; it does not talk with you.
+- **No conversation bot.** LangX Copilot (a beta, on Free and Pro) helps you write and understand messages in a chat with a person; it does not talk with you.
 - **A smaller community** than the biggest exchange apps, so some language pairs have fewer people.
 - **The free plan caps new conversations** at 5 per rolling 24 hours. Replies and corrections are never capped. The [plans page](/plans) has the details.
 
@@ -213,7 +213,7 @@ Yes. LangX has a free plan with unlimited replies and corrections, 5 new convers
 
 ### LangX vs Bilingua: does LangX have a chatbot like Shiro?
 
-No. LangX focuses on corrections and translation inside real conversations. LangX Copilot, an AI helper in the chat, is part of Pro as a beta, and it helps you write to a person rather than talking with you.
+No. LangX focuses on corrections and translation inside real conversations. LangX Copilot, an AI helper in the chat, is a beta on Free and Pro, and it helps you write to a person rather than talking with you.
 
 ### What are the best apps like Bilingua for voice practice?
 
