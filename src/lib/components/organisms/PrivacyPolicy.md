@@ -1,6 +1,6 @@
 <section id="policy">
 
-	*Effective Date: 25, Oct 2026*
+	*Effective Date: 26, Oct 2026*
 
 	1. Introduction
 
@@ -76,7 +76,7 @@
 
 		2.6 LangX Copilot, the AI helper
 
-		Copilot is an AI helper inside a chat. It can check a sentence before you send it, help you say something in the language you are learning, explain a message or a correction, and suggest replies. It is in **beta**: its answers can be wrong, and we may switch it off for everyone at any time. Every answer is labelled **Copilot · Beta**, and nothing it writes reaches the other person unless you send it yourself.
+		Copilot is an AI helper inside a chat. It can check a sentence before you send it, help you say something in the language you are learning, explain a message or a correction, and suggest replies. It is a **beta** open to every account with a verified email address; guest accounts cannot use it. Its answers can be wrong, and we may switch it off for everyone at any time. Every answer is labelled **Copilot · Beta**, and nothing it writes reaches the other person unless you send it yourself.
 
 		Its answers are written by an AI model run by **Anthropic**, which processes what Copilot sends on our behalf as our service provider. Nothing is sent until you have agreed to the sheet the app shows the first time you use Copilot, and after that only when you tap a Copilot button. What each help sends is this, and only this:
 

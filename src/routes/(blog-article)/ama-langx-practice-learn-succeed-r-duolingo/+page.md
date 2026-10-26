@@ -36,7 +36,9 @@ tags:
 > part of Pro as a beta. It is not the v1 feedback described
 > below: it is an AI helper you ask, with a tap, to check a sentence, help you
 > say something in the language you are learning, explain a message or suggest
-> replies. [copilot.langx.io](https://copilot.langx.io) describes it.)
+> replies. [copilot.langx.io](https://copilot.langx.io) describes it.) (Update,
+> 26 October 2026: Copilot is now on Free as well as Pro, for every account
+> with a verified email; Pro's daily allowance is larger.)
 > [What changed in v2, and why](/langx-v2-what-changes-and-why).
 
 At LangX, we’re excited to bring you a revolutionary language learning experience. As a completely free, open-source, and ad-free platform, LangX is designed to enhance your language learning journey through advanced features and a community-driven approach. In this blog post, we’ll share highlights from our recent AMA session on r/duolingo, where we introduced LangX to the community.

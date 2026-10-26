@@ -57,7 +57,7 @@ These are the apps we would recommend today to someone planning their 2027 pract
 | One steady partner | Tandem or LangX | Built for one-to-one exchange | Tandem's AI Toolkit; LangX's growing community |
 | Speak live, right now | Lingbe | One tap to a native-speaker call | Whether updates resume |
 | Start free, no subscription | Speaky | No subscription listed on the App Store | Its AI practice partners and map |
-| No ads, open code | LangX | BSD-3, no ads, unlimited corrections | Copilot, a beta in Pro |
+| No ads, open code | LangX | BSD-3, no ads, unlimited corrections | Copilot, a beta on Free and Pro |
 | Meet in person | Conversation Exchange | Local partner search | Little change expected |
 | Paid guidance | italki or Preply | Professional tutors | AI features around lessons |
 
@@ -134,9 +134,9 @@ When you are ready to start, our guides on [what a language exchange is](/what-i
 
 ## What is new in LangX
 
-**LangX Copilot**, an AI helper inside the chat, is part of Pro as a beta. It can check a sentence before you send it, help you say something in the language you are learning, explain a message and suggest replies; the person you are talking to sees none of it. More at [copilot.langx.io](https://copilot.langx.io).
+**LangX Copilot**, an AI helper inside the chat, is in the app as a beta on Free and Pro. It can check a sentence before you send it, help you say something in the language you are learning, explain a message and suggest replies; the person you are talking to sees none of it. More at [copilot.langx.io](https://copilot.langx.io).
 
-The core of LangX is unchanged: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/plans), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
+Everything else listed here is available to everyone too: two-way matching, corrections on any message (unlimited on every plan), translation in the chat, voice and photo messages, read-aloud, daily streaks, leaderboards and [LangX Tokens](/tokens), an in-app point that is not money. What each plan includes is on the [plans page](/plans), and the story of the August 2026 rebuild is in [LangX v2: what changes, and why](/langx-v2-what-changes-and-why).
 
 <ProsCons
   name="LangX heading into 2027"
@@ -164,7 +164,7 @@ We do not expect it to. AI is excellent for rehearsal and instant explanations, 
 
 ### Is LangX adding AI features?
 
-Yes. LangX Copilot, an AI helper inside the chat, is part of Pro as a beta. It helps you write and understand messages in a chat with a person; it does not talk with you.
+Yes. LangX Copilot, an AI helper inside the chat, is in the app as a beta on Free and Pro. It helps you write and understand messages in a chat with a person; it does not talk with you.
 
 ### Is there a free language exchange app with no ads for 2027?
 
