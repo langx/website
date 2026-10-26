@@ -85,9 +85,10 @@ published line.
   Every plan has a daily allowance, Pro's is larger, and the app shows what is
   left; never print the numbers, never say "unlimited". Never present it as
   a Pro feature either ("part of Pro", "Pro only", "get it with Pro"): since
-  26 October 2026 it is open to everybody, and Pro just gives more answers.
-  The person you talk to sees none of its answers and nothing is sent unless
-  you send it. Anthropic runs the model (name Anthropic, not a model); Explain
+  25 October 2026 it is open to everybody, and Pro just gives more answers.
+  A dated note that said otherwise stays as written; add a newer note after
+  it rather than edit it. The person you talk to sees none of its answers
+  and nothing is sent unless you send it. Anthropic runs the model (name Anthropic, not a model); Explain
   and Reply ideas send the other person's words, after a consent sheet; it
   turns off in Settings and answers can be reported. Never "private", "only
   you see it", "rolling out" or "may not be on for your account". Echo,
