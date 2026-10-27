@@ -209,8 +209,13 @@
 <!--
 	The public side of the character: who she is, how she talks, her faces,
 	her cat habits and food, a few clips in four of her eight languages, and
-	the sticker pack people can use today. The daily streak videos are not in
-	the app yet, so they are only "coming soon" here.
+	the sticker pack people can use today. The daily streak videos are on in
+	production, but only the web app plays them for now: the phone build the
+	stores serve (2.9) has no player and cannot get one by OTA, so the phone
+	apps are still "coming". Say they are in the apps only once the App Store
+	and Google Play serve a version that plays them. They stop after day 100,
+	because that is where the files stop. Adding the pack to WhatsApp needs
+	the 3.1 app, so that card stays "coming soon".
 -->
 <Block hue="lilac" pad="hero" labelledby="venus-title">
 	<div class="hero">
@@ -333,13 +338,18 @@
 
 <Block hue="sky" labelledby="speak-title">
 	<div class="stack">
-		<Tag tone="ink">Coming soon</Tag>
+		<Tag tone="ink">Daily videos</Tag>
 		<h2 id="speak-title" class="display-chapter">she speaks your language.</h2>
 		<p class="lede">
 			Venus speaks all eight of the app’s languages: {#each languages as l, i}{i ? ', ' : ''}<bdi
 					>{l}</bdi
-				>{/each}. Coming soon to LangX: a short video from her for every day of your streak, with a
-			new line each day.
+				>{/each}. Keep a streak, and she has a short new video for each of your first 100 days, in
+			the language your app is set to.
+		</p>
+		<p class="lede">
+			It plays on the day your streak counts, and the play button on your streak plays it again
+			until the day ends. Start over after a break, and she has a comeback video for that too. For
+			now the videos play in the web app, and they are coming to the iPhone and Android apps.
 		</p>
 		<p class="lede">Here are a few she has already recorded. Turn the sound on.</p>
 		<ul class="clips" role="list">
