@@ -61,14 +61,14 @@ export const tokenSinks = [
 
 /**
  * The hourly gift in the wallet's store. Free and random; mirrors
- * `TOKEN_RULES.gift`. Gift tokens count toward the all-time balance only,
- * never toward the weekly, monthly or yearly tables.
+ * `TOKEN_RULES.gift`. Gift tokens count like any other reward: in the
+ * balance and on every table — weekly, monthly, yearly and all-time.
  */
 export const tokenGift = {
 	every: 'Once an hour',
 	range: '0 – 250 tokens',
 	description:
-		'A small gift every hour, for free. Most hold a handful of tokens — about a third are empty and nine in ten hold 30 or fewer — and a few hold more. It never counts toward a leaderboard.'
+		'A small gift every hour, for free. Most hold a handful of tokens — about a third are empty and nine in ten hold 30 or fewer — and a few hold more. Gift tokens count like any others: they go to your balance and to every leaderboard — weekly, monthly, yearly and all-time.'
 };
 
 /** The full list, phrased so it can be read as a promise rather than a disclaimer. */
