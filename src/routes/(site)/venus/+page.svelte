@@ -12,11 +12,14 @@
 	const IMG = '/images/venus';
 
 	// Where the stickers are public today. WhatsApp adds packs only from an
-	// app, so it waits for the LangX app's own export; Signal waits for someone
-	// to upload the pack from Signal Desktop, and is left out until then.
+	// app, so its card opens Venus's page in the LangX app, where "Add to
+	// WhatsApp" lives (a phone with the app takes the link; anywhere else it
+	// lands on the web page, which has no WhatsApp button). Signal waits for
+	// someone to upload the pack from Signal Desktop, and is left out until then.
 	const TELEGRAM = 'https://t.me/addstickers/venus_langx';
 	const GIPHY = 'https://giphy.com/langx/venus-stickers';
 	const ZIP = `${IMG}/venus-langx-stickers.zip`;
+	const APP_VENUS = 'https://app.langx.io/venus';
 
 	const traits = [
 		{
@@ -215,7 +218,7 @@
 	apps are still "coming". Say they are in the apps only once the App Store
 	and Google Play serve a version that plays them. They stop after day 100,
 	because that is where the files stop. Adding the pack to WhatsApp needs
-	the 3.1 app, so that card stays "coming soon".
+	the 3.1 app; its card went live while 3.1 was still in review, by choice.
 -->
 <Block hue="lilac" pad="hero" labelledby="venus-title">
 	<div class="hero">
@@ -415,9 +418,10 @@
 				<p>Every sticker as a PNG, to add as a server sticker or a custom emoji.</p>
 				<Button href={ZIP} variant="ink">Download the pack</Button>
 			</li>
-			<li class="soon">
-				<h3>WhatsApp <span class="soon-tag">Coming soon</span></h3>
-				<p>Add the whole pack to WhatsApp, straight from the LangX app.</p>
+			<li>
+				<h3>WhatsApp</h3>
+				<p>Open Venus in the LangX app and tap Add to WhatsApp for the whole pack.</p>
+				<Button href={APP_VENUS} variant="ink">Open in the app</Button>
 			</li>
 		</ul>
 		<ul class="pack" role="list">
@@ -790,23 +794,6 @@
 			margin: 0 0 4px;
 			line-height: 1.45;
 		}
-
-		// Not live yet: no button, and an ink edge instead of the fill.
-		.soon {
-			background: none;
-			box-shadow: inset 0 0 0 2px var(--color--ink);
-		}
-	}
-
-	.soon-tag {
-		display: inline-block;
-		margin-left: 6px;
-		padding: 3px 10px;
-		border-radius: var(--radius-pill);
-		background: var(--color--ink);
-		color: var(--block);
-		font-size: 0.8125rem;
-		vertical-align: 3px;
 	}
 
 	.pack {
